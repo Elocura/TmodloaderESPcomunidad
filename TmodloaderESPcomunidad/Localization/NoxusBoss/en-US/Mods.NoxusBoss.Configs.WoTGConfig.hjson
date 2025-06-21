@@ -1,0 +1,29 @@
+DisplayName: Main Config
+
+DisplayConfigMessage: {
+	Label: Display Config Message
+	Tooltip: Toggles the text overlay that instructs the player to look at the UI.
+	WarningText:
+		'''
+		Hi! Your first thought reading this is probably something along the lines of 'How do I get rid of this text? It's annoying.'
+		I'll cut to the chase. Given the intensity of various visual effects in the mod, it's important that you be aware of the config options to tone them down.
+		The reason this is outlined so explicitly is to ensure that those with photosensitivity are aware before doing anything else.
+		You can find the config by navigating to Settings -> Mod Configuration -> Calamity: Wrath of the Gods -> Main Config.
+		In order to ensure that you've followed these steps correctly, this pop-up text can be turned off permanently in the config via the 'Display Config Message" option.
+		'''
+}
+
+PhotosensitivityMode: {
+	Label: Photosensitivity Mode
+	Tooltip: Toggles effects that rely on sudden, flashing animations. This affects related config options when toggled, though they can be manually overridden if desired.
+}
+
+ScreenShatterEffects: {
+	Label: Screen Shatter Effects
+	Tooltip: Toggles screen shatter effects. Disable if they're too straining on the eyes.
+}
+
+VisualOverlayIntensity: {
+	Label: Visual Overlay Intensity
+	Tooltip: Changes the intensity of visual overlays such as blur and chromatic aberration.
+}

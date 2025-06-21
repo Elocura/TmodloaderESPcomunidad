@@ -1,0 +1,87 @@
+NoxusEggCutscene.DisplayName: Huevo de Noxus
+
+AvatarRift: {
+	DisplayName: Grieta del Avatar
+	DisplayNameSingular: Grieta del Avatar
+
+	BossChecklistIntegration: {
+		SpawnInfo: Construye y activa el Génesis
+		DespawnMessage: "[c/EA0023:La grieta desaparece en un abrir y cerrar de ojos.]"
+	}
+}
+
+AvatarOfEmptiness: {
+	DisplayName: El Avatar del Vacío
+	DisplayNameSingular: El Avatar del Vacío
+
+	BossChecklistIntegration: {
+		SpawnInfo: Construye y activa el Génesis.
+		DespawnMessage: "[c/EA0023:La grotesca forma del Oscuro desaparece en un abrir y cerrar de ojos.]"
+	}
+
+	InfernumCompatibility.Title: La Estrella Más Brillante en un Mundo Perfecto
+	ParadiseReclaimedText: paraíso recuperado
+}
+
+NamelessDeityBoss: {
+	DisplayName: Deidad Sin Nombre
+	DisplayNameSingular: Deidad Sin Nombre
+	SillyDeathCountSuffix: ", Torturador de No Hitters"
+	TestOfResolveName: DEIDAD INFINITA
+
+	BossChecklistIntegration: {
+		SpawnInfo: Usa el [i:CalamityMod/Terminus] después de que su mirada se haya abierto.
+		DespawnMessage: "[c/FF463D:Has fallado la prueba.]"
+	}
+
+	InfernumCompatibility.Title: ??????????????????????????????????????????????????
+}
+
+DismalSeeker.DisplayName: Buscador Sombrío
+Fogwood.DisplayName: Bosque de Niebla
+Mirrorwalker.DisplayName: Caminante del Espejo
+DarkHarbinger.DisplayName: Heraldo Oscuro
+Frightweaver.DisplayName: Tejedor del Terror
+
+# Estos nombres no deben traducirse, ya que se muestran en un lenguaje divino mediante una fuente especial.
+Aelithrysuwl.DisplayName: Aelithrysuwl  
+Vivajuyfylae.DisplayName: Vivajuyfylae
+
+Solyn: {
+	DisplayName: Solyn
+
+	TownNPCMood: {
+		Content: Sorry translators, ignore this. These are not used anywhere but TML requires them.
+		NoHome: Sorry translators, ignore this. These are not used anywhere but TML requires them.
+		FarFromHome: Sorry translators, ignore this. These are not used anywhere but TML requires them.
+		LoveSpace: Sorry translators, ignore this. These are not used anywhere but TML requires them.
+		DislikeCrowded: Sorry translators, ignore this. These are not used anywhere but TML requires them.
+		HateCrowded: Sorry translators, ignore this. These are not used anywhere but TML requires them.
+		LikeNPC_Princess: Sorry translators, ignore this. These are not used anywhere but TML requires them.
+		Princess_LovesNPC: Sorry translators, ignore this. These are not used anywhere but TML requires them.
+	}
+}
+
+MarsBody: {
+	DisplayName: XG-07 Marte
+
+	BossChecklistIntegration: {
+		SpawnInfo: Inicia una misión especial junto a Solyn y contacta a Draedon con el Descifrador de Códigos.
+		DespawnMessage: "[c/9BFFFF:Justo dentro del margen de mis cálculos.]"
+	}
+
+	InfernumCompatibility.Title:
+		'''
+		Gigante del Invernadero
+		Marte
+		'''
+}
+
+CeaselessVoidRift: {
+	DisplayName: Grieta del Vacío Incesante
+	MapIconText: Grieta Misteriosa
+}
+
+QuestDraedon.DisplayName: Draedon  
+BattleSolyn.DisplayName: Solyn  
+TrappingHolographicForcefield.DisplayName: Campo de Fuerza Proyectado  

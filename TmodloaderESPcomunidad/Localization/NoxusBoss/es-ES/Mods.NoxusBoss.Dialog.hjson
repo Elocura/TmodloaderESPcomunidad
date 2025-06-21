@@ -1,0 +1,128 @@
+"TerminusHintLine1": "Lo has hecho bien.",
+"TerminusHintLine2": "Ahora, busca el Término. Tu prueba final está cerca.",
+"NamelessDeityAscendText": "Asciende.",
+"NamelessDeityEnterGardenText": "Tu prueba final comienza.",
+"NamelessDeityEndScreenText": "Has superado la prueba.",
+"NamelessDeityEndScreenSkipText": "¡Presiona ESCAPE para omitir!",
+"NamelessDeityPlayerDeathText": "Has fallado la prueba.",
+"NamelessDeityEndScreenMainMenuTip": "Has superado la prueba. Has superado la prueba. Has superado la prueba. Has superado la prueba. Has superado la prueba. Has superado la prueba. Has superado la prueba. Has superado la prueba. Has superado la prueba. Has superado la prueba.",
+"NamelessDeityEmptinessSprayerTip": "No lo hagas.",
+"NamelessDeityStatusText": "Has superado la prueba.",
+"NamelessDeityStatusPercentageText": "Has superado la prueba:",
+"CattailText": "¡ESPIGÓN COLOCADO!",
+"PurifierMultiplayerUseAlertText": "El Purificador ha sido desplegado por {0}. El mundo se reiniciará en 15 segundos.",
+"PurifierEntertainingRantText": 
+    "¡Hola! Este fondo blanco es normal. Tu juego no está roto. Por favor, no informes la larga espera como un error. Por favor.\n" +
+    "Solo relájate, respira, y bebe un poco de agua si hace tiempo que no lo haces. O simplemente concéntrate en otra cosa. Tú decides.\n\n" +
+    "Como probablemente adivinaste, la generación del mundo se está rehaciendo desde cero.\n" +
+    "¿Hablamos de eso? Específicamente, por qué este proceso tarda tanto y es tan extraño.\n\n" +
+    "Para empezar, ¿sabías que los mundos de Terraria son solo una enorme cuadrícula de 8401x2401 azulejos?\n" +
+    "Tiene ese tamaño para que incluso los mundos grandes quepan dentro.\n\n" +
+    "Esa cuadrícula existe en memoria desde que inicias el juego hasta que lo cierras. Decenas de megas de memoria, para ser exactos.\n" +
+    "Hay cierto 'chunking' o partición en secciones, pero eso se usa principalmente en multijugador para no enviar todo el mundo por red.\n\n" +
+    "Por eso, cuando los servidores están muriendo, puedes caerte del mapa: estás saliendo de los límites de uno de estos 'chunks'.\n\n" +
+    "Volviendo a la generación del mundo, todo tiene que operar con esta cuadrícula. A diferencia de Minecraft, la generación no se puede hacer sobre la marcha: debe hacerse toda de una vez.\n" +
+    "Además, muchos pasos de la generación se hacen sincrónicamente, uno a la vez, en lugar de en paralelo.\n\n" +
+    "Obviamente, eso no se puede aplicar en todos los casos por conflictos, pero en muchos sí y mejoraría bastante el rendimiento.\n" +
+    "Algunos pasos simplemente no son eficientes. La etapa de 'Asentamiento de líquidos', por ejemplo, puede tardar varios segundos.\n" +
+    "La desertificación... bueno, eso parece ser un bucle gigante que recorre horizontal, vertical, por grupos, y por azulejo...\n" +
+    "Eso es culpa de los modders, no del juego base (yo también soy culpable).\n\n" +
+    "Un viejo hábito mío era usar recursión para calcular toda el agua de un área en el Mar Sulfuros—y repetir eso muchas veces.\n" +
+    "Es... un desastre.\n\n" +
+    "¡En fin! Seguramente tu mundo ya está casi completamente borrado. No quiero que me corten de golpe.\n" +
+    "Te daré esta charla de nuevo la próxima vez. ¡Hasta luego!",
+"LofiMusicCreditText": 
+    "Reproduciendo ahora:\n" +
+    "'worldgen.ogg'\n" +
+    "Por Moonburn",
+"OgsculeDontAnnoyCalDevsText": "Este efecto 'ogscule' no fue añadido por el Calamity Mod base. No molestes a sus desarrolladores por ello.",
+"SolynArriveUnknown": "Una persona misteriosa ha llegado a tu pueblo...",
+"SolynDepartUnknown": "La persona misteriosa se ha marchado...",
+"SolynArriveKnown": "¡Solyn ha llegado!",
+"SolynDepartKnown": "Solyn se ha marchado.",
+"CloudSaveMessage": "Desactiva el guardado en la nube si quieres usar el Término. Ha causado congelamientos con la biblioteca de submundos.",
+"SolynParadiseReclaimed1": "Está... en calma.",
+"SolynParadiseReclaimed2": "Y aun así, se siente como si algo terrible estuviera por venir...",
+"SolynParadiseReclaimed3": "¡Algo... DESDE ABAJO!",
+"SolynParadiseReclaimedSaveText": "¡Te salvaré!",
+"SolynRunAway": "¡Huye!",
+"SolynStayBelowMe": "¡Mantente debajo de mí!",
+"SolynAvatarReaction1": "Espera... ¿qué está pasando?",
+"SolynAvatarReaction2": "¡OH DIOS! ¿¡QUÉ DIABLOS ES ESO!?",
+"OpenSolynQuestbook": "Abre el libro de misiones de Solyn",
+"TelescopeDaytimeText": "¡Hay demasiada luz ahora!",
+"TelescopeRepairFailText": "¡Materiales insuficientes para la reparación!",
+"AvatarPlayerDeathText": "Has perecido.",
+"PermafrostKeepMapIconText": "Fortaleza misteriosa",
+"SummonMarsButtonText": "Invocar (Marte)",
+"SummonMarsButtonTextInitial": "Invocar (Misión de Solyn)",
+
+"SolynDraedonInteraction": {
+	"Draedon1": "¡Hmm! Mi estimado sujeto de pruebas inicia contacto una vez más, esta vez junto a su compañera.",
+	"Draedon2": "¿Solyn, supongo?",
+	"Solyn1": "Espera... ¿cómo sabes mi nombre?",
+	"Draedon3": "La recopilación de todo conocimiento es mi máximo objetivo.",
+	"Draedon4": "Sería una falla imperdonable como científico no estudiar a tu amiga después de nuestro último encuentro.",
+	"Solyn2": "¿A qué te refieres con-",
+	"Draedon5": "No digas más.",
+	"Draedon6": "Sé exactamente qué buscan ustedes dos y lo poseo.",
+	"Draedon7": "Sin embargo, sería inapropiado simplemente entregárselos.",
+	"Draedon8": "Deseo examinarlos en combate, juntos. Podría decirse que es un caso de estudio raro.",
+	"Draedon9": "Lucharán contra mi máquina más fuerte y la vencerán.",
+	"Draedon10": "Y a cambio, les otorgaré una semilla especial para su superarma floral.",
+	"Draedon11": "¿Aceptan esta oferta?",
+	"Solyn3": "Hace tiempo que no lucho...",
+	"Solyn4": "Pero... acepto. ¿Y tú?"
+},
+
+"SolynDraedonInteractionSuccessive": "¿Estás listo?",
+"PlayerDraedonAcceptance": "Acepto.",
+"PlayerDraedonAcceptanceSuccessive": "Lo estoy.",
+"DraedonAcceptanceResponse": "¡Excelente! Llegarán en breve.",
+"DraedonAcceptanceResponseSuccessive": "Excelente.",
+"SolynGetToMe": "¡Ven hacia mí!",
+"SolynBreakForcefield": "¡Rompe el campo de fuerza con la estrella!",
+"SolynBreakForcefield2": "¡Un golpe más!",
+"SolynUseMouseButtons": "¡Mantén pulsado LMB y RMB!",
+
+"DraedonEndingMonologue": {
+	"Draedon1": "Maravilloso.",
+	"Draedon2": "Los datos que me han proporcionado son inmaculados.",
+	"Solyn1": "¡Eso fue... sorprendentemente divertido!",
+	"Solyn2": "Pero... ¿dónde está la semilla?",
+	"Draedon3": "No se preocupen. Ya he cumplido mi parte del trato.",
+	"Draedon4": "Esa semilla que ahora poseen era la fuente de energía de mi máquina.",
+	"Draedon5": "Estoy ansioso por ver cómo la usarán.",
+	"Draedon6": "Buena suerte, y adiós."
+},
+
+"DarkRiftVaniquishText": "La grieta oscura, aniquilada al instante.",
+"SolynHandwrittenNoteFarewellText": 
+    "¡Hola!\n\n" +
+    "¡Noté cuánto esfuerzo pusiste en mantener mi pequeña estantería feliz y llena!\n" +
+    "Para serte honesta, me sorprende que hayas logrado encontrar algunos de estos libros. ¿¡La Biblia del Slime!? ¡Qué ridículo!\n\n" +
+    "En fin... si estás leyendo esto, significa que ya no estoy contigo. Tal vez algo con el Génesis salió terriblemente mal. Sea lo que sea, estoy segura de que ya lo sabes.\n\n" +
+    "No es gran cosa, y me habría encantado mostrártelo en persona, pero... quiero que tengas mi receta secreta de rollos de canela en mi ausencia.\n" +
+    "Piensa en mí cada vez que la uses, y en nuestro tiempo juntos.\n\n" +
+    "-Solyn",
+
+"SolynBackstory1": "Como probablemente ya suponías, yo... no soy de este mundo.",
+"SolynBackstory2": "Mi hogar es un lugar de frondosa vegetación, bajo la suave luz de soles gemelos.",
+"SolynBackstory3": "Mi gente es pacífica, sabia y reverente.",
+"SolynBackstory4": "Hemos conservado nuestras tradiciones durante mucho tiempo, cantando al ritmo de las estrellas.",
+"SolynBackstory5": "Silbando con la brisa de la naturaleza.",
+"SolynBackstory6": "En cuanto a mí... buscar lo inalcanzable siempre ha sido mi obsesión.",
+"SolynBackstory7": 
+    "El deseo ardiente de saber ha estado conmigo desde niña.\n" +
+    "El deseo de estar cerca de nuestro creador.",
+"SolynBackstory8": "En este sentido, pocos han tenido las oportunidades que yo disfruté.",
+"SolynBackstory9": "Y sin embargo... ahora solo me pregunto si mis viejos amigos me extrañan tanto como yo a ellos.",
+"SolynTestBuildup1": "Tuve la fortuna de nacer cerca de un evento especial en el que todos los planetas de nuestro sistema se alinean.",
+"SolynTestBuildup2": "Se cree que cuando esto sucede, nuestro creador mira brevemente nuestro mundo.",
+"SolynTestBuildup3": "En ese momento, hice algo que nunca se había hecho antes.",
+"SolynTestBuildup4": "Usando mi colección de artefactos ocultos y magia antigua, clamé por su atención, deseando conocimiento y comprensión absolutos.",
+"SolynTestBuildup5": "Era evidente que esa oportunidad no volvería a presentarse.",
+"SolynTestBuildup6": "Lo siguiente que supe... estaba en presencia de un ser imposible, rodeada de una belleza natural que nunca había presenciado.",
+"SolynTestBuildup7": "Sentí que, en la búsqueda de lo que ansiaba, mi determinación sería puesta a prueba.",
+"SolynTestBuildup8": "Y entonces...",
+"SolynTestBuildup9": "Fallé."

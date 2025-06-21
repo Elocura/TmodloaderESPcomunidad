@@ -1,0 +1,142 @@
+TerminusHintLine1: You have done well.
+TerminusHintLine2: Now, seek the Terminus. Your final test is at hand.
+NamelessDeityAscendText: Ascend.
+NamelessDeityEnterGardenText: Your final test begins.
+NamelessDeityEndScreenText: You have passed the test.
+NamelessDeityEndScreenSkipText: Press ESCAPE to skip!
+NamelessDeityPlayerDeathText: You have failed the test.
+NamelessDeityEndScreenMainMenuTip: You have passed the test. You have passed the test. You have passed the test. You have passed the test. You have passed the test. You have passed the test. You have passed the test. You have passed the test. You have passed the test. You have passed the test.
+NamelessDeityEmptinessSprayerTip: Do not.
+NamelessDeityStatusText: You have passed the test.
+NamelessDeityStatusPercentageText: You have passed the test:
+CattailText: CATTAIL PLACED!
+PurifierMultiplayerUseAlertText: The Purifier has been deployed by {0}. The world will be reset in 15 seconds.
+PurifierEntertainingRantText:
+	'''
+	Hi! This white background is natural. Your game is not broken. Please do not report the long wait as a bug. Please.
+	Just sit back, relax, and drink some water if you haven't done so in a while. Or just focus on something else. Your call.
+	Anyway, as you might've guessed, the world generation is being done all over again from scratch.
+	Let's talk about that, shall we? Why this process takes so long and is so strange, to be specific.
+	For starters, did you know that Terraria's worlds are just a giant 8401x2401 grid of tiles?
+	It's sized such that all worlds up to large can fit within it.
+	That grid exists in memory from the moment you start the game up until the moment you close it. Dozens of megabytes of memory, to be exact.
+	There is some form of "chunking", or splitting them up into subsections, but that's really only used in multiplayer, because sending the entire world across the network to clients would be terrible and very likely cause crashes.
+	This is why when servers are about to die you can fall off the map. That's you walking outside of the bounds of one of these "chunks" because the server can't send you the other chunks.
+	Back to worldgen, everything has to operate with this grid. Unlike, say, Minecraft, the world generation isn't something that can be done on the fly. It must be done all at once.
+	Furthermore, many of the worldgen steps are done synchronously, or one at a time, instead of having multiple happening at the same time.
+	Of course, you couldn't do the latter for everything, since in a lot of cases you'd run into conflicts. But as you can imagine, having this run in parallel where possible would be a really desirable boon for performance.
+	In some cases, certain steps just aren't very efficient. Certain situations can result in Settling Liquids steps taking several seconds at a time.
+	The Desertification step from what I can tell boils down to a concerning amount of looping. First horizontally throughout the entire desert.
+	Then vertically from top to bottom. Then through all "clusters" throughout the desert, and then through all tiles inside of the cluster.
+	I attribute most of these inefficiencies to modders and not the vanilla game, however (and I'm also guilty of this).
+	An old, weird practice I used to do was using recursion (aka having a function that calls itself. It's a bit weird to explain) to calculate all water in a given area for the Sulphurous Sea, and then doing that many, many times repeatedly.
+	It's... a mess.
+	Anyway! I'd go on further but it's possible that your world is almost fully wiped. Wouldn't want to get abruptly cut off!
+	I'll give you this monologue again the next time you have worlds to reset. See you around!
+	'''
+LofiMusicCreditText:
+	'''
+	Now Playing:
+	'worldgen.ogg'
+	By Moonburn
+	'''
+OgsculeDontAnnoyCalDevsText: This ogscule effect is not added by the base Calamity Mod. Don't annoy their developers about it.
+SolynArriveUnknown: A mysterious person has arrived in your town...
+SolynDepartUnknown: The mysterious person has departed...
+SolynArriveKnown: Solyn has arrived!
+SolynDepartKnown: Solyn has departed!
+CloudSaveMessage: Turn off cloud save if you want to use the Terminus. It has been a source of freeze bugs with the subworld library.
+SolynParadiseReclaimed1: It's... calm.
+SolynParadiseReclaimed2: And yet, it feels as though something terrible is coming...
+SolynParadiseReclaimed3: Something... FROM BELOW!!
+SolynParadiseReclaimedSaveText: I'll save you!
+SolynRunAway: Run away!
+SolynStayBelowMe: Stay below me!
+SolynAvatarReaction1: Wait... what's going on??
+SolynAvatarReaction2: OH GOD! WHAT THE HELL IS THAT?!!
+OpenSolynQuestbook: Open Solyn's Questbook
+TelescopeDaytimeText: It's too bright out right now!
+TelescopeRepairFailText: Insufficient materials for repair!
+AvatarPlayerDeathText: You have perished.
+PermafrostKeepMapIconText: Mysterious Keep
+SummonMarsButtonText: Summon (Mars)
+SummonMarsButtonTextInitial: Summon (Solyn Quest)
+
+SolynDraedonInteraction: {
+	Draedon1: Hmm! My esteemed test subject once again initiates contact, this time alongside their partner.
+	Draedon2: Solyn, I presume?
+	Solyn1: Wait... how do you know my name??
+	Draedon3: The collection of all knowledge is my ultimate pursuit.
+	Draedon4: It would be a mark against me as a scientist to not study your friend after our last encounter.
+	Solyn2: What do you mean by-
+	Draedon5: Speak no more.
+	Draedon6: I know of and possess precisely what you two seek.
+	Draedon7: However, it would be improper of me to simply hand it over.
+	Draedon8: I wish to examine you in combat, together. A rare case study, you could say.
+	Draedon9: You will fight against and defeat my strongest machine.
+	Draedon10: And in exchange, I will grant you a special seedling for your floral superweapon.
+	Draedon11: Do you accept this offer?
+	Solyn3: It's been a long time since I've done combat.
+	Solyn4: But... I accept. What about you?
+}
+
+SolynDraedonInteractionSuccessive: Are you ready?
+PlayerDraedonAcceptance: I accept.
+PlayerDraedonAcceptanceSuccessive: I am.
+DraedonAcceptanceResponse: Excellent! They will arrive shortly.
+DraedonAcceptanceResponseSuccessive: Excellent.
+SolynGetToMe: Get to me!
+SolynBreakForcefield: Break the forcefield with the star!
+SolynBreakForcefield2: One more hit!
+SolynUseMouseButtons: Hold LMB and RMB!
+
+DraedonEndingMonologue: {
+	Draedon1: Marvelous.
+	Draedon2: The data you two have provided me is immaculate.
+	Solyn1: That was... surprisingly fun!
+	Solyn2: But... where's the seedling?
+	Draedon3: Worry not. I have already fulfilled my end of the bargain.
+	Draedon4: That seed you now possess was my machine's sole energy source.
+	Draedon5: I am eager to see how you use it.
+	Draedon6: Good luck, and farewell.
+}
+
+DarkRiftVaniquishText: The dark rift, vanquished in an instant.
+# TODO -- Add something for multiplayer too.
+SolynHandwrittenNoteFarewellText:
+	'''
+	Hey!
+
+	I noticed how much effort you spent trying to keep my little bookshelf happy and full!
+	To be completely honest with you, I'm surprised you managed to find some of these books. The Bible of Slime? How silly!
+
+	Anyway... if you're reading this, that means I'm no longer with you. Maybe something with the Genesis went horribly wrong. Whatever the case, I'm sure you already know the answer.
+
+	It's not much, and I'd have loved to show you in person, but... I want you to have my secret cinnamon roll recipe in my absence.
+	Think of me whenever you use it, and our time together.
+
+
+	-Solyn
+	'''
+SolynBackstory1: As you've probably guessed, I'm... not from this world.
+SolynBackstory2: My home is a place of lush overgrowth, beneath the gentle light of twin suns.
+SolynBackstory3: My kind are peaceful, knowledgeable, and reverent.
+SolynBackstory4: We have long held on to our traditions, singing songs to the melody of the stars.
+SolynBackstory5: Whistling to the breeze of nature.
+SolynBackstory6: As for me... seeking the elusive has always been an obsession of mine.
+SolynBackstory7:
+	'''
+	The aching desire to know has burned ever since I was a young girl.
+	The desire to be close with our maker.
+	'''
+SolynBackstory8: In this regard, almost none have had the opportunities I've enjoyed.
+SolynBackstory9: And yet... I can now only wonder if my old friends miss me as I miss them.
+SolynTestBuildup1: I had the fortune of being born near in time to a special event in which all of our system's planets align.
+SolynTestBuildup2: It is believed that when this happens, our creator briefly gazes upon our world.
+SolynTestBuildup3: In that moment, I did something never done before.
+SolynTestBuildup4: Using my assortment of occult artifacts and ancient magics, I beckoned an acknowledgement, desiring ultimate knowledge and understanding.
+SolynTestBuildup5: It was clear that the opportunity would never again present itself to me.
+SolynTestBuildup6: The next thing I knew... I was in the presence of an impossible being, surrounded by a natural beauty unlike any I had witnessed before.
+SolynTestBuildup7: I sensed that in the pursuit of what I sought, my resolve would be tested.
+SolynTestBuildup8: And then...
+SolynTestBuildup9: I failed.
