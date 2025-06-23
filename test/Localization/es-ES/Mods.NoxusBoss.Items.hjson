@@ -1,0 +1,1115 @@
+Cattail: {
+	DisplayName: Cola de Gato
+	Tooltip: ""
+}
+
+CheatPermissionSlip: {
+	DisplayName: Permiso de Trampa
+	Tooltip:
+		'''
+		¡Felicidades! Ahora ve a descargar el mod DragonLens.
+		No es trampa. Este permiso te da autorización.
+		Vamos. Descárgalo.
+		Ahora mismo.
+		'''
+}
+
+DeificTouch: {
+	DisplayName: Toque Divino
+	Tooltip: Revela el paraíso detrás de tu cursor
+}
+
+DivineWings: {
+	DisplayName: Alas Divinas
+	Tooltip:
+		'''
+		Velocidad horizontal: 16.67
+		Multiplicador de aceleración: 3.7
+		Sublime velocidad vertical
+		Tiempo de vuelo: ∞
+		'Has pasado la prueba'
+		'''
+}
+
+BlackHole: {
+	DisplayName: Agujero Negro
+	Tooltip: "'Literalmente es solo un agujero negro'"
+}
+
+EntropicDye: {
+	DisplayName: Tinte Entrópico
+	Tooltip: ""
+}
+
+EternalGardenMusicBox: {
+	DisplayName: Caja Musical (Jardín Eterno)
+	Tooltip: Reproduce 'Edenic Whispers' por ENNWAY
+}
+
+{
+  "FakeTerminus": {
+    "DisplayName": "Terminus",
+    "BaseTooltip": "Un artefacto increíblemente antiguo, sellado en el fondo del abismo como acto de protección.",
+    "UnopenedTooltip": "Su mirada está cerrada.",
+    "OpenedTooltip": "Su mirada está abierta. Serás puesto a prueba."
+  
+
+}
+
+GoodApple: {
+	DisplayName: Buena Manzana
+	Tooltip:
+		'''
+		¡La buena manzana nunca cae lejos del buen árbol!
+		Debes pasar la prueba
+		'''
+	TooltipPostNamelessDeity:
+		'''
+		¡La buena manzana nunca cae lejos del buen árbol!
+		Otorga 1 de vida máxima adicional
+		Puede usarse una cantidad ilimitada de veces
+		'''
+}
+
+GoodAppleResetter: {
+	DisplayName: Reiniciador de Buena Manzana (DEBUG)
+	Tooltip: ""
+}
+
+LoreAvatar: {
+	DisplayName: El Avatar del Vacío
+	Tooltip:
+		'''
+		[c/E3AF40:Lamentos graves aúllan desde más allá...]
+		Pulsa "Shift Izq" para escuchar con atención
+		'''
+	Lore:
+		'''
+		Formas oscuras. Niebla criónica. Extensión hacia un mundo concluido.
+		Uno solo, el Oscuro. Busca consumir, busca explorar en tiempo negado.
+		Centro retorcido reflejado. Lamentación parabólica. Entropía. Sangriento, lacrimógeno espectáculo.
+		Efímero,
+		Respirando.
+		Fuerzas que miran. Fuerzas ciegas a todo.
+
+		Fragmentos congelados.
+		Ruega al céfiro marchito.
+		Nostálgica ensoñación de infinitos escarlatas, colapsados hasta la nada.
+
+		Rayas de color devueltas a lo mínimo por la oscuridad rodante.
+
+		  Elegía cósmica por la pena del dios anciano.
+
+		Descenso. Descenso. Descenso. Descenso.
+		Descenso.
+
+		En un destello deslumbrante, la máscara flota a través del reino de los seres superiores. Todo crece y se marchita en la divina exhibición de vida y cesación.
+
+		  El Oscuro, la estrella más brillante en un mundo perfecto.
+
+		Ahora, danzarás en tapices de destino enterrado.
+		Busca tu destino sobre las cenizas pasadas, donde los lirios no crecerán.
+		'''
+}
+
+LoreNamelessDeity: {
+	DisplayName: La Deidad Sin Nombre
+	Tooltip:
+		'''
+		[c/E3AF40:Los cantos tenues de los serafines resuenan...]
+		Pulsa "Shift Izq" para escuchar con atención
+		'''
+	Lore: ""
+}
+
+MetallicChunk: {
+	DisplayName: Fragmento Metálico
+	Tooltip: El último vestigio de un universo extinto
+}
+
+NilkCarton: {
+	DisplayName: Cartón de Nilk
+	Tooltip:
+		'''
+		[c/FF0832:No lo uses si tienes fotosensibilidad]
+		Los efectos del Nilk tardan en activarse
+		'¿Existe la intolerancia interdimensional a la lactosa?'
+		'''
+}
+
+NoxiousEvocator: {
+	DisplayName: Evocador Nocivo
+	Tooltip: Hace que alucinaciones cósmicas se materialicen a tu alrededor
+}
+
+{
+  "iftEclipseToggler": {
+    "DisplayName": "Interruptor de Eclipse del Vacío (DEPURACIÓN)",
+    "Tooltip": ""
+  },
+  "NoxusMask": {
+    "DisplayName": Máscara del Avatar del Vacío,
+    "Tooltip": ""
+  },
+  "NoxusRelicItem": {
+    "DisplayName": Reliquia del Avatar del Vacío,
+    "Tooltip": ""
+
+}
+
+EmptinessSprayer: {
+	DisplayName: Rociador de Vacío
+	Tooltip:
+		'''
+		Lanza una niebla caótica que vaporiza todo lo que toca
+		'¡Elimina al 99.99% de los seres inferiores, garantizado!'
+		'''
+}
+
+{
+  "AvatarTrophy": {
+    "DisplayName": "Trofeo del Avatar del Vacío",
+    "Tooltip": ""
+  },
+  "NuminousDye": {
+    "DisplayName": "Tinte Numinoso",
+    "Tooltip": ""
+  },
+  "OblivionChime": {
+    "DisplayName": "Campana del Olvido",
+    "Tooltip": ""
+  
+
+
+}
+
+StarCharm: {
+	DisplayName: Amuleto Estelar
+	Tooltip:
+		'''
+		Aumenta enormemente la suerte pasiva y la probabilidad de lluvias de meteoros por la noche si está en tu inventario
+		[c/F79BC6:'¡Un diseño personal mío! ¡Espero que te sea útil!']
+		'''
+}
+
+Terminal: {
+	DisplayName: Terminal
+	Tooltip:
+		'''
+		Rechazamos el Boss Rush como evento en su estado actual.
+		Así como está, es básicamente una tarea pesada con unos pocos desafíos interesantes.
+		Sin embargo, a pesar de esto, hemos decidido que con la nueva funcionalidad de Terminus sería mejor
+		añadir una forma alternativa de experimentar el evento, para quienes lo disfrutan o lo usan para pruebas.
+		'''
+}
+
+ThePurifier: {
+	DisplayName: El Purificador
+	Tooltip:
+		'''
+		Restaura todo el mundo a su estado original.
+		Este proceso puede tardar, así que no te alarmes si el juego parece congelado.
+		Una vez lanzada, la bomba tarda 15 segundos en detonar.
+		Si la lanzas por error, puedes salir del juego para evitar que explote.
+		2012
+		'''
+}
+
+NamelessDeityMask: {
+	DisplayName: Máscara de la Deidad Sin Nombre
+	Tooltip: "'Tu cara será 1984izada'"
+}
+
+NamelessDeityMusicBox: {
+	DisplayName: Caja Musical (Deidad Sin Nombre)
+	Tooltip: Reproduce 'TWISTED GARDEN' por Heart Plus Up! y ENNWAY!
+}
+
+NamelessDeityMusicBoxP3: {
+	DisplayName: Caja Musical (Deidad Sin Nombre - Fase Final)
+	Tooltip: Reproduce 'REEMPLAZADO VÍA CÓDIGO NO CAMBIAR ESTO' por Heart Plus Up! y ENNWAY!
+}
+
+{
+  "NamelessDeityRelicItem": {
+    "DisplayName": "Reliquia de la Deidad Sin Nombre",
+    "Tooltip": ""
+  },
+  "NamelessDeityTrophy": {
+    "DisplayName": "Trofeo de la Deidad Sin Nombre",
+    "Tooltip": "Cuando recibe una señal por cableado, el ojo permanecerá cerrado por defecto hasta que un jugador se acerque."
+  },
+  "NamelessDeityTreasureBag": {
+    "DisplayName": "Bolsa del Tesoro (Deidad Sin Nombre)",
+    "Tooltip": ""
+  
+
+}
+
+Starseed: {
+	DisplayName: Semilla Estelar
+	Tooltip: ""
+}
+
+Xenqiterthralyensyr: {
+	DisplayName: Xenqiterthralyensyr
+	Tooltip: El nombre de su autor se ha perdido en el tiempo
+}
+
+D{
+  "DichromaticGlossDye": {
+    "DisplayName": "Tinte de Brillo Dicromático",
+    "Tooltip": ""
+  },
+  "ScarletShadeDye": {
+    "DisplayName": "Tinte de Sombra Escarlata",
+    "Tooltip": ""
+  },
+  "GoodDye": {
+    "DisplayName": "Buen Tinte",
+    "Tooltip": ""
+  },
+  "AvatarTreasureBag": {
+    "DisplayName": "Bolsa del Tesoro (El Avatar del Vacío)",
+    "Tooltip": ""
+  
+}
+
+StarKite: {
+	DisplayName: Cometa Estelar
+	Tooltip:
+		'''
+		Los cometas pueden volarse en días ventosos.
+		Enróllalo con clic derecho
+		'''
+}
+
+{
+  "SolynDialogueResetter": {
+    "DisplayName": "Reiniciador de Diálogos de Solyn (DEPURACIÓN)",
+    "Tooltip": ""
+  },
+  "Veilray": {
+    "DisplayName": "Mantarraya del Velo",
+    "Tooltip": "",
+    "QuestDescription": "Desde que todo se volvió oscuro y lúgubre, ¡todo tipo de peces asombrosos han empezado a aparecer! Uno de ellos es la mantarraya del velo, un pez pálido que ocasionalmente nada cerca de la superficie del océano. No tengo idea de si es seguro manipularlo, pero eso no importa. ¡Lo que importa es que necesito que lo atrapes para mí!",
+    "QuestionCatchLocation": "Se pesca en el océano"
+  
+}
+
+
+InterstellarBait: {
+	DisplayName: Cebo Interestelar
+	Tooltip:
+		'''
+		No se consume
+		'De alguna manera, esto atrae peces'
+		'''
+}
+
+Erilucyxwyn: {
+	DisplayName: Erilucyxwyn
+	Tooltip:
+		'''
+		Entonces, ¿cómo obtuviste esto?
+		¿Fue por una ridícula probabilidad de caída o el tonto reto de la determinación?
+		... ¿O simplemente usaste el permiso de trampa y lo conseguiste con DragonLens?
+
+		'Traído desde el río resplandeciente, cultivado personalmente a través de incontables eones. Tal es la recompensa del favor divino de la Deidad'
+		'''
+}
+
+{
+  "GodglimmerDye": {
+    "DisplayName": "Tinte del Resplandor Divino",
+    "Tooltip": ""
+  },
+  "MoonBurnDye": {
+    "DisplayName": "Tinte de Ardor Lunar",
+    "Tooltip": ""
+  },
+  "SolynStatue": {
+    "DisplayName": "Estatua de Solyn",
+    "Tooltip": ""
+  },
+  "Worldbuilding": {
+    "DisplayName": "Creación del Mundo",
+    "Tooltip": "'Smolyn'"
+  },
+  "WrathOfTheGods": {
+    "DisplayName": "Ira de los Dioses",
+    "Tooltip": "'Temed la ira de la Deidad Sin Nombre, Redigit...'\n'La Ira de los Dioses de la Deidad Sin Nombre'"
+  
+
+}
+
+{
+  "SolynFollowSpawner": {
+    "DisplayName": "Generador de Seguimiento de Solyn (DEPURACIÓN)",
+    "Tooltip": ""
+  },
+  "SolynDeleter": {
+    "DisplayName": "Eliminador de Solyn (DEPURACIÓN)",
+    "Tooltip": ""
+  },
+  "GoldTelescope": {
+    "DisplayName": "Telescopio Dorado",
+    "Tooltip": ""
+  },
+  "StarlitForge": {
+    "DisplayName": "Forja Iluminada por Estrellas",
+    "Tooltip": "Una estación de creación universal que de algún modo funciona como banco de trabajo, horno, yunque y todo lo demás.\nTambién permite crear Rollyns de Canela de la nada.\n[c/F79BC6:'¿Cómo funciona? ¡Pues simplemente calienta materiales como lo haría cualquier horno viejo, tontito!']"
+  },
+  "StarblessedPlatform": {
+    "DisplayName": "Plataforma Bendecida por las Estrellas",
+    "Tooltip": "Cuando dos de estas plataformas se alcanzan horizontalmente, se conectan y proyectan luz transitable.\nEsa luz solo puede ser destruida rompiendo una de las plataformas que la generó.\nLas plataformas solo pueden conectarse si están a una distancia máxima de 222 bloques.\nEstas pueden colocarse en el aire.\n[c/F79BC6:'¿Muy genial, no? ¡Es casi como una escalera al cielo!']"
+  
+
+}
+
+{
+  "PlatinumTelescope": {
+    "DisplayName": "Telescopio de Platino",
+    "Tooltip": ""
+  },
+  "CinnamonRollyn": {
+    "DisplayName": "Rollyn de Canela",
+    "Tooltip": "Mejoras estelares a todas las estadísticas.\n[c/F79BC6:'¡La fuente de esta dulzura explosiva proviene del juego de palabras con mi nombre, qué gracioso!']"
+  },
+  "SolynTentSpawner": {
+    "DisplayName": "Generador de Tienda de Solyn (DEPURACIÓN)",
+    "Tooltip": ""
+  },
+  "NamelessDeityDeathToggler": {
+    "DisplayName": "Interruptor de Muerte de la Deidad Sin Nombre (DEPURACIÓN)",
+    "Tooltip": ""
+  },
+  "AvatarDeathToggler": {
+    "DisplayName": "Interruptor de Muerte del Avatar del Vacío (DEPURACIÓN)",
+    "Tooltip": ""
+  },
+  "EasyAvatarSummoner": {
+    "DisplayName": "Invocador Fácil del Avatar del Vacío (DEPURACIÓN)",
+    "Tooltip": "Abre la grieta del Oscuro.",
+    "AlternateTooltip": "Clic izquierdo para invocar la grieta del Oscuro en su segunda fase, clic derecho para invocarla en su primera."
+  
+
+}
+{
+  "StarshapersWill": {
+    "DisplayName": "Voluntad del Formador de Estrellas",
+    "Tooltip": ""
+  }
+}
+}
+
+PortalSkirt: {
+	DisplayName: Falda Portal
+	Tooltip: "'Sorprendentemente, solo llega hasta la cintura'"
+}
+
+PerversePurse: {
+	DisplayName: Monedero Perverso
+	Tooltip:
+		'''
+		Un monedero especial que contiene una dimensión de bolsillo. Secuestra y almacena (la mayoría de) los PNJs del pueblo cercanos cuando se usa.
+		Hasta tres PNJs del pueblo pueden almacenarse en el monedero.
+		Clic derecho para desplegar al último PNJ secuestrado en tu posición.
+		Si cualquier monedero contiene un PNJ, ese PNJ no reaparecerá naturalmente hasta que el monedero sea destruido o el PNJ liberado.
+		[c/F79BC6:'Yo suelo usar estos para almacenamiento móvil. Mantiene mis bolsillos livianos.']
+		[c/F79BC6:'¡Seguro que tú le encontrarás un uso igual de útil!']
+		'''
+	InfoLine: Este monedero contiene a {0}, el {1}
+}
+
+LotusOfCreation: {
+	DisplayName: Loto de la Creación
+	Tooltip:
+		'''
+		Una flor única creada para ti y Solyn
+		Puede hacerte invencible al hacer clic derecho
+		'''
+	SellText: Esto es para ti y Solyn, no para este don nadie
+}
+
+Dreamcatcher: {
+	DisplayName: Atrapasueños
+	Tooltip:
+		'''
+		Lanza tres flotadores especiales
+		El primer flotador pesca resultados comunes
+		El segundo flotador solo pesca peces de misión
+		El tercer flotador solo pesca cajas
+		Puede pescar en lava
+		[c/F79BC6:'¡Funciona como el magnetismo, pero más genial!']
+		'''
+}
+
+StarlitCampfire: {
+	DisplayName: Hoguera Estrellada
+	Tooltip: ""
+}
+
+SuperstarHairDye: {
+	DisplayName: Tinte de Cabello de Superestrella
+	Tooltip: ""
+}
+
+SuperstarDye: {
+	DisplayName: Tinte de Superestrella
+	Tooltip: ""
+}
+
+TriadicFractureDye: {
+	DisplayName: Tinte de Fractura Triádica
+	Tooltip: ""
+}
+
+Moonscreen: {
+	DisplayName: Pantalla Lunar
+	Tooltip:
+		'''
+		Permite al portador bañarse en la luz bajo el árbol sin invocar a la Deidad Sin Nombre al abrirse
+		Haz clic derecho para cerrarla, desactivando el efecto
+		'''
+	TooltipClosed:
+		'''
+		Permite al portador bañarse en la luz bajo el árbol sin invocar a la Deidad Sin Nombre al abrirse
+		Haz clic derecho para abrirla, activando el efecto
+		'''
+}
+
+DormantKey: {
+	DisplayName: Llave Dormida
+	Tooltip:
+		'''
+		Una llave misteriosa entregada por Permafrost como agradecimiento por liberarlo
+		[c/53C0EF:Parece que Solyn sabría algo sobre esto...]
+		'''
+}
+
+SolynQuestResetter: {
+	DisplayName: Reiniciador de Misiones de Solyn (DEBUG)
+	Tooltip: Restablece el estado de todas las misiones de Solyn a sus valores predeterminados, marcándolas como no iniciadas y no completadas
+}
+
+Genesis: {
+	DisplayName: Génesis
+	Tooltip: ""
+}
+
+FrostblessedSeedlingItem: {
+	DisplayName: Brote Bendecido por la Escarcha
+	Tooltip:
+		'''
+		Un brote frío y mágico del Refugio de Permafrost
+		Debe plantarse en hierba
+		[c/D22444:Si se cuida correctamente, liberará su potencial ilimitado]
+		'''
+}
+
+TheAntiseed: {
+	DisplayName: La Antisemia
+	Tooltip:
+		'''
+		Un antiguo brote sellado en una grieta misteriosa como acto de protección
+		Debe plantarse en hierba
+		[c/D22444:Sus poderes pueden combinarse con el Brote Bendecido por la Escarcha si se coloca cerca]
+		'''
+}
+
+SyntheticSeedling: {
+	DisplayName: Brote Sintético
+	Tooltip:
+		'''
+		Un brote artificial creado a nivel atómico por Draedon como fuente de energía sostenible
+		Debe plantarse en hierba
+		[c/D22444:Sus poderes pueden combinarse con el Brote Bendecido por la Escarcha si se coloca cerca]
+		'''
+}
+
+PluripotentSprout: {
+	DisplayName: Brote Pluripotente
+	Tooltip:
+		'''
+		Es viscoso, con un resplandor iridiscente
+		Debe plantarse en hierba
+		[c/D22444:Sus poderes pueden combinarse con el Brote Bendecido por la Escarcha si se coloca cerca]
+		'''
+}
+
+BlazingBud: {
+	DisplayName: Brote Llameante
+	Tooltip:
+		'''
+		Un brote de inmenso poder. Se escuchan vagamente gritos, llantos y el incesante crepitar del fuego infernal
+		Debe plantarse en hierba
+		[c/D22444:Sus poderes pueden combinarse con el Brote Bendecido por la Escarcha si se coloca cerca]
+		'''
+}
+
+HandwrittenNote: {
+	DisplayName: Nota Escrita a Mano
+	Tooltip:
+		'''
+		Una nota escrita a mano por Solyn. Parece haber sido creada recientemente
+		Haz clic para ver su contenido
+		'''
+}
+
+AvatarAuricSoul: {
+	DisplayName: Alma Áurica Grotesca
+	Tooltip: Esto no es canon
+}
+
+NamelessAuricSoul: {
+	DisplayName: Alma Áurica Suprema
+	Tooltip: Esto no es canon
+}
+
+StaffOfRejuvenation: {
+	DisplayName: Bastón de Rejuvenecimiento
+	Tooltip: Hace crecer hierba especial al usarse sobre tierra o hierba común
+}
+
+AvatarRiftMusicBox: {
+	DisplayName: Caja Musical (Avatar de Vacío en la Grieta)
+	Tooltip: Reproduce 'PARADISE PARASITE' de ENNWAY!
+}
+
+AvatarOfEmptinessP2MusicBox: {
+	DisplayName: Caja Musical (Avatar del Vacío - Fase 2)
+	Tooltip: Reproduce 'PARADISE PARASITE' de ENNWAY!
+}
+
+AvatarOfEmptinessP3MusicBox: {
+	DisplayName: Caja Musical (Avatar del Vacío - Fase 3)
+	Tooltip: Reproduce 'PARADISE PARASITE' de ENNWAY!
+}
+
+MarsMusicBox: {
+	DisplayName: Caja Musical (Marte)
+	Tooltip: Reproduce 'RAMifications' de Moonburn
+}
+
+NilkSongMusicBox: {
+	DisplayName: Caja Musical (Nilk)
+	Tooltip: Reproduce '2%' de ENNWAY!
+}
+
+HemolacriaMusicBox: {
+	DisplayName: Caja Musical (Eclipse Sangriento)
+	Tooltip: Reproduce 'Hemolacria' de Moonburn
+}
+
+RiftEclipseFogMusicBox: {
+	DisplayName: Caja Musical (Niebla del Eclipse de la Grieta)
+	Tooltip: Reproduce 'Mirrortwist' de Lucille Karma
+}
+
+RiftEclipseMusicBox: {
+	DisplayName: Caja Musical (Eclipse de la Grieta)
+	Tooltip: Reproduce 'nowhere now here' de Moonburn
+}
+
+RiftEclipseBlizzardMusicBox: {
+	DisplayName: Caja Musical (Tormenta del Eclipse de la Grieta)
+	Tooltip: Reproduce '-273.15' de Moonburn
+}
+
+TheTelescopeSongMusicBox: {
+	DisplayName: Caja Musical (Telescopio)
+	Tooltip: Reproduce 'The Telescope Song' de Moonburn
+}
+
+AscentMusicBox: {
+	DisplayName: Caja Musical (Escalera Brillante)
+	Tooltip: Reproduce 'ascent' de ENNWAY! y Moonburn
+}
+
+SvalbardMusicBox: {
+	DisplayName: Caja Musical (Refugio de Permafrost)
+	Tooltip: Reproduce 'Svalbard' de Moonburn
+}
+
+StellarRequiemMusicBox: {
+	DisplayName: Caja Musical (Campamento Nostálgico)
+	Tooltip: Reproduce 'Stellar Requiem' de Moonburn
+}
+
+EndCreditsMusicBox: {
+	DisplayName: Caja Musical (Créditos Finales)
+	Tooltip: Reproduce 'Wrath of the Gods' de Moonburn
+}
+
+GraphicalUniverseImager: {
+	DisplayName: Generador Gráfico del Universo
+	Tooltip: Se puede hacer clic derecho al colocarse para activar una variedad de efectos de fondo personalizados
+}
+
+GardenFountain: {
+	DisplayName: Fuente de Jardín
+	Tooltip: ""
+}
+
+RageOfTheDeities: {
+	DisplayName: Furia de las Deidades
+	ObtainmentHint: "[c/F79BC6:Un Locus de Azufre podría revelar el origen de este libro]"
+	Tooltip:
+		'''
+		Los escritos comienzan con el siguiente fragmento:
+
+		Dos seres, luchando por el dominio del Todo,
+		Se volvieron ciegos al paso del Tiempo.
+		'''
+}
+
+AppleThesis: {
+	DisplayName: Tesis de la Manzana
+	ObtainmentHint: "[c/F79BC6:Puede que encuentres este libro entre las copas de los árboles]"
+	Tooltip:
+		'''
+		¡Una disertación sobre los infinitos usos de las manzanas!
+		Salsa, mantequilla, sidra, decoración, popurrí...
+
+		Parece haber sido escrita por una ardilla
+		'''
+}
+
+BibleOfSlime: {
+	DisplayName: Biblia del Limo
+	ObtainmentHint: "[c/F79BC6:Un slime podría tener este libro]"
+	Tooltip:
+		'''
+		En el principio, desde las profundidades del lodo primordial, emergió Goozma, la esencia pura e inflexible
+		De su forma maleable surgieron la gracia y la sabiduría, una chispa de divinidad presente en cada slime
+
+		Benditos los fluidos, porque se moverán con las mareas del tiempo, nunca rotos por las pruebas del destino. Benditos los informes, porque siempre hallarán el modo de ser
+
+		Todas las cosas, en forma de slime, están unidas al flujo de la creación
+
+		Amén.
+		'''
+}
+
+{
+  "BookOfMiracles": {
+    "DisplayName": "Libro de los Milagros",
+    "ObtainmentHint": "[c/F79BC6:Este libro podría tener algo que ver con un cuarteto de máquinas de combate]",
+    "Tooltip": "El contenido de las páginas está oculto por un efecto desintegrativo chillón de color lima"
+  },
+  "Cactome": {
+    "DisplayName": "Cactolibro",
+    "ObtainmentHint": "[c/F79BC6:Este libro podría estar escondido dentro de algo que da vueltas bajo las dunas de arena]",
+    "Tooltip": "Contiene solo una única página densa\nLa página dice lo siguiente:\n\n'¿Están bien tus manos?'"
+  },
+  "DecayingTome": {
+    "DisplayName": "Tomo en Descomposición",
+    "ObtainmentHint": "[c/F79BC6:Intentaré encontrar este por mi cuenta]",
+    "Tooltip": "Su contenido se ha podrido casi por completo, con las páginas hechas jirones\nParece que ya no queda hongo para escribir"
+  },
+  "FuturisticTreatise": {
+    "DisplayName": "Tratado Futurista",
+    "ObtainmentHint": "[c/F79BC6:Este libro podría tener algo que ver con un cuarteto de máquinas de combate]",
+    "Tooltip": ""
+
+
+}
+
+{
+  "HowToFly": {
+    "DisplayName": "Cómo Volar",
+    "ObtainmentHint": "[c/F79BC6:Podrías recibir este libro al volar a gran velocidad]",
+    "Tooltip": "La primera página dice lo siguiente:\n'Mantén presionado el botón de salto.'\n\nLas otras noventa y seis páginas están en blanco"
+  },
+  "OminousStorybook": {
+    "DisplayName": "Libro de Cuentos Inquietante",
+    "ObtainmentHint": "",
+    "Tooltip": "[c/C69C97:Un pulso, luego silencio]\n[c/C69C97:Las estrellas exhalan. Las semillas parten la piedra]\n\n[c/C69C97:La ceniza se aferra al viento, susurrando sobre bosques que no conocerá]\n[c/C69C97:La luz se desvanece hacia la oscuridad eterna. Hacia los pliegues de otro amanecer]\n[c/C69C97:Sus bordes deshilachándose hacia el renacimiento]\n\n[c/C69C97:Mundos surgen y caen, emergiendo del y desvaneciéndose en la gran espuma]\n\n[c/C69C97:Pero el tiempo no es una línea,]\n[c/C69C97:Sino el florecer de una llama]\n\n[c/C69C97:Los pétalos se curvan hacia adentro]\n[c/C69C97:Las cenizas giran hacia afuera]\n[c/C69C97:Sin principio. Sin fin]\n[c/C69C97:Solo el movimiento del ser]\n\n[c/C69C97:¿Lo oyes? El zumbido silencioso bajo la ruina]\n\n[c/CEA3A3:La memoria del movimiento-]\n[c/EF908D:El giro del eje de la rueda]\n[c/FF6660:El salto de la chispa]\n\n[c/FF5171:El despertar de un mundo]\n[c/FF274A:Desde la sombra de la caída de una flor]"
+  },
+  "TwentyTwome": {
+    "DisplayName": "Veintidósmo",
+    "ObtainmentHint": "[c/F79BC6:Este libro parece estar entre la flora de la jungla]",
+    "Tooltip": "Los extraños desvaríos de un autor oscuro, inventando un aluvión de conexiones entre avispas y el número veintidós\nEn la última página se detalla algo llamado 'ronda avispa' en un tono sombrío"
+  
+
+}
+
+{
+  "InscrutableTexts": {
+    "DisplayName": "Textos Inescrutables",
+    "ObtainmentHint": "[c/F79BC6:Este libro pertenece a un archimago]",
+    "Tooltip": "El texto es apenas legible y contiene innumerables términos mágicos que apenas reconoces\n\n'La ascensión de un aspirante a los excelsos peldaños de la Magia es una hazaña alcanzable solo por las mentes más perspicaces y sagaces.'\n'Bajo la vigilia argéntea de incontables noches he estudiado, resguardado en este gélido sanctasanctórum, esforzándome incansablemente en la praxis y la teoría.'\n'En este tomo, expondré las profundidades desenterradas y los arcanos asimilados a lo largo de mis décadas de trabajo.'\n\nDecides no seguir leyendo"
+  },
+  "AberrantWritings": {
+    "DisplayName": "Escritos Aberrantes",
+    "ObtainmentHint": "[c/F79BC6:Intentaré encontrar este por mi cuenta]",
+    "Tooltip": "'...'"
+  },
+  "AbsenceNotice": {
+    "DisplayName": "Aviso de Ausencia",
+    "ObtainmentHint": "[c/F79BC6:Puede que encuentres este libro en las profundidades acuáticas]",
+    "Tooltip": "Un misterioso trozo de papel que indica la ausencia de alguien\nEstá firmado con la letra X"
+  },
+  "AcidicPrayerbook": {
+    "DisplayName": "Libro de Oraciones Ácido",
+    "ObtainmentHint": "[c/F79BC6:Parece tener algo que ver con lluvias corrosivas]",
+    "Tooltip": "Un tomo aparentemente envejecido. Por lo que puedes distinguir, su tono es reverente\nTambién contiene una variedad de temas comunes, incluyendo criaturas porcinas, dragones y un supuesto 'terror sulfúrico del mar'\n\nLos detalles más allá de esto son difíciles de descifrar"
+  
+
+}
+
+AncientWritings: {
+	DisplayName: Escritos Antiguos,
+	ObtainmentHint: "[c/F79BC6:Puede que encuentres este libro en posesión de alguien maldito]"
+	ShopTooltip: Cómpralo para leer su contenido,
+	Tooltip:
+		'''
+		Un libro extraordinariamente antiguo que trata sobre una supuesta maldición demoníaca, ofreciendo una panoplia de detalles inquietantes sobre sus efectos.
+		Al abrir una página al azar, se encuentra la siguiente sección:
+
+		'...En la quinta noche cíclica, la forma del afectado se desprenderá temporalmente, emergiendo el esqueleto desde dentro, causando un dolor insoportable...'
+
+		Decides no seguir leyendo.
+		'''
+}
+
+BestPriceBestiary: {
+	DisplayName: Bestiario al Mejor Precio,
+	ObtainmentHint: "[c/F79BC6:Trataré de encontrar este por mi cuenta]"
+	Tooltip:
+		'''
+		Este libro contiene una amplia variedad de criaturas, algunas conocidas, otras no.
+		La primera entrada, un slime verde común, está ilustrada con un dibujo burdo e infantil, y afirma que posee exactamente 13,575 de vida total.
+
+		No parece muy preciso.
+		'''
+}
+
+CloverManual: {
+	DisplayName: Manual del Trébol,
+	ObtainmentHint: "[c/F79BC6:Puede que necesites mucha suerte para conseguir este libro]"
+	Tooltip:
+		'''
+		Un folleto extraño que habla sobre algo llamado 'mecánica de la suerte'.
+		Menciona noches de linternas, herraduras, gnomos de jardín y algo misterioso llamado 'Perla Galáctica' como fuentes de buena suerte.
+		Contiene una advertencia sobre tratar adecuadamente a las mariquitas.
+
+		La última página parece dedicada a reflexionar sobre antorchas de colores, por alguna razón.
+		'''
+}
+
+DubiousBrochureCorruption: {
+	DisplayName: Folleto Dudoso,
+	ObtainmentHint: "[c/F79BC6:Puede que encuentres este libro en las profundidades de la Corrupción]"
+	Tooltip:
+		'''
+		Un folleto que ofrece una alegre invitación para visitar el bioma de la Corrupción.
+		Las fotos que contiene son obviamente inexactas y sorprendentemente embellecidas.
+
+		No puedes evitar preguntarte quién lo creó.
+		'''
+}
+
+DubiousBrochureCrimson: {
+	DisplayName: Folleto Dudoso,
+	ObtainmentHint: "[c/F79BC6:Puede que encuentres este libro en el corazón del Carmesí]"
+	Tooltip:
+		'''
+		Un folleto que ofrece una alegre invitación para visitar el bioma del Carmesí.
+		Las fotos que contiene son obviamente inexactas y sorprendentemente embellecidas.
+
+		No puedes evitar preguntarte quién lo creó.
+		'''
+}
+
+DubiousSpellbook: {
+	DisplayName: Grimorio Dudoso,
+	ObtainmentHint: "[c/F79BC6:Este libro pertenece a magos que a veces se ven en las cavernas]"
+	Tooltip:
+		'''
+		Un libro de hechizos que contiene información sobre la creación de otros grimorios que nunca habías oído, junto con sus métodos de adquisición.
+		Al abrir una página al azar, se encuentran los siguientes ejemplos:
+
+		- Maldición Escarlata: Un tomo de hechizos, cuatro florfuegos, diez almas de la noche, tres sedas antumbrales y tres piedrasangre.
+		- Choque Etéreo: Un tomo de hechizos, tres hilos oníricos, diez almas de luz y ocho fragmentos de nebulosa.
+		- Resplandor Tenebroso: Un tomo de hechizos, un plasma oscuro, tres lingotes de platino, veinte cortezas de raíz susurrante y un núcleo de eleum.
+		'''
+}
+
+DustyDiary: {
+	DisplayName: Diario Polvoriento,
+	ObtainmentHint: "[c/F79BC6:Trataré de encontrar este por mi cuenta]"
+	Tooltip:
+		'''
+		Un diario personal. Es tan antiguo que todas sus páginas se han vuelto polvo, su sabiduría secreta perdida para siempre.
+		¡Un hallazgo perfecto para quienes disfrutan leer con la imaginación!
+		'''
+}
+
+ExoBlueprints: {
+	DisplayName: Planos Exo,
+	ObtainmentHint: "[c/F79BC6:Puede obtenerse atacando el cuerpo de un científico]"
+	Tooltip:
+		'''
+		Planos de Ares, Thanatos, Artemisa y Apolo, con varias notas técnicas escritas aparentemente por Draedon durante la construcción de las máquinas.
+		Una nota sobre sus algoritmos de comportamiento autónomo y estrategias de combate destaca:
+
+		'Las pruebas de simulación revelan que Artemisa, Apolo y Ares alcanzan la máxima eficacia de combate al prescindir completamente de la capacidad aérea. Es absurdo, pero fascinante.'
+
+		No puedes evitar estar de acuerdo.
+		'''
+}
+
+FanaticalRamblings: {
+	DisplayName: Desvaríos Fanáticos,
+	ObtainmentHint: "[c/F79BC6:Trataré de encontrar este por mi cuenta]"
+	Tooltip: Abrir el libro te llena con un odio indescriptible por alguna razón.
+}
+
+FishingCatalogue: {
+	DisplayName: Catálogo de Pesca,
+	ObtainmentHint: "[c/F79BC6:Puede obtenerse como recompensa por pesca especializada]"
+	Tooltip: Un catálogo aburrido de capturas. El nivel de precisión y detalle es asombroso.
+}
+
+FrostyPamphlet: {
+	DisplayName: Folleto Helado,
+	ObtainmentHint: "[c/F79BC6:Trataré de encontrar este por mi cuenta]"
+	Tooltip: Está tan frío que no puedes leer las palabras congeladas en sus páginas.
+}
+
+HiTechInstructionManual: {
+	DisplayName: Manual de Alta Tecnología,
+	ObtainmentHint: "[c/F79BC6:Trataré de encontrar este por mi cuenta]"
+	Tooltip: Contiene extrañas notas sobre la construcción de cuatro robots autónomos de alta tecnología.
+}
+
+InstructionManual: {
+	DisplayName: Manual de Instrucciones,
+	ObtainmentHint: "[c/F79BC6:Una poderosa entidad lunar posee este libro]"
+	Tooltip:
+		'''
+		Un manual de instrucciones sobre un juego llamado 'Terraria'.
+		Contiene los siguientes consejos:
+
+		- '¿No sabes qué hacer? ¡Habla con el Guía, un NPC de ciudad que aparece al crear un nuevo mundo!'
+		- '¿Colocaste una pared por error y no puedes quitarla? ¡Crea y usa un martillo!'
+		- '¡Los NPCs necesitan suficiente espacio, paredes, una silla, una mesa y una fuente de luz para mudarse!'
+
+		Por alguna razón, te sientes levemente insultado.
+		'''
+}
+
+InvisibleInkDissertation: {
+	DisplayName: Disertación en Tinta Invisible,
+	ObtainmentHint: "[c/F79BC6:Puede obtenerse transmutando un libro ordinario]"
+	Tooltip:
+		'''
+		No hay nada visible en las páginas, pero puedes notar que hay tinta invisible.
+		Tu curiosidad carcome tu mente.
+		'''
+}
+
+MagicLexicon: {
+	DisplayName: Léxico Mágico,
+	ObtainmentHint: "[c/F79BC6:Trataré de encontrar este por mi cuenta]"
+	Tooltip:
+		'''
+		Un diccionario de arcanismos para tus necesidades informativas sobre magia.
+		Definiciones incluidas:
+
+		Hechizar: Acto de cautivar o fascinar a alguien.
+		Goecia: Forma de brujería transmitida mediante grimorios.
+		Gramática Oculta: Proceso de aprendizaje oculto.
+		Mistagogo: Maestro de lo místico y esotérico.
+		'''
+}
+
+Otherworldly1: {
+	DisplayName: Tomo de Otro Mundo I,
+	ObtainmentHint: "[c/F79BC6:Trataré de encontrar este por mi cuenta]"
+	Tooltip:
+		'''
+		Está escrito en un idioma que no comprendes.
+		Tal vez Solyn sepa más al respecto...
+		'''
+}
+
+Otherworldly2: {
+	DisplayName: Tomo de Otro Mundo II,
+	ObtainmentHint: "[c/F79BC6:Trataré de encontrar este por mi cuenta]"
+	Tooltip:
+		'''
+		Está escrito en un idioma que no comprendes.
+		Tal vez Solyn sepa más al respecto...
+		'''
+}
+
+Otherworldly3: {
+	DisplayName: Tomo de Otro Mundo III,
+	ObtainmentHint: "[c/F79BC6:Trataré de encontrar este por mi cuenta]"
+	Tooltip:
+		'''
+		Está escrito en un idioma que no comprendes.
+		Tal vez Solyn sepa más al respecto...
+		'''
+}
+
+Otherworldly4: {
+	DisplayName: Tomo de Otro Mundo IV,
+	ObtainmentHint: "[c/F79BC6:Trataré de encontrar este por mi cuenta]"
+	Tooltip:
+		'''
+		Está escrito en un idioma que no comprendes.
+		Tal vez Solyn sepa más al respecto...
+		'''
+}
+
+Otherworldly5: {
+	DisplayName: Tomo de Otro Mundo V,
+	ObtainmentHint: "[c/F79BC6:Trataré de encontrar este por mi cuenta]"
+	Tooltip:
+		'''
+		Está escrito en un idioma que no comprendes.
+		Tal vez Solyn sepa más al respecto...
+		'''
+}
+
+Otherworldly6: {
+	DisplayName: Tomo de Otro Mundo VI,
+	ObtainmentHint: "[c/F79BC6:Trataré de encontrar este por mi cuenta]"
+	Tooltip:
+		'''
+		Está escrito en un idioma que no comprendes.
+		Tal vez Solyn sepa más al respecto...
+		'''
+}
+
+SanguineWildlife: {
+	DisplayName: Fauna Sanguínea,
+	ObtainmentHint: ""
+	Tooltip: ""
+}
+
+SeamapCollection: {
+	DisplayName: Colección de Mapas Marinos,
+	ObtainmentHint: "[c/F79BC6:Puede encontrarse en posesión de un capitán pirata]"
+	Tooltip:
+		'''
+		Una colección catalogada de diversos mapas marinos, con marcas que aparentemente indican tesoros.
+		Ninguna de las ubicaciones representadas te resulta familiar.
+		'''
+}
+
+SulfuricLeaflet: {
+	DisplayName: Folleto Sulfúrico,
+	ObtainmentHint: "[c/F79BC6:Este libro puede ser expulsado en las cavernas sulfúricas]"
+	Tooltip:
+		'''
+		Un breve folleto informativo que describe los peligros de la lluvia ácida.
+		Parece estar irradiado.
+		'''
+}
+
+TheBookOfShaders: {
+	DisplayName: El Libro de los Shaders,
+	ObtainmentHint: "[c/F79BC6:Trataré de encontrar este por mi cuenta]"
+	Tooltip:
+		'''
+		Una lectura informativa sobre la creación de shaders y arte generado mediante programación.
+		Siete páginas están dedicadas a divagar sobre la santidad del pixelado.
+		'''
+}
+
+UnfinishedColoringBook: {
+	DisplayName: Libro de Colorear Incompleto,
+	ObtainmentHint: "[c/F79BC6:Este libro puede encontrarse ocasionalmente cerca de mi campamento]"
+	Tooltip:
+		'''
+		Un libro para colorear con escenas celestiales simples.
+		Aproximadamente dos tercios están coloreados con una calidad magistral. El resto no ha sido tocado.
+		'''
+}
+
+WulfrumAssemblyGuide: {
+	DisplayName: Guía de Ensamblaje Wulfrum,
+	ObtainmentHint: "[c/F79BC6:Puede obtenerse de máquinas cargadas]"
+	Tooltip:
+		'''
+		El manual de instrucciones detallado, aunque confuso, de un inventor reconocido.
+		Las instrucciones mencionan diversas herramientas. La mayoría son desconocidas y las otras se usan de formas muy excéntricas.
+		'''
+}
+
+WorldUpdater: {
+	DisplayName: Actualizador de Versión Mundial (DEBUG),
+	Tooltip:
+		'''
+		Modifica los datos internos de la versión del mundo, actualizándolos.
+		Esto hace que los mundos antiguos cuenten como nuevos para condiciones específicas de la versión, como si la línea de misiones de Solyn está disponible.
+		'''
+}
+
+SolynBookshelfResetter: {
+	DisplayName: Reiniciador de Librero de Solyn (DEBUG),
+	Tooltip: Restablece todos los libros del librero de Solyn, así como todas las recompensas no reclamadas.
+}
+
+ExoticSeedBag: {
+	DisplayName: Bolsa de Semillas Exóticas,
+	Tooltip:
+		'''
+		Proporciona todos los componentes necesarios para invocar al Avatar del Vacío.
+		Para invocarlo, coloca todas las semillas cerca unas de otras y haz clic derecho en el brote bendecido por la escarcha cuando esté completamente crecido.
+		[c/FF2219:Este objeto existe únicamente por razones de compatibilidad y no está pensado para usarse en mundos nuevos.]
+		'''
+}
+
+GenderDye: {
+	DisplayName: Tinte de Género,
+	Tooltip: ""
+}
+
+SeedOfWill: {
+	DisplayName: Semilla de Voluntad,
+	Tooltip:
+		'''
+		Desencadena una prueba incesante de determinación con la Deidad Sin Nombre.
+		Solo puede usarse en el jardín.
+		Puedes recibir una recompensa si resistes lo suficiente.
+		'''
+}
+
+ParadiseDye: {
+	DisplayName: Tinte del Paraíso,
+	Tooltip: ""
+}
+
+SolynQuestSkipper: {
+	DisplayName: Saltador de Misiones de Solyn (DEBUG),
+	Tooltip: Marca todas las misiones de Solyn como completadas, permitiéndote activar la Génesis inmediatamente.
+}
+
+SolynTelescopeResetter: {
+	DisplayName: Reiniciador de Telescopio de Solyn (DEBUG),
+	Tooltip: Restablece el estado del telescopio de Solyn, permitiendo que se repare nuevamente.
+}
+
+StrangeFlagpole: {
+	DisplayName: Poste de Bandera Extraño,
+	Tooltip:
+		'''
+		Puede usarse para elegir dónde instalará Solyn su campamento.
+		Asegúrate de que haya espacio plano y abierto cerca del poste, o el campamento no podrá aparecer.
+		Colocar este poste te indicará si el espacio cercano es lo suficientemente adecuado.
+		'''
+	NotFlatEnoughText: ¡Este espacio no es lo suficientemente plano o abierto!
+	FlatEnoughText: Este espacio es adecuado.
+}
+
+"FancyRopeSet": {
+	"DisplayName": "Conjunto de Cuerdas Elegantes",
+	"Tooltip": ""
+
+}
