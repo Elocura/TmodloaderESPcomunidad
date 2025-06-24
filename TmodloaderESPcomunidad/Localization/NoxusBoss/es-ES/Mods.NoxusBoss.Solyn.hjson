@@ -1,0 +1,456 @@
+SolynIntroduction: {
+	Start: Yo... ^he fallado...
+	Talk1: Yo...
+	Question1: ¿Estás bien???
+	Talk2: ¡Oh! Hola. Yo... ^no te vi ahí.
+	Talk3: Supongo que sí... ¿tal vez?
+	Question2: ¿Quién eres?
+	Talk4: Soy Solyn.
+	Talk5: ...
+	Talk6: Lo siento, no puedo pensar con claridad.
+	Talk7: Podemos hablar luego. Ahora mismo... ^necesito algo de tiempo.
+	Question3: Está bien, te daré algo de espacio.
+	Talk8: Gracias. Lo aprecio.
+	Repeat: ...
+}
+
+SolynTentSetUpDialogue: {
+	Start: Oh, eres tú otra vez. Hola.
+	Solyn1: Esto es... un poco directo, pero ¿podrías ayudarme con algo?
+	Player1: Claro. ¿En qué te ayudo?
+	Solyn2: Gracias.
+	Solyn3: Como puedes ver, ahora mismo... no tengo un hogar. ^Quiero que plantes esta bandera en algún lugar adecuado, en una zona abierta y bonita.
+	Solyn4: Una vez lo hagas, montaré un campamento cerca.
+}
+
+SolynDawnDialogue: {
+	Start: ¡Buenos días!^ Un nuevo día, una gran nueva aventura.
+	Player1: Esa es... una forma algo exagerada de decirlo, Solyn.
+	Solyn1: Nunca se sabe. Algunos días resultan ser sorprendentemente importantes.^ No lo sabes hasta que terminan.
+	Player2: Bueno, en fin. ¿Qué estás haciendo?
+	Solyn2: No mucho. Me desperté hace poco.^ Aunque tuve un sueño algo interesante.
+	Player3: ¿Sobre qué era?
+	Dream1_Response1: En general fue un desastre desordenado, pero hubo una parte que se destacó, justo al final.
+	Dream1_Response2: Soñé con un viejo mentor mío. Estábamos hablando juntos de nuevo junto a un estanque al atardecer.
+	Dream1_Response3: Pero de repente, sin aviso, se detuvo y miró hacia el estanque y comenzó a invocar un hechizo que nunca había visto.
+	Dream1_Response4: Poco después, el agua del estanque brilló como polvo estelar, formando un rostro antiguo. Un rostro que me resultaba familiar.
+	Dream1_Response5: Mi mentor me miró de nuevo, como esperando una respuesta.
+	Dream1_Response6: Y entonces, desperté.
+	Dream2_Response1: Soñé con un paisaje hecho de papel plegado, bajo la luz vacía de un brillante cielo sepia.
+	Dream2_Response2: Caminé durante lo que pareció una eternidad, viendo una variedad de extrañas plantas y estructuras de origami por todo el lugar.
+	Dream2_Response3: De repente, me agaché y barrí con la mano, revelando una profundidad indefinida bajo el papel por donde caminaba.
+	Dream2_Response4: Me quedé mirando sin parar el abismo que había creado por accidente, fascinado por lo que acababa de pasar.
+	Dream2_Response5: De repente, un ojo fractal se abrió lentamente, devolviéndome la mirada.
+	Dream2_Response6: Y entonces, desperté.
+	Dream3_Response1: Durante todo el sueño caía una llovizna mientras estaba rodeado por los bosques que consideraba mi hogar.
+	Dream3_Response2: Caminaba por el bosque, pero no encontraba a ninguno de mis amigos. Estaba solo.
+	Dream3_Response3: Al acercarme a un claro, empecé a oír sonidos. Voces mías y de mis seres queridos: del pasado, presente y futuro.
+	Dream3_Response4: Me concentré en el olor a tierra mojada, y me golpeó un estallido caleidoscópico de sentidos, viendo el tiempo acelerarse y curvarse sobre sí mismo.
+	Dream3_Response5: De repente, un viejo amigo mío rompió el ruido y me dijo que era hora de despertar.
+	Dream3_Response6: Hice lo que me dijo.
+	Dream4_Response1: Bueno... quizá “interesante” no sea la mejor palabra.
+	Dream4_Response2: Soñé que caminaba por un bosque con niebla y viento inquietante, rodeado de árboles altos sin hojas.
+	Dream4_Response3: Tras un tiempo, me encontré... ^conmigo mismo. Era como si caminara hacia un espejo perfectamente reflectante.
+	Dream4_Response4: Una brisa empezó a soplar cada vez más fuerte mientras me acercaba al reflejo, convirtiéndose de repente en un vendaval.
+	Dream4_Response5: Al intentar tocarlo, noté que su apariencia había cambiado a una sombra fantasmal.
+	Dream4_Response6: En cuanto nuestros dedos se tocaron, desperté empapado en sudor frío.
+	Dream5_Response1: Bueno... quizá “interesante” no sea la mejor palabra.
+	Dream5_Response2: El sueño era sobre un viejo amigo mío.^ Al principio todo era normal, hablando sobre cosas divertidas y raras, como siempre.
+	Dream5_Response3: Pero con el tiempo noté que se volvía más translúcido y difícil de oír, como un fantasma.
+	Dream5_Response4: Me di cuenta... ^que con cada parpadeo desaparecía más.^ Así que traté de mantener los ojos abiertos todo lo que pude.
+	Dream5_Response5: Nuestra conversación se volvió agridulce.^ Al final, apenas distinguí una sonrisa melancólica en su rostro.^ Sabía que en el próximo parpadeo, se iría.
+	Dream5_Response6: Las últimas palabras que logré oír fueron “Es hora de dejar ir.”^ Después de eso, desperté.
+	Player4: Fascinante cómo funcionan esos sueños.
+	Solyn3: ... De verdad que sí.
+}
+
+SolynSunnyDayDialogue: {
+	Start: ¡Hola!^ Bastante soleado hoy, ¿eh?
+	Player1: Supongo que sí.
+	Solyn1: ¿Tienes planes para aprovechar este gran día?^ ¿Correr por los bosques?^ ¿Reflexionar en un claro?^ ¿Tomar un poco de vitamina D?
+	Player2: Probablemente meterme en las cuevas y matar algo.
+	Solyn2: Ah, claro.
+	Solyn3: Muy típico de ti, ¿no?
+}
+
+SolynRainyDayDialogue: {
+	Start: ¡Hola!^ Bastante llovizna, ¿verdad?
+	Player1: Supongo que sí.
+	Solyn1: ¿Tienes algún plan para este día lluvioso?^ ¿Sentarte a pensar cerca de un estanque?^ ¿Dar un paseo corto?^ ¿O simplemente quedarte adentro escuchando la lluvia?
+	Player2: Probablemente meterme en las cuevas y matar algo.
+	Solyn2: Ah, claro.
+	Solyn3: Muy típico de ti, ¿no?^ Admito que entiendo querer estar en un lugar seco ahora mismo.
+}
+
+SolynDuskDialogue: {
+	Start: El crepúsculo, ¿eh?^ Realmente es todo un espectáculo.
+	Solyn1: Pero... debo decir que no es lo mismo que en casa. ^El esplendor ardiente, el doble atardecer, el cielo llenándose de incontables estrellas brillantes...
+	Solyn2: Es tan similar, y sin embargo tan... distinto. ^Realmente tendrías que verlo para entenderlo.
+	Solyn3: En fin, está bien experimentar algo nuevo... supongo.
+}
+
+
+SolynBloodMoonDialogue: {
+    "Start": "No puedo dormir esta noche. Algo en el brillo fantasmal me pone inquieta.",
+    "Solyn1": "Además, nunca viví una noche como esta en casa. Sería mentira decir que todo está a salvo, pero puedo defenderme contra la oleada de monstruos si es necesario, y debo admitir que siento bastante curiosidad por todo esto.",
+    "Solyn2": "¿Quizás intente observar las estrellas otra vez esta noche? Imagino que el cielo teñido de carmesí debe ser un espectáculo especial para contemplar de cerca."
+}
+
+SolynSlimeRainDialogue: {
+	Start: ¡Qué raro!^ ¡Babas cayendo del cielo como lluvia!^ ¡Es tan extraño, pero fascinante!
+	Solyn1: ¿Cómo funciona esto?^ ¡Tengo que saberlo!^
+	Player1: Yo... en realidad no tengo ni idea.
+	Solyn2: ¡Ja! Lo imaginaba.
+	Solyn3: Me encantaría maravillarme con la escena, pero claramente las babas no son muy amigables.
+	Solyn4: Mantente alerta, no querrás acabar medio digerido.
+}
+
+SolynStorageSailsDialogue: {
+	Start: Dime... ¿has oído hablar de las velas de almacenamiento?
+	Player1: Pues... ¿diría que no?
+	Solyn1: ¡Oh, son maravillosas!^ ¡Muy comunes en casa!
+	Solyn2: ¿Sabes cómo ciertos barcos usan velas para moverse con el viento?^ Es algo así, pero la energía del viento se guarda para después.
+	Solyn3: ¡Y se ven tan graciosas también!^ Estructuras como ruedas de madera con celosías, con grandes plumas en las puntas.^ Si las hubieras visto, lo entenderías.
+	Player2: Vale, genial, pero... ¿qué las hace funcionar?
+	Solyn4: ¡Ni idea!
+}
+
+SolynSameHairDialogue: {
+    "Start": "¿Eso es... mi cabello en tu cabeza? ¡Guau!",
+    "Solyn1": "¿Quizás esto significa que podríamos ser gemelos de peinado?",
+    "Solyn2": "Solo... asegúrate de cuidarlo. ¡No es un estilo fácil de mantener!"
+}
+
+SolynPicnicDialogue: {
+    "Start": "Algún día quiero preparar y disfrutar de un picnic.",
+    "Solyn1": "En casa, a veces los disfrutaba con un amigo muy cercano. Siempre era muy divertido. El paisaje exuberante, la comida deliciosa, la cálida luz del sol...",
+    "Solyn2": "Sería maravilloso experimentar algo así otra vez."
+}
+
+SolynBooksDialogue: {
+	Start: Sabes, hubiese sido genial haber podido traer algunas de mis viejas pertenencias antes de que me enviaran aquí.
+	Solyn1: En casa tenía una gran colección de libros.^ Unos cuantos pergaminos y tomos antiguos también.
+	Solyn2: Algunos eran un poco oscuros por el vocabulario o el tema, y otros algo... extraños, al menos desde la perspectiva de los demás.
+	Solyn3: ¡Pero algunos eran simplemente entretenidos!^ Algo tan simple como una buena novela realmente cambia tu visión del mundo.
+	Solyn4_Mage: Estoy seguro de que un mago como tú lo entendería.
+	Solyn4_OtherClass: Pero... supongo que quizá no seas del tipo que se interesa por estas cosas.
+	Player1_Mage: Solyn, nosotros no leemos libros. Solo los usamos para lanzar hechizos.
+	Solyn5: Ah... olvídalo.^ Solo pensaba en voz alta, supongo.
+}
+
+SolynOneRedeemedBookDialogue: {
+	Start: ¡Vi que añadiste algo a mi estantería!^ Estoy muy agradecido.
+	Solyn1: El paisaje aquí es hermoso, pero no creo poder quedarme viéndolo todo el día.
+}
+
+  "SolynInscrutableTextsBookDialogue": {
+    "Start": "Cierto libro que agregaste a mi estantería llamó mi atención. ¿'Textos Inescrutables', creo que se llamaba?",
+    "Solyn1": "Debo decir que es un título bastante acertado. Extremadamente denso y formal. No está dispuesto en lo más mínimo a guiar al lector en trivialidades.",
+    "Solyn2": "Aun así, logré obtener conocimientos útiles de él. Bastantes hechizos que ni siquiera había oído antes.",
+    "Solyn3": "... Primero la plántula, ahora este tomo. Todo esto me hace sentir muchísima curiosidad por la historia de Permafrost."
+
+}
+
+SolynUnreadableBookDialogue: {
+	Start: Como dije antes, realmente aprecio los libros... pero ¿estás seguro de que algunos de estos realmente cuentan como tal?
+	Solyn1: ... Al menos se ven bonitos en la estantería.
+}
+
+SolynManyRedeemedBooksDialogue: {
+	Start: Wow, mi pequeña biblioteca se ha convertido en todo un tesoro. ^¡No sabes cuánto te lo agradezco!
+	Solyn1: Esto realmente me hace sentir más en casa. Solía tener una gran colección de libros...
+}
+
+SolynCompleteBookshelfDialogue: {
+	Start: ¡Esto es increíble!^ Ya no tengo espacio en la estantería.
+	Solyn1: Hemos logrado mucho desde que llegué. ¡Espero sentir esta emoción cuando terminemos el Génesis, jaja!
+	Solyn2: Ah, hablando del Génesis, he estado pensando... ^cuando lo terminemos, me gustaría hacer una biblioteca de verdad aquí. Con tu ayuda, por supuesto.
+}
+
+"SolynNearbyLunarPillarDialogue": {
+    "Start": "¡M-mi campamento está siendo invadido por alienígenas!"
+}
+  "SolynLategameDialogue": {
+    "Start": "Hemos avanzado mucho hacia el Génesis, pero no podemos detenernos ahora. Aún queda trabajo por hacer."
+  }
+  "SolynRiftBlizzardDialogue": {
+    "Start": "No llevo mucho tiempo aquí, pero debo admitir que ya extraño la llovizna agradable de vez en cuando.",
+    "Solyn1": "Y aun así... hay una belleza silenciosa y antinatural en la nevada que la ha reemplazado.",
+    "Solyn2": "...",
+    "Solyn3": "Lo siento, es que... estoy pensando en voz baja."
+  }
+
+  "SolynWantingToGoHomeDialogue": {
+    "Start": "A veces desearía poder simplemente... volver a casa.",
+    "Solyn1": "Desconocimiento, desánimo, incertidumbre absoluta, frío creciente...",
+    "Solyn2": "... Sería mucho más fácil si simplemente hubiera dejado las cosas como estaban.",
+    "Solyn3": "Ah, ¿qué estoy diciendo? No podemos cambiar el pasado, y aún queda mucho por hacer."
+  },
+  "SolynHopefulPastDialogue": {
+    "Start": "Últimamente he estado pensando mucho.",
+    "Solyn1": "Para ser sincera... envidio un poco a mi yo del pasado. Tan esperanzada, mirando a las estrellas con la creencia de que nos cuidarían desde arriba. Deseando agradecer a nuestro creador por toda la belleza que nos rodea.",
+    "Solyn2": "Es difícil mantener ese optimismo cuando esa belleza se marchita y se congela a nuestro alrededor.",
+    "Solyn3": "Lo siento, solo... necesito un momento para mí."
+  }
+
+  "SolynRiftSunsetDialogue": {
+    "Start": "¿Realmente sigue siendo correcto llamar a esto un atardecer?",
+    "Solyn1": "Bueno, de cualquier forma, ya se está haciendo tarde. Pronto me iré a descansar."
+  },
+  "SolynRiftTownNPCDialogue": {
+    "Start": "¿Has hablado últimamente con los habitantes de tu ciudad?",
+    "Solyn1": "Mientras estabas fuera me sentí sola y decidí pasar por allí en busca de compañía.",
+    "Solyn2": "Estuvo bien, pero pude notar que todos se sentían incómodos. Las circunstancias actuales claramente los están afectando."
+  },
+  "SolynRiftFogDialogue": {
+    "Start": "Estoy bastante sorprendida de que hayas logrado encontrarme en esta niebla tan densa.",
+    "Solyn1": "Hay algo en ella que se siente... mal. Esta neblina no es algo natural.",
+    "Solyn2": "Mantén la guardia en alto. Quién sabe qué podría estar acechando ahí fuera."
+  },
+  "SolynMirrorwalkerDialogue": {
+    "Start": "&...!",
+    "Solyn1": "&Hay... algo allá afuera."
+  }
+
+SolynWindyDayTalk: {
+	# If its a Windy Day, Solyn is seen holding a kite.
+	WindyStart: ¡Has vuelto! ¡Hola!
+	WindyQuestion1: Bastante viento, ¿no?
+	WindyResponse1: ¡Sí que lo está! Hace un momento vi un grupo de babas siendo levantadas por la brisa.
+	WindyResponse2: Es algo gracioso, ver a las babas de este mundo volando con sus globos adorables. ¡Ya me ha pasado varias veces que casi se enganchan a mi cometa, jaja!
+	WindyQuestion2: Dime, ¿y esa cometa? Se ve genial.
+	WindyResponse3: ¿Esto viejo? Es algo que me gusta usar en los días ventosos, ver la cometa volar en el cielo.
+	WindyResponse4: A veces es muy liberador sentarse y dejar que la naturaleza nos guíe.
+	WindyResponse5: En realidad...
+	WindyResponse6: ¡Aquí!
+	WindyResponse7: ¿Por qué no lo disfrutamos juntos un rato? Quizás te vendría bien un descanso de tus aventuras.
+	WindyRepeatPlayerUsingKite: ¿Disfrutando?
+	WindyRepeatPlayerUsingKiteChangedMind: ¡Ah, cambiaste de opinión! ¡Espero que la brisa te relaje un poco!
+	WindyRepeatDefault: ¿No tienes ganas? ¡Está bien! ¡Igual, que te diviertas!
+}
+
+SolynPartyTalk: {
+	# If a party is ongoing, Solyn does a neat confetti teleport magic trick.
+	PartyStart: ¡Hey! ¡Esperaba que vinieras!
+	PartyResponse1: Debo admitir... normalmente no soy de fiestas. ¡Pero no pude evitar venir!
+	PartyResponse2: ¡Después de todo, todos parecen estar pasándola genial!
+	PartyResponse3: ¡Es impresionante cuánto ha crecido tu ciudad desde que nos conocimos!
+	PartyResponse4: ¡Ah! Esto me recuerda a algo. ¿Quieres ver un truco de magia? ¡Llevo un tiempo practicándolo!
+	PartyQuestionYes: ¡Claro!
+	PartyQuestionNo: Lo siento, ahora no.
+	PartyResponseYes1: ¡Muy bien, allá voy!^^^
+	PartyResponseYes2: ¡Uf! ¡Eso estuvo cerca! Casi me trago confeti, jaja.
+	PartyResponseYes3: En fin, ¡espero que disfrutes un poco más la fiesta antes de volver a una de tus peligrosas aventuras! ¡Yo seguro lo haré!
+	PartyResponseNo1: Ah, qué lástima...
+	PartyResponseNo2: Pero lo entiendo. ¡Parece que estás ocupado ahora mismo!
+	PartyRepeat1: Me quedaré un rato más hasta que anochezca, como siempre. ¡Diviértete con lo que tengas planeado!
+	SolynTada: ¡Tachán!
+	SolynHatText: ¡Ah! ¡Mi sombrero!
+}
+
+StargazeQuest: {
+	Solyn1: Hola,^ ¿qué te trae por aquí?
+	Player1: Noté que tu telescopio estaba roto.
+	Solyn2: Oh, sí, esperaba pasar el rato observando las estrellas, pero parece que no podré.^ No tengo los recursos para repararlo.
+	Player2: Podría arreglarlo por ti.
+	Solyn3: ¡Oh! Si pudieras arreglarlo, te lo agradecería muchísimo.^ Una vez reparado, podríamos observar las estrellas juntos.
+	Repeat: No te preocupes por mí. Solo estoy disfrutando del entorno.
+}
+
+StargazeQuestCompletion: {
+	Response1: ¡Gracias!^ La astronomía siempre ha sido una gran pasión para mí, y me emociona poder compartirla con alguien más.^ Podemos empezar cuando caiga la noche.
+	Response2: ""
+}
+
+StargazeQuestSawRift: {
+	Talk1: ^Nunca había visto algo así antes...
+	Talk2: Sea lo que sea, tengo un mal presentimiento.
+	Response1: ¿Hay algo que podamos hacer al respecto?
+	Talk3: Hmm...
+	Talk4: Necesitaré pensarlo un poco.
+	Response2: Solyn, era una pregunta retórica.
+	Talk5: Supongo que tienes razón. Tal vez me estoy preocupando por nada.
+	Talk6: De cualquier forma... Me alegra que hayamos podido disfrutar juntos de las estrellas. Estaban realmente hermosas esta noche.
+	Talk7: Ojalá podamos disfrutarlas otra vez algún día.
+	Talk8: Mientras tanto, toma esto.
+	Talk9: Es un diseño mío. Estoy seguro de que podrás darle buen uso.
+	Talk10: En fin, me iré a dormir en un momento. ¡Es bastante tarde!
+}
+
+DormantKeyDiscussion: {
+	Start: ¡Hey! ¿Pasa algo?
+	StartingQuestion: Permafrost me dio esta llave por liberarlo. ¿Sabes algo sobre ella?
+	Conversation1: Hmm...
+	Conversation2: Esa llave no parece ordinaria. Está imbuida con algún tipo de hechizo mágico.
+	Conversation3: ¡Oh! ¡Eso me da una idea!
+	Conversation4: ¿Una idea? ¿Qué tipo de idea?
+	Conversation5: Estoy detectando una tenue firma mágica idéntica a la que emite esta llave. Está en algún lugar profundo dentro de las cavernas heladas.
+	Conversation6: Deberíamos ir a explorarla. Si estaba cerrada con llave, ¡seguro que encontramos cosas increíbles allí!
+	Conversation7: Aquí. Marcaré su ubicación en tu mapa.
+	Conversation8: Estaré allí cuando estés listo, y luego podremos explorar un poco.
+}
+
+PermafrostKeepDiscussion_BeforeOpening.Start: ¡Usa la llave en la puerta, y se abrirá!
+
+PermafrostKeepDiscussion_AtSeed: {
+	Start: Hmm...
+	Conversation1: He estado observando, pero no parece haber mucho de interés,^ excepto esto.
+	Conversation2: Este artefacto congelado parece ser algún tipo de semilla...
+	Conversation3: Además, tiene un potencial mágico increíble.^ Puedo sentirlo.
+	Conversation4: No estoy seguro de para qué podría servir,^ pero te recomendaría que la tomes y la conserves para más adelante.
+	Response1: Lo haré.
+	Conversation5: Bien. En cuanto a mí,^ reflexionaré al respecto. Estoy seguro de que podríamos hacer grandes cosas con esta semilla.
+	Conversation6: En fin, creo que me marcharé.^ ¡Este lugar es bastante pequeño!
+}
+
+FrostblessedSeedlingDiscussion: {
+	Start: He estado reflexionando sobre esa semilla desde hace un tiempo.
+	Solyn1: Plantas como esa son nativas de mi mundo. Son raras y difíciles de cultivar, pero nunca había visto una con suficiente poder para influir en la flora a su alrededor.
+	Solyn2: No me sorprende que Permafrost conservara algo tan significativo, aunque probablemente no supiera qué hacer con ello.
+	Solyn3: Después de todo, no es precisamente un jardinero, ¿cierto?
+}
+
+GenesisRevealDiscussion: {
+	Start: ...Has llegado.
+	Solyn1: Como ambos podemos ver claramente, las cosas ya no son como antes.^ Sabía que esa grieta traería problemas.
+	Solyn2: Tal vez... por eso fui traído aquí.
+	Solyn3: ... De cualquier manera, ciertamente no desaparecerá pronto.
+	Player1: ¿Y ahora qué?
+	Solyn4: ¿Recuerdas esa semilla que encontramos en la fortaleza y que te pedí que guardaras?
+	Player2: ¿Qué pasa con ella?
+	Solyn5: Ahora es débil, pero tiene un potencial mágico casi ilimitado.^ Si podemos aprovechar ese poder y dirigirlo al cielo, debería poder destruir la grieta para siempre.
+	Solyn6: Pero para lograrlo, necesitaremos la ayuda de otros artefactos mágicos similares.
+	Solyn7: A esta construcción la llamaremos... el **Génesis**.
+	Solyn8: Mientras tanto, consultaré todos los recursos mágicos que pueda encontrar para avanzar en esta tarea.
+	Solyn9: Te recomiendo que continúes con tus esfuerzos como siempre. Tienes una habilidad especial para encontrar lo oculto, y eso será muy útil.
+}
+
+CeaselessVoidDiscussionBeforeBattle: {
+	Start: Me alegra que estés aquí.^ Hay algo importante de lo que debemos hablar.
+	StartingQuestion: ¿De qué se trata?
+	Conversation1: He consultado varios textos antiguos del Calabozo, y he aprendido que una grieta sellada en su interior podría contener algo interesante.
+	Conversation2: Esa grieta es una puerta a... otro lugar.^ No estoy del todo seguro a dónde.
+	Conversation3: Además, los escritos sugieren que los antiguos habitantes del Calabozo guardaron algo extremadamente poderoso cerca de la entrada del otro lado de la grieta.^ Estoy seguro de que será útil para construir el Génesis.
+	ConversationQuestion1: De acuerdo. ¿En qué puedo ayudar?
+	Conversation4: Por lo que puedo decir, para explorar debajo de la grieta, su sello protector deberá ser destruido.
+	Conversation5: Te pido que la hagas aparecer.^ Una vez que la grieta esté estabilizada, haré mi parte, me uniré a ti en el Calabozo y exploraremos juntos.
+	Conversation6: ¿Estás listo para ello?
+	Conversation6ResponseYes: Sí. Pero, ¿cómo hago que 'aparezca' exactamente?
+	Conversation6ResponseNo: Tal vez más tarde.
+	ConversationRejection: Entendido. Estaré por aquí si cambias de opinión.
+	Conversation7: Gracias. Aprecio muchísimo tu ayuda.
+	Conversation8: Leí que existe una cierta runa profanada que podría, según el texto, 'evocar' la grieta.
+	Conversation9: No estoy seguro de a qué runa se refiere exactamente, pero buscar artefactos 'profanados', como los que se encuentran en lo profundo del inframundo, probablemente sea un buen punto de partida.
+	Conversation10: Buena suerte.
+}
+
+CeaselessVoidDiscussionAfterBattle: {
+	Start: ¿Ocurre algo?
+	Conversation1: Derroté al Vacío Incesante, y apareció una grieta.
+	Conversation2: Espera, ¿lo **derrotaste**? ^¿Tuviste que luchar??
+	Conversation3: Dios mío... ¿estás bien?
+	ConversationResponse1: Sí, estoy bien.
+	Conversation4: Qué alivio.^^ Yo...^ entonces supongo que te veré en el Calabozo.^ Podré encontrar la grieta por mi cuenta.
+	Conversation5: Una vez allí, entraré y veré qué hay dentro.
+	ConversationResponse2: Todo esto ha sido bastante peligroso. ¿Estás seguro de esto, Solyn?
+	Conversation6: ... Debo hacerlo.
+	Conversation7: Pero aún así, agradezco tu preocupación.^ Significa mucho para mí.
+	Conversation8: En cualquier caso, nos veremos allí.
+	Repeat: ...
+}
+
+CeaselessVoidDiscussionBeforeEnteringRift: {
+	Start: Aquí está.
+	Conversation1: Supongo que lo único que queda es... entrar.
+	Confirmation: ¿Estás seguro de que estás listo?
+	Conversation2: Sí.^^ Lo estoy.
+	Conversation3: Volveré pronto.
+}
+
+CeaselessVoidDiscussionAfterEnteringRift: {
+	Start: Yo...^^ Lo ^encontré.
+	Question1: ¿Estás bien??
+	Conversation1: Yo... ^no lo sé.^ Pero al menos estoy vivo.
+	Question2: ¿Qué pasó?
+	Conversation2: Entré en la grieta y de inmediato sentí un... pavor abrumador.^ Era como si no perteneciera allí.
+	Conversation3: Nada extraño pasó hasta que tomé el artefacto. Una vez que lo hice, yo...
+	Conversation4: No...^ No quiero recordarlo.
+	Conversation5: Vamos... vámonos. Esto ya ha sido suficiente por hoy.
+	Conversation6: Aquí está el artefacto. Estará más seguro en tus manos.
+	Conversation7: Yo...^ estaré en mi campamento. Nos vemos luego.
+}
+
+AntiseedDiscussion: {
+	Start: ¿Recuerdas cuando recuperé esa extraña semilla de la grieta en el calabozo?
+	Solyn1: Estoy empezando a formar nuevas teorías al respecto.
+	Solyn2: No se parece a nada que haya visto en mis estudios, ni de mi mundo ni de este.^ Está claro que no pudo haber venido de ningún lugar que conozcamos.
+	Solyn3: El Brote Bendito por la Escarcha parece estar absorbiendo energía de ella, lo que implica una conexión que no había previsto.
+	Solyn4: Tendré que considerar las implicaciones de la interacción entre estas flores. Hay un propósito más profundo que aún no he descubierto.
+}
+
+DraedonBeforeCombatSimulation: {
+	Start: Qué bueno que estás aquí.^ Quiero hablar un poco más sobre el Génesis.
+	Question1: ¿Estás seguro de que aún no está listo?
+	Conversation1: No lo creo.^ Pero está cerca.^ Solo necesitamos un último artefacto para que alcance todo su potencial.
+	Conversation2: He hecho más investigaciones por mi cuenta, y creo que hay alguien por ahí que podría tener lo que necesitamos.
+	Question2: ¿Quién, exactamente?
+	Conversation3: Un científico renombrado llamado Draedon. ¿Lo has oído nombrar antes?
+	Question3: ¡Sí! Lo contacté brevemente antes mediante una computadora especial.
+	Conversation4: ¡Aha! Eso es bueno.
+	Conversation5: Entonces vamos a esa computadora, y preguntemos juntos.^ Te seguiré la corriente.
+}
+
+GenesisCompletion: {
+	Start: ¿Pasa algo?
+	Player1: Planté la última semilla cerca del Génesis, y comenzó a brotar.
+	Solyn1: ¡Maravilloso!^ ¡Eso significa que nuestro arduo trabajo ha dado frutos!
+	Solyn2: Llévame con ella.^ Te seguiré.
+}
+
+AvatarFightLeadUp: {
+	Solyn1: ¡Aquí está! ¡Se ve magnífico!
+	Solyn2: Ha sido un viaje largo y difícil, pero realmente hemos logrado algo grandioso.
+	Solyn3: Por fin, podemos ver los frutos de nuestro esfuerzo.
+	Solyn4: Ahora, activémoslo.
+}
+
+PostNamelessDiscussion: {
+	Apology1: Ha pasado bastante tiempo desde la última vez que hablamos, viejo amigo.^^ Me alegra que tú también hayas sido admitido en este lugar, y que hayas superado tu propia prueba.
+	Apology2: Creo que te debo una disculpa.
+	Apology3: Nuestro tiempo juntos fue increíble, pero debo confesar que mis intenciones nunca fueron completamente puras.
+	Apology4: Al principio, te vi a ti y al Oscuro como un medio para un fin.^ Otra oportunidad para llegar aquí.^ Una oportunidad de convertirme en una heroína digna del favor de la Deidad.
+	Apology5: Fui imprudente y arrogante. Ahora veo claramente por qué fui rechazada al principio.
+	Apology6: Pero... supongo que al final obtuve mi deseo, a costa de todo lo demás.
+	ApologyResponse: Tengo un par de preguntas.
+	QuestionsStart: ...?
+	HowDidYouEndUpHereQuestion: ¿Cómo llegaste aquí?
+	HowDidYouEndUpHere1: No estoy...^ del todo segura.
+	HowDidYouEndUpHere2: Todo lo que recuerdo es estar envuelta en estática, y despertar aquí. La Deidad se reveló ante mí en todo su esplendor, sin responder a ninguna de mis muchas preguntas.
+	HowDidYouEndUpHere3: Tal vez mi razón para estar aquí sea lástima. Tal vez, desde su perspectiva, me redimí y lo merecí.
+	HowDidYouEndUpHere4: Es posible que nunca lo sepamos. No parecen ser muy conversadores.
+	HowDidYouEndUpHere5: En cualquier caso, estoy eternamente agradecida. Este lugar es verdaderamente especial.
+	WhyDidYouSaveMeQuestion: ¿Por qué me salvaste?
+	WhyDidYouSaveMe1: En ese momento supe que era demasiado tarde. Mis reservas mágicas no eran suficientes para salvarnos a ambos.
+	WhyDidYouSaveMe2: Uno de los dos iba a morir.
+	WhyDidYouSaveMe3: Tu destino claramente era importante. Sentí que tu vida era mucho más valiosa de preservar que la mía.
+	WhyDidYouSaveMe4: Y además, no habría podido vivir conmigo misma si supiera que por mi imprudencia tú moriste.
+	WhyDidYouSaveMe5: Viéndolo en retrospectiva, fue una de las pocas decisiones que tomé y que puedo decir con confianza que fue correcta.
+	WhatNowQuestion: ¿Y ahora qué?
+	WhatNow1: Como dije, mi tiempo entre los vivos ha terminado.
+	WhatNow2: Imagino que mi espíritu permanecerá aquí por mucho tiempo.
+	WhatNow3: ¿Y tú? No estás atado a este jardín. Aún estás vivo.
+	WhatNow4: Ahora eres libre de hacer lo que quieras, habiendo logrado hazañas inigualables.
+	WhatNow5: Estoy segura de que lograrás grandes cosas.
+	DeityQuestion: ¿Qué sabes sobre la deidad?
+	Deity1: No mucho. Sospecho que hay ciertas cosas sobre ellos que ninguno de nosotros sabrá jamás.
+	Deity2: Pero sé que son un ser de bondad y calidez. Un creador de todas las cosas en nuestro mundo.
+	Deity3: En raras ocasiones, los veo cuidar este maravilloso jardín. Está claro para mí que fue creado con mucho amor y dedicación.
+	TreeQuestion: ¿Quieres sentarte bajo el árbol y disfrutar del ambiente?
+	Tree1: ...
+	Tree2: Por supuesto que sí.
+}
+
+SolynErrorFallback.ErrorMessage1: ¡Parece que ocurrió un error desconocido al cargar mi diálogo!
+TripDialogue1: ¡Jaja, qué tonta!
+TripDialogue2: ¡Ups!
+TripDialogue3: ¡Jaja, fue mi error!

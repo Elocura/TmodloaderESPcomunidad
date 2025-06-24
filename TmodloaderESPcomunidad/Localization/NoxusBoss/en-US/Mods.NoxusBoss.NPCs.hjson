@@ -1,0 +1,86 @@
+NoxusEggCutscene.DisplayName: ???
+
+AvatarRift: {
+	DisplayName: ???
+	DisplayNameSingular: ???
+
+	BossChecklistIntegration: {
+		SpawnInfo: Construct and activate the Genesis
+		DespawnMessage: "[c/EA0023:The rift vanishes in the blink of an eye.]"
+	}
+}
+
+AvatarOfEmptiness: {
+	DisplayName: The Avatar of Emptiness
+	DisplayNameSingular: The Avatar of Emptiness
+
+	BossChecklistIntegration: {
+		SpawnInfo: Construct and activate the Genesis.
+		DespawnMessage: "[c/EA0023:The Dark One's grotesque form vanishes in the blink of an eye.]"
+	}
+
+	InfernumCompatibility.Title: Brightest Star In A Perfect World
+	ParadiseReclaimedText: paradise reclaimed
+}
+
+NamelessDeityBoss: {
+	DisplayName: Nameless Deity
+	DisplayNameSingular: Nameless Deity
+	SillyDeathCountSuffix: ", Tormentor of Nohitters"
+	TestOfResolveName: ENDLESS DEITY
+
+	BossChecklistIntegration: {
+		SpawnInfo: Use the [i:CalamityMod/Terminus] after its gaze has opened.
+		DespawnMessage: "[c/FF463D:You have failed the test.]"
+	}
+
+	InfernumCompatibility.Title: ??????????????????????????????????????????????????
+}
+
+DismalSeeker.DisplayName: Dismal Seeker
+Fogwood.DisplayName: Fogwood
+Mirrorwalker.DisplayName: Mirrorwalker
+DarkHarbinger.DisplayName: Dark Harbinger
+Frightweaver.DisplayName: Frightweaver
+# These names do not have to be translated, since when displayed ingame they are drawn in a divine language anyway via a special font.
+Aelithrysuwl.DisplayName: Aelithrysuwl
+Vivajuyfylae.DisplayName: Vivajuyfylae
+
+Solyn: {
+	DisplayName: Solyn
+
+	TownNPCMood: {
+		Content: Sorry translators, ignore this. These are not used anywhere but TML requires them.
+		NoHome: Sorry translators, ignore this. These are not used anywhere but TML requires them.
+		FarFromHome: Sorry translators, ignore this. These are not used anywhere but TML requires them.
+		LoveSpace: Sorry translators, ignore this. These are not used anywhere but TML requires them.
+		DislikeCrowded: Sorry translators, ignore this. These are not used anywhere but TML requires them.
+		HateCrowded: Sorry translators, ignore this. These are not used anywhere but TML requires them.
+		LikeNPC_Princess: Sorry translators, ignore this. These are not used anywhere but TML requires them.
+		Princess_LovesNPC: Sorry translators, ignore this. These are not used anywhere but TML requires them.
+	}
+}
+
+MarsBody: {
+	DisplayName: XG-07 Mars
+
+	BossChecklistIntegration: {
+		SpawnInfo: Initiate a special quest alongside Solyn and contact Draedon with the Codebreaker.
+		DespawnMessage: "[c/9BFFFF:Precisely within the margins of my calculations.]"
+	}
+
+	InfernumCompatibility.Title:
+		'''
+		Greenhouse Goliath
+		Mars
+		'''
+}
+
+CeaselessVoidRift: {
+	DisplayName: ???
+	MapIconText: Mysterious Rift
+}
+
+QuestDraedon.DisplayName: Draedon
+BattleSolyn.DisplayName: Solyn
+TrappingHolographicForcefield.DisplayName: Projected Forcefield
