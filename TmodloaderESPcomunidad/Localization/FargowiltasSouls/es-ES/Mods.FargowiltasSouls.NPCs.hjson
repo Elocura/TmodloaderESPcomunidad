@@ -1,0 +1,394 @@
+AbomBoss_April.DisplayName: Jefe Javyz
+
+AbomBoss: {
+	DisplayName: Abominación
+
+	BossChecklistIntegration: {
+		EntryName: "{$Mods.FargowiltasSouls.NPCs.AbomBoss.DisplayName}"
+		SpawnInfo: Se invoca usando [i:FargowiltasSouls/AbomsCurse]
+		DespawnMessage: La Abominación no ve a ningún oponente digno...
+		KilledAllMessage: La Abominación ha destruido a todos.
+	}
+}
+
+AbomSaucer.DisplayName: Platillo Miniatura
+
+TrojanSquirrel: {
+	DisplayName: Ardilla Troyana
+
+	BossChecklistIntegration: {
+		EntryName: "{$Mods.FargowiltasSouls.NPCs.TrojanSquirrel.DisplayName}"
+		SpawnInfo: Se invoca usando [i:FargowiltasSouls/SquirrelCoatofArms]
+		DespawnMessage: La Ardilla Troyana regresa a su clan de ardillas...
+	}
+}
+
+TrojanSquirrelArms.DisplayName: Ardilla Troyana
+TrojanSquirrelHead.DisplayName: Ardilla Troyana
+
+CosmosChampion: {
+	DisplayName: Eridanus, Campeón del Cosmos
+
+	BossChecklistIntegration: {
+		EntryName: "{$Mods.FargowiltasSouls.NPCs.CosmosChampion.DisplayName}"
+		SpawnInfo: Se invoca usando [i:FargowiltasSouls/SigilOfChampions] en el espacio.
+		DespawnMessage: Eridanus, Campeón del Cosmos, regresa a las estrellas...
+		KilledAllMessage: Eridanus, Campeón del Cosmos, ha derrotado a todos los enemigos.
+	}
+}
+
+EarthChampion: {
+	DisplayName: Campeón de la Tierra
+
+	BossChecklistIntegration: {
+		EntryName: "{$Mods.FargowiltasSouls.NPCs.EarthChampion.DisplayName}"
+		SpawnInfo: Se invoca usando [i:FargowiltasSouls/SigilOfChampions] en el Inframundo.
+		DespawnMessage: El Campeón de la Tierra desaparece bajo la magma...
+	}
+}
+
+EarthChampionHand.DisplayName: Campeón de la Tierra
+LesserFairy.DisplayName: Hada Menor
+LesserSquirrel.DisplayName: Ardilla Menor
+
+LifeChampion: {
+	DisplayName: Campeón de la Vida
+
+	BossChecklistIntegration: {
+		EntryName: "{$Mods.FargowiltasSouls.NPCs.LifeChampion.DisplayName}"
+		SpawnInfo: Se invoca usando [i:FargowiltasSouls/SigilOfChampions] en el Sagrado durante el día.
+		DespawnMessage: El Campeón de la Vida se desvanece...
+	}
+}
+
+NatureChampion: {
+	DisplayName: Campeón de la Naturaleza
+
+	BossChecklistIntegration: {
+		EntryName: "{$Mods.FargowiltasSouls.NPCs.NatureChampion.DisplayName}"
+		SpawnInfo: Se invoca usando [i:FargowiltasSouls/SigilOfChampions] en la nieve subterránea.
+		DespawnMessage: El Campeón de la Naturaleza regresa a su letargo...
+	}
+}
+
+NatureChampionHead.DisplayName: Campeón de la Naturaleza
+
+ShadowChampion: {
+	DisplayName: Campeón de la Muerte
+
+	BossChecklistIntegration: {
+		EntryName: "{$Mods.FargowiltasSouls.NPCs.ShadowChampion.DisplayName}"
+		SpawnInfo: Se invoca usando [i:FargowiltasSouls/SigilOfChampions] en la Corrupción o Carmesí de noche.
+		DespawnMessage: El Campeón de la Muerte se desvanece...
+	}
+}
+
+ShadowOrb.DisplayName: Orbe de la Sombra
+
+SpiritChampion: {
+	DisplayName: Campeón del Espíritu
+
+	BossChecklistIntegration: {
+		EntryName: "{$Mods.FargowiltasSouls.NPCs.SpiritChampion.DisplayName}"
+		SpawnInfo: Se invoca usando [i:FargowiltasSouls/SigilOfChampions] en el desierto subterráneo.
+		DespawnMessage: El Campeón del Espíritu desaparece en el desierto...
+	}
+}
+
+SpiritChampionHand.DisplayName: Campeón del Espíritu
+
+TerraChampion: {
+	DisplayName: Campeón de Terra
+
+	BossChecklistIntegration: {
+		EntryName: "{$Mods.FargowiltasSouls.NPCs.TerraChampion.DisplayName}"
+		SpawnInfo: Se invoca usando [i:FargowiltasSouls/SigilOfChampions] bajo tierra.
+		DespawnMessage: El Campeón de Terra se desvanece en las cavernas...
+	}
+}
+
+TerraChampionBody.DisplayName: Campeón de Terra
+TerraChampionTail.DisplayName: Campeón de Terra
+
+TimberChampion: {
+	DisplayName: Campeón de la Madera
+
+	BossChecklistIntegration: {
+		EntryName: "{$Mods.FargowiltasSouls.NPCs.TimberChampion.DisplayName}"
+		SpawnInfo: Se invoca usando [i:FargowiltasSouls/SigilOfChampions] en la superficie durante el día.
+		DespawnMessage: El Campeón de la Madera regresa a su clan de ardillas...
+	}
+}
+
+TimberChampionHead.DisplayName: Campeón de la Madera
+
+WillChampion: {
+	DisplayName: Campeón de la Voluntad
+
+	BossChecklistIntegration: {
+		EntryName: "{$Mods.FargowiltasSouls.NPCs.WillChampion.DisplayName}"
+		SpawnInfo: Se invoca usando [i:FargowiltasSouls/SigilOfChampions] en el océano.
+		DespawnMessage: El Campeón de la Voluntad regresa a las profundidades...
+	}
+}
+
+TophatSquirrelCritter.DisplayName: Ardilla con Sombrero de Copa
+BrainClone.DisplayName: Cerebro de Cthulhu
+BrainIllusion.DisplayName: Cerebro de Cthulhu
+BrainIllusion2.DisplayName: Cerebro de Cthulhu
+BrainIllusionAttack.DisplayName: Cerebro de Cthulhu
+CreeperGutted.DisplayName: Parásito Destripado
+CrystalLeaf.DisplayName: Hoja de Cristal
+DetonatingBubble.DisplayName: Burbuja Detonante
+DetonatingBubbleEX.DisplayName: Burbuja Detonante
+GelatinSlime.DisplayName: Slime de Cristal
+GelatinSubject.DisplayName: Sujeto de Gelatina
+RoyalSubject.DisplayName: Sujeto Real
+MutantBoss_April.DisplayName: Asesino de Dioses Yharim
+
+MutantBoss: {
+	DisplayName: Mutante
+
+	BossChecklistIntegration: {
+		EntryName: "{$Mods.FargowiltasSouls.NPCs.MutantBoss.DisplayName}"
+		SpawnInfo: Lanza una [i:FargowiltasSouls/AbominationnVoodooDoll] en una piscina de lava mientras Abominación esté viva y el Mutante esté presente.
+		DespawnMessage: El Mutante vuelve a sellar su poder...
+		KilledAllMessage: El Mutante ha eviscerado a todos con sus propias manos.
+	}
+
+	SkipP1: El Mutante se cansa de la farsa...
+
+	GFBText: {
+		Random0: Jejejejejeje...
+		Random1: ¿Disfrutas este dolor?
+		Random2: Esta sensación...
+		Random3: Pondré fin a todo esto.
+		Random4: Terrariano necio...
+		Random5: Que se escriba en tu mísera tumba: Derribado por el Mutante.
+		Random6: Nadie puede reclamar el título de Eterno.
+		Random7: Dolor eterno sobre ti.
+		Random8: No eres digno del Alma Eterna.
+		Random9: Tiembla ante mi poder.
+		Random10: El Penetrador se estremece...
+		Random11: ¡Cae ante el poder verdadero!
+		Random12: El poder está en el ojo del que lo contempla. El poder absoluto es un hecho.
+		Random13: Sé testigo de un verdadero cataclismo.
+		Random14: Podría recitar todos los dígitos de Pi antes de que me derrotes.
+		Random15: Esto apenas comienza.
+		Random16: Ni intentes esquivar.
+		Random17: He entrenado siglos para una pelea como esta.
+		Random18: Purga a los débiles.
+		Random19: La suerte no te servirá aquí.
+		Random20: Llenaré un cáliz con tu sangre.
+		Random21: Al final, todos son tan pequeños... menos yo, claro.
+		Random22: ¡Te haré pedazos imposibles de contar!
+		Random23: ¡Te maldigo con el poder de la luna!
+		Random24: ¡Esto es solo una fracción de mi poder!
+		Random25: Tu “poder” no vale nada comparado al mío.
+		Random26: Cada golpe que recibes hace crecer mi poder más de lo que puedes imaginar.
+		Random27: ¿Crees que puedes derrotarme?
+		Random28: Soy inigualable. Soy invencible.
+		Random29: Al final, todo se convierte en polvo.
+		Random30: ¿Estás preparado para cargar con el manto?
+		Random31: ¡NO HAY ESCAPE!
+		Random32: Dios quiere que sufras, y yo soy Dios.
+		Random33: ¡Te juzgo indigno de existir!
+		Random34: Tu vida es fugaz. Tu único propósito restante es morir.
+		Random35: Las fuerzas de Terra están de mi lado.
+		Random36: ¡Te romperé!
+		Random37: Rómpete como el vidrio.
+		Random38: Si dejas de atacar, tal vez te perdone.
+		Random39: ¡NO QUEDARÁ NADA MÁS QUE RECUERDOS!
+		Random40: ¡ME ASEGURARÉ DE QUE NO QUEDE NADA QUE ENTERRAR!
+		Random41: ¡NI LOS FUEGOS DEL INFIERNO PUEDEN COMPARARSE!
+		Random42: Creo que tus células están demasiado separadas. ¿Qué tal si te las acomodo?
+		Random43: Haré pedazos hasta tus átomos.
+		Random44: Eres como un niño, rebuznando ante un dios eterno.
+		Random45: Mancharé esas almas con tu sangre.
+		Random46: ¡Contempla el poder de Terraria!
+		Random47: ¡Contempla la fuerza del Universo!
+		Random48: ¡De las llamas resplandecientes, surge mi victoria!
+		Random49: ¡Olvida tus sueños de divinidad!
+		Random50: Cada uno de tus miserables huesos se romperá.
+		Random51: ¡La gran calamidad, fielmente recreada!
+		Random52: ¿Vivirás para ver el final?
+		Random53: ¡Eso dolió!
+		Random54: No puedes herirme.
+		Random55: Rómpete como el vidrio.
+		Random56: Desvanécete como ceniza.
+		Random57: ¿Cegado por tu propia depresión?
+		Random58: Se pueden oír los gritos de tus futuras muertes.
+		Random59: Me llaman el Dios Cruel de la Eternidad.
+		Random60: También prueba el modo Satanista.
+		Random61: Ni siquiera Fargo se compara con mi poder.
+		Random62: Me has estado pagando con dinero falso. Este es tu castigo.
+		Random63: ¿Qué es un Touhou?
+		Random64: Todo el dinero que me diste solo me hizo más fuerte.
+		Random65: ¡¡Círculo esto!!
+		Random66: ¡¡TODO TERMINA HOY!!
+		Random67: ¡Tu muerte inminente se acerca rápido, gusano!
+		Random68: Aplastaré tu existencia inútil.
+		Random69: ¡No vivirás lo suficiente para contar la historia!
+		Random70: ¿CREES QUE TIENES UNA OPORTUNIDAD CONTRA MÍ, EL ETERNO? ¿YO, QUIEN CAMBIA LA MAREA Y EL MUNDO? ¡YO SOY EL ETERNO, SOY EL INMORTAL! ¡ERES COMO UNA HORMIGA EN UN HORMIGUERO AGONIZANTE, Y YO EL SOL ABRASADOR! ¡SERÁS DIVIDIDO Y DESTROZADO HASTA QUE SOLO QUEDEN MOTAS DE LUZ Y CENIZA! ¡CADA UNA DE TUS HAZAÑAS PÁLIDAS ANTE MI ETERNIDAD! ¡LLEVO EL PUÑO DEL GOLEM, EL OJO FANTASMAL, LA ENREDADERA SERPENTEANTE, LA ABEJA IMPLACABLE, EL CEREBRO GENIAL, LAS ALAS DEL CAZADOR! ¡SERÁS BORRADO DE LA HISTORIA, GUSANO INSIGNIFICANTE!
+		Quote1: Entrégalo. Eso, tus activadores de efectos.
+		Quote2: Espero que estés listo para abrazar el sufrimiento.
+		Quote3: Hora de dejar de jugar.
+		Quote4: ¡Siente la furia del Penetrador!
+		Quote5: ¡Grah!
+		Quote6: ¡Rayos de la Muerte!
+		Quote7: Siente mi poder.
+		Quote8: ¡Mi espada te atravesará!
+		Quote9: ¡Siente la ira del Penetrador!
+		Quote10: ¡Grrrah!
+		Quote11: Siente mi poder.
+		Quote12: Solar, Vórtice, Nébula, Polvo Estelar... todos unidos contra ti.
+		Quote13: Yo era la presencia maligna que observaba.
+		Quote14: ¡El verdadero poder del Penetrador!
+		Quote15: ¡Orah!
+		Quote16: El mundo está temblando...
+		Quote17: Furia mecánica...
+		Quote18: ¡Tormenta de Fishron!
+		Quote19: Si no esquivas esto, te lo mereces.
+		Quote20: ¿Por qué estoy usando esto?
+		Quote21: ¿Puedes seguirme el ritmo?
+		Quote22: ¡No importa cuántas veces luches esta batalla, jamás ganarás! Soy un dios cruel de la eternidad. Empuño las ramas de Yggdrasil y Ragnarok, el azufre giratorio de la Calamidad, las sombras eternas de las Herramientas Sagradas, las Magias azuladas, los Espíritus sagrados de tierras arcanas, el poder ascendente del Avalon elevado, la bendición todopoderosa de la Nova del Ultraseer, la esencia despierta de los Antiguos perdidos, la luz abrasadora y la sombra del resplandeciente Dividir universal, las máquinas que deforman mundos y herramientas que forjan ciudades de Lui, ¡y la convergencia cósmica que anuncia la Cacería del Dios Antiguo!
+		Quote23: La naturaleza se une contra ti.
+		Quote24: ¡El Asalto Sobresaliente de la Emperatriz!
+		Quote25: ¿Pensaste que ya había terminado?
+		Quote26: ¡¡NO ERES NADA COMPARADO CON LOS ESPÍRITUS EROSIONADOS!! ¡¡TRAIGO EL FIN SOBRE LOS NECIOS, LOS INDIGNOS!! ¿QUIERES VENCERME? ¡¡TAL VEZ EN DOS ETERNIDADES!!
+		Quote27: ¡¡MUERE, TERRARIANO NECIO!! DIJERON QUE HABÍA 3 PORTADORES DEL FIN, ¡PERO YO SOY EL CUARTO, UN ROMPEDOR DE LA REALIDAD! ¡EL INFIERNO NO ACEPTA ESCORIA COMO TÚ, ASÍ QUE SUFRE POR SIEMPRE EN MI INFINITO ATAQUE DE PODER ILIMITADO, EL POTENCIAL DE ETERNIDADES LLEVADO AL MÁXIMO ABSOLUTO DE LAS APOGÉICAS! ¡¡TU ALMA PROFANA SERÁ CONSUMIDA POR PROFUNDIDADES MÁS BAJAS QUE EL FONDO DEL INFIERNO!!
+		Quote28: ¡CONTROLO EL PODER QUE SE EXTENDIÓ HASTA LOS CONFINES DEL UNIVERSO, UNIENDO DIMENSIONES, MANIPULANDO TERRARIA, ANIQUILANDO MASOQUISTAS Y JUZGANDO LOS CIELOS! DURANTE SIGLOS HE ENTRENADO CON UN SOLO OBJETIVO: PURGAR EL MUNDO DE LOS INDIGNOS, ANIQUILAR A LOS DÉBILES Y TRAER EL VERDADERO PODER. ¡EN LAS ALTURAS CELESTIALES, MI HERMANO REINA SOBRE EL CIELO! ¡PRONTO, TODO TERRARIA SERÁ PURGADO Y UNA NUEVA ERA EMPEZARÁ! ¡UNA NUEVA ERA DE GRANDEZA! ¡UNA EDAD DORADA DONDE SOLO EXISTAN SERES ABSOLUTOS! ¡MUERTE, INFIERNO, MAREA; SOY EL OMEGA Y EL ALFA, EL PRINCIPIO Y EL FIN! ¡¡PODER ABSOLUTO; REVELACIONES. SER ABSOLUTO, PUREZA ABSOLUTA!!
+		Quote29: ¡DENTRO DE LAS INSENSATECES DEL MUNDO MORTAL HE ALCANZADO UN PODER QUE FUE DESTERRADO AL BORDE DE LA GALAXIA! TRAIGO CALAMIDADES, CATÁSTROFES Y CATACLISMOS; PODERES ARCANOS DERIVADOS DE LA PALABRA ABSOLUTA DEL DESTINO. ¡¡SIENTE MI IRA OMNIPRESENTE HUNDIRTE EN LA TIERRA COMO UN MODELADOR DE MUNDOS HUNDE SU MUNDO EN LA REALIDAD!!
+		Quote30: ¡¡EL OJO DEL FRANCOTIRADOR PALECE ANTE MI PERCEPCIÓN DE LA REALIDAD!! ¡LA FURIA DEL BERSÉRKER ES COMO LA DE UN CONEJO! ¡LOS OLÍMPICOS, DIOSES MENORES; LOS ARQUIMAGOS, UNOS FARSANTES! ¡EL DOMINIO DEL VUELO, LA VOLUNTAD DE HIERRO DE UN COLOSO; TODO ESO ES ELEMENTAL! ¡UN CONJURADOR ES APENAS UN ILUSIONISTA AMBULANTE! ¡UN ARRASTRERO, UNA ASTILLA COMPARADA CON MI MAESTRÍA DE LA VIDA! ¡¡VELOCIDAD SUPERSÓNICA, TIEMPO A LA VELOCIDAD DE LA LUZ!! ¡¡LA LUZ GLORIOSA TE ELIMINARÁ, NECIO BUFÓN!!
+		Quote31: AAAAAAAAAAAAAAAAAAAAAAAAAA
+		Quote32: ¡No tengo ni una sola pizca de arrepentimiento en mi existencia!
+		Quote33: Oh, cierto... mi reaparición...
+		Quote34: Eres bastante bueno...
+		Quote35: AZUL
+		Quote36: Soy Mutante, la Espada de Fargo.
+	}
+}
+
+MutantIllusion.DisplayName: Mutante
+
+DeviBoss: {
+	DisplayName: Deviantt
+
+	BossChecklistIntegration: {
+		EntryName: "{$Mods.FargowiltasSouls.NPCs.DeviBoss.DisplayName}"
+		SpawnInfo: Invocado usando [i:FargowiltasSouls/DevisCurse]
+		DespawnMessage: Deviantt se aburre de la batalla...
+		KilledAllMessage: Deviantt está satisfecho con su muestra de amor.
+	}
+
+	Bribe: {
+		Line1: Espera un segundo...
+		Line2: ¡Me estás lanzando dinero!
+		Line3: ¡Intentar sobornarme es bastante atrevido, ¿sabes?!
+		Accept1: Pero bueno... esto es MUCHO dinero...
+		Accept2: Aunque mi hermanito dijo que no lo hiciera... ¿Qué hago, qué hago...?
+		Accept3: ¡Bah, qué más da! Pero que sea nuestro pequeño secreto, ¿vale?
+		Reject1: ¡Demuestra que eres lo bastante fuerte y no me molestaré, pero ni un segundo antes!
+		Reject2: Toma, puedes quedártelo de nuevo.
+		Reject3: ¡Volvamos al espectáculo!
+	}
+}
+
+ShadowOrbNPC.DisplayName: Orbe Sombrío
+
+LifeChallenger: {
+	DisplayName: Luz de Vida
+
+	BossChecklistIntegration: {
+		EntryName: "{$Mods.FargowiltasSouls.NPCs.LifeChallenger.DisplayName}"
+		SpawnInfo: Invocado usando [i:FargowiltasSouls/FragilePixieLamp] en el Sagrado durante el día.
+		DespawnMessage: Luz de Vida se desvanece...
+	}
+
+	FatherOfLies: Fue un error venir aquí.
+}
+
+BanishedBaron: {
+	DisplayName: Barón Desterrado
+
+	BossChecklistIntegration: {
+		EntryName: "{$Mods.FargowiltasSouls.NPCs.BanishedBaron.DisplayName}"
+		SpawnInfo: Aparece al usar [i:FargowiltasSouls/MechLure] bajo el agua en el Océano.
+		DespawnMessage: El Barón Desterrado se sumerge más profundo en el océano...
+	}
+
+	Slurp: glup
+}
+
+CursedCoffin: {
+	DisplayName: Ataúd Maldito
+
+	BossChecklistIntegration: {
+		EntryName: "{$Mods.FargowiltasSouls.NPCs.CursedCoffin.DisplayName}"
+		SpawnInfo: Despierta al usar [i:FargowiltasSouls/CoffinSummon] en una cámara especial dentro de la Pirámide.
+		DespawnMessage: El Ataúd Maldito se entierra nuevamente en las profundidades arenosas...
+	}
+}
+
+CursedSpirit.DisplayName: Espíritu Maldito
+DetonatingBubbleNPC.DisplayName: Burbuja Detonante
+StardustMinion.DisplayName: Esbirro de Polvo Estelar
+StardustDragon.DisplayName: Dragón de Polvo Estelar
+SlimeSwarm.DisplayName: Enjambre de Slimes
+Magmaw.DisplayName: Mandíbula de Magma
+DukeFishronEX.DisplayName: Duque Fishron EX
+
+EMode: {
+	Betsy1: VERGÜENZA AJENA
+	Betsy2: NADA ÉPICO
+	Betsy3: MONKAS
+	Betsy4: MUESTRA LAS ALAS
+	Betsy5: ¡AÉREO ÉPICO!
+	Betsy6: ¿CUÁNDO UN JEFE DE VERDAD?
+	Betsy7: "#NOESMICOMODOMASOQUISTA"
+	Betsy8: DE TODAS FORMAS EL OOA ES MALO
+	Betsy9: LLORA MÁS, RABIA, REVUÉLVETE
+	Betsy10: PONTE SERIO
+	Betsy11: SÉ FALSO
+	Betsy12: ÉPICO
+	Betsy13: ÉPICO
+	Betsy14: Si puedes leer esto, di 22
+	Betsy15: GuraSentada
+	Betsy16: juega calamity
+	Betsy17: juega thorium
+	Betsy18: ¿reto de 1hp en modo extremo cuándo?
+	Betsy19: ahora hazlo con una espada corta de cobre
+	Betsy20: ¿Yoyo Zenith?
+	Betsy21: chicos, ¿cómo derroto al Moon Lord?
+	Betsy22: ¡CHICOS CONSEGUÍ LA TERRAPRISMA!
+	Betsy23: ¿cómo instalo esta actualización?
+	Betsy24: ¡Hola YouTube!
+	Betsy25: <Mensaje eliminado por el staff>
+	Betsy26: <Usuario {0} fue baneado>
+	Betsy27: <Usuario {0} fue silenciado>
+	RegrowArms: ¡{0} ha regenerado sus brazos!
+	GuardianForm: ¡{0} ha entrado en forma de Guardián de Mazmorra!
+	TwinsEndure: ¡{0} resistió el golpe fatal para luchar junto a su gemelo!
+	TwinsRevive: ¡{0} ha revivido!
+	GelatinSubjects: ¡Los Sujetos de Gelatina han despertado!
+	QueenBeeEnrage: ¡{$NPCName.QueenBee} se ha enfurecido fuera de la selva subterránea!
+}
+
+RoyalSubjectVertical.DisplayName: Sujeto Real
+GelatinBouncer.DisplayName: Slime Rebotador
+GelatinFlyer.DisplayName: Slime Celestial
+CursedCoffinInactive.DisplayName: Ataúd Misterioso
+
+UnconsciousDeviantt: {
+	DisplayName: ???
+	Unconscious: ...
+	UnconsciousChatButton: Revisar si tiene pulso
+	Introduction: ¿Eh? ¿Estoy bien? Supongo que mi totalmente planeado truco de caer del cielo se vio más doloroso de lo que era. ¡Soy {0}, tu nueva (y mucho más genial que el otro) guía! Toma esto antes de irte, ¡seguro te será útil!
+}
+
+ReleasedMutant: {
+	DisplayName: ???
+	Chat: *bosteza* ...¿por qué me despertaste? ¿Un monstruo de slime gigante? ...¿te refieres a mi cama? Bah, olvídalo... Me consigo otra.
+	TalkToHim: ¿Quién eres?
+	Introduction: Ya has oído de mí. Pero ¿quién eres tú? No, no me digas tu nombre, no me importa. Estoy preguntando cuánto dinero estás dispuesto a gastar en mis productos.
+}

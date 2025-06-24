@@ -1,0 +1,38 @@
+DisplayName: Configuración de Calamity
+
+Headers: {
+	Modes: Modos
+	Balance: Balance
+}
+
+ConsumableSummons: {
+	Label: Objetos de invocación son consumibles en el Modo Eternidad
+	Tooltip:
+		'''
+		Cambia los objetos de invocación del juego base y de Calamity para que sean consumibles, anulando el cambio de Calamity que los hace no consumibles.
+		Este cambio existe solo por coherencia con las siguientes funciones:
+		- Reembolso de objetos de invocación en intentos de jefe en el Modo Eternidad (efectivamente igual a ser no consumibles)
+		- El NPC Mutante
+		- Las variantes de objetos de invocación del mod Mutante
+		'''
+}
+
+EternityPriorityOverRev: {
+	Label: Prioridad del Modo Eternidad sobre los Modos de Calamity
+	Tooltip:
+		'''
+		Activado: El comportamiento del Modo Eternidad tiene prioridad sobre los cambios de jefes de Calamity. Algunos jefes de Calamity tienen nuevo comportamiento bajo el Modo Eternidad.
+		Desactivado: Los cambios de jefes de Calamity tienen prioridad sobre Eternity.
+		'''
+}
+
+InfernumDisablesEternity: {
+	Label: El Modo Infernum desactiva el Modo Eternidad
+	Tooltip:
+		'''
+		Solo es relevante si el mod Infernum Mode está habilitado.
+		Ten en cuenta que INFERNUM NO ES COMPATIBLE. Independientemente de esta configuración, se esperan problemas.
+		Activado: La dificultad del Modo Infernum desactiva completamente el Modo Eternidad.
+		Desactivado: Eternity estará habilitado en el Modo Infernum, pero la IA de los jefes de Infernum tendrá prioridad, a menos que la opción "Prioridad del Modo Eternidad sobre los Modos de Calamity" esté activada.
+		'''
+}

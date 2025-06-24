@@ -1,0 +1,86 @@
+EternityRevDifficulty: {
+	Name: Eternidad-Venganza
+	ShortDescription: "[c/00FFFF:Un modo desafiante de los mods de Fargo que incluye] [c/880808:cambios del Modo Venganza] [c/00FFFF:.]"
+	ExpandedDescription:
+		'''
+		Activa el [c/00FFFF:Modo Eternidad] y el [c/880808:Modo Venganza,] y habilita las recompensas del Modo Maestro.
+
+		Reelabora el comportamiento del [c/00FFFF:Modo Eternidad] para varios jefes del Calamity. Cambios actuales:
+		-Todos los jefes hasta el Clon de Calamitas
+		-Old Duke
+		-Exo Mechs
+		¡Los jefes restantes aún están en desarrollo!
+
+		Por defecto, el comportamiento del [c/00FFFF:Modo Eternidad] tiene prioridad. Esto se puede cambiar en la configuración.
+		{$Mods.FargowiltasSouls.UI.ExpandedFeatures}
+		[i:1612][c/00ff00:Se recomienda usar el mod Fargo's Mutant Mod Debuff Display (en la configuración)]
+		'''
+	Activation: ¡Modo Eternidad-Venganza activado!
+	Deactivation: Modo Eternidad-Venganza desactivado.
+}
+
+EternityDeathDifficulty: {
+	Name: Eternidad-Muerte
+	ShortDescription: "[c/00FFFF:Un modo desafiante de los mods de Fargo que incluye] [c/800080:cambios del Modo Muerte] [c/00FFFF:y comportamiento adicional de jefes Vanilla.]"
+	ExpandedDescription:
+		'''
+		Activa el [c/00FFFF:Modo Eternidad] y el [c/800080:Modo Muerte,] y habilita las recompensas del Modo Maestro.
+		[c/00FFFF:Esta es la experiencia principal recomendada.]
+
+		Reelabora el comportamiento del [c/00FFFF:Modo Eternidad] para varios jefes del Calamity. Cambios actuales:
+		-Todos los jefes hasta el Clon de Calamitas
+		-Old Duke
+		-Exo Mechs
+		¡Los jefes restantes aún están en desarrollo!
+		Solo en Eternidad-Muerte: amplía el comportamiento de los jefes Vanilla en [c/00FFFF:Modo Eternidad], incluyendo partes inspiradas en el Calamity o nuevas mecánicas basadas en él.
+
+		Por defecto, el comportamiento del [c/00FFFF:Modo Eternidad] tiene prioridad. Esto se puede cambiar en la configuración.
+		{$Mods.FargowiltasSouls.UI.ExpandedFeatures}
+		[i:1612][c/00ff00:Se recomienda usar el mod Fargo's Mutant Mod Debuff Display (en la configuración)]
+		'''
+	Activation: ¡Modo Eternidad-Muerte activado!
+	Deactivation: Modo Eternidad-Muerte desactivado.
+}
+
+UI: {
+	ToggledWithCal: Activado con el selector de dificultad del Calamity
+	HadesIconMessage: Hades, un terror serpentino con armadura impenetrable y un sinfín de torretas láser.
+	AresIconMessage: Ares, una monstruosidad diabólica de gran peso con cuatro superarmas Exo desmontables.
+	ArtemisAndApolloIconMessage: Artemisa y Apolo, un par de autómatas increíblemente ágiles con reservas de energía inestables.
+}
+
+Buffs: {
+	CalamitousPresenceBuff: {
+		Description: Defensa, reducción de daño y regeneración de vida reducidas; efecto de Sanguijuela Lunar; menor radio de roce
+		DisplayName: Presencia Calamitosa
+	}
+}
+
+ExpandedTooltips: {
+	FountainAstral: Fuerza el estado del bioma circundante a Infección Astral (solo en modo difícil) al activarse
+	FountainCrags: Fuerza el estado del bioma circundante a Acantilados de Azufre al activarse
+	FountainSulphur: Fuerza el estado del bioma circundante al Mar Sulfuroso al activarse
+	FountainSunken: Fuerza el estado del bioma circundante al Mar Hundido al activarse
+	MasoModeDisabled: "[c/FF0000:Compatibilidad con Calamity:] ¡Activa el Modo Eternidad con el selector de dificultad del Calamity!"
+	UsablePostMutant: "[c/FF0000:Compatibilidad con Calamity:] Solo se puede usar después de derrotar al Mutante"
+	DisabledByDefault: "[c/FF0000:Compatibilidad con Calamity:] Alternancia desactivada por defecto"
+}
+
+RecipeGroups: {
+	GildedDagger: Daga Dorada
+	EvilBar: Barra Maligna
+	VictideHelmet: Casco Victide
+	AerospecHelmet: Casco Aerospec
+	StatigelHelmet: Casco Statigel
+	ReaverHelmet: Casco Reaver
+	DaedalusHelmet: Casco Daedalus
+	HydrothermicHelmet: Casco Hidrotérmico
+}
+
+BossRushDialogue: {
+	Start: Empecemos.
+	EndP1_1: Esto es aburrido.
+	EndP1_2: Vamos al grano.
+}
+
+EmodeBannedByInfernum: "[c/00ffee:Modo Eternidad] desactivado por [c/9c0000:Modo Infernum]."

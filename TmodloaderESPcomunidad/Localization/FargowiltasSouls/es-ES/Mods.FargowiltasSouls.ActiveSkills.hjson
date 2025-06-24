@@ -1,0 +1,132 @@
+GrantsSkill: Otorga habilidad activa:
+GrantsSkillsPlural: Otorga habilidades activas:
+KeybindMenu: Presiona {0} para asignar habilidades
+Unequipped: ¡No equipado! ¡No se puede usar!
+Unbound: ¡No asignado!
+BoundTo: ¡Asignado a {0}!
+
+SpecialDashEffect: {
+	DisplayName: Embestida de Abeja
+	Tooltip: Realiza una corta y rápida embestida de abeja hacia el cursor
+}
+
+BetsyDashEffect: {
+	DisplayName: Embestida de Bola de Fuego
+	Tooltip:
+		'''
+		Realiza una corta embestida de bola de fuego invencible hacia el cursor
+		Comparte enfriamiento con Embestida de Abeja
+		'''
+}
+
+DiveEffect: {
+	DisplayName: Zambullida Rápida
+	Tooltip:
+		'''
+		Actívala en el aire para caer rápidamente
+		Por defecto usa Doble Toque ABAJO si no hay tecla asignada a la habilidad
+		'''
+}
+
+GoldKeyEffect: {
+	DisplayName: Caparazón Dorado
+	Tooltip:
+		'''
+		Envuélvete en un caparazón dorado
+		No podrás moverte ni atacar, pero serás inmune al daño
+		Presiona de nuevo para salir antes de tiempo
+		'''
+}
+
+ParryEffect: {
+	DisplayName: Parada Defensiva
+	Tooltip:
+		'''
+		Mantén presionado para defender
+		Defiende justo antes de recibir un golpe para hacer una parada
+		Por defecto usa Clic Derecho si no hay tecla asignada
+		'''
+}
+
+StardustEffect: {
+	DisplayName: Estasis de Polvo Estelar
+	Tooltip:
+		'''
+		Congela el tiempo por unos segundos
+		Tus esbirros seguirán atacando mientras el tiempo esté congelado
+		'''
+}
+
+DebuffInstallKeyEffect: {
+	DisplayName: Instalación de Perjuicio
+	Tooltip: Te instalas perjuicios que otorgan efectos distintos según el accesorio
+}
+
+FrigidGemstoneKeyEffect: {
+	DisplayName: Hechizo Gélido
+	Tooltip:
+		'''
+		Invoca un bloque de hielo en tu cursor
+		Inflige Quemadura de Escarcha en Modo Difícil
+		'''
+}
+
+BombKeyEffect: {
+	DisplayName: Bomba de Rozamiento
+	Tooltip:
+		'''
+		Requiere estar cargada rozando ataques enemigos
+		Congela casi todos los enemigos y proyectiles
+		'''
+}
+
+BulbKeyEffect: {
+	DisplayName: Limpieza Mágica
+	Tooltip:
+		'''
+		Cura la mayoría de perjuicios con un gran tiempo de recarga
+		También duplica el daño por efectos prolongados en enemigos cercanos
+		El enfriamiento se reduce más rápido si no estás atacando
+		'''
+}
+
+AmmoCycleEffect: {
+	DisplayName: Ciclar Munición
+	Tooltip: Cambia entre tus municiones (funciona desde inventario y vanidad)
+}
+
+GladiatorBanner: {
+	DisplayName: Estandarte del Gladiador
+	Tooltip:
+		'''
+		Coloca un estandarte potenciador que dura 15 segundos
+		Estar cerca otorga inmunidad al retroceso, +8% de reducción de daño y +8% de daño
+		Solo se puede volver a invocar cuando desaparezca
+		'''
+}
+
+PalmwoodEffect: {
+	DisplayName: Centinela de Palma
+	Tooltip: Coloca una palmera centinela que lanza nueces a los enemigos
+}
+
+ForbiddenEffect: {
+	DisplayName: Tormenta Prohibida
+	Tooltip:
+		'''
+		Llama una tormenta ancestral al cursor que inflige daño mágico e invocador
+		Todo proyectil que pase a través inflige 1.2x daño
+		Tócala para recuperar tiempo de vuelo perdido
+		Se puede volver a invocar tras tocar el suelo
+		'''
+}
+
+SpiritTornadoEffect: {
+	DisplayName: Tornado Espiritual
+	Tooltip:
+		'''
+		Llama un tornado ancestral que inflige daño mágico e invocador
+		Todo proyectil que pase a través inflige 1.4x daño
+		El tornado sigue ligeramente el cursor
+		'''
+}

@@ -1,0 +1,24 @@
+ReaverEffect: {
+	DisplayName: Adaptabilidad del Segador
+	Tooltip:
+		'''
+		Cambia entre los modos Acorazado y Ágil
+		Modo Acorazado: Aumenta la defensa en 15 y la reducción de daño en 15%; al recibir daño, obtienes Furia del Segador e invocas una espina
+		Modo Ágil: Otorga regeneración de vida masiva, incrementa el tiempo y velocidad de vuelo en un 10%, reduce el tiempo de recarga del dash y aumenta la velocidad del gancho
+		'''
+}
+
+UmbraphileEffect: {
+	DisplayName: Transformación en Enjambre de Murciélagos
+	Tooltip:
+		'''
+		Te conviertes temporalmente en un enjambre de murciélagos
+		En esta forma eres inmune al daño, obtienes +30% de velocidad de movimiento y vuelo infinito
+		El enjambre causa daño y roba vida al impactar
+		'''
+}
+
+ElementsForceEffect: {
+	DisplayName: Cambio Elemental
+	Tooltip: Alterna entre los modos Magma y Ventisca
+}

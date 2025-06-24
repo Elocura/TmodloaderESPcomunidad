@@ -1,0 +1,103 @@
+FungalClump.DisplayName: Grupo Fúngico
+LargePerforatorBody.DisplayName: Perforador Grande
+LargePerforatorBody2.DisplayName: Perforador Grande
+LargePerforatorHead.DisplayName: Perforador Grande
+LargePerforatorTail.DisplayName: Perforador Grande
+PermafrostBoss.DisplayName: Escarcha Perpetua
+
+AresHand: {
+	DisplayName: Mano de Ares
+	EnergyKatanaDisplayName: Katana de Energía XF-09 Ares
+	PulseCannonDisplayName: Cañón de Pulsos XF-09 Ares
+}
+
+Draedon: {
+	IntroductionMonologue1: He esperado mucho por este momento.
+	IntroductionMonologue2: Tu naturaleza me fascina, pues no la comprendo.
+	IntroductionMonologue3: Te enfrentarás a mis creaciones, que han superado incluso a los dioses.
+	IntroductionMonologue4: Y me demostrarás tu temple en combate.
+	IntroductionMonologue5: Ahora, elige.
+	IntroductionMonologueBrief: Haz tu elección.
+	ExoMechChoiceResponse1: Excelente. Tus habilidades de vuelo se mejorarán conforme comience el experimento.
+	ExoMechChoiceResponse2: Llegarán en breve.
+	Interjection1: Hmm...
+	Interjection2_Thermal_Minor: Parece que hasta ahora solo has sufrido quemaduras térmicas leves.
+	Interjection2_Thermal_Major: Parece que hasta ahora has sufrido quemaduras térmicas graves.
+	Interjection2_Thermal_NearLethal: Parece que has sufrido quemaduras térmicas casi letales.
+	Interjection2_Plasma_Minor: Parece que hasta ahora solo has sufrido quemaduras de plasma leves.
+	Interjection2_Plasma_Major: Parece que has sufrido quemaduras de plasma graves.
+	Interjection2_Plasma_NearLethal: Parece que has sufrido quemaduras de plasma casi letales.
+	Interjection2_Electricity_Minor: Parece que has sufrido daños leves en los nervios por descargas eléctricas.
+	Interjection2_Electricity_Major: Parece que has sufrido daños nerviosos graves por descargas eléctricas.
+	Interjection2_Electricity_NearLethal: Parece que has sufrido daños nerviosos casi letales por descargas eléctricas.
+	Interjection2_Internal_Minor: Parece que estás sufriendo daños internos leves.
+	Interjection2_Internal_Major: Parece que estás sufriendo daños internos graves.
+	Interjection2_Internal_NearLethal: Parece que estás sufriendo daños internos casi letales.
+	Interjection2_BluntForceTrauma_Minor: Parece que has recibido un golpe contuso leve.
+	Interjection2_BluntForceTrauma_Major: Parece que has recibido un golpe contuso grave.
+	Interjection2_BluntForceTrauma_NearLethal: Parece que has recibido un golpe contuso casi letal.
+	Interjection2_Undamaged: Parece que no has recibido daño alguno. Fascinante.
+	Interjection3: Estos resultados son excelentes.
+	Interjection4: Ahora restableceremos las variables a sus valores de control para la siguiente fase de pruebas.
+	Interjection5: Ahora, prepárate.
+	Interjection6: Mis máquinas restantes volverán en breve.
+	Interjection7: Maravilloso.
+	Interjection8: Tus habilidades hasta ahora han captado mi interés.
+	Interjection9: Es momento de la fase final de pruebas.
+	Interjection10: He ordenado a mi última máquina operar con potencia máxima.
+	Interjection10_Plural: He ordenado a mis últimas máquinas operar con potencia máxima.
+	Interjection11: Buena suerte.
+	EndOfBattle_FirstDefeat1: ¡Extraordinario!
+	EndOfBattle_FirstDefeat2: Este resultado está muy por fuera de las expectativas de mis hipótesis.
+	EndOfBattle_FirstDefeat3: Me retiraré pronto. Hay mucho que examinar de este encuentro. Sin embargo, antes...
+	EndOfBattle_FirstDefeat4: Toma esto, como muestra de agradecimiento por tu tiempo.
+	EndOfBattle_FirstDefeat5: Si deseas combatir contra mis máquinas nuevamente, ya sabes cómo usar el Descifrador de Códigos.
+	EndOfBattle_FirstDefeat6: Hasta pronto.
+	EndOfBattle_SuccessiveDefeat1: Otro experimento completado.
+	EndOfBattle_SuccessiveDefeat2: Permíteme un momento para analizar los resultados...
+	EndOfBattle_SuccessiveDefeat3_Perfect: ¡Extraordinario! Tu desempeño, paciencia, precisión y habilidad no han pasado desapercibidos.
+	EndOfBattle_SuccessiveDefeat3_Excellent: Tu aptitud es excelente. Con un poco más de precisión, podrías lograr un resultado perfecto.
+	EndOfBattle_SuccessiveDefeat3_Good: Este resultado es útil.
+	EndOfBattle_SuccessiveDefeat3_Acceptable: Este resultado no destaca, pero es aceptable.
+	EndOfBattle_SuccessiveDefeat3_Bad: Estos datos tienen poco valor para mí.
+	EndOfBattle_SuccessiveDefeat3_WhyDidYouMeltTheBoss: Estos datos no me sirven en lo absoluto.
+	EndOfBattle_SuccessiveDefeat4_Perfect: Estos datos son de calidad sublime.
+	EndOfBattle_SuccessiveDefeat4_Excellent: ¿Quizás pronto descubramos una revelación revolucionaria?
+	EndOfBattle_SuccessiveDefeat4_ImproveFightTime: Si deseas enfrentar a mis máquinas de nuevo, te sugiero alargar un poco más la pelea.
+	EndOfBattle_SuccessiveDefeat4_ImproveAggression: Si deseas combatir otra vez, te sugiero un enfoque más arriesgado.
+	EndOfBattle_SuccessiveDefeat4_ImproveBuffs: Si deseas otro enfrentamiento, reduce el uso de potenciadores consumibles.
+	EndOfBattle_SuccessiveDefeat4_ImproveHitCounter: Si deseas otro combate, procura esquivar con más precisión.
+	EndOfBattle_SuccessiveDefeat4_Bad: Un enfoque de combate más refinado facilitaría un mejor análisis.
+	EndOfBattle_SuccessiveDefeat4_WhyDidYouMeltTheBoss: Fue demasiado rápido para sacar conclusiones útiles.
+	EndOfBattle_SuccessiveDefeat5: Espero la próxima batalla.
+	EndOfBattle_FirstDefeatReconBodyKill1: Interesante...
+	EndOfBattle_FirstDefeatReconBodyKill2: Una actitud temperamental no era un dato que había considerado.
+	EndOfBattle_FirstDefeatReconBodyKill3: En fin, como iba diciendo...
+	Death: Justo dentro de los márgenes de mis cálculos.
+	PlayerDeathAtAmusingTime: Bastante inoportuno, pero dentro de los márgenes de mis cálculos.
+	Error: La tela de esta realidad se está desgarrando.
+}
+
+MutantGFBText: {
+	QuoteP2: Es hora de dejar los juegos.
+	QuoteDoG: El mundo está temblando...
+}
+
+ShopModSwapper: {
+	Default: Cambiar Mod
+	Vanilla: Vanilla
+	Calamity: Mod Calamity
+}
+
+PermafrostChat: {
+	Defeat1: ¡Claramente posees una gran habilidad! Gracias por liberarme y darme la oportunidad de descongelar mis habilidades de combate.
+	Defeat2: Aaah, una buena ronda de entrenamiento. Necesitaba el ejercicio, así que gracias por eso.
+}
+
+ThanatosRename: XM-04 Hades
+ApolloRename: XS-11 Apolo
+ExoTwinsRenameNormal: XS-01 Artemisa y XS-11 Apolo
+MutantBR.DisplayName: Mutante B R
+MediumWormBodySegment.DisplayName: Segmento Corporal de Gusano Mediano
+MediumWormHeadSegment.DisplayName: Segmento de Cabeza de Gusano Mediano
+MediumWormTailSegment.DisplayName: Segmento de Cola de Gusano Mediano

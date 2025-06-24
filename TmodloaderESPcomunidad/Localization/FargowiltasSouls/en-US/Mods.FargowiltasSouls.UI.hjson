@@ -1,0 +1,71 @@
+SoulTogglerButton: Effect Toggler
+Standard: Standard Mode
+Eternity: Eternity Mode
+Masochist: Masochist Mode
+EternityEnabled: Eternity Mode is enabled
+MasochistEnabled: Masochist Mode is enabled
+EternityDisabled: Eternity Mode is disabled
+LeftClickEnable: Left Click to enable
+RightClickSelectDifficulty: Right Click to select difficulty
+HoldShift: Hold Shift to read more
+Close: Close
+OpenKeybinds: Open Keybinds
+ExpandedStandard:
+	'''
+	Disables Eternity or Masochist Mode.
+	World difficulty (Expert, Master) remains unchanged.
+	'''
+ExpandedEternity:
+	'''
+	[c/00FFFF:A new mode above Expert for Terraria veterans. The intended Fargo experience.]
+	World must be in Expert Mode
+	Enables Masochist Mode if world is in Master Mode or above
+	'''
+ExpandedMasochist:
+	'''
+	[c/33ffbe:An extremely intense bonus challenge mode. It is highly recommended to play Eternity Mode first!]
+	World must be in Master Mode or above
+	Enables Eternity Mode if world is in Expert Mode
+	'''
+EternityOption:
+	'''
+	[c/00FFFF:A new mode above Expert for Terraria veterans. The intended Fargo experience.]
+	Sets world difficulty to Expert Mode
+	'''
+MasochistOption:
+	'''
+	[c/33ffbe:An extremely intense bonus challenge mode. It is highly recommended to play Eternity Mode first!]
+	Sets world difficulty to Master Mode
+	'''
+ExpandedFeatures:
+	'''
+	Eternity features include:
+
+	-Reworks bosses and enemies, making them stronger
+	-Enables Master Mode drops
+	-New Eternity-exclusive item drops
+	-Deviantt provides a starter pack and progress-based advice
+	-Improves base stats and caps player DR at 75%
+	-Debuffs wear off faster when not attacking, you cannot die to damage over time debuffs unless in Masochist Mode
+	-Changes the functionality and strength of certain items
+	'''
+MasochistMultiplayer: -In Masochist multiplayer, each player can only respawn once per bossfight
+SavedToSlot: Toggles saved to custom set {0}!
+NoTogglesFound: No toggles found in custom set {0}.
+TurnAllTogglesOff: Turn all toggles off
+TurnAllTogglesOn: Turn all toggles on
+SomeEffectsPreset: Some effects preset
+MinimalEffectsPreset: Minimal effects preset
+CustomPreset: Custom preset {0} (right click to save)
+// Reload button is currently removed
+ReloadToggles: Reload Toggles (right click to reset)
+NoToggles: No togglable effects equipped!
+DisplayAll: Display All
+DisplayEquipped: Display Equipped
+SearchText: Search...
+MainMenu: Fargo's
+DisabledUnequipped: Disabled: Not equipped
+ActiveSkills: Active Skills
+AvailableSkills: Available Skills
+SelectDifficulty: Select Difficulty
+NoRespawn: Respawn prevented: Only one respawn per boss in {0} multiplayer!

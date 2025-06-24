@@ -1,0 +1,204 @@
+ClientConfig: {
+	DisplayName: Configuración del Cliente
+
+	Headers: {
+		Maso: Modo Eternidad
+		Patreon: "[i:FargowiltasSouls/RoombaPet] [c/ffffff:Objetos de Patreon]"
+	}
+
+	HideTogglerWhenInventoryIsClosed: {
+		Label: Mostrar el conmutador solo con el inventario abierto
+		Tooltip: Si está activado, el conmutador de efectos se oculta automáticamente cuando el inventario está cerrado.
+	}
+
+	ItemDisabledTooltip: {
+		Label: Indicador de efectos desactivados
+		Tooltip: Si está activado, los objetos con efectos desactivados por el conmutador mostrarán una línea en la descripción indicándolo.
+	}
+
+	ToggleSearchReset: {
+		Label: Menú de efectos de accesorios reinicia la búsqueda al cerrarse
+		Tooltip: ""
+	}
+
+	RainbowHealThreshold: {
+		Label: "[i:FargowiltasSouls/ConcentratedRainbowMatter] Umbral de curación automática"
+		Tooltip: ""
+	}
+
+	PrecisionSealIsHold: {
+		Label: "[i:FargowiltasSouls/PrecisionSeal] Mantener tecla para modo preciso"
+		Tooltip: Si está desactivado, el modo preciso se alterna al presionar la tecla.
+	}
+
+	OncomingMutantX: {
+		Label: Posición X del ícono del inventario del Modo Eternidad
+		Tooltip: ""
+	}
+
+	OncomingMutantY: {
+		Label: Posición Y del ícono del inventario del Modo Eternidad
+		Tooltip: ""
+	}
+
+	CooldownBars: {
+		Label: Barras de enfriamiento
+		Tooltip: ""
+	}
+
+	CooldownBarsX: {
+		Label: Barras de enfriamiento X
+		Tooltip: ""
+	}
+
+	CooldownBarsY: {
+		Label: Barras de enfriamiento Y
+		Tooltip: ""
+	}
+
+	SkillMenuX: {
+		Label: Menú de habilidades X
+		Tooltip: Medido desde el lado derecho de la pantalla.
+	}
+
+	SkillMenuY: {
+		Label: Menú de habilidades Y
+		Tooltip: ""
+	}
+
+	PhotosensitivityMode: {
+		Label: Modo para fotosensibilidad
+		Tooltip: ""
+	}
+}
+
+SoulConfig: {
+	DisplayName: Configuración de las Almas
+
+	Headers: {
+		Maso: Modo Eternidad
+		Patreon: "[i:FargowiltasSouls/RoombaPet] [c/ffffff:Objetos de Patreon]"
+	}
+
+	DeviChatter: {
+		Label: Chibi Devi puede hablar
+		Tooltip: ""
+	}
+
+	ToggleSearchReset: {
+		Label: El menú de efectos de accesorios reinicia la barra de búsqueda al cerrarse
+		Tooltip: ""
+	}
+
+	ForcedFilters: {
+		Label: Activa calidad de olas (sobrescribe la configuración del juego base)
+		Tooltip: Necesario para que ciertos efectos visuales funcionen correctamente
+	}
+
+	BossRecolors: {
+		Label: Los jefes usan sprites alternativos
+		Tooltip: ""
+	}
+
+	WeaponReworks: {
+		Label: Retrabajo de armas
+		Tooltip: Activa los retrabajos de algunas armas en Modo Eternidad, como espadas anchas y lanzas
+	}
+
+	PatreonRoomba: {
+		Label: "[i:FargowiltasSouls/RoombaPet] [c/ffffff:{$Mods.FargowiltasSouls.Items.RoombaPet.DisplayName}]"
+		Tooltip: ""
+	}
+
+	PatreonOrb: {
+		Label: "[i:FargowiltasSouls/ComputationOrb] [c/ffffff:{$Mods.FargowiltasSouls.Items.ComputationOrb.DisplayName}]"
+		Tooltip: ""
+	}
+
+	PatreonFishingRod: {
+		Label: "[i:FargowiltasSouls/MissDrakovisFishingPole] [c/ffffff:{$Mods.FargowiltasSouls.Items.MissDrakovisFishingPole.DisplayName}]"
+		Tooltip: ""
+	}
+
+	PatreonDoor: {
+		Label: "[i:FargowiltasSouls/SquidwardDoor] [c/ffffff:{$Mods.FargowiltasSouls.Items.SquidwardDoor.DisplayName}]"
+		Tooltip: ""
+	}
+
+	PatreonWolf: {
+		Label: "[i:FargowiltasSouls/ParadoxWolfSoul] [c/ffffff:{$Mods.FargowiltasSouls.Items.ParadoxWolfSoul.DisplayName}]"
+		Tooltip: ""
+	}
+
+	PatreonDove: {
+		Label: "[i:FargowiltasSouls/FigBranch] [c/ffffff:{$Mods.FargowiltasSouls.Items.FigBranch.DisplayName}]"
+		Tooltip: ""
+	}
+
+	PatreonKingSlime: {
+		Label: "[i:FargowiltasSouls/MedallionoftheFallenKing] [c/ffffff:{$Mods.FargowiltasSouls.Items.MedallionoftheFallenKing.DisplayName}]"
+		Tooltip: ""
+	}
+
+	PatreonFishron: {
+		Label: "[i:FargowiltasSouls/StaffOfUnleashedOcean] [c/ffffff:{$Mods.FargowiltasSouls.Items.StaffOfUnleashedOcean.DisplayName}]"
+		Tooltip: ""
+	}
+
+	PatreonPlant: {
+		Label: "[i:FargowiltasSouls/PiranhaPlantVoodooDoll] [c/ffffff:{$Mods.FargowiltasSouls.Items.PiranhaPlantVoodooDoll.DisplayName}]"
+		Tooltip: ""
+	}
+
+	PatreonDevious: {
+		Label: "[i:FargowiltasSouls/DeviousAestheticus] [c/ffffff:{$Mods.FargowiltasSouls.Items.DeviousAestheticus.DisplayName}]"
+		Tooltip: ""
+	}
+
+	PatreonVortex: {
+		Label: "[i:FargowiltasSouls/VortexMagnetRitual] [c/ffffff:{$Mods.FargowiltasSouls.Items.VortexMagnetRitual.DisplayName}]"
+		Tooltip: ""
+	}
+
+	PatreonPrime: {
+		Label: "[i:FargowiltasSouls/PrimeStaff] [c/ffffff:{$Mods.FargowiltasSouls.Items.PrimeStaff.DisplayName}]"
+		Tooltip: ""
+	}
+
+	PatreonCrimetroid: {
+		Label: "[i:FargowiltasSouls/CrimetroidEgg] [c/ffffff:{$Mods.FargowiltasSouls.Items.CrimetroidEgg.DisplayName}]"
+		Tooltip: ""
+	}
+
+	PatreonNanoCore: {
+		Label: "[i:FargowiltasSouls/NanoCore] [c/ffffff:{$Mods.FargowiltasSouls.Items.NanoCore.DisplayName}]"
+		Tooltip: ""
+	}
+
+	PatreonROB: {
+		Label: "[i:FargowiltasSouls/ROBGyro] [c/ffffff:{$Mods.FargowiltasSouls.Items.ROBGyro.DisplayName}]"
+		Tooltip: ""
+	}
+
+	PerformanceMode: {
+		Label: Modo de Rendimiento
+		Tooltip: Desactiva los efectos visuales más exigentes. Actualmente desactiva las estelas del ataque ocular del Mutante.
+	}
+
+	PatreonTouhou: {
+		Label: "[i:FargowiltasSouls/TouhouStaff] [c/ffffff:{$Mods.FargowiltasSouls.Items.TouhouStaff.DisplayName}]"
+		Tooltip: ""
+	}
+
+	MultiplayerRespawnPrevention: {
+		Label: Prevención de Reaparición en Multijugador
+		Tooltip: Selecciona en qué modo se debe impedir reaparecer múltiples veces durante una pelea contra jefes en multijugador.
+	}
+}
+
+RespawnPreventionSetting: {
+	Tooltip: ""
+	Eternity.Label: Modo Eternidad
+	Masochist.Label: Modo Masoquista
+	Disabled.Label: Desactivado
+}

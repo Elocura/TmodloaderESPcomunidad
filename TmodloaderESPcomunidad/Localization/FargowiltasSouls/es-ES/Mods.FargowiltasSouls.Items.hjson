@@ -1,0 +1,3799 @@
+AdamantiteEnchant: {
+	DisplayName: Encantamiento de Adamantita
+	Tooltip:
+		'''
+		Cuanto más dispares tu arma, más rápido disparará, hasta un 30% adicional
+		Los proyectiles se vuelven más imprecisos cuanto más dispares
+		Efectividad reducida a la mitad en armas con autoapuntado
+		Solo funciona con armas que disparan proyectiles directamente
+		'Caos'
+		'''
+}
+
+AncientCobaltEnchant: {
+	DisplayName: Encantamiento de Cobalto Antiguo
+	Tooltip:
+		'''
+		Otorga un salto explosivo que inflige Aceitoso y daño cuerpo a cuerpo
+		Mantén presionado hacia abajo para caer más rápido
+		'Kobold Antiguo'
+		'''
+}
+
+AncientHallowEnchant: {
+	DisplayName: Encantamiento Sagrado Antiguo
+	Tooltip:
+		'''
+		Invoca un familiar Terraprisma que escala con daño de esbirros y ocupa una ranura de esbirro
+		La espada sigue la dirección de tu cursor
+		Presiona clic derecho para atacar con la espada
+		Atacar proyectiles enemigos los refleja hacia ellos
+		Los reflejos tienen 15 segundos de enfriamiento y solo afectan proyectiles que hagan menos de 150 de daño
+		'¿Tienes el poder suficiente para blandirme?'
+		'''
+}
+
+AncientShadowEnchant: {
+	DisplayName: Encantamiento de Sombra Antigua
+	Tooltip:
+		'''
+		Tus ataques pueden infligir Oscuridad a los enemigos
+		Los enemigos oscurecidos a veces lanzan tentáculos de llama sombría a otros enemigos, causando daño mágico
+		Tres orbes mágicos de sombra girarán a tu alrededor
+		'Arcaico, pero funcional'
+		'''
+}
+
+ApprenticeEnchant: {
+	DisplayName: Encantamiento de Aprendiz
+	Tooltip:
+		'''
+		Mientras atacas, disparas el proyectil del arma más cercana en tu barra como apoyo
+		El arma de apoyo disparará a 1/7 de su velocidad normal
+		Solo funciona con armas en la barra rápida
+		Se consumen los objetos, el maná y la munición según corresponda
+		'Un largo camino hacia la perfección'
+		'''
+}
+
+AshWoodEnchant: {
+	DisplayName: Encantamiento de Madera de Ceniza
+	Tooltip:
+		'''
+		Los efectos de fuego no te dañan
+		Mientras tengas algún perjuicio (que no sea Poción, Enfermedad de Maná o Vela Acuática), tus ataques se acompañan de bolas de fuego que causan daño mágico
+		Otorga inmunidad a Aceitoso
+		Reduce el daño por contacto con lava
+		'¿Me estás diciendo que esto no es madera?'
+		'''
+}
+
+BeeEnchant: {
+	DisplayName: Encantamiento de Abeja
+	Tooltip:
+		'''
+		Permite volar y caer lentamente
+		Al volar, dejas flores que tardan 4 segundos en formar pétalos
+		Tocar flores completamente formadas te da el buff de Miel y genera un enjambre de abejas
+		Los enemigos que tocan las flores también activan el enjambre
+		[i:HiveBackpack] Efectos del Paquete de Colmena
+		'Según todas las leyes conocidas de la aviación, una abeja no debería poder volar'
+		'''
+}
+
+BeetleEnchant: {
+	DisplayName: Encantamiento de Escarabajo
+	Tooltip:
+		'''
+		Los escarabajos aumentan tu daño y velocidad de ataque cuerpo a cuerpo
+		Al recibir daño, los escarabajos te protegen durante 10 segundos
+		Los beneficios de escarabajo se limitan a nivel dos
+		'La vida oculta del estiércol corre por tus venas'
+		'''
+}
+
+BorealWoodEnchant: {
+	DisplayName: Encantamiento de Madera Boreal
+	Tooltip:
+		'''
+		Los ataques se acompañan periódicamente de bolas de nieve, causando daño a distancia
+		'La madera más fresca'
+		'''
+}
+
+CactusEnchant: {
+	DisplayName: Encantamiento de Cactus
+	Tooltip:
+		'''
+		Al atacar, liberas una lluvia de agujas
+		Los enemigos explotan en agujas al morir
+		Otorga inmunidad al daño de cactus en el Modo Eternidad (funciona desde el inventario y vanidad)
+		'¡Es la más refrescante!'
+		'''
+	VanityTooltip: Otorga inmunidad al daño de cactus en el Modo Eternidad
+}
+
+ChlorophyteEnchant: {
+	DisplayName: Encantamiento de Clorofita
+	Tooltip:
+		'''
+		Invoca un anillo de cristales de hoja que disparan a los enemigos cercanos
+		Al usar alas, esporas aparecen continuamente
+		Permite impulsarte ligeramente
+		Pulsa dos veces una dirección
+		'La esencia de la jungla se cristaliza a tu alrededor'
+		'''
+}
+
+CobaltEnchant: {
+	DisplayName: Encantamiento de Cobalto
+	Tooltip:
+		'''
+		Otorga un salto explosivo que inflige Aceitoso y causa daño cuerpo a cuerpo
+		Tus otros saltos son más potentes y causan explosiones con un breve enfriamiento
+		Mantén presionado hacia abajo para caer más rápido
+		'No puedo creer que no sea paladio'
+		'''
+}
+
+CopperEnchant: {
+	DisplayName: Encantamiento de Cobre
+	Tooltip:
+		'''
+		Los golpes críticos pueden electrocutar a los enemigos con rayos en cadena que saltan entre 5 enemigos
+		Los enemigos mojados pueden ser electrocutados sin un golpe crítico
+		Enfriamiento de 4 segundos, reducido por críticos y golpes a enemigos mojados
+		'Y su música era eléctrica'
+		'''
+}
+
+CrimsonEnchant: {
+	DisplayName: Encantamiento Carmesí
+	Tooltip:
+		'''
+		Tras recibir daño, si evitas ser golpeado durante 7 segundos, recuperas el 50% de la vida perdida
+		Si recibes otro golpe antes de curarte, se cancela la curación
+		No afecta golpes de menos de 10 de daño
+		'La sangre de tu enemigo es tu renacer'
+		'''
+}
+
+CrystalAssassinEnchant: {
+	DisplayName: Encantamiento del Asesino de Cristal
+	Tooltip:
+		'''
+		Permite la habilidad de embestida
+		La embestida cancela el movimiento vertical y puede dirigirse en diagonal
+		Salta mientras embistes hacia el suelo para obtener un impulso de velocidad y la mejora Primer Golpe
+		Primer Golpe hace que tu siguiente ataque inflija 1.5x daño, garantice un golpe crítico y reduzca la defensa en 10
+		Primer Golpe tiene un tiempo de recarga de 10 segundos
+		'Aspira a la cima'
+		'''
+}
+
+DarkArtistEnchant: {
+	DisplayName: Encantamiento del Artista Oscuro
+	Tooltip:
+		'''
+		Mientras atacas, dispara el proyectil de tu siguiente arma más cercana como apoyo
+		El arma de apoyo disparará 1/5 de lo que normalmente lo haría
+		Solo funciona con armas en la barra rápida
+		Invoque un esbirro de Llamarada que también disparará mientras atacas
+		'Las sombras guardan más de lo que aparentan'
+		'''
+}
+
+EbonwoodEnchant: {
+	DisplayName: Encantamiento de Madera Ébano
+	Tooltip:
+		'''
+		Estás rodeado por un aura de corrupción
+		Tener enemigos en el aura acumula Corrupción
+		La Corrupción te otorga hasta 5 de daño plano y 5% de reducción de daño
+		'Potencial no aprovechado'
+		'''
+}
+
+ForbiddenEnchant: {
+	DisplayName: Encantamiento Prohibido
+	Tooltip: "'Camina como un egipcio'"
+}
+
+FossilEnchant: {
+	DisplayName: Encantamiento Fósil
+	Tooltip:
+		'''
+		Si llegas a 0 de vida, revives con 50 HP, limpias perjuicios y generas varios huesos
+		También generas algunos huesos al golpear
+		Recoge los huesos para curarte 20 HP por cada uno
+		'Más allá de una era olvidada'
+		'''
+}
+
+FrostEnchant: {
+	DisplayName: Encantamiento de Escarcha
+	Tooltip:
+		'''
+		Tus ataques infligen Quemadura de Escarcha brevemente
+		Aparecen carámbanos a tu alrededor
+		Atacar los lanza hacia el cursor, infligiendo daño mágico
+		Al golpear a un enemigo, le infligen Congelación y lo inmovilizan
+		'Vamos a cubrir el mundo en una helada profunda'
+		'''
+}
+
+GladiatorEnchant: {
+	DisplayName: Encantamiento del Gladiador
+	Tooltip:
+		'''
+		Llueven lanzas sobre los enemigos golpeados, infligiendo daño a distancia
+		Las lanzas ignoran 5 de defensa enemiga
+		La lluvia de lanzas es más fuerte cerca del Estandarte del Gladiador
+		'¿Acaso no estás entretenido?'
+		'''
+}
+
+GoldEnchant: {
+	DisplayName: Encantamiento de Oro
+	Tooltip:
+		'''
+		Tus ataques infligen Midas
+		Envía automáticamente las monedas a tu cochinito al recogerlas (funciona desde inventario y vanidad)
+		'El oro hace girar al mundo'
+		'''
+}
+
+HallowEnchant: {
+	DisplayName: Encantamiento Sagrado
+	Tooltip:
+		'''
+		Las pociones de curación restauran un 40% más, pero su efecto es gradual
+		Usar una poción de curación genera una onda expansiva que repele proyectiles enemigos cercanos
+		'Dame tu mejor golpe'
+		'''
+	OverTime: con el tiempo
+}
+
+HuntressEnchant: {
+	DisplayName: Encantamiento de la Cazadora
+	Tooltip:
+		'''
+		Tus ataques ignoran 6 de defensa enemiga y hacen 3 de daño plano adicional
+		Cada ataque consecutivo ignora 6 de defensa adicional y suma 3 de daño
+		Se acumula hasta 10 veces
+		Fallar un ataque reduce tus acumulaciones a la mitad
+		Los ataques teledirigidos y de esbirros no aumentan estas bonificaciones
+		'La precisión trae poder'
+		'''
+}
+
+IronEnchant: {
+	DisplayName: Encantamiento de Hierro
+	Tooltip:
+		'''
+		Funciona desde inventario y vanidad:
+		Tus mejoras siempre otorgan un prefijo excelente por +50% de coste
+		Aumenta el alcance de recogida de objetos
+		Funciona equipado:
+		El alcance de recogida afecta a corazones, estrellas de maná y potenciadores de nebulosa
+		Recoger un objeto o pickup aumenta tu reducción de daño en 20% por 5 segundos
+		'Forja mientras el hierro esté caliente'
+		'''
+	VanityTooltip:
+		'''
+		Tus mejoras siempre otorgan un prefijo excelente por +50% de coste
+		Aumenta el alcance de recogida de objetos
+		'''
+}
+
+JungleEnchant: {
+	DisplayName: Encantamiento de la Jungla
+	Tooltip:
+		'''
+		Otorga un salto doble con esporas
+		Permite una ligera embestida
+		Toca dos veces una dirección
+		'La furia de la jungla habita en ti'
+		'''
+}
+
+LeadEnchant: {
+	DisplayName: Encantamiento de Plomo
+	Tooltip:
+		'''
+		Recibes 40% menos de daño por efectos prolongados
+		Tus ataques infligen Envenenamiento por Plomo
+		El veneno inflige daño continuo y se propaga a enemigos cercanos
+		'No apto para el consumo'
+		'''
+}
+
+MeteorEnchant: {
+	DisplayName: Encantamiento de Meteorito
+	Tooltip:
+		'''
+		Aumenta enormemente tu velocidad y aceleración, y reduce tu inercia
+		Golpear a un enemigo ocasionalmente hace caer un meteorito que inflige daño mágico
+		El enfriamiento del meteorito se reduce más rápido cuanto más te muevas
+		'Suelta un draco sobre ellos'
+		'''
+}
+
+MinerEnchant: {
+	DisplayName: Encantamiento de Minero
+	Tooltip:
+		'''
+		Otorga inmunidad a explosivos de minería
+		Velocidad de minado aumentada en un 50%
+		Muestra la ubicación de enemigos, trampas y tesoros
+		Efectos de las pociones de Búho Nocturno, Espeleólogo, Cazador, Brillo y Sentido del Peligro
+		'El planeta tiembla con cada golpe de tu pico'
+		'''
+}
+
+MoltenEnchant: {
+	DisplayName: Encantamiento Ígneo
+	Tooltip:
+		'''
+		Estás rodeado por un anillo de fuego
+		Los enemigos dentro del anillo reciben 1.2x daño y se incendian
+		'Conocerán la furia del infierno'
+		'''
+}
+
+MonkEnchant: {
+	DisplayName: Encantamiento del Monje
+	Tooltip:
+		'''
+		Otorga la habilidad de embestir
+		Pulsa dos veces una dirección
+		Eres brevemente inmune al daño y perjuicios tras embestir
+		Atraviesa enemigos para infligir gran daño cuerpo a cuerpo
+		El enfriamiento de la embestida es más largo que el normal
+		'Vuelve al monje'
+		'''
+}
+
+MythrilEnchant: {
+	DisplayName: Encantamiento de Mítiril
+	Tooltip:
+		'''
+		Aumenta temporalmente la velocidad de ataque tras un tiempo sin atacar
+		El bono termina tras 3 segundos atacando y se recarga en 5 segundos
+		'Sientes el conocimiento de tus armas filtrarse en tu mente'
+		'''
+}
+
+NebulaEnchant: {
+	DisplayName: Encantamiento de Nébula
+	Tooltip:
+		'''
+		Cada 3 segundos un proyectil se reemplaza con un disparo de nébula que inflige daño mágico
+		Los disparos de nébula persiguen enemigos y generan un potenciador de nébula
+		Acumulación de potenciadores limitada a 2, no genera potenciadores de maná
+		'Los pilares de la creación han brillado sobre ti'
+		'''
+}
+
+NecroEnchant: {
+	DisplayName: Encantamiento de Necrótico
+	Tooltip:
+		'''
+		Los enemigos derrotados pueden soltar un montón de huesos
+		Tócalo para invocar un Guardián de Mazmorra aliado
+		El daño se basa únicamente en la vida máxima del enemigo derrotado, con un tope de 10000
+		Los jefes sueltan huesos cada 10% de vida perdida
+		'Bienvenido a la zona de huesos'
+		'''
+}
+
+NinjaEnchant: {
+	DisplayName: Encantamiento del Ninja
+	Tooltip:
+		'''
+		Tus proyectiles pueden tener hasta +20% de probabilidad de golpe crítico, según su velocidad
+		Aumenta drásticamente la velocidad de proyectil cuando te mueves lentamente
+		'Espera el momento indicado'
+		'''
+}
+
+ObsidianEnchant: {
+	DisplayName: Encantamiento de Obsidiana
+	Tooltip:
+		'''
+		Otorga inmunidad a la lava
+		Tienes movimiento normal y puedes nadar en lava
+		Estando en lava o mojado por lava, tus ataques generan explosiones
+		Con perjuicios o estando en lava, tus ataques invocan esferas de fuego que causan daño mágico
+		Los efectos de fuego no te dañan
+		Otorga inmunidad a Aceitado
+		'La tierra llama'
+		'''
+}
+
+OrichalcumEnchant: {
+	DisplayName: Encantamiento de Oricalco
+	Tooltip:
+		'''
+		Pétalos infligen daño adicional y envenenan con Oricalco
+		Los perjuicios de daño infligen 2.5x daño
+		'La naturaleza te bendice'
+		'''
+}
+
+PalladiumEnchant: {
+	DisplayName: Encantamiento de Paladio
+	Tooltip:
+		'''
+		Aumenta brevemente la regeneración de vida tras golpear a un enemigo
+		Generas una esfera de energía vital dañina cada 80 de vida regenerada
+		'Sientes cómo tus heridas sanan lentamente'
+		'''
+}
+
+PalmWoodEnchant: {
+	DisplayName: Encantamiento de Madera de Palma
+	Tooltip: "'Alarmantemente tranquilo'"
+}
+
+PearlwoodEnchant: {
+	DisplayName: Encantamiento de Madera de Perla
+	Tooltip:
+		'''
+		Recoger cualquier objeto lanza una estrella a un enemigo cercano y te potencia por 5 segundos
+		Durante el efecto, tus críticos se relanzan favorablemente y dejas una estela arcoíris inofensiva
+		Tus ataques ocasionalmente generan estrellas de maná al impactar
+		'Demasiado poco, demasiado tarde…'
+		'''
+}
+
+PlatinumEnchant: {
+	DisplayName: Encantamiento de Platino
+	Tooltip:
+		'''
+		20% de probabilidad de que los enemigos suelten 5x botín
+		'Su valor es incalculable'
+		'''
+}
+
+PumpkinEnchant: {
+	DisplayName: Encantamiento de Calabaza
+	Tooltip:
+		'''
+		Cultivas calabazas mientras te mueves
+		Cuando están completamente maduras, curan 25 PS y generan brasas dañinas
+		Los enemigos que las toquen las destruirán y recibirán daño
+		'Tu repentino antojo de calabaza jamás será satisfecho'
+		'''
+}
+
+RainEnchant: {
+	DisplayName: Encantamiento de Lluvia
+	Tooltip:
+		'''
+		Invoca un paraguas que refleja proyectiles desde arriba
+		Se romperá tras bloquear 200 de daño
+		Mientras esté activo, tienes caída lenta
+		Otorga inmunidad a Mojado y todos tus ataques aplican Mojado
+		Inmune a rayos en el Modo Eternidad (Funciona desde el inventario y vanidad)
+		[i:FloatingTube] Efectos del Tubo Flotante
+		'Vuelve otro día, por favor'
+		'''
+	VanityTooltip: Otorga inmunidad a rayos en el Modo Eternidad
+}
+
+RedRidingEnchant: {
+	DisplayName: Encantamiento de Caperucita Roja
+	Tooltip:
+		'''
+		Tus ataques ignoran 10 de defensa enemiga y hacen 5 de daño extra plano
+		Cada ataque consecutivo ignora 10 defensa adicional y hace 5 más de daño
+		Al llegar a 10 acumulaciones, invocas una lluvia de flechas con daño a distancia
+		El tipo de flecha predeterminado es Veneno o el primero que tengas en tu inventario
+		Fallar un ataque reduce a la mitad tus acumulaciones
+		Los ataques teledirigidos y de esbirros no aumentan este bono
+		'La feroz Caperucita Roja'
+		'''
+}
+
+RichMahoganyEnchant: {
+	DisplayName: Encantamiento de Caoba Rica
+	Tooltip:
+		'''
+		Tus ganchos se lanzan 2x más rápido, retraen 3x más rápido y tiran de ti 1.5x más rápido
+		Mientras estás enganchado recibes 10% de reducción de daño en un golpe y efecto de espinas al 50%
+		La reducción de daño permanece por 1 segundo tras soltar el gancho
+		'Te mantendrá enganchado, garantizado'
+		'''
+}
+
+ShadewoodEnchant: {
+	DisplayName: Encantamiento de Madera Carmesí
+	Tooltip:
+		'''
+		Emites un aura de Sangrado
+		Los enemigos golpeados mientras sangran liberan sangre dañina con daño cuerpo a cuerpo
+		'Sorprendentemente limpio'
+		'''
+}
+
+ShadowEnchant: {
+	DisplayName: Encantamiento de Sombra
+	Tooltip:
+		'''
+		Dos Orbes de Sombra orbitan a tu alrededor
+		Golpear un Orbe lo hace liberar energía sombría teledirigida con daño mágico
+		'Sientes tu cuerpo desvanecerse entre las sombras más profundas'
+		'''
+}
+
+ShinobiEnchant: {
+	DisplayName: Encantamiento del Infiltrador Shinobi
+	Tooltip:
+		'''
+		Te permite hacer embestidas de teletransporte
+		Presiona dos veces una dirección
+		Eres brevemente inmune al daño y perjuicios tras embestir
+		Al atravesar un enemigo, haces gran daño cuerpo a cuerpo
+		Tiene mayor enfriamiento que una embestida normal
+		La embestida es más larga y más potente
+		Puedes atravesar paredes para salir por la siguiente apertura
+		'Aldea Escondida en el Muro'
+		'''
+}
+
+ShroomiteEnchant: {
+	DisplayName: Encantamiento de Shroomita
+	Tooltip:
+		'''
+		Los hongos curan 50 PS y al consumirlos obtienes Poder de Hongo por 20 segundos
+		Poder de Hongo otorga +20% de daño y probabilidad de crítico
+		Los proyectiles penetrantes generan una nube de hongos en su primer golpe, causando daño a distancia (con enfriamiento)
+		'¡Hecho con hongos reales!'
+		'''
+	AndMushroomPower: y otorga el beneficio Poder de Hongo
+}
+
+SilverEnchant: {
+	DisplayName: Encantamiento de Plata
+	Tooltip:
+		'''
+		Si te proteges justo al recibir daño, realizas una parada perfecta y ganas Momento Golpeador
+		La Parada Defensiva bloquea hasta 100 de daño
+		'Reflejo'
+		'''
+}
+
+SnowEnchant: {
+	DisplayName: Encantamiento de Nieve
+	Tooltip:
+		'''
+		Tus ataques infligen Quemadura de Escarcha brevemente
+		Empiezan a aparecer bolas de nieve a tu alrededor
+		Atacar las lanza hacia el cursor con daño mágico
+		'Está ardientemente frío allá afuera'
+		'''
+}
+
+SolarEnchant: {
+	DisplayName: Encantamiento Solar
+	Tooltip:
+		'''
+		Cargas energía solar mientras atacas
+		Obtienes reducción de daño hasta 20% según la carga almacenada
+		Deja de atacar al estar totalmente cargado para liberar una gran explosión solar
+		Las explosiones infligen Llama Solar y hacen daño cuerpo a cuerpo
+		'Demasiado caliente para manejarlo'
+		'''
+}
+
+SpectreEnchant: {
+	DisplayName: Encantamiento de Espectro
+	Tooltip:
+		'''
+		Al llegar a 0 PS, revives como un fantasma con 100 PS, eliminas perjuicios y generas varios espíritus
+		Como fantasma eres inmune, más veloz, con vuelo infinito y sin poder atacar, durante 5 segundos
+		También generas espíritus con cada golpe
+		Recolecta los espíritus para curarte 20 PS y enviarlos al enemigo más cercano con daño mágico
+		'Su energía vital será su perdición'
+		'''
+}
+
+SpiderEnchant: {
+	DisplayName: Encantamiento de Araña
+	Tooltip:
+		'''
+		Tus armas de invocación pueden hacer críticos por 1.5x de daño
+		Los críticos de invocación infligen menos daño si sostienes un arma que no sea de invocador
+		El daño base extra de críticos se limita a 100
+		+10% de probabilidad de golpe crítico
+		'La aracnofobia se castiga con una muerte por arácnido'
+		'''
+}
+
+SpookyEnchant: {
+	DisplayName: Encantamiento Espeluznante
+	Tooltip:
+		'''
+		Todos tus esbirros obtienen un ataque adicional con guadaña
+		'Derritiendo almas desde 1902'
+		'''
+}
+
+SquireEnchant: {
+	DisplayName: Encantamiento de Escudero
+	Tooltip:
+		'''
+		Aumenta la aceleración, velocidad máxima y altura de salto mientras montas
+		Mientras estás montado, otorga 10 de defensa, salto con pedo e inmunidad al daño por caída
+		Mejora la efectividad de las fuentes de curación en un 10%
+		'¿Escudero, te puedes apurar?'
+		'''
+}
+
+StardustEnchant: {
+	DisplayName: Encantamiento de Polvo Estelar
+	Tooltip:
+		'''
+		Estasis de Polvo Estelar dura 6 segundos y tiene 90 segundos de recarga
+		Un guardián de polvo estelar te protegerá de enemigos cercanos
+		'El poder del Stand es tuyo'
+		'''
+}
+
+TikiEnchant: {
+	DisplayName: Encantamiento Tiki
+	Tooltip:
+		'''
+		Los látigos de invocador escalan con tu clase más fuerte en lugar de invocador
+		+20% de alcance de látigo
+		Golpea a tus esbirros o proyectiles con el látigo para potenciarlos con 1.2x de daño en su siguiente golpe
+		En Modo Eternidad, los látigos vuelven a beneficiarse de la velocidad de ataque cuerpo a cuerpo
+		'¡Aku Aku!'
+		'''
+}
+
+TinEnchant: {
+	DisplayName: Encantamiento de Estaño
+	Tooltip:
+		'''
+		Establece tu probabilidad de crítico en 5%
+		Cada crítico aumenta el porcentaje en 5% hasta duplicar tu valor base o alcanzar 15%
+		Recibir daño reduce tu crítico a la mitad, con un mínimo de 5%
+		'El regreso del crítico'
+		'''
+	CritUp: +{0}% crítico
+	CritReset: -{0}% crítico
+}
+
+TitaniumEnchant: {
+	DisplayName: Encantamiento de Titanio
+	Tooltip:
+		'''
+		Atacar genera una barrera de hasta 20 fragmentos de titanio que infligen daño cuerpo a cuerpo
+		Al alcanzar el máximo, obtienes resistencia a la mayoría de perjuicios al recibir daño y un 10–30% de reducción de daño
+		La reducción aumenta cuanto más cerca estés del enemigo al ser golpeado
+		Los efectos de resistencia duran unos segundos tras el golpe inicial
+		Tiene 15 segundos de enfriamiento, durante los cuales no puedes generar fragmentos
+		'¿Quién necesita esquivar cuando eres indestructible?'
+		'''
+}
+
+TungstenEnchant: {
+	DisplayName: Encantamiento de Tungsteno
+	Tooltip:
+		'''
+		Aumenta el tamaño de tus armas cuerpo a cuerpo en un 50% y el alcance de los látigos en un 20%
+		Tus ataques generan una onda de choque con gran retroceso que hace menos daño al objetivo original
+		Tiempo de recarga de 2.5 segundos
+		'Más grande siempre es mejor'
+		'''
+}
+
+TurtleEnchant: {
+	DisplayName: Encantamiento de Tortuga
+	Tooltip:
+		'''
+		Refleja el 100% del daño por contacto
+		Si estás en el suelo, sin moverte y sin atacar, entras en tu caparazón
+		En el caparazón obtienes 90% de reducción de daño
+		Además destruyes proyectiles entrantes y haces 10x de daño por espinas
+		El caparazón dura al menos 1 segundo y puede bloquear hasta 20 ataques
+		Los enemigos explotan en agujas al morir si son golpeados por tus agujas
+		Otorga inmunidad al daño por cactus en Modo Eternidad (funciona desde inventario y vanidad)
+		'De repente sientes la necesidad de esconderte en un caparazón'
+		'''
+	VanityTooltip: Otorga inmunidad al daño por cactus en Modo Eternidad
+}
+
+ValhallaKnightEnchant: {
+	DisplayName: Encantamiento del Caballero de Valhalla
+	Tooltip:
+		'''
+		Aumenta la aceleración, velocidad máxima y altura de salto mientras montas
+		Mientras estás montado, otorga 15 de defensa, salto con pedo, inmunidad al daño por caída y embestida
+		Mejora la efectividad de las fuentes de curación en un 15%
+		'Valhalla llama'
+		'''
+}
+
+VortexEnchant: {
+	DisplayName: Encantamiento de Vórtice
+	Tooltip:
+		'''
+		Tus ataques a enemigos muy lejanos disparan un láser perforante que inflige daño a distancia
+		Tiempo de recarga de 10 segundos
+		'Desgarra la realidad'
+		'''
+}
+
+WizardEnchant: {
+	DisplayName: Encantamiento de Mago
+	Tooltip:
+		'''
+		Mejora el encantamiento que tengas justo debajo de este en la ranura de accesorios
+		Los efectos mejorados se describen en la descripción
+		'Nos encanta lanzar hechizos'
+		'''
+}
+
+WoodEnchant: {
+	DisplayName: Encantamiento de Madera
+	Tooltip:
+		'''
+		Las entradas del bestiario y estandartes se completan el doble de rápido
+		Obtienes descuento en tiendas según tu progreso en el bestiario
+		El descuento funciona desde el inventario y la ranura de vanidad
+		Descuento actual: {0}%
+		'Los comerciantes odian este truco'
+		Comienzos humildes…
+		'''
+}
+
+ApprenticesEssence: {
+	DisplayName: Esencia del Aprendiz
+	Tooltip:
+		'''
+		+18% de daño mágico
+		+8% de probabilidad de crítico mágico
+		Aumenta tu maná máximo en 50
+		'Esto es solo el comienzo...'
+		'''
+}
+
+BarbariansEssence: {
+	DisplayName: Esencia del Bárbaro
+	Tooltip:
+		'''
+		+18% de daño cuerpo a cuerpo
+		+10% de velocidad de ataque cuerpo a cuerpo
+		+8% de probabilidad de crítico cuerpo a cuerpo
+		'Esto es solo el comienzo...'
+		'''
+}
+
+OccultistsEssence: {
+	DisplayName: Esencia del Ocultista
+	Tooltip:
+		'''
+		+18% de daño de invocación
+		+10% de alcance de látigos
+		Aumenta en 1 el número máximo de esbirros
+		'Esto es solo el comienzo...'
+		'''
+}
+
+SharpshootersEssence: {
+	DisplayName: Esencia del Francotirador
+	Tooltip:
+		'''
+		+18% de daño a distancia
+		+10% de velocidad de proyectiles a distancia
+		+8% de probabilidad de crítico a distancia
+		'Esto es solo el comienzo...'
+		'''
+}
+
+BoxofGizmos: {
+	DisplayName: Caja de Artilugios
+	Tooltip:
+		'''
+		Funciona desde el inventario y ranuras de vanidad
+		Permanecer quieto revela tesoros y enemigos cercanos
+		Los enemigos emiten luz por la noche
+		Otorga disparo automático a objetos que no sean armas
+		'''
+	VanityTooltip:
+		'''
+		Permanecer quieto revela tesoros y enemigos cercanos
+		Los enemigos emiten luz por la noche
+		Otorga disparo automático a objetos que no sean armas
+		'''
+}
+
+UniverseCore: {
+	DisplayName: Núcleo Cósmico
+	Tooltip:
+		'''
+		Tus golpes críticos pueden hacer un súper crítico
+		La probabilidad es igual a 1/3 de tu probabilidad de crítico (máx. 100%)
+		Los súper críticos infligen 4x daño y aplican Llamas del Cosmos
+		'Rebosante de rayos cósmicos de ultra alta energía'
+		'''
+}
+
+CosmoForce: {
+	DisplayName: Fuerza del Cosmos
+	Tooltip:
+		'''
+		[i:FargowiltasSouls/SolarEnchant] Atacar genera hasta 4 lunas que orbitan a tu alrededor
+		[i:FargowiltasSouls/VortexEnchant] Deja de atacar para lanzarlas hacia el cursor, explotan en Potenciadores Lunares
+		[i:FargowiltasSouls/NebulaEnchant] Recoger Potenciadores Lunares aumenta tu daño, crítico, regeneración de vida o reducción de daño
+		[i:FargowiltasSouls/StardustEnchant] Estasis de Polvo Estelar dura 6 s con 75 s de recarga
+		[i:FargowiltasSouls/MeteorEnchant] Aumenta velocidad y aceleración de movimiento, reduce el impulso
+		[i:FargowiltasSouls/WizardEnchant] Mejora los efectos de todos tus Encantamientos
+		'Presente desde el Big Bang'
+		'''
+}
+
+EarthForce: {
+	DisplayName: Fuerza de la Tierra
+	Tooltip:
+		'''
+		[i:FargowiltasSouls/MythrilEnchant] No atacar acumula carga; atacar la consume, aumentando la velocidad de ataque
+		[i:FargowiltasSouls/PalladiumEnchant] [i:FargowiltasSouls/TitaniumEnchant] Mayor regeneración y reducción de daño, más aún con más carga
+		[i:FargowiltasSouls/AdamantiteEnchant] También atacas más rápido mientras consumes carga al atacar continuamente
+		[i:FargowiltasSouls/OrichalcumEnchant] Mientras estás cargado infliges Veneno Terrestre, que inflige un porcentaje del daño del golpe
+		[i:FargowiltasSouls/OrichalcumEnchant] Los enemigos reciben 3.5x daño de los perjuicios
+		[i:FargowiltasSouls/CobaltEnchant] Mantén presionado para caer más rápido
+		'La bendición de Gaia brilla sobre ti'
+		'''
+}
+
+LifeForce: {
+	DisplayName: Fuerza de la Vida
+	Tooltip:
+		'''
+		[i:FargowiltasSouls/BeeEnchant] Otorga alas poderosas
+		[i:FargowiltasSouls/BeeEnchant] Dejas flores poderosas al volar
+		[i:FargowiltasSouls/PumpkinEnchant] Las flores te curan, liberan abejas, otorgan Ambrosía y restauran el tiempo de vuelo
+		[i:FargowiltasSouls/BeetleEnchant] Ambrosía da +30% daño, velocidad cuerpo a cuerpo, +20% reducción de daño y 5 regeneración
+		[i:FargowiltasSouls/BeetleEnchant] Ambrosía también permite críticos en daño de invocación
+		[i:FargowiltasSouls/SpiderEnchant] +15% de probabilidad de crítico
+		[i:FargowiltasSouls/TurtleEnchant] Refleja 500% del daño por contacto
+		[i:FargowiltasSouls/BeeEnchant] Efectos del Paquete de Colmena
+		'Pocos seres vivos osan desobedecer tu voluntad'
+		'''
+}
+
+NatureForce: {
+	DisplayName: Fuerza de la Naturaleza
+	Tooltip:
+		'''
+		[i:FargowiltasSouls/CrimsonEnchant] Auras que drenan vida de enemigos cercanos
+		[i:FargowiltasSouls/CrimsonEnchant] El drenaje es mayor si no has recibido daño recientemente
+		[i:FargowiltasSouls/MoltenEnchant] Infliges 1.15x daño a enemigos dentro del aura
+		[i:FargowiltasSouls/ChlorophyteEnchant] Disparas hojas mágicas ocasionalmente dentro del aura
+		[i:FargowiltasSouls/ShroomiteEnchant] Las hojas generan una nube de hongos al impactar
+		[i:FargowiltasSouls/ShroomiteEnchant] Los hongos curan 50 HP y otorgan Poder de Hongo por 20 s
+		[i:FargowiltasSouls/ShroomiteEnchant] Poder de Hongo otorga +20% daño, crítico y agranda el aura
+		[i:FargowiltasSouls/FrostEnchant] Tus ataques infligen Quemadura de Escarcha y Congelamiento
+		[i:FargowiltasSouls/RainEnchant] Invoca un paraguas que bloquea hasta 200 de daño desde arriba
+		'Conectado a todos los secretos del bosque'
+		'''
+}
+
+ShadowForce: {
+	DisplayName: Fuerza de la Muerte
+	Tooltip:
+		'''
+		[i:FargowiltasSouls/CrystalAssassinEnchant] Otorga una embestida sombría que cancela el movimiento vertical y puede ir en diagonal
+		[i:FargowiltasSouls/ShinobiEnchant] Cada 4 s, tu próxima embestida te envuelve en sombra, volviéndote invencible durante ella
+		[i:FargowiltasSouls/ShinobiEnchant] Embestir con sombra daña e inflige Marcado para Morir
+		[i:FargowiltasSouls/AncientShadowEnchant] Al embestir, disparas proyectiles de llama sombría
+		[i:FargowiltasSouls/NinjaEnchant] Aumenta crítico de proyectiles según su velocidad
+		[i:FargowiltasSouls/NinjaEnchant] Aumenta velocidad de proyectiles al moverse lento
+		[i:FargowiltasSouls/NecroEnchant] Los enemigos muertos pueden soltar huesos
+		[i:FargowiltasSouls/DarkArtistEnchant] Al atacar, dispara proyectiles del siguiente arma más cercana
+		[i:FargowiltasSouls/SpookyEnchant] Todos tus esbirros obtienen un ataque extra con guadaña
+		'Oscuro, más oscuro, aún más oscuro'
+		'''
+}
+
+SpiritForce: {
+	DisplayName: Fuerza del Espíritu
+	Tooltip:
+		'''
+		[i:FargowiltasSouls/HallowEnchant] Las pociones de curación restauran más salud, pero su efecto es gradual
+		[i:FargowiltasSouls/SpectreEnchant] Si llegas a 0 de vida, revives con 200 de vida y te curas de perjuicios
+		[i:FargowiltasSouls/TikiEnchant] Aumenta el alcance de látigos, escalan con cualquier clase y potencian los proyectiles que golpean
+		'Asciende desde este reino mortal'
+		'''
+}
+
+TerraForce: {
+	DisplayName: Fuerza de Terra
+	Tooltip:
+		'''
+		[i:FargowiltasSouls/CopperEnchant] [i:FargowiltasSouls/ObsidianEnchant] [i:FargowiltasSouls/LeadEnchant] Los golpes críticos a veces disparan rayos que explotan e infligen un Envenenamiento de Plomo más fuerte
+		[i:FargowiltasSouls/SilverEnchant] Parada defensiva bloquea hasta 200 de daño, y los parries exitosos disparan un rayo instantáneo
+		[i:FargowiltasSouls/TinEnchant] Fija la probabilidad crítica del Estaño en 75%, aumentando un 25% hasta 100% cuando disparas un rayo
+		[i:FargowiltasSouls/LeadEnchant] Recibes 60% menos daño prolongado
+		[i:FargowiltasSouls/TungstenEnchant] Aumenta el tamaño de armas cuerpo a cuerpo en 50% y el alcance de látigos en 20%
+		[i:FargowiltasSouls/IronEnchant] Al recoger objetos aumentas tu reducción de daño en 20% por 5 segundos y mejoras el alcance para recoger ítems
+		[i:FargowiltasSouls/IronEnchant] Tus reforjados siempre otorgan un prefijo excelente por un 50% más de costo (funciona en inventario y vanidad)
+		'La tierra presta su fuerza'
+		'''
+	VanityTooltip: "[i:FargowiltasSouls/IronEnchant] Tus reforjados siempre otorgan un prefijo excelente por un 50% más de costo, mejora el alcance para recoger objetos"
+}
+
+TimberForce: {
+	DisplayName: Fuerza de la Madera
+	Tooltip:
+		'''
+		[i:FargowiltasSouls/EbonwoodEnchant] [i:FargowiltasSouls/ShadewoodEnchant] Tienes un aura de Corrupción y Sangrado
+		[i:FargowiltasSouls/BorealWoodEnchant] [i:FargowiltasSouls/PalmWoodEnchant] Disparas bolas de nieve y bellotas a los enemigos dentro del aura al golpearlos
+		[i:FargowiltasSouls/RichMahoganyEnchant] Los ganchos se lanzan, retraen y jalan 2.5 veces más rápido
+		[i:FargowiltasSouls/PearlwoodEnchant] Al recoger objetos te potencias, permitiendo que tus críticos se relancen a tu favor por 5 segundos
+		[i:FargowiltasSouls/PearlwoodEnchant] Tus ataques ocasionalmente generan estrellas de maná al golpear
+		[i:FargowiltasSouls/WoodEnchant] Las entradas del bestiario y estandartes se completan más rápido
+		[i:FargowiltasSouls/WoodEnchant] Obtienes descuento en tiendas según tu progreso en el bestiario (funciona en inventario y vanidad)
+		'Extremadamente rígida'
+		'''
+}
+
+WillForce: {
+	DisplayName: Fuerza de la Voluntad
+	Tooltip:
+		'''
+		[i:FargowiltasSouls/GladiatorEnchant] Un espíritu gladiador con estandarte te sigue y te potencia cuando estás cerca
+		[i:FargowiltasSouls/RedRidingEnchant] Los ataques consecutivos ganan daño extra, mayor si estás potenciado por el estandarte
+		[i:FargowiltasSouls/ValhallaKnightEnchant] Aumenta la efectividad de fuentes de curación en 25%
+		[i:FargowiltasSouls/ValhallaKnightEnchant] Mejora monturas y estadísticas al montarlas; las monturas obtienen embestida
+		[i:FargowiltasSouls/GoldEnchant] Envía automáticamente monedas al cerdito al recogerlas (funciona en inventario y vanidad); tus ataques infligen Midas
+		[i:FargowiltasSouls/PlatinumEnchant] 33% de probabilidad de que los enemigos suelten 5 veces más botín
+		'Una mente de determinación inquebrantable'
+		'''
+	VanityTooltip: "[i:FargowiltasSouls/GoldEnchant] Envía automáticamente monedas al cerdito al recogerlas"
+}
+
+AbominableWand: {
+	DisplayName: Varita Abominable
+	Tooltip:
+		'''
+		Otorga inmunidad a Colmillo Abominable y Presencia Abominable
+		Adoración Brillante se carga el doble de rápido y reduce a la mitad el enfriamiento de corazones
+		Aumenta en 20% el límite de daño de bonificación por roce
+		La Abominación Espectral aparece ocasionalmente para apoyar tus golpes críticos
+		Con la armadura Estigia, se carga energía al rozar ataques
+		Puedes resistir cualquier golpe y sobrevivir con 1 de vida
+		La resistencia se recupera al alcanzar vida completa otra vez
+		'Parece que algo le falta...'
+		'''
+}
+
+AeolusBoots: {
+	DisplayName: Botas de Eolo
+	Tooltip:
+		'''
+		Permiten volar, correr a gran velocidad y mejorar movilidad sobre hielo
+		Puedes correr aún más rápido sobre arena
+		Velocidad de movimiento aumentada en 8%
+		Aumenta velocidad y altura de salto, permite salto doble y automático, e inmunidad al daño por caída
+		Permite caminar sobre agua, miel y lava
+		Otorga inmunidad a bloques de fuego y 7 segundos de inmunidad a lava
+		Reduce el daño al tocar lava
+		Crecen flores en el pasto que pisas
+		'De vuelta y mejor que nunca'
+		'''
+}
+
+AgitatingLens: {
+	DisplayName: Lente Agitante
+	Tooltip:
+		'''
+		Otorga inmunidad a Enfurecido (no auto-infligido)
+		Al correr o embestir dejas una estela de guadañas demoníacas que infligen daño mágico
+		Instalación de perjuicio te enloquece, aumentando mucho tu ofensiva, reduciendo fuertemente tu defensa, e impidiendo que te detengas
+		El estado de Enfurecido dura 8 segundos, seguido de 2 segundos de aturdimiento
+		'El remanente irritable de un enemigo derrotado'
+		'''
+}
+
+BetsysHeart: {
+	DisplayName: Corazón de Betsy
+	Tooltip:
+		'''
+		Otorga inmunidad a Baboso, Arma Marchita y Armadura Marchita
+		Golpear enemigos con Embestida de Fuego inflige 20 segundos de Maldición de Betsy y reduce el enfriamiento de la embestida
+		'Ligera brasa, término medio'
+		'''
+}
+
+BionomicCluster: {
+	DisplayName: Núcleo Bionómico
+	Tooltip:
+		'''
+		Otorga inmunidad a [i:FargowiltasSouls/FrigidGemstone] Quemadura de Escarcha, [i:FargowiltasSouls/WretchedPouch] Llama Sombría, [i:FargowiltasSouls/SqueakyToy] Juguete Chillón, [i:FargowiltasSouls/ConcentratedRainbowMatter] Llamas del Cosmos, 
+		[i:FargowiltasSouls/WyvernFeather] Alas Cortadas, Lisiado, [i:FargowiltasSouls/TribalCharm] Enredado, Purificado, [i:FargowiltasSouls/NymphsPerfume] Enamorado, Apestoso, Hechizado y [i:FargowiltasSouls/SecurityWallet] Midas
+		[i:FargowiltasSouls/SandsofTime] Úsalo para teletransportarte al último punto de muerte
+		[i:FargowiltasSouls/NymphsPerfume] Tus ataques a veces generan corazones al impactar
+		[i:FargowiltasSouls/WyvernFeather] Sueltas orbes de luz periódicamente, tócales para recuperar tiempo de vuelo
+		[i:FargowiltasSouls/SqueakyToy] Los ataques enemigos tienen 5% de probabilidad de sonar y solo hacerte 1 de daño
+		[i:FargowiltasSouls/WretchedPouch] Al atacar, acumulas carga de llama sombría, pero reduces defensa hasta en 10%
+		[i:FargowiltasSouls/WretchedPouch] Al dejar de atacar, liberas la carga en forma de tentáculos de sombra que infligen daño mágico
+		[i:FargowiltasSouls/ConcentratedRainbowMatter] Invoca un slime arcoíris amigable
+		[i:FargowiltasSouls/TimsConcoction] Algunos enemigos sueltan pociones al morir
+		[i:FargowiltasSouls/TribalCharm] Al atacar haciendo clic manualmente, aumentas el daño no invocador en 30%
+		[c/00FFFF:Los siguientes efectos también funcionan desde inventario o vanidad (clic derecho para desactivar):]
+		    Inmunidad a [i:FargowiltasSouls/SandsofTime] Viento Fuerte, daño de cactus, [i:FargowiltasSouls/MysticSkull] Sofocación, [i:FargowiltasSouls/FrigidGemstone] Escarcha, [i:FargowiltasSouls/SqueakyToy] y Culpable
+		    [i:FargowiltasSouls/WyvernFeather] Estabiliza la gravedad en el espacio y en líquidos, [i:FargowiltasSouls/OrdinaryCarrot] mejora visión nocturna, [i:FargowiltasSouls/SecurityWallet] y reduce el costo de reforjar en 50%
+		    [i:FargowiltasSouls/ConcentratedRainbowMatter] Usa automáticamente pociones de curación y [i:FargowiltasSouls/MysticSkull] maná cuando las necesites, además aumenta el alcance para recoger estrellas de maná
+		    [i:FargowiltasSouls/NymphsPerfume] Revives con más vida, [i:FargowiltasSouls/SandsofTime] y si no hay jefes activos, revives más rápido
+		    [i:FargowiltasSouls/OrdinaryCarrot] Clic derecho para hacer zoom
+		'La amalgama nacida de mil enemigos comunes'
+		'''
+	VanityTooltip:
+		'''
+		Inmunidad a [i:FargowiltasSouls/SandsofTime] Viento Fuerte, daño de cactus, [i:FargowiltasSouls/MysticSkull] Sofocación, [i:FargowiltasSouls/FrigidGemstone] Escarcha, [i:FargowiltasSouls/SqueakyToy] y Culpable
+		[i:FargowiltasSouls/WyvernFeather] Estabiliza la gravedad en el espacio y en líquidos, [i:FargowiltasSouls/OrdinaryCarrot] mejora visión nocturna, [i:FargowiltasSouls/SecurityWallet] y reduce el costo de reforjar en 50%
+		[i:FargowiltasSouls/ConcentratedRainbowMatter] Usa automáticamente pociones de curación y [i:FargowiltasSouls/MysticSkull] maná cuando las necesites, además aumenta el alcance para recoger estrellas de maná
+		[i:FargowiltasSouls/NymphsPerfume] Revives con más vida, [i:FargowiltasSouls/SandsofTime] y si no hay jefes activos, revives más rápido
+		[i:FargowiltasSouls/OrdinaryCarrot] Clic derecho para hacer zoom
+		'''
+}
+
+BionomicClusterInactive: {
+	DisplayName: Clúster Bionómico (Inactivo)
+	Tooltip:
+		'''
+		Otorga inmunidad a [i:FargowiltasSouls/FrigidGemstone] Quemadura de Escarcha, [i:FargowiltasSouls/WretchedPouch] Llama Sombría, [i:FargowiltasSouls/SqueakyToy] Juguete Chillón, [i:FargowiltasSouls/ConcentratedRainbowMatter] Llamas del Cosmos, 
+		[i:FargowiltasSouls/WyvernFeather] Alas Cortadas, Lisiado, [i:FargowiltasSouls/TribalCharm] Enredado, Purificado, [i:FargowiltasSouls/NymphsPerfume] Enamorado, Apestoso, Hechizado y [i:FargowiltasSouls/SecurityWallet] Toque de Midas
+		[i:FargowiltasSouls/SandsofTime] Úsalo para teletransportarte a tu último punto de muerte
+		[i:FargowiltasSouls/NymphsPerfume] Tus ataques a veces generan corazones al golpear
+		[i:FargowiltasSouls/WyvernFeather] Emitirás orbes de luz periódicamente; tócalos para recuperar tiempo de vuelo
+		[i:FargowiltasSouls/SqueakyToy] Los ataques enemigos tienen 5% de sonar como juguete y solo hacen 1 de daño
+		[i:FargowiltasSouls/WretchedPouch] Al atacar, acumulas carga sombría pero reduces reducción de daño hasta 10%
+		[i:FargowiltasSouls/WretchedPouch] Deja de atacar para liberar tentáculos sombríos que infligen daño mágico
+		[i:FargowiltasSouls/ConcentratedRainbowMatter] Invoca un slime arcoíris amistoso
+		[i:FargowiltasSouls/TimsConcoction] Algunos enemigos soltarán pociones al morir
+		[i:FargowiltasSouls/TribalCharm] Al atacar haciendo clic manualmente, el daño no invocador aumenta 30%
+		[c/00FFFF:Efectos actualmente desactivados en el inventario (clic derecho para activar):]
+		    Inmunidad a [i:FargowiltasSouls/SandsofTime] Viento Poderoso, daño de cactus, [i:FargowiltasSouls/MysticSkull] Asfixia, [i:FargowiltasSouls/FrigidGemstone] Congelado, [i:FargowiltasSouls/SqueakyToy] y Culpabilidad
+		    [i:FargowiltasSouls/WyvernFeather] Estabiliza la gravedad en el espacio y bajo el agua, [i:FargowiltasSouls/OrdinaryCarrot] mejora la visión nocturna, [i:FargowiltasSouls/SecurityWallet] reduce el coste de reforge en 50%
+		    [i:FargowiltasSouls/ConcentratedRainbowMatter] Usa automáticamente pociones de vida y [i:FargowiltasSouls/MysticSkull] de maná, y aumenta el rango de recolección de estrellas de maná
+		    [i:FargowiltasSouls/NymphsPerfume] Resucitas con más vida [i:FargowiltasSouls/SandsofTime] y sin jefes vivos, reapareces más rápido
+		    [i:FargowiltasSouls/FrigidGemstone] Presiona la tecla de Hechizo Gélido para lanzar una Varita de Hielo
+		    [i:FargowiltasSouls/OrdinaryCarrot] Clic derecho para hacer zoom
+		'Nacido de mil enemigos comunes'
+		'''
+}
+
+CelestialRune: {
+	DisplayName: Runa Celestial
+	Tooltip:
+		'''
+		Otorga inmunidad a Marcado para Morir
+		Disparas ataques extra periódicamente según el tipo de arma
+		'Hechizos de un enemigo caído, reutilizados'
+		'''
+}
+
+ChaliceoftheMoon: {
+	DisplayName: Máscara del Augur Verde
+	Tooltip:
+		'''
+		[i:FargowiltasSouls/ChaliceoftheMoon] Inmunidad a Enjambre, Atrofiado, Atascado, Flujo de Maná Invertido y Antisocial
+		Inmunidad a [i:FargowiltasSouls/MagicalBulb] Veneno, Veneno de Hiedra, [i:FargowiltasSouls/LihzahrdTreasureBox] Quemadura, Fundido, Maldición Lihzahrd, Terreno Bajo y [i:FargowiltasSouls/CelestialRune] Marcado para Morir
+		[i:FargowiltasSouls/MagicalBulb] Presiona la tecla de Limpieza Mágica para curar perjuicios y duplicar el daño prolongado a enemigos cercanos
+		[i:FargowiltasSouls/MagicalBulb] Aumenta la regeneración de vida según la luz recibida
+		[i:FargowiltasSouls/LihzahrdTreasureBox] Caída rápida provoca una explosión al aterrizar desde gran altura
+		[i:FargowiltasSouls/CelestialRune] Disparas ataques extra según tu arma
+		[c/BC5252:Convierte todos los efectos de esbirros de accesorios y ranuras vacías en +1% de daño por cada uno (puede activarse o desactivarse)]
+		De lo contrario, invoca [i:FargowiltasSouls/MagicalBulb] una planta que lucha a tu lado
+		'Siempre observando'
+		'''
+}
+
+ConcentratedRainbowMatter: {
+	DisplayName: Materia Arcoíris Concentrada
+	Tooltip:
+		'''
+		Inmunidad a Llamas del Cosmos
+		Invoca un slime arcoíris bebé que lucha por ti
+		Usa automáticamente pociones de vida cuando sea necesario (funciona desde inventario o vanidad)
+		'Prueba el arcoíris'
+		'''
+	VanityTooltip: Usa automáticamente pociones de vida cuando sea necesario
+}
+
+DarkenedHeart: {
+	DisplayName: Corazón Oscurecido
+	Tooltip:
+		'''
+		Otorga inmunidad a Putrefacción
+		10% más velocidad de movimiento y mejor tracción al girar
+		Genera pequeños devoradores que persiguen enemigos e infligen Infierno Maldito cada pocos ataques
+		'Las moscas se niegan a acercarse'
+		'''
+}
+
+Deerclawps: {
+	DisplayName: Garra de Ciervo
+	Tooltip:
+		'''
+		Inmunidad a Lentitud y Congelación
+		El deslizamiento deja una estela de picos de hielo dirigidos al enemigo más cercano si estás en el aire
+		Caída rápida genera una erupción glaciar al impactar
+		'Uñas cortadas de un enemigo vencido'
+		'''
+}
+
+DreadShell: {
+	DisplayName: Caparazón del Pavor
+	Tooltip:
+		'''
+		Otorga inmunidad a Anticoagulación
+		Inmunidad al retroceso
+		La defensa y reducción de daño bajan drásticamente al defender y después de hacerlo
+		Si bloqueas justo al ser golpeado, ejecutas una parada y contraataque (con gran enfriamiento)
+		El contraataque causa gran daño e inflige Anticoagulación
+		Absorbe coágulos de sangre para obtener +30% de daño
+		Parada defensiva bloquea hasta 200 de daño
+		'Fue un error atraer tiburones aquí'
+		'''
+}
+
+DubiousCircuitry: {
+	DisplayName: Circuitería Dudosa
+	Tooltip:
+		'''
+		Inmunidad a [i:FargowiltasSouls/FusedLens] Infierno Maldito, Icor, [i:FargowiltasSouls/GroundStick] Pararrayos, [i:FargowiltasSouls/ReinforcedPlating] Indefenso, Inyección Nano y retroceso
+		[i:FargowiltasSouls/FusedLens] Instalación de Perjuicio aplica Infierno Maldito e Icor a ti mismo
+		[i:FargowiltasSouls/FusedLens] Bajo estos perjuicios, obtienes +15% de velocidad de ataque, +15% de probabilidad de crítico e infliges ambos efectos
+		[i:FargowiltasSouls/GroundStick] Tus ataques pueden aplicar Pararrayos y recibir sobrecarga eléctrica
+		[i:FargowiltasSouls/GroundStick] Dos sondas aliadas luchan contigo y se sobrecargan contigo
+		[i:FargowiltasSouls/ReinforcedPlating] Reduce el daño recibido en 5%
+		'Probablemente sin virus'
+		'''
+}
+
+EurusSock: {
+	DisplayName: Calcetines de Eurus
+	Tooltip: El portador puede correr algo rápido
+}
+
+FrigidGemstone: {
+	DisplayName: Agarre Gélido
+	Tooltip:
+		'''
+		Inmunidad a Quemadura de Escarcha y Congelado (funciona desde inventario o vanidad)
+		'Un miembro arrancado compuesto de hielo ancestral'
+		'''
+	VanityTooltip: Inmunidad a Quemadura de Escarcha y Congelado
+}
+
+FusedLens: {
+	DisplayName: Lente Fundida
+	Tooltip:
+		'''
+		Inmunidad al Infierno Maldito y Icor (si no es autoaplicado)
+		Instalación de Perjuicio aplica ambos efectos a ti mismo
+		Con Infierno Maldito: +15% velocidad de ataque
+		Con Icor: +15% probabilidad de crítico
+		Al perder vida por daño prolongado, infliges Infierno Maldito e Icor
+		'Demasiado derretida como para mejorar la visión'
+		'''
+}
+
+GalacticGlobe: {
+	DisplayName: Cáliz de la Luna
+	Tooltip:
+		'''
+		Otorga inmunidad a Maldición de Anulación, Volteado, Iluminado, Inestable y Maldición de la Luna
+		Otorga la mayoría de los buffs de poción y estación (funciona desde inventario o vanidad)
+		Invoca los verdaderos ojos de Cthulhu para protegerte
+		Aumenta el tiempo de vuelo en un 100%
+		'Consúmelo'
+		'''
+	VanityTooltip: Otorga la mayoría de los buffs de pociones y estaciones
+	HoldShift: "[c/ADD8E6:Mantén Shift Izquierdo para ver los buffs de pociones]"
+	ExpandedTooltip:
+		'''
+		[c/ADD8E6:Piel de Hierro, Regeneración, Velocidad, Regeneración de Maná, Poder Mágico, Reserva de Munición, Arquería,] 
+		[c/ADD8E6:Constructor, Cofre, Resistencia, Pesca, Branquias, Suerte, Alcance de Corazón, Fuerza Vital, Minería, Piel de Obsidiana,] 
+		[c/ADD8E6:Furia, Ira, Sonar, Invocación, Espinas, Titán, Calidez, Caminata sobre el Agua, Exquisitamente Lleno,]
+		[c/ADD8E6:Filo, Caja de Munición, Clarividencia, Hechizado, Mesa de Guerra, Miel]
+		'''
+}
+
+GelicWings: {
+	DisplayName: Alas Gélidas
+	Tooltip:
+		'''
+		Permite volar y caer lentamente
+		Otorga inmunidad a Iluminado por el Hallow Subterráneo
+		Puedes hacer doble salto
+		Al aterrizar tras un salto, disparas picos de slime a los lados
+		'Písame'
+		'''
+}
+
+GroundStick: {
+	DisplayName: Control Remoto
+	Tooltip:
+		'''
+		Otorga inmunidad a Pararrayos
+		Los ataques eléctricos y de rayos te sobrecargan y hacen la mitad de daño si no estás ya sobrecargado
+		Cuando estás sobrecargado, aumentas velocidad de movimiento y ataque, e infliges Electrificado y Pararrayos
+		Dos sondas amigas luchan contigo y se sobrecargan contigo
+		'Un segmento de enemigo derrotado con una antena pegada'
+		'''
+}
+
+GuttedHeart: {
+	DisplayName: Corazón Eviscerado
+	Tooltip:
+		'''
+		Otorga inmunidad a Sed de Sangre
+		Aumenta la vida máxima en 10%
+		Creepers flotan a tu alrededor bloqueando algo de daño
+		Aparece un Creeper nuevo cada 15–10 segundos (más rápido si tienes poca vida), pueden existir hasta 5
+		Se regeneran más rápido si no te mueves
+		Los Creepers infligen Icor al golpear
+		'Una vez latió en la mente de un enemigo derrotado'
+		'''
+}
+
+HeartoftheMasochist: {
+	DisplayName: Corazón del Maestro
+	Tooltip:
+		'''
+		Otorga inmunidad a [i:FargowiltasSouls/PumpkingsCape] Páramo Viviente, [i:FargowiltasSouls/IceQueensCrown] Hipotermia, Congelado, [i:FargowiltasSouls/SaucerControlConsole] Electrificado, Distorsionado, [i:FargowiltasSouls/BetsysHeart] Cubierto de Moco, Arma Marchita, Armadura Marchita,
+		[i:FargowiltasSouls/MutantAntibodies] Mojado, Mordida Salvaje, Mordida Mutante, Mandíbula Oceánica, perjuicios acuáticos, [i:FargowiltasSouls/PrecisionSeal] Castigo, [i:FargowiltasSouls/GalacticGlobe] Maldición de Anulación, Volteado, Iluminado, Inestable y Maldición de la Luna
+		[i:FargowiltasSouls/PumpkingsCape] [i:FargowiltasSouls/MutantAntibodies] [i:FargowiltasSouls/IceQueensCrown] Aumenta daño y prob. de crítico en 10%, y reducción de daño en 5%
+		[i:FargowiltasSouls/PumpkingsCape] Parada defensiva bloquea hasta 200 de daño. Las paradas curan según el daño. Mientras bloqueas, emites un aura de Putrefacción
+		[i:FargowiltasSouls/IceQueensCrown] Rozar ataques carga la Bomba de Rozamiento
+		[i:FargowiltasSouls/BetsysHeart] Embestida de fuego inflige Maldición de Betsy
+		[i:FargowiltasSouls/MutantAntibodies] Sumergirte en agua restaura tiempo de vuelo y mejora la velocidad y duración de vuelo
+		[i:FargowiltasSouls/MutantAntibodies] Montar a Cute Fishron te da el perjuicio Mojado
+		[i:FargowiltasSouls/PrecisionSeal] Mantén la tecla de Sello de Precisión para desactivar embestidas y doble saltos, y mostrar tu caja de impacto
+		[i:FargowiltasSouls/PrecisionSeal] Reduce la caja de impacto para proyectiles, incluso si no está visible. [i:FargowiltasSouls/GalacticGlobe] aumenta tiempo de vuelo
+		[i:FargowiltasSouls/GalacticGlobe] Otorga la mayoría de buffs estándar de pociones (funciona desde inventario o vanidad)
+		[c/BC5252:Convierte todos los efectos de esbirros y ranuras vacías en +1% de daño por cada uno (puede activarse)]
+		De lo contrario, invoca [i:FargowiltasSouls/GalacticGlobe] mini Ojos verdaderos de Cthulhu y [i:FargowiltasSouls/SaucerControlConsole] un Platillo Amistoso que ralentiza enemigos al impactar
+		'Cálido, latiendo y sin cuerpo necesario'
+		'''
+	VanityTooltip: "[i:FargowiltasSouls/SaucerControlConsole] Presiona la tecla de Ciclar Munición para cambiar munición y [i:FargowiltasSouls/GalacticGlobe] otorga buffs estándar de poción"
+}
+
+IceQueensCrown: {
+	DisplayName: Corona de la Reina de Hielo
+	Tooltip:
+		'''
+		Otorga inmunidad a Hipotermia y Congelación
+		Aumenta la reducción de daño en 5%
+		Rozar ataques carga la Bomba de Rozamiento
+		'Símbolo real de una enemiga vencida'
+		'''
+}
+
+LihzahrdTreasureBox: {
+	DisplayName: Cofre del Tesoro Lihzahrd
+	Tooltip:
+		'''
+		Inmunidad a Quemadura, Fundido, Maldición Lihzahrd y Terreno Bajo
+		Caída rápida genera una erupción ígnea al impactar tras una gran caída
+		'Demasiadas trampas como para abrirlo'
+		'''
+}
+
+LumpOfFlesh: {
+	DisplayName: Masa de Carne
+	Tooltip:
+		'''
+		Inmunidad a [i:FargowiltasSouls/DreadShell] retroceso, Anticoagulación, [i:FargowiltasSouls/PungentEyeball] Oscuridad, Obstrucción, [i:FargowiltasSouls/SkullCharm] Aturdido, [i:FargowiltasSouls/Deerclawps] Lentitud y Congelado
+		[i:FargowiltasSouls/PungentEyeball] El cursor hace que enemigos cercanos reciban hasta 1.15x de daño
+		[i:FargowiltasSouls/PungentEyeball] Aumenta mucho la tasa de aparición de enemigos raros
+		[i:FargowiltasSouls/SkullCharm] Aumenta el daño en 15% y da un esbirro ojo que se carga mientras atacas
+		[i:FargowiltasSouls/SkullCharm] Los enemigos son menos propensos a atacarte
+		[i:FargowiltasSouls/DreadShell] Parada defensiva bloquea hasta 200 de daño, y realiza un gran contraataque
+		[i:FargowiltasSouls/DreadShell] Defensa y reducción de daño se reducen drásticamente durante y tras bloquear
+		[i:FargowiltasSouls/Deerclawps] Deslizar deja una estela de picos sangrientos
+		[i:FargowiltasSouls/Deerclawps] Caída rápida crea una erupción glaciar al impactar
+		'Está creciendo'
+		'''
+}
+
+MagicalBulb: {
+	DisplayName: Bulbo Mágico
+	Tooltip:
+		'''
+		Otorga inmunidad a Veneno Ácido, Veneno de Hiedra y Enjambre
+		Aumenta la regeneración de vida según la cantidad de luz recibida
+		Atrae a la cría de una planta legendaria que florece en combate
+		'¿Matricidio?'
+		'''
+}
+
+MutantAntibodies: {
+	DisplayName: Anticuerpos Mutantes
+	Tooltip:
+		'''
+		Inmunidad a Mojado, Mordida Feral, Mordisco Mutante y Mordida Oceánica
+		Inmunidad a la mayoría de perjuicios al entrar en el agua
+		Activa el efecto de Mojado al montar un Pezroncito
+		Aumenta el daño de tu clase de arma actual en 25%, pero reduce la regeneración de vida
+		Sumergirte en agua restaura tiempo de vuelo y mejora velocidad y duración del vuelo
+		'Medicamento saludable recomendado por 0 de 10 doctores'
+		'''
+}
+
+MutantEye: {
+	DisplayName: Ojo Mutante
+	Tooltip:
+		'''
+		Inmunidad a Colmillo Mutante
+		Aumenta el límite de daño por bonificación de roce en 25%
+		Mejora los corazones de Adoración Centelleante en rayos de amor
+		Aumenta el daño ganado por roce
+		Aumenta el ratio de aparición y daño de la Abominación Espectral
+		Bomba de Roce lanza una oleada de esferas y destruye la mayoría de proyectiles enemigos
+		Bomba de Roce tiene 60 segundos de recarga
+		'Solo un poco sospechoso'
+		'''
+}
+
+MysticSkull: {
+	DisplayName: Cráneo Místico
+	Tooltip:
+		'''
+		Funciona desde el inventario y ranuras de vanidad
+		Clic derecho para desactivar
+		Inmunidad a Asfixia
+		Usa automáticamente pociones de maná cuando se necesiten
+		Aumenta el rango de recolección de estrellas de maná
+		'La cabeza murmurante de un enemigo derrotado'
+		'''
+	VanityTooltip:
+		'''
+		Inmunidad a Asfixia
+		Usa automáticamente pociones de maná cuando se necesiten
+		Aumenta el rango de recolección de estrellas de maná
+		'''
+}
+
+MysticSkullInactive: {
+	DisplayName: Cráneo Místico (Inactivo)
+	Tooltip:
+		'''
+		Actualmente inactivo, clic derecho para activar
+		Inmunidad a Asfixia
+		Usa automáticamente pociones de maná cuando se necesiten
+		Aumenta el rango de recolección de estrellas de maná
+		'La cabeza murmurante de un enemigo derrotado'
+		'''
+}
+
+NecromanticBrew: {
+	DisplayName: Brebaje Necrótico
+	Tooltip:
+		'''
+		Inmunidad a Letargo
+		Aumenta en 30% la velocidad al deslizarte
+		Mientras te deslizas, recibes 15% menos daño y reflejas el 100% del daño por contacto
+		Invoca 2 brazos de Esqueletrón para golpear enemigos
+		'La solución ósea de un enemigo derrotado'
+		'''
+}
+
+NymphsPerfume: {
+	DisplayName: Perfume de la Ninfa
+	Tooltip:
+		'''
+		Inmunidad a Enamorado, Apestoso y Hechizado
+		Resucitas con más vida (funciona desde inventario y vanidad)
+		Tus ataques generan corazones ocasionalmente
+		'El aroma es algo abrumador'
+		'''
+	VanityTooltip: Resucitas con más vida
+}
+
+PrecisionSeal: {
+	DisplayName: Sello de Precisión
+	Tooltip:
+		'''
+		Inmunidad a Castigar
+		Reduce el tamaño de tu caja de impacto contra proyectiles
+		Mantén presionada la tecla del Sello de Precisión para desactivar dashes y doble saltos
+		Tu caja de impacto se mantiene reducida aunque no se muestre
+		'Esquiva tan cerca que puedes saborearlo'
+		'''
+}
+
+PuffInABottle: {
+	DisplayName: Nube en Botella
+	Tooltip: Permite al portador dar un doble salto
+}
+
+PumpkingsCape: {
+	DisplayName: Capa del Rey Calabaza
+	Tooltip:
+		'''
+		Inmunidad a Yermo Viviente
+		Aumenta en 5% el daño y la probabilidad de golpe crítico
+		Generas un aura de Putrefacción mientras te defiendes
+		Bloquea justo cuando te golpean para contraatacar (con gran tiempo de recarga)
+		Contratacar te cura en proporción al daño bloqueado
+		Parada Defensiva bloquea hasta 200 de daño
+		'De alguna manera, es de tu talla'
+		'''
+}
+
+PungentEyeball: {
+	DisplayName: Globo Ocular Punzante
+	Tooltip:
+		'''
+		Inmunidad a Oscuridad Total y Obstrucción Visual
+		Aumenta el ratio de aparición de enemigos raros
+		Tu cursor hace que enemigos cercanos reciban hasta 1.15x daño
+		El efecto se intensifica cuanto más los sigas con el cursor
+		'Está fermentando'
+		'''
+}
+
+PureHeart: {
+	DisplayName: Corazón Puro
+	Tooltip:
+		'''
+		[i:FargowiltasSouls/PureHeart] Inmunidad a los perjuicios de bioma
+		Otorga inmunidad a [i:FargowiltasSouls/DarkenedHeart] Putrefacción y [i:FargowiltasSouls/GuttedHeart] Sed de Sangre
+		[i:FargowiltasSouls/DarkenedHeart] Aumenta velocidad de movimiento y tracción al girar
+		[i:FargowiltasSouls/DarkenedHeart] Generas pequeños devoradores que buscan enemigos e infligen Sublimación (Daño prolongado y reducción de defensa)
+		[i:FargowiltasSouls/GuttedHeart] Hasta 5 parásitos flotan a tu alrededor bloqueando algo de daño, reaparecen más rápido si no te mueves
+		[i:FargowiltasSouls/GuttedHeart] Aumenta en 10% tu vida máxima
+		[i:FargowiltasSouls/GelicWings] Permite un doble salto
+		[i:FargowiltasSouls/GelicWings] Al aterrizar, lanza púas de slime hacia los lados
+		[i:FargowiltasSouls/GelicWings] Aumenta el tiempo de vuelo de alas en 30%
+		'Late con vitalidad'
+		'''
+}
+
+QueenStinger: {
+	DisplayName: Aguijón de la Reina
+	Tooltip:
+		'''
+		Inmunidad a Infestado
+		El efecto de Miel otorga +10 de penetración de armadura
+		Abejas y Avispas débiles se vuelven amistosas
+		'Arrancado de un enemigo vencido'
+		'''
+}
+
+ReinforcedPlating: {
+	DisplayName: Placa Reforzada
+	Tooltip:
+		'''
+		Inmunidad a Indefenso, Inyección Nano y retroceso
+		Reduce el daño recibido en un 5%
+		'La pieza más resistente de un enemigo vencido'
+		'''
+}
+
+SandsofTime: {
+	DisplayName: Arenas del Tiempo
+	Tooltip:
+		'''
+		Funciona desde el inventario y vanidad
+		Inmunidad a Viento Poderoso y daño de cactus
+		Reapareces el doble de rápido si no hay jefes vivos
+		Úsalo para teletransportarte al último punto de muerte
+		'Pase lo que pase, no lo dejes caer'
+		'''
+	VanityTooltip:
+		'''
+		Inmunidad a Viento Poderoso y daño de cactus
+		Reapareces el doble de rápido si no hay jefes vivos
+		Úsalo para teletransportarte al último punto de muerte
+		'''
+}
+
+SaucerControlConsole: {
+	DisplayName: Consola de Control de Platillo
+	Tooltip:
+		'''
+		Inmunidad a Electrocución y Distorsión
+		Invoca un Mini Platillo amistoso
+		Su rayo tracto ralentiza a los enemigos
+		El daño se reduce hasta que derrotes al Gólem
+		'Mantén el modo avión activado'
+		'''
+	VanityTooltip: Presiona la tecla de Ciclar Munición para cambiarla
+}
+
+SecurityWallet: {
+	DisplayName: Billetera de Seguridad
+	Tooltip:
+		'''
+		Funciona desde el inventario y vanidad
+		Inmunidad al Toque de Midas
+		Reduce en 50% el coste de forja
+		'No está a salvo de ser saqueada de tu cadáver'
+		'''
+	VanityTooltip:
+		'''
+		Inmunidad al Toque de Midas
+		Reduce en 50% el coste de forja
+		'''
+}
+
+SinisterIcon: {
+	DisplayName: Ícono Siniestro
+	Tooltip:
+		'''
+		Inmunidad a Mala Suerte y Aturdido
+		Aumenta la tasa de aparición de enemigos
+		Los enemigos y jefes sueltan el doble de botín
+		Solo afecta a jefes si estuvo equipado durante toda la pelea
+		'Definitivamente no está vivo'
+		'''
+}
+
+SkullCharm: {
+	DisplayName: Calavera de Cristal
+	Tooltip:
+		'''
+		Inmunidad a Atontado
+		Aumenta el daño infligido en 15% y el daño recibido en 10%
+		Los enemigos son menos propensos a atacarte
+		La calavera acumula energía y ataca mientras tú atacas
+		'Parte de una conciencia colectiva'
+		'''
+}
+
+SlimyShield: {
+	DisplayName: Escudo de Slime
+	Tooltip:
+		'''
+		Inmunidad a Enslimado
+		Aumenta la velocidad de caída
+		Mantén pulsado abajo para atravesar plataformas
+		Al aterrizar tras un salto, cae slime del cielo sobre tu cursor
+		El slime inflige Enslimado y Aceitado
+		'Arrancado de las entrañas de un enemigo derrotado'
+		'''
+}
+
+SparklingAdoration: {
+	DisplayName: Adoración Brillante
+	Tooltip:
+		'''
+		Inmunidad a Enamorado y Corazones Falsos
+		Roza ataques para ganar hasta x1.25 de daño
+		El bono disminuye con el tiempo y se pierde al recibir daño
+		Tus ataques generan corazones drenadores que infligen daño mágico
+		'¡Con toda tu emoción!'
+		'''
+}
+
+SqueakyToy: {
+	DisplayName: Juguete Chillón
+	Tooltip:
+		'''
+		Inmunidad a Juguete Chillón y Culpabilidad
+		Los ataques enemigos tienen 10% de chance de chillar y hacer solo 1 de daño
+		'¿El juguete favorito de un enemigo derrotado...?'
+		'''
+}
+
+SupremeDeathbringerFairy: {
+	DisplayName: Hada Suprema Portadora de la Muerte
+	Tooltip:
+		'''
+		Inmunidad a [i:FargowiltasSouls/SlimyShield] Pegajoso, [i:FargowiltasSouls/AgitatingLens] Enfurecido, [i:FargowiltasSouls/QueenStinger] Infestado y [i:FargowiltasSouls/NecromanticBrew] Letárgico
+		[i:FargowiltasSouls/SlimyShield] Aumenta la velocidad de caída y genera baba al aterrizar, mantén presionado para atravesar plataformas
+		[i:FargowiltasSouls/AgitatingLens] Al correr o deslizarte rápidamente dejas una estela de guadañas sangrientas
+		[i:FargowiltasSouls/AgitatingLens] Instalación de Perjuicio te pone en frenesí: menos control y defensa, pero gran poder ofensivo
+		[i:FargowiltasSouls/QueenStinger] El buff de miel aumenta tu penetración de armadura en 5, y las abejas y avispas débiles se vuelven amistosas
+		[i:FargowiltasSouls/QueenStinger] Presiona la tecla de Embestida Especial para una embestida de abeja rápida
+		[i:FargowiltasSouls/NecromanticBrew] Aumenta drásticamente la velocidad de deslizamiento, reduce daño al deslizarte y refleja el daño recibido
+		[i:FargowiltasSouls/NecromanticBrew] Invoca 2 brazos de Skeletron que golpean enemigos
+		'La supremacía no está garantizada'
+		'''
+}
+
+TimsConcoction: {
+	DisplayName: Mezcla de Tim
+	Tooltip:
+		'''
+		Ciertos enemigos soltarán pociones al ser derrotados
+		'Huele raro'
+		'''
+}
+
+TribalCharm: {
+	DisplayName: Amuleto Tribal
+	Tooltip:
+		'''
+		Al atacar con clic manual, aumenta en 30% el daño no invocador
+		Inmunidad a Enredado y Purificado
+		'Ídolo de los antiguos habitantes de la jungla'
+		'''
+}
+
+WretchedPouch: {
+	DisplayName: Bolsa Maldita
+	Tooltip:
+		'''
+		Inmunidad a Llama Sombría
+		Al atacar, acumulas carga sombría pero reduces reducción de daño hasta un 10%
+		Deja de atacar para liberar una explosión de tentáculos sombríos que infligen daño mágico
+		'El polvo incendiario maldito de un enemigo vencido'
+		'''
+}
+
+WyvernFeather: {
+	DisplayName: Pluma de Wyvern
+	Tooltip:
+		'''
+		Inmunidad a Alas Cortadas y Lisiado
+		Emites orbes de luz periódicamente; tócalos para recuperar tiempo de vuelo
+		Estabiliza la gravedad en el espacio y en líquidos (funciona desde inventario o vanidad)
+		'Cálida al tacto'
+		'''
+	VanityTooltip: Estabiliza la gravedad en el espacio y en líquidos
+}
+
+ZephyrBoots: {
+	DisplayName: Botas del Céfiro
+	Tooltip:
+		'''
+		Permiten volar, correr muy rápido y mejor movilidad en hielo
+		+8% de velocidad de movimiento
+		Puedes caminar sobre agua, miel y lava
+		Inmunidad a bloques ígneos y 7 segundos de inmunidad a la lava
+		Reduce el daño al tocar lava
+		Permite doble salto
+		Aumenta la altura de salto y elimina el daño por caída
+		'Corre como el viento'
+		'''
+}
+
+ArchWizardsSoul: {
+	DisplayName: Alma del Archimago
+	Tooltip:
+		'''
+		+22% de daño mágico
+		-20% de consumo de maná
+		+10% de probabilidad de crítico mágico
+		+200 de maná máximo
+		Efectos de los Puños Celestiales y la Flor de Maná
+		'Arcano hasta la médula'
+		'''
+}
+
+BerserkerSoul: {
+	DisplayName: Alma del Rabioso
+	Tooltip:
+		'''
+		+22% de daño cuerpo a cuerpo
+		+20% de velocidad cuerpo a cuerpo
+		+10% de probabilidad de crítico cuerpo a cuerpo
+		Aumenta el retroceso cuerpo a cuerpo
+		Efectos del Guantelete de Fuego, Bolsa de Yo-yo y Concha Celestial
+		'Nadie vivirá para contarlo'
+		'''
+}
+
+ColossusSoul: {
+	DisplayName: Alma del Coloso
+	Tooltip:
+		'''
+		+100 de vida máxima, +10% de reducción de daño, +5 de regeneración de vida
+		Inmunidad al retroceso, múltiples perjuicios, Brillo y daño por caída
+		Los enemigos te atacan con mayor frecuencia
+		Efectos del Cerebro de la Confusión, Velo Estelar, Amuleto de Mitos y Capa de Abeja
+		Efectos de la Piedra Brillante, Escudo del Paladín y Caparazón de Tortuga Helada
+		'Nada puede detenerte'
+		'''
+}
+
+ConjuristsSoul: {
+	DisplayName: Alma del Conjurador
+	Tooltip:
+		'''
+		+22% de daño de invocación
+		+15% de alcance de látigo
+		+3 esbirros máximos
+		+1 centinela máximo
+		Aumenta el retroceso de esbirros
+		'Un ejército a tu disposición'
+		'''
+}
+
+DimensionSoul: {
+	DisplayName: Alma de las Dimensiones
+	Tooltip:
+		'''
+		+300 de vida máxima, +20% de reducción de daño, +8 de regeneración de vida
+		Inmunidad al retroceso y múltiples perjuicios
+		Los enemigos te atacan más
+		Permite correr a velocidad supersónica y vuelo infinito [c/BC5252:(desactiva todos tus saltos — configurable)]
+		Aumenta en gran medida la habilidad de pesca, todas las cañas obtienen 10 señuelos adicionales
+		Aumenta la velocidad de colocación de bloques y muros en un 50%
+		Alcance casi infinito de colocación y minería, velocidad de minería triplicada
+		Efectos de Brillo, Explorador, Cazador y Sentido del Peligro
+		Pintado automático y efecto de actuadores
+		Otorga la habilidad de activar el Modo Constructor
+		Efectos del Cerebro de la Confusión, Velo Estelar, Collar de Enamorados, Capa de Abeja, Saco de Esporas y Piedra Brillante
+		Efectos del Escudo del Paladín, Caparazón de Tortuga Helada, Equipo de Buceo Ártico, Patas de Rana y Alfombra Voladora
+		Efectos de Zancos de Lava, Bolsa de Pesca, Pulverizador de Pintura, Colocador de Actuadores y Globo Gravitacional
+		Efectos del Escudo de Cthulhu y Equipo Ninja Supremo
+		'Las dimensiones de Terraria al alcance de tu mano'
+		'''
+}
+
+EternitySoul: {
+	DisplayName: Alma de la Eternidad
+	Tooltip:
+		'''
+		'Mortal o inmortal, todas las cosas reconocen tu reclamo a la divinidad'
+		Aumenta drásticamente la regeneración de vida, eleva tu maná máximo a 999, +30 súbditos, +20 torretas, +500% de vida máxima, y +50% de reducción de daño
+		+250% de daño y velocidad de ataque; +100% de velocidad de disparo y retroceso; +50 de penetración de armadura; Los críticos hacen 10x daño y tienes 50% de probabilidad crítica
+		Cada crítico aumenta la probabilidad crítica en 10% (hasta 100%), y cada ataque gana 10% de robo de vida, +10% de daño y +10 defensa; se acumula hasta 200,000 veces hasta que seas golpeado
+		Todos los ataques infligen Llamas del Cosmos, Sadismo, Midas, y reducen la inmunidad al retroceso de los enemigos
+		Invoca estalactitas, un cristal de hojas, espada y escudo sagrados, escarabajos, varias mascotas, bolas de fuego de oricalco y todos los jefes del Modo Masoquista a tu lado
+		Tus ataques pueden generar rayos, pétalos, orbes espectrales, un guardián de mazmorra, bolas de nieve, lanzas o potenciadores
+		Provocan regeneración acelerada, Sombra de evasión, explosiones de fuego y lluvias de meteoros
+		Los proyectiles pueden dividirse o fragmentarse, aumentan de tamaño, generan ataques adicionales y corazones
+		Dejas un rastro de fuego y arcoíris; los enemigos cercanos se incineran y tus súbditos escupen guadañas ocasionalmente
+		Los animales tienen mayor defensa y sus almas te ayudan; los enemigos explotan en agujas; mejora significativamente todas las torretas DD2
+		Toca dos veces ABAJO para invocar una torreta, activar sigilo, abrir un portal, invocar una tormenta antigua y controlar a tu guardián
+		Clic derecho para defenderte; Presiona la Llave Dorada para encerrarte en oro; Presiona la Llave Helada para congelar el tiempo durante 5 segundos
+		El escudo solar permite embestir, al embestir bloques sólidos te teletransportas; lanza una bomba de humo para teletransportarte a ella y obtener el buff de primer golpe
+		Al ser golpeado, reflejas daño, explotas con esporas, causas sangrado extremo, chillidos, y erupciones de efectos
+		Otorga regeneración carmesí, inmunidad al fuego, lava y daño por caída, duplica la cosecha de hierbas
+		50% de invocar abejas gigantes, 15% de críticos de súbditos, 20% de botín extra
+		Inmunidad a la mayoría de estados alterados; vuelo infinito y velocidad supersónica; mejora la pesca y da +10 señuelos a todas las cañas
+		Reapareces 10x más rápido; evita invocación de jefes; aumenta generación de enemigos; reduce hostilidad de esqueletos fuera de la mazmorra y mejora a Cute Fishron
+		Otorga ataque continuo, protección contra modificadores, control de gravedad, caída rápida, inmunidad al retroceso, inmunidad a todos los estados del Modo Masoquista, mejora ganchos y más
+		+50% de velocidad al colocar bloques/muros, alcance casi infinito de colocación/minado, velocidad de minado duplicada
+		Invoca un anillo de la muerte impenetrable; reflejas proyectiles; al morir, explotas y revives con vida completa
+		Efectos del Guantelete de fuego, Bolsa yoyó, Mira de francotirador, Esposas celestiales, Flor de maná, Cerebro de confusión, Velo estelar, Collar del cariño y Capa de abejas
+		Efectos del Saco de esporas, Escudo de paladín, Caparazón de tortuga helado, Equipo ártico, Anca de rana, Alfombra voladora, Botas de lava y Bolsa de aparejos
+		Efectos del Spray de pintura, Pulsificador, Teléfono, Globo gravitacional, Botas florales, Equipo ninja, Anillo codicioso, Caparazón celestial y Piedra brillante
+		Efectos de las pociones de Brillo, Espeleólogo, Cazador y Sentido del peligro; Efectos del Modo Constructor, Reliquia del Infinito y recogida aumentada
+		'''
+
+	Extra: {
+		Additional: También otorga:
+		// Additional effects are automatically pulled from material tooltips
+		// Tooltips which start the with the text in filter won't be included in the SoE tooltip, filters are seperated with "|"
+		StartsWithFilter: "'"
+		// Tooltips which contain the text in filter won't be included in the SoE tooltip, filters are seperated with "|"
+		ContainsFilter: Following effects|Grants togglable
+		Flavor: "'Mortal o inmortal, todas las cosas reconocen tu reclamo a la divinidad.'"
+	}
+}
+
+FlightMasterySoul: {
+	DisplayName: Alma del Dominio del Vuelo
+	Tooltip:
+		'''
+		Permite vuelo infinito
+		Mantén ABAJO y SALTO para flotar
+		Mantén ARRIBA para acelerar
+		Aumenta la gravedad
+		[c/BC5252:Desactiva todos tus saltos (puede alternarse)]
+		'Atraviesa los cielos'
+		'''
+}
+
+MasochistSoul: {
+	DisplayName: Alma del Maestro
+	Tooltip:
+		'''
+		[i:FargowiltasSouls/GalacticGlobe] +200% de tiempo de vuelo, [i:FargowiltasSouls/QueenStinger] +50 de penetración de armadura, [i:FargowiltasSouls/GalacticGlobe] +20% de velocidad de movimiento
+		[i:FargowiltasSouls/GuttedHeart] +100% de vida máxima, [i:FargowiltasSouls/MagicalBulb] regeneración, [i:FargowiltasSouls/MutantAntibodies][i:FargowiltasSouls/SkullCharm][i:FargowiltasSouls/PumpkingsCape] +50% de daño del tipo de arma actual, [i:FargowiltasSouls/ReinforcedPlating] +10% de reducción de daño
+		[i:FargowiltasSouls/PungentEyeball] aumenta drásticamente el spawn de enemigos raros, [i:FargowiltasSouls/SinisterIcon] duplica el spawnrate, enemigos no jefes sueltan el doble de botín, [i:FargowiltasSouls/TimsConcoction] algunos enemigos sueltan pociones
+		[i:FargowiltasSouls/SlimyShield] Caída rápida, [i:FargowiltasSouls/ReinforcedPlating] inmunidad al retroceso, [i:FargowiltasSouls/PureHeart] inmunidad a perjuicios de bioma, [i:FargowiltasSouls/GalacticGlobe] buffs de pociones y estaciones (desde inventario), inmunidad a casi todos los perjuicios del Modo Eternidad y más
+		[i:FargowiltasSouls/PrecisionSeal] Presiona la tecla de Sello de Precisión para evitar embestidas y saltos dobles
+		[i:FargowiltasSouls/PrecisionSeal] Reduce tu caja de impacto, [i:FargowiltasSouls/NecromanticBrew] aumenta la distancia de embestida, [i:FargowiltasSouls/PungentEyeball] los enemigos cerca del cursor reciben hasta 1.15x daño
+		[i:FargowiltasSouls/SecurityWallet] Reduce coste de reforge 50%, [i:FargowiltasSouls/OrdinaryCarrot] mejora visión nocturna, [i:FargowiltasSouls/NymphsPerfume] mejora la vida al reaparecer, [i:FargowiltasSouls/SandsofTime] reduce el tiempo de respawn, usa [i:FargowiltasSouls/ConcentratedRainbowMatter] pociones de vida y [i:FargowiltasSouls/MysticSkull] de maná automáticamente
+		[i:FargowiltasSouls/SqueakyToy] 5% de chance de recibir solo 1 de daño, [i:FargowiltasSouls/NecromanticBrew] reflejas daño al embestir
+		Tus ataques [i:FargowiltasSouls/NymphsPerfume] generan corazones y aplican perjuicios del Modo Eternidad
+		[c/BC5252:Convierte efectos de súbditos de accesorios y ranuras vacías en +1% de daño cada uno (puede alternarse)]
+		Invoca [i:FargowiltasSouls/NecromanticBrew] brazos de Skeletron, [i:FargowiltasSouls/GuttedHeart] creepers, [i:FargowiltasSouls/ConcentratedRainbowMatter] slime arcoíris, [i:FargowiltasSouls/GroundStick] 2 sondas, [i:FargowiltasSouls/SkullCharm] un ojo, [i:FargowiltasSouls/SaucerControlConsole] platillo mini, [i:FargowiltasSouls/MagicalBulb] planta, [i:FargowiltasSouls/CelestialRune] un sectario, [i:FargowiltasSouls/GalacticGlobe] y Ojos Verdaderos de Cthulhu
+		[i:FargowiltasSouls/SandsofTime] Úsala para ir a tu último punto de muerte
+		'Acepta la maestría, acepta la eternidad'
+		'''
+	// VanityTooltip: "[i:FargowiltasSouls/GalacticGlobe] Grants most standard potion and station buffs"
+}
+
+SnipersSoul: {
+	DisplayName: Alma del Francotirador
+	Tooltip:
+		'''
+		+22% de daño a distancia
+		+20% de velocidad de proyectiles a distancia
+		+10% de probabilidad de crítico a distancia
+		Efectos de Mira de Francotirador y Carcaj Mágico
+		'Apunta... ¡fuego!'
+		'''
+}
+
+SupersonicSoul: {
+	DisplayName: Alma Supersónica
+	Tooltip:
+		'''
+		Permite correr supersónicamente, volar, y moverse mejor sobre hielo
+		Permite hasta cinco saltos si no tienes alas equipadas
+		Aumenta la altura y velocidad de salto; permite salto automático
+		Crecen flores en el pasto que pisas
+		Puedes nadar y respirar mucho más tiempo bajo el agua
+		Puedes caminar sobre agua y lava
+		Inmunidad al daño de lava y de caída
+		Efectos de Alfombra Voladora, Escudo de Cthulhu y Equipo Ninja
+		Efectos de Collar del Cariño y Globo de Ámbar con Herradura
+		'Yo soy la velocidad'
+		'''
+}
+
+TerrariaSoul: {
+	DisplayName: Alma de Terraria
+	Tooltip:
+		'''
+		[i:FargowiltasSouls/TimberForce] Ganas un aura que lanza proyectiles, mejoras en los ganchos y ocasionales estrellas de maná al golpear
+		[i:FargowiltasSouls/TimberForce] Obtienes reroll de críticos al recoger objetos, descuentos y progreso del bestiario
+		[i:FargowiltasSouls/TerraForce] Los críticos y paradas disparan rayos poderosos, recibes menos daño por perjuicios y tus armas cuerpo a cuerpo son más grandes
+		[i:FargowiltasSouls/TerraForce] 75% de probabilidad crítica fija, aumenta con rayos lanzados, mayor rango de recogida de objetos y estos otorgan reducción de daño
+		[i:FargowiltasSouls/EarthForce] Obtienes bonificaciones defensivas al no atacar y ofensivas al atacar
+		[i:FargowiltasSouls/EarthForce] Recibes 4x daño por perjuicios y explotas al ser golpeado si no estás atacando
+		[i:FargowiltasSouls/NatureForce] Tienes un aura que drena vida, aumentas el daño recibido y disparas hojas a enemigos cercanos
+		[i:FargowiltasSouls/NatureForce] Mejora la curación con hongos, da mejoras, tus ataques infligen varios perjuicios y llevas un paraguas
+		[i:FargowiltasSouls/LifeForce] Dejas flores poderosas al volar que otorgan grandes bonificaciones al tocarlas
+		[i:FargowiltasSouls/LifeForce] Reflejas daño por contacto y tienes los efectos del Paquete de Colmena
+		[i:FargowiltasSouls/SpiritForce] Toca dos veces ABAJO para invocar un tornado ancestral, las pociones curan más con el tiempo y tus látigos mejoran
+		[i:FargowiltasSouls/SpiritForce] Si llegas a 0 de vida, revives con 300 HP y te limpias de perjuicios
+		[i:FargowiltasSouls/ShadowForce] Ganas una embestida de sombra y otra invencible cada 4 segundos, mejoras de proyectil según velocidad
+		[i:FargowiltasSouls/ShadowForce] Disparas un arma extra como apoyo, tus esbirros usan una guadaña y los enemigos muertos pueden soltar huesos
+		[i:FargowiltasSouls/WillForce] Invoca un espíritu gladiador, mejora la sanación y monturas, ataques consecutivos hacen más daño
+		[i:FargowiltasSouls/WillForce] Las monedas recogidas se guardan en el cochinito automáticamente (funciona en inventario y vanidad), los enemigos sueltan más botín
+		[i:FargowiltasSouls/CosmoForce] Al atacar, ocasionalmente lanzas lunas que explotan en Potenciadores Lunares
+		[i:FargowiltasSouls/CosmoForce] Aumenta tu velocidad de movimiento y aceleración, reduce el impulso, Estasis de Polvo Estelar tiene 60s de enfriamiento
+		'Un verdadero maestro de Terraria'
+		'''
+}
+
+TrawlerSoul: {
+	DisplayName: Alma del Pescador
+	Tooltip:
+		'''
+		Aumenta significativamente tu habilidad de pesca
+		Todas las cañas ganan 10 cebos extra
+		Atrapas peces casi al instante
+		Bonificaciones permanentes de Sonar y Cajas
+		Efectos del Kit de Pesca, Gel Volátil y Espora Pegajosa
+		Efectos del Globo Rosado de Herradura y el Equipo de Buceo Ártico
+		'Los peces me temen'
+		'''
+}
+
+UniverseSoul: {
+	DisplayName: Alma del Universo
+	Tooltip:
+		'''
+		+50% de daño para tu clase de arma actual
+		+25% de probabilidad crítica para tu clase de arma actual
+		+25% de velocidad de ataque
+		+50% de velocidad de disparo
+		Todas las armas tienen doble retroceso
+		+300 de maná máximo
+		+2 esbirros máximos
+		+1 centinela máximo
+		Efectos del Guantelete Ígneo, Bolsa de Yo-yó y Concha Celestial
+		Efectos de la Mira de Francotirador, Esposas Celestiales y Flor de Maná
+		'Los cielos mismos se inclinan ante ti'
+		'''
+}
+
+WorldShaperSoul: {
+	DisplayName: Alma del Modelador del Mundo
+	Tooltip:
+		'''
+		Inmunidad a explosivos de minería
+		+50% de velocidad al colocar bloques y muros
+		Alcance casi infinito para colocar y minar bloques
+		Velocidad de minería triplicada y efecto del Cincel Antiguo
+		Muestra ubicación de enemigos, trampas y tesoros
+		Pintura automática y efecto de actuador
+		Proporciona luz y permite controlar la gravedad
+		Otorga Modo Constructor (conmutable):
+		    No consumes bloques ni muros
+		    Mayor velocidad y alcance al construir
+		Puede desactivarse en el menú de efectos
+		Efectos de la Gelatina Real y el Imán de Tesoros
+		Invoca una Linterna Mágica como mascota
+		'Viviendo en un mundo de cartón'
+		'''
+}
+
+FargoArrow: {
+	DisplayName: Carcaj de Flechas Combinadas
+	Tooltip:
+		'''
+		Rebota varias veces
+		Cada impacto explota, invoca estrellas fugaces y dispara flechas láser
+		Inflige múltiples perjuicios
+		'''
+}
+
+FargoBullet: {
+	DisplayName: Bolsa de Balas Combinadas
+	Tooltip:
+		'''
+		Persigue a tu enemigo
+		Rebota varias veces
+		Cada impacto genera una explosión de fragmentos de cristal
+		Inflige múltiples perjuicios
+		'''
+}
+
+EridanusBattleplate: {
+	DisplayName: Coraza de Eridanus
+	Tooltip:
+		'''
+		+5% de daño
+		+10% de probabilidad de golpe crítico
+		Reduce el daño recibido en 10%
+		Otorga regeneración de vida
+		'''
+}
+
+EridanusHat: {
+	DisplayName: Sombrero de Eridanus
+	Tooltip:
+		'''
+		+10% de daño
+		+5% de probabilidad de golpe crítico
+		Aumenta el máximo de esbirros en 4
+		Aumenta el máximo de centinelas en 1
+		'''
+}
+
+EridanusLegwear: {
+	DisplayName: Perneras de Eridanus
+	Tooltip:
+		'''
+		+5% de daño
+		+5% de probabilidad de golpe crítico
+		+10% de velocidad de movimiento
+		'''
+}
+
+GaiaGreaves: {
+	DisplayName: Grebas de Gaia
+	Tooltip:
+		'''
+		+10% de daño para tu clase de arma actual
+		+5% de probabilidad de golpe crítico
+		+10% de velocidad de movimiento
+		'''
+}
+
+GaiaHelmet: {
+	DisplayName: Casco de Gaia
+	Tooltip:
+		'''
+		+10% de daño
+		+5% de probabilidad de golpe crítico
+		Aumenta el máximo de esbirros en 1
+		'''
+}
+
+GaiaPlate: {
+	DisplayName: Placa de Gaia
+	Tooltip:
+		'''
+		+10% de daño
+		+5% de probabilidad de golpe crítico
+		Reduce el daño recibido en 10%
+		Aumenta tu regeneración de vida
+		'''
+}
+
+MutantBody: {
+	DisplayName: Cuerpo del Verdadero Mutante
+	Tooltip:
+		'''
+		+70% de daño y +30% de probabilidad de golpe crítico
+		+200 de vida y maná máximos
+		+30% de reducción de daño
+		Aumenta drásticamente la regeneración de vida
+		'''
+}
+
+MutantMask: {
+	DisplayName: Cabeza del Verdadero Mutante
+	Tooltip:
+		'''
+		+50% de daño y +20% de probabilidad de golpe crítico
+		Aumenta el máximo de esbirros y centinelas en 10
+		Reduce el uso de maná en 25%
+		25% de probabilidad de no consumir munición
+		'''
+}
+
+MutantPants: {
+	DisplayName: Pantalones del Verdadero Mutante
+	Tooltip:
+		'''
+		+50% de daño y +20% de probabilidad de golpe crítico
+		+40% de velocidad de movimiento y de ataque cuerpo a cuerpo
+		'''
+}
+
+NekomiHood: {
+	DisplayName: Capucha Nekomi
+	Tooltip:
+		'''
+		+7% de daño
+		Aumenta el máximo de esbirros en 1
+		'''
+}
+
+NekomiHoodie: {
+	DisplayName: Sudadera Nekomi
+	Tooltip:
+		'''
+		Aumenta ligeramente la regeneración de vida
+		Reduce el daño recibido en 5%
+		'''
+}
+
+StyxChestplate: {
+	DisplayName: Coraza del Estigia
+	Tooltip:
+		'''
+		+15% de daño
+		+10% de probabilidad de golpe crítico
+		Reduce el daño recibido en 10%
+		Aumenta tu regeneración de vida
+		'''
+}
+
+StyxCrown: {
+	DisplayName: Corona del Estigia
+	Tooltip:
+		'''
+		+10% de daño
+		+10% de probabilidad de golpe crítico
+		Aumenta el número máximo de esbirros en 3 y torretas en 1
+		'''
+}
+
+StyxLeggings: {
+	DisplayName: Grebas del Estigia
+	Tooltip:
+		'''
+		+10% de daño
+		+10% de probabilidad de golpe crítico
+		+20% de velocidad de movimiento
+		'''
+}
+
+AbomBag: {
+	DisplayName: Bolsa del Tesoro (Abominaciónn)
+	Tooltip: Clic derecho para abrir
+}
+
+CosmosBag: {
+	DisplayName: Bolsa del Tesoro (Eridanus)
+	Tooltip: Clic derecho para abrir
+}
+
+DeviBag: {
+	DisplayName: Bolsa del Tesoro (Deviantt)
+	Tooltip: Clic derecho para abrir
+}
+
+MutantBag: {
+	DisplayName: Bolsa del Tesoro (Mutante)
+	Tooltip: Clic derecho para abrir
+}
+
+TrojanSquirrelBag: {
+	DisplayName: Bolsa del Tesoro (Ardilla Troyana)
+	Tooltip: Clic derecho para abrir
+}
+
+DeerSinew: {
+	DisplayName: Tendón de Ciervo
+	Tooltip:
+		'''
+		Permite impulsarte sin necesidad de un accesorio de embestida
+		Doble toque en una dirección
+		Recibir daño puede congelarte brevemente
+		Cuanto más rápido vayas, menos daño haces (hasta 0.85x)
+		Se desactiva si ya tienes otra embestida activa o si está deshabilitado
+		'Frío pero aún se retuerce'
+		'''
+}
+
+MutantsCreditCard: {
+	DisplayName: Tarjeta de Crédito del Mutante
+	Tooltip:
+		'''
+		Reduce permanentemente los precios de la tienda del Mutante en un 30%
+		'¿Cómo conseguiste esto...?'
+		'''
+}
+
+MutantsDiscountCard: {
+	DisplayName: Tarjeta de Descuento del Mutante
+	Tooltip:
+		'''
+		Reduce permanentemente los precios de la tienda del Mutante en un 20%
+		{$CommonItemTooltip.MajorStats}
+		'No se usa como crees'
+		'''
+}
+
+MutantsPact: {
+	DisplayName: Pacto del Mutante
+	Tooltip: Añade permanentemente una ranura de accesorio que solo acepta Encantamientos, Esencias, Fuerzas o Almas
+}
+
+OrdinaryCarrot: {
+	DisplayName: Zanahoria Común
+	Tooltip:
+		'''
+		Aumenta la visión nocturna
+		{$CommonItemTooltip.MinorStats}
+		Aumenta la regeneración de vida
+		Dura 1 minuto
+		Clic derecho para aumentar el rango de visión (funciona desde inventario o vanidad)
+		'Arrancada del rostro de un enemigo vencido'
+		'''
+	VanityTooltip: Clic derecho para aumentar el rango de visión
+}
+
+RabiesShot: {
+	DisplayName: Antirrábica
+	Tooltip: Cura la Mordida Feral
+}
+
+RabiesVaccine: {
+	DisplayName: Vacuna Antirrábica
+	Tooltip: Otorga inmunidad permanente a la Mordida Feral
+}
+
+LifeDye: {
+	DisplayName: Tintura Celestial
+	Tooltip: ""
+}
+
+WillDye: {
+	DisplayName: Tintura de Voluntad
+	Tooltip: ""
+}
+
+GaiaDye: {
+	DisplayName: Tintura de Gaia
+	Tooltip: ""
+}
+
+AbomEnergy: {
+	DisplayName: Energía Abominable
+	Tooltip: ""
+}
+
+BrokenBlade: {
+	DisplayName: Espada Rota
+	Tooltip: ""
+}
+
+BrokenHilt: {
+	DisplayName: Empuñadura Rota
+	Tooltip: ""
+}
+
+DeviatingEnergy: {
+	DisplayName: Energía Desviada
+	Tooltip: ""
+}
+
+Eridanium: {
+	DisplayName: Eridanio
+	Tooltip: Un fragmento de poder cósmico
+}
+
+EternalEnergy: {
+	DisplayName: Energía Eterna
+	Tooltip:
+		'''
+		Otorga inmunidad a casi todos los perjuicios del Modo Eternidad
+		'Prueba de haber abrazado la eternidad'
+		'''
+}
+
+PhantasmalEnergy: {
+	DisplayName: Eje Roto
+	Tooltip: ""
+}
+
+EternityAdvisor: {
+	DisplayName: Consejero de la Eternidad
+	Tooltip: Sugiere equipamiento para el Modo Eternidad según tu progreso
+	General: General: {0}
+	ClassSpecific: Por Clase: {0}
+	Other: Otros: {0}
+	Summon: Objeto de Invocación: {0}
+}
+
+GalacticReformer: {
+	DisplayName: Reformador Galáctico
+	Tooltip:
+		'''
+		Destruye un área increíblemente masiva
+		Úsalo bajo tu propio riesgo
+		'''
+}
+
+MutantsFury: {
+	DisplayName: Furia del Mutante
+	Tooltip: "'REALMENTE enfurece al Mutante... o tal vez no'"
+	On: ¡El Mutante está furioso!
+	Off: El Mutante está tranquilo.
+}
+
+TopHatSquirrelCaught: {
+	DisplayName: Ardilla de Sombrero de Copa
+	Tooltip: ""
+}
+
+UniversalCollapse: {
+	DisplayName: Colapso Universal
+	Tooltip: Destruye el universo
+}
+
+AcornConstruct: {
+	DisplayName: Constructo de Bellota
+	Tooltip: Monta a la Ardilla
+}
+
+AccursedRags: {
+	DisplayName: Trapos Malditos
+	Tooltip:
+		'''
+		Invoca un pequeño sarcófago maldito
+		'Por eso tus trapos están malditos-y'
+		'''
+}
+
+BabyScythe: {
+	DisplayName: Guadaña Bebé
+	Tooltip:
+		'''
+		Invoca a Bebé Abom
+		'No te preocupes, está sin filo'
+		'''
+}
+
+ChibiHat: {
+	DisplayName: Sombrero Chibi
+	Tooltip:
+		'''
+		Invoca a Chibi Devi
+		Te sigue con el cursor
+		'¡Lindo! ¡Lindo! ¡Lindo!'
+		'''
+
+	DeviChatter: {
+		// Spawn1: Heya! Mind if I come with?
+		// Spawn2: I'll light your way!
+		// Spawn3: Onwards to the next big adventure!
+		// Spawn4: I'll be in your care!
+		// Spawn5: Hello world!
+		// Spawn6: Chibi Devi is on the case!
+		// Spawn7: Lead the way!
+		// Respawn1: We won't let it end the same way again!
+		// Respawn2: Time to run it back!
+		// Respawn3: Take a deep breath. We'll get this eventually!
+		// Respawn4: Gotta do more than that to keep us down!
+		// Respawn5: Let's see what we can do to change it up!
+		// Respawn6: We can do this!
+		// Respawn7: How about a minute to rest and refresh? Couldn't hurt!
+		// Idle1: We'll collect everything there is to collect!
+		// Idle2: Battle, blood, money - nothing beats, am I right?
+		// Idle3: Just remember, I'm not an emergency ration.
+		// Idle4: Ever tried mining with Boom Shurikens? Heh heh...
+		// Idle5: We should take over the world. Kidding! Mostly.
+		// Idle6: I wanna see you kill more things!
+		// Idle7: Still feels weird to be called a light pet...
+		// Idle8: Nothing to do? Murder something!
+		// Idle9: Bet you there's a quality of life trick we could try out.
+		// Idle10: Mind if I play with those accessory toggles of yours?
+		// Idle11: Fun fact: my real name is... a secret! Gotcha!
+		// Idle12: Wherever you go, I'll follow!
+		// Sleep1: I feel asleep...
+		// Sleep2: Good night...
+		// Sleep3: Gonna squeeze in a quick nap...
+		// Sleep4: Gotta recharge...
+		// Sleep5: Wake me up when there's violence...
+		// Wake1: What did I miss?
+		// Wake2: Morning!
+		// Wake3: Go time? Go time!
+		// Wake4: Rise and shine!
+		// Wake5: Devi has awoken! Hand over the money!
+		// ProjDeath1: No! Don't put me back in the hat!
+		// ProjDeath2: But I have so much to explore!
+		// ProjDeath3: Hello darkness, my old friend...
+		// ProjDeath4: Please don't put me away, I'll do anything!
+		// PlayerDeath1: You can do it! You can - oh.
+		// PlayerDeath2: We'll make you pay for this!
+		// PlayerDeath3: Noooo!!
+		// PlayerDeath4: Where did that come from?! That wasn't fair!
+		// PlayerDeath5: Dang! We'll get them next time.
+		// PlayerDeath6: What?! No way!
+		// PlayerDeath7: That wasn't very cash money...
+		// BossAlmostDead1: Almost there!
+		// BossAlmostDead2: You got this!
+		// BossAlmostDead3: In the home stretch now!
+		// BossAlmostDead4: Just a little bit more!
+		// BossAlmostDead5: Finish them off!
+		// BossAlmostDead6: This is our chance!
+		// KillBoss1: What a fun beatdown! Who's next?
+		// KillBoss2: Nothing like the feeling of victory!
+		// KillBoss3: Again! Again! Again!
+		// KillBoss4: Blood for the blood gods! And by that I mean us.
+		// KillBoss5: Devi gaming.
+		// KillBoss6: YATTA! Uh, you didn't hear that.
+		// KillBoss7: Yeah! That's what I've been waiting for! That's what it's all about!
+		// BossSpawn1: You can do it!
+		// BossSpawn2: Here they come!
+		// BossSpawn3: I'm cheering you on! Go!
+		// BossSpawn4: Bring it on!
+		// BossSpawn5: We can take them!
+		// BossSpawn6: Do your best!
+		// BossSpawn7: Wipe the floor with them!
+		// BossSpawn8: Let's do this!
+		// Count1: Psst... can you hear me? This is a secret message! Hi!
+	}
+}
+
+EnerGear: {
+	DisplayName: Ener-Engranaje
+	Tooltip:
+		'''
+		Invoca a un barón en miniatura
+		'100% a prueba de óxido o te devolvemos tu dinero'
+		'''
+}
+
+MostlyOrdinaryRock: {
+	DisplayName: Roca Casi Común
+	Tooltip:
+		'''
+		Invoca a un buscador de tesoros
+		'¿Recién salido de... una roca?'
+		'''
+}
+
+PortableFogMachine: {
+	DisplayName: Máquina de Niebla Portátil
+	Tooltip:
+		'''
+		Invoca a una criatura de sombra bebé
+		'Nacido en la oscuridad, moldeado por ella'
+		'''
+}
+
+SpawnSack: {
+	DisplayName: Saco de Engendros
+	Tooltip:
+		'''
+		Invoca al engendro del Mutante
+		'¿Creías estar a salvo?'
+		'''
+	NotSafe: ¿Creías estar a salvo?
+}
+
+HokeyBall: {
+	DisplayName: Bola Hokey
+	Tooltip:
+		'''
+		Invoca a Mordisquitos
+		'¡Muestra a Mordisquitos!'
+		'''
+}
+
+AbomRelic: {
+	DisplayName: Reliquia del Abominable
+	Tooltip: ""
+}
+
+DeviRelic: {
+	DisplayName: Reliquia de Deviantt
+	Tooltip: ""
+}
+
+EarthChampionRelic: {
+	DisplayName: Reliquia del Campeón de la Tierra
+	Tooltip: ""
+}
+
+EridanusRelic: {
+	DisplayName: Reliquia de Eridanus
+	Tooltip: ""
+}
+
+LifeChampionRelic: {
+	DisplayName: Reliquia del Campeón de la Vida
+	Tooltip: ""
+}
+
+MutantRelic: {
+	DisplayName: Reliquia del Mutante
+	Tooltip: ""
+}
+
+NatureChampionRelic: {
+	DisplayName: Reliquia del Campeón de la Naturaleza
+	Tooltip: ""
+}
+
+ShadowChampionRelic: {
+	DisplayName: Reliquia del Campeón de la Muerte
+	Tooltip: ""
+}
+
+SpiritChampionRelic: {
+	DisplayName: Reliquia del Campeón Espiritual
+	Tooltip: ""
+}
+
+TerraChampionRelic: {
+	DisplayName: Reliquia del Campeón de la Tierra
+	Tooltip: ""
+}
+
+TimberChampionRelic: {
+	DisplayName: Reliquia del Campeón de la Madera
+	Tooltip: ""
+}
+
+TrojanSquirrelRelic: {
+	DisplayName: Reliquia de la Ardilla Troyana
+	Tooltip: ""
+}
+
+WillChampionRelic: {
+	DisplayName: Reliquia del Campeón de la Voluntad
+	Tooltip: ""
+}
+
+AbomTrophy: {
+	DisplayName: Trofeo del Abominable
+	Tooltip: ""
+}
+
+DeviTrophy: {
+	DisplayName: Trofeo de Deviantt
+	Tooltip: ""
+}
+
+EridanusTrophy: {
+	DisplayName: Trofeo de Eridanus
+	Tooltip: ""
+}
+
+MutantTrophy: {
+	DisplayName: Trofeo del Mutante
+	Tooltip: ""
+}
+
+TrojanSquirrelTrophy: {
+	DisplayName: Trofeo de la Ardilla Troyana
+	Tooltip: ""
+}
+
+MutantStatue: {
+	DisplayName: Estatua del Mutante
+	Tooltip: ""
+}
+
+MutantStatueGift: {
+	DisplayName: Estatua del Mutante (Regalo)
+	Tooltip: ""
+}
+
+ScremPainting: {
+	DisplayName: Cuadro del Grito
+	Tooltip: "'Feliz N. Tuse'"
+}
+
+TophatSquirrelBanner: {
+	DisplayName: Estandarte de la Ardilla de Sombrero
+	Tooltip: ""
+}
+
+TwentyTwoPainting: {
+	DisplayName: Cuadro 22
+	Tooltip: "'Keuhm E. Dee'"
+}
+
+AbominationnVoodooDoll: {
+	DisplayName: Muñeco Vudú de Abominationn
+	Tooltip:
+		'''
+		Invoque a Abominationn en tu ciudad
+		'Eres una persona terrible'
+		'''
+	// the custom spawn message is unused
+	// Summon: Mutant has been enraged by the death of his brother!
+	// Fail: The doll teleports back into your hands. Maybe it shouldn't be used underground...
+}
+
+AbomsCurse: {
+	DisplayName: Maldición de Abominationn
+	Tooltip: Debe usarse en la superficie
+}
+
+ChampionySigil: {
+	DisplayName: Sello del Campeón
+	Tooltip: Invoca a los Campeones
+}
+
+DevisCurse: {
+	DisplayName: Maldición de Deviantt
+	Tooltip: ""
+}
+
+MutantsCurse: {
+	DisplayName: Maldición del Mutante
+	Tooltip:
+		'''
+		Debe usarse en la superficie
+		'Al menos así, no necesitas ese muñeco'
+		'''
+}
+
+SigilOfChampions: {
+	DisplayName: Sello de los Campeones
+	Tooltip:
+		'''
+		Invoca a los Campeones
+		La invocación varía según la hora y el bioma
+		Clic derecho para ver posibles invocaciones
+		No se consume al usar
+		'''
+
+	Message: {
+		Timber: Te rodea el susurro de los árboles...
+		Terra: Las piedras tiemblan a tu alrededor...
+		Spirit: Un fuerte espíritu se agita...
+		Life: Una ola de calor te envuelve...
+		Shadow: La oscuridad de la noche se intensifica...
+		Nature: Sopla un viento verde...
+		Will: Quejidos metálicos resuenan desde las profundidades...
+		Earth: El núcleo del planeta retumba...
+		Cosmos: Las estrellas se están alineando...
+		Nothing: Nada parece responder al llamado...
+	}
+}
+
+SquirrelCoatofArms: {
+	DisplayName: Escudo de la Ardilla
+	Tooltip: Invoca la furia ardillesca
+}
+
+BoneZone: {
+	DisplayName: Zona Ósea
+	Tooltip:
+		'''
+		Usa huesos como munición
+		33% de probabilidad de no consumir munición
+		'Los restos destrozados de un enemigo vencido...'
+		'''
+}
+
+BrainStaff: {
+	DisplayName: Quiebramente
+	Tooltip: "'Un viejo enemigo, doblegado...'"
+}
+
+DestroyerGun: {
+	DisplayName: Cañón del Destructor
+	Tooltip:
+		'''
+		Se vuelve más largo y rápido con hasta 3 ranuras de esbirro vacías
+		'Un viejo enemigo, doblegado...'
+		'''
+}
+
+Dicer: {
+	DisplayName: El Tajador
+	Tooltip: "'El ataque de un enemigo vencido... ahora con hilo'"
+}
+
+DragonBreath: {
+	DisplayName: Aliento del Dragón
+	Tooltip:
+		'''
+		Usa gel como munición
+		33% de probabilidad de no consumir munición
+		'El cuerpo encogido de un enemigo vencido...'
+		'''
+}
+
+EaterStaff: {
+	DisplayName: Bastón del Devorador de Mundos
+	Tooltip:
+		'''
+		Invoca 4 segmentos por cada ranura de esbirro
+		'Un viejo enemigo, doblegado...'
+		'''
+}
+
+FishStick: {
+	DisplayName: Palo de Pescado
+	Tooltip:
+		'''
+		Clic derecho para desplegar un tifón
+		El tifón lanza tiburones cuando atacas
+		Los tiburones ignoran 20 de defensa enemiga
+		'El cadáver de un enemigo vencido, violentamente ensartado...'
+		'''
+}
+
+FleshHand: {
+	DisplayName: Mano de Carne
+	Tooltip: "'Los esbirros esclavizados de un enemigo vencido...'"
+}
+
+LeashOfCthulhu: {
+	DisplayName: Correaocular
+	Tooltip:
+		'''
+		Los sirvientes giran a tu alrededor y vuelan hacia el cursor al soltar
+		'El cadáver mutilado de un enemigo derrotado...'
+		'''
+}
+
+RefractorBlaster: {
+	DisplayName: Cañón Refractor
+	Tooltip:
+		'''
+		Dispara dos ráfagas anguladas de láseres
+		Los láseres hacen menos daño justo después de dispararse
+		'Modificado a partir del brazo de un enemigo derrotado...'
+		'''
+}
+
+RockSlide: {
+	DisplayName: El Desprendimiento
+	Tooltip: "'Los restos derrumbados de un enemigo derrotado...'"
+}
+
+SlimeKingsSlasher: {
+	DisplayName: Rebanador del Rey Slime
+	Tooltip:
+		'''
+		Inflige 20% más de daño a enemigos en llamas
+		Reducción del beneficio de tamaño del Encantamiento de Tungsteno
+		'Arrancado de las entrañas de un enemigo derrotado...'
+		'''
+}
+
+TheSmallSting: {
+	DisplayName: La Pequeña Picadura
+	Tooltip:
+		'''
+		Usa dardos como munición
+		50% de probabilidad de no consumir munición
+		Los aguijones se adhieren a los enemigos; golpear el mismo punto causa daño adicional
+		Escala con tu daño de abejas y aumenta con el retroceso
+		'Reutilizado del abdomen de un enemigo derrotado...'
+		'''
+}
+
+TwinRangs: {
+	DisplayName: Bumerangs Gemelos
+	Tooltip:
+		'''
+		Clic izquierdo: lanza un Spazmarang que despedaza enemigos rápidamente
+		Clic derecho: lanza un Retirang que dispara láseres hacia el enemigo más cercano
+		Solo pueden existir 3 Retirangs al mismo tiempo
+		'Las formas comprimidas de enemigos derrotados...'
+		'''
+}
+
+MoonBow: {
+	DisplayName: Luna Creciente
+	Tooltip:
+		'''
+		Las flechas de madera se convierten en rayos de luminita
+		Las flechas crean portales que disparan rayos de luminita
+		Mantén clic derecho para cargar poder
+		Suéltalo en el momento justo para recibir una bendición lunar temporal
+		Con la bendición: gran aumento de velocidad de ataque y gravedad alterada de flechas
+		66% de probabilidad de conservar munición
+		'La boca reencordada de un enemigo derrotado...'
+		'''
+}
+
+KamikazeSquirrelStaff: {
+	DisplayName: Bastón de Ardillas Kamikaze
+	Tooltip:
+		'''
+		Invoca ardillas amistosas que acurrucan a tus enemigos
+		Clic derecho para hacerlas explotar
+		'''
+}
+
+MountedAcornGun: {
+	DisplayName: Ametralladora de Bellotas
+	Tooltip:
+		'''
+		Usa bellotas como munición
+		50% de probabilidad de no consumir munición
+		Dispara bellotas que brotan en los enemigos
+		'''
+}
+
+SnowballStaff: {
+	DisplayName: El Efecto Bola de Nieve
+	Tooltip:
+		'''
+		Crea una bola de nieve que crece al rodarla
+		Usa el arma de forma continua para mantener la bola
+		Clic derecho para hacerla regresar hacia ti
+		'''
+}
+
+TheLightningRod: {
+	DisplayName: El Pararrayos
+	Tooltip:
+		'''
+		Carga energía mientras gira
+		El daño disminuye con cada golpe al ser lanzado
+		'''
+}
+
+TreeSword: {
+	DisplayName: Espada Árbol
+	Tooltip: Dispara una bellota
+}
+
+Penetrator: {
+	DisplayName: El Penetrador
+	Tooltip:
+		'''
+		Ataca de forma distinta con clic izquierdo o derecho
+		También cambia si se usa apuntando hacia arriba, abajo o ambos
+		'La recompensa por abrazar la eternidad...'
+		'''
+}
+
+PhantasmalLeashOfCthulhu: {
+	DisplayName: Correa Fantasmal de Cthulhu
+	Tooltip:
+		'''
+		Genera una ráfaga de ojos rastreadores al girar o golpear
+		'El alma del Ojo Verdadero, atrapada por la eternidad...'
+		'''
+}
+
+SlimeRain: {
+	DisplayName: Lluvia de Slimes
+	Tooltip: "'Las entrañas del Rey esparcidas por la tierra...'"
+}
+
+SparklingLove: {
+	DisplayName: Amor Centelleante
+	Tooltip:
+		'''
+		Clic derecho para invocar el alma de Deviantt
+		El patrón del clic derecho se vuelve más denso con hasta 12 espacios vacíos de esbirros
+		'El hacha demoníaca devoradora de almas del amor y la justicia de un enemigo derrotado...'
+		'''
+}
+
+StyxGazer: {
+	DisplayName: Mirador del Estigia
+	Tooltip:
+		'''
+		Clic derecho para blandir una hoja de magia infernal
+		'La ardiente guadaña-varita-espada-rayo de destrucción de un enemigo vencido...'
+		'''
+}
+
+Mahoguny: {
+	DisplayName: Mahoguny
+	Tooltip:
+		'''
+		Usa bellotas como munición
+		Dispara hojas y bellotas
+		'''
+}
+
+OvergrownKey: {
+	DisplayName: Llave Cubierta de Maleza
+	Tooltip:
+		'''
+		Invoca un Mímico de la Jungla que lucha por ti
+		Requiere 2 espacios de esbirro
+		'''
+}
+
+TophatSquirrelWeapon: {
+	DisplayName: Ardilla de Sombrero de Copa
+	Tooltip: "'¿Quién diría que esta ardilla tenía poder cósmico fenomenal?'"
+}
+
+Vineslinger: {
+	DisplayName: Lanzador de Enredaderas
+	Tooltip: Al golpear a un enemigo lanza hojas
+}
+
+BigBrainBuster: {
+	DisplayName: Rompecráneos Cerebral
+	Tooltip:
+		'''
+		Las invocaciones repetidas aumentan el tamaño y la velocidad de disparo del esbirro
+		Se limita a 16 espacios
+		'La recompensa por una gran revancha...'
+		'''
+}
+
+Blender: {
+	DisplayName: La Licuadora
+	Tooltip: "'La recompensa por una gran revancha...'"
+}
+
+DestroyerGun2: {
+	DisplayName: Cañón de Destrucción
+	Tooltip:
+		'''
+		Se vuelve más largo y rápido con hasta 5 espacios de esbirro vacíos
+		'La recompensa por una gran revancha...'
+		'''
+}
+
+DragonBreath2: {
+	DisplayName: Caída del Dragón
+	Tooltip:
+		'''
+		Usa gel como munición
+		66% de probabilidad de no consumir munición
+		'La recompensa por una gran revancha...'
+		'''
+}
+
+EaterLauncher: {
+	DisplayName: Lanzador Devorador de Rocas
+	Tooltip:
+		'''
+		Usa cohetes como munición
+		Dispara una dispersión de devoradores de roca
+		Aumenta el daño a enemigos en cierto rango
+		Presiona clic derecho para aumentar este rango
+		El rango disminuye gradualmente hasta volver a lo normal
+		50% de probabilidad de no consumir munición
+		'La recompensa por una gran revancha...'
+		'''
+}
+
+FleshCannon: {
+	DisplayName: El Regurgitador
+	Tooltip:
+		'''
+		Crea un Hambriento al disparar
+		El Hambriento inflige mucho más daño cuando está completamente cargado
+		'El rostro esclavizado de un enemigo vencido...'
+		'''
+}
+
+GeminiGlaives: {
+	DisplayName: Gujas Gemelas
+	Tooltip:
+		'''
+		Clic izquierdo lanza 3 Espazmagujas que desgarran enemigos rápidamente
+		Clic derecho lanza 3 Retigujas que disparan láseres al cursor
+		Alternar clics mejora los ataques
+		'Las formas comprimidas de enemigos derrotados...'
+		'''
+}
+
+GolemTome2: {
+	DisplayName: El Derrumbe
+	Tooltip:
+		'''
+		Causa más daño al disparar múltiples cabezas a la vez
+		Dispara automáticamente cabezas débiles cuando está completamente cargado
+		'La recompensa por una gran revancha...'
+		'''
+}
+
+GuardianTome: {
+	DisplayName: El Guardián
+	Tooltip: "'Ahora les toca huir a ellos'"
+}
+
+HellZone: {
+	DisplayName: Zona Infernal
+	Tooltip:
+		'''
+		Usa huesos como munición
+		80% de probabilidad de no consumir munición
+		El ataque con clic izquierdo inflige Llama Infernal
+		Clic derecho lanza una calavera que marca enemigos
+		Los enemigos marcados reciben 5x daño por Llama Infernal con el tiempo
+		'La recompensa por una gran revancha...'
+		'''
+}
+
+MechanicalLeashOfCthulhu: {
+	DisplayName: Correa Mecánica de Cthulhu
+	Tooltip:
+		'''
+		Invoca siervos que persiguen al enemigo mientras giras
+		Cada 3er golpe directo libera el ojo, que embiste a los enemigos
+		Solo un ojo puede estar suelto a la vez
+		'La recompensa por una gran revancha...'
+		'''
+}
+
+NukeFishron: {
+	DisplayName: Pezronuclear
+	Tooltip:
+		'''
+		Usa cohetes como munición
+		'Los restos altamente armados de un enemigo vencido...'
+		'''
+}
+
+OpticStaffEX: {
+	DisplayName: Bastón de la Omnisciencia
+	Tooltip:
+		'''
+		Invoca a los verdaderos Gemelos para que luchen por ti
+		Requiere 3 ranuras de esbirro
+		'La recompensa por una revancha colosal...'
+		'''
+}
+
+RefractorBlaster2: {
+	DisplayName: Cañón Difractor
+	Tooltip: "'La recompensa por una revancha colosal...'"
+}
+
+SlimeSlingingSlasher: {
+	DisplayName: Cortador Lanzalimo
+	Tooltip: "'La recompensa por una revancha colosal...'"
+}
+
+TheBigSting: {
+	DisplayName: El Gran Aguijón
+	Tooltip:
+		'''
+		Usa dardos como munición
+		Escala con tu daño de abejas y retroceso aumentado
+		66% de probabilidad de no consumir munición
+		'La recompensa por una revancha colosal...'
+		'''
+}
+
+ForgorGift: {
+	DisplayName: Regalo Olvidado
+	Tooltip:
+		'''
+		[c/ff0000:Objeto de depuración]
+		Restablece las banderas de invasión/jefe del juego base y del mod Souls, INCLUYENDO el modo difícil (marca de derrota de la Muralla de Carne)
+		Clic derecho permite recibir un nuevo regalo de Deviantt, reinicia tarjeta de crédito/descuento, ranura de Emode, vacuna antirrábica, embestida de tendón, etc.
+		Clic derecho sobre el objeto en el inventario para reiniciar el salto de fase 1 del Mutante
+		'''
+	Message: ¡Banderas reiniciadas con éxito!
+}
+
+Masochist: {
+	DisplayName: Regalo del Mutante
+	Tooltip:
+		'''
+		[c/00FFFF:Activa el Modo Eternidad: Un nuevo modo por encima de Experto, pensado para veteranos de Terraria. La experiencia Fargo definitiva.]
+		El mundo debe estar en modo Experto
+		Activa el Modo Masoquista si el mundo está en modo Maestro o superior
+		Características:
+
+		-Reformula jefes y enemigos, haciéndolos más fuertes
+		-Habilita recompensas del modo Maestro
+		-Objetos exclusivos del modo Eternidad
+		-Deviantt entrega un paquete inicial y consejos según el progreso
+		-Mejora estadísticas base y limita la reducción de daño del jugador al 75%
+		-Los perjuicios se disipan más rápido si no estás atacando, y no puedes morir por daño prolongado salvo en Modo Masoquista
+		-Cambia la funcionalidad y fuerza de ciertos objetos
+		-En multijugador Masoquista, cada jugador solo puede revivir una vez por combate contra jefes (puede activarse o desactivarse)
+
+		No puede usarse si hay un jefe activo
+		[i:1612][c/00ff00:Se recomienda activar la visualización de perjuicios del Mutant Mod (en configuración)]
+		[c/ff0000:NO SE RECOMIENDA USAR CON OTROS MODS DE CONTENIDO O DIFICULTADES MODIFICADAS]
+		'''
+	WrongDifficulty: ¡El mundo debe estar en modo Experto o superior!
+	ExtraTooltip: "[i:FargowiltasSouls/MutantsPact] Activa el Modo Masoquista cuando se usa en Modo Maestro"
+}
+
+MasochistReal: {
+	DisplayName: Regalo Olvidado
+	Tooltip:
+		'''
+		[c/ff0000:Objeto de depuración]
+		Clic izquierdo: Alterna la sesión para jugar en modo Maso
+		Clic derecho: Alterna el mundo para jugar en modo Maso
+		'''
+	WorldState: "el mundo actualmente está en maso: "
+	VarWorld: "mundo: "
+	VarMod: "mod: "
+}
+
+MedallionoftheFallenKing: {
+	DisplayName: Medallón del Rey Caído
+	Tooltip: Invoca un mini Rey Slime que escala con tu daño de invocación
+}
+
+ComputationOrb: {
+	DisplayName: Orbe de Computación
+	Tooltip:
+		'''
+		Los ataques no mágicos/ni de invocación infligen 1.2x de daño pero sufren Mareo de Maná
+		Armas no mágicas/ni de invocación requieren maná para usarse
+		'En su núcleo, aún queda una chispa de esperanza.'
+		'''
+}
+
+StaffOfUnleashedOcean: {
+	DisplayName: Bastón del Océano Desatado
+	Tooltip:
+		'''
+		Invoca al Duque Fishron para que luche por ti
+		Fishron ignora hasta 400 de defensa enemiga
+		'¡Ahora canaliza tu furia contra ellos!'
+		'''
+}
+
+DeviousAestheticus: {
+	DisplayName: Esteticador Perverso
+	Tooltip:
+		'''
+		La dispersión de disparo escala con hasta 7 ranuras de esbirros vacías
+		'Si estás viendo esto, has estado en coma por 20 años. No sé dónde estará este mensaje, pero por favor despierta.'
+		'''
+}
+
+ScientificRailgun: {
+	DisplayName: Railgun Científica
+	Tooltip:
+		'''
+		Usa monedas como munición
+		Las monedas de mayor valor causan más daño
+		'Precisa y particular'
+		'''
+}
+
+RoombaPet: {
+	DisplayName: Roomba
+	Tooltip: Invoca una Roomba que te sigue con la esperanza de limpiar el mundo entero
+}
+
+VortexMagnetRitual: {
+	DisplayName: Ritual de Vórtice
+	Tooltip: "'El poder fluye en tu mano'"
+}
+
+PiranhaPlantVoodooDoll: {
+	DisplayName: Muñeco Vudú de Planta Piraña
+	Tooltip:
+		'''
+		Interruptor que otorga a todos los enemigos la capacidad de...
+		'En memoria del Modo Masoquista EX. Siempre te odié.'
+		'''
+	On: El sufrimiento continúa...
+	Off: El sufrimiento disminuye...
+}
+
+FigBranch: {
+	DisplayName: Rama de Higuera
+	Tooltip: Invoca una paloma como compañera
+}
+
+ParadoxWolfSoul: {
+	DisplayName: Alma del Lobo Paradoja
+	Tooltip:
+		'''
+		Pulsa dos veces para embestir y dañar enemigos
+		Enfriamiento de 3 segundos entre usos
+		'''
+}
+
+VermillionTopHat: {
+	DisplayName: Sombrero de Copa Bermellón
+	Tooltip:
+		'''
+		Invoca a una princesa muerta
+		'Pato, Pato... ¡Murciélago!'
+		'''
+}
+
+PrimeStaff: {
+	DisplayName: Bastón de Prime
+	Tooltip:
+		'''
+		Invoca a Skeletron Prime para que luche por ti
+		'Con tus habilidades de hacker experto (apagarlo y prenderlo), reprogramaste un terror de la noche'
+		'''
+}
+
+SquidwardDoor: {
+	DisplayName: Puerta de Calamardo
+	Tooltip: "'Después de usted, Sr. Calamardo'"
+}
+
+MissDrakovisFishingPole: {
+	DisplayName: Caña de Pescar de la Srta. Drakovi
+	Tooltip:
+		'''
+		Clic derecho para cambiar entre tipos de ataque
+		Cada tipo de daño tiene uno
+		'''
+}
+
+CrimetroidEgg: {
+	DisplayName: Huevo de Crimetroid
+	Tooltip:
+		'''
+		Invoca al Bebé
+		No confundir con androides criminales
+		'''
+}
+
+NanoCore: {
+	DisplayName: Núcleo Nano
+	Tooltip:
+		'''
+		Al sostenerlo, aparecerán 7 unidades nano que construyen armas.
+		Clic izquierdo para atacar, clic derecho para cambiar armas.
+		'La ciencia está de nuestro lado.'
+		'''
+}
+
+NekomiLeggings: {
+	DisplayName: Polainas de Nekomi
+	Tooltip:
+		'''
+		+7% probabilidad de golpe crítico
+		+10% velocidad de movimiento
+		'''
+}
+
+AnglerEnchant: {
+	DisplayName: Encantamiento del Pescador
+	Tooltip:
+		'''
+		Aumenta el poder de pesca
+		Capturas peces casi al instante
+		[i:LavaproofTackleBag] Efectos de la Bolsa Antilava
+		'Mientras no sean todos zapatos, te puedes ir feliz a casa'
+		'''
+}
+
+LifelightBag: {
+	DisplayName: Bolsa del Tesoro (Luz Vital)
+	Tooltip: Haz clic derecho para abrir
+}
+
+LifelightMasterPet: {
+	DisplayName: Pluma Dorada
+	Tooltip: Invoca a un ángel menor que proporciona luz
+}
+
+LifeRevitalizer: {
+	DisplayName: Revitalizador de Vida
+	Tooltip:
+		'''
+		Haz clic derecho sobre un bloque para fijar tu punto de reaparición
+		No requiere casa
+		'''
+}
+
+ChampionMusicBox: {
+	DisplayName: Caja de Música (Campeones)
+	Tooltip: Sakuzyo 'Ordeal'
+}
+
+DeviMusicBox: {
+	DisplayName: Caja de Música (Deviantt)
+	Tooltip: Yuri O 'Sparkly Strawberry Sunrise'
+}
+
+MutantMusicBox: {
+	DisplayName: Caja de Música (Mutante)
+	Tooltip: Sakuzyo 'Steel Red'
+}
+
+RePrologueMusicBox: {
+	DisplayName: Caja de Música (???)
+	Tooltip: Sakuzyo 'rePrologue'
+}
+
+StoriaMusicBox: {
+	DisplayName: Caja de Música (???)
+	Tooltip: Xi vs Sakuzyo 'Storia'
+}
+
+LifelightRelic: {
+	DisplayName: Reliquia de la Luz Vital
+	Tooltip: ""
+}
+
+LifelightTrophy: {
+	DisplayName: Trofeo de la Luz Vital
+	Tooltip: ""
+}
+
+FragilePixieLamp: {
+	DisplayName: Efigie Cristalina
+	Tooltip: Al sostenerla en el Sagrado durante el día, se romperá, enfureciendo al maestro de las hadas
+}
+
+CrystallineCongregation: {
+	DisplayName: Congregación Cristalina
+	Tooltip:
+		'''
+		Invoca hasta 30 bolas de cristal cerca del cursor que se dirigen hacia ti
+		Suelta el botón para lanzarlas hacia el cursor
+		'''
+}
+
+EnchantedLifeblade: {
+	DisplayName: Hoja de Vida Encantada
+	Tooltip: Una espada viviente que ataca la posición del cursor
+}
+
+KamikazePixieStaff: {
+	DisplayName: Bastón Explosivada
+	Tooltip: Invoca hadas aliadas que disparan por un tiempo, luego se lanzan a los enemigos y explotan
+}
+
+Lightslinger: {
+	DisplayName: Disparaluz
+	Tooltip:
+		'''
+		Convierte las balas en disparos sagrados de luz
+		Después de 40 disparos, presiona Clic Derecho para lanzar una bomba de luz
+		25% de probabilidad de no consumir munición
+		'''
+}
+
+MostlyOrdinaryrock.Tooltip: Mods.FargowiltasSouls.ItemTooltip.MostlyOrdinaryrock
+
+WiresPainting: {
+	DisplayName: Cuadro de Cables
+	Tooltip: Mira dentro
+}
+
+PrismaRegalia: {
+	DisplayName: Regalia Prisma
+	Tooltip:
+		'''
+		Golpear con la punta de la lanza libera estrellas teledirigidas
+		Mantén presionado para cargar y hacer más daño
+		Al estar completamente cargado, todos los golpes liberan estrellas adicionales
+		'El poder radiante de la esencia pura de un enemigo...'
+		'''
+}
+
+MechLure: {
+	DisplayName: Señuelo Mecánico
+	Tooltip: Lánzalo bajo el agua en el Océano para atraer a una criatura oculta
+	TooltipTravelingMerchant: Puede ser vendido por el Mercader Ambulante
+}
+
+TheBaronsTusk: {
+	DisplayName: Colmillo del Barón
+	Tooltip:
+		'''
+		Los golpes emiten fragmentos que se incrustan en los enemigos
+		Golpear a enemigos con más de 15 fragmentos incrustados arranca todos los fragmentos
+		El arranque inflige mucho daño y siempre es un golpe crítico
+		Los fragmentos también se arrancan al morir el enemigo
+		'''
+}
+
+NavalRustrifle: {
+	DisplayName: Rifle Oxidado Naval
+	Tooltip:
+		'''
+		Recarga manual después de cada disparo
+		Si haces la recarga con buen timing, potencias el siguiente disparo
+		Los disparos potenciados hacen el doble de daño y son siempre críticos
+		'''
+}
+
+DecrepitAirstrikeRemote: {
+	DisplayName: Control de Bombardeo Decrépito
+	Tooltip:
+		'''
+		Marca una ubicación con una mira, consumiendo todas tus torretas
+		En unos segundos, una explosión masiva caerá en ese punto, haciendo daño según tus espacios de torreta
+		Tus esbirros alcanzados se convierten en astillas teledirigidas
+		'''
+}
+
+BanishedBaronBag: {
+	DisplayName: Bolsa de Tesoro (Barón Desterrado)
+	Tooltip: Clic derecho para abrir
+}
+
+RustedOxygenTank: {
+	DisplayName: Tanque de Oxígeno Oxidado
+	Tooltip:
+		'''
+		Funciona estando en el inventario
+		Clic derecho para desactivar
+		Cuentas como mojado incluso fuera del agua
+		Otorga movimiento flotante fuera del líquido
+		Aumenta la velocidad de movimiento en cualquier líquido
+		'Nadie sabe cómo funciona'
+		'''
+}
+
+RoseTintedVisor: {
+	DisplayName: Visor Tinte Rosado
+	Tooltip:
+		'''
+		Dispara hasta 6 láseres al soltar, según el tiempo de carga
+		Mayor probabilidad de crítico según la carga, hasta un 100%
+		'''
+}
+
+BaronTrophy: {
+	DisplayName: Trofeo del Barón Desterrado
+	Tooltip: ""
+}
+
+BaronRelic: {
+	Tooltip: ""
+	DisplayName: Reliquia del Barón Desterrado
+}
+
+HiveStaff: {
+	DisplayName: Bastón del Enjambre
+	Tooltip: "'Los esbirros esclavizados de un enemigo derrotado...'"
+}
+
+ROBGyro: {
+	DisplayName: Giroscopio Consciente
+	Tooltip:
+		'''
+		'Tiene mente propia'
+		Invoca un robot poderoso que no pelea
+		'''
+}
+
+EulogistsDoomsdayScenario: {
+	DisplayName: Escenario Apocalíptico del Panegirista
+	Tooltip: Haz explotar un área a tu alrededor, matando a todos los NPCs del pueblo y a ti mismo
+}
+
+RustedOxygenTankInactive: {
+	DisplayName: Tanque de Oxígeno Oxidado (Inactivo)
+	Tooltip:
+		'''
+		Funciona estando en el inventario
+		Los efectos están inactivos, clic derecho para reactivar
+		Cuentas como mojado incluso fuera del agua
+		Otorga movimiento flotante fuera del líquido
+		Aumenta la velocidad de movimiento en cualquier líquido
+		'Nadie sabe cómo funciona'
+		'''
+}
+
+EaterLauncherJr: {
+	DisplayName: Mordeblasta
+	Tooltip:
+		'''
+		Clic derecho en el inventario para cargar un Trozo Podrido como munición
+		Al disparar también carga un Trozo Podrido si es necesario
+		Cada Trozo Podrido otorga 100 disparos, hasta un máximo de 1000
+		Dispara un pedazo de carne putrefacta
+		Inflige más daño a enemigos en el rango indicado
+		'Los restos podridos de un enemigo derrotado...'
+		'''
+}
+
+TheBiggestSting: {
+	DisplayName: La Picadura Mayor
+	Tooltip:
+		'''
+		Usa dardos como munición
+		Escala con tu daño de abeja y retroceso aumentado
+		66% de probabilidad de no consumir munición
+		'El enjambre inquebrantable de la Reina...'
+		'''
+}
+
+TestAccessory: {
+	DisplayName: Accesorio de Prueba
+	Tooltip: ""
+}
+
+PrimeSoul: {
+	DisplayName: Alma de Prime
+	Tooltip: ""
+}
+
+// Dummy Item
+OncomingMutantItem: {
+	DisplayName: Icono del Mutante Inminente
+	Tooltip: Solo existe para mostrarse en la interfaz del Conmutador cuando tienes Presencia Mutante
+}
+
+Extra: {
+	StarlightTungsten: 0.75x de daño al usar con el Encantamiento de Tungsteno
+	DefensePrefixMaxLife: +{0} de vida máxima
+	ViolentPrefix: +{0}% de velocidad de ataque
+	EternityItem: Eternidad
+	DisabledEffects: Tiene efectos desactivados desde el menú de Conmutadores de Efectos
+	PatreonItem: >> Objeto de Patreon <<
+	CactusImmunity: Otorga inmunidad al daño de cactus en el Modo Eternidad
+	// stealing items texts are currently not displayed
+	ItemStolen: ¡Te han robado un objeto!
+}
+
+GravityTestItem: {
+	DisplayName: Objeto de Prueba de Gravedad
+	Tooltip: ""
+}
+
+CoffinSummon: {
+	DisplayName: Urna de Almas
+	Tooltip: Ábrela en la cámara profunda de la pirámide para despertar el antiguo ataúd
+}
+
+// Dummy Item
+TogglerIconItem: {
+	DisplayName: Objeto Icono del Conmutador
+	Tooltip: ""
+}
+
+RazorContainer: {
+	DisplayName: Contenedor de Navaja
+	Tooltip:
+		'''
+		Invoca una hoja afilada que flota alrededor del cursor
+		Golpéala con una espada ancha estándar para lanzarla
+		Mientras vuela, siempre realiza golpes críticos y penetra más armadura
+		'Aún queda algo de pelaje amarillo en el fondo'
+		'''
+}
+
+NebulaBooster: {
+	DisplayName: Potenciador de Nébula
+	Tooltip: ""
+	Activate: +{0} regeneración de vida
+	Deactivate: -{0} regeneración de vida
+}
+
+SolarBooster: {
+	DisplayName: Potenciador Solar
+	Tooltip: ""
+	Activate: +{0}% de reducción de daño
+	Deactivate: -{0}% de reducción de daño
+}
+
+StardustBooster: {
+	DisplayName: Potenciador de Polvo Estelar
+	Tooltip: ""
+	Activate: +{0}% de daño
+	Deactivate: -{0}% de daño
+}
+
+VortexBooster: {
+	DisplayName: Potenciador de Vórtice
+	Tooltip: ""
+	Activate: +{0}% de probabilidad de crítico
+	Deactivate: -{0}% de probabilidad de crítico
+}
+
+CosmosBooster: {
+	DisplayName: Potenciador Cósmico
+	Tooltip: ""
+	Activate: +{0}% de daño crítico
+	Deactivate: -{0}% de daño crítico
+}
+
+DeathBooster: {
+	DisplayName: Potenciador de la Muerte
+	Tooltip: ""
+	Activate: +{0} penetración de armadura
+	Deactivate: -{0} penetración de armadura
+}
+
+EarthBooster: {
+	DisplayName: Potenciador de la Tierra
+	Tooltip: ""
+	Activate: +{0}% de reducción de daño
+	Deactivate: -{0}% de reducción de daño
+}
+
+LifeBooster: {
+	DisplayName: Potenciador de la Vida
+	Tooltip: ""
+	Activate: +{0} regeneración de vida
+	Deactivate: -{0} regeneración de vida
+}
+
+NatureBooster: {
+	DisplayName: Potenciador de la Naturaleza
+	Tooltip: ""
+	Activate: +{0} defensa
+	Deactivate: -{0} defensa
+}
+
+SpiritBooster: {
+	DisplayName: Potenciador Espiritual
+	Tooltip: ""
+	Activate: +{0} regeneración de maná
+	Deactivate: -{0} regeneración de maná
+}
+
+TerraBooster: {
+	DisplayName: Impulsor de Terra
+	Tooltip: ""
+	Activate: +{0}% prob. de crítico
+	Deactivate: -{0}% prob. de crítico
+}
+
+TimberBooster: {
+	DisplayName: Impulsor de Madera
+	Tooltip: ""
+	Activate: +{0}% de daño
+	Deactivate: -{0}% de daño
+}
+
+WillBooster: {
+	DisplayName: Impulsor de Voluntad
+	Tooltip: ""
+	Activate: +{0} de daño plano
+	Deactivate: -{0} de daño plano
+}
+
+CoffinRoominator: {
+	DisplayName: Generador de Ataúd Maldito
+	Tooltip:
+		'''
+		Genera una sala de Ataúd Maldito en tu cursor
+		Sobrescribe cualquier sala de Ataúd Maldito existente
+		'''
+}
+
+GildedSceptre: {
+	DisplayName: Cetro Dorado
+	Tooltip:
+		'''
+		Dibuja un círculo para activar proyectiles
+		Los proyectiles activados persiguen al enemigo más cercano
+		Su daño aumenta según la precisión del círculo
+		'''
+}
+
+AccursedAnkh: {
+	DisplayName: Anj Maldito
+	Tooltip: Al sostenerlo, aumenta la regeneración de vida y reduce perjuicios, pero baja la defensa en 10
+}
+
+SisypheanFist: {
+	DisplayName: Guantelete de Sísifo
+	Tooltip:
+		'''
+		Cuando estés en tierra, toma una enorme roca del suelo
+		Suéltala para lanzarla hacia el cursor
+		El daño de la roca depende de su velocidad
+		Atraviesa enemigos con poca vida
+		'''
+}
+
+EgyptianFlail: {
+	DisplayName: Nekhakha
+	Tooltip:
+		'''
+		Tus esbirros se enfocan en los enemigos golpeados
+		Ocasionalmente causa explosiones de llama sombría
+		'''
+}
+
+SpiritLongbow: {
+	DisplayName: Arco Largo Espiritual
+	Tooltip:
+		'''
+		Convierte las flechas en Flechas Espirituales que dejan llamas espirituales a su paso
+		Mantén presionado para cargar los disparos y aumentar daño y velocidad
+		Atraviesa enemigos con poca vida
+		'''
+}
+
+CursedCoffinBag: {
+	DisplayName: Bolsa del Tesoro (Ataúd Maldito)
+	Tooltip: Clic Derecho para abrir
+}
+
+CursedCoffinRelic: {
+	DisplayName: Reliquia del Ataúd Maldito
+	Tooltip: ""
+}
+
+CursedCoffinTrophy: {
+	DisplayName: Trofeo del Ataúd Maldito
+	Tooltip: ""
+}
+
+UmbraRegalia: {
+	DisplayName: Regalia Umbría
+	Tooltip:
+		'''
+		Clic Izquierdo para apuñalar rápidamente con la lanza
+		Mantén Clic Derecho para cargar un lanzamiento
+		Gana más fuerza al cargarse completamente
+		Sigue aumentando el daño por un tiempo después de cargar
+		'Recompensa por un épico reencuentro...'
+		'''
+}
+
+CoffinPainting: {
+	DisplayName: Pintura del Ataúd
+	Tooltip: ""
+}
+
+ElectricWhip: {
+	DisplayName: Cadena Voltaica
+	Tooltip:
+		'''
+		Látiga a los enemigos para lanzar rayos en cadena desde tus esbirros, hasta 4 veces por golpe
+		'La esencia de un enemigo vencido...'
+		'''
+}
+
+TheDestroyer: {
+	DisplayName: El Destructor
+	Tooltip:
+		'''
+		Látiga a tus esbirros para disparar un láser a enemigos cercanos, hasta 6 veces por golpe
+		Cada 20 golpes, el Destructor se libera y sigue tu cursor por 5 segundos
+		'Recompensa por un épico reencuentro...'
+		'''
+}
+
+FallenStarDayItem: {
+	DisplayName: Estrella Fugaz
+	Tooltip: ""
+}
+
+DarkTome: {
+	DisplayName: Tomo Oscuro
+	Tooltip:
+		'''
+		Mantén presionado para invocar hasta 3 libros espectrales que siguen tu cursor
+		Suéltalo para disparar una ráfaga de páginas
+		'El grimorio arcano de un enemigo vencido...'
+		'''
+}
+
+TouhouStaff: {
+	DisplayName: Réquiem de los Hijos de la Naturaleza
+	Tooltip: Invoca hasta cinco yōkais y hadas para que luchen por ti
+}
+
+BaronP1MusicBox: {
+	DisplayName: Caja Musical (Barón Desterrado - Fase 1)
+	Tooltip: zentaque & Azathoth 'Voluntad de las Olas'
+}
+
+BaronP2MusicBox: {
+	DisplayName: Caja de Música (Barón Desterrado - Fase 2)
+	Tooltip: zentaque y Azathoth "Voluntad de las Olas"
+}
+
+TrojanMusicBox: {
+	DisplayName: Caja de Música (Ardilla Troyana)
+	Tooltip: ProduceVGM "Tuercas y Tornillos"
+}
+
+AbominationnP1MusicBox: {
+	DisplayName: Caja de Música (Abominación - Fase 1)
+	Tooltip: Yuri O "Laevateinn"
+}
+
+AbominationnP2MusicBox: {
+	DisplayName: Caja de Música (Abominación - Fase 2)
+	Tooltip: Yuri O "Laevateinn"
+}
+
+CoffinMusicBox: {
+	DisplayName: Caja de Música (Ataúd Maldito)
+	Tooltip: zentaque y Azathoth "Arenas Cambiantes"
+}
+
+EridanusMusicBox: {
+	DisplayName: Caja de Música (Eridanus)
+	Tooltip: Yuri O "Estrella de Platino"
+}
+
+LifelightMusicBox: {
+	DisplayName: Caja de Música (Luz de Vida)
+	Tooltip: ProduceVGM "Iluminación Ilustre"
+}
+
+MainMenuMusicBox: {
+	DisplayName: Caja de Música (Menú Principal)
+	Tooltip: Sakuzyo "Nein"
+}
+
+BaronMask: {
+	DisplayName: Máscara del Barón Desterrado
+	Tooltip: ""
+}
+
+CoffinMask: {
+	DisplayName: Máscara del Ataúd Maldito
+	Tooltip: ""
+}
+
+DeathMask: {
+	DisplayName: Máscara del Campeón de la Muerte
+	Tooltip: ""
+}
+
+EarthMask: {
+	DisplayName: Máscara del Campeón de la Tierra
+	Tooltip: ""
+}
+
+LifelightMask: {
+	DisplayName: Máscara de la Luz de Vida
+	Tooltip: ""
+}
+
+LifeMask: {
+	DisplayName: Máscara del Campeón de la Vida
+	Tooltip: ""
+}
+
+NatureMask: {
+	DisplayName: Máscara del Campeón de la Naturaleza
+	Tooltip: ""
+}
+
+SpiritMask: {
+	DisplayName: Máscara del Campeón del Espíritu
+	Tooltip: ""
+}
+
+TerraMask: {
+	DisplayName: Máscara del Campeón de Terra
+	Tooltip: ""
+}
+
+TimberMask: {
+	DisplayName: Máscara del Campeón de la Madera
+	Tooltip: ""
+}
+
+TrojanMask: {
+	DisplayName: Máscara de la Ardilla Troyana
+	Tooltip: ""
+}
+
+WillMask: {
+	DisplayName: Máscara del Campeón de la Voluntad
+	Tooltip: ""
+}

@@ -1,0 +1,71 @@
+SoulTogglerButton: Alternador de Efectos
+Standard: Modo Estándar
+Eternity: Modo Eternidad
+Masochist: Modo Masoquista
+EternityEnabled: Modo Eternidad activado
+MasochistEnabled: Modo Masoquista activado
+EternityDisabled: Modo Eternidad desactivado
+LeftClickEnable: Clic izquierdo para activar
+RightClickSelectDifficulty: Clic derecho para seleccionar dificultad
+HoldShift: Mantén Shift para más información
+Close: Cerrar
+OpenKeybinds: Abrir Atajos de Teclado
+ExpandedStandard:
+	'''
+	Desactiva el Modo Eternidad o Masoquista.
+	La dificultad del mundo (Experto, Maestro) no se modifica.
+	'''
+ExpandedEternity:
+	'''
+	[c/00FFFF:Un nuevo modo por encima del Experto para veteranos de Terraria. La experiencia Fargo original.]
+	El mundo debe estar en Modo Experto
+	Activa el Modo Masoquista si el mundo está en Modo Maestro o superior
+	'''
+ExpandedMasochist:
+	'''
+	[c/33ffbe:Un modo de desafío extremo e intenso. ¡Se recomienda jugar primero el Modo Eternidad!]
+	El mundo debe estar en Modo Maestro o superior
+	Activa el Modo Eternidad si el mundo está en Modo Experto
+	'''
+EternityOption:
+	'''
+	[c/00FFFF:Un nuevo modo por encima del Experto para veteranos de Terraria. La experiencia Fargo original.]
+	Establece la dificultad del mundo en Modo Experto
+	'''
+MasochistOption:
+	'''
+	[c/33ffbe:Un modo de desafío extremo e intenso. ¡Se recomienda jugar primero el Modo Eternidad!]
+	Establece la dificultad del mundo en Modo Maestro
+	'''
+ExpandedFeatures:
+	'''
+	El Modo Eternidad incluye:
+
+	-Reelabora jefes y enemigos, haciéndolos más fuertes
+	-Habilita recompensas del Modo Maestro
+	-Nuevas recompensas exclusivas del Modo Eternidad
+	-Deviantt ofrece un paquete inicial y consejos según el progreso
+	-Mejora estadísticas base y limita el DR del jugador al 75%
+	-Los perjuicios desaparecen más rápido si no atacas; no puedes morir por daño prolongado a menos que estés en Modo Masoquista
+	-Cambia la funcionalidad y fuerza de ciertos objetos
+	'''
+MasochistMultiplayer: -En multijugador Masoquista, cada jugador solo puede revivir una vez por jefe
+SavedToSlot: Configuración guardada en el conjunto personalizado {0}!
+NoTogglesFound: No se encontraron efectos en el conjunto personalizado {0}.
+TurnAllTogglesOff: Desactivar todos los efectos
+TurnAllTogglesOn: Activar todos los efectos
+SomeEffectsPreset: Preajuste de algunos efectos
+MinimalEffectsPreset: Preajuste de efectos mínimos
+CustomPreset: Preajuste personalizado {0} (clic derecho para guardar)
+// Reload button is currently removed
+ReloadToggles: Reload Toggles (right click to reset)
+NoToggles: ¡No hay efectos activables equipados!
+DisplayAll: Mostrar todos
+DisplayEquipped: Mostrar equipados
+SearchText: Buscar...
+MainMenu: Fargo's
+DisabledUnequipped: Desactivado: No equipado
+ActiveSkills: Habilidades Activas
+AvailableSkills: Habilidades Disponibles
+SelectDifficulty: Seleccionar Dificultad
+NoRespawn: Reaparición bloqueada: ¡Solo una reaparición por jefe en multijugador {0}!
