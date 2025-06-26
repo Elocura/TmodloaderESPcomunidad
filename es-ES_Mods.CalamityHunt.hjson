@@ -56,7 +56,7 @@ Items: {
 
 	TreasureTrunk: {
 		DisplayName: Baúl del Tesoro
-		Tooltip: "<clic derecho> para abrir"
+		Tooltip: "<right> para abrir"
 	}
 
 	GoozmaMask: {
@@ -66,7 +66,7 @@ Items: {
 
 	TreasureBucket: {
 		DisplayName: Cubo del Tesoro,
-		Tooltip: "<clic derecho> para abrir"
+		Tooltip: "<right> para abrir"
 	}
 
 	GoozmaTrophyItem: {
@@ -141,7 +141,7 @@ Items: {
 
 	Goozmaga: {
 		DisplayName: Goozmaga,
-		Tooltip: "Lanza planetas que orbitan a los enemigos golpeados Golpear a un enemigo con un planeta orbitando aumenta su velocidad Esto se acumula 8 veces Los golpes sigilosos hacen que dos planetoides pequeños adicionales orbiten al objetivo golpeado <clic derecho> para destruir todos los planetas y planetoides existentes"
+		Tooltip: "Lanza planetas que orbitan a los enemigos golpeados Golpear a un enemigo con un planeta orbitando aumenta su velocidad Esto se acumula 8 veces Los golpes sigilosos hacen que dos planetoides pequeños adicionales orbiten al objetivo golpeado <right> para destruir todos los planetas y planetoides existentes"
 	}
 
 	ShogunChestplate: {
@@ -161,18 +161,18 @@ Items: {
 
 	AuricSole: {
 		DisplayName: Suela Áurica,
-		Tooltip: "<clic derecho> para desactivarTe permite deslizarte sobre cualquier superficie Advertencia: Puede resultar en velocidades extraordinariamente altas'Yharim te odiaría por esto'"
+		Tooltip: <right> para desactivarTe permite deslizarte sobre cualquier superficie Advertencia: Puede resultar en velocidades extraordinariamente altas'Yharim te odiaría por esto'"
 	}
 
 	DischargedAuricSole: {
 		DisplayName: Suela Áurica Descargada
-		Tooltip: "<clic derecho> para activarTe permite deslizarte sobre cualquier superficie Advertencia: Puede resultar en velocidades extraordinariamente altas'Yharim te odiaría por esto'"
+		Tooltip: "<right> para activarTe permite deslizarte sobre cualquier superficie Advertencia: Puede resultar en velocidades extraordinariamente altas'Yharim te odiaría por esto'"
 	}
 
 	EbonianBehemuckTrophyItem: {
 		DisplayName: Trofeo del Behemuck Eboniano
 		Tooltip: ""
-	},
+	}
 
 	EbonianBehemuckTrophy: {
 		DisplayName: Trofeo del Behemuck Eboniano
@@ -216,7 +216,7 @@ Items: {
 
 	Parasanguine: {
 		DisplayName: Parasanguina,
-		Tooltip: "Mantén <clic izquierdo> o golpea enemigos para acumular sangre en exceso <clic derecho> cuando el medidor esté alto para expulsar el exceso<clic izquierdo> después de hacer clic derecho para realizar un giro devastador'¿Qué obtienes si alimentas a un slime? Un slime más grande.'"
+		Tooltip: "Mantén <right> o golpea enemigos para acumular sangre en exceso <right> cuando el medidor esté alto para expulsar el exceso<left> después de hacer clic derecho para realizar un giro devastador'¿Qué obtienes si alimentas a un slime? Un slime más grande.'"
 	}
 
 
@@ -749,10 +749,19 @@ Config: {
 
 
 LoreGeneric:
-"[c/E3AF40:Susurros desde lo alto bailan en tus oídos...]\n[c/BEBEBE:Presiona \"Shift Izquierdo\" para escuchar mejor]"
+"[c/E3AF40:Susurros desde lo alto bailan en tus oídos...]\n[c/BEBEBE:Presiona \"Left Shift"\" para escuchar mejor]"
 
 LoreGoozma:
-"Un estremecedor giro en la dominación jerárquica de todo ser viviente.\nPensar que la culminación del escalón más bajo de criaturas pudiera poseer un alma Áurica, a pesar de no tener herencia dracónica...\nSe convirtió en algo más grande, acercándose a un ser perfecto compuesto únicamente por partes imperfectas... quizás lo que verdaderamente hace a un Dios siempre permanecerá desconocido.\nMi aprensión hacia tu cultivo de esta grotesca monstruosidad se ve superada por mi curiosidad hacia ella.\n¿Qué pudo haber influenciado la forma que tomó? Su apariencia oculta la delicadeza y sofisticación en la manipulación de sus sujetos.\nQué lástima que los frutos de su esfuerzo no hayan llevado a nada al final. Un patrón implacable en los anales cíclicos de la historia.\nQuizás, desde la perspectiva de Terraria, nuestros propios logros no sean más que el retorcer impotente de las babas."
+LoreGoozma:
+	'''
+	Una conmoción estremecedora en el dominio jerárquico de todo ser viviente.
+	Pensar que la culminación del escalón más bajo de criaturas podría, aun así, poseer un alma Áurica a pesar de no tener herencia dracónica…
+	Se convirtió en algo superior, acercándose a un ser perfecto compuesto únicamente de partes imperfectas... quizá lo que realmente hace a un Dios permanezca por siempre desconocido.
+	Mi inquietud ante tu cultivo de esta grotesca monstruosidad se ve superada por mi curiosidad hacia ella.
+	¿Qué pudo haber influido en la forma que tomó? Su apariencia oculta la destreza y sofisticación en la manipulación de sus súbditos.
+	Qué lástima que los frutos de su esfuerzo no condujeran a nada al final. Un patrón implacable en los anales cíclicos de la historia.
+	Tal vez, desde la perspectiva de Terraria, nuestros propios logros no sean más que el retorcer impotente de babas.
+	'''
 
 Configs: {
 	Config: {
