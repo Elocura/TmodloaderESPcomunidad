@@ -46,32 +46,35 @@ EternalGardenMusicBox: {
 	Tooltip: Reproduce 'Edenic Whispers' por ENNWAY
 }
 
-  "FakeTerminus": {
-    "DisplayName": "Terminus"
-    "BaseTooltip": "Un artefacto increíblemente antiguo, sellado en el fondo del abismo como acto de protección."
-    "UnopenedTooltip": "Su mirada está cerrada."
-    "OpenedTooltip": "Su mirada está abierta. Serás puesto a prueba."
-  
+FakeTerminus: {
+	DisplayName: Terminus
+    BaseTooltip: Un artefacto inconcebiblemente antiguo, encerrado en el fondo del abismo como medida de protección.
+    UnopenedTooltip: Su mirada permanece sellada.
+    OpenedTooltip: Su mirada se ha abierto. Serás puesto a prueba.
+
+
+
+
 
 }
 
 GoodApple: {
-	DisplayName: Buena Manzana
+	DisplayName: Manzana del bien
 	Tooltip:
 		'''
-		¡La buena manzana nunca cae lejos del buen árbol!
+		¡La manzana del bien nunca cae lejos del buen árbol!
 		Debes pasar la prueba
 		'''
 	TooltipPostNamelessDeity:
 		'''
-		¡La buena manzana nunca cae lejos del buen árbol!
-		Otorga 1 de vida máxima adicional
-		Puede usarse una cantidad ilimitada de veces
+		¡La manzana del bien nunca cae lejos del buen árbol!
+		Otorga 1 punto de vida máxima adicional
+		Puede usarse un número ilimitado de veces
 		'''
 }
 
 GoodAppleResetter: {
-	DisplayName: Reiniciador de Buena Manzana (DEBUG)
+	DisplayName: Reiniciador de la Manzana dek bien (DEBUG)
 	Tooltip: ""
 }
 
@@ -84,30 +87,30 @@ LoreAvatar: {
 		'''
 	Lore:
 		'''
-		Formas oscuras. Niebla criónica. Extensión hacia un mundo concluido.
-		Uno solo, el Oscuro. Busca consumir, busca explorar en tiempo negado.
-		Centro retorcido reflejado. Lamentación parabólica. Entropía. Sangriento, lacrimógeno espectáculo.
-		Efímero,
-		Respirando.
-		Fuerzas que miran. Fuerzas ciegas a todo.
+		Formas sombrías. Niebla criónica.     Extensión    hacia     un     fin     inconcluso  
+		Uno solo, el Oscuro. Anhela consumir, anhela explorar en  	tiempo negado  
+		Centro retorcido. Lamentación parabólica. Entropía. Sangriento, lacrimógeno espectáculo  
+		Efímero  
+			Respirando  
+		Fuerzas que observan. Fuerzas ciegas a todo  
 
-		Fragmentos congelados.
-		Ruega al céfiro marchito.
-		Nostálgica ensoñación de infinitos escarlatas, colapsados hasta la nada.
+				Fragmentos helados  
+		Ruega al viento marchito  
+		Nostálgica ensoñación de infinitos escarlatas, colapsados hasta el vacío  
 
-		Rayas de color devueltas a lo mínimo por la oscuridad rodante.
+			Rayas de color devueltas al mínimo por la penumbra rodante  
 
-		  Elegía cósmica por la pena del dios anciano.
+					Elegía cósmica por la pena del dios anterior  
 
-		Descenso. Descenso. Descenso. Descenso.
-		Descenso.
+		Descenso. Descenso.		Descenso					Descenso  
+		Descenso  
 
-		En un destello deslumbrante, la máscara flota a través del reino de los seres superiores. Todo crece y se marchita en la divina exhibición de vida y cesación.
+		En un fulgor deslumbrante, la máscara flota por el reino de los seres superiores. Todo brota y se marchita en la divina exhibición de vida y cese  
 
-		  El Oscuro, la estrella más brillante en un mundo perfecto.
+					El Oscuro, la más intensa estrella en un mundo imperfecto  
 
-		Ahora, danzarás en tapices de destino enterrado.
-		Busca tu destino sobre las cenizas pasadas, donde los lirios no crecerán.
+			Ahora, danzarás		en tapices de    destino sepultado  
+		Busca tu		destino sobre las brasas antiguas, donde los lirios no renacerán  
 		'''
 }
 
@@ -144,15 +147,16 @@ NoxiousEvocator: {
   "iftEclipseToggler": {
     "DisplayName": "Interruptor de Eclipse del Vacío (DEPURACIÓN)"
     "Tooltip": ""
-  },
-  "NoxusMask": {
-    "DisplayName": Máscara del Avatar del Vacío,
-    "Tooltip": ""
-  },
-  "NoxusRelicItem": {
-    "DisplayName": Reliquia del Avatar del Vacío,
-    "Tooltip": ""
+}
 
+NoxusMask: {
+    DisplayName: Máscara del Avatar del Vacío
+    Tooltip: ""
+}
+
+  NoxusRelicItem: {
+    DisplayName: Reliquia del Avatar del Vacío
+    Tooltip: ""
 }
 
 EmptinessSprayer: {
@@ -164,17 +168,19 @@ EmptinessSprayer: {
 		'''
 }
 
-  "AvatarTrophy": {
+  AvatarTrophy: {
     "DisplayName": "Trofeo del Avatar del Vacío"
     "Tooltip": ""
-  },
-  "NuminousDye": {
-    "DisplayName": "Tinte Numinoso"
-    "Tooltip": ""
-  },
-  "OblivionChime": {
-    "DisplayName": "Campana del Olvido"
-    "Tooltip": ""
+}
+
+  NuminousDye: {
+    DisplayName: Tinte Numinoso
+    Tooltip: ""
+}
+
+  OblivionChime: {
+    DisplayName: Campana del Olvido
+    Tooltip: ""
 }
 
 StarCharm: {
@@ -1100,3 +1106,4 @@ StrangeFlagpole: {
 	"Tooltip": ""
 
 }
+
