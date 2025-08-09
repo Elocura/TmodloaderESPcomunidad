@@ -1,0 +1,747 @@
+Mods: {
+	CalamityAmmo: {
+		TownNPCMood: {
+			QianXing: {
+				// Content: I get along well with you.
+				// NoHome: Do you have any spare rooms? I don't want to live in the same room with others.
+				// LoveSpace: Enough private space makes me very comfortable. Even if I do something quietly, I won't be found
+				// FarFromHome: Well, could you lend me your magic mirror?
+				// DislikeCrowded: Many people are busy, But I can't sleep because of the noise.
+				// HateCrowded: Get together and have sex is not a good activity.
+				// LikeBiome: This place is full of dangers and treasures,I like it.Are you ready to die anytime?
+				// LoveBiome: Don't even think about it, Choosing forest is just for your shopping convenience.
+				// DislikeBiome: The sandstorm here makes me dirty, can I move to another place?
+				// HateBiome: No cat in her right mind would jump into ocean to catch fish for dinner.
+				// LikeNPC: "{NPCName}doesn't sell any scraps basically, he's pretty good."
+				// LikeNPC_Princess: Why do I like {NPCName}? The official answer is: "Every NPC likes the princess." The private answer is: "The staff of resonance is too easy to use."
+				// LoveNPC: "{NPCName} chats well with me, is that because both we have animal ears?"
+				// DislikeNPC: Everyday {NPCName} compete with me for business and stare at me , It's really uncomfortable.
+				// HateNPC: "{NPCName} the naturally evil brat doesn't deserve to live next to me!"
+			}
+		}
+
+		Projectiles: {
+			Magic: {
+				// HydrothermicExplosion.DisplayName: Hydrothermic Explosion
+				// WulfrumBoltRanged.DisplayName: Wulfrum Bolt
+			}
+
+			Typeless: {
+				// DivineGeodeMeteor.DisplayName: Divine Geode Meteor
+				// DivineGeodeMeteor2.DisplayName: Divine Geode Meteor
+			}
+
+			// ArcaneArrow_Proj.DisplayName: Arcane Arrow
+			// Crabulon_Spore.DisplayName: Crabulon's Spore
+			// HealOrb.DisplayName: Heal Orb
+			// RadioAura.DisplayName: Red Lightning Aura
+			// Shroomere.DisplayName: Shroomere
+			// Spore1.DisplayName: Spore Cloud
+			// Spore2.DisplayName: Spore Cloud
+			// Spore3.DisplayName: Spore Cloud
+			// HydrothermicArrow_Proj.DisplayName: Hydrothermic Arrow
+			// HydrothermicExplosion.DisplayName: Hydrothermic Explosion
+			// HydrothermicBullet_Proj.DisplayName: Hydrothermic Bullet
+			// HydrothermicVolcano.DisplayName: Hydrothermic Volcano
+			// VolcanicFireballRanged.DisplayName: Volcanic Fireball
+			// MirageArrow_Proj.DisplayName: Mirage Arrow
+			// MirageArrow_Proj2.DisplayName: Mirage Arrow
+			// SoulBullet_Proj.DisplayName: Phantom Spirit
+			// Chengying_Fumo_Proj.DisplayName: Chengying's Fumo
+			// _BloodBullet.DisplayName: Blood Bullet
+			// _DesertFeatherArrow.DisplayName: Desert Feather Arrow
+			// _PearlArrow.DisplayName: Pearl Arrow
+			// _PearlBullet.DisplayName: Pearl Bullet
+			// _PrismBullet.DisplayName: Prsim Bullet
+			// _RottenBullet.DisplayName: Rotten Bullet
+			// _RottenBullet2.DisplayName: Rotten Bullet
+			// _SeaBubble.DisplayName: Water Stream
+			// _VictideArrow.DisplayName: Victide Arrow
+			// _VictideBullet.DisplayName: Victide Bullet
+			// _WulfArrow.DisplayName: Wulfrum Arrow
+			// _AstralArrow.DisplayName: Astral Arrow
+			// _AstralBullet.DisplayName: Astral Bullet
+			// _AstralMine.DisplayName: Astral Mine
+			// _AstralShot.DisplayName: Astral Laser
+			// _AstralStar.DisplayName: Astral Star
+			// _AstralStar2.DisplayName: Astral Star
+			// _DazzlingAstralArrow.DisplayName: Dazzling Astral Arrow
+			// _DazzlingAstralBullet.DisplayName: Dazzling Astral Bullet
+			// _Flower.DisplayName: Perennial Flower
+			// _FossilArrow.DisplayName: Fossil Arrow
+			// _FossilBullet.DisplayName: Fossil Bullet
+			// _FossilShard.DisplayName: Fossil Shard
+			// _FossilShard2.DisplayName: Fossil Shard
+			// _NapalmBullet.DisplayName: Napalm Bullet
+			// _Seed.DisplayName: Perennial Seed
+			// _WeakAstralArrow.DisplayName: Weak Astral Bullet
+			// _WeakAstralBullet.DisplayName: Weak Astral Bullet
+			// FakeSeaStar1.DisplayName: Aquatic Star
+			// FakeSeaStar2.DisplayName: Brittle Star
+			// _ElementalArrow.DisplayName: Elemental Arrow
+			// _ElementalBullet.DisplayName: Shredded Celestial Carrot
+			// _GoldenFeatherArrow.DisplayName: GoldenFeather Arrow
+			// _RedLightning.DisplayName: Red Lightning
+			// HealingRain.DisplayName: Healing Rain
+			// HealingStarcloud.DisplayName: Healing Nebula
+			// LightningVortex.DisplayName: Lightning Vortex
+			// MetorSolar.DisplayName: Solar Fireball
+			// WulfrumBoltRanged.DisplayName: Wulfrum Bolt
+			// AeroGrenade.DisplayName: Aerocket
+			// AeroMine.DisplayName: Aerocket
+			// AeroRocket.DisplayName: Aerocket
+			// AeroSnowman.DisplayName: Aerocket
+			// Mushroom_ClusterRocketI.DisplayName: Mushroom
+			// Mushroom_ClusterRocketII.DisplayName: Mushroom
+			// Mushroom_DryRocket.DisplayName: Mushroom
+			// Mushroom_HoneyRocket.DisplayName: Mushroom
+			// Mushroom_LavaRocket.DisplayName: Mushroom
+			// Mushroom_MiniNukeRocketI.DisplayName: Mushroom
+			// Mushroom_MiniNukeRocketII.DisplayName: Mushroom
+			// Mushroom_RocketI.DisplayName: Mushroom
+			// Mushroom_RocketII.DisplayName: Mushroom
+			// Mushroom_RocketIII.DisplayName: Mushroom
+			// Mushroom_RocketIV.DisplayName: Mushroom
+			// Mushroom_WetRocket.DisplayName: Mushroom
+			// Sand_Rocket.DisplayName: Earth-Penetrating Missile
+			// SandGrenade.DisplayName: Earth-Penetrating Missile
+			// SandMine.DisplayName: Earth-Penetrating Missile
+			// SandSnowman.DisplayName: Earth-Penetrating Missile
+			// Spike.DisplayName: Spike
+			// SpikyBall.DisplayName: Spiky Ball
+			// ThePack_ClusterRocketI.DisplayName: Pack Missile
+			// ThePack_ClusterRocketII.DisplayName: Pack Missile
+			// ThePack_DryRocket.DisplayName: Pack Missile
+			// ThePack_HoneyRocket.DisplayName: Pack Missile
+			// ThePack_LavaRocket.DisplayName: Pack Missile
+			// ThePack_MiniNukeRocketI.DisplayName: Pack Missile
+			// ThePack_MiniNukeRocketII.DisplayName: Pack Missile
+			// ThePack_RocketI.DisplayName: Pack Missile
+			// ThePack_RocketII.DisplayName: Pack Missile
+			// ThePack_RocketIII.DisplayName: Pack Missile
+			// ThePack_RocketIV.DisplayName: Pack Missile
+			// ThePack_SandRocket.DisplayName: Pack Missile
+			// ThePack_WetRocket.DisplayName: Pack Missile
+			// ThePackLittle_ClusterRocketI.DisplayName: Pack Minissile
+			// ThePackLittle_ClusterRocketII.DisplayName: Pack Minissile
+			// ThePackLittle_DryRocket.DisplayName: Pack Minissile
+			// ThePackLittle_HoneyRocket.DisplayName: Pack Minissile
+			// ThePackLittle_LavaRocket.DisplayName: Pack Minissile
+			// ThePackLittle_MiniNukeRocketI.DisplayName: Pack Minissile
+			// ThePackLittle_MiniNukeRocketII.DisplayName: Pack Minissile
+			// ThePackLittle_RocketI.DisplayName: Pack Minissile
+			// ThePackLittle_RocketII.DisplayName: Pack Minissile
+			// ThePackLittle_RocketIII.DisplayName: Pack Minissile
+			// ThePackLittle_RocketIV.DisplayName: Pack Minissile
+			// ThePackLittle_WetRocket.DisplayName: Pack Minissile
+			// _AstralFlame.DisplayName: Astral Crystal
+			// Explode.DisplayName: Explode
+			// GrapeProj.DisplayName: Grape
+			// GrapeShot.DisplayName: Grape
+			// Summon.VolcanicFireballRanged.DisplayName: Volcanic Fireball
+			// StcikyChewingGum.DisplayName: Stciky Chewing Gum
+			// _DazzlingAstralArrowNew.DisplayName: Dazzling Astral Arrow
+			// DivineArrow_Proj.DisplayName: Divine Arrow
+			// DivineGeodeMeteor.DisplayName: Divine Geode Meteor
+			// DivineGeodeMeteor2.DisplayName: Divine Geode Meteor
+			// DivineBullet_Proj.DisplayName: Divine Bullet
+			// DeathMarkRound.DisplayName: Mark Round
+			// IceBomb.DisplayName: Ice Bomb
+			// IceRain.DisplayName: Ice Rain
+			// BrimstoneHellblast.DisplayName: Brimstone Hellblast
+			// ElectricStream.DisplayName: Electricity Surge
+		}
+
+		Items: {
+			ArcaneQuiver: {
+				// DisplayName: Arcane Quiver
+				/* Tooltip:
+					'''
+					Allows you to consume mana to enchant arrows, causing extra damage
+					Damage bonus based on remaining mana ratio
+					Mana usage based on weapon speed
+					Turn on visibility will replace any arrow to arcane arrow
+					Mana Sickness halves arcane arrow's damage
+					Greatly increases arrow speed
+					20% chance to not consume arrows
+					"Energy, power, my people are addicted to it!"
+					''' */
+			}
+
+			EvilMushroom: {
+				// DisplayName: Evil Mushroom
+				// Tooltip: Both you and enemies you hit gain Marked for Death
+			}
+
+			FastHolster: {
+				// DisplayName: Fast Holster
+				/* Tooltip:
+					'''
+					Decrease usetime of guns by 10%
+					Derease ranged critchance by 4%
+					"Don't worry about your accuracy. Take enough shots, and you're guaranteed to land something!"
+					''' */
+			}
+
+			GrapeLauncher: {
+				// DisplayName: Suspended Shotgun Shell Launcher
+				// Tooltip: Fire a series of bullets after hit enemy 8 times in a row
+			}
+
+			InfectedCrabGill: {
+				// DisplayName: Infected Crab Gill
+				/* Tooltip:
+					'''
+					Summons spores over time that will damage enemies
+					Guns have a chance to fire extra fungal round that splits on death.
+					Decrease life regeneration by 1
+					''' */
+			}
+
+			LifeMushroom: {
+				// DisplayName: Live Mushroom
+				// Tooltip: Mushroom randomly grow around you, picking up to restore 15 life
+			}
+
+			MarvelousMycelium: {
+				// DisplayName: Marvelous Mycelium
+				/* Tooltip:
+					'''
+					6% increased ranged damage and 9% increased ranged critical strike chance
+					Being hit removes these benefit for a short time and gives you Mushy
+					"Death goes life on, and life achieves death soon"
+					''' */
+			}
+
+			ModifiedCoil: {
+				// DisplayName: Modified Coil
+				/* Tooltip:
+					'''
+					7% increased ranged damage
+					Slightly increases the velocity of ranged projectiles
+					"Exposed wires, handle carefully"
+					''' */
+			}
+
+			MushroomUnitedNations: {
+				// DisplayName: Mushroom United Nations
+				/* Tooltip:
+					'''
+					Summons spores over time that will damage enemies
+					Guns have a chance to fire extral fungal round that splits on death
+					Reduced defense by 5 and life regeneration by 1
+					15% increased ranged damage and 5% increased ranged critical strike chance
+					Being hit removes these benefit for a short time and gives you Mushy
+					Press [KEY] to activate Trripy buff
+					A mushroom sniper rifle hovers above your head, sniping the enemy farthest from you in range
+					Reducing chance for enemies to target you
+					"Why do I feel that our members are getting fewer and fewer?"
+					''' */
+			}
+
+			OdddMushroom: {
+				// DisplayName: Odd Mushroom
+				/* Tooltip:
+					'''
+					Press [KEY] to activate Trripy buff
+					"You can't always trust what you see."
+					''' */
+			}
+
+			SuperCoil: {
+				// DisplayName: Adamantite Coil
+				/* Tooltip:
+					'''
+					Increased ranged critical strike chance based on your held weapon's use speed
+					Moderately increases the velocity of ranged projectiles
+					''' */
+			}
+
+			TitaniumCoil: {
+				// DisplayName: Titanium Coil
+				/* Tooltip:
+					'''
+					Increased ranged damage based on your held weapon's use speed
+					Moderately increases the velocity of ranged projectiles
+					''' */
+			}
+
+			WulfrumCoil: {
+				// DisplayName: Wulfrum Coil
+				/* Tooltip:
+					'''
+					7% increased ranged damage
+					Slightly increases the velocity of ranged projectiles
+					''' */
+			}
+
+			AstralArrow: {
+				// DisplayName: Astral Arrow
+				// Tooltip: Defeat the terrors among the stars to complete our own evolution
+			}
+
+			AstralBullet: {
+				// DisplayName: Astral Bullet
+				// Tooltip: Defeat the terrors among the stars to complete our own evolution
+			}
+
+			DazzlingAstralArrow: {
+				// DisplayName: Dazzling Astral Arrow(Old)
+				// Tooltip: ""
+			}
+
+			DazzlingAstralBullet: {
+				// DisplayName: Dazzling Astral Bullet
+				// Tooltip: Planets and stars! Power for the taking!
+			}
+
+			FossilArrow: {
+				// DisplayName: Fossil Arrow
+				/* Tooltip:
+					'''
+					Solid fossil smash enemy's defense
+					Corroded fossil cause sulphuric poisoning
+					''' */
+			}
+
+			FossilBullet: {
+				// DisplayName: Fossil Bullet
+				/* Tooltip:
+					'''
+					Solid fossil smash enemy's defense
+					Corroded fossil cause sulphuric poisoning
+					''' */
+			}
+
+			HydrothermicArrow: {
+				// DisplayName: Hydrothermic Arrow
+				/* Tooltip:
+					'''
+					Releases hydrothermic explosion
+					"You dare strike my shield with your spear? That's gonna end with you in pieces!"
+					''' */
+			}
+
+			HydrothermicBullet: {
+				// DisplayName: Hydrothermic Bullet
+				/* Tooltip:
+					'''
+					Summons a hydrothermic Volcano under the enemy
+					Hydrothermic Volcano will emit fire pillar and hydrothermic flames
+					"My body burns at over 1,400 degrees!"
+					''' */
+			}
+
+			NapalmBullet: {
+				// DisplayName: Napalm Bullet
+				/* Tooltip:
+					'''
+					Causes Oiled and On Fire!
+					"Hehaha, a little fire never hurt nobody!"
+					''' */
+			}
+
+			PerennialSeed: {
+				// DisplayName: Perennial Seed
+				// Tooltip: Enduring prosperity
+			}
+
+			WeakAstralArrow: {
+				// DisplayName: Weak Astral Arrow
+				// Tooltip: The worm said, "Yes I have many fathers"
+			}
+
+			WeakAstralBullet: {
+				// DisplayName: Weak Astral Bullet
+				/* Tooltip:
+					'''
+					The power is not enough...
+					Defeating a Mech Behemoth infected by Astral to evolve
+					''' */
+			}
+
+			ElementalBullet: {
+				// DisplayName: Celestial Carrot
+				/* Tooltip:
+					'''
+					Hits an enemy will let subsequent projectiles of the same type to receive a 100% damage bonus
+					This bonus will linearly decay to 0 within 0.25 seconds
+					Causes Elemental Mix
+					''' */
+			}
+
+			GoldenFeatherArrow: {
+				// DisplayName: Golden Feather Arrow
+				/* Tooltip:
+					'''
+					May attract something small
+					Summons red lightning when dealing non critical hits
+					''' */
+			}
+
+			MirageArrow: {
+				// DisplayName: Mirage Arrow
+				// Tooltip: '''"Another two, another two, another two, and another two"'''
+			}
+
+			SoulBullet: {
+				// DisplayName: Soul Bullet
+				/* Tooltip:
+					'''
+					Homes in on the nearest enemy, piercing three times with decreasing damage each hit.
+					"Made by pressing miserable souls into shell casings. May attract the same pitiful souls."
+					''' */
+			}
+
+			BloodBullet: {
+				// DisplayName: Blood Bullet
+				// Tooltip: May steal life from the enemies
+			}
+
+			DesertFeatherArrow: {
+				// DisplayName: Desert Feather Arrow
+				// Tooltip: "When the feather was still on the vulture, it wasn't so fast "
+			}
+
+			DesertFeather: {
+				// DisplayName: Desert Feather
+				// Tooltip: ""
+			}
+
+			ElectricArrow: {
+				// DisplayName: Electric Arrow
+				// Tooltip: Chasing the storm
+			}
+
+			PearlArrow: {
+				// DisplayName: Pearl Arrow
+				// Tooltip: Generate smaller shards when destroyed
+			}
+
+			PearlBullet: {
+				// DisplayName: Pearl Bullet
+				/* Tooltip:
+					'''
+					Pierces twice
+					Slowing down enemies
+					''' */
+			}
+
+			RottenBullet: {
+				// DisplayName: Rotten Bullet
+				/* Tooltip:
+					'''
+					Split into several small lumps of rotten matter when fire 
+					 "It's still crawling and hyperplasiaing, and seems will never be exhausted"
+					''' */
+			}
+
+			SPBullet: {
+				// DisplayName: Sea Prism Bullet
+				// Tooltip: Release a stream of water on crush
+			}
+
+			VictideArrow: {
+				// DisplayName: Victide Arrow
+				/* Tooltip:
+					'''
+					Moves faster underwater, additionally increasing damage by 40%
+					"Take my high pressured gas cylinder!"
+					''' */
+			}
+
+			VictideBullet: {
+				// DisplayName: Victide Bullet
+				/* Tooltip:
+					'''
+					Moves faster underwater, additionally increasing damage by 40%
+					"Take my high pressured gas cylinder!"
+					''' */
+			}
+
+			WulfrumArrow: {
+				// DisplayName: Wulfrum Arrow
+				/* Tooltip:
+					'''
+					It's too heavy to make arrows at all
+					"Really?"
+					''' */
+			}
+
+			WulfrumBullet: {
+				// DisplayName: Wulfrum Scrap Bullet
+				/* Tooltip:
+					'''
+					Radiates wulfrum energy beams with a slight homing ability
+					The beam has 10 base armor penetration
+					"Last Hamon, son."
+					''' */
+			}
+
+			Chengying_Fumo: {
+				// DisplayName: Chengying's Fumo
+				// Tooltip: You should understand that darkness cannot be handled gently, we must use fire.
+				/* TooltipDay:
+					'''
+					A toast to all who sought to kill me! 
+					You failed.
+					''' */
+			}
+
+			ChewingGum: {
+				// DisplayName: Chewing Gum
+				/* Tooltip:
+					'''
+					Increases view range for guns (Right click to zoom out)
+					When holding a gun, display a line of sight and replace cursor with a sight bead
+					''' */
+			}
+
+			ChewingGun: {
+				// DisplayName: Chewing Gun
+				// Tooltip: barely-usable
+			}
+
+			HardTack: {
+				// DisplayName: Hard Tack
+				/* Tooltip:
+					'''
+					{$CommonItemTooltip.MajorStats}
+					"Just one look and you're full."
+					''' */
+			}
+
+			HardTackChest: {
+				// DisplayName: Auric Coffer
+				// Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
+			}
+
+			KnowledgeAuric: {
+			}
+
+			SpectreRifle: {
+				// DisplayName: Spectre Rifle
+				// Tooltip: Converts musket balls into powerful homing souls
+			}
+
+			Aerocket: {
+				// DisplayName: Aerocket
+				// Tooltip: Right click to switch projectiles into floating mines
+			}
+
+			BeenadeLauncher: {
+				// DisplayName: Beenade Launcher
+				// Tooltip: Use grenades as ammunition
+			}
+
+			MushroomMortar: {
+				// DisplayName: Mushroom Mortar
+				// Tooltip: Put it back quickly, the author hasn't done it yet
+			}
+
+			PlaguenadeLauncher: {
+				// DisplayName: " Plaguenade Launcher"
+				// Tooltip: Use grenades as ammunition
+			}
+
+			SandRocket: {
+				// DisplayName: Earth-Penetrating Missile
+				/* Tooltip:
+					'''
+					Travels through blocks, homing in on enemies
+					Moves faster in sand
+					''' */
+			}
+
+			SandWorm: {
+				// DisplayName: Sand Dog
+				/* Tooltip:
+					'''
+					Fires a brittle spiky ball
+					Every six attack will shoot 6 sand blasts instead
+					''' */
+			}
+
+			Paper: {
+				// DisplayName: Paper
+				// Tooltip: ""
+			}
+
+			Paper2: {
+				// DisplayName: Paper2
+				// Tooltip: ""
+			}
+
+			DazzlingAstralArrowNew: {
+				// DisplayName: Dazzling Astral Arrow
+				/* Tooltip:
+					'''
+					"Look to the skies! The stars align!"
+					"Are you sure about that?"
+					''' */
+			}
+
+			DivineArrow: {
+				// DisplayName: Divine Arrow
+				// Tooltip: Summons a meteorite that is more exciting than Elysian hits the unlucky guy
+			}
+
+			DivineBullet: {
+				// DisplayName: Divine Bullet
+				// Tooltip: Causes a more violent Holy Fire explosion
+			}
+
+			// Lore.KnowledgeAuric.DisplayName: Knowledge Auric
+
+			ElementalArrow: {
+				// DisplayName: Elemental Arrow
+				/* Tooltip:
+					'''
+					Each penetrated enemy will increases arrow damage by 10%
+					The damage increase obtained according to above method can be effective up to 4 times.
+					Causes Elemental Mix
+					''' */
+			}
+
+			DeathMarkMagnum: {
+				// DisplayName: Death Mark Magnum
+				/* Tooltip:
+					'''
+					Shots reduce enemy protection
+					"Care to dance with death?"
+					''' */
+			}
+
+			FrigidCoil: {
+				// DisplayName: Frigid Coil
+				/* Tooltip:
+					'''
+					Decreases ranged speed by 10%
+					Moderately increases the velocity of ranged projectiles
+					Ranged projectiles will cause Frostburn
+					Places ice bombs around the enemy you hit
+					This effect has a 5 second cooldown
+					''' */
+			}
+
+			ScorchingCoil: {
+				// DisplayName: Scorching Coil
+				/* Tooltip:
+					'''
+					Increases ranged critical strike chance by 7%
+					Moderately increases the velocity of ranged projectiles
+					Ranged projectiles will cause Brimstone Flames
+					Shoots a arc-shaped barrage of 6 Brimstone Hellblasts every 6 hits
+					Projectiles that can damage enemeies multiple times will only be counted once
+					''' */
+			}
+
+			AutoCalculationCoil: {
+				// DisplayName: Draedon's Auto-Calculation Coil
+				/* Tooltip:
+					'''
+					Moderately increases the velocity of ranged projectiles
+					Ranged projectiles will home in enemies automatically
+					Press [KEY] to switch between different search algorithms
+					''' */
+			}
+
+			TransformerCoil: {
+				// DisplayName: Transformer Coil
+				/* Tooltip:
+					'''
+					Significantly increases the velocity of ranged projectiles
+					Ranged projectiles will cause Electrified, you are immune to Electrified
+					A surge of electricity will flicker on the last two enemies you hit
+					''' */
+			}
+
+			AuricBullet: {
+				// DisplayName: Auric Bullet
+				// Tooltip: ""
+			}
+		}
+
+		Buffs: {
+			Focus: {
+				// DisplayName: Focus
+				// Description: I can do this all day
+			}
+
+			Heal: {
+				// DisplayName: Healing
+				/* Description:
+					'''
+					Life regeneration speed increased  
+					You are lucky today, worm... No, it's nothing. You misheard
+					''' */
+			}
+		}
+
+		NPCs: {
+			QianXing: {
+				TownNPCMood: {
+					// Content: "{$Mods.CalamityAmmo.TownNPCMood.QianXing.Content}"
+					// NoHome: "{$Mods.CalamityAmmo.TownNPCMood.QianXing.NoHome}"
+					// FarFromHome: "{$Mods.CalamityAmmo.TownNPCMood.QianXing.FarFromHome}"
+					// LoveSpace: "{$Mods.CalamityAmmo.TownNPCMood.QianXing.LoveSpace}"
+					// DislikeCrowded: "{$Mods.CalamityAmmo.TownNPCMood.QianXing.DislikeCrowded}"
+					// HateCrowded: "{$Mods.CalamityAmmo.TownNPCMood.QianXing.HateCrowded}"
+					// LoveBiome: "{$Mods.CalamityAmmo.TownNPCMood.QianXing.LoveBiome}"
+					// LikeBiome: "{$Mods.CalamityAmmo.TownNPCMood.QianXing.LikeBiome}"
+					// DislikeBiome: "{$Mods.CalamityAmmo.TownNPCMood.QianXing.DislikeBiome}"
+					// HateBiome: "{$Mods.CalamityAmmo.TownNPCMood.QianXing.HateBiome}"
+					// LoveNPC: "{$Mods.CalamityAmmo.TownNPCMood.QianXing.LoveNPC}"
+					// LikeNPC: "{$Mods.CalamityAmmo.TownNPCMood.QianXing.LikeNPC}"
+					// DislikeNPC: "{$Mods.CalamityAmmo.TownNPCMood.QianXing.DislikeNPC}"
+					// HateNPC: "{$Mods.CalamityAmmo.TownNPCMood.QianXing.HateNPC}"
+					// LikeNPC_Princess: "{$Mods.CalamityAmmo.TownNPCMood.QianXing.LikeNPC_Princess}"
+					// Princess_LovesNPC: I like {NPCName}.
+				}
+
+				// DisplayName: Ammo Dealer
+				// Census.SpawnCondition: Mods.CalamityAmmo.NPCs.QianXing.Census.SpawnCondition
+			}
+		}
+
+		// Bestiary.QianXing: A cat girl who gives you ammunition,she is cute in appearance and affordable in price. With enough money you can even try to buy herself  (provided that you are not killed with a big axe).
+		// QX: Starry
+		// Glove: Similar effects also applies to ranger
+
+		Keybinds: {
+			// Odd.DisplayName: Trippy
+			// autoCoil.DisplayName: Automatic Search Algorithm
+		}
+
+		// sld: Automatic Search: the enemy with the lowest defense
+		// shd: Automatic Search: the enemy with the highest defense
+		// selectOff: Automatic Search: off
+		// selectLowLife: Automatic search: Enemy with the lowest health
+		// selectLowLP: Automatic search: Enemy with the lowest life precent
+		// selectNearPlayer: Automatic Search: the enemy closest to the player
+		// selectNearMouse: Automatic Search: the enemy closest to the mouse position
+		//selectLowDefense: Automatic Search: the enemy closest to the mouse position
+		//selectHighDef: Automatic Search: the enemy with the highest defense
+		// Homeless1: Hmm... if you can see me, you must be a ranger!
+		// Homeless2: I can't believe you don't even have a room, can't you even build a basic NPC prison? Aughhhhhhhh
+		// Any1: Why do I carrying this axe? Because it used to be a godly battle axe with 44 damage !
+		// Any2: If you start flipping through npc's conversation, I suggest going to find someone to join you online.
+		// Any3: Have you run out of ammunition materials since I came here?
+		// Any4: I haven't eaten for two minutes. I'm so hungry... Do you have anything to eat?
+		// Day1: Running a server is really tired , as the owner you have to solve all the problems.
+		// Day2: My habit is to name the character as "Qianxing" xx Generation every time I start a new game, now estimated to be 25th generation .
+		// Day3: I have 20,000HP, without any accidents I'm able to live until you graduate .
+		// Day4: Don't touch my tail, it's impolite.
+		// Night1: What do you want me to do at night, night owls can't stand your troubles also.
+		// Night2: If it were me, I would choose to use the magic sundial instead of staying at night and doing nothing.
+		// Night3: Falling Stars... Great stuff, 300 should be enough.
+		// Night4: Do not touch there!
+		// BM1: Hurry up and kill monsters! Don't waste your time here!
+		// BM2: How many blood orbs have you got?
+		// Party: A useless event... the only thing of value is the cake.
+		// HateAnger1: Anger
+		// HateAnger2: I don't like this kid, I have to arrange a high-level prison for him.
+		// Goblin1: Fortunately here is calamity, otherwise
+		// Goblin2: the Goblin Tinker can empty your wallet.
+	}
+}
