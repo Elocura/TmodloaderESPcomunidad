@@ -1,0 +1,1296 @@
+Mods: {
+	GMT: {
+		Configs: {
+			Config: {
+				DisplayName: Config
+
+				Dave: {
+					Label: Dave
+					Tooltip: ""
+				}
+			}
+		}
+
+		Common: {
+			SuperMove: Super Move
+			Cooldown: "{0} second cooldown"
+			UsesFlow: Uses {0} seconds of flow
+			Bard: "'Become the Bard (minus the cool powers)!'"
+		}
+
+		DamageClasses.GolfDamageClass.DisplayName: golf damage
+
+		SetBonuses: {
+			ChargedScale: 5% increased attack speed, 25% increased movement speed
+			Botanical: 8% increased golf critical damage
+			Mirror:
+				'''
+				Increases max individual golf balls by 1
+				Double tap {0} to golf with your armor by shining
+				Cannot shine again for 1 second
+				If not used for 2 seconds, the shine reflects enemy projectiles
+				'''
+		}
+
+		Bestiary: {
+			Stoffie: The strangest of the Bard's guards. He's a literal star, and to him, everyone's a babe. Where'd the other sun go...?
+			Hornlitz: The fastest of the Bard's guards. Infused with lightning, her agility is unparalleled.
+			SnowDon: The head honcho of the Frost Legion. He's ruthless to most, but he treats his gang like family.
+			Lad:
+				'''
+				Renowned in some lands, feared in others. Lad had ventured far and wide, and made many allies and enemies, until he was mysteriously turned to stone and sealed away an indeterminate amount of time ago. He has acquired many titles, including (but not limited to):
+				- The Prolific
+				- Claimer of Hearts
+				- The Amalgamated Form
+				- Quaker of Sand
+				- Lead Officer of the Third 'Vanquisher' Platoon of The Sworn Wars
+				- The One Renounced
+				- Landshark of the West
+				- The Wee Bonnie Lad
+				- The Cuddly
+				- The Oingy Boingy Boy
+				- The Unscaled Vanguard of Sharkland
+				- Master of the Three Chomp Strike
+				- Keeper of the Passing Dunes
+				- Head Scholar of the Arts of Deceit in the Academy of Lovenpats
+				- Lead Founder of the Holy Order of Sons
+				- High Priest of Aggressive Biting
+				- Sultan of the Sea
+				- Fourth Fleet Commander
+				- Foul Beast of Immeasurable Carnage
+				Also, rumored to taste like marshmallows!
+				'''
+			SnowAngel: The Frost Legion can't safely carry what they stole from Santa by land, so they do it by air! Anyone who crosses them get a more "personal" delivery.
+			Circle: It's spherical!
+			Triangle: Pointy.
+			Square: Fits in the square hole.
+
+			Being: {
+				1: A citizen of the world before Grug's World. They have been twisted by the strange new forces into a form barely resembling what they used to be.
+				2: In this strange dimension, the confines of a painting are a mere suggestion, allowing surreal art pieces to escape into reality.
+				3: The otherworldly landmasses and structures of Grug's World are the life's work of these sculpters.
+			}
+
+			Soldier: {
+				1: A bizarre construct reminiscent of a mummy. Whether it lost its life at some point or was never alive to begin with, it's alive now!
+				2: A war machine that has seen better days. After a cheap attempt to repair it, it was dumped in another dimension, where it gained a mind of its own.
+				3: Built by a civilization long lost, this guardian's extremely durable body couldn't stop the rising chaotic powers in Grug's World. It continues to carry out its duty to the best of its ability.
+			}
+
+			Orm: {
+				1: An aimless wanderer of time and space, that just so happens to be passing through Grug's World. It has seen much, yet remembers none of it.
+				2: What does a Terrarian taste like? This hungry being travels across the realms in search of new flavors.
+				3: This serpentine titan was once far longer, but its body was scattered. It is on a journey to reunite with the rest of itself.
+			}
+		}
+
+		StoffieChat: {
+			Failed: No response...
+			Default: Hey babe. What's up?
+			FirstTime: Huh? Who said that?...oh, I see you now. What's up, babe?
+			AfterFight: Hey babe. Wanna fight again?
+			AfterWin:
+				'''
+				Hey, babe. Say, I heard there's some hot weapons down in the
+				Underworld. Drag one onto me, and I'll make it even hotter.
+				'''
+			GiveItem: Alright, here's your hot new weapon!
+			GiveItemExpert: Alright, here's your hot new weapon! Comes with this lil' thing too.
+			CantGiveItem: Hey, I'm only giving you one for every time you win.
+			AlreadyHere: <Stoffie> Babe, I'm right here.
+			Defeat: <Stoffie> Okay, stop, stop! Phew...that was intense.
+		}
+
+		BardChat: {
+			FirstTime: Hey, what's up? Can you tell me where I am? I'm not really sure myself, haha!
+			Crack:
+				'''
+				You know what gets me motivated?
+
+				Crack cocaine.
+				'''
+			0: What are you talking about? Of course I have legs, haha!
+			1: I like surprises, so I'm pretty good at keeping my mouth shut. Drives my wife crazy.
+			2: Oatmeal is a lie constructed by the oatmeal companies to spread oatmeal awareness.
+			3: I've had some folks offer me their souls over the years...what do I do with them?
+			4: Hey, got a question? ...maybe I'll cover that song someday, haha!
+		}
+
+		RevolverChat: {
+			0: Are these things actually challenging? I ain't got a clue, I didn't make 'em.
+			1: I'd offer you advice, but I dunno anything about this place.
+			2: Is it Rev time? I think it's Rev time.
+			RedeemReward: Redeem 1 Reward
+			RedeemRewards: Redeem {0} Rewards
+			Challenges: Challenges
+		}
+
+		UI: {
+			Good: Good
+			Great: Great!
+			Excellent: Excellent!
+			Ready: Ready!
+			Waiting: Waiting for everyone else...
+			Challenges: Challenges
+			EquipmentSelect: Select your equipment!
+			NewEquipmentAvailable: New equipment available!
+			Next: Next: {0}
+			And: " and "
+			Separator: ", "
+			Left: "{0} left"
+		}
+
+		FTW: {
+			Debt1: "{0} is"
+			Debt2: in debt.
+			DebtCounter: ${0:N0}
+			ItemOfTheDay: Thing of the Day: {0}
+			Ad: '''[i:2701][i:4715][i:2701] For awesome [c/FF3333:GaMe][c/3355FF:tal] shirts and other merchandise, check out [c/0A84FF:jonnyatma.com/merch]! Use code "GAMETERRARIA" for 30% off! [i:2701][i:1305][i:2701]'''
+			DaveGoal: Restrict blood flow to Dave's throat.
+			SecretGoal: Wear the secret set.
+			DebtGoal: Pay off your {$Mods.GMT.FTW.DebtCounter} debt.
+			RevolverGoal: Claim your rewards from Revolver Axolot.
+			StoffieGoal: Upgrade a weapon with Stoffie.
+			RunGoal: Run. Run. Run. Run. Run. Run. Run. Run.
+			OOA1Goal: Repel the first tier of the Old One's Army's forces.
+			OOA2Goal: Repel the second tier of the Old One's Army's forces.
+			DestroyerGoal: Defeat the Destroyer, the mechanical giant.
+			TwinsGoal: Defeat the Twins, the mechanical duo.
+			SkeletronPrimeGoal: Defeat Skeletron Prime, the mechanical menace.
+			Troll: "{0} couldn't resist the allure of [i:{1}] {2}."
+		}
+
+		Replace.CriticalStrikeChance: critical strike chance
+		Replacement.CriticalStrikeChance: critical damage
+
+		DeathText: {
+			OOB: "{0} fell into the void."
+			Paint: '''"Maaan, that color tastes interesting," said {0}.'''
+			Grug: "{0} got Grug'd."
+			Blood: "{0} bled themselves dry."
+			Revolver: Revolver dies.
+		}
+
+		Subworlds: {
+			GrugsWorld: {
+				DisplayName: Grug's World
+				Description: reality slips far away
+			}
+
+			CorruptedMind: {
+				DisplayName: Corrupted Mind
+				Description:
+					'''
+					The Corruption and the Crimson have combined forces, and now you must defeat the powerful monsters that lie within both.
+					Fight the Eater of Worlds and Brain of Crimson at the same time!
+
+					Rewards you with loot from Brain of Crimson in a corrupt world, and Eater of Worlds in a crimson world.
+					'''
+			}
+
+			PromotionDay: {
+				DisplayName: Promotion Day!
+				Description:
+					'''
+					Some familiar foes have just been recognized by the higher-ups for their hard work...and their raises are being taken out of your paycheck!
+					Fight a selection of enemies as if they were minibosses!
+
+					Rewards you with Advanced Combat Techniques and some money.
+					'''
+			}
+
+			BossRush: {
+				DisplayName: Boss Rush
+				Description:
+					'''
+					The ultimate test of knowledge and skill.
+					Fight some of the most powerful foes in Terraria back-to-back, with finite healing and buffs!
+
+					Do you have what it takes?
+					'''
+			}
+
+			ZWorld.DisplayName: Z World
+		}
+
+		Achievements: {
+			DefeatLad.Description: Defeat Lad, the little shark jailed in stone.
+			DefeatHornlitz.Description: Defeat Hornlitz, the lightning-fast lizard.
+			DefeatStoffie.Description: Fight the sun...and win!
+		}
+
+		Biomes: {
+			GrugsWorldBiome: {
+				DisplayName: Grug's World
+				TownNPCDialogueName: Grug's World
+			}
+
+			ChallengeBiome: {
+				DisplayName: Challenge
+				TownNPCDialogueName: a Challenge
+			}
+		}
+
+		Buffs: {
+			Consumed: {
+				DisplayName: Consumed
+				Description: Slowly losing life, reduced defense
+			}
+
+			Gempowered: {
+				DisplayName: Gempowered
+				Description: Harnessing the power of the gems
+			}
+
+			SnowAngelBuff: {
+				DisplayName: Snow Angel
+				Description: At your service!
+			}
+
+			WolfCubeBuff: {
+				DisplayName: Hey, this isn't an icon!
+				Description: Highly intimidating
+			}
+
+			PuppetIconBuff: {
+				Description: Mods.GMT.Buffs.PuppetIconBuff.Description
+				DisplayName: Puppet Icon Buff
+			}
+
+			ThundercrackDebuff: {
+				Description: Mods.GMT.Buffs.ThundercrackDebuff.Description
+				DisplayName: Thundercrack Debuff
+			}
+
+			Frosty: {
+				Description: Mods.GMT.Buffs.Frosty.Description
+				DisplayName: Frosty
+			}
+		}
+
+		Tiles.AntiGrappleTile.DisplayName: Anti-Grapple Tile
+
+		Items: {
+			BardHat: {
+				DisplayName: The Bard's Hat
+				Tooltip: "{$Mods.GMT.Common.Bard}"
+			}
+
+			BardCloak: {
+				DisplayName: The Bard's Cloak
+				Tooltip: "{$Mods.GMT.Common.Bard}"
+			}
+
+			BardPants: {
+				DisplayName: The Bard's Pants
+				Tooltip: "{$Mods.GMT.Common.Bard}"
+			}
+
+			KeenEye: {
+				DisplayName: Keen Eye
+				Tooltip: Holding a weapon for triple its use time guarantees a critical hit for 200% damage
+			}
+
+			ShockAbsorber: {
+				DisplayName: Shock Absorber
+				Tooltip: Taking damage refreshes cooldowns
+			}
+
+			AntiGrappleTile: {
+				DisplayName: Anti-Grapple Tile
+				Tooltip: Blocks grappling hooks
+			}
+
+			DouvilScepter: {
+				DisplayName: Douvil Scepter
+				Tooltip: Inflicts a debuff if both shots hit at once
+			}
+
+			TargetItem: {
+				DisplayName: Target
+				Tooltip: Triggers on-kill effects, like pickup drops
+			}
+
+			Thing: {
+				DisplayName: Thing
+				Tooltip: A hideous specimen
+			}
+
+			ToolEmblem: {
+				DisplayName: Tool Emblem
+				Tooltip:
+					'''
+					Disables mining
+					Tool damage benefits from critical damage
+					Mining speed increases axe and hammer damage
+					'''
+			}
+
+			Hexabow: {
+				DisplayName: Hexabow
+				Tooltip:
+					'''
+					Arrows build up a hexagon counter on foes
+					Full counter fires 6 homing hexagons
+					'''
+			}
+
+			Hexagun: {
+				DisplayName: Hexagun
+				Tooltip:
+					'''
+					Alternates between your second and third ammo slots
+					Automatically reloads after 6 shots
+					'''
+			}
+
+			Hexaspin: {
+				DisplayName: Hexaspin
+				Tooltip: Gravity is lowered and speed is maintained while spinning
+			}
+
+			Hexawand: {
+				DisplayName: Hexawand
+				Tooltip:
+					'''
+					Creates 6 orbiting hexagons
+					Using again sends them forward
+					'''
+			}
+
+			FlareFocuser: {
+				DisplayName: Flare Focuser
+				Tooltip: Locks your cursor onto flares
+			}
+
+			FlareRifle: {
+				DisplayName: Flare Rifle
+				Tooltip: ""
+			}
+
+			FlareUpStaff: {
+				DisplayName: Flare-up Staff
+				Tooltip: Pops up to 5 of your closest flares
+			}
+
+			HeatSeeker: {
+				DisplayName: Heat Seeker
+				Tooltip:
+					'''
+					Fires flare-targeting rockets
+					Damage is reduced by 30
+					'''
+			}
+
+			Markmaker: {
+				DisplayName: Markmaker
+				Tooltip: Flare arrows
+			}
+
+			BotanicalHat: {
+				DisplayName: Botanical Hat
+				Tooltip: 5% increased golf damage
+			}
+
+			BotanicalSuit: {
+				DisplayName: Botanical Suit
+				Tooltip: Increases max individual golf balls by 1
+			}
+
+			BotanicalPants: {
+				DisplayName: Botanical Pants
+				Tooltip: Increases max identical golf balls by 1
+			}
+
+			MirrorHelmet: {
+				DisplayName: Mirror Helmet
+				Tooltip:
+					'''
+					7% increased golf damage
+					12% increased golf critical damage
+					'''
+			}
+
+			MirrorChestplate: {
+				DisplayName: Mirror Chestplate
+				Tooltip:
+					'''
+					Increases max individual golf balls by 1
+					4% increased golf damage
+					'''
+			}
+
+			MirrorBoots: {
+				DisplayName: Mirror Boots
+				Tooltip:
+					'''
+					Increases max identical golf balls by 1
+					5% increased golf damage
+					8% increased golf critical damage
+					'''
+			}
+
+			Beacon: {
+				DisplayName: Beacon
+				Tooltip: Creates a light pillar upon landing in a cup
+			}
+
+			Blitzball: {
+				DisplayName: Blitzball
+				Tooltip:
+					'''
+					Travels at lightning speeds
+					Unaffected by gravity
+					'''
+			}
+
+			CloudyClub: {
+				DisplayName: Cloudy Club
+				Tooltip: A lightweight club that swings quickly
+			}
+
+			FungalClub: {
+				DisplayName: Fungal Club
+				Tooltip: A club that releases spores when golfing
+			}
+
+			HeatStroke: {
+				DisplayName: Heat Stroke
+				Tooltip: A club that hits harder when charged
+			}
+
+			WoodenClub: {
+				DisplayName: Wooden Club
+				Tooltip: A makeshift club with no special qualities
+			}
+
+			GloveOfAttraction: {
+				DisplayName: Glove of Attraction
+				Tooltip: Charging a club pulls in nearby balls
+			}
+
+			GolfBomb: {
+				DisplayName: Golf Bomb
+				Tooltip: Explodes upon resting
+			}
+
+			GolferEmblem: {
+				DisplayName: Golfer Emblem
+				Tooltip:
+					'''
+					15% increased golf damage, committed to golf
+					Golfed projectiles are converted
+					'''
+			}
+
+			GolfOrNothingBadge: {
+				DisplayName: Golf-or-Nothing Badge
+				Tooltip:
+					'''
+					Only golf
+					Golfed projectiles are converted
+					'''
+			}
+
+			LifeBall: {
+				DisplayName: Life Ball
+				Tooltip: Upon landing in a cup, drops up to 5 hearts depending on distance travelled
+			}
+
+			OrbOfLight: {
+				DisplayName: Orb of Light
+				Tooltip:
+					'''
+					Provides light
+					Counts as a flare
+					'''
+			}
+
+			PinkyBall: {
+				DisplayName: Pinky Ball
+				Tooltip:
+					'''
+					Very bouncy
+					Unaffected by drag
+					'''
+			}
+
+			SpiritSphere: {
+				DisplayName: Spirit Sphere
+				Tooltip:
+					'''
+					Briefly homes in on foes whenever hit
+					Releases a homing spirit upon landing in a cup
+					'''
+			}
+
+			PocketedVest: {
+				DisplayName: Pocketed Vest
+				Tooltip: Increases max individual golf balls by 1
+			}
+
+			PulseBall: {
+				DisplayName: Pulse Ball
+				Tooltip: ""
+			}
+
+			QuakeBall: {
+				DisplayName: Quake Ball
+				Tooltip: Hits nearby grounded foes whenever it hits the ground or lands in a cup
+			}
+
+			Rock: {
+				DisplayName: Rock
+				Tooltip: "'You didn't make it.'"
+			}
+
+			SpaceBall: {
+				DisplayName: Space Ball
+				Tooltip:
+					'''
+					Unaffected by gravity
+					'Merchandise! Where the real money is made!'
+					'''
+			}
+
+			VolleyBall: {
+				DisplayName: Volley Ball
+				Tooltip: Becomes stronger when hit up to 8 times without touching the ground
+			}
+
+			WarpedPearl: {
+				DisplayName: Warped Pearl
+				Tooltip: Warps you to its location upon resting
+			}
+
+			BigBoy: {
+				DisplayName: Big Boy
+				Tooltip:
+					'''
+					Fires 3 arcing rockets
+					300% damage on a direct hit, 200% otherwise
+					'''
+			}
+
+			BloodSpray: {
+				DisplayName: Blood Spray
+				Tooltip: Damages you for how much mana it would use
+			}
+
+			InertPiece: {
+				DisplayName: Inert Piece
+				Tooltip: ""
+			}
+
+			ManaVent: {
+				DisplayName: Mana Vent
+				Tooltip:
+					'''
+					Increases maximum mana by 20
+					Double tap {$Key.DOWN} to activate, venting your mana the next time you use an item
+					While venting, attacks critically hit and cost no additional mana
+					Cannot vent while mana sick
+					'''
+			}
+
+			SoldierGun: {
+				DisplayName: Standard Armament
+				Tooltip: Bullets are very fast, twice their normal size, and pierce all defense
+			}
+
+			SoldierMaterial: {
+				DisplayName: Foreign Material
+				Tooltip: "'Extremely durable'"
+			}
+
+			VibroCutter: {
+				DisplayName: Vibro Cutter
+				Tooltip:
+					'''
+					Hold to rapidly accelerate, let go to swing and dash backwards
+					Use again to keep swinging
+					Accelerated slashes critically hit and refresh movement abilities
+					'''
+			}
+
+			WavyAntenna: {
+				DisplayName: Wavy Antenna
+				Tooltip: "'It comes from Mars'"
+			}
+
+			TrollItem: {
+				DisplayName: Impostor
+				Tooltip: A hideous specimen
+			}
+
+			BackupStrat: {
+				DisplayName: The Backup Strat
+				Tooltip:
+					'''
+					Reduces maximum life by 20%
+					Taking fatal damage puts you in peril for 10 seconds
+					Peril increases attack speed and movement speed by 25%
+					'''
+			}
+
+			ChargedScale: {
+				DisplayName: Charged Scale
+				Tooltip: ""
+			}
+
+			ChargedScaleBoots: {
+				DisplayName: Charged Scale Boots
+				Tooltip: 50% increased acceleration
+			}
+
+			ChargedScaleHelmet: {
+				DisplayName: Charged Scale Helmet
+				Tooltip: 10% reduced special cooldown
+			}
+
+			ChargedScaleMail: {
+				DisplayName: Charged Scale Mail
+				Tooltip: 10% increased attack speed
+			}
+
+			LightningRod: {
+				DisplayName: Lightning Rod
+				Tooltip:
+					'''
+					Thrusts you forward
+					Hitting foes prolongs your thrust and grants brief invincibility
+					'''
+			}
+
+			Thundercrack: {
+				DisplayName: Thundercrack
+				Tooltip: Builds up to 8 summon tag damage
+			}
+
+			Transmitter: {
+				DisplayName: Transmitter
+				Tooltip: "'Who will receive the signal...?'"
+			}
+
+			LadItem: {
+				DisplayName: Lad
+				Tooltip: ""
+			}
+
+			LadsLove: {
+				DisplayName: Lad's Love
+				Tooltip: Picking up hearts or drinking healing potions make homing hearts that inflict Lovestruck
+			}
+
+			LilLadItem: {
+				DisplayName: Lil' Lad
+				Tooltip: Grabs onto enemies and hits them several times
+			}
+
+			LadStatue: {
+				DisplayName: Lad Statue
+				Tooltip: "'You swear you can feel it shake...'"
+			}
+
+			BabyBoom: {
+				DisplayName: Baby Boom
+				Tooltip:
+					'''
+					Fires an arcing rocket
+					Damage is reduced by 40
+					Does extra damage on a direct hit
+					'Baby's first rocket launcher!'
+					'''
+			}
+
+			GlassBlaster: {
+				DisplayName: Glass Blaster
+				Tooltip:
+					'''
+					Launches glass blocks as shards
+					Also launches bottles and ale
+					'I'm...AWESOME.'
+					'''
+			}
+
+			DonsHat: {
+				DisplayName: Don's Hat
+				Tooltip:
+					'''
+					Makes you shorter
+					Provides total immunity to vision impairment
+					'How's the weather down there?'
+					'''
+			}
+
+			Frostfan: {
+				DisplayName: Frostfan
+				Tooltip: Covers enemies in frost, adding double its damage to the next hit
+			}
+
+			Frostfist: {
+				DisplayName: Frostfist
+				Tooltip: ""
+			}
+
+			Frostflurry: {
+				DisplayName: Frostflurry
+				Tooltip: Feeds on gel
+			}
+
+			Frostfoot: {
+				DisplayName: Frostfoot
+				Tooltip: ""
+			}
+
+			Frostfume: {
+				DisplayName: Frostfume
+				Tooltip: Golfed projectiles emit frigid smoke
+			}
+
+			SnowAngelCharm: {
+				DisplayName: Snow Angel Charm
+				Tooltip: Summons a snow angel
+			}
+
+			SnowDonBossBag: {
+				DisplayName: Treasure Bag (Snow Don)
+				Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
+			}
+
+			Bangerang: {
+				DisplayName: Bangerang
+				Tooltip: ""
+			}
+
+			Mindblower: {
+				DisplayName: Mindblower
+				Tooltip: ""
+			}
+
+			Spinfusor: {
+				DisplayName: Spinfusor
+				Tooltip: Fires an explosive disc that can launch you
+			}
+
+			Heliobow: {
+				DisplayName: Heliobow
+				Tooltip: Light-speed arrows
+			}
+
+			SolarBattery: {
+				DisplayName: Solar Battery
+				Tooltip:
+					'''
+					Stoffie weapons do 10% less damage, but charge the battery
+					When fully charged, other weapons do 20% more damage
+					'''
+			}
+
+			Solash: {
+				DisplayName: Solash
+				Tooltip:
+					'''
+					Creates solar prominences that use maximum mana
+					Can charge up to 8 times, must charge at least 3 times
+					'''
+			}
+
+			Stoffury: {
+				DisplayName: Stoffury
+				Tooltip:
+					'''
+					Hits harder the faster it moves
+					Can be used with other items
+					Can hit you too!
+					'''
+			}
+
+			SunFlower: {
+				DisplayName: Sun Flower
+				Tooltip: ""
+			}
+
+			JungleMimicBanner: {
+				DisplayName: Jungle Mimic Banner
+				Tooltip: "{$CommonItemTooltip.BannerBonus}{$NPCName.BigMimicJungle}"
+			}
+
+			WolfCube: {
+				DisplayName: Packed Wolves
+				Tooltip:
+					'''
+					Unleashes a wicked object
+					'Wolfpack...CUBE FORMATION!'
+					'''
+			}
+
+			FlashSlasher: {
+				DisplayName: Flash Slasher
+				Tooltip: ""
+			}
+
+			Focus: {
+				DisplayName: Focus
+				Tooltip:
+					'''
+					Refreshes other cooldowns
+					30 second cooldown
+					'''
+			}
+
+			GemBoard: {
+				DisplayName: Gem Board
+				Tooltip:
+					'''
+					{$Mods.GMT.Common.SuperMove}
+					Match 3 or more gems on a 5-by-10 board
+					Only large gems you have will appear on the board
+					Each gem has a unique effect when matched
+					'''
+				AmethystEffect:
+					'''
+					[i:{0}] Increased gem staff damage and speed, weaker staves are boosted further
+					[i:{0}] Wearing a gem robe adds half of Amethyst's points to the robe's respective gem
+					'''
+				TopazEffect: "[i:{0}] Increases critical damage by 1% per point"
+				SapphireEffect: "[i:{0}] Increases Gempowered's duration by 1 second per point"
+				EmeraldEffect: "[i:{0}] Increases use speed by 1.5% per point"
+				RubyEffect: "[i:{0}] Heals 4 life per point"
+				DiamondEffect: "[i:{0}] Increases damage by 1.5% per point"
+				AmberEffect: "[i:{0}] Increases defense by 1 per point"
+			}
+
+			HolePunch: {
+				DisplayName: Hole Punch
+				Tooltip:
+					'''
+					{$Mods.GMT.Common.SuperMove}
+					Dash forward until you touch an enemy, hitting for 100% damage
+					For 2 seconds after, every click deals 10% more damage to the enemy
+					'''
+			}
+
+			SlimeRainstick: {
+				DisplayName: Slime Rainstick
+				Tooltip:
+					'''
+					{$Mods.GMT.Common.SuperMove}
+					Targets the closest enemy to the cursor
+					Click on slimes jumping from the bottom of the screen to launch them at the target
+					'''
+			}
+
+			WhirlwindBoomerang: {
+				DisplayName: Whirlwind Boomerang
+				Tooltip:
+					'''
+					{$Mods.GMT.Common.SuperMove}
+					Spin the cursor in a circle for 3 seconds, then throw 1-3 boomerangs
+					'''
+			}
+
+			NoCooldowns: {
+				DisplayName: Unstoppable Flow
+				Tooltip: No cooldowns
+			}
+
+			Maxwell: {
+				DisplayName: Maxwell
+				Tooltip:
+					'''
+					It's Maxwell
+					'Also known as Jess'
+					'''
+			}
+
+			SexodiaRelic.Tooltip: ""
+
+			PuppetIcon: {
+				Tooltip: ""
+				DisplayName: Puppet Icon
+			}
+
+			PlayerLaser.Tooltip: ""
+
+			HallowSensorItem: {
+				Tooltip: ""
+				DisplayName: Hallow Sensor Item
+			}
+
+			CrimsonSensorItem: {
+				Tooltip: ""
+				DisplayName: Crimson Sensor Item
+			}
+
+			CorruptionSensorItem: {
+				Tooltip: ""
+				DisplayName: Corruption Sensor Item
+			}
+
+			AlignmentSensorItem: {
+				Tooltip: ""
+				DisplayName: Alignment Sensor Item
+			}
+
+			WormRelic: {
+				Tooltip: ""
+				DisplayName: Worm Relic
+			}
+
+			WormMask: {
+				Tooltip: ""
+				DisplayName: Worm Mask
+			}
+
+			StoffieRelic: {
+				Tooltip: ""
+				DisplayName: Stoffie Relic
+			}
+
+			SnowDonRelic: {
+				Tooltip: ""
+				DisplayName: Snow Don Relic
+			}
+
+			DiagGun: {
+				Tooltip: ""
+				DisplayName: Diag Gun
+			}
+
+			LadRelic: {
+				Tooltip: ""
+				DisplayName: Lad Relic
+			}
+
+			HornlitzRelic: {
+				Tooltip: ""
+				DisplayName: Hornlitz Relic
+			}
+
+			OvergrowthStatue: {
+				Tooltip: ""
+				DisplayName: Overgrowth Statue
+			}
+		}
+
+		NPCs: {
+			Being.DisplayName: Being
+			Orm: Orm
+			Soldier.DisplayName: Soldier
+			Hornlitz.DisplayName: Hornlitz
+			SnowAngel.DisplayName: Snow Angel
+			SnowDon: Snow Don
+			Stoffie.DisplayName: Stoffie
+			Lad.DisplayName: Lad
+			LilLad.DisplayName: Lil' Lad
+			Target.DisplayName: Target
+			Worm.DisplayName: ?????
+
+			Bard: {
+				DisplayName: The Bard
+
+				TownNPCMood: {
+					Content: I'm doing pretty well!
+					NoHome: It kinda sucks not having a place to stay.
+					FarFromHome: I'm too far from home.
+					LoveSpace: It's great to have all this space!
+					DislikeCrowded: I hope I'm not disturbing my neighbors with my music, haha!
+					HateCrowded: I really gotta move somewhere quieter.
+					LikeNPC_Princess: I like {NPCName}!
+					Princess_LovesNPC: I love {NPCName}'s work!
+				}
+			}
+
+			RevolverAxolot: {
+				DisplayName: Revolver Axolot
+
+				TownNPCMood: {
+					Content: I'm feeling alright.
+					NoHome: I hate not having a home.
+					FarFromHome: I'm too far from home.
+					LoveSpace: Feels nice to have all this space.
+					DislikeCrowded: Not a fan of how crowded this place is.
+					HateCrowded: Man, do I have to live next to all these people?
+					LikeNPC_Princess: "{NPCName}'s cool."
+					Princess_LovesNPC: "{NPCName}'s games are super fun!"
+				}
+
+				Census.SpawnCondition: Conditions unknown
+			}
+
+			Sexodia: {
+				DisplayName: Flayer Icon
+				AttackMelee: Hand of Creation
+				AttackCommandGrab: Grand Slam
+				AttackTackle: Contemptible Suit
+			}
+
+			Seal.DisplayName: Seal
+			Talker.DisplayName: Talker
+			SorterSphere.DisplayName: Sorter Sphere
+			SorterPyramid.DisplayName: Sorter Pyramid
+			SorterCube.DisplayName: Sorter Cube
+			SorterBox.DisplayName: Sorter Box
+			Grugling.DisplayName: Grugling
+		}
+
+		Projectiles: {
+			EvilEnergy.DisplayName: Evil Energy
+			Hexagon: Hexagon
+			Hexaspin.DisplayName: Hexaspin
+			PoppedBlueFlare.DisplayName: Popped Blue Flare
+			PoppedCursedFlare.DisplayName: Popped Cursed Flare
+			PoppedFlare.DisplayName: Popped Flare
+			LilStar.DisplayName: Lil' Star
+			FreeSpirit.DisplayName: Free Spirit
+			LightPillar.DisplayName: Light Pillar
+			MushroomCloud.DisplayName: Mushroom Cloud
+			SoldierLaser.DisplayName: Kill-on-sight Beam
+			SoldierShot.DisplayName: Clear Shot
+			HarpyFeather.DisplayName: Harpy Feather
+			Electroboom.DisplayName: Electroboom
+			HornlitzDash.DisplayName: Hornblitz
+			LightningRod.DisplayName: Lightning Rod
+			ThundercrackProjectile.DisplayName: Thundercrack
+			FrostBreath.DisplayName: Frost Breath
+			FrostflurryProjectile.DisplayName: "{$Mods.GMT.Projectiles.FrostBreath.DisplayName}"
+			Frostfist.DisplayName: Frostfist
+			Frostfoot.DisplayName: Frostfoot
+			Bangerang.DisplayName: Bangerang
+			Mindblow.DisplayName: Mindblow
+			SpinfusorDisc.DisplayName: Spinfusor Disc
+			SpinfusorDiscExplosion.DisplayName: "{$Mods.GMT.Projectiles.SpinfusorDisc.DisplayName}"
+			SolarProminence: Solar Prominence
+			Stoffury.DisplayName: "{$Mods.GMT.Items.Stoffury.DisplayName}"
+			Sunball.DisplayName: Sunball
+			Sunsplosion.DisplayName: Sunsplosion
+			WhirlwindBoomerang.DisplayName: "{$Mods.GMT.Items.WhirlwindBoomerang.DisplayName}"
+			SnowBall.DisplayName: "{$ProjectileName.SnowBallHostile}"
+			DirtBall.DisplayName: "{$ProjectileName.DirtBall}"
+			HeartBubble.DisplayName: Heart Bubble
+			FlareRocket.DisplayName: Flare Rocket
+			Glass.DisplayName: Glass
+			GlassBottle.DisplayName: Glass Bottle
+			WaterGlassBottle.DisplayName: Water Glass Bottle
+			FrostfanProjectile.DisplayName: Icy Wind
+			FrigidSmoke.DisplayName: Frigid Smoke
+			FrostfumeSmoke.DisplayName: "{$Mods.GMT.Projectiles.FrigidSmoke.DisplayName}"
+			LineShot.DisplayName: Line Shot
+			ZoningShot.DisplayName: Cross Shot
+			SpiralShot.DisplayName: Spiral Shot
+			Bind.DisplayName: Bind
+			CrashFire.DisplayName: Starcrash
+			Crescendo.DisplayName: Crescendo
+			Cube.DisplayName: Cube
+			FaceLaser.DisplayName: Force of Flayer
+			FireWall.DisplayName: Fire Wall
+			Laser.DisplayName: Force of Flayer
+			InverseBind.DisplayName: Inverse Bind
+			Shockwave.DisplayName: Shockwave
+			Smite.DisplayName: Smite
+			MaxwellSpore.DisplayName: Maxwell Spore
+			PlayerLaser.DisplayName: Force of Flayer
+			PuppetIcon.DisplayName: Puppet Icon
+			HealRibbon.DisplayName: Heal Ribbon
+			PuppetIconProjectile.DisplayName: Puppet Icon Projectile
+			PlayerLaserProjectile.DisplayName: Player Laser Projectile
+			OvergrowthBolt.DisplayName: Overgrowth Bolt
+			WolfCubePet.DisplayName: Wolf Cube Pet
+			LobsterBolt.DisplayName: Lobster Bolt
+			DragonBreath.DisplayName: Dragon Breath
+			GolfBombExplosion.DisplayName: Golf Bomb Explosion
+			TriShot.DisplayName: Tri Shot
+			SnowAngelPet.DisplayName: Snow Angel Pet
+			FriendlyHeartBubble.DisplayName: Friendly Heart Bubble
+			BloodSprayProjectile.DisplayName: Blood Spray Projectile
+		}
+	}
+}
+
+UI: {
+	WorldDescriptionNormal: Your adventure begins... (The standard Terraria experience)
+	WorldDescriptionExpert: Fortune and glory, kid. (Much harder enemies)
+	WorldDescriptionMaster: Game over man, game over! (Much harder world)
+	Legendary: Clown
+}
+
+CommonBestiaryFlavor.DemonEye: That suspicious feeling of being watched may very well come true in the dark of night, when terrific eyes roam the skies.
+
+Bestiary_FlavorText: {
+	npc_EyeofCthulhu: A giant eye...or something that resembles one. It wanders the night searching for something to sink its teeth into.
+	npc_ServantofCthulhu: Young Demon Eyes newly spawned from the Eye of Terror, brought forth to aid it in battle.
+	npc_EaterOfWorldsHead: Worms eating through the bottomless malice of the Corruption are left wanting more. The false eyes on its diseased scales haunt many explorers who lived to tell the tale.
+	npc_BrainofCthulhu: The beating heart of the Crimson, this vile mastermind commands all that has been assimilated.
+	npc_Retinazer: Belonging to a pair of mechanically recreated Eyes of Terror, this one keeps its distance, firing off lasers.
+	npc_Spazmatism: Belonging to a pair of mechanically recreated Eyes of Terror, this one chases at high speed, exhaling cursed flame.
+	npc_TheDestroyer: A mechanical simulacrum of the Eater of Worlds decorated in laser-armed probes, which detach from its body to wreak havoc.
+	npc_SkeletronPrime: This mechanical recreation of Skeletron has twice the arms, fitted with various fierce weapons.
+	npc_Plantera: A dormant floral guardian awoken by great disturbance in the world. Its reach spans the entire jungle.
+	npc_CultistBoss: A fanatical leader hell-bent on reviving a lord of the moon to bring about the apocalypse, through behind-the-scenes scheming.
+}
+
+NPCName: {
+	EyeofCthulhu: Eye of Terror
+	ServantofCthulhu: Servant of Terror
+	BrainofCthulhu: Brain of Crimson
+}
+
+ItemName: {
+	EyeMask: Eye of Terror Mask
+	EyeofCthulhuTrophy: Eye of Terror Trophy
+	EyeOfCthulhuBossBag: Treasure Bag (Eye of Terror)
+	EyeofCthulhuMasterTrophy: Eye of Terror Relic
+	EoCShield: Shield of Terror
+	TheEyeOfCthulhu: The Eye of Terror
+	TheFishofCthulu: Terrific Fish
+	BrainMask: Brain of Crimson Mask
+	BrainofCthulhuTrophy: Brain of Crimson Trophy
+	BrainOfCthulhuBossBag: Treasure Bag (Brain of Crimson)
+	BrainofCthulhuMasterTrophy: Brain of Crimson Relic
+	FrostCore: Frost Core Chunk
+	CratePotion: Fortune Potion
+}
+
+ItemTooltip: {
+	SnowGlobe: Bestows Christmas spirit on the world for a day
+	WormholePotion:
+		'''
+		Click a party member on the fullscreen map to teleport to them
+		Do not drink without a destination in mind
+		'''
+	SuspiciousLookingEye: Summons the Eye of Terror
+	BloodySpine: Summons the Brain of Crimson
+	AmberStaff:
+		'''
+		{$Mods.GMT.Common.SuperMove}
+		Click 3 circles right when they vanish
+		Encases you in a fragile amber shield, reducing damage taken by 9/12/15
+		Great shields counterattack enemies
+		Excellent shields fire amber bolts at the nearest enemy when hit by a projectile
+		'''
+	SnowmanCannon: Covers enemies in frost, adding its damage to the next hit
+	GelBalloon: Filled with dish soap
+	TerraToilet: I can't believe you've done this
+	BubbleGun:
+		'''
+		Rapidly fires deadly bubbles
+		'Bang bang bang! All clean again!'
+		'''
+	MeatGrinder:
+		'''
+		Used to craft objects
+		'If you're chopped up in one of these...you're probably dead!'
+		'''
+	EmpressFlightBooster: Exchanges flight time for increased horizontal and vertical mobility
+	Apple: Provides immunity to Poisoned
+	AppleJuice: Increases healing potion strength by 15
+	Bacon: x1.2 damage while invincible
+	BananaSplit: Doubles movement speed and acceleration at low life
+	BloodOrange: Slowly regenerates life
+	BowlofSoup: Debuffs expire twice as fast
+	BunnyStew: Doubles jump speed and gravity
+	ChickenNugget: Increases flight time
+	ChristmasPudding:
+		'''
+		Reduces damage taken by 25%
+		Healing Sickness for the duration of the buff
+		Cannot be consumed during Healing Sickness
+		'''
+	CoffeeCup: Increases movement speed and mining speed by 10%
+	Dragonfruit: Breathe fire at nearby foes
+	Elderberry:
+		'''
+		x1.05 damage
+		Poisons and slows you for the duration of the buff
+		'''
+	Escargot: Increases defense by 4
+	FriedEgg: Slightly increases fly speed
+	GoldenDelight: 20% of damage done drops coins
+	Grapes: Restores 10-30 life
+	GrilledSquirrel: Increases grappling hook speed by 10%
+	GrubSoup: Increases fishing power
+	IceCream:
+		'''
+		Attacks cause frostbite
+		Removes immunity to Chilled
+		Reduces damage taken by 10% while chilled, or 25% while frozen
+		'''
+	Lemonade: Increases attack speed by 10% on a clear day
+	Milkshake: Increases enemy spawn rate
+	MonsterLasagna: Increases critical damage by 10% and attack speed by 20%, but reduces max life by 20% and increases aggro
+	Peach: Increases defense by 2, but also increases aggro
+	PrismaticPunch: Using items fires homing magic stars
+	PumpkinPie: Reduces damage taken by 5%
+	RoastBird: Increases knockback by 1, movement speed by 10% and mining speed by 10%
+	RoastDuck: Increases defense by 2, critical damage by 5%, and knockback by 1
+	SauteedFrogLegs: Increases jump height
+	SeafoodDinner:
+		'''
+		Increases defense by 3, damage by 5% and movement speed by 10% if wet
+		Lets you move easily in liquid
+		'''
+	ShuckedOyster: Reduces damage from the next hit by 25%
+	SpicyPepper:
+		'''
+		Sets you on fire!
+		Increases attack speed by 10%
+		Provides immunity to Chilled and Frozen
+		'''
+	Starfruit: Restores 25% of your missing mana
+	Steak: x1.1 damage at low life
+	Teacup: Decreases enemy spawn rate
+	Shrimp: "'These shrimp fresh?'"
+	BatWings:
+		'''
+		Low vertical speed and weak gliding
+		Increased vertical speed and great gliding at night or underground
+		Increased flight time underground
+		'''
+	CreativeWings: No gliding, low vertical speed and below-average flight time
+	DemonWings: Low flight time and weak gliding, high vertical speed
+	FairyWings:
+		'''
+		Very low flight time
+		Infinite flight up to 5 blocks above solid ground
+		'''
+	FinWings:
+		'''
+		Low flight time and no gliding
+		Doubled flight time in rain, quintupled underwater
+		Great gliding in rain or underwater
+		Allows quick travel in water
+		'''
+	FrozenWings: Low vertical speed, high flight time and strong gliding
+	HarpyWings: Fires feathers
+	Hoverboard:
+		'''
+		Low vertical speed, below-average flight time and great gliding
+		Infinite flight up to 5 blocks above solid ground
+		'''
+	LeafWings:
+		'''
+		Great gliding on a windy day
+		Increased horizontal speed depending on wind speed
+		'''
+	SpookyWings: Increased flight time and speed the lower you are on life
+}
+
+Achievements: {
+	EYE_ON_YOU_Description: Defeat the Eye of Terror, an ocular menace who only appears at night.
+	MASTERMIND_Description: Defeat the Brain of Crimson, an enormous horror who commands the creeping crimson.
+}
+
+BuffName.PotionSickness: Healing Sickness
+
+BuffDescription: {
+	PotionSickness: Cannot consume healing items
+	ManaSickness: Cannot consume mana restoration items
+}
+
+LegacyDialog.270: You don't party as hard as other people I've met...
+
+NurseSpecialText: {
+	DeathCountHigh: I have no idea how you're still intact after being slain {TotalDeathsCount} times.
+	Boss: Are you INSANE?! I can't work while my life is on the line, get away from here!!
+}

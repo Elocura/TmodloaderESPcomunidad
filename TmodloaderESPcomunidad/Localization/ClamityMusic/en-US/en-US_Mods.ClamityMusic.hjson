@@ -1,0 +1,79 @@
+//This music box contains a placeholder song
+Items: {
+	Placeables: {
+		MusicBoxes: {
+			ClamityTitleMusicBox: {
+				Tooltip: Plays unnamed theme By Sidetracker
+				DisplayName: Music Box (Clamity Title)
+			}
+
+			ClamitasMusicBox: {
+				Tooltip: Plays 'clamitas theme' By StarvoXD
+				DisplayName: Music Box (Clamitas)
+			}
+
+			PyrogenMusicBox: {
+				Tooltip: Plays 'Searing Ferocity' by Brimston Premium
+				DisplayName: Music Box (Pyrogen)
+			}
+
+			AcidRainT2MusicBox: {
+				Tooltip: Plays 'Sulfuric Cloudbrust' by AstroGel
+				DisplayName: Music Box (Acid Rain Tier 2)
+			}
+
+			WoBMusicBox: {
+				DisplayName: Music Box (Wall of Bronze)
+				Tooltip:
+					'''
+					'This music box contains a placeholder song'
+					Plays 'Diabolus Ex Machina' by Perturbator
+					'''
+			}
+
+			FrozenHellMusicBox: {
+				DisplayName: Music Box (Frozen Hell)
+				Tooltip:
+					'''
+					'This music box contains a placeholder song'
+					Plays Alternative Underworld theme by Soundbin
+					'''
+			}
+
+			PyrogenGFBMusicBox: {
+				DisplayName: Music Box (Cryogen?)
+				Tooltip: Plays 'Antarctic Ferocity' by Brimston Premium
+			}
+		}
+	}
+}
+
+Tiles: {
+	GiantClamMusicBoxTile.MapEntry: Giant Clam Music Box Tile
+	ClamityTitleMusicBoxTile.MapEntry: Clamity Title Music Box Tile
+	ClamitasMusicBoxTile.MapEntry: Clamitas Music Box Tile
+	PyrogenMusicBoxTile.MapEntry: Pyrogen Music Box Tile
+}
+
+Configs: {
+	ClamityMusicConfig: {
+		DisplayName: Clamity Music Config
+
+		PyrogenPrototypeTheme: {
+			Label: Pyrogen Prototype Theme
+			Tooltip: ""
+		}
+
+		UsesT2AcidRainTheme: {
+			Label: Uses T2 Acid Rain Theme
+			Tooltip: ""
+		}
+	}
+
+	PyroMusic: {
+		Tooltip: ""
+		CryogenPlaceholder.Label: Cryogen Placeholder
+		AstroGels.Label: Astro Gels
+		BrimstonePremiums.Label: Brimstone Premiums
+	}
+}

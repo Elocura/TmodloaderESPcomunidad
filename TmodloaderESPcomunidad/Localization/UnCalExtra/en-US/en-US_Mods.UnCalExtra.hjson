@@ -1,0 +1,595 @@
+Buffs: {
+	BalancedDualityDebuff: {
+		DisplayName: Balanced Duality Debuff
+		Description: Mods.UnCalExtra.Buffs.BalancedDualityDebuff.Description
+	}
+
+	detlDebuff: {
+		DisplayName: detl Debuff
+		Description: Mods.UnCalExtra.Buffs.detlDebuff.Description
+	}
+
+	ElementalLashDebuff: {
+		DisplayName: Elemental Lash Debuff
+		Description: Mods.UnCalExtra.Buffs.ElementalLashDebuff.Description
+	}
+
+	ExoWhipDebuff: {
+		DisplayName: Exo Whip Debuff
+		Description: Mods.UnCalExtra.Buffs.ExoWhipDebuff.Description
+	}
+
+	OldDukeWhipDebuff: {
+		DisplayName: Old Duke Whip Debuff
+		Description: Mods.UnCalExtra.Buffs.OldDukeWhipDebuff.Description
+	}
+
+	TerraWhipDebuff: {
+		DisplayName: Terra Whip Debuff
+		Description: Mods.UnCalExtra.Buffs.TerraWhipDebuff.Description
+	}
+
+	PlaguebringerProjDebuff: {
+		DisplayName: Plaguebringer Proj Debuff
+		Description: Mods.UnCalExtra.Buffs.PlaguebringerProjDebuff.Description
+	}
+
+	StormlionWhipDebuff: {
+		DisplayName: Stormlion Whip Debuff
+		Description: Mods.UnCalExtra.Buffs.StormlionWhipDebuff.Description
+	}
+
+	NecrolashDebuff: {
+		Description: Mods.UnCalExtra.Buffs.NecrolashDebuff.Description
+		DisplayName: Necrolash Debuff
+	}
+
+	GyrosphereDebuff: {
+		DisplayName: Gyrosphere Debuff
+		Description: Mods.UnCalExtra.Buffs.GyrosphereDebuff.Description
+	}
+
+	TriInfectaDebuff: {
+		DisplayName: Tri Infecta Debuff
+		Description: Mods.UnCalExtra.Buffs.TriInfectaDebuff.Description
+	}
+
+	StormlionWhipDebuff2: {
+		DisplayName: Stormlion Whip Debuff2
+		Description: Mods.UnCalExtra.Buffs.StormlionWhipDebuff2.Description
+	}
+
+	HoneyflowerStaff_Buff: {
+		DisplayName: Sweet Honeyflower
+		Description: A flower has sprouted on your head to protect you!
+	}
+
+	RadiantOverflow: {
+		DisplayName: Radiant Overflow
+		Description: Mods.UnCalExtra.Buffs.RadiantOverflow.Description
+	}
+}
+
+Items: {
+	Weapons: {
+		Melee: {
+			EnergyBlade: {
+				DisplayName: Energy Blade
+				Tooltip:
+					'''
+					Performs a rapid close range combo while using the item.
+					Press and hold [c/c29151:Right Click] to wind up and perform a stronger slash.
+					When charged enough, fire a [c/56ffc0:wave of energy] towards the mouse.
+					[c/00ffee:Melee attacks] with this weapon ignore 100% of enemy defense.
+					'''
+			}
+
+			GoldHammer: {
+				DisplayName: Skytone Mallet
+				Tooltip:
+					'''
+					Performs a quick two-hit combo.
+					The third strike throws the hammer [c/ead063:forwards].
+					[c/c29151:Right Click] to leap into the air and crash down onto enemies.
+					[c/7aa261:Left Click] before landing when near enemies to crash with strengthened impact.
+					'''
+			}
+
+			Astralux: {
+				DisplayName: Astralux
+				Tooltip: ooohhhh im a debug item ooohhhhhhhhh
+			}
+
+			Azurak: {
+				DisplayName: Azurak
+				Tooltip:
+					'''
+					Performs a rapid true melee combo with regular use.
+					Press and Hold [c/c29151:Right Click] to ready a powerful slash that causes you to [c/22ff41:dash] towards the mouse.
+					This has a [c/53fff4:6 second] cooldown.
+					'''
+			}
+
+			AureumFang: {
+				DisplayName: Aureum Fang
+				Tooltip:
+					'''
+					[c/7e51ff:A stunning greatsword that resonates with the vastness of the cosmos.]
+					[c/7e51ff:This weapon deals both magic and melee damage.]
+					[c/7aa261:Left Click] performs a slow combo that flings [c/996dff:energy waves] towards the cursor.
+					These waves cost [c/6e3ae8:5 mana] to use, and deal more damage the more mana you have left.
+					If you don't have enough mana to spawn another, then the sword itself deals double damage.
+					Right click to consume [c/6e3ae8:200 mana] and prepare a devastating [c/9c1aff:energy shower].
+					When the shower ends, expel all remaining energy in the blade to summon a massive ray of light.
+					The ray of light deals [c/2900a0:7500%] damage on the first hit, and [c/2900a0:35%] afterwards.
+					You cannot summon another energy shower for [c/64000f:40 seconds] afterwards.
+					'''
+			}
+
+			RadiantApex: {
+				DisplayName: Radiant Apex
+				Tooltip: ""
+			}
+		}
+
+		Summon: {
+			Whips: {
+				BalancedDuality: {
+					DisplayName: Balanced Duality
+					Tooltip:
+						'''
+						[c/ffffff:Swings a] [c/474747:Yin] and [c/ffffff:Yang] [c/ffffff:whip, unleashing a distinct]
+						[c/eaeaea:strike for each attack.]
+						[c/474747:On the third attack, it rapidly swings three times.]
+						'''
+				}
+
+				DeusExTwinLash: {
+					DisplayName: Deus Ex Twin Lash
+					Tooltip:
+						'''
+						[c/FFD700:For every minion under your control, a star descends.]
+						[c/FFFFE0:Harness the divine power of your summons for celestial strikes.]
+						'''
+				}
+
+				ElementalLash: {
+					DisplayName: Elemental Lash
+					Tooltip:
+						'''
+						[c/FF4500:Surrounds you with an aura of elemental fury, dealing constant damage.]
+						[c/FF6347:Flares of fiery energy chase down enemies, burning them to ash.]
+						'''
+				}
+
+				ExoWhip: {
+					DisplayName: Exo Whip
+					Tooltip:
+						'''
+						[c/00FFFF:Channel the futuristic power of Exo energy.]
+						[c/87CEEB:Devastate your enemies with cutting-edge technology.]
+						'''
+				}
+
+				Necrolash: {
+					DisplayName: Necrolash
+					Tooltip:
+						'''
+						[c/4B0082:A spectral phantom rises from the depths, circling your enemies.]
+						[c/800080:Haunts your foes, dealing constant, relentless damage.]
+						'''
+				}
+
+				PlaguebringerWhip: {
+					DisplayName: Plaguebringer Whip
+					Tooltip:
+						'''
+						[c/ADFF2F:Unleash a toxic aura of radiation around your target.]
+						[c/7FFF00:Enemies caught within the aura suffer continuous damage.]
+						'''
+				}
+
+				TerraWhip: {
+					DisplayName: Terra Whip
+					Tooltip:
+						'''
+						[c/32CD32:Harness the power of nature, creating explosive bursts.]
+						[c/00FF00:Each explosion has a chance to restore health to the wielder.]
+						'''
+				}
+
+				StormlionWhip: {
+					DisplayName: Stormlion Whip
+					Tooltip:
+						'''
+						Strike enemies to build [c/28e2d6:static charge] on them.
+						When enemies that are charged get struck by a minion, [c/3bd9a4:lightning] will strike from above.
+						This can occur every [c/02b6ff:6] seconds.
+						'''
+				}
+
+				Gyrosphere: {
+					DisplayName: Gyrosphere
+					Tooltip:
+						'''
+						Striking enemies gradually damages the frail materials this whip is made of.
+						Excessive use will cause the power supply to [c/3aff3c:fall off] and [c/3aff3c:explode].
+						'''
+				}
+
+				TriInfecta: {
+					DisplayName: Tri Infecta
+					Tooltip: ""
+				}
+			}
+		}
+
+		Ranged: {
+			StormfangBow: {
+				DisplayName: Stormfang Bow
+				Tooltip: ""
+			}
+		}
+
+		Summoner: {
+			HoneyflowerStaff: {
+				DisplayName: Honeyflower Staff
+				Tooltip: WIP
+			}
+		}
+	}
+
+	Accessories: {
+		ThiefGloveT1: {
+			DisplayName: Gauntlet of The Sunken Sea
+			Tooltip:
+				'''
+				15% increased whip range
+				7% increased whip speed
+				Grants +5 armor penetration and +7 defense while underwater
+				'''
+		}
+
+		ThiefGloveT2: {
+			DisplayName: Gauntlet of The Depths
+			Tooltip:
+				'''
+				18% increased whip range
+				15% increased whip speed
+				Grants +5 armor penetration and +7 defense while underwater
+				'''
+		}
+	}
+
+	StormfangBow: {
+		DisplayName: Stormfang Bow
+		Tooltip: ""
+	}
+
+	AmberZapper: {
+		DisplayName: Amber Zapper
+		Tooltip:
+			'''
+			Fires powerful [c/be6100:amber shards] in quick succession with regular use.
+			[c/be6100:Amber shards] have a chance to [c/ffb13e:stick to enemies] on hit, and they always stick on critical strikes.
+			Press and hold [c/c29151:Right Click] to wind up a [c/02e1e6:ray of lightning].
+			Strike enemies with [c/be6100:amber shards] stuck in them with [c/02e1e6:lighting] to make them explode.
+			Other enemies may have their [c/be6100:amber shards] zapped by the explosion, causing a chain reaction.
+			'''
+	}
+
+	Renaissance: {
+		DisplayName: Renaissance
+		Tooltip: ""
+	}
+
+	DubstepGun: {
+		DisplayName: Dubstep Gun
+		Tooltip:
+			'''
+			Select a track by right clicking!
+			Create an extravagant chaos while you vibe to the beats of your choosing!
+			Fires homing energy and soul-shaking sound waves to the tune of the selected song!
+			'''
+	}
+
+	Vindicate: {
+		DisplayName: Vindicate
+		Tooltip: ""
+	}
+
+	MeteorCannon: {
+		DisplayName: Meteor Cannon
+		Tooltip:
+			'''
+			This weapon uses [i:116] meteorites as ammo, with a 50% chance to not consume any on use!
+			Load a meteor fragment into the cannon upon use, and let go to fire it towards the mouse with absurd power!
+			'''
+	}
+
+	LavaKnife: {
+		Tooltip:
+			'''
+			Hold [c/c29151:Right Click] to summon a flaming aura that ignites nearby tiles.
+			Enemies that come into contact with these tiles for too long will erupt into flames.
+			Only one aura may exist at a time, and it costs 50 mana to spawn one.
+			Hold [c/7aa261:Left Click] to cause an explosion at the mouse.
+			'''
+		DisplayName: The Purgatory
+	}
+
+	Metatron: {
+		DisplayName: Metatron
+		Tooltip: ""
+	}
+
+	OblivionShredder: {
+		DisplayName: Oblivion Shredder
+		Tooltip: ""
+	}
+
+	InvisibleWings: {
+		DisplayName: Invisible Wings
+		Tooltip: You should not have this.
+	}
+
+	ManaBlaster: {
+		DisplayName: Mana Blaster
+		Tooltip:
+			'''
+			Fires a quick blast of pure mana at targets, using [c/00abc0:15] mana.
+			Fire a stronger blast when at full mana. This blast uses double mana.
+			Deal more damage when your mana is fuller, up to [c/1fd1e8:2.5x] damage when at full mana.
+			[c/2fa8ff:This item does not benefit from damage or mana modifications.]
+			'''
+	}
+
+	RadiantApex: {
+		DisplayName: Radiant Apex
+		Tooltip:
+			'''
+			Hold [c/7aa261:Left Click] to perform a powerful melee combo.
+			Each hit builds [c/ff2929:1] [c/f954ff:Radiant Energy], [c/ff2929:3] on critical strikes, and [c/ff2929:10] on kills. (This does not stack.)
+			Hold [c/c29151:Right Click] to wind up and spin the spear around you rapidly.
+			If you have enough [c/f954ff:Radiant Energy], then periodically spawn energy orbs which blast nearby enemies with lasers.
+			Once [c/f954ff:Radiant Energy] is full, press {0} to slam the spear downwards, creating a brilliant impact upon striking a tile.
+			Afterwards, emit a bright pulse which forms a [c/4bffd3:Field of Radiance] at the area of impact for [c/35ff98:12] seconds, and uses all [c/f954ff:Radiant Energy].
+			While the [c/4bffd3:Field of Radiance] is active, you cannot use this item.
+			The [c/4bffd3:Field of Radiance] heals players for [c/18ff24:10] life every second while within the area, and enemies take [c/970300:15%] more damage while inside it.
+			'''
+	}
+
+	Hellrend: {
+		DisplayName: Hellrend
+		Tooltip:
+			'''
+			Hold [c/7aa261:Left Click] to wind up and rapidly fire bullets and rev the saw.
+			If you dont have any ammo, then the saw will continue to spin and heat up on its own.
+			Press [c/c29151:Right Click] to fire the saw, shredding enemies and exploding more viciously the hotter it is.
+			Up to 3 saws can be fired at once, and firing a saw causes the gun to lose heat.
+			'''
+	}
+
+	PrismshellHammer: {
+		DisplayName: Prismshell Hammer
+		Tooltip:
+			'''
+			Press [c/7aa261:Left Click] to perform a heavy downwards strike.
+			Upon collision with tiles, cause a heavy impact, flinging prism shards upwards.
+			'I wonder where that turtle was keeping this...'
+			'''
+	}
+
+	BowOfLight: {
+		DisplayName: Bow Of Light
+		Tooltip: ""
+	}
+}
+
+Projectiles: {
+	Melee.EnergyBladeProjectile.DisplayName: Energy Blade Projectile
+
+	Summon: {
+		Whips: {
+			BalancedYangProj.DisplayName: Balanced Yang Proj
+			BalancedYinProj.DisplayName: Balanced Yin Proj
+			DeusExProj.DisplayName: Deus Ex Proj
+			DeusExTwinProj.DisplayName: Deus Ex Twin Proj
+			ElementalLashProj.DisplayName: Elemental Lash Proj
+			ExoWhipProj.DisplayName: Exo Whip Proj
+			NecrolashProj.DisplayName: Necrolash Proj
+			PlaguebringerProj.DisplayName: Plaguebringer Proj
+			TerraWhipProj.DisplayName: Terra Whip Proj
+			StormlionWhipProj.DisplayName: Stormlion Whip Proj
+			GyrosphereProj.DisplayName: Gyrosphere Proj
+			TriInfectaLargeProj.DisplayName: Tri Infecta Large Proj
+			TriInfectaMedProj.DisplayName: Tri Infecta Med Proj
+			TriInfectaSmallProj.DisplayName: Tri Infecta Small Proj
+		}
+	}
+
+	PlagueRocketBlast.DisplayName: Plague Rocket Blast
+	PlagueRocket.DisplayName: Plague Rocket
+	TerraWhipTrail.DisplayName: Terra Whip Trail
+	StormfangBowHoldout.DisplayName: Stormfang Bow Holdout
+	StormfangProj.DisplayName: Stormfang Proj
+	StormfangRareProj.DisplayName: Stormfang Rare Proj
+	GyrosphereDetatch.DisplayName: Gyrosphere Detatch
+	StormlionWhipLightning.DisplayName: Stormlion Whip Lightning
+	AmberZapperHoldout.DisplayName: Amber Zapper Holdout
+	ExplosionProjectile.DisplayName: Explosion Projectile
+	AmberLightning.DisplayName: Amber Lightning
+	AmberShard.DisplayName: Amber Shard
+	EnergyBladeProjectile.DisplayName: Energy Blade Projectile
+	EnergyWave.DisplayName: Energy Wave
+	GoldHammerProjectile.DisplayName: Gold Hammer Projectile
+	AstraluxProjectile.DisplayName: Astralux Projectile
+	AzurakProjectile.DisplayName: Azurak Projectile
+	AureumFangProjectile.DisplayName: Aureum Fang Projectile
+	NovaWave.DisplayName: Nova Wave
+	NovaBeam.DisplayName: Nova Beam
+	NovaStormManager.DisplayName: Nova Storm Manager
+	NovaBeamFinish.DisplayName: Nova Beam Finish
+	NovaStar.DisplayName: Nova Star
+	NovaBeamSpam.DisplayName: Nova Beam Spam
+	Honeyflower.DisplayName: Honeyflower
+	HoneyBlob.DisplayName: Honey Blob
+	WindBladeProjectile.DisplayName: Wind Blade Projectile
+	WindyWave.DisplayName: Windy Wave
+	GaussRifleProj.DisplayName: Gauss Rifle Proj
+	GaussBeam.DisplayName: Gauss Beam
+	GaussBeamSmall.DisplayName: Gauss Beam Small
+	LunicEyeProj.DisplayName: Lunic Eye Proj
+	LunicMark.DisplayName: Lunic Mark
+	LunicRay.DisplayName: Lunic Ray
+	LunicOrb.DisplayName: Lunic Orb
+	LunicRaySmall.DisplayName: Lunic Ray Small
+	DubstepGunProj.DisplayName: Dubstep Gun Proj
+	DubstepGunBolt.DisplayName: Dubstep Gun Bolt
+	KatanaWave.DisplayName: Katana Wave
+	OmnibladeProj.DisplayName: Omniblade Proj
+	DashSlash.DisplayName: Dash Slash
+	MeteorCannonProj.DisplayName: Meteor Cannon Proj
+	MeteorCannonBlast.DisplayName: Meteor Cannon Blast
+	ImpactCracks.DisplayName: Impact Cracks
+	LunicMark2.DisplayName: Lunic Mark2
+	LavaKnifeProj.DisplayName: Lava Knife Proj
+	FlamingAura.DisplayName: Flaming Aura
+	OmnibladeProjFollowUp.DisplayName: Omniblade Proj Follow Up
+	OmniFollowUpSlash.DisplayName: Omni Follow Up Slash
+	MetatronBlade.DisplayName: Metatron Blade
+	MetatronManager.DisplayName: Metatron Manager
+	OblivionSaw.DisplayName: Oblivion Saw
+	OblivionShredderHoldout.DisplayName: Oblivion Shredder Holdout
+	MetatronBeam.DisplayName: Metatron Beam
+	VolcanoProjectile.DisplayName: Volcano Projectile
+	VolcanoSmashManager.DisplayName: Volcano Smash Manager
+	BeamBeam.DisplayName: Beam Beam
+	BeamSwordProjectile.DisplayName: Beam Sword Projectile
+	RadiantApexProjectile.DisplayName: Radiant Apex Projectile
+	MetatronBeam2.DisplayName: Metatron Beam2
+	MetatronBeam3.DisplayName: Metatron Beam3
+	ManaBlasterProj.DisplayName: Mana Blaster Proj
+	ManaBolt.DisplayName: Mana Bolt
+	ManaBeam.DisplayName: Mana Beam
+	LavaKnifeMouse.DisplayName: Lava Knife Mouse
+	OreSwordProjectile.DisplayName: Ore Sword Projectile
+	GoldChunk.DisplayName: Gold Chunk
+	HellrendHoldout.DisplayName: Hellrend Holdout
+	HellrendSaw.DisplayName: Hellrend Saw
+	HellrendSaw2.DisplayName: Hellrend Saw2
+	SawShard.DisplayName: Saw Shard
+	PrismshellHammerProj.DisplayName: Prismshell Hammer Proj
+	PrismshellShard.DisplayName: Prismshell Shard
+	RadiantEnergy.DisplayName: Radiant Energy
+	RadiantBeam.DisplayName: Radiant Beam
+	RadiantBeam2.DisplayName: Radiant Beam2
+	RadiantAura.DisplayName: Radiant Aura
+	DissolveTest.DisplayName: Dissolve Test
+	BowOfLightHoldout.DisplayName: Bow Of Light Holdout
+}
+
+Configs: {
+	UnCalConfig: {
+		DisplayName: Unofficial Calamity Extra Config
+
+		Headers: {
+			Graphics: Graphics
+			DeveloperContent: Developer Content
+			Content: Content
+		}
+
+		UseBloom: {
+			Label: Use Bloom
+			Tooltip:
+				'''
+				Whether or not to apply a glowing, blurry effect to certain visuals.
+				This can be configured whenever, however it is best to do so from within the menu.
+				Suddenly disabling this while something is using it can cause the game to crash.
+				THIS SHOULD NOT BE USED IF RETRO LIGHTING IS ON!
+				'''
+		}
+
+		AllowScreenshake: {
+			Label: Allow Screenshake
+			Tooltip:
+				'''
+				Whether or not to allow certain visuals to have more of an impact by vibrating the screen.
+				Turn this off, or the strength of it down if you have motion sickness.
+				Can be configured whenever.
+				'''
+		}
+
+		DebugMode: {
+			Label: Debug Mode
+			Tooltip: WARNING-YOU MAY BE FLOODED WITH MESSAGES RANDOMLY!
+		}
+
+		ScreenShakePower: {
+			Label: Screen Shake Power
+			Tooltip:
+				'''
+				How strong the use of screenshake should be.
+				Can be configured whenever.
+				'''
+		}
+
+		BloomPower: {
+			Label: Bloom Power
+			Tooltip: ""
+		}
+
+		BloomResolution: {
+			Label: Bloom Resolution
+			Tooltip: ""
+		}
+
+		UseWarp: {
+			Label: Use Warp
+			Tooltip:
+				'''
+				Whether or not to enhance some visuals with a screen warping effect.
+				This can be configured whenever, however it is best to do so from within the menu.
+				THIS SHOULD NOT BE USED IF RETRO LIGHTING IS ON!
+				'''
+		}
+
+		UseHealingEffects: {
+			Label: Use Healing Effects
+			Tooltip:
+				'''
+				Whether or not to allow visuals to spawn when the player is healed.
+				Can be configured whenever.
+				'''
+		}
+	}
+}
+
+DamageClasses.MagicAndMelee: nova damage
+
+Reworks: {
+	GaussRifle:
+		'''
+		Fires a devastating ray of energy that pierces through anything.
+		Afterwards, fires a rapid stream of smaller rays that stop on collision.
+		Each use causes the gun to overheat, requiring a small period of cooldown before the next use.
+		'''
+	LunicEye:
+		'''
+		Press and hold [c/7aa261:Left Click] to search for a target near the mouse. Targets found are marked by a bright reticle.
+		After a while, fire a gleaming ray towards the marked target, which explodes into energy orbs.
+		The energy orbs will remain for a short period, and then launch towards other nearby enemies, exploding on contact.
+		[c/c29151:Right Click] to mark a target near the mouse, which will direct lasers fired towards it. 
+		Marks will not be placed during this time, and you can right click again to remove the mark.
+		'''
+}
+
+Cooldowns: {
+	Azurak: Azure Dash Cooldown
+	NovaFang: Aureum Energy Shower Cooldown
+}
+
+Keybinds: {
+	Skill.DisplayName: Skill Key
+	Ultimate.DisplayName: Ultimate Key
+}
