@@ -10,7 +10,7 @@ Mods: {
 		Items: {
 			Lore: {
 				LoreAstrageldon: {
-					/* Lore:
+					Lore:
 						'''
 						Una existencia así desafía toda comprensión. Draedon una vez informó sobre este poder anómalo en su estudio de la Infección Astral.
 						Pero incluso con todo su ingenio, no pudo comprender por completo su singular naturaleza astral-gelatinosa.
@@ -20,8 +20,8 @@ Mods: {
 						Su hambre sería insaciable. Incontrolable e indomable. Una perfección del orden natural.
 						El codicioso Dios Slime habría sentido envidia con tan solo imaginar tal potencial.
 						Ahora que ha sido erradicado, solo queda preguntarse qué amenazas mayores aguardan en lugares más lejanos.
-						''' */
-					// DisplayName: Astrageldon
+						'''
+					DisplayName: Astrageldon
 				}
 			}
 
@@ -32,32 +32,32 @@ Mods: {
 
 			AstrageldonMask: {
 				DisplayName: Máscara Astrageldon
-				// Tooltip: ""
+				Tooltip: ""
 			}
 
 			InterstellarCorruptionDye: {
 				DisplayName: Tinte de Corrupción Interestelar
-				// Tooltip: ""
+				Tooltip: ""
 			}
 
 			AstrageldonPhase1MusicBox: {
-				// DisplayName: Caja de Música (Astrageldon - Fase 1)
-				// Tooltip: Reproduce 'Cosmic Disgust' De DM DOKURO
+				DisplayName: Caja de Música (Astrageldon - Fase 1)
+				Tooltip: Reproduce 'Cosmic Disgust' De DM DOKURO
 			}
 
 			AstrageldonPhase2MusicBox: {
-				// DisplayName: Caja de Música (Astrageldon - Fase 2)
-				// Tooltip: Reproduce 'Galactic Destruction' De Heart Plus Up!
+				DisplayName: Caja de Música (Astrageldon - Fase 2)
+				Tooltip: Reproduce 'Galactic Destruction' De Heart Plus Up!
 			}
 
 			AstrageldonTitleMusicBox: {
-				// DisplayName: Caja de Música (Título de Astrageldon)
-				// Tooltip: Reproduce 'Heaven's Hell-Sent Gift' Por DM DOKURO
+				DisplayName: Caja de Música (Título de Astrageldon)
+				Tooltip: Reproduce 'Heaven's Hell-Sent Gift' Por DM DOKURO
 			}
 
 			MetanovaOre: {
 				DisplayName: Mineral de Metanova
-				// Tooltip: ""
+				Tooltip: ""
 			}
 
 			MetanovaBar: {
@@ -66,12 +66,12 @@ Mods: {
 			}
 
 			LoreAstrageldon: {
-				// DisplayName: "{$Mods.CatalystMod.NPCs.Astrageldon.DisplayName}"
-				/* Tooltip:
+				DisplayName: "{$Mods.CatalystMod.NPCs.Astrageldon.DisplayName}"
+				Tooltip:
 					'''
 					[c/e3af40:Susurros de una danza celestial bailan en tus oídos...]
 					[c/bebebe:Presiona "Shift Izq" Para escuchar de cerca]
-					''' */
+					'''
 			}
 
 			AstralCommunicator: {
@@ -85,50 +85,50 @@ Mods: {
 			}
 
 			IntergelacticHeadMelee: {
-				// DisplayName: Casco Intergaláctico
-				/* Tooltip:
+				DisplayName: Casco Intergaláctico
+				Tooltip:
 					'''
 					22% más de daño y probabilidad de golpe crítico
     				10% más de velocidad de ataque cuerpo a cuerpo y movimiento
    					Reduce el daño recibido en un 15%
-					''' */
+					'''
 			}
 
 			IntergelacticHeadRanged: {
-				// DisplayName: Visor Intergaláctico
-				/* Tooltip:
+				DisplayName: Visor Intergaláctico
+				Tooltip:
 					'''
 					Aumenta el daño a distancia y la probabilidad de golpe crítico en un 14%
 					Reduce el daño recibido en un 12%
-					''' */
+					'''
 			}
 
 			IntergelacticHeadMagic: {
-				// DisplayName: Máscara Intergaláctica
-				/* Tooltip:
+				DisplayName: Máscara Intergaláctica
+				Tooltip:
 					'''
 					Aumenta el maná máximo en 100
 					15% más de daño mágico y probabilidad de golpe crítico
 					Reduce el daño recibido en un 12%
-					''' */
+					'''
 			}
 
 			IntergelacticHeadSummon: {
-				// DisplayName: Yelmo Cornudo Intergaláctico
-				/* Tooltip:
+				DisplayName: Yelmo Cornudo Intergaláctico
+				Tooltip:
 					'''
 					Aumenta el número máximo de esbirros en 1
 					Reduce el daño recibido en un 12%
-					''' */
+					'''
 			}
 
 			IntergelacticHeadRogue: {
-				// DisplayName: Casco de Pícaro Intergaláctico
-				/* Tooltip:
+				DisplayName: Casco de Pícaro Intergaláctico
+				Tooltip:
 					'''
 					Aumenta el daño y la probabilidad de golpe crítico de lanzador en un 22%
 					12% más de reducción de daño
-					''' */
+					'''
 			}
 
 			IntergelacticBreastplate: {
@@ -199,8 +199,8 @@ Mods: {
 			}
 
 			AstralLash: {
-				// DisplayName: Gancho Astral
-				/* Tooltip:
+				DisplayName: Gancho Astral
+				Tooltip:
 					'''
 					Alcance: 40.000 tiles
 					Velocidad de lanzamiento: 50.00
@@ -208,12 +208,12 @@ Mods: {
 					Velocidad de arrastre: 16.00
 					Te teletransporta a la ubicación del gancho
 					Ignora cualquier bloque que obstruya el camino entre tú y el gancho
-					''' */
+					'''
 			}
 
 			AstrageldonTrophy: {
 				DisplayName: Trofeo Astrageldon
-				// Tooltip: ""
+				Tooltip: ""
 			}
 
 			InfluxCluster: {
@@ -247,118 +247,118 @@ Mods: {
 			}
 
 			MetanovaRealBrick: {
-				// DisplayName: Bloque de Metanova
-				// Tooltip: ""
+				DisplayName: Bloque de Metanova
+				Tooltip: ""
 			}
 
 			MetanovaBrick: {
-				// DisplayName: Pilar de Metanova
-				// Tooltip: ""
+				DisplayName: Pilar de Metanova
+				Tooltip: ""
 			}
 
 			NovaMonolith: {
-				// DisplayName: Monolito Nova
-				// Tooltip: "'Contiene una pequeña fracción del poder de todo un universo'"
+				DisplayName: Monolito Nova
+				Tooltip: "'Contiene una pequeña fracción del poder de todo un universo'"
 			}
 
 			IntergelacticBathtub: {
 				DisplayName: Bañera Intergeláctica
-				// Tooltip: ""
+				Tooltip: ""
 			}
 
 			IntergelacticBed: {
 				DisplayName: Cama Intergeláctica
-				// Tooltip: ""
+				Tooltip: ""
 			}
 
 			IntergelacticBookshelf: {
 				DisplayName: Estantería Intergeláctica
-				// Tooltip: ""
+				Tooltip: ""
 			}
 
 			IntergelacticCandelabra: {
 				DisplayName: Candelabro Intergeláctico
-				// Tooltip: ""
+				Tooltip: ""
 			}
 
 			IntergelacticCandle: {
 				DisplayName: Vela Intergeláctica
-				// Tooltip: ""
+				Tooltip: ""
 			}
 
 			IntergelacticChair: {
 				DisplayName: Silla Intergeláctica
-				// Tooltip: ""
+				Tooltip: ""
 			}
 
 			IntergelacticChandelier: {
 				DisplayName: Lámpara de Araña Intergeláctica
-				// Tooltip: ""
+				Tooltip: ""
 			}
 
 			IntergelacticClock: {
 				DisplayName: Reloj Intergeláctico
-				// Tooltip: ""
+				Tooltip: ""
 			}
 
 			IntergelacticLamp: {
 				DisplayName: Lámpara Intergeláctica
-				// Tooltip: ""
+				Tooltip: ""
 			}
 
 			IntergelacticLantern: {
 				DisplayName: Linterna Intergeláctica
-				// Tooltip: ""
+				Tooltip: ""
 			}
 
 			IntergelacticPiano: {
 				DisplayName: Piano Intergeláctico
-				// Tooltip: ""
+				Tooltip: ""
 			}
 
 			IntergelacticSink: {
 				DisplayName: Fregadero Intergeláctico
-				// Tooltip: ""
+				Tooltip: ""
 			}
 
 			IntergelacticSofa: {
 				DisplayName: Sofa Intergeláctico
-				// Tooltip: ""
+				Tooltip: ""
 			}
 
 			IntergelacticTable: {
 				DisplayName: Mesa Intergeláctica
-				// Tooltip: ""
+				Tooltip: ""
 			}
 
 			IntergelacticToilet: {
 				DisplayName: Retrete Intergeláctico
-				// Tooltip: ""
+				Tooltip: ""
 			}
 
 			IntergelacticWorkbench: {
 				DisplayName: Mesa de trabajo Intergeláctica
-				// Tooltip: ""
+				Tooltip: ""
 			}
 
 			IntergelacticChest: {
 				DisplayName: Cofre Intergeláctico
-				// Tooltip: ""
+				Tooltip: ""
 			}
 
 			IntergelacticDoor: {
 				DisplayName: Puerta Intergeláctica
-				// Tooltip: ""
+				Tooltip: ""
 			}
 
 			IntergelacticDresser: {
 				DisplayName: Aparador Intergeláctico
-				// Tooltip: ""
+				Tooltip: ""
 			}
 
 			IntergelacticPlatform: {
 				DisplayName: Plataforma Intergeláctica
-				// Tooltip: ""
+				Tooltip: ""
 			}
 
 			AscendedAstralSlimeBanner: {
@@ -372,161 +372,161 @@ Mods: {
 			}
 
 			DivineJello: {
-				// DisplayName: Gelatina Divina
-				/* Tooltip:
+				DisplayName: Gelatina Divina
+				Tooltip:
 					'''
 					Invoca una Deidad Slime
 					'¡Un manjar digno de un Dios!'
-					''' */
+					'''
 			}
 
 			AstrageldonRelic: {
-				// DisplayName: Reliquia de Astrageldon
-				// Tooltip: ""
+				DisplayName: Reliquia de Astrageldon
+				Tooltip: ""
 			}
 
 			BreathofGlacies: {
-				// DisplayName: Aliento de Glacies
-				/* Tooltip:
+				DisplayName: Aliento de Glacies
+				Tooltip:
 					'''
 					Lanza un círculo rúnico cada quinto disparo
 					El círculo rúnico dispara fragmentos de hielo que infligen el 50% de daño
 					{$Mods.CatalystMod.Tooltips.Flamethrower}
 					50% de probabilidad de no consumir munición
-					''' */
+					'''
 			}
 
 			DesertScorcher: {
-				// DisplayName: Quemador del Desierto
-				/* Tooltip:
+				DisplayName: Quemador del Desierto
+				Tooltip:
 					'''
 					Dispara una ráfaga de agua abrasadora
 					Ignora 5 puntos de defensa del enemigo
 					{$Mods.CatalystMod.Tooltips.Flamethrower}
 					40% de probabilidad de no consumir munición
-					''' */
+					'''
 			}
 
 			Ichorthrower: {
-				// DisplayName: Lanzador de Ícor
-				/* Tooltip:
+				DisplayName: Lanzador de Ícor
+				Tooltip:
 					'''
 					Enciende el gel formando una nube tóxica ardiente
 					Esta nube puede condensarse en orbes de ícor
 					{$Mods.CatalystMod.Tooltips.Flamethrower}
 					40% de probabilidad de no consumir munición
-					''' */
+					'''
 			}
 
 			Plasmilegion: {
-				// DisplayName: Legión de Plasma
-				/* Tooltip:
+				DisplayName: Legión de Plasma
+				Tooltip:
 					'''
 					Ioniza el gel en plasma puro
 					Clic izquierdo para cargar un poderoso rayo de energía, pero con riesgo de sobrecalentamiento
 					Clic derecho para disparar bolas de fuego sin sobrecalentamiento
 					{$Mods.CatalystMod.Tooltips.Flamethrower}
 					40% de probabilidad de no consumir munición
-					''' */
+					'''
 			}
 
 			Repentance: {
-				// DisplayName: Arrepentimiento
-				/* Tooltip:
+				DisplayName: Arrepentimiento
+				Tooltip:
 					'''
 					Invoca llamas del sexto círculo
 					{$Mods.CatalystMod.Tooltips.Flamethrower}
 					70% de probabilidad de no consumir munición
-					''' */
+					'''
 			}
 
 			RookOfVengeance: {
-				// DisplayName: Torre de la Anarquía
-				/* Tooltip:
+				DisplayName: Torre de la Anarquía
+				Tooltip:
 					'''
 					Dispara bolas de fuego que se dividen perpendicularmente al impactar
 					{$Mods.CatalystMod.Tooltips.Flamethrower}
 					70% de probabilidad de no consumir munición
-					''' */
+					'''
 			}
 
 			StaticInferno: {
-				// DisplayName: Tormenta Voltaica
-				/* Tooltip:
+				DisplayName: Tormenta Voltaica
+				Tooltip:
 					'''
 					Libera 3 orbes de electricidad que se materializan como plasma
 					{$Mods.CatalystMod.Tooltips.Flamethrower}
 					50% de probabilidad de no consumir munición
-					''' */
+					'''
 			}
 
 			AstralNeutron: {
-				// DisplayName: Neutrón Astral
-				// Tooltip: "'PokerFace'"
+				DisplayName: Neutrón Astral
+				Tooltip: "'PokerFace'"
 			}
 
 			CongeledDuoWhip: {
-				// DisplayName: Doble látigo coagulado
-				/* Tooltip:
+				DisplayName: Doble látigo coagulado
+				Tooltip:
 					'''
 					{$Mods.CatalystMod.Tooltips.WhipTooltip}
 					5% de daño de invocación
 					Clic izquierdo para lanzar ambos látigos delante de ti
 					Clic derecho para lanzar un látigo al frente y el otro detrás
-					''' */
+					'''
 			}
 
 			PrismBreak: {
-				// DisplayName: Ruptura prismática
-				/* Tooltip:
+				DisplayName: Ruptura prismática
+				Tooltip:
 					'''
 					{$Mods.CatalystMod.Tooltips.WhipTooltip}
 					Tus invocaciones liberarán cristales acuáticos buscadores al impactar
-					''' */
+					'''
 			}
 
 			ResonantStriker: {
-				// DisplayName: Golpe Resonante
-				/* Tooltip:
+				DisplayName: Golpe Resonante
+				Tooltip:
 					'''
 					{$Mods.CatalystMod.Tooltips.WhipTooltip}
 					Libera orbes eléctricos buscadores al impactar
 					Tus esbirros aturden a enemigos no jefes al impactar
-					''' */
+					'''
 			}
 
 			UnderBite: {
-				// DisplayName: Mordida Cáustica
-				/* Tooltip:
+				DisplayName: Mordida Cáustica
+				Tooltip:
 					'''
 					{$Mods.CatalystMod.Tooltips.WhipTooltip}
 					Lanza un cráneo cáustico que inflige Veneno Ácido y 6% de daño de etiqueta de invocación
-					''' */
+					'''
 			}
 
 			UnrelentingTorment: {
-				// DisplayName: Tormento Incesante
-				/* Tooltip:
+				DisplayName: Tormento Incesante
+				Tooltip:
 					'''
 					{$Mods.CatalystMod.Tooltips.WhipTooltip}
 					Invoca una ráfaga de garras sobrenaturales que despedazan a tus enemigos
-					''' */
+					'''
 			}
 
 			BlossomsBlessing: {
-				// DisplayName: Bendición de la Floración
-				/* Tooltip:
+				DisplayName: Bendición de la Floración
+				Tooltip:
 					'''
 					{$Mods.CatalystMod.Tooltips.WhipTooltip}
 					Lleva flores sobre el viento
 					Toca el pétalo más grande para recibir una bendición de regeneración, daño y espinas.
 					'Florece, florece, se marchita y se inclina.'
-					''' */
+					'''
 			}
 
 			Catharsis: {
-				// DisplayName: Catharsis
-				/* Tooltip:
+				DisplayName: Catharsis
+				Tooltip:
 					'''
 					{$Mods.CatalystMod.Tooltips.WhipTooltip}
 					Balancear el látigo cuesta salud
@@ -534,89 +534,89 @@ Mods: {
 					Clic derecho activa las cargas, potenciando temporalmente a Catharsis y restaurando la vida perdida
 					[c/c61b40:La luz purificadora, abandonada y consumida por el dolor,]
 					[c/c61b40:Regresó a este reino como sombra destructora.]
-					''' */
+					'''
 			}
 
 			SandstoneReigns: {
-				// DisplayName: Riendas de Arenisca
-				/* Tooltip:
+				DisplayName: Riendas de Arenisca
+				Tooltip:
 					'''
 					{$Mods.CatalystMod.Tooltips.WhipTooltip}
 					Invoca un pequeño tiburón de arenisca para morder a tus enemigos
 					'Ökenhaj!'
-					''' */
+					'''
 			}
 
 			CoralCrusher: {
-				// DisplayName: Triturador de Coral
-				/* Tooltip:
+				DisplayName: Triturador de Coral
+				Tooltip:
 					'''
 					{$Mods.CatalystMod.Tooltips.WhipTooltip}
 					Golpear a un enemigo con la punta incrusta una astilla de coral
 					Los ataques de los esbirros pueden romper la astilla de coral, deteniendo su movimiento y provocando 6% de daño de invocación
-					''' */
+					'''
 			}
 
 			WulfrumSatchelCharge: {
-				// DisplayName: Carga de satchel Wulfrum
-				/* Tooltip:
+				DisplayName: Carga de satchel Wulfrum
+				Tooltip:
 					'''
 					Provoca una enorme explosión que destruye bloques al atacar en sigilo
 					'No te acerques demasiado'
-					''' */
+					'''
 			}
 
 			WulfrumFlashlight: {
-				// DisplayName: Linterna Wulfrum
-				/* Tooltip:
+				DisplayName: Linterna Wulfrum
+				Tooltip:
 					'''
 					'Iluminando el camino hacia una nueva actualización'
 					Clic izquierdo para encender la linterna, doble clic para cambiar entre las lentes en tu inventario.
-					''' */
+					'''
 			}
 
 			AmethystFlashlightLens: {
-				// DisplayName: Lente de linterna amatista
-				// Tooltip: "{$Mods.CatalystMod.Tooltips.LensTooltip}"
+				DisplayName: Lente de linterna amatista
+				Tooltip: "{$Mods.CatalystMod.Tooltips.LensTooltip}"
 			}
 
 			TopazFlashlightLens: {
-				// DisplayName: Lente de linterna topacio
-				// Tooltip: "{$Mods.CatalystMod.Tooltips.LensTooltip}"
+				DisplayName: Lente de linterna topacio
+				Tooltip: "{$Mods.CatalystMod.Tooltips.LensTooltip}"
 			}
 
 			SapphireFlashlightLens: {
-				// DisplayName: Lente de linterna zafiro
-				// Tooltip: "{$Mods.CatalystMod.Tooltips.LensTooltip}"
+				DisplayName: Lente de linterna zafiro
+				Tooltip: "{$Mods.CatalystMod.Tooltips.LensTooltip}"
 			}
 
 			EmeraldFlashlightLens: {
-				// DisplayName: Lente de linterna esmeralda
-				// Tooltip: "{$Mods.CatalystMod.Tooltips.LensTooltip}"
+				DisplayName: Lente de linterna esmeralda
+				Tooltip: "{$Mods.CatalystMod.Tooltips.LensTooltip}"
 			}
 
 			RubyFlashlightLens: {
-				// DisplayName: Lente de linterna rubí
-				// Tooltip: "{$Mods.CatalystMod.Tooltips.LensTooltip}"
+				DisplayName: Lente de linterna rubí
+				Tooltip: "{$Mods.CatalystMod.Tooltips.LensTooltip}"
 			}
 
 			DiamondFlashlightLens: {
-				// DisplayName: Lente de linterna diamante
-				// Tooltip: "{$Mods.CatalystMod.Tooltips.LensTooltip}"
+				DisplayName: Lente de linterna diamante
+				Tooltip: "{$Mods.CatalystMod.Tooltips.LensTooltip}"
 			}
 
 			AmberFlashlightLens: {
-				// DisplayName: Lente de linterna ámbar
-				// Tooltip: "{$Mods.CatalystMod.Tooltips.LensTooltip}"
+				DisplayName: Lente de linterna ámbar
+				Tooltip: "{$Mods.CatalystMod.Tooltips.LensTooltip}"
 			}
 
 			TeamFlashlightLens: {
-				// DisplayName: Lente de linterna de equipo
-				/* Tooltip:
+				DisplayName: Lente de linterna de equipo
+				Tooltip:
 					'''
 					{$Mods.CatalystMod.Tooltips.LensTooltip}
 					The color depends on your selected team
-					''' */
+					'''
 			}
 
 			Astrageldon1MusicBox.DisplayName: Caja de Música (Astrageldon Fase 1)
@@ -685,21 +685,21 @@ Mods: {
 					'''
 			}
 
-			// AstrageldonMenuMusicBox.DisplayName: Mods.CatalystMod.ItemName.AstrageldonMenuMusicBox
+			AstrageldonMenuMusicBox.DisplayName: Mods.CatalystMod.ItemName.AstrageldonMenuMusicBox
 
 			WulfrumMineBanner: {
-				// DisplayName: "{$Mods.CatalystMod.NPCs.WulfrumMine.DisplayName} Banner"
-				// Tooltip: "{$CommonItemTooltip.BannerBonus}{$Mods.CatalystMod.NPCs.WulfrumMine.DisplayName}"
+				DisplayName: "{$Mods.CatalystMod.NPCs.WulfrumMine.DisplayName} Banner"
+				Tooltip: "{$CommonItemTooltip.BannerBonus}{$Mods.CatalystMod.NPCs.WulfrumMine.DisplayName}"
 			}
 
 			WulfrumSlimeBanner: {
-				// DisplayName: "{$Mods.CatalystMod.NPCs.WulfrumSlime.DisplayName} Banner"
-				// Tooltip: "{$CommonItemTooltip.BannerBonus}{$Mods.CatalystMod.NPCs.WulfrumSlime.DisplayName}"
+				DisplayName: "{$Mods.CatalystMod.NPCs.WulfrumSlime.DisplayName} Banner"
+				Tooltip: "{$CommonItemTooltip.BannerBonus}{$Mods.CatalystMod.NPCs.WulfrumSlime.DisplayName}"
 			}
 		}
 
-		// ItemTooltip.Extra.HideofAstrumDeus: Resistencia del 50% al Debuff Plaga Astral
-		// ItemTooltipExtra0.AstralCommunicator: Haz clic derecho para invocar a Astrageldon en su primera fase
+		ItemTooltip.Extra.HideofAstrumDeus: Resistencia del 50% al Debuff Plaga Astral
+		ItemTooltipExtra0.AstralCommunicator: Haz clic derecho para invocar a Astrageldon en su primera fase
 		ItemTooltipExtra1.AstralCommunicator: El núcleo ha sido destruido por la energía liberada por la muerte de una deidad lunar...
 
 		ArmorSetBonus: {
@@ -738,7 +738,7 @@ Mods: {
 
 		Projectiles: {
 			IntergelacticMinionOrbitingRocks.DisplayName: Barrera de asteroides
-			// AsteroidBusterProj.DisplayName: Destructor de asteroides
+			AsteroidBusterProj.DisplayName: Destructor de asteroides
 			AsteroidBusterExplosion.DisplayName: Destructor de asteroides
 			NebulaSpear.DisplayName: Lanza hiperespacial
 			Astralpod.DisplayName: Medusa astral
@@ -757,101 +757,101 @@ Mods: {
 			StarLaser.DisplayName: Llamarada marchita
 			AstraBlade.DisplayName: Obelisco arruinado
 			AstrageldonLaser.DisplayName: Haz marchito
-			// AstrageldonFlamethrower.DisplayName: Llamas corruptas
-			// BreathofGlaciesFlamethrower.DisplayName: Llamas glaciales
-			// DesertScorcherDrop.DisplayName: Disparo abrasador
-			// IchorthrowerFlame.DisplayName: Ícor encendido
-			// IchorthrowerBubbleM.DisplayName: Burbuja del Lanzador de Ícor
-			// IchorthrowerBubbleS.DisplayName: Burbuja del Lanzador de Ícor
-			// NovaBeam.DisplayName: Rayo nova
-			// NovaFlame.DisplayName: Llama nova
-			// NovaGlobe.DisplayName: Globo nova
-			// PlasmilegionFireball.DisplayName: Explosión de plasma
-			// PlasmilegionFlamethrower.DisplayName: Legión de plasma
-			// PlasmilegionCalamityLaser.DisplayName: Rayo de la Legión de Plasma
-			// RepentanceFlamethrower.DisplayName: Arrepentimiento
-			// RepentanceForwardFireball.DisplayName: Arrepentimiento
-			// RepentanceCircle.DisplayName: Arrepentimiento
-			// RookOfVengeanceMFireball.DisplayName: Torre de la Anarquía
-			// RookOfVengeanceMFireballSpin.DisplayName: Torre de la Anarquía
-			// RookOfVengeanceMFireballBlast.DisplayName: Torre de la Anarquía
-			// CuteSandstoneShark.DisplayName: Ökenhaj
-			// BlossomDriftingLeaf.DisplayName: Pétalo flotante
-			// BlossomBuffLeaf.DisplayName: Pétalo bendecido
-			// BlossomsBlessingProjectile.DisplayName: Bendición de la floración
-			// CatharsisProjectile.DisplayName: Catarsis
-			// HighCatharsis.DisplayName: Catarsis superior
-			// CoralCrusherProjectile.DisplayName: Triturador de coral
-			// CoralCrusherShard.DisplayName: Fragmento de coral
-			// CongeledCrimsonProjectile.DisplayName: Doble látigo coagulado (Carmesí)
-			// CongeledCorruptProjectile.DisplayName: Doble látigo coagulado (Corrupto)
-			// PrismBreakProjectile.DisplayName: Ruptura prismática
-			// ResonantStrikerProjectile.DisplayName: Golpe resonante
-			// SandstoneReignsProjectile.DisplayName: Riendas de arenisca
-			// SharkSandSplash.DisplayName: Salpicadura de tiburón
-			// UnderbiteProjectile.DisplayName: Fauces ácidas
-			// UnderbiteSkull.DisplayName: Calavera de las Fauces ácidas
-			// UnrelentingTormentProjectile.DisplayName: Tormento incesante
-			// UnrelentingTormentHands.DisplayName: Mano torturadora
-			// UnrelentingTormentSoul.DisplayName: Alma inmortal
-			// ElectricStomp.DisplayName: Pisada eléctrica
+			AstrageldonFlamethrower.DisplayName: Llamas corruptas
+			BreathofGlaciesFlamethrower.DisplayName: Llamas glaciales
+			DesertScorcherDrop.DisplayName: Disparo abrasador
+			IchorthrowerFlame.DisplayName: Ícor encendido
+			IchorthrowerBubbleM.DisplayName: Burbuja del Lanzador de Ícor
+			IchorthrowerBubbleS.DisplayName: Burbuja del Lanzador de Ícor
+			NovaBeam.DisplayName: Rayo nova
+			NovaFlame.DisplayName: Llama nova
+			NovaGlobe.DisplayName: Globo nova
+			PlasmilegionFireball.DisplayName: Explosión de plasma
+			PlasmilegionFlamethrower.DisplayName: Legión de plasma
+			PlasmilegionCalamityLaser.DisplayName: Rayo de la Legión de Plasma
+			RepentanceFlamethrower.DisplayName: Arrepentimiento
+			RepentanceForwardFireball.DisplayName: Arrepentimiento
+			RepentanceCircle.DisplayName: Arrepentimiento
+			RookOfVengeanceMFireball.DisplayName: Torre de la Anarquía
+			RookOfVengeanceMFireballSpin.DisplayName: Torre de la Anarquía
+			RookOfVengeanceMFireballBlast.DisplayName: Torre de la Anarquía
+			CuteSandstoneShark.DisplayName: Ökenhaj
+			BlossomDriftingLeaf.DisplayName: Pétalo flotante
+			BlossomBuffLeaf.DisplayName: Pétalo bendecido
+			BlossomsBlessingProjectile.DisplayName: Bendición de la floración
+			CatharsisProjectile.DisplayName: Catarsis
+			HighCatharsis.DisplayName: Catarsis superior
+			CoralCrusherProjectile.DisplayName: Triturador de coral
+			CoralCrusherShard.DisplayName: Fragmento de coral
+			CongeledCrimsonProjectile.DisplayName: Doble látigo coagulado (Carmesí)
+			CongeledCorruptProjectile.DisplayName: Doble látigo coagulado (Corrupto)
+			PrismBreakProjectile.DisplayName: Ruptura prismática
+			ResonantStrikerProjectile.DisplayName: Golpe resonante
+			SandstoneReignsProjectile.DisplayName: Riendas de arenisca
+			SharkSandSplash.DisplayName: Salpicadura de tiburón
+			UnderbiteProjectile.DisplayName: Fauces ácidas
+			UnderbiteSkull.DisplayName: Calavera de las Fauces ácidas
+			UnrelentingTormentProjectile.DisplayName: Tormento incesante
+			UnrelentingTormentHands.DisplayName: Mano torturadora
+			UnrelentingTormentSoul.DisplayName: Alma inmortal
+			ElectricStomp.DisplayName: Pisada eléctrica
 			AsteroidBuster.DisplayName: Destructor de asteroides
-			// AstrageldonSpawner.DisplayName: Generador de Astrageldon
-			// NebulaSphere.DisplayName: Humo hiper nova
-			// WulfrumMineExplosion.DisplayName: Explosión Wulfrum
-			// IntergelacticLaser.DisplayName: Láser intergaláctico
-			// IntergelacticStar.DisplayName: Estrella intergaláctica
-			// NebulaHitbox.DisplayName: Caja de colisión de nebulosa
-			// AsteroidBusterProjS.DisplayName: Proyectil pequeño del Destructor de asteroides
-			// AstrageldonPet.DisplayName: Mascota Astrageldon
-			// AstragelgunFlamethrower.DisplayName: Llamas del Astragelgun
-			// AstragelgunProj.DisplayName: Proyectil del Astragelgun
-			// BreathofGlaciesIceShards.DisplayName: Fragmento de hielo
-			// BreathofGlaciesProj.DisplayName: Proyectil Aliento de Glacies
-			// BreathofGlaciesRunes.DisplayName: Runas del Aliento de Glacies
-			// DesertScorcherEnemySplash.DisplayName: Salpicadura del Quemador del Desierto (enemigo)
-			// DesertScorcherProj.DisplayName: Proyectil del Quemador del Desierto
-			// DesertScorcherSpray.DisplayName: Rociado del Quemador del Desierto
-			// DesertScorcherTileSplash.DisplayName: Salpicadura de bloques del Quemador del Desierto
-			// IchorthrowerProj.DisplayName: Proyectil del Lanzador de Ícor
-			// IchorthrowerSplashM.DisplayName: Salpicadura grande del Lanzador de Ícor
-			// IchorthrowerSplashS.DisplayName: Salpicadura pequeña del Lanzador de Ícor
-			// PlasmilegionProj.DisplayName: Proyectil de la Legión de Plasma
-			// RepentanceProj.DisplayName: Proyectil Arrepentimiento
-			// RookOfVengeanceProj.DisplayName: Proyectil Torre de la Anarquía
-			// StaticInfernoFlamethrower.DisplayName: Llamas Tormenta Voltaica
-			// StaticInfernoFlamethrowerOrb.DisplayName: Orbe Llamas Tormenta Voltaica
-			// StaticInfernoProj.DisplayName: Proyectil Tormenta Voltaica
-			// MiniStar.DisplayName: Mini estrella
-			// StarSpawner.DisplayName: Generador de estrellas
-			// AstralRocksRogueShot.DisplayName: Disparo de piedras astrales (Lanzador)
-			// InterstellarVolutionProj.DisplayName: Proyectil de la Evolución Interestelar
-			// InterstellarVolutionSlimer.DisplayName: Babosa de la Evolución Interestelar
-			// InterstellarVolutionSlimerBullet.DisplayName: Bala de la Babosa Interestelar
-			// WulfrumMineExplosionNobreak.DisplayName: Explosión Wulfrum (sin romper)
-			// WulfrumSatchelChargeProj.DisplayName: Proyectil de la carga Wulfrum
-			// AstralpodLaser.DisplayName: Rayo quásar
-			// AstralpodMinion.DisplayName: Esbirro medusa astral
-			// IntergelacticMinionRockShot.DisplayName: Disparo de roca del esbirro intergaláctico
-			// CatharsisSpawner.DisplayName: Generador de Catarsis
-			// CatharsisSplash.DisplayName: Salpicadura de Catarsis
-			// HighCatharsisDown.DisplayName: Catarsis superior (abajo)
-			// HighCatharsisUp.DisplayName: Catarsis superior (arriba)
-			// DevouringBlackhole.DisplayName: Agujero negro devorador
-			// DuoWhipSpawner.DisplayName: Generador de látigo doble
-			// PrismBreakHoming.DisplayName: Ruptura prismática buscadora
-			// PrismBreakShard.DisplayName: Fragmento de Ruptura prismática
-			// ResonantStrikerOrb.DisplayName: Orbe del Golpe resonante
-			// SerpentsTongueProjectile.DisplayName: Proyectil Lengua de serpiente
-			// UnrelentingTormentSpawner.DisplayName: Generador de Tormento incesante
-			// AstralRocksProj.DisplayName: Proyectil de rocas astrales
-			// FlashlightConeFriendly.DisplayName: Cono de linterna (amigable)
-			// FlashlightProj.DisplayName: Proyectil de linterna
-			// GelSpray.DisplayName: Rociado de gel
-			// GoozmaBall.DisplayName: Bola de Goozma
-			// AstralLashProj.DisplayName: Proyectil del Gancho Astral
-			// ScytheoftheAbandonedGod.DisplayName: Guadaña del Dios Abandonado
-			// ScytheoftheAbandonedGodShot.DisplayName: Disparo Guadaña del Dios Abandonado
+			AstrageldonSpawner.DisplayName: Generador de Astrageldon
+			NebulaSphere.DisplayName: Humo hiper nova
+			WulfrumMineExplosion.DisplayName: Explosión Wulfrum
+			IntergelacticLaser.DisplayName: Láser intergaláctico
+			IntergelacticStar.DisplayName: Estrella intergaláctica
+			NebulaHitbox.DisplayName: Caja de colisión de nebulosa
+			AsteroidBusterProjS.DisplayName: Proyectil pequeño del Destructor de asteroides
+			AstrageldonPet.DisplayName: Mascota Astrageldon
+			AstragelgunFlamethrower.DisplayName: Llamas del Astragelgun
+			AstragelgunProj.DisplayName: Proyectil del Astragelgun
+			BreathofGlaciesIceShards.DisplayName: Fragmento de hielo
+			BreathofGlaciesProj.DisplayName: Proyectil Aliento de Glacies
+			BreathofGlaciesRunes.DisplayName: Runas del Aliento de Glacies
+			DesertScorcherEnemySplash.DisplayName: Salpicadura del Quemador del Desierto (enemigo)
+			DesertScorcherProj.DisplayName: Proyectil del Quemador del Desierto
+			DesertScorcherSpray.DisplayName: Rociado del Quemador del Desierto
+			DesertScorcherTileSplash.DisplayName: Salpicadura de bloques del Quemador del Desierto
+			IchorthrowerProj.DisplayName: Proyectil del Lanzador de Ícor
+			IchorthrowerSplashM.DisplayName: Salpicadura grande del Lanzador de Ícor
+			IchorthrowerSplashS.DisplayName: Salpicadura pequeña del Lanzador de Ícor
+			PlasmilegionProj.DisplayName: Proyectil de la Legión de Plasma
+			RepentanceProj.DisplayName: Proyectil Arrepentimiento
+			RookOfVengeanceProj.DisplayName: Proyectil Torre de la Anarquía
+			StaticInfernoFlamethrower.DisplayName: Llamas Tormenta Voltaica
+			StaticInfernoFlamethrowerOrb.DisplayName: Orbe Llamas Tormenta Voltaica
+			StaticInfernoProj.DisplayName: Proyectil Tormenta Voltaica
+			MiniStar.DisplayName: Mini estrella
+			StarSpawner.DisplayName: Generador de estrellas
+			AstralRocksRogueShot.DisplayName: Disparo de piedras astrales (Lanzador)
+			InterstellarVolutionProj.DisplayName: Proyectil de la Evolución Interestelar
+			InterstellarVolutionSlimer.DisplayName: Babosa de la Evolución Interestelar
+			InterstellarVolutionSlimerBullet.DisplayName: Bala de la Babosa Interestelar
+			WulfrumMineExplosionNobreak.DisplayName: Explosión Wulfrum (sin romper)
+			WulfrumSatchelChargeProj.DisplayName: Proyectil de la carga Wulfrum
+			AstralpodLaser.DisplayName: Rayo quásar
+			AstralpodMinion.DisplayName: Esbirro medusa astral
+			IntergelacticMinionRockShot.DisplayName: Disparo de roca del esbirro intergaláctico
+			CatharsisSpawner.DisplayName: Generador de Catarsis
+			CatharsisSplash.DisplayName: Salpicadura de Catarsis
+			HighCatharsisDown.DisplayName: Catarsis superior (abajo)
+			HighCatharsisUp.DisplayName: Catarsis superior (arriba)
+			DevouringBlackhole.DisplayName: Agujero negro devorador
+			DuoWhipSpawner.DisplayName: Generador de látigo doble
+			PrismBreakHoming.DisplayName: Ruptura prismática buscadora
+			PrismBreakShard.DisplayName: Fragmento de Ruptura prismática
+			ResonantStrikerOrb.DisplayName: Orbe del Golpe resonante
+			SerpentsTongueProjectile.DisplayName: Proyectil Lengua de serpiente
+			UnrelentingTormentSpawner.DisplayName: Generador de Tormento incesante
+			AstralRocksProj.DisplayName: Proyectil de rocas astrales
+			FlashlightConeFriendly.DisplayName: Cono de linterna (amigable)
+			FlashlightProj.DisplayName: Proyectil de linterna
+			GelSpray.DisplayName: Rociado de gel
+			GoozmaBall.DisplayName: Bola de Goozma
+			AstralLashProj.DisplayName: Proyectil del Gancho Astral
+			ScytheoftheAbandonedGod.DisplayName: Guadaña del Dios Abandonado
+			ScytheoftheAbandonedGodShot.DisplayName: Disparo Guadaña del Dios Abandonado
 		}
 		AuricTeslaPlusSet: {
 			Melee:
@@ -902,19 +902,19 @@ Mods: {
 
 			IntergelacticChest: {
 				MapEntry: Cofre Intergeláctico
-				// ContainerName: Intergelactic Chest
+				ContainerName: Intergelactic Chest
 			}
 
 			IntergelacticDoor.MapEntry: Puerta Intergeláctica
 
 			IntergelacticDresser: {
 				MapEntry: Aparador Intergeláctico
-				// ContainerName: Intergelactic Dresser
+				ContainerName: Intergelactic Dresser
 			}
 
 			BossTrophy.MapEntry: Trofeo
 			EnemyBanners.MapEntry: Estandarte
-			// AstralNeutronPlaced.MapEntry: Painting
+			AstralNeutronPlaced.MapEntry: Painting
 			IntergelacticBathtub.MapEntry: Bañera Intergeláctica
 			IntergelacticBed.MapEntry: Cama Intergeláctica
 			IntergelacticBookshelf.MapEntry: Estantería Intergeláctica
@@ -931,8 +931,8 @@ Mods: {
 			IntergelacticTable.MapEntry: Mesa Intergeláctica
 			IntergelacticToilet.MapEntry: Retrete Intergeláctico
 			IntergelacticWorkbench.MapEntry: Mesa de trabajo Intergeláctica
-			// MetanovaOre.MapEntry: Metanova Ore
-			// IntergelacticDoorOpen.MapEntry: Door
+			MetanovaOre.MapEntry: Metanova Ore
+			IntergelacticDoorOpen.MapEntry: Door
 		}
 
 		Buffs: {
@@ -957,8 +957,8 @@ Mods: {
 			}
 
 			AstralpodBuff: {
-				// DisplayName: Astralpod
-				// Description: The astralpod will protect you
+				DisplayName: Astralpod
+				Description: The astralpod will protect you
 			}
 
 			AstralBlight: {
@@ -976,33 +976,33 @@ Mods: {
 			}
 
 			AstrageldonPetBuff: {
-				// DisplayName: Slime Deity
-				// Description: He will consume all
+				DisplayName: Slime Deity
+				Description: He will consume all
 			}
 
 			BlessedBlossoms: {
-				// DisplayName: Blessed Blossoms
-				// Description: Blessed with powerful thorns and regeneration
+				DisplayName: Blessed Blossoms
+				Description: Blessed with powerful thorns and regeneration
 			}
 
 			ReverberatingParalysis: {
-				// DisplayName: Reverberating Paralysis
-				// Description: Stunned by electricity
+				DisplayName: Reverberating Paralysis
+				Description: Stunned by electricity
 			}
 
 			DefaultTag: {
-				// DisplayName: Tagged
-				// Description: Tagged by a whip
+				DisplayName: Tagged
+				Description: Tagged by a whip
 			}
 
 			CatharsisBuff: {
-				// DisplayName: Burning Blood
-				// Description: Blood for blood...
+				DisplayName: Burning Blood
+				Description: Blood for blood...
 			}
 
 			CatharsisBuff2: {
-				// DisplayName: Sanguine Mastery
-				// Description: From blood, power...
+				DisplayName: Sanguine Mastery
+				Description: From blood, power...
 			}
 		}
 
@@ -1013,12 +1013,12 @@ Mods: {
 		}
 
 		Tooltips: {
-			// FlawlessDrop: - Flawless Drop -
+			FlawlessDrop: - Flawless Drop -
 			NotConsumable: No consumible
-			// ClentaminatorSolution: Used by the Clentaminator
-			// WhipTooltip: Your summons will focus struck enemies
-			// Flamethrower: Consumes gel
-			// LensTooltip: Changes the color of your flashlight
+			ClentaminatorSolution: Used by the Clentaminator
+			WhipTooltip: Your summons will focus struck enemies
+			Flamethrower: Consumes gel
+			LensTooltip: Changes the color of your flashlight
 			LegendaryChallengeDrop: - Objeto de Desafío Legendario -
 		}
 
@@ -1047,10 +1047,10 @@ Mods: {
 				Si algunas rarezas especiales tienen o no destellos. 
 				Esto puede hacer que el texto sea difícil de leer cuando está habilitado.
 				'''
-			// CatharsisBarX: Catharsis Meter X Position
-			// CatharsisBarY: Catharsis Meter Y Position
-			// CatharsisXTooltip: The X position of the Catharsis Blood Charge meter, measured as a % of your screen width.
-			// CatharsisYTooltip: The Y position of the Catharsis Blood Charge meter, measured as a % of your screen height.
+			CatharsisBarX: Catharsis Meter X Position
+			CatharsisBarY: Catharsis Meter Y Position
+			CatharsisXTooltip: The X position of the Catharsis Blood Charge meter, measured as a % of your screen width.
+			CatharsisYTooltip: The Y position of the Catharsis Blood Charge meter, measured as a % of your screen height.
 			discordRichPresence: Mejor presencia en Discord ([c/ffaa11:Requiere DRP Mod!])
 			discordRichPresenceTooltip:
 				'''
@@ -1065,26 +1065,26 @@ Mods: {
 				'''
 			TextSparklesLabel: "[i:3459] Destellos de texto"
 			SulphurousSeaCustomBGLabel: "[i:6738] Fondo del mar sulfúrico personalizado"
-			// CatharsisBarXLabel: "[i:7637] Catharsis Meter X Position"
-			// CatharsisBarYLabel: "[i:7637] Catharsis Meter Y Position"
+			CatharsisBarXLabel: "[i:7637] Catharsis Meter X Position"
+			CatharsisBarYLabel: "[i:7637] Catharsis Meter Y Position"
 		}
 
 		TitleIcon: {
 			Astrageldon: {
-				// 1: Astrageldon is unfightable
-				// 3: Astrageldon is fightable
-				// 4: Astrageldon is defeated
+				1: Astrageldon is unfightable
+				3: Astrageldon is fightable
+				4: Astrageldon is defeated
 			}
 		}
 
 		Bestiary: {
-			// Astrageldon: An interdimensional slime infused with God-like power. Empowered by the blighted astral, it grew to absorb its entire host universe.
-			// NovaSlime: A small fragment of Astrageldon. The Nova Slime holds an immense amount of energy, but lacks the mass to remain stable.
-			// NovaSlimer: This high-density orb bears blades that can pierce dimensions. When they are launched at high speeds, they tear holes through the fabric of reality.
-			// AscendedAstralSlime: A gelatinous star-spawn formed from pure energy released from another universe. At their core is a chunk of alien stone bearing a resonant orb.
-			// MetanovaSlime: The destruction of Astrageldon infused the astral caverns with a gleaming alien rock. These slimes fused with small fragments of this stone, creating maneuverable, yet durable plates of armor.
-			// WulfrumSlime: When approached by a hostile, these machines release gel, causing them to grow and create an energy shield. The high conductivity and cooling properties of gel make this 'slime' a great choice for keeping shield generators in safe hands.
-			// WulfrumMine: Abandoned before its completion, the Wulfrum Mine was originally designed to perform all other functions of the Wulfrum constructs. They were only ever good for large explosions, vaporizing whatever it caught in its radius.
+			Astrageldon: An interdimensional slime infused with God-like power. Empowered by the blighted astral, it grew to absorb its entire host universe.
+			NovaSlime: A small fragment of Astrageldon. The Nova Slime holds an immense amount of energy, but lacks the mass to remain stable.
+			NovaSlimer: This high-density orb bears blades that can pierce dimensions. When they are launched at high speeds, they tear holes through the fabric of reality.
+			AscendedAstralSlime: A gelatinous star-spawn formed from pure energy released from another universe. At their core is a chunk of alien stone bearing a resonant orb.
+			MetanovaSlime: The destruction of Astrageldon infused the astral caverns with a gleaming alien rock. These slimes fused with small fragments of this stone, creating maneuverable, yet durable plates of armor.
+			WulfrumSlime: When approached by a hostile, these machines release gel, causing them to grow and create an energy shield. The high conductivity and cooling properties of gel make this 'slime' a great choice for keeping shield generators in safe hands.
+			WulfrumMine: Abandoned before its completion, the Wulfrum Mine was originally designed to perform all other functions of the Wulfrum constructs. They were only ever good for large explosions, vaporizing whatever it caught in its radius.
 		}
 
 		NPCs: {
@@ -1092,16 +1092,16 @@ Mods: {
 				DisplayName: Astrageldon
 
 				BossChecklistIntegration: {
-					// SpawnInfo: Spawned with an [i:CatalystMod/AstralCommunicator] in the Astral Infection
-					// DespawnMessage: "[c/db5ed2:The multiversal terror returns to its consumption.]"
+					SpawnInfo: Spawned with an [i:CatalystMod/AstralCommunicator] in the Astral Infection
+					DespawnMessage: "[c/db5ed2:The multiversal terror returns to its consumption.]"
 				}
 			}
 
-			// NovaSlime.DisplayName: Nova Slime
-			// NovaSlimer.DisplayName: Nova Slimer
-			// WulfrumSlime.DisplayName: Wulfrum Slime
-			// WulfrumMine.DisplayName: Wulfrum Mine
-			// AscendedAstralSlime.DisplayName: Ascended Astral Slime
+			NovaSlime.DisplayName: Nova Slime
+			NovaSlimer.DisplayName: Nova Slimer
+			WulfrumSlime.DisplayName: Wulfrum Slime
+			WulfrumMine.DisplayName: Wulfrum Mine
+			AscendedAstralSlime.DisplayName: Ascended Astral Slime
 			MetanovaSlime.DisplayName: "Slime Metanova "
 			MetanovaSlimeRocks.DisplayName: "Slime Metanova "
 			ArmoredAstralSlime.DisplayName: Slime Nova
@@ -1109,26 +1109,26 @@ Mods: {
 			AstrageldonSlime.DisplayName: Slime astral ascendido
 		}
 
-		// DropCondition.Flawless: Dropped when defeated flawlessly
+		DropCondition.Flawless: Dropped when defeated flawlessly
 
 		DeathMessage: {
 			InterstellarCorruption: " fue consumido por el espacio intermedio."
-			// CatharsisDeath: " was overtaken by their grief."
+			CatharsisDeath: " was overtaken by their grief."
 		}
 
-		// AstrageldonMainMenu: Astrageldon Style
-		/* AstrageldonAntiCheat:
+		AstrageldonMainMenu: Astrageldon Style
+		AstrageldonAntiCheat:
 			'''
 			The way you have summoned Astrageldon is unintended. 
 			Please do not report any balance issues you have with the boss or its loot.
 			Any no-hit with this message is invalid unless proven that the boss was summoned legitimately.
-			''' */
+			'''
 
 		Keybinds: {
-			// InfluxCluster: CatalystMod: Influx Cluster
-			// ToggleVisibility: CatalystMod: Toggle Intergelactic Setbonus Visibility
-			// "Influx Cluster.DisplayName": Influx  Cluster
-			// "Toggle Intergelactic Setbonus Visibility.DisplayName": Toggle  Intergelactic  Setbonus  Visibility
+			InfluxCluster: CatalystMod: Influx Cluster
+			ToggleVisibility: CatalystMod: Toggle Intergelactic Setbonus Visibility
+			"Influx Cluster.DisplayName": Influx  Cluster
+			"Toggle Intergelactic Setbonus Visibility.DisplayName": Toggle  Intergelactic  Setbonus  Visibility
 		}
 
 		+ItemTooltip.IntergelacticHornedHelmet:
@@ -1146,43 +1146,44 @@ Mods: {
 
 		Biomes: {
 			AstrageldonBiome: {
-				// DisplayName: Astrageldon Biome
-				// TownNPCDialogueName: the Astrageldon Biome
+				DisplayName: Astrageldon Biome
+				TownNPCDialogueName: the Astrageldon Biome
 			}
 		}
 
 		Configs: {
 			CatalystClientConfig: {
-				// DisplayName: "{$Mods.CatalystMod.ClientConfig.Name}"
+				DisplayName: "{$Mods.CatalystMod.ClientConfig.Name}"
 
 				textSparkles: {
-					// Label: "{$Mods.CatalystMod.ClientConfig.TextSparklesLabel}"
-					// Tooltip: "{$Mods.CatalystMod.ClientConfig.TextSparklesTooltip}"
+					Label: "{$Mods.CatalystMod.ClientConfig.TextSparklesLabel}"
+					Tooltip: "{$Mods.CatalystMod.ClientConfig.TextSparklesTooltip}"
 				}
 
 				CatharsisBarX: {
-					// Label: "{$Mods.CatalystMod.ClientConfig.CatharsisBarX}"
-					// Tooltip: "{$Mods.CatalystMod.ClientConfig.CatharsisXTooltip}"
+					Label: "{$Mods.CatalystMod.ClientConfig.CatharsisBarX}"
+					Tooltip: "{$Mods.CatalystMod.ClientConfig.CatharsisXTooltip}"
 				}
 
 				CatharsisBarY: {
-					// Label: "{$Mods.CatalystMod.ClientConfig.CatharsisBarY}"
-					// Tooltip: "{$Mods.CatalystMod.ClientConfig.CatharsisYTooltip}"
+					Label: "{$Mods.CatalystMod.ClientConfig.CatharsisBarY}"
+					Tooltip: "{$Mods.CatalystMod.ClientConfig.CatharsisYTooltip}"
 				}
 			}
 		}
 
 		MusicDisplay: {
 			SongNames: {
-				// AstrageldonTitle: Heaven's Hell-Sent Gift
-				// AstrageldonPhase1: Cosmic Disgust
-				// AstrageldonPhase2: Galactic Destruction
+				AstrageldonTitle: Heaven's Hell-Sent Gift
+				AstrageldonPhase1: Cosmic Disgust
+				AstrageldonPhase2: Galactic Destruction
 			}
 
 			Authors: {
-				// DMDOKURO: by DM DOKURO
-				// HeartPlusUp: by Heart Plus Up!
+				DMDOKURO: by DM DOKURO
+				HeartPlusUp: by Heart Plus Up!
 			}
 		}
 	}
 }
+
