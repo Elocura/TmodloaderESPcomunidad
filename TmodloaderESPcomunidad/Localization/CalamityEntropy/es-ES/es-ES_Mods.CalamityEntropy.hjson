@@ -244,7 +244,7 @@ Items: {
 	}
 
 	DivineIntervention: {
-		DisplayName: Intervención divina
+		DisplayName: Intervenciñon divina
 		Tooltip:
 			'''
 			Lanza un Escudo divino
@@ -467,6 +467,7 @@ Items: {
 
 	AuricBoulder: {
 		DisplayName: Roca grande áurica
+		Tooltip: ""
 	}
 
 	DustyStar: {
@@ -536,7 +537,7 @@ Items: {
 			Cuanto más alto sea el maná máximo, más vida se robará
 			+10% de daño mágico
 			'''
-	
+	}
 
 	PhantomPlanetKillerEngine: {
 		DisplayName: Motor del Asesino planetario fantasma
@@ -585,7 +586,7 @@ Items: {
 		DisplayName: Yelmo de devorador del Faquir del vacío
 	}
 
-	VoidFaquirCosmosHood: {
+	VoidFaquirEvokerHelm: {
 		Tooltip:
 			'''
 			+30% de daño mágico
@@ -594,6 +595,7 @@ Items: {
 			'''
 		DisplayName: Capucha del cosmos del Faquir del vacío
 	}
+
 	VoidFaquirEvokerHelm: {
 		DisplayName: Casco de invocación del Faquir del vacío
 		Tooltip: +80% de daño de invocación
@@ -741,7 +743,7 @@ Items: {
 	}
 
 	Mercy: {
-		Usa magia negra y el vacío para quemarlo todo
+		Tooltip: Usa magia negra y el vacío para quemarlo todo
 		DisplayName: Misericordia
 	}
 
@@ -810,6 +812,7 @@ Items: {
 
 	ToyKnife: {
 		DisplayName: Cuchillo de juguete
+		Tooltip: ""
 	}
 
 	DeusCore: {
@@ -990,6 +993,7 @@ Items: {
 	PoopPickup: {
 		Tooltip: ""
 		DisplayName: Recogida de excrementos
+	}
 
 	BrokenAnkh: {
 		Tooltip:
@@ -1558,6 +1562,7 @@ Items: {
 			'''
 			Dispara adicionalmente un proyectil más pequeño al atacar
 			+6 de penetración 
+			'''
 	}
 
 	BookMarkVirgo: {
@@ -1720,6 +1725,7 @@ Items: {
 
 	AzafureBatteringRam: {
 		DisplayName: Ariete de Azafure
+		Tooltip:
 			'''
 			Mantén pulsado el botón de atacar para cargar el arma y suéltalo para lanzarte hacia delante
 			Perfora a los enemigos y libera una potente explosión, inflingiendo daño adicional antes de rebotar
@@ -1950,6 +1956,7 @@ Items: {
 	}
 
 	HiveBullet: {
+		DisplayName:
 			'''
 			DisplayName: Bala de la colmena
 			Invoca abejas rastreadoras después de golpear
@@ -2662,7 +2669,7 @@ Items: {
 			Hold [UP] when flying to accelerate
 			'''
 	}
-}	
+}
 
 LOCKED: ": [LOCKED]"
 BCU1: Requires defeating King Slime
@@ -4047,5 +4054,4 @@ Biomes: {
 }
 
 NearShimmer: Near shimmer
-
 
