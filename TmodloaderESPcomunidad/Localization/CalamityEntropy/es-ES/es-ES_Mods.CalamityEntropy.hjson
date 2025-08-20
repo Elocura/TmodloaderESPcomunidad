@@ -1,7 +1,7 @@
 Items: {
 	VoidBlade: {
-		DisplayName: Void Blade
-		Tooltip: Quickly perform continuous slashing
+		DisplayName: Cuchilla del vacío
+		Tooltip: Realiza cortes profundos rápidamente
 	}
 
 	Weapons: {
@@ -9,91 +9,90 @@ Items: {
 			Revelation: {
 				Tooltip:
 					'''
-					Throw out a sickle
-					When Stealth, Chop and fire projectiles
-					'''
-				DisplayName: Revelation
+					Arroja una hoz
+					Al usar el ataque sigiloso, realizará un corte y lanzará proyectiles
+				DisplayName: Revelación
 			}
 
 			Silence: {
-				DisplayName: Silence
+				DisplayName: Silencio
 				Tooltip: ""
 			}
 
 			ShadewindLance: {
 				Tooltip:
 					'''
-					Throw out a javelin containing void
-					Stealth attacks will deal higher damage and can penetrate infinitely
+					Arroja una jabalina impregnada de vacío
+					Los ataques sigilosos causarán más daño y los proyectiles serán penetrantes de manera infinita
 					'''
-				DisplayName: Shadewind Lance
+				DisplayName: Lanza del viento sombrío
 			}
 
 			Aquashard: {
-				DisplayName: Aquashard
+				DisplayName: Fragmento acuático
 				Tooltip: ""
 			}
 
 			SpearOfRadiance: {
 				Tooltip: ""
-				DisplayName: Spear Of Radiance
+				DisplayName: Lanza del resplandor
 			}
 
 			AbyssalPiercer: {
-				DisplayName: Abyssal Piercer
+				DisplayName: Perforador abisal
 				Tooltip: ""
 			}
 
 			AzureOfFirmament: {
 				Tooltip: ""
-				DisplayName: Azure Of Firmament
+				DisplayName: Firmamento azulado
 			}
 
 			ArbitratorII: {
 				Tooltip: ""
-				DisplayName: Arbitrator II
+				DisplayName: Árbitro II
 			}
 
 			Voidseeker: {
-				Tooltip: Stealth Strike will teleport you to your cursor and deal significant damage
-				DisplayName: Voidseeker
+				Tooltip: Los ataques sigilosos te teletransportan al cursor, causando un daño significativo
+				DisplayName: Rastreador del vacío
 			}
 
 			TheBeginingAndTheEnd: {
-				DisplayName: The Beginning And The End
+				DisplayName: El comienzo Y el fin
 				Tooltip:
 					'''
-					Throw The Beginning or The End using left or right button
-					The End will apply Stare of Abyss debuff
-					The Beginning will apply Eclipsed Imprint debuff
-					When another type of knife hits, clear the debuff and generate Echo Soul or Eclipsed Soul based on the number of debuff layers
-					Echo Soul will continue to attack enemy monsters and disappear after a few seconds
-					Eclipsed soul will fly towards you and heal you, while temporarily increasing attack speed, attack damage, and crit chance
-					Stealth attack will simultaneously throw two knives and track the target, unleashing a large number of two types of souls upon impact
+					Arroja el arma El comienzo o El fin con el clic izquierdo o derecho
+					El fin aplicará el debuff Mirada del abismo
+					El comienzo aplicará el debuff Huella eclipsada
+					Cuando un cuchillo golpea a un enemigo con el debuff de su cuchillo contrario, elimina ese debuff y genera un Eco del alma o un Alma Eclipsada según el debuff que tuviera anteriormente
+					El Eco del alma continuará atacando a los monstruos enemigos y desaparecerá luego de unos segundos
+					El Alma eclipsada te seguirá y volará a tu alrededor mientras te cura. Además, aumentará la velocidad de ataque, el daño y la probabilidad de crítico
+					El ataque sigiloso lanzará dos cuchillos de forma simultánea y seguirán al objetivo, liberando una gran cantidad de almas de ambos cuchillos al impactar
 					'''
 			}
 
 			AmethystFrisbee: {
 				Tooltip: ""
-				DisplayName: Amethyst Frisbee
+				DisplayName: Frisbee de amatista
 			}
 
 			ProphecyFlyingKnife: {
 				Tooltip:
 					'''
-					Fires several homing throwing knives.
-					Stealth attack summons 6 orbiting rune orbs that attack enemies after a short time.
+					Lanza varios cuchillos arrojadizos teledirigidos.
+					El ataque sigiloso invoca 6 orbes rúnicos que orbitarán y atacarán a los enemigos tras un breve lapso de tiempo.
 					'''
-				DisplayName: Prophecy Flying Knife
+				DisplayName: Cuchillo volador profético
 			}
 
 			TheDeadCut: {
-				DisplayName: The Dead Cut
-				Tooltip: Restore some stealth after hitting
+				DisplayName: La Hendidura mortal
+				Tooltip: Recupera un poco de sigilo al golpear.
 			}
 
 			LunarPlank: {
-				DisplayName: Lunar Plank
+				DisplayName: Principio lunar
 				Tooltip: ""
 			}
 		}
@@ -102,96 +101,96 @@ Items: {
 	PrisonOfPermafrost: {
 		Tooltip:
 			'''
-			Summon a magic array while using
-			Continuously launching ice spikes and ice cones
+			Invoca una formación mágica mientras se usa
+			Lanza continuamente picos y conos de hielo
 			'''
-		DisplayName: Prison Of Permafrost
+		DisplayName: Prisón de Permafrost
 	}
 
 	Kinanition: {
-		DisplayName: Kinanition
+		DisplayName: Kinanición
 		Tooltip:
 			'''
-			[c/ce97fa:Left click to launch a series of lightning arrows]
-			[c/ce97fa:Lightning arrows retain the original effect of ammunition]
-			[c/ce97fa:and track after hitting the target,]
-			[c/0078b9:Right click to launch a tracking Thunderbolt Spear]
-			[c/0078b9:Burst out with lightning after hitting the target]
+			[c/ce97fa:Clic izquierdo para disparar una serie de flechas luminosas]
+			[c/ce97fa:Las flechas luminosas aplicarán el efecto de la munición que se esté usando]
+			[c/ce97fa:y se volverán teleridiginas al acertar al objetivo]
+			[c/0078b9:Clic derecho para disparar lanzas eléctricas]
+			[c/0078b9:Explotarán en rayos luego de acertar en el objetivo]
 			'''
 	}
 
 	VoidRelics: {
-		DisplayName: Void Relics
+		DisplayName: Reliquias del vacío
 		Tooltip:
 			'''
-			Spawns a Void Mark follow your mouse
-			Consume all summon slots
-			The more slots consumed, the higher the damage
+			Genera un Símbolo del vacío que sigue a tu cursor.
+			Consume todos las ranuras de súbditos
+			Cuantas más ranuras consuma, mayor será el daño
 			'''
 	}
 
 	AuricToilet: {
 		Tooltip:
 			'''
-			This was used by the Yharim
-			Sitting on such a throne would be a disgrace to all
-			"Now it can sit"
+			Fue usando por Yharim
+			Sentarse en semejante trono sería una deshonra para todos
+			"Ahora puede sentarse"
 			'''
-		DisplayName: Auric Toilet
+		DisplayName: Retrete áurico
 	}
 
 	LotteryBox: {
-		DisplayName: Lottery Box
+		DisplayName: Caja de la lotería
 		Tooltip:
 			'''
-			Spawn a Lottery Machine
-			"May have a hot temper"
+			Genera una a Máquina de lotería
+			"Puede tener mal genio"
 			'''
 	}
 
 	ToyRock: {
-		DisplayName: Toy Rock
+		DisplayName: Piedra de juguete
 		Tooltip:
 			'''
-			Spawn Wyrm-chan
-			"She's still young"
+			Invoca a Wyrm-chan
+			"Ella es joven todavía"
 			'''
 	}
 
 	YharimsStimulants: {
-		DisplayName: Yharims Stimulants
-		Tooltip: Gives decent buffs to ALL offensive and defensive stats
+		DisplayName: Estimulantes de Yharim
+		Tooltip: Proporciona mejoras medianas a TODAS las estadísticas ofensivas y defensivas 
 	}
 
 	VoidBottle: {
-		DisplayName: Void Bottle
-		Tooltip: Summon Cruiser
+		DisplayName: Frasco del vacío
+		Tooltip: Invoca al Cruiser
 	}
 
 	VoidMonument: {
-		DisplayName: Void Monument
+		DisplayName: Monumento del vacío
 		Tooltip: ""
 	}
 
 	Lore: {
 		CruiserLore.DisplayName: Cruiser
-		NihilityTwinLore.DisplayName: Nihility Twin
-		ProphetLore.DisplayName: Prophet
+		NihilityTwinLore.DisplayName: Gemelos de la Nihilidad
+		ProphetLore.DisplayName: Profeta
 		LuminarisLore.DisplayName: Luminaris
 	}
 
 	BrokenChainsaw: {
-		DisplayName: Broken Chainsaw
+		DisplayName: Motosierra rota
 		Tooltip: ""
 	}
 
 	MechanicalChainsaw: {
-		DisplayName: Mechanical Chainsaw
+		DisplayName: Motosierra mecánica
 		Tooltip: ""
 	}
 
 	EnslavedStar: {
-		DisplayName: Enslaved Star
+		DisplayName: Estrella esclavizada
 		Tooltip: ""
 	}
 
@@ -201,1011 +200,1007 @@ Items: {
 	}
 
 	Pioneer: {
-		DisplayName: Pioneer
+		DisplayName: Pionero
 		Tooltip: ""
 	}
 
 	GodsSnack: {
-		DisplayName: Gods Snack
+		DisplayName: Aperitivo de los dioses
 		Tooltip: ""
 	}
 
 	CruiserBag: {
-		DisplayName: Treasure Bag(Cruiser)
+		DisplayName: Bolsa del tesoro(Cruiser)
 		Tooltip: ""
 	}
 
 	CruiserRelic: {
-		DisplayName: Cruiser Relic
+		DisplayName: Reliquia del Cruiser 
 		Tooltip: ""
 	}
 
 	DivineRemnants: {
-		DisplayName: Divine Remnants
+		DisplayName: Vestigios divinos
 		Tooltip: ""
 	}
 
 	VoidElytra: {
-		DisplayName: Void Elytra
+		DisplayName: Elitras del vacío
 		Tooltip:
 			'''
-			Horizontal speed: [A]
-			Acceleration multiplier: [B]
-			Excellent vertical speed
-			Flight time: [C]
-			Allow you to dash in four directions
-			[c/356498:Dedicate life to the void and achieve breakthroughs in the limits]
+			Velocidad horizontal: [A]
+			Multiplicador de aceleración: [B]
+			Excelente velocidad vertical
+			Tiempo de vuelo: [C]
+			Permite lanzarse en las cuatro direcciones
+			[c/356498:Dedica tu vida al vacío y superar los límites]
 			'''
 	}
 
 	BottleDarkMatter: {
-		DisplayName: Bottle Dark Matter
+		DisplayName: Frasco de materia oscura
 		Tooltip: ""
 	}
 
 	DivineIntervention: {
-		DisplayName: Divine Intervention
+		DisplayName: Intervenciñon divina
 		Tooltip:
 			'''
-			Shoot a Divine Shield
-			Rebound projectile in contact with the projectile
+			Lanza un Escudo divino
+			Los proyectiles rebotan cuando entran en contacto con el escudo
 			'''
 	}
 
 	Godhead: {
-		DisplayName: Godhead
-		Tooltip: Your projectile will carry a halo, causing sustained damage to enemies within the halo
+		DisplayName: Cabeza de Dios
+		Tooltip: Tus proyectiles poseerán un halo y provocarán daño continuo a los enemigos que estén dentro de dicho halo
 	}
 
 	VoidEcho: {
 		Tooltip:
 			'''
-			Summon a circle of divine cannons
-			Releasing the mouse will simultaneously emit a void laser
-			"Even if it's just a part of the void, it has the power to annihilate all things"
+			Invoca un círculo de cañones divinos.
+			Al dejar de presionar el ratón emitirán rayos del vacío de forma simultánea
+			"Incluso si esto es solo una parte del poder del vacío, puede aniquilar a todas las cosas"
 			'''
-		DisplayName: Symbol of Theocracy
+		DisplayName: Símbolo de la teocracia
 	}
 
 	FriendBox: {
-		DisplayName: Friend Box
+		DisplayName: Cajón de amigos
 		Tooltip:
 			'''
-			Summon a pair of entangled twins, duplicating your barrage
-			Duplicated barrage deals 100% damage of the original weapon
-			"So, what is the price?"
-			[c/ff0000: your damage becomes 1/4 of the original]
-			Each pair of entangled twinses 4 summon slots.
+			Invoca a un par de gemelos inmóviles, que duplicarán tus proyectiles
+			Los proyectiles duplicados causan un 100% del daño del arma original
+			"Así que, cual es el precio?"
+			[c/ff0000: la aplicación de tu daño es del 1/4 del daño original]
+			Cada par de gemelos inmóviles ocupan 4 ranuras de súbditos.
 			'''
 	}
 
 	LightningPendant: {
-		DisplayName: Lightning Pendant
+		DisplayName: Colgante relámpago
 		Tooltip: ""
 	}
 
 	EvilFriend: {
-		DisplayName: Evil Friend
-		Tooltip: Summon a Lil Brimstone
+		DisplayName: Amigo malvado
+		Tooltip: Invoca un Mini-azufre
 	}
 
 	TheocracyPearlToy: {
-		DisplayName: Theocracy Pearl Toy
+		DisplayName: Perla de la teocracia de juguete
 		Tooltip: ""
 	}
 
 	CruiserTrophy: {
 		Tooltip: ""
-		DisplayName: Cruiser Trophy
+		DisplayName: Trofeo del Cruiser 
 	}
 
 	VoidMonolith: {
 		Tooltip: ""
-		DisplayName: Void Monolith
+		DisplayName: Monolito del vacío
 	}
 
 	VoidToy: {
-		DisplayName: Void Toy
+		DisplayName: Juguete del vacío
 		Tooltip: ""
 	}
 
 	WingsOfHush: {
-		Tooltip: Shoot powerful void arrow
-		DisplayName: Wings Of Hush
+		Tooltip: Lanza una poderosa flecha del vacío
+		DisplayName: Alas del silencio
 	}
 
 	SoyMilk: {
-		DisplayName: Soy Milk
-		Tooltip: More attack speed, less damage
+		DisplayName: Leche de soja
+		Tooltip: Más velocidad de ataque acosta de reducir el daño aplicado
 	}
 
 	DarkArts: {
-		Tooltip: "[c/ff0000:This item is now WIP]"
-		DisplayName: Dark Arts
+		Tooltip: "[c/ff0000:Este ítem no se puede obtener]"
+		DisplayName: Artes oscuras
 	}
 
 	VenomPiece: {
-		DisplayName: Venom Piece
+		DisplayName: Trozo de veneno
 		Tooltip: ""
 	}
 
 	WisdomCard: {
-		DisplayName: Oracle Card 『Wisdom』
+		DisplayName: Carta del oráculo 『Sabiduría』
 		Tooltip:
 			'''
-			-[COST]% Mana Cost  
-			"Reason prevails, victory follows"  
+			-[COST]% de coste de maná
+			"Se imponte la razón, llega la victoria"  
 			'''
 	}
 
 	TemperanceCard: {
-		DisplayName: Oracle Card 『Temperance』
+		DisplayName: Carta del oráculo 『Templanza』
 		Tooltip:
 			'''
-			+[T] Summon Slot  
-			"Restrain desire, command legions"  
+			+[T] de espacio de súbditos 
+			"Refrena el deseo, comanda legiones"  
 			'''
 	}
 
 	RadianceCard: {
-		DisplayName: Oracle Card 『Radiance』
+		DisplayName: Carta del oráculo 『Esplendor』
 		Tooltip:
 			'''
-			+[LR]% Life Regeneration  
-			"Emit light, mend the soul"  
+			+[LR]% de regeneración de vida 
+			"Emite luz, repara el alma"  
 			'''
 	}
 
 	OracleDeck: {
 		Tooltip:
 			'''
-			+[CR]% Crit Chance
-			+20% Move Speed
-			+[ST] Max Stealth
-			-30% Mana Cost
-			-10% Damage Taken
-			+[AP] Armor Penetration
-			+[MN] Minion Slot
-			+[ATS]% Melee speed
-			+100% Light
-			Heal players nearby 10 per 5 sec
+			+[CR]% de probabilidad de crítico
+			+20% de velocidad de movimiento
+			+[ST] de sigilo máximo
+			-30% de coste de maná
+			-10% de daño recibido
+			+[AP] de penetración de armadura
+			+[MN] de espacio de súbditos
+			+[ATS]% velocidad de ataque cuerpo a cuerpo
+			+100% de luz
+			Cura a los aliados cercanos 10 de vida cada 5 segundos
 			'''
-		DisplayName: Oracle Deck
+		DisplayName: Baraja del oráculo
 	}
 
 	MetropolisCard: {
-		DisplayName: Oracle Card 『Metropolis』
+		DisplayName: Carta del oráculo 『Metrópolis』
 		Tooltip:
 			'''
-			+10 Max Stealth  
-			"Lush palaces, hidden in depth"  
+			+10 de sigilo máximo
+			"Palacios exuberantes, escondidos en las profunidades"  
 			'''
 	}
 
 	InspirationCard: {
-		DisplayName: Oracle Card 『Inspiration』
+		DisplayName: Carta del oráculo 『Inspiración』
 		Tooltip:
 			'''
-			+20% Movement Speed  
-			"Epiphany strikes, swift as wind"  
+			+20% de velocidad de movimiento 
+			"La epifanía regresa, rápida como el viento"  
 			'''
 	}
 
 	EntityCard: {
-		DisplayName: Oracle Card 『Entity』
+		DisplayName: Carta del oráculo 『Entidad』
 		Tooltip:
 			'''
-			+10% Melee Attack Speed  
-			"Flesh as blade, swift as shadow"  
+			+10% de velocidad de ataque a cuerpo a cuerpo
+			"Usa tu carne como arma, veloz como una sombra"  
 			'''
 	}
 
 	EnduranceCard: {
-		DisplayName: Oracle Card 『Endurance』
+		DisplayName: Carta del oráculo 『Resistencia』
 		Tooltip:
 			'''
-			-5% Damage Taken  
-			"Tempered steel, unshaken as mountains"  
+			-5% de daño recibido
+			"Acero templado, incebrantable como las montañas"  
 			'''
 	}
 
 	BrillianceCard: {
-		DisplayName: Oracle Card 『Brilliance』
+		DisplayName:Carta del oráculo『Brillante』
 		Tooltip:
 			'''
-			+50% Light Radius  
-			"Light eternal, darkness recedes"  
+			+50% de rango de luz
+			"Con la luz enterna, la oscuridad retrocede"  
 			'''
 	}
 
 	AuraCard: {
-		DisplayName: Oracle Card 『Aura』
+		DisplayName: Carta del oráculo 『Aura』
 		Tooltip:
 			'''
-			+5% Critical Strike Chance  
-			"A flash of insight, a fatal strike"  
+			+5% de probabilidad de crítico
+			"Un destello de perspicacia, un golpe fatal"  
 			'''
 	}
 
 	ThreadOfFate: {
 		Tooltip:
 			'''
-			Can be used to craft Oracle Deck
-			The following materials are required:
-			Aura: Golden Chest，Iron Crate: 10%
-			Brilliance: Selling at merchants' premises
-			Entity: Loot from Giant Clam
-			Inspiration:Desert Chest: 30%
-			Metropolics: Using bookshelf to create
-			Wisdom: Loot from Skeletron
-			Radiance: Using Crystal Ball to create
-			Temperance: Loot from Skeletron Prime
-			Endurance: Abyssal Chests / Abyssal Crate : 33%
+			Se puede usar para fabricar la Baraja del destino.
+			Requerirá de los siguientes materiales:
+			Aura: Puede aparecer en cofres dorados o cajas de hierro: 10% de probabilidad
+			Brillante: Lo vende el mercader
+			Entidad: Lo puede soltar la Almeja gigante
+			Inspiración: Puede aparecer en los cofres dorados: 30% de probabilidad
+			Metrópolis: Fabricable en una librería
+			Sabiduría: Lo puede soltar Esqueletrón
+			Esplendor: Fabricable en una bola de cristal
+			Templanza: Lo puede soltar Esqueletrón mayor
+			Resistencia: Puede aparecer en los cofres abisales o cajas abisales : 33% de probabilidad
 			'''
-		DisplayName: Thread Of Fate
+		DisplayName: Hilo del destino
 	}
 
 	RuneSong: {
-		DisplayName: Rune Song
+		DisplayName: Canto rúnico
 		Tooltip: ""
 	}
 
 	GalaxyGrapeSoda: {
 		Tooltip: ""
-		DisplayName: Galaxy Grape Soda
+		DisplayName: Refresco galáctico de uva
 	}
 
 	VoidAnnihilate: {
-		DisplayName: Void Annihilate
+		DisplayName: Vacío aniquilador
 		Tooltip:
 			'''
-			throw a Void Annihilate
-			Press [KEY] To Retrieve all
-			Right click a void annihilate to teleport to it.
+			Lanza al propio Vacío aniquilador
+			Pressiona [KEY] para recuperar las armas lanzadas
+			Clic derecho par teletransportarte al Vacío aniquilador marcado.
 			'''
 	}
 
 	AuricBoulder: {
-		DisplayName: Auric Boulder
-		Tooltip: ""
+		DisplayName: Roca grande áurica
 	}
 
 	DustyStar: {
 		Tooltip: ""
-		DisplayName: Dusty Star
+		DisplayName: Estrella polvorienta
 	}
 
 	SoulCandle: {
-		DisplayName: Soul Candle
+		DisplayName: Vela del alma
 		Tooltip:
 			'''
-			Summon the Assassin of the God
-			"Although the blade is small, it is sharp enough"
+			Invoca al Asesino de dioses
+			"Aunque la hoja es pequeña, es lo suficientemente afilada"
 			'''
 	}
 
 	KosRunePendant: {
-		DisplayName: Kos Rune Pendant
-		Tooltip: Summon the Devourer and the Little Apostle
+		DisplayName: Colgante de la Runa de Kos
+		Tooltip: Invoca al Devorador y un pequeño apóstata
 	}
 
 	OdinsRefuge: {
-		DisplayName: Odins Refuge
+		DisplayName: Protección de Odín
 		Tooltip:
 			'''
-			Allows the ability to ram dash, empowered by the cosmic inferno
-			This dash can slam through enemies without taking damage
-			Grants immunity to knockback and fire blocks
-			Grants immunity to the vast majority of debuffs, including God Slayer Inferno
-			Causes stars to fall and increases length of invincibility after taking damage
-			Grants bonus invincibility frames based on your missing health
-			This effect scales from 10 frames at full HP to 40 frames at 25% or less HP
-			Being struck for over 200 damage grants 30 additional invincibility frames
-			Grants immunity to knockback
-			Puts a shell around the owner when below 50% life that reduces damage taken
-			Absorbs 25% of damage done to players on your team when above 25% life
-			Provide you with a Holy Shield that can withstand damage once
-			This effect has a 120 second cooldown time
+			Permite realizar una embestida, potenciada por el infierno cósmico
+			La embestida puede atravesar a los enemigos sin recibir daño
+			Otorga inmunidad al retroceso y a los bloques ardientes
+			Otorga inmunidad a la inmensa mayoría de debuffs, incluido el Infierno de los dioses
+			Hace que caigan estrellas y aumenta la duración de la invencibilidad al recibir daño
+			Aumenta los fotogramas de invencibilidad dependiendo de la cantidad de vida pertida
+			ESte efecto escalará de 10 fotogramas con la vida completa, a 40 fotogramas con un 25% o menos de vida
+			Recibir 200 puntos de daño o más de una sola vez garantiza 30 fotogramas de invencibilidad adicionales
+			Otorga inmunidad al retroceso
+			Colocará una coraza alrededor del propietario cuando la vida esté por debajo del 50%, reduciendo el daño recibido
+			Absorverá un 25% del daño que reciban los jugadores de tu equipo cuando la vida esté por encima del 25%
+			Otorga un escudo sagrado que te protegerá de recibir daño una vez
+			Este efecto tiene 120 segundos de enfriamento
 			'''
 	}
 
 	VoidBar: {
-		DisplayName: Void Bar
-		Tooltip: A tightly packed void
+		DisplayName: Lingote del vacío
+		Tooltip: Un vacío muy condensado
 	}
 
 	VoidOre: {
-		DisplayName: Void Ore
-		Tooltip: Unstable substances generated by the infiltration of void
+		DisplayName: Mineral del vacío
+		Tooltip: Sustancia inestable generada por la infiltración del vacío
 	}
 
 	VoidScales: {
-		Tooltip: A scale composed of pure void
-		DisplayName: Void Scales
+		Tooltip: Una escama compuesta de vacío puro
+		DisplayName: Escamas del vacío
 	}
 
 	HolyMoonlight: {
-		DisplayName: Holy Moonlight
+		DisplayName: Luz de luna sagrada
 		Tooltip:
 			'''
-			Get a magic shield every thirty seconds, which is equivalent to 50% of the magic limit,
-			During the existence of the Magic Shield, increase movement speed by 10% and reduce magic consumption by 10%,
-			The shield will deal damage to the enemies it touches,
-			When the magic shield is broken, it eliminates its own magic sickness and benefits, and returns to its full magic value,
-			When there is no shield, magic barrage can suck blood,
-			The shield can not be affected by your defence and dr
-			The higher your current magic value, the higher your blood sucking ability
-			+10% Magic Damage
+			Otorga un escudo mágico cada 13 segundos, equivalente al 50% de magia máxima
+			Mientras se posea el escudo mágico, se incrementará la velocidad de movimiento un 10% y se reducirá el consumo de maná un 15%
+			Cuando los enemigos toquen el escudo, recibirán daño
+			Cuando el escudo mágico es destruido, la locura de maná será eliminada si se posee y se perderán los beneficios del escudo
+			Cuando no se tenga el escudo, se podrá robar vida al atacar
+			El escudo no escala ni con la defensa ni con la reducción de daño
+			Cuanto más alto sea el maná máximo, más vida se robará
+			+10% de daño mágico
 			'''
-	}
+	
 
 	PhantomPlanetKillerEngine: {
-		DisplayName: Phantom Planet Killer Engine
+		DisplayName: Motor del Asesino planetario fantasma
 		Tooltip:
 			'''
-			Summon a Planet Killer warship to shoot at your enemies
-			Warships will consume the bullets in your inventory
-			Alternate firing rockets and bullets
-			Will not consume ammunition
-			33% chance of firing bullets, doubling
-			Launch a laser every 20 shots
+			Invoca a la nave de guerra Asesino planetario para que dispare a tus enemigos
+			Las Naves de querra usarán las balas de tu inventario
+			Disparará balas y cohetes alternativamente
+			No consume munición
+			Hay un 33% de posibilidades de disparar balas dobles
+			Lanza un láser cada 20 disparos
 			'''
 	}
 
 	PowerOfTyrant: {
-		DisplayName: Power Of Tyrant
+		DisplayName: El poder del tirano
 		Tooltip: ""
 	}
 
 	VoidFaquirCuises: {
 		Tooltip:
 			'''
-			+10% Damage
-			+10% Crit Chance
-			+20% Movement Speed
+			+10% de daño
+			+10% de probabilidad crítica
+			+20% de velocidad de movimiento
 			'''
-		DisplayName: Void Faquir Cuises
+		DisplayName: Grebas del Faquir del vacío
 	}
 
 	VoidFaquirBodyArmor: {
 		Tooltip:
 			'''
-			+5% Damage
-			+5% Crit Chance
-			+5 Armor Penetration
+			+5% de daño
+			+5% de probabilidad crítica
+			+5 de penetración de armadura
 			'''
-		DisplayName: Void Faquir Body Armor
+		DisplayName: Coraza del Faquir del vacío
 	}
 
 	VoidFaquirDevourerHelm: {
 		Tooltip:
 			'''
-			+20% Melee Damage
-			+15% Melee Crit Chance
+			+20% de daño cuerpo a cuerpo
+			+15% de daño crítico cuerpo a cuerpo
 			'''
-		DisplayName: Void Faquir Devourer Helm
+		DisplayName: Yelmo de devorador del Faquir del vacío
 	}
 
 	VoidFaquirCosmosHood: {
 		Tooltip:
 			'''
-			+30% Magic Damage
-			+25% Magic Crit Chance
-			+150 Max Mana
+			+30% de daño mágico
+			+25% de daño crítico mágico
+			+150 de maná máximo
 			'''
-		DisplayName: Void Faquir Cosmos Hood
+		DisplayName: Capucha del cosmos del Faquir del vacío
 	}
-
 	VoidFaquirEvokerHelm: {
-		DisplayName: Void Faquir Evoker Helm
-		Tooltip: +80% Summon Damage
+		DisplayName: Casco de invocación del Faquir del vacío
+		Tooltip: +80% de daño de invocación
 	}
 
 	VoidFaquirLurkerMask: {
-		DisplayName: Void Faquir Lurker Mask
+		DisplayName: Máscara de merodeador del Faquir del vacío
 		Tooltip:
 			'''
-			+25% Rogue Damage
-			+25% Rogue Crit Chance
+			+25% de daño Rogue
+			+25% de daño crítico Rogue
 			'''
 	}
 
 	VoidFaquirShadowHelm: {
-		DisplayName: Void Faquir Shadow Helm
+		DisplayName: Yelmo de las sombras del Faquir del vacío
 		Tooltip:
 			'''
-			+32% Ranged Damage
-			+30% Ranged Crit Chance
+			+32% de daño a distancia
+			+30% de daño crítico a distancia
 			'''
 	}
 
 	GhostdomWhisper: {
 		Tooltip:
 			'''
-			Long press the left mouse button to charge and shoot
-			Charge up and shoot an arrow reinforced by the void
+			Manten pulsado el clic derecho para cargar el arma
+			Dispara una flecha cargada y reforzada por el vacío
 			'''
-		DisplayName: Ghostdom Whisper
+		DisplayName: Susurro fantasmagórico
 	}
 
 	Interdimensionallens: {
-		Tooltip: Project the appearance behind the world
-		DisplayName: Interdimensional Lens
+		Tooltip: Muestra como es la imágen detras de tu mundo
+		DisplayName: Lente interdimensional
 	}
 
 	PowerBank: {
-		Tooltip: When put it in your inventory, Automatically recharge the items in your inventory
-		DisplayName: Power Bank
+		Tooltip: Mientras esté en el inventario, recarga automáticamente los objetos de tu inventario
+		DisplayName: Batería
 	}
 
 	RustyGrenade: {
-		DisplayName: Rusty Grenade
+		DisplayName: Granada oxidada
 		Tooltip: ""
 	}
 
 	RustExpeditioner: {
 		Tooltip: ""
-		DisplayName: Rust Expeditioner
+		DisplayName: Expedicionario oxidado
 	}
 
 	VoidDevastator: {
-		DisplayName: Void Devastator
+		DisplayName: Devastador del vacío
 		Tooltip: ""
 	}
 
 	GodSlayerRocket: {
-		DisplayName: God Slayer Rocket
+		DisplayName: Cohete del asesino de dioses
 		Tooltip: ""
 	}
 
 	RailPulseBow: {
 		Tooltip: ""
-		DisplayName: Rail Pulse Bow
+		DisplayName: Arco de riel de pulsos
 	}
 
 	JailerWhip: {
 		Tooltip:
 			'''
-			Minion gain 5% crit chance
+			Los súbditos ganan un 5% de probabilidad de crítico
 			{$CommonItemTooltip.SummonTagDamage}
 			{$CommonItemTooltip.Whips}
 			'''
-		DisplayName: Jailer Whip
+		DisplayName: Látigo del carcelero
 	}
 
 	SilvasCrown: {
-		DisplayName: Silva's Crown
+		DisplayName: Corona de Silva
 		Tooltip:
 			'''
-			+ 8 Life Regen/s
-			Remove defense damage.
-			[c/ff0000:Your damage is reduced to 1/2 of its original value]
-			-Death Mode-
+			+ 8 de regeneración de vida
+			Elimina el daño a la defensa.
+			[c/ff0000:Tu daño se reduce un 1/2 de su valor original]
+			-Modo Muerte-
 			'''
 	}
 
 	AbyssalDragon: {
-		DisplayName: Abyssal Dragon
+		DisplayName: Dragón abisal
 		Tooltip: ""
 	}
 
 	ArchmagesHandmirror: {
 		Tooltip:
 			'''
-			Gives you 30% extra mana
-			Every 1 extra mana provides 0.1% magic damage bonus
+			Recibes un 30% extra de maná
+			Por cada punto extra de maná, aumentará el daño un 0.1%
 			'''
-		DisplayName: Archmage's Handmirror
+		DisplayName: Espejo de mano del Archimago
 	}
 
 	SlimeYoyo: {
-		DisplayName: Slime Yoyo
+		DisplayName: Yoyó de slime
 		Tooltip: ""
 	}
 
 	CelestialRing: {
 		Tooltip:
 			'''
-			+15% damage
-			+2sHP/s Life Regen
-			+2 Max Minions
-			+75% Minions Knockback
-			+5% Crit Chance
-			+5% Move Speed
-			+5% Melee Speed
+			+15% de daño
+			+2 de regeneración de vida
+			+2 súbtidos máximos
+			+75% de retroceso de súbditos
+			+5% de probabilidad de crítico
+			+5% de velocidad de movimiento
+			+5% de velocidad de ataque cuerpo a cuerpo
 			'''
-		DisplayName: Celestial Ring
+		DisplayName: Anillo celestial
 	}
 
 	ArmorReforgStation: {
-		DisplayName: Armor Reforg Station
+		DisplayName: Estación de reforja de armaduras
 		Tooltip: ""
 	}
 
 	OverloadFurnace: {
 		Tooltip: ""
-		DisplayName: Overload Furnace
+		DisplayName: Horno sobrecargado
 	}
 
 	RustyDetectionEquipment: {
-		DisplayName: Rusty Detection Equipment
+		DisplayName: Equipo de detección oxidado
 		Tooltip:
 			'''
-			Improve your jumping speed
-			Give you a slight push forward
-			Increase partial movement speed
+			Aumenta la altura al saltar
+			Te da un pequeño impulso al empezar a moverte
+			Aumenta un poco la velocidad de movimiento
 			'''
 	}
 
 	MagneticController: {
-		DisplayName: Magnetic Controller
+		DisplayName: Controlador magnético
 		Tooltip: ""
 	}
 
 	Mercy: {
-		Tooltip: Use Void and Dark Magic to Burn Everything Down
-		DisplayName: Mercy
+		Usa magia negra y el vacío para quemarlo todo
+		DisplayName: Misericordia
 	}
 
 	CannedCarrion: {
 		Tooltip: ""
-		DisplayName: Canned Carrion
+		DisplayName: Carroña en conserva
 	}
 
 	LostSoul: {
-		DisplayName: Lost Soul
-		Tooltip: '''"Protect him"'''
+		DisplayName: Alma perdida
+		Tooltip: '''"Protégelo"'''
 	}
 
 	ShadowOfVoid: {
 		Tooltip: ""
-		DisplayName: Shadow Of Void
+		DisplayName: Sombra del vacío
 	}
 
 	HorizonssKey: {
 		Tooltip:
 			'''
-			[c/d9bd1b:The strength of this weapon increases as the game progresses]
-			[c/d9bd1b:Affected by the bonus of all damage classes]
+			[c/d9bd1b:La fuerza de esta arma aumenta con tu progreso en el juego] 
+			[c/d9bd1b:Escala con el daño de todas las clases] 
 			'''
-		DisplayName: Horizons' Key
+		DisplayName: Llave del horizonte
 	}
 
 	SacrificalMask: {
 		Tooltip:
 			'''
-			Summon a circle of sacrificial daggers around you
-			The dagger will stab nearby enemies and heal you
+			Invoca un círculo de dagas sacrificiales a tu alrededor
+			Las dagas apuñalarán a los enemigos cercanos y te curarán
 			'''
-		DisplayName: Sacrifical Mask
+		DisplayName: Máscara sacrificial
 	}
 
 	TargetingWand: {
 		Tooltip: "[c/ff0000:This item is now WIP]"
-		DisplayName: Targeting Wand
+		DisplayName: Varita mágica
 	}
 
 	DimensionKey: {
-		DisplayName: Dimension Key
+		DisplayName: Llave dimensional
 		Tooltip: "[c/ff0000:This item is now WIP]"
 	}
 
 	DreamCatcher: {
-		DisplayName: Dream Catcher
+		DisplayName: Atrapasueños
 		Tooltip: ""
 	}
 
 	AquaticFlute: {
 		Tooltip: ""
-		DisplayName: Aquatic Flute
+		DisplayName: Flauta acuática
 	}
 
 	HolyMantle: {
 		Tooltip:
 			'''
-			Provide you with a Holy Shield that can withstand damage once
-			This effect has a 120 second cooldown time
-			Loot from hallow monsters
+			Te provee un escudo sagrado que te protege de un golpe
+			Este efecto tiene 120 segundos de enfriamento
+			Lo pueden soltar los enemigos de la bendición
 			'''
-		DisplayName: Holy Mantle
+		DisplayName: Manto mágico
 	}
 
 	ToyKnife: {
-		DisplayName: Toy Knife
-		Tooltip: ""
+		DisplayName: Cuchillo de juguete
 	}
 
 	DeusCore: {
-		DisplayName: Deus Core
+		DisplayName: Núcleo de Deus
 		Tooltip:
 			'''
-			Transform the damage received into astral erosion, reducing the corresponding health for a period of time
-			The attack can erode and transfer astral erosion to the target, dealing more damage
-			[c/ff0000:However, due to the affliction of a serious illness, you will suffer more damage.]
-			- Death -
+			Transforma el daño recibido en erosión astral, reduciendo la vida poco a poco con el tiempo
+			Al atacar se puede erosionar y transferir la erosión astral al objetivo, inflingiendo más daño
+			[c/ff0000:Sin embargo, debido al padecimiento de esta enfermedad tan grave, sufrirás más daño.]
+			- Modo muerte -
 			'''
 	}
 
 	CruiserPlush: {
-		DisplayName: Cruiser Plush
+		DisplayName: Peluche del Cruiser 
 		Tooltip: ""
 	}
 
 	AbyssalWraithPlush: {
 		Tooltip: ""
-		DisplayName: Abyssal Wraith Plush
+		DisplayName: Peluche de la Ira abisal
 	}
 
 	Voidshade: {
 		Tooltip: ""
-		DisplayName: Voidshade
+		DisplayName: Sombra del vacío
 	}
 
 	GreedCard: {
-		DisplayName: Phantom Card 『Greed』
+		DisplayName: Carta fantasmal 『Avaricia』
 		Tooltip:
 			'''
-			+2% damage per Summon Slot
-			"Abyss of Avarice"
+			+2% de daño de invocación por cada ranura de súbditos
+			"El abismo de la codicia"
 			'''
 	}
 
 	Barren: {
-		DisplayName: Phantom Card 『Barren』
+		DisplayName: Carta fantasmal 『Desolación』
 		Tooltip:
 			'''
-			Rogue projectiles gain homing, but deal 25% less Rogue damage and critical strike chance
-			"Hunt of the Withered"
+			Los proyectiles de Rogue serán parcialmente teleridigidos, pero tendrán un 25% menos de daño y probadilidad de crítico
+			"La caza del marchito"
 			'''
 	}
 
 	Confuse: {
-		DisplayName: Phantom Card 『Confuse』
+		DisplayName: Carta fantasmal 『Confusión』
 		Tooltip:
 			'''
-			Attacks inflict Blind, reducing enemy movement speed
-			"Mind-Draining Shackles"
+			Los ataques inflingen ceguera, reduciendo la velocidad de movimiento de los enemigos
+			"Sacudidas que agotan la mente"
 			'''
 	}
 
 	Fool: {
-		DisplayName: Phantom Card 『Fool』
+		DisplayName: Carta fantasmal 『Idiota』
 		Tooltip:
 			'''
-			+20% Mana Cost
-			+20% Magic Damage
-			"Flames of Mad Wit"
+			+20% de coste de maná
+			+20% de daño mágico
+			"Llamas de la locura ingeniosa"
 			'''
 	}
 
 	Frail: {
-		DisplayName: Phantom Card 『Frail』
+		DisplayName: Carta fantasmal 『Frágil』
 		Tooltip:
 			'''
-			+15% Damage
-			Take 10% more damage
-			"Edge of Fragility"
+			+15% de daño
+			Recibes un 10% más de daño
+			"Al límite de la fragilidad"
 			'''
 	}
 
 	Nothing: {
-		DisplayName: Phantom Card 『Void』
+		DisplayName: Carta fantasmal 『Vacío』
 		Tooltip:
 			'''
-			Attacks inflict Void Touch debuff
-			"Catalyst of Annihilation"
+			Los ataques inflingen el debuff Toque del vacío
+			"Catalización o aniquilación" 
 			'''
 	}
 
 	Perplexed: {
-		DisplayName: Phantom Card 『Perplexed』
+		DisplayName: Carta fantasmal 『Perplejidad』
 		Tooltip:
 			'''
-			-5% Critical Strike Chance
-			+16% Attack Speed
-			"Speed of the Troubled Mind"
+			-5% de probabilidad de crítico
+			+16% de velocidad de ataque
+			"La velocidad de la mente inquieta"
 			'''
 	}
 
 	Sacrifice: {
-		DisplayName: Phantom Card 『Sacrifice』
+		DisplayName: Carta fantasmal 『Sacrificio』
 		Tooltip:
 			'''
-			-60% Regeneration Rate
-			+10% Damage
-			"Power of Blood Debt"
+			-60% de tasa de regeneración
+			+10% de daño
+			"El poder de la deuda de sangre"
 			'''
 	}
 
 	Tarnish: {
-		DisplayName: Phantom Card 『Tarnish』
+		DisplayName: Carta fantasmal 『Deslustre』
 		Tooltip:
 			'''
-			Attacks release Darkflame
-			"Corrosive Embers"
+			Al atacar se liberan llamas negras
+			"Ascuas corrosivas"
 			'''
 	}
 
 	TaintedDeck: {
-		DisplayName: Tainted Deck
+		DisplayName: Baraja contaminada
 		Tooltip:
 			'''
-			Rogue Projectile obtain micro tracking
-			Attack to exert deceive debuff in enemies that Reduce their movement speed
-			Launch shadow flames during attack
-			+3% damage for each summon slots
-			+30% Damage
-			+4 Void Touch
-			+30% Damage taken
-			-70% Life Regen
-			+16% Mana Cost
-			-4% Crit
+			Los proyectiles de Rogue serán parcialmente teleridigidos
+			Al atacar a los enemigos estos se confundirán, reduciendo su velocidad de movimiento
+			Se lanzarán llamas sombrías al atacar
+			+3% de daño por cada espacio de súbditos
+			+30% de daño
+			+4 de Toque del vacío
+			+30% de daño recibido
+			-70% de regeneración de vida
+			+16% de coste de maná
+			-4% de daño crítico
 			'''
 	}
 
 	ThreadOfAbyss: {
-		DisplayName: Thread Of Abyss
+		DisplayName: Hilo del abismo
 		Tooltip:
 			'''
-			Used for making Tainted Deck
-			The following materials are required:
-			Perplexed: the Twins Drop
-			Tarnish: goblin sorcerer drops
-			Confuse: sold by Dryad
-			Desolation: sold by Thief
-			Fool: Loot from Eidolist
-			Sacrifice: 6 Core of Chaos + 2 Perennial Bar
-			Greed: Fishing in Astral Infection Biome
-			Weakness: Loot from Slime God
-			Nothing: Loot from Eidolon Wyrm
+			Se usa para fabricar la Baraja contaminada
+			Requiere de los siguientes materiales:
+			Perplejidad: lo pueden soltar los Gemelos
+			Deslustre: lo pueden soltar los Goblins hechiceros
+			Confusión: lo vende la Driada
+			Desolación: lo vende la Bandida
+			Imbécil: lo puede soltar el Edonista
+			Sacrificio: Se fabrica con 6 Núcleos del caos y 2 Lingotes perennes
+			Avaricia: Se pesca en la Infección astral
+			Frágil: lo puede soltar el Dios slime
+			Vacío: lo puede soltar la serpiente Eidolon
 			'''
 	}
 
 	VoidCandle: {
-		DisplayName: VoidCandle
+		DisplayName: Vela del vacío
 		Tooltip:
 			'''
-			Right click after placing to make your attack apply Void Touch
-			“there were flames of void leaping at its top”
+			Clic derecho para colocarlo y hacer que tus ataques apliquen Toque del vacío
+			“Había llamas del vacío saltando en su cumbre” 
 			'''
 	}
 
 	Antler: {
-		DisplayName: Antler
+		DisplayName: Cornamenta
 		Tooltip: ""
 	}
 
 	ReincarnationBadge: {
-		DisplayName: Reincarnation Badge
+		DisplayName: Insignia de la reencarnación
 		Tooltip:
 			'''
-			Press [KEY] to activate the coordinated state
-			In this state, you are not affected by gravity
-			And push away the surrounding projectiles
+			Presiona [KEY] para activar el estado coordinado
+			En ese estado, la gravedad no te afectará
+			y rechazará los proyectles de los alrededores
 			'''
 	}
 
 	CrimsonNight: {
 		Tooltip: ""
-		DisplayName: Crimson Night
+		DisplayName: Noche carmesí
 	}
 
 	PoopPickup: {
 		Tooltip: ""
-		DisplayName: Poop Pickup
-	}
+		DisplayName: Recogida de excrementos
 
 	BrokenAnkh: {
 		Tooltip:
 			'''
-			Enable you to store some poops
-			Attack has a chance to obtain throwable poops
-			Press [KEY] to throw a poop
+			Te permite almacenar cacas
+			Al atacar hay una posibilidad de obtener caca arrojable.
+			Presiona [KEY] para arrojar una caca
 			'''
-		DisplayName: Broken Ankh
+		DisplayName: Anj roto
 	}
 
 	DustyWhistle: {
-		DisplayName: Dusty Whistle
+		DisplayName: Silvato polvoriento
 		Tooltip: ""
 	}
 
 	AquaticAmulet: {
-		DisplayName: Aquatic Amulet
+		DisplayName: Amuleto acúatico
 		Tooltip: ""
 	}
 
 	NetherRift: {
-		DisplayName: Nether Rift
+		DisplayName: Grieta del inframundo
 		Tooltip: ""
 	}
 
 	MawOfTheVoid: {
 		Tooltip:
 			'''
-			Charging when using weapons,
-			when it is fully charged, release the mouse button to release a black laser ring
-			deals 75 damage every 3 frames
-			"Consume thy enemy!"
+			Aparecerá una barra que se cargará al atacar continuamente
+			Cuando la barra está cargada por completo, al dejar de atacar liberará un anillo láser negro
+			Hace 75 de daño cada 3 fotogramas
+			"¡Consume a tu enemigo!"
 			'''
-		DisplayName: Maw Of The Void
+		DisplayName: Fauces del vacío
 	}
 
 	TheRevelation: {
 		Tooltip:
 			'''
-			Charging when using weapons,
-			when it is fully charged, release the mouse button to release a holy beam
-			deals 50 damage every 3 frames
-			Regarded as wing
-			hold [down] when flying to hover
-			"Awaken your faith"
+			Aparecerá una barra que se cargará al atacar continuamente
+			Cuando la barra está cargada por completo, al dejar de atacar liberará un rayo sagrado
+			Hace 50 de daño cada 3 fotogramas
+			Funciona como alas
+			Presiona [down] mientras vuelas para flotar
+			"Despierta tu fe"
 			'''
-		DisplayName: The Revelation
+		DisplayName: La revelación
 	}
 
 	MosHat: {
 		Tooltip: ""
-		DisplayName: Mo's Hat
+		DisplayName: Sombrero de Mo
 	}
 
 	AnimaSola: {
 		Tooltip:
 			'''
-			Lock the nearest target for 3 seconds
-			Charging for 25 seconds, when there is a boss, charging for 120 seconds.
+			Bloquea a un objetivo cercano durante 3 segundos
+			Se recargará durante 25 segundos. Si hay un jefe presente, se recargará durante 120 segundos
 			'''
 		DisplayName: Anima Sola
 	}
 
 	LightWisper: {
 		Tooltip: ""
-		DisplayName: Light Wisper
+		DisplayName: Susurro de luz
 	}
 
 	Oblivion: {
 		Tooltip: ""
-		DisplayName: Oblivion
+		DisplayName: Olvido
 	}
 
 	EyeOfIlmeris: {
-		DisplayName: Eye Of Ilmeris
+		DisplayName: Ojo de Ilmeris
 		Tooltip: ""
 	}
 
 	GravityGaze: {
-		DisplayName: Gravity Gaze
+		DisplayName: Mirada gravitatoria
 		Tooltip: ""
 	}
 
 	DivineRadience: {
 		Tooltip: ""
-		DisplayName: Divine Radience
+		DisplayName: Resplandor divino
 	}
 
 	NightProjection: {
-		DisplayName: Night Projection
+		DisplayName: Proyección nocturna
 		Tooltip: ""
 	}
 
 	OverloadLunar: {
-		DisplayName: Overload Lunar
+		DisplayName: Luna sobrecargada
 		Tooltip: ""
 	}
 
 	EyeOfOtherside: {
 		Tooltip: ""
-		DisplayName: Eye Of Otherside
+		DisplayName: Ojo del más allá
 	}
 
 	EndlessAbyss: {
-		Tooltip: Launch abyssal death laser and abyssal stars
-		DisplayName: Endless Abyss
+		Tooltip: Lanza un rayo abisal mortífero y estrellas abisales
+		DisplayName: Abismo sin fin
 	}
 
 	NihilityHorn: {
-		DisplayName: Nihility Horn
-		Tooltip: Summon Nihility Twin
+		DisplayName: Cuerno de la Nihilidad
+		Tooltip: Invoca a los Gemelos de la Nihilidad
 	}
 
 	NihilityTwinBag: {
-		DisplayName: Treasure Bag(Nihility Twin)
+		DisplayName: Bolsa del tesoro (Gemelos de la Nihilidad)
 		Tooltip: ""
 	}
 
 	NihilityTwinRelic: {
-		DisplayName: Nihility Twin Relic
+		DisplayName: Reliquia de los Gemelos de la Nihilidad
 		Tooltip: ""
 	}
 
 	NihilityTwinTrophy: {
-		DisplayName: Nihility Twin Trophy
+		DisplayName: Trofeo de los Gemelos de la Nihilidad
 		Tooltip: ""
 	}
 
 	NihilityShell: {
 		Tooltip:
 			'''
-			Critical hits will deal 12% more damage
-			Probability of obtaining an energy shell during critical strike
-			The energy shell can reduce the damage you receive by 16% once
-			You can only get a maximum of three shells
+			 Los golpes críticos harán un 12% más de daño
+			 Habrá una probabilidad de obtener una coraza energética al lograr un ataque crítico
+			 La coraza energética reduce el daño recibido un 16%
+			 Solo puedes tener un máximo de tres corazas
 			'''
-		DisplayName: Nihility Shell
+		DisplayName: Caparazón de la nihilidad
 	}
 
 	EventideSniper: {
 		Tooltip:
 			'''
-			Display the center position of the enemy when held
-			The more accurate the bullet hits, the higher the damage, up to a maximum increase of 200%
-			If you hit accurately enough, you will definitely hit critically and cause damage to the Void Touch, reducing its benefits
+			Muestra una mirilla sobre el enemigo al tener el arma equipada
+			Cuanto más preciso sea el impacto de la bala, mayor será el daño, con un incremento del 200% como máximo
+			Si golpeas con suficiente precisión, asegurarás un golpe crítico y los efectos del Toque del vacío serán más efectivos
 			'''
-		DisplayName: Eventide
+		DisplayName: Anochecer
 	}
 
 	NihilityBacteriophageWand: {
-		DisplayName: Nihility Bacteriophage Wand
+		DisplayName: Varita bacteriófaga de la nihilidad
 		Tooltip:
 			'''
-			Summon a tiny Nihility Bacteriophage.
-			Each Nihility Bacteriophage needs 2 summon slots.
-			Nihility Bacteriophage will stick to enemies and heal you when necessary
+			Invoca un pequeño Bacteriófago de la nihilidad
+			Cada bacteriófago ocupa 2 espadios de invocación
+			Atacará a los enemigos y te curará cuando sea necesario
 			'''
 	}
 
 	AntiVoid: {
 		Tooltip:
 			'''
-			Releases multiple Rune Slashes
-			Right-click dashes mid-range toward cursor, placing a Void Sigil on first target hit
-			After a brief delay, the sigil detonates with horizontal slashes
+			Lanza múltiples cortes de vacío
+			El clic derecho te empujará hacia el cursor recorriendo una distancia media, colocando un sigilo del vacío al primer objetivo golpeado
+			Luego de un tiempo, el sigilo explotará en cortes horizontales
 			'''
-		DisplayName: Antivoid
+		DisplayName: Antivacío
 	}
 
 	AbyssLantern: {
 		Tooltip: ""
-		DisplayName: Abyss Lantern
+		DisplayName: Farol del vacío
 	}
 
 	WispLantern: {
 		Tooltip:
 			'''
-			Randomly activate 1 to 3 accessories from your inventory
-			"Illuminate your future"
-			[c/ff0000:Sacifice 15% of damage to you]
+			Activa aleatoriamente entre 1 y 3 accesorios de tu inventario.
+			"Iilumina tu futuro"
+			[c/ff0000:Sacrifica el 15 % del daño que recibas]
 			'''
-		DisplayName: Wisp Lantern
+		DisplayName: Farol de mecha
 	}
 
 	WyrmToothNecklace: {
-		DisplayName: Wyrm Tooth Necklace
+		DisplayName: Collar con diente de wyrm
 		Tooltip:
 			'''
-			+25% Damage
-			+100 Armor penetration
-			+15% Crit Chance
+			+25% de daño
+			+100 de penetración
+			+15% de probabilidad de crítico
 			'''
 	}
 
 	WyrmTooth: {
-		DisplayName: Wyrm Tooth
+		DisplayName: Diente de wyrm
 		Tooltip: ""
 	}
 
 	Vitalfeather: {
-		DisplayName: Vitalfeather
+		DisplayName: Pluma vital
 		Tooltip:
 			'''
-			The enemy hited by your minion will launch tracking dragon flames
+			El enemigo golpeado por tu súbdito lanzará llamas de dragón teledirigidas.
 			{$CommonItemTooltip.SummonTagDamage}
 			{$CommonItemTooltip.Whips}
 			'''
 	}
 
 	WindOfUndertaker: {
-		DisplayName: Wind Of Undertaker
+		DisplayName: Viento del sepulturero
 		Tooltip:
 			'''
 			{$CommonItemTooltip.SummonTagDamage}
@@ -1214,21 +1209,21 @@ Items: {
 	}
 
 	HadopelagicEchoII: {
-		Tooltip: Shoot abyss laser and hadopelagic echo
-		DisplayName: Hadopelagic Echo II
+		Tooltip: Dispara un láser abisal y un eco hadopelágico
+		DisplayName: Eco hadopelágico II
 	}
 
 	StarlessNight: {
 		Tooltip: ""
-		DisplayName: Starless Night
+		DisplayName: Noche sin estrellas
 	}
 
 	WhipOfService: {
-		DisplayName: Whip Of Service
+		DisplayName: Látigo servicial
 		Tooltip:
 			'''
-			Attacking other players temporarily increases their damage and crit chance.
-			"Turn your teammates into minions"
+			Atacar a otros jugadores aumenta temporalmente su daño y probabilidad de crítico
+			"Convierte a tus compañeros de equipo en súbditos."
 			'''
 	}
 
@@ -1236,13 +1231,13 @@ Items: {
 		DisplayName: Xytheron
 		Tooltip:
 			'''
-			Hit the target and accumulate energy for charging
-			Right click to advance and deal damage to enemies along the way based on charging and leaving abyssal crack
+			Golpea al enemigo para acumular energía en la barra inferior
+			Presiona clic derecho para lanzarte e inglingir daño a los enemigos que se encuentren en tu camino en función de la energía acumulada
 			'''
 	}
 
 	AbyssalAltar: {
-		DisplayName: Abyssal Altar
+		DisplayName: Altar abisal
 		Tooltip: ""
 	}
 
@@ -1250,33 +1245,33 @@ Items: {
 		DisplayName: Ystralyn
 		Tooltip:
 			'''
-			Summon an Eidolon Wyrm phantom when hit enemies
-			Minion gain 12% crit chance
+			Invoca al fantasma de un Gusano eidolón al golpear a los enemigos
+			Los subditos ganan un 12% de daño crítico
 			{$CommonItemTooltip.SummonTagDamage}
 			{$CommonItemTooltip.Whips}
 			'''
 	}
 
 	VoidPathology: {
-		Tooltip: Summon a controllable, continuous electric shock to the enemy's nihility virus
-		DisplayName: Void Pathology
+		Tooltip: Invoca una descarga eléctrica continua y controlable que daña al enemigo
+		DisplayName: Patología del vacío
 	}
 
 	AnnihilateArrow: {
 		Tooltip: ""
-		DisplayName: Annihilate Arrow
+		DisplayName: Flecha de la aniquilación
 	}
 
 	NegentropyBullet: {
-		DisplayName: Negentropy Bullet
+		DisplayName: Bala de negentropía
 		Tooltip: ""
 	}
 
 	Zyphros: {
 		Tooltip:
 			'''
-			Shoot tracking crystal arrows
-			Probability summoning crystals that can coordinate attacks during attacks
+			Dispara flechas de cristal teleridigidas
+			Existe una probabilidad de que aparezcan cristales que atacaran de forma coordinada junto con las flechas
 			'''
 		DisplayName: Zyphros
 	}
@@ -1284,457 +1279,455 @@ Items: {
 	FriendFinder: {
 		Tooltip:
 			'''
-			Summon a friendly monster
-			Cannot be used in multiplayer mode
+			Invoca a un monstruo amigable
+			No se puede usar en multijugador
 			'''
-		DisplayName: Friend Finder
+		DisplayName: Buscador de amigos
 	}
 
 	HeartOfStorm: {
 		Tooltip:
 			'''
-			Strike the enemy and unleash a chain of lightning that deals 10% damage
-			- Death -
+			Ataca al enemigo y desata una cadena de rayos que inflige un 10 % de daño.
+			- Modo Muerte -
 			'''
-		DisplayName: Heart Of Storm
+		DisplayName: Corazón de la tormenta
 	}
 
 	Nyxolithraken: {
 		Tooltip:
 			'''
-			Summon a Nyxolith Dragon
-			Takes 5 minion slot
+			Invoca a un dragón Nyxolith
+			Ocupa 5 espacios de súbditos
 			'''
 		DisplayName: Nyxolithraken
 	}
 
 	MariviniumBodyArmor: {
-		DisplayName: Marivinium Body Armor
+		DisplayName: Coraza de marivinium
 		Tooltip:
 			'''
-			+15% Damage
-			+15 Crit Chance
-			+250 Max Mana
-			Now you can breath in the abyss
+			+15% de daño
+			+15 de probabilidad de crítico
+			+250 de maná máximo
+			Ahora podrás respirar en el abismo
 			'''
 	}
 
 	MariviniumHelmet: {
-		DisplayName: Marivinium Helmet
+		DisplayName: Casco de marivinium
 		Tooltip:
 			'''
-			+20% Damage
-			+20% Crit Chance
-			+30% Melee Speed
-			+250 Max Life
+			+20% de daño
+			+20% de daño crítico
+			+30% velocidad de ataque cuerpo a cuerpo
+			+250 de vida máxima
 			'''
 	}
 
 	MariviniumLeggings: {
-		DisplayName: Marivinium Leggings
+		DisplayName: Mallas de marivinium
 		Tooltip:
 			'''
-			+30% Speed
-			-20% Mana Cost
-			+20 Damage
-			+5 Crit Chance
+			+30% de velicidad de movimiento
+			-20% de coste de maná
+			+20 de daño
+			+5 de probabilidad de crítico
 			'''
 	}
 
 	ToyGuitar: {
-		DisplayName: Toy Guitar
+		DisplayName: Guitarra de juguete
 		Tooltip: ""
 	}
 
 	AncientScriptures: {
-		DisplayName: Ancient Scriptures
+		DisplayName: Escrituras antiguas
 		Tooltip: ""
 	}
 
 	BookMarkBrimstone: {
-		DisplayName: Bookmark - Brimstone
+		DisplayName: Marcapáginas - Azufre
 		Tooltip:
 			'''
-			Summon a brimstone vortex that will fire a blood laser column towards the enemy during shooting
-			Attack causes brimstone flame debuff
+			Invoca un vórtice de azufre que disparará un rayo de sangre hacia el enemigo
+			Los ataques causan el debuffo Llamas de azufre
 			'''
 	}
 
 	BookMarkAerialite: {
 		Tooltip:
 			'''
-			Falling feathers from the sky after hitting the enemy
-			+50% Shot Speed
+			Caerán plumas del cielo al golpear a los enemigos
+			+50% de velocidad de disparo
 			'''
-		DisplayName: Bookmark - Aerialite
+		DisplayName: Macapágina - Aerialita
 	}
 
 	BookMarkFlesh: {
-		DisplayName: Bookmark - Flesh
+		DisplayName: Marcapáginas - Carne
 		Tooltip:
 			'''
-			Split blood beam when your projectile hit enemies
-			+1 Penetration
-			+1 Life steal
+			Cuando tu proyectil alcanza al enemigo, se dividirá en gotas de sangre
+			+1 de penetración
+			+1 de robo de vida
 			'''
 	}
 
 	BookMarkIce: {
-		DisplayName: Bookmark - Ice
-		Tooltip: When shooting, shoot an ice sword from behind and pierce the enemy
+		DisplayName: Marcapáginas - Hielo
+		Tooltip: Al atacar, lanzará una espada de hielo por detrás que atravesará al enemigo.
 	}
 
 	InfiniteBook: {
 		Tooltip: ""
-		DisplayName: Infinite Book
+		DisplayName: Libro infinito
 	}
 
 	BookMarkOfLight: {
-		DisplayName: Bookmark Of Light
+		DisplayName: Marcapáginas de la luz
 		Tooltip:
 			'''
-			Hit probability summons the Soul of Light
-			The Soul will collide with and decrease nearby bullets's damage by 25% and heal you 1% of your maximum health
+			Al golpear podrá aparecer un alma de luz
+			El alma colisionará con los proyectiles cercanos y reducirá su daño un 25%, además de curarte un 1 % de tu salud máxima.
 			'''
 	}
 
 	BookMarkOfNight: {
-		DisplayName: Bookmark Of Night
+		DisplayName: Marcapáginas de la noche
 		Tooltip:
 			'''
-			Summon Dark Souls that will chase and explode the enemy after hitting the enemy
-			+10% Damage
+			Invoca un Alma oscura que perseguirá al enemigo y explotará al inpactar.
+			+10% de daño
 			'''
 	}
 
 	BookMarkMechanical: {
-		DisplayName: Bookmark - Mechanical
+		DisplayName: Marcapáginas - Mecánico
 		Tooltip:
 			'''
-			Probability summoning detector to attack enemies during launch
-			Projectiles homing
-			+6 Armor Penetration
+			Podrá aparecer un detector que atacará a los enemigos mientras disparas
+			Los proyectiles son teleridigidos
+			+6 de penetración 
 			'''
 	}
 
 	BookMarkAstral: {
-		Tooltip: Launch a dazzling star that will shoot projectiles towards the enemy
-		DisplayName: Bookmark - Astral
+		Tooltip: Lanza una estrella deslumbrante que disparará proyectiles al enemigo
+		DisplayName: Marcapáginas - Astral
 	}
 
 	BookMarkTerra: {
 		Tooltip:
 			'''
-			Launching boulders
-			+15% Damage
-			+1 Penetrate 
+			Lanza rocas
+			+15% de daño
+			+1 de penetración 
 			'''
-		DisplayName: Bookmark - Terra
+		DisplayName: Marcapáginas - Terra
 	}
 
 	BookMarkLunar: {
-		DisplayName: Bookmark - Lunar
-		Tooltip: Projectile can harm enemies around them
+		DisplayName: Marcapáginas - Lunar
+		Tooltip: A medida que el enemigo acumule daño, se volverá más oscuro hasta que explote, haciendo daño extra
 	}
 
 	BookMarkAbyss: {
-		Tooltip: Probability of deep abyss tearing upon impact
-		DisplayName: Bookmark - Abyss
+		Tooltip:  Hay una posibilidad de que se produzca un desgarro profundo del abismo luego del impacto del proyectil
+		DisplayName: Marcapáginas - Abismo
 	}
 
 	BookMarkProfaned: {
-		DisplayName: Bookmark - Profaned
-		Tooltip: Projectiles will shoot profaned fire to enemies
+		DisplayName: Marcapáginas - Profanado
+		Tooltip: Los proyectiles podrán lanzar fuego profanado al golpear a los enemigos
 	}
 
 	BookMarkVoid: {
-		DisplayName: Bookmark - Void
-		Tooltip: The projectile hitting the enemy has a probability of causing an void explosion
+		DisplayName: Marcapáginas - Vacío
+		Tooltip: Los proyectiles podrán causar una explosión del vacío
 	}
 
 	BookMarkAuric: {
-		DisplayName: Bookmark - Auric
-		Tooltip: Projectile will shoot dragon fire when hit enemies
+		DisplayName: Marcapáginas - Áurico
+		Tooltip: Los proyectiles podrán lanzar fuego de dragón al golpear a los enemigos
 	}
 
 	BookMarkSilva: {
 		Tooltip:
 			'''
-			Projectiles have a chance to spawn a Soul of Origin upon hitting an enemy
-			The Soul of Origin will fly back to you, healing you and providing a small amount of temporary armor
+			Los proyectiles tienen la posibilidad de generar un Alma del origen al impactar contra un enemigo.
+			El alma del origen volverá hacia ti, curándote y proporcionándote una pequeña cantidad de armadura de forma temporal.
 			'''
-		DisplayName: Bookmark - Silva
+		DisplayName: Marcapáginas - Silva
 	}
 
 	BookMarkBee: {
-		Tooltip: Spawns bees upon hitting an enemy
-		DisplayName: Bookmark - Bee
+		Tooltip: Se generarán abejas al golpear a los enemigos
+		DisplayName: Marcapáginas - Abeja
 	}
 
 	BookMarkSunkenSea: {
-		DisplayName: Bookmark - Sunken Sea
-		Tooltip: Spawns aquashard upon hitting an enemy
+		DisplayName: Marcapáginas - Mar hundido
+		Tooltip: Genera fragmentos acuáticos al golpear a los enemigos
 	}
 
 	BookMarkCorrupt: {
 		Tooltip:
 			'''
-			Chance to summon Shadow Tentacles upon hitting an enemy
-			+6 Armor Penetration
+			Hay una posibilidad de generar tentáculos sombríos al golpear a un enemigo
+			+6 de penetración 
 			'''
-		DisplayName: Bookmark - Corrupt
+		DisplayName: Marcapáginas - Corrupción
 	}
 
 	BookMarkCrimson: {
-		DisplayName: Bookmark - Crimson
+		DisplayName: Marcapáginas - Carmesí
 		Tooltip:
 			'''
-			Chance to summon a Fountain of Blood from below upon hitting an enemy
-			+1 Life steal
-			+4 Crit Chance
+			Hay una posibilidad de generar fuentes sangrientas al golpear a un enemigo
+			+1 de robo de vida
+			+4 de probabilidad de crítico
 			'''
 	}
 
 	BookMarkGoozma: {
-		DisplayName: Rainbow Erosion Bookmark
-		Tooltip: Rapidly fires colorful stars
+		DisplayName: Marcapáginas Erosión del arcoiris
+		Tooltip: Dispara rápidamente estrellas de colores
 	}
 
 	BookMarkIntergelactic: {
-		DisplayName: Bookmark - Intergelactic
-		Tooltip: Summon nova slime when shooting
+		DisplayName: Marcapáginas - Intergaláctico
+		Tooltip: Invoca un nova slime al atacar
 	}
 
 	BookMarkAquarius: {
-		DisplayName: Bookmark - Aquarius
-		Tooltip: Scatters water projectiles upon hitting an enemy
+		DisplayName: Marcapáginas - Acuario
+		Tooltip: lanza proyectiles de agua al golpear a un enemigo.
 	}
 
 	BookMarkAries: {
-		DisplayName: Bookmark - Aries
+		DisplayName: Marcapáginas - Aries
 		Tooltip:
 			'''
-			Attacks cause a small area-of-effect explosion
-			+14% Damage
+			Los ataques provocan explosión en una pequeña área
+			+14% de daño
 			'''
 	}
 
 	BookMarkTaurus: {
-		DisplayName: Bookmark - Taurus
-		Tooltip: Your projectiles will split to 3 small projectile after on hit
+		DisplayName: Marcapáginas - Tauro
+		Tooltip: Tus proyectiles se dividirán en otros 3 más pequeños tras impactar
 	}
 
 	BookMarkCancer: {
-		DisplayName: Bookmark - Cancer
+		DisplayName: Marcapáginas - Cáncer
 		Tooltip:
 			'''
-			Projectiles reduce the speed and damage of enemy projectiles they collide with
-			+160% Projectile Size
+			Los proyectiles reducen la velocidad y el daño de los proyectiles enemigos con los que colisionan
+			+160% de tamaño de proyectil
 			'''
 	}
 
 	BookMarkCapricorn: {
-		Tooltip: Continuous use increases firing speed, up to +40%
-		DisplayName: Bookmark - Capricorn
+		Tooltip: Al atacar de forma continua irá aumentando la velocidad de disparo hasta un 40% como máximo
+		DisplayName: Marcapáginas - Capricornio
 	}
 
 	BookMarkLeo: {
 		Tooltip:
 			'''
-			+20% Damage
-			+40% Projectile Size
+			+20% de daño
+			+40% de tamaño de proyectil
 			'''
-		DisplayName: Bookmark - Leo
+		DisplayName: Marcapáginas - Leo
 	}
 
 	BookMarkSagittarius: {
-		DisplayName: Bookmark - Sagittarius
+		DisplayName: Marcapáginas - Sagitario
 		Tooltip:
 			'''
-			+6% Damage
-			+26% Shot Speed
+			+6% de daño
+			+26% velocidad de disparo
 			'''
 	}
 
 	BookMarkPisces: {
-		DisplayName: Bookmark - Pisces
+		DisplayName: Marcapáginas - Piscis
 		Tooltip:
 			'''
-			Fires an additional smaller projectile when attacking
-			+6 Armor Penetration
-			'''
+			Dispara adicionalmente un proyectil más pequeño al atacar
+			+6 de penetración 
 	}
 
 	BookMarkVirgo: {
-		DisplayName: Bookmark - Virgo
+		DisplayName: Marcapáginas - Virgo
 		Tooltip:
 			'''
-			+8% Damage
-			+1 Penetrate
+			+8% de daño
+			+1 de penetración 
 			'''
 	}
 
 	BookMarkLibra: {
-		DisplayName: Bookmark - Libra
+		DisplayName: Marcapáginas - Libra
 		Tooltip:
 			'''
-			+10% Damage
-			+4% Attack Speed
-			+10% Crit Chance
-			+5% Projectile Speed
-			+1 Penetration
-			+4 Armor Penetration
-			Additionally increases the lower of either Damage or Attack Speed by 4%
+			+10% de daño
+			+4% de velocidad de ataque
+			+10% de daño crítico
+			+5% de velocidad de proyectil
+			+1 de penetración 
+			+4 de penetración de armadura
+			Adicionalmente incrementa el daño mínimo o la velocidad de ataque un 4%
 			'''
 	}
 
 	BookMarkGemini: {
-		DisplayName: Bookmark - Gemini
-		Tooltip: Projectile homing
+		DisplayName: Marcapáginas - Géminis
+		Tooltip: Los proyectiles se vuelven teleridigidos
 	}
 
 	BookMarkScorpio: {
-		DisplayName: Bookmark - Scorpio
-		Tooltip: Attacks inflict a stacking Astral Scorpion Poison debuff, dealing damage over time
+		DisplayName: Marcapáginas - Escorpio
+		Tooltip: Los ataques infligen un debuffo acumulativo llamado Veneno de escorpión astral, que causa daño con el tiempo
 	}
 
 	BookmarkPactOfDecay: {
-		DisplayName: Pact of Decay
+		DisplayName: Pacto de la decadencia
 		Tooltip:
 			'''
-			Spawns a Whispering Maelstrom during shooting
-			Projectiles will apply Vulnerability Hex debuff
+			Genera un torbellino susurrante durante el disparo
+			Los proyectiles aplicarán la desventaja Vulnerabilidad hex.
 			'''
 	}
 
 	BookmarkPactOfWar: {
 		Tooltip:
 			'''
-			Summon Mini Exo Twins during shooting
-			Projectiles will apply Miracle Blight debuff
+			 Invoca a unos pequeños Exo gemelos al atacar
+			Los proyectiles aplicarán el debuff Plaga milagrosa
 			'''
-		DisplayName: Pact of War
+		DisplayName: Pacto de la guerra
 	}
 
 	UpdraftTome: {
 		Tooltip: ""
-		DisplayName: Updraft Tome
+		DisplayName: Libro de corrientes ascendentes
 	}
 
 	RedemptionBible: {
 		Tooltip: ""
-		DisplayName: Redemption Bible
+		DisplayName: Biblia de la redención
 	}
 
 	NightEpic: {
-		DisplayName: Night Epic
+		DisplayName: Epopeya nocturna
 		Tooltip: ""
 	}
 
 	AshTranscript: {
-		DisplayName: Ash Transcript
+		DisplayName: Transcripción de cenizas
 		Tooltip: ""
 	}
 
 	VoidOde: {
 		Tooltip: ""
-		DisplayName: Void Ode
+		DisplayName: Oda al vacío
 	}
 
 	BookMarkNeutron: {
-		DisplayName: Bookmark - Neutron
-		Tooltip: Chance to cause a neutron explosion when projectiles hit enemies
+		DisplayName: Marcapáginas - Neutrón
+		Tooltip: Hay una posibilidad de provocar una explosión de neutrones cuando los proyectiles impactan contra los enemigos
 	}
 
 	ControlTerminal: {
-		DisplayName: Control Terminal
+		DisplayName: Terminal de control
 		Tooltip: ""
 	}
 
 	TabooVolume: {
-		DisplayName: Taboo Volume
+		DisplayName: Volumen tabú
 		Tooltip: ""
 	}
 
 	BookMarkRoyal: {
-		DisplayName: Book Mark Royal
+		DisplayName: Marcapáginas real
 		Tooltip:
 			'''
-			Summon 3 Jewels
-			Ruby Jewel will shot at enemies
-			Emerald Jewel will dash to enemies
-			Sapphire Jewel will give players nearby buffs
+			Invoca 3 joyas
+			La joya de rubí dispara a los enemigos
+			La joya de esmeralda se lanza a los enemigos
+			La joya de zafiro aplica beneficios a los jugadores cercanos
 			'''
 	}
 
 	EntropyModeToggle: {
 		Tooltip:
 			'''
-			Active/Deactive Entropy Mode
-			More challenging, Less Health, Less Damage
-			[c/ff0000: Note: This mode is not part of the official recommended process , and the balance adjustments Disaster Entropy do not take this mode into account]
+			Activa o desactiva el modo entrópico
+			Es más desafiante. Tienes menos salud y recibes más daño
+			[c/ff0000: Note: Este modo no está recomendado para una progresión oficial, y los ajustes de equilibrio de desastre entrópico no se tienen en cuenta]
 			'''
-		DisplayName: Entropy Mode Toggle
+		DisplayName: Activador del modo entrópico
 	}
 
 	BookMarkPerfection: {
-		DisplayName: Perfection
+		DisplayName: Perfección
 		Tooltip:
 			'''
-			Increase the triggering probability of bookmarks triggered by all other probabilities
-			+16% crit chance, crit bonus will expire within ten seconds after being hit
+			Aumenta la probabilidad de que los marcapáginas se activen, por encima de las demás probabilidades
+			+16 % de probabilidad de crítico. La bonificación de esta probabilidad desaparecerá en diez segundos tras recibir un golpe
 			'''
 	}
 
 	Crystedge: {
 		Tooltip:
 			'''
-			Quickly strike and deliver a final blow to your enemy
-			Minions have a 6% critical hit probability
-			Generate split floating retention crystals during critical strikes
+			Atará rápidamente culminando con un golpe de gracia 
+			Los súditos tienen una probabilidad del 6% de realizar un golpe crítico
+			Generará cristales flotantes con cada golpe crítico de los súbditos
 			{$CommonItemTooltip.SummonTagDamage}
 			{$CommonItemTooltip.Whips}
 			'''
-		DisplayName: Crystedge
+		DisplayName: Filo cristalino
 	}
 
 	VoidToilet: {
 		Tooltip: ""
-		DisplayName: Void Toilet
+		DisplayName: Retrete del vacío
 	}
 
 	Prominence: {
-		DisplayName: Prominence
+		DisplayName: Prominencia
 		Tooltip:
 			'''
-			Launch three additional solar powered arrows and simultaneously launch a large number of short-range shots
-			Hit the enemy will cause holy fire debuff
+			Lanza tres flechas adicionales insufladas por energía solar y, al mismo tiempo, dispara una gran cantidad de flechas de corto alcance
+			Al golpear a un enemigo, causará el debuffo de fuego sagrado
 			'''
 	}
 
 	SinewLash: {
 		Tooltip:
 			'''
-			Throws forward and then retracts, tearing through enemies in its path.
-			Minions gain 6% increased critical strike chance
+			Se lanza hacia delante para luego retraerse, destrozando a los enemigos cercanos
+			Los súditos tienen una probabilidad del 6% de realizar un golpe crítico
 			{$CommonItemTooltip.SummonTagDamage}
 			{$CommonItemTooltip.Whips}
 			'''
-		DisplayName: Sinew Lash
+		DisplayName: Látigo de tendón
 	}
 
 	AzafureBatteringRam: {
-		DisplayName: Azafure Battering Ram
-		Tooltip:
+		DisplayName: Ariete de Azafure
 			'''
-			Charges up before lunging forward.
-			Pierces enemies and fires a powerful burst from within, dealing additional damage before bouncing away.
-			Critical strikes deal more damage
+			Mantén pulsado el botón de atacar para cargar el arma y suéltalo para lanzarte hacia delante
+			Perfora a los enemigos y libera una potente explosión, inflingiendo daño adicional antes de rebotar
+			Los golpes críticos infligen más daño
 			'''
 	}
 
 	MindCorruptor: {
-		DisplayName: Mind Corruptor
+		DisplayName: Corruptor de mentes
 		Tooltip:
 			'''
 			{$CommonItemTooltip.SummonTagDamage}
@@ -1744,90 +1737,90 @@ Items: {
 
 	AzafureChargeShield: {
 		Tooltip: ""
-		DisplayName: Azafure Charge Shield
+		DisplayName: Escudo de carga de Azafure
 	}
 
 	ProphecyToken: {
 		Tooltip:
 			'''
-			Summon The Prophet
-			Can only be used in dungeons
+			Invoca al Profeta
+			Solo puede usarse en la mazmorra
 			'''
-		DisplayName: Prophecy Token
+		DisplayName: Símbolo de la profecía
 	}
 
 	ProphetBag: {
-		DisplayName: Treasure Bag (TheProphet)
+		DisplayName: Bolsa del tesoro (El Profeta)
 		Tooltip: ""
 	}
 
 	ProphetTrophy: {
-		DisplayName: Prophet Trophy
+		DisplayName: Trofeo del Profeta
 		Tooltip: ""
 	}
 
 	ProphetRelic: {
 		Tooltip: ""
-		DisplayName: Prophet Relic
+		DisplayName: Reliquia del Profeta
 	}
 
 	UrnOfSouls: {
-		DisplayName: Urn Of Souls
+		DisplayName: Urna de las almas
 		Tooltip: ""
 	}
 
 	VetrasylsEye: {
-		Tooltip: Press [KEY] to block with an enrgy shield
-		DisplayName: Vetrasyls Eye
+		Tooltip: Press [KEY] para bloquear con un escudo de energía
+		DisplayName: Ojo de Vetrasyls
 	}
 
 	SpiritBanner: {
-		DisplayName: Spirit Banner
+		DisplayName: Estandarte espiritual
 		Tooltip:
 			'''
-			Summon a spirit banner that spawns spirits chasing enemies
-			Can only summon one banner at once
-			Use 3 minion slots
+			Invoca un estandarte espiritual que genera espíritus que persiguen a los enemigos
+			Solo es posible invocar un estandarte a la vez
+			Ocupa tres espacios de súbditos
 			'''
 	}
 
 	RuneMachineGun: {
-		DisplayName: Rune Machine Gun
+		DisplayName: Ametralladora rúnica
 		Tooltip: ""
 	}
 
 	ForeseeOrb: {
-		DisplayName: Foresee Orb
+		DisplayName: Orbe vaticinador
 		Tooltip:
 			'''
-			When injured, reduce the damage to 100 and break it, and recover after 30 seconds
-			Provide a {DMG}% damage bonus when not broken
-			[c/ff0000:Removing it when broken will cause 90% damage to your maximum health]
-			"It drains your soul to repair itself. If forcibly severed, your soul will burst forth in a torrent"
+			Al recibir daño, dicho daño se reducirá a 100 y el accesorio se romperá. Se recuperará luego de 30 segundos
+			Proporciona un {DMG}% de daño adicional cuando no está roto
+			[c/ff0000:Si lo retiras cuando está roto, perderás el 90% de la vida máxima que poseas hasta morir.]
+			"Drena tu alma al repararse. Si se separa por la fuerza, tu alma estallará en un torrente."
 			'''
 	}
 
 	RuneWing: {
 		Tooltip:
 			'''
-			Horizontal speed: [A]
-			Acceleration multiplier: [B]
-			Excellent vertical speed
-			Flight time: [C]
-			Press [KEY] to advance towards the mouse direction, during which immune damage occurs
-			Cooling is determined by the sprint distance, 
-			releasing the button in advance can end the sprint in advance, with a maximum sprint time of [DT] seconds
+			Velocidad horizontal: [A]
+			Multiplicador de aceleración: [B]
+			Excelente velocidad vertial
+			Tiempo de vuelo: [C]
+			Presiona [KEY] para lanzarte en la dirección del cursor. Durante el lanzamiento serás inmmune al daño
+			El enfriamiento viene determinado por la distancia recorrida, 
+			Soltar el botón antes de tiempo puede finalizar el desplazamiento de forma prematura, con un tiempo máximo de [DT] segundos
 			'''
-		DisplayName: Soar Rune
+		DisplayName: Runa de vuelo
 	}
 
 	BookMarkForesee: {
-		Tooltip: Hit the enemy probability summon a circle of runes to attack the enemy
-		DisplayName: Bookmark - Foresee
+		Tooltip: Golpear al enemigo puede generar un círculo de runas que lo atacará
+		DisplayName: Marcapáginas - Anticipar
 	}
 
 	RuneStoneShining: {
-		DisplayName: Rune Stone 『|』
+		DisplayName: Piedra rúnica 『|』
 		Tooltip: ""
 	}
 
@@ -1841,7 +1834,7 @@ Items: {
 	}
 
 	RuneStoneSilence: {
-		DisplayName: Rune Stone 『|』
+		DisplayName: Piedra rúnica 『|』
 		Tooltip: ""
 	}
 
@@ -1951,129 +1944,128 @@ Items: {
 	}
 
 	HiveArrow: {
-		Tooltip: Scattering stinger after hitting the target
-		DisplayName: Hive Arrow
+		Tooltip: EL aguijón se dispersará al golpear al objetivo
+		DisplayName: Flecha de la colmena
 	}
 
 	HiveBullet: {
-		DisplayName:
 			'''
-			Hive Bullet
-			Summon tracking bees after hitting
+			DisplayName: Bala de la colmena
+			Invoca abejas rastreadoras después de golpear
 			'''
-		Tooltip: Ignore 50% of the target's armor
+		Tooltip: Ignora el 50% de la defensa del objetivo
 	}
 
 	SolarStorm: {
 		Tooltip: ""
-		DisplayName: Solar Storm
+		DisplayName: Tormenta solar
 	}
 
 	CondensedBullet: {
 		Tooltip: ""
-		DisplayName: Condensed Bullet
+		DisplayName: Bala condensada
 	}
 
 	ShatteredFractal: {
-		DisplayName: Shattered Fractal
+		DisplayName: Fractal destrozado
 		Tooltip:
 			'''
-			[c/ff5300:Once a divine sword, but now its potential is lost]
-			[c/ff5300:Perhaps one day, you can restore it to its former glory]
+			[c/ff5300:Una vez fue una espada divina, pero ahora su potencial se ha perdido]
+			[c/ff5300:Quizás algún día puedas devolverle su antiguo esplendor]
 			'''
 	}
 
 	ProphetMusicBox: {
-		DisplayName: Prophet Music Box
+		DisplayName: Caja de música del Profeta
 		Tooltip: ""
 	}
 
 	CruiserMusicBox: {
-		DisplayName: Cruiser Music Box
+		DisplayName: Caja de música del Cruiser 
 		Tooltip: ""
 	}
 
 	NihilityTwinsMusicBox: {
-		DisplayName: Nihility Twins Music Box
+		DisplayName: Caja de música de los Gemelos de la Nihilidad 
 		Tooltip: ""
 	}
 
 	WelkinFractal: {
-		DisplayName: Welkin Fractal
-		Tooltip: "[c/d4fff8:Blessed by the heavens]"
+		DisplayName: Fractal del firmamento
+		Tooltip: "[c/d4fff8:Bendecida por los cielos]"
 	}
 
 	BrilliantFractal: {
-		DisplayName: Brilliant Fractal
-		Tooltip: "[c/f2ffd4:Absorbs radiant energy]"
+		DisplayName: Fractal brillante
+		Tooltip: "[c/f2ffd4:Absorbe energía radiante]"
 	}
 
 	BrokenHilt: {
-		Tooltip: "[c/c4ff3b:A fragment of an ancient divine blade]"
-		DisplayName: Broken Hilt
+		Tooltip: "[c/c4ff3b:Un fragmento de una antigua espada divina]"
+		DisplayName: Empuñadura rota
 	}
 
 	ElementalFractal: {
-		Tooltip: "[c/ff00a6:The sword shimmers with elemental light]"
-		DisplayName: Elemental Fractal
+		Tooltip: "[c/ff00a6:La espada brilla con luz elemental]"
+		DisplayName: Fractal elemental
 	}
 
 	StarlitFractal: {
-		DisplayName: Starlit Fractal
-		Tooltip: "[c/dd00ff:Starlight drifts along its blade]"
+		DisplayName: Fractal estelar
+		Tooltip: "[c/dd00ff:La luz de las estrellas se desliza a lo largo de su hoja]"
 	}
 
 	AbyssFractal: {
-		Tooltip: "[c/7045ff:The blade resembles a bottomless abyss]"
-		DisplayName: Abyss Fractal
+		Tooltip: "[c/7045ff:La hoja se asemeja a un abismo sin fondo]"
+		DisplayName: Fractal abisal
 	}
 
 	PlagueInternalCombustionEngine: {
 		Tooltip:
 			'''
-			Hitting enemies with true melee weapons restores health and grants temporary armor.
-			+{AttackSpeed}% true melee attack speed
+			Golpear a los enemigos con armas cuerpo a cuerpo verdaderas restaura la salud y otorga armadura temporal
+			+{AttackSpeed}% de velocidad a melee verdadero
 			'''
-		DisplayName: Plague Internal Combustion Engine
+		DisplayName: Motor de combustión interna de la plaga
 	}
 
 	SpiritFractal: {
-		DisplayName: Spirit Fractal
-		Tooltip: "[c/dfe7cb:There are many spirits gathered on the sword]"
+		DisplayName: Fractal espiritual
+		Tooltip: "[c/dfe7cb:Hay muchos espíritus acumulados en la espada]"
 	}
 
 	VoidFractal: {
 		Tooltip:
 			'''
-			[c/ba3ade: A thin layer of void adheres to the sword]
-			Right click: Void Slash
+			[c/ba3ade: Una fina capa de vacío está adherida a la espada.]
+			Presiona clic derecho para hacer un corte del vacío
 			'''
-		DisplayName: Void Fractal
+		DisplayName: Fractal del vacío
 	}
 
 	BurntLostClassics: {
 		Tooltip: ""
-		DisplayName: Burnt Lost Classics
+		DisplayName: Clásicos perdidos y quemados
 	}
 
 	ProphecyMasterpiece: {
 		Tooltip: ""
-		DisplayName: Prophecy Masterpiece
+		DisplayName: Obra maestra de la profecía
 	}
 
 	ForeseeWhip: {
-		DisplayName: Foresee Whip
+		DisplayName: Látigo vaticinador
 		Tooltip:
 			'''
 			{$CommonItemTooltip.SummonTagDamage}
 			{$CommonItemTooltip.Whips}
-			Increase the critical hit rate of minions by 10%
-			Minions' critical strike will pass 12% of damage to up to 4 nearby enemies
+			Incrementa la probabilidad de crítico de los minions un 10%
+			Los críticos de los súbditos infligirán un 12 % del daño adicional a 4 enemigos cercanos
 			'''
 	}
 
 	Nemesis: {
-		DisplayName: Nemesis
+		DisplayName: Némesis
 		Tooltip: ""
 	}
 
@@ -2669,7 +2661,7 @@ Items: {
 			Hold [UP] when flying to accelerate
 			'''
 	}
-}
+}	
 
 LOCKED: ": [LOCKED]"
 BCU1: Requires defeating King Slime
