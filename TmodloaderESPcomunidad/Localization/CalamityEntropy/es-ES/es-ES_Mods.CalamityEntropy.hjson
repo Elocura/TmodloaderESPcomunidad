@@ -2589,7 +2589,7 @@ Items: {
 			Presiona clic izquierdo para lanzar un rayo repugnante
 			Presiona clic derecho para lanzar un misil maldito
 			Usar otro ítem cancela su uso y te inflige entre 6 y 666 puntos de daño dependiendo del tiempo de uso del arma
-            $
+			$
 			*
 			*
 			*
@@ -2680,12 +2680,21 @@ BCU2: Requiere haber derrotado a Los Perforadores o la Mente Colmena
 BCU3: Requiere haber derrotado al Muro carnoso
 BCU4: Requiere haber derrotado a Plantera
 BCC1: Presiona clic derecho para extender las enredaderas espinosas tras prepararte
-BCC2: Al mantener clic derecho sobre un objetivo, te acercas a él y le infliges daño por impacto. \nEsta habilidad consume el 20 % de la barra de verdor. 
-Los golpes con el clic izquierdo recargan ligeramente la barra
-BCC3: Presiona clic derecho y luego rápidamente el izquierdo para lanzar el arma. La espada se adhiere al objetivo golpeado, 
-lo que te otorga regeneración de vida continua y recarga lentamente la barra
-BCC4: Pulsa dos veces y luego manten pulsado clic derecho para lanzar el arma, lo que hará que atraviese rápidamente a los enemigos cercanos al cursor y consuma energía continuamente. 
-Al mantender pulsado clic izquierdo la hoja girará y liberará proyectiles teledirigidos
+BCC2:
+	'''
+	Al mantener clic derecho sobre un objetivo, te acercas a él y le infliges daño por impacto. \nEsta habilidad consume el 20 % de la barra de verdor. 
+	Los golpes con el clic izquierdo recargan ligeramente la barra
+	'''
+BCC3:
+	'''
+	Presiona clic derecho y luego rápidamente el izquierdo para lanzar el arma. La espada se adhiere al objetivo golpeado, 
+	lo que te otorga regeneración de vida continua y recarga lentamente la barra
+	'''
+BCC4:
+	'''
+	Pulsa dos veces y luego manten pulsado clic derecho para lanzar el arma, lo que hará que atraviese rápidamente a los enemigos cercanos al cursor y consuma energía continuamente. 
+	Al mantender pulsado clic izquierdo la hoja girará y liberará proyectiles teledirigidos
+	'''
 PrefixitemDesc:
 	'''
 	Se usa para añadir una mejora a tu armadura
@@ -4061,19 +4070,3 @@ Biomes: {
 }
 
 NearShimmer: Fulgor cercano
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
