@@ -2653,9 +2653,11 @@ Items: {
 
 			#5Los golpes críticos infligen el debuff Desorden del alma al objetivo
 
-			#5Cuando se agota el maná, los ataques pasarán de consumir maná a restaurarlo durante 6 segundos. Al mismo tiempo se aplicá el debuff Quemadura de mana durante 5 segundos. Recibir daño durante este proceso amplía los fotogramas de invencibilidad
+			#5Cuando se agota el maná, los ataques pasarán de consumir maná a restaurarlo durante 6 segundos. Al mismo tiempo se aplicá el debuff Quemadura de mana durante 5 segundos. 
+            Recibir daño durante este proceso amplía los fotogramas de invencibilidad
 
-			#6Al tener las acumulaciones de Flujo de maná al máximo, cada vez que se agote el maná te otorga un +2 % de probabilidad de crítico mágico y un +3 % de daño crítico mágico (se acumula hasta 5 veces)
+			#6Al tener las acumulaciones de Flujo de maná al máximo, cada vez que se agote el maná te otorga un +2 % de probabilidad de crítico mágico y 
+            un +3 % de daño crítico mágico (se acumula hasta 5 veces)
 			'''
 	}
 
@@ -2677,9 +2679,12 @@ BCU2: Requiere haber derrotado a Los Perforadores o la Mente Colmena
 BCU3: Requiere haber derrotado al Muro carnoso
 BCU4: Requiere haber derrotado a Plantera
 BCC1: Presiona clic derecho para extender las enredaderas espinosas tras prepararte
-BCC2: Al mantener clic derecho sobre un objetivo, te acercas a él y le infliges daño por impacto. \nEsta habilidad consume el 20 % de la barra de verdor. Los golpes con el clic izquierdo recargan ligeramente la barra
-BCC3: Presiona clic derecho y luego rápidamente el izquierdo para lanzar el arma. La espada se adhiere al objetivo golpeado, lo que te otorga regeneración de vida continua y recarga lentamente la barra
-BCC4: Pulsa dos veces y luego manten pulsado clic derecho para lanzar el arma, lo que hará que atraviese rápidamente a los enemigos cercanos al cursor y consuma energía continuamente. \nAl mantender pulsado clic izquierdo la hoja girará y liberará proyectiles teledirigidos
+BCC2: Al mantener clic derecho sobre un objetivo, te acercas a él y le infliges daño por impacto. \nEsta habilidad consume el 20 % de la barra de verdor. 
+Los golpes con el clic izquierdo recargan ligeramente la barra
+BCC3: Presiona clic derecho y luego rápidamente el izquierdo para lanzar el arma. La espada se adhiere al objetivo golpeado, 
+lo que te otorga regeneración de vida continua y recarga lentamente la barra
+BCC4: Pulsa dos veces y luego manten pulsado clic derecho para lanzar el arma, lo que hará que atraviese rápidamente a los enemigos cercanos al cursor y consuma energía continuamente. 
+Al mantender pulsado clic izquierdo la hoja girará y liberará proyectiles teledirigidos
 PrefixitemDesc:
 	'''
 	Se usa para añadir una mejora a tu armadura
@@ -4055,6 +4060,7 @@ Biomes: {
 }
 
 NearShimmer: Fulgor cercano
+
 
 
 
