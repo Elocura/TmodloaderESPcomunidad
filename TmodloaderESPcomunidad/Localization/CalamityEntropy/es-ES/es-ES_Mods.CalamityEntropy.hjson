@@ -3693,13 +3693,13 @@ Configs: {
 		}
 
 		MariviniumArmorSetOnlyProvideStealthBarWhenHoldingRogueWeapons: {
-			Label: Solo se ve la barra de sigilo al usar un arma Rogue con la armadura de marividum
+			Label: Solo se ve la barra de sigilo al usar un arma Rogue al usar la armadura de marividum
 			Tooltip: ""
 		}
 
 		MariviumArmorSetOnlyProvideStealthBarWhenHoldingRogueWeapons: {
 			Tooltip: ""
-			Label: El conjunto de armadura de marivinium solo añade la barra de sigilo cuando se empuñan armas rogue
+			Label: Solo se ve la barra de sigilo al usar un arma Rogue al usar la armadura de marividum
 		}
 
 		EntropyMeleeWeaponSoundVolume: {
@@ -4070,6 +4070,7 @@ Biomes: {
 }
 
 NearShimmer: Fulgor cercano
+
 
 
 
