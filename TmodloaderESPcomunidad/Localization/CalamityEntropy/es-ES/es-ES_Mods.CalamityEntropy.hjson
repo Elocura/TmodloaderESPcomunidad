@@ -1174,7 +1174,7 @@ Items: {
 			'''
 			Activa aleatoriamente entre 1 y 3 accesorios de tu inventario.
 			"Iilumina tu futuro"
-			[c/ff0000:Sacrifica el 15 % del daño que recibas]
+			[c/ff0000:Sacrifica el 15% del daño que recibas]
 			'''
 		DisplayName: Farol de mecha
 	}
@@ -1394,7 +1394,7 @@ Items: {
 		Tooltip:
 			'''
 			Al golpear podrá aparecer un alma de luz
-			El alma colisionará con los proyectiles cercanos y reducirá su daño un 25%, además de curarte un 1 % de tu salud máxima.
+			El alma colisionará con los proyectiles cercanos y reducirá su daño un 25%, además de curarte un 1% de tu salud máxima.
 			'''
 	}
 
@@ -1682,7 +1682,7 @@ Items: {
 		Tooltip:
 			'''
 			Aumenta la probabilidad de que los marcapáginas se activen, por encima de las demás probabilidades
-			+16 % de probabilidad de crítico. La bonificación de esta probabilidad desaparecerá en diez segundos tras recibir un golpe
+			+16% de probabilidad de crítico. La bonificación de esta probabilidad desaparecerá en diez segundos tras recibir un golpe
 			'''
 	}
 
@@ -2068,7 +2068,7 @@ Items: {
 			{$CommonItemTooltip.SummonTagDamage}
 			{$CommonItemTooltip.Whips}
 			Incrementa la probabilidad de crítico de los súbditos un 10%
-			Los críticos de los súbditos infligirán un 12 % del daño adicional a 4 enemigos cercanos
+			Los críticos de los súbditos infligirán un 12% del daño adicional a 4 enemigos cercanos
 			'''
 	}
 
@@ -2566,7 +2566,7 @@ Items: {
 			'''
 			Posee los efectos de todos sus materiales
 			Planta hierba bajo tus pies
-			Otorga una reducción de daño del 20 % mientras estes pisando hierba
+			Otorga una reducción de daño del 20% mientras estes pisando hierba
 			+5 HP/s de regeneración de vida por segundo
 			'''
 	}
@@ -2644,21 +2644,19 @@ Items: {
 			#2ampliando los fotogramas de invencibilidad y acelerarando brevemente la regeneración de vida
 			#2"La marea de la magia fluye por tus venas..."
 
-			#3Después de consumir maná equivalente al 50 % de tu maná máximo, obtienes un 6 % de Manía potenciada (se acumula hasta 5 veces)
+			#3Después de consumir maná equivalente al 50% de tu maná máximo, obtienes un 6% de Manía potenciada (se acumula hasta 5 veces)
 
 			#4Los efectos de Locura de maná y Quemadura de maná se reducen a la mitad
 
-			#4Con cada 2 acumulaciones de Manía potenciada se otorgará una reducción de daño del 0,1 %
+			#4Con cada 2 acumulaciones de Manía potenciada se otorgará una reducción de daño del 0,1%
 
 			#4Mejora la regeneración de vida al recibir daño mientras se restaura maná
 
 			#5Los golpes críticos infligen el debuff Desorden del alma al objetivo
 
-			#5Cuando se agota el maná, los ataques pasarán de consumir maná a restaurarlo durante 6 segundos. Al mismo tiempo se aplicá el debuff Quemadura de mana durante 5 segundos. 
-            Recibir daño durante este proceso amplía los fotogramas de invencibilidad
+			#5Cuando se agota el maná, los ataques pasarán de consumir maná a restaurarlo durante 6 segundos. Al mismo tiempo se aplicá el debuff Quemadura de mana durante 5 segundos. Recibir daño durante este proceso amplía los fotogramas de invencibilidad
 
-			#6Al tener las acumulaciones de Flujo de maná al máximo, cada vez que se agote el maná te otorga un +2 % de probabilidad de crítico mágico y 
-            un +3 % de daño crítico mágico (se acumula hasta 5 veces)
+			#6Al tener las acumulaciones de Flujo de maná al máximo, cada vez que se agote el maná te otorga un +2% de probabilidad de crítico mágico y un +3% de daño crítico mágico (se acumula hasta 5 veces)
 			'''
 	}
 
@@ -2682,7 +2680,7 @@ BCU4: Requiere haber derrotado a Plantera
 BCC1: Presiona clic derecho para extender las enredaderas espinosas tras prepararte
 BCC2:
 	'''
-	Al mantener clic derecho sobre un objetivo, te acercas a él y le infliges daño por impacto. \nEsta habilidad consume el 20 % de la barra de verdor. 
+	Al mantener clic derecho sobre un objetivo, te acercas a él y le infliges daño por impacto. Esta habilidad consume el 20% de la barra de verdor. 
 	Los golpes con el clic izquierdo recargan ligeramente la barra
 	'''
 BCC3:
@@ -2709,11 +2707,11 @@ MariviniumSet:
 	+5% de daño crítico de invocación
 	+10% de reducción de daño
 	+50 de penetración de armadura
-	Si tu probabilidad de crítico es superior al 100 %, convierte el exceso de probabilidad en bonificación de daño
+	Si tu probabilidad de crítico es superior al 100%, convierte el exceso de probabilidad en bonificación de daño
 	+135 de sigilo
 	Si no te mueves, incrementa la regeneración de vida
 	Inmunidad a la mayoría de debuffos
-	Al usar armas cuerpo a cuerpo verdaderas, se reduce el daño un 15 % y se obtiene una defensa de 25
+	Al usar armas cuerpo a cuerpo verdaderas, se reduce el daño un 15% y se obtiene una defensa de 25
 	Al usar un látigo, mejora los atributos de invocador
 	El ataque sigiloso puede provocar una explosión de agua
 	Obtendrás 2 escudos, que tardarán 15 segundos en recuperarse después de ser destruidos
@@ -4070,11 +4068,3 @@ Biomes: {
 }
 
 NearShimmer: Fulgor cercano
-
-
-
-
-
-
-
-
