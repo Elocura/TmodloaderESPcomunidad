@@ -249,6 +249,7 @@ Items: {
 			'''
 			Shoot a Divine Shield
 			Rebound projectile in contact with the projectile
+			This effect has a 3 minutes cooldown time
 			'''
 	}
 
@@ -274,7 +275,7 @@ Items: {
 			Summon a pair of entangled twins, duplicating your barrage
 			Duplicated barrage deals 100% damage of the original weapon
 			"So, what is the price?"
-			[c/ff0000: your damage becomes 1/4 of the original]
+			[c/ff0000: your damage becomes 1/5 of the original]
 			Each pair of entangled twinses 4 summon slots.
 			'''
 	}
@@ -570,7 +571,7 @@ Items: {
 	VoidFaquirBodyArmor: {
 		Tooltip:
 			'''
-			+5% Damage
+			+10% Damage
 			+5% Crit Chance
 			+5 Armor Penetration
 			'''
@@ -1970,7 +1971,7 @@ Items: {
 	}
 
 	CondensedBullet: {
-		Tooltip: ""
+		Tooltip: Launch condensed lasers
 		DisplayName: Condensed Bullet
 	}
 
@@ -2643,11 +2644,11 @@ Items: {
 			#2extending invincibility frames and briefly accelerating health regeneration.
 			#2"The tide of magic pulses through your veins..."
 
-			#3After consuming mana equivalent to 50% of your maximum mana, gain 6% Empowered Mania (stacks up to 5 times).
+			#3After consuming mana equivalent to 50% of your maximum mana, gain 4% Empowered Mania (stacks up to 5 times).
 
 			#4Effects of Mana Sickness and Mana Burn are halved.
 
-			#4Every 2 stacks of Empowered Mania grant 0.1% damage reduction.
+			#4Every 2 stacks of Empowered Mania grant 0.05% damage reduction.
 
 			#4Enhances health regeneration when hit while restoring mana.
 
@@ -2655,7 +2656,7 @@ Items: {
 
 			#5Upon mana depletion, attacks switch from consuming mana to restoring mana for 6 seconds, while also applying the Mana Scorch debuff for 5 seconds. Taking damage during this period extends invincibility frames.
 
-			#6At full stacks of Manaflow, each mana depletion grants +2% magic critical strike chance and +3% magic critical damage (stacks up to 5 times).
+			#6At full stacks of Manaflow, each mana depletion grants +1% magic critical strike chance and +3% magic critical damage (stacks up to 5 times).
 			'''
 	}
 
@@ -2667,6 +2668,75 @@ Items: {
 			Give you a slight push forward
 			Increase partial movement speed
 			Hold [UP] when flying to accelerate
+			'''
+	}
+
+	FadingRoseateReverie: {
+		DisplayName: Fading Roseate Reverie
+		Tooltip: ""
+	}
+
+	"Kitsune'sFan": {
+		DisplayName: Kitsune's Fan
+		Tooltip: ""
+	}
+
+	BloodstainedShirt: {
+		DisplayName: Bloodstained Shirt
+		Tooltip: ""
+	}
+
+	"Kitsune'sMask": {
+		DisplayName: Kitsune's Mask
+		Tooltip: ""
+	}
+
+	ScarletKilt: {
+		DisplayName: Scarlet Kilt
+		Tooltip: ""
+	}
+
+	KitsunesFan: {
+		DisplayName: Kitsunes Fan
+		Tooltip: ""
+	}
+
+	KitsunesMask: {
+		DisplayName: Kitsunes Mask
+		Tooltip: ""
+	}
+
+	TestItem: {
+		DisplayName: Test Item
+		Tooltip: ""
+	}
+
+	TrueMoonlightSword: {
+		DisplayName: Espada de luz de luna verdadera
+		Tooltip: ""
+	}
+
+	DarkBlade: {
+		DisplayName: Hoja Oscura
+		Tooltip: ""
+	}
+
+	Fruitcake: {
+		DisplayName: Pastel de frutas
+		Tooltip:
+			'''
+			Set your projectile's crit chance to a random range of 1-100
+			When using weapons that consume ammunition, randomly select ammunition of the same type and maintain the original damage
+			Short term random debuff caused by low probability of hit
+			'''
+	}
+
+	SmartScope: {
+		DisplayName: Mira inteligente
+		Tooltip:
+			'''
+			Presiona el botón central del ratón para marcar al enemigo
+			When using firearms, the bullet must hit the target
 			'''
 	}
 }
@@ -2688,7 +2758,7 @@ PrefixitemDesc:
 MariviniumSet:
 	'''
 	Armor Bonus:
-	Half Melee Damage Taken
+	+20% Melee Damage Reduce
 	+10 Minion Slot
 	+100% Summon Damage
 	+5% Summon Crit
@@ -3134,6 +3204,10 @@ Projectiles: {
 	SRDamageRect.DisplayName: S R Damage Rect
 	SpiritBullet.DisplayName: Spirit Bullet
 	SpiritLaser.DisplayName: Spirit Laser
+	TrueMoonlightShoot.DisplayName: True Moonlight Shoot
+	TrueMoonlightSwordHeld.DisplayName: True Moonlight Sword Held
+	DarkBladeHeld.DisplayName: Dark Blade Held
+	DarkBladeShoot.DisplayName: Dark Blade Shoot
 }
 
 LegendTooltip: - Legend -
@@ -3677,11 +3751,6 @@ Configs: {
 			Tooltip: Display additional information about certain items like armor penetration, ammo type, etc
 		}
 
-		MariviniumArmorSetOnlyProvideStealthBarWhenHoldingRogueWeapons: {
-			Label: Marivinium Armor Set Only Provide Stealth Bar When Holding Rogue Weapons
-			Tooltip: ""
-		}
-
 		MariviumArmorSetOnlyProvideStealthBarWhenHoldingRogueWeapons: {
 			Tooltip: ""
 			Label: Marivium Armor Set Only Provide Stealth Bar When Holding Rogue Weapons
@@ -3690,6 +3759,11 @@ Configs: {
 		EntropyMeleeWeaponSoundVolume: {
 			Label: Entropy Melee Weapon Sound Volume
 			Tooltip: ""
+		}
+
+		ScreenWarpEffects: {
+			Label: Screen Effects
+			Tooltip: Do or do not draw the screen wrap and cut screen effect
 		}
 	}
 
@@ -4054,3 +4128,4 @@ Biomes: {
 }
 
 NearShimmer: Near shimmer
+AzMinerOreWarning: Only ores can be inserted!
