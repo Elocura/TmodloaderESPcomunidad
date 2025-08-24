@@ -1,0 +1,225 @@
+Items: {
+	KeplerVacuum: {
+		Tooltip:
+			'''
+			Shoots a homing crescent moon 
+			Spawns exoplanets at intervals 
+			“Observe your enemy’s demise”
+			'''
+		DisplayName: Kepler Vacuum
+	}
+
+	NightFractal: {
+		DisplayName: Night Fractal
+		Tooltip:
+			'''
+			“Through the prism’s edge the void refracts, 
+			weaving night into threads of endless light.”
+			'''
+	}
+
+	Stingray: {
+		DisplayName: Stingray
+		Tooltip:
+			'''
+			Each strike summons the sea’s forgotten relics, 
+			falling from above to claim the unwary.
+			'''
+	}
+
+	AbyssSkylines: {
+		DisplayName: Abyss Skylines
+		Tooltip:
+			'''
+			The heaviest Dark Matter rifle — converts musket balls 
+			into high-expansion rounds that project a deadly forcefield, 
+			detonating on impact and Marking foes for Death 
+			“No armor, no light, no escape.” 
+			'''
+	}
+
+	MonkshoodIcon: {
+		DisplayName: Monkshood
+		Tooltip:
+			'''
+			“The soil, infected by the monstrous poison, 
+			bred the dark aconite, bane to the touch.”
+			'''
+	}
+
+	PurpleWisteriaTree1Item: {
+		DisplayName: Purple Wisteria Tree 1
+		Tooltip: The Dark Ones’ end gave rise to new beginnings.
+	}
+
+	PurpleWisteriaTree2Item: {
+		DisplayName: Purple Wisteria Tree 2
+		Tooltip: The Dark Ones’ end gave rise to new beginnings.
+	}
+
+	PurpleWisteriaTree3Item: {
+		DisplayName: Purple Wisteria Tree 3
+		Tooltip: The Dark Ones’ end gave rise to new beginnings.
+	}
+
+	SkyAbyssStoneItem: {
+		DisplayName: Sky Abyss Stone
+		Tooltip: ""
+	}
+
+	SkyAbyssSandItem: {
+		DisplayName: Sky Abyss Sand
+		Tooltip: ""
+	}
+
+	ChallengerRockItem: {
+		DisplayName: Challenger Rock
+		Tooltip:
+			'''
+			Pressure equivalent to about 1,000 times the standard 
+			atmospheric pressure created the hardest material, 
+			that is known to me so far
+			'''
+	}
+
+	ChallengersIngot: {
+		DisplayName: Challengers Ingot
+		Tooltip: Forged where light and dark embrace.
+	}
+
+	EpilogueItem: {
+		DisplayName: Epilogue
+		Tooltip: ""
+	}
+
+	Pillar1Item: {
+		DisplayName: Abyssal Pillar
+		Tooltip: ""
+	}
+
+	Pillar2Item: {
+		DisplayName: Broken Abyssal Pillar
+		Tooltip: ""
+	}
+
+	Pillar3Item: {
+		DisplayName: Cracked Abyssal Pillar
+		Tooltip: ""
+	}
+
+	SuspiciousTrident: {
+		DisplayName: Suspicious Trident
+		Tooltip: Summons Glaucus Atlanticus in the Sky Abyss Biome
+	}
+}
+
+Projectiles: {
+	KeplerVacuumProj.DisplayName: Kepler Vacuum Proj
+	Melee.KeplerVacuumProj.DisplayName: Kepler Vacuum Proj
+	KeplerVacuumMoon.DisplayName: Kepler Vacuum Moon
+	KeplerPlanet.DisplayName: Kepler Planet
+	NightFractalHoldout.DisplayName: Night Fractal Holdout
+	NightFractalProjectile.DisplayName: Night Fractal Projectile
+	NightFractalBeam.DisplayName: Night Fractal Beam
+	NightFractalPrism.DisplayName: Night Fractal Prism
+	StingrayProjectile.DisplayName: Stingray Projectile
+	AbyssSkylinesVisual.DisplayName: Abyss Skylines Visual
+	AbyssSkylinesHeldProj.DisplayName: Abyss Skylines Held Proj
+	AbyssSkylinesBullet.DisplayName: Abyss Skylines Bullet
+	AbyssSkylinesExplosion.DisplayName: Abyss Skylines Explosion
+	FeatherStarSpell.DisplayName: Feather Star Spell
+	StratosoulShot.DisplayName: Stratosoul Shot
+	SkyAbyssPortal.DisplayName: Sky Abyss Portal
+	CephalopodShot.DisplayName: Cephalopod Shot
+	ToothProj.DisplayName: Tooth Proj
+	IndicatorLine.DisplayName: Indicator Line
+	ToothTelegraphLine.DisplayName: Tooth Telegraph Line
+	FallingDebrisBig.DisplayName: Falling Debris Big
+	FallingDebrisMedium.DisplayName: Falling Debris Medium
+	FallingDebrisSmall.DisplayName: Falling Debris Small
+	SharkProjectile.DisplayName: Shark Projectile
+	SeaUrchingProjectile.DisplayName: Sea Urching Projectile
+	UrchingSpikeProjectile.DisplayName: Urching Spike Projectile
+	UrchinTelegraphLine.DisplayName: Urchin Telegraph Line
+	BubbleBlastProjectile.DisplayName: Bubble Blast Projectile
+	BubbleExplosionProjectile.DisplayName: Bubble Explosion Projectile
+	BowWeapon.DisplayName: Bow Weapon
+	SwordWeapon.DisplayName: Sword Weapon
+	HeartArrow.DisplayName: Heart Arrow
+	SwordSlashHitbox.DisplayName: Sword Slash Hitbox
+	SwordHorizontal.DisplayName: Sword Horizontal
+	EidolonWyrmBody.DisplayName: Eidolon Wyrm Body
+	EidolonWyrmHead.DisplayName: Eidolon Wyrm Head
+	EidolonBody.DisplayName: Eidolon Body
+	EidolonHead.DisplayName: Eidolon Head
+	EidolonTale.DisplayName: Eidolon Tale
+	Void.DisplayName: Void
+	VoidHole.DisplayName: Void Hole
+	VoidH.DisplayName: Void H
+	AnchorDebris.DisplayName: Anchor Debris
+	ShipDebris.DisplayName: Ship Debris
+	KeplerStarMarker.DisplayName: Kepler Star Marker
+	KeplerStar.DisplayName: Kepler Star
+	KeplerComet.DisplayName: Kepler Comet
+	KeplerCometExplosion.DisplayName: Kepler Comet Explosion
+	StingrayMarker.DisplayName: Stingray Marker
+	KeplerPlanet2.DisplayName: Kepler Planet2
+}
+
+Buffs: {
+	Thalassophobia: {
+		DisplayName: Thalassophobia
+		Description: Mods.TalesoftheEntropicSea.Buffs.Thalassophobia.Description
+	}
+
+	ThalassophobiaDebuff: {
+		DisplayName: Thalassophobia Debuff
+		Description: You're drowning in fear.
+	}
+}
+
+Tiles: {
+	SkyAbyssStone.MapEntry: Sky Abyss Stone
+	Pillar3.MapEntry: Pillar
+}
+
+NPCs: {
+	ChallengersCrab.DisplayName: Challengers Crab
+	SkyLantern.DisplayName: Sky Lantern
+	FeatherStarCritter.DisplayName: Feather Star
+	Stratosoul.DisplayName: Stratosoul
+	SkylineShark.DisplayName: Skyline Shark
+	Cephalopod.DisplayName: Cephalopod
+	BottomBody.DisplayName: Bottom Body
+	Head.DisplayName: Glaucus Atlanticus
+	MiddleBody.DisplayName: Middle Body
+	TailBottom.DisplayName: Tail Bottom
+	TailLast.DisplayName: Tail Last
+	TailMiddle.DisplayName: Tail Middle
+	TailTip.DisplayName: Tail Tip
+	TailTop.DisplayName: Tail Top
+	TopBody.DisplayName: Top Body
+	BottomWingLeft.DisplayName: Bottom Wing Left
+	BottomWingRight.DisplayName: Bottom Wing Right
+	MiddleWingLeft.DisplayName: Middle Wing Left
+	MiddleWingRight.DisplayName: Middle Wing Right
+	TopWingLeft.DisplayName: Top Wing Left
+	TopWingRight.DisplayName: Top Wing Right
+	HeartOfTheOcean.DisplayName: Heart Of The Ocean
+	WyrmBody.DisplayName: Wyrm Body
+	WyrmHead.DisplayName: Wyrm of New Beginnings
+	WyrmTail.DisplayName: Wyrm Tail
+	WyrmBodyAlt.DisplayName: Wyrm Body
+}
+
+Biomes: {
+	SkyAbyssBiome: {
+		DisplayName: Sky Abyss Biome
+		TownNPCDialogueName: the Sky Abyss Biome
+	}
+
+	SubworldSkyAbyssBiome: {
+		DisplayName: Subworld Sky Abyss Biome
+		TownNPCDialogueName: the Subworld Sky Abyss Biome
+	}
+}
