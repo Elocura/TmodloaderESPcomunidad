@@ -1,0 +1,74 @@
+Items: {
+	WoP_MusicBox: {
+		Tooltip: Plays track: 'Warden of Paracosm' by FRANCIUMKILLA'
+		DisplayName: Music Box (Warden of Paracosm)
+	}
+
+	VO_MusicBox: {
+		Tooltip: Plays track: 'Void Overture' by JesterRomut'
+		DisplayName: Music Box (Void Overture)
+	}
+
+	MoH_MusicBox: {
+		Tooltip: Plays track: 'Maw of Hush' by FRANCIUMKILLA'
+		DisplayName: Music Box (Maw of Hush)
+	}
+
+	CR_MusicBox: {
+		Tooltip: Plays track: 'Cosmic Rhapsody' by ThePem'
+		DisplayName: Music Box (Cosmic Rhapsody)
+	}
+
+	CotZ_MusicBox: {
+		Tooltip: Plays track: 'Cruiser of the Zenith' by BadBF'
+		DisplayName: Music Box (Cruiser of the Zenith)
+	}
+}
+
+Configs: {
+	EEConfig: {
+		DisplayName: Music Selection
+
+		MusicMode: {
+			Tooltip:
+				'''
+				0 = 'Warden of Paracosm' by FRANCIUMKILLA (Default)
+				1 = 'Cruiser of the Zenith' by BadBF
+				2 = 'Cosmic Rhapsody' by ThePem
+				3 = 'Void Predator's Hunting' by FRANCIUMKILLA
+				4 = 'Maw of Hush' by FRANCIUMKILLA (Only plays in Phase 2. Phase 1 will play the default track.)
+				'''
+			Label: Music (Cruiser)
+		}
+
+		CruiserMusicMode: {
+			Label: Music (Cruiser)
+			Tooltip:
+				'''
+				0 = 'Warden of Paracosm' by FRANCIUMKILLA (Default)
+				1 = 'Cruiser of the Zenith' by BadBF
+				2 = 'Cosmic Rhapsody' by ThePem
+				3 = 'Void Predator's Hunting' by FRANCIUMKILLA
+				4 = 'Maw of Hush' by FRANCIUMKILLA (Only plays in Phase 2. Phase 1 will play the default track.)
+				'''
+		}
+
+		AWMusicMode: {
+			Label: Music (Abyssal Wraith)
+			Tooltip:
+				'''
+				0 = 'Misericorde' by Mudeth (Default)
+				1 = 'Angel of the Night' by FRANCIUMKILLA
+				'''
+		}
+
+		VPMusicMode: {
+			Label: Music (Void Pope)
+			Tooltip:
+				'''
+				0 = 'Juggernaut' by Matthias Bossi / Jon Evans (Default)
+				1 = 'Persuasion' by ThePem
+				'''
+		}
+	}
+}
