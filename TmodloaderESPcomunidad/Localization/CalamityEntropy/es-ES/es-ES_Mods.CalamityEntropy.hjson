@@ -2671,13 +2671,72 @@ Items: {
 			'''
 	}
 
+	FadingRoseateReverie: {
+		DisplayName: Sueño rosado desvaneciente
+		Tooltip: ""
+	}
+
+	"Kitsune'sFan": {
+		DisplayName: Abanico de Kitsune
+		Tooltip: ""
+	}
+
+	BloodstainedShirt: {
+		DisplayName: Camisa manchada de sangre
+		Tooltip: ""
+	}
+
+	"Kitsune'sMask": {
+		DisplayName: Máscara de Kitsune
+		Tooltip: ""
+	}
+
+	ScarletKilt: {
+		DisplayName: Falda escocesa escarlata
+		Tooltip: ""
+	}
+
+	KitsunesFan: {
+		DisplayName: Abanico de Kitsune
+		Tooltip: ""
+	}
+
+	KitsunesMask: {
+		DisplayName: Máscara de Kitsune
+		Tooltip: ""
+	}
+
+	TestItem: {
+		DisplayName: Ítem de prueba
+		Tooltip: ""
+	}
+
+	TrueMoonlightSword: {
+		DisplayName: Espada de luz de luna verdadera
+		Tooltip: ""
+	}
+
+	DarkBlade: {
+		DisplayName: Hoja oscura
+		Tooltip: ""
+	}
+
 	Fruitcake: {
-		DisplayName: Fruitcake
+		DisplayName: Pastel de frutas
 		Tooltip:
 			'''
-			Set your projectile's crit chance to a random range of 1-100
-			When using weapons that consume ammunition, randomly select ammunition of the same type and maintain the original damage
-			Short term random debuff caused by low probability of hit
+			Establece la probabilidad de crítico de tu proyectil en un rango aleatorio del 1 a 100
+			Cuando utilices armas que consuman munición, con cada disparo se usarán municiones diferentes de forma aleatoria, manteniendo el daño original
+			Puede provocar debuffos de poca duración con cada golpe y con una probabilidad muy baja
+			'''
+	}
+
+	SmartScope: {
+		DisplayName: Mira inteligente
+		Tooltip:
+			'''
+			Presiona el botón central del ratón para marcar al enemigo
+			Cuando se utilizan armas de fuego en los enemigos marcados, la bala siempre dará en el blanco
 			'''
 	}
 }
@@ -4078,3 +4137,4 @@ Biomes: {
 }
 
 NearShimmer: Fulgor cercano
+
