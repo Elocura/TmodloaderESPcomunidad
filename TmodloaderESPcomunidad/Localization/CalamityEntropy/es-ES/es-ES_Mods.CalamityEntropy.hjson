@@ -2739,6 +2739,15 @@ Items: {
 			Cuando se utilizan armas de fuego en los enemigos marcados, la bala siempre dará en el blanco
 			'''
 	}
+
+	ShadeCloak: {
+		DisplayName: Shade Cloak
+		Tooltip:
+			'''
+			Protect you from enemy contact or projectile damage while dashing and increase your dash distance
+			This effect requires 3 seconds of cooling
+			'''
+	}
 }
 
 LOCKED: ": [BLOQUEADO]"
@@ -4138,3 +4147,4 @@ Biomes: {
 
 NearShimmer: Fulgor cercano
 AzMinerOreWarning: ¡Solo puedes usar mineral!
+
