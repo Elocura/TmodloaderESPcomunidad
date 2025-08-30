@@ -1,191 +1,192 @@
 SoulOfPyrogen: {
-	DisplayName: Soul of Pyrogen
+	DisplayName: Alma de Pirógeno
 	Tooltip:
 		'''
-		10% increased melee and rogue damage
-		True melee and stealth strikes summon spears from the depths of Hell
+		Aumenta un 10% el daño de melee y rogue
+		Los ataques cuerpo a cuerpo verdaderos y ataques sigilosos invocan lanzas desde las profundidades del infierno
 		'''
 }
 
 DraculasCharm: {
-	DisplayName: Dracula's Charm
+	DisplayName: Hechizo de Drácula
 	Tooltip:
 		'''
-		15% increased rogue damage and +10 maximum stealth
-		Stealth strikes deal 8% more damage, summon a swarm of homing lifestealing vampire bats and inflict Crumbling
-		Rogue projectiles steal life on crits and explode into homing souls
+		Aumenta un 15% el daño rogue y aumenta en 10 el sigilo máximo
+		Los ataques sigilosos inflingen un 8% más de daño, e invoca un enjambre de murciélagos vampiros que roban vida y causan desmoronamiento
+		Los proyectiles de rogue roban vida con los golpes críticos y explotan en almas teledirigidas
 		'''
 }
 
 PyroStone: {
-	DisplayName: Pyro Stone
+	DisplayName: Piedra pirotécnica
 	Tooltip:
 		'''
-		Multiplies all heat-based debuff damage by 1.5
-		Creates a rotating fire shield around you that damages and ignites enemies on contact
-		'One of the ancient relics'
+		Multiplica por 1,5 todo el daño de los debuffos basados en el calor
+		Crea un escudo de fuego que gira a tu alrededor, dañando en incendiando a los enemigos al tocarlo
+		'Una de las reliquias antiguas'
 		'''
 }
 
 HellFlare: {
-	DisplayName: Hell Flare
+	DisplayName: Llama infenral
 	Tooltip:
 		'''
-		All attacks and projectiles inflict Hellfire
-		Immunity to On fire! and Hellfire
-		Being above 75% life grants 10% increased crit chance
-		Being below 25% life grants 10% increased damage reduction
-		Grants resistance against cold attacks
+		Todos los ataques y proyectiles inflingen Fuego infernal
+		Inmunidad a En llamas! y Fuego infernal
+		Estar por encima del 75 % de vida otorga un 10 % más de probabilidad de crítico
+		Estar por debajo del 25 % de vida otorga un 10 % de reducción de daño
+		Proporciona resistencia contra los ataques helados
 		'''
 }
 
 SupremeBarrier: {
-	DisplayName: Supreme Barrier
+	DisplayName: Barrera suprema
 	Tooltip:
 		'''
-		Allows the ability to ram dash, empowered by the cosmic inferno
-		This dash can slam through enemies without taking damage
-		Grants immunity to knockback and fire blocks
-		Grants immunity to the vast majority of debuffs, including God Slayer Inferno
-		Causes stars to fall and increases length of invincibility after taking damage
-		Grants bonus invincibility frames based on your missing health
-		This effect scales from 10 frames at full HP to 40 frames at 25% or less HP
-		Being struck for over 200 damage grants 30 additional invincibility frames
-		Puts a shell around the owner when below 50% life that reduces damage taken
-		Absorbs 25% of damage done to players on your team when above 25% life
+		Permite realizar una embestida, potenciada con Infierno de los dioses
+		Puedes atravesar a los enemigos sin recibir daño
+		Garantiza inmunidad al retroceso y a los bloques ardientes
+		Garantiza inmunidad a la mayoría de debuffos, inlcuido Infierno de los dioses
+		Tras recibir daño, caerán estrellas y aumentará el tiempo de invencibilidad
+		Otorga fotogramas de invencibilidad adicionales en función de la vida que te falte
+		Este efecto escala de 10 fotogramas con la salud al máximo a 40 fotogramas con un 25 % o menos de vida
+		Recibir más de 200 puntos de daño otorga 30 fotogramas adicionales de invencibilidad
+		Crea un escudo alrededor del propietario cuando su vida es inferior al 50 %, lo que reduce el daño recibido
+		Absorbe el 25 % del daño infligido a los jugadores de tu equipo cuando tienen más del 25 % de vida
 		'''
 }
 
 IcicleRing: {
-	DisplayName: Icicle Ring
+	DisplayName: Anillo de carámbano
 	Tooltip:
 		'''
-		Reduces mana cost to zero
-		Wearer constantly takes damage from the pain
+		Reduce el coste de maná a cero
+		El portador sufre daño constante por el dolor que provoca este accesorio
 		'''
 }
 
 RedDie: {
-	DisplayName: Red Die
+	DisplayName: Dado rojo
 	Tooltip:
 		'''
-		1.5x luck
-		Increases luck by extra 20%
-		'Are you ready for a reroll?'
+		1.5x de suerte
+		La suerte aumenta un 20% extra
+		'¿Estás listo para volver a tirar los dados?'
 		'''
 }
 
 EidolonAmulet: {
-	DisplayName: Eidolon Amulet
+	DisplayName: Amuleto de Eidolón
 	Tooltip:
 		'''
-		Grants immunity to the Riptide, Crush Depth and Irradiated debuffs
-		All attacks inflict the Crush Depth debuff and cause acid droplets to fall from the sky
-		15% increased mining speed and 10% increased damage while wet
-		25% increased max life while in the Abyss
-		You recover air while standing still underwater
-		This effect is disabled in the Abyss
-		Provides a moderate amount of light in the Abyss
+		Garantiza inmunidad a los debuffos Propulsión acuática, Profundidad aplastante e Irradiado
+		Todos los ataques infligen el debuff Profundidad aplastante y provocan que caigan gotas de ácido del cielo
+		Aumenta un 15% la velocidad de minería y un 10% en el daño mientras se está mojado
+		Aumenta un 25% de la vida máxima mientras se está en el Abismo
+		Recuperas oxígeno mientras permaneces inmóvil bajo el agua
+		Este efecto no funciona en el Abismo
+		Proporciona una cantidad moderada de luz en el Abismo
 		'''
 }
 
 Wings: {
 	MetalWings: {
-		DisplayName: Metal Wings
+		DisplayName: Alas metálicas
 		Tooltip:
 			'''
-			Horizontal speed: 10.50
-			Acceleration multiplier: 2.8
-			Excellent vertical speed
-			Flight time: 280
-			Restores flight time when taking a hit
-			Amount of restored flight time is equal to the damage taken to max life ratio divided by 2
-			Defense of all players on your team is increased by 20 while wearing Frozen Armor
+			Velocidad horizontal: 10.50
+			Multiplicador de aceleración: 2.8
+			Excelente velocidad vertical
+			Tiempo de vuelo: 280
+			Restaura tiempo de vuelo a recibir un golpe
+			La cantidad de tiempo de vuelo restaurado es igual a la relación entre el daño recibido y la vida máxima dividida por 2
+			La defensa de todos los jugadores de tu equipo aumenta en 20 mientras llevan puesta la Armadura congelada
 			'''
 	}
 }
 
 PearlOfFishCalamity: {
-	DisplayName: Pearl of Fish Calamity
+	DisplayName: Perla de la calamidad marina
 	Tooltip:
 		'''
-		Increases fishing skill by 50
-		Increases chance to catch crates
-		Greatly increases chance of catching potion ingredient fish
-		Potion ingredient fish yield is increased
-		Summons a water elemental to protect you
-		The elemental stays above you, shooting water spears, ice mist, and treble clefs at nearby enemies
+		Incrementa la capacidad de pesca en 50
+		Aumenta la probabilidad de conseguir cajas
+		Aumenta considerablemente la probabilidad de capturar peces que sirvan como ingrediente para pociones
+		Se aumenta el rendimiento de los peces como ingrediente de poción
+		Invoca a una elemental de agua que te protegerá
+		La elemental permanece sobre ti, lanzando lanzas de agua, niebla helada y claves de sol a los enemigos cercanos
 		'''
 }
 
 SeaShell: {
-	DisplayName: Sea Shell
-	Tooltip: Increased defense, damage reduction and movement speed while wet
+	DisplayName: Caparzón marino
+	Tooltip: Aumenta la defensa, la reducción del daño y la velocidad de movimiento mientras se está mojado
 }
 
 TheSubcommunity: {
-	DisplayName: The Subcommunity
+	DisplayName: La subcomunidad
 	Tooltip:
 		'''
 		[STATS]
-		'The part of The (Calamity) Community.'
-		'Has own specialization.'
-		[c/B00BA5:Thank you to all of my supporters who made this addon a reality!]
+		'La parte de La comunidad (de la calamidad)'
+		'Tiene su propia especialización.'
+		[c/B00BA5:¡Gracias a todos mis seguidores que hicieron posible este addon!]
 		'''
 	StatsList:
 		'''
-		Increases mining speed by {0}%
-		Increases luck by {1} and fishing power by {2}
-		Increases tile and wall placing speed by {3}% and placing range by {4}
-		Become more powerful as you defeat bosses ({5}% Power)
+		Incrementa la velocidad de minería en {0}%
+		Incremente la suerte en {1} y la capacidad de pesca en {2}
+		Aumenta la velocidad al colocar bloques y paredes en {3}% y el rango de colocación en {4}
+		Ganarás más poder al derrotar a jefes ({5}% de poder)
 		'''
 }
 
 MagicDiamond: {
-	DisplayName: Magic Diamond
+	DisplayName: Diamante mágico
 	Tooltip:
 		'''
-		Dealing magic damage creates a small barrier
-		Each magic attack adds a small amount of durability to the barrier
-		The barrier can store up to 20 durability
+		Infligir daño mágico crea una pequeña barrera
+		Cada ataque mágico aumenta la durabilidad de la barrera
+		La barrera puede almacenar hasta 20 de durabilidad
 		'''
 }
 
 SharpAmethyst: {
-	DisplayName: Sharp Amethyst
+	DisplayName: Amatista afilada
 	Tooltip:
 		'''
-		Shooting an arrow has a chance to create an extra gem arrow
-		Gem arrows deal 20% of the arrow's damage
+		Al disparar una flecha, existe la posibilidad de crear una flecha de gema adicional
+		Las flechas de gema infligen un 20% más de daño que las flechas normales
 		'''
 }
 
 BlightedSpyglass: {
-	DisplayName: Blighted Spyglass
+	DisplayName: Catalejo arruinado
 	Tooltip:
 		'''
-		+1 max sentry
-		Sentries inflict a Brimstone Flames
+		+1 de capacidad de centinelas
+		Los centinelas infligen el debuff Llamas de azufre
 		'''
 }
 
 CyanPearl: {
-	DisplayName: Cyan Pearl
+	DisplayName: Perla cian
 	Tooltip:
 		'''
-		+7% summon damage
-		Halves summon damage penalty for sentries
+		+7% de daño de invocación
+		Los centinelas harán la mitad de daño de invocación
 		'''
 }
 
 SkullOfTheBloodGod: {
-	DisplayName: Skull of the Blood God
+	DisplayName: Cráneo del Dios de la sangre
 	Tooltip:
 		'''
-		20% increased damage and 13% increased critical strike chance
-		Critical strikes explode, causing nearby enemies to ignite with Brimstone Flames
-		Halves enemy contact damage with a 20 second cooldown
-		Brimstone fire rains down after getting hit
-		Greatly reduces the damage taken by the Brimstone Flames debuff
+		Obtienes un 20% más de daño y un 13% más de probabilidad crítico
+		Los golpes críticos explotan, provocando que los enemigos cercanos se incendien con Llamas de azufre
+		Reduce a la mitad el daño por contacto de los enemigos con un enfriamiento de 20 segundos
+		Tras recibir un impacto, lloverá fuego de azufre
+		Reduce considerablemente el daño recibido por el debuff Llamas de azufre
 		'''
 }
+
