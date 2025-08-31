@@ -1,41 +1,41 @@
 ClamitasSummoningItem: {
-	DisplayName: Clamitous Shell
+	DisplayName: Caparazón clamitoso
 	Tooltip:
 		'''
-		Summons the Clamitas when used in Brimstone Crags
-		Not consumable
+		Invoca a Clamitas cuando se usa en los Riscos de Azufre
+		No se consume al usarlo
 		'''
 }
 
 EyeofStupidity: {
-	DisplayName: Eye of Stupidity
+	DisplayName: Ojo de la estupidez
 	Tooltip:
 		'''
-		Summon a Legendary Supreme Supreme Calamitas of Supremity in Xeroc`a Cloth from Supreme
-		Hello, AdamChromeE
+		Invoca a una Calamitas suprema suprema legendaria de la supremacía con un trapo supremo de Xeroc 
+		Hola, AdamChromeE
 		'''
 }
 
 PyroKey: {
-	DisplayName: Pyro Key
+	DisplayName: Llave pirotécnica
 	Tooltip:
 		'''
-		Summons Pyrogen when used in the desert
-		Right Click to summon without summon animation
-		Enrages boss outside the desert
-		Not consumable
-		'A key for a furnace cube.'
+		Invoca a Pirógeno cuando se usa en el desierto
+		Haz clic derecho para invocarlo sin la animación de invocación
+		Se enfurecerá al salir del desierto
+		No se consume al usarlo
+		'Una llave para un horno cúbico.'
 		'''
 }
 
 AncientConsole: {
-	DisplayName: Ancient Console
+	DisplayName: Consola antigua
 	Tooltip:
 		'''
-		Summon a Wall of Bronze on right click on tile
-		Work in Underworld
-		Wall of Bronze despawn when you left from Underworld
-		WARNING: If you in multiplayer, use summoning item instead of this tile (he crafted from tile version NOW)
+		Invoca al Muro de bronce al colocar este ítem y al hacer clic derecho 
+		Funciona en el inframundo
+		El muro de bronce desaparecerá si te vas del inframundo
+		ADVERTENCIA: Si estás en modo multijugador, utiliza el otro objeto de invocación en lugar de este (se craftea con la Consola antigua sin necesidad de nada más)
 		'''
 }
 
@@ -43,8 +43,8 @@ WoBSummonItem: {
 	Tooltip:
 		'''
 		DEBUG
-		Summon a Wall of Bronze in Underworld
-		Non consumable
+		Invoca al Muro de bronce en el inframundo
+		No se consume al usarlo
 		'''
-	DisplayName: Technical Alternative Bronze Machine
-}
+	DisplayName: Máquina de bronce técnica alternativa
+
