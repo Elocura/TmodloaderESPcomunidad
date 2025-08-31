@@ -1,10 +1,10 @@
 Foods: {
 	AuricApple: {
-		DisplayName: Auric Apple
+		DisplayName: Manzana áurica
 		Tooltip:
 			'''
-			Minor improvements to all stats for an entire hour
-			'yeah my brain is rotting from today, I read Auric Soul as Auric Fruit' - YuH
+			Mejoras menores en todas las estadísticas durante una hora completa
+			'Sí, mi cerebro se está pudriendo desde hoy, leí "Auric Soul" como "Auric Fruit"' - YuH
 			'''
 	}
 
@@ -12,77 +12,78 @@ Foods: {
 		DisplayName: Exo Baguette
 		Tooltip:
 			'''
-			Major improvements to all stats
-			Red Wine heals 250 HP, but reduces life regen by 2 HP/s
-			Allows for drinking 1 more alcohol before your liver is poisoned
+			Grandes mejoras en todas las estadísticas
+			El vino tinto cura 250 puntos de vida, pero reduce la regeneración de vida en 2 puntos por segundo
+			Permite beber una copa más antes de que tu hígado se intoxique
 			'''
 	}
 
 	SoulBaguette: {
-		DisplayName: Soul Baguette
+		DisplayName: Baguette del alma
 		Tooltip:
 			'''
-			Medium improvements to all stats
-			Red Wine heals 250 HP, but reduces life regen by 2 HP/s
+			Mejoras menores en todas las estadísticas
+			El vino tinto cura 250 puntos de vida, pero reduce la regeneración de vida en 2 puntos por segundo
 			'''
 	}
 
 	Eldercherry: {
-		DisplayName: Eldercherry
-		Tooltip: Medium improvements to all stats
+		DisplayName: Cereza anciana
+		Tooltip: Mejoras menores en todas las estadísticas
 	}
 
 	EldercherryJuice: {
-		DisplayName: Eldercherry Juice
-		Tooltip: Major improvements to all stats
+		DisplayName: Jugo de cereza anciana
+		Tooltip: Grandes mejoras en todas las estadísticas
 	}
 
 	SlagspitterPauldron: {
-		DisplayName: Slagspitter Pauldron
-		Tooltip: Major improvements to all stats
+		DisplayName: Espaldares rompeescorias
+		Tooltip: Grandes mejoras en todas las estadísticas
 	}
 
 	ClamChowder: {
-		DisplayName: Clam Chowder
+		DisplayName: Soma de almejas
 		Tooltip:
 			'''
-			Medium improvements to all stats
-			'New Ilmeris style'
+			Mejoras menores en todas las estadísticas
+			'Es el nuevo estilo de Ilmeris'
 			'''
 	}
 
 	Barolegs: {
-		DisplayName: Barolegs
+		DisplayName: Patas de baro
 		Tooltip:
 			'''
-			Varying improvements to all stats
-			Defeat the water elemental found in ocean and her majestic beast to improve its taste
-			Defeat a ghostly foe found in dungeon to improve its taste even further
-			'The meat actually seems to have come from a barocraw!
-			Not that it matters — it's rancid all the same'
+			Mejoras variables en todas las estadísticas
+			Derrota al elemental de agua que se encuentra en el océano y a su majestuosa bestia para mejorar su sabor
+			Derrota a un enemigo fantasmal que se encuentra en la mazmorra para mejorar aún más su sabor
+			'La carne parece provenir de un barocangrejo!
+			No es que importe, de todos modos está rancio'
 			'''
 	}
 
 	Calamitea: {
-		DisplayName: Calamitea
+		DisplayName: Té de la calamidad
 		Tooltip:
 			'''
-			Major improvements to all stats
-			'Quite the Calamity'
+			Grandes mejoras en todas las estadísticas
+			'Menuda calamidad'
 			'''
 	}
 }
 
 SupremeLuckPotion: {
-	DisplayName: Supreme Luck Potion
-	Tooltip: Greatly increases the Luck of the user
+	DisplayName: Poción de suerte suprema
+	Tooltip: Aumenta considerablemente la suerte del usuario
 }
 
 TitanScalePotion: {
-	DisplayName: Titan Scale Potion
+	DisplayName: Poción de escama de titán
 	Tooltip:
 		'''
-		Increases knockback, defense by 5 and damage reduction by 5%
-		Increases defense by 20 and damage reduction by 5% for a few seconds after a true melee strike
+		Aumenta el retroceso, la defensa en 5 y la reducción de daño en un 5%
+		Aumenta la defensa en 20 y la reducción de daño en un 5% durante unos segundos tras hacer un golpe cuerpo a cuerpo verdadero
 		'''
 }
+
