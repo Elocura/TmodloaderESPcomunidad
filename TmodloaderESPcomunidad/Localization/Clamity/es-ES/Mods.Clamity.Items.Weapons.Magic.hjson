@@ -1,30 +1,31 @@
 OmegaRay: {
-	DisplayName: Omega Ray
-	Tooltip: Disintegrates everything with a five Y-beams of energy and lasers
+	DisplayName: Rayo omega
+	Tooltip: Desintegra todo con cinco rayos de energía en forma de Y y láseres
 }
 
 Omega: {
 	DisplayName: Omega
 	Tooltip:
 		'''
-		Fires a continuous array of lasers and spawns four Wingmen which orbit you and fire lasers or grenades at your cursor
-		Press <right> when firing to shoot an Omicron Beam that splits upon hitting an enemy
-		After firing an Omicron Beam your Wingmen will launch a pair of grenades
-		Hitting an enemy with an Omicron Beam right as it is fired will increase the damage done substantially and stop it from splitting
+		Dispara una serie de rayos láser continuos y genera cuatro compañeros que orbitan a tu alrededor, disparando rayos láser o granadas hacia tu cursor
+		Presiona <right> para lanzar un rayo Omicron que se divide al impactar contra un enemigo
+		Después de disparar un rayo Omicron, tus compañeros lanzarán un par de granadas
+		Golpear a un enemigo con un rayo Ómicron justo después de lanzar otro rayo aumentará considerablemente el daño infligido y evitará que se divida
 		'''
 }
 
 TheGenerator: {
-	DisplayName: The Generator
-	Tooltip: Launches a master crown sigil that homing and draws a nearby enemies
+	DisplayName: El generador
+	Tooltip: Lanza un sello maestro en forma de corona que se dirige hacia los enemigos cercanos y los atrae
 }
 
 MoonstoneKnives: {
-	DisplayName: Moonstone Knives
-	Tooltip: Throws several knives that restore the users mana
+	DisplayName: Cuchillos de piedra lunar
+	Tooltip: Lanza varios cuchillos que restauran el maná al usuario
 }
 
 EtherealKnives: {
-	DisplayName: Ethereal Knives
-	Tooltip: Throws a stream of knives that restore the users mana
+	DisplayName: Cuchillos etéreos
+	Tooltip: Lanza una lluvia de cuchillos que restauran el maná al usuario
 }
+
