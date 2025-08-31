@@ -1,51 +1,52 @@
 MoltenPiercer: {
-	DisplayName: Molten Piercer
+	DisplayName: Perforador fundido
 	Tooltip:
 		'''
-		Throws a flaming daggers
-		Daggers create a flaming obsidian shards in flight on stealth strike
+		Lanza dagas llameantes
+		Las dagas crean fragmentos de obsidiana llameantes durante un ataque sigiloso
 		'''
 }
 
 WulfrumShockCutter: {
-	DisplayName: Wulfrum Shock Cutter
+	DisplayName: Cortador de choque de wulfrum
 	Tooltip: ""
 }
 
 FrozenStarShuriken: {
-	DisplayName: Frozen Star Shuriken
+	DisplayName: Shuriken de estrella congelada
 	Tooltip:
 		'''
-		Cheates a homing mist bolts on hit
-		On stealth strike creates more bolts
+		Invoca nieblas teleridigidas al impactar
+		Los ataque sigilosos generan más proyectiles
 		'''
 }
 
 ExoBall: {
-	DisplayName: Exo Ball
+	DisplayName: Exo esfera
 	Tooltip:
 		'''
-		Hurls up to 10 speedy homing spiky balls
-		Attaches to enemies and summons a localized storm of exo beams
-		Stealth strikes home in faster and summon beams at a faster rate
-		Press <right> to delete all existing spiky balls
+		Lanza hasta 10 esferas espinosas rápidas que siguen su objetivo
+		Se adhiere a los enemigos y convoca una tormenta localizada de exo rayos 
+		Al hacer ataques sigilosos, llegan su objetivo más rápido y los rayos aparecen a mayor velocidad
+		Presiona <right> para eliminar todas las esferas puntiagudas existentes
 		'''
 }
 
 AuricKunai: {
-	DisplayName: Auric Kunai
+	DisplayName: Kunai áurico
 	Tooltip:
 		'''
-		Fires a rapid stream of short-range kunai
-		Stealth strikes spawn 5 Lightnings to nearest enemy
+		Dispara una ráfaga rápida de kunais de corto alcance
+		Los ataques sigilosos generan 5 Rayos contra el enemigo más cercano
 		'''
 }
 
 StarfishFromTheDepth: {
-	DisplayName: Starfish from the Depth
+	DisplayName: Estrella de mar de las profundidades
 	Tooltip:
 		'''
-		Starfish homes to nearest target up to 5 hits
-		Stealth strikes creates a three starfishes at same time
+		Las estrellas de mar se dirigen al objetivo más cercano, inpactando hasta 5 veces
+		Los ataques sigilosos crean tres estrellas de mar al mismo tiempo
 		'''
 }
+
