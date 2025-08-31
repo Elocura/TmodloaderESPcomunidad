@@ -1,23 +1,24 @@
 HellstoneShellfishStaff: {
-	DisplayName: Hellstone Shellfish Staff
+	DisplayName: Bastón de crustáceo infernal
 	Tooltip:
 		'''
-		Summons a hellstone shellfish to fight for you
-		Each shellfish takes 2 minion slots
+		Invoca a un crustáceo infernal que luchará por tí
+		Cada crustáceo ocupa dos espacios de súbditos
 		'''
 }
 
 HellsBells: {
-	DisplayName: Hell`s Bells
-	Tooltip: Summons an obsidian bell that follows the cursor
+	DisplayName: Campanas del infierno
+	Tooltip: Invoca una campana de obsidiana que sigue tu cursor
 }
 
 PlanterrorStaff: {
-	DisplayName: Planterror Staff
+	DisplayName: Bastón de Planterror
 	Tooltip:
 		'''
-		Summons a miniature guntera to protect you
-		Bullet type depends on the players current ammo type
-		Occupies 4 minion slots and there can only be one
+		Invoca a una guntera en miniatura para que te proteja
+		Las balas que dispare dependerán del tipo de munición que use el jugador
+		Ocupa 4 espacios de súbditos y solo se podrá invocar a uno a la vez
 		'''
 }
+
