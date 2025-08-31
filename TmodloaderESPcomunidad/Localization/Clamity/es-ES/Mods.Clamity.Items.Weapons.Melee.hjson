@@ -1,50 +1,51 @@
 ClamitasCrusher: {
-	DisplayName: Clamitas Crusher
+	DisplayName: Machacadora de Clamitas
 	Tooltip:
 		'''
-		Launches a medium clamitas that stuns enemies for a short amount of time
-		Create a homing brimstone bolts in trail or enemy hit
-		Starts being affected by gravity and does much more damage after being airborne for a while
+		Lanza una clamitas mediana que aturde a los enemigos durante un breve periodo de tiempo
+		Crea rayos de azufre teledirigidos en el camino que impactan en el enemigo
+		Comienza a verse afectado por la gravedad y causa mucho más daño después de estar en el aire durante un tiempo
 		'''
 }
 
 SearedShredder: {
-	DisplayName: Seared Shredder
-	Tooltip: Shoots a flame scythe that home in on enemies
+	DisplayName: Trituradora abrasadora
+	Tooltip: Dispara una guadaña de fuego que se dirige hacia los enemigos
 }
 
 RGBMurasama: {
-	DisplayName: RGB Murasama
+	DisplayName: Murasama RGB 
 	Tooltip:
 		'''
-		A high-frequency blade that can cleanly slice through even the mightiest foe
-		Every third swing deals immense damage
-		Prove your worth by slaying The Devourer of Gods to unsheath this sword
-		'I spent three thousand dollars.'
+		Una hoja de alta frecuencia capaz de cortar limpiamente incluso al enemigo más poderoso
+		Cada tercer golpe inflige un daño inmenso
+		Demuestra tu valía matando al Devorador de Dioses para desenvainar esta espada
+		'Gasté tres mil dólares.'
 		'''
 }
 
 Disease: {
-	DisplayName: Disease
-	Tooltip: Release plague seekers on shortstrike
+	DisplayName: Enfermedad
+	Tooltip: Liberar a los cazadores de plagas con cada golpe corto
 }
 
 WulfrumLeechDagger: {
-	DisplayName: Wulfrum Leech Dagger
+	DisplayName: Daga sanguijuela de wulfrum
 	Tooltip:
 		'''
-		Drains a low percentage of enemy health on hit
-		Cannot inflict critical hits
-		Make unconsumable for second on shortstrike
+		Drena un pequeño porcentaje de vida del enemigo al impactar
+		No puede infligir golpes críticos
+		Hace que sea inconsumible durante un segundo al hacer un ataque corto
 		'''
 }
 
 FrozenVolcano: {
-	DisplayName: Frozen Volcano
-	Tooltip: Launches a flames
+	DisplayName: Volcán congelado
+	Tooltip: Lanza llamas
 }
 
 Everest: {
 	DisplayName: Everest
-	Tooltip: Fires a spread of volcanic fireballs
+	Tooltip: Lanza una serie de bolas de fuego volcánicas
 }
+
