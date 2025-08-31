@@ -1,29 +1,30 @@
 DepthsEchoRifle: {
-	DisplayName: Depths Echo Rifle
-	Tooltip: Converts musket balls into homing brimstone bolts
+	DisplayName: Rifle de eco profundo
+	Tooltip: Convierte las balas de mosquete en proyectiles de azufre teledirigidos
 }
 
 Obsidigun: {
-	DisplayName: Obsidigun
-	Tooltip: Converts musket balls into fast-moving obsidian bullets that break into a lot of shards on hit
+	DisplayName: Pistobsidiana
+	Tooltip: Convierte las balas de mosquete en balas de obsidiana de gran velocidad que se rompen en muchos fragmentos al impactar
 }
 
 RoseBow: {
-	DisplayName: Rose Bow
+	DisplayName: Arco de la rosa
 	Tooltip:
 		'''
-		'Even if you can't see me, even if you can't hear me, I'll be by your side'
-		Shoots a spread of arrows and homing petals
+		'Aunque no puedas verme, aunque no puedas oírme, estaré a tu lado'
+		Dispara una lluvia de flechas y pétalos teledirigidos
 		'''
 }
 
 WitheredBoneBow: {
-	DisplayName: Wither Bane
+	DisplayName: Tormento marchito
 	Tooltip:
 		'''
-		Converts wooden arrow to withered bone bolts
-		Bolts creates a copy behind player on hit up to two times
-		Bolts inflict Withered and has 15 armor penetration
-		'Did I hear someone say taco?'
+		Convierte flechas de madera en proyectiles de hueso marchito
+		Los proyectiles crean una copia detrás del jugador al golpear hasta dos veces
+		Inflinje Marchito, aplicando 15 de penetración de armadura
+		'¿He oído a alguien decir "taco"?'
 		'''
 }
+
