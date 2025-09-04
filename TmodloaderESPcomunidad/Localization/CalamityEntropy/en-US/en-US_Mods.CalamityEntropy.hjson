@@ -1,5 +1,4 @@
-Items: {
-	VoidBlade: {
+VoidBlade: {
 		DisplayName: Void Blade
 		Tooltip: Quickly perform continuous slashing
 	}
@@ -361,7 +360,7 @@ Items: {
 		Tooltip:
 			'''
 			+[CR]% Crit Chance
-			+20% Move Speed
+			+15% Move Speed
 			+[ST] Max Stealth
 			-30% Mana Cost
 			-10% Damage Taken
@@ -1414,7 +1413,6 @@ Items: {
 			'''
 			Probability summoning detector to attack enemies during launch
 			Projectiles homing
-			+6 Armor Penetration
 			'''
 	}
 
@@ -1530,12 +1528,12 @@ Items: {
 		Tooltip:
 			'''
 			Projectiles reduce the speed and damage of enemy projectiles they collide with
-			+160% Projectile Size
+			+100% Projectile Size
 			'''
 	}
 
 	BookMarkCapricorn: {
-		Tooltip: Continuous use increases firing speed, up to +40%
+		Tooltip: Continuous use increases firing speed, up to +25%
 		DisplayName: Bookmark - Capricorn
 	}
 
@@ -1591,7 +1589,11 @@ Items: {
 
 	BookMarkGemini: {
 		DisplayName: Bookmark - Gemini
-		Tooltip: Projectile homing
+		Tooltip:
+			'''
+			Projectile homing
+			+10 Armor Penetration
+			'''
 	}
 
 	BookMarkScorpio: {
@@ -1674,6 +1676,7 @@ Items: {
 			Active/Deactive Entropy Mode
 			More challenging, Less Health, Less Damage
 			[c/ff0000: Note: This mode is not part of the official recommended process , and the balance adjustments Disaster Entropy do not take this mode into account]
+			Right click use to only toggle TDR
 			'''
 		DisplayName: Entropy Mode Toggle
 	}
@@ -2725,7 +2728,6 @@ Items: {
 		DisplayName: Fruitcake
 		Tooltip:
 			'''
-			Set your projectile's crit chance to a random range of 1-100
 			When using weapons that consume ammunition, randomly select ammunition of the same type and maintain the original damage
 			Short term random debuff caused by low probability of hit
 			'''
@@ -2737,6 +2739,7 @@ Items: {
 			'''
 			Press the middle mouse button to lock the enemy
 			When using firearms, the bullet must hit the target
+			Reduce bullet damage appropriately
 			'''
 	}
 
@@ -2747,6 +2750,21 @@ Items: {
 			Protect you from enemy contact or projectile damage while dashing and increase your dash distance
 			This effect requires 3 seconds of cooling
 			'''
+	}
+
+	LushGrassclassics: {
+		DisplayName: Lush Grassclassics
+		Tooltip: ""
+	}
+
+	MiracleWreckage: {
+		DisplayName: Miracle Wreckage
+		Tooltip: ""
+	}
+
+	TheocracyMark: {
+		DisplayName: Theocracy Mark
+		Tooltip: ""
 	}
 }
 
@@ -3217,6 +3235,12 @@ Projectiles: {
 	TrueMoonlightSwordHeld.DisplayName: True Moonlight Sword Held
 	DarkBladeHeld.DisplayName: Dark Blade Held
 	DarkBladeShoot.DisplayName: Dark Blade Shoot
+	SpiritWave.DisplayName: Spirit Wave
+	LushGrassclassicsHeld.DisplayName: Lush Grassclassics Held
+	LushVine.DisplayName: Lush Vine
+	MiracleShoot.DisplayName: Miracle Shoot
+	MiracleWreckageHeld.DisplayName: Miracle Wreckage Held
+	Theostring.DisplayName: Theostring
 }
 
 LegendTooltip: - Legend -
@@ -4138,4 +4162,3 @@ Biomes: {
 
 NearShimmer: Near shimmer
 AzMinerOreWarning: Only ores can be inserted!
-
