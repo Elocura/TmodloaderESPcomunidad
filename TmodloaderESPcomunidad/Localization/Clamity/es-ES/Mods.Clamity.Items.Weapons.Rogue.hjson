@@ -25,9 +25,9 @@ ExoBall: {
 	DisplayName: Exo esfera
 	Tooltip:
 		'''
-		Lanza hasta 10 esferas espinosas rápidas que siguen su objetivo
+		Lanza hasta 10 esferas espinosas rápidas que siguen a su objetivo
 		Se adhiere a los enemigos y convoca una tormenta localizada de exo rayos 
-		Al hacer ataques sigilosos, llegan su objetivo más rápido y los rayos aparecen a mayor velocidad
+		Al hacer ataques sigilosos, llegan a su objetivo más rápido y los rayos aparecen a mayor velocidad
 		Presiona <right> para eliminar todas las esferas puntiagudas existentes
 		'''
 }
@@ -37,7 +37,7 @@ AuricKunai: {
 	Tooltip:
 		'''
 		Dispara una ráfaga rápida de kunais de corto alcance
-		Los ataques sigilosos generan 5 Rayos contra el enemigo más cercano
+		Los ataques sigilosos generan y lanza 5 Rayos contra el enemigo más cercano
 		'''
 }
 
@@ -45,9 +45,10 @@ StarfishFromTheDepth: {
 	DisplayName: Estrella de mar de las profundidades
 	Tooltip:
 		'''
-		Las estrellas de mar se dirigen al objetivo más cercano, inpactando hasta 5 veces
+		Las estrellas de mar se dirigen al objetivo más cercano, impactando hasta 5 veces
 		Los ataques sigilosos crean tres estrellas de mar a la vez
 		'''
 }
+
 
 
