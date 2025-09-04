@@ -1,8 +1,8 @@
 ClamitasBoss: {
 	DisplayName: Clamitas, la Almeja suprema
-	Bestiary: Maldita por la mismísima Calamitas, Clamitas absorbió el poder del azufre. En su perla no queda ni un rastro del poder del océano. Ningún canalla puede resistirse al poder mismo de Calamitas
+	Bestiary: Maldita por la mismísima Calamitas, Clamitas absorbió el poder del azufre. En su perla no queda ni rastro del poder del océano. Ningún canalla puede resistirse al poder mismo de Calamitas
 	BossChecklistIntegration: {
-		SpawnInfo: Use an [i:Clamity/ClamitasSummoningItem] Caparazón clamitoso en los Riscos de azufre
+		SpawnInfo: Usa un [i:Clamity/ClamitasSummoningItem] Caparazón clamitoso en los Riscos de azufre
 		DespawnMessage: "[c/FFD700:Clamitas vuelve a esconderse a su gruta.]"
 	}
 }
@@ -12,7 +12,7 @@ PyrogenBoss: {
 	Bestiary: Pirógeno es un horno mágico gigante creado por un herrero desconocido. Una gran cantidad de esencia de fuego está contenida en él. 'Más de 1000 °C en un segundo. 
 
 	BossChecklistIntegration: {
-		SpawnInfo: Usa una [i:Clamity/PyroKey] llave pirotécnica en el Desierto
+		SpawnInfo: Usa una [i:Clamity/PyroKey] Llave pirotécnica en el Desierto
 		DespawnMessage: "[c/FFD700:Pirógeno se asienta una vez más en el lago abrasador]"
 	}
 }
@@ -29,24 +29,25 @@ WallOfBronze: {
 	Bestiary: Máquina ancestral, guardiana de una esencia más poderosa que la esencia tras el Muro de Carne. Una de estas esencias puede congelar uno de los lugares más calientes, como el inframundo
 
 	BossChecklistIntegration: {
-		SpawnInfo: Clic derecho en una [i:Clamity/AncientConsole] Ancient Console in the Underworld
-		DespawnMessage: "[c/FFD700:The titanic machine continues its endless journey through Hell.]"
+		SpawnInfo: Clic derecho en una [i:Clamity/AncientConsole] Consola antigua al colocarla en el Inframundo
+		DespawnMessage: "[c/FFD700:La máquina titánica continúa su interminable viaje por el infierno...]"
 	}
 }
 
 ClockworkBat: {
-	DisplayName: Clockwork Bat
-	Bestiary: Clockwork is separate dron of Wall of Bronze. But after defeating him bat became uncontrollable
+	DisplayName: Murciélago mecánico
+	Bestiary: Este aparato de relojería es un dron independiente del Muro de bronce. Pero después de derrotarlo, este murciélago se volvió incontrolable
 }
 
 GlacialSlime: {
-	DisplayName: Glacial Slime
-	Bestiary: Lava slime which powered by powerful soul of frost. Slime tried to explode, but the temperature difference turned his attempts into spikes
+	DisplayName: Slime glaciar
+	Bestiary: Slime de lava impulsado por una poderosa alma de hielo. El slime intenta explotar, pero con la diferencia de temperatura solo puede expulsar pinchos
 }
 
-MetalMaw.DisplayName: Metal Maw
-MechanicalLeechTail.DisplayName: Mechanical Leech
-MechanicalLeechHead.DisplayName: Mechanical Leech
-MechanicalLeechBody.DisplayName: Mechanical Leech
+MetalMaw.DisplayName: Fauces metálicas
+MechanicalLeechTail.DisplayName: Sanguijuela mecánica
+MechanicalLeechHead.DisplayName: Sanguijuela mecánica
+MechanicalLeechBody.DisplayName: Sanguijuela mecánica
+
 
 
