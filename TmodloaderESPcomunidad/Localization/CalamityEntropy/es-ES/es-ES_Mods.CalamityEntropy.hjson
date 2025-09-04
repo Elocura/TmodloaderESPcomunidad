@@ -360,7 +360,7 @@ Items: {
 		Tooltip:
 			'''
 			+[CR]% de probabilidad de crítico
-			+20% de velocidad de movimiento
+			+15% de velocidad de movimiento
 			+[ST] de sigilo máximo
 			-30% de coste de maná
 			-10% de daño recibido
@@ -1529,12 +1529,12 @@ Items: {
 		Tooltip:
 			'''
 			Los proyectiles reducen la velocidad y el daño de los proyectiles enemigos con los que colisionan
-			+160% de tamaño de proyectil
+			+100% de tamaño de proyectil
 			'''
 	}
 
 	BookMarkCapricorn: {
-		Tooltip: Al atacar de forma continua irá aumentando la velocidad de disparo hasta un 40% como máximo
+		Tooltip: Al atacar de forma continua irá aumentando la velocidad de disparo hasta un 25% como máximo
 		DisplayName: Marcapáginas - Capricornio
 	}
 
@@ -1590,7 +1590,11 @@ Items: {
 
 	BookMarkGemini: {
 		DisplayName: Marcapáginas - Géminis
-		Tooltip: Los proyectiles se vuelven teleridigidos
+		Tooltip:
+			'''
+			Los proyectiles se vuelven teleridigidos
+			+10 de penetración de armadura
+			'''
 	}
 
 	BookMarkScorpio: {
@@ -1673,6 +1677,7 @@ Items: {
 			Activa o desactiva el modo entrópico
 			Es más desafiante. Tienes menos salud y recibes más daño
 			[c/ff0000: Note: Este modo no está recomendado para una progresión oficial, y los ajustes de equilibrio de desastre entrópico no se tienen en cuenta]
+            Clic derecho para usar solamente TDR
 			'''
 		DisplayName: Activador del modo entrópico
 	}
@@ -2725,7 +2730,6 @@ Items: {
 		DisplayName: Pastel de frutas
 		Tooltip:
 			'''
-			Establece la probabilidad de crítico de tu proyectil en un rango aleatorio del 1 a 100
 			Cuando utilices armas que consuman munición, con cada disparo se usarán municiones diferentes de forma aleatoria, manteniendo el daño original
 			Puede provocar debuffos de poca duración con cada golpe y con una probabilidad muy baja
 			'''
@@ -2747,6 +2751,21 @@ Items: {
 			Te protegerá del daño por contacto y de los proyectiles mientras embistes. Además aumenta la distancia de la embestida
 			Este efecto tiene un enfriamiento de 3 segundos
 			'''
+	}
+
+   LushGrassclassics: {
+		DisplayName: Clásicos de hierba exuberante
+		Tooltip: ""
+	}
+
+	MiracleWreckage: {
+		DisplayName: Restos milagrosos
+		Tooltip: ""
+	}
+
+	TheocracyMark: {
+		DisplayName: Marca de la teocracia
+		Tooltip: ""
 	}
 }
 
@@ -3225,6 +3244,12 @@ Projectiles: {
 	SRDamageRect.DisplayName: S R Damage Rect
 	SpiritBullet.DisplayName: Spirit Bullet
 	SpiritLaser.DisplayName: Spirit Laser
+    SpiritWave.DisplayName: Spirit Wave
+	LushGrassclassicsHeld.DisplayName: Lush Grassclassics Held
+	LushVine.DisplayName: Lush Vine
+	MiracleShoot.DisplayName: Miracle Shoot
+	MiracleWreckageHeld.DisplayName: Miracle Wreckage Held
+	Theostring.DisplayName: Theostring
 }
 
 LegendTooltip: - Legendario -
@@ -4147,6 +4172,7 @@ Biomes: {
 
 NearShimmer: Fulgor cercano
 AzMinerOreWarning: ¡Solo puedes usar mineral!
+
 
 
 
