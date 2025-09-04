@@ -1,7 +1,6 @@
 ClamitasBoss: {
-	DisplayName: Clamitas, Supreme Clam
-	Bestiary: Cursed Giant Clam by Calamitas himself, clamitas absorbed the power of brimstone. There is no power left in the pearl from the ocean. No scoundrel can resist the power of Clamitas itself
-
+	DisplayName: Clamitas, la Almeja suprema
+	Bestiary: Maldita por la mismísima Calamitas, Clamitas absorbió el poder del azufre. En su perla no queda ni un rastro del poder del océano. Ningún canalla puede resistirse al poder mismo de Calamitas
 	BossChecklistIntegration: {
 		SpawnInfo: Use an [i:Clamity/ClamitasSummoningItem] Clamitous Shell in the Brimstone Crags
 		DespawnMessage: "[c/FFD700:The Clamitas returns into hiding in its grotto.]"
@@ -49,3 +48,4 @@ MetalMaw.DisplayName: Metal Maw
 MechanicalLeechTail.DisplayName: Mechanical Leech
 MechanicalLeechHead.DisplayName: Mechanical Leech
 MechanicalLeechBody.DisplayName: Mechanical Leech
+
