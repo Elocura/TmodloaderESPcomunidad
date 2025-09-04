@@ -28,13 +28,13 @@ PyroStone: {
 }
 
 HellFlare: {
-	DisplayName: Llama infenral
+	DisplayName: Llama infernal
 	Tooltip:
 		'''
 		Todos los ataques y proyectiles inflingen Fuego infernal
 		Inmunidad a En llamas! y Fuego infernal
-		Estar por encima del 75% de vida otorga un 10 % más de probabilidad de crítico
-		Estar por debajo del 25% de vida otorga un 10 % de reducción de daño
+		Estar por encima del 75% de vida otorga un 10% más de probabilidad de crítico
+		Estar por debajo del 25% de vida otorga un 10% de reducción de daño
 		Proporciona resistencia contra los ataques helados
 		'''
 }
@@ -165,7 +165,7 @@ BlightedSpyglass: {
 	Tooltip:
 		'''
 		+1 de capacidad de centinelas
-		Los centinelas infligen el debuff Llamas de azufre
+		Los centinelas infligen el debufo Llamas de azufre
 		'''
 }
 
@@ -186,9 +186,10 @@ SkullOfTheBloodGod: {
 		Los golpes críticos explotan, provocando que los enemigos cercanos se incendien con Llamas de azufre
 		Reduce a la mitad el daño por contacto de los enemigos con un enfriamiento de 20 segundos
 		Tras recibir un impacto, lloverá fuego de azufre
-		Reduce considerablemente el daño recibido por el debuff Llamas de azufre
+		Reduce considerablemente el daño recibido por el debufo Llamas de azufre
 		'''
 }
+
 
 
 
