@@ -1,17 +1,18 @@
 Cooldowns: {
 	ShortstrikeCooldown: Enfriamiento de la espada corta
 	ShortstrikeCharge: Carga del golpe corto
-	PyrospearCooldown: Pyrospear Cooldown
+	PyrospearCooldown: Enfriamiento de la pirolanza
 }
 
 Enchantments: {
 	AflameAcc: {
-		DisplayName: Aflame
+		DisplayName: Inflamado
 		Description:
 			'''
-			Ignites enemies with the Supreme Witch's power on hit (by minion) but also causes the user to take damage over time when wearing this item.
-			P. S. Not all accesories has support of this enchantment
+			Inflama a los enemigos con el poder de la Bruja Suprema por cada inpacto de súbdito pero también hace que el usuario sufra daño con el tiempo al sostener el objeto.
+			PD: No todos los accesorios son compatibles con este encantamiento
 			'''
 	}
 }
+
 
