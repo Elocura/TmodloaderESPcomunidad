@@ -46,8 +46,9 @@ FrozenHellstone: {
 	FrozenHellstoneVisor: {
 		Tooltip:
 			'''
-			Incrementa un 20% el daño a melee verdadero.
-			Los ataques a melee verdadero infligen Quemadura de hielo.
+			Incrementa un 20% el daño cuerpo a cuerpo verdadero.
+			Los ataques cuerpo a cuerpo
+verdadero infligen Quemadura de hielo.
 			Los enemigos son más propensos a atacarte.
 			'''
 		DisplayName: Visera congelada
@@ -62,7 +63,7 @@ FrozenHellstone: {
 	FrozenHellstoneGreaves: {
 		Tooltip:
 			'''
-			Incrementa un 20% el daño a melee verdadero y la vida máxima en 75
+			Incrementa un 20% el daño cuerpo a cuerpo verdadero y la vida máxima en 75
 			Los enemigos son más propensos a atacarte.
 			'''
 		DisplayName: Grebas congeladas
@@ -71,10 +72,11 @@ FrozenHellstone: {
 	FrozenHellstoneChestplate: {
 		Tooltip:
 			'''
-			Incrementa un 20% el daño a melee verdadero y un 20% la velocidad de ataque a melee. 
+			Incrementa un 20% el daño cuerpo a cuerpo verdadero y un 20% la velocidad de ataque cuerpo a cuerpo. 
 			Los enemigos son más propensos a atacarte.
 			'''
 		DisplayName: Coraza congelada
 	}
 }
+
 
