@@ -1,4 +1,5 @@
-VoidBlade: {
+Items: {
+	VoidBlade: {
 		DisplayName: Void Blade
 		Tooltip: Quickly perform continuous slashing
 	}
@@ -598,7 +599,7 @@ VoidBlade: {
 
 	VoidFaquirEvokerHelm: {
 		DisplayName: Void Faquir Evoker Helm
-		Tooltip: +80% Summon Damage
+		Tooltip: +25% Summon Damage
 	}
 
 	VoidFaquirLurkerMask: {
@@ -2739,7 +2740,6 @@ VoidBlade: {
 			'''
 			Press the middle mouse button to lock the enemy
 			When using firearms, the bullet must hit the target
-			Reduce bullet damage appropriately
 			'''
 	}
 
