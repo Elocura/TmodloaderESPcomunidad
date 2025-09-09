@@ -96,6 +96,16 @@ Items: {
 				DisplayName: Principio lunar
 				Tooltip: ""
 			}
+
+           AzafureSurgeRod: {
+				DisplayName: Vara de sobretensión de Azafure
+				Tooltip:
+					'''
+					Al atacar, el proyectil se clavará en el objetivo
+					Después de un tiempo, lanzará rayos hacia otros objetivos cercanos
+					Los ataques sigilosos lanzarán una gran cantidad de proyectiles que flotarán en el aire y rastrearán a los objetivos cercanos
+					'''
+			}
 		}
 	}
 
@@ -4187,6 +4197,7 @@ Biomes: {
 
 NearShimmer: Fulgor cercano
 AzMinerOreWarning: ¡Solo puedes usar mineral!
+
 
 
 
