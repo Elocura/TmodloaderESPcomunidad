@@ -97,7 +97,7 @@ Items: {
 				Tooltip: ""
 			}
 
-           AzafureSurgeRod: {
+			AzafureSurgeRod: {
 				DisplayName: Vara de sobretensión de Azafure
 				Tooltip:
 					'''
@@ -2778,7 +2778,7 @@ Items: {
 		Tooltip: ""
 	}
 
-    AzafureFurnace: {
+	AzafureFurnace: {
 		DisplayName: Horno de Azafure
 		Tooltip: ""
 	}
@@ -3269,12 +3269,24 @@ Projectiles: {
 	SRDamageRect.DisplayName: S R Damage Rect
 	SpiritBullet.DisplayName: Spirit Bullet
 	SpiritLaser.DisplayName: Spirit Laser
-    SpiritWave.DisplayName: Spirit Wave
+	TrueMoonlightShoot.DisplayName: True Moonlight Shoot
+	TrueMoonlightSwordHeld.DisplayName: True Moonlight Sword Held
+	DarkBladeHeld.DisplayName: Dark Blade Held
+	DarkBladeShoot.DisplayName: Dark Blade Shoot
+	SpiritWave.DisplayName: Spirit Wave
 	LushGrassclassicsHeld.DisplayName: Lush Grassclassics Held
 	LushVine.DisplayName: Lush Vine
 	MiracleShoot.DisplayName: Miracle Shoot
 	MiracleWreckageHeld.DisplayName: Miracle Wreckage Held
 	Theostring.DisplayName: Theostring
+	AzafureFurnaceEnergyBall.DisplayName: Azafure Furnace Energy Ball
+	AzafureFurnaceHoldout.DisplayName: Azafure Furnace Holdout
+	FurnaceBlast.DisplayName: Furnace Blast
+	AzafurePulseWandHeld.DisplayName: Azafure Pulse Wand Held
+	TeslaLightningRed.DisplayName: Tesla Lightning Red
+	SandBullet.DisplayName: Sand Bullet
+	AzafureSurgeRodHeldEffect.DisplayName: Azafure Surge Rod Held Effect
+	AzafureSurgeRodThrow.DisplayName: Azafure Surge Rod Throw
 }
 
 LegendTooltip: - Legendario -
@@ -3818,11 +3830,6 @@ Configs: {
 			Tooltip: Se mostrará información adicional sobre ciertos ítems, como penetración de armadura, tipo de munición, etc
 		}
 
-		MariviniumArmorSetOnlyProvideStealthBarWhenHoldingRogueWeapons: {
-			Label: Solo se ve la barra de sigilo al usar un arma Rogue al usar la armadura de marivinium
-			Tooltip: ""
-		}
-
 		MariviumArmorSetOnlyProvideStealthBarWhenHoldingRogueWeapons: {
 			Tooltip: ""
 			Label: Solo se ve la barra de sigilo al usar un arma Rogue al usar la armadura de marivinium
@@ -3831,6 +3838,11 @@ Configs: {
 		EntropyMeleeWeaponSoundVolume: {
 			Label: Volumen de las armas entrópicas a melee
 			Tooltip: ""
+		}
+
+		ScreenWarpEffects: {
+			Label: Screen Effects
+			Tooltip: Do or do not draw the screen wrap and cut screen effect
 		}
 	}
 
@@ -4197,10 +4209,3 @@ Biomes: {
 
 NearShimmer: Fulgor cercano
 AzMinerOreWarning: ¡Solo puedes usar mineral!
-
-
-
-
-
-
-
