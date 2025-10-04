@@ -4280,6 +4280,17 @@ Biomes: {
 NearShimmer: Fulgor cercano
 AzMinerOreWarning: ¡Solo puedes usar mineral!
 
-
-
-
+RIDModifies:
+	'''
+	Para [[ITEMNAME]]:
+	[1]% de daño
+	[2]% de velocidad de ataque
+	[9]% de probabilida de crítico
+	[3]% de defensa
+	[4]% de reducción de daño
+	[5]% de vida máxima
+	[6]% de maná máximo
+	[7]% de movimiento y velocidad de vuelo
+	[8]% de tiempo de vuelo
+	'''
+ProtectiveCannonCooldown: Tiempo de enfriamiento del Cañón protector Azafure
