@@ -689,7 +689,7 @@ Items: {
 			'''
 			+ 8 de regeneración de vida
 			Elimina el daño a la defensa.
-			[c/ff0000:Tu daño se reduce un 1/2 de su valor original]
+			No podrás hacer críticos
 			-Modo Muerte-
 			'''
 	}
@@ -717,7 +717,7 @@ Items: {
 		Tooltip:
 			'''
 			+15% de daño
-			+2 de regeneración de vida
+			+2.5 de regeneración de vida
 			+2 súbtidos máximos
 			+75% de retroceso de súbditos
 			+5% de probabilidad de crítico
@@ -1161,6 +1161,7 @@ Items: {
 			Invoca un pequeño Bacteriófago de la nihilidad
 			Cada bacteriófago ocupa 2 espadios de invocación
 			Atacará a los enemigos y te curará cuando sea necesario
+			También puedes mantener presionada la tecla([KEY]) para entrar en este modo
 			'''
 	}
 
@@ -1184,7 +1185,6 @@ Items: {
 			'''
 			Activa aleatoriamente entre 1 y 3 accesorios de tu inventario.
 			"Iilumina tu futuro"
-			[c/ff0000:Sacrifica el 15% del daño que recibas]
 			'''
 		DisplayName: Farol de mecha
 	}
@@ -2654,13 +2654,14 @@ Items: {
 			#1Las pociones de maná restauran un 10% más de maná
 			#1Mientras estés bajo los efectos de Poder arcano, obtienes +4% de probabilidad de crítico mágico
 
-			#2Utiliza automáticamente pociones de maná, restaurándola un 75% de manera instantánea. El 25% restante se recuperará en 5 segundos
+			#2Utiliza automáticamente pociones de maná. 
+			#2Se restaurará un 75% de manera instantánea,y el 25% restante se restaurará luego de 5 segundos
 			#2Si recibes más de 80 puntos de daño durante este proceso, la restauración se interrumpe, 
 			#2ampliando los fotogramas de invencibilidad y acelerarando brevemente la regeneración de vida
 			#2"La marea de la magia fluye por tus venas..."
 
-			#3Después de consumir maná equivalente al 50% de tu maná máximo, obtienes un 6% de Manía potenciada (se acumula hasta 5 veces)
-
+			#3Después de consumir maná equivalente al 50% de tu maná máximo, 
+			#3obtienes un 6% de Manía potenciada (se acumula hasta 5 veces)
 			#4Los efectos de Locura de maná y Quemadura de maná se reducen a la mitad
 
 			#4Con cada 2 acumulaciones de Manía potenciada se otorgará una reducción de daño del 0,1%
@@ -2669,9 +2670,13 @@ Items: {
 
 			#5Los golpes críticos infligen el debuff Desorden del alma al objetivo
 
-			#5Cuando se agota el maná, los ataques pasarán de consumir maná a restaurarlo durante 6 segundos. Al mismo tiempo se aplicá el debuff Quemadura de mana durante 5 segundos. Recibir daño durante este proceso amplía los fotogramas de invencibilidad
+			#5Cuando se agota el maná, 
+			#5los ataques pasarán de consumir maná a restaurarlo durante 6 segundos. 
+			#5Al mismo tiempo se aplicá el debuff Quemadura de mana durante 5 segundos. 
+			#5Recibir daño durante este proceso amplía los fotogramas de invencibilidad
 
-			#6Al tener las acumulaciones de Flujo de maná al máximo, cada vez que se agote el maná te otorga un +2% de probabilidad de crítico mágico y un +3% de daño crítico mágico (se acumula hasta 5 veces)
+			#6Al tener las acumulaciones de Flujo de maná al máximo, cada vez que se agote el maná 
+			#6te otorga un +2% de probabilidad de crítico mágico y un +3% de daño crítico mágico (se acumula hasta 5 veces)
 			'''
 	}
 
@@ -2691,20 +2696,12 @@ Items: {
 		Tooltip: ""
 	}
 
-	"Kitsune'sFan": {
-		DisplayName: Abanico de Kitsune
-		Tooltip: ""
-	}
 
 	BloodstainedShirt: {
 		DisplayName: Camisa manchada de sangre
 		Tooltip: ""
 	}
 
-	"Kitsune'sMask": {
-		DisplayName: Máscara de Kitsune
-		Tooltip: ""
-	}
 
 	ScarletKilt: {
 		DisplayName: Falda escocesa escarlata
@@ -2721,10 +2718,6 @@ Items: {
 		Tooltip: ""
 	}
 
-	TestItem: {
-		DisplayName: Ítem de prueba
-		Tooltip: ""
-	}
 
 	TrueMoonlightSword: {
 		DisplayName: Espada de luz de luna verdadera
@@ -2791,6 +2784,72 @@ Items: {
 	BookmarkSandstorm: {
 		DisplayName: Marcapáginas - Tormenta de arena
 		Tooltip: Lanza una bala de arena al dejar de atacar
+	}
+	
+	BottledStarlightCocoon: {
+		DisplayName: Capullo de luz estelar embotellada
+		Tooltip:
+			'''
+			Invoca a la polilla de luz estelar para que luche por ti
+			Cuando no hay un objetivo, te rodeará y te proporcionará vida
+			Mantén pulsada la tecla ([KEY]) para entrar manualmente en este modo
+			Consume 3 espacios de súbditos
+			'''
+	}
+
+	AzafureRailgun: {
+		DisplayName: Cañon de riel de Azafure
+		Tooltip: ""
+	}
+
+	AzafureDroneRemote: {
+		DisplayName: Dron de control remoto de Azafure
+		Tooltip: Invoca a un dron que lanza misiles a los enemigos
+	}
+
+	AzafureHealingTowerRemote: {
+		DisplayName: Torre de curación Remota de Azafure 
+		Tooltip: Despliega una torre curativa que restaura salud a los jugadores cercanos. Utiliza láseres para atacar a los enemigos y monstruos cercanos al estar inactivo
+	}
+
+	Dyes: {
+		SpiritDye: {
+			DisplayName: Tinte espiritual
+			Tooltip: ""
+		}
+
+		VoidCruiseDye: {
+			DisplayName: Tinte de la teocrácia
+			Tooltip: ""
+		}
+
+		RoaringDye: {
+			DisplayName: Tinte rugiente
+			Tooltip: ""
+		}
+	}
+
+	ReallocateIndicatorData: {
+		DisplayName: Módulo ARID
+		Tooltip:
+			'''
+			Modifica aleatoriamente tus bonificiones en función del objeto que sostengas
+			Su nombre completo es "Módulo Azafure de Reasignador e Indicador de Datos" 
+			'''
+	}
+
+	AzafureProtectiveCannon: {
+		DisplayName: Cañón protector de Azafure
+		Tooltip:
+			'''
+			Dispara en un punto fijo, causando daño a distancia
+			20 segundos de enfriamiento
+			'''
+	}
+
+	AzafureTBMTerminal: {
+		DisplayName: Terminal Azafure TBM
+		Tooltip: ""
 	}
 }
 
@@ -3464,7 +3523,7 @@ Buffs: {
 	}
 
 	WyrmWhipDebuff: {
-		Description: Mods.CalamityEntropy.Buffs.WyrmWhipDebuff.Description
+		Description: ""
 		DisplayName: Debuffo del látigo de eidolón
 	}
 
@@ -3475,7 +3534,7 @@ Buffs: {
 
 	VoidVirus: {
 		DisplayName: Virus del vacío
-		Description: Mods.CalamityEntropy.Buffs.VoidVirus.Description
+		Description: ""
 	}
 
 	NyxolithrakenBuff: {
@@ -3513,7 +3572,7 @@ Buffs: {
 	}
 
 	SoulDisorder: {
-		Description: Mods.CalamityEntropy.Buffs.SoulDisorder.Description
+		Description: ""
 		DisplayName: Transtorno del alma
 	}
 
@@ -3575,6 +3634,16 @@ Buffs: {
 	ManaVein: {
 		DisplayName: Vena de maná
 		Description: Aumenta el crítico mágico y el daño crítico
+	}
+
+	StarlightMoth: {
+		DisplayName: Polilla estelar
+		Description: La polilla estelar peleará por tí
+	}
+
+	AzafureDrone: {
+		DisplayName: Dron de Azafure
+		Description: El dron de Azafure peleará por tí
 	}
 }
 
@@ -3749,6 +3818,7 @@ Keybinds: {
 	KeepPoop.DisplayName: Sostener caca
 	VetrasylsEyeBlock.DisplayName: Bloquear Ojo de Vetrasyls
 	RuneDash.DisplayName: Embestida de Runa de vuelo
+	CommandMinions.DisplayName: Dirigir súbditos
 }
 
 ProphetLoreEffect:
@@ -4209,5 +4279,6 @@ Biomes: {
 
 NearShimmer: Fulgor cercano
 AzMinerOreWarning: ¡Solo puedes usar mineral!
+
 
 
