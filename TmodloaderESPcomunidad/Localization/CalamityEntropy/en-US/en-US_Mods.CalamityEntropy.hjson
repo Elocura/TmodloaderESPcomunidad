@@ -690,7 +690,7 @@ Items: {
 			'''
 			+ 8 Life Regen/s
 			Remove defense damage.
-			[c/ff0000:Your damage is reduced to 1/2 of its original value]
+			You can't hit critically
 			-Death Mode-
 			'''
 	}
@@ -718,7 +718,7 @@ Items: {
 		Tooltip:
 			'''
 			+15% damage
-			+2sHP/s Life Regen
+			+2.5HP/s Life Regen
 			+2 Max Minions
 			+75% Minions Knockback
 			+5% Crit Chance
@@ -1162,6 +1162,7 @@ Items: {
 			Summon a tiny Nihility Bacteriophage.
 			Each Nihility Bacteriophage needs 2 summon slots.
 			Nihility Bacteriophage will stick to enemies and heal you when necessary
+			You can also hold Command Servants Hotkey([KEY]) to enter this mode
 			'''
 	}
 
@@ -1185,7 +1186,6 @@ Items: {
 			'''
 			Randomly activate 1 to 3 accessories from your inventory
 			"Illuminate your future"
-			[c/ff0000:Sacifice 15% of damage to you]
 			'''
 		DisplayName: Wisp Lantern
 	}
@@ -2653,12 +2653,14 @@ Items: {
 			#1Mana potions restore 10% more mana
 			#1While under the effects of Arcane Might, gain +4% magic critical strike chance
 
-			#2Automatically uses mana potions, with 75% of the restoration applied instantly and the remaining 25% recovered over 5 seconds.
+			#2Automatically uses mana potions, 
+			#2with 75% of the restoration applied instantly and the remaining 25% recovered over 5 seconds.
 			#2If you take damage exceeding 80 points during this period, the restoration is interrupted, 
 			#2extending invincibility frames and briefly accelerating health regeneration.
 			#2"The tide of magic pulses through your veins..."
 
-			#3After consuming mana equivalent to 50% of your maximum mana, gain 4% Empowered Mania (stacks up to 5 times).
+			#3After consuming mana equivalent to 50% of your maximum mana, 
+			#3gain 4% Empowered Mania (stacks up to 5 times).
 
 			#4Effects of Mana Sickness and Mana Burn are halved.
 
@@ -2668,9 +2670,13 @@ Items: {
 
 			#5Critical hits inflict the Soul Disarray debuff on the target.
 
-			#5Upon mana depletion, attacks switch from consuming mana to restoring mana for 6 seconds, while also applying the Mana Scorch debuff for 5 seconds. Taking damage during this period extends invincibility frames.
+			#5Upon mana depletion, 
+			#5attacks switch from consuming mana to restoring mana for 6 seconds, 
+			#5while also applying the Mana Scorch debuff for 5 seconds. 
+			#5Taking damage during this period extends invincibility frames.
 
-			#6At full stacks of Manaflow, each mana depletion grants +1% magic critical strike chance and +3% magic critical damage (stacks up to 5 times).
+			#6At full stacks of Manaflow, each mana depletion grants 
+			#6+1% magic critical strike chance and +3% magic critical damage (stacks up to 5 times).
 			'''
 	}
 
@@ -2690,18 +2696,8 @@ Items: {
 		Tooltip: ""
 	}
 
-	"Kitsune'sFan": {
-		DisplayName: Kitsune's Fan
-		Tooltip: ""
-	}
-
 	BloodstainedShirt: {
 		DisplayName: Bloodstained Shirt
-		Tooltip: ""
-	}
-
-	"Kitsune'sMask": {
-		DisplayName: Kitsune's Mask
 		Tooltip: ""
 	}
 
@@ -2717,11 +2713,6 @@ Items: {
 
 	KitsunesMask: {
 		DisplayName: Kitsunes Mask
-		Tooltip: ""
-	}
-
-	TestItem: {
-		DisplayName: Test Item
 		Tooltip: ""
 	}
 
@@ -2791,6 +2782,72 @@ Items: {
 		DisplayName: Bookmark - Sandstorm
 		Tooltip: Launch sand bullet when stop attacking
 	}
+
+	BottledStarlightCocoon: {
+		DisplayName: Bottled Starlight Cocoon
+		Tooltip:
+			'''
+			Summon the starlight moth to fight for you
+			When there is no target, it will surround you and provide you with life recovery
+			Hold Command Servant ([KEY]) key to manually enter this mode
+			Consume 3 summoning bars
+			'''
+	}
+
+	AzafureRailgun: {
+		DisplayName: Azafure Railgun
+		Tooltip: ""
+	}
+
+	AzafureDroneRemote: {
+		DisplayName: Azafure Drone Remote
+		Tooltip: Summon a drone that can launch missiles at the enemy
+	}
+
+	AzafureHealingTowerRemote: {
+		DisplayName: Azafure Healing Tower Remote
+		Tooltip: Deploy a healing tower to restore health to nearby players, and use lasers to attack nearby enemies and monsters during idle time
+	}
+
+	Dyes: {
+		SpiritDye: {
+			DisplayName: Spirit Dye
+			Tooltip: ""
+		}
+
+		VoidCruiseDye: {
+			DisplayName: Theocrazy Dye
+			Tooltip: ""
+		}
+
+		RoaringDye: {
+			DisplayName: Roaring Dye
+			Tooltip: ""
+		}
+	}
+
+	ReallocateIndicatorData: {
+		DisplayName: ARID Module
+		Tooltip:
+			'''
+			Randomly modify your stat bonuses based on the handheld item
+			Its full name is "Azafure Reallocate Indicator Data Module"
+			'''
+	}
+
+	AzafureProtectiveCannon: {
+		DisplayName: Azafure Protective Cannon
+		Tooltip:
+			'''
+			Strike the target location at a fixed point, causing range damage
+			20 second cooling
+			'''
+	}
+
+	AzafureTBMTerminal: {
+		DisplayName: Azafure TBM Terminal
+		Tooltip: ""
+	}
 }
 
 LOCKED: ": [LOCKED]"
@@ -2799,9 +2856,24 @@ BCU2: Requires defeating Perforator or Hive Mind
 BCU3: Requires defeating Wall of Flesh
 BCU4: Requires defeating Plantera
 BCC1: Right-click to extend thorny vines after a brief wind-up
-BCC2: Holding right-click on a target pulls you toward it and deals impact damage. \nThis skill consumes 20% of the Verdure Charge Bar. Left-click hits slightly recharge the bar
-BCC3: Right-click then quickly left-click to throw the weapon. The sword attaches to the struck target, \ngranting continuous health regeneration and slowly recharging the bar
-BCC4: Double-tap and hold right-click to throw the weapon, causing it to rapidly pierce enemies near the cursor and continuously consume charging energy. \nHolding left-click spins the blade, releasing homing projectiles
+BCC2:
+	'''
+	Holding right-click on a target pulls you toward it and deals impact damage
+	This skill consumes 20% of the Verdure Charge Bar
+	Left-click hits slightly recharge the bar
+	'''
+BCC3:
+	'''
+	Right-click then quickly left-click to throw the weapon.
+	The sword attaches to the struck target, 
+	granting continuous health regeneration and slowly recharging the bar
+	'''
+BCC4:
+	'''
+	Double-tap and hold right-click to throw the weapon,
+	causing it to rapidly pierce enemies near the cursor and continuously consume charging energy
+	Holding left-click spins the blade, releasing homing projectiles
+	'''
 PrefixitemDesc:
 	'''
 	Used to add a prefix to an armor
@@ -3274,6 +3346,16 @@ Projectiles: {
 	SandBullet.DisplayName: Sand Bullet
 	AzafureSurgeRodHeldEffect.DisplayName: Azafure Surge Rod Held Effect
 	AzafureSurgeRodThrow.DisplayName: Azafure Surge Rod Throw
+	StarlightMothMinion.DisplayName: Starlight Moth Minion
+	LuminarisMinionAstralShoot.DisplayName: Luminaris Minion Astral Shoot
+	AzafureRailgunHeld.DisplayName: Azafure Railgun Held
+	RailgunChargeShot.DisplayName: Railgun Charge Shot
+	RailgunSmallShot.DisplayName: Railgun Small Shot
+	AzafureDroneMinion.DisplayName: Azafure Drone Minion
+	AzafureDroneBullet.DisplayName: Azafure Drone Bullet
+	AzafureHealingTowerSentry.DisplayName: Azafure Healing Tower Sentry
+	AzafureProtectiveCannonShot.DisplayName: Azafure Protective Cannon Shot
+	ATBMProjectile.DisplayName: ATBM Projectile
 }
 
 LegendTooltip: - Legend -
@@ -3451,7 +3533,7 @@ Buffs: {
 	}
 
 	WyrmWhipDebuff: {
-		Description: Mods.CalamityEntropy.Buffs.WyrmWhipDebuff.Description
+		Description: ""
 		DisplayName: Wyrm Whip Debuff
 	}
 
@@ -3462,7 +3544,7 @@ Buffs: {
 
 	VoidVirus: {
 		DisplayName: Void Virus
-		Description: Mods.CalamityEntropy.Buffs.VoidVirus.Description
+		Description: ""
 	}
 
 	NyxolithrakenBuff: {
@@ -3500,7 +3582,7 @@ Buffs: {
 	}
 
 	SoulDisorder: {
-		Description: Mods.CalamityEntropy.Buffs.SoulDisorder.Description
+		Description: ""
 		DisplayName: Soul Disorder
 	}
 
@@ -3562,6 +3644,16 @@ Buffs: {
 	ManaVein: {
 		DisplayName: Mana Vein
 		Description: Increase magic crit and crit damage
+	}
+
+	StarlightMoth: {
+		DisplayName: Starlight Moth
+		Description: Starlight moth will fight for you
+	}
+
+	AzafureDrone: {
+		DisplayName: Azafure Drone
+		Description: Azafure Drone will fight for you
 	}
 }
 
@@ -3736,6 +3828,7 @@ Keybinds: {
 	KeepPoop.DisplayName: Hold Poop
 	VetrasylsEyeBlock.DisplayName: Vetrasyls Eye Block
 	RuneDash.DisplayName: Rune Wings Dash
+	CommandMinions.DisplayName: Command Minions
 }
 
 ProphetLoreEffect:
@@ -4195,3 +4288,17 @@ Biomes: {
 
 NearShimmer: Near shimmer
 AzMinerOreWarning: Only ores can be inserted!
+RIDModifies:
+	'''
+	For [[ITEMNAME]]:
+	[1]% Damage
+	[2]% Attack Speed
+	[9]% Crit Chance
+	[3]% Defense
+	[4]% Damage Reduce
+	[5]% Max Life
+	[6]% Max Mana
+	[7]% Movement & Flight Speed
+	[8]% Wing Time
+	'''
+ProtectiveCannonCooldown: Azafure Protective Cannon Cooldown
