@@ -1,36 +1,37 @@
 Ranged: {
 	$parentVal: ""
-	GrandSlamBall.DisplayName: Grand Slam Ball
+	GrandSlamBall.DisplayName: Pelota golpe magnífico
 }
 
 BloodyTrophy: {
-	DisplayName: Bloody Trophy
+	DisplayName: Trofeo sangriento
 	Tooltip:
 		'''
-		+1 HP/s life regen speed
-		{0} increased effect of the healing potions, and increase your max HP by {1}
-		Reduce contact damage by {2}, has {3} seconds cooldown once triggered
-		Grants immnue time when damaged, and 25% reduced cooldown of healing potions
-		Grants immnuity to Knockback
-		"This...looks familiar."
+		+1 de velocidad de regeneración de vida
+		Aumenta en {0} el efecto de las pociones curativas e incrementa tu vida en {1}
+		Reduce el daño por contacto en {2}, y tiene {3} segundos de enfriamiento una vez activado
+		Garantiza un tiempo de inmmunidad al recibir daño y reduce un 25% el enfriamiento de las pociones curativas
+		Garantiza inmunidad al retroceso
+		"Esto...me parece familiar."
 		'''
 }
 
 BloodyAmulet: {
-	DisplayName: Bloody Amulet
+	DisplayName: Amuleto sangriento
 	Tooltip:
 		'''
-		{0} increased effect of the healing potions, and increase your max HP by {1}
-		Reduce contact damage by {2}, has {3} seconds cooldown once triggered
-		Grants immnuity to Knockback
+		Incrementa en{0} el efecto de las pociones curativas and e incrementa tu vida en {1}
+		Reduce el daño por contacto en {2}, y tiene {3} segundos de enfriamiento una vez activado
+		Garantiza inmunidad al retroceso
 		'''
 }
 
 BloodyMark: {
-	DisplayName: Bloody Mark
+	DisplayName: Marca sangrienta
 	Tooltip:
 		'''
-		+1 HP/s life regen speed
-		Grants immnue time when damaged, and 25% reduced cooldown of healing potions
+		+1 de velocidad de regeneración de vida
+		Garantiza un tiempo de inmmunidad al recibir daño y reduce un 25% el enfriamiento de las pociones curativas
 		'''
 }
+
