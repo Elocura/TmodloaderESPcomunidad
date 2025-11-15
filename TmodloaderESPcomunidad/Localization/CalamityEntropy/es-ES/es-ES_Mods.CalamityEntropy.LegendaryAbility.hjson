@@ -1,146 +1,147 @@
 TlipocasScytheLegend: {
 	Conditions: {
-		DashTitle: Ability: Slash Dash
-		StatTitle: Ability: Basic Stat
-		TeleportTitle: Ability: Teleport Slash
-		ThrowTitle: Ability: Throw
+		DashTitle: Ability: Corte rápido
+		StatTitle: Ability: Estadística básica
+		TeleportTitle: Ability: Teletransporte Cortante
+		ThrowTitle: Ability: Lanzar
 	}
 
 	Ability: {
-		TScytheA1: Hold Up and attack will push a certain distance towards the mouse direction
-		TScytheA1B: Gain invincible time and deal damage to the targets you come into contact with
-		TScytheA2: Press LMB to throw the scythe and causing multiple injuries
+		TScytheA1: Presionar Arriba y atacar te empujará una cierta distancia hacia la dirección del cursor
+		TScytheA1B: Serás invencible por un tiempo e infligirás daño a los objetivos con los que entras en contacto
+		TScytheA2: Pulsa el botón izquierdo del ratón para lanzar la guadaña y causar múltiples heridas
 		TScytheA2B:
 			'''
-			Press LMB when throwing to teleport to the mouse and launch a larger slash
-			This skill has a {0} second cooldown time.
+			Pulsa clic izquierdo para teletransportarte al cursor y lanzar un corte mayor.
+			Esta habilidad tiene un tiempo de enfriamiento de {0} segundos.
 			'''
 		TScytheA3:
 			'''
-			When throw out, press RMB to let the scythe follow your curser.
-			Stealth strikes will heal you with 15
+			Al lanzarla, pulsa clic derecho para que la guadaña siga tu cursor
+			Los ataques sigilosos te curarán 15 puntos
 			'''
 		TScytheA4:
 			'''
-			Teleport slash will empowerment your weapon with void in {0} seconds.
-			{1} increased damage while empowering
+			El teletransporte cortante potenciará tu arma con el vacío en {0} segundos
+			{1} de daño al estar potenciado
 			'''
 		TScytheA5:
 			'''
-			Leave a shadow when teleport strike, the shadow will strike with you.
-			Slash dash will generate an additional slash perpendicular to the original sprint
-			Increase the healing value when steal strike.
+			Deja una sombra cuando realices un teletransporte. La sombra atacará contigo.
+			El corte rápido generará un corte adicional perpendicular al sprint original
+			Aumenta el valor de curación cuando realices un ataque sigiloso.
 			'''
-		TScytheA6: Leave rift when slash dash. The rift will continuously causing harm
-		TScytheA7: Resist a fatal injury and restore your health to half of your maximum health.Need 5 min to cooling
-		TScytheA8: Attacks inflict void touch
-		TScytheA9: The closer the distance to the target, the higher the damage dealt, with a maximum additional damage of 35%
+		TScytheA6: Deja una grieta al realizar un corte rápido. La grieta causará daño continuamente
+		TScytheA7: Resiste una golpe mortal y recupera la mitad de tu salud máxima. Tiene 5 minutos de enfriamiento
+		TScytheA8: Atacar puede causar toque del vacío
+		TScytheA9: Cuanto más cerca estés del objetivo, mayor será el daño provocado, con un daño adicional máximo del 35%
 	}
 
 	Downed: {
-		TScytheU1: Take down Eye of Cthulhu
-		TScytheU1B: Take down Slimg God
-		TScytheU2: Take down any evil boss
-		TScytheU2B: Take down Brimstone Elemental
-		TScytheU3: Take down Prophet
-		TScytheU4: Take down Void Twins
-		TScytheU5: Take down Polterghast
-		TScytheU6: Take down Devourer of Gods
-		TScytheU7: Take down Yharon
-		TScytheU8: Take down Cruiser
-		TScytheU9: Take down Supreme Witch
+		TScytheU1: Derrota al Ojo de Cthulhu
+		TScytheU1B: Derrota al Dios Slime
+		TScytheU2: Derrota a cualquier jefe maligno
+		TScytheU2B: Derrota a la Elemental de Azufre
+		TScytheU3: Derrota al Profeta
+		TScytheU4: Derrota a los Gemelos del vacío
+		TScytheU5: Derrota a Polterghast
+		TScytheU6: Derrota al Devorador de Dioses
+		TScytheU7: Derrota a Yharon
+		TScytheU8: Derrota al Cruiser
+		TScytheU9: Derrota a la Bruja suprema
 	}
 
 	Dialog: {
 		TScytheDia1:
 			'''
-			The evil big eyes seem to have ill intentions towards we...
-			Let's go kill him!
+			Los grandes ojos malignos parecen tener malas intenciones hacia nosotros...
+			¡Vamos a matarlo!
 			'''
 		TScytheDia2:
 			'''
-			Strange spirits resembling brains and worms?
-			Can I take it home to make a specimen？
+			¿Extraños espíritus parecidos a cerebros y gusanos?
+			¿Puedo llevármelo a casa como espécimen?
 			'''
 		TScytheDia3:
 			'''
-			Slime God? It looks sticky, dirty, and bubbling...
-			Shall we give it a bath？
+			¿El Dios Slime? Parece pegajoso, sucio y burbujeante...
+			¿Le damos un baño?
 			'''
 		TScytheDia4:
 			'''
-			A flesh and blood creation sealed with the spirit of the gods?
-			It seems that completing this task can bring a lot of souls...
+			¿Una creación de carne y hueso sellada con los espíritu de dioses?
+			Parece que completar esta tarea puede producir muchas almas...
 			'''
 		TScytheDia5:
 			'''
-			Many souls are floating in the brimstone crag, howling in sorrow...
-			Continuously talking about a catastrophe from a hundred years ago...
-			Let's end their pain!
+			Muchas almas flotan en los peñascos de azufre, aullando de dolor...
+    		Hablando sin cesar de una catástrofe ocurrida hace cien años...
+    		¡Acabemos con su sufrimiento!
 			'''
 		TScytheDia6:
 			'''
-			There is a terrifying red monster hovering in the night sky,
-			I can only feel madness from his soul. Or...Is that really a soul?
+			Hay un monstruo rojo y aterrador flotando por el cielo nocturno.
+    		Solo puedo sentir locura en su alma. O... ¿Acaso es eso un alma?
 			'''
 		TScytheDia7:
 			'''
-			There're so much spirits in the dungeon...
-			Hey，there's a sealed spirit with strange scent.
-			I can't help but want to communicate with them!
+			Hay tantos espíritus en la mazmorra...
+			¡Oye, hay un espíritu sellado con un olor extraño!
+			¡Siento una necesidad imperiosa de comunicarme con él!
 			'''
 		TScytheDia8:
 			'''
-			How many strands of soul are attached to twisted flesh and blood? 
-			Some Disgusting, drive them back to their dreams!
+			¿Cuántos filamentos de alma están unidos a la carne y sangre retorcidas? 
+    		¡Qué asco, devuélvelos a sus sueños!
 			'''
 		TScytheDia9:
 			'''
-			These crazy cultists emit an aura similar to that prophet...
-			What are they worshiping? 
-			It feels like sending them to worship the Grim Reaper is a good idea.
+			Estos cultistas locos emiten un aura similar a la de ese profeta...
+			¿A qué le rinden culto?
+			Me parece que enviarlos a adorar a la Parca es una buena idea.
 			'''
-		TScytheDia10: A huge, multi eyed octopus? Is this a monster that came out of a dream?
+		TScytheDia10: ¿Un pulpo gigante con múltiples ojos? ¿Es este un monstruo salido de un sueño?
 		TScytheDia11:
 			'''
-			The faceless man wearing a purple cloak carried a lantern with a prophetic aura ..
-			I'm a little curious, I want to grab the lantern!
+			El hombre sin rostro con una capa púrpura llevaba una linterna con un aura profética...
+    		¡Tengo un poco de curiosidad, quiero agarrar la linterna!
 			'''
 		TScytheDia12:
 			'''
-			In the enchanted dungeon, these souls can never rest in peace.
-			It's so pitiful, let's take it away!
+			En la mazmorra encantada, estas almas jamás descansarán en paz
+    		Es tan lamentable, ¡llevemonos las almas!
 			'''
 		TScytheDia13:
 			'''
-			There is a purple serpent.
-			It want to devour the soul of we!
-			Don't even try this!
+			Hay una serpiente púrpura.
+    		¡Quiere devorar nuestras almas!
+    		¡Ni lo intentes!
 			'''
 		TScytheDia14:
 			'''
-			The strange lantern pointed towards this spatial fissure.
-			What will it bring?
+			La linterna extraña apuntaba hacia esta fisura espacial.
+    		¿Qué aportará?
 			'''
 		TScytheDia15:
 			'''
-			A witch and a robot came to here，
-			Snatch their souls and my goal might be achieved！
+			Una bruja y un robot han llegado.
+			¡Arrebatarles sus almas y mi objetivo quizá se cumpla!
 			'''
 		TScytheDia16:
 			'''
-			The cultist asked us to use the discord wand in the abyss...
-			What will happen?
+			El cultista nos pidió que usáramos la varita de la discordia en el abismo...
+    		¿Qué pasará?
 			'''
-		TScytheDia17: Finally paid off the debt, the task was perfectly completed!
+		TScytheDia17: ¡Por fin pagué la deuda, la tarea se completó perfectamente!
 	}
 
 	General.CurLevel: ""
-	TlipocazKilledNPC: Press Middle Mouse to allow you slain friendly target
-	TlipocazKilledNPCNot: Press Middle Mouse again to prevent you from killing friendly target
+	TlipocazKilledNPC: Presiona el botón central del ratón para para asesinar a tus aliados
+	TlipocazKilledNPCNot: Presiona el botón central de nuevo para evitar asesinar a tus aliados
 }
 
 General: {
-	Locked: LOCKED
-	PagesTips: Hold Left Alt to directly read the ability, press LMB to switch
+	Locked: BLOQUEADO
+	PagesTips: Mantén pulsado Alt izquierdo para leer directamente la habilidad, pulsa clic izquierdo para cambiar
 }
+
