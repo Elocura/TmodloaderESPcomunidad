@@ -1,65 +1,65 @@
 Rogue: {
-	HammerGeneral: Enables stealth strikes, +10 max steath, and resets the stealth bar when switching weapons.
-	HammerHalfStealth: Stealth strikes only cost half of your max stealth that won't stack
+	HammerGeneral: Permite realizar ataques sigilosos tendrás +10 de sigilo máximo y restablece la barra de sigilo al cambiar de arma.
+	HammerHalfStealth: Los ataques sigilosos solo cuestan la mitad de tu sigilo máximo y no se acumulan
 
 	FallenHammer: {
-		DisplayName: Blazing Anchor
+		DisplayName: Ancla ardiente
 		Tooltip:
 			'''
-			Throw a powerful Blazing Hammer that triggers an explosion on impact.
-			Stealth strikes will strike back at the enemy when returning and lock onto them completely.
-			Once latched, the hammer attacks continuously at an extremely high frequency, with each hit triggering an explosion.
-			Stealth strikes always lanuch fireballs upwards
-			While latched, pressing the right mouse button will make the hammer dash toward the cursor before striking back at the latched target.
-			Automatically unleash a massive fire pillar when the hammer expires.
+			Lanza un poderoso Martillo Ardiente que provoca una explosión al impactar.
+			Los ataques sigilosos contraatacarán al enemigo al regresar y lo fijarán como objetivo.
+			Una vez aferrados, el martillo ataca continuamente muy frecuentemente, y con cada golpe provoca una explosión.
+			Los ataques sigilosos siempre lanzan bolas de fuego hacia arriba.
+			Mientras esté aferrado, al hacer clic derecho, el martillo se lanzará hacia el cursor antes de golpear al objetivo enganchado
+			Desata automáticamente una enorme columna de fuego cuando el martillo se va.
 			'''
 	}
 
 	GodsHammer: {
-		DisplayName: Twin Divine
+		DisplayName: Gemelos divinos
 		Tooltip:
 			'''
-			Throw a powerful Stellar Hammer that unleashes regular Nebula Rays upon hitting enemies
-			Stealth strikes hurl an ultra-fast Divine Hammer that strikes back at enemies when returning to the player.
-			Upon impacting an enemy, it splits into two sub-hammers, which will latch onto targets after a short delay.
-			While the sub-hammers are latched, multiple homing Light Arrows are summoned from behind.
-			When latching ends, the sub-hammers return and deliver another strike.
+			Lanza un poderoso martillo estelar que desata rayos nebulares al golpear a los enemigos.
+			Los ataques sigilosos lanzan un martillo divino ultrarrápido que golpea a los enemigos al regresar al jugador.
+			Al impactar contra un enemigo, se divide en dos martillos secundarios, que se adhieren a los objetivos tras un breve tiempo.
+			Mientras los martillos secundarios están adheridos, se invocan múltiples flechas de luz autoguiadas.
+			Cuando finaliza el enganche, los martillos secundarios regresarán y harán otro golpe.
 			'''
 	}
 
 	GrandHammer: {
-		DisplayName: ���֮����
+		DisplayName: Ìì½ÙÖ®»ØÂÖ
 		Tooltip: ""
 	}
 
 	NightmareHammer: {
-		DisplayName: Nightmare Hammer
+		DisplayName: Martillo de pesadilla
 		Tooltip:
 			'''
-			Throw a powerful Nightmare Hammer that calls down Nightmare Stars from the sky on hit.
-			Stealth strikes will charge at enemies after returning, then latch onto them after a short delay.
-			While charging toward enemies, it continuously releases Dark Energy Orbs that lock onto and attack enemies after a delay.
-			When latched, the damage and number of falling Nightmare Stars increase gradually with each hit dealt.
-			[c/BA55D3:Meditate in nightmares, summon falling stars to return, and lure nightmares to devour foes]
+			Lanza un poderoso Martillo de pesadilla que invoca estrellas de pesadilla desde el cielo al impactar.
+			Los ataques sigilosos cargarán contra los enemigos tras regresar y se aferrarán a ellos tras un breve tiempo.
+			Mientras carga contra los enemigos, libera continuamente Orbes de energía oscura que se fijan a los enemigos y los atacan tras un breve tiempo.
+			Una vez fijados, el daño y el número de estrellas de pesadilla que caen aumentan gradualmente con cada golpe asestado.
+			[c/BA55D3:Medita en las pesadillas, invoca a las estrellas fugaces para que regresen y atrae a las pesadillas para devorar a tus enemigos]
 			'''
 		ShimmmerTooltip: "111"
 	}
 
 	PunishmentHammer: {
-		DisplayName: Holy Punishment
+		DisplayName: Castigo sagrado
 		Tooltip:
 			'''
-			Throw a Judgment Hammer that erupts into a Holy Nova on impact.
-			Stealth strikes will strike back after returning and latch onto enemies to deal continuous damage.
-			While latched, it releases delayed homing Judgment Stars at regular intervals.
-			If any latched hammer exists, stealth strikes will transform into multiple homing Holy Novas on return.
-			When the latching ends, the Judgment Hammer unleashes a Cross Judgment Ray.
-			All attacks inflict the Holy Flame.
+			Lanza un Martillo del juicio que estalla en una nova sagrada al impactar.
+			Los ataques sigilosos contraatacarán tras regresar y se aferrarán a los enemigos para infligir daño continuo.
+			Mientras permanece aferrado, libera wstrellas del juicio autoguiadas a intervalos regulares.
+			Si hay algún martillo aferrado, los ataques sigilosos se transformarán en múltiples novas Sagradas autoguiadas al regresar.
+			Cuando finalice el agarre, el martillo del juicio desata un Rayo del juicio cruzado.
+			Todos los ataques infligen Llama Sagrada.
 			'''
 	}
 
 	ScarletSpear: {
-		DisplayName: Scarlet Spear
+		DisplayName: Lanza Escarlata
 		Tooltip: ""
 	}
 }
@@ -73,6 +73,7 @@ StatBloats: {
 Ranged: {
 	GrandSlam: {
 		Tooltip: ""
-		DisplayName: Grand Slam
+		DisplayName: Golpe magnífico
 	}
 }
+
