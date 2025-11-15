@@ -31,7 +31,7 @@ Items: {
 
 			Aquashard: {
 				DisplayName: Fragmento acuático
-				Tooltip: 
+				Tooltip:
 					'''
 					Lanza una  jabalina quebradiza que se rompe en pequeños cristales al impactar contra un enemigo. 
 					Los ataques sigilosos otorgan una perforación limitada y hacen que la jabalina se fracture al impactar contra un enemigo
@@ -39,40 +39,40 @@ Items: {
 			}
 
 			SpearOfRadiance: {
-				DisplayName: Lanza del resplandor
-				Tooltip: 
+				Tooltip:
 					'''
 					Lanza rápidamente una jabalina sagrada. 
 					Los ataques sigilosos crean una cruz que abarca toda la pantalla
 					'''
+				DisplayName: Lanza del resplandor
 			}
 
 			AbyssalPiercer: {
 				DisplayName: Perforador abisal
-				Tooltip: 
+				Tooltip:
 					'''
 					Lanza una jabalina sumergida que explota en ráfagas de agua rastreadoras.
 					Los ataques sigilosos hacen que la jabalina abra una grieta abisal que escupe tentáculos
 					Además, los ataques sigilosos pueden atravesar hasta 5 enemigos
-					'''	
+					'''
 			}
 
 			AzureOfFirmament: {
+				DisplayName: Firmamento azulado
 				Tooltip:
 					'''
 					Lanza rápidamente una jabalina ligera. Los ataques sigilosos provocan una ráfaga de plumas a tu alrededor 
 					que se dirigirán hacia cualquier NPC alcanzado por la jabalina
 					'''
-				DisplayName: Firmamento azulado
 			}
 
 			ArbitratorII: {
-				Tooltip: 
+				DisplayName: Árbitro II
+				Tooltip:
 					'''
 					Lanza una jabalina explosiva. Los ataques sigilosos hacen que la jabalina se clave en los objetivos alcanzados
 					Tras un tiempo, explotarán e infligirán daño a todos los objetivos cercanos
 					'''
-				DisplayName: Árbitro II
 			}
 
 			Voidseeker: {
@@ -94,7 +94,7 @@ Items: {
 			}
 
 			AmethystFrisbee: {
-				Tooltip: 
+				Tooltip:
 					'''
 					Lanzar un disco que regresará al golpear
                     Ignora la gravedad al regresar
@@ -302,7 +302,7 @@ Items: {
 
 	Godhead: {
 		DisplayName: Divino
-		Tooltip: 
+		Tooltip:
 			'''
 			Los proyectiles tienen un aura que inflige daño constante a tu objetivo
 			El aura ignora los frames de inmunidad. Es posible desactivar la visualización del aura.
@@ -372,10 +372,10 @@ Items: {
 	}
 
 	DarkArts: {
-		Tooltip: 
+		Tooltip:
 			'''
 			Úsalo para permanecer oculto durante 2 segundos, no recibir daño y marcar a todos los enemigos y proyectiles hostiles
-           	Inflige daño a todos los enemigos marcados y elimina los proyectiles marcados una vez que el efecto desaparece
+			Inflige daño a todos los enemigos marcados y elimina los proyectiles marcados una vez que el efecto desaparece
 			'''
 		DisplayName: Artes oscuras
 	}
@@ -493,7 +493,7 @@ Items: {
 		DisplayName: Hilo del destino
 		HoldShiftForDetails:
 			'''
-			[i:CalamityEntropy/AuraCard]Carta de Aura Puede aparecer en cofres dorados o cajas de hierro: 10% de probabilidad
+			[i:CalamityEntropy/AuraCard]Carta de Aura: Puede aparecer en cofres dorados o cajas de hierro: 10% de probabilidad
 			[i:CalamityEntropy/BrillianceCard]Brillante: Lo venden los mercaderes locales
 			[i:CalamityEntropy/EntityCard]Entidad: Lo puede soltar la Almeja gigante
 			[i:CalamityEntropy/InspirationCard]Inspiración: Puede aparecer en los cofres del desierto: 30% de probabilidad
@@ -511,7 +511,7 @@ Items: {
 	}
 
 	GalaxyGrapeSoda: {
-		Tooltip: 
+		Tooltip:
 			'''
 			¿Combinar uvas, esencias de dioses y... guardianes criminales?
 			Te convierte en Devorador de Dioses
@@ -535,7 +535,7 @@ Items: {
 	}
 
 	DustyStar: {
-		Tooltip: 
+		Tooltip:
 			'''
 			Te transforma en el desarrollador principal
 			¡No te olvides de dejar un "Me gusta"!
@@ -1482,7 +1482,6 @@ Items: {
 			'''
 			Podrá aparecer un detector que atacará a los enemigos mientras disparas
 			Los proyectiles son teleridigidos
-			+6 de penetración 
 			'''
 	}
 
@@ -2728,25 +2727,25 @@ Items: {
 			lo que prolonga los frames de invencibilidad y acelera brevemente la regeneración de de vida
 			"La corriente de magia late en tus venas..."
 			'''
-			Level3:
+		Level3:
 			'''
 			Tras consumir maná equivalente al 50% de tu maná máximo,
 			obtienes un 4% de Manía Potenciada (se acumula hasta 5 veces)
 			'''
-			Level4:
+		Level4:
 			'''
 			Los efectos de Enfermedad de maná y Quemadura de maná se reducen a la mitad.
 			Cada 2 acumulaciones de Manía potenciada otorgan una reducción del daño del 0,05 %.
 			Mejora la regeneración de vida al recibir golpes mientras se regenera maná
 			'''
-			Level5:
+		Level5:
 			'''
 			Los golpes críticos infligen el debuff Desorden del alma al objetivo.
 			Al agotarse el maná, los ataques pasan de consumir maná a restaurarlo durante 6 segundos,
 			a la vez que aplica Quemadura de maná durante 5 segundos.
 			Recibir daño durante este periodo prolonga los frames de invencibilidad.
 			'''
-			Level6:
+		Level6:
 			'''
 			Al tener todas las acumulaciones de Flujo de maná, cada vez que se gaste maná otorgará
 			+1% de probabilidad de golpe crítico mágico y +3% de daño crítico mágico (se acumula hasta 5 veces)
@@ -2770,12 +2769,10 @@ Items: {
 		Tooltip: ""
 	}
 
-
 	BloodstainedShirt: {
 		DisplayName: Camisa manchada de sangre
 		Tooltip: ""
 	}
-
 
 	ScarletKilt: {
 		DisplayName: Falda escocesa escarlata
@@ -2791,7 +2788,6 @@ Items: {
 		DisplayName: Máscara de Kitsune
 		Tooltip: ""
 	}
-
 
 	TrueMoonlightSword: {
 		DisplayName: Espada de luz de luna verdadera
@@ -2831,7 +2827,7 @@ Items: {
 			'''
 	}
 
-   LushGrassclassics: {
+	LushGrassclassics: {
 		DisplayName: Clásicos de hierba exuberante
 		Tooltip: ""
 	}
@@ -2860,7 +2856,7 @@ Items: {
 		DisplayName: Marcapáginas - Tormenta de arena
 		Tooltip: Lanza una bala de arena al dejar de atacar
 	}
-	
+
 	BottledStarlightCocoon: {
 		DisplayName: Capullo de luz estelar embotellada
 		Tooltip:
@@ -2929,12 +2925,13 @@ Items: {
 			Operarás una tuneladora
 				Será difícil controlarlo si está demasiado lejos del jugador
 				Mientras está en funcionamiento, utiliza las teclas de movimiento para controlalo,
-                mantén pulsada la tecla de salto para excavar y vuelve a utilizar este objeto para detener su funcionamiento
+				mantén pulsada la tecla de salto para excavar y vuelve a utilizar este objeto para detener su funcionamiento
 				La potencia de pico aplicada será la del pico más poderoso que tengas en tu inventario
 				Recoge automáticamente los objetos cercanos y los añade a tu inventario
 			'''
 	}
-HowlingCannon: {
+
+	HowlingCannon: {
 		DisplayName: Cañón aullador
 		Tooltip: ""
 	}
@@ -3091,6 +3088,7 @@ HowlingCannon: {
 			'''
 			Solo puede realizar ataques sigilosos.
 			Se dirige hacia el objetivo más cercano al cursor y realiza cortes rápidos y continuos
+			'''
 	}
 
 	BookmarkSword: {
@@ -3995,6 +3993,8 @@ Buffs: {
 	AzafureDrone: {
 		DisplayName: Dron de Azafure
 		Description: El dron de Azafure peleará por tí
+	}
+
 	VoidEmpowerment: {
 		DisplayName: Empoderamiento del vacío
 		Description: ""
@@ -4009,6 +4009,7 @@ Buffs: {
 		DisplayName: Enjambre recolector
 		Description: ¡El enjambre agarrará monedas por ti!
 	}
+
 	CogflyBuff: {
 		DisplayName: Mosca mecánica
 		Description: La mosca mecánica de Azafure luchará por ti
@@ -4317,6 +4318,7 @@ Configs: {
 			Label: El cortazarzas siempre tendrá disponible todas sus mejoras
 			Tooltip: ""
 		}
+
 		LeastDamageSufferedBasedOnMaxHealth: {
 			Label: Menor daño sufrido basado en la salud máxima
 			Tooltip: ""
@@ -4670,8 +4672,6 @@ SolarBarInfo:
 	Al golpear al objetivo con armas Rogue, aumentará la energía solar
 	Cuando la barra esté cargada por completo, al atacar lanzarás algunas flechas solares teleridigidas
 	'''
-LorePerforatorsDesc: "[0]% de posibilidad de curarte. Será de [1] después de recibir un golpe"
-LoreEaterofWorldsDesc: Immune a el Averno
 RPDonorName: 冷级
 Acropolis: ""
 OblivionThretherCooldown: Enfriamiento del Segador del olvido
@@ -4688,7 +4688,6 @@ Biomes: {
 
 NearShimmer: Fulgor cercano
 AzMinerOreWarning: ¡Solo puedes usar mineral!
-
 RIDModifies:
 	'''
 	Para [[ITEMNAME]]:
@@ -4733,13 +4732,13 @@ TSL4:
 TSL5:
 	'''
 	Muchas almas flotan en los peñascos de azufre, aullando de dolor...
-    Hablando sin cesar de una catástrofe ocurrida hace cien años...
-    ¡Acabemos con su sufrimiento!
+	Hablando sin cesar de una catástrofe ocurrida hace cien años...
+	¡Acabemos con su sufrimiento!
 	'''
 TSL6:
 	'''
 	Hay un monstruo rojo y aterrador flotando por el cielo nocturno.
-    Solo puedo sentir locura en su alma. O... ¿Acaso es eso un alma?
+	Solo puedo sentir locura en su alma. O... ¿Acaso es eso un alma?
 	'''
 TSL7:
 	'''
@@ -4750,7 +4749,7 @@ TSL7:
 TSL8:
 	'''
 	¿Cuántos filamentos de alma están unidos a la carne y sangre retorcidas? 
-    ¡Qué asco, devuélvelos a sus sueños!
+	¡Qué asco, devuélvelos a sus sueños!
 	'''
 TSL9:
 	'''
@@ -4762,23 +4761,23 @@ TSL10: ¿Un pulpo gigante con múltiples ojos? ¿Es este un monstruo salido de u
 TSL11:
 	'''
 	El hombre sin rostro con una capa púrpura llevaba una linterna con un aura profética...
-    ¡Tengo un poco de curiosidad, quiero agarrar la linterna!
+	¡Tengo un poco de curiosidad, quiero agarrar la linterna!
 	'''
 TSL12:
 	'''
 	En la mazmorra encantada, estas almas jamás descansarán en paz
-    Es tan lamentable, ¡llevemonos las almas!
+	Es tan lamentable, ¡llevemonos las almas!
 	'''
 TSL13:
 	'''
 	Hay una serpiente púrpura.
-    ¡Quiere devorar nuestras almas!
-    ¡Ni lo intentes!
+	¡Quiere devorar nuestras almas!
+	¡Ni lo intentes!
 	'''
 TSL14:
 	'''
 	La linterna extraña apuntaba hacia esta fisura espacial.
-    ¿Qué aportará?
+	¿Qué aportará?
 	'''
 TSL15:
 	'''
@@ -4788,7 +4787,7 @@ TSL15:
 TSL16:
 	'''
 	El cultista nos pidió que usáramos la varita de la discordia en el abismo...
-    ¿Qué pasará?
+	¿Qué pasará?
 	'''
 TSLEnd: ¡Por fin pagué la deuda, la tarea se completó perfectamente!
 TSA1: Mantener pulsado y atacar a la vez te empujará cierta distancia hacia la dirección del cursor
@@ -4810,15 +4809,15 @@ TSU3: Necesitas acabar con el Profeta
 TSA4:
 	'''
 	El teletransporte potenciará tu arma con el vacío.
-    Esto durará 15 segundos. Tras matar al Cruiser, aumentará a 30 segundos.
-    El daño que causes aumentará un 25% cuando estés potenciado.
+	Esto durará 15 segundos. Tras matar al Cruiser, aumentará a 30 segundos.
+	El daño que causes aumentará un 25% cuando estés potenciado.
 	'''
 TSU4: Necesitas acabar con los Gemelos del vacío
 TSA5:
 	'''
 	Deja una sombra cuando realices un teletransporte. La sombra atacará contigo.
-    El corte rápido generará un corte adicional perpendicular al sprint original.
-    Aumenta el valor de curación cuando realices un ataque sigiloso.
+	El corte rápido generará un corte adicional perpendicular al sprint original.
+	Aumenta el valor de curación cuando realices un ataque sigiloso.
 	'''
 TSU5: Necesitas acabar con Polterghast
 TSA6: Deja una grieta al realizar un corte rápido. La grieta causará daño continuamente
@@ -4885,7 +4884,7 @@ AzafureSet:
 	Cuando esta armadura está equipada, 
 	todo el equipo Azafure recibe mejoras parciales
 	Tendrás barra de durabilidad
-	La durabilidad proporciona hasta 18 puntos de defensa y una reducción del daño del 50%, 
+	La durabilidad proporciona hasta 18 puntos de defensa y una reducción del daño del 50%,
 	mientras se va reduciendo tu velocidad de movimiento
 	La durabilidad se consume en función del daño recibido y
 	se regenera lentamente 5 segundos después de recibir daño
@@ -4917,8 +4916,3 @@ AzafureEnhances: {
 }
 
 DeathExplode: "[PlayerName] explotó"
-
-
-
-
-
