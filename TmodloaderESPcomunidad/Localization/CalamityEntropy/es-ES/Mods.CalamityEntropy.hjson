@@ -33,7 +33,7 @@ Items: {
 				DisplayName: Fragmento acuático
 				Tooltip:
 					'''
-					Lanza una  jabalina quebradiza que se rompe en pequeños cristales al impactar contra un enemigo. 
+					Lanza una jabalina quebradiza que se rompe en pequeños cristales al impactar contra un enemigo. 
 					Los ataques sigilosos otorgan una perforación limitada y hacen que la jabalina se fracture al impactar contra un enemigo
 					'''	
 			}
@@ -96,9 +96,9 @@ Items: {
 			AmethystFrisbee: {
 				Tooltip:
 					'''
-					Lanzar un disco que regresará al golpear
-                    Ignora la gravedad al regresar
-                    El ataque sigiloso crea una onda expansiva al impactar
+					Lanza un disco que regresará al golpear
+					Ignora la gravedad al regresar
+					El ataque sigiloso crea una onda expansiva al impactar
 					'''
 				DisplayName: Frisbee de amatista
 			}
@@ -4917,4 +4917,5 @@ AzafureEnhances: {
 }
 
 DeathExplode: "[PlayerName] explotó"
+
 
