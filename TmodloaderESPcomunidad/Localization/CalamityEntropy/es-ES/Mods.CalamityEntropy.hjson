@@ -94,7 +94,12 @@ Items: {
 			}
 
 			AmethystFrisbee: {
-				Tooltip: ""
+				Tooltip: 
+					'''
+					Lanzar un disco que regresará al golpear
+                    Ignora la gravedad al regresar
+                    El ataque sigiloso crea una onda expansiva al impactar
+					'''
 				DisplayName: Frisbee de amatista
 			}
 
@@ -367,7 +372,11 @@ Items: {
 	}
 
 	DarkArts: {
-		Tooltip: "[c/ff0000:Este ítem no se puede obtener]"
+		Tooltip: 
+			'''
+			Úsalo para permanecer oculto durante 2 segundos, no recibir daño y marcar a todos los enemigos y proyectiles hostiles
+           	Inflige daño a todos los enemigos marcados y elimina los proyectiles marcados una vez que el efecto desaparece
+			'''
 		DisplayName: Artes oscuras
 	}
 
@@ -484,15 +493,15 @@ Items: {
 		DisplayName: Hilo del destino
 		HoldShiftForDetails:
 			'''
-			[i:CalamityEntropy/AuraCard]Aura Card: Puede aparecer en cofres dorados o cajas de hierro: 10% de probabilidad
-			[i:CalamityEntropy/BrillianceCard]Brilliance: Lo venden los mercaderes locales
-			[i:CalamityEntropy/EntityCard]Entity: Lo puede soltar la Almeja gigante
-			[i:CalamityEntropy/InspirationCard]Inspiration: Puede aparecer en los cofres del desierto: 30% de probabilidad
-			[i:CalamityEntropy/MetropolisCard]Metropolics: Fabricable en una librería
-			[i:CalamityEntropy/WisdomCard]Wisdom: Lo puede soltar Esqueletrón
-			[i:CalamityEntropy/RadianceCard]Radiance: Fabricable en una bola de cristal
-			[i:CalamityEntropy/TemperanceCard]Temperance: Lo puede soltar Esqueletrón mayor
-			[i:CalamityEntropy/EnduranceCard]Endurance: Puede aparecer en los cofres abisales o cajas abisales: 33% de probabilidad
+			[i:CalamityEntropy/AuraCard]Carta de Aura Puede aparecer en cofres dorados o cajas de hierro: 10% de probabilidad
+			[i:CalamityEntropy/BrillianceCard]Brillante: Lo venden los mercaderes locales
+			[i:CalamityEntropy/EntityCard]Entidad: Lo puede soltar la Almeja gigante
+			[i:CalamityEntropy/InspirationCard]Inspiración: Puede aparecer en los cofres del desierto: 30% de probabilidad
+			[i:CalamityEntropy/MetropolisCard]Metrópolis: Fabricable en una librería
+			[i:CalamityEntropy/WisdomCard]Sabiduría: Lo puede soltar Esqueletrón
+			[i:CalamityEntropy/RadianceCard]Esplendor: Fabricable en una bola de cristal
+			[i:CalamityEntropy/TemperanceCard]Templanza: Lo puede soltar Esqueletrón mayor
+			[i:CalamityEntropy/EnduranceCard]Resistencia: Puede aparecer en los cofres abisales o cajas abisales: 33% de probabilidad
 			'''
 	}
 
@@ -1454,7 +1463,7 @@ Items: {
 		Tooltip:
 			'''
 			Al golpear podrá aparecer un alma de luz
-			El alma colisionará con los proyectiles cercanos y reducirá su daño un 25%, además de curarte un 1% de tu salud máxima.
+			El alma chocará con las balas cercanas y las destruirá, curándote un 1 % de tu salud máxima.
 			'''
 	}
 
@@ -3093,6 +3102,15 @@ HowlingCannon: {
 		DisplayName: E-Katana de Azafure
 		Tooltip: ""
 	}
+
+	AzafureCogfly: {
+		DisplayName: Mosca mecánica de Azafure
+		Tooltip:
+			'''
+			Invoca una mosca mecánica
+			Atacará automáticamente a los enemigos
+			'''
+	}
 }
 
 LOCKED: ": [BLOQUEADO]"
@@ -3668,19 +3686,17 @@ Projectiles: {
 	AzafureElectrocauteryWandBomb.DisplayName: Azafure Electrocautery Wand Bomb
 	Snowgrave.DisplayName: Snowgrave
 	DedicatedOracleSlashProj.DisplayName: Dedicated Oracle Slash Proj
-	ALMGLaser.DisplayName: A L M G Laser
+	ALMGLaser.DisplayName: ALMG Laser
 	AzafureLightMachineGunHeld.DisplayName: Azafure Light Machine Gun Held
 	AzafureLightMachineGunStealth.DisplayName: Azafure Light Machine Gun Stealth
-	ALMGShell.DisplayName: A L M G Shell
+	ALMGShell.DisplayName: ALMG Shell
 	PickingSwarm.DisplayName: Picking Swarm
-	TaijinoYumeProj.DisplayName: Taijino Yume Proj
-	GodsHammerFlyUpProj.DisplayName: Gods Hammer Fly Up Proj
-	GrandHammerFallenProj.DisplayName: Grand Hammer Fallen Proj
-	BMHammerProjectile.DisplayName: B M Hammer Projectile
-	CrossBorderPursuitProj.DisplayName: Cross Border Pursuit Proj
-	CBPSmash.DisplayName: C B P Smash
-	BMSwordProjectile.DisplayName: B M Sword Projectile
-	AzafureEKatanaSlash.DisplayName: Azafure E Katana Slash
+	BMHammerProjectile.DisplayName: Hammer
+	CrossBorderPursuitProj.DisplayName: Cross Border Pursuit
+	CBPSmash.DisplayName: Smash
+	BMSwordProjectile.DisplayName: Sword
+	AzafureEKatanaSlash.DisplayName: Azafure E-Katana Slash
+	AzafureCogflyMinion.DisplayName: Azafure Cogfly Minion
 }
 
 LegendTooltip: - Legendario -
@@ -3992,6 +4008,10 @@ Buffs: {
 	PickingSwarmBuff: {
 		DisplayName: Enjambre recolector
 		Description: ¡El enjambre agarrará monedas por ti!
+	}
+	CogflyBuff: {
+		DisplayName: Mosca mecánica
+		Description: La mosca mecánica de Azafure luchará por ti
 	}
 }
 
@@ -4897,6 +4917,7 @@ AzafureEnhances: {
 }
 
 DeathExplode: "[PlayerName] explotó"
+
 
 
 
