@@ -17,7 +17,7 @@ Items: {
 
 			Silence: {
 				DisplayName: Silencio
-				Tooltip: ""
+				Tooltip: Lanza un disco volador con capacidad de atracción
 			}
 
 			ShadewindLance: {
@@ -31,26 +31,47 @@ Items: {
 
 			Aquashard: {
 				DisplayName: Fragmento acuático
-				Tooltip: ""
+				Tooltip: 
+					'''
+					Lanza una  jabalina quebradiza que se rompe en pequeños cristales al impactar contra un enemigo. 
+					Los ataques sigilosos otorgan una perforación limitada y hacen que la jabalina se fracture al impactar contra un enemigo
+					'''	
 			}
 
 			SpearOfRadiance: {
-				Tooltip: ""
 				DisplayName: Lanza del resplandor
+				Tooltip: 
+					'''
+					Lanza rápidamente una jabalina sagrada. 
+					Los ataques sigilosos crean una cruz que abarca toda la pantalla
+					'''
 			}
 
 			AbyssalPiercer: {
 				DisplayName: Perforador abisal
-				Tooltip: ""
+				Tooltip: 
+					'''
+					Lanza una jabalina sumergida que explota en ráfagas de agua rastreadoras.
+					Los ataques sigilosos hacen que la jabalina abra una grieta abisal que escupe tentáculos
+					Además, los ataques sigilosos pueden atravesar hasta 5 enemigos
+					'''	
 			}
 
 			AzureOfFirmament: {
-				Tooltip: ""
+				Tooltip:
+					'''
+					Lanza rápidamente una jabalina ligera. Los ataques sigilosos provocan una ráfaga de plumas a tu alrededor 
+					que se dirigirán hacia cualquier NPC alcanzado por la jabalina
+					'''
 				DisplayName: Firmamento azulado
 			}
 
 			ArbitratorII: {
-				Tooltip: ""
+				Tooltip: 
+					'''
+					Lanza una jabalina explosiva. Los ataques sigilosos hacen que la jabalina se clave en los objetivos alcanzados
+					Tras un tiempo, explotarán e infligirán daño a todos los objetivos cercanos
+					'''
 				DisplayName: Árbitro II
 			}
 
@@ -64,8 +85,7 @@ Items: {
 				Tooltip:
 					'''
 					Arroja el arma El comienzo o El fin con el clic izquierdo o derecho
-					El fin aplicará el debufo Mirada del abismo
-					El comienzo aplicará el debufo Huella eclipsada
+					El Fin inflige Mirada del Abismo, mientras que El Comienzo inflige Huella Eclipsada
 					Cuando un cuchillo golpea a un enemigo con el debuff de su cuchillo contrario, elimina ese debuff y genera un Eco del alma o un Alma Eclipsada según el debuff que tuviera anteriormente
 					El Eco del alma continuará atacando a los monstruos enemigos y desaparecerá luego de unos segundos
 					El Alma eclipsada te seguirá y volará a tu alrededor mientras te cura. Además, aumentará la velocidad de ataque, el daño y la probabilidad de crítico
@@ -82,7 +102,7 @@ Items: {
 				Tooltip:
 					'''
 					Lanza varios cuchillos arrojadizos teledirigidos.
-					El ataque sigiloso invoca 6 orbes rúnicos que orbitarán y atacarán a los enemigos tras un breve lapso de tiempo.
+					El ataque sigiloso lanza un cuchillo que genera 6 orbes rúnicos orbitales al impactar
 					'''
 				DisplayName: Cuchillo volador profético
 			}
@@ -106,6 +126,20 @@ Items: {
 					Los ataques sigilosos lanzarán una gran cantidad de proyectiles que flotarán en el aire y rastrearán a los objetivos cercanos
 					'''
 			}
+
+			TlipocasScythe: {
+				DisplayName: Guadaña de Tlipoca
+				Tooltip: ""
+			}
+
+			AzafureLightMachineGun: {
+				DisplayName: Ametralladora ligera Azafure
+				Tooltip:
+					'''
+					Dispara rápidamente un láser, que restaurará un poco el sigilo
+					El ataque sigiloso lanzará una granada afectada por la gravedad
+					'''
+			}
 		}
 	}
 
@@ -122,11 +156,9 @@ Items: {
 		DisplayName: Kinanición
 		Tooltip:
 			'''
-			[c/ce97fa:Clic izquierdo para disparar una serie de flechas luminosas]
-			[c/ce97fa:Las flechas luminosas aplicarán el efecto de la munición que se esté usando]
-			[c/ce97fa:y se volverán teleridiginas al acertar al objetivo]
-			[c/0078b9:Clic derecho para disparar lanzas eléctricas]
-			[c/0078b9:Explotarán en rayos luego de acertar en el objetivo]
+			[c/ce97fa:Lanza una serie de flechas eléctricas que se dirigirán hacia el objetivo al impactar]
+			[c/ce97fa:Las flechas eléctricas conservan el efecto original de la munición usada]
+			[c/0078b9:Haz clic con el botón derecho para lanzar una lanza eléctrica, que estallará con un rayo al impactar]
 			'''
 	}
 
@@ -135,8 +167,8 @@ Items: {
 		Tooltip:
 			'''
 			Genera un Símbolo del vacío que sigue a tu cursor.
-			Consume todos las ranuras de súbditos
-			Cuantas más ranuras consuma, mayor será el daño
+			Consume todos las ranuras de súbditos y el daño escalará dependiendo de la cantidad de ranuras usadas
+			Lanza un corte más grande que inflige el doble de daño y aplicará Deseo mortal si se usa de forma continuada
 			'''
 	}
 
@@ -145,7 +177,8 @@ Items: {
 			'''
 			Fue usando por Yharim
 			Sentarse en semejante trono sería una deshonra para todos
-			"Ahora puedes sentarse"
+			Al menos ahora puedes sentarte en él.
+			«¿Pero que coño?»
 			'''
 		DisplayName: Retrete áurico
 	}
@@ -155,7 +188,7 @@ Items: {
 		Tooltip:
 			'''
 			Genera una a Máquina de lotería
-			"Puede tener mal genio"
+			«Quizás es un poco agresivo»
 			'''
 	}
 
@@ -217,7 +250,7 @@ Items: {
 
 	GodsSnack: {
 		DisplayName: Aperitivo de los dioses
-		Tooltip: ""
+		Tooltip: Invoca a DoG-Chan
 	}
 
 	CruiserBag: {
@@ -249,7 +282,7 @@ Items: {
 	}
 
 	BottleDarkMatter: {
-		DisplayName: Frasco de materia oscura
+		DisplayName: Materia oscura embotellada
 		Tooltip: ""
 	}
 
@@ -263,8 +296,12 @@ Items: {
 	}
 
 	Godhead: {
-		DisplayName: Cabeza de Dios
-		Tooltip: Tus proyectiles poseerán un halo y provocarán daño continuo a los enemigos que estén dentro de dicho halo
+		DisplayName: Divino
+		Tooltip: 
+			'''
+			Los proyectiles tienen un aura que inflige daño constante a tu objetivo
+			El aura ignora los frames de inmunidad. Es posible desactivar la visualización del aura.
+			'''
 	}
 
 	VoidEcho: {
@@ -352,7 +389,7 @@ Items: {
 		DisplayName: Carta del oráculo 『Templanza』
 		Tooltip:
 			'''
-			+[T] de espacio de súbditos 
+			+[T] de súbditos máximos
 			"Refrena el deseo, comanda legiones"  
 			'''
 	}
@@ -361,7 +398,7 @@ Items: {
 		DisplayName: Carta del oráculo 『Esplendor』
 		Tooltip:
 			'''
-			+[LR]% de regeneración de vida 
+			+[LR]% de velocidad regeneración de vida 
 			"Emite luz, repara el alma"  
 			'''
 	}
@@ -373,12 +410,13 @@ Items: {
 			+15% de velocidad de movimiento
 			+[ST] de sigilo máximo
 			-30% de coste de maná
-			-10% de daño recibido
+			-5% de daño recibido
 			+[AP] de penetración de armadura
-			+[MN] de espacio de súbditos
-			+[ATS]% velocidad de ataque cuerpo a cuerpo
+			+[MN] de súbditos máximos
+			+[ATS]% velocidad de ataque general
 			+100% de luz
-			Cura 10 de vida a los aliados cercanos cada 5 segundos
+			Cura 20 de vida a los aliados cercanos cada 5 segundos
+			Recibirás como máximo la mitad de tu salud máxima en daño
 			'''
 		DisplayName: Baraja del oráculo
 	}
@@ -405,7 +443,7 @@ Items: {
 		DisplayName: Carta del oráculo 『Entidad』
 		Tooltip:
 			'''
-			+10% de velocidad de ataque a cuerpo a cuerpo
+			+10% de velocidad de ataque general
 			"Usa tu carne como arma, veloz como una sombra"  
 			'''
 	}
@@ -441,27 +479,34 @@ Items: {
 		Tooltip:
 			'''
 			Se puede usar para fabricar la Baraja del destino.
-			Requerirá de los siguientes materiales:
-			Aura: Puede aparecer en cofres dorados o cajas de hierro: 10% de probabilidad
-			Brillante: Lo vende el mercader
-			Entidad: Lo puede soltar la Almeja gigante
-			Inspiración: Puede aparecer en los cofres dorados: 30% de probabilidad
-			Metrópolis: Fabricable en una librería
-			Sabiduría: Lo puede soltar Esqueletrón
-			Esplendor: Fabricable en una bola de cristal
-			Templanza: Lo puede soltar Esqueletrón mayor
-			Resistencia: Puede aparecer en los cofres abisales o cajas abisales: 33% de probabilidad
+			Presiona Alt izquierdo para consultar la lista de cartas
 			'''
 		DisplayName: Hilo del destino
+		HoldShiftForDetails:
+			'''
+			[i:CalamityEntropy/AuraCard]Aura Card: Puede aparecer en cofres dorados o cajas de hierro: 10% de probabilidad
+			[i:CalamityEntropy/BrillianceCard]Brilliance: Lo venden los mercaderes locales
+			[i:CalamityEntropy/EntityCard]Entity: Lo puede soltar la Almeja gigante
+			[i:CalamityEntropy/InspirationCard]Inspiration: Puede aparecer en los cofres del desierto: 30% de probabilidad
+			[i:CalamityEntropy/MetropolisCard]Metropolics: Fabricable en una librería
+			[i:CalamityEntropy/WisdomCard]Wisdom: Lo puede soltar Esqueletrón
+			[i:CalamityEntropy/RadianceCard]Radiance: Fabricable en una bola de cristal
+			[i:CalamityEntropy/TemperanceCard]Temperance: Lo puede soltar Esqueletrón mayor
+			[i:CalamityEntropy/EnduranceCard]Endurance: Puede aparecer en los cofres abisales o cajas abisales: 33% de probabilidad
+			'''
 	}
 
 	RuneSong: {
 		DisplayName: Canto rúnico
-		Tooltip: ""
+		Tooltip: Dispara una flecha rúnica al usarla
 	}
 
 	GalaxyGrapeSoda: {
-		Tooltip: ""
+		Tooltip: 
+			'''
+			¿Combinar uvas, esencias de dioses y... guardianes criminales?
+			Te convierte en Devorador de Dioses
+			'''
 		DisplayName: Refresco galáctico de uva
 	}
 
@@ -477,11 +522,15 @@ Items: {
 
 	AuricBoulder: {
 		DisplayName: Roca áurica grande
-		Tooltip: ""
+		Tooltip: Rojotropía
 	}
 
 	DustyStar: {
-		Tooltip: ""
+		Tooltip: 
+			'''
+			Te transforma en el desarrollador principal
+			¡No te olvidar de dejar un "Me gusta"!
+			'''
 		DisplayName: Estrella polvorienta
 	}
 
@@ -669,7 +718,7 @@ Items: {
 	}
 
 	RailPulseBow: {
-		Tooltip: ""
+		Tooltip: Las flechas disparadas obtienen un impulso eléctrico en forma de arco que se activa al entrar en contacto con un enemigo o con el suelo
 		DisplayName: Arco de riel de pulsos
 	}
 
@@ -687,9 +736,8 @@ Items: {
 		DisplayName: Corona de Silva
 		Tooltip:
 			'''
-			+ 8 de regeneración de vida
-			Elimina el daño a la defensa.
-			No podrás hacer críticos
+			+ 2 de regeneración de vida
+			Elimina el 99 % del daño a la defensa
 			-Modo Muerte-
 			'''
 	}
@@ -864,7 +912,7 @@ Items: {
 		DisplayName: Carta fantasmal 『Desolación』
 		Tooltip:
 			'''
-			Los proyectiles de Rogue serán parcialmente teleridigidos, pero tendrán un 25% menos de daño y probadilidad de crítico
+			Los proyectiles de Rogue serán parcialmente teleridigidos, pero tendrán un 5% menos de daño y probadilidad de crítico
 			"La caza del marchito"
 			'''
 	}
@@ -911,8 +959,8 @@ Items: {
 		DisplayName: Carta fantasmal 『Perplejidad』
 		Tooltip:
 			'''
-			-5% de probabilidad de crítico
-			+16% de velocidad de ataque
+			-10% de probabilidad de crítico
+			+20% de velocidad de ataque
 			"La velocidad de la mente inquieta"
 			'''
 	}
@@ -945,11 +993,12 @@ Items: {
 			Se lanzarán llamas sombrías al atacar
 			+3% de daño por cada espacio de súbditos
 			+30% de daño
+			+20% de velocidad de ataque
 			+4 de Toque del vacío
-			+30% de daño recibido
+			+35% de daño recibido
 			-70% de regeneración de vida
 			+16% de coste de maná
-			-4% de daño crítico
+			-12% de daño crítico
 			'''
 	}
 
@@ -969,6 +1018,7 @@ Items: {
 			Frágil: lo puede soltar el Dios slime
 			Vacío: lo puede soltar la serpiente Eidolon
 			'''
+		HoldShiftForDetails: ""
 	}
 
 	VoidCandle: {
@@ -989,9 +1039,8 @@ Items: {
 		DisplayName: Insignia de la reencarnación
 		Tooltip:
 			'''
-			Presiona [KEY] para activar el estado coordinado
-			En ese estado, la gravedad no te afectará
-			y rechazará los proyectles de los alrededores
+			Presiona [KEY] para Ascender
+			En ese estado, la gravedad no te afectará y rechazará los proyectles de los alrededores
 			'''
 	}
 
@@ -1149,7 +1198,7 @@ Items: {
 			'''
 			Muestra una mirilla sobre el enemigo al tener el arma equipada
 			Cuanto más preciso sea el impacto de la bala, mayor será el daño, con un incremento del 200% como máximo
-			Si golpeas con suficiente precisión, asegurarás un golpe crítico y los efectos del Toque del vacío serán más efectivos
+			Dar en el blanco garantiza un golpe crítico, distorsionando el tejido del espacio y aplicando Toque del Vacío. También te curarás
 			'''
 		DisplayName: Anochecer
 	}
@@ -1307,6 +1356,7 @@ Items: {
 			- Modo Muerte -
 			'''
 		DisplayName: Corazón de la tormenta
+		CWRGanged: Efecto sinérgico con Calamity Overhaul: Invoca el alma persistente del Tejedor de tormentas para que luche junto a ti
 	}
 
 	Nyxolithraken: {
@@ -1808,16 +1858,18 @@ Items: {
 
 	RuneMachineGun: {
 		DisplayName: Ametralladora rúnica
-		Tooltip: ""
+		Tooltip: Los ataques irán acompañados de runas oscilantes
 	}
 
 	ForeseeOrb: {
 		DisplayName: Orbe vaticinador
 		Tooltip:
 			'''
-			Al recibir daño, dicho daño se reducirá a 100 y el accesorio se romperá. Se recuperará luego de 30 segundos
-			Proporciona un {DMG}% de daño adicional cuando no está roto
-			[c/ff0000:Si lo retiras cuando ese rompa, perderás el 90% de la vida máxima que poseas hasta morir.]
+			Mientras esté equipado, el daño recibido no puede superar los 100 puntos
+			Sin embargo, cualquier daño que recibas romperá el Orbe
+			El Orbe tardará 30 segundos en recuperarse
+			Cuando el orbe está completo, proporciona una bonificación de daño del {DMG} %
+			[c/ff0000:Desequiparte el Orbe causará un 90% de daño a tu salud máxima]
 			"Drena tu alma al repararse. Si se separa por la fuerza, tu alma estallará en un torrente."
 			'''
 	}
@@ -1867,7 +1919,7 @@ Items: {
 
 	BlessingHeatDeath: {
 		DisplayName: Bendición 『Muerte térmica』
-		Tooltip: ""
+		Tooltip: No podrás usar el Cuchillo eliminador de mejoras
 	}
 
 	BlessingLastStand: {
@@ -2227,6 +2279,7 @@ Items: {
 			Aflicción: lo pueden soltar los enemigos de la zona subterránea de los biomas malignos muy raramente
 			Desgarro del alma: lo pueden soltar los paladines
 			'''
+		HoldShiftForDetails: ""
 	}
 
 	SoulDeck: {
@@ -2443,7 +2496,7 @@ Items: {
 			El sigilo no se regenerará de forma pasiva
 			Golpear a los enemigos con armas rogue restaurará un poco de sigilo
 			Cuando la barra de sigilo se llene por completo, realizarás un ataque sigiloso y se dispararán flechas solares adicionales
-			-80% de daño crítico rogue
+			No podrás hacer críticos
 			'''
 	}
 
@@ -2643,41 +2696,53 @@ Items: {
 
 	Vast: {
 		DisplayName: Inmensidad
-		Tooltip:
+		TooltipBase:
 			'''
 			El poder y los efectos de este accesorio aumentan conforme progresas en tu aventura
 			Efectos actuales:
-
-			8% de reducción de consumo de maná
-			Usa la pociones de maná automáticamente
-
-			#1Las pociones de maná restauran un 10% más de maná
-			#1Mientras estés bajo los efectos de Poder arcano, obtienes +4% de probabilidad de crítico mágico
-
-			#2Utiliza automáticamente pociones de maná. 
-			#2Se restaurará un 75% de manera instantánea,y el 25% restante se restaurará luego de 5 segundos
-			#2Si recibes más de 80 puntos de daño durante este proceso, la restauración se interrumpe, 
-			#2ampliando los fotogramas de invencibilidad y acelerarando brevemente la regeneración de vida
-			#2"La marea de la magia fluye por tus venas..."
-
-			#3Después de consumir maná equivalente al 50% de tu maná máximo, 
-			#3obtienes un 6% de Maná potenciada (se acumula hasta 5 veces)
-			#4Los efectos de Locura de maná y Quemadura de maná se reducen a la mitad
-
-			#4Con cada 2 acumulaciones de Manía potenciada se otorgará una reducción de daño del 0,1%
-
-			#4Mejora la regeneración de vida al recibir daño mientras se restaura maná
-
-			#5Los golpes críticos infligen el debuff Desorden del alma al objetivo
-
-			#5Cuando se agota el maná, 
-			#5los ataques pasarán de consumir maná a restaurarlo durante 6 segundos. 
-			#5Al mismo tiempo se aplicá el debuff Quemadura de mana durante 5 segundos. 
-			#5Recibir daño durante este proceso amplía los fotogramas de invencibilidad
-
-			#6Al tener las acumulaciones de Flujo de maná al máximo, cada vez que se agote el maná 
-			#6te otorga un +2% de probabilidad de crítico mágico y un +3% de daño crítico mágico (se acumula hasta 5 veces)
 			'''
+		Level0:
+			'''
+			-8% de reducción de maná
+			Utilizarás automáticamente pociones de maná.
+			'''
+		Level1:
+			'''
+			Las pociones de maná restauran un 10% más de maná.
+			Mientras estés bajo los efectos de Poder arcano, obtienes +4% de probabilidad de golpe crítico mágico
+			'''
+		Level2:
+			'''
+			Utiliza automáticamente pociones de maná y te restaurará un 75% de esta al instante.
+			El 25% restante se recupera en 5 segundos.
+			Si recibes más de 80 puntos de daño durante este proceso, la restauración se interrumpe,
+			lo que prolonga los frames de invencibilidad y acelera brevemente la regeneración de de vida
+			"La corriente de magia late en tus venas..."
+			'''
+			Level3:
+			'''
+			Tras consumir maná equivalente al 50% de tu maná máximo,
+			obtienes un 4% de Manía Potenciada (se acumula hasta 5 veces)
+			'''
+			Level4:
+			'''
+			Los efectos de Enfermedad de maná y Quemadura de maná se reducen a la mitad.
+			Cada 2 acumulaciones de Manía potenciada otorgan una reducción del daño del 0,05 %.
+			Mejora la regeneración de vida al recibir golpes mientras se regenera maná
+			'''
+			Level5:
+			'''
+			Los golpes críticos infligen el debuff Desorden del alma al objetivo.
+			Al agotarse el maná, los ataques pasan de consumir maná a restaurarlo durante 6 segundos,
+			a la vez que aplica Quemadura de maná durante 5 segundos.
+			Recibir daño durante este periodo prolonga los frames de invencibilidad.
+			'''
+			Level6:
+			'''
+			Al tener todas las acumulaciones de Flujo de maná, cada vez que se gaste maná otorgará
+			+1% de probabilidad de golpe crítico mágico y +3% de daño crítico mágico (se acumula hasta 5 veces)
+			'''
+		Tooltip: ""
 	}
 
 	AzafureDetectionEquipment: {
@@ -2742,8 +2807,9 @@ Items: {
 		DisplayName: Mira inteligente
 		Tooltip:
 			'''
-			Presiona el botón central del ratón para marcar al enemigo
-			Cuando se utilizan armas de fuego en los enemigos marcados, la bala siempre dará en el blanco
+			Presiona el botón central del ratón para marcar a un objetivo
+			Después de marcar un objetivo, todas los proyectiles se dirigirán hacia el objetivo marcado
+			Solo se puede aplicar una "pantalla de balas" por fotograma como máximo
 			'''
 	}
 
@@ -2849,6 +2915,182 @@ Items: {
 
 	AzafureTBMTerminal: {
 		DisplayName: Terminal Azafure TBM
+		Tooltip:
+			'''
+			Operarás una tuneladora
+				Será difícil controlarlo si está demasiado lejos del jugador
+				Mientras está en funcionamiento, utiliza las teclas de movimiento para controlalo,
+                mantén pulsada la tecla de salto para excavar y vuelve a utilizar este objeto para detener su funcionamiento
+				La potencia de pico aplicada será la del pico más poderoso que tengas en tu inventario
+				Recoge automáticamente los objetos cercanos y los añade a tu inventario
+			'''
+	}
+HowlingCannon: {
+		DisplayName: Cañón aullador
+		Tooltip: ""
+	}
+
+	AncientFragmentsBody: {
+		DisplayName: Fragmentos antiguos de cadáveres
+		Tooltip: ""
+	}
+
+	AncientFragmentsEcho: {
+		DisplayName: Fragmentos antiguos de eco
+		Tooltip: ""
+	}
+
+	AncientFragmentsMind: {
+		DisplayName: Fragmentos antiguos de la mente
+		Tooltip: ""
+	}
+
+	AncientFragmentsSoul: {
+		DisplayName: Fragmentos antiguos del alma 
+		Tooltip: ""
+	}
+
+	MomosLightPet: {
+		DisplayName: Mascota luminosa Momo
+		Tooltip: ""
+	}
+
+	Malign: {
+		DisplayName: Maligno
+		Tooltip: ""
+	}
+
+	AzafureDrill: {
+		DisplayName: Taladro de Azafure
+		Tooltip: ""
+	}
+
+	AzafurePowerSaw: {
+		DisplayName: Sierra eléctrica de Azafure
+		Tooltip: ""
+	}
+
+	AzafureElectrocauteryWand: {
+		DisplayName: Varita de electrocauterización de Azafure
+		Tooltip: ""
+	}
+
+	BookmarkSnowgrave: {
+		DisplayName: Marcapáginas - Tumba de nieve
+		Tooltip:
+			'''
+			Cargará energía cuando tu proyectil golpee a los enemigos.
+			Cuando esté lleno de energía, tu próximo ataque lanzará una tumba de nieve.
+			La tumba de nieve causará daño de forma constante
+			"[Procede]"
+			'''
+	}
+
+	BigShotsWing: {
+		DisplayName: Alas del mandamás
+		Tooltip:
+			'''
+			Velocidad horizontal: [A]
+			Multiplicador de aceleración: [B]
+			Velocidad vertical decepcionante
+			Tiempo de vuelo: [C]
+			"Es hora de ser un..."
+			'''
+	}
+
+	BookmarkSulphurous: {
+		DisplayName: Marcapáginas - Sulfúreo
+		Tooltip:
+			'''
+			Crea una burbuja para protegerte.
+			La burbuja explotará tras recibir daño.
+			La burbuja tarda 60 segundos en reaparecer.
+			Cuando no tienes la burbuja, el daño que recibas provocará posicionamiento sulfuroso
+			'''
+	}
+
+	VoidWell: {
+		DisplayName: Pozo del vacío
+		Tooltip:
+			'''
+			Un pozo mágico que emana el poder de la Nada, que se dice que puede devorar una estrella.
+			Utiliza el vacío para potenciar objetos y crear equipamiento del vacío
+			'''
+	}
+
+	FadingRunestone: {
+		DisplayName: Piedra rúnica descolorida
+		Tooltip:
+			'''
+			Una creación misteriosa que no pertenece a este mundo.
+			Es tan pesada que parece que pudiera distorsionar el espacio-tiempo.
+			Hubo un momento en el que incluso sentiste que ibas a desaparecer
+			'''
+	}
+
+	DedicatedOracle: {
+		DisplayName: Oráculo consagrado
+		Tooltip:
+			'''
+			Solo puede realizar ataques sigilosos.
+			Se dirige hacia el objetivo más cercano al cursor y realiza cortes rápidos y continuos
+			'''
+	}
+
+	GlitteringBeak: {
+		DisplayName: Pico resplandeciente
+		Tooltip: ""
+	}
+
+	GatheringSwarm: {
+		DisplayName: Enjambre recolector
+		Tooltip:
+			'''
+			Invoca enjambres que agarran monedas y los ítems marcados como favoritos.
+			Los enjambres agarrarán todos los objetos si no tienes ningún ítem marcado como favorito
+			'''
+	}
+
+	AzafureHeavyArmor: {
+		DisplayName: Armadura pesada de Azafure
+		Tooltip: ""
+	}
+
+	AzafureHeavyHelmet: {
+		DisplayName: Casco pesado de Azafure 
+		Tooltip: ""
+	}
+
+	AzafureHeavyLeggings: {
+		DisplayName: Mallas pesadas de Azafure 
+		Tooltip: ""
+	}
+
+	GrandHammer: {
+		DisplayName: Gran martillo
+		Tooltip: ""
+	}
+
+	BookmarkHammer: {
+		DisplayName: Marcapáginas de martillo
+		Tooltip: Invoca a un martillo para que luche por ti
+	}
+
+	CrossBorderPursuit: {
+		DisplayName: Persecución transfronteriza
+		Tooltip:
+			'''
+			Solo puede realizar ataques sigilosos.
+			Se dirige hacia el objetivo más cercano al cursor y realiza cortes rápidos y continuos
+	}
+
+	BookmarkSword: {
+		DisplayName: Marcapáginas de espada
+		Tooltip: Invoca a una espada para que luche por ti
+	}
+
+	AzafureEKatana: {
+		DisplayName: E-Katana de Azafure
 		Tooltip: ""
 	}
 }
@@ -2881,7 +3123,6 @@ PrefixitemDesc:
 	'''
 MariviniumSet:
 	'''
-	Bonus de armadura:
 	Se reduce a la mitad el daño cuerpo a cuerpo recibido
 	+10 espacios de súbditos
 	+100% de daño de invocación
@@ -3233,6 +3474,7 @@ Projectiles: {
 	ElementalFractalThrown.DisplayName: Elemental Fractal Thrown
 	StarlitFractalHeld.DisplayName: Starlit Fractal Held
 	FractalStarBlade.DisplayName: Fractal Star Blade
+	FractalStar.DisplayName: Fractal Star
 	AbyssFractalHeld.DisplayName: Abyss Fractal Held
 	AbyssalBlade.DisplayName: Abyssal Blade
 	AbyssalBullet.DisplayName: Abyssal Bullet
@@ -3346,6 +3588,99 @@ Projectiles: {
 	SandBullet.DisplayName: Sand Bullet
 	AzafureSurgeRodHeldEffect.DisplayName: Azafure Surge Rod Held Effect
 	AzafureSurgeRodThrow.DisplayName: Azafure Surge Rod Throw
+	StarlightMothMinion.DisplayName: Starlight Moth Minion
+	LuminarisMinionAstralShoot.DisplayName: Luminaris Minion Astral Shoot
+	AzafureRailgunHeld.DisplayName: Azafure Railgun Held
+	RailgunChargeShot.DisplayName: Railgun Charge Shot
+	RailgunSmallShot.DisplayName: Railgun Small Shot
+	AzafureDroneMinion.DisplayName: Azafure Drone Minion
+	AzafureDroneBullet.DisplayName: Azafure Drone Bullet
+	AzafureHealingTowerSentry.DisplayName: Azafure Healing Tower Sentry
+	AzafureProtectiveCannonShot.DisplayName: Azafure Protective Cannon Shot
+	ATBMProjectile.DisplayName: ATBM Projectile
+	TlipocasScytheHeld.DisplayName: Tlipocas Scythe Held
+	TSSlash.DisplayName: T S Slash
+	TlipocasScytheThrow.DisplayName: Tlipocas Scythe Throw
+	BloodCrack.DisplayName: Blood Crack
+	HowlingCannonHeld.DisplayName: Howling Cannon Held
+	HowlingBullet.DisplayName: Howling Bullet
+	HowlingLaser.DisplayName: Howling Laser
+	FractalStarblight.DisplayName: Fractal Starblight
+	HexController.DisplayName: Hex Controller
+	HexVertex.DisplayName: Hex Vertex
+	Molightpet.DisplayName: Molightpet
+	GrandSlamProj.DisplayName: Grand Slam Proj
+
+	Rogue: {
+		ElementalHammerProj.DisplayName: Elemental Hammer Proj
+		FallenSky.DisplayName: Fallen Sky
+		FallenHammerProj.DisplayName: Fallen Hammer Proj
+		GodsHammerProj.DisplayName: Gods Hammer Proj
+		NebulaEnegry.DisplayName: Nebula Enegry
+		GrandEchoProj.DisplayName: Grand Echo Proj
+		GrandEchoProjSmall.DisplayName: Grand Echo Proj Small
+		GrandEcho.DisplayName: Grand Echo
+		GrandHammerProj.DisplayName: Grand Hammer Proj
+		HexController.DisplayName: Hex Controller
+		HexVertex.DisplayName: Hex Vertex
+		PurpleBeam.DisplayName: Purple Beam
+		PureHammerProj.DisplayName: Pure Hammer Proj
+		PhantasmalHammerClone.DisplayName: Phantasmal Hammer Clone
+		PhantasmalHammer.DisplayName: Phantasmal Hammer
+		VortexRocket.DisplayName: Vortex Rocket
+		PureStar.DisplayName: Pure Star
+		PureStarMounted.DisplayName: Pure Star Mounted
+		SolarFireball.DisplayName: Solar Fireball
+		StardustSpark.DisplayName: Stardust Spark
+		DarkEnergy.DisplayName: Dark Energy
+		NightmareArrow.DisplayName: Nightmare Arrow
+		NightmareHammerProj.DisplayName: Nightmare Hammer Proj
+		HolyPunishment.DisplayName: Holy Punishment
+		PunishmentHammerProj.DisplayName: Punishment Hammer Proj
+		PunishmentMounted.DisplayName: Punishment Mounted
+		PunishmentStar.DisplayName: Punishment Star
+		PunishmentStarMounted.DisplayName: Punishment Star Mounted
+		HolyJudgement.DisplayName: Holy Judgement
+		HolyJudgementMounted.DisplayName: Holy Judgement Mounted
+		HolyJudgementMountedAlt.DisplayName: Holy Judgement Mounted Alt
+		FallenEruption.DisplayName: Fallen Eruption
+		FallenVolcano.DisplayName: Fallen Volcano
+		RebornDarkEnergy.DisplayName: Reborn Dark Energy
+		RebornFallenEruption.DisplayName: Reborn Fallen Eruption
+		RebornFallenVolcano.DisplayName: Reborn Fallen Volcano
+		RebornNebulaStar.DisplayName: Reborn Nebula Star
+		RebornNightmareArrow.DisplayName: Reborn Nightmare Arrow
+		RebornPunishmentStar.DisplayName: Reborn Punishment Star
+		ScarletSpearProj.DisplayName: Scarlet Spear Proj
+		ScarletSpearDuplicate.DisplayName: Scarlet Spear Duplicate
+		ThunderSky.DisplayName: Thunder Sky
+		ThunderEcho.DisplayName: Thunder Echo
+		ThunderHandler.DisplayName: Thunder Handler
+	}
+
+	MalignHeld.DisplayName: Malign Held
+	MalignBullet.DisplayName: Malign Bullet
+	MalignLightning.DisplayName: Malign Lightning
+	MalignLaser.DisplayName: Malign Laser
+	AzafurePowerSawProj.DisplayName: Azafure Power Saw Proj
+	Typeless.StardustSparkController.DisplayName: Stardust Spark Controller
+	AzafureElectrocauteryWandHeld.DisplayName: Azafure Electrocautery Wand Held
+	AzafureElectrocauteryWandBomb.DisplayName: Azafure Electrocautery Wand Bomb
+	Snowgrave.DisplayName: Snowgrave
+	DedicatedOracleSlashProj.DisplayName: Dedicated Oracle Slash Proj
+	ALMGLaser.DisplayName: A L M G Laser
+	AzafureLightMachineGunHeld.DisplayName: Azafure Light Machine Gun Held
+	AzafureLightMachineGunStealth.DisplayName: Azafure Light Machine Gun Stealth
+	ALMGShell.DisplayName: A L M G Shell
+	PickingSwarm.DisplayName: Picking Swarm
+	TaijinoYumeProj.DisplayName: Taijino Yume Proj
+	GodsHammerFlyUpProj.DisplayName: Gods Hammer Fly Up Proj
+	GrandHammerFallenProj.DisplayName: Grand Hammer Fallen Proj
+	BMHammerProjectile.DisplayName: B M Hammer Projectile
+	CrossBorderPursuitProj.DisplayName: Cross Border Pursuit Proj
+	CBPSmash.DisplayName: C B P Smash
+	BMSwordProjectile.DisplayName: B M Sword Projectile
+	AzafureEKatanaSlash.DisplayName: Azafure E Katana Slash
 }
 
 LegendTooltip: - Legendario -
@@ -3468,7 +3803,7 @@ Buffs: {
 	}
 
 	AquaticChan: {
-		Description: Mods.CalamityEntropy.Buffs.AquaticChan.Description
+		Description: ""
 		DisplayName: Aquatic Chan
 	}
 
@@ -3644,6 +3979,19 @@ Buffs: {
 	AzafureDrone: {
 		DisplayName: Dron de Azafure
 		Description: El dron de Azafure peleará por tí
+	VoidEmpowerment: {
+		DisplayName: Void Empowerment
+		Description: ""
+	}
+
+	MomosLightPetBuff: {
+		DisplayName: Buffo de la Mascota luminosa Momo
+		Description: ""
+	}
+
+	PickingSwarmBuff: {
+		DisplayName: GEnjambre recolector
+		Description: ¡El enjambre agarrará monedas por ti!
 	}
 }
 
@@ -3755,6 +4103,16 @@ WyrmChat9: ¿Quién crees que es más fuerte, yo o esa bruja?
 WyrmChat10: ¿Me preguntas porque te ataqué aquella vez? Mi misión era proteger ese sagrado objeto.
 WyrmChat11: El caos siempre me hace sentir incómodo.
 WyrmChatDonors: Gracias a [0] por el apoyo, ¡gracias a todos!
+WyrmChatEclipse1: ¿De dónde han salido estas cosas? No importa, tengo otras cosas que hacer.
+WyrmChatEclipse2: Creo que estos monstruos no te afectarán, pero por favor, no dejes que me molesten.
+WyrmChatBloodMoon1: La luna está sangrando. Esto es deprimente, quiero volver al abismo
+WyrmChatBloodMoon2: Quizás deberías irte a la cama,
+WyrmChatRain1: Está lloviendo, es realmente refrescante. Nunca había sentido esto antes.
+WyrmChatRain2: El agua de lluvia que cae sobre mí resulta muy agradable. No es comparable con la presión del agua en el abismo
+WyrmChatRain3: El aire es muy fresco, ¿verdad?
+WyrmChatCOHalibut1: ¿Me has traído marisco? Un momento...
+WyrmChatCOHalibut2: ¿Puedo probarlo? ¿Qué, no se puede hacer...?
+WyrmChatCOHalibut3: ¿Qué es eso? Tiene buena pinta, jeje...
 loreCruiser:
 	'''
 	La vida absorbe energía para disminuir la entropía.
@@ -3939,6 +4297,10 @@ Configs: {
 			Label: El cortazarzas siempre tendrá disponible todas sus mejoras
 			Tooltip: ""
 		}
+		LeastDamageSufferedBasedOnMaxHealth: {
+			Label: Menor daño sufrido basado en la salud máxima
+			Tooltip: ""
+		}
 	}
 }
 
@@ -4103,8 +4465,21 @@ ArmorPrefixHeatDeathDescription:
 	Multiplica tu daño en 1.5
 	[c/ff0000:Tus ataques aplicarán muerte térmica pero tu salud continuará dereriorándose]
 	'''
+ArmorPrefixArmorPrefixEchoName: Eco
+ArmorPrefixArmorPrefixEchoDescription: +4% de regeneración de sigilo
+ArmorPrefixTheBodyName: Cadáver
+ArmorPrefixTheBodyDescription: +10% de vida mñaxima
+ArmorPrefixTheMindName: Mente
+ArmorPrefixTheMindDescription: +20% de maná máximo
+ArmorPrefixTheSoulName: Alma
+ArmorPrefixTheSoulDescription: +0.2% de robo de vida
 PrefixEnchanted: Encantado
-PrefixEnchantedDesc: +4% de maná mejorado
+PrefixEnchantedDesc: +4% de Maná mejorado
+AncientPrefixDesc:
+	'''
+	Objeto antiguo
+	No puede ser eliminado por el cuchillo eliminador de mejoras
+	'''
 
 Prefixes: {
 	Enchanted.DisplayName: Encantado
@@ -4120,6 +4495,7 @@ Prefixes: {
 DamageClasses: {
 	NoneTypeDamageClass.DisplayName: Daño
 	NoDRMelee.DisplayName: No D R Melee
+	KoishiDamageClass.DisplayName: Daño de la clase Koishi
 }
 
 hkLevel: Nivel
@@ -4171,6 +4547,8 @@ AmmoSnowball: Bolas de nieve
 AmmoStake: Estaca
 AmmoStyngerBolt: Proyectil Stynger 
 AmmoBoulders: Roca
+AmmoAle: Ale
+AmmoBloodrune: Runa de sangre
 AmmoStarblightSoot: Hollín de plaga de estrellas
 AmmoType: Tipo de munición
 UseAmmo: Munición que usa
@@ -4196,6 +4574,16 @@ LoreCorruptionDesc: Obtienes un {1}% de reducción de daño
 LoreBrainofCthulhuDesc: Inmmune al sangrado
 LoreQueenBeeDesc: +{2}% de daño y -{1}% de daño crítico
 LuminarisLoreDesc: +{1}% de tiempo de vuelo máximo
+LoreHiveMindDesc: En {1} despues del un golpe, +{2}% de daño
+LorePerforatorsDesc: "{1}% probabilidad de curación {2} después de golpear"
+LoreEaterofWorldsDesc: Inmmune a El Averno
+LoreSkeletronDesc: Las municiones que tienen una acumulación de {1} tienen {2} probabilidades de no consumirse
+LoreSlimeGodDesc: Aumenta ligeramente la altura del salto
+LoreUnderworldDesc: No sufrirás ningún daño durante los primeros {1} segundos tras sumergirte en la lava
+LoreWallofFleshDesc: Reduce el daño recibido en un {1}%, con un enfriamiento de {2} segundos
+LoreBloodMoonDesc: Mejorar la capacidad de ver en la oscuridad
+LoreQueenSlimeDesc: +{1}% de velocidad de caída
+LoreArchmageDesc: Aumenta la velocidad de disipación del debuff Frío
 
 DraedonDialogs: {
 	Void: {
@@ -4221,6 +4609,7 @@ KilledByBloodBoiling: "'s blood is boiling"
 BloodBoiling: Sangre hirviendo
 BloodBoilingDescr: El uso continuo de objetos aumenta la velocidad de ataque, pero te causará daño continuo a ti mismo
 PrefixHeavyDesc: +10% de velocidad de caída
+DamageReduceCD: Enfriamiento de la reducción de daño
 
 InfernumIntros: {
 	NihilityTwin:
@@ -4294,4 +4683,217 @@ RIDModifies:
 	[8]% de tiempo de vuelo
 	'''
 ProtectiveCannonCooldown: Tiempo de enfriamiento del Cañón protector Azafure
+lipocasScytheSlashCooldown: Enfriamiento del empuje
+TeleportSlashCooldown: Enfriamiento del corte
+ScytheReviveCooldown: Tiempo de enfriamiento de la resurrección de la guadaña
+TScytheZenithName: Guadaña del Maestro Nocturno
+TScytheSpecialName: Escarlata
+TScytheZenithDesc: '''"Coróname, mi rey, y el mundo dará la bienvenida al fin de la noche."'''
+TScytheDesc: '''"Una guadaña escarlata con el alma de Tlipoca adherida a ella."'''
+TSL1:
+	'''
+	Los grandes malignos ojos parecen tener malas intenciones hacia nosotros...
+	¡Vamos a matarlo!
+	'''
+TSL2:
+	'''
+	¿Extraños espíritus parecidos a cerebros y gusanos?
+	¿Puedo llevármelo a casa como espécimen?
+	'''
+TSL3:
+	'''
+	¿El Dios Slime? Parece pegajoso, sucio y burbujeante...
+	¿Le damos un baño?
+	'''
+TSL4:
+	'''
+	¿Una creación de carne y hueso sellada con los espíritu de dioses?
+	Parece que completar esta tarea puede producir muchas almas...
+	'''
+TSL5:
+	'''
+	Muchas almas flotan en los peñascos de azufre, aullando de dolor...
+    Hablando sin cesar de una catástrofe ocurrida hace cien años...
+    ¡Acabemos con su sufrimiento!
+	'''
+TSL6:
+	'''
+	Hay un monstruo rojo y aterrador flotando por el cielo nocturno.
+    Solo puedo sentir locura en su alma. O... ¿Acaso es eso un alma?
+	'''
+TSL7:
+	'''
+	Hay tantos espíritus en la mazmorra...
+	¡Oye, hay un espíritu sellado con un olor extraño!
+	¡Siento una necesidad imperiosa de comunicarme con él!
+	'''
+TSL8:
+	'''
+	¿Cuántos filamentos de alma están unidos a la carne y sangre retorcidas? 
+    ¡Qué asco, devuélvelos a sus sueños!
+	'''
+TSL9:
+	'''
+	Estos cultistas locos emiten un aura similar a la de ese profeta...
+	¿A qué le rinden culto?
+	Me parece que enviarlos a adorar a la Parca es una buena idea.
+	'''
+TSL10: ¿Un pulpo gigante con múltiples ojos? ¿Es este un monstruo salido de un sueño?
+TSL11:
+	'''
+	El hombre sin rostro con una capa púrpura llevaba una linterna con un aura profética...
+    ¡Tengo un poco de curiosidad, quiero agarrar la linterna!
+	'''
+TSL12:
+	'''
+	En la mazmorra encantada, estas almas jamás descansarán en paz
+    Es tan lamentable, ¡llevemonos las almas!
+	'''
+TSL13:
+	'''
+	Hay una serpiente púrpura.
+    ¡Quiere devorar nuestras almas!
+    ¡Ni lo intentes!
+	'''
+TSL14:
+	'''
+	La linterna extraña apuntaba hacia esta fisura espacial.
+    ¿Qué aportará?
+	'''
+TSL15:
+	'''
+	Una bruja y un robot han llegado.
+	¡Arrebatarles sus almas y mi objetivo quizá se cumpla!
+	'''
+TSL16:
+	'''
+	El cultista nos pidió que usáramos la varita de la discordia en el abismo...
+    ¿Qué pasará?
+	'''
+TSLEnd: ¡Por fin pagué la deuda, la tarea se completó perfectamente!
+TSA1: Mantener pulsado y atacar a la vez empujará cierta distancia hacia la dirección del cursor
+TSA1B: Después de matar al Dios Slime, serás invenicble e inflingirás daño a los objetivos con los que entres en contacto
+TSU1: Necesitas acabar con el Ojo de Cthulhu
+TSA2: Pulsa el botón izquierdo del ratón para lanzar la guadaña y causar múltiples heridas
+TSA2B:
+	'''
+	Después de matar al Elemental de Azufre, pulsa el clic izquierdo para teletransportarte al cursor y lanzar un corte mayor.
+	Esta habilidad tiene un tiempo de enfriameinto de 15 segundos. El tiempo de enfriamiento se reducirá a 10 segundos después de matar al Cruiser
+	'''
+TSU2: Necesitas acabar con cualquier jefe maligno
+TSA3:
+	'''
+	Al lanzarla, pulsa clic derecho para que la guadaña siga tu cursor.
+	Los ataques sigilosos te curarán 15 puntos de vida.
+	'''
+TSU3: Necesitas acabar con el Profeta
+TSA4:
+	'''
+	El teletransporte potenciará tu arma con el vacío.
+    Esto durará 15 segundos. Tras matar al Cruiser, aumentará a 30 segundos.
+    El daño que causes aumentará un 25% cuando estés potenciado.
+	'''
+TSU4: Need to kill a los Gemelos del vacío
+TSA5:
+	'''
+	Deja una sombra cuando realices un teletransporte. La sombra atacará contigo.
+    El corte rápido generará un corte adicional perpendicular al sprint original.
+    Aumenta el valor de curación cuando realices un ataque sigiloso.
+	'''
+TSU5: Necesitas acabar con Polterghast
+TSA6: Deja una grieta al realizar un corte rápido. La grieta causará daño continuamente
+TSU6: Necesitas acabar con el Devorador de Dioses
+TSA7: Resiste una golpe mortal y recupera la mitad de tu salud máxima. Tiene 5 minutos de enfriamiento
+TSU7: Necesitas acabar con Yharon
+TSA8: Atacar puede causar toque del vacío
+TSU8: Necesitas acabar con elCruiser
+TSA9: Cuanto más cerca estés del objetivo, mayor será el daño provocado, con un daño adicional máximo del 35%
+PressShiftForMoreInfo: Presiona shift para más información...
+TSU9: Necesitas acabar con Calamitas
+AchievementBookmarkInsertName: Buenos hábitos de lectura
+AchievementBookmarkInsertDesc: Inserta cualquier marcador en un libro de entropía
+LMDialog1: Saludos, amigo mío.
+LMDialog2: ¡Oye, dónde está tu dinero!
+LMDialog3: ¡Te dije que necesitabas monedas!
+LMDialog4: ¡Idiota!
+LMDialog5: ¿Me estás tomando el pelo?
+LMDialog6: Ya veo, quieres burlarte de mí.
+LMDialog7: ¡Esta es tu última oportunidad!
+LMDialog8: ¡Ya está!
+LMDialog9: ¡Guárdalo, te va a dar un golpe en la cabeza!
+LMDialog10: ¿Por qué no lo sacaste antes? Espera, ¿qué...?
+LMDialog11: Aquí está tu recompensa ;)
+LMDialog12: ¿Por qué no lo sacaste antes?
+LMDialog13: ¿Por qué no lo sacaste antes? Eres realmente rico.
+LMDialog14: Ya sabes como acaba esto.
+LMDialog15: El diseño de este objeto es un fracaso... No deberías usarlo
+LMDialog16:¿No lo ves, [NAME]? ¡¿Qué haces aquí?!
+LMDialog17: No quiero tu basura.
+LMDialog18: ¿Qué es esto? ¡Necesitas una moneda!
+NowLV: Nivel
 
+Test: {
+	Proj: {
+		PurpleBeam.DisplayName: Purple Beam
+		FinalEchoProjSmall.DisplayName: Final Echo Proj Small
+		FinalEchoProjMini.DisplayName: Final Echo Proj Mini
+		FinalEchoProj.DisplayName: Final Echo Proj
+		PhantasmalHammer.DisplayName: Phantasmal Hammer
+		GrandEchoProjMini.DisplayName: Grand Echo Proj Mini
+	}
+
+	Projs: {
+		FinalProj.DisplayName: Final Proj
+		GodsProj.DisplayName: Gods Proj
+		HallowedProj.DisplayName: Hallowed Proj
+		LunarProj.DisplayName: Lunar Proj
+		PaladinProj.DisplayName: Paladin Proj
+	}
+}
+
+AnyOrichalcumBar: Cualquier lingote de mineral del modo difícil
+AnyEvilBar: Cualquier lingote maligno
+BCBarInfo: Barra de zarzas (Presiona [mouse middle] para arrastrar)
+HallowedEnemiesDrop: Lo sueltan los enemigos del bioma sagrado subterráneo
+EvilEnemiesDrop: Lo sueltan los enemigos del subterráneo de los biomas malignos
+DungeonEnemiesDrop: Lo sueltan los enemigos de la mazmorra subterránea
+VoidOreMine: Aparece en el espacio luego de derrotar al Cruiser
+AbyssalPiercerObt: Lo suelta el calamar gigante luego de derrotar al Azote acuático
+AstralFishing: Se pesca en la infeccion astral
+AzafureSet:
+	'''
+	Cuando esta armadura está equipada, 
+	Todo el equipo Azafure recibe mejoras parciales
+	Tendrás barra de durabilidad
+	La durabilidad proporciona hasta 18 puntos de defensa y una reducción del daño del 50%, 
+	mientras se va reduciendo tu velocidad de movimiento
+	La durabilidad se consume en función del daño recibido
+	La durabilidad se regenera lentamente 5 segundos después de recibir daño
+	Cuando la barra de durabilidad se agota, se volverá inactiva y requerirá un tiempo para que se restaure
+	'''
+AzafureEnhance: Mejoras
+
+AzafureEnhances: {
+	AzafureChargeShield: Reduce el coste de energía
+	AzafureDetectionEquipment: Incrementa la velocidad de salto
+	AzafureTBMTerminal:  Incrementa la velocidad de movimiento al excavar
+	ReallocateIndicatorData: Incremento medio a todas las estadísticas
+	AzafureAntiaircraftGun: +30% de velocidad de ataque
+	AzafureBatteringRam: Tiempo de recarga reducido
+	AzafureDroneRemote: Incrementa la velocidad de disparo de los súbditos
+	AzafureFurnace: Incrementa la velocidad de carga basado en la durabilidad
+	AzafureHealingTowerRemote: Aumenta la curación recibida y la velocidad de ataque
+	AzafurePioneerCannon: Aumenta el límite de munición que puedes cargar
+	AzafureProtectiveCannon: Reduce el tiempo de enfriamiento
+	AzafurePulseWand: Aumenta el límite de marcas y el rango de búsqueda
+	AzafureRailgun: Aumenta el número de balas pequeñas teleridigidas
+	AzafureSurgeRod: El proyectil puede administrar una descarga eléctrica adicional al objetivo
+	AzafureTeslaGun: Incrementa el daño del arco eléctrico
+	AzafureElectrocauteryWand: Incrementa la velocidad de carga
+	AzafureLightMachineGun: Aumenta la velocidad de regeneración del sigilo cuando golpeas con el láser
+	AzafurePowerSaw: Aumenta el daño del arma y no se sobrecalentará
+	AzafureDrill: Aumentar la potencia y el alcance.
+	AzafureEKatana: Aumentar el alcance de los ataques
+}
+
+DeathExplode: "[PlayerName] explotó"
