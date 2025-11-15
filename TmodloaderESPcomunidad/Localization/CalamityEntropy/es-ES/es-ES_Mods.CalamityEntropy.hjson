@@ -3980,7 +3980,7 @@ Buffs: {
 		DisplayName: Dron de Azafure
 		Description: El dron de Azafure peleará por tí
 	VoidEmpowerment: {
-		DisplayName: Void Empowerment
+		DisplayName: Empoderamiento del vacío
 		Description: ""
 	}
 
@@ -3990,7 +3990,7 @@ Buffs: {
 	}
 
 	PickingSwarmBuff: {
-		DisplayName: GEnjambre recolector
+		DisplayName: Enjambre recolector
 		Description: ¡El enjambre agarrará monedas por ti!
 	}
 }
@@ -4106,7 +4106,7 @@ WyrmChatDonors: Gracias a [0] por el apoyo, ¡gracias a todos!
 WyrmChatEclipse1: ¿De dónde han salido estas cosas? No importa, tengo otras cosas que hacer.
 WyrmChatEclipse2: Creo que estos monstruos no te afectarán, pero por favor, no dejes que me molesten.
 WyrmChatBloodMoon1: La luna está sangrando. Esto es deprimente, quiero volver al abismo
-WyrmChatBloodMoon2: Quizás deberías irte a la cama,
+WyrmChatBloodMoon2: Quizás deberías irte a la cama.
 WyrmChatRain1: Está lloviendo, es realmente refrescante. Nunca había sentido esto antes.
 WyrmChatRain2: El agua de lluvia que cae sobre mí resulta muy agradable. No es comparable con la presión del agua en el abismo
 WyrmChatRain3: El aire es muy fresco, ¿verdad?
@@ -4581,7 +4581,7 @@ LoreSkeletronDesc: Las municiones que tienen una acumulación de {1} tienen {2} 
 LoreSlimeGodDesc: Aumenta ligeramente la altura del salto
 LoreUnderworldDesc: No sufrirás ningún daño durante los primeros {1} segundos tras sumergirte en la lava
 LoreWallofFleshDesc: Reduce el daño recibido en un {1}%, con un enfriamiento de {2} segundos
-LoreBloodMoonDesc: Mejorar la capacidad de ver en la oscuridad
+LoreBloodMoonDesc: Mejora la capacidad de ver en la oscuridad
 LoreQueenSlimeDesc: +{1}% de velocidad de caída
 LoreArchmageDesc: Aumenta la velocidad de disipación del debuff Frío
 
@@ -4692,7 +4692,7 @@ TScytheZenithDesc: '''"Coróname, mi rey, y el mundo dará la bienvenida al fin 
 TScytheDesc: '''"Una guadaña escarlata con el alma de Tlipoca adherida a ella."'''
 TSL1:
 	'''
-	Los grandes malignos ojos parecen tener malas intenciones hacia nosotros...
+	Los grandes ojos malginos parecen tener malas intenciones hacia nosotros...
 	¡Vamos a matarlo!
 	'''
 TSL2:
@@ -4771,7 +4771,7 @@ TSL16:
     ¿Qué pasará?
 	'''
 TSLEnd: ¡Por fin pagué la deuda, la tarea se completó perfectamente!
-TSA1: Mantener pulsado y atacar a la vez empujará cierta distancia hacia la dirección del cursor
+TSA1: Mantener pulsado y atacar a la vez te empujará cierta distancia hacia la dirección del cursor
 TSA1B: Después de matar al Dios Slime, serás invenicble e inflingirás daño a los objetivos con los que entres en contacto
 TSU1: Necesitas acabar con el Ojo de Cthulhu
 TSA2: Pulsa el botón izquierdo del ratón para lanzar la guadaña y causar múltiples heridas
@@ -4793,7 +4793,7 @@ TSA4:
     Esto durará 15 segundos. Tras matar al Cruiser, aumentará a 30 segundos.
     El daño que causes aumentará un 25% cuando estés potenciado.
 	'''
-TSU4: Need to kill a los Gemelos del vacío
+TSU4: Necesitas acabar con los Gemelos del vacío
 TSA5:
 	'''
 	Deja una sombra cuando realices un teletransporte. La sombra atacará contigo.
@@ -4806,7 +4806,7 @@ TSU6: Necesitas acabar con el Devorador de Dioses
 TSA7: Resiste una golpe mortal y recupera la mitad de tu salud máxima. Tiene 5 minutos de enfriamiento
 TSU7: Necesitas acabar con Yharon
 TSA8: Atacar puede causar toque del vacío
-TSU8: Necesitas acabar con elCruiser
+TSU8: Necesitas acabar con el Cruiser
 TSA9: Cuanto más cerca estés del objetivo, mayor será el daño provocado, con un daño adicional máximo del 35%
 PressShiftForMoreInfo: Presiona shift para más información...
 TSU9: Necesitas acabar con Calamitas
@@ -4855,7 +4855,7 @@ AnyOrichalcumBar: Cualquier lingote de mineral del modo difícil
 AnyEvilBar: Cualquier lingote maligno
 BCBarInfo: Barra de zarzas (Presiona [mouse middle] para arrastrar)
 HallowedEnemiesDrop: Lo sueltan los enemigos del bioma sagrado subterráneo
-EvilEnemiesDrop: Lo sueltan los enemigos del subterráneo de los biomas malignos
+EvilEnemiesDrop: Lo sueltan los enemigos del los biomas malignos subterráneos
 DungeonEnemiesDrop: Lo sueltan los enemigos de la mazmorra subterránea
 VoidOreMine: Aparece en el espacio luego de derrotar al Cruiser
 AbyssalPiercerObt: Lo suelta el calamar gigante luego de derrotar al Azote acuático
@@ -4863,13 +4863,13 @@ AstralFishing: Se pesca en la infeccion astral
 AzafureSet:
 	'''
 	Cuando esta armadura está equipada, 
-	Todo el equipo Azafure recibe mejoras parciales
+	todo el equipo Azafure recibe mejoras parciales
 	Tendrás barra de durabilidad
 	La durabilidad proporciona hasta 18 puntos de defensa y una reducción del daño del 50%, 
 	mientras se va reduciendo tu velocidad de movimiento
-	La durabilidad se consume en función del daño recibido
-	La durabilidad se regenera lentamente 5 segundos después de recibir daño
-	Cuando la barra de durabilidad se agota, se volverá inactiva y requerirá un tiempo para que se restaure
+	La durabilidad se consume en función del daño recibido y
+	se regenera lentamente 5 segundos después de recibir daño
+	Cuando la barra de durabilidad se agota, se volverá inactiva y requerirá de un tiempo para que se restaure
 	'''
 AzafureEnhance: Mejoras
 
@@ -4892,9 +4892,10 @@ AzafureEnhances: {
 	AzafureElectrocauteryWand: Incrementa la velocidad de carga
 	AzafureLightMachineGun: Aumenta la velocidad de regeneración del sigilo cuando golpeas con el láser
 	AzafurePowerSaw: Aumenta el daño del arma y no se sobrecalentará
-	AzafureDrill: Aumentar la potencia y el alcance.
-	AzafureEKatana: Aumentar el alcance de los ataques
+	AzafureDrill: Aumenta la potencia y el alcance
+	AzafureEKatana: Aumenta el alcance de los ataques
 }
 
 DeathExplode: "[PlayerName] explotó"
+
 
