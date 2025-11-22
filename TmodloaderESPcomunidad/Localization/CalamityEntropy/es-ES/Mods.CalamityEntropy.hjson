@@ -4286,7 +4286,7 @@ Configs: {
 
 		ScreenWarpEffects: {
 			Label: Efectos de pantalla
-			Tooltip:Aplicar o no aplicar el efecto de distorsión y recorte de pantalla
+			Tooltip: Aplicar o no aplicar el efecto de distorsión y recorte de pantalla
 		}
 
 		EnablePixelEffect: {
@@ -4304,15 +4304,6 @@ Configs: {
 		DisplayName: Configuración del servidor
 		Headers.Misc: Misceláneo
 
-		CraftArmorWithPrefixChance: {
-			Label: Las armaduras que se fabriquen podrán tener las mejoras del mod
-			Tooltip: ""
-		}
-
-		EnableSethomeCommand: {
-			Label: Habilitar el comando "Sethome"
-			Tooltip: ""
-		}
 
 		LoreSpecialEffect: {
 			Label: Activar los efectos especiales de los ítems de lore
@@ -4924,3 +4915,4 @@ AzafureEnhances: {
 DeathExplode: "[PlayerName] explotó"
 BlockingCooldown: Enfriamiento de bloqueo
 FetalDreamCooldown: Enfriamiento del Sueño fetal
+
