@@ -888,7 +888,7 @@ Items: {
 			'''
 			Transforma el daño recibido en erosión astral, reduciendo la vida poco a poco con el tiempo
 			Al atacar se puede erosionar y transferir la erosión astral al objetivo, inflingiendo más daño
-			[c/ff0000:Sin embargo, debido al padecimiento de esta enfermedad tan grave, sufrirás más daño.]
+			Reduce un 50% el efecto de las pociones curativas 
 			- Modo muerte -
 			'''
 	}
@@ -3109,6 +3109,39 @@ Items: {
 			Atacará automáticamente a los enemigos
 			'''
 	}
+	StarBreaker: {
+		Tooltip: ""
+		DisplayName: Quebrantaestrellas
+	}
+
+	Gungnir: {
+		Tooltip: Al impactar, desata rayos y meteoritos
+		DisplayName: Lanza eterna Gungnir
+	}
+
+	ChaosCore: {
+		DisplayName: Núcleo del caos
+		Tooltip: ""
+	}
+
+	ReindeerBell: {
+		DisplayName: Campana de reno
+		Tooltip: ""
+	}
+
+	AzureRapier: {
+		DisplayName: Rapier Celeste
+		Tooltip:
+			'''
+			Realiza ataques punzantes rápidos
+			Clic derecho para bloquear y contraatacar
+			'''
+	}
+
+	FetalDream: {
+		DisplayName: Sueño fetal
+		Tooltip: ""
+	}
 }
 
 LOCKED: ": [BLOQUEADO]"
@@ -3622,64 +3655,12 @@ Projectiles: {
 	HowlingBullet.DisplayName: Howling Bullet
 	HowlingLaser.DisplayName: Howling Laser
 	FractalStarblight.DisplayName: Fractal Starblight
-	HexController.DisplayName: Hex Controller
-	HexVertex.DisplayName: Hex Vertex
 	Molightpet.DisplayName: Molightpet
-	GrandSlamProj.DisplayName: Grand Slam Proj
-
-	Rogue: {
-		ElementalHammerProj.DisplayName: Elemental Hammer Proj
-		FallenSky.DisplayName: Fallen Sky
-		FallenHammerProj.DisplayName: Fallen Hammer Proj
-		GodsHammerProj.DisplayName: Gods Hammer Proj
-		NebulaEnegry.DisplayName: Nebula Enegry
-		GrandEchoProj.DisplayName: Grand Echo Proj
-		GrandEchoProjSmall.DisplayName: Grand Echo Proj Small
-		GrandEcho.DisplayName: Grand Echo
-		GrandHammerProj.DisplayName: Grand Hammer Proj
-		HexController.DisplayName: Hex Controller
-		HexVertex.DisplayName: Hex Vertex
-		PurpleBeam.DisplayName: Purple Beam
-		PureHammerProj.DisplayName: Pure Hammer Proj
-		PhantasmalHammerClone.DisplayName: Phantasmal Hammer Clone
-		PhantasmalHammer.DisplayName: Phantasmal Hammer
-		VortexRocket.DisplayName: Vortex Rocket
-		PureStar.DisplayName: Pure Star
-		PureStarMounted.DisplayName: Pure Star Mounted
-		SolarFireball.DisplayName: Solar Fireball
-		StardustSpark.DisplayName: Stardust Spark
-		DarkEnergy.DisplayName: Dark Energy
-		NightmareArrow.DisplayName: Nightmare Arrow
-		NightmareHammerProj.DisplayName: Nightmare Hammer Proj
-		HolyPunishment.DisplayName: Holy Punishment
-		PunishmentHammerProj.DisplayName: Punishment Hammer Proj
-		PunishmentMounted.DisplayName: Punishment Mounted
-		PunishmentStar.DisplayName: Punishment Star
-		PunishmentStarMounted.DisplayName: Punishment Star Mounted
-		HolyJudgement.DisplayName: Holy Judgement
-		HolyJudgementMounted.DisplayName: Holy Judgement Mounted
-		HolyJudgementMountedAlt.DisplayName: Holy Judgement Mounted Alt
-		FallenEruption.DisplayName: Fallen Eruption
-		FallenVolcano.DisplayName: Fallen Volcano
-		RebornDarkEnergy.DisplayName: Reborn Dark Energy
-		RebornFallenEruption.DisplayName: Reborn Fallen Eruption
-		RebornFallenVolcano.DisplayName: Reborn Fallen Volcano
-		RebornNebulaStar.DisplayName: Reborn Nebula Star
-		RebornNightmareArrow.DisplayName: Reborn Nightmare Arrow
-		RebornPunishmentStar.DisplayName: Reborn Punishment Star
-		ScarletSpearProj.DisplayName: Scarlet Spear Proj
-		ScarletSpearDuplicate.DisplayName: Scarlet Spear Duplicate
-		ThunderSky.DisplayName: Thunder Sky
-		ThunderEcho.DisplayName: Thunder Echo
-		ThunderHandler.DisplayName: Thunder Handler
-	}
-
 	MalignHeld.DisplayName: Malign Held
 	MalignBullet.DisplayName: Malign Bullet
 	MalignLightning.DisplayName: Malign Lightning
 	MalignLaser.DisplayName: Malign Laser
 	AzafurePowerSawProj.DisplayName: Azafure Power Saw Proj
-	Typeless.StardustSparkController.DisplayName: Stardust Spark Controller
 	AzafureElectrocauteryWandHeld.DisplayName: Azafure Electrocautery Wand Held
 	AzafureElectrocauteryWandBomb.DisplayName: Azafure Electrocautery Wand Bomb
 	Snowgrave.DisplayName: Snowgrave
@@ -3695,6 +3676,9 @@ Projectiles: {
 	BMSwordProjectile.DisplayName: Sword
 	AzafureEKatanaSlash.DisplayName: Azafure E-Katana Slash
 	AzafureCogflyMinion.DisplayName: Azafure Cogfly Minion
+	GungnirThrow.DisplayName: Gungnir Throw
+	Sorensen.DisplayName: Sorensen
+	FetalDreamSlash.DisplayName: Fetal Dream Slash
 }
 
 LegendTooltip: - Legendario -
@@ -4014,6 +3998,16 @@ Buffs: {
 		DisplayName: Mosca mecánica
 		Description: La mosca mecánica de Azafure luchará por ti
 	}
+
+	ChaosTyrant: {
+		DisplayName: Tirano del caos
+		Description: ""
+	}
+
+	Koishi: {
+		DisplayName: Koishi
+		Description: ""
+	}
 }
 
 Uh: ""
@@ -4250,6 +4244,7 @@ Configs: {
 		Headers: {
 			Misc: Misceláneo
 			Other: Otro
+			Compatibility: Compatibilidad
 		}
 
 		DisplayName: Configuración
@@ -4290,8 +4285,18 @@ Configs: {
 		}
 
 		ScreenWarpEffects: {
-			Label: Screen Effects
-			Tooltip: Do or do not draw the screen wrap and cut screen effect
+			Label: Efectos de pantalla
+			Tooltip:Aplicar o no aplicar el efecto de distorsión y recorte de pantalla
+		}
+
+		EnablePixelEffect: {
+			Label: Habilitar efecto píxel
+			Tooltip: ""
+		}
+
+		EnableRetroLighting: {
+			Label: Permitir iluminación retro y calidad de las oleadas baja
+			Tooltip: Si deseas utilizar el modo de luz retro, activa esta opción. Asegúrate de activar el efecto píxel para que se muestre el UI correctamente
 		}
 	}
 
@@ -4915,4 +4920,7 @@ AzafureEnhances: {
 	AzafureCogfly: Incrementa la velocidad de ataque de los súbditos
 }
 
+
 DeathExplode: "[PlayerName] explotó"
+BlockingCooldown: Enfriamiento de bloqueo
+FetalDreamCooldown: Enfriamiento del Sueño fetal
