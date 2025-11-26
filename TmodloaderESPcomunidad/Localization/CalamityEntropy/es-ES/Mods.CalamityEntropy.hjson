@@ -119,7 +119,11 @@ Items: {
 
 			LunarPlank: {
 				DisplayName: Principio lunar
-				Tooltip: ""
+				Tooltip: 
+					'''
+					Lanza un tablón lunar para golpear a los enemigos
+					Los golpes sigilosos provocarán un pulso de energía y lanzarán algunas flechas lunares teledirigidas
+					'''
 			}
 
 			AzafureSurgeRod: {
@@ -2547,7 +2551,11 @@ Items: {
 
 	CDRemove: {
 		DisplayName: Ítem de desarrollador- elimina todos los debuffos
-		Tooltip: ""
+		Tooltip: 
+			'''
+			Clic derecho en el inventario para establecer el multiplicador de enfriamiento
+			Actual: Reduce un [R]% el tiempo de enfriamiento
+			'''
 	}
 
 	TheReplicaofThePen: {
@@ -4945,5 +4953,6 @@ AzafureEnhances: {
 DeathExplode: "[PlayerName] explotó"
 BlockingCooldown: Enfriamiento de bloqueo
 FetalDreamCooldown: Enfriamiento del Sueño fetal
+
 
 
