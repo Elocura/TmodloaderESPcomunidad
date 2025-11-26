@@ -3142,6 +3142,32 @@ Items: {
 		DisplayName: Sueño fetal
 		Tooltip: ""
 	}
+
+	DustCarver: {
+		DisplayName: Escultor de polvo
+		Tooltip:
+			'''
+			Esta arma se hace más poderosa conforme progresas
+			Nivel actual: [LV] / 16
+			$Basándote en tu nivel actual, invoca algunos espíritus del abismo para que te protejan 
+			$Clic derecho para cambiar su comportamiento:
+			$^  En el modo Perforación, atacan repetidamente a los objetivos; en el modo Disparo, disparan rayos abisales que siguen a los objetivos; en el modo Defensa, bloquean los proyectiles que se dirigen hacia ti.
+			%Lanza púas carmesís desde fuera de la pantalla que atraviesan a los objetivos
+			&Al disparar, dispara rayos abisales autodirigidos
+			'''
+	}
+
+	BlackFlower: {
+		DisplayName: Flor negra
+		Tooltip:
+			'''
+			"
+			Las emociones de tristeza, ira, odio y desesperación se convierten en un feroz deseo de matar.
+			La hierba crece sin control y florecen infinitas flores negras.
+			Las lamentaciones de innumerables víctimas resuenan.
+			"
+			'''
+	}
 }
 
 LOCKED: ": [BLOQUEADO]"
@@ -3679,6 +3705,10 @@ Projectiles: {
 	GungnirThrow.DisplayName: Gungnir Throw
 	Sorensen.DisplayName: Sorensen
 	FetalDreamSlash.DisplayName: Fetal Dream Slash
+	DustCarverHeld.DisplayName: Dust Carver Held
+	CarverSpike.DisplayName: Carver Spike
+	CarverBolt.DisplayName: Carver Bolt
+	CarverSpirit.DisplayName: Carver Spirit
 }
 
 LegendTooltip: - Legendario -
@@ -4915,4 +4945,5 @@ AzafureEnhances: {
 DeathExplode: "[PlayerName] explotó"
 BlockingCooldown: Enfriamiento de bloqueo
 FetalDreamCooldown: Enfriamiento del Sueño fetal
+
 
