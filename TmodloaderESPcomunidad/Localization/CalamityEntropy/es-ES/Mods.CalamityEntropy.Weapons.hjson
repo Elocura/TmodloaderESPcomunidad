@@ -26,6 +26,10 @@ Rogue: {
 			Cuando finaliza el enganche, los martillos secundarios regresarán y harán otro golpe.
 			'''
 	}
+	Gods: {
+		Tooltip: ""
+		DisplayName: Dioses
+	}
 
 	GrandHammer: {
 		DisplayName: Ìì½ÙÖ®»ØÂÖ
@@ -59,10 +63,29 @@ Rogue: {
 	}
 
 	ScarletSpear: {
-		DisplayName: Lanza Escarlata
+		DisplayName: Lanza escarlata
 		Tooltip: ""
 	}
-}
+
+	Paladin: {
+		Tooltip: ""
+		DisplayName: Paladín
+	}
+
+	Lunar: {
+		Tooltip: ""
+		DisplayName: Lunar
+	}
+
+	Hallowed: {
+		Tooltip: ""
+		DisplayName: Sagrado
+	}
+
+	Final: {
+		DisplayName: Final
+		Tooltip: ""
+	}
 
 StatBloats: {
 	Percent: ""
@@ -76,4 +99,5 @@ Ranged: {
 		DisplayName: Golpe magnífico
 	}
 }
+
 
