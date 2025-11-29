@@ -149,6 +149,15 @@ Items: {
 					El ataque sigiloso lanzará una granada afectada por la gravedad
 					'''
 			}
+
+			AzafureAirReaper: {
+				DisplayName: Segador aéreo de Azafure
+				Tooltip:
+					'''
+					Lanza una hoz que golpeará y se clavará en el objetivo, causando múltiples heridas
+					El ataque sigiloso lanza una hoz que persigue al objetivo y lo golpea repetidamente tras impactar
+					'''
+			}
 		}
 	}
 
@@ -1880,7 +1889,7 @@ Items: {
 			Mientras esté equipado, el daño recibido no puede superar los 100 puntos
 			Sin embargo, cualquier daño que recibas romperá el Orbe
 			El Orbe tardará 30 segundos en recuperarse
-			Cuando el orbe está completo, proporciona una bonificación de daño del {DMG} %
+			Cuando el orbe está completo, proporciona una bonificación de daño del {DMG}%
 			[c/ff0000:Desequiparte el Orbe causará un 90% de daño a tu salud máxima]
 			"Drena tu alma al repararse. Si se separa por la fuerza, tu alma estallará en un torrente."
 			'''
@@ -2455,7 +2464,7 @@ Items: {
 		Tooltip:
 			'''
 			Aumenta la velocidad de regeneración de sigilo de la clase rogue al moverse
-			Presiona [K]([KEY]) para consumir todo el sigilo y lanzarte a la posicicón del cursor recorriendo poca distancia, cortando a los enemigos
+			Presiona [K] ([KEY]) para consumir todo el sigilo y lanzarte a la posicicón del cursor recorriendo poca distancia, cortando a los enemigos
 			El daño dependerá de la cantidad de sigilo consumido
 			'''
 		DisplayName: Manto de las sombras
@@ -3161,7 +3170,7 @@ Items: {
 			$Clic derecho para cambiar su comportamiento:
 			$^En el modo Perforación, atacan repetidamente a los objetivos; en el modo Disparo, disparan rayos abisales que siguen a los objetivos; en el modo Defensa, bloquean los proyectiles que se dirigen hacia ti.
 			%Lanza púas carmesís desde fuera de la pantalla que atraviesan a los objetivos
-			&Al disparar, dispara rayos abisales autodirigidos
+			&Al disparar, arrojará rayos abisales autodirigidos
 			'''
 	}
 
@@ -3174,6 +3183,29 @@ Items: {
 			La hierba crece sin control y florecen infinitas flores negras.
 			Las lamentaciones de innumerables víctimas resuenan.
 			"
+			'''
+	}
+	AzafureTacticalRadio: {
+		DisplayName: Radio táctica de Azafure
+		Tooltip: Despliega un dispositivo que localiza el objetivo más cercano y lanza misiles hacia él
+	}
+
+	SentryRemover: {
+		DisplayName: Eliminador de centinelas
+		Tooltip: Elimina a los centinelas desplegados cuando los golpeas con este instrumento
+	}
+
+	BookmarkFairy: {
+		DisplayName: Marcapágina - Hada
+		Tooltip: Genera tres hadas que lucharán por ti
+	}
+
+	AzafureCylinder: {
+		DisplayName: Cilindro de Azafure
+		Tooltip:
+			'''
+			Lanza esferas metálicas cargadas que explotan al estar cerca de un enemigo
+			"Almacenando melodías con magia"
 			'''
 	}
 }
@@ -3717,6 +3749,14 @@ Projectiles: {
 	CarverSpike.DisplayName: Carver Spike
 	CarverBolt.DisplayName: Carver Bolt
 	CarverSpirit.DisplayName: Carver Spirit
+	AzafureRadioMissile.DisplayName: Azafure Radio Missile
+	MissileSilo.DisplayName: Missile Silo
+	SentryRemoverHeld.DisplayName: Sentry Remover Held
+	AzafureAirReaperThrow.DisplayName: Azafure Air Reaper Throw
+	FairyBMMinion.DisplayName: Fairy
+	AzafureCylinderHeld.DisplayName: Azafure Cylinder Held
+	MetalBall.DisplayName: Metal Ball
+	AzafureMagicBlast.DisplayName: Azafure Magic Blast
 }
 
 LegendTooltip: - Legendario -
@@ -4045,6 +4085,16 @@ Buffs: {
 	Koishi: {
 		DisplayName: Koishi
 		Description: ""
+	}
+
+	LifeOppress: {
+		DisplayName: Vida Opresiva
+		Description: Has visto tu muerte
+	}
+
+	MechanicalTrauma: {
+		DisplayName: Traumatismo mecánico
+		Description: Sientes dolor en todo el cuerpo
 	}
 }
 
@@ -4906,6 +4956,7 @@ Test: {
 
 AnyOrichalcumBar: Cualquier lingote de mineral del modo difícil
 AnyEvilBar: Cualquier lingote maligno
+AnyFairy: Cualquier hada
 BCBarInfo: Barra de zarzas (Presiona [mouse middle] para arrastrar)
 HallowedEnemiesDrop: Lo sueltan los enemigos del bioma sagrado subterráneo
 EvilEnemiesDrop: Lo sueltan los enemigos del los biomas malignos subterráneos
@@ -4947,12 +4998,16 @@ AzafureEnhances: {
 	AzafurePowerSaw: Aumenta el daño del arma y no se sobrecalentará
 	AzafureDrill: Aumenta la potencia y el alcance
 	AzafureCogfly: Incrementa la velocidad de ataque de los súbditos
+	AzafureTacticalRadio: Aumenta el número de misiles
+	AzafureAirReaper: Aumenta el tiempo de persecución
+	AzafureCylinder: Alarga la vida útil de la esfera metálica
 }
 
 
 DeathExplode: "[PlayerName] explotó"
 BlockingCooldown: Enfriamiento de bloqueo
 FetalDreamCooldown: Enfriamiento del Sueño fetal
+
 
 
 
