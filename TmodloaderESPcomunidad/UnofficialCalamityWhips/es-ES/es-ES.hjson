@@ -1,0 +1,503 @@
+Mods: {
+	UnofficialCalamityWhips: {
+		Config: {
+			ItemHeader: Configuración
+
+			WhipDamageModifier: {
+				Label: Modificador de daño de látigo
+				Tooltip:
+					'''
+					Modifica el daño de todos los látigos de este mod según el número elegido.
+					Úsalo para potenciar o debilitar el mod según lo desees.
+					'''
+			}
+		}
+
+		Items: {
+			WulfrumChain: {
+				Tooltip:
+					'''
+					Tus invocaciones se enfocarán en los enemigos golpeados
+					Endeble, pero servirá por ahora
+					'''
+				DisplayName: Cadena de Wulfrum
+			}
+
+			StaticScourge: {
+				Tooltip:
+					'''
+					Un látigo de corto alcance y velocidad relámpago
+					Infunde a los enemigos con electricidad estática, que tus esbirros pueden descargar para liberar chispas
+					'''
+				DisplayName: Azote estático
+			}
+
+			FungalFlailItem: {
+				Tooltip:
+					'''
+					4 de daño de etiqueta de invocación
+					Tus esbirros invocarán hongos teledirigidos al golpear que te curan
+					'No es comestible'
+					'''
+				DisplayName: Maza fúngica
+			}
+
+			SkySplitterItem: {
+				Tooltip:
+					'''
+					5 de daño de etiqueta de invocación
+					Otorga a tus látigos la habilidad de restaurar tiempo de vuelo.
+					'Ligero como una pluma'
+					'''
+				DisplayName: Partidor del cielo
+			}
+
+			CongeledDuoWhip: {
+				Tooltip:
+					'''
+					10 de daño de etiqueta de invocación
+					Clic izquierdo para disparar dos látigos babosos en la misma dirección
+					Clic derecho para cargar y disparar dos látigos babosos en direcciones opuestas
+					'''
+				DisplayName: Látigo doble congelado
+			}
+
+			SulphuricScourge: {
+				Tooltip: Tus esbirros liberarán nubes tóxicas en el aire
+				DisplayName: Azote sulfúrico
+			}
+
+			DaedalusWhipItem: {
+				Tooltip:
+					'''
+					11 de daño de etiqueta de invocación
+					Invoca bolas de nieve flotantes al marcar que se dividen en fragmentos de hielo.
+					'Imbuido con el poder de Cryogen'
+					'''
+				DisplayName: Látigo de Dédalo
+			}
+
+			PrismBreak: {
+				Tooltip:
+					'''
+					Tus esbirros liberarán una lluvia de fragmentos de cristal.
+					-Ítem diseñado por la comunidad-
+					Diseño de 'reldandle'
+					'''
+				DisplayName: Ruptura prismática
+			}
+
+			BrimstoneLash: {
+				Tooltip:
+					'''
+					Inflige Llama de azufre
+					Tus esbirros liberarán una explosión de azufre al golpear.
+					'Languidece en las llamas de Gehenna'
+					'''
+				DisplayName: Látigo de azufre
+			}
+
+			StellarWindItem: {
+				Tooltip:
+					'''
+					Inflige Infección astral.
+					Tus esbirros invocarán estrellas astrales al golpear.
+					'''
+				DisplayName: Viento estelar
+			}
+
+			SandstoneReigns: {
+				Tooltip:
+					'''
+					Tus esbirros invocarán un feroz tiburón de arena como compañero de ataque.
+					'Hazles saber lo que viste hoy'
+					'''
+				DisplayName: Depredador olvidado
+			}
+
+			RightousDawn: {
+				Tooltip:
+					'''
+					Tus esbirros liberarán calamares de polvo estelar que se dividen al golpear.
+					'Apunta a la luna, y aterrizarás entre las estrellas'
+					'''
+				DisplayName: Desgarrador estelar
+			}
+
+			ResonateStriker: {
+				Tooltip: Te imbuye con resonancia pura en cada golpe, aumentando tu velocidad de movimiento y de ataque cuerpo a cuerpo
+				DisplayName: Golpe resonante
+			}
+
+			RighteousDawnTwo: {
+				Tooltip:
+					'''
+					Inflige Llamas sagradas
+					Si estás cerca del objetivo, tus esbirros te curarán y te otorgarán mayor resistencia
+					'Un verdadero rey lidera a sus tropas en batalla'
+					'''
+				DisplayName: Amanecer justo
+			}
+
+			UnrelentingTorment: {
+				Tooltip:
+					'''
+					Libera un tormento de garras fantasmas
+					Tus esbirros invocarán garras desencarnadas desde el más allá
+					'''
+				DisplayName: Tormento Implacable
+			}
+
+			SlimySling: {
+				Tooltip: Aumenta el alcance del látigo en un 8%
+				DisplayName: Dedos pegajosos
+			}
+
+			GelatinousGlove: {
+				Tooltip:
+					'''
+					12% más velocidad de ataque cuerpo a cuerpo y con látigos
+					Permite el uso automático de armas cuerpo a cuerpo y látigos
+					Aumenta el alcance del látigo en un 15%
+					Los látigos ralentizan enemigos que no sean jefes
+					Otorga un impulso de velocidad al golpear con un látigo
+					'''
+				DisplayName: Agarre desgastado
+			}
+
+			CrystalLodestone: {
+				Tooltip: Tus látigos lanzan rocas explosivas.
+				DisplayName: Restos prohibidos
+			}
+
+			FossilizedAmber: {
+				Tooltip: Ganas 8 de defensa tras golpear con un látigo.
+				DisplayName: Ámbar fosilizado
+			}
+
+			CrystalOfResilience: {
+				Tooltip:
+					'''
+					Tus látigos lanzan rocas explosivas.
+					Ganas 8 de defensa tras golpear con un látigo.
+					20% más velocidad de minado, 5% de reducción de daño y +10 de defensa bajo tierra o en el inframundo
+					'''
+				DisplayName: Piedra de resiliencia cristalizada
+			}
+
+			Centauri: {
+				Tooltip:
+					'''
+					50 de daño con etiqueta de invocación
+					Puede y lanzará planetas
+					'El más cercano, pero más allá...'
+					'''
+				DisplayName: Próxima centauri
+			}
+
+			FlinxFurMitten: {
+				Tooltip:
+					'''
+					12% más velocidad de ataque cuerpo a cuerpo y con látigos
+					Permite el uso automático de armas cuerpo a cuerpo y látigos
+					Los látigos ralentizan enemigos que no sean inmunes a la confusión
+					Aumenta el alcance del látigo en un 8%
+					'''
+				DisplayName: Mitones de pelo de Flinx
+			}
+
+			RingOfAlacrity: {
+				Tooltip: Ganas un 10% de velocidad de movimiento tras golpear con un látigo
+				DisplayName: Anillo de presteza
+			}
+
+			SuspiciousLeafExtract: {
+				Tooltip: Genera un círculo de hojas orbitantes tras golpear con un látigo
+				DisplayName: Extracto de hoja sospechoso
+			}
+
+			BoulderItem: {
+				Tooltip: Tus látigos lanzarán rocas
+				DisplayName: Escombros de piedra
+			}
+
+			BlossomsBlessingItem: {
+				Tooltip:
+					'''
+					Otorga la Bendición de la floración al golpear
+					25% de probabilidad de disparar una espora
+					30 de daño con etiqueta de invocación
+					Tus invocaciones atacarán a los enemigos golpeados
+					'''
+				DisplayName: Bendición de la floración
+			}
+
+			CoralCrusherItem: {
+				Tooltip:
+					'''
+					Tus esbirros invocan fragmentos de coral
+					6 de daño con etiqueta de invocación
+					Tus invocaciones atacarán a los enemigos golpeados
+					'''
+				DisplayName: Triturador de Coral
+			}
+
+			DevourersMaw: {
+				Tooltip:
+					'''
+					Te imbuye con el Hambre del Devorador al golpear, otorgando poder cuanto más ataques.
+					Inflige Infierno de Asesino de Dioses
+					-Objeto Diseñado por la Comunidad-
+					Diseñado por 'MothEggs, Paige y KumaTerra'
+					'''
+				DisplayName: Fauce del Devorador
+			}
+
+			SirensSerenityItem: {
+				Tooltip:
+					'''
+					La unión entre Leviatán y Anahita te inspira a ti y a tus esbirros
+					18 de daño con etiqueta de invocación
+					Tus invocaciones atacarán a los enemigos golpeados
+					Tus esbirros soltarán orbes que curan y otorgan una mejora al recogerse
+					-Objeto Diseñado por la Comunidad-
+					Diseñado por 'CharlieTheFatCat'
+					'''
+				DisplayName: Serenidad de la Sirena
+			}
+
+			DivineHeadpat: {
+				Tooltip: Pat pat
+				DisplayName: Caricia Divina
+			}
+
+			BuffOrb: {
+				DisplayName: Orbe de Mejora
+				Tooltip: ""
+			}
+
+			HealingOrb: {
+				DisplayName: Orbe de Curación
+				Tooltip: ""
+			}
+		}
+
+		Buffs: {
+			PureResonance: {
+				DisplayName: Resonancia Pura
+				Description: Aumenta la velocidad de movimiento y de ataque cuerpo a cuerpo
+			}
+
+			SkyBuff: {
+				DisplayName: Aéreo
+				Description: Aumenta el tiempo de vuelo
+			}
+
+			StarlightTouch: {
+				DisplayName: Toque de Luz Estelar
+				Description: Aumenta la defensa en 20 y la regeneración de vida
+			}
+
+			RighteousBlessing: {
+				DisplayName: Bendición Justa
+				Description: Aumenta la defensa en 30 y la regeneración de vida
+			}
+
+			StonesEndurance: {
+				DisplayName: Petrificación Controlada
+				Description: Reduce el daño recibido en un 10%
+			}
+
+			Alacrity: {
+				DisplayName: Presteza
+				Description: Aumenta la velocidad en un 10%
+			}
+
+			BlossomsBlessingBuff: {
+				DisplayName: Bendición de la Flor
+				Description: Aumenta la defensa, la regeneración de vida y la velocidad de movimiento
+			}
+
+			DevourersHunger: {
+				DisplayName: Hambre del Devorador
+				Description: Ganas defensa y daño de invocación acumulativos al golpear con la Fauce del Devorador
+			}
+
+			HealingMelody: {
+				DisplayName: Melodía Sanadora
+				Description: Aumenta la defensa y la regeneración de vida
+			}
+
+			BitterCold: {
+				DisplayName: Frío Amargo
+				Description: Reduce la velocidad y la regeneración de vida
+			}
+
+			BrimstoneTagDebuff: {
+				DisplayName: Marca de Azufre
+				Description: Los enemigos reciben más daño de tus invocaciones
+			}
+
+			DaedalusWhipDebuff: {
+				DisplayName: Marca de Dédalo
+				Description: Aumenta el daño recibido por el enemigo
+			}
+
+			PrismTagDebuff: {
+				DisplayName: Marca Prismática
+				Description: Los enemigos sufren daño adicional de múltiples fuentes
+			}
+
+			SandstoneTagDebuff: {
+				DisplayName: Marca de Piedra Arenisca
+				Description: Los enemigos marcados reciben más daño de látigos
+			}
+
+			SirensSerenityDebuff: {
+				DisplayName: Serenidad de la Sirena
+				Description: Reduce la velocidad y la resistencia mágica del enemigo
+			}
+
+			StarScraperDebuff: {
+				DisplayName: Raspado Estelar
+				Description: Aumenta el daño mágico recibido por el enemigo
+			}
+
+			StellarWindDebuff: {
+				DisplayName: Viento Estelar
+				Description: Disminuye la defensa y la movilidad del enemigo
+			}
+
+			SulphuricTagDebuff: {
+				DisplayName: Marca Sulfúrica
+				Description: Los enemigos marcados reciben daño tóxico progresivo
+			}
+
+			BlossomsBlessingDebuff: {
+				DisplayName: Marchitamiento Floral
+				Description: Reduce la defensa y la regeneración de vida del enemigo
+			}
+
+			CentauriDebuff: {
+				DisplayName: Ira de Centauro
+				Description: El enemigo sufre daño adicional por invocaciones cósmicas
+			}
+
+			DevourerTagDebuff: {
+				DisplayName: Marca del Devorador
+				Description: Los enemigos reciben daño creciente con cada golpe
+			}
+
+			ResonateTagDebuff: {
+				DisplayName: Marca Resonante
+				Description: Reciben daño adicional en cadena
+			}
+
+			RighteousTagDebuff: {
+				DisplayName: Marca Justa
+				Description: Aumenta el daño de invocaciones sagradas
+			}
+
+			TormentTagDebuff: {
+				DisplayName: Marca del Tormento
+				Description: El enemigo recibe más daño continuamente
+			}
+
+			CongeledTagDebuff: {
+				DisplayName: Marca Congelada
+				Description: Ralentiza al enemigo y aumenta el daño que recibe
+			}
+
+			CoralCrusherDebuff: {
+				DisplayName: Aplastacorales
+				Description: Reduce la defensa del enemigo bajo el agua
+			}
+
+			FungalFlailDebuff: {
+				DisplayName: Moho Fúngico
+				Description: El enemigo sufre daño de esporas en el tiempo
+			}
+
+			SkySplitterDebuff: {
+				DisplayName: Rompecielos
+				Description: El enemigo recibe daño adicional por armas aéreas
+			}
+
+			StaticTagDebuff: {
+				DisplayName: Carga Estática
+				Description: Los enemigos marcados sufren daño eléctrico acumulado
+			}
+		}
+
+		Projectiles: {
+			BoulderProj.DisplayName: Roca
+			BoulderProj1.DisplayName: Roca
+			BoulderProj2.DisplayName: Roca
+			OrbitLeaf.DisplayName: Hoja
+			BrimstoneLashProjectile.DisplayName: Látigo de Azufre
+			DaedalusWhipProj.DisplayName: Látigo de Dédalo
+			IceShard.DisplayName: Fragmento de Hielo
+			SnowBall.DisplayName: Bola de Nieve
+			PrismBreakProjectile.DisplayName: Ruptura Prismática
+			SandstoneReignsProjectile.DisplayName: Reinado de Piedra Arenisca
+			SandstoneShark.DisplayName: Tiburón de Piedra Arenisca
+			SirensSerenityProj.DisplayName: Serenidad de la Sirena
+			StardustSquid.DisplayName: Calamar de Polvo Estelar
+			StarScraperProj.DisplayName: Raspador Estelar
+			StarScrapperDisjoint.DisplayName: Guadaña Raspadora Estelar
+			StellarWindProj.DisplayName: Viento Estelar
+			SulphuricScourgeProjectile.DisplayName: Azote Sulfúrico
+			BlossomsBlessingProj.DisplayName: Bendición de la Flor
+			CentauriProj.DisplayName: Centauro
+			jupiter.DisplayName: Júpiter
+			Mercury.DisplayName: Mercurio
+			Neptune.DisplayName: Neptuno
+			Saturn.DisplayName: Saturno
+			Uranus.DisplayName: Urano
+			Venus.DisplayName: Venus
+			DevourersMawProjectile.DisplayName: Fauce del Devorador
+			ResonateStrikerProjectile.DisplayName: Impacto Resonante
+			RighteousDawnProjectile.DisplayName: Amanecer Justo
+			GhastlyHandProjectile.DisplayName: Mano Fantasmal
+			UnrelentingTormentProjectile.DisplayName: Tormento Incesante
+			CongeledCorruptProjectile.DisplayName: Corrupción Congelada
+			CongeledCrimsonProjectile.DisplayName: Carmesí Congelado
+			SludgeJudgeProj.DisplayName: Juez de Lodo
+			SludgeJudgeProj1.DisplayName: Juez de Lodo
+			CoralCrusherProj.DisplayName: Aplastacorales
+			CoralProj.DisplayName: Aplastacorales
+			CoralProj2.DisplayName: Aplastacorales
+			FungalFlailProj.DisplayName: Maza Fúngica
+			SkySplitterProj.DisplayName: Rompecielos
+			StaticScourgeProjectile.DisplayName: Azote Estático
+			WulfrumChainProjectile.DisplayName: Cadena de Wulfrum
+		}
+
+		Configs: {
+			UnofficialCalamityWhipsConfig: {
+				DisplayName: Configuración de Unofficial Calamity Whips
+				Headers.Config: Opciones de Configuración
+
+				WhipDamageModifier: {
+					Label: Modificador de Daño de Látigo
+					Tooltip: Modifica el daño de todos los látigos en este mod con el valor seleccionado. Úsalo para potenciar o debilitar el mod según tu preferencia
+				}
+
+				AddArmorStats: {
+					Label: Añadir Estadísticas de Látigo a Armaduras de Calamity
+					Tooltip: Agrega estadísticas adicionales de látigo a algunas armaduras de Calamity mientras esté activado, para mejorar la viabilidad de los látigos
+				}
+
+				AllowTagStacking: {
+					Label: Habilitar Acumulación de Marcas
+					Tooltip: Permite que los látigos en este mod acumulen sus efectos de marca. Si está desactivado, cada nueva marca reemplazará a la anterior
+				}
+
+				CatalystDisclaimer: {
+					Label: Aviso de Catalyst
+					Tooltip: Desactívalo para eliminar el aviso de promoción del mod Catalyst
+				}
+			}
+		}
+	}
+}
