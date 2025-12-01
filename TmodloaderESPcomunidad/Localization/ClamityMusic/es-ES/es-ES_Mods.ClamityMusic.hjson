@@ -3,76 +3,76 @@ Items: {
 	Placeables: {
 		MusicBoxes: {
 			ClamityTitleMusicBox: {
-				Tooltip: Plays unnamed theme By Sidetracker
-				DisplayName: Music Box (Clamity Title)
+				Tooltip: Reproduce 'unnamed theme' de Sidetracker
+				DisplayName: Caja de música (Título de Clamity)
 			}
 
 			ClamitasMusicBox: {
-				Tooltip: Plays 'clamitas theme' By StarvoXD
-				DisplayName: Music Box (Clamitas)
+				Tooltip: Reproduce 'clamitas theme' de StarvoXD
+				DisplayName: Caja de música (Clamitas)
 			}
 
 			PyrogenMusicBox: {
-				Tooltip: Plays 'Searing Ferocity' by Brimston Premium
-				DisplayName: Music Box (Pyrogen)
+				Tooltip: Reproduce 'Searing Ferocity' de Brimston Premium
+				DisplayName: Caja de música (Pirógeno)
 			}
 
 			AcidRainT2MusicBox: {
-				Tooltip: Plays 'Sulfuric Cloudbrust' by AstroGel
-				DisplayName: Music Box (Acid Rain Tier 2)
+				Tooltip: Reproduce 'Sulfuric Cloudbrust' de AstroGel
+				DisplayName: Caja de música (Lluvia ácida de nivel 2)
 			}
 
 			WoBMusicBox: {
-				DisplayName: Music Box (Wall of Bronze)
+				DisplayName: Caja de música (Muro de bronce)
 				Tooltip:
 					'''
-					'This music box contains a placeholder song'
-					Plays 'Diabolus Ex Machina' by Perturbator
+					'Esta caja de música contiene una canción placeholder/marcador de posición'
+					Reproduce 'Diabolus Ex Machina' de Perturbator
 					'''
 			}
 
 			FrozenHellMusicBox: {
-				DisplayName: Music Box (Frozen Hell)
+				DisplayName: Caja de música (Infierno congelado)
 				Tooltip:
 					'''
-					'This music box contains a placeholder song'
-					Plays Alternative Underworld theme by Soundbin
+					'Esta caja de música contiene una canción placeholder/marcador de posición'
+					Reproduce 'Alternative Underworld theme' de Soundbin
 					'''
 			}
 
 			PyrogenGFBMusicBox: {
-				DisplayName: Music Box (Cryogen?)
-				Tooltip: Plays 'Antarctic Ferocity' by Brimston Premium
+				DisplayName: Caja de música (¿Criógeno?)
+				Tooltip: Reproduce 'Antarctic Ferocity' de Brimston Premium
 			}
 		}
 	}
 }
 
 Tiles: {
-	GiantClamMusicBoxTile.MapEntry: Giant Clam Music Box Tile
-	ClamityTitleMusicBoxTile.MapEntry: Clamity Title Music Box Tile
-	ClamitasMusicBoxTile.MapEntry: Clamitas Music Box Tile
-	PyrogenMusicBoxTile.MapEntry: Pyrogen Music Box Tile
+	GiantClamMusicBoxTile.MapEntry: Caja de música (Almeja gigante)
+	ClamityTitleMusicBoxTile.MapEntry: Caja de música (Título de Clamity)
+	ClamitasMusicBoxTile.MapEntry: Caja de música (Clamitas)
+	PyrogenMusicBoxTile.MapEntry: Caja de música (Criógeno)
 }
 
 Configs: {
 	ClamityMusicConfig: {
-		DisplayName: Clamity Music Config
+		DisplayName: Configuración de Clamity Music
 
 		PyrogenPrototypeTheme: {
-			Label: Pyrogen Prototype Theme
+			Label: Tema de Prototipo de pirógeno
 			Tooltip: ""
 		}
 
 		UsesT2AcidRainTheme: {
-			Label: Uses T2 Acid Rain Theme
+			Label: Utiliza el tema 'lluvia ácida de nivel 2'
 			Tooltip: ""
 		}
 	}
 
 	PyroMusic: {
 		Tooltip: ""
-		CryogenPlaceholder.Label: Cryogen Placeholder
+		CryogenPlaceholder.Label: Criógeno Placeholder
 		AstroGels.Label: Astro Gels
 		BrimstonePremiums.Label: Brimstone Premiums
 	}
