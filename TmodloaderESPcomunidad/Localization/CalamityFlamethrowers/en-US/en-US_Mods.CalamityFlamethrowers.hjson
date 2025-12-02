@@ -1,0 +1,198 @@
+Projectiles: {
+	Zap.DisplayName: Zap
+	VoidFlame.DisplayName: Void Flame
+	ToxicFlame.DisplayName: Toxic Flame
+	StormFlame.DisplayName: Storm Flame
+	Shrapnel.DisplayName: Shrapnel
+	RavagerFlame.DisplayName: Ravager Flame
+	PhantomFlame.DisplayName: Phantom Flame
+	Nothing.DisplayName: Nothing
+	LeviTooth.DisplayName: Levi Tooth
+	LeviGunk.DisplayName: Levi Gunk
+	LeviFlame.DisplayName: Levi Flame
+	KunaiFlame.DisplayName: Kunai Flame
+	IchorFlame.DisplayName: Ichor Flame
+	GhostFlame.DisplayName: Ghost Flame
+	FungalFlame.DisplayName: Fungal Flame
+	FrostFlame.DisplayName: Frost Flame
+	ExoBallFlame.DisplayName: Exo Ball Flame
+	DonutFlame.DisplayName: Donut Flame
+	DeusFlame.DisplayName: Deus Flame
+	DeusBall.DisplayName: Deus Ball
+	DesertFlame.DisplayName: Desert Flame
+	DarkFireSplit.DisplayName: Dark Fire Split
+	DarkFire.DisplayName: Dark Fire
+	BrimmyFlame.DisplayName: Brimmy Flame
+	BirbFlame.DisplayName: Birb Flame
+	AureusFlame.DisplayName: Aureus Flame
+	AureusBomb.DisplayName: Aureus Bomb
+	AquaFlame.DisplayName: Aqua Flame
+}
+
+Items: {
+	TubaBreathBlaster: {
+		Tooltip:
+			'''
+			50% chance to not consume gel
+			Lobs a storm of teeth and gunk along with gross flames
+			Yeah it probably wouldn't have been great to make fish tacos out of that beast
+			'''
+		DisplayName: Tuna Breath Blaster
+	}
+
+	ToadstoolTorcher: {
+		Tooltip: Fires powerful jets of fungal flames
+		DisplayName: Toadstool Torcher
+	}
+
+	TheTorch: {
+		Tooltip:
+			'''
+			95% chance to not consume gel
+			Shoots out a massive jet of brimstone flames
+			Needs to be used while airborne as the earth below constrains it
+			Lay dormant for a thousand years, then strike with the fury of a thousand suns
+			'''
+		DisplayName: The Torch
+	}
+
+	SerpentsBreath: {
+		Tooltip:
+			'''
+			55% chance to not consume gel
+			Fires three streams of flame at once
+			Attacks with the wrath of being forgotten
+			'''
+		DisplayName: Serpent's Breath
+	}
+
+	RookofVengeance: {
+		Tooltip:
+			'''
+			45% chance to not consume gel
+			May shoot out shrapnel instead of flames due to its weary state
+			'''
+		DisplayName: Rook of Vengeance
+	}
+
+	Repentance: {
+		Tooltip:
+			'''
+			60% chance to not consume gel
+			Blasts enemies with dark flames that summon more flames from beneath
+			Impurity and evil desires fill this weapon with hatred...
+			'''
+		DisplayName: Repentance
+	}
+
+	RemnantofFate: {
+		Tooltip:
+			'''
+			66% chance to not consume gel
+			Cycles through Polterplasm and Ectoplasm streams
+			Polterplasm flames inflict several debuffs
+			Flames reach farther in the opposite direction
+			something new something blue
+			'''
+		DisplayName: Remnant of Fate
+	}
+
+	Plasmalegion: {
+		Tooltip:
+			'''
+			80% chance to not consume gel
+			Shoots balls of exo flames that spew out more exo flames
+			Photoviscerator's weird cousin
+			'''
+		DisplayName: Plasmalegion
+	}
+
+	OceanScalder: {
+		Tooltip:
+			'''
+			20% chance to not consume gel
+			Shoots a short ranged blast of powerful acidic flames
+			Though it may scald water, it does not compare to the flames of the Brimstone Witch
+			Still hot though.
+			'''
+		DisplayName: Ocean Scalder
+	}
+
+	Ichorthrower: {
+		Tooltip:
+			'''
+			10% chance to not consume gel
+			Rapidly sprays flames imbued with Ichor
+			A favorite of farmers for eliminating hungry pests
+			'''
+		DisplayName: Ichorthrower
+	}
+
+	EffulgentZapper: {
+		Tooltip:
+			'''
+			75% chance to not consume gel
+			Occasionally releases exploding birbs that blow up anything that moves! ... Even you!
+			Bird up!
+			'''
+		DisplayName: Static Inferno
+	}
+
+	DesertScorcher: {
+		Tooltip:
+			'''
+			15% chance to not consume gel
+			Shoots a short ranged blast of flames that burn like the desert
+			'''
+		DisplayName: Desert Scorcher
+	}
+
+	CosmicFirestorm: {
+		Tooltip:
+			'''
+			80% chance to not consume gel
+			Cycles between 3 different flames
+			'''
+		DisplayName: Cosmic Firestorm
+	}
+
+	ConstellationDamnation: {
+		Tooltip:
+			'''
+			55% chance to not consume gel
+			Fires a spray of bouncy flames
+			Constellation damnation!
+			'''
+		DisplayName: Meteor Shower
+	}
+
+	CambrianCrisper: {
+		Tooltip:
+			'''
+			95% chance to not consume gel
+			Fires 20 streams of short ranged acidic flames
+			Old !!!
+			'''
+		DisplayName: Cambrian Crisper
+	}
+
+	BreathofGlacies: {
+		Tooltip:
+			'''
+			35% chance to not consume gel
+			Rapidly fires a barrage of cold flames with high range
+			Who cares if it's scientifically inaccurate
+			'''
+		DisplayName: Breath of Glacies
+	}
+
+	AuroraFlare: {
+		Tooltip:
+			'''
+			40% chance to not consume gel
+			Occasionally lobs a sharp and deadly crystal
+			Smaller than it was when it was alive for some reason...
+			'''
+		DisplayName: Aurora Flare
+	}
+}

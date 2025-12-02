@@ -58,6 +58,7 @@ ItemDescriptions: {
 		Aumenta tus puntos de técnica máximos en 2  
 		Aumenta la inspiración máxima en 12 y la curación adicional en 7 de vida
 		'''
+	// OmegaBlueSetNoThrower: Increases maximum inspiration by 12 and bonus healing by 7 life
 	ShootingStarTurboTuba:
 		'''
 		Velocidad horizontal: 9.00  
@@ -132,7 +133,7 @@ Items: {
 	}
 
 	ArcticReinforcement: {
-		DisplayName: Refuerzo Ártico
+		DisplayName: Refuerzo ártico
 		Tooltip:
 			'''
 			Dispara una mini ventisca de carámbanos
@@ -142,7 +143,7 @@ Items: {
 	}
 
 	AugmentedAuricTeslaFeatheredHeadwear: {
-		DisplayName: Tocada Pluma de Tesla Áurica Mejorada[c/70f4f4:+]
+		DisplayName: Tocada pluma de tesla áurica Mejorada[c/70f4f4:+]
 		Tooltip:
 			'''
 			+25% de daño sinfónico
@@ -163,7 +164,7 @@ Items: {
 	}
 
 	AugmentedAuricTeslaValkyrieVisage: {
-		DisplayName: Visaje Valquiria de Tesla Áurica Mejorada[c/70f4f4:+]
+		DisplayName: Visaje Valquiria de tesla áurica Mejorada[c/70f4f4:+]
 		Tooltip:
 			'''
 			+15% de daño radiante
@@ -184,7 +185,7 @@ Items: {
 	}
 
 	AuricTeslaFeatheredHeadwear: {
-		DisplayName: Tocada Pluma de Tesla Áurica
+		DisplayName: Tocada pluma de tesla áurica
 		Tooltip:
 			'''
 			+25% de daño sinfónico
@@ -206,7 +207,7 @@ Items: {
 	}
 
 	AuricTeslaValkyrieVisage: {
-		DisplayName: Visaje Valquiria de Tesla Áurica
+		DisplayName: Visaje Valquiria de tesla áurica
 		Tooltip:
 			'''
 			+15% de daño radiante
@@ -277,7 +278,7 @@ Items: {
 	}
 
 	BloomingSaintessDevotion: {
-		DisplayName: Devoción de la Santa Floreciente
+		DisplayName: Devoción de la Santa floreciente
 		Tooltip:
 			'''
 			Dispara un tallo que se extiende y explota en flores
@@ -286,7 +287,7 @@ Items: {
 	}
 
 	BloomingSaintessStatue: {
-		DisplayName: Estatua de la Santa Floreciente
+		DisplayName: Estatua de la Santa floreciente
 		Tooltip:
 			'''
 			Aumenta la vida máxima en 20
@@ -317,7 +318,7 @@ Items: {
 	}
 
 	ChristmasCarol: {
-		DisplayName: Villancico Navideño
+		DisplayName: Villancico navideño
 		Tooltip:
 			'''
 			Lanza una pandereta grande y decorada que regresa a ti
@@ -329,7 +330,7 @@ Items: {
 	}
 
 	ColdShoulder: {
-		DisplayName: Hombro Frío
+		DisplayName: Hombro frío
 		Tooltip:
 			'''
 			Ignora 10 puntos de defensa
@@ -342,7 +343,7 @@ Items: {
 	}
 
 	CottonMouth: {
-		DisplayName: Boca de Algodón
+		DisplayName: Boca de algodón
 		Tooltip:
 			'''
 			Ignora 20 puntos de defensa
@@ -353,7 +354,7 @@ Items: {
 	}
 
 	CrystalHydraulophone: {
-		DisplayName: Hidraulófono de Cristal
+		DisplayName: Hidraulófono de cristal
 		Tooltip:
 			'''
 			Dispara dos cristales de agua curvos que se rompen al impactar
@@ -398,7 +399,7 @@ Items: {
 	}
 
 	DeathAdder: {
-		DisplayName: Víboraz Muerte
+		DisplayName: Víboraz muerte
 		Tooltip:
 			'''
 			Ignora 35 puntos de defensa
@@ -410,7 +411,7 @@ Items: {
 	}
 
 	DesertedDrugDeal: {
-		DisplayName: Sangre de los Grandes Tiburones de Arena
+		DisplayName: Sangre de los grandes tiburones de arena
 		Tooltip:
 			'''
 			Ignora 30 puntos de defensa
@@ -441,7 +442,7 @@ Items: {
 	}
 
 	DoomsdayCatharsis: {
-		DisplayName: Catarsis del Juicio Final
+		DisplayName: Catarsis del juicio final
 		Tooltip:
 			'''
 			Dispara rápidamente un estallido de fuego que persigue objetivos
@@ -455,7 +456,7 @@ Items: {
 	}
 
 	DryMouth: {
-		DisplayName: Boca Seca
+		DisplayName: Boca seca
 		Tooltip:
 			'''
 			Ignora 5 puntos de defensa
@@ -479,7 +480,7 @@ Items: {
 	}
 
 	DustDevilDrums: {
-		DisplayName: Tambores del Diablo de Polvo
+		DisplayName: Tambores del diablo de polvo
 		Tooltip:
 			'''
 			Libera varios diablos de polvo alrededor del usuario que atraviesan enemigos y bloques
@@ -489,7 +490,7 @@ Items: {
 	}
 
 	ElectricQuarterstaff: {
-		DisplayName: Bastón Eléctrico Extensible
+		DisplayName: Bastón eléctrico extensible
 		Tooltip:
 			'''
 			Gira un bastón eléctrico taser
@@ -500,7 +501,7 @@ Items: {
 	}
 
 	ElementalBloom: {
-		DisplayName: Brote Elemental
+		DisplayName: Brote elemental
 		Tooltip:
 			'''
 			Aumenta la vida máxima en 40
@@ -538,7 +539,7 @@ Items: {
 	}
 
 	FeralKeytar: {
-		DisplayName: Keytar Salvaje
+		DisplayName: Keytar salvaje
 		Tooltip:
 			'''
 			Ignora 30 puntos de defensa
@@ -548,7 +549,7 @@ Items: {
 	}
 
 	FilthyFlute: {
-		DisplayName: Flauta Inmunda
+		DisplayName: Flauta inmunda
 		Tooltip:
 			'''
 			Dispara una rápida bola de fuego maldito
@@ -561,7 +562,7 @@ Items: {
 	}
 
 	FireHazard: {
-		DisplayName: Peligro de Incendio
+		DisplayName: Peligro de incendio
 		Tooltip:
 			'''
 			Ignora 15 puntos de defensa
@@ -593,12 +594,12 @@ Items: {
 	}
 
 	GelatinTherapy: {
-		DisplayName: Terapia de Gelatina
+		DisplayName: Terapia de gelatina
 		Tooltip: Dispara una bola de lodo que rebota y puede curar a cualquier jugador, incluido tú mismo
 	}
 
 	GodSlayerDeathsingerCowl: {
-		DisplayName: Capucha del Dios Asesino Cantamuerte
+		DisplayName: Capucha del God Slayer cantamuerte
 		Tooltip:
 			'''
 			+14% de daño y probabilidad crítica sinfónica
@@ -617,7 +618,7 @@ Items: {
 	}
 
 	HarmonyoftheOldGod: {
-		DisplayName: Armonía del Dios Antiguo
+		DisplayName: Armonía del Dios antiguo
 		Tooltip:
 			'''
 			Crea un bastón gigante sobre el usuario mientras se sostiene, visible solo para él
@@ -633,19 +634,19 @@ Items: {
 	}
 
 	HydrogenSulfide: {
-		// DisplayName: Hydrogen Sulfide
-		/* Tooltip:
+		DisplayName: Sulfuro de hidrógeno
+		Tooltip:
 			'''
-			Ignores 50 points of defense
-			This scythe is swung directionally instead of spun
-			Shoots a flaming wave that is accompanied by 2 homing flames
-			Inflicts crush depth and hellfire on hit
-			"A catalyst to a lethal chemical reaction"
-			''' */
+			Ignora 50 puntos de defensa
+			Esta guadaña se balancea direccionalmente en lugar de girar
+			Dispara una ola llameante acompañada de 2 llamas teledirigidas
+			Inflige profundidad aplastante y fuego infernal al impactar
+			"Un catalizador para una reacción química letal"
+			'''
 	}
 
 	HydrothermicGasMask: {
-		DisplayName: Máscara de Gas Hidrotérmica
+		DisplayName: Máscara de gas hidrotérmica
 		Tooltip:
 			'''
 			+12% de daño radiante
@@ -664,7 +665,7 @@ Items: {
 	}
 
 	HydrothermicHat: {
-		DisplayName: Sombrero Hidrotérmico
+		DisplayName: Sombrero hidrotérmico
 		Tooltip:
 			'''
 			+12% de daño sinfónico
@@ -681,7 +682,7 @@ Items: {
 	}
 
 	IntergelacticCloche: {
-		DisplayName: Campana Interestelar
+		DisplayName: Campana interestelar
 		Tooltip:
 			'''
 			+18% de daño sinfónico, probabilidad de crítico y velocidad de ejecución
@@ -698,7 +699,7 @@ Items: {
 	}
 
 	IntergelacticProtectorHelm: {
-		DisplayName: Yelmo del Protector Interestelar
+		DisplayName: Yelmo del protector interestelar
 		Tooltip:
 			'''
 			+11% de daño radiante, probabilidad de crítico y velocidad de lanzamiento
@@ -713,7 +714,7 @@ Items: {
 	}
 
 	InterstellarShredder: {
-		DisplayName: Triturador Interestelar
+		DisplayName: Triturador interestelar
 		Tooltip:
 			'''
 			Dispara un cristal de llama astral teledirigido, sin perforación y que rebota
@@ -725,7 +726,7 @@ Items: {
 	}
 
 	LostOasis: {
-		DisplayName: Oasis Perdido
+		DisplayName: Oasis perdido
 		Tooltip:
 			'''
 			Invoca un oasis expansivo
@@ -735,7 +736,7 @@ Items: {
 	}
 
 	MilkyWay: {
-		DisplayName: Vía Láctea
+		DisplayName: Vía láctea
 		Tooltip:
 			'''
 			Ignora 35 puntos de defensa
@@ -746,7 +747,7 @@ Items: {
 	}
 
 	NoisebringerGoliath: {
-		DisplayName: Goliat Portarruido
+		DisplayName: Goliat portarruido
 		Tooltip:
 			'''
 			150 de daño sinfónico
@@ -757,7 +758,7 @@ Items: {
 	}
 
 	OathofSacrifice: {
-		DisplayName: Juramento de Sacrificio
+		DisplayName: Juramento de sacrificio
 		Tooltip:
 			'''
 			Usar este hechizo elimina toda tu protección y te vuelve más vulnerable
@@ -780,7 +781,7 @@ Items: {
 	}
 
 	OmniSpeaker: {
-		DisplayName: Omni-Altoparlante
+		DisplayName: Omni-altoparlante
 		Tooltip:
 			'''
 			+15% de daño sinfónico, velocidad de ejecución y probabilidad de crítico
@@ -797,7 +798,7 @@ Items: {
 	}
 
 	PhoenicianBeak: {
-		DisplayName: Pico Fenicio
+		DisplayName: Pico fenicio
 		Tooltip:
 			'''
 			Ignora 50 puntos de defensa
@@ -808,7 +809,7 @@ Items: {
 	}
 
 	PledgeofSelflessness: {
-		DisplayName: Promesa de Desinterés
+		DisplayName: Promesa de desinterés
 		Tooltip:
 			'''
 			Usar este hechizo elimina toda tu protección y te vuelve más vulnerable
@@ -819,7 +820,7 @@ Items: {
 	}
 
 	PurgatoriumPandemonium: {
-		DisplayName: Pandemonium del Purgatorio
+		DisplayName: Pandemonium del purgatorio
 		Tooltip:
 			'''
 			Ignora 150 puntos de defensa
@@ -831,7 +832,7 @@ Items: {
 	}
 
 	ReturntoSludge: {
-		DisplayName: Regreso al Lodo
+		DisplayName: Regreso al lodo
 		Tooltip: Carga para preparar una bomba de baba y suéltala para dispararla
 	}
 
@@ -849,7 +850,7 @@ Items: {
 	}
 
 	SavingGrace: {
-		DisplayName: Gracia Salvadora
+		DisplayName: Gracia salvadora
 		Tooltip:
 			'''
 			Dispara rápidamente una hélice curativa de energía cósmica
@@ -860,7 +861,7 @@ Items: {
 	}
 
 	SchoolNurse: {
-		DisplayName: Enfermera Escolar
+		DisplayName: Enfermera escolar
 		Tooltip:
 			'''
 			Dispara una ráfaga de hielo resbaladizo que cura y purifica
@@ -869,7 +870,7 @@ Items: {
 	}
 
 	ScrapGuitar: {
-		DisplayName: Guitarra Chatarra
+		DisplayName: Guitarra chatarra
 		Tooltip:
 			'''
 			Dispara rayos eléctricos lentos que rebotan entre enemigos
@@ -879,7 +880,7 @@ Items: {
 	}
 
 	ScreamingClam: {
-		DisplayName: Almeja Gritona
+		DisplayName: Almeja gritona
 		Tooltip:
 			'''
 			22 de daño sinfónico
@@ -890,7 +891,7 @@ Items: {
 	}
 
 	ScuffedKeytar: {
-		DisplayName: Keytar Destrozado
+		DisplayName: Keytar destrozado
 		Tooltip:
 			'''
 			Ignora 5 puntos de defensa
@@ -900,7 +901,7 @@ Items: {
 	}
 
 	SilvaGuardianHelmet: {
-		DisplayName: Casco del Guardián de Silva
+		DisplayName: Casco del guardián de Silva
 		Tooltip:
 			'''
 			+12% de daño radiante y probabilidad de crítico
@@ -932,7 +933,7 @@ Items: {
 	}
 
 	SlagFurysIntent: {
-		DisplayName: Intención de la Furia de Escoria
+		DisplayName: Intención de la furia de Escoria
 		Tooltip:
 			'''
 			Dispara rápidamente rayos de azufre que se curvan en direcciones aleatorias
@@ -953,7 +954,7 @@ Items: {
 	}
 
 	SongoftheCosmos: {
-		DisplayName: Canto del Cosmos
+		DisplayName: Canto del cosmos
 		Tooltip:
 			'''
 			Dispara cinco rayos cósmicos que se mueven en patrón helicoidal
@@ -964,7 +965,7 @@ Items: {
 	}
 
 	SongoftheElements: {
-		DisplayName: Canto de los Elementos
+		DisplayName: Canto de los elementos
 		Tooltip:
 			'''
 			Dispara tres rayos elementales que se mueven en patrón helicoidal
@@ -975,12 +976,12 @@ Items: {
 	}
 
 	SpookyMonth: {
-		DisplayName: Mes Espeluznante
+		DisplayName: Mes espeluznante
 		Tooltip: Dispara una ráfaga de calaveras de calabaza llameantes que buscan enemigos
 	}
 
 	StarBirth: {
-		DisplayName: Cuna de las Estrellas
+		DisplayName: Cuna de las estrellas
 		Tooltip:
 			'''
 			Invoca una nebulosa en expansión que cura cada tercio de segundo
@@ -1000,7 +1001,7 @@ Items: {
 	}
 
 	StatigelFoxMask: {
-		DisplayName: Máscara de Zorro Statigel
+		DisplayName: Máscara de zorro Statigel
 		Tooltip:
 			'''
 			+9% de daño radiante y velocidad de lanzamiento
@@ -1024,7 +1025,7 @@ Items: {
 	}
 
 	SymphonicFabrications: {
-		DisplayName: Fabricaciones Sinfónicas
+		DisplayName: Fabricaciones sinfónicas
 		Tooltip:
 			'''
 			Dispara una ráfaga de misiles coloridos que desgarran objetivos
@@ -1047,7 +1048,7 @@ Items: {
 	}
 
 	TarragonChapeau: {
-		DisplayName: Chapeau de Tarragon
+		DisplayName: Chapeau de tarragon
 		Tooltip:
 			'''
 			+10% de daño sinfónico, probabilidad crítica y velocidad de ejecución
@@ -1057,7 +1058,7 @@ Items: {
 	}
 
 	TarragonParagonCrown: {
-		DisplayName: Corona de Parangón de Tarragon
+		DisplayName: Corona de parangón de tarragon
 		Tooltip:
 			'''
 			+10% de daño radiante
@@ -1075,7 +1076,7 @@ Items: {
 	}
 
 	TectonicPlates: {
-		DisplayName: Placas Tectónicas
+		DisplayName: Placas tectónicas
 		Tooltip:
 			'''
 			Dispara dos rocas que colisionan en la posición del cursor
@@ -1085,7 +1086,7 @@ Items: {
 	}
 
 	TidalForce: {
-		DisplayName: Fuerza de Marea
+		DisplayName: Fuerza de marea
 		Tooltip:
 			'''
 			Ignora 40 puntos de defensa
@@ -1096,7 +1097,7 @@ Items: {
 	}
 
 	TimesOldRoman: {
-		DisplayName: Times Old Roman
+		// DisplayName: Times Old Roman
 		Tooltip:
 			'''
 			Blande una pluma cómicamente grande que deja un rastro de tinta dañina
@@ -1106,7 +1107,7 @@ Items: {
 	}
 
 	TheWindmill: {
-		DisplayName: El Molino de Viento
+		DisplayName: El molino de viento
 		Tooltip:
 			'''
 			Deja un torbellino tras cada golpe
@@ -1124,7 +1125,7 @@ Items: {
 	}
 
 	TreeWhispererAmulet: {
-		DisplayName: Amuleto del Susurrador de Árboles
+		DisplayName: Amuleto del susurrador de árboles
 		Tooltip:
 			'''
 			+12% de daño sinfónico, velocidad de ejecución y probabilidad de crítico
@@ -1138,7 +1139,7 @@ Items: {
 	}
 
 	TreeWhisperersHarp: {
-		DisplayName: Arpa del Susurrador de Árboles
+		DisplayName: Arpa del susurrador de árboles
 		Tooltip:
 			'''
 			Dispara un tronco que se ramifica y genera hojas
@@ -1148,7 +1149,7 @@ Items: {
 	}
 
 	VictideAmmoniteHat: {
-		DisplayName: Sombrero Ammonite de Victide
+		DisplayName: Sombrero ammonite de Victide
 		Tooltip: +5% de daño sinfónico y velocidad de regeneración de inspiración
 		SetBonus: +1.5 HP/s de regeneración de vida y +10% de regeneración de inspiración mientras estés sumergido en líquido
 	}
@@ -1176,7 +1177,7 @@ Items: {
 	}
 
 	Windward: {
-		DisplayName: Viento a Favor
+		DisplayName: Viento a favor
 		Tooltip: Dispara dos plumas con ligera capacidad de rastreo
 	}
 
@@ -1221,111 +1222,111 @@ Projectiles: {
 	AnahitasArpeggioNote.DisplayName: "{$Mods.CalamityMod.Projectiles.Magic.AnahitasArpeggioNote.DisplayName}"
 	AncientSong.DisplayName: Canción Antigua
 	AquaiusAdvice.DisplayName: Consejo de Aquaius
-	ArcticReinforcement.DisplayName: Refuerzo Ártico
-	ArcticReinforcement2.DisplayName: Refuerzo Ártico
+	ArcticReinforcement.DisplayName: Refuerzo ártico
+	ArcticReinforcement2.DisplayName: Refuerzo ártico
 	BloodflareRitual.DisplayName: Ritual Bloodflare
-	BloomingSaintessDevotion.DisplayName: Devoción de la Santa Floreciente
-	BloomingSaintessDevotion2.DisplayName: Flor de la Santa Floreciente
-	BloomingSaintessDevotion3.DisplayName: Pétalo de la Santa Floreciente
-	BurningBeat.DisplayName: Ritmo Ardiente
+	BloomingSaintessDevotion.DisplayName: Devoción de la Santa floreciente
+	BloomingSaintessDevotion2.DisplayName: Flor de la Santa floreciente
+	BloomingSaintessDevotion3.DisplayName: Pétalo de la Santa floreciente
+	BurningBeat.DisplayName: Ritmo ardiente
 	CalamityBell.DisplayName: Campana del Calamity
-	CalamityBellRing.DisplayName: Sonido de la Campana del Calamity
+	CalamityBellRing.DisplayName: Sonido de la campana del Calamity
 	CherubimBeam.DisplayName: Rayo Querubínico
 	CherubimOmega.DisplayName: Querubín Omega
 	CherubimRift.DisplayName: Fisura de Querubín
 	CherubimSlash.DisplayName: Corte de Querubín
 	ChristmasCarol.DisplayName: Villancico
-	ColdShoulder.DisplayName: Desaire Gélido
+	ColdShoulder.DisplayName: Desaire gélido
 	ColdShoulderIcicle.DisplayName: Carámbano
 	CosmicSong.DisplayName: Canción Cósmica
-	CottonMouth.DisplayName: Boca de Algodón
-	CottonMouthGas.DisplayName: Gas de la Risa
-	CrystalHydraulophone.DisplayName: Hidraulófono de Cristal
-	DeathAdder.DisplayName: Víbora Mortal
-	DeathAdderSoul.DisplayName: Alma de la Víbora Mortal
-	DesertedDrugDeal.DisplayName: Sangre de los Grandes Tiburones de Arena
+	CottonMouth.DisplayName: Boca de algodón
+	CottonMouthGas.DisplayName: Gas de la risa
+	CrystalHydraulophone.DisplayName: Hidraulófono de cristal
+	DeathAdder.DisplayName: Víbora mortal
+	DeathAdderSoul.DisplayName: Alma de la víbora mortal
+	DesertedDrugDeal.DisplayName: Sangre de los grandes tiburones de arena
 	Disaster.DisplayName: Desastre
 	DisasterSlash.DisplayName: Desastre
 	DisasterSlashes.DisplayName: Desastre
-	DoomsdayCatharsis.DisplayName: Catarsis del Juicio Final
-	DoomsdayToot.DisplayName: Bocina del Juicio Final
-	DryMouth.DisplayName: Boca Seca
-	DryMouthSand.DisplayName: Arena de Bolsillo
+	DoomsdayCatharsis.DisplayName: Catarsis del juicio final
+	DoomsdayToot.DisplayName: Bocina del juicio Final
+	DryMouth.DisplayName: Boca seca
+	DryMouthSand.DisplayName: Arena de bolsillo
 	Duality.DisplayName: Dualidad
-	DustDevil.DisplayName: Demonio de Polvo
-	ElectricChain.DisplayName: Rayo en Cadena
-	ElectricQuarterstaff.DisplayName: Bastón Cuarto Eléctrico
-	ElementalSong.DisplayName: Canción Elemental
+	DustDevil.DisplayName: Demonio de polvo
+	ElectricChain.DisplayName: Rayo en cadena
+	ElectricQuarterstaff.DisplayName: Bastón cuarto eléctrico
+	ElementalSong.DisplayName: Canción elemental
 	ElementalSyzygy.DisplayName: Sizigia
 	Exorectionist.DisplayName: Exoreccionista
-	ExoSound.DisplayName: Sonido Envolvente Exo
-	ExoSurroundSound.DisplayName: Sonido Envolvente Exo
-	FeralKeytar.DisplayName: Keytar Feral
-	FilthyCreeper.DisplayName: Criatura Rancia Rara
-	FilthyFlute.DisplayName: Flauta Mugrienta
-	FireHazard.DisplayName: Peligro de Incendio
-	FireStarter.DisplayName: Iniciador de Fuego
+	ExoSound.DisplayName: Sonido envolvente Exo
+	ExoSurroundSound.DisplayName: Sonido envolvente Exo
+	FeralKeytar.DisplayName: Keytar feral
+	FilthyCreeper.DisplayName: Criatura rancia rara
+	FilthyFlute.DisplayName: Flauta mugrienta
+	FireHazard.DisplayName: Peligro de incendio
+	FireStarter.DisplayName: Iniciador de fuego
 	Gashadokuro.DisplayName: Gashadokuro
 	GashadokuroCracks.DisplayName: Gashadokuro
-	GodNote.DisplayName: Nota Divina
+	GodNote.DisplayName: Nota divina
 	HarmonyoftheOldGod.DisplayName: Armonía del Dios Antiguo
 	HarpY.DisplayName: Arpa-Y
-	HydrogenSulfide.DisplayName: Sulfuro de Hidrógeno
-	HydrogenSulfideFlames.DisplayName: Sulfuro de Hidrógeno
-	HydrogenSulfideWave.DisplayName: Sulfuro de Hidrógeno
-	HydrothermalEruption.DisplayName: Erupción Hidrotermal
-	HydrothermalOasis.DisplayName: Oasis Hidrotermal
-	IceCreamMachine.DisplayName: Máquina de Helado
-	IceCube.DisplayName: Cubo de Hielo
-	InterstellarShredder.DisplayName: Triturador Interestelar
-	InterstellarShredder2.DisplayName: Triturador Interestelar
-	LostOasis.DisplayName: Oasis Perdido
+	HydrogenSulfide.DisplayName: Sulfuro de hidrógeno
+	HydrogenSulfideFlames.DisplayName: Sulfuro de hidrógeno
+	HydrogenSulfideWave.DisplayName: Sulfuro de hidrógeno
+	HydrothermalEruption.DisplayName: Erupción hidrotermal
+	HydrothermalOasis.DisplayName: Oasis hidrotermal
+	IceCreamMachine.DisplayName: Máquina de helado
+	IceCube.DisplayName: Cubo de hielo
+	InterstellarShredder.DisplayName: Triturador interestelar
+	InterstellarShredder2.DisplayName: Triturador interestelar
+	LostOasis.DisplayName: Oasis perdido
 	LuxorsPrayer.DisplayName: Oración de Luxor
 	LuxorsSong.DisplayName: Canción de Luxor
 	MelterAmp.DisplayName: "{$Mods.CalamityMod.Projectiles.Magic.MelterAmp.DisplayName}"
 	MelterNote1.DisplayName: "{$Mods.CalamityMod.Projectiles.Magic.MelterNote1.DisplayName}"
 	MelterNote2.DisplayName: "{$Mods.CalamityMod.Projectiles.Magic.MelterNote2.DisplayName}"
-	MilkyWay.DisplayName: Vía Láctea
-	MilkyWaySpur.DisplayName: Espuela de la Vía Láctea
-	Noisebringer.DisplayName: Portador del Ruido
-	NoisebringerGoliath.DisplayName: Goliat del Ruido
-	OathofSacrifice.DisplayName: Juramento de Sacrificio
+	MilkyWay.DisplayName: Vía láctea
+	MilkyWaySpur.DisplayName: Espuela de la vía láctea
+	Noisebringer.DisplayName: Portador del ruido
+	NoisebringerGoliath.DisplayName: Goliat del ruido
+	OathofSacrifice.DisplayName: Juramento de sacrificio
 	OmnicidesLaw.DisplayName: Ley del Omnicida
-	PhoenicianBeak.DisplayName: Pico Fenicio
-	PhoenicianBeakSlice.DisplayName: Corte del Pico Fenicio
-	PlagueSwarmerMissile.DisplayName: Enjambre de la Plaga
-	PlagueTrace.DisplayName: Rastro de Plaga
-	PledgeofSelflessness.DisplayName: Promesa de Desinterés
-	PurgedSoul.DisplayName: Alma Purgada
+	PhoenicianBeak.DisplayName: Pico fenicio
+	PhoenicianBeakSlice.DisplayName: Corte del pico fenicio
+	PlagueSwarmerMissile.DisplayName: Enjambre de la plaga
+	PlagueTrace.DisplayName: Rastro de plaga
+	PledgeofSelflessness.DisplayName: Promesa de desinterés
+	PurgedSoul.DisplayName: Alma purgada
 	SARS.DisplayName: S.A.R.S.
-	SavingGrace.DisplayName: Gracia Salvadora
-	ScorchingMaelstrom.DisplayName: Torbellino Abrasador
-	ScrapGuitar.DisplayName: Guitarra Chatarra
-	ScreamingClam.DisplayName: Almeja Gritona
-	ScreamingClamScream.DisplayName: Almeja Gritona
+	SavingGrace.DisplayName: Gracia salvadora
+	ScorchingMaelstrom.DisplayName: Torbellino abrasador
+	ScrapGuitar.DisplayName: Guitarra chatarra
+	ScreamingClam.DisplayName: Almeja gritona
+	ScreamingClamScream.DisplayName: Almeja gritona
 	ScuffedKeytar.DisplayName: Keytar Destrozado
-	SharkBloodInjection.DisplayName: Inyección de Sangre de Tiburón
+	SharkBloodInjection.DisplayName: Inyección de sangre de tiburón
 	Singularity.DisplayName: Singularidad
-	SingularityStar.DisplayName: Estrella de Singularidad
-	SlagFurysIntent.DisplayName: Intención de la Furia de Escoria
-	SludgeBomb.DisplayName: Bomba de Lodo
-	SpookyMonth.DisplayName: Mes Espeluznante
+	SingularityStar.DisplayName: Estrella de singularidad
+	SlagFurysIntent.DisplayName: Intención de la furia de escoria
+	SludgeBomb.DisplayName: Bomba de lodo
+	SpookyMonth.DisplayName: Mes espeluznante
 	StarBirth.DisplayName: Nébula
-	StarBirthStar.DisplayName: Estrella Recién Nacida
+	StarBirthStar.DisplayName: Estrella recién nacida
 	Supercluster.DisplayName: Supercúmulo
-	SuperclusterStar.DisplayName: Estrella del Supercúmulo
-	SymphonicExoMissile.DisplayName: Misil Exo Sinfónico
+	SuperclusterStar.DisplayName: Estrella del supercúmulo
+	SymphonicExoMissile.DisplayName: Misil Exo sinfónico
 	Syzygy.DisplayName: Sizigia
-	TarragonHeartbeat.DisplayName: Latido de Tarragon
-	TarragonQuarterRest.DisplayName: Pausa de Cuarto de Tarragon
-	TectonicCollision.DisplayName: Colisión Tectónica
-	TectonicPlate.DisplayName: Placa Tectónica
-	TidalForce.DisplayName: Fuerza de Marea
-	TidalWave.DisplayName: Ola de Marea
+	TarragonHeartbeat.DisplayName: Latido de tarragon
+	TarragonQuarterRest.DisplayName: Pausa de cuarto de tarragon
+	TectonicCollision.DisplayName: Colisión tectónica
+	TectonicPlate.DisplayName: Placa tectónica
+	TidalForce.DisplayName: Fuerza de marea
+	TidalWave.DisplayName: Ola de marea
 	TimesOldRoman.DisplayName: Times Old Roman
 	TimesOldTrail.DisplayName: Times Old Roman
-	TherapeuticSludge.DisplayName: Lodo Terapéutico
-	TheWindmill.DisplayName: El Molino de Viento
+	TherapeuticSludge.DisplayName: Lodo terapéutico
+	TheWindmill.DisplayName: El molino de viento
 	ToxicEightNote.DisplayName: Toxic "{$ProjectileName.EightNote}"
 	ToxicQuarterNote.DisplayName: Toxic "{$ProjectileName.QuarterNote}"
 	ToxicTiedEightNote.DisplayName: Toxic "{$ProjectileName.TiedEightNote}"
@@ -1336,8 +1337,8 @@ Projectiles: {
 	WhisperingLeaf.DisplayName: Hoja Susurrante
 	WhisperingTrunk.DisplayName: Tronco Susurrante
 	WilloftheRagnarok.DisplayName: Voluntad del Ragnarök
-	Windward.DisplayName: A Favor del Viento
-	WulfrumSoundWave.DisplayName: Onda Sónica
+	Windward.DisplayName: Viento a favor
+	WulfrumSoundWave.DisplayName: Onda sónica
 	WulfrumWeedWacker.DisplayName: Desmalezadora Wulfrum
 	WulfrumWeedWackerWave.DisplayName: Desmalezadora Wulfrum
 	YharimsJam.DisplayName: Altavoces de Yharim
@@ -1345,21 +1346,21 @@ Projectiles: {
 
 Buffs: {
 	AlluringSong: {
-		DisplayName: Canción Seductora
+		DisplayName: Canción seductora
 		Description:
 			'''
 			+50% a la velocidad de regeneración de inspiración y al alcance del empoderamiento
 			La duración del empoderamiento aumenta en 5 segundos
-			Recibir daño te cura 250 de vida plana, pero elimina Canción Seductora
+			Recibir daño te cura 250 de vida plana, pero elimina Canción seductora
 			"Para ligar con unas elementales"
 			'''
 	}
 
 	AlluringSongCD: {
-		DisplayName: Enfriamiento de Canción Seductora
+		DisplayName: Enfriamiento de Canción seductora
 		Description:
 			'''
-			No puedes usar Canción Seductora por un tiempo
+			No puedes usar Canción seductora por un tiempo
 			"Nunca cocines de nuevo"
 			'''
 	}
