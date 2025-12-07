@@ -430,6 +430,7 @@ Items: {
 			'''
 			+[CR]% de probabilidad de crítico
 			+15% de velocidad de movimiento
+			+[HP] de vida máxima
 			+[ST] de sigilo máximo
 			-30% de coste de maná
 			-5% de daño recibido
@@ -1596,7 +1597,7 @@ Items: {
 		Tooltip:
 			'''
 			Los ataques provocan una explosión en una pequeña área
-			+14% de daño
+			+6% de daño
 			'''
 	}
 
@@ -1610,7 +1611,7 @@ Items: {
 		Tooltip:
 			'''
 			Los proyectiles reducen la velocidad y el daño de los proyectiles enemigos con los que colisionan
-			+100% de tamaño de proyectil
+			+50% de tamaño de proyectil
 			'''
 	}
 
@@ -1622,8 +1623,8 @@ Items: {
 	BookMarkLeo: {
 		Tooltip:
 			'''
-			+20% de daño
-			+40% de tamaño de proyectil
+			+12% de daño
+			+20% de tamaño de proyectil
 			'''
 		DisplayName: Marcapáginas - Leo
 	}
@@ -1829,7 +1830,7 @@ Items: {
 	}
 
 	AzafureChargeShield: {
-		Tooltip: ""
+		Tooltip: Atravesar a los enemigos costará energía
 		DisplayName: Escudo de carga de Azafure
 	}
 
@@ -3017,7 +3018,7 @@ Items: {
 			Multiplicador de aceleración: [B]
 			Velocidad vertical decepcionante
 			Tiempo de vuelo: [C]
-			"Es hora de ser un..."
+			"Ahora tienes la oportunidad de ser un..."
 			'''
 	}
 
@@ -3208,6 +3209,109 @@ Items: {
 			"Almacenando melodías con magia"
 			'''
 	}
+		BookmarkStinger: {
+		DisplayName: Marcapáginas - Aguijón
+		Tooltip: Dispara automáticamente aguijones a los enemigos cercanos
+	}
+
+	BookmarkSpore: {
+		DisplayName: Marcapáginas - Espora
+		Tooltip: Genera esporas que rastrean a los enemigos y dejan tras de sí nubes de esporas que atacarán de forma persistente
+	}
+
+	DarkScripture: {
+		DisplayName: Escritura oscura
+		Tooltip: Dispara una bala oscura teledirigida
+	}
+
+	SelenbiteVolume: {
+		DisplayName: Volumen selenita
+		Tooltip:  Libera estrellas varadas, que perseguirán a los objetivos cercanos y causarán daño
+	}
+
+	MagicBookmarkHolder: {
+		DisplayName: Soporte mágico para marcapáginas
+		Tooltip:
+			'''
+			+[D]% de daño mágico
+			Proporciona una ranura adicional a los libros de entropía
+			"Sorprendentemente, al utilizar este marcapáginas se consigue perfectamente el efecto deseado"
+			'''
+	}
+
+	ExquisiteBookmarkHolder: {
+		DisplayName: Soporte exquisito para marcapáginas
+		Tooltip:
+			'''
+			+[S]% de velocidad de ataque mágico
+			Proporciona una ranura adicional para los libros de entropía.
+			"Un soporte exisito con un sombrero mágico en la parte superior".
+			Vendido por el comerciante ambulante
+			'''
+	}
+
+	HolyBookmarkHolder: {
+		DisplayName: Soporte sagrado para marcapáginas
+		Tooltip:
+			'''
+			+[D]% de daño mágico
+			+[S]%  de velocidad de ataque mágico
+			Proporciona 2 ranura adicional para los libros de entropía
+			"Un soporte con un brillo divino,
+			que permite sujetar fácilmente los marcapáginas"
+			'''
+	}
+
+	IllusoryGodfang: {
+		DisplayName: Diente divino ilusorio
+		Tooltip:
+			'''
+			Invoca una espada ilusoria para que luche por ti.
+			Necesita 2 ranuras de súbditos.
+			'''
+	}
+
+	BookmarkStarwreckage: {
+		DisplayName: Marcapáginas - Restos estelares
+		Tooltip: Lanza trozos metálicos que ignoran los frames de invencibilidad
+	}
+
+	BookmarkLacewings: {
+		DisplayName: Marcapáginas -  Crisopas
+		Tooltip: Invoca 3 crisopas prismáticas que disparan rayos prismáticos a los enemigos
+	}
+
+	BookmarkWulfrum: {
+		DisplayName: Marcapáginas - Wulfrum
+		Tooltip:
+			'''
+			Genera un dron wulfrum que dispara restos de wulfrum a los enemigos cercanos.
+			El dron se estrellará y explotará al cabo de un rato
+			'''
+	}
+
+	BookmarkCosmic: {
+		DisplayName: Marcapáginas cósmico
+		Tooltip: Invoca al Asesino de dioses para que luche por tí
+	}
+
+	AzafurePeaceKey: {
+		DisplayName: Llave de la Paz de Azafure
+		Tooltip:
+			'''
+			Invoca un lanzadera que lanza bombas-n a los enemigos.
+			Solo puedes invocar una lazadera a la vez
+			'''
+	}
+
+	AzafureDriverCore: {
+		DisplayName: Núcleo conductor de Azafure
+		Tooltip:
+			'''
+			Te da [S] escudo
+			Atravesar a los enemigos costará energía
+			'''
+	}
 }
 
 LOCKED: ": [BLOQUEADO]"
@@ -3218,18 +3322,18 @@ BCU4: Requiere haber derrotado a Plantera
 BCC1: Presiona clic derecho para extender las enredaderas espinosas tras prepararte
 BCC2:
 	'''
-	Al mantener clic derecho sobre un objetivo, te acercas a él y le infliges daño por impacto. Esta habilidad consume el 20% de la barra de verdor. 
-	Los golpes con el clic izquierdo recargan ligeramente la barra
+	* Al mantener clic derecho sobre un objetivo, te acercas a él y le infliges daño por impacto. Esta habilidad consume el 20% de la barra de verdor. 
+	  Los golpes con el clic izquierdo recargan ligeramente la barra
 	'''
 BCC3:
 	'''
-	Presiona clic derecho y luego rápidamente el izquierdo para lanzar el arma. La espada se adhiere al objetivo golpeado, 
-	lo que te otorga regeneración de vida continua y recarga lentamente la barra
+	* Presiona clic derecho y luego rápidamente el izquierdo para lanzar el arma. La espada se adhiere al objetivo golpeado, 
+	  lo que te otorga regeneración de vida continua y recarga lentamente la barra
 	'''
 BCC4:
 	'''
-	Pulsa dos veces y luego manten pulsado clic derecho para lanzar el arma, lo que hará que atraviese rápidamente a los enemigos cercanos al cursor y consuma energía continuamente. 
-	Al mantender pulsado clic izquierdo la hoja girará y liberará proyectiles teledirigidos
+	* Pulsa dos veces y luego manten pulsado clic derecho para lanzar el arma, lo que hará que atraviese rápidamente a los enemigos cercanos al cursor y consuma energía continuamente. 
+	  Al mantender pulsado clic izquierdo la hoja girará y liberará proyectiles teledirigidos
 	'''
 PrefixitemDesc:
 	'''
@@ -3342,6 +3446,7 @@ Projectiles: {
 	VoidMonsterShoot.DisplayName: Void Symbiont Shoot
 	RustyGrenadeProjectile.DisplayName: Rusty Grenade Projectile
 	GodSlayerRocket.DisplayName: God Slayer Rocket
+	GodSlayer.DisplayName: God Slayer
 	GodSlayerRocketProjectile.DisplayName: God Slayer Rocket Projectile
 	RailPulseBowProjectile.DisplayName: Rail Pulse Bow Projectile
 	JailerWhipProjectile.DisplayName: Jailer Whip Projectile
@@ -3757,6 +3862,22 @@ Projectiles: {
 	AzafureCylinderHeld.DisplayName: Azafure Cylinder Held
 	MetalBall.DisplayName: Metal Ball
 	AzafureMagicBlast.DisplayName: Azafure Magic Blast
+	Stinger.DisplayName: Stinger
+	ExplosiveSpore.DisplayName: Explosive Spore
+	SporeGas.DisplayName: Spore Gas
+	AzureRapierHeld: Azure Rapier
+	AzureRapierBlockSlash: Azure Rapier Slash
+	DarkScriptureHeld.DisplayName: Dark Scripture Held
+	DarkBullet.DisplayName: Dark Bullet
+	SelenbiteStar.DisplayName: Selenbite Star
+	SelenbiteVolumeHeld.DisplayName: Selenbite Volume Held
+	IllusoryBladeMinion.DisplayName: Illusory Blade Minion
+	MetallicChunkProj.DisplayName: Metallic Chunk Proj
+	LacewingBMMinion.DisplayName: Lacewing
+	WulfrumBMDrone.DisplayName: Wulfrum Drone
+	WulfrumScrapProj.DisplayName: Wulfrum Scrap Proj
+	NucLauncher.DisplayName: Nuc Launcher
+	PeaceJR.DisplayName: Peace JR
 }
 
 LegendTooltip: - Legendario -
@@ -4096,6 +4217,10 @@ Buffs: {
 		DisplayName: Traumatismo mecánico
 		Description: Sientes dolor en todo el cuerpo
 	}
+	IllusoryBlade: {
+		DisplayName: Hoja ilusoria
+		Description: La hoja ilusoria luchará por ti
+	}
 }
 
 Uh: ""
@@ -4405,6 +4530,11 @@ Configs: {
 
 		LeastDamageSufferedBasedOnMaxHealth: {
 			Label: Menor daño sufrido basado en la salud máxima
+			Tooltip: ""
+		}
+
+		ClearStealthWhenChangeEquipSet: {
+			Label: Borrar el sigilo al cambiar de equipamiento
 			Tooltip: ""
 		}
 	}
@@ -5002,9 +5132,17 @@ AzafureEnhances: {
 	AzafureTacticalRadio: Aumenta el número de misiles
 	AzafureAirReaper: Aumenta el tiempo de persecución
 	AzafureCylinder: Alarga la vida útil de la esfera metálica
+	AzafurePeaceKey: Dispara 2 bombas-n una vez
+	AzafureDriverCore:
+		'''
+		Reduce el coste de energía.
+		El escudo tomará un 40% del daño que recibas.
+		Aumenta la velocidad de regeneración del escudo
+		'''
 }
 
 
 DeathExplode: "[PlayerName] explotó"
 BlockingCooldown: Enfriamiento de bloqueo
 FetalDreamCooldown: Enfriamiento del Sueño fetal
+DriverCoreCooldown: Núcleo conductor del escudo
