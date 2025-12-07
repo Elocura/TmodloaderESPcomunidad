@@ -150,6 +150,15 @@ Items: {
 					Stealth strike will launch a grenade affected by gravity
 					'''
 			}
+
+			AzafureAirReaper: {
+				DisplayName: Azafure Air Reaper
+				Tooltip:
+					'''
+					Throw a sickle, hit it and stick it to the target, causing multiple injuries
+					Stealth attack throws a sickle that continues to chase the target and chop back and forth after being hit
+					'''
+			}
 		}
 	}
 
@@ -424,6 +433,7 @@ Items: {
 			'''
 			+[CR]% Crit Chance
 			+15% Move Speed
+			+[HP] Max Life
 			+[ST] Max Stealth
 			-30% Mana Cost
 			-5% Damage Taken
@@ -1590,7 +1600,7 @@ Items: {
 		Tooltip:
 			'''
 			Attacks cause a small area-of-effect explosion
-			+14% Damage
+			+6% Damage
 			'''
 	}
 
@@ -1604,7 +1614,7 @@ Items: {
 		Tooltip:
 			'''
 			Projectiles reduce the speed and damage of enemy projectiles they collide with
-			+100% Projectile Size
+			+50% Projectile Size
 			'''
 	}
 
@@ -1616,8 +1626,8 @@ Items: {
 	BookMarkLeo: {
 		Tooltip:
 			'''
-			+20% Damage
-			+40% Projectile Size
+			+12% Damage
+			+20% Projectile Size
 			'''
 		DisplayName: Bookmark - Leo
 	}
@@ -1823,7 +1833,7 @@ Items: {
 	}
 
 	AzafureChargeShield: {
-		Tooltip: ""
+		Tooltip: Cost energy to dash through enemies
 		DisplayName: Azafure Charge Shield
 	}
 
@@ -3010,7 +3020,7 @@ Items: {
 			Acceleration multiplier: [B]
 			Disappointing vertical speed
 			Flight time: [C]
-			"It's time to be a..."
+			"Now's your chance to be a..."
 			'''
 	}
 
@@ -3183,6 +3193,134 @@ Items: {
 			"
 			'''
 	}
+
+	AzafureTacticalRadio: {
+		DisplayName: Azafure Tactical Radio
+		Tooltip: Deploy a missile launch well, locate the nearest target and launch missiles beyond it
+	}
+
+	SentryRemover: {
+		DisplayName: Sentry Remover
+		Tooltip: Remove your sentry
+	}
+
+	BookmarkFairy: {
+		DisplayName: Bookmark - Fairy
+		Tooltip: Spawn three fairies fight for you
+	}
+
+	AzafureCylinder: {
+		DisplayName: Azafure Cylinder
+		Tooltip:
+			'''
+			Launch a charged metal ball that explodes upon nearing the enemy
+			"Storing melodies with magic"
+			'''
+	}
+
+	BookmarkStinger: {
+		DisplayName: Bookmark - Stinger
+		Tooltip: Automatic shoot stingers to enemies nearly
+	}
+
+	BookmarkSpore: {
+		DisplayName: Bookmark - Spore
+		Tooltip: Generates spores that track enemies and leave behind lingering spore clouds when attacking
+	}
+
+	DarkScripture: {
+		DisplayName: Dark Scripture
+		Tooltip: Shoot homing dark bullet
+	}
+
+	SelenbiteVolume: {
+		DisplayName: Selenbite Volume
+		Tooltip: Release the stranded stars, which will chase nearby targets and cause damage
+	}
+
+	MagicBookmarkHolder: {
+		DisplayName: Magic Bookmark Holder
+		Tooltip:
+			'''
+			+[D]% Magic damage
+			Gives an additional bookmark slot for entropy books
+			"Surprisingly, using this holder to clamp bookmarks can perfectly achieve the desired effect"
+			'''
+	}
+
+	ExquisiteBookmarkHolder: {
+		DisplayName: Exquisite Bookmark Holder
+		Tooltip:
+			'''
+			+[S]% Magic Weapons' Attack Speed
+			Gives an additional bookmark slot for entropy books
+			"Exquisite bookmark holder with a magic hat on top"
+			   Sold by Traveling Merchant
+			'''
+	}
+
+	HolyBookmarkHolder: {
+		DisplayName: Holy Bookmark Holder
+		Tooltip:
+			'''
+			+[D]% Magic Damage
+			+[S]% Magic Weapons' Attack Speed
+			Gives 2 additional bookmark slot for entropy books
+			"A bookmark holder with divine radiance,
+			making it easy to tightly clip bookmarks into books"
+			'''
+	}
+
+	IllusoryGodfang: {
+		DisplayName: Illusory Godfang
+		Tooltip:
+			'''
+			Summon an Illusory blade fight for you.
+			Need 2 minion slots.
+			'''
+	}
+
+	BookmarkStarwreckage: {
+		DisplayName: Bookmark - Starwreckage
+		Tooltip: Throwing out metallic chunk that ignore invincible frames
+	}
+
+	BookmarkLacewings: {
+		DisplayName: Bookmark - Lacewings
+		Tooltip: Summon 3 prismatic lacewing that shoot prismatic ray to enemies
+	}
+
+	BookmarkWulfrum: {
+		DisplayName: Bookmark - Wulfrum
+		Tooltip:
+			'''
+			Spawns a wulfrum drone that shoot wulfrum scrap to enemies nearby
+			Wulfrum drone will crash an explode after a while
+			'''
+	}
+
+	BookmarkCosmic: {
+		DisplayName: Bookmark Cosmic
+		Tooltip: Spawn a God Slayer fight for you
+	}
+
+	AzafurePeaceKey: {
+		DisplayName: Azafure Peace Key
+		Tooltip:
+			'''
+			Summon a launcher that lauching n-bomb to enemies
+			You can only summon one launcher at a time
+			'''
+	}
+
+	AzafureDriverCore: {
+		DisplayName: Azafure Driver Core
+		Tooltip:
+			'''
+			Give you [S] shield
+			Cost energy to dash through enemies
+			'''
+	}
 }
 
 LOCKED: ": [LOCKED]"
@@ -3193,21 +3331,21 @@ BCU4: Requires defeating Plantera
 BCC1: Right-click to extend thorny vines after a brief wind-up
 BCC2:
 	'''
-	Holding right-click on a target pulls you toward it and deals impact damage
-	This skill consumes 20% of the Verdure Charge Bar
-	Left-click hits slightly recharge the bar
+	* Holding right-click on a target pulls you toward it and deals impact damage
+	  This skill consumes 20% of the Verdure Charge Bar
+	  Left-click hits slightly recharge the bar
 	'''
 BCC3:
 	'''
-	Right-click then quickly left-click to throw the weapon.
-	The sword attaches to the struck target, 
-	granting continuous health regeneration and slowly recharging the bar
+	* Right-click then quickly left-click to throw the weapon.
+	  The sword attaches to the struck target, 
+	  granting continuous health regeneration and slowly recharging the bar
 	'''
 BCC4:
 	'''
-	Double-tap and hold right-click to throw the weapon,
-	causing it to rapidly pierce enemies near the cursor and continuously consume charging energy
-	Holding left-click spins the blade, releasing homing projectiles
+	* Double-tap and hold right-click to throw the weapon,
+	  causing it to rapidly pierce enemies near the cursor and continuously consume charging energy
+	  Holding left-click spins the blade, releasing homing projectiles
 	'''
 PrefixitemDesc:
 	'''
@@ -3321,6 +3459,7 @@ Projectiles: {
 	RustyGrenadeProjectile.DisplayName: Rusty Grenade Projectile
 	GodSlayerRocket.DisplayName: God Slayer Rocket
 	GodSlayerRocketProjectile.DisplayName: God Slayer Rocket Projectile
+	GodSlayer.DisplayName: God Slayer
 	RailPulseBowProjectile.DisplayName: Rail Pulse Bow Projectile
 	JailerWhipProjectile.DisplayName: Jailer Whip Projectile
 	VoidLightBall.DisplayName: Void Light Ball
@@ -3727,6 +3866,30 @@ Projectiles: {
 	CarverSpike.DisplayName: Carver Spike
 	CarverBolt.DisplayName: Carver Bolt
 	CarverSpirit.DisplayName: Carver Spirit
+	AzafureRadioMissile.DisplayName: Azafure Radio Missile
+	MissileSilo.DisplayName: Missile Silo
+	SentryRemoverHeld.DisplayName: Sentry Remover Held
+	AzafureAirReaperThrow.DisplayName: Azafure Air Reaper Throw
+	FairyBMMinion.DisplayName: Fairy
+	AzafureCylinderHeld.DisplayName: Azafure Cylinder Held
+	MetalBall.DisplayName: Metal Ball
+	AzafureMagicBlast.DisplayName: Azafure Magic Blast
+	Stinger.DisplayName: Stinger
+	ExplosiveSpore.DisplayName: Explosive Spore
+	SporeGas.DisplayName: Spore Gas
+	AzureRapierHeld: Azure Rapier
+	AzureRapierBlockSlash: Azure Rapier Slash
+	DarkScriptureHeld.DisplayName: Dark Scripture Held
+	DarkBullet.DisplayName: Dark Bullet
+	SelenbiteStar.DisplayName: Selenbite Star
+	SelenbiteVolumeHeld.DisplayName: Selenbite Volume Held
+	IllusoryBladeMinion.DisplayName: Illusory Blade Minion
+	MetallicChunkProj.DisplayName: Metallic Chunk Proj
+	LacewingBMMinion.DisplayName: Lacewing
+	WulfrumBMDrone.DisplayName: Wulfrum Drone
+	WulfrumScrapProj.DisplayName: Wulfrum Scrap Proj
+	NucLauncher.DisplayName: Nuc Launcher
+	PeaceJR.DisplayName: Peace JR
 }
 
 LegendTooltip: - Legend -
@@ -4056,6 +4219,21 @@ Buffs: {
 		DisplayName: Koishi
 		Description: ""
 	}
+
+	LifeOppress: {
+		DisplayName: Life Oppress
+		Description: You saw your death
+	}
+
+	MechanicalTrauma: {
+		DisplayName: Mechanical Trauma
+		Description: You feel pain all over your body
+	}
+
+	IllusoryBlade: {
+		DisplayName: Illusory Blade
+		Description: Illusory blade will fight for you
+	}
 }
 
 Uh: ""
@@ -4369,6 +4547,11 @@ Configs: {
 
 		LeastDamageSufferedBasedOnMaxHealth: {
 			Label: Least Damage Suffered Based On Max Health
+			Tooltip: ""
+		}
+
+		ClearStealthWhenChangeEquipSet: {
+			Label: Clear Stealth When Change Equip Set
 			Tooltip: ""
 		}
 	}
@@ -4899,6 +5082,7 @@ LMDialog18: What is this? You need a coin!
 NowLV: Level
 AnyOrichalcumBar: Any Orichalcum Bar
 AnyEvilBar: Any Evil Bar
+AnyFairy: Any Fairy
 BCBarInfo: Bramble Bar(Hold [mouse middle] to drag)
 HallowedEnemiesDrop: Dropping from undergronud hallowed enemies
 EvilEnemiesDrop: Dropping from undergronud evil biomes' enemies
@@ -4941,8 +5125,19 @@ AzafureEnhances: {
 	AzafureDrill: Increase pick power and pick range
 	AzafureEKatana: Increase attack range
 	AzafureCogfly: Increase minion attacking speed
+	AzafureTacticalRadio: Increase missile num
+	AzafureAirReaper: Increase chasing time
+	AzafureCylinder: Extend the metal ball's existence time
+	AzafurePeaceKey: Shoot 2 n-bomb one time
+	AzafureDriverCore:
+		'''
+		Reduce energy cost
+		-40% damage taken by shield
+		Increase shield regen speed
+		'''
 }
 
 DeathExplode: "[PlayerName] exploded"
 BlockingCooldown: Blocking Cooldown
 FetalDreamCooldown: Fetal Dream Cooldown
+DriverCoreCooldown: Driver Core Shield
