@@ -1582,7 +1582,7 @@ Projectiles: {
 	HghExplosiveProj.DisplayName: High Explosive Round
 	NapalmBombBox.DisplayName: Napalm Crate
 	NapalmBombHeld.DisplayName: Napalm Bomb
-	SuccessfullyDeployedEffct.DisplayName: Deployment Complete
+	SuccessfullyDeployedEffct.DisplayName: Despliegue completatado
 	SpawnLaserEffect.DisplayName: Laser Manifestation
 	Fireball.DisplayName: Fireball
 	Laser.DisplayName: Laser
@@ -6341,9 +6341,9 @@ UI: {
 	}
 
 	ExoMechdusaSumRender: {
-		ThanatosDescription: Thanatos, una aterradora serpiente gigante equipada con una pesada armadura e innumerables cañones automáticos.
+		ThanatosDescription: Thanatos, una aterradora serpiente gigante con innumerables cañones automáticos.
 		AresDescription: Ares, un coloso armado con cuatro armas de pulso supergausianas.
-		ArtemisApolloDescription: Artemis y Apolo, un par de autómatas excepcionalmente resistentes con reservas de energía muy inestables.
+		ArtemisApolloDescription: Artemis y Apolo, dos autómatas excepcionalmente resistentes con reservas de energía muy inestables.
 	}
 
 	CQETConstructorTP: {
@@ -6416,7 +6416,7 @@ UI: {
 
 	ChargingStationUI: {
 		TitleText: Estación de carga
-		ItemSlotLabel: Ítem a cargar
+		ItemSlotLabel: Ítem 
 		BatterySlotLabel: Batería
 		StationEnergyLabel: Energía de la estación
 		ItemChargeLabel: Carga del ítem
@@ -6424,7 +6424,7 @@ UI: {
 		ChargingText: Cargando
 		IdleText: Inactivo
 		InsertItemHint: Insertar ítem para cargar
-		InsertBatteryHint: Inserta la célula de energía Draedon
+		InsertBatteryHint: Inserta la célula de energía de Draedon
 		EnergyUnit: UE
 	}
 
@@ -6950,14 +6950,14 @@ ADV: {
 		DraedonName: Draedon
 		IntroLine1: Entiendelo... he esperado por mucho tiempo este momento.
 		IntroLine2: Me fascinan todos los aspectos de lo desconocido, pero nada me fascina más que tu propia naturaleza.
-		IntroLine3: Te mostraré mis creaciones que superan incluso a los Dioses.
+		IntroLine3: Te mostraré mis creaciones, que superan incluso a los Dioses.
 		IntroLine4: Y tú... tú me mostrarás tu naturaleza en el combate.
 		IntroLine5: Ahora, elige lo que quieras.
 		SelectionPrompt: Elige.
 		BossRushLine: Elige. Tienes 20 segundos.
 		ChoiceAres: Ares
 		ChoiceThanatos: Tánatos
-		ChoiceTwins: Artemis
+		ChoiceTwins: Artemis y Apolo
 	}
 
 	ExoMechEndingDialogue: {
@@ -7304,9 +7304,9 @@ ADV: {
 			History_Cataclysm: Naturalmente, el equilibrio se rompió. El terror resurgió y todos los seres vivos fueron borrados en un instante, convirtiéndose en parte de este silencio sepulcral.
 			History_Ruins: Lo que ves ahora es solo el residuo consecuente de ese evento. El agua cambió de color porque murió. Murió por completo.
 			History_Warning: Si alguna vez ves a los muertos saludándote con la mano o escuchas llamadas que te son familiares... recuerda que solo es este mar de cadáveres imitando a los vivos.
-			Choice_History_MoreRuins:¿Quee lugar es el más peligroso?
+			Choice_History_MoreRuins:¿Que lugar es el más peligroso?
 			Choice_History_Dangers: ¿Existen medidas para contrarrestar esto?
-			Choice_History_Back: Inquietante
+			Choice_History_Back: Volver atrás
 			History_MoreRuins1: En el fondo de ese mar de cadáveres hay una puerta. Nunca llames. Nadie puede soportar lo que hay tras ella, a menos que llegue ese tirano.
 			History_MoreRuins2: Todavía hay habitaciones sin abrir en esas ruinas hundidas. Son cámaras secretas construidas con metales pesados especiales, diseñadas para aislar la percepción de esas cosas.
 			History_Dangers1: Aparte de los muertos vivientes mutados, ten cuidado con las cosas que no puedes ver. A veces, un golpe fatal es invisible.
