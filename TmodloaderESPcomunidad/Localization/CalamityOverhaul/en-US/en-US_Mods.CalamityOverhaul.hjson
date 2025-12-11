@@ -1217,11 +1217,11 @@ Items: {
 		DisplayName: Pallbearer
 		Tooltip:
 			'''
-			Hold left click to charge, then release to fire the Arrow of the Pallbearer.
-			The longer you charge, the stronger the arrow becomes.
-			Right click to throw the crossbow, if it hits an enemy, 
-			your next shot will be greatly empowered.
-			“Also known as the Coffin Bearer.”
+			Hold left-click to charge, releasing to fire a Pallbearer Arrow
+			The longer the charge, the more powerful the arrow
+			Right-click to throw the crossbow
+			Hitting an enemy significantly empowers the next arrow and accelerates charge speed
+			"Also known as the Coffin Carrier"
 			'''
 	}
 
@@ -1420,6 +1420,38 @@ Items: {
 			Press [AriaofTheCosmosQSkill] to summon a Star Ring Guardian
 			Press [AriaofTheCosmosRSkill] to generate a Gamma Ray Burst
 			'''
+	}
+
+	Oceanfragments: {
+		DisplayName: Ocean Scraps
+		Tooltip: A mysterious trinket. The Old Duke might be interested in it.
+	}
+
+	OceanRaiders: {
+		WorkingText: Working...
+		NoWaterText: Must be placed above water to operate!
+		NoEnergyText: Insufficient Power!
+		DisplayName: Ocean Devourer
+		Tooltip:
+			'''
+			Consumes power to extract resources from water bodies
+			Right-click to open internal storage
+			'''
+	}
+
+	OldDuchest: {
+		StorageText: Large Storage Chest
+		DisplayName: Old Duchest
+		Tooltip:
+			'''
+			A storage chest with immense capacity
+			"The Old Duke's former chest. If he is nearby, he might toss some things inside."
+			'''
+	}
+
+	QuestLogBook: {
+		DisplayName: Quest Book
+		Tooltip: Use to open or close the quest interface
 	}
 }
 
@@ -1841,6 +1873,7 @@ Projectiles: {
 	AriaRSkill.DisplayName: Aria R Skill
 	AriaRSkillBeam.DisplayName: Aria R Skill Beam
 	AriaQSkillMiniDisk.DisplayName: Aria Q Skill Mini Disk
+	SulfuricacidExplosion.DisplayName: Sulfuricacid Explosion
 }
 
 Configs: {
@@ -2008,6 +2041,16 @@ Configs: {
 			Label: Show Reloading Progress
 			Tooltip: When opened, the ammo loading progress will be displayed
 		}
+
+		QuestLog: {
+			Label: Quest Log Guidance
+			Tooltip:
+				'''
+				When enabled, the quest log will guide you through game progression
+				You can access the quest interface via the Quest Book item, inventory UI, or a hotkey to view current quests
+				Enabled by default. Disabling this removes all quest guidance
+				'''
+		}
 	}
 }
 
@@ -2046,6 +2089,7 @@ Buffs: {
 Keybinds: {
 	ADS_Key.DisplayName: Firearms:Open the scope
 	KreLoad_Key.DisplayName: Firearms:Change the ammunition
+	QuestLog_Key.DisplayName: Quest Book: Toggle Main Interface
 	HeavenfallLongbowSkillKey.DisplayName: HeavenfallLongbow Skill Key
 	InfinitePickSkillKey.DisplayName: Endless Pick form switch key
 	Murasama_TriggerKey.DisplayName: Murasama: Trigger Key
@@ -2579,27 +2623,27 @@ Legend: {
 		}
 
 		ResurrectionUI: {
-			TitleText: Abyssal Resurrection State
-			LinePercentFormat: Completion : {0:F1}%
-			LineValueFormat: Resonance Value : {0:F1} / {1:F1}
-			LineRateFormat: Flow Rate : {0:F3}/s
-			HeaderSummaryText: Current Phenomenon Analysis
-			RateLevelVeryLow: Dormant
-			RateLevelLow: Faint
-			RateLevelMedium: Active
-			RateLevelHigh: Intense
-			RateLevelDanger: Cataclysmic
-			Phase1: The depths stir in silence; all remains within mortal grasp.
-			Phase2: Gentle tremors echo through the tide — the pulse begins to breathe.
-			Phase3: The abyss murmurs; unseen currents claw at the edges of control.
-			Phase4: Pressure mounts, and the veil of the domain begins to waver.
-			Phase5: The threshold breaks — the abyss gazes back.
-			Trend1: Still and silent
-			Trend2: Slowly awakening
-			Trend3: Rising with rhythm
-			Trend4: Swelling in fervor
-			Trend5: Spiraling toward collapse
-			SummaryFormat: State: {0}. Current trend: {1}. The abyss shifts — adapt your domain before it consumes all.
+			TitleText: Abyssal Resurrection Status
+			LinePercentFormat: Assimilation : {0:F1}%
+			LineValueFormat: Value : {0:F1} / {1:F1}
+			LineRateFormat: Rate : {0:F3}/s
+			HeaderSummaryText: Mental State Diagnosis
+			RateLevelVeryLow: Dead Silence
+			RateLevelLow: Whispering
+			RateLevelMedium: Restless
+			RateLevelHigh: Seething
+			RateLevelDanger: Torrential
+			Phase1: The Abyss remains dormant. All is calm.
+			Phase2: Phantom tides echo in your ears; a chill creeps into your extremities.
+			Phase3: Hallucinations intensify. Crushing deep-sea pressure builds behind your eyes and heart.
+			Phase4: The logic of reality crumbles. Your very existence is being overwritten by a cold, unseen terror.
+			Phase5: Threshold breached. Humanity dissolves; you are becoming one with the Sea of Corpses.
+			Trend1: Stagnant
+			Trend2: Seeping
+			Trend3: Rising
+			Trend4: Flooding
+			Trend5: Catastrophic Collapse
+			SummaryFormat: Diagnosis: {0} [Erosion Trend: {1}]
 		}
 	}
 
@@ -4616,34 +4660,6 @@ RemakeItems: {
 			'''
 	}
 
-	RAestheticus: {
-		DisplayName: Aestheticus
-		Tooltip:
-			'''
-			Fires crystals that explode and slow enemies down
-			This weapon scales with all your damage stats at once
-			'''
-	}
-
-	REyeofMagnus: {
-		DisplayName: Eye of Magnus
-		Tooltip:
-			'''
-			Fires powerful homing beams that reduce enemy protection
-			Heals mana and health on hit
-			This weapon scales with all your damage stats at once
-			'''
-	}
-
-	RLunicEye: {
-		DisplayName: Lunic Eye
-		Tooltip:
-			'''
-			Fires homing lunic beams that reduce enemy protection
-			This weapon scales with all your damage stats at once
-			'''
-	}
-
 	RAdamantiteRepeater: {
 		DisplayName: Adamantite Repeater
 		Tooltip:
@@ -5781,24 +5797,24 @@ NPCModifys: {
 		Homeless1: Do you have a place for me to stay? I mean... I am prepared to set up camp nearby otherwise.
 		Homeless2: Do you know how people lived in the past era? They had no houses, dwelling only in hollowed-out trees. Could you at least find me a tree hollow?
 		Homeless3: No vacant housing? What... you expect me to pay rent?
-		L0: I cannot afford rent, but if you have any deceased relatives you wish for me to attempt... what? You refuse?
-		L1: I have never believed in souls. Any attempt to resurrect the dead only invites greater catastrophe.
+		L0: I cannot afford rent. Perhaps I could perform an exorcism for your town to offset some of the cost?
+		L1: I have never believed in the concept of souls. Any attempt to resurrect the dead only invites greater catastrophe.
 		L2:
 			'''
-			In the last century, I stepped into a town swallowed by the supernatural.
-			The streets were lined with dead 'friends and family,' smiling, waving, crying for help...
-			I once tried to bring back my 'mother' from there.
-			She looked exactly as she did in life, her voice flawless... until I realized she had no heartbeat, and she found amusement in that.
+			In the last century, I once stepped into a small town.
+			The streets were crowded with 'friends and family' who were supposed to be dead. They smiled, waved, and even cried for help...
+			I attempted to bring back my 'mother' from there.
+			She looked exactly as she did in life, her tone flawless... until I realized she had no heartbeat, and she found amusement in that fact.
 			'''
 		L3:
 			'''
-			I feel you are sometimes overly confident. You will achieve nothing at this rate.
+			I feel you are sometimes overly confident; you will achieve nothing at this rate.
 			I have seen too many like you perish on their quest for power.
 			'''
 		L4:
 			'''
 			I know you are interested in my magic, but it is... not magic.
-			It is occult power. Those who touch the supernatural meet no good end. I suggest you stay away from it.
+			I hope you stay away from it. Those who touch these powers meet no good end.
 			'''
 		BloodMoon0: This unnatural blood-red sky... It pales in comparison to the color of my brimstone flames.
 		BloodMoon1: I cannot work on a night like this. Even the stars seem to shrink away in fear.
@@ -5807,6 +5823,8 @@ NPCModifys: {
 		SeaKing: The Sea King always looks at me with such sorrowful eyes. He seems to wish I wouldn't die. I cannot understand why he holds such deep sympathy for me.
 		Party: I refuse any invitation to dance, as my partners tend to end up as charred corpses.
 	}
+
+	ModifyOldDuke.LeavingDiveText: The Old Duke dove into the water...
 }
 
 Arcanes: {
@@ -6428,9 +6446,63 @@ UI: {
 	}
 
 	SulfseaDialogueBox: {
-		ContinueHint: 继续
-		FastHint: 加速
+		ContinueHint: Continue
+		FastHint: Accelerate
 	}
+
+	OldDukeShopUI: {
+		TitleText: Old Duke's Shop
+		CurrencyName: Ocean Scraps
+		HintTooltip: Scroll/Drag Bar
+	}
+
+	FindCampsiteUI: {
+		QuestTitle: The Abyss Beckons
+		DamageContribution: Quest Progress
+		RequiredContribution: Objective: Find and speak to the Old Duke
+		ObjectiveText: Objective
+		LocationText: Go to the Old Duke's Campsite
+		DistanceText: Distance
+		InteractText: Speak to the Old Duke
+		QuestCompleteText: Quest Complete!
+		HoldFragmentHintText: Hold Ocean Scraps to view direction
+	}
+
+	FindFragmentUI: {
+		QuestTitle: The Abyss Beckons
+		DamageContribution: Collection Progress
+		RequiredContribution: Objective: Collect 777 Ocean Scraps
+		ObjectiveText: Objective
+		CollectFragmentsText: Collect Ocean Scraps
+		CurrentFragmentsText: Currently Held
+		ReturnToCampsiteText: Return to campsite to submit
+		QuestCompleteText: Quest Complete!
+		HintText: Fish or loot creatures in the Ocean
+	}
+
+	OceanRaidersUI: {
+		TitleText: Ocean Devourer Storage
+		StorageText: Storage
+	}
+
+	OldDuchestUI: {
+		TitleText: Old Chest
+		StorageText: Storage Space
+	}
+
+	QuestLog: {
+		ObjectiveText: Objective
+		RewardText: Reward
+		ReceiveAwardText: Claim Reward
+		ProgressText: Quest Progress
+		QuickReceiveAwardText: Quick Claim
+		StyleSwitchText: Switch Style
+		NightModeText: Night Mode
+		ResetViewText: Reset View
+		SunModeText: Daytime Mode
+	}
+
+	QuestNotificationSystem.Text1: Quest Complete
 }
 
 ADV: {
@@ -7178,4 +7250,643 @@ ADV: {
 	}
 
 	GiveBlazingBud.MessageText: The burning embers whisper in the wind, and a strange flower drifts into your hands…
+
+	FirstMetOldDuke: {
+		OldDukeName: Old Duke
+		HelenName: Halibut
+		L0: ......
+		L1: Sheathe your bloodlust, youngster. There is no need for swords to be drawn the moment we meet.
+		L2: I am old. I have grown weary of such violent games.
+		L3: We can cooperate.
+		L4: I am collecting something special: Ocean Scraps.
+		L5: If you can find more for me, I will make it well worth your while.
+		L6: Here is a sample.
+		B1: Have you changed your mind?
+		B2: Farewell, then.
+		HL1: The old professor...? Though, he doesn't seem to recognize me.
+		HL2: His words are credible. We were colleagues at Sulphurous Sea University. He is a titan in the field of marine archaeology.
+		C1: Accept cooperation
+		C2: Refuse cooperation
+		C3: Refuse and draw weapon
+		C1Response: Excellent. I hope we have a pleasant partnership.
+		C2Response: ...Then I shall take my leave. If you think it through, you are welcome anytime.
+		C3Response: ...It seems you insist. Then let me measure your worth.
+	}
+
+	OldDukeCampsite: {
+		OldDukeCampsiteRenderer: {
+			InteractHint: "[Right Click] Talk"
+			GreetingText: Hm? Hello there...
+		}
+
+		OldDukeCampsite.TitleText: Old Duke's Campsite
+	}
+
+	CampsiteInteractionDialogue: {
+		OldDukeName: Old Duke
+		GreetingLine: What do you require?
+		Choice1Text: I am here to trade.
+		Choice2Text: I brought the things you wanted.
+		Choice3Text: Just wandering around.
+		Choice4Text: I want to spar with you.
+		Choice5Text: Tell me about your past.
+		Choice2DisabledHint: Insufficient Ocean Scraps
+		Choice1Response: See what I have here.
+		Choice2Response: Good. These scraps are sufficient. This is your due reward.
+		Choice3Response: ......
+		QuestCompleteLine: Hmm... Do you have any new discoveries? I am very busy right now.
+		B1: I will spend the next few days deciphering these scraps. I will notify you once I am finished.
+		Choice4_R1: I may be old, but I haven't lost the skills of my youth.
+		Choice4_R2: Then let us see if you have improved recently.
+		Choice4_R3: Using me as a whetstone is not a wise move...
+
+		CampsiteChatDialogue: {
+			OldDukeName: Old Duke
+			GreetingLine: Want to chat?
+			Choice_BackToMain: Change topic
+			Choice_EndConversation: That is all
+			Choice_PastStory: About your current state
+			Choice_Research: What are you piecing together?
+			Choice_SulfurSeaHistory: The truth of this sea
+			Choice_AboutFragments: About those fragments
+			Choice_PersonalLife: You don't look so good
+			Choice_Farewell: Goodbye
+			Past_Intro: That is a past deliberately wiped away. Or perhaps, there are few fish left who know of it.
+			Past_University: We were arrogant then, thinking we could measure the whole world with a ruler. Until we dug up something... illogical at the bottom of the abyss.
+			Past_Prime: That thing could not be killed, nor destroyed. It was not a living creature.
+			Past_Accident: There were no survivors in that incident. When I was being assimilated by that coldness, I made a manic decision.
+			Past_Mutation: Since there was no escape, I joined it. I forced it into my body. Since then, I am not truly alive, nor can I die.
+			Past_Exile: It is just as well. This body is strong enough to suppress this sea.
+			Past_Reflection: I just want to guard this sea. If those things try to crawl out of the abyss, that will be the moment I risk total resurgence and death to stop them.
+			Research_Intro: I am trying to reconstruct a story, or rather, recover a lost form of experience.
+			Research_CurrentWork: These fragments cling to memories of the past. They record how that ancient civilization sought a path to survival in a desperate situation.
+			Research_Breakthrough: To fight that kind of terror, brute force is useless. You must find their 'killing rules' and exploit them.
+			Research_Difficulties: But deciphering them is dangerous. These fragments are mediums themselves. Stare at them too long, and you might hear sounds you shouldn't.
+			Research_Theory: If I can assemble all the pieces, perhaps I can find a way to permanently seal the source of the abyss.
+			Choice_Research_Details: What do you mean by 'killing rules'?
+			Choice_Research_Help: What do I need to do?
+			Choice_Research_Back: Sounds crazy
+			Research_Details1: For example, there are things you cannot look at, names you cannot speak. Once a medium is triggered, death is inevitable. That civilization tried to bind gods with rules.
+			Research_Details2: They even built massive containers, attempting to imprison those things. Unfortunately, the containers leaked.
+			Research_Help: Help me find more fragments. The rest of my life will be spent researching this.
+			History_Intro: The Sulphurous Sea is merely a facade. This is the residue left after the encroachment of that thing's domain.
+			History_Origin: This was once the Sapphire Sea, until the source went out of control.
+			History_Civilization: That ancient civilization was powerful. They learned to utilize that eerie power. They built cities, like dancing on a powder keg.
+			History_Cataclysm: Naturally, the balance broke. Some terror revived, and all living things were erased in an instant, becoming part of this dead silence.
+			History_Ruins: What you see now is merely the residue after that event. The water changed color because it died. Completely died.
+			History_Warning: If you ever see the dead waving at you, or hear familiar calls... remember, that is just this sea of corpses mimicking the living.
+			Choice_History_MoreRuins: Where is the most dangerous place?
+			Choice_History_Dangers: Are there any countermeasures?
+			Choice_History_Back: Unsettling
+			History_MoreRuins1: At the very bottom of that corpse sea. There is a door. Do not knock. No one can handle what is locked behind it, unless that tyrant comes.
+			History_MoreRuins2: There are still unopened rooms in those sunken ruins. They are secret chambers cast from special heavy metals, designed to cut off the perception of those things.
+			History_Dangers1: Aside from the mutated walking dead, beware of things you cannot see. Sometimes, the fatal strike is invisible.
+			History_Dangers2: Do not trust your eyes. Do not respond to inexplicable calls. In that sea of corpses, the living are the anomalies.
+			Fragments_Intro: Ocean Scraps... in my eyes, they are bloodstained archives.
+			Fragments_Nature: They are the residue of a phenomenon. Like compressed curses.
+			Fragments_Power: Each fragment is a 'medium'. Alone, they may be harmless, but when enough gather, they create a collision of eerie forces.
+			Fragments_Collection: They are scattered across every corner of the dead sea—some buried under ruins, others grown into the flesh of creatures.
+			Fragments_Purpose: I am still piecing them together, trying to reconstruct the source of that disaster. Only by figuring out how that thing killed can I find a way to imprison it.
+			Personal_Intro: Getting by.
+			Personal_Daily: I spend most of my time sleeping to reduce fluctuations in my consciousness. If my emotions get too intense, the thing inside me gets... restless.
+			Personal_Loneliness: Solitude is good. If it gets too lively around here, it must be because 'they' have come. I am used to being a lone fish. It is safer for me, and for the world.
+			Personal_Memories: My memory is blurry. Sometimes I cannot tell which memories are mine, and which are... the memories of other individuals remaining in this body.
+			Personal_Hope: Seeing you reminds me of myself back then. Ignorant and fearless. I hope you don't end up like me, turning yourself into this shape.
+			Choice_Personal_Tea: What are you drinking?
+			Choice_Personal_Past: Are you still considered... a fish?
+			Choice_Personal_Back: Take care
+			Personal_Tea1: This is brewed from several special plants in the abyss. The taste... is like rotting mud.
+			Personal_Tea2: Want a cup? It will calm you down like a dead fish.
+			Personal_Past1: Who knows? Maybe the real me died long ago, and I am just a... ghost with the Old Duke's memories? Every death triggers a restart, returning to the moment before death.
+			Personal_Past2: But I still remember the feeling of sunlight on my face, the touch of books. As long as I remember these, I consider myself alive.
+			Personal_Past3: If not for that accident... I would probably be lying peacefully in a grave by now. Instead of being like this, unable to die even if I wanted to.
+			Farewell_Normal: Let's leave it at that. Come find me if you need anything.
+			Farewell_Friendly: Be careful, youngster. In this world, a peaceful end is a luxury.
+		}
+	}
+
+	FirstCampsiteDialogue: {
+		OldDukeName: Old Duke
+		L0: You've come.
+		L1: I have been collecting these scraps for quite some years.
+		L2: They are... peculiar. They do not look like products of natural evolution, but rather foreign objects that "invaded" this world.
+		L3: I hope you understand what I mean. My intuition tells me they should have been formless things, merely choosing a form that Terrarian creatures could comprehend.
+		L4: Regardless... I wish to decipher them, but I lack sufficient quantity.
+		L5: I hope you can help me collect enough Ocean Scraps.
+		L6: I will provide you with appropriate compensation.
+	}
+
+	ComeCampsiteFindMe: {
+		OldDukeName: Old Duke
+		B1: ...Come have a cup of tea when you have time.
+		C1: I have business with you.
+		C2: I was just fishing for fun...
+		B1_NO: Come find me first. You'd best learn the path.
+	}
+}
+
+QuestLogs: {
+	QuestNode: {
+		FirstQuest: {
+			DisplayName: ¡Bienvenido al mundo de la Calamidad!
+			Description: El comienzo del viaje
+			DetailedDescription: Todas las leyendas tienen un origen humilde. Recoge tu equipo inicial y prepárate para enfrentarte a un mundo lleno de dioses y monstruos.
+			QuestObjective.Description: Hagaz clic para reclamar los artículos iniciales
+			QuestReward.Description: Paquete de inicio para aventureros
+		}
+
+		MiningQuest: {
+			DisplayName: Mining Basics
+			Description: Obtain 10 Copper Ore
+			DetailedDescription: The underground holds infinite wealth. First, we need some basic metals to craft tools.
+			QuestObjective.Description: Recolecta 10 minerales de cobre
+
+			QuestReward: {
+				Description: 5 Monedas de cobre
+				Description2: 1 Pico de hierro
+			}
+		}
+
+		MiningQuestII: {
+			DisplayName: La Edad del Hierro
+			Description: Collect 50 Iron Ore
+			QuestObjective.Description: Collect 50 Iron Ore
+
+			QuestReward: {
+				Description: 50 Iron Bars
+				Description2: 1 Gold Pickaxe
+			}
+
+			DetailedDescription: Copper is too soft; we need harder metals to arm ourselves. Delve deeper underground to find Iron veins.
+		}
+
+		MiningQuestIII: {
+			DisplayName: Gold Rush
+			Description: Collect 100 Gold Ore
+			QuestObjective.Description: Collect 100 Gold Ore
+
+			QuestReward: {
+				Description: 100 Gold Bars
+				Description2: 1 Platinum Pickaxe
+			}
+
+			DetailedDescription: Gold is not just currency; it possesses excellent magical conductivity and ductility. Although softer than Iron, it is a crucial material for crafting advanced gear.
+		}
+
+		BrimstoneElementalQuest: {
+			DisplayName: Brimstone Elemental
+			Description: Defeat the Brimstone Elemental
+			QuestObjective.Description: Defeat the Brimstone Elemental
+			QuestReward.Description: 10 Souls of Night
+			DetailedDescription: In the ruins of the Brimstone Crag, awaken and defeat the slumbering elemental spirit. Beware her bullet hell.
+		}
+
+		CalamitasCloneQuest: {
+			DisplayName: The Calamitas Clone
+			Description: Defeat the Calamitas Clone
+			QuestObjective.Description: Defeat the Calamitas Clone
+			QuestReward.Description: 10 Calamitous Dust
+			DetailedDescription: A clone filled with hatred and a desire for destruction. Defeat it to prove you are worthy of facing the true Witch.
+		}
+
+		CrabulonQuest: {
+			DisplayName: Crabulon
+			Description: Defeat Crabulon
+			QuestObjective.Description: Defeat Crabulon
+			QuestReward.Description: 50 Glowing Mushrooms
+			DetailedDescription: In the Glowing Mushroom underground, a giant crab infested by fungi lurks. Its spores are extremely dangerous.
+		}
+
+		CryogenQuest: {
+			DisplayName: Cryogen
+			Description: Defeat Cryogen
+			QuestObjective.Description: Defeat Cryogen
+			QuestReward.Description: 10 Souls of Light
+			DetailedDescription: The former Archmage of the cosmos is sealed within this eternal prison of ice. Release and defeat it to unleash the power of the arctic.
+		}
+
+		DesertScourgeQuest: {
+			DisplayName: Desert Scourge
+			Description: Defeat the Desert Scourge
+			QuestObjective.Description: Defeat the Desert Scourge
+			QuestReward.Description: 10 Victory Shards
+			DetailedDescription: The former tyrant of the seas now gasps for life in the dried-up desert. Beware its massive mandibles and minions.
+		}
+
+		EaterofWorldsQuest: {
+			DisplayName: Eater of Worlds / Brain of Cthulhu
+			Description: Defeat the Boss of the Corruption or Crimson
+			QuestObjective.Description: Defeat the Eater of Worlds or Brain of Cthulhu
+			QuestReward.Description: 20 Shadow Scales / Tissue Samples
+			DetailedDescription: Evil is spreading. Venture into the world's lesions and eradicate the giant worm or the vile brain entrenched there.
+		}
+
+		EyeofCthulhuQuest: {
+			DisplayName: Eye of Cthulhu
+			Description: Defeat the Eye of Cthulhu
+			QuestObjective.Description: Defeat the Eye of Cthulhu
+			QuestReward.Description: 20 Demonite / Crimtane Ore
+			DetailedDescription: As long as you feel that evil gaze, it will appear. This is the first true test of your strength.
+		}
+
+		GolemQuest: {
+			DisplayName: Golem
+			Description: Defeat Golem
+			QuestObjective.Description: Defeat Golem
+			QuestReward.Description: 10 Beetle Husks
+			DetailedDescription: Deep within the Jungle Temple, an ancient war machine is enshrined. Beware its lasers and heavy fists.
+		}
+
+		HiveMindQuest: {
+			DisplayName: The Hive Mind / The Perforators
+			Description: Defeat the true god of the evil biome
+			QuestObjective.Description: Defeat The Hive Mind or The Perforators
+			QuestReward.Description: 10 Demonite / Crimtane Bars
+			DetailedDescription: They are the physical manifestations of the Corruption and Crimson's consciousness. If not destroyed, this land will never know peace.
+		}
+
+		KingSlimeQuest: {
+			DisplayName: King Slime
+			Description: Defeat King Slime
+			QuestObjective.Description: Defeat King Slime
+			QuestReward.Description: 5 Gold Coins
+			DetailedDescription: The ruler of all gelatinous creatures. Though it looks somewhat comical, do not let its massive size crush you.
+		}
+
+		LunaticCultistQuest: {
+			DisplayName: Lunatic Cultist
+			Description: Defeat the Lunatic Cultist
+			QuestObjective.Description: Defeat the Lunatic Cultist
+			QuestReward.Description: 5 Solar Fragments
+			DetailedDescription: At the dungeon entrance, a group of fanatical cultists is trying to prevent—or perhaps trigger—the apocalypse. Stop their ritual.
+		}
+
+		MechanicalBossesQuest: {
+			DisplayName: Mechanical Bosses
+			Description: Defeat all Mechanical Bosses
+			QuestObjective.Description: Defeat all Mechanical Bosses
+			QuestReward.Description: 20 Hallowed Bars
+			DetailedDescription: Early creations of Draedon, mimicking parts of Cthulhu. Only by defeating them will the world be revitalized.
+		}
+
+		MoonLordQuest: {
+			DisplayName: Moon Lord
+			Description: Defeat the Moon Lord
+			QuestObjective.Description: Defeat the Moon Lord
+			QuestReward.Description: Moon Lord Trophy
+			DetailedDescription: The mastermind behind it all, the terror from the dark side of the moon. End this long nightmare.
+		}
+
+		PlaguebringerGoliathQuest: {
+			DisplayName: The Plaguebringer Goliath
+			Description: Defeat The Plaguebringer Goliath
+			QuestObjective.Description: Defeat The Plaguebringer Goliath
+			QuestReward.Description: 20 Plague Cell Canisters
+			DetailedDescription: A Queen Bee modified by nano-virus machinery. It is not only deadly but also carries a dangerous plague.
+		}
+
+		PlanteraQuest: {
+			DisplayName: Plantera
+			Description: Defeat Plantera
+			QuestObjective.Description: Defeat Plantera
+			QuestReward.Description: 50 Chlorophyte Ore
+			DetailedDescription: Deep in the jungle sleeps a massive man-eating flower. Break the bulb and face the jungle's wrath.
+		}
+
+		SkeletronQuest: {
+			DisplayName: Skeletron
+			Description: Defeat Skeletron
+			QuestObjective.Description: Defeat Skeletron
+			QuestReward.Description: 50 Bones
+			DetailedDescription: Only by defeating this cursed old man can you safely enter the Dungeon to explore its secrets.
+		}
+
+		SlimeGodQuest: {
+			DisplayName: The Slime God
+			Description: Defeat The Slime God
+			QuestObjective.Description: Defeat The Slime God
+			QuestReward.Description: 100 Gel
+			DetailedDescription: The apex of the slime species, an ancient and gluttonous deity. Beware the combined attacks of its avatars.
+		}
+
+		WallofFleshQuest: {
+			DisplayName: Wall of Flesh
+			Description: Defeat the Wall of Flesh
+			QuestObjective.Description: Defeat the Wall of Flesh
+			QuestReward.Description: Pwnhammer
+			DetailedDescription: The gatekeeper of the world. Throw the Guide Voodoo Doll into the lava to release the world's ancient spirits and begin Hardmode.
+		}
+
+		CeaselessVoidQuest: {
+			DisplayName: Ceaseless Void
+			Description: Defeat the Ceaseless Void
+			QuestObjective.Description: Defeat the Ceaseless Void
+			QuestReward.Description: 5 Dark Plasma
+			DetailedDescription: One of the Sentinels of the Devourer, a mirror of nothingness from another dimension.
+		}
+
+		DevourerofGodsQuest: {
+			DisplayName: The Devourer of Gods
+			Description: Defeat The Devourer of Gods
+			QuestObjective.Description: Defeat The Devourer of Gods
+			QuestReward.Description: 30 Cosmilite Bars
+			DetailedDescription: A cosmic serpent that hungers to devour all divinity. Duel it in the void, and do not let it consume you.
+		}
+
+		DragonfollyQuest: {
+			DisplayName: The Dragonfolly
+			Description: Defeat The Dragonfolly
+			QuestObjective.Description: Defeat The Dragonfolly
+			QuestReward.Description: 10 Effulgent Feathers
+			DetailedDescription: A failed attempt to clone Yharon, a mad and electrified pseudo-dragon.
+		}
+
+		ExoMechsQuest: {
+			DisplayName: Exo Mechs
+			Description: Defeat the Exo Mechs
+			QuestObjective.Description: Defeat the Exo Mechs
+			QuestReward.Description: 20 Exo Prisms
+			DetailedDescription: Draedon's ultimate masterpieces, representing the pinnacle of Terrarian technology. Survive this perfect performance.
+		}
+
+		OldDukeQuest: {
+			DisplayName: The Old Duke
+			Description: Defeat The Old Duke
+			QuestObjective.Description: Defeat The Old Duke
+			QuestReward.Description: 20 Corroded Fossils
+			DetailedDescription: The ancient overlord of the Sulphurous Sea depths, a combination of mutation and power. Beware its toxic steam.
+		}
+
+		PolterghastQuest: {
+			DisplayName: Polterghast
+			Description: Defeat Polterghast
+			QuestObjective.Description: Defeat Polterghast
+			QuestReward.Description: 10 Ruinous Souls
+			DetailedDescription: A monster formed by the gathering of vengeful souls who died in the Dungeon. Quell their rage.
+		}
+
+		PrimordialWyrmQuest: {
+			DisplayName: Primordial Wyrm
+			Description: Defeat the Primordial Wyrm
+			QuestObjective.Description: Defeat the Primordial Wyrm
+			QuestReward.Description: Halibut Cannon
+			DetailedDescription: The guardian of the deepest Abyss. An entity older than the gods themselves. Do not disturb it unless necessary.
+		}
+
+		ProfanedGuardiansQuest: {
+			DisplayName: Profaned Guardians
+			Description: Defeat the Profaned Guardians
+			QuestObjective.Description: Defeat the Profaned Guardians
+			QuestReward.Description: 3 Unholy Essence
+			DetailedDescription: Loyal guards of the Profaned Goddess. Defeat them to weaken the Goddess's defenses.
+		}
+
+		ProvidenceQuest: {
+			DisplayName: Providence, the Profaned Goddess
+			Description: Defeat Providence
+			QuestObjective.Description: Defeat Providence
+			QuestReward.Description: 20 Divine Geodes
+			DetailedDescription: The Goddess who controls holy fire and purification. Challenge her in the Hallow or the Underworld, but beware of being incinerated by holy flames.
+		}
+
+		SignusQuest: {
+			DisplayName: Signus, Envoy of the Devourer
+			Description: Defeat Signus
+			QuestObjective.Description: Defeat Signus
+			QuestReward.Description: 5 Twisting Nether
+			DetailedDescription: One of the Sentinels of the Devourer, a formless assassin, a ghost of the void.
+		}
+
+		StormWeaverQuest: {
+			DisplayName: Storm Weaver
+			Description: Defeat the Storm Weaver
+			QuestObjective.Description: Defeat the Storm Weaver
+			QuestReward.Description: 5 Armored Shells
+			DetailedDescription: One of the Sentinels of the Devourer, a sky worm that feeds on thunderstorms and lightning.
+		}
+
+		SupremeCalamitasQuest: {
+			DisplayName: Supreme Calamitas
+			Description: Defeat Supreme Calamitas
+			QuestObjective.Description: Defeat Supreme Calamitas
+			QuestReward.Description: 20 Ashes of Annihilation
+			DetailedDescription: The legendary Brimstone Witch. This is the end of your journey, or perhaps a new beginning? Prepare yourself for true bullet hell.
+		}
+
+		YharonQuest: {
+			DisplayName: Yharon, Dragon of Rebirth
+			Description: Defeat Yharon
+			QuestObjective.Description: Defeat Yharon
+			QuestReward.Description: 20 Auric Tesla Bars
+			DetailedDescription: The loyal comrade of the Tyrant, a dragon possessing the phoenix's ability of rebirth. This is a trial of the soul.
+		}
+
+		BatteryQuest: {
+			DisplayName: Energy Storage
+			Description: Craft a Thermal Battery
+			QuestObjective.Description: Obtain a Thermal Battery
+			QuestReward.Description: 50 Wire
+			DetailedDescription: Power needs to be stored after generation. Crafting batteries is the first step to building a stable power grid.
+		}
+
+		HydroelectricQuest: {
+			DisplayName: Clean Energy
+			Description: Craft a Hydroelectric Generator
+			QuestObjective.Description: Obtain a Hydroelectric Generator
+			QuestReward.Description: Water Bucket
+			DetailedDescription: Harness the power of flowing water to generate electricity. A clean and sustainable way to obtain energy.
+		}
+
+		IndustrialStartQuest: {
+			DisplayName: Industrial Revolution
+			Description: Craft a Wind Generator
+			QuestObjective.Description: Obtain a Wind Generator
+			QuestReward.Description: 10 Iron Bars
+			DetailedDescription: The first step towards automation. Use wind energy to drive your machines and free your hands.
+		}
+
+		ItemFilterQuest: {
+			DisplayName: Logistics Sorting
+			Description: Craft an Item Filter
+			QuestObjective.Description: Obtain an Item Filter
+			QuestReward.Description: 2 Chests
+			DetailedDescription: Automated production lines require order. Use filters to precisely control the flow of items.
+		}
+
+		MiningMachineQuest: {
+			DisplayName: Automated Excavation
+			Description: Craft a Mining Machine
+			QuestObjective.Description: Obtain a Mining Machine
+			QuestReward.Description: 5 Spelunker Potions
+			DetailedDescription: Say goodbye to tedious manual mining. This machine devours ore veins with astonishing efficiency.
+		}
+
+		PipelineQuest: {
+			DisplayName: Energy Transmission
+			Description: Craft Universal Energy Pipes
+			QuestObjective.Description: Obtain Universal Energy Pipes
+			QuestReward.Description: 20 Universal Energy Pipes
+			DetailedDescription: The veins connecting generators and machines. Without it, electricity is just stagnant water.
+		}
+
+		TeslaTowerQuest: {
+			DisplayName: Magnetic Storm Tower
+			Description: Craft a Tesla Tower
+			QuestObjective.Description: Obtain a Tesla Tower
+			QuestReward.Description: 20 Dubious Plating
+			DetailedDescription: The crystallization of Draedon's technology. This tower allows for wireless power transmission, completely revolutionizing your wiring layout.
+		}
+
+		ThermalPowerQuest: {
+			DisplayName: Time to Burn
+			Description: Craft a Thermal Generator
+			QuestObjective.Description: Obtain a Thermal Generator
+			QuestReward.Description: 50 Coal
+			DetailedDescription: Burn fuel to generate massive amounts of power. Though not environmentally friendly, it is the most reliable energy source in the early stages.
+		}
+
+		AnnihilatingUniverseQuest: {
+			QuestObjective.Description: Obtain Annihilating Universe
+			QuestReward.Description: 5 Infinite Ingots
+			DisplayName: Annihilating Universe
+			Description: Obtain "Annihilating Universe"
+			DetailedDescription: Compress the power of galaxies onto a bowstring. This weapon possesses the power to destroy universal dimensions, the ultimate proof for a ranger.
+		}
+
+		AriaofTheCosmosQuest: {
+			QuestObjective.Description: Obtain Aria of the Cosmos
+			QuestReward.Description: 20 Infinite Ingots
+			DisplayName: Aria of the Cosmos
+			Description: Obtain "Aria of the Cosmos"
+			DetailedDescription: Perform the symphony of the stars. This tome summons black holes and quasars, letting enemies vanish amidst the song of the universe.
+		}
+
+		DarkMatterCompressorQuest: {
+			QuestObjective.Description: Obtain Dark Matter Compressor
+			QuestReward.Description: 10 Dark Matter Balls
+			DisplayName: Dark Matter Compressor
+			Description: Obtain Dark Matter Compressor
+			DetailedDescription: Manipulate the most mysterious matter in the universe. This machine compresses dark matter into high-density energy spheres for advanced crafting.
+		}
+
+		InfiniteIngotQuest: {
+			QuestObjective.Description: Obtain Infinite Ingot
+			QuestReward.Description: 2 Infinite Ingots
+			DisplayName: Infinite Ingot
+			Description: Forge Infinite Ingot
+			DetailedDescription: A metal that transcends the law of conservation of mass. It is the cornerstone to ultimate power, containing infinite possibilities.
+		}
+
+		InfinitePickQuest: {
+			QuestObjective.Description: Obtain Infinite Pickaxe
+			QuestReward.Description: 5 Infinite Ingots
+			DisplayName: Infinite Pickaxe
+			Description: Obtain Infinite Pickaxe
+			DetailedDescription: Nothing can stop this pickaxe. It can mine everything, even the bedrock of the world.
+		}
+
+		InfiniteToiletQuest: {
+			QuestObjective.Description: Obtain Infinite Toilet
+			QuestReward.Description: 1 Infinite Ingot
+			DisplayName: Infinite Toilet
+			Description: Obtain Infinite Toilet
+			DetailedDescription: The throne of gods. Though it sounds absurd, it truly symbolizes some form of... supreme authority.
+		}
+
+		InfinityCatalystQuest: {
+			QuestObjective.Description: Obtain Infinity Catalyst
+			QuestReward.Description: 1 Infinite Ingot
+			DisplayName: Infinity Catalyst
+			Description: Obtain Infinity Catalyst
+			DetailedDescription: The key medium to start the infinite reaction. It allows matter to cycle between annihilation and rebirth, generating immense energy.
+		}
+
+		NeutronBowQuest: {
+			QuestObjective.Description: Obtain Neutron Bow
+			QuestReward.Description: 2 Neutron Star Ingots
+			DisplayName: Neutron Bow
+			Description: Obtain Neutron Bow
+			DetailedDescription: A bow forged from the core fragments of a neutron star. Every arrow carries the gravity of a collapsing star.
+		}
+
+		NeutronGlaiveQuest: {
+			QuestObjective.Description: Obtain Neutron Glaive
+			QuestReward.Description: 2 Neutron Star Ingots
+			DisplayName: Neutron Glaive
+			Description: Obtain Neutron Glaive
+			DetailedDescription: A polearm with astonishing density. Wielding it requires immense strength, but no armor can withstand its slash.
+		}
+
+		NeutronGunQuest: {
+			QuestObjective.Description: Obtain Neutron Gun
+			QuestReward.Description: 2 Neutron Star Ingots
+			DisplayName: Neutron Gun
+			Description: Obtain Neutron Gun
+			DetailedDescription: A firearm that shoots micro-neutron streams. Due to their extreme density, the bullets are almost unaffected by resistance.
+		}
+
+		NeutronScytheQuest: {
+			QuestObjective.Description: Obtain Neutron Scythe
+			QuestReward.Description: 2 Neutron Star Ingots
+			DisplayName: Neutron Scythe
+			Description: Obtain Neutron Scythe
+			DetailedDescription: The reaper's harvesting tool. It tears through space with ease, harvesting life like wheat.
+		}
+
+		NeutronStarIngotQuest: {
+			QuestObjective.Description: Obtain Neutron Star Ingot
+			QuestReward.Description: 5 Neutron Star Ingots
+			DisplayName: Neutron Star Ingot
+			Description: Obtain Neutron Star Ingot
+			DetailedDescription: One of the densest materials in the universe. This metal is unimaginably heavy, humming with gravitational fluctuations.
+		}
+
+		NeutronWandQuest: {
+			QuestObjective.Description: Obtain Neutron Wand
+			QuestReward.Description: 2 Neutron Star Ingots
+			DisplayName: Neutron Wand
+			Description: Obtain Neutron Wand
+			DetailedDescription: A staff that controls gravity. Use the power of a neutron star to distort space-time and crush your enemies.
+		}
+
+		PandemoniumQuest: {
+			QuestObjective.Description: Obtain Pandemonium
+			QuestReward.Description: 20 Infinite Ingots
+			DisplayName: Pandemonium
+			Description: Obtain "Pandemonium"
+			DetailedDescription: The ultimate weapon fusing countless souls and Calamitous power. Holding it, you hold the keys to Hell and the Abyss.
+		}
+
+		RockQuest: {
+			QuestObjective.Description: Obtain Rock
+			QuestReward.Description: 5 Rocks
+			DisplayName: Rock
+			Description: Obtain Rock
+			DetailedDescription: A seemingly ordinary stone, yet it has witnessed the cycle of countless Boss Rushes. It is a symbol of eternal perseverance.
+		}
+
+		TerminusQuest: {
+			QuestObjective.Description: Obtain Terminus
+			QuestReward.Description: Massive Amount of Blood Orbs
+			DisplayName: Terminus
+			Description: Obtain Terminus
+			DetailedDescription: The key to starting the Boss Rush. Gaze into this stone and prepare to face a continuous trial against the world's strongest beings.
+		}
+
+		TransmutationOfMatterQuest: {
+			QuestObjective.Description: Obtain Matter Transmuter
+			QuestReward.Description: 10 Infinite Ingots
+			DisplayName: Matter Transmuter
+			Description: Obtain Matter Transmuter
+			DetailedDescription: The ultimate form of alchemy. This machine breaks the principle of equivalent exchange, converting matter at will, or creating it from nothing.
+		}
+
+		HeavenfallLongbowQuest: {
+			QuestObjective.Description: Obtain Heavenly Gale
+			QuestReward.Description: 5 Infinite Ingots
+			DisplayName: Heavenly Gale
+			Description: Obtain Heavenly Gale
+			DetailedDescription: A longbow that has shot down gods. Now it shall reappear in the world.
+		}
+	}
 }
