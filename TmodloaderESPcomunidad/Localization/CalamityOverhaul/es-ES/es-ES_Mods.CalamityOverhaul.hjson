@@ -5796,8 +5796,8 @@ NPCModifys: {
 		Homeless1: ¿Tienes un lugar donde pueda quedarme? Quiero decir... De lo contrario, estoy dispuesta a montar un campamento cerca.
 		Homeless2: ¿Sabes cómo vivía la gente en épocas remotas? No tenían casas y vivían únicamente en huecos de árboles. ¿Podrías al menos encontrarme un hueco en un árbol?
 		Homeless3: ¿No hay viviendas vacías? Un momento... ¿esperas que pague el alquiler?
-		L0: No puedo pagar un alquiler, pero si tienes algún familiar fallecido y deseas que intente... ¿qué? ¿Te niegas?
-		L1: Nunca he creído en las almas. Cualquier intento de resucitar a los muertos sólo provocará una catástrofe mayor.
+		L0: No puedo pagar un alquiler, ¿Quizás podría realizar un exorcismo en tu ciudad para que me hagas un descuento?
+		L1: Nunca he creído en el concepto de alma. Cualquier intento de resucitar a los muertos sólo provocará una catástrofe mayor.
 		L2:
 			'''
 			En el siglo pasado, entré en un pueblo rodeado por lo sobrenatural.
@@ -5813,7 +5813,7 @@ NPCModifys: {
 		L4:
 			'''
 			Sé que estás interesado en mi magia, pero no es... magia.
-			Es poder oculto. Aquellos que meten las narices en lo sobrenatural tienen un feliz. Te sugiero que te mantengas alejado de eso.
+			Espero que te mantengas alejado de eso. Aquellos que tocan estos poderes no tienen un final feliz.
 			'''
 		BloodMoon0: Este cielo sangriento antinatural... Palidece en comparación con el color de mis llamas de azufre.
 		BloodMoon1: No puedo trabajar en una noche como esta. Incluso las estrellas parecen encogerse de miedo.
@@ -6487,6 +6487,19 @@ UI: {
 		TitleText: Baúl antiguo
 		StorageText: Espacio de almacenamiento
 	}
+	QuestLog: {
+		ObjectiveText: Objetivo
+		RewardText: Recomensa
+		ReceiveAwardText: Reclamar
+		ProgressText: Progreso de misión
+		QuickReceiveAwardText: Reclamar rápida
+		StyleSwitchText: Estilo
+		NightModeText: Modo nocturno
+		ResetViewText: Restablecer
+		SunModeText: Modo diurno
+	}
+
+	QuestNotificationSystem.Text1: Misión completada
 }
 
 ADV: {
