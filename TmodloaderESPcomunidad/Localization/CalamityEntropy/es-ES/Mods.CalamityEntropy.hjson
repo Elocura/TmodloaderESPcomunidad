@@ -3389,7 +3389,7 @@ Items: {
 
 	CharredMissle: {
 		DisplayName: Misil carbonizado
-		Tooltip: Harás un 5%  más de daño por cada proyectil adherido al enemigo
+		Tooltip: Harás un 5% más de daño por cada proyectil adherido al enemigo
 	}
 
 	OsseousRemains: {
@@ -3402,7 +3402,7 @@ Items: {
 		Tooltip:
 			'''
 			Lanza misiles que pueden adherirse al enemigo y causar daño de forma continua
-			Pueden adherirse hasta 3 misisles
+			Pueden adherirse hasta 3 misiles
 			[c/960e05:Oh, puedo hacer muchas cosas por ti, asesino mío.]
 			'''
 	}
@@ -3412,7 +3412,7 @@ Items: {
 		Tooltip:
 			'''
 			Lanza misiles que pueden adherirse al enemigo y causar daño de forma continua
-			Pueden adherirse hasta 2 misisles
+			Pueden adherirse hasta 2 misiles
 			[c/87CEEB:Podemos ser todo lo que esperas, mi salvador virtuoso.]
 			'''
 	}
@@ -3422,7 +3422,7 @@ Items: {
 		Tooltip:
 			'''
 			Lanza misiles que pueden adherirse al enemigo y causar daño de forma continua
-			Pueden adherirse hasta 3 misisles
+			Pueden adherirse hasta 3 misiles
 			Provoca incendios de azufre para reducir los buffos
 			'''
 	}
@@ -3432,7 +3432,7 @@ Items: {
 		Tooltip:
 			'''
 			Lanza misiles que pueden adherirse al enemigo y causar daño de forma continua
-			Pueden adherirse hasta 4 misisles
+			Pueden adherirse hasta 4 misiles
 			Provoca incendios de azufre para reducir los buffos
 			Genera balas de azufre durante la explosión
 			[c/304fff: Convirtámonos en entidades y, a cambio, haremos realidad sus ideas y sueños.]
@@ -3444,7 +3444,7 @@ Items: {
 		Tooltip:
 			'''
 			Lanza misiles que pueden adherirse al enemigo y causar daño de forma continua
-			Pueden adherirse hasta 5 misisles
+			Pueden adherirse hasta 5 misiles
 			Genera misiles plagados durante la explosión
 			'''
 	}
@@ -3502,9 +3502,9 @@ NihArmorConnet:
 	'''
 	Apunta a otro jugador que lleve [ANOTHERSET] y pulsa el botón [[CONNECT]] para conectarte a él
 	Durante la conexión, se añade una regeneración de vida adicional de 2, 
-	y se extraerá vida del jugador con menos salud para proporcionar curación a otro jugador
-	Al recibir daño fatal, si el otro jugador puede soportar el daño sin morir, 
-    el daño pasará al otro jugador. Este efecto tiene un enfriamiento de 12 segundos
+	y se extraerá vida del jugador con menos salud para proporcionar curación al otro jugador
+	Si un jugador recibe daño fatal, y el otro jugador puede soportar el daño sin morir, 
+    el daño pasará a ese otro jugador. Este efecto tiene un enfriamiento de 12 segundos
 	Al conectarse, ambas partes adquirirán la habilidad de lanzar el láser de nihilidad y las células caóticas
 	'''
 }
@@ -5028,18 +5028,18 @@ LoreMechsDesc: +{1} de defensa
 LoreTwinsDesc: +{1} de defensa
 LoreDestroyerDesc: +{1} de defensa
 LoreSkeletronPrimeDesc: +{1}% de reducción de daño
-LoreSulphurSeaDesc: Eres inmune a ácido ponzoñoso
+LoreSulphurSeaDesc: Eres inmune a Ácido ponzoñoso
 LoreAzafureDesc: +{1}% de probabilidad de crítico
 LoreCalamitasCloneDesc: +{1}% de velocidad de ataque cuerpo a cuerpo
 LorePlanteraDesc: +0.5 de regeneración de vida
 LoreAbyssDesc: Aumentar el tiempo de apnea
 LoreLeviathanAnahitaDesc: Incrementa en 1 la regeneración de vida bajo el agua
-LoreAstrumAureusDesc: Aumenta la velocidad de disipación deld debuff infección astral
+LoreAstrumAureusDesc: Aumenta la velocidad de disipación del debuff Infección astral
 LoreGolemDesc: +{1}% de reducción de daño
-LorePlaguebringerGoliathDesc: Aumenta la velocidad de disipación del debuff plaga
+LorePlaguebringerGoliathDesc: Aumenta la velocidad de disipación del debuff Plaga
 LoreEmpressofLightDesc: +{1} de defensa durante el día
 LoreDukeFishronDesc: Ignora al agua
-LoreRavagerDesc: incrementa la velocidad de movimiento en 2%
+LoreRavagerDesc: Incrementa la velocidad de movimiento en 2%
 LorePreludeDesc: +5% de luz
 LoreAstralInfectionDesc: +{1}% de tiempo de vuelo
 LoreAstrumDeusDesc: +{1}% de velocidad de vuelo
@@ -5383,3 +5383,4 @@ DriverCoreCooldown: Núcleo conductor del escudo
 FetalDreamDamage: Daño de Koishi 
 NihilityShield: Escudo de la Nihilidad
 CardsDesc: Debería haber un juego completo de cartas similar a este
+
