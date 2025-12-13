@@ -1449,6 +1449,16 @@ Items: {
 		DisplayName: Libro de misiones
 		Tooltip: Úsalo para abrir o cerrar la interfaz de misiones
 	}
+
+	MermanRod: {
+		Text1: ¡Una Percha de tritón ya ha sido colocada en el mundo!
+		DisplayName: Percha de tritón
+		Tooltip:
+			'''
+			Increases fishing power by 20 when fishing nearby Incrementa el poder de pesca en 20 cuando estás cerca
+			El Viejo Duque trasladará su campamento aquí
+			'''
+	}
 }
 
 Projectiles: {
@@ -6497,6 +6507,7 @@ UI: {
 		NightModeText: Modo nocturno
 		ResetViewText: Restablecer
 		SunModeText: Modo diurno
+		LauncherHoverText: Clic izquierdo para abrir, clic derecho para arrastrar
 	}
 
 	QuestNotificationSystem.Text1: Misión completada
@@ -6866,8 +6877,8 @@ ADV: {
 	}
 
 	FishoilQuestUI: {
-		TitleText: Recolecta: Lubina
-		DescText: Deposita suficiente lubinas y yo la refinaré para convertirla en una botella de aceite de pescado.
+		TitleText: Recolecta: Peces
+		DescText: Deposita peces y yo los refinaré para convertirlos en una botella de aceite de pescado.
 		SubmitHint: Clic para depositar/retirar
 		DeclineText: Rechazar
 		CompletedText: Completado
@@ -7394,24 +7405,24 @@ QuestLogs: {
 
 		MiningQuest: {
 			DisplayName: Conceptos básicos sobre minería
-			Description: Obtener 10 minerales de cobre
+			Description: Obtener 10 {0}
 			DetailedDescription: El subsuelo alberga riquezas infinitas. En primer lugar, necesitamos algunos metales básicos para fabricar herramientas.
-			QuestObjective.Description: Recolenta 10 Minerales de cobre
+			QuestObjective.Description: Recolenta 10 {0}
 
 			QuestReward: {
-				Description: 5 Lingotes de cobre
-				Description2: 1 Pico de hierro
+				Description: 5 {0}
+				Description2: 1 {0}
 			}
 		}
 
 		MiningQuestII: {
 			DisplayName: La Edad del Hierro
-			Description: Recoge 50 minerales de hierro
-			QuestObjective.Description: Recoge 50 minerales de hierro
+			Description: Recoge 50 {0}
+			QuestObjective.Description: Recoge 50 {0}
 
 			QuestReward: {
-				Description: 50 Lingotes de hiero
-				Description2: 1 Pico de oro
+				Description: 50 {0}
+				Description2: 1 {0}
 			}
 
 			DetailedDescription: El cobre es demasiado blando; necesitamos metales más duros para armarnos. Profundiza más en el subsuelo para encontrar vetas de hierro.
@@ -7419,12 +7430,12 @@ QuestLogs: {
 
 		MiningQuestIII: {
 			DisplayName: Fiebre del oro
-			Description: Recoge 100 minerales de oro
-			QuestObjective.Description: Recoge 100 minerales de oro
+			Description: Recoge 100 {0}
+			QuestObjective.Description: Recoge 100 {0}
 
 			QuestReward: {
-				Description: 100 Lingotes de oro
-				Description2: 1 Pico de platino
+				Description: 100 {0}
+				Description2: 1 {0}
 			}
 
 			DetailedDescription: El oro no es solo una moneda; posee una excelente conductividad mágica y ductilidad. Aunque es más blando que el hierro, es un material crucial para fabricar equipo avanzado.
@@ -7885,6 +7896,165 @@ QuestLogs: {
 			Description: Consigue un Arco largo caído del cielo
 			DetailedDescription: Un arco largo que ha derribado a los dioses. Ahora reaparecerá en el mundo.
 		}
+
+		SpearOfLonginusQuest: {
+			QuestObjective.Description: Obtén la Lanza de Longinus
+			QuestReward.Description: 5 Lingotes del infinito
+			DisplayName: Lanza de Longinus
+			Description: Obtén la Lanza de Longinus
+			DetailedDescription: La legendaria lanza sagrada que atravesó a una deidad. Tiene el poder de penetrar todos los campos y barreras absolutas. Cuando se lanza, incluso las leyes de la causalidad se apartan de su camino.
+		}
+
+		DragonsWordQuest: {
+			QuestObjective.Description: Obtén la Palabra del dragón
+			QuestReward.Description: 5 Lingotes del infinito
+			DisplayName: Palabra del dragón
+			Description: Obtén la Palabra del dragón
+			DetailedDescription: Un dragón derrama lágrimas solo una vez en su vida, en el momento de su muerte.
+		}
+
+		RockQuestII: {
+			QuestObjective.Description: Completa el Asalto de jefes 5 veces y obtén 5 rocas
+			QuestReward.Description: 5 Rocas
+			DisplayName: Ciclo de conquista
+			Description: Completa el Asalto de jefes 5 veces y obtén 5 rocas
+			DetailedDescription: El símbolo de un verdadero guerrero
+		}
+
+		AdventurerQuests: {
+			DisplayName: Aventureri
+			Description: ¡El mundo es un lienzo para mis pasos!
+			QuestObjective.Description: Clic para reclamar
+			QuestReward.Description: Botas de hermes
+			DetailedDescription: Un viaje de mil kilómetros comienza con un solo paso. Ponte estas botas y mide este vasto mundo.
+		}
+
+		ExploreDungeon: {
+			DisplayName: Mazmorra lúgubre
+			Description: Descubre la entrada a la mazmorra
+			QuestObjective.Description: Llega a la mazmorra
+			QuestReward.Description: Poción de sentido del peligro
+			DetailedDescription: Infinitos secretos y peligros se esconden tras estos muros malditos. Solo los exploradores más valientes se atreven a poner un pie en el reino de los muertos.
+		}
+
+		ExploreHell: {
+			DisplayName: Inframundo abisal
+			Description: Desciende al inframundo
+			QuestObjective.Description: Llega al Inframundo
+			QuestReward.Description: Poción de piel de obsidiana
+			DetailedDescription: Ríos de lava fluyen en las partes más profundas del mundo. Es el hogar de los demonios y la fuente de la obsidiana y la piedra infernal. Ten cuidado por donde pisas.
+		}
+
+		ExploreJungle: {
+			DisplayName: Expedición a la selva
+			Description: Adéntrate en el bioma de la Selva
+			QuestObjective.Description: Llega a la selva
+			QuestReward.Description: Poción de invocación
+			DetailedDescription: Es un laberinto verde vibrante pero peligroso. La densa vegetación oculta antiguos templos y mortíferos enjambres de abejas.
+		}
+
+		ExploreOcean: {
+			DisplayName: El Fin del mundo
+			Description: Adéntrate en el bioma del Océano
+			QuestObjective.Description: Llega al océano
+			QuestReward.Description: Poción de agallas
+			DetailedDescription: El borde del continente. Aquí, el cielo se encuentra con el mar. Barcos hundidos y monstruos marinos desconocidos yacen enterrados bajo el azul profundo.
+		}
+
+		ExploreSnow: {
+			DisplayName: Yermo helado
+			Description: Explora el bioma de la Tundra
+			QuestObjective.Description: Llega al bioma de la tundra
+			QuestReward.Description: Poción del calor
+			DetailedDescription: El permafrost es eterno. El viento cortante lo cubre todo de hielo y nieve. Aquí, la vida persiste y es mucho mucho más resistente.
+		}
+
+		ExploreSpace: {
+			DisplayName: Mar de estrellas
+			Description: Vuela al Espacio
+			QuestObjective.Description: Llega al espacio
+			QuestReward.Description: Poción de caída de pluma
+			DetailedDescription: Libérate de las cadenas de la gravedad y toca las estrellas. Solo si vuelas lo suficientemente alto podrás ver por completo este mundo.
+		}
+
+		HellLabSchematic: {
+			DisplayName: Plano del infierno
+			Description: Encuentra el esquema cifrado en el laboratorio Draedon del inframundo
+			QuestObjective.Description: Consigue el plano del infierno
+
+			QuestReward: {
+				Description: {
+					Plating: Chapado dubitativo
+					Circuitry: Circuitos misteriosos
+					Fireblossom: Resplandor de fuego
+				}
+			}
+
+			DetailedDescription: Draedon estableció un puesto avanzado en el infierno para experimentar con energía geotérmica. Encuentra el esquema allí; podría desbloquear nuevo armamento.
+		}
+
+		IceLabSchematic: {
+			DisplayName: Plano polar
+			Description: Encuentra el esquema cifrado en el laboratorio Draedon de la Tundra
+			QuestObjective.Description: Consigue el plano de la Tundra
+
+			QuestReward: {
+				Description: {
+					Plating: Chapado dubitativo
+					Circuitry: Circuitos misteriosos
+					Shiverthorn: Espinatemblor
+				}
+			}
+
+			DetailedDescription: Las bajas temperaturas de este lugar son perfectas para conservar instrumentos de precisión. Adéntrate en el laboratorio bajo el hielo para descubrir esa tecnología polar sellada.
+		}
+
+		JungleLabSchematic: {
+			DisplayName: Proyecto selvático
+			Description: Encuentra el esquema cifrado en el laboratorio Draedon de la Selva
+			QuestObjective.Description: Consigue el plano de la Selva
+
+			QuestReward: {
+				Description: {
+					Plating: Chapado dubitativo
+					Circuitry: Circuitos misteriosos
+					Moonglow: Luz de luna
+				}
+			}
+
+			DetailedDescription: La densa selva oculta el laboratorio biológico de Draedon. Allí estudiaba plagas y nanovirus. Encuentra ese esquema para revelar la peligrosa verdad.
+		}
+
+		PlanetoidLabSchematic: {
+			DisplayName: Exo Misterio
+			Description: Encuentra el esquema cifrado en el laboratorio Draedon del Planetoide
+			QuestObjective.Description: Consigue el plano del Planetoide
+
+			QuestReward: {
+				Description: {
+					Plating: Chapado dubitativo
+					Circuitry: Circuitos misteriosos
+					FallenStar: Estrella fugaz
+				}
+			}
+
+			DetailedDescription: En este entorno microgravitatorio de gran altitud, un laboratorio flota silenciosamente. Acércate hasta allí para encontrar los primeros diseños relacionados con los Exo mecánicos.
+		}
+
+		SunkenSeaLabSchematic: {
+			DisplayName: Mar hundido
+			Description:  Encuentra el esquema cifrado en el laboratorio Draedon del Mar hundido
+			QuestObjective.Description: Consigue el plano del mar hundido
+
+			QuestReward: {
+				Description: {
+					Plating: Chapado dubitativo
+					Circuitry: Circuitos misteriosos
+					Waterleaf: Hoja de agua
+				}
+			}
+
+			DetailedDescription: En este tranquilo mar subterráneo, Draedon dejó atrás sus investigaciones sobre la energía de los prismas. Sumérgete bajo el agua y recupera esos valiosos datos.
+		}
 	}
 }
-
