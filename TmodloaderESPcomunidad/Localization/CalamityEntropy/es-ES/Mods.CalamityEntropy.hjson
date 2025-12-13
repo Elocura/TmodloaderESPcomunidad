@@ -610,6 +610,7 @@ Items: {
 		DisplayName: Luz de luna sagrada
 		Tooltip:
 			'''
+			+10% de daño mágico
 			Otorga un escudo mágico cada 13 segundos, equivalente al 50% de magia máxima
 			Mientras se posea el escudo mágico, se incrementará la velocidad de movimiento un 10% y se reducirá el consumo de maná un 15%
 			Cuando los enemigos toquen el escudo, recibirán daño
@@ -617,7 +618,7 @@ Items: {
 			Cuando no se tenga el escudo, se podrá robar vida al atacar
 			El escudo no escala ni con la defensa ni con la reducción de daño
 			Cuanto más alto sea el maná máximo, más vida robará
-			+10% de daño mágico
+			No puedes obtener el escudo mágico cuando te equipes el Cáliz del Dios de la Sangre
 			'''
 	}
 
@@ -773,7 +774,7 @@ Items: {
 	ArchmagesHandmirror: {
 		Tooltip:
 			'''
-			Recibes un 30% extra de maná
+			Recibes un 40% extra de maná
 			Por cada punto extra de maná, aumentará el daño un 0.1%
 			'''
 		DisplayName: Espejo de mano del Archimago
@@ -1710,6 +1711,16 @@ Items: {
 	RedemptionBible: {
 		Tooltip: ""
 		DisplayName: Biblia de la redención
+	}
+
+	Redemption: {
+		DisplayName: Redención
+		Tooltip:
+			'''
+			Lanza misiles que pueden adherirse al enemigo y causar daño continuamente.
+			Se adherirán 8 de ellos.
+			Los misiles causarán debufos aleatorios.
+			'''
 	}
 
 	NightEpic: {
@@ -3312,6 +3323,190 @@ Items: {
 			Atravesar a los enemigos costará energía
 			'''
 	}
+
+	VoidEaterBodyArmor: {
+		DisplayName: Coraza del Devorador del vacío
+		Tooltip: +12% de daño
+	}
+
+	VoidEaterHelmet: {
+		DisplayName: Casco del Devorador del vacío
+		Tooltip: +12% de probabilidad de crítico y +12% de daño
+	}
+
+	VoidEaterLeggings: {
+		DisplayName: Mallas del Devorador del vacío
+		Tooltip: +18% de velocidad de movimiento
+	}
+
+	RedDragonHorn: {
+		DisplayName: Cuerno de dragón rojo
+		Tooltip: ""
+	}
+
+	ChaoticBodyArmor: {
+		DisplayName: Coraza caótica
+		Tooltip:
+			'''
+			+4 de regeneración de vida
+			+10% de reducción de daño
+			+1 espacio de súbditos
+			'''
+	}
+
+	ChaoticHelmet: {
+		DisplayName: Casco caótico
+		Tooltip:
+			'''
+			+13% de daño
+			+1 espacio de súbditos
+			'''
+	}
+
+	ChaoticLeggings: {
+		DisplayName: Mallas caóticas
+		Tooltip:
+			'''
+			+8% de velocidad de movimiento
+			+13% de probabilidad de crítico
+			'''
+	}
+
+	ChaoticPiece: {
+		DisplayName: Trozo caótico
+		Tooltip: ""
+	}
+
+	NihilityFragments: {
+		DisplayName: Fragmentos de la Nihilidad
+		Tooltip: ""
+	}
+
+	CosmicBlessing: {
+		DisplayName: Bendición cósmica
+		Tooltip: Dispara láseres desde atrás
+	}
+
+	CharredMissle: {
+		DisplayName: Misil carbonizado
+		Tooltip: Harás un 5%  más de daño por cada proyectil adherido al enemigo
+	}
+
+	OsseousRemains: {
+		DisplayName: Restos óseos
+		Tooltip: “Tiene olor a quemado”
+	}
+
+	FrailMissle: {
+		DisplayName: Frágil
+		Tooltip:
+			'''
+			Lanza misiles que pueden adherirse al enemigo y causar daño de forma continua
+			Pueden adherirse hasta 3 misisles
+			[c/960e05:Oh, puedo hacer muchas cosas por ti, asesino mío.]
+			'''
+	}
+
+	Hope: {
+		DisplayName: Esperanza
+		Tooltip:
+			'''
+			Lanza misiles que pueden adherirse al enemigo y causar daño de forma continua
+			Pueden adherirse hasta 2 misisles
+			[c/87CEEB:Podemos ser todo lo que esperas, mi salvador virtuoso.]
+			'''
+	}
+
+	Crave: {
+		DisplayName: Anhelo
+		Tooltip:
+			'''
+			Lanza misiles que pueden adherirse al enemigo y causar daño de forma continua
+			Pueden adherirse hasta 3 misisles
+			Provoca incendios de azufre para reducir los buffos
+			'''
+	}
+
+	Struggle: {
+		DisplayName: Lucha
+		Tooltip:
+			'''
+			Lanza misiles que pueden adherirse al enemigo y causar daño de forma continua
+			Pueden adherirse hasta 4 misisles
+			Provoca incendios de azufre para reducir los buffos
+			Genera balas de azufre durante la explosión
+			[c/304fff: Convirtámonos en entidades y, a cambio, haremos realidad sus ideas y sueños.]
+			'''
+	}
+
+	Pardon: {
+		DisplayName: Perdón
+		Tooltip:
+			'''
+			Lanza misiles que pueden adherirse al enemigo y causar daño de forma continua
+			Pueden adherirse hasta 5 misisles
+			Genera misiles plagados durante la explosión
+			'''
+	}
+
+	PaleSpear: {
+		DisplayName: Lanza pálida
+		Tooltip: ""
+	}
+
+	AzafureSteamKnightArmor: {
+		DisplayName: Coraza de Caballero de vapor de Azafure
+		Tooltip: ""
+	}
+
+	AzafureSteamKnightHelmet: {
+		DisplayName: Casco de Caballero de vapor de Azafure
+		Tooltip: ""
+	}
+
+	AzafureSteamKnightLeggings: {
+		DisplayName: Mallas de Caballero de vapor de Azafure
+		Tooltip: ""
+	}
+}
+
+ChaoticSetBonus:
+	'''
+	+12% de reducción de daño
+	+12% de daño
+	+40 de vida máxima
+	+3 espacios de súbditos
+	Libera pequeñas células del caos al sufrir daño
+	Las células perseguirán y atacarán a los enemigos, 
+  	y luego volverán tras un tiempo y te curarán
+	Presiona [[KEY]]([KN]) para perder vida y así invocar 3 células
+	Puedes tener un máximo de [LIMIT] células
+	'''
+VoidEaterBonus:
+	'''
+	Dispara láseres de nihilidad a un objetivo tras otro al impactar
+	Este efecto tiene 3 segundos de enfriamiento
+	Proyecta un escudo capaz de resistir un daño de [SHIELD]
+	El escudo tardará 10 segundos en recuperarse
+	Presiona [[KEY]]([KN]) para acelerar la recuperación del escudo a cambio de perder vida
+	+1 de regeneración de vida cuando el escudo esté roto
+	+2 espacios de súbditos
+	+100 de maná máximo
+	+14% de daño
+	+14% de daño crítico
+	+120% de sigilo
+	'''
+VoidEaterSet: Conjunto Devorador del Vacío
+ChaoticSet: Congunto caótico
+NihArmorConnet:
+	'''
+	Apunta a otro jugador que lleve [ANOTHERSET] y pulsa el botón [[CONNECT]] para conectarte a él
+	Durante la conexión, se añade una regeneración de vida adicional de 2, 
+	y se extraerá vida del jugador con menos salud para proporcionar curación a otro jugador
+	Al recibir daño fatal, si el otro jugador puede soportar el daño sin morir, 
+    el daño pasará al otro jugador. Este efecto tiene un enfriamiento de 12 segundos
+	Al conectarse, ambas partes adquirirán la habilidad de lanzar el láser de nihilidad y las células caóticas
+	'''
 }
 
 LOCKED: ": [BLOQUEADO]"
@@ -3355,7 +3550,7 @@ MariviniumSet:
 	Al usar armas cuerpo a cuerpo verdaderas, se reduce el daño un 15% y se obtiene una defensa de 25
 	Al usar un látigo, mejora los atributos de invocador
 	El ataque sigiloso puede provocar una explosión de agua
-	Obtendrás 2 escudos, que tardarán 15 segundos en recuperarse después de ser destruidos
+	Obtendrás 2 escudos, que tardarán 20 segundos en recuperarse después de ser destruidos
 	Al romperse un escudo, recupera 140 puntos de vida y duplica tu daño durante 5 segundos
 	'''
 DeathMode: Modo Muerte
@@ -3878,6 +4073,13 @@ Projectiles: {
 	WulfrumScrapProj.DisplayName: Wulfrum Scrap Proj
 	NucLauncher.DisplayName: Nuc Launcher
 	PeaceJR.DisplayName: Peace JR
+	VENihilityLaser.DisplayName: Nihility Laser
+	ChaoticCellMinion.DisplayName: Chaotic Cell Minion
+	CosmicBlessingHeld.DisplayName: Cosmic Blessing Held
+	CosmicDeathRay.DisplayName: Cosmic Death Ray
+	CharredMissleProj.DisplayName: Charred Missle Proj
+	BrimHomingBullet.DisplayName: Brim Homing Bullet
+	PlagueMissle.DisplayName: Plague Missle
 }
 
 LegendTooltip: - Legendario -
@@ -4405,6 +4607,7 @@ Keybinds: {
 	VetrasylsEyeBlock.DisplayName: Bloquear Ojo de Vetrasyls
 	RuneDash.DisplayName: Embestida de Runa de vuelo
 	CommandMinions.DisplayName: Dirigir súbditos
+	NihilityAndChaoticArmorConnectKey.DisplayName: Nihilidad y conexión de la armadura caótica 
 }
 
 ProphetLoreEffect:
@@ -4489,7 +4692,7 @@ Configs: {
 
 		MariviumArmorSetOnlyProvideStealthBarWhenHoldingRogueWeapons: {
 			Tooltip: ""
-			Label: Solo se ve la barra de sigilo al usar un arma Rogue al usar la armadura de marivinium
+			Label: Los conjuntos de armadura de CalEntropy solo tendrán barras de sigilo cuando se empuñan armas rogue
 		}
 
 		EntropyMeleeWeaponSoundVolume: {
@@ -4787,6 +4990,7 @@ AmmoAle: Ale
 AmmoBloodrune: Runa de sangre
 AmmoStarblightSoot: Hollín de plaga de estrellas
 AmmoType: Tipo de munición
+AmmoMissle: Misil
 UseAmmo: Munición que usa
 OrbPunishDeath0: hecho añicos
 OrbPunishDeath1: intentó quitar el orbe vaticinador destrozado
@@ -4820,6 +5024,25 @@ LoreWallofFleshDesc: Reduce el daño recibido en un {1}%, con un enfriamiento de
 LoreBloodMoonDesc: Mejora la capacidad de ver en la oscuridad
 LoreQueenSlimeDesc: +{1}% de velocidad de caída
 LoreArchmageDesc: Aumenta la velocidad de disipación del debuff Frío
+LoreMechsDesc: +{1} de defensa
+LoreTwinsDesc: +{1} de defensa
+LoreDestroyerDesc: +{1} de defensa
+LoreSkeletronPrimeDesc: +{1}% de reducción de daño
+LoreSulphurSeaDesc: Eres inmune a ácido ponzoñoso
+LoreAzafureDesc: +{1}% de probabilidad de crítico
+LoreCalamitasCloneDesc: +{1}% de velocidad de ataque cuerpo a cuerpo
+LorePlanteraDesc: +0.5 de regeneración de vida
+LoreAbyssDesc: Aumentar el tiempo de apnea
+LoreLeviathanAnahitaDesc: Incrementa en 1 la regeneración de vida bajo el agua
+LoreAstrumAureusDesc: Aumenta la velocidad de disipación deld debuff infección astral
+LoreGolemDesc: +{1}% de reducción de daño
+LorePlaguebringerGoliathDesc: Aumenta la velocidad de disipación del debuff plaga
+LoreEmpressofLightDesc: +{1} de defensa durante el día
+LoreDukeFishronDesc: Ignora al agua
+LoreRavagerDesc: incrementa la velocidad de movimiento en 2%
+LorePreludeDesc: +5% de luz
+LoreAstralInfectionDesc: +{1}% de tiempo de vuelo
+LoreAstrumDeusDesc: +{1}% de velocidad de vuelo
 
 DraedonDialogs: {
 	Void: {
@@ -5099,11 +5322,23 @@ AzafureSet:
 	Cuando esta armadura está equipada, 
 	todo el equipo Azafure recibe mejoras parciales
 	Tendrás barra de durabilidad
-	La durabilidad proporciona hasta 18 puntos de defensa y una reducción del daño del 50%,
+	La barra de durabilidad proporciona hasta 18 puntos de defensa y una reducción del daño del 50%,
 	mientras se va reduciendo tu velocidad de movimiento
 	La durabilidad se consume en función del daño recibido y
 	se regenera lentamente 5 segundos después de recibir daño
 	Cuando la barra de durabilidad se agota, se volverá inactiva y requerirá de un tiempo para que se restaure
+	'''
+AzafureSet2:
+	'''
+	Cuando esta armadura está equipada, 
+    todo el equipo Azafure recibe mejoras parciales.
+    Tendrás una barra de durabilidad.
+    La barra de durabilidad proporciona hasta 36 puntos de defensa y una reducción del daño del 50%.
+	La durabilidad se consume en función del daño recibido al ser golpeado.
+    La durabilidad se regenera lentamente 5 segundos después de recibir daño.
+    Cuando la barra de durabilidad se agota, se desactiva y tendrás que esperar a que vuelva a estar operativa.
+    Proporciona 80 de sigilo.
+    +20% de velocidad de movimiento
 	'''
 AzafureEnhance: Mejoras
 
@@ -5141,10 +5376,10 @@ AzafureEnhances: {
 		'''
 }
 
-
 DeathExplode: "[PlayerName] explotó"
 BlockingCooldown: Enfriamiento de bloqueo
 FetalDreamCooldown: Enfriamiento del Sueño fetal
 DriverCoreCooldown: Núcleo conductor del escudo
-
-
+FetalDreamDamage: Daño de Koishi 
+NihilityShield: Escudo de la Nihilidad
+CardsDesc: Debería haber un juego completo de cartas similar a este
