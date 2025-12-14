@@ -3507,7 +3507,6 @@ NihArmorConnet:
 	el daño pasará a ese otro jugador. Este efecto tiene un enfriamiento de 12 segundos
 	Al conectarse, ambas partes adquirirán la habilidad de lanzar el láser de nihilidad y las células caóticas
 	'''
-
 LOCKED: ": [BLOQUEADO]"
 BCU1: Requiere haber derrotado al Rey Slime
 BCU2: Requiere haber derrotado a Los Perforadores o la Mente Colmena
@@ -5330,14 +5329,14 @@ AzafureSet:
 AzafureSet2:
 	'''
 	Cuando esta armadura está equipada, 
-    todo el equipo Azafure recibe mejoras parciales.
-    Tendrás una barra de durabilidad.
-    La barra de durabilidad proporciona hasta 36 puntos de defensa y una reducción del daño del 50%.
+	todo el equipo Azafure recibe mejoras parciales.
+	Tendrás una barra de durabilidad.
+	La barra de durabilidad proporciona hasta 36 puntos de defensa y una reducción del daño del 50%.
 	La durabilidad se consume en función del daño recibido al ser golpeado.
-    La durabilidad se regenera lentamente 5 segundos después de recibir daño.
-    Cuando la barra de durabilidad se agota, se desactiva y tendrás que esperar a que vuelva a estar operativa.
-    Proporciona 80 de sigilo.
-    +20% de velocidad de movimiento
+	La durabilidad se regenera lentamente 5 segundos después de recibir daño.
+	Cuando la barra de durabilidad se agota, se desactiva y tendrás que esperar a que vuelva a estar operativa.
+	Proporciona 80 de sigilo.
+	+20% de velocidad de movimiento
 	'''
 AzafureEnhance: Mejoras
 
@@ -5382,7 +5381,4 @@ DriverCoreCooldown: Núcleo conductor del escudo
 FetalDreamDamage: Daño de Koishi 
 NihilityShield: Escudo de la Nihilidad
 CardsDesc: Debería haber un juego completo de cartas similar a este
-
-
-
 
