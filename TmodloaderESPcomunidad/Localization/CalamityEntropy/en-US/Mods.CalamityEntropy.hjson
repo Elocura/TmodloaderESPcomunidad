@@ -613,14 +613,15 @@ Items: {
 		DisplayName: Holy Moonlight
 		Tooltip:
 			'''
+			+10% Magic Damage
 			Get a magic shield every thirty seconds, which is equivalent to 50% of the magic limit,
 			During the existence of the Magic Shield, increase movement speed by 10% and reduce magic consumption by 10%,
 			The shield will deal damage to the enemies it touches,
 			When the magic shield is broken, it eliminates its own magic sickness and benefits, and returns to its full magic value,
-			When there is no shield, magic barrage can suck blood,
-			The shield can not be affected by your defence and dr
+			When there is no shield, magic barrage can suck blood
 			The higher your current magic value, the higher your blood sucking ability
-			+10% Magic Damage
+			The shield can not be affected by your defence and dr
+			You can not get magic shield when equip the Chalice of the Blood God
 			'''
 	}
 
@@ -776,7 +777,7 @@ Items: {
 	ArchmagesHandmirror: {
 		Tooltip:
 			'''
-			Gives you 30% extra mana
+			Gives you 40% extra mana
 			Every 1 extra mana provides 0.1% magic damage bonus
 			'''
 		DisplayName: Archmage's Handmirror
@@ -1713,6 +1714,17 @@ Items: {
 	RedemptionBible: {
 		Tooltip: ""
 		DisplayName: Redemption Bible
+	}
+
+	Redemption: {
+		DisplayName: Redemption
+		Tooltip:
+			'''
+			Launch missiles that can adhere to the enemy and cause sustained damage
+			Up to 8 adhesive threads
+			Missile will cause random debuffs
+			Right click to launch single powerful missle
+			'''
 	}
 
 	NightEpic: {
@@ -3321,8 +3333,190 @@ Items: {
 			Cost energy to dash through enemies
 			'''
 	}
+
+	VoidEaterBodyArmor: {
+		DisplayName: Void Eater Body Armor
+		Tooltip: +12% Damage
+	}
+
+	VoidEaterHelmet: {
+		DisplayName: Void Eater Helmet
+		Tooltip: +12% Crit Chance and +12% Damage
+	}
+
+	VoidEaterLeggings: {
+		DisplayName: Void Eater Leggings
+		Tooltip: +18% Movement Speed
+	}
+
+	RedDragonHorn: {
+		DisplayName: Red Dragon Horn
+		Tooltip: ""
+	}
+
+	ChaoticBodyArmor: {
+		DisplayName: Chaotic Body Armor
+		Tooltip:
+			'''
+			+4/s life regen
+			+10% Damage reduce
+			+1 Max minion
+			'''
+	}
+
+	ChaoticHelmet: {
+		DisplayName: Chaotic Helmet
+		Tooltip:
+			'''
+			+13% Damage
+			+1 Max minion
+			'''
+	}
+
+	ChaoticLeggings: {
+		DisplayName: Chaotic Leggings
+		Tooltip:
+			'''
+			+8% Movement speed
+			+13% Crit chance
+			'''
+	}
+
+	ChaoticPiece: {
+		DisplayName: Chaotic Piece
+		Tooltip: ""
+	}
+
+	NihilityFragments: {
+		DisplayName: Nihility Fragments
+		Tooltip: ""
+	}
+
+	CosmicBlessing: {
+		DisplayName: Cosmic Blessing
+		Tooltip: Shoot lasers from behind
+	}
+
+	CharredMissle: {
+		DisplayName: Charred Missle
+		Tooltip: +5% Damage each attached projectile
+	}
+
+	OsseousRemains: {
+		DisplayName: Osseous Remains
+		Tooltip: “It has a burnt smell”
+	}
+
+	FrailMissle: {
+		DisplayName: Frail
+		Tooltip:
+			'''
+			Launch missiles that can adhere to the enemy and cause sustained damage
+			Up to 3 adhesive threads
+			[c/960e05:Oh, I can do many things for you, my murderer]
+			'''
+	}
+
+	Hope: {
+		DisplayName: Hope
+		Tooltip:
+			'''
+			Launch missiles that can adhere to the enemy and cause sustained damage
+			Up to 2 adhesive threads
+			[c/87CEEB:We can be everything you hope for, my savior full of virtues]
+			'''
+	}
+
+	Crave: {
+		DisplayName: Crave
+		Tooltip:
+			'''
+			Launch missiles that can adhere to the enemy and cause sustained damage
+			Up to 3 adhesive threads
+			Causing sulfur fire to reduce benefits
+			'''
+	}
+
+	Struggle: {
+		DisplayName: Struggle
+		Tooltip:
+			'''
+			Launch missiles that can adhere to the enemy and cause sustained damage
+			Up to 4 adhesive threads
+			Causing sulfur fire to reduce benefits
+			Generate brimstone bullet during explosion
+			[c/304fff: Let us become entities, and in return, we will realize your ideas and dreams.]
+			'''
+	}
+
+	Pardon: {
+		DisplayName: Pardon
+		Tooltip:
+			'''
+			Launch missiles that can adhere to the enemy and cause sustained damage
+			Up to 5 adhesive threads
+			Generate plague missle during explosion
+			'''
+	}
+
+	PaleSpear: {
+		DisplayName: Pale Spear
+		Tooltip: ""
+	}
+
+	AzafureSteamKnightArmor: {
+		DisplayName: Azafure Steam Knight Armor
+		Tooltip: ""
+	}
+
+	AzafureSteamKnightHelmet: {
+		DisplayName: Azafure Steam Knight Helmet
+		Tooltip: ""
+	}
+
+	AzafureSteamKnightLeggings: {
+		DisplayName: Azafure Steam Knight Leggings
+		Tooltip: ""
+	}
 }
 
+ChaoticSetBonus:
+	'''
+	+12% Damage reduce
+	+12% Damage
+	+40 Maximum Health
+	+3 Max minion
+	Releases small chaos cells upon injury
+	Cells will chase and attack enemies, 
+	then return after a period of time and be converted into your life
+	Press [[KEY]]([KN]) to cost life and spawn 3 cells
+	You can have a maximum of [LIMIT] cells
+	'''
+VoidEaterBonus:
+	'''
+	Shoot nihility lasers to target after target on hit
+	This effect has 3 sec cooldown
+	Project a shield that can withstand [SHIELD] damage
+	Shield need 10 sec to recover
+	Press [[KEY]]([KN]) to consume health and accelerate shield recovery
+	+1/s life regen when the shield is broken
+	+2 Max Minion
+	+100 Max Mana
+	+14% Damage
+	+14% Crit
+	+120% Rogue stealth
+	'''
+VoidEaterSet: Void Eater Set
+ChaoticSet: Chaotic Set
+NihArmorConnet:
+	'''
+	Aim at another player wearing [ANOTHERSET] and press the [[CONNECT]] button to connect
+	During connection, an additional 2/s of health regeneration is added, 
+	and the health of the player with lower health is extracted to provide healing for another player
+	When receiving fatal damage, if the other party can withstand the damage, 
+	it will be borne by the other party, and this effect has a cooldown time of 12 seconds
+	When connected, both parties will acquire the ability of nihility shield and chaotic cells
+	'''
 LOCKED: ": [LOCKED]"
 BCU1: Requires defeating King Slime
 BCU2: Requires defeating Perforator or Hive Mind
@@ -3367,7 +3561,7 @@ MariviniumSet:
 	When using true melee weapons, +15% Damage reduce and 25 defense
 	When using a whip, enhance summoner attributes
 	Stealth strike has a probability of causing an water explosion
-	Obtain 2 layers of shields, which will take 15 seconds to recover after being shattered
+	Obtain 2 layers of shields, which will take 20 seconds to recover after being shattered
 	After shield shattered, treat 140 health points and double your damage for 5 seconds
 	'''
 DeathMode: Death Mode
@@ -3890,6 +4084,14 @@ Projectiles: {
 	WulfrumScrapProj.DisplayName: Wulfrum Scrap Proj
 	NucLauncher.DisplayName: Nuc Launcher
 	PeaceJR.DisplayName: Peace JR
+	VENihilityLaser.DisplayName: Nihility Laser
+	ChaoticCellMinion.DisplayName: Chaotic Cell Minion
+	CosmicBlessingHeld.DisplayName: Cosmic Blessing Held
+	CosmicDeathRay.DisplayName: Cosmic Death Ray
+	CharredMissleProj.DisplayName: Charred Missle Proj
+	BrimHomingBullet.DisplayName: Brim Homing Bullet
+	PlagueMissle.DisplayName: Plague Missle
+	RedemptionShootAlt.DisplayName: Redemption Shoot Alt
 }
 
 LegendTooltip: - Legend -
@@ -4418,6 +4620,7 @@ Keybinds: {
 	VetrasylsEyeBlock.DisplayName: Vetrasyls Eye Block
 	RuneDash.DisplayName: Rune Wings Dash
 	CommandMinions.DisplayName: Command Minions
+	NihilityAndChaoticArmorConnectKey.DisplayName: Nihility And Chaotic Armor Connect Key
 }
 
 ProphetLoreEffect:
@@ -4502,7 +4705,7 @@ Configs: {
 
 		MariviumArmorSetOnlyProvideStealthBarWhenHoldingRogueWeapons: {
 			Tooltip: ""
-			Label: Marivium Armor Set Only Provide Stealth Bar When Holding Rogue Weapons
+			Label: CalEntropy's Armor Set Only Provide Stealth Bar When Holding Rogue Weapons
 		}
 
 		EntropyMeleeWeaponSoundVolume: {
@@ -4803,6 +5006,7 @@ AmmoAle: Ale
 AmmoBloodrune: Blood Rune
 AmmoStarblightSoot: Starblight Soot
 AmmoType: Ammo type
+AmmoMissle: Missle
 UseAmmo: Use Ammo
 OrbPunishDeath0: shattered into pieces
 OrbPunishDeath1: try to remove the shattered foresee orb
@@ -4836,6 +5040,25 @@ LoreWallofFleshDesc: Reduces incoming damage by {1}%, cooldown {2} seconds
 LoreBloodMoonDesc: Enhance night vision capability
 LoreQueenSlimeDesc: +{1}% Falling Speed
 LoreArchmageDesc: Increase the speed of Cold debuff decay
+LoreMechsDesc: +{1} Defense
+LoreTwinsDesc: +{1} Defense
+LoreDestroyerDesc: +{1} Defense
+LoreSkeletronPrimeDesc: +{1}% Damage reduce
+LoreSulphurSeaDesc: Immune to acid venom
+LoreAzafureDesc: +{1}% Crit chance
+LoreCalamitasCloneDesc: +{1}% Melee speed
+LorePlanteraDesc: +0.5/s Life regen
+LoreAbyssDesc: Increase breath holding time
+LoreLeviathanAnahitaDesc: Increase 1/s life regen in water
+LoreAstrumAureusDesc: Increase the speed of astral infection debuff decay
+LoreGolemDesc: +{1}% Damage reduce
+LorePlaguebringerGoliathDesc: Increase the speed of plague debuff decay
+LoreEmpressofLightDesc: +{1} Defense in day time
+LoreDukeFishronDesc: Ingnore to water
+LoreRavagerDesc: Increase movement speed by 2%
+LorePreludeDesc: +5% Light
+LoreAstralInfectionDesc: +{1}% Wing time
+LoreAstrumDeusDesc: +{1}% Wing speed
 
 DraedonDialogs: {
 	Void: {
@@ -5101,6 +5324,18 @@ AzafureSet:
 	Durability slowly regenerates 5 seconds after taking damage
 	When the Durability bar is depleted, it becomes inactive and requires time to restore functionality
 	'''
+AzafureSet2:
+	'''
+	When this armor is equipped, 
+	all Azafure equipment receives partial enhancements
+	Gains a Durability bar
+	The Durability bar provides up to 36 defense and 50% damage reduction
+	Durability is consumed based on damage taken when hit
+	Durability slowly regenerates 5 seconds after taking damage
+	When the Durability bar is depleted, it becomes inactive and requires time to restore functionality
+	Provide 80 rogue stealth
+	+20% Movement speed
+	'''
 AzafureEnhance: Enhance
 
 AzafureEnhances: {
@@ -5141,3 +5376,6 @@ DeathExplode: "[PlayerName] exploded"
 BlockingCooldown: Blocking Cooldown
 FetalDreamCooldown: Fetal Dream Cooldown
 DriverCoreCooldown: Driver Core Shield
+FetalDreamDamage: Koishi Damage
+NihilityShield: Nihility Shield
+CardsDesc: There should be a complete set of cards similar to it
