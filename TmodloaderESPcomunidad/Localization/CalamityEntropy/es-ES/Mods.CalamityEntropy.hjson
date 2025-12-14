@@ -3435,7 +3435,7 @@ Items: {
 			Pueden adherirse hasta 4 misiles
 			Provoca incendios de azufre para reducir los buffos
 			Genera balas de azufre durante la explosión
-			[c/304fff: Convirtámonos en entidades y, a cambio, haremos realidad sus ideas y sueños.]
+			[c/304fff:Convirtámonos en entidades y, a cambio, haremos realidad sus ideas y sueños.]
 			'''
 	}
 
@@ -3477,8 +3477,8 @@ ChaoticSetBonus:
 	+40 de vida máxima
 	+3 espacios de súbditos
 	Libera pequeñas células del caos al sufrir daño
-	Las células perseguirán y atacarán a los enemigos, 
-  	y luego volverán tras un tiempo y te curarán
+	Las células perseguirán y atacarán a los enemigos
+	Luego de un tiempo, volverán al jugador y lo curarán
 	Presiona [[KEY]]([KN]) para perder vida y así invocar 3 células
 	Puedes tener un máximo de [LIMIT] células
 	'''
@@ -5381,4 +5381,5 @@ DriverCoreCooldown: Núcleo conductor del escudo
 FetalDreamDamage: Daño de Koishi 
 NihilityShield: Escudo de la Nihilidad
 CardsDesc: Debería haber un juego completo de cartas similar a este
+
 
