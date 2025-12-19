@@ -3272,13 +3272,13 @@ Items: {
 			que permite sujetar fácilmente los marcapáginas"
 			'''
 	}
-
-	IllusoryGodfang: {
-		DisplayName: Diente divino ilusorio
+	
+	Knightmare: {
+		DisplayName: Caballero Pesadilla
 		Tooltip:
 			'''
-			Invoca una espada ilusoria para que luche por ti.
-			Necesita 2 ranuras de súbditos.
+			Invoca una espada pesadillesca para que luche por ti
+			Necesitas 2 espacios de súbditos
 			'''
 	}
 
@@ -3358,7 +3358,7 @@ Items: {
 		DisplayName: Casco caótico
 		Tooltip:
 			'''
-			+13% de daño
+			+8% de daño
 			+1 espacio de súbditos
 			'''
 	}
@@ -4078,6 +4078,8 @@ Projectiles: {
 	CharredMissleProj.DisplayName: Charred Missle Proj
 	BrimHomingBullet.DisplayName: Brim Homing Bullet
 	PlagueMissle.DisplayName: Plague Missle
+	RedemptionShootAlt.DisplayName: Redemption Shoot Alt
+	BMDirtProj.DisplayName: B M Dirt Proj
 }
 
 LegendTooltip: - Legendario -
@@ -5320,7 +5322,7 @@ AzafureSet:
 	Cuando esta armadura está equipada, 
 	todo el equipo Azafure recibe mejoras parciales
 	Tendrás barra de durabilidad
-	La barra de durabilidad proporciona hasta 18 puntos de defensa y una reducción del daño del 50%,
+	La barra de durabilidad proporciona hasta 18 puntos de defensa y una reducción del daño del 25%,
 	mientras se va reduciendo tu velocidad de movimiento
 	La durabilidad se consume en función del daño recibido y
 	se regenera lentamente 5 segundos después de recibir daño
@@ -5331,12 +5333,12 @@ AzafureSet2:
 	Cuando esta armadura está equipada, 
 	todo el equipo Azafure recibe mejoras parciales.
 	Tendrás una barra de durabilidad.
-	La barra de durabilidad proporciona hasta 36 puntos de defensa y una reducción del daño del 50%.
+	La barra de durabilidad proporciona hasta 36 puntos de defensa y una reducción del daño del 30%.
 	La durabilidad se consume en función del daño recibido al ser golpeado.
 	La durabilidad se regenera lentamente 5 segundos después de recibir daño.
 	Cuando la barra de durabilidad se agota, se desactiva y tendrás que esperar a que vuelva a estar operativa.
 	Proporciona 80 de sigilo.
-	+20% de velocidad de movimiento
+	+20% de velocidad de movimiento y +1 espacio de súbditos
 	'''
 AzafureEnhance: Mejoras
 
@@ -5381,5 +5383,6 @@ DriverCoreCooldown: Núcleo conductor del escudo
 FetalDreamDamage: Daño de Koishi 
 NihilityShield: Escudo de la Nihilidad
 CardsDesc: Debería haber un juego completo de cartas similar a este
+
 
 
