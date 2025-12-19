@@ -173,8 +173,7 @@ Items: {
 			'''
 			Dispara una sombra de la corona solar, invocando llamas explosivas draconianas al golpear a los enemigos.
 			Clic derecho para lanzarte mientras sostienes tu arma.
-			Deja que las llamas purifiquen tu alma y saqueen por completo a tus enemigos.
-			[c/fff08c:-Suelta varios objetos al acabar con un enemigo-]
+			"Deja que las llamas purifiquen tu alma y saqueen por completo a tus enemigos".
 			'''
 	}
 
@@ -1062,6 +1061,7 @@ Items: {
 			'''
 			Consume energía eléctrica para perforar minerales
 			Debe colocarse en un lugar adecuado para que funcione correctamente
+			Se pueden extraer minerales especiales en entornos especiales
 			'''
 		DontWork: Debe colocarse sobre una superficie firme para poder llevar a cabo las operaciones mineras.
 	}
@@ -1460,6 +1460,16 @@ Items: {
 			El Viejo Duque trasladará su campamento aquí
 			'''
 	}
+	MiningMachineMk2: {
+		DontWork: Es necesario colocarlo sobre una superficie dura para poder realizar la excavación.
+		DisplayName: Máquina minera Mk2
+		Tooltip:
+			'''
+			Consume energía eléctrica para perforar minerales
+			Debe colocarse en un lugar adecuado para que funcione correctamente
+			Se pueden extraer minerales especiales en entornos especiales
+			'''
+	}
 }
 
 Projectiles: {
@@ -1632,12 +1642,6 @@ Projectiles: {
 	BrimstoneSwordBall.DisplayName: Brimstone Sword Ball
 	BrinyBaronOrb.DisplayName: Briny Baron's Orb
 	DarkIceBomb.DisplayName: Dark Ice Bomb
-	DawnshatterEndOrb.DisplayName: Dawnshatter Orb
-	DawnshatterEndOrb2.DisplayName: Dawnshatter Orb
-	MakeDamage.DisplayName: Annihilation Field
-	TheDaybreak.DisplayName: Daybreak
-	TheDaybreak2.DisplayName: Daybreak
-	TheDaybreak3.DisplayName: Daybreak
 	TheEndSun.DisplayName: The End Sun
 	DeathLaserSpwan.DisplayName: Death Laser
 	DeathLaser.DisplayName: Death Laser
@@ -1790,7 +1794,6 @@ Projectiles: {
 	BloodBlast.DisplayName: Blood Blast
 	BloodflareSouls.DisplayName: Bloodflare Soul
 	CosmicFire.DisplayName: Cosmic Fire
-	GhostFires.DisplayName: Ghost Fire
 	Ieaf.DisplayName: Leaf
 	AllhallowsGoldWhipProjectile.DisplayName: All Hallow's Gold Whip
 	ATrail.DisplayName: Trail
@@ -1881,6 +1884,7 @@ Projectiles: {
 	AriaRSkillBeam.DisplayName: Aria R Skill Beam
 	AriaQSkillMiniDisk.DisplayName: Aria Q Skill Mini Disk
 	SulfuricacidExplosion.DisplayName: Sulfuricacid Explosion
+	DawnshatterFireball.DisplayName: Dawnshatter Fireball
 }
 
 Configs: {
@@ -2113,6 +2117,7 @@ Keybinds: {
 	Pandemonium_R.DisplayName: Pandemonium: El fin de todos los demonios
 	AriaofTheCosmos_Q.DisplayName: Aria del Cosmos: Guardián del anillo estelar
 	AriaofTheCosmos_R.DisplayName: Aria del Cosmos: Estallido de rayos gamma
+	JusticeUnveiled.DisplayName: Justicia revelada: Activación del juicio
 }
 
 TextContent: {
@@ -2890,15 +2895,6 @@ RemakeItems: {
 		Tooltip: Inflige radiación al golpear a los enemigos.
 	}
 
-	RBlightedCleaver: {
-		DisplayName: Cuchilla de la plaga
-		Tooltip:
-			'''
-			Lanza espadas llameantes que se dirigen hacia los enemigos y hacia arriba tras impactar, lo que te otorga el buff "Carnicería brutal".
-			Al acertar un golpe cuerpo a cuerpo verdadero, acumula Furia del tirano, lo que aumentará el daño del arma durante un breve periodo de tiempo.
-			'''
-	}
-
 	RBrimlash: {
 		DisplayName: Latigazo azufrado
 		Tooltip:
@@ -2980,16 +2976,6 @@ RemakeItems: {
 			'''
 	}
 
-	RDefiledGreatsword: {
-		DisplayName: Mandoble profanado
-		Tooltip:
-			'''
-			Dispara una miríada de espadas llameantes que persiguen agresivamente a tus enemigos y te otorgará el buff "Carnicería brutal"
-			Al acertar un golpe cuerpo a cuerpo verdadero, acumularás Furia del tirano, lo que 
-			aumentará el daño del arma durante un breve periodo de tiempo, además de lanzar espadas llameantes a los lados de la pantalla.
-			'''
-	}
-
 	RDevastation: {
 		DisplayName: Devastación
 		Tooltip: ""
@@ -3003,15 +2989,6 @@ RemakeItems: {
 			Las alabardas se clavan en los enemigos al impactar, infligiendo daño continuamente
 			Los grandes cortes lanzan tres Ciclos de dolor, que infligen múltiples golpes perforantes a los enemigos que se encuentran en su camino
 			Por último, invoca seis alabardas demoníacas escarlatas en el cursor, que flotan brevemente antes de volar hacia el jugador
-			'''
-	}
-
-	RDiseasedPike: {
-		DisplayName: Pica infectada
-		Tooltip:
-			'''
-			Lanza enjambres de abejas que infligen plaga.
-			Haz clic derecho para invocar proyectiles plagados imprecisos desde el cielo que vendrán junto con rayos de plaga teledirigidos.
 			'''
 	}
 
@@ -3086,7 +3063,7 @@ RemakeItems: {
 		Tooltip:
 			'''
 			Lanza espejismos de espadas cósmicas que atraviesan paredes e infligen Infierno asesino de dioses. Los golpes cuerpo a cuerpo verdaderos también invocan un rayo láser desde el cielo.
-			El clic derecho lanza un dardo Asesino de dioses de alta velocidad que explota al impactar.
+			Los golpes cuerpo a cuerpo verdaderos también invocan un rayo láser desde el cielo.
 			'''
 	}
 
@@ -4439,18 +4416,6 @@ RemakeItems: {
 			'''
 			Dispara almas perdidas y bengalas
 			"Quisieron eludir el acuerdo, así que usaron bengalas como bombas de napalm, pero acabaron en un chiste".
-			'''
-	}
-
-	RSpeedBlaster: {
-		DisplayName: Bláster rápido
-		Tooltip:
-			'''
-			Dispara rápidamente balas flurorescentes
-			Haz derecho para disparar una poderosa ráfaga de balas de colores que te impulsa hacia adelante mientras te mueves
-			Esta habilidad tiene un tiempo de enfriamiento de 5 segundos
-			Durante el tiempo de enfriamiento, puedes disparar más rápido y con mayor precisión
-			"Date un buen lavado de cara y estarás feliz todo el día".
 			'''
 	}
 
@@ -6452,6 +6417,8 @@ UI: {
 		InsertItemHint: Insertar ítem para cargar
 		InsertBatteryHint: Inserta la célula de energía de Draedon
 		EnergyUnit: UE
+		StationText1: ¡Solo se aceptan ítems recargables!
+		StationText2: ¡Solo aceptan Células de energía de Draedon!
 	}
 
 	SulfseaDialogueBox: {
@@ -6512,6 +6479,19 @@ UI: {
 	}
 
 	QuestNotificationSystem.Text1: Misión completada
+
+	
+	CompatibilityAlert: {
+		TitleText: Modo de compatibilidad activo
+		ContentText:
+			'''
+			Faltan mods importantes de contenido o se han detectado conflictos entre versiones. 
+			Algunas funciones estarán desactivadas o se ejecutarán en modo restringido.
+			Si esto es intencionado, ignore este mensaje.
+			Si se debe a versiones obsoletas, espere a que se publique una actualización.
+			El equipo de desarrollo suele publicar parches de compatibilidad en un plazo de 12 horas
+			'''
+	}
 }
 
 ADV: {
@@ -7574,7 +7554,7 @@ QuestLogs: {
 			DisplayName: El Dios Slime
 			Description: Derrota al Dios Slime
 			QuestObjective.Description: Derrota al Dios Slime
-			QuestReward.Description: 100 Gel
+			QuestReward.Description: 1000 Gel
 			DetailedDescription: La cúspide de las especies de slimes, una deidad antigua y glotona. Cuidado con los ataques combinados de sus avatares.
 		}
 
@@ -7707,7 +7687,7 @@ QuestLogs: {
 		}
 
 		IndustrialStartQuest: {
-			DisplayName: Rebolución industrial
+			DisplayName: Revolución industrial
 			Description: Fabrica un Generador eólico
 			QuestObjective.Description: Consigue un a Generador eólico
 			QuestReward.Description: 10 Lingotes de hierro
@@ -7728,6 +7708,14 @@ QuestLogs: {
 			QuestObjective.Description: Consigue una Máquina minera
 			QuestReward.Description: 5 Pociones de espeleólogo
 			DetailedDescription: Despídete de la tediosa minería manual. Esta máquina devora vetas de mineral con una eficiencia asombrosa.
+		}
+
+		MiningMachineIIQuest: {
+			DisplayName: Perforación profunda
+			Description: Fabrica una Máquina minera MK2
+			QuestObjective.Description: Obtén una Máquina minera MK2
+			QuestReward.Description: 5 Pociones de minería
+			DetailedDescription: Su núcleo reforzado ofrece una velocidad sin igual.
 		}
 
 		PipelineQuest: {
@@ -7851,7 +7839,7 @@ QuestLogs: {
 		}
 
 		NeutronWandQuest: {
-			QuestObjective.Description: Obtenén una Varita de neutrones
+			QuestObjective.Description: Obtén una Varita de neutrones
 			QuestReward.Description: 2 Lingotes de estrella de neutrones
 			DisplayName: Varita de neutrones
 			Description: Obtén una Luz de la tumba estelar
@@ -7883,7 +7871,7 @@ QuestLogs: {
 		}
 
 		TransmutationOfMatterQuest: {
-			QuestObjective.Description: Obtenén transmutador de materia
+			QuestObjective.Description: Obtén un transmutador de materia
 			QuestReward.Description: 10 Lingotes del infinito
 			DisplayName: Transmutador de materia
 			Description: Consigue el Polimerizador de sustancias Omega
@@ -8056,6 +8044,215 @@ QuestLogs: {
 			}
 
 			DetailedDescription: En este tranquilo mar subterráneo, Draedon dejó atrás sus investigaciones sobre la energía de los prismas. Sumérgete bajo el agua y recupera esos valiosos datos.
+		}
+
+		AquaticScourgeQuest: {
+			DisplayName: Azote acuático
+			Description: Derrota al Azote acuático
+			QuestObjective.Description: Derrota al Azote acuático
+			QuestReward.Description: Fósiles corroidos
+			DetailedDescription: Antaño era un pacífico leviatán de los océanos cristalinos, ahora ha sido deformado por la toxicidad del Mar sulfúrico. Ten cuidado con sus embestidas repentinas y sus nubes tóxicas.
+		}
+
+		QueenSlimeQuest: {
+			DisplayName: Reina Slime
+			Description: Derrota a la Reina Slime
+			QuestObjective.Description: Derrota a la Reina Slime
+			QuestReward.Description: 10 Almas de luz
+			DetailedDescription: Emperatriz cristalina del bioma sagrado, gobernante de todas las criaturas gelatinosas santificadas. En comparación con su esposo, ella es mucho más ágil y letal. Prepárate para un magnífico aluvión de ataques.
+		}
+
+		MachineRebellionQuest: {
+			DisplayName: Revelión de las máquinas
+			Description: Derrota al trío mecánico EX
+			QuestObjective.Description: Derrota al trío mecánico EX
+
+			QuestReward: {
+				Description: Alma de terror EX
+				Description2: Alma de poder EX
+				Description3: Alma de visión EX
+			}
+
+			DetailedDescription: Estos experimentos abandonados no solo no han dejado de funcionar, sino que se han autorreparado y han evolucionado hasta convertirse en algo más aterrador. Los protocolos de protección han sido sustituidos por una única directiva: la masacre. ¿Estás preparado para enfrentarte a la verdadera ira de las creaciones de Draedon?
+		}
+
+		BuildHouse: {
+			DisplayName: Maestro constructor
+			Description: Construye una casa adecuada
+			QuestObjective.Description: Construye una casa habitable
+			QuestReward.Description: Madera
+			DetailedDescription: Todo el mundo necesita un refugio. Ya sea al Guía u otros vagabundos, si les proporcionas una habitación con muebles, luz y paredes, ellos te ofrecerán sus servicios.
+		}
+
+		CollectEvilOres: {
+			DisplayName: Minerales malignos
+			Description: Recolecta minerales malignos
+			QuestObjective.Description: Recolecta mineral endemoniado o carmesí
+			QuestReward.Description: Antorchas
+			DetailedDescription: Estos minerales irradian un aura siniestra y son fríos y húmedos al tacto. Aunque proceden de las heridas del mundo, son materiales esenciales para fabricar equipos poderosos.
+		}
+
+		CollectFallenStars: {
+			DisplayName: Recolector de estrellas
+			Description: Recoge Estrellas fugaces
+			QuestObjective.Description: Recoge Estrellas fugaces
+			QuestReward.Description: Poción menor de maná
+			DetailedDescription: Son las lágrimas del cielo nocturno, que caen después del anochecer. Recógelas no solo para aumentar tu capacidad de maná, sino también para usarlas como munición o material mágico.
+		}
+
+		CollectGems: {
+			DisplayName: Recolector de gemas
+			Description: Recoge varias gemas
+			QuestObjective.Description: Recolecta 5 tipos diferentes de gemas
+
+			QuestReward: {
+				Description: {
+					$parentVal: Poción de brillo
+					Diamond: Diamante
+				}
+			}
+
+			DetailedDescription: Cristales brillantes enterrados en las capas rocosas. Más allá de su función decorativa, son esenciales para fabricar bastones y ganchos de agarre. Recoger gemas de diferentes colores podría permitirte recrear el brillo de un arcoíris.
+		}
+
+		CollectHerbs: {
+			DisplayName: Aprendiz de hierbas
+			Description: Recoge varias hierbas
+			QuestObjective.Description: Recolecta 3 tipos diferentes de hierbas
+			QuestReward.Description: Agua embotellada
+			DetailedDescription: Los fundamentos de la alquimia. Diferentes plantas prosperan en diferentes entornos: desiertos, tundras e incluso el inframundo. Aprender a identificarlas es el primer paso para convertirse en un maestro alquimista.
+		}
+
+		CollectOres: {
+			DisplayName: Recolección de minerales
+			Description: Recolecta minerales básicos
+
+			QuestObjective: {
+				Description: {
+					Iron: Recoge un mineral de hierro o plomo
+					Copper: Recoge un mineral de cobre o estaño
+				}
+			}
+
+			QuestReward.Description: Poción de recuperación
+			DetailedDescription: La minería es esencial para la supervivencia. El cobre y el hierro pueden ser comunes, pero son los pilares para escapar de una vida primitiva. No los menosprecies; incluso los héroes legendarios comenzaron blandiendo un pico de cobre.
+		}
+
+		DeepExplorer: {
+			DisplayName: Explorador intensito
+			Description: Explora todos los biomas principales
+			QuestObjective.Description: Completa todas las misiones de exploración
+
+			QuestReward: {
+				Description: {
+					$parentVal: GPS
+					Gold: Monedas de oro
+				}
+			}
+
+			DetailedDescription: Has recorrido todos los rincones del mundo, desde las nubes más altas hasta el infierno más profundo. El mapa que has dibujado es prueba de tu valentía. Ahora, el mundo entero está a tus pies.
+		}
+
+		ExploreCaverns: {
+			DisplayName: Las cavernas profundas
+			Description: Explora las capas más profundas de las caverna
+			QuestObjective.Description: Llega a la capa de la Caverna
+			QuestReward.Description: Poción de espeleólogo
+			DetailedDescription: Aquí no hay luz solar, solo oscuridad y criaturas desconocidas. La lava comienza a aparecer y los depósitos de minerales se vuelven más ricos. Cuidado con dónde pisas; el abismo te está observando.
+		}
+
+		ExploreCorruption: {
+			DisplayName: La Corrupción
+			Description: Explora la Corrupción o el Carmesí
+			QuestObjective.Description: Entra a a la Corrupción o el Carmesí
+			QuestReward.Description: Poción de batalla
+			DetailedDescription: Esta lugar está enfermo. La corrupción púrpura o la carne carmesí están devorando la tierra. Aunque esté llena de monstruos sedientos de sangre, hay que entrar en la guarida del lobo para obtener escamas de las sombras o muestras de tejido.
+		}
+
+		ExploreDesert: {
+			DisplayName: Desierto abrasador
+			Description: Entra en el bioma del Desierto
+			QuestObjective.Description: Llega al Desierto
+			QuestReward.Description: Poción de flotación
+			DetailedDescription: El sol abrasador quema la tierra, y el mar de arena dorada oculta antiguos fósiles y feroces hormigas león. Lleva mucha agua; la aridez de este lugar te dejará sin fuerzas.
+		}
+
+		ExploreFloatingIsland: {
+			DisplayName: Islas flotantes
+			Description: Encuentra las Islas flotantes en el cielo
+			QuestObjective.Description: Entra en una Isla flotante
+			QuestReward.Description: Poción de gravedad
+			DetailedDescription: Las leyendas dicen que por encima de las nubes se encuentran tesoros ocultos dejados por una antigua civilización. Busca anomalías gravitacionales o construye una torre hasta el cielo para descubrirlos.
+		}
+
+		ExploreGlowingMushroom: {
+			DisplayName: Hongos luminosos
+			Description: Encuentra el bioma de Champiñones
+			QuestObjective.Description: Entra en el bioma de Champiñones
+			QuestReward.Description: Poción de noctámbulo
+			DetailedDescription: Un ecosistema subterráneo psicodélico. Hongos gigantes emiten un resplandor azul fantasmal que ilumina la oscuridad. Este es el hogar de la Trufa y de insectos peculiares.
+		}
+
+		ExploreUnderground: {
+			DisplayName: Exploración subterránea
+			Description: Adéntrate en las cuevas subterráneas
+			QuestObjective.Description: Llega al subterráneo
+			QuestReward.Description: Poción de minería
+			DetailedDescription: No basta con raspar la tierra de la superficie. La verdadera aventura comienza bajo la ella. Traed vuestras antorchas; la primera capa de roca es solo el principio.
+		}
+
+		FindLifeCrystal: {
+			DisplayName: Fuente de vida
+			Description: Encuentra un Cristal de vida
+			QuestObjective.Description: Encuentra un Cristal de vida
+			QuestReward.Description: Poción curativa menor
+			DetailedDescription: Este cristal rojo rebosa vitalidad. Rómpelo y consúmelo para fortalecerte de forma permanente. Esta es la clave para sobrevivir cuando te enfrentes a enemigos poderosos.
+		}
+
+		FindShadowOrb: {
+			DisplayName: Núcleo del mal
+			Description: Encuentra un Orbe sombrío o un Corazón carmesí en las profundidades de los biomas malignos
+			QuestObjective.Description: Destruye un Orbe sombrío o un Corazón carmesí
+
+			QuestReward: {
+				Description: {
+					$parentVal: Dinamita
+					Bomb: Bomba
+				}
+			}
+
+			DetailedDescription: En lo más profundo de la sima del mal, late un corazón corrupto o un orbe sombrío. Al romperlos se obtienen armas, pero ten cuidado... si rompes tres, algo terrible despertará.
+		}
+
+		FirstPotion: {
+			DisplayName: Fundamentos de la alquima
+			Description: Elabora tu primera poción
+			QuestObjective.Description: Elabora cualquier poción
+			QuestReward.Description: Poción menor de maná
+			DetailedDescription: Coloca una botella vacía sobre una mesa y tendrás un sencillo laboratorio de alquimia. No se necesitan hechizos complejos, solo la mezcla adecuada de ingredientes. Bebe y siente el poder de la magia.
+		}
+
+		NPCVillage: {
+			DisplayName: Aldea próspera
+			Description: Concenve a varios NPC para que se muden
+			QuestObjective.Description: Ten 5 NPCs
+			QuestReward.Description: Monedas de oro
+			DetailedDescription: Sobrevivir en la naturaleza es solitario. A medida que te hagas más fuerte y tengas más dinero, más gente se unirá a ti. Construye una comunidad próspera y deja que sean tu apoyo.
+		}
+
+		QueenBeeQuest: {
+			DisplayName: Reina abeja
+			Description: Derrota a la Reina abeja
+			QuestObjective.Description: Derrota a la Reina abeja
+			DetailedDescription: Si rompes la larva presente en lo más profundo de las enormes colmenas de la selva subterránea, enfurecerás a la reina del enjambre. Prepara pociones antiveneno y ten cuidado con sus aguijones y sus rápidas embestidas.
+		}
+
+		CollectorQuest: {
+			DisplayName: Asistente del coleccionista
+			Description: Consigue un Coleccionista
+			QuestObjective.Description: Consigue un Coleccionista
+			QuestReward.Description: 2 Cofres
+			DetailedDescription: ¿Cansado de agacharte para recoger objetos por todas partes? Este dispositivo recoge automáticamente los objetos que caen cerca de él. Es un componente fundamental para crear sistemas logísticos y de clasificación automatizados, lo que te permitirá tener las manos completamente libres.
 		}
 	}
 }
