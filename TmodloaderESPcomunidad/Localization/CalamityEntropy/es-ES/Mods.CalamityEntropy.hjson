@@ -3468,6 +3468,11 @@ Items: {
 		DisplayName: Mallas de Caballero de vapor de Azafure
 		Tooltip: ""
 	}
+
+	TrainingSword: {
+		DisplayName: Espada de entrenamiento
+		Tooltip: ""
+	}
 }
 
 ChaoticSetBonus:
@@ -4080,6 +4085,8 @@ Projectiles: {
 	PlagueMissle.DisplayName: Plague Missle
 	RedemptionShootAlt.DisplayName: Redemption Shoot Alt
 	BMDirtProj.DisplayName: B M Dirt Proj
+	TrainingSwordProj.DisplayName: Training Sword Proj
+	WaterBolt.DisplayName: Water Bolt
 }
 
 LegendTooltip: - Legendario -
@@ -5383,6 +5390,7 @@ DriverCoreCooldown: Núcleo conductor del escudo
 FetalDreamDamage: Daño de Koishi 
 NihilityShield: Escudo de la Nihilidad
 CardsDesc: Debería haber un juego completo de cartas similar a este
+
 
 
 
