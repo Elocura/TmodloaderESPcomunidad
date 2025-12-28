@@ -1460,6 +1460,7 @@ Items: {
 			El Viejo Duque trasladará su campamento aquí
 			'''
 	}
+
 	MiningMachineMk2: {
 		DontWork: Es necesario colocarlo sobre una superficie dura para poder realizar la excavación.
 		DisplayName: Máquina minera Mk2
@@ -1469,6 +1470,64 @@ Items: {
 			Debe colocarse en un lugar adecuado para que funcione correctamente
 			Se pueden extraer minerales especiales en entornos especiales
 			'''
+	}
+
+UniversalFrost: {
+		DisplayName: Helada universal
+		Tooltip:
+			'''
+			Usa bolas de nieve como munición
+			Lanza granizo y orbes nova helados
+			Las esferas rebotan, se dirigen hacia los enemigos y liberan rayos helados al explotar
+			Disparar continuamente acumula energía de hielo
+			Cuando está completamente cargado, el siguiente ataque desata la Era Glacial
+			La Era Glacial invoca una gran cantidad de carámbanos y una ventisca en la posición del cursor
+			"Cuando toda la creación caiga en el silencio, el hielo eterno cubrirá el mundo"
+			'''
+	}
+
+	GodslayerScabbard: {
+		DisplayName:  Vaina del Asesino de Dioses
+		Tooltip:
+			'''
+			Acumula carga mientras sostiene un arma cuerpo a cuerpo sin atacar
+			Atacar con la carga completa otorga 2 segundos de invulnerabilidad
+			"Aunque la espada permanece envainada, su intención asesina es palpable.
+			Cuando llega el momento adecuado, asesinar a un dios será cuestión de un instante."
+			'''
+	}
+
+	Lumberjack: {
+		Text1: ¡Cantidad excesiva!
+		Text2: ¡Falta de electricidad!
+		CycleModeText: Modo cíclico
+		ClearModeText: Modo libre
+		DisplayName: Leñador
+		Tooltip:
+			'''
+			Consume energía para talar árboles
+			Tala automáticamente los árboles circundantes
+			Haz clic derecho para cambiar entre el modo cíclico y el modo libre
+			El modo cíclico cosecha árboles continuamente y replanta árboles jóvenes
+			El modo libre solo talará árboles sin replantar
+			'''
+	}
+
+	LifeWeaver: {
+		NoValidPositionText: ¡No hay lugares válidos para plantar cerca!
+		NoEnergyText: ¡Energía insuficiente!
+		DisplayName: Tejedora de vida
+		Tooltip: Consume energía para plantar árboles en las cercanías
+	}
+
+	WGGLumberjack: {
+		DisplayName: Leñador salvaje
+		Tooltip: ""
+	}
+
+	WGGLifeWeaver: {
+		DisplayName:  Tejedor de vida salvaje
+		Tooltip: ""
 	}
 }
 
@@ -1886,6 +1945,13 @@ Projectiles: {
 	SulfuricacidExplosion.DisplayName: Sulfuricacid Explosion
 	DawnshatterFireball.DisplayName: Dawnshatter Fireball
 	TransferItemProj.DisplayName: Items In Transit
+	FrostBlizzardField.DisplayName: Frost Blizzard Field
+	FrostNovaOrb.DisplayName: Frost Nova Orb
+	MuraDimensionSlash.DisplayName: Mura Dimension Slash
+	MuraSlashArc.DisplayName: Mura Slash Arc
+	MuraSlashLine.DisplayName: Mura Slash Line
+	WGGLumberjackSaw.DisplayName: Lumberjack Saw
+	WGGLifeWeaverAcorn.DisplayName: Acorn
 }
 
 Configs: {
@@ -8254,6 +8320,20 @@ QuestLogs: {
 			QuestObjective.Description: Consigue un Coleccionista
 			QuestReward.Description: 2 Cofres
 			DetailedDescription: ¿Cansado de agacharte para recoger objetos por todas partes? Este dispositivo recoge automáticamente los objetos que caen cerca de él. Es un componente fundamental para crear sistemas logísticos y de clasificación automatizados, lo que te permitirá tener las manos completamente libres.
+		}
+
+		LumberjackQuest: {
+			DisplayName: Hora de maderear
+			Description: Consigue el Leñador
+			QuestObjective.Description: Consigue el Leñador
+			DetailedDescription: La madera es la piedra angular de la industria y la construcción. Despídete de las hachas primitivas; esta máquina consume energía para automatizar tu plantación forestal, garantizando un suministro continuo de madera.
+		}
+
+		LifeWeaverQuest: {
+			DisplayName: Reforestación
+			Description: Obtén el Tejedor de vida
+			QuestObjective.Description: Obtén el Tejedor de vida
+			DetailedDescription: La regeneración forestal suele ser un proceso lento. Esta máquina utiliza energía para plantar árboles jóvenes con precisión, restaurando rápidamente la vida en tierras áridas. Es la pieza final del rompecabezas para una recolección arbórea totalmente automatizada y sostenible.
 		}
 	}
 }
