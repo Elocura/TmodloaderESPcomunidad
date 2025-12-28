@@ -1773,7 +1773,7 @@ Items: {
 			'''
 			Active/Deactive Entropy Mode
 			More challenging, Less Health, Less Damage
-			[c/ff0000: Note: This mode is not part of the official recommended process , and the balance adjustments Disaster Entropy do not take this mode into account]
+			[c/ff0000: Note: This mode is not part of the official recommended process , and the balance adjustments Entropy do not take this mode into account]
 			Right click use to only toggle TDR
 			'''
 		DisplayName: Entropy Mode Toggle
@@ -3032,6 +3032,7 @@ Items: {
 			Acceleration multiplier: [B]
 			Disappointing vertical speed
 			Flight time: [C]
+			-90% flight time if there're any boss
 			"Now's your chance to be a..."
 			'''
 	}
@@ -3481,6 +3482,16 @@ Items: {
 
 	TrainingSword: {
 		DisplayName: Training Sword
+		Tooltip: ""
+	}
+
+	ExquisiteHairband: {
+		DisplayName: Exquisite Hairband
+		Tooltip: ""
+	}
+
+	LingsHairAccessory: {
+		DisplayName: Ling's Hair Accessory
 		Tooltip: ""
 	}
 }
@@ -4100,6 +4111,8 @@ Projectiles: {
 	BMDirtProj.DisplayName: B M Dirt Proj
 	TrainingSwordProj.DisplayName: Training Sword Proj
 	WaterBolt.DisplayName: Water Bolt
+	WOHHeld.DisplayName: W O H Held
+	FractalAbyssalBlade.DisplayName: Fractal Abyssal Blade
 }
 
 LegendTooltip: - Legend -
@@ -5325,7 +5338,7 @@ AzafureSet:
 	'''
 	When this armor is equipped, 
 	all Azafure equipment receives partial enhancements
-	Gains a Durability bar
+	Remove adrenaline and gains a Durability bar
 	The Durability bar provides up to 18 defense and 25% damage reduction, 
 	while slowing your movement speed
 	Durability is consumed based on damage taken when hit
@@ -5336,7 +5349,7 @@ AzafureSet2:
 	'''
 	When this armor is equipped, 
 	all Azafure equipment receives partial enhancements
-	Gains a Durability bar
+	Remove adrenaline and gains a Durability bar
 	The Durability bar provides up to 36 defense and 30% damage reduction
 	Durability is consumed based on damage taken when hit
 	Durability slowly regenerates 5 seconds after taking damage
@@ -5344,6 +5357,7 @@ AzafureSet2:
 	Provide 80 rogue stealth
 	+20% Movement speed and +1 Max minion
 	'''
+DuraBar: Durability bar
 AzafureEnhance: Enhance
 
 AzafureEnhances: {
