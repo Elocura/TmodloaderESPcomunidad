@@ -1769,7 +1769,7 @@ Items: {
 			'''
 			Activa o desactiva el modo entrópico
 			Es más desafiante. Tienes menos salud y recibes más daño
-			[c/ff0000: Note: Este modo no está recomendado para una progresión oficial, y los ajustes de equilibrio de desastre entrópico no se tienen en cuenta]
+			[c/ff0000:Nota: Este modo no forma parte del progreso oficial recomendado. Los ajustes de equilibrio de Entropy no tienen en cuenta este modo]
 			Clic derecho para usar solamente TDR
 			'''
 		DisplayName: Activador del modo entrópico
@@ -3029,6 +3029,7 @@ Items: {
 			Multiplicador de aceleración: [B]
 			Velocidad vertical decepcionante
 			Tiempo de vuelo: [C]
+			-90% de tiempo de vuelo si hay algún jefe presente
 			"Ahora tienes la oportunidad de ser un..."
 			'''
 	}
@@ -3471,6 +3472,16 @@ Items: {
 
 	TrainingSword: {
 		DisplayName: Espada de entrenamiento
+		Tooltip: ""
+	}
+
+	ExquisiteHairband: {
+		DisplayName: Diadema exquisita para el cabello
+		Tooltip: ""
+	}
+
+	LingsHairAccessory: {
+		DisplayName: Accesorio para el cabello de Ling
 		Tooltip: ""
 	}
 }
@@ -4087,6 +4098,8 @@ Projectiles: {
 	BMDirtProj.DisplayName: B M Dirt Proj
 	TrainingSwordProj.DisplayName: Training Sword Proj
 	WaterBolt.DisplayName: Water Bolt
+	WOHHeld.DisplayName: W O H Held
+	FractalAbyssalBlade.DisplayName: Fractal Abyssal Blade
 }
 
 LegendTooltip: - Legendario -
@@ -5328,7 +5341,7 @@ AzafureSet:
 	'''
 	Cuando esta armadura está equipada, 
 	todo el equipo Azafure recibe mejoras parciales
-	Tendrás barra de durabilidad
+	La barra de Adrenalina se sustituye por la barra de Durabilidad
 	La barra de durabilidad proporciona hasta 18 puntos de defensa y una reducción del daño del 25%,
 	mientras se va reduciendo tu velocidad de movimiento
 	La durabilidad se consume en función del daño recibido y
@@ -5339,7 +5352,7 @@ AzafureSet2:
 	'''
 	Cuando esta armadura está equipada, 
 	todo el equipo Azafure recibe mejoras parciales.
-	Tendrás una barra de durabilidad.
+	La barra de Adrenalina se sustituye por la barra de Durabilidad
 	La barra de durabilidad proporciona hasta 36 puntos de defensa y una reducción del daño del 30%.
 	La durabilidad se consume en función del daño recibido al ser golpeado.
 	La durabilidad se regenera lentamente 5 segundos después de recibir daño.
@@ -5347,6 +5360,7 @@ AzafureSet2:
 	Proporciona 80 de sigilo.
 	+20% de velocidad de movimiento y +1 espacio de súbditos
 	'''
+DuraBar: Barra de durabilidad
 AzafureEnhance: Mejoras
 
 AzafureEnhances: {
@@ -5390,6 +5404,7 @@ DriverCoreCooldown: Núcleo conductor del escudo
 FetalDreamDamage: Daño de Koishi 
 NihilityShield: Escudo de la Nihilidad
 CardsDesc: Debería haber un juego completo de cartas similar a este
+
 
 
 
