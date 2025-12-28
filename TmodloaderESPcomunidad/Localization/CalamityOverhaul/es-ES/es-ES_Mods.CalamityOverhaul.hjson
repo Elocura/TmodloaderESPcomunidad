@@ -107,7 +107,7 @@ Items: {
 			'''
 	}
 
-	TextItem: {
+	TestItem: {
 		DisplayName: Ítem de prueba
 		Tooltip: Em... no deberías de poseerlo
 	}
@@ -1404,7 +1404,9 @@ Items: {
 		Tooltip:
 			'''
 			Aumenta el sigilo máximo en 10
-			La velocidad de generación de sigilo ya no reducirá el daño de sigilo
+			La velocidad de regeneración del sigilo ya no reduce el daño del sigilo
+			"¿Y si nunca regresas?"
+			"Entonces nunca volveré."
 			'''
 	}
 
