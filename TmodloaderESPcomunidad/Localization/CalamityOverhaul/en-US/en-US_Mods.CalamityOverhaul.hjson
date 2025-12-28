@@ -1,4 +1,4 @@
-EndlessDamageClassTextContent.EndlessDamageClass.DisplayName: Endless Damage
+﻿EndlessDamageClassTextContent.EndlessDamageClass.DisplayName: Endless Damage
 Tools.RecipesLoseText: You can't just make this thing
 
 Items: {
@@ -107,7 +107,7 @@ Items: {
 			'''
 	}
 
-	TextItem: {
+	TestItem: {
 		DisplayName: Text Item
 		Tooltip: Um... You shouldn't have it
 	}
@@ -1407,7 +1407,9 @@ Items: {
 		Tooltip:
 			'''
 			Increases maximum stealth by 10
-			Stealth generation speed will no longer reduce stealth damage
+			Stealth regeneration speed no longer reduces stealth damage
+			"What if you never return?"
+			"Then I shall never return."
 			'''
 	}
 
@@ -1474,6 +1476,64 @@ Items: {
 			Special minerals can be extracted in special environments
 			'''
 	}
+
+	UniversalFrost: {
+		DisplayName: Universal Frost
+		Tooltip:
+			'''
+			Uses Snowballs as ammo
+			Fires hailstones and frigid nova orbs
+			The orbs bounce, home in on enemies, and release frost beams upon explosion
+			Continuous firing accumulates ice energy
+			When fully charged, the next attack unleashes the Glacial Age
+			The Glacial Age summons a massive array of icicles and a blizzard field at the cursor position
+			"When all creation falls into silence, only eternal frost shall blanket the world"
+			'''
+	}
+
+	GodslayerScabbard: {
+		DisplayName: Godslayer Scabbard
+		Tooltip:
+			'''
+			Accumulates charge while holding a melee weapon without attacking
+			Attacking with full charge grants 2 second of invulnerability
+			"Though the blade remains sheathed, its killing intent is palpable.
+			When the time is right, slaying a god takes but an instant."
+			'''
+	}
+
+	Lumberjack: {
+		Text1: Excessive Quantity!
+		Text2: Lack of Electricity!
+		CycleModeText: Cycle Mode
+		ClearModeText: Clear Mode
+		DisplayName: Lumberjack
+		Tooltip:
+			'''
+			Consumes power to harvest timber
+			Automatically chops down surrounding trees
+			Right-click to switch between Cycle Mode and Clear Mode
+			Cycle Mode continuously harvests trees and replants saplings
+			Clear Mode only harvests trees without replanting
+			'''
+	}
+
+	LifeWeaver: {
+		NoValidPositionText: No valid planting spots nearby!
+		NoEnergyText: Insufficient power!
+		DisplayName: Life Weaver
+		Tooltip: Consumes power to plant trees nearby
+	}
+
+	WGGLumberjack: {
+		DisplayName: Wilderness Lumberjack
+		Tooltip: ""
+	}
+
+	WGGLifeWeaver: {
+		DisplayName: Wilderness Life Weaver
+		Tooltip: ""
+	}
 }
 
 Projectiles: {
@@ -1494,7 +1554,7 @@ Projectiles: {
 	ElectricMinRocketHeld.DisplayName: Electric Micro-Rocket
 	TeslaBallByAttack.DisplayName: Tesla Sphere
 	TeslaBallByGuard.DisplayName: Defensive Tesla Sphere
-	WGGCollectorArm.DisplayName: W.G.G. Collector Arm
+	WGGCollectorArm.DisplayName: Junkman Arm
 	DivineJustice.DisplayName: Divine Justice
 	EmblemOfDreadDashProj.DisplayName: Dread Emblem Rush
 	JusticeUnveiledExplode.DisplayName: Justice Unveiled
@@ -1889,6 +1949,14 @@ Projectiles: {
 	AriaQSkillMiniDisk.DisplayName: Aria Q Skill Mini Disk
 	SulfuricacidExplosion.DisplayName: Sulfuricacid Explosion
 	DawnshatterFireball.DisplayName: Dawnshatter Fireball
+	TransferItemProj.DisplayName: Items In Transit
+	FrostBlizzardField.DisplayName: Frost Blizzard Field
+	FrostNovaOrb.DisplayName: Frost Nova Orb
+	MuraDimensionSlash.DisplayName: Mura Dimension Slash
+	MuraSlashArc.DisplayName: Mura Slash Arc
+	MuraSlashLine.DisplayName: Mura Slash Line
+	WGGLumberjackSaw.DisplayName: Lumberjack Saw
+	WGGLifeWeaverAcorn.DisplayName: Acorn
 }
 
 Configs: {
@@ -8255,6 +8323,20 @@ QuestLogs: {
 			QuestObjective.Description: Obtain the Collector
 			QuestReward.Description: 2 Chests
 			DetailedDescription: Tired of bending over to pick up loot everywhere? This device automatically collects nearby dropped items. It is a core component for building automated logistics and sorting systems, completely freeing your hands.
+		}
+
+		LumberjackQuest: {
+			DisplayName: Timber Time
+			Description: Obtain the Lumberjack
+			QuestObjective.Description: Obtain the Lumberjack
+			DetailedDescription: Wood is the cornerstone of industry and construction. Say goodbye to primitive axes; this machine consumes power to automate your tree farm, ensuring a continuous supply of timber.
+		}
+
+		LifeWeaverQuest: {
+			DisplayName: Reforestation
+			Description: Obtain the Life Weaver
+			QuestObjective.Description: Obtain the Life Weaver
+			DetailedDescription: Forest regeneration is usually a slow process. This machine uses power to precisely plant saplings, quickly restoring life to barren lands. It is the final piece of the puzzle for building a fully automated, sustainable tree farm.
 		}
 	}
 }
