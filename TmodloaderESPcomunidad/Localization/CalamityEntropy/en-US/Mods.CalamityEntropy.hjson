@@ -764,7 +764,7 @@ Items: {
 		Tooltip:
 			'''
 			+ 2 Life Regen/s
-			Remove 99% defense damage.
+			-50% defense damage.
 			-Death Mode-
 			'''
 	}
@@ -3494,6 +3494,38 @@ Items: {
 		DisplayName: Ling's Hair Accessory
 		Tooltip: ""
 	}
+
+	VoidCore: {
+		DisplayName: Void Core
+		Tooltip:
+			'''
+			Provide [S] shield
+			Allows you to dash through enemies and deal damage
+			+[C]% Crit damage
+			'''
+	}
+
+	Depletion: {
+		DisplayName: Depletion
+		Tooltip: ""
+	}
+
+	Amnesty: {
+		DisplayName: Amnesty
+		Tooltip: ""
+	}
+
+	SusiesBracelet: {
+		DisplayName: Susie's Bracelet
+		Tooltip:
+			'''
+			Provide more and more attribute bonuses as the game progresses
+			+[DEF] Defense
+			+[DMG]% Damage
+			+[LIFE] Max Life
+			+[MANA] Max Mana
+			'''
+	}
 }
 
 ChaoticSetBonus:
@@ -4108,11 +4140,18 @@ Projectiles: {
 	BrimHomingBullet.DisplayName: Brim Homing Bullet
 	PlagueMissle.DisplayName: Plague Missle
 	RedemptionShootAlt.DisplayName: Redemption Shoot Alt
-	BMDirtProj.DisplayName: B M Dirt Proj
+	BMDirtProj.DisplayName: Tile
 	TrainingSwordProj.DisplayName: Training Sword Proj
 	WaterBolt.DisplayName: Water Bolt
-	WOHHeld.DisplayName: W O H Held
+	WOHHeld.DisplayName: WoH Held
 	FractalAbyssalBlade.DisplayName: Fractal Abyssal Blade
+	DepletionBullet.DisplayName: Depletion Bullet
+	DepletionHeld.DisplayName: Depletion Held
+	DepletionLaser.DisplayName: Depletion Laser
+	AmnestyBullet.DisplayName: Amnesty Bullet
+	AmnestyHeld.DisplayName: Amnesty Held
+	AmnestyLaser.DisplayName: Amnesty Arc
+	AmnestyMiniLaser.DisplayName: Amnesty Mini Laser
 }
 
 LegendTooltip: - Legend -
@@ -5401,3 +5440,4 @@ DriverCoreCooldown: Driver Core Shield
 FetalDreamDamage: Koishi Damage
 NihilityShield: Nihility Shield
 CardsDesc: There should be a complete set of cards similar to it
+VoidCoreShield: Void Shield
