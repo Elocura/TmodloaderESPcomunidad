@@ -761,7 +761,7 @@ Items: {
 		Tooltip:
 			'''
 			+2 de regeneración de vida
-			Elimina el 99% del daño a la defensa
+			-50% de daño da la defensa
 			-Modo Muerte-
 			'''
 	}
@@ -3484,6 +3484,38 @@ Items: {
 		DisplayName: Accesorio para el cabello de Ling
 		Tooltip: ""
 	}
+
+	VoidCore: {
+		DisplayName: Núcleo del vacío
+		Tooltip:
+			'''
+			Proporciona un escudo [S]
+			Te permite atravesar a los enemigos y causarles daño
+			+[C]% de daño crítico
+			'''
+	}
+
+	Depletion: {
+		DisplayName: Agotamiento
+		Tooltip: ""
+	}
+
+	Amnesty: {
+		DisplayName: Amnistía
+		Tooltip: ""
+	}
+
+	SusiesBracelet: {
+		DisplayName: Pulsera de Susie
+		Tooltip:
+			'''
+			Sus estadísticas mejorarán a medida que progreses
+			+[DEF] de defensa
+			+[DMG]% de daño
+			+[LIFE] de vida máxima
+			+[MANA] de maná máximo
+			'''
+	}
 }
 
 ChaoticSetBonus:
@@ -4095,11 +4127,18 @@ Projectiles: {
 	BrimHomingBullet.DisplayName: Brim Homing Bullet
 	PlagueMissle.DisplayName: Plague Missle
 	RedemptionShootAlt.DisplayName: Redemption Shoot Alt
-	BMDirtProj.DisplayName: B M Dirt Proj
+	BMDirtProj.DisplayName: Tile
 	TrainingSwordProj.DisplayName: Training Sword Proj
 	WaterBolt.DisplayName: Water Bolt
-	WOHHeld.DisplayName: W O H Held
+	WOHHeld.DisplayName: WoH Held
 	FractalAbyssalBlade.DisplayName: Fractal Abyssal Blade
+	DepletionBullet.DisplayName: Depletion Bullet
+	DepletionHeld.DisplayName: Depletion Held
+	DepletionLaser.DisplayName: Depletion Laser
+	AmnestyBullet.DisplayName: Amnesty Bullet
+	AmnestyHeld.DisplayName: Amnesty Held
+	AmnestyLaser.DisplayName: Amnesty Arc
+	AmnestyMiniLaser.DisplayName: Amnesty Mini Laser
 }
 
 LegendTooltip: - Legendario -
@@ -5404,8 +5443,4 @@ DriverCoreCooldown: Núcleo conductor del escudo
 FetalDreamDamage: Daño de Koishi 
 NihilityShield: Escudo de la Nihilidad
 CardsDesc: Debería haber un juego completo de cartas similar a este
-
-
-
-
-
+VoidCoreShield: Escudo del vacío
