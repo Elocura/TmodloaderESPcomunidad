@@ -450,62 +450,62 @@ Mods: {
 
 		Items: {
 			BoneQuiver: {
-				DisplayName: Carcaj Infinito de Hueso
+				DisplayName: Carcaj de flecha de hueso eterno
 				Tooltip: ""
 			}
 
 			ChlorophyteQuiver: {
-				DisplayName: Carcaj Infinito de Clorofita
+				DisplayName: Carcaj de flecha de clorofita eterna
 				Tooltip: Rebota después de golpear una pared
 			}
 
 			CursedQuiver: {
-				DisplayName: Carcaj Infinito Maldito
+				DisplayName: Carcaj de flecha maldita eterna
 				Tooltip: ""
 			}
 
 			FlameQuiver: {
-				DisplayName: Carcaj Infinito de Llamas
+				DisplayName: Carcaj de flecha ardiente eterno
 				Tooltip: ""
 			}
 
 			FrostburnQuiver: {
-				DisplayName: Carcaj Infinito de Escarcha Ardiente
+				DisplayName: Carcaj de flecha de quemadura gélida eterna
 				Tooltip: ""
 			}
 
 			HellfireQuiver: {
-				DisplayName: Carcaj Infinito de Fuego Infernal
+				DisplayName: Carcaj de flecha de fuego infernal eterno
 				Tooltip: ""
 			}
 
 			HolyQuiver: {
-				DisplayName: Carcaj Infinito Sagrado
+				DisplayName: Carcaj de flecha sagrada eterna
 				Tooltip: Invoca estrellas fugaces al impactar
 			}
 
 			IchorQuiver: {
-				DisplayName: Carcaj Infinito de Ícor
+				DisplayName: Carcaj de flecha de icor eterno
 				Tooltip: Reduce la defensa del objetivo
 			}
 
 			JesterQuiver: {
-				DisplayName: Carcaj Infinito del Bufón
+				DisplayName: Carcaj de flecha de bufón eterno
 				Tooltip: ""
 			}
 
 			LuminiteQuiver: {
-				DisplayName: Carcaj Infinito de Luminita
+				DisplayName: Carcaj de flecha de luminita eterna
 				Tooltip: ¡'Derribándolos a la velocidad del sonido!'
 			}
 
 			UnholyQuiver: {
-				DisplayName: Carcaj Infinito Profano
+				DisplayName: Carcaj de flecha infame eterno
 				Tooltip: ""
 			}
 
 			VenomQuiver: {
-				DisplayName: Carcaj Infinito de Veneno
+				DisplayName: Carcaj de flecha de ponzoña eterna
 				Tooltip: ""
 			}
 
@@ -515,72 +515,72 @@ Mods: {
 			}
 
 			ChlorophytePouch: {
-				DisplayName: Bolsa Infinita de Clorofita
+				DisplayName: Petaca de clorofita eterna
 				Tooltip: Persigue al enemigo
 			}
 
 			CrystalPouch: {
-				DisplayName: Bolsa Infinita de Cristal
+				DisplayName: Petaca de cristal eterna
 				Tooltip: Genera fragmentos de cristal al impactar
 			}
 
 			CursedPouch: {
-				DisplayName: Bolsa Infinita Maldita
+				DisplayName: Petaca maldita eterna
 				Tooltip: ""
 			}
 
 			ExplosivePouch: {
-				DisplayName: Bolsa Infinita Explosiva
+				DisplayName: Petaca explosiva eterna
 				Tooltip: Explota al impactar
 			}
 
 			GoldenPouch: {
-				DisplayName: Bolsa Infinita Dorada
+				DisplayName: Petaca de oro eterno
 				Tooltip: Los enemigos soltarán más dinero al morir
 			}
 
 			IchorPouch: {
-				DisplayName: Bolsa Infinita de Ícor
+				DisplayName: Petaca de icor eterno
 				Tooltip: Reduce la defensa del objetivo
 			}
 
 			LuminitePouch: {
-				DisplayName: Bolsa Infinita de Luminita
+				DisplayName: Petaca de luminita eterna
 				Tooltip: "'Apúntales… y derríbalos…'"
 			}
 
 			MeteorPouch: {
-				DisplayName: Bolsa Infinita de Meteoritos
+				DisplayName: Petaca de meteorito eterno
 				Tooltip: ""
 			}
 
 			NanoPouch: {
-				DisplayName: Bolsa Infinita de Nano Balas
+				DisplayName: Petaca de nanobala eterna
 				Tooltip: Causa confusión
 			}
 
 			PartyPouch: {
-				DisplayName: Bolsa Infinita de Fiesta
+				DisplayName: Petaca fiestera eterna
 				Tooltip: Estalla en confeti al impactar
 			}
 
 			SilverPouch: {
-				DisplayName: Bolsa Infinita de Plata
+				DisplayName: Petaca de plata eterna
 				Tooltip: ""
 			}
 
 			TungstenPouch: {
-				DisplayName: Bolsa Infinita de Tungsteno
+				DisplayName: Petaca de tungsteno eterna
 				Tooltip: ""
 			}
 
 			VelocityPouch: {
-				DisplayName: Bolsa Infinita de Alta Velocidad
+				DisplayName: Petaca de alta velocidad eterna
 				Tooltip: ""
 			}
 
 			VenomPouch: {
-				DisplayName: Bolsa Infinita de Veneno
+				DisplayName: Petaca de ponzoña eterna
 				Tooltip: Envenena al objetivo
 			}
 
@@ -1231,8 +1231,8 @@ Mods: {
 			}
 
 			DilutedRainbowMatter: {
-				DisplayName: Materia Arcoíris Diluida
-				Tooltip: Invoca a la Baba Arcoíris
+				DisplayName: Materia arcoíris diluida
+				Tooltip: Invoca al Slime arcoíris
 			}
 
 			Eggplant: {
@@ -1260,8 +1260,8 @@ Mods: {
 			}
 
 			GoldenSlimeCrown: {
-				DisplayName: Corona de Baba Dorada
-				Tooltip: Invoca a la Baba Dorada
+				DisplayName: Corona de slime dorado
+				Tooltip: Invoca al slime dorado
 			}
 
 			GrandCross: {
@@ -2821,9 +2821,9 @@ Mods: {
 				}
 
 				Census.SpawnCondition: Cuando cualquier jefe ha sido derrotado.
-				CycleShop: Tienda cíclica
-				PreHM: Pre Modo Difícil
-				HM: Modo Difícil
+				CycleShop: Cambiar tienda
+				PreHM: Pre Modo difícil
+				HM: Modo difícil
 				PostML: Post Señor de la Luna
 			}
 
