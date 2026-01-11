@@ -3181,7 +3181,8 @@ Items: {
 			Nivel actual: [LV] / 16
 			$Dependiendo de tu nivel actual, invoca algunos espíritus del abismo para que te protejan 
 			$Clic derecho para cambiar su comportamiento:
-			$^En el modo Perforación, atacan repetidamente a los objetivos; en el modo Disparo, disparan rayos abisales que siguen a los objetivos; en el modo Defensa, bloquean los proyectiles que se dirigen hacia ti.
+			$^En el modo Perforación, atacan repetidamente a los objetivos; en el modo Disparo, disparan rayos abisales que siguen a los objetivos; 
+			en el modo Defensa, bloquean los proyectiles que se dirigen hacia ti.
 			%Lanza púas carmesís desde fuera de la pantalla que atraviesan a los objetivos
 			&Al disparar, arrojará rayos abisales autodirigidos
 			'''
@@ -3515,6 +3516,21 @@ Items: {
 			+[LIFE] de vida máxima
 			+[MANA] de maná máximo
 			'''
+	}
+
+	AcropolisHeavyArmor: {
+		DisplayName: Coraza pesada de Acrópolis
+		Tooltip: ""
+	}
+
+	AcropolisHeavyHelmet: {
+		DisplayName: Casco pesado de Acrópolis
+		Tooltip: ""
+	}
+
+	AcropolisHeavyLegArmor: {
+		DisplayName: Grebas pesadas de Acrópolis
+		Tooltip: ""
 	}
 }
 
@@ -4139,6 +4155,9 @@ Projectiles: {
 	AmnestyHeld.DisplayName: Amnesty Held
 	AmnestyLaser.DisplayName: Amnesty Arc
 	AmnestyMiniLaser.DisplayName: Amnesty Mini Laser
+	AcropolisBullet.DisplayName: Acropolis Bullet
+	AcropolisSlash.DisplayName: Acropolis Slash
+	AcropolisHarpoon.DisplayName: Acropolis Harpoon
 }
 
 LegendTooltip: - Legendario -
@@ -4667,6 +4686,7 @@ Keybinds: {
 	RuneDash.DisplayName: Embestida de Runa de vuelo
 	CommandMinions.DisplayName: Dirigir súbditos
 	NihilityAndChaoticArmorConnectKey.DisplayName: Nihilidad y conexión de la armadura caótica 
+	AcropolisMechTransformation.DisplayName: Mods.CalamityEntropy.Keybinds.AcropolisMechTransformation.DisplayName
 }
 
 ProphetLoreEffect:
@@ -5399,6 +5419,25 @@ AzafureSet2:
 	Proporciona 80 de sigilo.
 	+20% de velocidad de movimiento y +1 espacio de súbditos
 	'''
+AzafureSet3:
+	'''
+	Cuando esta armadura está equipada, 
+	todo el equipo Azafure recibe mejoras parciales.
+	La barra de Adrenalina se sustituye por la barra de Durabilidad
+	La barra de durabilidad proporciona hasta 50 puntos de defensa y una reducción del daño del 32%.
+	La durabilidad se consume en función del daño recibido al ser golpeado.
+	La durabilidad se regenera lentamente 5 segundos después de recibir daño
+	Cuando la barra de durabilidad se agota, se desactiva y tendrás que esperar a que vuelva a estar operativa.
+	Proporciona 120 de sigilo.
+	Presiona [[KEY]] para transformarte en el Acrópolis, 
+	y vuelve a presionar la tecla para terminar la transformación
+	Cuando se activa el mecha, aumenta significativamente la defensa y la reducción de daño, 
+    y solo se pueden usar las armas de este
+	Ataca con el clic izquierdo, y cambia de arma con el clic derecho
+	El gancho será sustituido por un arpón.
+	Al usar el gancho se lanzará el arpón, que te arrastrará hacia el objeto enganchado
+	La lanza atrapará a los enemigos más débiles y, si se engancha en un jefe, te arrastrará hacia él
+	'''
 DuraBar: Barra de durabilidad
 AzafureEnhance: Mejoras
 
@@ -5444,4 +5483,7 @@ FetalDreamDamage: Daño de Koishi
 NihilityShield: Escudo de la Nihilidad
 CardsDesc: Debería haber un juego completo de cartas similar a este
 VoidCoreShield: Escudo del vacío
+CrossModSupportFish: Compatibilidad entre mods: También puedes incluirlo en los libros de Entropy como marcador
+CdAcr: Enfriamiento del Mecha Acrópolis
+
 
