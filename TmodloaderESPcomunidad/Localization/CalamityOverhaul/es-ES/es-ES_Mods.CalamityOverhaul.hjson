@@ -962,6 +962,41 @@ Items: {
 		Tooltip: ""
 	}
 
+	Incinerator: {
+		DisplayName: Incinerador eléctrico
+		Tooltip:
+			'''
+			Consume energía para fundir objetos
+			Haz clic derecho para abrir el panel de control
+			Presiona Shift + clic derecho para depositar rápidamente los ítems o para agarrarlos
+			Fundir objetos duplica la producción
+			'''
+	}
+
+	ItemPipeline: {
+		DisplayName: Canalizador de ítems
+		Tooltip:
+			'''
+			Se utiliza para transportar objetos
+			Haz clic derecho para desmontar rápidamente y recuperar la tubería objetivo (solo cuando se sostiene un canalizador)
+			Hagz clic derecho en un extremo de una tubería para cambiar entre los modos Salida y Entrada (solo cuando NO se sostiene un canalizador)
+			Las tuberías en modo de Salida extraen ítems de los almacenamientos conectados y los transfieren a los almacenamientos conectados a las tuberías en modo de entrada
+			'''
+	}
+
+	Thrower: {
+		NoEnergyText: ¡Energia insuficiente!
+		NoItemText: ¡No hay ítems para arrojar!
+		WorkingText: Arrojando...
+		IdleText: Inactivo
+		DisplayName: Arojador
+		Tooltip:
+			'''
+			Consume energía para lanzar objetos
+			Haz clic derecho para abrir el panel de control
+			'''
+	}
+
 	MedicalBox: {
 		DisplayName: Botiquín
 		Tooltip:
@@ -1244,6 +1279,7 @@ Items: {
 			Mi nombre es [NAME]. Si estás leyendo esto, significa que ya no estoy vivo.
 			'''
 		CompletionText: Has olvidado todo
+		ConditionsText: Consigue cualquier final de la historia
 	}
 
 	Fishoil: {
@@ -6349,7 +6385,8 @@ UI: {
 		TitleText: Confirmación de mejora de arma legendaria
 		DescText:
 			'''
-			El nivel de mundo actual es superior al nivel del arma.
+			El nivel de mundo actual es 
+			superior al nivel del arma.
 			¿Actualizar {0} al nivel {1}?
 			'''
 		ConfirmText: Actualizar
@@ -6560,6 +6597,70 @@ UI: {
 			Si se debe a versiones obsoletas, espere a que se publique una actualización.
 			El equipo de desarrollo suele publicar parches de compatibilidad en un plazo de 12 horas
 			'''
+	}
+
+	QuestWorldConfirmUI: {
+		TitleText: Confirmación de comprobación de misión
+		DescText:
+			'''
+			Se ha detectado una entrada procedente de otro mundo.
+			¿Deseas comprobar el progreso de la misión 
+			en el mundo actual?
+			'''
+		ConfirmText: Comprobar misiones
+		CancelText: Saltar
+		EnabledText: Comprobación de misiones acticado
+		DisabledText: Comprobación de misión omitida
+		DisabledOverlayText:
+			'''
+			La comprobación de misiones está desactivada en este mundo.
+			Vuelve a entrar en el mundo para volver a elegir
+			'''
+	}
+
+	Incinerator: {
+		IncineratorUI: {
+			TitleText: Incinerador eléctrico
+			InputLabel: Entrada
+			OutputLabel: Salida
+			ProgressLabel: Progreso
+			PowerLabel: Energía
+			StatusLabel: Estado:
+			SmeltingText: incinerando
+			IdleText: Inactivo
+			NoPowerText: Sin energía
+			InputHint: Colocar ítems para incinerar
+			OutputHint: Haz clic para recuperar el resultado
+			PowerUnit: UE
+		}
+	}
+
+	ItemPipeline: {
+		Normal: Normal
+		Output: Salida
+		Input: Entrada
+		NotEndpointHint: Las entradas y salidas solo pueden instalarse en un extremo de la tubería
+	}
+
+	ThrowerUI: {
+		TitleText: Arrojador de ítems
+		InventoryLabel: Alacenamiento
+		ControlLabel: Panel de control
+		SpeedLabel: Velocidad de lanzamiento
+		AngleLabel: Ángulo de dispersión
+		IntervalLabel: Intervalo de lanzamiento
+		DirectionLabel: Dirección del lanzamiento
+		StartText: Comenzar
+		StopText: Detener
+		StatusRunning: Funcionando
+		StatusIdle: inactivo
+		StatusNoEnergy: Sin energía
+		StatusNoItems: Sin objetos
+		EnergyLabel: Energía
+		DropHint: Colocar ítems
+		AmmoModeOnText: Disparar munición
+		AmmoModeOffText: Lanzar objeto
+		AmmoModeHint: Ammo Mode: Dispara el proyectiles correspondiente a la munición insertada
 	}
 }
 
@@ -8336,6 +8437,29 @@ QuestLogs: {
 			Description: Obtén el Tejedor de vida
 			QuestObjective.Description: Obtén el Tejedor de vida
 			DetailedDescription: La regeneración forestal suele ser un proceso lento. Esta máquina utiliza energía para plantar árboles jóvenes con precisión, restaurando rápidamente la vida en tierras áridas. Es la pieza final del rompecabezas para una recolección arbórea totalmente automatizada y sostenible.
+		}
+
+		IncineratorQuest: {
+			DisplayName: Fundición eléctrica
+			Description: Fabrica un Incinerador eléctrico
+			QuestObjective.Description: Obtén un Incinerador eléctrico
+			DetailedDescription: Los hornos tradicionales son ineficientes y desperdician una cantidad significativa de esencia mineral. Aprovechando las temperaturas extremas generadas por los arcos de alto voltaje, esta máquina descompone completamente los minerales, duplicando el rendimiento. Este es un paso crucial hacia la industrialización.
+		}
+
+		ItemPipelineQuest: {
+			DisplayName: Sistema logístico
+			Description: Fabrica un Canalizador de ítems
+			QuestObjective.Description: Obtén un Canalizador de ítems
+			QuestReward.Description: 2 Cofres
+			DetailedDescription: ¿Sigues llendo de un cofre a otro para almacenar tus objetos? ¿Acaso eres un cavernícola? Estas tuberías son las venas de la industria. Conéctalas entre máquinas y contenedores, y observa cómo los objetos fluyen automáticamente hacia donde deben estar. Construye una cadena de montaje automatizada y disfruta del placer de cosechar recompensas sin esfuerzo.
+		}
+
+		ThrowerQuest: {
+			DisplayName: Asistente de lanzamiento
+			Description: Fabrica un Arrojador
+			QuestObjective.Description: Obtén un Arrojador
+			QuestReward.Description: 2 Cofres
+			DetailedDescription: No todos los objetos merecen ser atesorados. Este dispositivo expulsa objetos de la red logística y los lanza al mundo exterior. Ya sea para la fabricación automatizada (como sumergir objetos en líquidos) o simplemente para actuar como un eliminador de residuos, realiza su trabajo a la perfección.
 		}
 	}
 }
