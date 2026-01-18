@@ -1509,7 +1509,7 @@ Items: {
 		Tooltip:
 			'''
 			Lanza rocas
-			+15% de daño
+			+20% de daño
 			+1 de penetración 
 			'''
 		DisplayName: Marcapáginas - Terra
@@ -3181,8 +3181,8 @@ Items: {
 			Nivel actual: [LV] / 16
 			$Dependiendo de tu nivel actual, invoca algunos espíritus del abismo para que te protejan 
 			$Clic derecho para cambiar su comportamiento:
-			$^En el modo Perforación, atacan repetidamente a los objetivos; en el modo Disparo, disparan rayos abisales que siguen a los objetivos; 
-			en el modo Defensa, bloquean los proyectiles que se dirigen hacia ti.
+			$^ En el modo Perforación, atacan repetidamente a los objetivos; en el modo Disparo, disparan rayos abisales que siguen a los objetivos; 
+			$^ en el modo Defensa, bloquean los proyectiles que se dirigen hacia ti.
 			%Lanza púas carmesís desde fuera de la pantalla que atraviesan a los objetivos
 			&Al disparar, arrojará rayos abisales autodirigidos
 			'''
@@ -3532,6 +3532,38 @@ Items: {
 		DisplayName: Grebas pesadas de Acrópolis
 		Tooltip: ""
 	}
+
+	ExquisiteCrown: {
+		DisplayName: Corona exquisita
+		Tooltip:
+			'''
+			Invoca una corona que disparará rayos rubí a los enemigos
+			+1 de espacio de súbditos
+			'''
+	}
+
+	RottenFangs: {
+		DisplayName: Colmillos podridos
+		Tooltip:
+			'''
+			Los súbditos dispararán balas de sangre a los enemigos
+			+1 de espacio de súbditos
+			'''
+	}
+
+	CreeperWand: {
+		DisplayName: Varita de criaturas
+		Tooltip: Invoca criaturas que atacan por turnos.
+	}
+
+	CursedTorch: {
+		DisplayName: Antorcha maldita
+		Tooltip:
+			'''
+			Invoca una antorcha maldita que lanza fuego a los enemigos
+			COnsume dos espacios de súbditos
+			'''
+	}
 }
 
 ChaoticSetBonus:
@@ -3613,7 +3645,7 @@ MariviniumSet:
 	Al usar un látigo, mejora los atributos de invocador
 	El ataque sigiloso puede provocar una explosión de agua
 	Obtendrás 2 escudos, que tardarán 20 segundos en recuperarse después de ser destruidos
-	Al romperse un escudo, recupera 140 puntos de vida y duplica tu daño durante 5 segundos
+	Al romperse un escudo, recupera 140 puntos de vida y y obtienes un 100% más de daño durante 5 segundos
 	'''
 DeathMode: Modo Muerte
 CdMantle: Enfriamiento del Manto sagrado
@@ -4158,6 +4190,12 @@ Projectiles: {
 	AcropolisBullet.DisplayName: Acropolis Bullet
 	AcropolisSlash.DisplayName: Acropolis Slash
 	AcropolisHarpoon.DisplayName: Acropolis Harpoon
+	CrownRubyProj.DisplayName: Crown Ruby Proj
+	RubyCrown.DisplayName: Ruby Crown
+	RottenFangsBloodBullet.DisplayName: Rotten Fangs Blood Bullet
+	CreeperMinion.DisplayName: Creeper Minion
+	CursedTorchMinion.DisplayName: Cursed Torch Minion
+	CursingFlame.DisplayName: Cursing Flame
 }
 
 LegendTooltip: - Legendario -
@@ -4501,6 +4539,16 @@ Buffs: {
 		DisplayName: Hoja ilusoria
 		Description: La hoja ilusoria luchará por ti
 	}
+
+	CreeperBuff: {
+		DisplayName: Criatura
+		Description: La criatura will luchará por ti
+	}
+
+	CursingFire: {
+		DisplayName: Fuego maldito
+		Description: El fuego eterno arde...
+	}
 }
 
 Uh: ""
@@ -4818,6 +4866,10 @@ Configs: {
 		ClearStealthWhenChangeEquipSet: {
 			Label: Borra el sigilo al cambiar de equipamiento
 			Tooltip: ""
+		}
+		ExtraItemsInStarterBag: {
+			Label: Ítems adicionales en la bolsa de inicio
+			Tooltip: La bolsa de inicio proporciona objetos útiles adicionales
 		}
 	}
 }
@@ -5421,6 +5473,7 @@ AzafureSet2:
 	'''
 AzafureSet3:
 	'''
+	Eres inmune al daño por caida
 	Cuando esta armadura está equipada, 
 	todo el equipo Azafure recibe mejoras parciales.
 	La barra de Adrenalina se sustituye por la barra de Durabilidad
@@ -5470,7 +5523,7 @@ AzafureEnhances: {
 	AzafureDriverCore:
 		'''
 		Reduce el coste de energía.
-		El escudo tomará un 40% del daño que recibas.
+		El escudo tomará un 20% del daño que recibas.
 		Aumenta la velocidad de regeneración del escudo
 		'''
 }
@@ -5485,6 +5538,7 @@ CardsDesc: Debería haber un juego completo de cartas similar a este
 VoidCoreShield: Escudo del vacío
 CrossModSupportFish: Compatibilidad entre mods: También puedes incluirlo en los libros de Entropy como marcapáginas
 CdAcr: Enfriamiento del Mecha Acrópolis
+
 
 
 
