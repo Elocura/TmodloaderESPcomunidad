@@ -1009,6 +1009,7 @@ Mods: {
 
 			EarthenConduit: {
 				DisplayName: Conducto terrestre
+				Tooltip:
 					'''
 					Un redireccionador incompleto de energía terrestre: carece de un chasis que lo soporte
 					Cuando está completamente cargado, enfocará la energía terrestre cercana en repositorios válidos
@@ -1532,6 +1533,7 @@ Mods: {
 					'''
 					Aumenta el daño crítico en un 20%
 					Los enemigos tienen un 10% de probabilidad de soltar doble botín, que aumentará al 20% al ser asesinados
+					'''
 			}
 
 			MarbleDefender: {
@@ -1622,8 +1624,8 @@ Mods: {
 				DisplayName: Bláster de pixeles
 				Tooltip: 
 					'''
-				Dispara un rayo que atraviesa a los enemigos y les inflige daño 60 veces por segundo.
-				Recibe bonificaciones reducidas por los buffos de probabilidad de crítica
+					Dispara un rayo que atraviesa a los enemigos y les inflige daño 60 veces por segundo.
+					Recibe bonificaciones reducidas por los buffos de probabilidad de crítica
 					'''
 			}
 
