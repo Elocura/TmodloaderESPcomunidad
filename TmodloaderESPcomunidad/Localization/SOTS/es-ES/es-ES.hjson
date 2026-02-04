@@ -7967,7 +7967,7 @@ Mods: {
 
 				BossChecklistIntegration: {
 					EntryName: Pinky pútrido
-					SpawnInfo: Invocalo en cualquier bioma y en cualquier momento usando un [i:SOTS/JarOfPeanuts]
+					SpawnInfo: Invócalo en cualquier bioma y en cualquier momento usando un [i:SOTS/JarOfPeanuts]
 					DespawnMessage: El Pinky pútrido ya no te persigue
 				}
 			}
@@ -8080,14 +8080,14 @@ Mods: {
 			TardigradeBrown.DisplayName: Tardígrado
 			TardigradeGreen.DisplayName: Tardígrado
 			TardigradePink.DisplayName: Tardígrado
-			Bridgeburner.DisplayName: Quemador de puentes
+			Bridgeburner.DisplayName: Quema-puentes
 
 			Excavator: {
 				DisplayName: El Excavador
 
 				BossChecklistIntegration: {
 					EntryName: El Excavador
-					SpawnInfo: Invocalo activando el [i:SOTS/SeismicStation] en la minas del Pueblo abandonado
+					SpawnInfo: Invócalo activando el [i:SOTS/SeismicStation] en la minas del Pueblo abandonado
 					DespawnMessage: El Excavador ya no te persigue
 				}
 			}
@@ -8126,13 +8126,13 @@ Mods: {
 			ArcticGoblin: Un duende exiliado abandonado a su suerte en la implacable tundra.
 			Polaris: Una máquina de guerra olvidada. Fabricada mucho antes que el trío mecánico, Polaris no se construyó con el propósito de revivir a Cthulhu, sino como un arma de destrucción masiva.
 			FluxSlime:Creadas antes que el Pinky pútrido, estas amenazas gelatinosas tienen su origen en los primeros experimentos con limo rosa.
-			PP: Una abominación con un apetito insaciable por los manís. El Pinky pútrido fue creado en un experimento fallido utilizando limo rosa.
+			PP: Una abominación con un apetito insaciable por los manís. El Pinky pútrido fue un experimento fallido que fue creado utilizando limo rosa.
 			BlueSlimer: Un slime azul que se volvió volador al desarrollar unas alas rudimentarias. Sus alas se rompen fácilmente con un golpe, lo que le impide volar.
 			NatureSlime: Un slime controlado de forma engañosa por una flor parásita. Su singular biología lo había convertido anteriormente en objeto de gran interés científico.
 			SittingMushroom: Las setas sentadas son setas que escupen.
 			TreasureSlime: ¡La nobleza de los slimes! A diferencia de los demás, estos slimes valoran sus vidas, y cualquier intento de robarles su tesoro hará que huyan sin pensarlo dos veces.
 			NatureConstruct: Una antigua máquina creada originalmente para avanzar en la tecnología de recolección de energía espiritual. Bajo el control del espíritu, también sirve como protector de los bosques.
-			EarthenConstruct: Dado que los espíritus terrestres son conocidos por viajar en grupos, el chasis de la construcción se diseñó para permitir el fácil movimiento de los espíritus contenidos en su interior. Los diseños anteriores, más compactos, resultaron ser demasiado inestables para albergar grupos de espíritus.
+			EarthenConstruct: Dado que los espíritus terrestres son conocidos por viajar en grupos, el chasis de este constructo se diseñó para permitir el fácil movimiento de los espíritus contenidos en su interior. Los diseños anteriores, más compactos, resultaron ser demasiado inestables para albergar grupos de espíritus.
 			PermafrostConstruct: Una antigua máquina que utiliza energía espiritual para facilitar el desplazamiento por la nieve profunda. El espíritu, ahora en control, utiliza el dispositivo para defender su fría morada.
 			OtherworldlyConstructHead: Como todos los constructos, su cuerpo sirve de contenedor para el espíritu volátil que hay en su interior. Dado que los espíritus de otro mundo son relativamente dóciles, las constructos de otro mundo tienen una estructura interna muy simple.
 			TidalConstruct: Diseñado originalmente para cartografiar los océanos y transportar personas a lugares bajo las profundidades, su extraordinario exterior le ha permitido sobrevivir a la mayor parte de la erosión oceánica, pero no ha impedido que el espíritu que hay en su interior haya tomado el control.
@@ -8144,7 +8144,7 @@ Mods: {
 				DISEÑAREMOS ESTRUCTURAS DE CONTENCIÓN MEJORADAS QUE PERMITAN UN ESTUDIO PROLONGADO.
 				'''
 			InfernoConstruct: Antaño utilizada como llama viva para calentar antiguas forjas, hoy en día ya no se distingue de un arma de destrucción masiva.
-			ChaosConstruct: Una prisión diseñada para debilitar el poder del Espíritu del caos que hay en su interior. A diferencia de otras construcciones, el chasis no tiene otra finalidad que la contención.
+			ChaosConstruct: Una prisión diseñada para debilitar el poder del Espíritu del caos que hay en su interior. A diferencia de otros constructos, el chasis no tiene otra finalidad que la contención.
 			ChaosConstructChassis: La estructura interna de una Constucto del caos. Diseñada para contener al Espíritu del caos a toda costa.
 			NatureSpirit:
 				'''
@@ -8327,7 +8327,7 @@ Mods: {
 			}
 
 			BossDescription: {
-				PutridPinky: Invocalo en cualquier bioma en cualquier momento usando un {0}
+				PutridPinky: Invócalo en cualquier bioma y en cualquier momento usando un {0}
 				PharaohsCurse: Activa el {0} en la pirámide
 				TheAdvisor: Destruye los 4 Constructos de Otro Mundo encadenados del Planetario
 				Polaris: Activa el {0} del bioma de nieve usando {1}
@@ -9489,4 +9489,5 @@ Mods: {
 	}
 
 }
+
 
