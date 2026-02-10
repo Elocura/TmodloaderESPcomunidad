@@ -1,0 +1,445 @@
+FishSwarm: {
+		DisplayName: Banco fantasmal
+		Tooltip:
+			'''
+			Haz clic derecho para transformarte en un banco de peces y lanzarte hacia los enemigos.
+			Haz clic izquierdo para lanzar el banco hacia el cursor.
+			'''
+		Studied: Un pez poco notable, pero muestra un potencial considerable.
+	}
+
+	FishSparkling: {
+		DisplayName: Danza real chispeante
+		Tooltip:
+			'''
+			Periódicamente convoca a varios peces reina para que lancen una descarga mientras disparas.
+			El tiempo de enfriamiento no se reduce mientras estes disparando.
+			'''
+		Studied: Creo que con la investigación de este espécimen podremos aavnzar en la tecnología de los punteros láser.
+	}
+
+	FishZombie: {
+		DisplayName: Marea creciente
+		Tooltip:
+			'''
+			Haz clic derecho para invocar una horda de muertos ahogados que se abalanzan sobre los enemigos.
+			Explotan al acercarse a un objetivo.
+			'''
+		Studied: Un pescado maloliente. ¿Es siquiera... un ser vivo?
+	}
+
+	FishCloud: {
+		DisplayName: Surfista de las nubes
+		Tooltip:
+			'''
+			Haz clic derecho para montarte en una nube de lluvia y desplazarte a gran velocidad.
+			Mientras montas en ella, puedes atravesar paredes y usar armas.
+			Deja un rastro de lluvia a tu paso.
+			'''
+		Studied: Parece un pez, pero técnicamente es una nube nadadora.
+	}
+
+	FishVoodoo: {
+		DisplayName: Protección vudú
+		Tooltip:
+			'''
+			Al equiparlo, no morirás al recibir un golpe faltal,
+			y transferirás el daño a un enemigo cercano. Tiene un tiempo de enfriamiento.
+			Si hay un dominio activo, el daño se transfiere a *todos* los enemigos que se encuentren dentro de él.
+			'''
+		Studied: Un espécimen útil. Me da... ideas interesantes para nuevos experimentos.
+	}
+
+	FishDemonicHell: {
+		DisplayName: Explosión infernal
+		Tooltip:
+			'''
+			Periódicamente invoca un sigilo infernal mientras disparas.
+			Cuando está completamente cargado, el sigilo lanza una bola de fuego infernal
+			que explota tras un tiempo.
+			'''
+		Studied: Quema como el infierno.
+	}
+
+	FishDynamite: {
+		DisplayName: Pez dinamita
+		Tooltip:
+			'''
+			Haz clic derecho para lanzar un pez dinamita, que se ve afectado por la gravedad.
+			El pez explota al entrar en contacto con un enemigo o tras un breve periodo de tiempo.
+			'''
+		Studied: Su anatomía interna es muy compleja. Se compone principalmente por la parte que hace 'BOOM'.
+	}
+
+	FishBone: {
+		DisplayName: Ciclón óseo
+		Tooltip:
+			'''
+			Genera periódicamente huesos orbitales mientras disparas.
+			Después de girar en círculos, vuelan hacia los enemigos para luego regresar.
+			Los huesos se romperán si recibes daño.
+			'''
+		Studied: Podría ser bueno para un caldo. Delicioso y rico en calcio.
+	}
+
+	FishHarpy: {
+		DisplayName: Tifón plumífero
+		Tooltip:
+			'''
+			Genera periódicamente plumas de arpía orbitales mientras disparas.
+			Al disparar sin parar, las plumas acabarán lanzándose.
+			'''
+		Studied: Dudo que este pez pueda volar, pero técnicamente tiene alas.
+	}
+
+	FishFallenStar: {
+		DisplayName: Generador estelar
+		Tooltip:
+			'''
+			Los disparos van acompañados de estrellas, donde orbitarán estrellas más pequeñas.
+			Cada cierto número de disparos invoca una lluvia de estrellas.
+			'''
+		Studied: A la luz del día, podría simplemente... desaparecer.
+	}
+
+	FishHunger: {
+		DisplayName: Fauces hambrientas
+		Tooltip:
+			'''
+			De vez en cuando genera unas Fauces hambrientas orbitales mientras disparas.
+			A su máxima capacidad, los fauces seguirán tu objetivo para destrozar a los enemigos..
+			'''
+		Studied: Parece... hambriento.
+	}
+
+	FishBat: {
+		DisplayName: Eco fantasmal
+		Tooltip:
+			'''
+			Haz clic derecho para transformarte en un enjambre de murciélagos y despalzarte rápidamente.
+			Al atacar, perderás esta forma.
+			'''
+		Studied: Me pregunto... si se cuelga este pez boca abajo, ¿se quedará dormido?
+	}
+
+	FishEaterofPlankton: {
+		DisplayName: Engrendo volador
+		Tooltip:
+			'''
+			Al disparar lanzarás un devorador de almas en miniatura
+			que se serpenteará y atacará a los enemigos.
+			'''
+		Studied: ¡Este pescado tiene gusanos!
+	}
+
+	FishAmanita: {
+		DisplayName: Ciclo fúngico
+		Tooltip:
+			'''
+			Dispara cuatro tipos diferentes de hongos. Cada disparo cambia la especie del hongo.
+			Hongo explosivo: dispersa 3 hongos explosivos que infligen daño de área.
+			Espora teledirigida: dispersa 5 esporas que rastrean al objetivo más cercano.
+			Hongo tóxico: dispersa 2 hongos tóxicos que crean una nube dañina.
+			Espora relámpago: dispersa 5 esporas relámpago que se encadenan una vez al impactar.
+			'''
+		Studied: Este pez representa todo un ecosistema fúngico.
+	}
+
+	FishHoney: {
+		DisplayName: Invocador de abejas
+		Tooltip:
+			'''
+			Haz clic derecho para invocar un enjambre de abejas que te rodearán.
+			Las abejas atacarán automáticamente a los enemigos que vean.
+			'''
+		Studied: Por alguna razón,le aterroriza los bagres.
+	}
+
+	Fishotroning: {
+		DisplayName: Agarre óseo
+		Tooltip:
+			'''
+			Al disparar, las manos de Esqueletrón te ayudarán. Al sufrir daño, una de las manos desaparecerá.
+			A larga distancia, las manos lanzarán huesos.
+			A corta distancia, las manos golpearán al objetivo.
+			'''
+		Studied: ¡Tienes más de cuatro manos!
+	}
+
+	FishIchorn: {
+		DisplayName: Corriente de icor
+		Tooltip:
+			'''
+			Los disparos dispersarán icor.
+			Los impactos infligen el debuff Icor.
+			'''
+		Studied: La… 'saliva' de este pez… ¡es notablemente útil!
+	}
+
+	FishCursed: {
+		DisplayName: Estallido maldito
+		Tooltip:
+			'''
+			Al disparar caerá una lluvia de llamas malditas.
+			Las llamas caerán en una trayectoria arqueada antinatural.
+			'''
+		Studied: ¿¡Y esto no quema la caña de pescar!?
+	}
+
+	FishSlime: {
+		DisplayName: Estela viscosa
+		Tooltip:
+			'''
+			Lanza gel viscoso mientras te mueves.
+			El gel se pegará a cualquier objetivo que toque.
+			'''
+		Studied: Parece muy... 'cariñoso'.
+	}
+
+	FishBunny: {
+		DisplayName: Bombas rebotadoras
+		Tooltip:
+			'''
+			Haz clic derecho para lanzar un grupo de peces conejo que rebotarán y se verán afectados por la gravedad.
+			Explotan al entrar en contacto con un enemigo o tras un breve periodo de tiempo.
+			'''
+		Studied: ¡Peligrosamente esponjoso!
+	}
+
+	FishCat: {
+		DisplayName: Pez gato saltarín
+		Tooltip:
+			'''
+			Lanza un grupo de bagres rebotantes afectados por la gravedad.
+			Maúllan con cada rebote y explotan al entrar en contacto con un enemigo o tras un breve periodo de tiempo.
+			'''
+		Studied: Este pez parece tener una especial predilección por la miel.
+	}
+
+	FishDirt: {
+		DisplayName: Enjambre terrenal
+		Tooltip:
+			'''
+			Invoca un enjambre de peces de tierra que te rodearán mientras te mueves.
+			A plena capacidad, puedes lanzar una esfera de tierra.
+			La esfera rebotará y rodará, infligiendo daño continuo.
+			Solo puede haber una esfera activa a la vez.
+			'''
+		Studied:
+			'''
+			El aroma de la tierra me recuerda al fondo marino...
+			Estos pequeños son muy buenos acurrucándose para darse calor..
+			'''
+	}
+
+	FishMud: {
+		DisplayName: Centinelas de barro
+		Tooltip:
+			'''
+			Al disparar convocan centinelas de barro desde el suelo.
+			Los centinelas emergen, disparan una esfera de barro afectada por la gravedad a los enemigos,
+			y luego se sumergen para desaparecer.
+			'''
+		Studied: Estas criaturas son maestras del camuflaje.
+	}
+
+	FishPeng: {
+		DisplayName: Ataque de los pingüinos
+		Tooltip:
+			'''
+			Al disparar, invoca pingüinos desde el cielo sobre los enemigos.
+			Los pingüinos caen en picado, causando daño de área y aplicando retroceso.
+			'''
+		Studied: Podrían ser de Madagascar.
+	}
+
+	FishDrizzle: {
+		DisplayName: Llovizna sulfúrica
+		Tooltip:
+			'''
+			Invoca periódicamente varios peces que escupen azufre mientras disparas.
+			El tiempo de enfriamiento no disminuirá mientras dispares.
+			'''
+		Studied: Sospecho que esto es útil para algo más que encender una fogata.
+	}
+
+	FishofCthulu: {
+		DisplayName: Mirada abismal
+		Tooltip:
+			'''
+			Al disparar, se invoca un ojo vigilante para observar a los enemigos.
+			Cuando se acerca, el ojo se transforma y se lanza en picado.
+			'''
+		Studied: Te está... mirando fijamente.
+	}
+
+	FishJewel: {
+		DisplayName: Abertura prismática
+		Tooltip:
+			'''
+			Al disparar, se dispersan proyectiles de gemas en una secuencia determinada.
+			Cada tipo de gema produce un sonido diferente.
+			'''
+		Studied: Una abertura en seis colores... Quizás se podría componer una sinfonía arcoíris con ella.
+	}
+
+	FishTunabeard: {
+		DisplayName: Empuje torrencial
+		Tooltip:
+			'''
+			Haz clic derecho para desplazarte muy lejos y a alta velocidad hacia el cursor.
+			Otorga invencibilidad y permite atravesar paredes durante el desplazamiento.
+			'''
+		Studied: Para un pez, ¿hay realmente alguna diferencia entre un pirata y un ladrón?
+	}
+
+	FishBloodyManowar: {
+		DisplayName: Juicio carmesí
+		Tooltip:
+			'''
+			Al disparar, invoca a un grupo de medusas sangrientas para que se acerquen al enemigo.
+			Las medusas sangrientas, al reunirse, causarán un daño considerable.
+			'''
+		Studied: ¿Su relación es simbiótica o... jerárquica?
+	}
+
+	FishUnicorn: {
+		DisplayName: Lanzador prismático
+		Tooltip:
+			'''
+			Haz clic derecho para realizar un desplazamiento horizontal de larga distancia.
+			Te hace invencible y te permite atravesar paredes durante el desplazamiento.
+			'''
+		Studied: ¡La leyenda dice que solo una doncella pura puede atraparlo!
+	}
+
+	FishWyverntail: {
+		DisplayName: Sombra blanca aguda
+		Tooltip:
+			'''
+			Invoca periódicamente a un dragón blanco mientras disparas.
+			El dragón blanco vuela rápidamente hacia los enemigos y les inflige daño.
+			'''
+		Studied: Creo que debería considerarse una especie de criatura legendaria.
+	}
+
+	FishScorpio: {
+		DisplayName: Escorpión de arena
+		Tooltip:
+			'''
+			Invoca a los centinelas escorpión que mueven la tierra.
+			Lanza los rollos salmón al enemigo
+			'''
+		Studied: Todo su cuerpo está lleno de arena.
+	}
+
+	FishPrismite: {
+		DisplayName: Descarga prismática
+		Tooltip:
+			'''
+			Al disparar, las balas se convierten en ondas de choque prismáticas.
+			Las ondas de choque se dividen en múltiples proyectiles al impactar contra enemigos o bloques.
+			'''
+		Studied: Es probable que el iridiscente colorido de este pez se deba a un contenido excesivo de metales pesados.
+	}
+
+	FishObsidian: {
+		DisplayName: Fortaleza de obsidiana
+		Tooltip:
+			'''
+			Al disparar, aparecen peces de obsidiana que orbitan alrededor del jugador.
+			Los peces de obsidiana infligen daño continuo por contacto a los enemigos.
+			Cada vez que recibes daño, se rompe un pez.
+			'''
+		Studied: La obsidiana es bastante frágil, ¿sabes?.
+	}
+
+	FishRock: {
+		DisplayName: Martillazo de roca
+		Tooltip:
+			'''
+			Genera de forma periódica un pez martillo de roca que rastrea a los enemigos cercanos.
+			Carga sobre el objetivo antes de golpearlo.
+			'''
+		Studied: Nadie le pregunta nunca a la pobre criatura si *quiere* que la utilicen como martillo.
+	}
+
+	FishVariegatedLard: {
+		DisplayName: Mancha viscosa
+		Tooltip:
+			'''
+			Al atacar, rociarás aceite a los enemigos.
+			El aceite se pega a las bloques o a los enemigos y se extiende aún más.
+			'''
+		Studied: Voy a necesitar una cantidad considerable de detergente.
+	}
+
+	FishPrincess: {
+		DisplayName: Resplandor majestuoso
+		Tooltip:
+			'''
+			Al disparar, invoca a un pez princesa para que luche por ti.
+			La princesa pez dispara orbes mágicos contra los enemigos.
+			'''
+		Studied: Claramente no es un príncipe.
+	}
+
+	FishCrimsonTiger: {
+		DisplayName: Patrulla Carmesí
+		Tooltip:
+			'''
+			Haz clic derecho para invocar un banco de peces tigre carmesís que te seguirán.
+			Buscarán activamente y atacarán a los enemigos que vean.
+			'''
+		Studied: Parecen bastante feroces.
+	}
+
+	FishTropicalBarracuda: {
+		DisplayName: Fulgor de barracudas
+		Tooltip:
+			'''
+			Dispara bancos de barracudas tropicales desde los bordes de la pantalla.
+			Se desplazan rápidamente por toda la pantalla desde una dirección aleatoria.
+			'''
+		Studied: Su velocidad es extraordinaria.
+	}
+
+	FishNeonTetra: {
+		DisplayName: Rastro de neón
+		Tooltip:
+			'''
+			Deja tras de ti brillantes tetras neón mientras te mueves.
+			Los tetras iluminan y dañan a los enemigos que se encuentran en tu camino.
+			'''
+		Studied:  Me gustan bastante sus escamas.
+	}
+
+	FishBrimlish: {
+		DisplayName: Difusión azufrosa
+		Tooltip:
+			'''
+			Invoca periódicamente un pequeño pez limpiafondos mientras disparas.
+			El pez limpiafondos escupe numerosas esferas de azufre a los enemigos.
+			'''
+		Studied: Temperatura alarmantemente alta.
+	}
+
+	FishDoubleCod: {
+		DisplayName: Acoso de los bacalaos
+		Tooltip:
+			'''
+			Dispara periódicamente bacalaos teledirigido mientras dispara.
+			El bacalao rastrea continuamente a los enemigos e inflige daño por contacto.
+			'''
+		Studied: Una especie de lo más peculiar.
+	}
+
+	FishFrostMinnow: {
+		DisplayName: Anuncio helado
+		Tooltip:
+			'''
+			Periódicamente invoca un pececillo escarchado mientras dispara.
+			El pececillo escarchado escupe numerosas esferas de hielo a los enemigos.
+			'''
+		Studied: ¡Prepárate para la congelación!
+	}

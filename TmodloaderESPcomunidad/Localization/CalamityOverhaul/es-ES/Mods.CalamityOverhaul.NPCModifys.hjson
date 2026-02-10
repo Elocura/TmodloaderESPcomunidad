@@ -1,0 +1,95 @@
+ModifyCrabulon: {
+		CrouchText: Esperar
+		CrouchAltText: Seguir
+		MountHoverText: Haz clic izquierdo para colocar el sillín
+		RideHoverText: Haz clic derecho montar
+		ChangeSaddleText: Haz clic izquierdo para cambiar el sillín
+		DismountText: Haz clic derecho para desmontar
+		DontDismountText: ¡La montura no está disponible por ahora en el modo multijugador!
+		RecallText: Recordatorio
+		SaddleText: Montura
+		ReleaseText: Liberar
+		ReleasedText: "{0} ha siudo liberado"
+		StatusRestText: "[DESCANSAR]"
+		StatusMountText: "[MONTURA]"
+		StatusFollowText: "[SEGUIR]"
+}
+
+ModifyTruffle: {
+		SleepName: ???
+		ButtonText: Despertar
+		Chat0:
+			'''
+			El vientre de ese cangrejo era tan acogedor, que he estado viviendo allí todo este tiempo.
+			Pero como lo abriste de par en par, ahora estoy sin hogar.  
+			'''
+		Chat1:
+			'''
+			Una vez dirigí una granja de champiñones, y mis hijos me ayudaban.
+			Un día descubrí que la mitad de ellos estaban creciendo dentro del estómago de otra persona.  
+			'''
+		Chat2: "Sombrero rojo, tallo blanco… cómelo y acuéstate para siempre.  "
+		Chat3: "Puedes venderme champiñones, pero no obtendrás absolutamente nada a cambio.  "
+		Chat4: "Todos aquí quieren comerme.  "
+		Chat5:
+			'''
+			Una vez vi un árbol de hongos de al menos de 2000 metros de altura.
+			Dicen que si subes hasta la cima y saltas, aterrizarás en el mundo de los hongos.  
+			'''
+		Chat6:
+			'''
+			Si quieres hacer sopa, compra mis champiñones.
+			Al menos no gritarán en la olla.  
+			'''
+		Chat7: "Todos los champiñones que hay aquí son míos.  "
+		Chat8:
+			'''
+			Hace diez años, se me podía contratar como guía al Reino Fúngico subterráneo.
+			He oído que ahora está en liquidación.  
+			'''
+		Chat9:
+			'''
+			Creo que tienes un hongo creciendo en tus pulmones.
+			Ven y mira mi tienda, tengo la cura perfecta.  
+			'''
+		Chat10: "Oh, odio a ese tipo de rojo.  "
+		Chat11:
+			'''
+			Odio esta especie de luna de sangre.
+			Me hace desvanecerme… como un hongo marchito que nadie quiere.  
+			'''
+	}
+
+ModifyWITCH: {
+		Homeless0: Disculpa, no tengo nada que ofrecerte. Quizás podrías intentar volver a forjar algunos objetos, y luego regresar a mí...
+		Homeless1: ¿Tienes un lugar donde pueda quedarme? Quiero decir... De lo contrario, estoy dispuesta a montar un campamento cerca.
+		Homeless2: ¿Sabes cómo vivía la gente en épocas remotas? No tenían casas y vivían únicamente en huecos de árboles. ¿Podrías al menos encontrarme un hueco en un árbol?
+		Homeless3: ¿No hay viviendas vacías? Un momento... ¿esperas que pague el alquiler?
+		L0: No puedo pagar un alquiler, ¿Quizás podría realizar un exorcismo en tu ciudad para que me hagas un descuento?
+		L1: Nunca he creído en el concepto de alma. Cualquier intento de resucitar a los muertos sólo provocará una catástrofe mayor.
+		L2:
+			'''
+			En el siglo pasado, entré en un pueblo rodeado por lo sobrenatural.
+			Las calles estaban llenas de 'amigos y familiares' muertos, sonriendo, saludando, llorando por ayuda...
+			Una vez intenté traer de vuelta a mi 'madre' de allí.
+			Ella se veía exactamente igual a cuando estaba viva, su voz era no tenía defectos... hasta que me di cuenta de que no tenía pulso, y a ella el pareció divertido.
+			'''
+		L3:
+			'''
+			Siento que a veces eres demasiado confiado. No lograrás nada a este ritmo.
+			He visto a demasiados como tú perecer en su búsqueda de poder.
+			'''
+		L4:
+			'''
+			Sé que estás interesado en mi magia, pero no es... magia.
+			Espero que te mantengas alejado de eso. Aquellos que tocan estos poderes no tienen un final feliz.
+			'''
+		BloodMoon0: Este cielo sangriento antinatural... Palidece en comparación con el color de mis llamas de azufre.
+		BloodMoon1: No puedo trabajar en una noche como esta. Incluso las estrellas parecen encogerse de miedo.
+		Night0: Durante la noche los espíritus vagan. No tengo ningún deseo de salir afuera en un momento como ese.
+		Night1: Hace mucho tiempo, realizaba una adivinación cada noche antes de dormir. Hasta que una vez, durante siete noches consecutivas, preveí que moriría en la octava.
+		SeaKing: El Rey del mar siempre me mira con unos ojos tan tristes. Parece que no desea mi muerte. No puedo entender por qué siente tanta simpatía por mí.
+		Party: Rechazo cualquier invitación de baile, ya que mis parejas tienden a terminar como cadáveres carbonizados.
+	}
+
+	ModifyOldDuke.LeavingDiveText: El Viejo Duque se zambulló en el agua...

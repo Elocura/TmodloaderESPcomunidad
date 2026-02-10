@@ -1,0 +1,918 @@
+QuestNode: {
+		FirstQuest: {
+			DisplayName: ¡Bienvenido al mundo de la Calamidad!
+			Description: El comienzo del viaje
+			DetailedDescription: Todas las leyendas tienen un origen humilde. Recoge tu equipo inicial y prepárate para enfrentarte a un mundo lleno de dioses y monstruos.
+			QuestObjective.Description: Haz clic para reclamar los artículos iniciales
+			QuestReward.Description: Paquete de inicio para aventureros
+		}
+
+		MiningQuest: {
+			DisplayName: Conceptos básicos sobre minería
+			Description: Obtener 10 {0}
+			DetailedDescription: El subsuelo alberga riquezas infinitas. En primer lugar, necesitamos algunos metales básicos para fabricar herramientas.
+			QuestObjective.Description: Recolenta 10 {0}
+
+			QuestReward: {
+				Description: 5 {0}
+				Description2: 1 {0}
+			}
+		}
+
+		MiningQuestII: {
+			DisplayName: La Edad del Hierro
+			Description: Recoge 50 {0}
+			QuestObjective.Description: Recoge 50 {0}
+
+			QuestReward: {
+				Description: 50 {0}
+				Description2: 1 {0}
+			}
+
+			DetailedDescription: El cobre es demasiado blando; necesitamos metales más duros para armarnos. Profundiza más en el subsuelo para encontrar vetas de hierro.
+		}
+
+		MiningQuestIII: {
+			DisplayName: Fiebre del oro
+			Description: Recoge 100 {0}
+			QuestObjective.Description: Recoge 100 {0}
+
+			QuestReward: {
+				Description: 100 {0}
+				Description2: 1 {0}
+			}
+
+			DetailedDescription: El oro no es solo una moneda; posee una excelente conductividad mágica y ductilidad. Aunque es más blando que el hierro, es un material crucial para fabricar equipo avanzado.
+		}
+
+		BrimstoneElementalQuest: {
+			DisplayName: Elemental de azufre
+			Description: Derrota a la Elemental de azufre
+			QuestObjective.Description: Derrota a la Elemental de azufre
+			QuestReward.Description: 10 Almas de noche
+			DetailedDescription: En las ruinas de los Riscos de azufre, despierta y derrota al espíritu elemental dormido. Cuidado con su lluvia de balas.
+		}
+
+		CalamitasCloneQuest: {
+			DisplayName: El Clon de Calamitas
+			Description: Derrota al Clon de Calamitas
+			QuestObjective.Description: Derrota al Clon de Calamitas
+			QuestReward.Description: 10 Cenizas de la calamidad
+			DetailedDescription: Un clon lleno de odio y deseos de destrucción. Derrótalo para demostrar que eres digno de enfrentarte a la verdadera Bruja.
+		}
+
+		CrabulonQuest: {
+			DisplayName: Crabulon
+			Description: Derrota a Crabulon
+			QuestObjective.Description: Derrota a Crabulon
+			QuestReward.Description: 50 Champiñones brillantes
+			DetailedDescription: En el subsuelo del bioma de champiñones acecha un cangrejo gigante infestado de hongos. Sus esporas son extremadamente peligrosas.
+		}
+
+		CryogenQuest: {
+			DisplayName: Criogen
+			Description: Derrota a Criogen
+			QuestObjective.Description: Derrota a Criogen
+			QuestReward.Description: 10 Almas de luz
+			DetailedDescription: El antiguo Archimago del cosmos está encerrado en esta prisión eterna de hielo. Libéralo y derrótalo para desatar el poder del Ártico.
+		}
+
+		DesertScourgeQuest: {
+			DisplayName: Azote del desierto
+			Description: Derrota al the Azote del desierto
+			QuestObjective.Description: Derrota al the Azote del desierto
+			QuestReward.Description: 10 Fragmento de perla
+			DetailedDescription: El antiguo tirano de los mares ahora lucha por sobrevivir en el desierto reseco. Cuidado con sus enormes mandíbulas y sus secuaces.
+		}
+
+		EaterofWorldsQuest: {
+			DisplayName: Devorador de mundos / Cerebro de Cthulhu
+			Description: Derrota al jefe de la corrupción o del carmesí
+			QuestObjective.Description: Derrota al Devorador de mundos o al Cerebro de Cthulhu
+			QuestReward.Description: 20 Escamas de las sombras / Muestras de tejido
+			DetailedDescription: El mal se está extendiendo. Adéntrate en las lesiones del mundo y erradica al gusano gigante o al vil cerebro atrincherados allí.
+		}
+
+		EyeofCthulhuQuest: {
+			DisplayName: Ojo de Cthulhu
+			Description: Derrota al the Ojo de Cthulhu
+			QuestObjective.Description: Derrota al the Ojo de Cthulhu
+			QuestReward.Description: 20 Mineral endemoniado / carmesí
+			DetailedDescription: Mientras sientas esa mirada malvada, seguirá apareciendo. Esta es la primera prueba verdadera de tu fuerza.
+		}
+
+		GolemQuest: {
+			DisplayName: Golem
+			Description: Derrota al Golem
+			QuestObjective.Description: Derrota al Golem
+			QuestReward.Description: 10 Caparazón de escarabajo
+			DetailedDescription: En lo más profundo del templo de la selva se encuentra una antigua máquina de guerra consagrada. Cuidado con sus láseres y sus pesados puños.
+		}
+
+		HiveMindQuest: {
+			DisplayName: La Mente colmena / Los Perforadores
+			Description: Derrota al verdadero dios del bioma maligno.
+			QuestObjective.Description: Derrota a La Mente colmena / Los Perforadores
+			QuestReward.Description: 10 Lingotes endemoniados / carmesís
+			DetailedDescription: Son las manifestaciones físicas de la Corrupción y la conciencia del Carmesí. Si no se destruyen, esta tierra nunca conocerá la paz.
+		}
+
+		KingSlimeQuest: {
+			DisplayName: Rey Slime
+			Description: Derrota al Rey Slime
+			QuestObjective.Description: Derrota al Rey Slime
+			QuestReward.Description: 5 Monedas de oro
+			DetailedDescription: El gobernante de todas las criaturas gelatinosas. Aunque parezca algo cómico, no dejes que su enorme tamaño te intimide.
+		}
+
+		LunaticCultistQuest: {
+			DisplayName: Sectario lunático
+			Description: Derrota al Sectario lunático
+			QuestObjective.Description:Derrota al Sectario lunático
+			QuestReward.Description: 5 Fragmentos solares
+			DetailedDescription: En la entrada de la mazmorra, un grupo de fanáticos cultistas está tratando de impedir —o tal vez provocar— el apocalipsis. Detén su ritual.
+		}
+
+		MechanicalBossesQuest: {
+			DisplayName: Jefes mecánicos
+			Description: Derrota a todos los Jefes mecánicos
+			QuestObjective.Description: Derrota a todos los Jefes mecánicos
+			QuestReward.Description: 20 Lingotes sagrados
+			DetailedDescription: Las primeras creaciones de Draedon, que imitan algunas partes de Cthulhu. Solo derrotándolas se revitalizará el mundo.
+		}
+
+	MoonLordQuest: {
+			DisplayName: Señor de la luna
+			Description: Derrota al Señor de la luna
+			QuestObjective.Description: Derrota al Señor de la luna
+			QuestReward.Description: Trofeo del Señor de la Luna
+			DetailedDescription: El cerebro detrás de todo, el terror del lado oscuro de la luna. Pon fin a esta larga pesadilla.
+		}
+
+		PlaguebringerGoliathQuest: {
+			DisplayName: El Portador de la plaga Goliat
+			Description: Derrota al Portador de la plaga Goliat
+			QuestObjective.Description: Derrota al Portador de la plaga Goliat
+			QuestReward.Description: 20 Cápsulas de muestra vírica
+			DetailedDescription: Una abeja reina modificada por maquinaria nanoviral. No solo es mortal, sino que también es portadora de una peligrosa plaga.
+		}
+
+		PlanteraQuest: {
+			DisplayName: Plantera
+			Description: Derrota a Plantera
+			QuestObjective.Description: Derrota a Plantera
+			QuestReward.Description: 50 lingotes de clorofita
+			DetailedDescription: En lo profundo de la selva duerme una enorme flor devoradora de hombres. Rompe el bulbo y enfréntate a la ira de la selva.
+		}
+
+		SkeletronQuest: {
+			DisplayName: Esqueletrón
+			Description: Derrota a Esqueletrón
+			QuestObjective.Description: Derrota a Esqueletrón
+			QuestReward.Description: 50 Huesos
+			DetailedDescription: Solo derrotando a este anciano maldito podrás entrar con seguridad en la mazmorra para descubrir sus secretos.
+		}
+
+		SlimeGodQuest: {
+			DisplayName: El Dios Slime
+			Description: Derrota al Dios Slime
+			QuestObjective.Description: Derrota al Dios Slime
+			QuestReward.Description: 1000 Gel
+			DetailedDescription: La cúspide de las especies de slimes, una deidad antigua y glotona. Cuidado con los ataques combinados de sus avatares.
+		}
+
+		WallofFleshQuest: {
+			DisplayName: Muro carnoso
+			Description: Derrota al Muro carnoso
+			QuestObjective.Description: Derrota al Muro carnoso
+			QuestReward.Description: Gran martillo
+			DetailedDescription: El guardián del mundo. Arroja el muñeco vudú guía a la lava para liberar a los espíritus ancestrales del mundo y comenzar el modo difícil.
+		}
+
+		CeaselessVoidQuest: {
+			DisplayName: Vacío incesante
+			Description: Derrota al Vacío incesante
+			QuestObjective.Description: Derrota al Vacío incesante
+			QuestReward.Description: 5 Plasma oscuro
+			DetailedDescription: Uno de los centinelas del Devorador, un espejo de la nada procedente de otra dimensión.
+		}
+
+		DevourerofGodsQuest: {
+			DisplayName: El Devorador de Dioses
+			Description: Derrota al Devorador de Dioses
+			QuestObjective.Description: Derrota al Devorador de Dioses
+			QuestReward.Description: 30 Lingotes de cosmilitio
+			DetailedDescription: Una serpiente cósmica que ansía devorar toda divinidad. Lucha contra ella en el vacío y no dejes que te consuma..
+		}
+
+		DragonfollyQuest: {
+			DisplayName: El Dragonfolly
+			Description: Derrota al Dragonfolly
+			QuestObjective.Description: Derrota al Dragonfolly
+			QuestReward.Description: 10 Pulmas efuljentes
+			DetailedDescription: Un intento fallido de clonar a Yharon, un pseudodragón loco y electrificado.
+		}
+
+		ExoMechsQuest: {
+			DisplayName: Exo mecánicos
+			Description: Derrota a los Exo mecánicos
+			QuestObjective.Description: Derrota a los Exo mecánicos
+			QuestReward.Description: 20 Exo prismas
+			DetailedDescription: Las obras maestras definitivas de Draedon, que representan la cúspide de la tecnología terrariana. Sobrevive a este espectáculo perfecto.
+		}
+
+		OldDukeQuest: {
+			DisplayName: El Viejo Duque
+			Description: Derrota al Viejo Duque
+			QuestObjective.Description: Derrota al Viejo Duque
+			QuestReward.Description: 20 Fósiles corroidos
+			DetailedDescription: El antiguo señor de las profundidades del Mar sulfúrico, una combinación de mutación y poder. Cuidado con su vapor tóxico.
+		}
+
+		PolterghastQuest: {
+			DisplayName: Polterghast
+			Description: Derrota a Polterghast
+			QuestObjective.Description: Derrota a Polterghast
+			QuestReward.Description: 10 Almas de la ruina
+			DetailedDescription: Un monstruo formado por la fusión de las almas vengativas que murieron en la mazmorra. Calma su ira.
+		}
+
+		PrimordialWyrmQuest: {
+			DisplayName: Sierpe primordial
+			Description: Derrota a la Sierpe primordial
+			QuestObjective.Description: Derrota a la Sierpe primordial
+			QuestReward.Description: Cañón de Halibut 
+			DetailedDescription: El guardián del abismo más profundo. Una entidad más antigua que los propios dioses. No lo molestes a menos que sea necesario.
+		}
+
+		ProfanedGuardiansQuest: {
+			DisplayName: Guardianes profanos
+			Description: Derrota a los Guardianes profanos
+			QuestObjective.Description: Derrota a los Guardianes profanos
+			QuestReward.Description: 3 Fragmentos profanos
+			DetailedDescription: Guardias leales de la Diosa profanada. Derrótalos para debilitar las defensas de la Diosa.
+		}
+
+		ProvidenceQuest: {
+			DisplayName: Providencia, la Diosa profanada
+			Description: Derrota a Providencia
+			QuestObjective.Description: Derrota a Providencia
+			QuestReward.Description: 20 Geodas divinas
+			DetailedDescription: La diosa que controla el fuego sagrado y la purificación. Desafíala en la bendición o en el inframundo, pero ten cuidado y que no te incineren las llamas sagradas.
+		}
+
+		SignusQuest: {
+			DisplayName: Signus, Enviado del Devorador
+			Description: Derrota a Signus
+			QuestObjective.Description: Derrota a Signus
+			QuestReward.Description: 5 Éter retorcido
+			DetailedDescription: Uno de los centinelas del Devorador, un asesino sin forma, un fantasma del vacío.
+		}
+
+	StormWeaverQuest: {
+			DisplayName: Tejedor de tormentas
+			Description: Derrota al Tejedor de tormentas
+			QuestObjective.Description: Derrota al Tejedor de tormentas
+			QuestReward.Description: 5 Capazones blindados
+			DetailedDescription: Uno de los centinelas del Devorador, un gusano celeste que se alimenta de tormentas eléctricas y rayos.
+		}
+
+		SupremeCalamitasQuest: {
+			DisplayName: Calamitas suprema
+			Description: Derrota a Calamitas suprema
+			QuestObjective.Description: Derrota a Calamitas suprema
+			QuestReward.Description: 20 Cenizas de la aniquilación
+			DetailedDescription: La legendaria Bruja de azufre. ¿Es este el final de tu viaje, o quizás un nuevo comienzo? Prepárate para un auténtico infierno de balas.
+		}
+
+		YharonQuest: {
+			DisplayName: Yharon, el dragón del Renacimiento
+			Description: Derrota a Yharon
+			QuestObjective.Description: Derrota a Yharon
+			QuestReward.Description: 20 lingotes áuricos
+			DetailedDescription: El leal compañero del Tirano, un dragón que posee la capacidad de renacer como un fénix. Esta es una prueba para el alma.
+		}
+
+		BatteryQuest: {
+			DisplayName: Almacenamiento de energía
+			Description: Fabrica una Batería térmica
+			QuestObjective.Description: Consigue una Batería térmica
+			QuestReward.Description: 50 Cables
+			DetailedDescription: La energía debe almacenarse tras generarla. La fabricación de baterías es el primer paso para construir una red eléctrica estable.
+		}
+
+		HydroelectricQuest: {
+			DisplayName: Energía limpia
+			Description: Fabrica un Generador hidroeléctrico
+			QuestObjective.Description: Fabrica un Generador hidroeléctrico
+			QuestReward.Description: Cubo de agua sin fondo
+			DetailedDescription: Aprovecha la energía del agua corriente para generar electricidad. Una forma limpia y sostenible de obtener energía.
+		}
+
+		IndustrialStartQuest: {
+			DisplayName: Revolución industrial
+			Description: Fabrica un Generador eólico
+			QuestObjective.Description: Consigue un a Generador eólico
+			QuestReward.Description: 10 Lingotes de hierro
+			DetailedDescription: El primer paso hacia la automatización. Utiliza la energía eólica para activarr tus máquinas y tener las manos libres.
+		}
+
+		ItemFilterQuest: {
+			DisplayName: Clasificación logística
+			Description: Fabrica un Tablero filtrador de objetos
+			QuestObjective.Description: Consigue un Tablero filtrador de objetos
+			QuestReward.Description: 2 Cofres
+			DetailedDescription: Las líneas de producción automatizadas requieren organización. Utiliza filtros para controlar con precisión el flujo de ítems.
+		}
+
+		MiningMachineQuest: {
+			DisplayName: Excavación automática
+			Description: Fabrica una Máquina minera
+			QuestObjective.Description: Consigue una Máquina minera
+			QuestReward.Description: 5 Pociones de espeleólogo
+			DetailedDescription: Despídete de la tediosa minería manual. Esta máquina devora vetas de mineral con una eficiencia asombrosa.
+		}
+
+		MiningMachineIIQuest: {
+			DisplayName: Perforación profunda
+			Description: Fabrica una Máquina minera MK2
+			QuestObjective.Description: Obtén una Máquina minera MK2
+			QuestReward.Description: 5 Pociones de minería
+			DetailedDescription: Su núcleo reforzado ofrece una velocidad sin igual.
+		}
+
+		PipelineQuest: {
+			DisplayName: Transmisión de energía
+			Description: Fabrica Tuberías de energía
+			QuestObjective.Description: Consigue Tuberías de energía
+			QuestReward.Description: 20 Tuberías de energía
+			DetailedDescription: Las venas que conectan generadores y máquinas. Sin ellas, la electricidad no es más que agua estancada.
+		}
+
+		TeslaTowerQuest: {
+			DisplayName: Torre de tormentas magnéticas
+			Description: Fabrica una Torre electromagnética Tesla
+			QuestObjective.Description: Consigue una Torre electromagnética Tesla
+			QuestReward.Description: 20 Chapados dubitativos
+			DetailedDescription: La cristalización de la tecnología de Draedon. Esta torre permite la transmisión inalámbrica de energía, revolucionando por completo el diseño de su cableado.
+		}
+
+		ThermalPowerQuest: {
+			DisplayName: Es hora de quemar
+			Description: Fabrica un Generador térmico
+			QuestObjective.Description: Consigue un a Generador térmico
+			QuestReward.Description: 50 Carbones
+			DetailedDescription: Quema combustible para generar grandes cantidades de energía. Aunque no es respetuoso con el medio ambiente, es la fuente de energía más fiable para comenzar.
+		}
+
+		AnnihilatingUniverseQuest: {
+			QuestObjective.Description: Obtén del Aniquilador universal
+			QuestReward.Description: 5 Lingotes del infinito
+			DisplayName: Aniquilador universal
+			Description: Consigue el "Aniquilador universal"
+			DetailedDescription: Comprime el poder de las galaxias en una cuerda de arco. Esta arma posee el poder de destruir dimensiones universales, la prueba definitiva para un ranger.
+		}
+
+		AriaofTheCosmosQuest: {
+			QuestObjective.Description: Obtén la Aria del cosmos
+			QuestReward.Description: 20 Lingotes del infinito
+			DisplayName: Aria del cosmos
+			Description: Consigue el "Aria del cosmos"
+			DetailedDescription: Interpreta la sinfonía de las estrellas. Este tomo invoca agujeros negros y cuásares, haciendo que los enemigos desaparezcan en medio del canto del universo.
+		}
+
+		DarkMatterCompressorQuest: {
+			QuestObjective.Description: Obtén el Compresor de materia oscura
+			QuestReward.Description: 10 Esferas de materia oscura
+			DisplayName: Compresor de materia oscura
+			Description: Consigue un Compresor de materia oscura
+			DetailedDescription: Manipula la materia más misteriosa del universo. Esta máquina comprime la materia oscura en esferas de energía de alta densidad para hacer fabricaciónes avanzadas.
+		}
+
+	InfiniteIngotQuest: {
+			QuestObjective.Description: Obtén Lingotes del infinito
+			QuestReward.Description: 2 lingotes del infinito
+			DisplayName: Lingote del infinito
+			Description: Forja Lingotes del infinito
+			DetailedDescription: Un metal que trasciende la ley de conservación de la masa. Es la piedra angular del poder definitivo, que contiene infinitas posibilidades.
+		}
+
+		InfinitePickQuest: {
+			QuestObjective.Description: Obtén el Pico del infinito
+			QuestReward.Description: 5 Lingotes del infinito
+			DisplayName: Pico del infinito
+			Description: Consigue un Pico de la codicia universal
+			DetailedDescription: Nada puede detener este pico. Puede minar todo, incluso la roca madre del mundo.
+		}
+
+		InfiniteToiletQuest: {
+			QuestObjective.Description: Obtén el Inodoro del infinito
+			QuestReward.Description: 1 Lingote del infinito
+			DisplayName: Inodoro del infinito
+			Description: Consigue el Inodoro del infinito
+			DetailedDescription: El trono de los dioses. Aunque suene absurdo, realmente simboliza una especie de... autoridad suprema.
+		}
+
+		InfinityCatalystQuest: {
+			QuestObjective.Description: Obtén el Catalizador infinito
+			QuestReward.Description: 1 Lingote del infinito
+			DisplayName: Catalizador infinito
+			Description: Consigue un Catalizador infinito
+			DetailedDescription: El objeto clave para iniciar la reacción infinita. Permite que la materia circule entre la aniquilación y el renacimiento, generando una energía inmensa.
+		}
+
+		NeutronBowQuest: {
+			QuestObjective.Description: Consigue el Arco de neutrones
+			QuestReward.Description: 2 Lingotes de estrella de neutrones
+			DisplayName: Arco de neutrones
+			Description: Consigue La cuerda de Roche
+			DetailedDescription: Un arco forjado a partir de los fragmentos del núcleo de una estrella de neutrones. Cada flecha lleva consigo la gravedad de una estrella en colapso.
+		}
+
+		NeutronGlaiveQuest: {
+			QuestObjective.Description: Obtén la guja de neutrones
+			QuestReward.Description: 2 Lingotes de estrella de neutrones
+			DisplayName: Guja de neutrones
+			Description: Consigue una Cuchilla de la zona negra
+			DetailedDescription: Una arma de asta con una densidad asombrosa. Manejarla requiere una fuerza inmensa, pero ninguna armadura puede resistir su corte.
+		}
+
+		NeutronGunQuest: {
+			QuestObjective.Description: Obtén la Pistola de neutrones
+			QuestReward.Description: 2 Lingotes de estrella de neutrones
+			DisplayName: Pistola de neutrones
+			Description: Conisgue un Cazador estelar
+			DetailedDescription: Un arma de fuego que dispara ráfagas de microneutrones. Debido a su extrema densidad, las balas son prácticamente inmunes a la resistencia del aire.
+		}
+
+		NeutronScytheQuest: {
+			QuestObjective.Description: Obtén la Guadaña de neutrones
+			QuestReward.Description: 2 Lingotes de estrella de neutrones
+			DisplayName: Guadaña de neutrones
+			Description: Obtén un Mensajero del agujero negro
+			DetailedDescription: La herramienta de cosecha del segador. Atraviesa el espacio con facilidad, cosechando vidas como si fueran trigo.
+		}
+
+		NeutronStarIngotQuest: {
+			QuestObjective.Description: Obtén Lingotes de estrella de neutrones
+			QuestReward.Description: 5 Lingotes de estrella de neutrones
+			DisplayName: Lingote de neutrones
+			Description: Obtén un Lingote de estrella de neutrones
+			DetailedDescription: Uno de los materiales más densos del universo. Este metal es increíblemente pesado y vibra con fluctuaciones gravitacionales.
+		}
+
+		NeutronWandQuest: {
+			QuestObjective.Description: Obtén una Varita de neutrones
+			QuestReward.Description: 2 Lingotes de estrella de neutrones
+			DisplayName: Varita de neutrones
+			Description: Obtén una Luz de la tumba estelar
+			DetailedDescription: Un bastón que controla la gravedad. Usa el poder de una estrella de neutrones para distorsionar el espacio-tiempo y aplastar a tus enemigos.
+		}
+
+		PandemoniumQuest: {
+			QuestObjective.Description: Obtén el Pandemonium
+			QuestReward.Description: 20 Lingotes del infinito
+			DisplayName: Pandemonium
+			Description: Consigue un "Pandemonium"
+			DetailedDescription: El arma definitiva que fusiona innumerables almas y un calamitoso poder. Al empuñarla, sostienes las llaves del infierno y del abismo.
+		}
+
+	RockQuest: {
+			QuestObjective.Description: Obtén la Roca
+			QuestReward.Description: 5 Esquirlas del destino
+			DisplayName: La Roca
+			Description: Consigue una Esquirla del destino
+			DetailedDescription:Una piedra aparentemente común, pero que ha sido testigo del ciclo de innumerables asaltos de jefes. Es un símbolo de perseverancia eterna.
+		}
+
+		TerminusQuest: {
+			QuestObjective.Description: Obtén el Terminus
+			QuestReward.Description: Gran cantidad de orbes de sangre
+			DisplayName: Terminus
+			Description: Consigue el Terminus
+			DetailedDescription: La llave para iniciar el Asalto de jefes. Contempla esta piedra y prepárate para enfrentarte a una prueba continua contra los seres más fuertes del mundo.
+		}
+
+		TransmutationOfMatterQuest: {
+			QuestObjective.Description: Obtén un transmutador de materia
+			QuestReward.Description: 10 Lingotes del infinito
+			DisplayName: Transmutador de materia
+			Description: Consigue el Polimerizador de sustancias Omega
+			DetailedDescription: La forma definitiva de la alquimia. Esta máquina rompe el principio del intercambio equivalente, convirtiendo la materia a voluntad o creándola de la nada.
+		}
+
+		HeavenfallLongbowQuest: {
+			QuestObjective.Description: Obtén el Viento celestial
+			QuestReward.Description: 5 Lingotes del infinito
+			DisplayName: Viento celestial
+			Description: Consigue un Arco largo caído del cielo
+			DetailedDescription: Un arco largo que ha derribado a los dioses. Ahora reaparecerá en el mundo.
+		}
+
+		SpearOfLonginusQuest: {
+			QuestObjective.Description: Obtén la Lanza de Longinus
+			QuestReward.Description: 5 Lingotes del infinito
+			DisplayName: Lanza de Longinus
+			Description: Obtén la Lanza de Longinus
+			DetailedDescription: La legendaria lanza sagrada que atravesó a una deidad. Tiene el poder de penetrar todos los campos y barreras absolutas. Cuando se lanza, incluso las leyes de la causalidad se apartan de su camino.
+		}
+
+		DragonsWordQuest: {
+			QuestObjective.Description: Obtén la Palabra del dragón
+			QuestReward.Description: 5 Lingotes del infinito
+			DisplayName: Palabra del dragón
+			Description: Obtén la Palabra del dragón
+			DetailedDescription: Un dragón derrama lágrimas solo una vez en su vida, en el momento de su muerte.
+		}
+
+		RockQuestII: {
+			QuestObjective.Description: Completa el Asalto de jefes 5 veces y obtén 5 rocas
+			QuestReward.Description: 5 Rocas
+			DisplayName: Ciclo de conquista
+			Description: Completa el Asalto de jefes 5 veces y obtén 5 rocas
+			DetailedDescription: El símbolo de un verdadero guerrero.
+		}
+
+
+	AdventurerQuests: {
+			DisplayName: Aventurero
+			Description: ¡El mundo es un lienzo para mis pasos!
+			QuestObjective.Description: Clic para reclamar
+			QuestReward.Description: Botas de hermes
+			DetailedDescription: Un viaje de mil kilómetros comienza con un solo paso. Ponte estas botas y mide este vasto mundo.
+		}
+
+		ExploreDungeon: {
+			DisplayName: Mazmorra lúgubre
+			Description: Descubre la entrada a la mazmorra
+			QuestObjective.Description: Llega a la mazmorra
+			QuestReward.Description: Poción de sentido del peligro
+			DetailedDescription: Infinitos secretos y peligros se esconden tras estos muros malditos. Solo los exploradores más valientes se atreven a poner un pie en el reino de los muertos.
+		}
+
+		ExploreHell: {
+			DisplayName: Inframundo abisal
+			Description: Desciende al inframundo
+			QuestObjective.Description: Llega al Inframundo
+			QuestReward.Description: Poción de piel de obsidiana
+			DetailedDescription: Ríos de lava fluyen en las partes más profundas del mundo. Es el hogar de los demonios y la fuente de la obsidiana y la piedra infernal. Ten cuidado por donde pisas.
+		}
+
+		ExploreJungle: {
+			DisplayName: Expedición a la selva
+			Description: Adéntrate en el bioma de la Selva
+			QuestObjective.Description: Llega a la selva
+			QuestReward.Description: Poción de invocación
+			DetailedDescription: Es un laberinto verde vibrante pero peligroso. La densa vegetación oculta antiguos templos y mortíferos enjambres de abejas.
+		}
+
+		ExploreOcean: {
+			DisplayName: El Fin del mundo
+			Description: Adéntrate en el bioma del Océano
+			QuestObjective.Description: Llega al océano
+			QuestReward.Description: Poción de agallas
+			DetailedDescription: El borde del continente. Aquí, el cielo se encuentra con el mar. Barcos hundidos y monstruos marinos desconocidos yacen enterrados bajo el azul profundo.
+		}
+
+		ExploreSnow: {
+			DisplayName: Yermo helado
+			Description: Explora el bioma de la Tundra
+			QuestObjective.Description: Llega al bioma de la tundra
+			QuestReward.Description: Poción del calor
+			DetailedDescription: El permafrost es eterno. El viento cortante lo cubre todo de hielo y nieve. Aquí, la vida persiste y es mucho mucho más resistente.
+		}
+
+		ExploreSpace: {
+			DisplayName: Mar de estrellas
+			Description: Vuela al Espacio
+			QuestObjective.Description: Llega al espacio
+			QuestReward.Description: Poción de caída de pluma
+			DetailedDescription: Libérate de las cadenas de la gravedad y toca las estrellas. Solo si vuelas lo suficientemente alto podrás ver por completo este mundo.
+		}
+
+	HellLabSchematic: {
+		DisplayName: Hell Blueprint
+		Description: Find the Encrypted Schematic in the Underworld Draedon Lab
+		QuestObjective.Description: Obtain Hell Schematic
+
+		QuestReward: {
+			Description: {
+				Plating: Dubious Plating
+				Circuitry: Mysterious Circuitry
+				Fireblossom: Fireblossom
+			}
+		}
+
+		DetailedDescription: Draedon established an outpost in Hell to experiment with geothermal energy. Find the schematic there; it might unlock new weapon technologies.
+	}
+
+	IceLabSchematic: {
+		DisplayName: Polar Code
+		Description: Find the Encrypted Schematic in the Snow Draedon Lab
+		QuestObjective.Description: Obtain Ice Schematic
+
+		QuestReward: {
+			Description: {
+				Plating: Dubious Plating
+				Circuitry: Mysterious Circuitry
+				Shiverthorn: Shiverthorn
+			}
+		}
+
+		DetailedDescription: The low temperatures here are perfect for preserving precision instruments. Delve into the lab beneath the ice to find that sealed polar technology.
+	}
+
+	JungleLabSchematic: {
+		DisplayName: Jungle Draft
+		Description: Find the Encrypted Schematic in the Jungle Draedon Lab
+		QuestObjective.Description: Obtain Jungle Schematic
+
+		QuestReward: {
+			Description: {
+				Plating: Dubious Plating
+				Circuitry: Mysterious Circuitry
+				Moonglow: Moonglow
+			}
+		}
+
+		DetailedDescription: The dense jungle conceals Draedon's biological laboratory. He studied plagues and nano-viruses there. Find that schematic to reveal the dangerous truth.
+	}
+
+	PlanetoidLabSchematic: {
+		DisplayName: Exo Mystery
+		Description: Find the Encrypted Schematic in the Planetoid Draedon Lab
+		QuestObjective.Description: Obtain Planetoid Schematic
+
+		QuestReward: {
+			Description: {
+				Plating: Dubious Plating
+				Circuitry: Mysterious Circuitry
+				FallenStar: Fallen Star
+			}
+		}
+
+		DetailedDescription: In the microgravity environment of high altitude, a lab floats silently. Go there to find early design blueprints regarding the Exo Mechs.
+	}
+
+	SunkenSeaLabSchematic: {
+		DisplayName: Sunken Sea
+		Description: Find the Encrypted Schematic in the Sunken Sea Draedon Lab
+		QuestObjective.Description: Obtain Sunken Sea Schematic
+
+		QuestReward: {
+			Description: {
+				Plating: Dubious Plating
+				Circuitry: Mysterious Circuitry
+				Waterleaf: Waterleaf
+			}
+		}
+
+		DetailedDescription: In this tranquil underground sea, Draedon left behind research regarding Prism energy. Dive underwater and retrieve that valuable data.
+	}
+
+	AquaticScourgeQuest: {
+		DisplayName: Aquatic Scourge
+		Description: Defeat the Aquatic Scourge
+		QuestObjective.Description: Defeat the Aquatic Scourge
+		QuestReward.Description: Corroded Fossils
+		DetailedDescription: Once a peaceful leviathan of the clear oceans, now twisted by the toxicity of the Sulphurous Sea. In these polluted acidic waters, beware its sudden charges and toxic clouds.
+	}
+
+	QueenSlimeQuest: {
+			DisplayName: Reina Slime
+			Description: Derrota a la Reina Slime
+			QuestObjective.Description: Derrota a la Reina Slime
+			QuestReward.Description: 10 Almas de luz
+			DetailedDescription: Emperatriz cristalina del bioma sagrado, gobernante de todas las criaturas gelatinosas santificadas. En comparación con su esposo, ella es mucho más ágil y letal. Prepárate para un magnífico aluvión de ataques.
+		}
+
+	MachineRebellionQuest: {
+			DisplayName: Revelión de las máquinas
+			Description: Derrota al trío mecánico EX
+			QuestObjective.Description: Derrota al trío mecánico EX
+
+			QuestReward: {
+				Description: Alma de terror EX
+				Description2: Alma de poder EX
+				Description3: Alma de visión EX
+			}
+
+			DetailedDescription: Estos experimentos abandonados no solo no han dejado de funcionar, sino que se han autorreparado y han evolucionado hasta convertirse en algo más aterrador. Los protocolos de protección han sido sustituidos por una única directiva: la masacre. ¿Estás preparado para enfrentarte a la verdadera ira de las creaciones de Draedon?
+		}
+
+		BuildHouse: {
+			DisplayName: Maestro constructor
+			Description: Construye una casa adecuada
+			QuestObjective.Description: Construye una casa habitable
+			QuestReward.Description: Madera
+			DetailedDescription: Todo el mundo necesita un refugio. Ya sea al Guía u otros vagabundos, si les proporcionas una habitación con muebles, luz y paredes, ellos te ofrecerán sus servicios.
+		}
+
+		CollectEvilOres: {
+			DisplayName: Minerales malignos
+			Description: Recolecta minerales malignos
+			QuestObjective.Description: Recolecta mineral endemoniado o carmesí
+			QuestReward.Description: Antorchas
+			DetailedDescription: Estos minerales irradian un aura siniestra y son fríos y húmedos al tacto. Aunque proceden de las heridas del mundo, son materiales esenciales para fabricar equipos poderosos.
+		}
+
+		CollectFallenStars: {
+			DisplayName: Recolector de estrellas
+			Description: Recoge Estrellas fugaces
+			QuestObjective.Description: Recoge Estrellas fugaces
+			QuestReward.Description: Poción menor de maná
+			DetailedDescription: Son las lágrimas del cielo nocturno, que caen después del anochecer. Recógelas no solo para aumentar tu capacidad de maná, sino también para usarlas como munición o material mágico.
+		}
+
+		CollectGems: {
+			DisplayName: Recolector de gemas
+			Description: Recoge varias gemas
+			QuestObjective.Description: Recolecta 5 tipos diferentes de gemas
+
+			QuestReward: {
+				Description: {
+					$parentVal: Poción de brillo
+					Diamond: Diamante
+				}
+			}
+
+			DetailedDescription: Cristales brillantes enterrados en las capas rocosas. Más allá de su función decorativa, son esenciales para fabricar bastones y ganchos de agarre. Recoger gemas de diferentes colores podría permitirte recrear el brillo de un arcoíris.
+		}
+
+	CollectHerbs: {
+			DisplayName: Aprendiz de hierbas
+			Description: Recoge varias hierbas
+			QuestObjective.Description: Recolecta 3 tipos diferentes de hierbas
+			QuestReward.Description: Agua embotellada
+			DetailedDescription: Los fundamentos de la alquimia. Diferentes plantas prosperan en diferentes entornos: desiertos, tundras e incluso el inframundo. Aprender a identificarlas es el primer paso para convertirse en un maestro alquimista.
+		}
+
+		CollectOres: {
+			DisplayName: Recolección de minerales
+			Description: Recolecta minerales básicos
+
+			QuestObjective: {
+				Description: {
+					Iron: Recoge un mineral de hierro o plomo
+					Copper: Recoge un mineral de cobre o estaño
+				}
+			}
+
+			QuestReward.Description: Poción de recuperación
+			DetailedDescription: La minería es esencial para la supervivencia. El cobre y el hierro pueden ser comunes, pero son los pilares para escapar de una vida primitiva. No los menosprecies; incluso los héroes legendarios comenzaron blandiendo un pico de cobre.
+		}
+
+		DeepExplorer: {
+			DisplayName: Explorador intensito
+			Description: Explora todos los biomas principales
+			QuestObjective.Description: Completa todas las misiones de exploración
+
+			QuestReward: {
+				Description: {
+					$parentVal: GPS
+					Gold: Monedas de oro
+				}
+			}
+
+			DetailedDescription: Has recorrido todos los rincones del mundo, desde las nubes más altas hasta el infierno más profundo. El mapa que has dibujado es prueba de tu valentía. Ahora, el mundo entero está a tus pies.
+		}
+
+	ExploreCaverns: {
+			DisplayName: Las cavernas profundas
+			Description: Explora las capas más profundas de las caverna
+			QuestObjective.Description: Llega a la capa de la Caverna
+			QuestReward.Description: Poción de espeleólogo
+			DetailedDescription: Aquí no hay luz solar, solo oscuridad y criaturas desconocidas. La lava comienza a aparecer y los depósitos de minerales se vuelven más ricos. Cuidado con dónde pisas; el abismo te está observando.
+		}
+
+		ExploreCorruption: {
+			DisplayName: La Corrupción
+			Description: Explora la Corrupción o el Carmesí
+			QuestObjective.Description: Entra a a la Corrupción o el Carmesí
+			QuestReward.Description: Poción de batalla
+			DetailedDescription: Esta lugar está enfermo. La corrupción púrpura o la carne carmesí están devorando la tierra. Aunque esté llena de monstruos sedientos de sangre, hay que entrar en la guarida del lobo para obtener escamas de las sombras o muestras de tejido.
+		}
+
+		ExploreDesert: {
+			DisplayName: Desierto abrasador
+			Description: Entra en el bioma del Desierto
+			QuestObjective.Description: Llega al Desierto
+			QuestReward.Description: Poción de flotación
+			DetailedDescription: El sol abrasador quema la tierra, y el mar de arena dorada oculta antiguos fósiles y feroces hormigas león. Lleva mucha agua; la aridez de este lugar te dejará sin fuerzas.
+		}
+
+		ExploreFloatingIsland: {
+			DisplayName: Islas flotantes
+			Description: Encuentra las Islas flotantes en el cielo
+			QuestObjective.Description: Entra en una Isla flotante
+			QuestReward.Description: Poción de gravedad
+			DetailedDescription: Las leyendas dicen que por encima de las nubes se encuentran tesoros ocultos dejados por una antigua civilización. Busca anomalías gravitacionales o construye una torre hasta el cielo para descubrirlos.
+		}
+
+		ExploreGlowingMushroom: {
+			DisplayName: Hongos luminosos
+			Description: Encuentra el bioma de Champiñones
+			QuestObjective.Description: Entra en el bioma de Champiñones
+			QuestReward.Description: Poción de noctámbulo
+			DetailedDescription: Un ecosistema subterráneo psicodélico. Hongos gigantes emiten un resplandor azul fantasmal que ilumina la oscuridad. Este es el hogar de la Trufa y de insectos peculiares.
+		}
+
+		ExploreUnderground: {
+			DisplayName: Exploración subterránea
+			Description: Adéntrate en las cuevas subterráneas
+			QuestObjective.Description: Llega al subterráneo
+			QuestReward.Description: Poción de minería
+			DetailedDescription: No basta con raspar la tierra de la superficie. La verdadera aventura comienza bajo la ella. Traed vuestras antorchas; la primera capa de roca es solo el principio.
+		}
+
+	FindLifeCrystal: {
+			DisplayName: Fuente de vida
+			Description: Encuentra un Cristal de vida
+			QuestObjective.Description: Encuentra un Cristal de vida
+			QuestReward.Description: Poción curativa menor
+			DetailedDescription: Este cristal rojo rebosa vitalidad. Rómpelo y consúmelo para fortalecerte de forma permanente. Esta es la clave para sobrevivir cuando te enfrentes a enemigos poderosos.
+		}
+
+		FindShadowOrb: {
+			DisplayName: Núcleo del mal
+			Description: Encuentra un Orbe sombrío o un Corazón carmesí en las profundidades de los biomas malignos
+			QuestObjective.Description: Destruye un Orbe sombrío o un Corazón carmesí
+
+			QuestReward: {
+				Description: {
+					$parentVal: Dinamita
+					Bomb: Bomba
+				}
+			}
+
+			DetailedDescription: En lo más profundo de la sima del mal, late un corazón corrupto o un orbe sombrío. Al romperlos se obtienen armas, pero ten cuidado... si rompes tres, algo terrible despertará.
+		}
+
+		FirstPotion: {
+			DisplayName: Fundamentos de la alquima
+			Description: Elabora tu primera poción
+			QuestObjective.Description: Elabora cualquier poción
+			QuestReward.Description: Poción menor de maná
+			DetailedDescription: Coloca una botella vacía sobre una mesa y tendrás un sencillo laboratorio de alquimia. No se necesitan hechizos complejos, solo la mezcla adecuada de ingredientes. Bebe y siente el poder de la magia.
+		}
+
+		NPCVillage: {
+			DisplayName: Aldea próspera
+			Description: Concenve a varios NPC para que se muden
+			QuestObjective.Description: Ten 5 NPCs
+			QuestReward.Description: Monedas de oro
+			DetailedDescription: Sobrevivir en la naturaleza es solitario. A medida que te hagas más fuerte y tengas más dinero, más gente se unirá a ti. Construye una comunidad próspera y deja que sean tu apoyo.
+		}
+
+		QueenBeeQuest: {
+			DisplayName: Reina abeja
+			Description: Derrota a la Reina abeja
+			QuestObjective.Description: Derrota a la Reina abeja
+			DetailedDescription: Si rompes la larva presente en lo más profundo de las enormes colmenas de la selva subterránea, enfurecerás a la reina del enjambre. Prepara pociones antiveneno y ten cuidado con sus aguijones y sus rápidas embestidas.
+		}
+
+	CollectorQuest: {
+			DisplayName: Asistente del coleccionista
+			Description: Consigue un Coleccionista
+			QuestObjective.Description: Consigue un Coleccionista
+			QuestReward.Description: 2 Cofres
+			DetailedDescription: ¿Cansado de agacharte para recoger objetos por todas partes? Este dispositivo recoge automáticamente los objetos que caen cerca de él. Es un componente fundamental para crear sistemas logísticos y de clasificación automatizados, lo que te permitirá tener las manos completamente libres.
+		}
+
+		LumberjackQuest: {
+			DisplayName: Hora de maderear
+			Description: Consigue el Leñador
+			QuestObjective.Description: Consigue el Leñador
+			DetailedDescription: La madera es la piedra angular de la industria y la construcción. Despídete de las hachas primitivas; esta máquina consume energía para automatizar tu plantación forestal, garantizando un suministro continuo de madera.
+		}
+
+		LifeWeaverQuest: {
+			DisplayName: Reforestación
+			Description: Obtén el Tejedor de vida
+			QuestObjective.Description: Obtén el Tejedor de vida
+			DetailedDescription: La regeneración forestal suele ser un proceso lento. Esta máquina utiliza energía para plantar árboles jóvenes con precisión, restaurando rápidamente la vida en tierras áridas. Es la pieza final del rompecabezas para una recolección arbórea totalmente automatizada y sostenible.
+		}
+
+		IncineratorQuest: {
+			DisplayName: Fundición eléctrica
+			Description: Fabrica un Incinerador eléctrico
+			QuestObjective.Description: Obtén un Incinerador eléctrico
+			DetailedDescription: Los hornos tradicionales son ineficientes y desperdician una cantidad significativa de esencia mineral. Aprovechando las temperaturas extremas generadas por los arcos de alto voltaje, esta máquina descompone completamente los minerales, duplicando el rendimiento. Este es un paso crucial hacia la industrialización.
+		}
+
+		ItemPipelineQuest: {
+			DisplayName: Sistema logístico
+			Description: Fabrica un Canalizador de ítems
+			QuestObjective.Description: Obtén un Canalizador de ítems
+			QuestReward.Description: 2 Cofres
+			DetailedDescription: ¿Sigues llendo de un cofre a otro para almacenar tus objetos? ¿Acaso eres un cavernícola? Estas tuberías son las venas de la industria. Conéctalas entre máquinas y almacenamientos, y observa cómo los objetos fluyen automáticamente hacia donde deben estar. Construye una cadena de montaje automatizada y disfruta del placer de cosechar recompensas sin esfuerzo.
+		}
+
+		ThrowerQuest: {
+			DisplayName: Asistente de lanzamiento
+			Description: Fabrica un Arrojador
+			QuestObjective.Description: Obtén un Arrojador
+			QuestReward.Description: 2 Cofres
+			DetailedDescription: No todos los objetos merecen ser atesorados. Este dispositivo expulsa objetos de la red logística y los lanza al mapa. Ya sea para la fabricación automatizada (como sumergir objetos en líquidos) o simplemente para actuar como un eliminador de residuos, realiza su trabajo a la perfección.
+		}
+}

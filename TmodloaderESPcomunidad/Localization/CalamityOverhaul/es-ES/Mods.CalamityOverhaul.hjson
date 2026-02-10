@@ -1,0 +1,34 @@
+﻿EndlessDamageClassTextContent.EndlessDamageClass.DisplayName: Daño infinito
+Tools.RecipesLoseText: Simplemente no puedes hacer eso
+
+Biomes: {
+	TungstenBiome: {
+		DisplayName:Bioma de tungsteno
+		TownNPCDialogueName:El bioma de tungsteno
+	}
+}
+
+# For Language Pack Creators:
+# The keys here were previously in Items. Since EcTypeItem has been removed, all localization keys similar to "ItemNameEcType" have been moved here.
+# The corresponding format is "ItemNameEcType" → "RItemName" or "ItemNameOverride".
+# Apart from the class name change, the DisplayName and Tooltip remain the same as in the previous version.
+# So if you need to migrate your language pack to the new version, simply copy and paste the entries here and update the class names accordingly.
+
+Arcanes: {
+	Items: {
+		ArcaneTransformer: {
+			DisplayName: Transformador arcano
+			Tooltip: ""
+		}
+	}
+}
+
+Resurrections: {
+	ResurrectionDeath: {
+		DeathText: "{0} fue consumido por el Resurgimiento abisal"
+		WarningCombatText: El abismo te está devorando...
+		DeathNoticeText: Has sido engullido por el Abismo...
+		MarkRemainText: La marca del Abismo aún te persigue...
+		RetainValueFormat: Valor de resurgimiento: {0}%
+	}
+}

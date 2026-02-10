@@ -1,0 +1,318 @@
+﻿ItemFilterUI: {
+		HintText: Clic izquierdo para añadir un ítem
+		HintText2: Clic derecho para eliminar un ítem
+		CloseHint: Presiona [ESC] o [Right-click] para cerrar
+	}
+
+	LegendUpgradeConfirmUI: {
+		TitleText: Confirmación de mejora de arma legendaria
+		DescText:
+			'''
+			El nivel de mundo actual es 
+			superior al nivel del arma.
+			¿Actualizar {0} al nivel {1}?
+			'''
+		ConfirmText: Actualizar
+		CancelText: Cancelar
+		Success: "[ITEM] ha sido actualizado al nivel [LEVEL]."
+	}
+
+	QuestTracker: {
+		DamageTrackerSystem: {
+			QuestFailedPrefix: Misión fallida...
+			QuestCompletedPrefix: ¡Misión cumplida!
+			FailureReasonWrongWeapon: No se asestó el golpe final con el arma especificada
+			FailureReasonInsufficientDamage: Daño insuficiente con el arma
+			SuccessDamageContribution: Daño aplicado
+		}
+	}
+
+	DoGQuestTrackerUI: {
+		QuestTitle: Encargo: Caza al Devorador de dioses
+		DamageContribution: Daño del Arrancacorazones
+		RequiredContribution: Requerido: 80%
+	}
+
+	PallbearerQuestTrackerUI: {
+		QuestTitle: Encargo: Caza a la Diosa profanada
+		DamageContribution: Daño del Portador del féretro
+		RequiredContribution: Requerido: 80%
+	}
+
+	YharonQuestTrackerUI: {
+		QuestTitle: Encargo: Caza al Dragón Incinerador
+		DamageContribution: Daño del Machete oni
+		RequiredContribution: Requerido: 75%
+	}
+
+	SeaDialogueBox: {
+		ContinueHint: Seguir
+		FastHint: Acelerar
+	}
+
+	BrimstoneDialogueBox: {
+		ContinueHint: Seguir
+		FastHint: Acelerar
+	}
+
+	DraedonDialogueBox: {
+		ContinueHint: Seguir
+		FastHint: Acelerar
+	}
+
+	ExoMechdusaSumRender: {
+		ThanatosDescription: Thanatos, una aterradora serpiente gigante con innumerables cañones automáticos.
+		AresDescription: Ares, un coloso armado con cuatro armas de pulso supergausianas.
+		ArtemisApolloDescription: Artemis y Apolo, dos autómatas excepcionalmente resistentes con reservas de energía muy inestables.
+	}
+
+	CQETConstructorTP: {
+		GuideText_NeedBlocks: Necesitas {0} bloques chapados con luz estelar
+		GuideText_Ready: ¡Listo!
+		GuideText_GroundIncomplete: ¡No hay bloques suficientes!
+	}
+
+	DeploySignaltowerTrackerUI: {
+		QuestTitle: Despliega las Torres de entrecruzamiento
+		RequiredContribution: Meta: 10 torres de señales
+		NearestTargetText: Objetivo más cercano
+		NodeText: Nodo de entrelazamiento #[NUM]
+		StatusText: Estado
+		InRangeText: Dentro del rango
+		DistanceText: Distancia
+		QuestCompleteText: ¡Misión cumplida!
+	}
+
+	SignalTowerTargetRenderer: {
+		InRangeText: Dentro del rango
+		TargetCompletedText: Objetivo [NUM] ¡Completado!
+		AllCompletedText: ¡Red de entrelazamiento cuántico completada!
+	}
+
+	DraedonCallUI: {
+		TitleText: Llamar a Draedon
+		TitleTextDisabled: Llamada desactivada
+		CallButtonText: Iniciar llamada
+		CallingText: Llamando...
+		DisabledButtonText: Desactivado
+		ConnectingText: Conectando...
+		ConnectedText: Conectado
+		DisabledReasonText: Draedon ha sido convocado
+	}
+
+	TzeentchDialogueBox: {
+		ContinueHint: Seguir
+		FastHint: Acelerar
+	}
+
+	EnchantUI: {
+		ExpandHint: Expandir menú Encantamiento
+		CollapseHint: Reducir menú Encantamiento
+		EnchantTitle: Encantar
+	}
+
+	ConstructionBlueprintUI: {
+		UITitle: Autoconstructor
+		MaterialsRequired: Materiales requeridos:
+		CloseHint: Clic para cerrar
+		CraftingStation: Estación de crafteo:
+	}
+
+	Generator: {
+		ThermalGeneratorUI: {
+			TitleText: Generador térmico
+			FuelLabel: Combustible
+			TemperatureLabel: Temperatura
+			PowerLabel: Potencia
+			StatusLabel: Estado:
+			ActiveText: Activo
+			IdleText: Inactivo
+			EfficiencyText: Eficiencia: {0}%
+			InsertFuelHint: Clic para insertar/extraer combustible
+			TemperatureUnit: °C
+			PowerUnit: UE
+		}
+	}
+
+	ChargingStationUI: {
+		TitleText: Estación de carga
+		ItemSlotLabel: Ítem 
+		BatterySlotLabel: Batería
+		StationEnergyLabel: Energía de la estación
+		ItemChargeLabel: Carga del ítem
+		StatusLabel: Estado:
+		ChargingText: Cargando
+		IdleText: Inactivo
+		InsertItemHint: Insertar ítem para cargar
+		InsertBatteryHint: Inserta la célula de energía de Draedon
+		EnergyUnit: UE
+		StationText1: ¡Solo se aceptan ítems recargables!
+		StationText2: ¡Solo aceptan Células de energía de Draedon!
+	}
+
+	SulfseaDialogueBox: {
+		ContinueHint: Seguir
+		FastHint: acelerar
+	}
+
+	OldDukeShopUI: {
+		TitleText: Tienda del Viejo Duque
+		CurrencyName: Restos oceánicos
+		HintTooltip: Barra de desplazamiento/arrastre
+	}
+
+	FindCampsiteUI: {
+		QuestTitle: El abismo nos llama
+		DamageContribution: Progreso de la misión
+		RequiredContribution: Objetivo: Encuentra y habla con el Viejo Duque
+		ObjectiveText: Objetivo
+		LocationText: Ve al campamento del Viejo Duque
+		DistanceText: Distancia
+		InteractText: Habla con el Viejo Duque
+		QuestCompleteText: ¡Misión cumplida!
+		HoldFragmentHintText: Selecciona los restos océanicos
+	}
+
+	FindFragmentUI: {
+		QuestTitle: El abismo nos llama
+		DamageContribution: Progreso de la recolección
+		RequiredContribution: Objetivo: Recoge 777 restos oceánicos
+		ObjectiveText: Objetivo
+		CollectFragmentsText: Recoger Restos oceánicos
+		CurrentFragmentsText: En posesión
+		ReturnToCampsiteText: Regresar al campamento y dáselos
+		QuestCompleteText: ¡Misión cumplida!
+		HintText: Pesca o saquea criaturas en el océano
+	}
+
+	OceanRaidersUI: {
+		TitleText:Almacenamiento devorador del océano
+		StorageText: Almacenamiento
+	}
+
+	OldDuchestUI: {
+		TitleText: Baúl antiguo
+		StorageText: Espacio de almacenamiento
+	}
+	QuestLog: {
+		ObjectiveText: Objetivo
+		RewardText: Recompensa
+		ReceiveAwardText: Reclamar
+		ProgressText: Progreso de misión
+		QuickReceiveAwardText: Reclamar rápido
+		StyleSwitchText: Estilo
+		NightModeText: Modo nocturno
+		ResetViewText: Restablecer
+		SunModeText: Modo diurno
+		LauncherHoverText: Clic izquierdo para abrir, clic derecho para arrastrar
+	}
+
+	QuestNotificationSystem.Text1: Misión completada
+
+	
+	CompatibilityAlert: {
+		TitleText: Modo de compatibilidad activo
+		ContentText:
+			'''
+			Faltan mods importantes de contenido o se han detectado conflictos entre versiones. 
+			Algunas funciones estarán desactivadas o se ejecutarán en modo restringido.
+			Si esto es intencionado, ignore este mensaje.
+			Si se debe a versiones obsoletas, espere a que se publique una actualización.
+			El equipo de desarrollo suele publicar parches de compatibilidad en un plazo de 12 horas
+			'''
+	}
+
+	QuestWorldConfirmUI: {
+		TitleText: Confirmación de comprobación de misión
+		DescText:
+			'''
+			Se ha detectado una entrada procedente de otro mundo.
+			¿Deseas comprobar el progreso de la misión 
+			en el mundo actual?
+			'''
+		ConfirmText: Comprobar misiones
+		CancelText: Saltar
+		EnabledText: Comprobación de misiones acticado
+		DisabledText: Comprobación de misión omitida
+		DisabledOverlayText:
+			'''
+			La comprobación de misiones está desactivada en este mundo.
+			Vuelve a entrar en el mundo para volver a elegir
+			'''
+	}
+
+	Incinerator: {
+		IncineratorUI: {
+			TitleText: Incinerador eléctrico
+			InputLabel: Entrada
+			OutputLabel: Salida
+			ProgressLabel: Progreso
+			PowerLabel: Energía
+			StatusLabel: Estado:
+			SmeltingText: Incinerando
+			IdleText: Inactivo
+			NoPowerText: Sin energía
+			InputHint: Colocar ítems para incinerar
+			OutputHint: Haz clic para recuperar el resultado
+			PowerUnit: UE
+		}
+	}
+
+	ItemPipeline: {
+		Normal: Normal
+		Output: Salida
+		Input: Entrada
+		NotEndpointHint: Las entradas y salidas solo pueden instalarse en un extremo de la tubería
+	}
+
+	ThrowerUI: {
+		TitleText: Arrojador de ítems
+		InventoryLabel: Alacenamiento
+		ControlLabel: Panel de control
+		SpeedLabel: Velocidad de lanzamiento
+		AngleLabel: Ángulo de dispersión
+		IntervalLabel: Intervalo de lanzamiento
+		DirectionLabel: Dirección del lanzamiento
+		StartText: Comenzar
+		StopText: Detener
+		StatusRunning: Funcionando
+		StatusIdle: Inactivo
+		StatusNoEnergy: Sin energía
+		StatusNoItems: Sin objetos
+		EnergyLabel: Energía
+		DropHint: Colocar ítems
+		AmmoModeOnText: Disparar munición
+		AmmoModeOffText: Lanzar objeto
+		AmmoModeHint: Modo de munición: Dispara el proyectiles correspondiente a la munición insertada
+	}
+
+SHPCSoulSelectUI: {
+	TitleText: NÚCLEO DE ALMA
+	SoulNameLight: Luz
+	SoulNameNight: Moche
+	SoulNameFlight: Vuelo
+	SoulNameMight: Poder
+	SoulNameSight: Visión
+	SoulNameFright: Terror
+	TooltipSoulPrefix: "Alma de "
+	StatusActive: "[ACTIVO]"
+	StatusClickToSelect: "[CLIC PARA SELECCIONAR]"
+}
+
+ElysiumUI: {
+	TitleText: Elíseo
+	DiscipleCountText: Disciplinas
+	TotalBonusText: Bendición divina
+	DamageText: Daño
+	DefenseText: Defensa
+	CritText: Crítico
+	RegenText: Regeneración
+	EmptySlotText: Vacío
+	JudasWarningText: Advertencia: la traición de Judas acecha aquí.
+	BonusLabel: Pasivo
+	AbilityLabel: Capacidad
+	DragHintText: Arrastra a los discípulos para intercambiar identidades
+	SwapSuccessText: Intercambio de identidad completado
+	SwapFailText: El intercambio ha fallado
+	CannotSwapText: No se puede intercambiar a esta posición
+}
