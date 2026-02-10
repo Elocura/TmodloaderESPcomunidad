@@ -237,10 +237,25 @@ Items: {
 	}
 
 	Lore: {
-		CruiserLore.DisplayName: Cruiser
-		NihilityTwinLore.DisplayName: Nihility Twin
-		ProphetLore.DisplayName: Prophet
-		LuminarisLore.DisplayName: Luminaris
+		CruiserLore: {
+			DisplayName: Cruiser
+			Tooltip: ""
+		}
+
+		NihilityTwinLore: {
+			DisplayName: Nihility Twin
+			Tooltip: ""
+		}
+
+		ProphetLore: {
+			DisplayName: Prophet
+			Tooltip: ""
+		}
+
+		LuminarisLore: {
+			DisplayName: Luminaris
+			Tooltip: ""
+		}
 	}
 
 	BrokenChainsaw: {
@@ -613,8 +628,8 @@ Items: {
 		DisplayName: Holy Moonlight
 		Tooltip:
 			'''
-			+10% Magic Damage
-			Get a magic shield every thirty seconds, which is equivalent to 50% of the magic limit,
+			+15% Magic Damage
+			Get a magic shield every thirty seconds, which is equivalent to 25% of the magic limit,
 			During the existence of the Magic Shield, increase movement speed by 10% and reduce magic consumption by 10%,
 			The shield will deal damage to the enemies it touches,
 			When the magic shield is broken, it eliminates its own magic sickness and benefits, and returns to its full magic value,
@@ -755,6 +770,7 @@ Items: {
 			Minion gain 5% crit chance
 			{$CommonItemTooltip.SummonTagDamage}
 			{$CommonItemTooltip.Whips}
+			Enemies will explode when dead
 			'''
 		DisplayName: Jailer Whip
 	}
@@ -778,7 +794,7 @@ Items: {
 		Tooltip:
 			'''
 			Gives you 40% extra mana
-			Every 1 extra mana provides 0.1% magic damage bonus
+			Every 1 extra mana provides 0.15% magic damage bonus
 			'''
 		DisplayName: Archmage's Handmirror
 	}
@@ -1401,7 +1417,7 @@ Items: {
 			'''
 			+15% Damage
 			+15 Crit Chance
-			+250 Max Mana
+
 			Now you can breath in the abyss
 			'''
 	}
@@ -1413,7 +1429,8 @@ Items: {
 			+20% Damage
 			+20% Crit Chance
 			+30% Melee Speed
-			+250 Max Life
+			+200 Max Life
+			+200 Max Mana
 			'''
 	}
 
@@ -1423,7 +1440,7 @@ Items: {
 			'''
 			+30% Speed
 			-20% Mana Cost
-			+20 Damage
+			+15% Damage
 			+5 Crit Chance
 			'''
 	}
@@ -1462,7 +1479,7 @@ Items: {
 			'''
 			Split blood beam when your projectile hit enemies
 			+1 Penetration
-			+1 Life steal
+			+0.25 Life steal
 			'''
 	}
 
@@ -1576,7 +1593,7 @@ Items: {
 		Tooltip:
 			'''
 			Chance to summon a Fountain of Blood from below upon hitting an enemy
-			+1 Life steal
+			+0.17 Life steal
 			+4 Crit Chance
 			'''
 	}
@@ -1821,6 +1838,7 @@ Items: {
 			Minions gain 6% increased critical strike chance
 			{$CommonItemTooltip.SummonTagDamage}
 			{$CommonItemTooltip.Whips}
+			Minions will tear enemies' flesh chunk when attaking
 			'''
 		DisplayName: Sinew Lash
 	}
@@ -2172,7 +2190,7 @@ Items: {
 			{$CommonItemTooltip.SummonTagDamage}
 			{$CommonItemTooltip.Whips}
 			Increase the critical hit rate of minions by 10%
-			Minions' critical strike will pass 12% of damage to up to 4 nearby enemies
+			Minions' critical strike will pass 100% of damage to up to 5 nearby enemies
 			'''
 	}
 
@@ -2867,7 +2885,16 @@ Items: {
 
 	MiracleWreckage: {
 		DisplayName: Miracle Wreckage
-		Tooltip: ""
+		Tooltip:
+			'''
+			Left-click to throw two swords, which will stick to the enemy
+			If the number of swords on the enemy exceeds seven, 
+			the extra swords will be ejected and stab at the enemy
+			Press RMB to extend the sword blades with Miracle Fire
+			At this time, pressing the left button allows for swinging,
+			ejecting the sword blades stuck to the enemy and simultaneously generating a Miracle Vortex
+			If there are more than five swords on the enemy, a black hole will appear
+			'''
 	}
 
 	TheocracyMark: {
@@ -3026,7 +3053,7 @@ Items: {
 	}
 
 	BigShotsWing: {
-		DisplayName: Big Shot's Wing
+		DisplayName: Big Shot's Wings
 		Tooltip:
 			'''
 			Horizontal speed: [A]
@@ -3035,6 +3062,17 @@ Items: {
 			Flight time: [C]
 			-90% flight time if there're any boss
 			"Now's your chance to be a..."
+			'''
+	}
+
+	IceShardWing: {
+		DisplayName: Ice Shard Wings
+		Tooltip:
+			'''
+			Horizontal speed: [A]
+			Acceleration multiplier: [B]
+			Excellent vertical speed
+			Flight time: [C]
 			'''
 	}
 
@@ -3580,6 +3618,147 @@ Items: {
 		DisplayName: Phantom Bottle
 		Tooltip: ""
 	}
+
+	PureIceShard: {
+		DisplayName: Pure Ice Shard
+		Tooltip: ""
+	}
+
+	MottledSpear: {
+		DisplayName: Mottled Spear
+		Tooltip:
+			'''
+			Retracts upon attaching to a tile
+			Automatically unhook when approaching
+			Reach: [1] tiles
+			Launch Velocity: [2]
+			Reelback Velocity: [3]
+			Pull Velocity: [4]
+			'''
+	}
+
+	Daylight: {
+		DisplayName: Daylight
+		Tooltip:
+			'''
+			{$CommonItemTooltip.SummonTagDamage}
+			{$CommonItemTooltip.Whips}
+			Summon a daylight sun when attack enemies
+			Daylight sun will launch some sunbeam towards the target after minions hit target
+			'''
+	}
+
+	AmuletOfHealing: {
+		DisplayName: Amulet Of Healing
+		Tooltip:
+			'''
+			Increase 8% summon damage
+			+0.5/s life regen for each minion slot
+			Maximum increase of 3/s
+			'''
+	}
+
+	AmuletOfSanctuary: {
+		DisplayName: Amulet Of Sanctuary
+		Tooltip:
+			'''
+			Increase 8% summon damage
+			+4 defence for each minion slot
+			Maximum increase of 24
+			'''
+	}
+
+	BookmarkMarivium: {
+		DisplayName: Bookmark - Marivium
+		Tooltip: Summon a tiny wyrm to block projectiles
+	}
+
+	HungryLantern: {
+		DisplayName: Hungry Lantern
+		Tooltip:
+			'''
+			+1 Minion slot
+			Summon The Hungry
+			The Hungry will sink teeth into the enemy and dealing damage
+			Simultaneously, all damage this enemy taking will increase by [A]%
+			'''
+	}
+
+	OuijaBoard: {
+		DisplayName: Ouija Board
+		Tooltip: Summon souls to attack the enemy
+	}
+
+	OblivionSkull: {
+		DisplayName: Oblivion Skull
+		Tooltip:
+			'''
+			Summon a cursed skull that shoots tiny skull to enemies
+			Cost 2 minion slots
+			'''
+	}
+
+	BloodCodex: {
+		DisplayName: Blood Codex
+		Tooltip:
+			'''
+			Shoot blood from the book
+			Enemies will explode when dead
+			'''
+	}
+
+	PressureEsoterica: {
+		DisplayName: Pressure Esoterica
+		Tooltip: Shoot abyssal bolts
+	}
+
+	SpectralWhispers: {
+		DisplayName: Spectral Whispers
+		Tooltip: Shoot whispering spikes
+	}
+
+	BookmarkBloodthirsty: {
+		DisplayName: Bookmark - Bloodthirsty
+		Tooltip:
+			'''
+			Increase rage when attack an enemy
+			Reset the shooting cooldown and temporarily increase attack speed based on damage amount when hit
+			+0.1 Life steal
+			'''
+	}
+
+	GoldenRock: {
+		DisplayName: Golden Rock
+		Tooltip:
+			'''
+			Killing enemies will increase the value of this item
+			Provides damage bonus based on the current value
+			Current value: [A]
+			Damage bonus: +[B]%
+			'''
+	}
+
+	WhipOfEvilKing: {
+		DisplayName: Whip Of Evil King
+		Tooltip:
+			'''
+			{$CommonItemTooltip.SummonTagDamage}
+			{$CommonItemTooltip.Whips}
+			Provide 5% crit chance to minions
+			Minion hit enemies will spawn a spade, dealing damage to colliding enemies
+			'''
+	}
+
+	ChargingYuzu: {
+		DisplayName: Charging Yuzu
+		Tooltip:
+			'''
+			Each running Yuzusoft's game will provide bonus below:
+			+10% Damage
+			+5% Damage reduce
+			Current: [A]
+			'''
+	}
 }
 
 ChaoticSetBonus:
@@ -3655,16 +3834,14 @@ MariviniumSet:
 	+100% Summon Damage
 	+5% Summon Crit
 	+10% Damage Reduce
-	+50 Armor Penetration
-	if your crit chance is over 100%, convert excess crit chance into damage bonus
 	+135 Rogue Stealth
 	When standing, increase life regen
 	Immunity to most debuffs
-	When using true melee weapons, +15% Damage reduce and 25 defense
+	When using true melee weapons, +10% Damage reduce and 15 defense
 	When using a whip, enhance summoner attributes
 	Stealth strike has a probability of causing an water explosion
-	Obtain 2 layers of shields, which will take 20 seconds to recover after being shattered
-	After shield shattered, treat 140 health points and +100% damage for 5 seconds
+	Obtain 2 layers of shields, which will take 30 seconds to recover after being shattered
+	After shield shattered, treat 100 health points and +50% damage for 10 seconds
 	'''
 DeathMode: Death Mode
 CdMantle: Holy Mantle Cooldown
@@ -4216,6 +4393,31 @@ Projectiles: {
 	CursedTorchMinion.DisplayName: Cursed Torch Minion
 	CursingFlame.DisplayName: Cursing Flame
 	CruiserPhantomPet.DisplayName: Cruiser Phantom Pet
+	MottledSpearHook.DisplayName: Mottled Spear Hook
+	DaylightProjectile.DisplayName: Daylight Projectile
+	DaylightLaser.DisplayName: Daylight Laser
+	DaylightSun.DisplayName: Daylight Sun
+	FleshChunk.DisplayName: Flesh Chunk
+	MiniWyrm.DisplayName: Mini Wyrm
+	TheHungry.DisplayName: The Hungry
+	OuijaBoardHeld.DisplayName: Ouija Board Held
+	OuijaSpirit.DisplayName: Ouija Spirit
+	OblivionSkullMinion.DisplayName: Oblivion Skull Minion
+	SkullProj.DisplayName: Skull
+	BloodCodexHeld.DisplayName: Blood Codex Held
+	BloodSpray.DisplayName: Blood Spray
+	AbyssalRift.DisplayName: Abyssal Rift
+	PressureEsotericaHeld.DisplayName: Pressure Esoterica Held
+	SpectralWhispersHeld.DisplayName: Spectral Whispers Held
+	WhisperingSpike.DisplayName: Whispering Spike
+	EvilKingWhipProjectile.DisplayName: Evil King Whip Projectile
+	Spade.DisplayName: Spade
+	MiracleWreckageThrow.DisplayName: Miracle Wreckage Throw
+	Blackhole.DisplayName: Blackhole
+	MiracleWreckageHeldAnm.DisplayName: Miracle Wreckage Held Anm
+	MiracleExplosion.DisplayName: Miracle Explosion
+	MiracleWreckagePopOut.DisplayName: Miracle Wreckage Pop Out
+	MiracleVortex.DisplayName: Miracle Vortex
 }
 
 LegendTooltip: - Legend -
@@ -4574,6 +4776,21 @@ Buffs: {
 	PhantomOfCruiser: {
 		DisplayName: Phantom Of Cruiser
 		Description: ""
+	}
+
+	BonePiercingToxin: {
+		DisplayName: Bone-piercing Toxin
+		Description: It hurts
+	}
+
+	FlamingBlood: {
+		DisplayName: Flaming Blood
+		Description: ""
+	}
+
+	OblivionSkullBuff: {
+		DisplayName: Oblivion Skull
+		Description: It hates the living
 	}
 }
 
@@ -5114,6 +5331,7 @@ KilledByVoidVirus2: "'s blood"
 KilledByAstral: " completely eroded by starlight"
 CdFF: Friend Finder Cooldown
 TooltipBookMark: Can insert in Entropy Books weapons
+TooltipBookMark2: Use RMB to quick insert/take out
 SlotInfo: Insert Bookmark
 EBookTooltip:
 	'''
@@ -5305,6 +5523,7 @@ TeleportSlashCooldown: Slash Cooldown
 ScytheReviveCooldown: Scythe Revive Cooldown
 TScytheZenithName: Night Master's Scythe
 TScytheSpecialName: Scarlet
+TScytheSpecialName2: Kanna's Scythe
 TScytheZenithDesc: '''"Crown me, my king, and the world will welcome the end of the night."'''
 TScytheDesc: '''"A scarlet scythe with tlipoca's soul adhering."'''
 TSL1:
@@ -5463,7 +5682,7 @@ AzafureSet:
 	When this armor is equipped, 
 	all Azafure equipment receives partial enhancements
 	Remove adrenaline and gains a Durability bar
-	The Durability bar provides up to 18 defense and 25% damage reduction, 
+	The Durability bar provides up to 12 defense and 16% damage reduction, 
 	while slowing your movement speed
 	Durability is consumed based on damage taken when hit
 	Durability slowly regenerates 5 seconds after taking damage
@@ -5474,12 +5693,12 @@ AzafureSet2:
 	When this armor is equipped, 
 	all Azafure equipment receives partial enhancements
 	Remove adrenaline and gains a Durability bar
-	The Durability bar provides up to 36 defense and 30% damage reduction
+	The Durability bar provides up to 24 defense and 20% damage reduction
 	Durability is consumed based on damage taken when hit
 	Durability slowly regenerates 5 seconds after taking damage
 	When the Durability bar is depleted, it becomes inactive and requires time to restore functionality
 	Provide 80 rogue stealth
-	+20% Movement speed and +1 Max minion
+	+10% Movement speed and +1 Max minion
 	'''
 AzafureSet3:
 	'''
@@ -5487,7 +5706,7 @@ AzafureSet3:
 	When this armor is equipped, 
 	all Azafure equipment receives partial enhancements
 	Remove adrenaline and gains a Durability bar
-	The Durability bar provides up to 50 defense and 32% damage reduction
+	The Durability bar provides up to 36 defense and 24% damage reduction
 	Durability is consumed based on damage taken when hit
 	Durability slowly regenerates 5 seconds after taking damage
 	When the Durability bar is depleted, it becomes inactive and requires time to restore functionality
@@ -5548,3 +5767,7 @@ CardsDesc: There should be a complete set of cards similar to it
 VoidCoreShield: Void Shield
 CrossModSupportFish: Cross mod support: You can also put it in Entropy books as a bookmark
 CdAcr: Acropolis Mech Cooldown
+SpecialThanks: Special Thanks
+PassedBossRush: Passed Boss Rush
+BloodthirstyRequirement: You need at least 200 health points to craft this item
+BloodthirstyKilled: bled out
