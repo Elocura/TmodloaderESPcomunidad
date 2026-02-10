@@ -235,10 +235,25 @@ Items: {
 	}
 
 	Lore: {
-		CruiserLore.DisplayName: Cruiser
-		NihilityTwinLore.DisplayName: Gemelos de la Nihilidad
-		ProphetLore.DisplayName: Profeta
-		LuminarisLore.DisplayName: Luminaris
+		CruiserLore: {
+			DisplayName: Cruiser
+			Tooltip: ""
+		}
+
+		NihilityTwinLore: {
+			DisplayName: Nihility Twin
+			Tooltip: ""
+		}
+
+		ProphetLore: {
+			DisplayName: Prophet
+			Tooltip: ""
+		}
+
+		LuminarisLore: {
+			DisplayName: Luminaris
+			Tooltip: ""
+		}
 	}
 
 	BrokenChainsaw: {
@@ -610,8 +625,8 @@ Items: {
 		DisplayName: Luz de luna sagrada
 		Tooltip:
 			'''
-			+10% de daño mágico
-			Otorga un escudo mágico cada 13 segundos, equivalente al 50% de magia máxima
+			+15% de daño mágico
+			Otorga un escudo mágico cada 13 segundos, equivalente al 25% de magia máxima
 			Mientras se posea el escudo mágico, se incrementará la velocidad de movimiento un 10% y se reducirá el consumo de maná un 15%
 			Cuando los enemigos toquen el escudo, recibirán daño
 			Cuando el escudo mágico es destruido, la locura de maná será eliminada si se posee y se perderán los beneficios del escudo
@@ -752,6 +767,7 @@ Items: {
 			Los súbditos ganan un 5% de probabilidad de crítico
 			{$CommonItemTooltip.SummonTagDamage}
 			{$CommonItemTooltip.Whips}
+			Los enemigos explotarán al morir
 			'''
 		DisplayName: Látigo del carcelero
 	}
@@ -775,7 +791,7 @@ Items: {
 		Tooltip:
 			'''
 			Recibes un 40% extra de maná
-			Por cada punto extra de maná, aumentará el daño un 0.1%
+			Por cada punto extra de maná, aumentará el daño un 0.15%
 			'''
 		DisplayName: Espejo de mano del Archimago
 	}
@@ -1398,7 +1414,6 @@ Items: {
 			'''
 			+15% de daño
 			+15 de probabilidad de crítico
-			+250 de maná máximo
 			Ahora podrás respirar en el abismo
 			'''
 	}
@@ -1411,6 +1426,7 @@ Items: {
 			+20% de daño crítico
 			+30% velocidad de ataque cuerpo a cuerpo
 			+250 de vida máxima
+			+250 de maná máximo
 			'''
 	}
 
@@ -1420,7 +1436,7 @@ Items: {
 			'''
 			+30% de velocidad de movimiento
 			-20% de coste de maná
-			+20 de daño
+			+15 de daño
 			+5 de probabilidad de crítico
 			'''
 	}
@@ -1459,7 +1475,7 @@ Items: {
 			'''
 			Cuando tu proyectil alcanza al enemigo, se dividirá en gotas de sangre
 			+1 de penetración
-			+1 de robo de vida
+			+0.25 de robo de vida
 			'''
 	}
 
@@ -1573,7 +1589,7 @@ Items: {
 		Tooltip:
 			'''
 			Hay una posibilidad de generar fuentes sangrientas al golpear a un enemigo
-			+1 de robo de vida
+			+0.17 de robo de vida
 			+4 de probabilidad de crítico
 			'''
 	}
@@ -1817,6 +1833,7 @@ Items: {
 			Los súditos tienen una probabilidad del 6% de realizar un golpe crítico
 			{$CommonItemTooltip.SummonTagDamage}
 			{$CommonItemTooltip.Whips}
+			Los súbditos arrancarán trozos de carne a los enemigos cuando ataquen
 			'''
 		DisplayName: Látigo de tendón
 	}
@@ -2168,7 +2185,7 @@ Items: {
 			{$CommonItemTooltip.SummonTagDamage}
 			{$CommonItemTooltip.Whips}
 			Incrementa la probabilidad de crítico de los súbditos un 10%
-			Los críticos de los súbditos infligirán un 12% del daño adicional a 4 enemigos cercanos
+			Los críticos de los súbditos infligirán un 100% del daño adicional a 4 enemigos cercanos
 			'''
 	}
 
@@ -2863,7 +2880,16 @@ Items: {
 
 	MiracleWreckage: {
 		DisplayName: Restos milagrosos
-		Tooltip: ""
+		Tooltip:
+			'''
+			Haz clic izquierdo para lanzar dos espadas, que se clavarán en el enemigo
+			Si el número de espadas en el enemigo supera las siete, 
+			las espadas sobrantes serán expulsadas y apuñalarán al enemigo
+			Haz clic derecho para extender las hojas de las espadas con Fuego milagroso
+			En ese momento, pulsa clic izquierdo para oscilar el arma,
+			expulsando las hojas de espada clavadas en el enemigo y generando simultáneamente un vórtice milagroso
+			Si hay más de cinco espadas en el enemigo, aparecerá un agujero negro
+			'''
 	}
 
 	TheocracyMark: {
@@ -3031,6 +3057,17 @@ Items: {
 			Tiempo de vuelo: [C]
 			-90% de tiempo de vuelo si hay algún jefe presente
 			"Ahora tienes la oportunidad de ser un..."
+			'''
+	}
+
+	IceShardWing: {
+		DisplayName: Alas de fragmentos de hielo
+		Tooltip:
+			'''
+			Velocidad horizontal: [A]
+			Multiplicador de aceleración: [B]
+			Velocidad vertical excelente
+			Tiempo de vuelo: [C]
 			'''
 	}
 
@@ -3564,6 +3601,152 @@ Items: {
 			COnsume dos espacios de súbditos
 			'''
 	}
+
+	PhantomBottle: {
+		DisplayName: Botella fantasma
+		Tooltip: ""
+	}
+
+	PureIceShard: {
+		DisplayName: Fragmento de hielo puro
+		Tooltip: ""
+	}
+
+	MottledSpear: {
+		DisplayName: Lanza moteada
+		Tooltip:
+			'''
+			Se retrae al adherirse a un bloque
+			Se desengancha automáticamente al acercarse
+			Alcance: [1] bloques
+			Velocidad de lanzamiento: [2]
+			Velocidad de retroceso: [3]
+			Velocidad de tracción: [4]
+			'''
+	}
+
+	Daylight: {
+		DisplayName: Luz del día
+		Tooltip:
+			'''
+			{$CommonItemTooltip.SummonTagDamage}
+			{$CommonItemTooltip.Whips}
+			Invoca un sol diurno cuando ataques a los enemigos
+			El sol diurno lanzará un rayo de sol hacia el objetivo después de que los súbditos lo golpeen
+			'''
+	}
+
+	AmuletOfHealing: {
+		DisplayName: Amuleto de curación
+		Tooltip:
+			'''
+			Aumenta el daño de invocación en un 8%
+			Tendrás +0,5/s de regeneración de vida por cada espacio de súbditos
+			El aumento máximo es de 3/s
+			'''
+	}
+
+	AmuletOfSanctuary: {
+		DisplayName: Amuleto del santuario
+		Tooltip:
+			'''
+			Aumenta el daño de invocación en un 8%
+			Tendrá +4 de defensa por cada espacio de súbditos
+			El aumento máximo es de 24
+			'''
+	}
+
+	BookmarkMarivium: {
+		DisplayName: Marcapáginas - Marivium
+		Tooltip: Invoca a un pequeño gusano para bloquear proyectiles
+	}
+
+	HungryLantern: {
+		DisplayName: Linterna hambrienta
+		Tooltip:
+			'''
+			+1 espacio de súbditos
+			Invoca a los Hambrientos
+			Los Hambrientos hincarán sus dientes en el enemigo y le infligirán daño
+			Al mismo tiempo, todo el daño que reciba este enemigo aumentará en un [A]%
+			'''
+	}
+
+	OuijaBoard: {
+		DisplayName: Tablero de Ouija
+		Tooltip: Invoca almas para atacar al enemigo
+	}
+
+	OblivionSkull: {
+		DisplayName: Calavera del olvido
+		Tooltip:
+			'''
+			Invoca un cráneo maldito que dispara pequeños cráneos a los enemigos
+			Ocupa 2 espacios de súbditos
+			'''
+	}
+
+	BloodCodex: {
+		DisplayName: Códice de sangre
+		Tooltip:
+			'''
+			Dispara sangre desde el libro
+			Los enemigos explotarán al morir
+			'''
+	}
+
+	PressureEsoterica: {
+		DisplayName: Presión esotérica
+		Tooltip: Dispara rayos abisales
+	}
+
+	SpectralWhispers: {
+		DisplayName: Susurros espectrales
+		Tooltip: Dispara púas susurrantes
+	}
+
+	BookmarkBloodthirsty: {
+		DisplayName: Marcapáginas - Sanguinario
+		Tooltip:
+			'''
+			Aumenta la ira al atacar a un enemigo
+			Restablece el tiempo de recarga de disparo y aumenta temporalmente la velocidad de ataque en función de la cantidad de daño infligido al impactar
+			+0.1 de robo de vida
+			'''
+	}
+
+	GoldenRock: {
+		DisplayName: Roca dorada
+		Tooltip:
+			'''
+			Matar enemigos aumentará el valor de este objeto
+			Proporciona una bonificación de daño basada en el valor actual
+			Valor actual: [A]
+			Bonificación de daño: +[B]%
+			'''
+	}
+
+	WhipOfEvilKing: {
+		DisplayName: Látigo del Rey maligno
+		Tooltip:
+			'''
+			{$CommonItemTooltip.SummonTagDamage}
+			{$CommonItemTooltip.Whips}
+			Proporciona un 5% de probabilidad de crítico a los súbditos
+			Los enemigos golpeados por los súbditos generarán una pica que infligirá daño a los enemigos con los que colisione
+			'''
+	}
+
+	ChargingYuzu: {
+		DisplayName: Carga de yuzu
+		Tooltip:
+			'''
+			Cada juego de Yuzusoft en ejecución proporcionará las siguientes bonificaciones:
+			+10% de daño
+			+5% de reducción de daño
+			Actual: [A]
+			'''
+	}
 }
 
 ChaoticSetBonus:
@@ -3636,16 +3819,14 @@ MariviniumSet:
 	+100% de daño de invocación
 	+5% de daño crítico de invocación
 	+10% de reducción de daño
-	+50 de penetración de armadura
-	Si tu probabilidad de crítico es superior al 100%, convierte el exceso de probabilidad en bonificación de daño
 	+135 de sigilo
 	Si no te mueves, incrementa la regeneración de vida
 	Inmunidad a la mayoría de debuffos
-	Al usar armas cuerpo a cuerpo verdaderas, se reduce el daño un 15% y se obtiene una defensa de 25
+	Al usar armas cuerpo a cuerpo verdaderas, se reduce el daño un 10% y se obtiene una defensa de 15
 	Al usar un látigo, mejora los atributos de invocador
 	El ataque sigiloso puede provocar una explosión de agua
-	Obtendrás 2 escudos, que tardarán 20 segundos en recuperarse después de ser destruidos
-	Al romperse un escudo, recupera 140 puntos de vida y y obtienes un 100% más de daño durante 5 segundos
+	Obtendrás 2 escudos, que tardarán 30 segundos en recuperarse después de ser destruidos
+	Al romperse un escudo, recupera 100 puntos de vida y y obtienes un 50% más de daño durante 10 segundos
 	'''
 DeathMode: Modo Muerte
 CdMantle: Enfriamiento del Manto sagrado
@@ -4196,6 +4377,32 @@ Projectiles: {
 	CreeperMinion.DisplayName: Creeper Minion
 	CursedTorchMinion.DisplayName: Cursed Torch Minion
 	CursingFlame.DisplayName: Cursing Flame
+	CruiserPhantomPet.DisplayName: Cruiser Phantom Pet
+	MottledSpearHook.DisplayName: Mottled Spear Hook
+	DaylightProjectile.DisplayName: Daylight Projectile
+	DaylightLaser.DisplayName: Daylight Laser
+	DaylightSun.DisplayName: Daylight Sun
+	FleshChunk.DisplayName: Flesh Chunk
+	MiniWyrm.DisplayName: Mini Wyrm
+	TheHungry.DisplayName: The Hungry
+	OuijaBoardHeld.DisplayName: Ouija Board Held
+	OuijaSpirit.DisplayName: Ouija Spirit
+	OblivionSkullMinion.DisplayName: Oblivion Skull Minion
+	SkullProj.DisplayName: Skull
+	BloodCodexHeld.DisplayName: Blood Codex Held
+	BloodSpray.DisplayName: Blood Spray
+	AbyssalRift.DisplayName: Abyssal Rift
+	PressureEsotericaHeld.DisplayName: Pressure Esoterica Held
+	SpectralWhispersHeld.DisplayName: Spectral Whispers Held
+	WhisperingSpike.DisplayName: Whispering Spike
+	EvilKingWhipProjectile.DisplayName: Evil King Whip Projectile
+	Spade.DisplayName: Spade
+	MiracleWreckageThrow.DisplayName: Miracle Wreckage Throw
+	Blackhole.DisplayName: Blackhole
+	MiracleWreckageHeldAnm.DisplayName: Miracle Wreckage Held Anm
+	MiracleExplosion.DisplayName: Miracle Explosion
+	MiracleWreckagePopOut.DisplayName: Miracle Wreckage Pop Out
+	MiracleVortex.DisplayName: Miracle Vortex
 }
 
 LegendTooltip: - Legendario -
@@ -4548,6 +4755,26 @@ Buffs: {
 	CursingFire: {
 		DisplayName: Fuego maldito
 		Description: El fuego eterno arde...
+	}
+
+	PhantomOfCruiser: {
+		DisplayName: Fantasma del Cruiser
+		Description: ""
+	}
+
+	BonePiercingToxin: {
+		DisplayName: Toxina perforadora de huesos
+		Description: Duele
+	}
+
+	FlamingBlood: {
+		DisplayName: Sangre en llamas
+		Description: ""
+	}
+
+	OblivionSkullBuff: {
+		DisplayName: Calavera del olvido
+		Description: Odia a los vivos
 	}
 }
 
@@ -5084,6 +5311,7 @@ KilledByVoidVirus2: ""
 KilledByAstral: " completamente erosionado por la luz de las estrellas"
 CdFF: Enfriamiento del Buscador de amigos
 TooltipBookMark: Pueden colocarse en los libros de la entropía
+TooltipBookMark2: Utilicza clic derecho para insertar o sacar rápidamente
 SlotInfo: Agregar marcapáginas
 EBookTooltip:
 	'''
@@ -5275,6 +5503,7 @@ TeleportSlashCooldown: Enfriamiento del corte
 ScytheReviveCooldown: Tiempo de enfriamiento de la resurrección de la guadaña
 TScytheZenithName: Guadaña del Maestro Nocturno
 TScytheSpecialName: Escarlata
+TScytheSpecialName2: Guadaña de Kanna
 TScytheZenithDesc: '''"Coróname, mi rey, y el mundo dará la bienvenida al fin de la noche."'''
 TScytheDesc: '''"Una guadaña escarlata con el alma de Tlipoca adherida a ella."'''
 TSL1:
@@ -5453,7 +5682,7 @@ AzafureSet:
 	Cuando esta armadura está equipada, 
 	todo el equipo Azafure recibe mejoras parciales
 	La barra de Adrenalina se sustituye por la barra de Durabilidad
-	La barra de durabilidad proporciona hasta 18 puntos de defensa y una reducción del daño del 25%,
+	La barra de durabilidad proporciona hasta 12 puntos de defensa y una reducción del daño del 16%,
 	mientras se va reduciendo tu velocidad de movimiento
 	La durabilidad se consume en función del daño recibido y
 	se regenera lentamente 5 segundos después de recibir daño
@@ -5464,12 +5693,12 @@ AzafureSet2:
 	Cuando esta armadura está equipada, 
 	todo el equipo Azafure recibe mejoras parciales.
 	La barra de Adrenalina se sustituye por la barra de Durabilidad
-	La barra de durabilidad proporciona hasta 36 puntos de defensa y una reducción del daño del 30%.
+	La barra de durabilidad proporciona hasta 24 puntos de defensa y una reducción del daño del 20%.
 	La durabilidad se consume en función del daño recibido al ser golpeado.
 	La durabilidad se regenera lentamente 5 segundos después de recibir daño.
 	Cuando la barra de durabilidad se agota, se desactiva y tendrás que esperar a que vuelva a estar operativa.
 	Proporciona 80 de sigilo.
-	+20% de velocidad de movimiento y +1 espacio de súbditos
+	+10% de velocidad de movimiento y +1 espacio de súbditos
 	'''
 AzafureSet3:
 	'''
@@ -5477,7 +5706,7 @@ AzafureSet3:
 	Cuando esta armadura está equipada, 
 	todo el equipo Azafure recibe mejoras parciales.
 	La barra de Adrenalina se sustituye por la barra de Durabilidad
-	La barra de durabilidad proporciona hasta 50 puntos de defensa y una reducción del daño del 32%.
+	La barra de durabilidad proporciona hasta 36 puntos de defensa y una reducción del daño del 24%.
 	La durabilidad se consume en función del daño recibido al ser golpeado.
 	La durabilidad se regenera lentamente 5 segundos después de recibir daño
 	Cuando la barra de durabilidad se agota, se desactiva y tendrás que esperar a que vuelva a estar operativa.
@@ -5538,8 +5767,9 @@ CardsDesc: Debería haber un juego completo de cartas similar a este
 VoidCoreShield: Escudo del vacío
 CrossModSupportFish: Compatibilidad entre mods: También puedes incluirlo en los libros de Entropy como marcapáginas
 CdAcr: Enfriamiento del Mecha Acrópolis
-
-
-
+SpecialThanks: Agradecimientos especiales
+PassedBossRush: Boss Rush superado
+BloodthirstyRequirement: Necesitas al menos 200 puntos de cida para fabricar este objeto
+BloodthirstyKilled: desangrado
 
 
