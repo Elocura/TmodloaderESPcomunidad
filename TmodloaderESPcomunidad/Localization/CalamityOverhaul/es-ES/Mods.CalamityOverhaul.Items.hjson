@@ -1,7 +1,7 @@
-﻿ElementWhip: {
-		DisplayName: Látigo elemental
-		Tooltip: Un látigo impregnado de la energía de la luna y los elementos.
-	}
+ElementWhip: {
+	DisplayName: Látigo elemental
+	Tooltip: Un látigo impregnado de la energía de la luna y los elementos.
+}
 
 TheRelicLuxor: {
 	DisplayName: La reliquia de Luxor
@@ -19,7 +19,7 @@ TheLuxirSoulArtifact: {
 		Tanto Dios como la inmortalidad reconocen tu gloria.
 		[tips]
 		'''
-	}
+}
 
 AzureDragonRage: {
 	DisplayName: Ira del dragón celeste
@@ -100,7 +100,8 @@ HeavenfallLongbow: {
 		Los fuegos del cielo se reavivan, y ese arco asesino de dioses resurgirá en medio de la sinfonía de las estrellas.
 		Una vez más, se quedará gravado en los anales de la historia con sangre y polvo de estrellas.
 
-			'''
+			
+		'''
 }
 
 TestItem: {
@@ -273,7 +274,7 @@ SpearOfLonginus: {
 		Esto es un sacrilegio inevitable. Por la continuidad de la civilización, por el triunfo de la guerra, 
 		Debo convertirme en el seguidor más devoto de esta entidad suprema, el blasfemo más insolente de la historia.
 		'''
-	}
+}
 
 BloodAltar: {
 	DisplayName: Altar de sangre
@@ -409,7 +410,6 @@ HighExplosiveBox: {
 		'''
 }
 
-
 DragonBreathBox: {
 	DisplayName: Caja de aliento de dragón
 	Tooltip:
@@ -433,7 +433,7 @@ AvalancheM60: {
 		creando una pequeña avalancha.
 		"Denji, hagamos una pelea de bolas de nieve."
 		'''
-	}
+}
 
 CrystalDimming: {
 	DisplayName: Atenuación cristalina
@@ -466,7 +466,7 @@ SnowQuay: {
 		Utiliza bolas de nieve como munición
 		Un cañón de nieve de gran calibre que dispara proyectiles mezclados con hielo y nieve
 		'''
-	}
+}
 
 NeutronGlaive: {
 	DisplayName: Cuchilla de la zona negra
@@ -500,7 +500,6 @@ NeutronGun: {
 		"¡Derriba al sol!".
 		'''
 }
-
 
 NeutronWand: {
 	DisplayName: Luz de la tumba estelar
@@ -541,7 +540,7 @@ RebelBlade: {
 		Los golpes cuerpo a cuerpo verdaderos generan una gran cantidad de esferas de luz demoníacas alrededor del objetivo.
 		Clic derecho para controlar el vuelo de la espada y cortar hacia el cursor
 		'''
-	}
+}
 
 MG42: {
 	DisplayName: MG42
@@ -600,7 +599,8 @@ WeaverGrievances: {
 		Clic derecho para lanzarte en la dirección del cursor. Si golpeas a un enemigo durante el lanzamiento, obtenrás un frame de invencibilidad.
 		El esquive será perfecto si te lanzas en el momento justo.
 		[legend]
-			'''
+			
+		'''
 	Legend:
 		'''
 		La eterna mazmorra se extiende por toda la tierra, con sus paredes grabadas con inscripciones y gritos de antiguos guerreros. 
@@ -696,7 +696,7 @@ CalSelfPortrait: {
 		Una fotografía olvidada
 		[legend]
 		'''
-	Legend: "¿Qué más quieres ver? :)"
+	Legend: ¿Qué más quieres ver? :)
 }
 
 WUTIVSelfPortrait: {
@@ -792,9 +792,9 @@ CommandersChainsaw: {
 		Genera chispas al impactar contra un objetivo
 		"Añade más diésel''
 		'''
-	}
+}
 
-	GeminisTribute: {
+GeminisTribute: {
 	DisplayName: Homenaje a los gemelos
 	Tooltip:
 		'''
@@ -815,7 +815,7 @@ Dicoria: {
 }
 
 GeminisTributeEX: {
-	DisplayName:  Homenaje a los gemelos EX
+	DisplayName: Homenaje a los gemelos EX
 	Tooltip:
 		'''
 		Lanza una guadaña que gira rápidamente y corta de un lado a otro.
@@ -846,7 +846,7 @@ StaffoftheDestroyer: {
 		Cuanto mayor sea el límite de espacios de súbditos, más fuerte será el Destructor.
 		Se requieren al menos cuatro espacios de súbditos.
 		'''
-	}
+}
 
 ForgedLash: {
 	DisplayName: Pestañas postizas
@@ -898,7 +898,7 @@ SoulofFrightEX: {
 		Contiene pulsos de energía terrorífica concentrados en el interior
 		Se obtiene al derrotar a la máquinas rebeldes durante la revelión de las máquinas.
 		'''
-	}
+}
 
 SoulofMightEX: {
 	DisplayName: Alma de poder EX
@@ -916,7 +916,7 @@ SoulofSightEX: {
 		Contiene pulsos de energía sapiente concentrados en el interior
 		Se obtiene al derrotar a la máquinas rebeldes durante la revelión de las máquinas
 		'''
-	}
+}
 
 DestroyersBladeEX: {
 	DisplayName: Hoja del destructor EX
@@ -974,13 +974,13 @@ WGGWilderness: {
 	Tooltip: ""
 }
 
-MMedicalBox: {
-	DisplayName: Botiquín
-	Tooltip:
+MedicalBox: {
+	// DisplayName: Medical Box
+	/* Tooltip:
 		'''
-		Mantén pulsado clic izquierdo para desplegarlo en el suelo.
-		Clic derecho sobre el botiquín después de desplegarlo para curarte
-		'''
+		Press and hold to deploy to the ground
+		Right-click on the medical box after deployment to heal yourself
+		''' */
 }
 
 TeslaElectromagneticTower: {
@@ -1390,7 +1390,6 @@ DeploySignaltower: {
 		'''
 }
 
-
 StarflowPlatedBlock: {
 	DisplayName: Bloques chapados con luz estelar
 	Tooltip:
@@ -1438,11 +1437,10 @@ Oceanfragments: {
 	Tooltip: Un objeto misterioso. El Viejo Duque podría estar interesado en ello.
 }
 
-
 OceanRaiders: {
 	WorkingText: Funcionando...
 	NoWaterText: ¡Debe colocarse debajo del agua para funcionar!
-	NoEnergyText:¡Energía insuficiente!
+	NoEnergyText: ¡Energía insuficiente!
 	DisplayName: Devorador del océcano
 	Tooltip:
 		'''
@@ -1460,7 +1458,7 @@ OldDuchest: {
 		"El antiguo cofre del Duque. Si está cerca, podrías meter algunas cosas adentro."
 		'''
 }
-	
+
 QuestLogBook: {
 	DisplayName: Libro de misiones
 	Tooltip: Úsalo para abrir o cerrar la interfaz de misiones
@@ -1487,22 +1485,22 @@ MiningMachineMk2: {
 		'''
 }
 
-UUniversalFrost: {
-	DisplayName: Helada universal
-	Tooltip:
+UniversalFrost: {
+	// DisplayName: Universal Frost
+	/* Tooltip:
 		'''
-		Usa bolas de nieve como munición
-		Lanza granizo y orbes nova helados
-		Las esferas rebotan, se dirigen hacia los enemigos y liberan rayos helados al explotar
-		Disparar continuamente acumula energía de hielo
-		Cuando está completamente cargado, el siguiente ataque desata la Era Glacial
-		La Era Glacial invoca una gran cantidad de carámbanos y una ventisca en la posición del cursor
-		"Cuando toda la creación caiga en el silencio, el hielo eterno cubrirá el mundo"
-		'''
+		Uses Snowballs as ammo
+		Fires hailstones and frigid nova orbs
+		The orbs bounce, home in on enemies, and release frost beams upon explosion
+		Continuous firing accumulates ice energy
+		When fully charged, the next attack unleashes the Glacial Age
+		The Glacial Age summons a massive array of icicles and a blizzard field at the cursor position
+		"When all creation falls into silence, only eternal frost shall blanket the world"
+		''' */
 }
 
 GodslayerScabbard: {
-	DisplayName:  Vaina del Asesino de Dioses
+	DisplayName: Vaina del Asesino de Dioses
 	Tooltip:
 		'''
 		Acumula carga mientras sostiene un arma cuerpo a cuerpo sin atacar
@@ -1510,7 +1508,7 @@ GodslayerScabbard: {
 		"Aunque la espada permanece envainada, su intención asesina es palpable.
 		Cuando llega el momento adecuado, asesinar a un dios será cuestión de un instante."
 		'''
-	}
+}
 
 Lumberjack: {
 	Text1: ¡Cantidad excesiva!
@@ -1541,7 +1539,7 @@ WGGLumberjack: {
 }
 
 WGGLifeWeaver: {
-	DisplayName:  Tejedor de vida salvaje
+	DisplayName: Tejedor de vida salvaje
 	Tooltip: ""
 }
 

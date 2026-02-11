@@ -1,41 +1,41 @@
 HalibutText: {
-		FishByStudied:
-			'''
-			[i:CalamityMod/HalibutCannon]:
-			Este pez puede ser estudiado
-			'''
-		FishOnStudied:
-			'''
-			[i:CalamityMod/HalibutCannon]:
-			Este pez ha sido estudiado
-			'''
-		FishByPuzzle:
-			'''
-			[i:CalamityMod/HalibutCannon]:
-			Este pez puede utilizarse como pieza del puzle
-			'''
+	FishByStudied:
+		'''
+		[i:CalamityMod/HalibutCannon]:
+		Este pez puede ser estudiado
+		'''
+	FishOnStudied:
+		'''
+		[i:CalamityMod/HalibutCannon]:
+		Este pez ha sido estudiado
+		'''
+	FishByPuzzle:
+		'''
+		[i:CalamityMod/HalibutCannon]:
+		Este pez puede utilizarse como pieza del puzle
+		'''
 
-		SkillSlot: {
-			Hover1: Clic izquierdo: Seleccionar
-			Hover2: Clic derecho: Fijar arriba
-			Hover3: Rueda de desplazamiento: Desplazarse
-			Hover4: Arrastrar: Ordenar
-		}
-
+	SkillSlot: {
+		Hover1: Clic izquierdo: Seleccionar
+		Hover2: Clic derecho: Fijar arriba
+		Hover3: Rueda de desplazamiento: Desplazarse
+		Hover4: Arrastrar: Ordenar
+		// Hover5: W Key: Store in Library
+	}
 
 	DomainUI: {
-			TitleText: Dominio oceánico
-			ExtraEyeTitleText: Capa X
-			CrashedLabelText: Grito
-			EyeDesc1:
-				'''
-				El primer ojo se abre, abriendo una brecha en el lado oscuro de tu conciencia.
-				Sientes que algo latente dentro de ti resuena, mientras débiles mareas comienzan a ondular en la realidad.
-				[Line]
-				Presiona [Halibut_Domain] para abrir o cerrar el dominio.
-				Presiona [Halibut_Teleport] teletransportarse dentro del dominio.
-				Presiona [Halibut_Clone] hacer que el pasado invada el presente.
-				'''
+		TitleText: Dominio oceánico
+		ExtraEyeTitleText: Capa X
+		CrashedLabelText: Grito
+		EyeDesc1:
+			'''
+			El primer ojo se abre, abriendo una brecha en el lado oscuro de tu conciencia.
+			Sientes que algo latente dentro de ti resuena, mientras débiles mareas comienzan a ondular en la realidad.
+			[Line]
+			Presiona [Halibut_Domain] para abrir o cerrar el dominio.
+			Presiona [Halibut_Teleport] teletransportarse dentro del dominio.
+			Presiona [Halibut_Clone] hacer que el pasado invada el presente.
+			'''
 		EyeDesc2:
 			'''
 			El segundo ojo se superpone al primero; tu visión se vuelve borrosa con imágenes dobles que no puedes enfocar.
@@ -47,66 +47,66 @@ HalibutText: {
 			Presiona [Halibut_Clone] hacer que el pasado invada el presente.
 			'''
 		EyeDesc3:
-				'''
-				Tres ojos, que brillan con una luz impía, se superponen en tu frente. Los dominios se anidan, capa tras capa, formando un mar sin fondo de tres capas.
-				Los susurros abisales que provienen de tu interior se vuelven claramente audibles.
-				[Line]
-				Presiona [Halibut_Domain] para abrir o cerrar el dominio.
-				Presiona [Halibut_Teleport] teletransportarse dentro del dominio.
-				Presiona [Halibut_Clone] hacer que el pasado invada el presente.
-				'''
+			'''
+			Tres ojos, que brillan con una luz impía, se superponen en tu frente. Los dominios se anidan, capa tras capa, formando un mar sin fondo de tres capas.
+			Los susurros abisales que provienen de tu interior se vuelven claramente audibles.
+			[Line]
+			Presiona [Halibut_Domain] para abrir o cerrar el dominio.
+			Presiona [Halibut_Teleport] teletransportarse dentro del dominio.
+			Presiona [Halibut_Clone] hacer que el pasado invada el presente.
+			'''
 		EyeDesc4:
-				'''
-				Cuatro ojos se dividen en dos pares, cubriendo los tuyos. Estos dos dominios adyacentes y de dos capas ya no se conforman con simplemente anidarse.
-				Bajo una luz profana, comienzan a fusionarse, convirtiéndose en un dominio de cuatro capas aún más aterrador.
-				[Line]
-				Presiona [Halibut_Domain] para abrir o cerrar el dominio.
-				Presiona [Halibut_Teleport] teletransportarse dentro del dominio.
-				Presiona [Halibut_Clone] hacer que el pasado invada el presente.
-				'''
+			'''
+			Cuatro ojos se dividen en dos pares, cubriendo los tuyos. Estos dos dominios adyacentes y de dos capas ya no se conforman con simplemente anidarse.
+			Bajo una luz profana, comienzan a fusionarse, convirtiéndose en un dominio de cuatro capas aún más aterrador.
+			[Line]
+			Presiona [Halibut_Domain] para abrir o cerrar el dominio.
+			Presiona [Halibut_Teleport] teletransportarse dentro del dominio.
+			Presiona [Halibut_Clone] hacer que el pasado invada el presente.
+			'''
 		EyeDesc5:
-				'''
-				Tu piel se vuelve como la de un cadáver hinchado y ahogado. Innumerables ojos aparecen y nadan bajo tu piel antes de hundirse, como tiburones luchando por por una presa.
-				Finalmente convergen en tu frente, fusionándose en un único ojo monstruoso.
-				Las cinco capas del dominio se fusionaron por completo, otorgándote el poder de alterar la causalidad dentro de él.
-				[Line]
-				Presiona [Halibut_Domain] para abrir o cerrar el dominio.
-				Presiona [Halibut_Teleport] teletransportarse dentro del dominio.
-				Presiona [Halibut_Clone] hacer que el pasado invada el presente.
-				Presiona [Halibut_Restart] para reiniciarte
-				'''
+			'''
+			Tu piel se vuelve como la de un cadáver hinchado y ahogado. Innumerables ojos aparecen y nadan bajo tu piel antes de hundirse, como tiburones luchando por por una presa.
+			Finalmente convergen en tu frente, fusionándose en un único ojo monstruoso.
+			Las cinco capas del dominio se fusionaron por completo, otorgándote el poder de alterar la causalidad dentro de él.
+			[Line]
+			Presiona [Halibut_Domain] para abrir o cerrar el dominio.
+			Presiona [Halibut_Teleport] teletransportarse dentro del dominio.
+			Presiona [Halibut_Clone] hacer que el pasado invada el presente.
+			Presiona [Halibut_Restart] para reiniciarte
+			'''
 		EyeDesc6:
-				'''
-				El sexto ojo se abre en tu corazón.
-				Cada latido desencadena un pulso de energía dentro del dominio, creando conductos de energía azul oscuro, como una telaraña, claramente visibles dentro del espacio.
-				[Line]
-				Presiona [Halibut_Domain] para abrir o cerrar el dominio.
-				Presiona [Halibut_Teleport] teletransportarse dentro del dominio.
-				Presiona [Halibut_Clone] hacer que el pasado invada el presente.
-				Presiona [Halibut_Restart] para reiniciarte
-				'''
+			'''
+			El sexto ojo se abre en tu corazón.
+			Cada latido desencadena un pulso de energía dentro del dominio, creando conductos de energía azul oscuro, como una telaraña, claramente visibles dentro del espacio.
+			[Line]
+			Presiona [Halibut_Domain] para abrir o cerrar el dominio.
+			Presiona [Halibut_Teleport] teletransportarse dentro del dominio.
+			Presiona [Halibut_Clone] hacer que el pasado invada el presente.
+			Presiona [Halibut_Restart] para reiniciarte
+			'''
 		EyeDesc7:
-				'''
-				Siete ojos forman una inquietante matriz en tu frente, que irradia luz al ritmo del pulso del universo.
-				El dominio comienza a erosionar frenéticamente la realidad. Dondequiera que llegue su límite, la materia se disuelve como arena y las leyes de la naturaleza son reescritas por las mareas.
-				[Line]
-				Presiona [Halibut_Domain] para abrir o cerrar el dominio.
-				Presiona [Halibut_Teleport] teletransportarse dentro del dominio.
-				Presiona [Halibut_Clone] hacer que el pasado invada el presente.
-				Presiona [Halibut_Restart] para reiniciarte
-				Presiona [Halibut_Superposition] para usar un golpe superpuesto.
-				'''
+			'''
+			Siete ojos forman una inquietante matriz en tu frente, que irradia luz al ritmo del pulso del universo.
+			El dominio comienza a erosionar frenéticamente la realidad. Dondequiera que llegue su límite, la materia se disuelve como arena y las leyes de la naturaleza son reescritas por las mareas.
+			[Line]
+			Presiona [Halibut_Domain] para abrir o cerrar el dominio.
+			Presiona [Halibut_Teleport] teletransportarse dentro del dominio.
+			Presiona [Halibut_Clone] hacer que el pasado invada el presente.
+			Presiona [Halibut_Restart] para reiniciarte
+			Presiona [Halibut_Superposition] para usar un golpe superpuesto.
+			'''
 		EyeDesc8:
-				'''
-				El octavo ojo se convierte en un vórtice silencioso en la palma de tu mano.
-				La presión dentro del dominio se vuelve casi sólida. La luz se curva y el sonido se aniquila.
-				[Line]
-				Presiona [Halibut_Domain] para abrir o cerrar el dominio.
-				Presiona [Halibut_Teleport] teletransportarse dentro del dominio.
-				Presiona [Halibut_Clone] hacer que el pasado invada el presente.
-				Presiona [Halibut_Restart] para reiniciarte
-				Presiona [Halibut_Superposition] para usar un golpe superpuesto.
-				'''
+			'''
+			El octavo ojo se convierte en un vórtice silencioso en la palma de tu mano.
+			La presión dentro del dominio se vuelve casi sólida. La luz se curva y el sonido se aniquila.
+			[Line]
+			Presiona [Halibut_Domain] para abrir o cerrar el dominio.
+			Presiona [Halibut_Teleport] teletransportarse dentro del dominio.
+			Presiona [Halibut_Clone] hacer que el pasado invada el presente.
+			Presiona [Halibut_Restart] para reiniciarte
+			Presiona [Halibut_Superposition] para usar un golpe superpuesto.
+			'''
 		EyeDesc9:
 			'''
 				El nueve es el número del extremo. Nueve ojos forman un anillo abismal ilusorio sobre tu cabeza.
@@ -136,28 +136,28 @@ HalibutText: {
 	}
 
 	ResurrectionUI: {
-			TitleText: Estado de resurrección abisal
-			LinePercentFormat: Asimilación : {0:F1}%
-			LineValueFormat: Valor : {0:F1} / {1:F1}
-			LineRateFormat: Tasa : {0:F3}/s
-			HeaderSummaryText: Diagnóstico del estado cognitivo
-			RateLevelVeryLow: Silencio sepulcral
-			RateLevelLow: Susurrando
-			RateLevelMedium: Inquieto
-			RateLevelHigh: Hirviendo
-			RateLevelDanger: Torrencial
-			Phase1: El Abismo permanece inactivo. Todo está en calma.
-			Phase2: Las mareas fantasmales resuenan en tus oídos; un escalofrío se apodera de tus extremidadess.
-			Phase3: Las alucinaciones se intensifican. Una presión aplastante, como la del fondo del mar, se acumula detrás de los ojos y el corazón.
-			Phase4: La lógica de la realidad se desmorona. Tu propia existencia está siendo sustituida por un terror frío e invisible.
-			Phase5: Se ha traspasado el umbral. La humanidad se disuelve; te estás convirtiendo en uno con el Mar de cadáveres.
-			Trend1: Estancado
-			Trend2: Filtración
-			Trend3: En alza
-			Trend4: Inundación
-			Trend5: Colapso catastrófico
-			SummaryFormat: Diagnóstico: {0} [Tendencia de erosión: {1}]
-		}
+		TitleText: Estado de resurrección abisal
+		LinePercentFormat: Asimilación : {0:F1}%
+		LineValueFormat: Valor : {0:F1} / {1:F1}
+		LineRateFormat: Tasa : {0:F3}/s
+		HeaderSummaryText: Diagnóstico del estado cognitivo
+		RateLevelVeryLow: Silencio sepulcral
+		RateLevelLow: Susurrando
+		RateLevelMedium: Inquieto
+		RateLevelHigh: Hirviendo
+		RateLevelDanger: Torrencial
+		Phase1: El Abismo permanece inactivo. Todo está en calma.
+		Phase2: Las mareas fantasmales resuenan en tus oídos; un escalofrío se apodera de tus extremidadess.
+		Phase3: Las alucinaciones se intensifican. Una presión aplastante, como la del fondo del mar, se acumula detrás de los ojos y el corazón.
+		Phase4: La lógica de la realidad se desmorona. Tu propia existencia está siendo sustituida por un terror frío e invisible.
+		Phase5: Se ha traspasado el umbral. La humanidad se disuelve; te estás convirtiendo en uno con el Mar de cadáveres.
+		Trend1: Estancado
+		Trend2: Filtración
+		Trend3: En alza
+		Trend4: Inundación
+		Trend5: Colapso catastrófico
+		SummaryFormat: Diagnóstico: {0} [Tendencia de erosión: {1}]
+	}
 
 	SkillLibraryUI: {
 		TitleText: Biblioteca de habilidades
@@ -183,7 +183,7 @@ MuraText: {
 	World_Text0: Último mundo actualizado: <{0}> | Récord de nivel: <{1}>
 	Subtest_Text4: La obra chapucera de alguien sigue vagando por la selva. Como fracaso que es, merece convertirse en un montón de chatarra.
 	Subtest_Text5: Un caparazón de carne y hueso entrelazados, los espíritus amargos de un antiguo campo de batalla, un gólem de ruina incesante. Lo destruye todo, y nosotros... lo destruimos a él.
-	Subtest_Text6:El antiguo Dios estelar cayó hace mucho tiempo. Lo único que queda es un larba. Pongamos fin a la era de estos supuestos dioses.
+	Subtest_Text6: El antiguo Dios estelar cayó hace mucho tiempo. Lo único que queda es un larba. Pongamos fin a la era de estos supuestos dioses.
 	Subtest_Text7: Deja que ese grupo de almas en el calabozo se marchite ante mi espada. Su alma será el mejor alimento.
 	Subtest_Text8: Un dios patético, que solo prolonga su miserable existencia bebiendo calor estelar. Su fuego herético debe ser extinguido. Por completo.
 	Subtest_Text9: Esa abominación floral en lo profundo de la selva... Ve. Destruye sus pétalos, aplasta su bulbo y deja que sus jugos empapen la tierra.
