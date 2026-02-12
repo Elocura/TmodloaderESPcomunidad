@@ -1,289 +1,295 @@
 Mods: {
 	CalamitySimpleWhipAddon: {
 		RecipeGroups: {
-			AnyPhaseScourge: Any Phase Scourge
-			AnyWood: Any Wood
+			AnyPhaseScourge: Cualquier fase del azote
+			AnyWood: Cualquier madera
 		}
 
 		Items: {
 			WoodenWhip: {
-				DisplayName: Wooden Whip
-				Tooltip: 1.07x summon tag damage multiplier
+				DisplayName: Látigo de madera
+				Tooltip: Multiplica un 1,07 el daño de etiqueta de invocador
 			}
 
 			RapierWhip: {
-				DisplayName: Rapier Whip
+				DisplayName: Látigo rapier
 				Tooltip:
 					'''
-					8% summon tag critical strike chance
+					Hay una probabilidad del 8% de hacer un daño crítico de etiqueta de invocador
 
-					The rapier whip is not well-suited for attacking multiple enemies.
+					El látigo rapier no es adecuado para atacar a múltiples enemigos
 					'''
 			}
 
 			BreezePiercer: {
-				DisplayName: Breeze Piercer
-				Tooltip: 9% summon tag critical strike chance
+				DisplayName: Perforabrisas
+				Tooltip: Hay una probabilidad del 9% de hacer un daño crítico de etiqueta de invocador
 			}
 
-			Gelxyribose: {
-				DisplayName: Gelxyribose
+			Gelyribose: {
+				DisplayName: Geliribosa
 				Tooltip:
 					'''
-					1.07x summon tag damage multiplier
-					7% summon tag critical strike chance
+					Multiplica un 1,07 el daño de etiqueta de invocador
+					Hay una probabilidad del 7% de hacer un daño crítico de etiqueta de invocador
 					'''
 			}
 
 			OrangePhaseWhip: {
-				DisplayName: Orange Phase Whip
+				DisplayName: Látigo de fase naranja
 				Tooltip:
 					'''
-					1.08x summon tag damage multiplier
+					Multiplica un 1,08 el daño de etiqueta de invocador
 
-					This whip attack ignores armor.
-					Damage reduction cannot be ignored.
+					Al atacar con este látigo se ignora la armadura
+					La reducción de daño no se puede ignorar
 					'''
 			}
 
 			GreenPhaseWhip: {
-				DisplayName: Green Phase Whip
+				DisplayName: Látigo de fase verde
 				Tooltip:
 					'''
-					1.08x summon tag damage multiplier
+					Multiplica un 1,08 el daño de etiqueta de invocador
 
-					This whip attack ignores armor.
-					Damage reduction cannot be ignored.
+					Al atacar con este látigo se ignora la armadura
+					La reducción de daño no se puede ignorar
 					'''
 			}
 
 			BluePhaseWhip: {
-				DisplayName: Blue Phase Whip
+				DisplayName: Látigo de fase azul
 				Tooltip:
 					'''
-					1.08x summon tag damage multiplier
+					Multiplica un 1,08 el daño de etiqueta de invocador
 
-					This whip attack ignores armor.
-					Damage reduction cannot be ignored.
+					Al atacar con este látigo se ignora la armadura
+					La reducción de daño no se puede ignorar
 					'''
 			}
 
 			PurplePhaseWhip: {
-				DisplayName: Purple Phase Whip
+				DisplayName: Látigo de fase púrpura
 				Tooltip:
 					'''
-					1.08x summon tag damage multiplier
+					Multiplica un 1,08 el daño de etiqueta de invocador
 
-					This whip attack ignores armor.
-					Damage reduction cannot be ignored.
+					Al atacar con este látigo se ignora la armadura
+					La reducción de daño no se puede ignorar
 					'''
 			}
 
 			RedPhaseWhip: {
-				DisplayName: Red Phase Whip
+				DisplayName: Látigo de fase rojo
 				Tooltip:
 					'''
-					1.08x summon tag damage multiplier
+					Multiplica un 1,08 el daño de etiqueta de invocador
 
-					This whip attack ignores armor.
-					Damage reduction cannot be ignored.
+					Al atacar con este látigo se ignora la armadura
+					La reducción de daño no se puede ignorar
 					'''
 			}
 
 			WhitePhaseWhip: {
-				DisplayName: White Phase Whip
+				DisplayName: Látigo de fase blanco
 				Tooltip:
 					'''
-					1.08x summon tag damage multiplier
+					Multiplica un 1,08 el daño de etiqueta de invocador
 
-					This whip attack ignores armor.
-					Damage reduction cannot be ignored.
+					Al atacar con este látigo se ignora la armadura
+					La reducción de daño no se puede ignorar
 					'''
 			}
 
 			YellowPhaseWhip: {
-				DisplayName: Yellow Phase Whip
+				DisplayName: Látigo de fase amarillo
 				Tooltip:
 					'''
-					1.08x summon tag damage multiplier
+					Multiplica un 1,08 el daño de etiqueta de invocador
 
-					This whip attack ignores armor.
-					Damage reduction cannot be ignored.
+					Al atacar con este látigo se ignora la armadura
+					La reducción de daño no se puede ignorar
 					'''
 			}
 
 			OrangePhaseScourge: {
-				DisplayName: Orange Phase Scourge
+				DisplayName: Azote fásico naranja
 				Tooltip:
 					'''
-					1.09x summon tag damage multiplier
+					Multiplica un 1,09 el daño de etiqueta de invocador
 
-					This whip attack ignores armor.
-					Damage reduction cannot be ignored.
+					Al atacar con este látigo se ignora la armadura
+					La reducción de daño no se puede ignorar
 					'''
 			}
 
 			GreenPhaseScourge: {
-				DisplayName: Green Phase Scourge
+				DisplayName: Azote fásico verde
 				Tooltip:
 					'''
-					1.09x summon tag damage multiplier
+					Multiplica un 1,09 el daño de etiqueta de invocador
 
-					This whip attack ignores armor.
-					Damage reduction cannot be ignored.
+					Al atacar con este látigo se ignora la armadura
+					La reducción de daño no se puede ignorar
 					'''
 			}
 
 			BluePhaseScourge: {
-				DisplayName: Blue Phase Scourge
+				DisplayName: Azote fásico azul
 				Tooltip:
 					'''
-					1.09x summon tag damage multiplier
+					Multiplica un 1,09 el daño de etiqueta de invocador
 
-					This whip attack ignores armor.
-					Damage reduction cannot be ignored.
+					Al atacar con este látigo se ignora la armadura
+					La reducción de daño no se puede ignorar
 					'''
 			}
 
 			PurplePhaseScourge: {
-				DisplayName: Purple Phase Scourge
+				DisplayName: Azote fásico púrpura
 				Tooltip:
 					'''
-					1.09x summon tag damage multiplier
+					Multiplica un 1,09 el daño de etiqueta de invocador
 
-					This whip attack ignores armor.
-					Damage reduction cannot be ignored.
+					Al atacar con este látigo se ignora la armadura
+					La reducción de daño no se puede ignorar
 					'''
 			}
 
 			RedPhaseScourge: {
-				DisplayName: Red Phase Scourge
+				DisplayName: Azote fásico rojo
 				Tooltip:
 					'''
-					1.09x summon tag damage multiplier
+					Multiplica un 1,09 el daño de etiqueta de invocador
 
-					This whip attack ignores armor.
-					Damage reduction cannot be ignored.
+					Al atacar con este látigo se ignora la armadura
+					La reducción de daño no se puede ignorar
 					'''
 			}
 
 			WhitePhaseScourge: {
-				DisplayName: White Phase Scourge
+				DisplayName: Azote fásico blanco
 				Tooltip:
 					'''
-					1.09x summon tag damage multiplier
+					Multiplica un 1,09 el daño de etiqueta de invocador
 
-					This whip attack ignores armor.
-					Damage reduction cannot be ignored.
+					Al atacar con este látigo se ignora la armadura
+					La reducción de daño no se puede ignorar
 					'''
 			}
 
 			YellowPhaseScourge: {
-				DisplayName: Yellow Phase Scourge
+				DisplayName: Azote fásico blanco amarillo
 				Tooltip:
 					'''
-					1.09x summon tag damage multiplier
+					Multiplica un 1,09 el daño de etiqueta de invocador
 
-					This whip attack ignores armor.
-					Damage reduction cannot be ignored.
+					Al atacar con este látigo se ignora la armadura
+					La reducción de daño no se puede ignorar
 					'''
 			}
 
 			GlitterGutter: {
-				DisplayName: Glitter Gutter
-				Tooltip: 11% summon tag critical strike chance
+				DisplayName: Miseria brillante
+				Tooltip: Hay una probabilidad del 11% de hacer un daño crítico de etiqueta de invocador
 			}
 
 			Droptide: {
-				DisplayName: Droptide
-				Tooltip: 1.12x summon tag damage multiplier
+				DisplayName: Marea baja
+				Tooltip: Multiplica un 1,12 el daño de etiqueta de invocador
 			}
 
 			Ectopia: {
 				DisplayName: Ectopia
-				Tooltip: 22% summon tag critical strike chance
+				Tooltip: Hay una probabilidad del 22% de hacer un daño crítico de etiqueta de invocador
 			}
 
 			Unfathomable: {
-				DisplayName: Unfathomable
-				Tooltip: 1.25x summon tag damage multiplier
+				DisplayName: Inconmensurable
+				Tooltip: Multiplica un 1,25 el daño de etiqueta de invocador
 			}
 
 			DestructionChain: {
-				DisplayName: Destruction Chain
+				DisplayName: Cadena de destrucción
 				Tooltip:
 					'''
-					All enemies struck by this whip
-					take 1.75x damage from the next minion attack and explode,
-					dealing 10% damage to nearby enemies.
+					Todos los enemigos golpeados por este látigo:
+
+					Reciben 1,75 veces más daño del siguiente ataque de súbdito y explota,
+					inflingiendo un 10% de daño a los enemigos cercanos
 					'''
 			}
 
 			GloamshardConduit: {
-				DisplayName: Gloamshard Conduit
+				DisplayName: Conducto de fragmento crepuscular
 				Tooltip:
 					'''
-					1.1x summon tag damage multiplier
-					10% summon tag critical strike chance
+					Multiplica un 1,1 el daño de etiqueta de invocador
+					Hay una probabilidad del 10% de hacer un daño crítico de etiqueta de invocador
 
-					All enemies struck by this whip
-					take 1.25x damage from the next minion attack and explode,
-					dealing 10% damage to nearby enemies.
+					Todos los enemigos golpeados por este látigo:
+
+					Reciben 1,25 veces más daño del siguiente ataque de súbdito y explota,
+					inflingiendo un 10% de daño a los enemigos cercanos
 					'''
 			}
 
 			Satellite: {
-				DisplayName: Satellite
+				DisplayName: Satélite
 				Tooltip:
 					'''
-					All enemies struck by this whip
-					take one guaranteed critical hit from a minion.
+					Todos los enemigos golpeados por este látigo:
+
+					Reciben un golpe crítico garantizado de un súbdito
 					'''
 			}
 
 			EntwinedBranches: {
-				DisplayName: Entwined Branches
-				Tooltip: 1.27x summon tag damage multiplier
+				DisplayName: Ramas entrelazadas
+				Tooltip: Multiplica un 1,27 el daño de etiqueta de invocador
 			}
 
 			Necropsia: {
 				DisplayName: Necropsia
-				Tooltip: 27% summon tag critical strike chance
+				Tooltip: Hay una probabilidad del 27% de hacer un daño crítico de etiqueta de invocador
 			}
 
 			ResonantVoid: {
-				DisplayName: Resonant Void
+				DisplayName: Vacío resonante
 				Tooltip:
 					'''
-					1.12x summon tag damage multiplier
-					12% summon tag critical strike chance
+					Multiplica un 1,12 el daño de etiqueta de invocador
+					Hay una probabilidad del 12% de hacer un daño crítico de etiqueta de invocador
+					
+					Todos los enemigos golpeados por este látigo:
 
-					All enemies struck by this whip
-					take 1.25x damage from the next minion attack and explode,
-					dealing 10% damage to nearby enemies.
+					Reciben 1,25 veces más daño del siguiente ataque de súbdito y explota,
+					inflingiendo un 10% de daño a los enemigos cercanos,
 
-					This whip attack ignores armor.
-					Damage reduction cannot be ignored.
+					Al atacar con este látigo se ignora la armadura
+					La reducción de daño no se puede ignorar
 					'''
 			}
 
 			SkybreakerCoil: {
-				DisplayName: Skybreaker Coil
+				DisplayName: Bobina quebrantanubes
 				Tooltip:
 					'''
-					All enemies struck by this whip
-					take 1.30x damage from the next minion attack and unleash an electrical burst,
-					rapidly shocking nearby enemies for a short time, ignores armor.
-					Damage reduction cannot be ignored.
+					Todos los enemigos golpeados por este látigo:
+
+					Reciben 1,25 veces más daño del siguiente ataque de súbdito y desata una descarga eléctrica,
+					atacando rápidamente a los enemigos cercanos durante un breve periodo de tiempo, ignorando la armadura
+					La reducción de daño no se puede ignorar
 					'''
 			}
 
 			Milkyway: {
-				DisplayName: Milkyway
+				DisplayName: Vía láctea
 				Tooltip:
 					'''
-					All enemies struck by this whip
-					take one guaranteed 6x damage critical hit from a minion.
+					Todos los enemigos golpeados por este látigo:
+
+					Recibe un golpe crítico garantizado de 6 puntos de daño de un súbdito
 					'''
 			}
 
@@ -291,261 +297,266 @@ Mods: {
 				DisplayName: Kusari Gama
 				Tooltip:
 					'''
-					1.13x summon tag damage multiplier
-					Grants knockback immunity while held
+					Multiplica un 1,13 el daño de etiqueta de invocador
+					Otorga inmunidad contra el retroceso mientras se sostiene
 					'''
 			}
 
 			Loadout: {
-				DisplayName: Loadout
+				DisplayName: Carga
 				Tooltip:
 					'''
-					1.07x summon tag damage multiplier
-					7% summon tag critical strike chance
-					All enemies struck by this whip
-					are hit by a laser on the next minion attack,
-					dealing 50% of the damage dealt.
-					This laser ignores armor.
-					Damage reduction cannot be ignored.
+					Multiplica un 1,07 el daño de etiqueta de invocador
+					Hay una probabilidad del 7% de hacer un daño crítico de etiqueta de invocador
+					Todos los enemigos golpeados por este látigo:
+
+					Son alcanzados por un láser cuando los súbditos los golpean,
+					infligiendo un 50% del daño que inflinjas
+					Este láser ignora la armadura
+					La reducción de daño no puese ser ingnorada
 					'''
 			}
 
 			AncientBonds: {
-				DisplayName: Ancient Bonds
+				DisplayName: Lazos ancestrales
 				Tooltip:
 					'''
-					All enemies struck by this whip
-					are impaled by a spectral blade on the next minion attack,
-					taking 20% of the minion’s damage 3 times in succession.
-					The impaling damage pierces 5 armor.
+					Todos los enemigos golpeados por este látigo:
+
+					Son empalados por una espada espectral cuando los súbditos los golpean,
+					recibiendo un 20% del daño del súbdito 3 veces seguidas
+					El daño por empalamiento perfora 5 puntos de armadura
 					'''
 			}
 
 			PrimalBonds: {
-				DisplayName: Primal Bonds
+				DisplayName: Lazos primarios
 				Tooltip:
 					'''
-					All enemies struck by this whip
-					are impaled by a spectral blade on the next minion attack,
-					taking 20% of the minion’s damage 5 times in succession.
-					The impaling damage pierces 10 armor.
+					Todos los enemigos golpeados por este látigo:
+
+					Son empalados por una espada espectral cuando los súbditos los golpean,
+					recibiendo un 20% del daño del súbdito 5 veces seguidas,
+					El daño por empalamiento perfora 10 puntos de armadura
 					'''
 			}
 
-			ExistenceBonds: {
-				DisplayName: Existence Bonds
+			EistenceBonds: {
+				DisplayName: Lazos existenciales
 				Tooltip:
 					'''
-					All enemies struck by this whip
-					are impaled by a spectral blade on the next minion attack,
-					taking 20% of the minion’s damage 6 times in succession.
-					The impaling damage pierces 15 armor.
+					Todos los enemigos golpeados por este látigo:
+
+					Son empalados por una espada espectral cuando los súbditos los golpean,
+					recibiendo un 20% del daño del súbdito 5 veces seguidas,
+					El daño por empalamiento perfora 15 puntos de armadura
 					'''
 			}
 
 			MermaidsTear: {
-				DisplayName: Mermaid's Tear
+				DisplayName: Lágrimas de sirenas
 				Tooltip:
 					'''
-					All enemies struck by this whip
-					are impaled by a spectral spear on the next minion attack,
-					taking 20% of the minion’s damage 8 times in succession.
-					The impaling damage pierces 50 armor.
+					Todos los enemigos golpeados por este látigo:
+
+					Son empalados por un tridente espectral cuando los súbditos los golpean,
+					recibiendo un 20% del daño del súbdito 8 veces seguidas,
+					El daño por empalamiento perfora 50 puntos de armadura
 					'''
 			}
 
 			Accessories: {
 				BleachedNucleogenesis: {
-					DisplayName: Bleached Nucleogenesis
+					DisplayName: Nucleogénesis blanqueada
 					Tooltip:
 						'''
-						Increases max minions by 4
-						Grants immunity to Shadowflame and Irradiated
-						22% increased summon damage
-						Increased minion knockback
-						Cannot be equipped with its downgraded or Bleached versions.
+						Aumenta el número máximo de súbditos en 4
+						Otorga inmunidad a Llama sombría e Irradiado
+						Aumenta un 22% el daño de invocación
+						Aumento del retroceso aplicado por los súbditos
+						No se puede equipar con sus versiones degradadas o blanqueadas
 						'''
 				}
 
 				BleachedNuclearFuelRod: {
-					DisplayName: Bleached Nuclear Fuel Rod
+					DisplayName: Barra de combustible nuclear blanqueada
 					Tooltip:
 						'''
-						Increases max minions by 1
-						7% increased summon damage
-						Grants immunity to Irradiated
-						Cannot be equipped with its Bleached versions.
+						Aumenta el número máximo de súbditos en 1
+						Aumenta un 7% el daño de invocación
+						Otorga inmunidad a Irradiado
+						No se puede equipar con sus versiones blanqueadas
 						'''
 				}
 
 				BleachedJellyChargedBattery: {
-					DisplayName: Bleached Jelly Charged Battery
+					DisplayName: Batería cargada con gelatina blanqueada
 					Tooltip:
 						'''
-						Increases max minions by 1
-						12% increased summon damage
-						Cannot be equipped with its downgraded or Bleached versions.
+						Aumenta el número máximo de súbditos en 1
+						Aumenta un 12% el daño de invocación
+						No se puede equipar con sus versiones degradadas o blanqueadas
 						'''
 				}
 
 				BleachedStarbusterCore: {
-					DisplayName: Bleached Starbuster Core
+					DisplayName: Núclelo destructor de estrellas blanceado
 					Tooltip:
 						'''
-						Increases max minions by 1
-						10% increased summon damage
-						Cannot be equipped with its Bleached versions.
+						Aumenta el número máximo de súbditos en 1
+						Aumenta un 10% el daño de invocación
+						No se puede equipar con sus versiones degradadas o blanqueadas
 						'''
 				}
 
 				BleachedStarTaintedGenerator: {
-					DisplayName: Bleached Star Tainted Generator
+					DisplayName: Generador contaminado estelar blanqueada
 					Tooltip:
 						'''
-						Increases max minions by 2
-						15% increased summon damage
-						Grants immunity to Irradiated debuff
-						Cannot be equipped with its downgraded or Bleached versions.
+						Aumenta el número máximo de súbditos en 2
+						Aumenta un 15% el daño de invocación
+						Otorga inmunidad a Irradiado
+						No se puede equipar con sus versiones degradadas o blanqueadas
 						'''
 				}
 
 				BleachedStatisCurse: {
-					DisplayName: Bleached Statis Curse
+					DisplayName: Maldición de Statis blanqueada
 					Tooltip:
 						'''
-						Increases max minions by 3
-						17% increased summon damage
-						Grants immunity to Shadowflame debuff
-						Cannot be equipped with its downgraded or Bleached versions.
+						Aumenta el número máximo de súbditos en 3
+						Aumenta un 17% el daño de invocación
+						Otorga inmunidad a Llama sombría
+						No se puede equipar con sus versiones degradadas o blanqueadas
 						'''
 				}
 
 				BleachedTheFirstShadowflame: {
-					DisplayName: Bleached The First Shadowflame
+					DisplayName: La primera Llma sombría blanqueada
 					Tooltip:
 						'''
-						Increases max minions by 1
-						5% increased summon damage
-						Cannot be equipped with its Bleached versions.
+						Aumenta el número máximo de súbditos en 1
+						Aumenta un 5% el daño de invocación
+						No se puede equipar con sus versiones degradadas
 						'''
 				}
 
 				BleachedVoltaicJelly: {
-					DisplayName: Bleached Voltaic Jelly
+					DisplayName: Gelatina voltaica blanqueada
 					Tooltip:
 						'''
-						Increases max minions by 1
-						5% increased summon damage
-						Cannot be equipped with its Bleached versions.
+						Aumenta el número máximo de súbditos en 1
+						Aumenta un 5% el daño de invocación
+						No se puede equipar con sus versiones degradadas
 						'''
 				}
 			}
 
 			LeatherGrip: {
-				DisplayName: Leather Grip
+				DisplayName: Empuñadura de cuero
 				Tooltip:
 					'''
-					Increases whip range by 10% 
-					Whips gain 1.05x summon tag damage multiplier.
-					Only one Grip accessory can be equipped
+					Aumenta el alcance de los látigos en un 10%
+					Multiplica un 1,05 el daño de etiqueta de invocador
+					Solo se puede equipar una empuñadura a la vez
 					'''
 			}
 
 			SilkGrip: {
-				DisplayName: Silk Grip
+				DisplayName: Empuñadura de seda
 				Tooltip:
 					'''
-					Increases whip range by 10% 
-					Whips gain 5% summon tag critical strike chance.
-					Only one Grip accessory can be equipped
+					Aumenta el alcance del látigo en un 10%
+					Hay una probabilidad del 5% de hacer un daño crítico de etiqueta de invocador
+					Solo se puede equipar una empuñadura a la vez
 					'''
 			}
 
 			RubberGrip: {
-				DisplayName: Rubber Grip
+				DisplayName: Empuñadura de goma
 				Tooltip:
 					'''
-					Increases whip range by 15% 
-					Whips gain 1.03x summon tag damage multiplier
-					and 3% summon tag critical strike chance.
-					Only one Grip accessory can be equipped
+					Aumenta el alcance de los látigos en un 15%
+					Multiplica un 1,03 el daño de etiqueta de invocador
+					y hay una probabilidad del 3% de hacer un daño crítico de etiqueta de invocador
+					Solo se puede equipar una empuñadura a la vez
 					'''
 			}
 
 			NecromanticGrip: {
-				DisplayName: Necromantic Grip
+				DisplayName: Empuñadura de necromántico
 				Tooltip:
 					'''
-					Increases max minions by 1
-					Increases whip range by 15% 
-					Whips gain 1.05x summon tag damage multiplier
-					and 5% summon tag critical strike chance.
-					Allows whips to hit enemies through walls.
-					Only one Grip accessory can be equipped
+					Aumenta el número máximo de súbditos en 1
+					Aumenta el alcance de los látigos en un 15%
+					Multiplica un 1,05 el daño de etiqueta de invocador
+					y hay una probabilidad del 5% de hacer un daño crítico de etiqueta de invocador
+					Permite a los látigos golpear a los enemigos a través de bloques
+					Solo se puede equipar una empuñadura a la vez
 					'''
 			}
 
 			EmperorsGrip: {
-				DisplayName: Emperors Grip
+				DisplayName: Empuñadura de emperador
 				Tooltip:
 					'''
-					Increases max minions by 2
-					Increases whip range by 30% 
-					Whips gain 1.07x summon tag damage multiplier
-					and 7% summon tag critical strike chance.
-					Allows whips to hit enemies through walls.
-					Only one Grip accessory can be equipped
+					Aumenta el número máximo de súbditos en 2
+					Aumenta el alcance de los látigos en un 30%
+					Multiplica un 1,07 el daño de etiqueta de invocador
+					y hay una probabilidad del 7% de hacer un daño crítico de etiqueta de invocador
+					Permite a los látigos golpear a los enemigos a través de bloques
+					Solo se puede equipar una empuñadura a la vez
 					'''
 			}
 
 			LightSpiritGrip: {
-				DisplayName: Light Spirit Grip
+				DisplayName: Empuñadura de espíritu de la luz
 				Tooltip:
 					'''
-					Allows whips to hit enemies through walls.
-					Only one Grip accessory can be equipped
+					Permite a los látigos golpear a los enemigos a través de bloques
+					Solo se puede equipar una empuñadura a la vez
 					'''
 			}
 
 			AirflowGrip: {
-				DisplayName: Airflow Grip
+				DisplayName: Empuñadura de flujo de aire
 				Tooltip:
 					'''
-					Reduces whip range by 15%
-					Allows whips to hit enemies through walls.
-					Only one Grip accessory can be equipped
+					Disminuye el alcance de los látigos en un 15%
+					Permite a los látigos golpear a los enemigos a través de bloques
+					Solo se puede equipar una empuñadura a la vez
 					'''
 			}
 
 			CommanderGrip: {
-				DisplayName: Commander Grip
+				DisplayName: Empuñadura de comandante
 				Tooltip:
 					'''
-					Minion projectiles home in on enemies
-					struck by your whip for a short duration.
+					Los proyectiles de tus súbditos se dirigirán hacia los enemigos
+					golpeados por tu látigo durante un breve periodo de tiempo
 					'''
 			}
 
 			MagneticGrip: {
-				DisplayName: Magnetic Grip
+				DisplayName: Empuñadura magnética
 				Tooltip:
 					'''
-					Reduces whip range by 15%
-					Minion projectiles home in on enemies
-					struck by your whip for a short duration.
+					Disminuye el alcance de los látigos en un 15%
+					Los proyectiles de tus súbditos se dirigirán hacia los enemigos
+					golpeados por tu látigo durante un breve periodo de tiempo
 					'''
 			}
 
 			BuddyEmblem: {
-				DisplayName: Buddy Emblem
+				DisplayName: Emblema del panita
 				Tooltip:
 					'''
-					Significantly increases damage when only one Minion is present
-					The minion's damage increases based on the number of unused minion slots
-					The more this effect enhances a minion, the slightly larger it becomes
-					Some minions cannot benefit from this effect
-					Some whip tag effects are reduced
-					'I choose you!'
+					Aumenta significativamente el daño cuando solo hay un súbdito presente
+					El daño del súbdito aumenta en función del número de espacios de súbdito sin usar
+					Cuanto más se potencie a ese súbdito, más grande se volverá
+					Algunos súbditos no pueden beneficiarse de este efecto
+					Se reducirán algunos efectos de etiqueta de látigo
+					'¡Te elijo a ti!'
 					'''
 			}
 
@@ -953,7 +964,7 @@ Mods: {
 
 			BuddyEmblemBuff: {
 				Description: Mods.CalamitySimpleWhipAddon.Buffs.BuddyEmblemBuff.Description
-				DisplayName: Buddy Emblem Buff
+				DisplayName: Buffo del Emblema del panita
 			}
 
 			BuddyEmblemSoloBuff: {
@@ -982,6 +993,6 @@ Mods: {
 			}
 		}
 
-		DamageClasses.PseudoSummonDamageClass.DisplayName: Pseudo Summon Damage Class
+		DamageClasses.PseudoSummonDamageClass.DisplayName: Pseudo daño de la clase de invocador
 	}
 }
