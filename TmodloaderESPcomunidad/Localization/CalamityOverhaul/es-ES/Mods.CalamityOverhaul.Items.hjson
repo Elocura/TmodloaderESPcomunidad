@@ -975,12 +975,12 @@ WGGWilderness: {
 }
 
 MedicalBox: {
-	// DisplayName: Medical Box
-	/* Tooltip:
+	 DisplayName: Medical Box
+	 Tooltip:
 		'''
-		Press and hold to deploy to the ground
-		Right-click on the medical box after deployment to heal yourself
-		''' */
+		Mantén pulsado clic izquierdo para desplegarlo en el suelo.
+		Clic derecho sobre el botiquín después de desplegarlo para curarte
+		''' 
 }
 
 TeslaElectromagneticTower: {
@@ -1486,17 +1486,17 @@ MiningMachineMk2: {
 }
 
 UniversalFrost: {
-	// DisplayName: Universal Frost
-	/* Tooltip:
+	 DisplayName: Helada universal
+	 Tooltip:
 		'''
-		Uses Snowballs as ammo
-		Fires hailstones and frigid nova orbs
-		The orbs bounce, home in on enemies, and release frost beams upon explosion
-		Continuous firing accumulates ice energy
-		When fully charged, the next attack unleashes the Glacial Age
-		The Glacial Age summons a massive array of icicles and a blizzard field at the cursor position
-		"When all creation falls into silence, only eternal frost shall blanket the world"
-		''' */
+		Usa bolas de nieve como munición
+		Lanza granizo y orbes nova helados
+		Las esferas rebotan, se dirigen hacia los enemigos y liberan rayos helados al explotar
+		Disparar continuamente acumula energía de hielo
+		Cuando está completamente cargado, el siguiente ataque desata la Era Glacial
+		La Era Glacial invoca una gran cantidad de carámbanos y una ventisca en la posición del cursor
+		"Cuando toda la creación caiga en el silencio, el hielo eterno cubrirá el mundo"
+		''' 
 }
 
 GodslayerScabbard: {
@@ -1582,3 +1582,4 @@ Elysium: {
 	DisplayName: Elíseo
 	Tooltip: ""
 }
+
