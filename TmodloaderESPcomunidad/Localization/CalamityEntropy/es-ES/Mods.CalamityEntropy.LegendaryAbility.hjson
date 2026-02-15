@@ -209,4 +209,97 @@ DCarverDia16: Nuestro viaje juntos ha llegado a su fin, pero aún nos esperan mu
 General: {
 	Locked: BLOQUEADO
 	PagesTips: Mantén pulsado Alt izquierdo para leer directamente la habilidad, pulsa clic izquierdo para cambiar
+
+}
+
+SusiesBracelet: {
+	Lores: {
+		l0:
+			'''
+			Capítulo 1 - La marcha del Rey Oscuro
+			Los héroes derrotaron al rey y detuvieron al dragón.
+			'''
+		l1:
+			'''
+			Capítulo 2 - La ciudad Resplandeciente
+			Los héroes luchan en carros de combate para salvar a la reina
+			'''
+		l2:
+			'''
+			Capítulo 3 - Las islas de la Aurora Boreal
+			Los héroes viajan entre las islas
+			y vislumbran una tierra perdida
+			'''
+		l3:
+			'''
+			Capítulo 4 - Las pruebas del Martillo sagrado
+			Un gran herrero entrega a los héroes un arma formidable.
+			'''
+		l4:
+			'''
+			Capítulo 5 - El campo rosa y dorado
+			El vasto jardín está carbonizado en un infierno de celos.
+			'''
+		l5:
+			'''
+			Solo quedaba un capítulo más...
+			Después de eso, todo se detuvo.
+			'''
+		l6:
+			'''
+			El siguiente capítulo nunca llegó a escribirse.
+			La historia se volvió tan grandiosa, tan abrumadora,
+			que algunos dicen que se tragó al propio autor
+			'''
+		l7:
+			'''
+			Los que podían escribir el capítulo siguiente, los jóvenes,
+			tenían la pluma ahí para que la agarraran.
+			Para escribir la siguiente página.
+			...nunca lo hicieron.
+			'''
+		l8:
+			'''
+			¿Pero tú, mi amor?
+			Veo una historia encendida en tus ojos.
+			Ardiendo con intensidad...
+			Ardiendo en negro.
+			Todo ardiendo.
+			'''
+		l9:
+			'''
+			La campana está sonando ahora.
+			Parece que hemos llegado a las rondas finales.
+			Entonces... ¿cómo crees que terminará todo?
+			No, ¿cómo quieres que termine?
+			'''
+		l10:
+			'''
+			A estas horas tan tardías,
+			con las campanas repicando su justicia.
+			Tú eliges la eternidad.
+			'''
+		l11:
+			'''
+			Pero... hay una cosa que puede borrar la oscuridad.
+			Un lápiz blanco, conocido como esperanza.
+			Creo... que esto es lo que tienes en tus manos.
+			'''
+	}
+
+	Trials: {
+		Trial: Prueba
+		t0: Rey Slime / Ojo de Cthulhu
+		t1: Cualquier jefe maligno
+		t2: Esqueletrón / Reina abeja
+		t3: Muro carnoso
+		t4: Cualquier mecánico
+		t5: Plantera / Clon de Calamitas
+		t6: Señor de la luna
+		t7: Providencia
+		t8: Polterghast / Tejedor de tormentas / Signus / Vacío incesante
+		t9: Devorador de Dioses
+		t10: Yharon
+		t11: Pruebas - Terminadas
+	}
 }
