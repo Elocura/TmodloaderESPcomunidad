@@ -3747,6 +3747,23 @@ Items: {
 			Actual: [A]
 			'''
 	}
+
+	TalismanOfTheAzureAbyss: {
+		DisplayName: Talismán del abismo celeste
+		Tooltip:
+			'''
+			Ahora puedes respirar en el abismo
+			Aumenta el daño en un 15%
+			Aumenta la regeneración de vida en 5/s
+			Cuando recibas un daño superior al 35% de tu salud máxima, aparecerá un escudo azul
+			El escudo azul reducirá el daño que recibas en un 25%
+			Genera varios vórtices azules que perseguirán a los enemigos
+			Los vórtices también se generarán cuando recibas daño con el escudo activo
+			Aumenta la movilidad en el agua y reanuda el tiempo de vuelo
+			Mejora significativamente la visión en el abismo. Ambos efectos se
+			amplificarán aún más cuando el escudo esté presente
+			'''
+	}
 }
 
 ChaoticSetBonus:
@@ -4403,6 +4420,8 @@ Projectiles: {
 	MiracleExplosion.DisplayName: Miracle Explosion
 	MiracleWreckagePopOut.DisplayName: Miracle Wreckage Pop Out
 	MiracleVortex.DisplayName: Miracle Vortex
+	AzureShield.DisplayName: Azure Shield
+	AzureVortex.DisplayName: Azure Vortex
 }
 
 LegendTooltip: - Legendario -
@@ -5771,5 +5790,6 @@ SpecialThanks: Agradecimientos especiales
 PassedBossRush: Boss Rush superado
 BloodthirstyRequirement: Necesitas al menos 200 puntos de cida para fabricar este objeto
 BloodthirstyKilled: desangrado
+
 
 
