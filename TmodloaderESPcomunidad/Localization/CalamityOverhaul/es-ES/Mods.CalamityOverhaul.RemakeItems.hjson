@@ -33,8 +33,12 @@ SHPCOverride: {
 	DisplayName: SHPC
 	Tooltip:
 		'''
-		Lanza una bola láser fásica que permanece en el aire y provoca una enorme explosión
-		Clic derecho para disparar un poderoso rayo de energía
+		Lanza orbes de energía espiritual inestable y concentrada que permanecen en el aire y explotan tras un breve lapso de tiempo
+		Los orbes liberan almas en busca de un destino y dejan almas tras de sí
+		Los efectos de los orbes varían en función del tipo de alma utilizada
+		Haz clic derecho para utilizar la máquina como aspiradora y atraer almas rezagadas
+		Al soltar la tecla, se libera una avalancha de rayos espirituales proporcional al número de almas absorvidas.
+		Mantén pulsada la tecla Mayús para abrir el panel de control del núcleo espiritual
 		legend_Text
 		[Lang4]
 		[Text]
@@ -3016,3 +3020,4 @@ DyeVatItem: {
 		Coloca un cubo de agua en la ranura de tinte para lavar los tintes de los objetos
 		'''
 }
+
