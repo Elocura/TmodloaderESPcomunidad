@@ -1,8 +1,8 @@
-HalibutOverride: {
-	DisplayName: Cañón de Halibut
+﻿HalibutOverride: {
+	DisplayName: Halibut Cannon
 	Tooltip:
 		'''
-		Convierte las balas de mosquete en una corriente oceánica
+		Converts Musket balls into a stream of Ocean Current
 		legend_Text
 		[Lang4]
 		[Text]
@@ -13,17 +13,17 @@ MurasamaOverride: {
 	DisplayName: Murasama
 	Tooltip:
 		'''
-		Haz clic derecho para apuntar y cargar la energía de la espada. 
-		Cuando se golpea a un objetivo con un golpe cuerpo a cuerpo vercadero usando el clic izquierdo, se carga la energía de la espada.
-		Si hay enemigos poderosos cerca, la energía de la espada se cargará lentamente por sí sola.
-		Cuando la energía de la espada esté completamente cargada, presiona [KEY1] para liberar la hoja. 
-		Cuando la espada vuele, pulsa clic izquierdo para realizar un [c/de0808:Tajo ascendente]. [Lang1]
-		Al golpear a un enemigo con el [c/de0808:Tajo Ascendente], se cargará el Arma 1. 
-		Pulsa [KEY2] para consumir 1 punto de carga del arma y realizar un Golpe descendente. [Lang2]
-		Cuando la carga del arma alcanza el valor máximo de 10 puntos, 
-		Si vuelves a golpear a un enemigo con el [c/de0808:Tajo ascendente], se activará un movimiento final. [Lang3]
+		Right-click to aim and charge the sword's energy. 
+		When a target is hit with a true melee attack using the left-click, the sword's energy will be charged. 
+		If there are powerful enemies nearby, the sword's energy will slowly charge on its own.
+		When the sword's energy is fully charged, press [KEY1] to release the blade. 
+		During the blade's flight, press the left-click to perform an Ascending Slash. [Lang1]
+		Hitting an enemy with the Ascending Slash will charge Weapon 1. 
+		Press [KEY2] to consume 1 point of weapon charge and perform a downward strike. [Lang2]
+		When the weapon charge reaches the maximum value of 10 points, 
+		hitting an enemy with the Ascending Slash again will trigger a finishing move. [Lang3]
 		legend_Text
-		[c/ff4500:"Podría ser mejor si esto fuera una espada motosierra"]
+		[c/ff4500:" It would be better if this were a chainsaw sword "]
 		[Lang4]
 		[Text]
 		'''
@@ -33,12 +33,12 @@ SHPCOverride: {
 	DisplayName: SHPC
 	Tooltip:
 		'''
-		Lanza orbes de energía espiritual inestable y concentrada que permanecen en el aire y explotan tras un breve lapso de tiempo
-		Los orbes liberan almas en busca de un destino y dejan almas tras de sí
-		Los efectos de los orbes varían en función del tipo de alma utilizada
-		Haz clic derecho para utilizar la máquina como aspiradora y atraer almas rezagadas
-		Al soltar la tecla, se libera una avalancha de rayos espirituales proporcional al número de almas absorvidas.
-		Mantén pulsada la tecla Mayús para abrir el panel de control del núcleo espiritual
+		Ejects orbs of unstable, concentrated soul energy that linger and explode after a delay
+		Orbs release seeking souls and lingering pickup souls after collapse
+		Orb effects vary depending on the Soul type used
+		Right Click to use the machine as a vacuum, pulling in lingering souls
+		Releasing the key discharges a torrent of soul lasers scaling with the number of souls pulled in
+		Hold Shift to open the Soul Core control panel
 		legend_Text
 		[Lang4]
 		[Text]
@@ -46,128 +46,128 @@ SHPCOverride: {
 }
 
 RAcidGun: {
-	DisplayName: Pistola de ácido
-	Tooltip: Escupe una cascada de reflujo ácido.
+	DisplayName: Acid Gun
+	Tooltip: Spewed forth a cascade of acidic flow.
 }
 
 RCryophobia: {
-	DisplayName: Criofóbia
+	DisplayName: Cryophobia
 	Tooltip:
 		'''
-		Lanza una escalofriante onda expansiva de hielo que se divide y explota repetidamente en fragmentos, causando
-		"quemadura de hielo".
+		Launches a chilling ice shockwave that repeatedly splits and explodes into fragments, causing 
+		"frostburn".
 		'''
 }
 
 REffervescence: {
-	DisplayName: Efervescencia
+	DisplayName: Effervescence
 	Tooltip:
 		'''
-		¡Lanza una larga cadena de burbujas!
-		"¡¡¡¡¡¡BURBUJAS!!!!!!"
+		Fires a long string of bubbles!
+		"BUBBLES!!!!!!"
 		'''
 }
 
 REidolicWail: {
-	DisplayName: Lamento eidólico
+	DisplayName: Eidolic Wail
 	Tooltip:
 		'''
-		Genera varias ondas de eco en la ubicación del cursor.
-		Las ondas sonoras rebotarán en los bloques al impactar contra ellos.
-		Si el cursor está en un bloque sólido, las ondas se emitirán desde el cañón.
-		"Escucha el rugido del dragón."
+		Generates several echowaves at the cursor's location.
+		Echowaves will bounce off blocks upon impact.
+		If the point of generation is a solid block, they will instead emit from the gun's muzzle.
+		"Listen to the dragon's roar."
 		'''
 }
 
 RFatesReveal: {
-	DisplayName: Destinos revelados
-	Tooltip: Invoca bolas de fuego espantosas que, tras un tiempo, buscarán a los enemigos
+	DisplayName: Fates Reveal
+	Tooltip: Summons Ghastly Fireballs that after a short time seeks out enemies
 }
 
 RLazhar: {
 	DisplayName: Lazhar
 	Tooltip:
 		'''
-		Emite rayos solares concentrados altamente volátiles
-		El rayo tiene una pequeña probabilidad de penetrar al objetivo
+		Emits highly volatile concentrated solar beams
+		The beam has a small probability of penetrating the target
 		'''
 }
 
 RNanoPurge: {
-	DisplayName: Purga nano
+	DisplayName: Nano Purge
 	Tooltip:
 		'''
-		Lanza una descarga de nanoláseres
-		Clic derecho para lanzar un solo disparo rápido
+		Launch a nanolaser barrage
+		Right-click for a single rapid fire
 		'''
 }
 
 RPlasmaRifle: {
-	DisplayName: Rifle de plasma
+	DisplayName: Plasma Rifle
 	Tooltip:
 		'''
-		Dispara un haz de iones explosivos.
-		Pulsa clic derecho rápidamente para disparar ráfagas de iones.
-		"No se parece en nada al plasma."
+		Fires an exploding ion beam.
+		Right-click rapidly to shoot ion bursts.
+		"Looks nothing like plasma."
 		'''
 }
 
 RAbsoluteZero: {
-	DisplayName: Cero absoluto
-	Tooltip: Lanza bombas de hielo
+	DisplayName: Absolute Zero
+	Tooltip: Emitter ice bomb
 }
 
 RAegisBlade: {
-	DisplayName: Hoja de égida
+	DisplayName: Aegis Blade
 	Tooltip:
 		'''
-		Al blandirla, un fragmento de luz solar se dirigirá débilmente hacia el enemigo antes de impactar en él, dejando chispas dañinas.
-		Clic derecho para que la espada se eleve hacia el cielo. Mantén pulsado clic derecho para cargar la espada y aumentar su tamaño. 
-		Al soltar el clic derecho, lanzarás la espada contra el enemigo y provocarás una gran explosión.
+		Swinging will cause a shard of sunlight to weakly home in before impacting the enemy, leaving damaging sparks below.
+		Right click to have the blade raise up into the sky. Holding Right click will charge the blade up, increasing in size. 
+		Letting go of right click hurls the blade at the enemy causing a massive explosion.
 		'''
 }
 
 RAftershock: {
-	DisplayName: Réplica telúrica
+	DisplayName: Aftershock
 	Tooltip:
 		'''
-		Los golpes hacen que trozos del suelo se lancen al enemigo, aplastando su defensa
-		Haz clic derecho para potenciar la hoja.
-		Los golpes cuerpo a cuerpo con el clic derecho hacen que caigan rocas del cielo hacia el cursor.
+		Swings causes pieces of the ground to be hurled towards the enemy, crushing their defense
+		Right click to enhance the blade, 
+		True Melee strikes with right click causes earthen boulders to fall down from the sky towards your mouse.
 		'''
 }
 
 RAirSpinner: {
-	DisplayName: Hélice de aire
+	DisplayName: Air Spinner
 	Tooltip:
 		'''
-		Lanza plumas que se dirigen hacia los enemigos cuando están cerca. 
-		Mientras gira en el aire, 6 plumas se desprenden hacia afuera antes de desaparecer.
-		Si las plumas astilladas golpean a un enemigo, se clavarán y le infligirá daño durante un breve periodo de tiempo.
-		Un yoyó muy ágil.
+		Fires Feathers that home in on enemies whenever they are near. 
+		While spinning in the air, 6 feathers splinter outwards before disappearing.
+		If the splintered feathers hit an enemy, it will latch on and keep dealing damage for a short while.
+		A very agile yoyo.
 		'''
 }
 
 RAnarchyBlade: {
-	DisplayName: Hoja de anarquía
-	Tooltip: Blande esta espada pesada para lanzar una bomba de azufre cada 3 ataques.
+	DisplayName: Anarchy Blade
+	Tooltip: Swings a heavy blade that fires a sulfur bomb every 3 attacks.
 }
 
 RAstralBlade: {
-	DisplayName: Hoja astral
+	DisplayName: Astral Blade
 	Tooltip:
 		'''
-		Los golpes con la espada infligen Infección astral. Cuanto mayor sea la salud del enemigo, más daño infligirá.
-		Los ataques cuerpo a cuerpo verdaderos hacen que estrellas persigan al enemigo golpeado.
+		Strikes with the blade inflicts Astral infection. Deals more damage the higher the enemies health is.
+		True Melee strikes causes stars from all directions to chase down the enemy hit.
 		'''
 }
 
 RAstralPike: {
-	DisplayName: Pica astral
+	DisplayName: Astral Pike
 	Tooltip:
 		'''
-		Cada tercer ataque envía 3 estrellas astrales brillantes que convergen sobre sí mismas.
-		Los ataques cuerpo a cuerpo verdaderos hacen que estrellas persigan al enemigo golpeado.
+		Every third Swing sends out 3 bright astral stars that converge onto themselves.
+		True melee strikes causes stars from all directions to chase down the enemy hit.
 		'''
 }
 
@@ -177,195 +177,195 @@ RAtaraxia: {
 }
 
 RAvalanche: {
-	DisplayName: Avalancha
+	DisplayName: Avalanche
 	Tooltip: ""
 }
 
 RBalefulHarvester: {
-	DisplayName: Segadora nefasta
+	DisplayName: Baleful Harvester
 	Tooltip:
 		'''
-		Dispara múltiples proyectiles en llamas en forma de hoz que se dirigen hacia su objetivo al dejar de girar, lanzando calabazas en llamas que estallan.
-		Manten clic derecho para girar la guadaña. Al soltar el clic, la lanzarás provocando una erupción infernal desde abajo.
-		Tienes que recogerla cada vez que la lanzas.
+		Fires multiple flaming sickle projectiles that home in after they stop swinging along with homing flaming pumpkins that erupt into flares.
+		Right button lets you spin the scythe, letting go has you throw it causing an infernal eruption on the floor below.
+		You need to pick it back up after everytime you throw the scythe.
 		'''
 }
 
 RBansheeHook: {
-	DisplayName: Garfio de banshee
+	DisplayName: Banshee Hook
 	Tooltip:
 		'''
-		Al esgrimir el gancho, invocará varias guadañas pequeñas antes de lanzar una guadaña más grande, cazando agresivamente a los enemigos
-		Pulsa clic derecho para acumular energía terrorífica, que al llenarse invoca a espíritus espantosos para que ataquen a tus enemigos aplicando debuffs negativos.
-		Las guadañas invocadas con el clic derecho seguirán persiguiendo a los enemigos durante varios segundos o hasta que se agote la energía terrorífica.
+		Swinging the Hook summons several small Sorrowful Scythes before launching a bigger Dreadful Scythe to aggressively hunt down enemies
+		Right click to Accumlate Dread Energy, which upon filling summons Ghastly Spirits to assault your foes with several delibitating debuffs.
+		Scythes summoned with the Right Click will also keep homing in on enemies for several seconds or when Dread Energy is Empty
 		'''
 }
 
 RBasher: {
-	DisplayName: Mazo putrefacto
-	Tooltip: Inflige radiación al golpear a los enemigos.
+	DisplayName: Basher
+	Tooltip: Inflicts a radiation debuff upon hitting enemies.
 }
 
 RBrimlash: {
-	DisplayName: Latigazo azufrado
+	DisplayName: Brimlash
 	Tooltip:
 		'''
-		Blande esta espada pesada de azufre para disparar rayos de azufre.
-		Los rayos acaban explotando en tres rayos más pequeños antes de dirigirse hacia los enemigos.
-		Clic derecho para lanzar 5 rayos ágiles de azufre que se dirigirán agresivamente hacia los enemigos.
-		Hacer clic derecho tiene una pequeña probabilidad de perjudicarte
+		Swings a heavy sword of brimstone that fires brimstone bolts. 
+		Bolts eventually explode into 3 smaller bolts before homing onto enemies.
+		Right click to throw out 5 agile brimstone bolts that home onto enemies aggressively.
+		Right clicking has a small chance to backfire and hurt you
 		'''
 }
 
 RBrimstoneSword: {
-	DisplayName: Espada de piedra de azufre
+	DisplayName: Brimstone Sword
 	Tooltip:
 		'''
-		Una espada corta increíblemente caliente y rápida
-		Al golpear a un enemigo, a veces saldrán géiseres de azufre en el suelo.
+		A Blazingly Hot and fast shortsword
+		Hitting an enemy will sometimes have brimstone geysers fire out of the ground below.
 		'''
 }
 
 RBrinyBaron: {
-	DisplayName: Barón salino
+	DisplayName: Briny Baron
 	Tooltip:
 		'''
-		Los primeros seis ataques liberan vórtices oceánicos teleridigidos.
-		El séptimo ataque genera una gran cantidad de burbujas explosivas.
-		El octavo ataque dispará tres bombas vórtice que, al impactar contra un objetivo u objeto, crearán un vórtice de agua en el lugar del impacto.
-		"Hecho con la aleta de ese tiburón cerdo, está claro que no nos conformamos con usar esa cabeza de cerdo que sopla burbujas como arma."
+		The first six swings release tracking ocean vortices.
+		The seventh swing generates a large number of explosive bubbles.
+		The eighth swing fires three vortex bombs that, upon hitting a target or object, create a water vortex at the impact site.
+		"Made from the fin of that pig shark, clearly we didn't settle for just using that bubble-blowing pig head as a weapon."
 		'''
 }
 
 RBurntSienna: {
-	DisplayName: Siena quemada
-	Tooltip: Al atacar, a veces lanzará 3 bloques de arena en forma de arco hacia tus enemigos. Al derrotar enemigos, aparecerán orbes curativos flotantes.
+	DisplayName: Burnt Sienna
+	Tooltip: Swinging will sometimes throw 3 Sand blocks in an arc towards your enemies. Killing enemies summon healing orbs that float.
 }
 
 RCatastropheClaymore: {
-	DisplayName: Claymore catastrófica
+	DisplayName: Catastrophe Claymore
 	Tooltip: ""
 }
 
 RCelestialClaymore: {
-	DisplayName: Claymore celestial
-	Tooltip: Genera llamas cósmicas cerca del jugador que buscarán a los enemigos tras un breve lapso de tiempo.
+	DisplayName: Celestial Claymore
+	Tooltip: Spawns cosmic energy flames near the player that seek out enemies after a short while.
 }
 
 RCometQuasher: {
-	DisplayName: Quebrantacometas
+	DisplayName: Comet Quasher
 	Tooltip:
 		'''
-		Lanza meteoritos. Golpear cuerpo a cuerpo al los enemigo hará caigan más meteoritos del cielo
-		"En la antigua China, había un hombre que podía hacer caer a un pájaro sin disparar una flecha. 
-		Por fin, nuestros cuchillos pueden hacer algo similar."
+		Launch meteorites, really hit the enemy in melee and let more meteorites fall from the sky
+		"In ancient China, there was a man who could make a bird fall without shooting an arrow. 
+		Finally, our knives can do something similar."
 		'''
 }
 
 RCosmicDischarge: {
-	DisplayName: Descarga cósmica
+	DisplayName: Cosmic Discharge
 	Tooltip:
 		'''
-		Golpear a un enemigo con el látigo provoca explosiones glaciales y otorga al jugador el buff Congelación cósmica
-		Esta buff otorga al jugador +2 de regeneración de vida mientras permanece inmóvil y congela a los enemigos cercanos.
+		Striking an enemy with the whip causes glacial explosions and grants the player the cosmic freeze buff
+		This buff gives the player +2 HP/s life regen while standing still and freezes enemies near the player
 		'''
 }
 
 RDarklightGreatsword: {
-	DisplayName: Mandoble de luz oscura
+	DisplayName: Darklight Greatsword
 	Tooltip: ""
 }
 
 RDeathsAscension: {
-	DisplayName: Ascensión de la muerte
+	DisplayName: Deaths Ascension
 	Tooltip:
 		'''
-		Cada tercer ataque lanzará una guadaña gigante.
-		Mantén pulsado clic izquierdo para que la guadaña siga la posición del cursor; 
-		sueltalo para activar la Media luna del Segador.
-		Al hacer clic derecho, lanzarás la guadaña del segador, que cosecha almas con cada golpe.
+		Every third swing will launch a giant scythe.
+		Hold the left mouse button to have the scythe follow the cursor's position; 
+		release it to trigger the Reaper's Crescent.
+		Right-clicking will throw the soul-reaping Reaper's Scythe with each swing.
 		'''
 }
 
 RDevastation: {
-	DisplayName: Devastación
+	DisplayName: Devastation
 	Tooltip: ""
 }
 
 RDevilsDevastation: {
-	DisplayName: Devastación demoníaca
+	DisplayName: Devil's Devastation
 	Tooltip:
 		'''
-		Cada golpe genera un grupo de Alabardas del placer sobre el jugador y que vuelan hacia el cursor
-		Las alabardas se clavan en los enemigos al impactar, infligiendo daño continuamente
-		Los grandes cortes lanzan tres Ciclos de dolor, que infligen múltiples golpes perforantes a los enemigos que se encuentran en su camino
-		Por último, invoca seis alabardas demoníacas escarlatas en el cursor, que flotan brevemente antes de volar hacia el jugador
+		Each swing generates a cluster of Halberds of Pleasure above the player that fly towards the cursor
+		Halberds stick to enemies on hit, dealing continuous damage
+		Large slashes launch three Cycles of Pain, dealing multiple piercing hits to enemies in their path
+		Finally, summons six Scarlet Demon Halberds at the cursor that float briefly before flying towards the player
 		'''
 }
 
 RDraconicDestruction: {
-	DisplayName: Destrucción dracónica
+	DisplayName: Draconic Destruction
 	Tooltip: ""
 }
 
 RDragonRage: {
-	DisplayName: Furia del dragón
+	DisplayName: Dragon's Rage
 	Tooltip:
 		'''
-		El clic izquierdo realiza una combinación de tajo ascendente, tajo descendente, tajo amplio y estocada.
-		La estocada tiene un alcance ampliado y provoca una violenta explosión de fuego de dragón al impactar.
-		El clic derecho hace girar la espada continuamente, infligiendo daño frecuentemente.
-		"Tras tres golpes, el vino sigue caliente".
+		Left click performs a combo of upward slash, downward slash, wide slash, and thrust
+		The thrust has extended range and triggers a violent dragonfire explosion on hit
+		Right click to continuously spin the blade, dealing high-frequency damage
+		"Returned after three strikes, the wine is still warm"
 		'''
 }
 
 REarth: {
-	DisplayName: Tierra
+	DisplayName: Earth
 	Tooltip: ""
 }
 
 REarthenPike: {
-	DisplayName: Pica terrestre
+	DisplayName: Earthen Pike
 	Tooltip:
 		'''
-		Lanza varios fragmentos de tierra con una alta probabilidad de lanzar una roca que perforá y rodará.
-		Haz clic derecho para lanzar la pica como una jabalina, provocando un terremoto alrededor del lugar de impacto. 
-		Después de usar el clic derecho, tienes que recoger la pica manualmente antes de volver a usarla.
+		Launches several earth fragments with a high chance to throw a boulder that pierces and rolls.
+		Right click to hurl the pike like a javelin, causing an earthquake around its impact point.
+		After using the Right click, you have to pick back up the pike manually before using it again.
 		'''
 }
 
 REntropicClaymore: {
-	DisplayName: Claymore entrópica
+	DisplayName: Entropic Claymore
 	Tooltip:
 		'''
-		Dispara varios rayos de plasma mientras se use
-		"Las estrellas centellean y brillan en los bordes de la hoja. Te recuerda al cielo nocturno."
+		Fires several beams of plasma while swinging
+		"The stars Twinkle and shimmer across the blade's edges. It reminds you of the night skies above."
 		'''
 }
 
 REutrophicScimitar: {
-	DisplayName: Cimitarra eutrófica
+	DisplayName: Eutrophic Scimitar
 	Tooltip: ""
 }
 
 REvilSmasher: {
-	DisplayName: Machacador malvado
+	DisplayName: Evil Smasher
 	Tooltip:
 		'''
-		Mejorará tus atributos por cada enemigo asesinado con este martillo.
-		Deja de mejorar atributos cuando se alcanza el valor máximo.
-		Cambiar a otro objeto elimina las bonificaciones.
-		Recibir daño elimina una mejora de atributo.
-		"El martillo es malvado y poderoso".
+		Grants attribute boosts for each enemy killed with this hammer.
+		Stops growing when the maximum value is reached.
+		Switching to another item removes the bonuses.
+		Taking damage removes one attribute boost.
+		"The hammer is both evil and powerful."
 		'''
 }
 
 RExaltedOathblade: {
-	DisplayName: Hoja de juramento exaltado
+	DisplayName: Exalted Oathblade
 	Tooltip:
 		'''
-		Cada ola generará un ciclo flotante doloroso
-		Creará una explosión de llamas sombrías al realizar un golpe crítico
+		Each wave will generate a floating cycle of pain
+		Creates a shadow flame explosion on critical strike
 		'''
 }
 
@@ -373,726 +373,727 @@ RExcelsus: {
 	DisplayName: Excelsus
 	Tooltip:
 		'''
-		Lanza espejismos de espadas cósmicas que atraviesan paredes e infligen Infierno asesino de dioses. Los golpes cuerpo a cuerpo verdaderos también invocan un rayo láser desde el cielo.
-		Los golpes cuerpo a cuerpo verdaderos también invocan un rayo láser desde el cielo.
+		Sends out Cosmic Blade Mirages that pierce through walls, inflicting God Slayer Inferno. 
+		True Melee hits also summon a laser beam from the sky.
 		'''
 }
 
 RFeralthornClaymore: {
-	DisplayName: Claymore de espina feral
+	DisplayName: Feralthorn Claymore
 	Tooltip: ""
 }
 
 RFlarefrostBlade: {
-	DisplayName: Hoja de hielo llameante
+	DisplayName: Flarefrost Blade
 	Tooltip: ""
 }
 
 RFloodtide: {
-	DisplayName: Marea creciente
+	DisplayName: Floodtide
 	Tooltip: ""
 }
 
 RForbiddenOathblade: {
-	DisplayName: Hoja de juramento prohibida
+	DisplayName: Forbidden Oathblade
 	Tooltip: ""
 }
 
 RForsakenSaber: {
-	DisplayName: Sable olvidado
+	DisplayName: Forsaken Saber
 	Tooltip: ""
 }
 
 RGalactusBlade: {
-	DisplayName: Espada de galactus
+	DisplayName: Galactus Blade
 	Tooltip: ""
 }
 
 RGeliticBlade: {
-	DisplayName: Hoja gelítica
+	DisplayName: Gelitic Blade
 	Tooltip: ""
 }
 
 RGrandGuardian: {
-	DisplayName: Gran guardián
+	DisplayName: Grand Guardian
 	Tooltip:
 		'''
-		AL hacer un golpe cuerpo a cuerpo verdadero, lanzará poderosas espadas desde detrás del jugador.
-		Al atacar a distancia, dispará activamente la espada, perforando al objetivo al impactar.
-		La defensa que tenga del objetivo se añadirá al daño crítico de golpe cuerpo a cuerpo verdadero que tengas.
-		"Mi rey, yo te protegeré."
+		True melee sends powerful blades flying from behind the player
+		Non-close combat will actively fire the blade, piercing the target's body when it hits
+		The target's defense value is added to true Melee critical damage
+		"My king, I will guard."
 		'''
 }
 
 RGreatswordofJudgement: {
-	DisplayName: Gran espada del juicio
+	DisplayName: Greatsword of Judgment
 	Tooltip:
 		'''
-		Dispara una espada de gemas que rastrea a los enemigos y se divide en tres bolas de fuego de juicio al impactar.
-		Una espada larga blanca procedente de la Tierra del olvido.
-		Puedes oír un susurro débil y relajante que emana de esta espada.
-		"Estés donde estés, nunca estarás solo, siempre estaré a tu lado, mi rey"
+		Fires a gem blade that tracks enemies and splits into three judgment fireballs upon hit.
+		A white longsword from the Land of Forgetting.
+		You can hear a faint and soothing whisper emanating from this sword.
+		"Wherever you are, you will never be alone, I will always be by your side, my king."
 		'''
 }
 
 RGreentide: {
-	DisplayName: Oleada verde
+	DisplayName: Greentide
 	Tooltip:
 		'''
-		Invoca varios colmillos del Leviatán desde debajo de tu cursor.
-		Haz clic derecho para reforzar la hoja, aumentando el alcance y disminuyendo la velocidad de ataque. 
-		Los ataques cuerpo a cuerpo verdaderos en este modo invocan dientes de Leviatán desde el cielo.
+		Summons several fangs from the Leviathan below your mouse.
+		Right-click to strengthen the blade, increasing range and decreasing attack speed. 
+		True Melee strikes in this mode summons Leviathan teeth from the sky.
 		'''
 }
 
 RHellfireFlamberge: {
-	DisplayName: Flamberge infernal
+	DisplayName: Hellfire Flamberge
 	Tooltip: ""
 }
 
 RHellionFlowerSpear: {
-	DisplayName: Lanza de flor endiablada
+	DisplayName: Hellion Flower Spear
 	Tooltip: ""
 }
 
 RHellkite: {
-	DisplayName: Cometa infernal
+	DisplayName: Hellkite
 	Tooltip: ""
 }
 
 RHolyCollider: {
-	DisplayName: Colisionador divino
+	DisplayName: Holy Collider
 	Tooltip:
 		'''
-		Dispara un rayo de fuego profanado, causando una explosión en la ubicación del cursor.
-		Cada seis intervalos, se realizará un ataque poderoso.
+		Shoot a desecrating fire ray, causing an explosion at the cursor's location.
+		Every six intervals, a powerful attack will be performed.
 		'''
 }
 
 RLifehuntScythe: {
-	DisplayName: Guadaña devora-vidas
+	DisplayName: Lifehunt Scythe
 	Tooltip:
 		'''
-		Cada golpe lanza una guadaña vital
-		Cada tercer ataque lanzará una guadaña gigante
+		Each swing throws a life scythe
+		Every third swing will throw a giant scythe
 		'''
 }
 
 RLucrecia: {
 	DisplayName: Lucrecia
-	Tooltip: Lanza aguijones del Cristal demoníaco
+	Tooltip: Launch the Demon Crystal sting
 }
 
 RMajesticGuard: {
-	DisplayName: Guardia majestuosa
+	DisplayName: Majestic Guard
 	Tooltip:
 		'''
-		Los ataques cuerpo a cuerpo verdaderos tienen la posibilidad de curar a los jugadores.
-		Los ataques a distancia dispararán activamente la espada, que se clavará en la pared.
-		"Mi rey, yo te protegeré"
+		True melee attacks have a chance to heal players
+		Non-true proximity battles will actively fire the blade, which will plunge into the wall
+		"My king, I will guard."
 		'''
 }
 
 RMirrorBlade: {
-	DisplayName: Hoja espejo
+	DisplayName: Mirror Blade
 	Tooltip:
 		'''
-		Lanza una hoja mágica voladora.
-		Al hacer un golpe cuerpo a cuerpo verdadero, el ataque del enemigo golpeado se suma a la de esta arma. 
+		Launch a flying Magic Mirror blade.
+		True Close Combat will add the contact damage of the enemy 
+		that was hit to the damage displayed on the weapon panel.
 		'''
 }
 
 ROrderbringer: {
-	DisplayName: Portador del orden
+	DisplayName: Blade of the Order
 	Tooltip:
 		'''
-		Lanza energía cristalina coloridas que rastrea a los enemigos. Tras diez ataques consecutivos contra un mismo enemigo, se invoca al enorme espíritu de la espada del juicio.
-		"Vayas donde vayas, nunca estarás solo. Siempre estaré a tu lado, mi rey".
+		Fires colored crystalline energy that tracks enemies, after ten consecutive attacks on a single enemy, a massive Judgement Sword Spirit is summoned.
+		"Wherever you go, you will never be alone, I will always be by your side, my King."
 		'''
 }
 
 RPerfectDark: {
-	DisplayName: Oscuridad perfecta
+	DisplayName: Perfect Darkness
 	Tooltip:
 		'''
-		Lanza bombas tóxicas pantanosas
-		"Este cuchillo podría no ser muy higiénico"
+		Throws toxic swamp bombs
+		"This knife might not be sanitary."
 		'''
 }
 
 RPhosphorescentGauntlet: {
-	DisplayName: Guantelete luminoso
+	DisplayName: Phosphorescent Gauntlet
 	Tooltip:
 		'''
-		Golpea a tus enemigos con la fuerza de tu puño.
-		Haz clic derecho para realizar un golpe a corta distancia
+		Strike enemies with the will of the fist
+		Right-click to perform a close-range jab
 		'''
 }
 
 RPlagueKeeper: {
-	DisplayName: Guardián de la plaga
-	Tooltip: Lanza un enjambre de abejas plagagas
+	DisplayName: Plague Greatsword
+	Tooltip: Fires a swarm of plague bees
 }
 
 RPrismaticBreaker: {
-	DisplayName: Destructor prismático
+	DisplayName: Prismatic Breaker
 	Tooltip:
 		'''
-		Carga y dispara un cañón de luz arcoíris.
-		Haz clic derecho para cortar y liberar la energía de la espada arcoíris.
-		Esta espada se ve afectada por las bonificaciones de daño cuerpo a cuerpo y a distancia.
-		"¡El poder del arcoíris está conmigo!".
+		Charge and fire a rainbow light cannon
+		Right-click to slash, releasing rainbow sword energy
+		This sword is affected by both melee and ranged damage bonuses
+		"The power of the rainbow is with me!"
 		'''
 }
 
 RRedSun: {
-	DisplayName: Amanecer rojo
+	DisplayName: Red Sun
 	Tooltip:
 		'''
-		Bolas de fuego solares caerán del cielo
-		"Por encima del santuario"
+		Solar fireballs fall from the sky
+		"Above the sanctuary"
 		'''
 }
 
 RSausageMaker: {
-	DisplayName: Máquina de salchichas
-	Tooltip: Dispara bolas de pólipo y permite curarte con golpes cuerpo a cuerpo a corta distancia
+	DisplayName: Sausage Spear
+	Tooltip: Fires polyp balls, healing yourself on close-range melee hits
 }
 
 RSeashineSword: {
-	DisplayName: Espada del brillo marino
-	Tooltip: Lanza energía en forma de espada de agua
+	DisplayName: Seashine Sword
+	Tooltip: Fires water blade sword energy
 }
 
 RSeedler: {
-	DisplayName: Semilladora
+	DisplayName: Seed Scythe
 	Tooltip:
 		'''
-		Lanza semillas explosivas.
-		"Puede que no tengamos lanzaguisantes, ¡pero tenemos esto!"
+		Fires explosive seeds
+		"We may not have pea shooters, but we have this!"
 		'''
 }
 
 RSolsticeClaymore: {
-	DisplayName: Claymore del solsticio
+	DisplayName: Solstice Claymore
 	Tooltip:
 		'''
-		Lanza una espada de energía que variará de color según la hora real.
-		Durante el día, inflige el debuff Amanecer; durante la noche, inflige debuff Pesadilla.
-		"La primavera es eterna"
+		Fires colored tracking sword energy based on the real-world time
+		During the day, it inflicts Dawn debuff; during the night, it inflicts Nightmare debuff
+		"Spring is eternal"
 		'''
 }
 
 RStarnightLance: {
-	DisplayName: Lanza estrella nocturna
+	DisplayName: Starnight Lance
 	Tooltip:
 		'''
-		Lanza rayos de luz estelar.
-		Los ataques giratorios generan más rayos de luz estelar al hacer golpes cuerpo a cuerpo.
-		"Hace un frío glacial, ¿quieres usarlo para hacer helado?".
+		Fires starlight beams
+		Spinning lance attacks generate more starlight beams on melee hits
+		"It’s freezing cold, want to use it to make ice cream?"
 		'''
 }
 
 RStellarStriker: {
-	DisplayName: Luna creciente
+	DisplayName: Moonfire Blade
 	Tooltip:
 		'''
-		Dispara un rayo de luna creciente.
-		Haz clic derecho para fortalecer la espada; al golpear a los enemigos, caerán múltiples rayos de luz lunar.
-		"Por encima de la luna"
+		Fires a crescent moon beam
+		Right-click to strengthen the sword, striking enemies will cause multiple moonlight rays to fall
+		"Above the moon"
 		'''
 }
 
 RStormRuler: {
-	DisplayName: Señor de la tormenta
+	DisplayName: Storm Ruler
 	Tooltip:
 		'''
-		La espada lanzará energía, generando una tormenta de tornados al impactar.
-		La tormenta de tornados absorberá a los enemigos.
-		"Me balanceo en la tormenta".
+		Fires sword energy, generating a tornado storm on hit
+		The tornado storm will suck enemies in
+		"I sway in the storm"
 		'''
 }
 
 RStormSaber: {
-	DisplayName: Sable tormentoso
+	DisplayName: Storm Saber
 	Tooltip:
 		'''
-		Lanza dos ráfagas de energía tormentosa.
-		Una desde la hoja de la espada y la otra desde el cielo.
-		"Amigo, deja de intentar predecir el tiempo".
+		Fires two gusts of storm energy
+		One from the sword blade, the other falls from the sky
+		"Buddy, stop trying to predict the weather"
 		'''
 }
 
 RSubmarineShocker: {
-	DisplayName: Hoja del abismo
-	Tooltip: Dispara chispas eléctricas ionizadas
+	DisplayName: Abyss Short Sword
+	Tooltip: Fires ionized electric sparks
 }
 
 RSwordsplosion: {
-	DisplayName: Espadaexplosión
+	DisplayName: Explosion Sword
 	Tooltip:
 		'''
-		Invoca múltiples espadas arcoíris para que caigan del cielo.
-		"¡Porque Hielo frío lo ha dicho!"
+		Summons multiple rainbow sword energies to fall from the sky
+		"Because Stone Cold said so!"
 		'''
 }
 
 RTaintedBlade: {
-	DisplayName: Espada contaminada
+	DisplayName: Tainted Blade
 	Tooltip:
 		'''
-		Envenena a los enemigos.
-		"Esta espada es venenosa"
+		Inflicts poison debuff on enemies
+		"This blade is poisonous."
 		'''
 }
 
 RTeardropCleaver: {
-	DisplayName: Lágrima cortante
-	Tooltip: Las lágrimas caen a raudales
+	DisplayName: Tear Blade
+	Tooltip: Tears rain down in torrents
 }
 
 RTerratomere: {
-	DisplayName: Terratomero
+	DisplayName: Terra Greatblade
 	Tooltip:
 		'''
-		Ataca para liberar una oleada de vida
-		"Conectado con la esencia del mundo de Terraria"
+		Swing to release a life surge
+		"Connected to the essence of the Terraria world."
 		'''
 }
 
 RTerrorBlade: {
-	DisplayName: Espada del terror
+	DisplayName: Terror Soul Blade
 	Tooltip:
 		'''
-		Blándela para lanzar bombas explosivas terroríficas.
-		Al golpear a los enemigos con la espada, mejorarás el arma.
-		"Hace mucho, mucho tiempo... hace muchísimo tiempo"
+		Swing to release terror explosive bombs
+		Hitting enemies with the blade will enhance the weapon
+		"A long, long time ago... a very, very long time ago."
 		'''
 }
 
 RTheBurningSky: {
-	DisplayName: Cielo en llamas
+	DisplayName: Skyfire's Judgement
 	Tooltip:
 		'''
-		Blande el arma para hacer que una serie de esferas de fuego de dragón caigan del cielo.
-		"Sí, no consume maná".
+		Swing to make a series of dragonfire fireballs fall from the sky
+		"Yes, it doesn’t consume mana."
 		'''
 }
 
 RTheDarkMaster: {
-	DisplayName: El Maestro oscuro
+	DisplayName: Sword of the Dark Master
 	Tooltip:
 		'''
-		Los golpes cuerpo a cuerpo invocan el Pacto oscuro, invocando a tres sombras que lucharán a tu lado.
-		Mientras el Pacto oscuro está activo, si el jugador recibe daño, todos los clones de sombra desaparecen inmediatamente.
-		El jugador recibirá el debuff de Miedo oscuro durante 10 segundos, durante los cuales ya no podrá invocar el Pacto oscuro con golpes cuerpo a cuerpo.
+		Melee hits summon the Dark Pact, with three shadow clones that fight alongside the player
+		While the Dark Pact is active, if the player takes damage, all shadow clones are immediately dismissed
+		The player will receive a 10-second Dark Fear debuff, during which they can no longer summon the Dark Pact through melee hits
 		'''
 }
 
 RTheEnforcer: {
-	DisplayName: El Ejecutor
-	Tooltip: Genera fuego cósmico alrededor del jugador mientras se blande el arma
+	DisplayName: The Enforce
+	Tooltip: Generates cosmic fire around the player while swinging
 }
 
 RTheLastMourning: {
-	DisplayName: El Luto final
+	DisplayName: Final Mourning
 	Tooltip:
 		'''
-		Persigue a los enemigos utilizando los cráneos de los condenados y las almas infernales ardientes.
-		Haz clic derecho para mejorar la espada. Al golpear a los enemigos, se generarán varios cráneos de espíritus vengativos
+		Pursues enemies using the skulls of the guilty and the souls of the burning inferno
+		Right-click to enhance the sword, striking enemies will generate several vengeful spirit skulls
 		'''
 }
 
 RTheMutilator: {
-	DisplayName: El Mutilador
+	DisplayName: Bloodstone Cleaver
 	Tooltip:
 		'''
-		Los golpes críticos activan una explosión de sangre.
-		La explosión de sangre hace que caigan corazones rojos que curan al jugador
+		Critical hits activate a blood explosion particle effect
+		The blood explosion causes red hearts to drop, healing the player
 		'''
 }
 
 RTitanArm: {
-	DisplayName: Brazo de titán
+	DisplayName: Titan Arm
 	Tooltip:
 		'''
-		Cargala para realizar un ataque masivo.
-		"El que venga, recibirá una bofetada"
+		Charge to perform a massive swing
+		"Whoever comes, gets a slap."
 		'''
 }
 
 RTrueCausticEdge: {
-	DisplayName: Filo cáustico verdadero
+	DisplayName: True Caustic Edge
 	Tooltip:
 		'''
-		Dispara un rayo de desesperación que rebota en los bloques.
-		Inflige veneno y ralentiza a los enemigos al impactar
+		Fires a beam of despair, which bounces off blocks
+		Inflicts acidic venom debuff and slows enemies on hit
 		'''
 }
 
 RUltimusCleaver: {
-	DisplayName: Cuchilla ultimus
-	Tooltip: Dispara varias chispas azules que explotan al impactar
+	DisplayName: Headseverer
+	Tooltip: Fires several tracking blue flame sparks that explode on impact
 }
 
 RVeinBurster: {
-	DisplayName: Revientavenas
+	DisplayName: Vein Burster
 	Tooltip:
 		'''
-		Lanza un rayo de carne que se adhiere al suelo o a los enemigos, provocando una explosión.
-		"Sinceramente, esta enfermedad es bastante grave"
+		Fires a flesh lightning bolt that sticks to the ground or enemies, causing an explosion
+		"Honestly, this disease is quite severe."
 		'''
 }
 
 RVirulence: {
-	DisplayName: Virulencia
+	DisplayName: Plague Poison Blade
 	Tooltip:
 		'''
-		Lanza una nube plagada.
-		"¡Alabado sea el padre misericordioso!"
+		Fires a cloud of plague
+		"Praise the merciful father!"
 		'''
 }
 
 RVoidEdge: {
-	DisplayName: Filo del vacío
+	DisplayName: Void Edge
 	Tooltip:
 		'''
-		Lanza aterradores fantasmas de los habitantes del abismo, muertos hace mucho tiempo.
-		Al golpear a los enemigos con la espada, se invocan más fantasmas desde las profundidades.
-		"El anterior propietario de esta espada ya se ha convertido en uno de ellos".
+		Fires terrifying ghosts of the long-dead Abyss dwellers
+		Hitting enemies with the blade summons additional ghosts from below
+		"The previous owner of this blade has already become one of them."
 		'''
 }
 
 RVulcaniteLance: {
-	DisplayName: Lanza vulcanita
+	DisplayName: Vulcanite Lance
 	Tooltip:
 		'''
-		Al sostener esta arma, las llamas orbitarán sobre el jugador. Golpear a los enemigos con la lanza provoca una explosión.
-		Golpear las llamas con la lanza hará que exploten, lanzando bengalas teledirigidas hacia el enemigo.
+		Holding this weapon will cause flames to orbit above the player. Hitting enemies with the spear causes an explosion
+		Hitting the flames with the spear will cause them to explode, sending out homing flares towards the enemy.
 		'''
 }
 
 RWindBlade: {
-	DisplayName: Filo del viento
+	DisplayName: Wind Blade
 	Tooltip:
 		'''
-		Lanza ciclones que absorben a los enemigos.
-		Clic derecho para lanzar ciclones que se dirigen hacia los enemigos
+		Fires cyclones that suck enemies in
+		Right click to throw cyclones that home in on enemies.
 		'''
 }
 
 ModifyAquaticScourgeBag: {
-	DisplayName: Bolsa del tesoro (Azote acuático)
+	DisplayName: Treasure Bag (Aquatic Scourge)
 	Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
 }
 
 ModifyDesertScourgeBag: {
-	DisplayName: Bolsa del tesoro (Azote del desierto)
+	DisplayName: Treasure Bag (Desert Scourge)
 	Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
 }
 
 ModifyDevourerofGodBag: {
-	DisplayName: Bolsa del tesoro (Devorador de dioses)
+	DisplayName: Treasure Bag (The Devourer of Gods)
 	Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
 }
 
 ModifyExoBag: {
-	DisplayName: Bolsa del tesoro (Exo-mecánicos)
+	DisplayName: Treasure Box (Exo Mechs)
 	Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
 }
 
 ModifyOldDukeBag: {
-	DisplayName: Bolsa del tesoro (El Viejo Duque)
+	DisplayName: Treasure Bag (The Old Duke)
 	Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
 }
 
 ModifyPolterghastBag: {
-	DisplayName: Bolsa del tesoro (Polterghast)
+	DisplayName: Treasure Bag (Polterghast)
 	Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
 }
 
 ModifyStarterBag: {
-	DisplayName: Bolsa de inicio
+	DisplayName: Starter Bag
 	Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
 }
 
 ModifyYharonBag: {
-	DisplayName: Bolsa del tesoro (Yharon)
+	DisplayName: Treasure Bag (Yharon)
 	Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
 }
 
 RAcesHigh: {
-	DisplayName: As en la manga
+	DisplayName: Aces High
 	Tooltip:
 		'''
-		Dispara una serie de cartas, cada una con efectos diferentes.
-		Los corazones roban vida.
-		Las picas pueden penetrar infinitamente e ignorar los marcos de invencibilidad del enemigo.
-		Los diamantes provocan explosiones.
-		Los tréboles se dividen en tres cartas pequeñas.
+		Fires a string of playing cards, each with different effects
+		Hearts have a blood-sucking effect
+		Spades can penetrate infinitely and ignore enemy invincibility frames
+		Diamonds cause explosions
+		Clubs split into three small playing cards
 		'''
 }
 
 RAlluvion: {
-	DisplayName: Alluvión de proyectiles
+	DisplayName: Alluvion
 	Tooltip:
 		'''
-		Convierte flechas de madera en flechas tifón y tiburones.
-		Haz clic derecho para invocar la ira del océano.
-		"El poder del océano está en tus manos"
+		Converts wooden arrows into Typhoon Arrows and Sharkrons
+		Right click to summon the wrath of the ocean
+		"The power of the ocean is in your hands."
 		'''
 }
 
 RAngelicShotgun: {
-	DisplayName: Escopeta celestial
+	DisplayName: Angelic Shotgun
 	Tooltip:
 		'''
-		Las balas están bendecidas por el Espíritu Santo.
-		Convierte las balas de mosquete en proyectiles incendiarios.
-		Una escopeta de gran calibre que, a su manera, apesta al Espíritu Santo
+		Blessed the shot with the Holy Spirit
+		It turns musket bullets into torch rounds
+		A large caliber shotgun, which, in its own way, reeks of the Holy spirit
 		'''
 }
 
 RAnimosity: {
-	DisplayName: Rencor
+	DisplayName: Animosity
 	Tooltip:
 		'''
-		Convierte las balas de mosquete en balas de energía cinética.
-		El disparo correcto se dispersa aumenta el número de disparos.
-		"Deja que mi cuerpo lisiado se convierta en llamas furiosas".
+		Converting musket bullets into kinetic energy bullets
+		The right shot is scattered and the number of shots is fired
+		"Let my crippled body become raging flames."
 		'''
 }
 
 RAntiMaterielRifle: {
-	DisplayName: Rifle destructor
+	DisplayName: Barrett Sniper Rifle
 	Tooltip:
 		'''
-		Un rifle antimaterial pesado que convierte las balas de mosquete en proyectiles de calibre 50 de alta velocidad, 
-		que atraviesan a los enemigos y les infligen la marca de la muerte.
-		Después de cada disparo, al hacer clic derecho, el jugador recarga el rifle para disparar después.
-		Los disparos se dividen en una lluvia de varias balas adicionales.
-		"¡¡¡360 NOSCOPE!!!"
+		A Heavy Anti-Materiel Rifle that converts musket balls to high velocity .50 Caliber Rounds, 
+		Ripping through enemies and inflicting them with Marked for death.
+		After every shot, Right clicking causes the player to reload the rifle for the next shot.
+		Shots Split into a swarm of several aditional bullets.
+		"360 NOSCOPE!!!"
 		'''
 }
 
 RAquashardShotgun: {
-	DisplayName: Escopeta de acuaesquirlas
-	Tooltip: Convierte las balas de mosquete en prismas marinos
+	DisplayName: Aquashard Shotgun
+	Tooltip: It turns musket bullets into Marine prisms
 }
 
 RArbalest: {
-	DisplayName: Arbalesta
+	DisplayName: Arbalest
 	Tooltip:
 		'''
-		Dispara 6 flechas a gran velocidad.
-		El tamaño de las flechas aumenta al disparar continuamente.
-		Las flechas más grandes infligen más daño y empujan más, pero tienen una dispersión mayor.
-		Clic derecho para realizar un disparo rápido único.
-		"Sus engranajes siguen chirriando y girando".
+		Fires 6 high-speed arrows
+		Arrow size increases with continuous firing time
+		Larger arrows deal higher damage and knockback, but have a wider spread
+		Right-click for a single rapid fire
+		"His gears are still crunching and turning."
 		'''
 }
 
 RArcherfish: {
-	DisplayName: Tirador acuático
-	Tooltip: Convierte las balas de mosquete en un chorro de agua
+	DisplayName: Archerfish
+	Tooltip: Converts musket bullets into a jet of water
 }
 
 RArterialAssault: {
-	DisplayName: Asalto sangriento
+	DisplayName: Arterial Assault
 	Tooltip:
 		'''
-		Dispara cinco flechas desde el cielo.
-		Todas las flechas rastrearán rápidamente a los enemigos cercanos
+		Fire five arrows from the sky
+		All arrows will quickly track nearby enemies
 		'''
 }
 
 RAstralBlaster: {
-	DisplayName: Bláster astral
-	Tooltip: Convierte las balas de mosquete en balas fantasmales rastreadoras
+	DisplayName: Astral Blaster
+	Tooltip: Converts musket bullets into tracking phantom star bullets
 }
 
 RAstralRepeater: {
-	DisplayName: Arco astral
-	Tooltip: Dispara una ráfaga de tres flechas
+	DisplayName: Astral Bow
+	Tooltip: Fires a burst of three arrows
 }
 
 RAstrealDefeat: {
-	DisplayName: Flechas del crepúsculo
+	DisplayName: Astreal Defeat
 	Tooltip:
 		'''
-		Convierte todas las flechas en flechas de energía estelar, generando acechadores mientras vuelan.
-		"Cristales de brujería ancestral".
+		Converts all arrows into starenergy arrows, spawning stalkers as they fly
+		"Crystals of ancient witchcraft."
 		'''
 }
 
 RAuralis: {
-	DisplayName: Aurálide celestial
+	DisplayName: Auralis
 	Tooltip:
 		'''
-		Dispara balas brillantes de alta velocidad que reducen las defensas del enemigo.
-		Permanecer quieto proporciona una bonificación de daño de hasta un 25%.
-		Si permaneces quieto y apuntas con el botón derecho durante 5 segundos o más, se generarán auroras a tu alrededor.
-		La aurora reduce 100 puntos del daño de balas que recibas la próxima vez.
-		Este efecto dura hasta 20 segundos y tiene un tiempo de enfriamiento de 30 segundos.
+		Fires high-speed flash bullets that reduce enemy defenses
+		Standing still provides a damage bonus, up to 25%
+		Standing still and aiming with the right-click for 5 seconds or more will generate auroras around you
+		The auroras will reduce the damage of your next incoming bullets by 100 points
+		This effect lasts for up to 20 seconds and has a 30-second cooldown
 		'''
 }
 
 RAuroraBlazer: {
-	DisplayName: Llamarada de aurora
+	DisplayName: Aurora Blazer
 	Tooltip:
 		'''
-		Lanza llamas nebulosas con un patrón estrellado.
-		Utiliza gel como munición.
-		"La furia dentro de la luz de las estrellas arde".
+		Sprays nebula flames that move in a star-shaped trajectory
+		Uses gel as ammunition
+		"The fury within the starlight burns"
 		'''
 }
 
 RBarinade: {
-	DisplayName: Barina de flecha
+	DisplayName: Barinade
 	Tooltip:
 		'''
-		Lanza dos flechas de aletas de alta velocidad, que vuelan fácilmente por el aire.
-		""Desprendidas de la mandíbula de aquel gusano de arena"
+		Launch two converging high-speed fin arrows, which soar easily through the air
+		"From the upper jaw of that sandworm."
 		'''
 }
 
 RBarinautical: {
-	DisplayName: Barináuca
+	DisplayName: Barinautical
 	Tooltip:
 		'''
-		Convierte flechas de madera en ráfagas de flechas explosivas eléctricas
-		"Desprendidas de la mandíbula de aquel gusano de arena, pero esta era más dura".
+		Convert wooden arrows into bursts of explosive lightning arrows
+		"From the upper jaw of that sandworm, but this one was harder."
 		'''
 }
 
 RBarracudaGun: {
-	DisplayName: Pistola de barracuda
-	Tooltip: Lanza dos barracudas para que se aferren a los enemigos y los destrocen
+	DisplayName: Barracuda Gun
+	Tooltip: Launch two barracudas to latch onto enemies and shred them apart
 }
 
 RBladedgeGreatbow: {
-	DisplayName: Riel de hojas
+	DisplayName: Bladedge Railbow
 	Tooltip: "[GFB]"
 }
 
 RBlissfulBombardier: {
-	DisplayName: Bombardero celestial
+	DisplayName: Blissful Bombardier
 	Tooltip:
 		'''
-		Disparar cohetes de fuego sagrado.
-		Los cohetes destruirán bloques cuando se utilicen municiones capaces de hacerlo
+		Fires holy fire rockets
+		Rockets will destroy blocks when using ammunition capable of doing so
 		'''
 }
 
 RBlossomFlux: {
-	DisplayName: Chorro floral
+	DisplayName: Leaf Flow
 	Tooltip:
 		'''
-		Dispara rápidamente flechas con hojas vitales.  
-		Haz clic derecho para cargar y disparar una potente bomba selvática.  
+		Rapidly fires Lifeleaf Arrows.  
+		Right-click to charge and fire a powerful Jungle Bomb.  
 		'''
 }
 
 RBrimstoneFury: {
-	DisplayName: Furia azufrada
-	Tooltip: Convierte las flechas de madera en tres rayos de fuego sulfúrico
+	DisplayName: Brimstone Fury
+	Tooltip: Convert the wood arrow into three sulfur-fire rays
 }
 
 RBulletFilledShotgun: {
-	DisplayName: Dispersión mortal
+	DisplayName: Bullet Filled Shotgun
 	Tooltip:
 		'''
-		Dispara una gran ráfaga de balas rebotadoras. 
-		Consume cinco balas por uso.
-		"¿Apuntar? ¿Qué es eso?"
+		Fires a large swarm of bouncing bullets
+		Consumes five bullets per use
+		"Aiming? What's that?"
 		'''
 }
 
 RButcher: {
 	DisplayName: Butcher
-	Tooltip: The fewer bullets remaining, the higher the firing rate and accuracy // esta arma se eliminó de Calamity
+	Tooltip: The fewer bullets remaining, the higher the firing rate and accuracy
 }
 
 RChickenCannon: {
-	DisplayName: Explosivo plumífero
+	DisplayName: Chicken Cannon
 	Tooltip:
 		'''
-		Lanza cohetes de pollo que provocan enormes explosiones.
-		Clic derecho para detonar todos los cohetes en vuelo
+		Fires chicken rockets that create huge explosions
+		Right-click to detonate all flying rockets
 		'''
 }
 
 RClamorRifle: {
-	DisplayName: Rifle resonante
-	Tooltip: Convierte las balas de mosquete en un rayo de energía de autoguiadas
+	DisplayName: Clamor Rifle
+	Tooltip: Converts musket bullets into tracking energy beam
 }
 
 RClaretCannon: {
-	DisplayName: Lágrimas carmesís
+	DisplayName: Claret Cannon
 	Tooltip:
 		'''
-		Dispara tres balas a la vez.
-		Convierte las balas de mosquete en balas vampíricas que desgarran la sangre
+		Fires three bullets at once
+		Converts musket bullets into vampiric blood-tear bullets
 		'''
 }
 
 RClockGatlignum: {
-	DisplayName: Gatlignum de reloj
+	DisplayName: Clock Gatlignum
 	Tooltip:
 		'''
-		Desata una lluvia de balas.
-		Hay un 10% de probabilidad de conservar munición.
-		"Por desgracia, no dispara cocodrilos"
+		Unleash a hailstorm of bullets
+		10% chance to conserve ammunition
+		"Disappointingly, it doesn't shoot crocodiles."
 		'''
 }
 
 RCondemnation: {
-	DisplayName: Magia de la condenación
+	DisplayName: Condemnation
 	Tooltip:
 		'''
-		Con el clic izquierdo lanzarás seis disparos, con la posibilidad de lanzar una flecha explosiva que sigue al objetivo.
-		Haz clic derecho para cargar el ataque y, tras la carga, dispara una serie de flechas explosivas mágicas.
-		"El poder de una mancha maligna impregna esta ballesta".
+		The left button attacks with a six-shot, with a probability of firing an explosive arrow that tracks the target
+		Right-click for a recharge attack, and after charging, fire a series of magic explosive arrows
+		"The power of the evil stain infuses this Crossbow."
 		'''
 }
 
 RConferenceCall: {
-	DisplayName: Llamada del caos
+	DisplayName: Conference Call
 	Tooltip:
 		'''
-		Dispara balas densas mientras invoca aún más balas desde el cielo
+		Fires dense bullets while summoning even more bullets from the sky
 		[c/768EE6:@All]
 		'''
 }
 
 RContagion: {
-	DisplayName: Plaga errante
+	DisplayName: Contagion
 	Tooltip:
 		'''
-		Haz clic izquierdo para disparar una flecha colérica increíblemente rápida y penetrante, que invocará proyectiles a su paso. 
-		Al cabo de unos instantes, los proyectiles se dirigirán hacia los enemigos cercanos.
-		Haz clic derecho para invocar una cantidad absurda de abejas plagadas que seguirán tu cursor.
-		[c/085054: El padre bondadoso siempre estará vigilando al portador de este arco. Haz que se sienta orgulloso.]
+		Left click to fire an insanely fast and piercing Cholera Arrow, which will summon projectiles on its trail. 
+		After a short while, the projectiles will home in on enemies nearby.
+		Right click to summon an absurd amount of homing plagued bees that follow your cursor
+		[c/085054:The Loving Father will always watch over the bearer of this bow. Make him proud.]
 		'''
 }
 
 RContinentalGreatbow: {
-	DisplayName: Arco continental
+	DisplayName: Continental Greatbow
 	Tooltip:
 		'''
-		Las flechas de madera se incendian al impactar.
-		Dispara tres flechas simultáneamente.
-		Además, dispara dos flechas de fuego infernal o icor
+		Wooden arrows ignite upon impact.
+		Fires three arrows simultaneously.
+		Additionally fires two hellfire or ichor arrows.
 		'''
 }
 
 RCoralCannon: {
-	DisplayName: Cañon coralino
+	DisplayName: Coral Cannon
 	Tooltip:
 		'''
-		Una vieja pistola con bastante potencia.
-		Haz clic derecho para recargar.
-		"La recámara estaba húmeda y probablemente la pólvora no se encendería... ¿Un momento? ¿No utiliza pólvora?"
+		An old handgun with quite a bit of power
+		Right click reload
+		"The chamber had been damp, and the powder probably would not ignite.... Wait a minute? It doesn't use gunpowder?"
 		'''
 }
 
@@ -1100,96 +1101,96 @@ RCorinthPrime: {
 	DisplayName: Corinth Prime
 	Tooltip:
 		'''
-		Dispara seis balas de alta velocidad.
-		Haz clic derecho para disparar una granada pequeña.
-		Si la granada no alcanza al enemigo en dos segundos, provocará una gran explosión.
-		De lo contrario, solo provocará una pequeña onda expansiva.
+		Fire six high-velocity rounds
+		Right-click and fire a small grenade
+		If the grenade does not touch the enemy within two seconds, it will cause a huge explosion
+		Otherwise it will only trigger a small shock wave
 		'''
 }
 
 RCorrodedCaustibow: {
-	DisplayName: Arco cáustico corroido
-	Tooltip: Transforma las flechas de madera en flechas venenosas lentas pero poderosas que dejan tras de sí un aura radiactiva.
+	DisplayName: Corroded Caustibow
+	Tooltip: Transforms wooden arrows into slow but powerful venom arrows that leave behind a radiation aura.
 }
 
 RCosmicBolter: {
-	DisplayName: Disparador vernal
+	DisplayName: Vernal Bolter
 	Tooltip:
 		'''
-		Dispara una columna compacta de tres flechas.
-		Convierte flechas de madera en proyectiles deslizantes de energía
+		Fires a tight column of three arrows
+		Converts wooden arrows into sliding energy bolts
 		'''
 }
 
 RCrackshotColt: {
-	DisplayName: Colt del tirtador supremo
+	DisplayName: Crackshot Colt
 	Tooltip:
 		'''
-		Dispara balas de francotirador.  
-		Haz clic derecho para lanzar una moneda de cobre al aire.  
-		Las balas que golpean la moneda se dirigirán hacia el enemigo más cercano.  
-		Se pueden lanzar hasta 4 monedas a la vez. Cuando sea posible, las balas rebotarán entre varias monedas.  
-		Las balas rebotadas garantizan un golpe crítico y aumentan el daño en función del número de rebotes.  
-		"El dinero es poder".
+		Fires sharpshooter bullets.  
+		Right-click to toss a copper coin into the air.  
+		Bullets that hit the coin will home in on the nearest enemy.  
+		Up to 4 coins can be tossed at once. When possible, bullets will ricochet between multiple coins.  
+		Ricocheting bullets are guaranteed to critically strike and gain increased damage based on the number of bounces.  
+		"Money is power."
 		'''
 }
 
 RDaemonsFlame: {
-	DisplayName: Fuego demoníaco
-	Tooltip: Lanza demonios de fuego que explotan al impactar
+	DisplayName: Daemons Flame
+	Tooltip: Fires Homing Daemon Flames that explode upon impact
 }
 
 RDarkechoGreatbow: {
-	DisplayName: Arco del eco sombrío
+	DisplayName: Darkecho Greatbow
 	Tooltip:
 		'''
-		Dispara dos flechas a la vez.
-		También dispara un dardo de cristal adicional
+		Fires two arrows at once.
+		Also shoots an additional crystal dart.
 		'''
 }
 
 RDeadSunsWind: {
-	DisplayName: Viento del sol caído
+	DisplayName: Dead Suns Wind
 	Tooltip:
 		'''
-		Dispara un haz concentrado de plasma caliente que rebota.
-		Los rayos de plasma rebotan y rastrean al enemigo más cercano.
-		Causan grandes explosiones al golpear consecutivamente.
-		Usa gel como munición.
-		"¿Cómo puede convertir el gel en esto?"
+		It fires a focused beam of hot plasma that bounces off the object after touching it
+		The plasma rays bounce back and track the nearest enemy
+		A huge explosion when it hits in succession
+		Using gel as ammunition
+		"How did it turn the gel into this?"
 		'''
 }
 
 RDeathwind: {
-	DisplayName: Vendaval de la muerte
+	DisplayName: Deathwind
 	Tooltip:
 		'''
-		Las flechas de madera se convierten en 3 rayos nebulosos que atraviesan atraviesan paredes.
-		"La muerte es como el viento; siempre a mi lado"
+		Wooden arrows turn into 3 Nebula Beams that pierce infinitely and go through walls.
+		"Death is like the wind;always by my side."
 		'''
 }
 
 RDeepcoreGK2: {
-	DisplayName: Núcleo Profundo GK2
+	DisplayName: Deepcore GK2
 	Tooltip:
 		'''
-		Clic derecho para hacer zoom
-		"Diseño de frenado perfecto, con microordenador integrado. No solo puede recargarse automáticamente, sino que también te ayuda a tostar el pan del desayuno".
+		Right click to zoom out
+		"Perfect braking design, with a built-in microcomputer. It can not only automatically reload, but also help you toast your breakfast bread."
 		'''
 }
 
 RDisseminator: {
-	DisplayName: Diseminador
+	DisplayName: Disseminator
 	Tooltip:
 		'''
-		Lanza una lluvia de disparos.
-		Haz clic derecho para disparar rápidamente.
-		"Fuego cruzado de manual".
+		A hail of gunfire
+		Right click for rapid point shot
+		"Textbook crossfire."
 		'''
 }
 
 RDodusHandcannon: {
-	DisplayName: Dodus Handcannon // arma eliminada
+	DisplayName: Dodus Handcannon
 	Tooltip:
 		'''
 		Fires a high-explosive nut kernel, yes, that's right, a nut kernel
@@ -1198,116 +1199,116 @@ RDodusHandcannon: {
 }
 
 RDrataliornus: {
-	DisplayName: Furia de Drataliornus
+	DisplayName: Drataliornus
 	Tooltip:
 		'''
-		Dispara una serie de esferas de fuego de dragón. La velocidad de disparo aumenta con el tiempo.
-		Las esferas invocan una lluvia de meteoritos, esparciendo polvo de dragón que inflige daño. A máxima velocidad, 
-		se lanzan esferas de fuego adicionales, lo que desencadena el efecto "Cascada de bolas de fuego", en el que las esferas de fuego pueden seguir a los enemigos.
-		Durante este efecto,  al recibir daño se interrumprán los ataques y el tiempo de vuelo.
-		Al hacer clic derecho se dispara una ráfaga de cinco flechas EX de fuego de dragón.
-		"Cosas sin importancia, no has acertado".
+		Fires a series of dragonflame fireballs, with firing speed increasing over time.
+		The fireballs summon a meteor shower, leaving dragon dust that inflicts damage. At maximum speed, 
+		extra fireballs are launched, triggering the "Fireball Cascade" effect, where fireballs have homing capability.
+		During Fireball Cascade, taking damage interrupts attacks and Clear flight time.
+		Right-clicking fires a burst of five EX Dragonfire arrows.
+		"Trivial matters, no hit."
 		'''
 }
 
 RElementalBlaster: {
-	DisplayName: Erupción elemental
-	Tooltip: Emite una corriente helicoidal elemental que hace que los enemigos alcanzados se vean envueltos en una lluvia de luz elemental colorida.
+	DisplayName: Elemental Blaster
+	Tooltip: "Emits an Elemental Helix Stream that causes foes hit to shower in colorful elemental light. "
 }
 
 REternalBlizzard: {
-	DisplayName: Tempestad eterna
+	DisplayName: Eternal Blizzard
 	Tooltip:
 		'''
-		Tiene cuatro rondas de disparos múltiples, que lanzan flechas explosivas con puntas de hielo.
-		Haz clic derecho para realizar un único disparo rápido; las flechas tendrán capacidad de seguimiento
+		Has four rounds of multiple shots, firing exploding ice pick arrows
+		Right-click for a single rapid fire, arrows will have tracking ability
 		'''
 }
 
 RFetidEmesis: {
-	DisplayName: Vómito putrefacto
+	DisplayName: Fetid Emesis
 	Tooltip:
 		'''
-		Infectará la bala con sodio y veneno.
-		Cada ocho balas disparadas se desencadena un ataque de vómito contaminante.
-		Haz clic derecho para cambiar al modo semiautomático y lanzar esferas de carne sucia.
-		"Menuda pandemia...", recuerda el Viejo tiburón, murmurando para sí mismo.
-		"Solía ser profesor en la Universidad Oceánica; esa Halibut era mi alumna. 
-		Hasta que llegó la pandemia y la Universidad Oceánica se transformó en el Departamento de Explotación del mar de sulfúrio 
-		y fue entonces cuando me jubilé... Por cierto, ¿alguna vez te has preguntado cuántas balas puedo tragarme de una sola vez?".
+		It will infect the bullet with sodium and poison
+		Every eight bullets fired triggers a vomit attack of contaminants
+		Right click to switch to semi-automatic and fire Dirty meat ball
+		"That was one hell of a pandemic..." Old Pig Shark reminisces about the past, muttering to himself.
+		"I used to be a professor at Ocean University; that big Halibut there was my student. 
+		Until the pandemic hit, and Ocean University transformed into the Sulfur Sea Exploitation Department, 
+		and that's when I retired... By the way, ever wondered how many bullets I can swallow in one go?"
 		'''
 }
 
 RFirestormCannon: {
-	DisplayName: Cañon tormenta de llamas
+	DisplayName: Firestorm Cannon
 	Tooltip:
 		'''
-		Lanza continuamente bengalas armadas.
-		Haz clic con el botón derecho para disparar una densa descarga de bengalas
+		Continuously releases weaponized flare rounds
+		Right-click to fire a dense volley of flare rounds
 		'''
 }
 
 RFlakKraken: {
-	DisplayName: Kraken destructor
+	DisplayName: Flak Kraken
 	Tooltip:
 		'''
-		Lanza una bomba explosiva de gran alcance que explota en varios fragmentos cónicos tintados.
-		El explosivo abisal explotará cuando alcance la posición del cursor.
-		El impacto directo de un proyectil reduce el daño por fragmentación.
-		"Proviene de una sirena, contrato de alquiler por 3 años, 6 meses, 23 días y 6 horas".
+		Fire a deep high explosive bomb, which explodes into several conical walks of ink shards
+		The abyssal high explosive will explode when it reaches the cursor position
+		A direct hit from a shell reduces splinter damage
+		"From a sirens, lease for 3 years, 6 months, 23 days, 6 hours."
 		'''
 }
 
 RFlakToxicannon: {
-	DisplayName: Cañon tóxico antiaéreo
+	DisplayName: Flak Toxicannon
 	Tooltip:
 		'''
-		Dispara hacia el cursor en un ángulo determinado.
-		Solo puede disparar en un rango de cierta inclinación sobre la cabeza del jugador.
-		"Requisito: alto coeficiente intelectual".
+		Fires at the cursor at a certain angle
+		Can only fire within a certain elevation range above the player's head
+		"Requirement: High IQ"
 		'''
 }
 
 RFlarewingBow: {
-	DisplayName: Arco de alas llameantes
+	DisplayName: Flarewing Bow
 	Tooltip:
 		'''
-		Dispara tres flechas a la vez.
-		Las flechas de madera se transforman en murciélagos de obsidiana que persiguen a sus objetivos tras atravesarlos
+		Fires three arrows at once.
+		Wooden arrows are transformed into obsidian bats that track targets after piercing once.
 		'''
 }
 
 RFlurrystormCannon: {
-	DisplayName: Cañon tormenta de nieve
+	DisplayName: Flurrystorm Cannon
 	Tooltip:
 		'''
-		Lanza una lluvia de bolas de nieve, con una potencia de fuego que aumenta a medida que disminuyen la munición.
-		De vez en cuando se sobrecarga, desatando una tormenta de bolas de nieve y granizo.
-		"Esto es suficiente para hacerte imbatible en una pelea de bolas de nieve".
+		Launching a barrage of snowballs, with firepower increasing as ammunition dwindles.
+		Occasionally entering overload mode, unleashing a storm of snowballs and hail.
+		"This is enough to make you unbeatable in a snowball fight."
 		'''
 }
 
 RFungicide: {
-	DisplayName: Fungicida
-	Tooltip: Dispara balas fúngicas que se dividen al impactar
+	DisplayName: Fungicide
+	Tooltip: Fires fungi bullets that split upon impact
 }
 
 RGaleforce: {
-	DisplayName: Fuerza del ventaval
+	DisplayName: Galeforce
 	Tooltip:
 		'''
-		Dispara una ráfaga de plumas de arpía que se mueven lentamente.
-		Haz clic derecho para disparar una ráfaga ininterrumpida de plumas que ignoran la gravedad.
+		Fires out a spread of slow-moving harpy feathers
+		Right click to shoot a non-stop barrage of feathers that ignore gravity
 		'''
 }
 
 RGoldenEagle: {
-	DisplayName: Águila dorada
+	DisplayName: Golden Eagle
 	Tooltip:
 		'''
-		Dispara cinco balas a la vez.
-		Haz clic derecho para disparar rápidamente, generando una gran cantidad de balas que acompañarán al cursor.
-		"No querrás saber cómo está fabricada esta pistola".
+		Fires five bullets at once
+		Right-click for rapid fire, generating a large number of accompanying bullets at the mouse cursor
+		"You don't want to know how this gun is made"
 		'''
 }
 
@@ -1315,127 +1316,127 @@ RGoobow: {
 	DisplayName: Goobow
 	Tooltip:
 		'''
-		Lanza dos haces de gel.
-		"¿Qué hizo alguna vez un slime con esto?"
+		Fires two beams of gel.
+		"What did the slime use this for?"
 		'''
 }
 
 RGunkShot: {
-	DisplayName: Disparo mucoso
-	Tooltip: Dispara varias balas
+	DisplayName: Gunk Shot
+	Tooltip: Fires several bullets
 }
 
 RHalleysInferno: {
-	DisplayName: Infierno de Halley
+	DisplayName: Halleys Inferno
 	Tooltip:
 		'''
-		Dispara una serie de chorros lunares a alta presión.
-		Utiliza gel como munición.
-		"El cometa Halley llegó antes de lo esperado"
+		Fires a series of high-pressure lunar jets
+		Uses gel as ammunition
+		"The Halley's Comet came earlier than expected"
 		'''
 }
 
 RHandheldTank: {
-	DisplayName: Mini-tanque
-	Tooltip: '''"Eh, amigo! ¡Mírame, estoy empujando un tanque!"'''
+	DisplayName: Handheld Tank
+	Tooltip: '''"Hey, buddy! Look at me, I'm pushing a tank!"'''
 }
 
 RHellborn: {
-	DisplayName: Nacida del infierno
+	DisplayName: Hellborn
 	Tooltip:
 		'''
-		Una escopeta al rojo vivo.
-		Al dispararla, el cuerpo del arma infligirá un gran daño a los enemigos
+		A red-hot shotgun
+		When fired, the gun body will deal great damage to enemies
 		'''
 }
 
 RHelstorm: {
-	DisplayName: Tormenta infernal
-	Tooltip: '''"Mejor que nacer en el infierno."'''
+	DisplayName: Helstorm
+	Tooltip: '''"Better than Hellborn."'''
 }
 
 RHoarfrostBow: {
-	DisplayName: Arco escarcha
+	DisplayName: Hoarfrost Bow
 	Tooltip:
 		'''
-		Dispara dos flechas simultáneamente.
-		Convierte las flechas de madera en flechas de niebla helada.
-		"Manos frías como el hielo"
+		Fires two arrows simultaneously.
+		Converts wooden arrows into frost mist arrows.
+		"Freeze with frosty hands."
 		'''
 }
 
 RInfinity: {
-	DisplayName: Infinidad
+	DisplayName: Infinity
 	Tooltip:
 		'''
-		Dispara una espiral de balas en grandes cantidades.
-		Convierte las balas de mosquete en balas de energía que rebotan y se dividen.
-		"Mientras lo sostengas en tu mano, la disociación infinita nunca se detendrá".
+		Fires a spiral of bullets in large quantities
+		Converts musket bullets into energy bullets that ricochet and split
+		"As long as you hold it in your hand, the infinite dissociation will never stop"
 		'''
 }
 
 RKarasawa: {
 	DisplayName: Karasawa
-	Tooltip: '''"...Esta pistola pesa demasiado... Demasiado..."'''
+	Tooltip: '''"...This gun is too heavy... Too heavy..."'''
 }
 
 RKingsbane: {
-	DisplayName: Perdición de reyes
+	DisplayName: Kingsbane
 	Tooltip:
 		'''
-		Cuando termine de acelerar, dispará balas rápidamente.
-		Cuando dejes de disparar, lanzarás una lluvia de balas áuricas.
-		Las balas áuricas se dirigen agresivamente hacia los enemigos e ignoran 50 puntos de defensa.
-		Consume munición constantemente mientras está en uso.
-		90% de probabilidad de ahorrar munición.
+		After revving up, rapidly fire bullets
+		When you stop firing you will release a barrage of auric bullets
+		Auric bullets aggressively home in on enemies and ignore 50 points of defense
+		Constantly consumes ammo while in use
+		90% chance to save ammo
 		'''
 }
 
 RLeviatitan: {
-	DisplayName: Leviatán
+	DisplayName: Leviatitan
 	Tooltip:
 		'''
-		Convierte las balas de mosquete en globos de agua o balas oceánicas
-		"¿Quieres saber el truco para provocar el vómito?", Leviatán entrecerró los ojos, "Huevo centenario con queso, te garantizo que te convertirás en un experto en vomitar"
+		Convert musket bullets into water balloons or ocean bullets
+		"Wanna know the trick to induce vomiting?" Leviathan squinted, "Century egg with cheese, guaranteed to turn you into a vomit connoisseur."
 		'''
 }
 
 RLunarianBow: {
-	DisplayName: Arco lunariano
+	DisplayName: Lunarian Bow
 	Tooltip:
 		'''
-		Dispara dos flechas a la vez.
-		Transforma las flechas de madera en rayos de energía que pueden deslizarse por superficies.
-		"Tenemos que entender que esto no es el Filo de la noche. De hecho, el Goobow podría ser incluso mejor que esto".
+		Fires two arrows at once,
+		Transforming wooden arrows into energy beams that can slide along surfaces.
+		"We need to understand, this isn't the Night's Edge. In fact, the Goobow might be even better than this."
 		'''
 }
 
 RMalevolence: {
-	DisplayName: Malevolencia
+	DisplayName: Malevolence
 	Tooltip:
 		'''
-		Dispara dos flechas simultáneamente.
-		Convierte las flechas de madera en flechas plagadas que explotan en abejas al impactar.
-		"Cada abeja ha firmado un contrato laboral, disfrutan de prestaciones de la seguridad social y tienen los fines de semana libres".
+		Fires two arrows simultaneously.
+		Converts wooden arrows into plague arrows that explode into bees upon impact.
+		"Each bee has signed a labor contract, enjoying social insurance benefits and weekends off."
 		'''
 }
 
 RMarksmanBow: {
-	DisplayName: Arco del tirador
+	DisplayName: Marksman Bow
 	Tooltip:
 		'''
-		Cualquier cazador sabe que un disparo rápido y preciso es la clave para una caza exitosa.
-		Cualquier flecha disparada con el arco tendrá la posibilidad de que un espíritu vengativo persiga y se aferre al enemigo.
+		Any Hunter knows that a quick and accurate shot is key to a successful hunt.
+		Any arrow fired out of the bow will have a chance of having a vengeful spirit chase down and latch onto the enemy.
 		'''
 }
 
 RMegalodon: {
-	DisplayName: Megalodón
+	DisplayName: Megalodon
 	Tooltip:
 		'''
-		Cada tercer disparo lanzará un tiburón adicional.
-		Hay un 10% de probabilidad de conservar munición.
-		"Hemos conseguido meter un tiburón ahí, pero ten cuidado de que no te muerda los dedos"
+		Every third shot will launch an additional shark
+		10% chance to conserve ammunition
+		"We successfully fit a shark in there, just be careful not to get your finger bitten off"
 		'''
 }
 
@@ -1443,77 +1444,77 @@ RMidasPrime: {
 	DisplayName: Midas Prime
 	Tooltip:
 		'''
-		Dispara balas de francotirador.
-		Haz clic derecho para lanzar una moneda de oro o plata al aire.
-		Las balas que alcancen la moneda apuntarán hacia el enemigo más cercano.
-		Puedes lanzar hasta 4 monedas, y las balas rebotarán entre varias monedas si es posible.
-		Las balas rebotadas garantizan golpes críticos y aumentarán el daño en función del número de rebotes.
-		"El dinero es poder".
+		Fire the marksman bullet
+		Right-click to toss a gold or silver coin into the air
+		Bullets that hit the coin will aim towards the nearest enemy
+		You can throw up to 4 coins, and bullets will bounce between multiple coins if possible
+		Bouncing bullets are guaranteed to be critical hits and will increase in damage based on the number of bounces
+		"Money is power."
 		'''
 }
 
 RMineralMortar: {
-	DisplayName: Mortero mineral
+	DisplayName: Mineral Mortar
 	Tooltip:
 		'''
-		Lanza un cohete de ónice que causa daños generalizados al explotar.
-		"No puede crear una tormenta de arena, pero puede lanzar a todo el mundo por los aires"
+		Fires a onyx rocket that causes widespread damage when it explodes
+		"It can't create a sandstorm, but it can blast everyone into the sky"
 		'''
 }
 
 RMolecularManipulator: {
-	DisplayName: Manipulador molecular
+	DisplayName: Molecular Manipulatore
 	Tooltip:
 		'''
-		Dispara una bala "de fogueo" que altera las propiedades de los monstruos.
-		"Referencia de objeto no establecida en una instancia de un objeto".
+		Fires a "blank" round that twists the properties of monsters
+		“Object reference not set to an instance of an object”
 		'''
 }
 
 RMonsoon: {
-	DisplayName: Monzón
+	DisplayName: Monsoon
 	Tooltip:
 		'''
-		Dispara cinco flechas en paralelo, con la posibilidad de que aparezca una flecha tiburón o de océano.
-		El clic derecho debe hacer explotar muchas flechas
+		Fire five side-by-side arrows, with a chance of a shark or ocean arrow
+		The right button needs to explode a lot of arrows
 		'''
 }
 
 RNeedler: {
-	DisplayName: Agujadora
+	DisplayName: Needler
 	Tooltip:
 		'''
-		Convierte las balas de mosquete en hojas con forma de aguja que se adhieren a los enemigos para luego explotar.
-		"¿Tormenta de agujas de pino?"
+		Converts musket bullets into needle-like leaves that stick to enemies and explode
+		"Pine Needle Rainstorm?"
 		'''
 }
 
 RNettlevineGreatbow: {
-	DisplayName: Gran arco de enrredadera hortiga
+	DisplayName: Nettlevine Greatbow
 	Tooltip:
 		'''
-		Cualquier flecha disparada con este arco quedará cubierta de ácido venenoso.
-		Después de 4 disparos normales, los 3 siguientes serán flechas perforantes
+		Any arrow shot out of the bow will be coated in Acid Venom
+		After 4 Normal shots, The 3 shots afterwards will instead be piercing greatvines.
 		'''
 }
 
 RNitroExpressRifle: {
-	DisplayName: Rifle Nitro Express
+	DisplayName: Nitro Express Rifle
 	Tooltip:
 		'''
-		Por aplastar el cráneo de un oso.
-		Convierte las balas de mosquete en proyectiles de energía cinética.
-		"Viejo, pero útil".
+		For crushing a bear's skull
+		Turning musket bullets into kinetic energy rounds
+		"Old, but useful."
 		'''
 }
 
 ROnyxChainBlaster: {
-	DisplayName: Bláster de cadenas de ónix
+	DisplayName: Onyx Chain Blaster
 	Tooltip:
 		'''
-		Dispara varias balas y una granada de ónice.
-		Hay un 10% de probabilidad de conservar munición.
-		"Esta cosa tiene un cargador más corto que un chiste, pero al menos te hace reír cuando te quedas sin munición"
+		Fires several bullets and a onyxgrenade
+		10% chance to conserve ammunition
+		"This thing has a magazine shorter than a joke, but at least it can make you laugh when you're out of ammo."
 		'''
 }
 
@@ -1521,8 +1522,8 @@ ROnyxia: {
 	DisplayName: Onyxia
 	Tooltip:
 		'''
-		Desata una lluvia de balas y fragmentos de ónice sobre tus enemigos.
-		"La encarnación del Dragón negro"
+		Unleash a hail of bullets and onyx shards upon your enemies
+		"The incarnation of the Black Dragon"
 		'''
 }
 
@@ -1530,80 +1531,80 @@ RP90: {
 	DisplayName: P90
 	Tooltip:
 		'''
-		Dispara balas perforantes a frecuencias extremadamente altas.
-		Las balas ignorarán 15 puntos de defensa del enemigo.
-		Hay un 35% de probabilidad de conservar munición.
-		"En realidad, lo que ves es el rastro del trazador, por lo que tendrás que pagar 2685$ adicionales por la munición".
+		Fires armor-piercing bullets at extremely high frequencies
+		Bullets will ignore the enemy's 15 points of defense
+		35% chance to conserve ammunition
+		"Actually, what you can see is the tracer trail, so you'll need to pay an extra $2,685 for the ammunition bill."
 		'''
 }
 
 RPearlGod: {
-	DisplayName: Dios perlas
+	DisplayName: Pearl God
 	Tooltip:
 		'''
-		Dispara cinco balas a la vez.
-		Cuando el cargador está vacío, dispara una potente granada expansiva.
-		"Tu vida me pertenece".
+		Fires five bullets at once
+		When the magazine is empty, it fires a powerful shockwave grenade
+		"Your life belongs to me."
 		'''
 }
 
 RPestilentDefiler: {
-	DisplayName: Profanador pestilente
-	Tooltip: Convierte las balas de mosquete en balas plagadas que estallan en fragmentos pestilentes.
+	DisplayName: Pestilent Defiler
+	Tooltip: Converts musket bullets into plague bullets that burst into fragments of plague.
 }
 
 RPhangasm: {
-	DisplayName: Phangasma
-	Tooltip: Las flechas disparadas irán acompañadas de varios proyectiles sombríos para golpear al primer enemigo que atraviesen
+	DisplayName: Phangasm
+	Tooltip: Arrows fired will be accompanied by several shadow stream projectiles to hit the first enemy it passed through
 }
 
 RPlagueTaintedSMG: {
-	DisplayName: Subsusil contaminado de la plaga
+	DisplayName: Plague Tainted SMG
 	Tooltip:
 		'''
-		Haz clic izquierdo para disparar balas infectadas que generan drones que se autodestruyen al impactar haciendo golpes críticos.
-		Los drones tienen una alta probabilidad crítico cuando impactan contra enemigos infectados.
-		Haz clic derecho para lanzar un enjambre de drones.
-		"Apunta y dispara, apunta y dispara".
+		Left-click to fire plague bullets that spawn plague self-destruct drones on critical hits
+		Drones have a high critical hit rate when hitting enemies infected with plague
+		Right-click to launch a swarm of drones
+		"Aim and shoot, aim and shoot."
 		'''
 }
 
 RPlanetaryAnnihilation: {
-	DisplayName: Aniquilación planetaria
-	Tooltip: Invoca flechas del cielo que lloverán sobre tus enemigos. Convierte las flechas de madera en rayos arcoíris teledirigidos.
+	DisplayName: Planetary Annihilation
+	Tooltip: Calls down Arrows from the sky to rain on your enemies. Converts Wooden arrows to homing rainbow bolts.
 }
 
 RPridefulHuntersPlanarRipper: {
-	DisplayName: Desgarrador planal
+	DisplayName: Prideful Hunters Planar Ripper
 	Tooltip:
 		'''
-		Convierte las balas de mosquete en proyectiles eléctricos.
-		La descarga eléctrica es rápida y explota al acabar a un enemigo.
-		Los golpes críticos te otorgan una bonificación de velocidad de ataque acumulable,
-		hasta un 20% de bonificación de velocidad de movimiento y aceleración.
-		Si selecionas otro ítem, se restablece la bonificación.
-		Habrá una ráfaga de balas cada 15 disparos.
-		Hay un 33% de probabilidad de ahorrar munición.
+		Turning musket bullets into lightning rounds
+		The lightning barrage is fast and explodes when it kills an enemy
+		Lightning Critical Strikes give you a stackable speed bonus
+		Gain up to 20% movement speed and acceleration bonus
+		Switching between handheld items resets the bonus
+		There will be a burst of bullets every 15 shots fired
+		33% chance to save ammunition
 		'''
 }
 
 RPristineFury: {
-	DisplayName: Furia cristalina
+	DisplayName: Pristine Fury
 	Tooltip:
 		'''
-		Desata una feroz espiral de llamas que explotan en una columna de fuego. 
-		Además, al hacer clic derecho se lanza una ráfaga de llamas radiantes de corto alcance. 
-		Usa gel como munición.
+		Unleashes a fierce spiral of flames that explode into a column of fire. 
+		Additionally, right-clicking launches a burst of short-range radiant flames. 
+		Using gel as ammunition.
 		'''
 }
 
 RRealmRavager: {
-	DisplayName: Asolador de reinos
+	DisplayName: Realm Ravager
 	Tooltip:
 		'''
-		Dispara de tres a cuatro balas a la vez
-		Convierte las balas de mosquete en balas explosivas
-		"Cuidado con los secretos enterrados dentro de esta arma, ya que el propietario anterior nunca los revelaría. Incluso los fantasmas se reirían si lo supieran".
+		Fires three to four bullets at once
+		Converts musket bullets into explosive rounds
+		"Beware of the secrets buried within this weapon, as the previous owner would never reveal them. Even ghosts would laugh if they knew."
 		'''
 }
 
@@ -1611,29 +1612,29 @@ RRubicoPrime: {
 	DisplayName: Rubico Prime
 	Tooltip:
 		'''
-		Cuando se mantiene inactivo, dispara automáticamente a los enemigos cercanos
-		La munición disparada tienen más probabilidad de hacer críticos
-		"Un verdadero rifle automático debería saber disparar a los enemigos por sí solo"
+		When held idle, it automatically shoots at nearby enemies
+		The ammunition fired has a higher critical hit multiplier
+		"A true automatic rifle should know how to shoot enemies by itself."
 		'''
 }
 
 RSandstormGun: {
-	DisplayName: Tormenta de arena
+	DisplayName: Sandstorm Gune
 	Tooltip:
 		'''
-		Dispara espíritus de arena a la altura del cursor, lanzando numerosas esferas de arena al aire
-		Utiliza bloques de arena como munición
+		Fires Sand Sprites at the cursor's height, throwing numerous sandballs into the air
+		Uses sand blocks as ammunition
 		'''
 }
 
 RScorchedEarth: {
-	DisplayName: Tierra quemada
+	DisplayName: Scorched Earth
 	Tooltip:
 		'''
-		Al hacer clic derecho, se pueden cargar ocho misiles infernales. 
-		Los cohetes, una vez lanzados, se desplazan automáticamente hacia el enemigo. 
-		Tras el impacto, desencadenan una explosión masiva y se dividen en múltiples subcohetes.
-		"Esta cosa seguramente viola varios convenios internacionales".
+		Right-clicking allows the loading of eight Hellfire Mother missiles. 
+		The rockets, once launched, automatically navigate towards the enemy. 
+		Upon impact, they trigger a massive explosion and split into multiple sub-rockets.
+		"This thing surely violates several international conventions."
 		'''
 }
 
@@ -1641,69 +1642,69 @@ RSDFMG: {
 	DisplayName: SDFMG
 	Tooltip:
 		'''
-		Hay una pequeña posibilidad de lanzar un misil de agua que se dirige a los enemigos.
-		"La maravilla de Fishy Gun Dynamics".
+		There is a slight chance to launch a water missile that homes in on enemies.
+		"The wonder of Fishy Gun Dynamics."
 		'''
 }
 
 RSeadragon: {
-	DisplayName: Dragón marino
+	DisplayName: Seadragon
 	Tooltip:
 		'''
-		Dispara burbujas océnicas mientras disparas el arma
-		Las balas de agua se disparan junto con la munición
+		The fire was accompanied by a steady stream of ocean bubbles
+		Water bombs will be unleashed with ammunition
 		'''
 }
 
 RSeasSearing: {
-	DisplayName: Ardor del mar
+	DisplayName: Seas Searing
 	Tooltip:
 		'''
-		Una vez regargas, dispara una ráfaga rápida y convierte la balas en proyectiles marinos.
-		Haz clic derecho para lanzar el Vórtice oceánico.
+		After the loading is complete, a round of rapid fire is carried out to convert the bullet into a sea shell
+		Right click to launch Ocean Vortex
 		'''
 }
 
 RSepticSkewer: {
-	DisplayName: Brocheta séptica
+	DisplayName: Septic Skewer
 	Tooltip:
 		'''
-		Dispara todos los dardos venenosos y pegajosos a la vez
-		Libera bacterias cuando vuelan de regreso al jugador
+		Fires all sticky venomous harpoons at once
+		Releases bacteria when they fly back to the player
 		'''
 }
 
 RShellshooter: {
-	DisplayName: Arcos de conchas
+	DisplayName: Shellshooter
 	Tooltip:
 		'''
-		Dispara flechas lentas pero afiladas.
-		Transforma las flechas de madera en conchas marinas pesadas y penetrantes.
-		"Recién sacado del acuario."
+		Fires slow but sharp arrows,
+		Transforming wooden arrows into heavy, penetrating seashells.
+		"Freshly scooped from the aquarium."
 		'''
 }
 
 RShredder: {
-	DisplayName: Despedazador
+	DisplayName: Shredder
 	Tooltip:
 		'''
-		Dispara un grupo de balas de energía que rebotan y se dividen
-		Haz clic derecho para disparar una ráfaga de balas
-		"Deberíamos estar agradecidos de que la mayoría de las balas aparezcan de la nada, de lo contrario tendríamos que pagar una factura considerable"
+		Fires a cluster of energy bullets that ricochet and split
+		Right-click to fire a volley of bullets
+		"We should be grateful that most bullets appear out of nowhere, otherwise we'd have a hefty arms bill to pay."
 		'''
 }
 
 RShroomer: {
-	DisplayName: Espora mortal
-	Tooltip: Dispara balas junto con potentes hongos rastreadores
+	DisplayName: Shroomer
+	Tooltip: Fires bullets along with powerful tracking mushrooms
 }
 
 RSlagMagnum: {
-	DisplayName: Magnum de escoria
+	DisplayName: Slag Magnum
 	Tooltip:
 		'''
-		Convierte las balas de mosquete en fragmentos fósiles, que generan fragmentos adicionales al impactar
-		"No hay infectados especiales aquí".
+		Converts musket bullets into fossil fragments, which generate additional fossil fragments when hit
+		"There are no special infected people here."
 		'''
 }
 
@@ -1711,165 +1712,165 @@ RSomaPrime: {
 	DisplayName: Soma Prime
 	Tooltip:
 		'''
-		Si la tasa de críticos de esta arma supera el 100%, puede causar un supercrítico
-		Todas las balas disparadas causan un debuff de sangrado acumulable
-		El debuff causa 150 puntos de daño por segundo, que se ve afectado por tu atributo de daño a distancia
-		Cada vez que el sangrado cause daño, existe la posibilidad de que se active un golpe crítico o un supercrítico
-		Convierte las balas de mosquete en balas de alta velocidad
-		Hay un 30% de probabilidades de ahorrar munición
-		"Las fuerzas del mercado dictan que tienes que evolucionar o morir".
+		If this weapon's critical hit rate exceeds 100%, it can cause overkill
+		All fired bullets cause dissociative and stackable bleeding debuffs
+		The dissociative debuff causes 150 points of damage per second, which is affected by your ranged attribute
+		Each time the dissociative debuff causes damage, there is a chance for a critical hit or overkill to trigger
+		Converts musket bullets into high-speed bullets
+		30% chance to save ammunition
+		"Market forces dictate that you need to evolve or die."
 		'''
 }
 
 RSpectralstormCannon: {
-	DisplayName: Cañon de tormenta espectral
+	DisplayName: Spectralstorm Cannon
 	Tooltip:
 		'''
-		Dispara almas perdidas y bengalas
-		"Quisieron eludir el acuerdo, así que usaron bengalas como bombas de napalm, pero acabaron en un chiste".
+		Fires lost souls and flare rounds
+		"They tried to circumvent the convention by using flare rounds as napalm, only to end up with this joke."
 		'''
 }
 
 RSpyker: {
-	DisplayName: Lanzapúas
+	DisplayName: Spyker
 	Tooltip:
 		'''
-		Convierte las balas de mosquete en agujas que se pegan a los enemigos pra luego explotar
-		"Las pruebas sugieren que usar esto para renovar tu hogar puede no ser una buena idea".
+		Converts musket bullets into leaf needles that stick to enemies and explode
+		"Evidence suggests that using this to renovate your home may not be a good idea."
 		'''
 }
 
 RStarfleet: {
-	DisplayName: Flota estelar
-	Tooltip: Dispara varias balas estelares de plasma
+	DisplayName: Starfleet
+	Tooltip: Fires several plasma star bullets
 }
 
 RStarmada: {
-	DisplayName: Armada estelar
-	Tooltip: Lanza estrellas y balas estelares de plasma
+	DisplayName: Starmada
+	Tooltip: Fires stars and plasma star bullets
 }
 
 RStarSputter: {
-	DisplayName: Expulsaestrellas
+	DisplayName: Star Sputter
 	Tooltip:
 		'''
-		Dispara un haz de estrellas fugaces
-		Cada cuarto ataque lanza una estrella fugaz más grande
-		"Contemplando las estrellas centelleantes de galaxias lejanas"
+		Fires a beam of falling stars
+		Every fourth attack launches a larger falling star
+		"Gazing at the twinkling stars of distant galaxies"
 		'''
 }
 
 RStellarCannon: {
-	DisplayName: Cañon estelar
+	DisplayName: Stellar Cannon
 	Tooltip:
 		'''
-		Usa estrellas caídas como munición
-		Dispara un cristal estelar fantasmal explosivo
+		Use the falling Star as ammo
+		Fires an explosive phantom star crystal
 		'''
 }
 
 RStormDragoon: {
-	DisplayName: Dragón tormentoso
+	DisplayName: Storm Dragoon
 	Tooltip:
 		'''
-		Desata las balas como una tormenta de granizo
-		"Soy la tormenta que se acerca"
+		Unleash bullets like a hailstorm
+		"I am the storm that is approaching."
 		'''
 }
 
 RStormSurge: {
-	DisplayName: Oleada tempestuosa
+	DisplayName: Storm Surge
 	Tooltip:
 		'''
-		Dispara un torbellino azul que puede atravesar bloques
-		"Teme y sométete a la tormenta"
+		Fires a blue whirlwind that can penetrate blocks
+		"Fear and submit to the storm"
 		'''
 }
 
 RSulphuricAcidCannon: {
-	DisplayName: Cañon sulfúrico
-	Tooltip: Dispara un bombardeo de ácido sulfúrico que se adhiere a los enemigos, disolviéndolos
+	DisplayName: Sulphuric Acid Cannon
+	Tooltip: Fires a sulfuric acid barrage that sticks to enemies and dissolves them
 }
 
 RSvantechnical: {
-	DisplayName: Svantechnical
+	DisplayName: Svantechnical Gun
 	Tooltip:
 		'''
-		Dispara tres rayos de energía, que se dividen en haces que siguen la posición del cursor.
-		Haz clic derecho para disparar una bala normal.
-		"La tecnología cambia la vida".
+		Fires three energy beams, which split into beams that track the cursor's position.
+		Right-click to fire a regular bullet.
+		"Technology changes life."
 		'''
 }
 
 RTelluricGlare: {
-	DisplayName: Resplador telúrico
+	DisplayName: Telluric Glare
 	Tooltip:
 		'''
-		Dispara varias flechas explosivas de radiación penetrante.
-		"¡Desde las profundidades de la tierra!"
+		Fires several penetrating explosive radiation arrows.
+		"From the depths of the earth!"
 		'''
 }
 
 RTheBallista: {
-	DisplayName: La Balista
+	DisplayName: The Ballista
 	Tooltip:
 		'''
-		Transforma las flechas de madera en flechas de asedio masivas que destrozan 
-		la armadura enemiga y se rompen en fragmentos fósiles al impactar.
-		«De hecho, ni siquiera puede derribar puertas».
+		Transforms wooden arrows into massive siege arrows that shatter 
+		enemy armor and break into fossil fragments upon impact.
+		"In fact, it can't even break down doors."
 		'''
 }
 
 RTheMaelstrom: {
-	DisplayName: Maelstrom
+	DisplayName: The Maelstrom
 	Tooltip:
 		'''
-		Haz clic izquierdo para disparar una flecha de alta presión, liberando una bomba de presión acuática al golpear a un enemigo
-		Haz clic derecho para apuntar y lanzar un Mini tiburón segador que inflige profundidad crítica
+		Left click to fire a fast moving typhoon arrow that explodes on impact with water pressure
+		Right click to aim and launch out a Mini Reaper Shark that inflicts Crush depth
 		'''
 }
 
 RThePack: {
-	DisplayName: La Manada
-	Tooltip: Dispara un gran cohete guiado que explota en cohetes más pequeños al acercarse a los enemigos
+	DisplayName: The Pack
+	Tooltip: Fires a large tracking rocket that explodes into smaller tracking rockets upon approaching enemies
 }
 
 RTheStorm: {
-	DisplayName: La Tormenta
+	DisplayName: The Storm
 	Tooltip:
 		'''
-		Invoca flechas desde arriba que caen sobre tu cursor.
-		Convierte las flechas de madera en flechas eléctricas
+		Calls down Arrows from above to strike down where your mouse cursor is.
+		Converts Wooden Arrows into Lightning arcs
 		'''
 }
 
 RThunderstorm: {
-	DisplayName: Tormenta eléctrica
+	DisplayName: Thunderstorm
 	Tooltip:
 		'''
-		Dispara un impacto electromagnético. Usa magia como munición
-		"Haz que llueva."
+		Fires out an plasma beam that rains down extra plasma on hit. Uses Mana as Ammunition.
+		"Make it rain."
 		'''
 }
 
 RToxibow: {
-	DisplayName: Toxiarco
+	DisplayName: Toxibow
 	Tooltip:
 		'''
-		Transforma las flechas de madera en flechas explosivas lentas que causan radiación.
-		"Rico en sustancias tóxicas."
+		Transforms wooden arrows into slow-moving explosive arrows that cause radiation debuffs.
+		"Rich in toxic substances."
 		'''
 }
 
 RTyrannysEnd: {
-	DisplayName: Fín de la tiranía
+	DisplayName: Tyranny's End
 	Tooltip:
 		'''
-		Un rifle antimaterial extremadamente pesado que convierte balas de mosquete en proyectiles de alta velocidad de calibre 70,
-		atravesando a los enemigos e infligiéndoles Marcado para morir.
-		Después de cada disparo, hacer clic derecho hace que el jugador recargue el rifle para el siguiente disparo.
-		Los disparos se dividen en un enjambre de balas adicionales junto con una explosión áurica.
-		"Perfora el corazón incluso del enemigo más fuertemente blindado."
+		An Extremely Heavy Anti-Materiel rifle that converts Musket Balls to high Velocity .70 Caliber Rounds, 
+		ripping through enemies and inflicting them with Marked for Death
+		After every shot, Right clicking causes the player to reload the rifle for the next shot.
+		Shots split into a swarm of several additional bullets along with an auric blast.
+		"Pierce the heart of even the most heavily-armored foe." 
 		'''
 }
 
@@ -1877,830 +1878,826 @@ RUltima: {
 	DisplayName: Ultima
 	Tooltip:
 		'''
-		Lanza flechas de plasma en ráfagas continuas.
-		A medida que aumenta el tiempo de uso, las flechas de luz se reemplazan por rayos mortales.
-		Al disparar continuamente, las flechas de luz se cargarán para formar un rayo sólido.
-		Hay un 90% de probabilidad de ahorrar munición.
+		Fires continuous plasma beams.
+		As usage time increases, the beams are replaced by laser death rays.
+		Continuously firing charges the beams into solid energy beams.
+		90% chance to conserve ammunition.
 		'''
 }
 
 RUniversalGenesis: {
-	DisplayName: Génesis universal
+	DisplayName: Universal Genesis
 	Tooltip:
 		'''
-		Dispara un grupo de balas, causando que una lluvia de estrellas fugaces descienda hacia el cursor.
-		Convierte las balas de mosquete en balas que invocan estrellas, las cuales generan estrellas adicionales al impactar.
-		"Que las estrellas caigan sobre nuestros enemigos"
+		Fires a cluster of bullets from the muzzle, causing a shower of falling stars to descend towards the mouse cursor
+		Converts musket bullets into star-summoning bullets that summon additional falling stars upon impact
+		"Let the stars fall upon our enemies"
 		'''
 }
 
 RVoidragon: {
-	DisplayName: Dragón del vacío
+	DisplayName: Voidragon
 	Tooltip:
 		'''
-		Cada seis disparos se activará una explosión del vacío.
-		Al golpear a un enemigo, las balas generarán Toques del vacío.
-		"Este pez viene de las estrellas, pero no es ni Omniacia ni un dragón del vacío. Es solo un pez."
+		Every six shots will trigger a Void Burst. 
+		Upon hitting an enemy, bullets will spawn Void Touches on the spot. 
+		"This fish comes from the stars, but it is neither Omnisiah nor Void Dragon. It is just a fish."
 		'''
 }
 
 RVortexpopper: {
-	DisplayName: Estallador de vórtice
+	DisplayName: Vortexpopper
 	Tooltip:
 		'''
-		Haz clic izquierdo para disparar balas de burbujas.
-		Haz clic derecho para disparar en modo automático, generando muchas burbujas en la posición del cursor.
-		"No hay nada como meter una bala en una burbuja."
+		Left click to fire the bubble bullet
+		Right-click for automatic strafing, and generate a lot of bubbles at the mouse
+		"There's nothing like putting a bullet in a bubble."
 		'''
 }
 
 RMagicConch: {
-	DisplayName: Concha mágica
-	Tooltip: Si escuchas con atención, podrás oír el océano.
+	DisplayName: Magic Conch
+	Tooltip: If you listen closely, you can hear the ocean
 }
 
 RFrostcrushValari: {
-	DisplayName: Valari rompehielo
-	Tooltip: El ataque sigiloso lanza un enorme bumerán y dos bumeranes extras que siguen al objetivo
+	DisplayName: Frostcrush Valari
+	Tooltip: A lurking attack throws a giant boomerang and two companion boomerangs that track the target
 }
 
 RWaveSkipper: {
-	DisplayName: Brincaolas
+	DisplayName: Wave Skipper
 	Tooltip:
 		'''
-		Presiona clic izquierdo para lanzar dientes que saltan en la arena. El ataque sigiloso lanza tres dientes grandes de arena.
-		Presiona clic derecho para lanzar dientes de arena rebotadores. El ataque sigiloso hace caer varios dientes de arena rápidamente desde el cielo.
+		The left button fires sand teeth that dive in the sand, and the stealth attack fires three huge sand teeth
+		Right-click to launch bouncing sand teeth, stealth attack to make several fast sand teeth fall from the sky
 		'''
 }
 
 RWarbanneroftheSun: {
-	DisplayName: Estandarte de guerra del sol
+	DisplayName: Warbanner of the Sun
 	Tooltip:
 		'''
-		Aumenta el daño cuerpo a cuerpo, el daño cuerpo a cuerpo verdadero y la velocidad de cuerpo a cuerpo cuanto más cerca estés de los enemigos.
-		El aumento máximo es un 20% de daño cuerpo a cuerpo, daño cuerpo a cuerpo verdadero y velocidad de cuerpo a cuerpo
+		Increases melee damage, true melee damage and melee speed the closer you are to enemies
+		Max boost is 20% increased melee damage, true melee damage and melee speed
 		'''
 }
 
 RAdamantiteRepeater: {
-	DisplayName: Repetidor de adamantita
+	DisplayName: Adamantite Repeater
 	Tooltip:
 		'''
-		Carga y dispara flechas rápidas
-		Hará que la flecha penetre a dos enemigos extra
-		"Una ballesta de adamantita, fuerte y poderosa, ¡fuerte y poderosa!"
+		Fire a fast arrow
+		Will allow arrows to penetrate two enemies additionally
+		"A crossbow made of adamant, powerful, powerful!"
 		'''
 }
 
 RAshWoodBow: {
-	DisplayName: Arco de madera de fresno
+	DisplayName: Ash Wood Bow
 	Tooltip: ""
 }
 
 RBeesKnees: {
-	DisplayName: Rodillas de la abeja
-	Tooltip: Las flechas de madera se convierten en una columna de abejas
+	DisplayName: The Bee's Knees
+	Tooltip: Wooden arrows turn into a column of bees
 }
 
 RBloodRainBow: {
-	DisplayName: Arco de lluvia de sangre
+	DisplayName: Blood Rain Bow
 	Tooltip:
 		'''
-		Llueve sangre del cielo
-		"Un reino de sangre"
+		Rains blood from the sky
+		'Reign in Blood'
 		'''
 }
 
 RBoomstick: {
-	DisplayName: Explosiva
+	DisplayName: Boomstick
 	Tooltip:
 		'''
-		Lanza un grupo de balas
-		"No tengo tiempo para tonterías"
+		Fires a spread of bullets
+		"I have no time."
 		'''
 }
 
 RBorealWoodBow: {
-	DisplayName: Arco de madera boreal
+	DisplayName: Boreal Wood Bow
 	Tooltip: ""
 }
 
 RBubbleGun: {
-	DisplayName: Arma de burbujas
+	DisplayName: Bubble Gun
 	Tooltip:
 		'''
-		Dispara grandes burbujas explosivas oceánicas
-		Pocas burbujas seguirán a los enemigos
-		¿A quién no le gusta jugar con burbujas?
+		Exploding ocean bubbles
+		A few bubbles track enemies
+		Who doesn't like to play with bubbles?
 		'''
 }
 
 RCandyCornRifle: {
-	DisplayName: Fusil de maíz de caramelo
-	Tooltip: Lanza caramelos de maíz, ¡porque los caramelos de maíz son geniales!
+	DisplayName: Candy Corn Rifle
+	Tooltip: Fire the gummy corn, because gummy corn is cool!
 }
 
 RChainGun: {
-	DisplayName: Metralleta
-	Tooltip: Supresión de fuego
+	DisplayName: Chain Gun
+	Tooltip: Suppression by fire
 }
 
 RChlorophyteShotbow: {
-	DisplayName: Arco de clorofita
+	DisplayName: Chlorophyte Shotbow
 	Tooltip:
 		'''
-		Dispara rápidamente varias flechas
-		Convierte flechas de madera en flechas de clorofita
-		"Después de suficiente fotosíntesis, aunque no puede lanzar guisantes, ya es una gran ballesta de múltiples cabezas"
+		Fast scattering of several arrows
+		Convert woodarrows into chlorophytearrow
+		"After sufficient photosynthesis, although it can not shoot peas, it is already an excellent multi-head bow."
 		'''
 }
 
 RClockworkAssaultRifle: {
-	DisplayName: Fusil de asalto de precisión
+	DisplayName: Clockwork Assault Rifle
 	Tooltip:
 		'''
-		Dispara dos balas a la vez
-		"Ahora sé por qué suenan tic-tac, y también sé cómo hacer que se detengan"
+		Fires three bullets were at once
+		"I know why they're ticking, and I know how to make them stop."
 		'''
 }
 
 RCobaltRepeater: {
-	DisplayName: Repetidor de cobalto
+	DisplayName: Cobalt Repeater
 	Tooltip:
 		'''
-		Carga y dispara flechas rápidas
-		"Una ballesta hecha de cobalto, fuerte y poderosa"
+		Fire a fast arrow
+		"A crossbow made of cobalt, powerful."
 		'''
 }
 
 RCoinGun: {
-	DisplayName: Pistola de monedas
+	DisplayName: Coin Gun
 	Tooltip:
 		'''
-		Usa monedas como munición
-		Las monedas de mayor valor infligen más daño
+		Uses coins for ammo
+		Higher valued coins do more damage
 		'''
 }
 
 RCopperBow: {
-	DisplayName: Arco de cobre
+	DisplayName: Copper Bow
 	Tooltip:
 		'''
-		¡Cobre!
-		Las flechas generan algunas monedas de cobre al impactar
+		Copper!
+		Arrows generate several copper coins upon hitting a target.
 		'''
 }
 
 RCutlass: {
-	DisplayName: Alfanje
+	DisplayName: Cutlass
 	Tooltip: ""
 }
 
 RDaedalusStormbow: {
-	DisplayName: Arco de tormentas de Dédalo
+	DisplayName: Daedalus Stormbow
 	Tooltip:
 		'''
-		Haz clic izquierdo para dispersar varias flechas desde el cielo.
-		Haz clic derecho para hacer un disparo rápido y poderoso.
-		"No tiene nada que ver con tormentas, no tiene nada que ver con ángeles."
+		Left click to scatter several arrows from the sky
+		Right-click for a fast and powerful single shot
+		"It has nothing to do with storms, it has nothing to do with angels."
 		'''
 }
 
 RDartPistol: {
-	DisplayName: Pistola de dardos
+	DisplayName: Dart Pistol
 	Tooltip:
 		'''
-		Lanza dardos a una velocidad mayor.
-		Causa solo un 70% de daño al usar dardos malditos como munición
-		"¿Usar un soplador para lanzar dardos? Dios, ¿me pides que mantenga la pólvora en la boca?"
+		Fire the dart at a faster speed
+		CurseDarts only deal 70% damage
+		"Shoot darts from a blowgun? Jesus, you want me to put gunpowder in my mouth?"
 		'''
 }
 
 RDartRifle: {
-	DisplayName: Escopeta de dardos
+	DisplayName: Dart Rifle
 	Tooltip:
 		'''
-		Lanza dardos con mayor daño
-		Ignora hasta 15 puntos de armadura del enemigo
-		"¿Usar un soplador para lanzar dardos? Dios, ¿me pides que mantenga pólvora en la boca?"
+		Fire the dart at a faster speed
+		Dart will ignore the enemy's 15 points of defense
+		"Shoot darts from a blowgun? Jesus, you want me to put gunpowder in my mouth?"
 		'''
 }
 
 RDD2BetsyBow: {
-	DisplayName: Muerte aérea
+	DisplayName: Aerial Bane
 	Tooltip:
 		'''
-		Lanza cinco flechas que pueden dividirse
-		Causa más daño a objetivos en el aire
+		Fires five horizontally splitting arrows.
+		Deals increased damage to airborne targets.
 		'''
 }
 
 RDD2PhoenixBow: {
-	DisplayName: Fénix fantasma
-	Tooltip: Hazte con el poder de llamas inmortales
+	DisplayName: Phantom Phoenix
+	Tooltip: Harnesses the power of undying flames
 }
 
 RDeathSickle: {
-	DisplayName: Hoz mortífera
-	Tooltip: Dispara una hoz letal
+	DisplayName: Death Sickle
+	Tooltip: Shoots a deathly sickle
 }
 
 RDemonBow: {
-	DisplayName: Arco demoníaco
-	Tooltip: ¿Metal demoníaco? Parece una de las maneras menos eficaces de utilizarlo
+	DisplayName: Demon Bow
+	Tooltip: Demonite? Seems like the least efficient use of it.
 }
 
 RDyeTradersScimitar: {
-	DisplayName: Cimitarra exótica
+	DisplayName: Exotic Scimitar
 	Tooltip: ""
 }
 
 REbonwoodBow: {
-	DisplayName: Arco de madera de ébano
+	DisplayName: Ebonwood Bow
 	Tooltip: ""
 }
 
 RElectrosphereLauncher: {
-	DisplayName: Lanzador de electroesferas
+	DisplayName: Electrosphere Launcher
 	Tooltip:
 		'''
-		Lanza tres cohetes que dispersan dispositivos en anillos eléctricos.
-		La explosión del cohete crea un anillo eléctrico que causa daño continuo
-		Se generan arcos eléctricos entre los anillos
-		"¡Técnica de barbacoa alienígena!"
+		Launch a rocket loaded with a galvanic device, which releases the galvanic when it hits the target
+		"Alien barbecue technology!"
 		'''
 }
 
 REnchantedBoomerang: {
-	DisplayName: Bumerán encantado
-	Tooltip: Un ataque sigiloso lanzará rápidamente tres búmeranes, invocando estrellas fugaces al impactar
+	DisplayName: Enchanted Boomerang
+	Tooltip: The lurking attack will quickly throw three boomerangs, which will summon a falling star after hitting the target
 }
 
 RFlamarang: {
-	DisplayName: Bumerán en llamas
-	Tooltip: Un ataque sigiloso lanzará rápidamente tres búmeranes
+	DisplayName: Flamarang
+	Tooltip: A lurking attack will quickly throw three boomerangs, Hit the enemy and produce a detonation
 }
 
 RFlareGun: {
-	DisplayName: Pistola de bengalas
-	Tooltip: '''"No lo confundas con una pistola de señalización"'''
+	DisplayName: Flare Gun
+	Tooltip: Not to be confused with a starting gun!
 }
 
 RFlintlockpistol: {
-	DisplayName: Pistola de pedernal
+	DisplayName: Flintlock Pistol
 	Tooltip: ""
 }
 
 RGatligator: {
-	DisplayName: Cocodrilo metralleta
+	DisplayName: Gatligator
 	Tooltip:
 		'''
-		Me gustan las armas de tiburón, pero amo más a los cocodrilos. 
-		Después de todo, ambos tienen algo en común: pueden morderte los dedos en cualquier momento
+		"I fancy the shark gun, but I'm head over heels for the gator. After all, 
+		they both share a charming trait: potentially biting off the user's fingers at any moment."
 		'''
 }
 
 RGladius: {
-	DisplayName: Gladio
-	Tooltip: Rápido y afilado
+	DisplayName: Gladius
+	Tooltip: Fast and sharp
 }
 
 RGoldBow: {
-	DisplayName: Arco de oro
+	DisplayName: Gold Bow
 	Tooltip:
 		'''
-		¡Oro!
-		Las flechas generan algunas monedas de oro al impactar
+		Gold!
+		Arrows generate several gold coins upon hitting a target.
 		'''
 }
 
 RGrenadeLauncher: {
-	DisplayName: Lanzagranadas
+	DisplayName: Grenade Launcher
 	Tooltip:
 		'''
-		Se puede disparar solo en ángulo
-		Lanza dos granadas en forma de arco
-		Puede lanzar una o dos granadas pequeñas adicionales
-		"Finalmente tenemos una manera fácil de lanzar estas bombas, aunque aún puede lastimarnos"
+		Launched rocket in an arc in the form of a grenade
+		"We finally have a way to launch these bombs with less effort, even though we could still hurt ourselves."
 		'''
 }
 
 RHallowedRepeater: {
-	DisplayName: Repetidor sagrado
+	DisplayName: Hallowed Repeater
 	Tooltip:
 		'''
-		Carga y dispara flechas rápidas
-		Hará que la flecha penetre a dos enemigos extra
-		Además dispara flechas de esencia, flechas sagradas y flechas malditas
-		"Las fuerzas del bien y del mal abren camino a esta flecha"
+		Gather momentum to fire fast arrows
+		Causes arrows to pierce two additional enemies
+		Simultaneously fires additional Spirit arrows, Holy arrows, and cursed fire arrows
+		"The forces of good and evil both clear the path for this arrow"
 		'''
 }
 
 RHandgun: {
-	DisplayName: Pistola
+	DisplayName: Handgun
 	Tooltip: ""
 }
 
 RHeatRay: {
-	DisplayName: Rayo calorífico
+	DisplayName: Heat Ray
 	Tooltip:
 		'''
-		Dispara un rayo calorífico abrasador"
-		"¡¡¡Hooolaaa!!!"
+		Shoots a scorching ray of heat
+		'Oolaa!!'
 		'''
 }
 
 RHellwingBow: {
-	DisplayName: Arco de ala infernal
-	Tooltip: Las flechas de madera se convierten en murciélagos en llamas
+	DisplayName: Hellwing Bow
+	Tooltip: Wooden arrows turn into flaming bats
 }
 
 RIceBow: {
-	DisplayName: Arco de hielo
+	DisplayName: Ice Bow
 	Tooltip:
 		'''
-		¡Hielo!
-		Tiene un poderoso disparo triple
-		Convierte flechas de madera en flechas congeladas
-		Las flechas generan una nube de hielo al impactar
+		Ice!
+		Has a strong triple shot.
+		Turns a wooden arrow into a frost arrow
+		Arrows generate an ice mist upon hitting a target.
 		'''
 }
 
 RIceSickle: {
-	DisplayName: Hoz de hielo
-	Tooltip: Dispara una hoz de hielo
+	DisplayName: Ice Sickle
+	Tooltip: Shoots an icy sickle
 }
 
 RIronBow: {
-	DisplayName: Arco de hierro
+	DisplayName: Iron Bow
 	Tooltip:
 		'''
-		¡Hierro!
-		Las flechas otorgan un beneficio temporal de hierro al jugador al impactar
+		Iron!
+		Arrows grant the player a brief Ironskin buff upon hitting a target.
 		'''
 }
 
 RLaserRifle: {
-	DisplayName: Fusil láser
+	DisplayName: Laser Rifle
 	Tooltip:
 		'''
-		Lanza un láser del ojo de un perdedor
-		"Increíble, ¡ese enorme ojo fue introducido en esta pistola!"
+		Firing a laser from the eyes of one of the vanquished
+		"I can't believe the monster's massive eyes were stuffed into this gun."
 		'''
 }
 
 RLeadBow: {
-	DisplayName: Arco de plomo
+	DisplayName: Lead Bow
 	Tooltip:
 		'''
-		¡Plomo!
-		Las flechas otorgan un beneficio temporal de hierro al jugador al impactar
+		Lead!
+		Arrows grant the player a brief Ironskin buff upon hitting a target.
 		'''
 }
 
 RMarrow: {
-	DisplayName: Médula
+	DisplayName: Marrow
 	Tooltip:
 		'''
-		¡Hueso!
-		Convierte flechas de madera en flechas óseas
-		Las flechas lanzan algunos huesos al impactar
+		Marrow!
+		Turning a wooden arrow into a skeleton arrow
+		Arrows throw out several bones upon hitting a target.
 		'''
 }
 
 RMegashark: {
-	DisplayName: Megatiburón
-	Tooltip: '''"Necesitamos un calibre más grande, ¿no?"'''
+	DisplayName: Megashark
+	Tooltip: '''"We need a bigger picture, don't we?"'''
 }
 
 RMeowmere: {
-	DisplayName: Filomiau
+	DisplayName: Meowmere
 	Tooltip: ""
 }
 
 RMineralSword: {
-	DisplayName: Espada larga de plomo
+	DisplayName: Lead Broadsword
 	Tooltip: ""
 }
 
 RMineralSword2: {
-	DisplayName: Espada larga de estaño
+	DisplayName: Tin Broadsword
 	Tooltip: ""
 }
 
 RMineralSword3: {
-	DisplayName: Espada larga de tungsteno
+	DisplayName: Tungsten Broadsword
 	Tooltip: ""
 }
 
 RMineralSword4: {
-	DisplayName: Espada larga de platino
+	DisplayName: Platinum Broadsword
 	Tooltip: ""
 }
 
 RMineralSword5: {
-	DisplayName: Espada larga de oro
+	DisplayName: Gold Broadsword
 	Tooltip: ""
 }
 
 RMineralSword6: {
-	DisplayName: Espada larga de hierro
+	DisplayName: Iron Broadsword
 	Tooltip: ""
 }
 
 RMineralSword7: {
-	DisplayName: Espada larga de cobre
+	DisplayName: Copper Broadsword
 	Tooltip: ""
 }
 
 RMineralSword8: {
-	DisplayName: Espada larga de plata
+	DisplayName: Silver Broadsword
 	Tooltip: ""
 }
 
 RMineralSword9: {
-	DisplayName: Espada de cactus
+	DisplayName: Cactus Sword
 	Tooltip: ""
 }
 
 RMinishark: {
-	DisplayName: Minitiburón
-	Tooltip: '''"El pequeño tiburón tiene un trabajo en el campo de tiro, su responsabilidad es ser un asesor de “fuego”"'''
+	DisplayName: Minishark
+	Tooltip: '''"Worth mentioning, little sharky has a gig at the shooting range, playing the role of a 'firearms consultant.'"'''
 }
 
 RMoltenFury: {
-	DisplayName: Furia fundida
+	DisplayName: Molten Fury
 	Tooltip:
 		'''
-		Convierte flechas de madera en flechas de fuego
-		Convierte flechas de llamas en flechas del inframundo
+		Convert wood arrows into fire arrows
+		Turn the flame arrow into a prison arrow
 		'''
 }
 
 RMusket: {
-	DisplayName: Mosquete
-	Tooltip: El miliciano dice que debo estar preparado
+	DisplayName: Musket
+	Tooltip: '''"The militia said, 'I must be ready.'"'''
 }
 
 RMythrilRepeater: {
-	DisplayName: Repetidor de mithril
+	DisplayName: Mythril Repeater
 	Tooltip:
 		'''
-		Carga y dispara flechas rápidas
-		Hará que la flecha penetre a un enemigo extra
-		"Una ballesta de mithril, aún más fuerte y poderosa"
+		Fire a fast arrow
+		Will cause the arrow to penetrate an enemy additionally
+		"A crossbow made of mithril, stronger and more powerful."
 		'''
 }
 
 RNailGun: {
-	DisplayName: Pistola de clavos
+	DisplayName: Nail Gun
 	Tooltip:
 		'''
-		Lanza un gran clavo que, al golpear a un enemigo, explota en tres clavos explosivos.
-		Los grandes clavos que no golpeen al enemigo también explotarán después de un tiempo.
-		"Los clavos que saqué de la cabeza del clavo tienen un gran efecto, ahora probemos a hacer más cabezas de clavo"
+		Fire a large nail, blasting three explosive nails into the enemy's head when it hits
+		Large nails that miss the enemy will also explode after a period of time
+		"Plucked from the of Nail Heads are incredibly effective. Now let's create more Nail Heads."
 		'''
 }
 
 ROnyxBlaster: {
-	DisplayName: Desintegrador de ónice
+	DisplayName: Onyx Blaster
 	Tooltip:
 		'''
-		Convierte los disparos en balas de ónice
-		"Una energía oscura emana de la pistola"
+		Turn a bullet into a blackbolt
+		"Dark energy bursts from the gun"
 		'''
 }
 
 ROrichalcumRepeater: {
-	DisplayName: Repetidor de oricalco
+	DisplayName: Orichalcum Repeater
 	Tooltip:
 		'''
-		Dispara de manera estable dos flechas dispersas
-		"Una ballesta de oricalco, capaz de dominar completamente la técnica de dispersar dos flechas"
+		Firing two scattered arrows
+		"A crossbow made of orichalcum enables you to fully master the art of two-arrow scattering."
 		'''
 }
 
 RPalladiumRepeater: {
-	DisplayName: Repetidor de paladio
+	DisplayName: Palladium Repeater
 	Tooltip:
 		'''
-		Con la posibilidad de disparar dos flechas dispersas
-		"Una ballesta de paladio, capaz de dominar la técnica de dispersar dos flechas"
+		Fire one or two scattered arrows
+		"A crossbow made of palladium will give you a rudimentary grasp of the art of two-arrow scattering."
 		'''
 }
 
 RPalmWoodBow: {
-	DisplayName: Arco de madera de palmera
+	DisplayName: Palm Wood Bow
 	Tooltip: ""
 }
 
 RPearlwoodBow: {
-	DisplayName: Arco de madera perlada
+	DisplayName: Pearlwood Bow
 	Tooltip: ""
 }
 
 RPhaseblade: {
-	DisplayName: Espada de luz blanca
+	DisplayName: White Phaseblade
 	Tooltip: ""
 }
 
 RPhaseblade2: {
-	DisplayName: Espada de luz morada
+	DisplayName: Purple Phaseblade
 	Tooltip: ""
 }
 
 RPhaseblade3: {
-	DisplayName: Espada de luz naranja
+	DisplayName: Orange Phaseblade
 	Tooltip: ""
 }
 
 RPhaseblade4: {
-	DisplayName: Espada de luz azul
+	DisplayName: Blue Phaseblade
 	Tooltip: ""
 }
 
 RPhaseblade5: {
-	DisplayName: Espada de luz verde
+	DisplayName: Green Phaseblade
 	Tooltip: ""
 }
 
 RPhaseblade6: {
-	DisplayName: Espada de luz roja
+	DisplayName: Red Phaseblade
 	Tooltip: ""
 }
 
 RPhaseblade7: {
-	DisplayName: Espada de luz amarilla
+	DisplayName: Yellow Phaseblade
 	Tooltip: ""
 }
 
 RPhasesaber: {
-	DisplayName: Sable de luz blanco
+	DisplayName: White Phasesaber
 	Tooltip: ""
 }
 
 RPhasesaber2: {
-	DisplayName: Sable de luz morado
+	DisplayName: Purple Phasesaber
 	Tooltip: ""
 }
 
 RPhasesaber3: {
-	DisplayName: Sable de luz naranja
+	DisplayName: Orange Phasesaber
 	Tooltip: ""
 }
 
 RPhasesaber4: {
-	DisplayName: Sable de luz azul
+	DisplayName: Blue Phasesaber
 	Tooltip: ""
 }
 
 RPhasesaber5: {
-	DisplayName: Sable de luz verde
+	DisplayName: Green Phasesaber
 	Tooltip: ""
 }
 
 RPhasesaber6: {
-	DisplayName: Sable de luz rojo
+	DisplayName: Red Phasesaber
 	Tooltip: ""
 }
 
 RPhasesaber7: {
-	DisplayName: Sable de luz amarillo
+	DisplayName: Yellow Phasesaber
 	Tooltip: ""
 }
 
 RPhoenixBlaster: {
-	DisplayName: Desintegrador Fénix
-	Tooltip: ¿Las armas del inframundo no pueden controlar el fuego? En realidad, las balas no pueden soportar este calor
+	DisplayName: Phoenix Blaster
+	Tooltip: '''"Hellstone weapons can't control fire? In fact, the bullet cannot withstand the heat."'''
 }
 
 RPlatinumBow: {
-	DisplayName: Arco de platino
+	DisplayName: Platinum Bow
 	Tooltip:
 		'''
-		¡Platino!
-		Las flechas generan algunas monedas de oro al impactar
+		Platinum!
+		Arrows generate several gold coins upon hitting a target.
 		'''
 }
 
 RProximityMineLauncher: {
-	DisplayName: Lanzaminas de proximidad
+	DisplayName: Proximity Mine Launcher
 	Tooltip:
 		'''
-		Lanza minas de proximidad que infligen mucho daño. Al camuflarse, inflingen más daño.
-		"Vamos a jugar al buscaminas"
+		Launch mine sensing rockets, which camouflage themselves and increase damage
+		"Let's play minesweeper."
 		'''
 }
 
 RPulseBow: {
-	DisplayName: Arco de pulsos
-	Tooltip: Dispara una flecha cargada
+	DisplayName: Pulse Bow
+	Tooltip: Shoots a charged arrow
 }
 
 RQuadBarrelShotgun: {
-	DisplayName: Escopeta de cuatro cañones
+	DisplayName: Quad-Barrel Shotgun
 	Tooltip:
 		'''
-		Lanza dos disparos inexactos a la vez.
-		"Pon el cañón en los ojos de esos monstruos, así no necesitas apuntar"
+		Fires a spread of bullets
+		"Stick the barrel in the monster's eye so you don't need to aim."
 		'''
 }
 
 RRedRyder: {
-	DisplayName: Jinete rojo
-	Tooltip: ¡No te dispares a los ojos!
+	DisplayName: Red Ryder
+	Tooltip: “Don't shoot your own eyeballs out！”
 }
 
 RRevolver: {
-	DisplayName: Revólver
-	Tooltip: “Amigo, esto no es una película del oeste, las balas necesitan ser cargadas una a una”
+	DisplayName: Revolver
+	Tooltip: Hey buddy, this ain't no Wild West flick, bullets gotta be loaded one by one
 }
 
 RRichMahoganyBow: {
-	DisplayName: Arco de madera de caoba rica
+	DisplayName: Rich Mahogany Bow
 	Tooltip: ""
 }
 
 RRocketLauncher: {
-	DisplayName: Lanzacohetes
+	DisplayName: Rocket Launcher
 	Tooltip:
 		'''
-		Carga y lanza un cohete
-		Si mantienes presionado atacar después de que el cohete impacte, lanza varias cohetes pequeños adicionales
-		"Apuesto a que no será detenido por el suelo"
+		Charge up to fire a rocket.
+		After the rocket hits, continue holding the button to launch several smaller auxiliary rockets.
+		"I bet it won't get caught in the bed."
 		'''
 }
 
 RSandgunTheUndertaker: {
-	DisplayName: Pistola de arena
+	DisplayName: Sandgun
 	Tooltip:
 		'''
-		Haz clic derecho para disparar más balas de arena
-		"Llévalo y escóndete en la arena, así podrás pretender ser un hormiguero"
+		Right click to scatter more sand bombs
+		"Take it and bury yourself in the sand so you can pretend to be an antlion."
 		'''
 }
 
 RSDMG: {
-	DisplayName: ADEE
+	DisplayName: S.D.M.G.
 	Tooltip:
 		'''
-		Dispara balas a una velocidad extremadamente rápida
-		"Viene de la frontera estelar"
+		Firing bullets at great speed
+		66% chance not to consume ammo
+		"It came from the Starbound."
 		'''
 }
 
 RShadewoodBow: {
-	DisplayName: Arco de madera sombría
+	DisplayName: Shadewood Bow
 	Tooltip: ""
 }
 
 RShadowFlameBow: {
-	DisplayName: Arco de Llamas oscuras
+	DisplayName: Shadowflame Bow
 	Tooltip:
 		'''
-		Lanza flechas de llamas oscuras
-		"Viene de una bruja"
+		Fires shadowflame arrows.
+		"From a witch's hands."
 		'''
 }
 
 RShotgun: {
-	DisplayName: Escopeta
+	DisplayName: Shotgun
 	Tooltip:
 		'''
-		Realiza dos disparos aa la vez.
-		"El armero espera que estas armas tengan más cañones, así sus balas se venderán mejor"
+		Fires a spread of bullets
+		"The arms dealer wanted these guns to have more barrels so that his bullets would sell better."
 		'''
 }
 
 RShroomerang: {
-	DisplayName: Champiñerán
-	Tooltip: El ataque sigiloso liberará bombas de esporas fúngicas
+	DisplayName: Shroomerang
+	Tooltip: A latent attack will release the mushroom spore bomb
 }
 
 RSilverBow: {
-	DisplayName: Arco de plata
+	DisplayName: Silver Bow
 	Tooltip:
 		'''
-		¡Plata!
-		Las flechas generan algunas monedas de plata al impactar
+		Silver!
+		Arrows generate several silver coins upon hitting a target.
 		'''
 }
 
 RSniperRifle: {
-	DisplayName: Fusil de francotirador
+	DisplayName: Sniper Rifle
 	Tooltip:
 		'''
-		Las balas de mosquete o balas de francotirador se convierten en balas de alta velocidad.
-		La precisión y el daño aumentan con el tiempo de apuntado.
-		Tiene un cargador de cuatro balas, las tres primeras no harán críticos, la cuarta si
-		Las balas disparadas ignorarán la armadura del objetivo
-		Las monturas afectarán a la precisión de esta arma.
-		—— El tiempo ha reducido al eficacia de esta arma a la mitad
-		"Cuando la retícula te apunte, la muerte besará tu frente."
+		Musket bullets or marksman bullets are converted into high velocity bullets
+		Accuracy and damage increase with the duration of aiming.
+		The magazine holds four bullets, with the first three unable to trigger critical hits, but the fourth is guaranteed to be a critical hit.
+		Bullets fired will ignore the target armor
+		Mounted creatures will affect the accuracy of this precision weapon.
+		The weapon's power has been halved over time.
+		“When the cross locks you, Death will kiss your forehead.”
 		'''
 }
 
 RSnowballCannon: {
-	DisplayName: Cañón de bolas de nieve
+	DisplayName: Snowball Cannon
 	Tooltip:
 		'''
-		Usa bolas de nieve como munición
-		"Sabes, meter bolas de nieve aquí es frío para las manos, así que solo puedo meter unas pocas a la vez"
+		Use snowballs as ammunition
+		"It's freezing to put snowballs in there, so I can only put a little at a time."
 		'''
 }
 
 RSnowmanCannon: {
-	DisplayName: Cañón de muñecos de nieve
+	DisplayName: Snowman Cannon
 	Tooltip:
 		'''
-		Lanza misiles de muñeco de nieve
-		Puede lanzar un gran misil de muñeco de nieve lentamente
-		"Amigo, este es tu regalo de Navidad"
+		Fire three tracking Yeti rockets
+		"Dude, this is your Christmas present."
 		'''
 }
 
 RSpaceGun: {
-	DisplayName: Pistola espacial
+	DisplayName: Space Gun
 	Tooltip: ""
 }
 
 RSpear: {
-	DisplayName: Lanza
-	Tooltip: Un ataque sigiloso lanzará una lanza poderosa
+	DisplayName: Spear
+	Tooltip: A lurking attack will throw a powerful spear
 }
 
 RStakeLauncher: {
-	DisplayName: Lanzaestacas
+	DisplayName: Stake Launcher
 	Tooltip:
 		'''
-		Lanza estacas penetrantes
-		Las estacas se consideran arcos, pero eso no significa que no puedas ponerle una mira
-		"La única forma de matar a un vampiro es atravesarle el corazón con una estaca de madera, pero un vampiro tampoco sobreviviría"
+		Launch penetrating pickets
+		Pickets are considered bows, but that doesn't mean you can't fit a scope
+		"The only way to kill a vampire once and for all is to put a wooden picket through its heart, 
+		but you can't live if you are not a vampire."
 		'''
 }
 
 RStarCannon: {
-	DisplayName: Cañón de estrellas
+	DisplayName: Star Cannon
 	Tooltip:
 		'''
-		Lanza estrellas
-		"La luz de las estrellas iluminará el camino"
+		Launch stars
+		"Starlight will shine ahead."
 		'''
 }
 
 RStarWrath: {
-	DisplayName: Ira estelar
-	Tooltip: Provoca que lluevan estrellas del cielo
+	DisplayName: Star Wrath
+	Tooltip: Causes stars to rain from the sky
 }
 
 RSuperStarCannon: {
-	DisplayName: Tirador superestrella
+	DisplayName: Super Star Shooter
 	Tooltip:
 		'''
-		Lanza estrellas
-		"Ahora tenemos un lanzador de estrellas más grande y potente"
+		Launch stars
+		"Now we have a bigger and more powerful star launcher."
 		'''
 }
 
 RTacticalShotgun: {
-	DisplayName: Escopeta táctica
+	DisplayName: Tactical Shotgun
 	Tooltip:
 		'''
-		Lanza dos disparos a la vez
-		Ignora 15 puntos de defensa al atacar a corta distancia
-		"No hay nada que no se pueda resolver con un disparo a quemarropa, y si lo hay, dispara varias veces más"
+		Fires a spread of bullets
+		"All fear comes from insufficient firepower, if not, it must be insufficient firepower."
 		'''
 }
 
 RTendonBow: {
-	DisplayName: Arco de tendón
+	DisplayName: Tendon Bow
 	Tooltip:
 		'''
-		Los demonios susurran al oído
-		Las flechas otorgan un beneficio temporal de miedo al jugador al impactar
+		Demons whisper in your ears.
+		Arrows grant the player a brief Frightened buff upon hitting a target.
 		'''
 }
 
 RTheUndertaker: {
-	DisplayName: El enterrador
-	Tooltip: Cuando las funerarias ven que sus clientes son poco cooperativos, a menudo utilizan esto para calmarlos.
+	DisplayName: The Undertaker
+	Tooltip: '''"When the undertakers find their clients uncooperative, they often use this this to calm them down"'''
 }
 
 RTinBow: {
-	DisplayName: Arco de estaño
+	DisplayName: Tin Bow
 	Tooltip:
 		'''
-		¡Estaño!
-		Las flechas generan algunas monedas de cobre al impactar
+		Tin!
+		Arrows generate several copper coins upon hitting a target.
 		'''
 }
 
 RTitaniumRepeater: {
-	DisplayName: Repetidor de titanio
+	DisplayName: Titanium Repeater
 	Tooltip:
 		'''
-		Dispara dos o tres flechas dispersas
-		"Una ballesta de titanio, te das cuenta de que dispersar dos flechas es fácil, así que intentas con tres"
+		Firing two or three scattered arrows
+		"With a crossbow made of titanium, you find that two arrows can easily miss the target, so you try three."
 		'''
 }
 
@@ -2708,17 +2705,17 @@ RTsunami: {
 	DisplayName: Tsunami
 	Tooltip:
 		'''
-		Dispara cinco flechas en fila
-		Presiona el botón derecho para cargar y explotar muchas flechas
+		Fire five side-by-side arrows
+		Right - button power unleashes a barrage of arrows
 		'''
 }
 
 RTungstenBow: {
-	DisplayName: Arco de tungsteno
+	DisplayName: Tungsten Bow
 	Tooltip:
 		'''
-		¡Tungsteno!
-		Las flechas generan algunas monedas de plata al impactar
+		Tungsten!
+		Arrows generate several silver coins upon hitting a target.
 		'''
 }
 
@@ -2726,8 +2723,8 @@ RUzi: {
 	DisplayName: Uzi
 	Tooltip:
 		'''
-		Convierte balas normales en balas de alta velocidad
-		"Compacto y letal, no usar dos a la vez es un desperdicio"
+		Converting ordinary bullets into high-speed bullets
+		"Lightweight and lethal, not holding it double is simply a waste of it."
 		'''
 }
 
@@ -2735,233 +2732,233 @@ RVenusMagnum: {
 	DisplayName: Venus Magnum
 	Tooltip:
 		'''
-		Convierte balas normales en balas de alta velocidad
-		"Transforma el amor en energía cinética de balas, eso dice Venus"
+		Converting ordinary bullets into high-speed bullets
+		"Turn love into the kinetic energy of a bullet, says Venus."
 		'''
 }
 
 RVortexBeater: {
-	DisplayName: Golpeador del vórtice
+	DisplayName: Vortex Beater
 	Tooltip:
 		'''
-		Lanza misiles de vórtice a intervalos
-		Pulsa el botón derecho para lanzar misiles de vórtice a plena potencia
+		Launch Vortex Rocket at a certain frequency
+		Right click launch Vortex Rocket at full power
 		'''
 }
 
 RWoodenBoomerang: {
-	DisplayName: Bumerán de madera
-	Tooltip: Un ataque sigiloso lanzará rápidamente tres búmeranes
+	DisplayName: Wooden Boomerang
+	Tooltip: A lurking attack will quickly throw three boomerangs
 }
 
 RWoodenBow: {
-	DisplayName: Arco de madera
+	DisplayName: Wooden Bow
 	Tooltip:
 		'''
-		El viaje del ranger está a punto de comenzar
-		Las flechas se convertirán en bellotas al impactar
+		The journey of the ranger is about to begin.
+		Arrows transform into acorns upon hitting targets.
 		'''
 }
 
 RWoodenSword: {
-	DisplayName: Espada de madera
+	DisplayName: Wooden Sword
 	Tooltip: ""
 }
 
 RWoodenSword2: {
-	DisplayName: Espada de madera de ébano
+	DisplayName: Ebonwood Sword
 	Tooltip: ""
 }
 
 RWoodenSword3: {
-	DisplayName: Espada de madera de caoba rica
+	DisplayName: Rich Mahogany Sword
 	Tooltip: ""
 }
 
 RWoodenSword4: {
-	DisplayName: Espada de madera perlada
+	DisplayName: Pearlwood Sword
 	Tooltip: ""
 }
 
 RWoodenSword5: {
-	DisplayName: Espada de madera sombría
+	DisplayName: Shadewood Sword
 	Tooltip: ""
 }
 
 RWoodenSword6: {
-	DisplayName: Espada de madera de palmera
+	DisplayName: Palm Wood Sword
 	Tooltip: ""
 }
 
 RWoodenSword7: {
-	DisplayName: Espada de madera boreal
+	DisplayName: Boreal Wood Sword
 	Tooltip: ""
 }
 
 RWoodenSword8: {
-	DisplayName: Espada de madera de fresno
+	DisplayName: Ash Wood Sword
 	Tooltip: ""
 }
 
 RXenopopper: {
-	DisplayName: Xenolanzador
+	DisplayName: Xenopopper
 	Tooltip:
 		'''
-		Haz clic izquierdo para disparar balas de burbujas.
-		Haz clic derecho para crear una lluvia de disparos automática.
-		"No hay nada como llenar burbujas con balas."
+		Left-click to shoot bubble bullets.
+		Right-click for full-auto barrage.
+		"There's nothing quite like stuffing bullets into bubbles."
 		'''
 }
 
 RZapinatorGray: {
-	DisplayName: Zapinador gris
-	Tooltip: Esta es tu luz de la suerte
+	DisplayName: Gray Zapinator
+	Tooltip: This is your lucky light
 }
 
 RZapinatorOrange: {
-	DisplayName: Zapinador naranja
-	Tooltip: Esta es tu luz de la suerte
+	DisplayName: Orange Zapinator
+	Tooltip: This is your lucky light
 }
 
 REviscerator: {
-	DisplayName: El Eviscerador
+	DisplayName: Eviscerator
 	Tooltip:
 		'''
-		Convierte balas de mosquete en bombas de sangre
-		"De los alienígenas, para exterminar alienígenas"
+		Turns Musket Bullets into Blood Bombs.
+		"From the Xenos, to annihilate the Xenos."
 		'''
 }
 
 RStarfury: {
-	DisplayName: Furia de las estrellas
+	DisplayName: Star fury
 	Tooltip:
 		'''
-		Hace que lluevan estrellas del cielo
-		"Forjada por la furia del cielo."
+		Make the stars fall from the sky
+		"Forged with the wrath of heaven."
 		'''
 }
 
 RDemonConch: {
-	DisplayName: Caracola demoníaca
+	DisplayName: Demon Conch
 	Tooltip:
 		'''
-		Si escuchas con atención, oirás gritos
-		"Cuidado con donde pisas"
+		Listen carefully, and you'll hear screams
+		"Be careful"
 		'''
 }
 
 REssenceFlayer: {
-	DisplayName: Desollador de esencia
+	DisplayName: Essence Flayer
 	Tooltip:
 		'''
-		Lanza la Guadaña de esencia, que liberará luz curativa al matar enemigos
-		"Es ineficaz contra criaturas no muertas"
+		Launch the Essence Scythe, which will release healing light when killing enemies
+		"Ineffective on undead creatures"
 		'''
 }
 
-ModifyShroomiteMask.UpdateArmorText: Se genera una lluvia de hongos persistente durante la recarga
-ModifyMythrilHood.UpdateArmorText: Durante la regarga, recibir daño liberará una gran cantidad de chispas de mithril..
-ModifyCobaltMask.UpdateArmorText: Durante la recarga, la velocidad de movimiento aumuenta un 15%
-ModifyOrichalcumHelmet.UpdateArmorText: Durante la recarga, recibir daño hará que una gran cantidad de pétalos se dispersen y salpiquen.
-ModifyPalladiumHelmet.UpdateArmorText: Durante la recarga, la vida se rellenará más rápidamente.
-ModifyChlorophyteHelmet.UpdateArmorText: Durante la recarga, se liberará una nube de esporas persistente.
+ModifyShroomiteMask.UpdateArmorText: A lingering mushroom barrage is generated during reloading
+ModifyMythrilHood.UpdateArmorText: During the reloading process, taking damage will release a large number of Mythril Sparks.
+ModifyCobaltMask.UpdateArmorText: During the reloading process, 15% increased movement speed.
+ModifyOrichalcumHelmet.UpdateArmorText: During the reloading process, taking damage will cause a large number of petals to scatter and splatter.
+ModifyPalladiumHelmet.UpdateArmorText: During the reloading process, health will be restored more quickly.
+ModifyChlorophyteHelmet.UpdateArmorText: During the reloading process, a lingering spore cloud will be released.
 
 ModifyChargingStationItem: {
-	DisplayName: Estación de carga
+	DisplayName: Charging Station
 	Tooltip:
 		'''
-		Usa electricidad para cargar dispositivos eléctricos
-		Las baterías se pueden colocar dentro para almacenar electricidad.
-		Se puede conectar a tuberías para transmitir energía.
-		Haz clic derecho en la estación mientras sostienes un objeto recargable para colocarlo rápidamente.
-		Haz Shift + clic derecho para recuperar los objetos
+		Uses electricity to charge electrical devices  
+		Batteries can be placed inside to store electricity  
+		Can be connected to pipelines for power transmission  
+		Right-click the block while holding a rechargeable item to quickly insert it  
+		Shift + Right-click to retrieve items
 		'''
 }
 
 ModifyLaserTurret: {
-	DisplayName: Torreta láser
+	DisplayName: Laser Turret
 	Tooltip:
 		'''
-		Dispara láseres a la velocidad del rayo a los enemigos cercanos
-		Requiere energía para funcionar
+		Fires lightning-fast lasers at nearby enemies
+		Requires energy to operate
 		'''
 }
 
 ModifyLabTurret: {
-	DisplayName: Torreta del laboratorio
+	DisplayName: Lab Turret
 	Tooltip:
 		'''
-		Dispara láseres a los enemigos cercanos
-		Requiere energía para funcionar
+		Fires lasers at nearby enemies
+		Requires energy to operate
 		'''
 }
 
 ModifyIceTurret: {
-	DisplayName: Torreta de esferas de hielo
+	DisplayName: Ice Ball Turret
 	Tooltip:
 		'''
-		Lanza frágiles bombas heladas neblinosas a los enemigos cercanos
-		Requiere energía para funcionar
+		Throws fragile ice mist bombs at nearby enemies
+		Requires energy to operate
 		'''
 }
 
 ModifyOnyxTurret: {
-	DisplayName: Torreta de ónice
+	DisplayName: Onyx Turret
 	Tooltip:
 		'''
-		Dispara balas a los enemigos cercanos que se dispersan como las balas de una escopeta
-		Requiere energía para funcionar
+		Fires bullets at nearby enemies in a shotgun spread
+		Requires energy to operate
 		'''
 }
 
 ModifyPlagueTurret: {
-	DisplayName: Torreta bombardera de plaga
+	DisplayName: Plague Bomb Turret
 	Tooltip:
 		'''
-		Dispara misiles plagados guiados a los enemigos cercanos
-		Requiere energía para funcionar
+		Fires tracking plague missiles at nearby enemies
+		Requires energy to operate
 		'''
 }
 
 ModifyWaterTurret: {
-	DisplayName: Torreta de chorro de agua
+	DisplayName: Water Stream Turret
 	Tooltip:
 		'''
-		Rocía chorros de agua a alta velocidad a los enemigos cercanos
-		Requiere energía para funcionar
+		Sprays high-speed water streams at nearby enemies
+		Requires energy to operate
 		'''
 }
 
 ModifyFireTurret: {
-	DisplayName: Torreta lanzallamas
+	DisplayName: Flamethrower Turret
 	Tooltip:
 		'''
-		Incinera a los enemigos cercanos con un lanzallamas de alta potencia
-		Requiere energía para funcionar
+		Incinerates nearby enemies with a high-powered flamethrower
+		Requires energy to operate
 		'''
 }
 
 RCoal: {
-	DisplayName: Carbón
-	Tooltip: Bueno como combustible
+	DisplayName: Coal
+	Tooltip: Good for fuel
 }
 
 ModifyBananarang: {
-	DisplayName: Bumerán plátano
+	DisplayName: Bananarang
 	Tooltip:
 		'''
-		Los ataques sigilosos lanzan tres enormes búmeranes que disparan una gran cantidad de bombas felices al aire al golpear a los enemigos.
-		Las bombas felices infligen un daño significativo a los enemigos, pero también pueden dañar a los jugadores y criaturas amistosas.
-		"La felicidad y el peligro siempre coexisten, ¿verdad?"
+		Stealth attacks throw three massive boomerangs that launch a large number of Happy Bombs into the air upon hitting enemies.
+		Happy Bombs deal significant damage to enemies but can also harm players and friendly creatures.
+		"Happiness and danger always coexist, don't they?"
 		'''
 }
 
 ModifyIceBoomerang: {
-	DisplayName: Bumerán de hielo
+	DisplayName: Ice Boomerang
 	Tooltip:
 		'''
-		Los ataques sigilosos lanzan tres enormes búmeranes que crean una niebla helada al impactar en los enemigos.
-		"Está demasiado frío para sostenerlo."
+		Stealth attacks throw three massive boomerangs that create a freezing mist upon hitting enemies.
+		"Quite chilly to hold."
 		'''
 }
 
@@ -2969,45 +2966,45 @@ ModifyTrimarang: {
 	DisplayName: Trimarang
 	Tooltip:
 		'''
-		Lanza búmeranes en tres direcciones diferentes.
-		Los ataques sigilosos agrandan los búmeranes y hacen que generen tres efectos aleatorios al golpear a los enemigos.
-		"Los adultos no toman decisiones, así que ataste tus tres boomerangs favoritos juntos."
+		Throws boomerangs in three different directions.
+		Stealth attacks enlarge the boomerangs and cause them to generate three random effects upon hitting enemies.
+		"Adults don’t make choices, so you tied your three favorite boomerangs together."
 		'''
 }
 
-ModifyAncientNecroHelmet.UpdateArmorText: Durante la recarga, si te hieren, se lanzará un montón de huesos.
-ModifyNecroHelmet.UpdateArmorText: Durante la recarga, si te hieren, se lanzará un montón de huesos.
+ModifyAncientNecroHelmet.UpdateArmorText: During the reloading process, if you are injured, a pile of bones will be thrown out.
+ModifyNecroHelmet.UpdateArmorText: During the reloading process, if you are injured, a pile of bones will be thrown out.
 
 RSylvestaff: {
-	DisplayName: Bastón silvestre
+	DisplayName: Sylveon Staff
 	Tooltip:
 		'''
-		Lanza un rayo radiante de luz lunar que se divide en proyectiles de luz estelar cuando está cerca de los enemigos.
-		     						"¡El poder de la elegancia, floreciendo a la luz de la luna!"
+		Fires a radiant beam of moonlight that splits into starlight projectiles when near enemies
+		    		"The power of elegance, blooming in moonlight!"
 		'''
 }
 
 RSuperradiantSlaughterer: {
-	DisplayName: Masacrador radiante
+	DisplayName: Superradiant Sawblade
 	Tooltip:
 		'''
 		[MAIN]
 		[ALT]
-		[c/ad1717:"El manual nunca dijo que no pudieras usarlo en personas."]
+		[c/ad1717:"The manual never said you couldn't use it on people."]
 		'''
 	MainInfo:
 		'''
-		Mantén presionado clic izquierdo para hacer girar una sierra elemental de corto alcance.
-		Suelta el clic izquierdo para lanzar la sierra, que rebota en el terreno y desgarra a los enemigos.
-		La sierra regresa cuando deja de moverse, liberando proyectiles guiados basados en los impactos y rebotes.
-		Sostener la sierra por más tiempo aumenta su daño y penetración.
+		Hold left-click to spin up a close-range elemental sawblade.
+		Releasing left-click throws the sawblade, which bounces off terrain and shreds enemies.
+		The sawblade returns when it stops moving, releasing homing projectiles based on hits and bounces.
+		Holding the sawblade longer increases its damage and penetration.
 		'''
 	AltInfo:
 		'''
-		Mantén presionado el botón derecho para lanzar una sierra flotante que dispara continuamente proyectiles guiados.
-		Activar esta habilidad te lanza rápidamente en la dirección en la que te muevas.
-		Esta habilidad tiene un tiempo de enfriamiento de {0} segundos.
-		Durante enfriamiento, la sierra que regresará sigue al cursor y sigue lanzando proyectiles
+		Hold right-click to launch a hovering sawblade that continuously fires homing projectiles.
+		Activating this ability launches you quickly in your current movement direction.
+		This ability has a cooldown of {0} seconds.
+		During cooldown, the returning sawblade tracks the cursor and keeps releasing projectiles.
 		'''
 }
 
@@ -3015,9 +3012,8 @@ DyeVatItem: {
 	DisplayName: "{$ItemName.DyeVat}"
 	Tooltip:
 		'''
-		Se usa para para crear tintes
-		Haz clic derecho después de colocarlo para abrir el panel de control, permitiéndote teñir objetos.
-		Coloca un cubo de agua en la ranura de tinte para lavar los tintes de los objetos
+		Used for crafting dyes
+		Right-click after placing to open the control panel, allowing you to dye items
+		Place a Water Bucket into the dye slot to wash dyes off items
 		'''
 }
-
