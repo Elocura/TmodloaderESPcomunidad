@@ -1,10 +1,10 @@
-﻿EndlessDamageClassTextContent.EndlessDamageClass.DisplayName: Endless Damage
-Tools.RecipesLoseText: You can't just make this thing
+EndlessDamageClassTextContent.EndlessDamageClass.DisplayName: Daño infinito
+Tools.RecipesLoseText: Simplemente no puedes hacer eso
 
 Biomes: {
 	TungstenBiome: {
-		DisplayName: Tungsten Biome
-		TownNPCDialogueName: the Tungsten Biome
+		DisplayName: Bioma de tungsteno
+		TownNPCDialogueName: El bioma de tungsteno
 	}
 }
 
@@ -17,7 +17,7 @@ Biomes: {
 Arcanes: {
 	Items: {
 		ArcaneTransformer: {
-			DisplayName: Arcane Transformer
+			DisplayName: Transformador arcano
 			Tooltip: ""
 		}
 	}
@@ -25,10 +25,10 @@ Arcanes: {
 
 Resurrections: {
 	ResurrectionDeath: {
-		DeathText: "{0} was consumed by the Abyssal Resurgence"
-		WarningCombatText: The Abyss is devouring you...
-		DeathNoticeText: You have been swallowed by the Abyss...
-		MarkRemainText: The mark of the Abyss still clings to you...
-		RetainValueFormat: Resurgence Value: {0}%
+		DeathText: "{0} fue consumido por el Resurgimiento abisal"
+		WarningCombatText: El abismo te está devorando...
+		DeathNoticeText: Has sido engullido por el Abismo...
+		MarkRemainText: La marca del Abismo aún te persigue...
+		RetainValueFormat: Valor de resurgimiento: {0}%
 	}
 }
