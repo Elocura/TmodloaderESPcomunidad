@@ -1,206 +1,207 @@
 CWRServerConfig: {
-	DisplayName: Content Config
+	DisplayName: Configuración de contenido
 
 	WeaponOverhaul: {
-		Label: Weapon Overhaul
+		Label: Revisión de armas
 		Tooltip:
 			'''
-			Enabling it will modify most weapons.
-			[c/FF0000: If you want to optimize the experience of disaster overhaul content, please open it!]
+			Al habilitarlo, se modificarán la mayoría de las armas.
+			[c/FF0000:Si desea optimizar la experiencia del contenido de Overhaul, ¡por favor, activalo!!]
 			'''
 	}
 
 	ScreenVibration: {
-		Label: Weapon Screen Vibration
-		Tooltip: If turned on, the screen will vibrate during some attacks, which may make the hit feel more intense
+		Label: Vibración al usar algunas armas
+		Tooltip: Si se activa, la pantalla vibrará durante algunos ataques,así que golpes se sentirán más intensos
 	}
 
 	MurasamaSpaceFragmentationBool: {
-		Label: Murasama Space Fragmentation Bool
+		Label: Efecto de fragmentación de pantalla de la Murasama
 		Tooltip:
 			'''
-			Turned on by default, the polymer cutting edge will create a screen crushing effect to enhance the impact
-			If turned off, these effects are disabled and can be set to your liking
+			Activado por defecto, producirá efectos de fragmentación de pantalla, así que los golpes serán más intensos.
+			Si se desactivan, estos efectos serán eliminados. Puedes configurarlo a tu gusto
 			'''
 	}
 
 	HalibutDomainConciseDisplay: {
-		Label: Halibut Ocean Domain Minimal Display
-		Tooltip: Off by default. When enabled, most visual effects within the domain will be hidden.
+		Label: Visualización mínima del domicio oceánico de Halibut
+		Tooltip: Desactivado por defecto. Cuando se activa, la mayoría de los efectos visuales estarán ocultos.
 	}
 
 	Headers: {
-		CWRSystem: System Configs
-		CWRWeapon: Weapon Configs
-		CWRUI: UI Configs
-		// CWRWorldGen: World Gen Configs
+		CWRSystem: Configuración del sistema
+		CWRWeapon: Configuración de las armas
+		CWRUI: Configuración de la inferfaz de usuario
+		CWRWorldGen: Configuraciones generales mundiales
 	}
 
 	LensEasing: {
-		Label: Lens Easing
-		Tooltip: When enabled, long distance rapid displacement will slow the lens, which avoids the feeling of being moved too fast
+		Label: Suavizado de cámara
+		Tooltip: Cuando está activada, el desplazamiento rápido a larga distancia ralentizará la cámara, lo que evita la sensación de moverse demasiado rápido
 	}
 
 	CartridgeUI_Offset_X_Value: {
-		Label: Magazine UI landscape deviation value
+		Label: Valor horizontal de la interfaz del cargador
 		Tooltip: ""
 	}
 
 	CartridgeUI_Offset_Y_Value: {
-		Label: Magazine UI deviates vertically value
+		Label: Valor vertical de la interfaz del cargador
 		Tooltip: ""
 	}
 
 	WeaponHandheldDisplay: {
-		Label: Weapon Handheld Display
+		Label: Pantalla portátil para armas
 		Tooltip:
 			'''
-			When turned on, most weapons have handheld animations and special use actions
-			This effect has a very high priority and will override most of the handheld animations from third-party mods
-			It is turned on by default, and for visual reasons, the authors do not recommend turning it off
-			If you change this configuration during the game, some effects will need to be reloaded the mod files before they can be changed
+			Cuando está activado, la mayoría de las armas tienen animaciones manuales y acciones de uso especial.
+			Este efecto tiene una prioridad muy alta y anulará la mayoría de las animaciones manuales de mods de terceros.
+			Está activado por defecto y, por razones visuales, los autores no recomiendan desactivarlo.
+			Si cambias esta configuración durante el juego, algunos efectos necesitarán recargar el mod para actualizarse
 			'''
 	}
 
 	ActivateGunRecoil: {
-		Label: Activate Gun Recoil [c/06e33f:(Experimental)]
-		Tooltip: When enabled, firearms will have a recoil effect when fired. Disable it to turn off these effects.
+		Label: Activar retroceso de las armas [c/06e33f:(Experimental)]
+		Tooltip: Cuando está activado, las armas de fuego tendrán un efecto de retroceso al dispararse. Desactívalo para eliminar estos efectos.
 	}
 
 	MagazineSystem: {
-		Label: Magazine System
+		Label: Sistema de cargadores
 		Tooltip:
 			'''
-			A sprawling content system, when enabled, introduces magazine mechanisms to the majority of firearms, 
-			including features like reloading and mixing ammunition types.
-			Disabling it will deactivate these features, reverting firearms to their original ammunition mechanisms.
-			[c/fff08c:It's worth noting] that the game's major balance adjustments are made based on the [c/fff08c:enabled magazine system].
-			Opting to disable it may render some ranged weapons [c/de0808:overpowered].
-			Therefore, if this feature is disabled, the [c/de0808:balance of ranged weapons] in the game will no longer be meaningful for discussion.
-			[c/fff08c:If you change this option, re-enter the world to make sure all effects change correctly]
+			Un extenso sistema de contenido, cuando está habilitado, introduce mecanismos de cargador en la mayoría de las armas de fuego, 
+			incluyendo características como la recarga y la mezcla de tipos de munición.
+			Desactivarlo eliminará estas características, devolviendo las armas de fuego a su disparo original
+			[c/fff08c:Cabe destacar que] que los principales ajustes de equilibrio del mod se realizancon el [c/fff08c:sistema de cargadores activado].
+			Si decides desactivarlo, algunas armas a distancia podrían volverse demasiado [c/de0808:poderosas].
+			Por lo tanto, si esta función está desactivada, el [c/de0808:equilibrio de las armas a distancia] en el juego ya no tendrá sentido.
+			[c/fff08c:Si cambias esta opción, vuelve a entrar en el mundo para asegurarte de que todos los efectos cambian correctamente]
 			'''
 	}
 
 	BowArrowDraw: {
-		Label: Draw the bowstring arrow
+		Label: Tensar la cuerda del arco
 		Tooltip:
 			'''
-			When the player uses the bow class to attack, the corresponding arrow animation will be drawn in real time
-			It is enabled by default and can be set according to personal preferences
+			Cuando el jugador utiliza un arco para atacar, la animación correspondiente de la flecha se dibujará en tiempo real.
+			Está habilitada por defecto y se puede configurar según tus preferencias
 			'''
 	}
 
 	EnableCasingsEntity: {
-		Label: Enable Casings Entity
-		Tooltip: If you find the casings rolling around an eyesore, it's a good idea to turn this option off
+		Label: Habilitar casquillos
+		Tooltip: Si te molesta ver los casquillos rodando por ahí, es buena idea desactivar esta opción.
 	}
 
 	LoadingAA_Volume: {
-		Label: Gun Reload Sound Volume Coefficient
-		Tooltip: The larger the value, the more prominent the sound; 1 is the original volume
+		Label: Coeficiente de volumen del sonido de recarga del arma
+		Tooltip: Cuanto mayor sea el valor, más prominente será el sonido; 1 es el volumen original.
 	}
 
 	ShotgunFireForcedReloadInterruption: {
-		Label: Shotgun Fire Forced Reload Interruption [c/06e33f:(Experimental)]
+		Label: Interrupción forzada de recarga [c/06e33f:(Experimental)]
 		Tooltip:
 			'''
-			A small number of shotguns have this feature where attempting to fire while reloading will interrupt the reload action. 
-			If enabled, this option will give all shotgun weapons this feature.
+			Un pequeño número de escopetas tienen la característica de que al intentar disparar mientras se recarga, interrumpe la acción de recarga. 
+			Si se activa, esta opción dará a todas las armas de escopeta esta característica.
 			'''
 	}
 
 	WeaponLazyRotationAngle: {
-		Label: Weapon Inertia Rotation Angle Update
+		Label: Actualización del ángulo de rotación de la inercia del arma
 		Tooltip:
 			'''
-			If enabled, it makes the usage animation of handheld weapons closer to the vanilla game,
-			where the facing direction changes only once when firing.
+			Si está habilitado, hace que la animación de uso de las armas que sostienes se parezca más a vanilla,
+			en el que la orientación de esta cambia solo una vez al disparar.
 			'''
 	}
 
 	BiologyOverhaul: {
-		Label: Biology Overhaul [c/06e33f:(Experimental)]
+		Label: Revisión de biología [c/06e33f:(Experimental)]
 		Tooltip:
 			'''
-			[c/c20909:Unfinished]
-			Enabled by default, this will modify the AI behavior of certain creatures, such as bosses in death mode.
-			This might significantly increase the game's difficulty, so you can choose to disable it based on your personal preference.
+			[c/c20909:Sin terminar]
+			Habilitado por defecto, esto modificará el comportamiento de la IA de ciertas criaturas, como los jefes en el modo muerte.
+			Esto podría aumentar significativamente la dificultad del juego, por lo que puedes optar por desactivarlo según tus preferencias personales.
 			'''
 	}
 
 	EnableSwordLight: {
-		Label: Enable Sword Light
+		Label: Habilitar luz de las espadas
 		Tooltip:
 			'''
-			Turned on by default, many sword weapons will have a dazzling bright knife light
-			In the vast majority of cases, this makes the game cooler
+			Activado por defecto, muchas armas blancas tendrán un deslumbrante y brillante destello.
+			En la gran mayoría de los casos, esto hace que el juego sea más atractivo.
 			'''
 	}
 
 	MuraUIStyleType: {
-		Label: Mura UI Style Selection
+		Label: Estilo de la interfaz de la Murasama
 		Tooltip:
 			'''
-			Style 1: Refined - Floating Above The Head
-			Style 2: Refined - Compact
-			Style 3: Classic - Floating Above The Head
-			Style 4: Classic - Compact
-			Style 5: Conceal
+			Estilo 1: Refinado - Flotando sobre la cabeza
+			Estilo 2: Refinado - Compacto
+			Estilo 3: Clásico - Flotando sobre la cabeza
+			Estilo 4: Clásico - Compacto
+			Estilo 5: Ocultar
 			'''
 	}
 
 	MuraPosStyleType: {
-		Label: Mura UI Position Selection
+		Label: Posición de la interfaz de la Murasama
 		Tooltip:
 			'''
-			Preset 1: Bottom Right
-			Preset 2: Bottom Left
-			Preset 3: Top Center
+			Preajuste 1: Abajo a la derecha
+			Preajuste 2: Abajo a la izquierda
+			Preajuste 3: Centro superior
 			'''
 	}
 
 	ShowReloadingProgressUI: {
-		Label: Show Reloading Progress
-		Tooltip: When opened, the ammo loading progress will be displayed
+		Label: Mostrar progreso de recarga
+		Tooltip: Al abrirlo, se mostrará el progreso de carga de munición
 	}
 
 	QuestLog: {
-		Label: Quest Log Guidance
+		Label: Guía del registro de misiones
 		Tooltip:
 			'''
-			When enabled, the quest log will guide you through game progression
-			You can access the quest interface via the Quest Book item, inventory UI, or a hotkey to view current quests
-			Enabled by default. Disabling this removes all quest guidance
+			Cuando está habilitado, el registro de misiones te guiará a través del progreso del juego.
+			Puedes acceder a la interfaz de misiones a través del objeto Libro de misiones, la interfaz del inventario o una tecla de acceso rápido para ver las misiones actuales.
+			Habilitado por defecto. Al deshabilitarlo, se eliminan todas las guías de misiones.
 			'''
 	}
 
 	DialogueBox_Scale_Value: {
-		Label: Dialogue Box Scale
-		Tooltip: Adjusts the overall size of the dialogue box
+		Label: Escala de los cuadros de diálogos
+		Tooltip: Ajusta el tamaño general de los cuadros de diálogos.
 	}
 
 	GenWindGrivenGenerator: {
-		// Label: Generate Wind-Driven Generator
-		// Tooltip: Places wind-powered generator structures throughout the world.
+		Label: Generar generador eólico
+		Tooltip: Coloca estructuras de generadores eólicos en todo el mundo.
 	}
 
 	GenWGGCollector: {
-		// Label: Generate Scavenger Outposts
-		// Tooltip: Randomly spawns hostile scavenger structures throughout the world. This setting only takes effect in Legendary worlds.
+		Label: Generar base de recolectores
+		Tooltip: Genera aleatoriamente estructuras recolectoras hostiles por todo el mundo. Esta configuración solo tiene efecto en mundos legendarios.
 	}
 
 	GenJunkmanBase: {
-		// Label: Generate Junkman's Base
-		// Tooltip: Spawns a scavenger stronghold base in wastelands or underground.
+		Label: Generar base de recicladores
+		Tooltip: Genera una base fortaleza recolectores en terrenos baldíos o bajo tierra.
 	}
 
 	GenRocketHut: {
-		// Label: Generate Rocket Hut
-		// Tooltip: Generates a mysterious shack containing rocket components or technological relics.
+		Label: Generar cabaña de cohetes
+		Tooltip: Genera una misteriosa cabaña que contiene componentes de cohetes o reliquias tecnológicas.
 	}
 
 	GenSylvanOutpost: {
-		// Label: Generate Sylvan Outpost
-		// Tooltip: Spawns wooden elven or forest guardian outposts deep within the forest.
+		Label: Generar puesto avanzado silvano
+		Tooltip: Genera puestos avanzados de elfos de la madera o guardianes del bosque en lo profundo del bosque.
 	}
 }
+
