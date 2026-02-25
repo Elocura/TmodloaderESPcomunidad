@@ -172,20 +172,58 @@ HalibutText: {
 }
 
 MuraText: {
-	Subtest_Text0: Debemos ir al infierno para liberar los poderes de la luz y la oscuridad. Provocará una tormenta subespacial, pero no tenemos otra opción, novato. ¡Escribe un gran golpe para la cruzada!
-	Subtest_Text1: Un gusano gigante de acero nos bloquea el paso. Córtalo en pedazos
-	Subtest_Text2: Puedo sentir dos miradas observándonos. Elimínalas
-	Subtest_Text3:
+	Subtest_Text0:
 		'''
-		Se acerca una batalla decisiva. Esos montones de chatarra planean unirse en un vano intento por detenernos.
-		Díselo con espadas y sangre: el ritmo de nuestra expedición aplastará todos los males alienígenas y las inteligencias abominables
+		Debemos ir al infierno para liberar los poderes de la luz y la oscuridad.
+		Provocará una tormenta subespacial, pero es un riesgo necesario. 
+		¡Recluta, deja una huella magnífica en nuestra cruzada!
 		'''
-	World_Text0: Último mundo actualizado: <{0}> | Récord de nivel: <{1}>
-	Subtest_Text4: La obra chapucera de alguien sigue vagando por la selva. Como fracaso que es, merece convertirse en un montón de chatarra.
-	Subtest_Text5: Un caparazón de carne y hueso entrelazados, los espíritus amargos de un antiguo campo de batalla, un gólem de ruina incesante. Lo destruye todo, y nosotros... lo destruimos a él.
-	Subtest_Text6: El antiguo Dios estelar cayó hace mucho tiempo. Lo único que queda es un larba. Pongamos fin a la era de estos supuestos dioses.
-	Subtest_Text7: Deja que ese grupo de almas en el calabozo se marchite ante mi espada. Su alma será el mejor alimento.
-	Subtest_Text8: Un dios patético, que solo prolonga su miserable existencia bebiendo calor estelar. Su fuego herético debe ser extinguido. Por completo.
-	Subtest_Text9: Esa abominación floral en lo profundo de la selva... Ve. Destruye sus pétalos, aplasta su bulbo y deja que sus jugos empapen la tierra.
-	Subtest_Text10: Esa bruja que se entregó al caos... tiene una hermana clon 'retorcida'. Mata a esa aberración. Unge esta espada con su sangre y fuego.
+	Subtest_Text1:
+		'''
+		Anhelo las llamas templadas de los Peñascos de Azufre. Ve a visitar al guardián que hay allí.
+		Puedo sentir dos miradas fijas en nosotros. Elimínalas
+		'''
+	Subtest_Text2:
+		'''
+		En el bastión del hielo verdadero se encuentra una prisión que alberga a un poderoso psiónico. 
+		Libérale; será un gran activo en nuestra recuperación de Terra.
+		Se acerca una batalla decisiva. Esos montones de chatarra están conspirando para unirse y bloquear nuestro camino.
+		Demuéstrales con espadas y sangre: la marcha de nuestra expedición aplastará toda la inmundicia alienígena y la inteligencia abominable
+		'''
+	World_Text0: Última actualización del mundo: <{0}> | Nivel registrado: <{1}>
+	Subtest_Text4:
+		'''
+		En la jungla, un torpe prototipo de alguien sigue vagando. 
+		Como experimento fallido, no merece ser más que un montón de chatarra
+		'''
+	Subtest_Text5:
+		'''
+		Un caparazón de carne entretejida, los espíritus vengativos de un antiguo campo de batalla, 
+		un gólem de destrucción incesante. Lo destruye todo, y nosotros lo destruiremos
+		'''
+	Subtest_Text6:
+		'''
+		El antiguo dios estelar cayó hace mucho tiempo; lo que queda es apenas un gusano. 
+		Pongamos fin definitivamente a la era astral
+		'''
+	Subtest_Text7:
+		'''
+		Deja que esa amalgama de espíritus de la mazmorra se marchite bajo mi filo. 
+		Sus almas servirán como el mejor alimento
+		'''
+	Subtest_Text8:
+		'''
+		Un dios patético que se aferra a la vida succionando el calor de las estrellas. 
+		Su llama herética debe ser completamente extinguida
+		'''
+	Subtest_Text9:
+		'''
+		Esa aberración botánica en lo profundo de la selva... 
+		arranca sus pétalos, aplasta su bulbo y deja que su icor manche esta tierra
+		'''
+	Subtest_Text10:
+		'''
+		Esa bruja que se sumergió en el caos tiene una hermana clon deformada. 
+		Mata a esa aberración; ofrece su sangre y sus llamas a la espada
+		'''
 }
