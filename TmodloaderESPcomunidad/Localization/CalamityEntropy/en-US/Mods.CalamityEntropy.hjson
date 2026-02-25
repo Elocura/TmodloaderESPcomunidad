@@ -240,21 +240,25 @@ Items: {
 		CruiserLore: {
 			DisplayName: Cruiser
 			Tooltip: ""
+			Lore: "{$loreCruiser}"
 		}
 
 		NihilityTwinLore: {
 			DisplayName: Nihility Twin
 			Tooltip: ""
+			Lore: "{$loreNihTwin}"
 		}
 
 		ProphetLore: {
 			DisplayName: Prophet
 			Tooltip: ""
+			Lore: "{$loreProphet}"
 		}
 
 		LuminarisLore: {
 			DisplayName: Luminaris
 			Tooltip: ""
+			Lore: "{$loreLuminaris}"
 		}
 	}
 
@@ -1228,7 +1232,7 @@ Items: {
 	NihilityShell: {
 		Tooltip:
 			'''
-			Critical hits will deal 12% more damage
+			Critical hits will deal 15% more damage
 			Probability of obtaining an energy shell during critical strike
 			The energy shell can reduce the damage you receive by 16% once
 			You can only get a maximum of three shells
@@ -1387,7 +1391,8 @@ Items: {
 		Tooltip:
 			'''
 			Summon a friendly monster
-			Cannot be used in multiplayer mode
+			Cost 1 minion slot
+			Right click to kill all monster
 			'''
 		DisplayName: Friend Finder
 	}
@@ -3759,6 +3764,33 @@ Items: {
 			Current: [A]
 			'''
 	}
+
+	TalismanOfTheAzureAbyss: {
+		DisplayName: Talisman of the Azure Abyss
+		Tooltip:
+			'''
+			You can now breath in abyss
+			Increase 15% damage
+			Increase 5/s life regen
+			When receiving damage greater than 35% of maximum health, spawn an Azure Shield
+			Azure Shield will reduce 25% damage you take
+			Spawn some Azure Vortexs that will chase enemies simultaneously
+			Vortexs will also spawn when you take damage with shield
+			Reduce the drag in water and resume wing time
+			Significantly enhance the vision in the abyss, this effect,
+			and this effect will be further amplified when the shield is present
+			'''
+	}
+
+	TerraTiz: {
+		DisplayName: Terra Tiz
+		Tooltip: '''"A shrunken Tiny planet bind by a heavy chain,probably its some civilization result pact with demons"'''
+	}
+
+	SignalBlocker: {
+		DisplayName: Signal Blocker
+		Tooltip: Set to favorite to block Acropolis Machine spawning
+	}
 }
 
 ChaoticSetBonus:
@@ -4418,6 +4450,8 @@ Projectiles: {
 	MiracleExplosion.DisplayName: Miracle Explosion
 	MiracleWreckagePopOut.DisplayName: Miracle Wreckage Pop Out
 	MiracleVortex.DisplayName: Miracle Vortex
+	AzureShield.DisplayName: Azure Shield
+	AzureVortex.DisplayName: Azure Vortex
 }
 
 LegendTooltip: - Legend -
@@ -5771,3 +5805,4 @@ SpecialThanks: Special Thanks
 PassedBossRush: Passed Boss Rush
 BloodthirstyRequirement: You need at least 200 health points to craft this item
 BloodthirstyKilled: bled out
+Luminariswarm: Luminariswarm
