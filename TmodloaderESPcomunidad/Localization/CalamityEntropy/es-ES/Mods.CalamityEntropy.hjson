@@ -238,21 +238,25 @@ Items: {
 		CruiserLore: {
 			DisplayName: Cruiser
 			Tooltip: ""
+			Lore: "{$loreCruiser}"
 		}
 
 		NihilityTwinLore: {
 			DisplayName: Nihility Twin
 			Tooltip: ""
+			Lore: "{$loreNihTwin}"
 		}
 
 		ProphetLore: {
 			DisplayName: Prophet
 			Tooltip: ""
+			Lore: "{$loreProphet}"
 		}
 
 		LuminarisLore: {
 			DisplayName: Luminaris
 			Tooltip: ""
+			Lore: "{$loreLuminaris}"
 		}
 	}
 
@@ -1225,7 +1229,7 @@ Items: {
 	NihilityShell: {
 		Tooltip:
 			'''
-			 Los golpes críticos harán un 12% más de daño
+			 Los golpes críticos harán un 15% más de daño
 			 Habrá una probabilidad de obtener una coraza energética al lograr un ataque crítico
 			 La coraza energética reduce el daño recibido un 16%
 			 Solo puedes tener un máximo de tres corazas
@@ -1384,7 +1388,8 @@ Items: {
 		Tooltip:
 			'''
 			Invoca a un monstruo amigable
-			No se puede usar en multijugador
+			Cuesta 1 espacio de súbdito.
+			Haz clic derecho para acabar con todos los monstruos
 			'''
 		DisplayName: Buscador de amigos
 	}
@@ -3764,6 +3769,16 @@ Items: {
 			amplificarán aún más cuando el escudo esté presente
 			'''
 	}
+
+	TerraTiz: {
+		DisplayName: Terra Tiz
+		Tooltip: '''"Un planeta diminuto encogido, atado por una pesada cadena, probablemente el resultado de algún pacto entre una civilización y los demonios"'''
+	}
+
+	SignalBlocker: {
+		DisplayName: Bloqueador de señal
+		Tooltip: Marcarlo como favorito para bloquear la aparición de máquinas Acropolis
+	}
 }
 
 ChaoticSetBonus:
@@ -4420,6 +4435,8 @@ Projectiles: {
 	MiracleExplosion.DisplayName: Miracle Explosion
 	MiracleWreckagePopOut.DisplayName: Miracle Wreckage Pop Out
 	MiracleVortex.DisplayName: Miracle Vortex
+	AzureShield.DisplayName: Azure Shield
+	AzureVortex.DisplayName: Azure Vortex
 	AzureShield.DisplayName: Azure Shield
 	AzureVortex.DisplayName: Azure Vortex
 }
@@ -5790,6 +5807,8 @@ SpecialThanks: Agradecimientos especiales
 PassedBossRush: Boss Rush superado
 BloodthirstyRequirement: Necesitas al menos 200 puntos de cida para fabricar este objeto
 BloodthirstyKilled: desangrado
+Luminariswarm: Luminariswarm
+
 
 
 
