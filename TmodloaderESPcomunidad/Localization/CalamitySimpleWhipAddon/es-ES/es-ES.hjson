@@ -379,7 +379,7 @@ Mods: {
 				DisplayName: Látigo mandibular
 				Tooltip:
 					'''
-					1 daño de etiqueta de invocación
+					1 daño de etiqueta de invocador
 					Todos los enemigos golpeados por este látigo
 					hacen que el siguiente ataque del súbdito lance una esfera de arena
 					que cae por la gravedad e inflige un 40% de daño
@@ -388,10 +388,10 @@ Mods: {
 			}
 
 			DarkMandibleLash: {
-				DisplayName: Látigo mandibular
+				DisplayName: Látigo mandibular oscuro
 				Tooltip:
 					'''
-					2 daño de etiqueta de invocación
+					2 daño de etiqueta de invocador
 					Todos los enemigos golpeados por este látigo
 					hacen que el siguiente ataque del súbdito lance una esfera de arena
 					que cae por la gravedad e inflige un 40% de daño
@@ -1270,4 +1270,5 @@ Mods: {
 		DamageClasses.PseudoSummonDamageClass.DisplayName: Pseudo daño de la clase de invocador
 	}
 }
+
 
