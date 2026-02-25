@@ -191,7 +191,14 @@ Mods: {
 
 			GlitterGutter: {
 				DisplayName: Glitter Gutter
-				Tooltip: 11% summon tag critical strike chance
+				Tooltip:
+					'''
+					10% summon tag critical strike chance
+					All enemies struck by this whip
+					cause the next minion attack
+					to release two tracking crystal shards
+					that deal 20% damage.
+					'''
 			}
 
 			Droptide: {
@@ -214,8 +221,12 @@ Mods: {
 				Tooltip:
 					'''
 					All enemies struck by this whip
-					take 1.75x damage from the next minion attack and explode,
-					dealing 10% damage to nearby enemies.
+					cause the next minion attack
+					to trigger an explosion
+					that deals 100% damage.
+					Enemies killed by this explosion
+					trigger another explosion,
+					which can continue to chain.
 					'''
 			}
 
@@ -351,6 +362,185 @@ Mods: {
 					are impaled by a spectral spear on the next minion attack,
 					taking 20% of the minion’s damage 8 times in succession.
 					The impaling damage pierces 50 armor.
+					'''
+			}
+
+			MandibleLash: {
+				DisplayName: Mandible Lash
+				Tooltip:
+					'''
+					1 summon tag damage
+					All enemies struck by this whip
+					cause the next minion attack to launch a sandball
+					that falls with gravity and deals 40% damage.
+					Explodes on block impact, damaging nearby enemies.
+					'''
+			}
+
+			DarkMandibleLash: {
+				DisplayName: Dark Mandible Lash
+				Tooltip:
+					'''
+					2 summon tag damage
+					All enemies struck by this whip
+					cause the next minion attack to launch a sandball
+					that falls with gravity and deals 40% damage.
+					Explodes on block impact, damaging nearby enemies.
+					'''
+			}
+
+			ShieldConduit: {
+				DisplayName: Shield Conduit
+				Tooltip:
+					'''
+					Switches automatically between two modes.
+					-----------------------------
+					Defense Mode:
+					Striking an enemy with the whip causes
+					minion attacks to release blue shield shards
+					for a short time.
+					Collecting shards builds shield charge.
+					At 50 charge, gain a 50 HP shield
+					-----------------------------
+					Attack Mode:
+					Striking an enemy with the whip causes
+					minion attacks to release red shield shards for a short time.
+					Red shards home in on enemies,
+					dealing 10% of minion damage +3 flat damage.
+					-----------------------------
+					Shield shard release has a very short cooldown.
+					When the shield takes damage, it enters a recharge cooldown
+					lasting 5–50 seconds based on remaining shield.
+					If the shield is fully broken,
+					the recharge cooldown becomes 60 seconds.
+					During cooldown, switches to Attack Mode.
+					When cooldown ends, switches to Defense Mode.
+					If any shield remains, collecting shards
+					restores shield durability.
+					'''
+			}
+
+			ShieldConduitMkII: {
+				DisplayName: Shield Conduit Mk-II
+				Tooltip:
+					'''
+					Switches automatically between two modes.
+					-----------------------------
+					Defense Mode:
+					Striking an enemy with the whip causes
+					minion attacks to release blue shield shards
+					for a short time.
+					Collecting shards builds shield charge.
+					At 100 charge, gain a 100 HP shield
+					-----------------------------
+					Attack Mode:
+					Striking an enemy with the whip causes
+					minion attacks to release red shield shards for a short time.
+					Red shards home in on enemies,
+					dealing 10% of minion damage +5 flat damage.
+					-----------------------------
+					Shield shard release has a very short cooldown.
+					When the shield takes damage, it enters a recharge cooldown
+					lasting 5–50 seconds based on remaining shield.
+					If the shield is fully broken,
+					the recharge cooldown becomes 60 seconds.
+					During cooldown, switches to Attack Mode.
+					When cooldown ends, switches to Defense Mode.
+					If any shield remains, collecting shards
+					restores shield durability.
+					'''
+			}
+
+			ShieldConduitMkIII: {
+				DisplayName: Shield Conduit Mk-III
+				Tooltip:
+					'''
+					Switches automatically between two modes.
+					-----------------------------
+					Defense Mode:
+					Striking an enemy with the whip causes
+					minion attacks to release blue shield shards
+					for a short time.
+					Collecting shards builds shield charge.
+					At 150 charge, gain a 150 HP shield
+					-----------------------------
+					Attack Mode:
+					Striking an enemy with the whip causes
+					minion attacks to release red shield shards for a short time.
+					Red shards home in on enemies,
+					dealing 10% of minion damage +25 flat damage.
+					-----------------------------
+					Shield shard release has a very short cooldown.
+					When the shield takes damage, it enters a recharge cooldown
+					lasting 5–50 seconds based on remaining shield.
+					If the shield is fully broken,
+					the recharge cooldown becomes 60 seconds.
+					During cooldown, switches to Attack Mode.
+					When cooldown ends, switches to Defense Mode.
+					If any shield remains, collecting shards
+					restores shield durability.
+					'''
+			}
+
+			ShieldConduitMkIV: {
+				DisplayName: Shield Conduit Mk-IV
+				Tooltip:
+					'''
+					Switches automatically between two modes.
+					-----------------------------
+					Defense Mode:
+					Striking an enemy with the whip causes
+					minion attacks to release blue shield shards
+					for a short time.
+					Collecting shards builds shield charge.
+					At 200 charge, gain a 200 HP shield
+					-----------------------------
+					Attack Mode:
+					Striking an enemy with the whip causes
+					minion attacks to release red shield shards for a short time.
+					Red shards home in on enemies,
+					dealing 10% of minion damage +50 flat damage.
+					-----------------------------
+					Shield shard release has a very short cooldown.
+					When the shield takes damage, it enters a recharge cooldown
+					lasting 5–50 seconds based on remaining shield.
+					If the shield is fully broken,
+					the recharge cooldown becomes 60 seconds.
+					During cooldown, switches to Attack Mode.
+					When cooldown ends, switches to Defense Mode.
+					If any shield remains, collecting shards
+					restores shield durability.
+					'''
+			}
+
+			ShieldConduitMkV: {
+				DisplayName: Shield Conduit Mk-V
+				Tooltip:
+					'''
+					Switches automatically between two modes.
+					-----------------------------
+					Defense Mode:
+					Striking an enemy with the whip causes
+					minion attacks to release blue shield shards
+					for a short time.
+					Collecting shards builds shield charge.
+					At 250 charge, gain a 250 HP shield
+					-----------------------------
+					Attack Mode:
+					Striking an enemy with the whip causes
+					minion attacks to release red shield shards for a short time.
+					Red shards home in on enemies,
+					dealing 10% of minion damage +150 flat damage.
+					-----------------------------
+					Shield shard release has a very short cooldown.
+					When the shield takes damage, it enters a recharge cooldown
+					lasting 5–50 seconds based on remaining shield.
+					If the shield is fully broken,
+					the recharge cooldown becomes 60 seconds.
+					During cooldown, switches to Attack Mode.
+					When cooldown ends, switches to Defense Mode.
+					If any shield remains, collecting shards
+					restores shield durability.
 					'''
 			}
 
@@ -733,6 +923,21 @@ Mods: {
 				DisplayName: Invisible Wooden Whip
 				Tooltip: ""
 			}
+
+			InvisibleGlitterGutter2: {
+				DisplayName: Invisible Glitter Gutter2
+				Tooltip: ""
+			}
+
+			InvisibleMandibleLash2: {
+				DisplayName: Invisible Mandible Lash2
+				Tooltip: ""
+			}
+
+			LayeredLash: {
+				Tooltip: ""
+				DisplayName: Layered Lash
+			}
 		}
 
 		Buffs: {
@@ -979,6 +1184,76 @@ Mods: {
 			SimpleWhipDebuff7D07C2: {
 				Description: Mods.CalamitySimpleWhipAddon.Buffs.SimpleWhipDebuff7D07C2.Description
 				DisplayName: Simple Whip Debuff7 D07 C2
+			}
+
+			SimpleWhipDebuffEx9: {
+				DisplayName: Simple Whip Debuff Ex9
+				Description: Mods.CalamitySimpleWhipAddon.Buffs.SimpleWhipDebuffEx9.Description
+			}
+
+			SimpleWhipDebuffT2: {
+				Description: Mods.CalamitySimpleWhipAddon.Buffs.SimpleWhipDebuffT2.Description
+				DisplayName: Simple Whip Debuff T2
+			}
+
+			SimpleWhipDebuffT1: {
+				Description: Mods.CalamitySimpleWhipAddon.Buffs.SimpleWhipDebuffT1.Description
+				DisplayName: Simple Whip Debuff T1
+			}
+
+			SimpleWhipDebuffEx10: {
+				DisplayName: Simple Whip Debuff Ex10
+				Description: Mods.CalamitySimpleWhipAddon.Buffs.SimpleWhipDebuffEx10.Description
+			}
+
+			SimpleWhipDebuffEx11: {
+				DisplayName: Simple Whip Debuff Ex11
+				Description: Mods.CalamitySimpleWhipAddon.Buffs.SimpleWhipDebuffEx11.Description
+			}
+
+			SimpleWhipDebuffS1: {
+				Description: Mods.CalamitySimpleWhipAddon.Buffs.SimpleWhipDebuffS1.Description
+				DisplayName: Simple Whip Debuff S1
+			}
+
+			SimpleWhipDebuffS2: {
+				DisplayName: Simple Whip Debuff S2
+				Description: Mods.CalamitySimpleWhipAddon.Buffs.SimpleWhipDebuffS2.Description
+			}
+
+			SimpleWhipDebuffS3: {
+				DisplayName: Simple Whip Debuff S3
+				Description: Mods.CalamitySimpleWhipAddon.Buffs.SimpleWhipDebuffS3.Description
+			}
+
+			SimpleWhipDebuffS4: {
+				DisplayName: Simple Whip Debuff S4
+				Description: Mods.CalamitySimpleWhipAddon.Buffs.SimpleWhipDebuffS4.Description
+			}
+
+			SimpleWhipDebuffS5: {
+				Description: Mods.CalamitySimpleWhipAddon.Buffs.SimpleWhipDebuffS5.Description
+				DisplayName: Simple Whip Debuff S5
+			}
+
+			SimpleWhipDebuffT2St: {
+				Description: Mods.CalamitySimpleWhipAddon.Buffs.SimpleWhipDebuffT2St.Description
+				DisplayName: Simple Whip Debuff T2 St
+			}
+
+			SimpleWhipDebuffT5St: {
+				Description: Mods.CalamitySimpleWhipAddon.Buffs.SimpleWhipDebuffT5St.Description
+				DisplayName: Simple Whip Debuff T5 St
+			}
+
+			SimpleWhipDebuffT4St: {
+				Description: Mods.CalamitySimpleWhipAddon.Buffs.SimpleWhipDebuffT4St.Description
+				DisplayName: Simple Whip Debuff T4 St
+			}
+
+			SimpleWhipDebuffT3St: {
+				Description: Mods.CalamitySimpleWhipAddon.Buffs.SimpleWhipDebuffT3St.Description
+				DisplayName: Simple Whip Debuff T3 St
 			}
 		}
 
