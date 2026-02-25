@@ -191,7 +191,14 @@ Mods: {
 
 			GlitterGutter: {
 				DisplayName: Miseria brillante
-				Tooltip: Hay una probabilidad del 11% de hacer un daño crítico de etiqueta de invocador
+				Tooltip:
+					'''
+					10% de probabilidad de crítico de etiqueta de invocador.
+					Todos los enemigos golpeados por este látigo
+					hacen que el siguiente ataque del esbirro
+					libere dos fragmentos de cristal rastreadores
+					que infligen un 20% de daño
+					'''
 			}
 
 			Droptide: {
@@ -214,9 +221,12 @@ Mods: {
 				Tooltip:
 					'''
 					Todos los enemigos golpeados por este látigo:
-
-					Reciben 1,75 veces más daño del siguiente ataque de súbdito y explota,
-					inflingiendo un 10% de daño a los enemigos cercanos
+					provoca que el siguiente ataque de súbdito
+					desencadene una explosión
+					que inflige un 100% de daño.
+					Los enemigos muertos por esta explosión
+					desencadenan otra explosión,
+					que puede continuar encadenándose
 					'''
 			}
 
@@ -341,7 +351,7 @@ Mods: {
 					'''
 			}
 
-			EistenceBonds: {
+			ExistenceBonds: {
 				DisplayName: Lazos existenciales
 				Tooltip:
 					'''
@@ -364,6 +374,186 @@ Mods: {
 					El daño por empalamiento perfora 50 puntos de armadura
 					'''
 			}
+
+			MandibleLash: {
+				DisplayName: Látigo mandibular
+				Tooltip:
+					'''
+					1 daño de etiqueta de invocación
+					Todos los enemigos golpeados por este látigo
+					hacen que el siguiente ataque del súbdito lance una esfera de arena
+					que cae por la gravedad e inflige un 40% de daño
+					Explota al impactar contra un bloque, dañando a los enemigos cercanos
+					'''
+			}
+
+			DarkMandibleLash: {
+				DisplayName: Látigo mandibular
+				Tooltip:
+					'''
+					2 daño de etiqueta de invocación
+					Todos los enemigos golpeados por este látigo
+					hacen que el siguiente ataque del súbdito lance una esfera de arena
+					que cae por la gravedad e inflige un 40% de daño
+					Explota al impactar contra un bloque, dañando a los enemigos cercanos
+					'''
+			}
+
+			ShieldConduit: {
+				DisplayName: Conducto blindado
+				Tooltip:
+					'''
+					Cambia automáticamente entre dos modos.
+					-----------------------------
+					Modo Defensa:
+					Al golpear a un enemigo con el látigo,
+					los ataques de los súbditos liberan fragmentos de escudo azul
+					durante un breve periodo de tiempo.
+					Al recoger los fragmentos, se acumula cargas de escudo.
+					Con 50 cargas, se obtiene un escudo de 50 puntos de vida
+					-----------------------------
+					Modo Ataque:
+					Al golpear a un enemigo con el látigo,
+					los ataques de los súbditoss liberan fragmentos de escudo rojos durante un breve periodo de tiempo.
+					Los fragmentos rojos se dirigen hacia los enemigos,
+					infligiendo un 10% del daño de los súbditos +3 de daño fijo
+					-----------------------------
+					La liberación de fragmentos de escudo tiene un tiempo de enfriamiento muy corto.
+					Cuando el escudo recibe daño, entra en un enfriamiento
+					que dura entre 5 y 50 segundos, dependiendo del escudo restante.
+					Si el escudo se rompe por completo,
+					el tiempo de recarga pasa a ser de 60 segundos.
+					Durante el tiempo de recarga, cambia al modo de ataque.
+					Cuando finaliza el tiempo de recarga, cambia al modo de defensa.
+					Si queda algo de escudo, al recoger fragmentos
+					se restaurará la durabilidad del escudo
+					'''
+			}
+
+			ShieldConduitMkII: {
+				DisplayName: Conducto blindado Mk-II
+				Tooltip:
+					'''
+					Cambia automáticamente entre dos modos.
+					-----------------------------
+					Modo Defensa:
+					Al golpear a un enemigo con el látigo,
+					los ataques de los súbditos liberan fragmentos de escudo azul
+					durante un breve periodo de tiempo.
+					Al recoger los fragmentos, se acumula cargas de escudo.
+					Con 100 cargas, se obtiene un escudo de 100 puntos de vida
+					-----------------------------
+					Modo Ataque:
+					Al golpear a un enemigo con el látigo,
+					los ataques de los súbditoss liberan fragmentos de escudo rojos durante un breve periodo de tiempo.
+					Los fragmentos rojos se dirigen hacia los enemigos,
+					infligiendo un 10% del daño de los súbditos +5 de daño fijo
+					-----------------------------
+					La liberación de fragmentos de escudo tiene un tiempo de enfriamiento muy corto.
+					Cuando el escudo recibe daño, entra en un enfriamiento
+					que dura entre 5 y 50 segundos, dependiendo del escudo restante.
+					Si el escudo se rompe por completo,
+					el tiempo de recarga pasa a ser de 60 segundos.
+					Durante el tiempo de recarga, cambia al modo de ataque.
+					Cuando finaliza el tiempo de recarga, cambia al modo de defensa.
+					Si queda algo de escudo, al recoger fragmentos
+					se restaura la durabilidad del escudo
+					'''
+			}
+
+			ShieldConduitMkIII: {
+				DisplayName: Conducto blindado Mk-III
+				Tooltip:
+					'''
+					Cambia automáticamente entre dos modos.
+					-----------------------------
+					Modo Defensa:
+					Al golpear a un enemigo con el látigo,
+					los ataques de los súbditos liberan fragmentos de escudo azul
+					durante un breve periodo de tiempo.
+					Al recoger los fragmentos, se acumula cargas de escudo.
+					Con 150 cargas, se obtiene un escudo de 150 puntos de vida
+					-----------------------------
+					Modo Ataque:
+					Al golpear a un enemigo con el látigo,
+					los ataques de los súbditoss liberan fragmentos de escudo rojos durante un breve periodo de tiempo.
+					Los fragmentos rojos se dirigen hacia los enemigos,
+					infligiendo un 10% del daño de los súbditos +25 de daño fijo
+					-----------------------------
+					La liberación de fragmentos de escudo tiene un tiempo de enfriamiento muy corto.
+					Cuando el escudo recibe daño, entra en un enfriamiento
+					que dura entre 5 y 50 segundos, dependiendo del escudo restante.
+					Si el escudo se rompe por completo,
+					el tiempo de recarga pasa a ser de 60 segundos.
+					Durante el tiempo de recarga, cambia al modo de ataque.
+					Cuando finaliza el tiempo de recarga, cambia al modo de defensa.
+					Si queda algo de escudo, al recoger fragmentos
+					se restaura la durabilidad del escudo
+					'''
+			}
+
+			ShieldConduitMkIV: {
+				DisplayName: Conducto blindado Mk-IV
+				Tooltip:
+					'''
+					Cambia automáticamente entre dos modos.
+					-----------------------------
+					Modo Defensa:
+					Al golpear a un enemigo con el látigo,
+					los ataques de los súbditos liberan fragmentos de escudo azul
+					durante un breve periodo de tiempo.
+					Al recoger los fragmentos, se acumula cargas de escudo.
+					Con 200 cargas, se obtiene un escudo de 200 puntos de vida
+					-----------------------------
+					Modo Ataque:
+					Al golpear a un enemigo con el látigo,
+					los ataques de los súbditoss liberan fragmentos de escudo rojos durante un breve periodo de tiempo.
+					Los fragmentos rojos se dirigen hacia los enemigos,
+					infligiendo un 10% del daño de los súbditos +50 de daño fijo
+					-----------------------------
+					La liberación de fragmentos de escudo tiene un tiempo de enfriamiento muy corto.
+					Cuando el escudo recibe daño, entra en un enfriamiento
+					que dura entre 5 y 50 segundos, dependiendo del escudo restante.
+					Si el escudo se rompe por completo,
+					el tiempo de recarga pasa a ser de 60 segundos.
+					Durante el tiempo de recarga, cambia al modo de ataque.
+					Cuando finaliza el tiempo de recarga, cambia al modo de defensa.
+					Si queda algo de escudo, al recoger fragmentos
+					se restaura la durabilidad del escudo
+					'''
+			}
+
+			ShieldConduitMkV: {
+				DisplayName: Conducto blindado Mk-V
+				Tooltip:
+					'''
+					Cambia automáticamente entre dos modos.
+					-----------------------------
+					Modo Defensa:
+					Al golpear a un enemigo con el látigo,
+					los ataques de los súbditos liberan fragmentos de escudo azul
+					durante un breve periodo de tiempo.
+					Al recoger los fragmentos, se acumula cargas de escudo.
+					Con 250 cargas, se obtiene un escudo de 250 puntos de vida
+					-----------------------------
+					Modo Ataque:
+					Al golpear a un enemigo con el látigo,
+					los ataques de los súbditoss liberan fragmentos de escudo rojos durante un breve periodo de tiempo.
+					Los fragmentos rojos se dirigen hacia los enemigos,
+					infligiendo un 10% del daño de los súbditos +150 de daño fijo
+					-----------------------------
+					La liberación de fragmentos de escudo tiene un tiempo de enfriamiento muy corto.
+					Cuando el escudo recibe daño, entra en un enfriamiento
+					que dura entre 5 y 50 segundos, dependiendo del escudo restante.
+					Si el escudo se rompe por completo,
+					el tiempo de recarga pasa a ser de 60 segundos.
+					Durante el tiempo de recarga, cambia al modo de ataque.
+					Cuando finaliza el tiempo de recarga, cambia al modo de defensa.
+					Si queda algo de escudo, al recoger fragmentos
+					se restaura la durabilidad del escudo
+					'''
+			}
+
 
 			Accessories: {
 				BleachedNucleogenesis: {
@@ -744,6 +934,20 @@ Mods: {
 				DisplayName: Invisible Wooden Whip
 				Tooltip: ""
 			}
+			InvisibleGlitterGutter2: {
+				DisplayName: Invisible Glitter Gutter2
+				Tooltip: ""
+			}
+
+			InvisibleMandibleLash2: {
+				DisplayName: Invisible Mandible Lash2
+				Tooltip: ""
+			}
+
+			LayeredLash: {
+				Tooltip: ""
+				DisplayName: Layered Lash
+			}
 		}
 
 		Buffs: {
@@ -991,8 +1195,79 @@ Mods: {
 				Description: Mods.CalamitySimpleWhipAddon.Buffs.SimpleWhipDebuff7D07C2.Description
 				DisplayName: Simple Whip Debuff7 D07 C2
 			}
+
+			SimpleWhipDebuffEx9: {
+				DisplayName: Simple Whip Debuff Ex9
+				Description: Mods.CalamitySimpleWhipAddon.Buffs.SimpleWhipDebuffEx9.Description
+			}
+
+			SimpleWhipDebuffT2: {
+				Description: Mods.CalamitySimpleWhipAddon.Buffs.SimpleWhipDebuffT2.Description
+				DisplayName: Simple Whip Debuff T2
+			}
+
+			SimpleWhipDebuffT1: {
+				Description: Mods.CalamitySimpleWhipAddon.Buffs.SimpleWhipDebuffT1.Description
+				DisplayName: Simple Whip Debuff T1
+			}
+
+			SimpleWhipDebuffEx10: {
+				DisplayName: Simple Whip Debuff Ex10
+				Description: Mods.CalamitySimpleWhipAddon.Buffs.SimpleWhipDebuffEx10.Description
+			}
+
+			SimpleWhipDebuffEx11: {
+				DisplayName: Simple Whip Debuff Ex11
+				Description: Mods.CalamitySimpleWhipAddon.Buffs.SimpleWhipDebuffEx11.Description
+			}
+
+			SimpleWhipDebuffS1: {
+				Description: Mods.CalamitySimpleWhipAddon.Buffs.SimpleWhipDebuffS1.Description
+				DisplayName: Simple Whip Debuff S1
+			}
+
+			SimpleWhipDebuffS2: {
+				DisplayName: Simple Whip Debuff S2
+				Description: Mods.CalamitySimpleWhipAddon.Buffs.SimpleWhipDebuffS2.Description
+			}
+
+			SimpleWhipDebuffS3: {
+				DisplayName: Simple Whip Debuff S3
+				Description: Mods.CalamitySimpleWhipAddon.Buffs.SimpleWhipDebuffS3.Description
+			}
+
+			SimpleWhipDebuffS4: {
+				DisplayName: Simple Whip Debuff S4
+				Description: Mods.CalamitySimpleWhipAddon.Buffs.SimpleWhipDebuffS4.Description
+			}
+
+			SimpleWhipDebuffS5: {
+				Description: Mods.CalamitySimpleWhipAddon.Buffs.SimpleWhipDebuffS5.Description
+				DisplayName: Simple Whip Debuff S5
+			}
+
+			SimpleWhipDebuffT2St: {
+				Description: Mods.CalamitySimpleWhipAddon.Buffs.SimpleWhipDebuffT2St.Description
+				DisplayName: Simple Whip Debuff T2 St
+			}
+
+			SimpleWhipDebuffT5St: {
+				Description: Mods.CalamitySimpleWhipAddon.Buffs.SimpleWhipDebuffT5St.Description
+				DisplayName: Simple Whip Debuff T5 St
+			}
+
+			SimpleWhipDebuffT4St: {
+				Description: Mods.CalamitySimpleWhipAddon.Buffs.SimpleWhipDebuffT4St.Description
+				DisplayName: Simple Whip Debuff T4 St
+			}
+
+			SimpleWhipDebuffT3St: {
+				Description: Mods.CalamitySimpleWhipAddon.Buffs.SimpleWhipDebuffT3St.Description
+				DisplayName: Simple Whip Debuff T3 St
+			}
 		}
 
 		DamageClasses.PseudoSummonDamageClass.DisplayName: Pseudo daño de la clase de invocador
 	}
 }
+
