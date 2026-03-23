@@ -297,9 +297,12 @@ Mods: {
 				DisplayName: Vía láctea
 				Tooltip:
 					'''
-					Todos los enemigos golpeados por este látigo:
-
-					Recibe un golpe crítico garantizado de 6 puntos de daño de un súbdito
+					+10 de daño de etiqueta de invocación por acumulación
+                    Todos los enemigos alcanzados por este látigo: 
+                    reciben un golpe crítico garantizado de un súbdito que inflige 4 veces más de daño
+                    Las acumulaciones de este látigo se suman entre sí.
+                    Las acumulaciones más antiguas se eliminan primero.
+                    Un número de cometas igual al de acumulaciones orbita alrededor del enemigo
 					'''
 			}
 
@@ -551,6 +554,60 @@ Mods: {
 					Cuando finaliza el tiempo de recarga, cambia al modo de defensa.
 					Si queda algo de escudo, al recoger fragmentos
 					se restaura la durabilidad del escudo
+					'''
+			}
+
+			LayeredPain: {
+				DisplayName: Dolor por capas
+				Tooltip:
+					'''
+					+1 de daño de etiqueta de invocación por acumulación
+                    El daño de marca de este látigo se acumula consigo mismo.
+                    Las acumulaciones más antiguas se eliminan primero
+					'''
+			}
+
+			NightButterfly: {
+				DisplayName: Mariposa nocturna
+				Tooltip:
+					'''
+					+2 de daño de etiqueta de invocación por acumulación
+					El daño de marca de este látigo se acumula consigo mismo.
+					Las acumulaciones más antiguas se eliminan primero
+					Se adhieren al enemigo tantas polillas como acumulaciones halla
+					'''
+			}
+
+			ActiasAliena: {
+				DisplayName: Actias Aliena
+				Tooltip:
+					'''
+					+3 de daño de etiqueta de invocación por acumulación
+					El daño de marca de este látigo se acumula consigo mismo.
+					Las acumulaciones más antiguas se eliminan primero
+					Se adhieren al enemigo tantas polillas como acumulaciones halla
+					'''
+			}
+
+			ButterflyEffect: {
+				DisplayName: Efecto mariposa
+				Tooltip:
+					'''
+					+6 de daño de etiqueta de invocación por acumulación
+					El daño de marca de este látigo se acumula consigo mismo.
+					Las acumulaciones más antiguas se eliminan primero
+					Se adhieren al enemigo tantas polillas como acumulaciones halla
+					'''
+			}
+
+			EtaCarinae: {
+				DisplayName: Eta Carinae
+				Tooltip:
+					'''
+					+10 de daño de etiqueta de invocación por acumulación
+					El daño de marca de este látigo se acumula consigo mismo.
+					Las acumulaciones más antiguas se eliminan primero
+					Se adhieren al enemigo tantas polillas como acumulaciones halla
 					'''
 			}
 
@@ -944,9 +1001,9 @@ Mods: {
 				Tooltip: ""
 			}
 
-			LayeredLash: {
+			InvisibleMilkyway2: {
+				DisplayName: Invisible Milkyway2
 				Tooltip: ""
-				DisplayName: Layered Lash
 			}
 		}
 
@@ -1264,6 +1321,26 @@ Mods: {
 			SimpleWhipDebuffT3St: {
 				Description: Mods.CalamitySimpleWhipAddon.Buffs.SimpleWhipDebuffT3St.Description
 				DisplayName: Simple Whip Debuff T3 St
+			}
+
+			SimpleWhipDebuffT1St: {
+				Description: Mods.CalamitySimpleWhipAddon.Buffs.SimpleWhipDebuffT1St.Description
+				DisplayName: Simple Whip Debuff T1 St
+			}
+
+			SimpleWhipDebuffT2St2: {
+				Description: Mods.CalamitySimpleWhipAddon.Buffs.SimpleWhipDebuffT2St2.Description
+				DisplayName: Simple Whip Debuff T2 St2
+			}
+
+			SimpleWhipDebuffT10St: {
+				Description: Mods.CalamitySimpleWhipAddon.Buffs.SimpleWhipDebuffT10St.Description
+				DisplayName: Simple Whip Debuff T10 St
+			}
+
+			SimpleWhipDebuffT20St: {
+				DisplayName: Simple Whip Debuff T20 St
+				Description: Mods.CalamitySimpleWhipAddon.Buffs.SimpleWhipDebuffT20St.Description
 			}
 		}
 
