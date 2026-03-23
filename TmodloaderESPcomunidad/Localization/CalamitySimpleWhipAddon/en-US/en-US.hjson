@@ -293,8 +293,12 @@ Mods: {
 				DisplayName: Milkyway
 				Tooltip:
 					'''
+					+10 summon tag damage per stack
 					All enemies struck by this whip
-					take one guaranteed 6x damage critical hit from a minion.
+					take one guaranteed 4x damage critical hit from a minion.
+					This whip's tag stacks with itself.
+					Older stacks expire first.
+					A number of comets equal to the stacks count orbit around the enemy.
 					'''
 			}
 
@@ -541,6 +545,60 @@ Mods: {
 					When cooldown ends, switches to Defense Mode.
 					If any shield remains, collecting shards
 					restores shield durability.
+					'''
+			}
+
+			LayeredPain: {
+				DisplayName: Layered Pain
+				Tooltip:
+					'''
+					+1 summon tag damage per stack
+					This whip's tag damage stacks with itself.
+					Older stacks expire first.
+					'''
+			}
+
+			NightButterfly: {
+				DisplayName: Night Butterfly
+				Tooltip:
+					'''
+					+2 summon tag damage per stack
+					This whip's tag damage stacks with itself.
+					Older stacks expire first.
+					A number of moths equal to the stacks attach themselves to the enemy.
+					'''
+			}
+
+			ActiasAliena: {
+				DisplayName: Actias Aliena
+				Tooltip:
+					'''
+					+3 summon tag damage per stack
+					This whip's tag damage stacks with itself.
+					Older stacks expire first.
+					A number of moths equal to the stacks attach themselves to the enemy.
+					'''
+			}
+
+			ButterflyEffect: {
+				DisplayName: Butterfly Effect
+				Tooltip:
+					'''
+					+6 summon tag damage per stack
+					This whip's tag damage stacks with itself.
+					Older stacks expire first.
+					A number of moths equal to the stacks attach themselves to the enemy.
+					'''
+			}
+
+			EtaCarinae: {
+				DisplayName: Eta Carinae
+				Tooltip:
+					'''
+					+10 summon tag damage per stack
+					This whip's tag damage stacks with itself.
+					Older stacks expire first.
+					A number of comets equal to the stacks count orbit around the enemy.
 					'''
 			}
 
@@ -934,9 +992,9 @@ Mods: {
 				Tooltip: ""
 			}
 
-			LayeredLash: {
+			InvisibleMilkyway2: {
+				DisplayName: Invisible Milkyway2
 				Tooltip: ""
-				DisplayName: Layered Lash
 			}
 		}
 
@@ -1254,6 +1312,26 @@ Mods: {
 			SimpleWhipDebuffT3St: {
 				Description: Mods.CalamitySimpleWhipAddon.Buffs.SimpleWhipDebuffT3St.Description
 				DisplayName: Simple Whip Debuff T3 St
+			}
+
+			SimpleWhipDebuffT1St: {
+				Description: Mods.CalamitySimpleWhipAddon.Buffs.SimpleWhipDebuffT1St.Description
+				DisplayName: Simple Whip Debuff T1 St
+			}
+
+			SimpleWhipDebuffT2St2: {
+				Description: Mods.CalamitySimpleWhipAddon.Buffs.SimpleWhipDebuffT2St2.Description
+				DisplayName: Simple Whip Debuff T2 St2
+			}
+
+			SimpleWhipDebuffT10St: {
+				Description: Mods.CalamitySimpleWhipAddon.Buffs.SimpleWhipDebuffT10St.Description
+				DisplayName: Simple Whip Debuff T10 St
+			}
+
+			SimpleWhipDebuffT20St: {
+				DisplayName: Simple Whip Debuff T20 St
+				Description: Mods.CalamitySimpleWhipAddon.Buffs.SimpleWhipDebuffT20St.Description
 			}
 		}
 
