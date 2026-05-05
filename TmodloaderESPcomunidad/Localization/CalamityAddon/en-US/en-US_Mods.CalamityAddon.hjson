@@ -1,0 +1,133 @@
+# This file will automatically update with entries for new content after a build and reload.
+
+Items: {
+	WulfrumSword: {
+		DisplayName: Wulfrum Sword
+		Tooltip:
+			'''
+			Builds up charge upon enemy hits
+			Building up enough charge allows you to press <right> to perform a dash
+			[c/83B87E:'A giant wulfrum sword?! And it's a chargeable one!?']
+			[c/83B87E:'Give me two!']
+			'''
+	}
+
+	WulfrumPipe: {
+		DisplayName: Wulfrum Pipe
+		Tooltip: It was a tank gun
+	}
+
+	WulfrumLRocket: {
+		DisplayName: Wulfrum Rocket
+		Tooltip: With auto-aim
+	}
+
+	WulfrumLuncher: {
+		DisplayName: Wulfrum Launcher
+		Tooltip: "[c/83B87E:'This is more powerful than you think.']"
+	}
+
+	WulfrumTankBanner: {
+		DisplayName: Wulfrum Tank Banner
+		Tooltip: ""
+	}
+
+	WulfrumWormBanner: {
+		DisplayName: Wulfrum Digger Banner
+		Tooltip: ""
+	}
+
+	WulfrumMothershipRelic: {
+		DisplayName: Wulfrum Mothership Relic
+		Tooltip: ""
+	}
+
+	WulfrumHeart: {
+		Tooltip:
+			'''
+			Summonsd Wulfrum Mothership
+			No consumable
+			'''
+		DisplayName: Wulfrum Heart
+	}
+
+	WulfrumMothershipBag: {
+		Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
+		DisplayName: Wulfrum Sphere
+	}
+
+	Lore: {
+		LoreWulfrumMothership: {
+			Tooltip:
+				'''
+				During the war, these majestic machines were in peak condition, 
+				Boasting heavy armor and high maneuverability, but time spares no one... 
+				Even though these Wulfrum Motherships have long since rusted over, 
+				They remain a formidable foe to this day, still protected by lesser wulfrum creations.
+				'''
+			DisplayName: Lore (Wulfrum Mothership)
+		}
+	}
+
+	WulfrumBook: {
+		DisplayName: Wulfrum Book
+		Tooltip:
+			'''
+			Crafts wulfrum machines from mana
+			[c/83B87E:'Engineering and commanding Wulfrum constructs.]
+			[c/83B87E:Peak mechanical engineering!']
+			'''
+	}
+
+	WulfrumStaff: {
+		DisplayName: Wulfrum Staff
+		Tooltip:
+			'''
+			Summons a protective turret
+			[c/83B87E:'So powerful and cute!']
+			'''
+	}
+}
+
+NPCs: {
+	WulfrumTank: {
+		DisplayName: Wulfrum Tank
+		Bestiary: An armored patrol tank made of Wulfrum alloy. While these machines were relatively simple, they were very effective on the battlefield.
+	}
+
+	WulfrumWormBody.DisplayName: Wulfrum Digger
+
+	WulfrumWormHead: {
+		DisplayName: Wulfrum Digger
+		Bestiary: These Wulfrum diggers were used to quickly tunnel through rock, but when the war began, their high armor and speed made them formidable opponents.
+	}
+
+	WulfrumWormTail.DisplayName: Wulfrum Digger
+
+	WulfrumMothership: {
+		DisplayName: Wulfrum Mothership
+		Bestiary: A massive mothership that coordinates the actions of Wulfrum machines. Armed with homing missiles and a shield generator, it can also charge other Wulfrum machines.
+		SpawnInfo: Use a [i:CalamityAddon/WulfrumHeart] during the day on the surface.
+		DespawnMessage: The Wulfrum Mothership has retreated...
+	}
+
+	WulfrumShield.DisplayName: Wulfrum Mothership
+}
+
+# BossSpawnInfo.CalamityAddon.WulfrumMothership: Use a [i:CalamityAddon/WulfrumHeart] during the day on the surface.
+# BossDespawnMessage.CalamityAddon.WulfrumMothership: The Wulfrum Mothership has retreated...
+
+Projectiles: {
+	WulfrumRocket.DisplayName: Wulfrum Rocket
+	WulfrumLRocketProj.DisplayName: Wulfrum Rocket
+	WulfrumMachineProj.DisplayName: Wulfrum Machine
+	WulfrumTurret.DisplayName: Wulfrum Turret
+	WulfrumMinis.DisplayName: Wulfrum Minis
+}
+
+Buffs: {
+	WulfrumTurretBuff: {
+		DisplayName: Wulfrum turret
+		Description: You are protected by wulfrum turret
+	}
+}
