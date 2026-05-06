@@ -29,13 +29,13 @@ Items: {
 		DisplayName: Goozma
 		Lore:
 			'''
-	Un perturbador trastorno en el dominio jerárquico de todos los seres vivos.
-  Pensar que la culminación del escalón más bajo de las criaturas pudo, aun así, poseer un alma Áurica pese a carecer de cualquier herencia dracónica...
-  Se convirtió en algo superior, acercándose a un ser perfecto compuesto únicamente de partes imperfectas... quizás lo que realmente define a un Dios permanecerá para siempre desconocido.
-  Mi aprensión hacia tu cultivo de esta grotesca monstruosidad es superada por mi curiosidad hacia ella.
-  ¿Qué pudo haber influido en la forma que adoptó? Su apariencia desmiente la destreza y sofisticación con la que manipuló a sus sujetos.
-  Qué lástima que los frutos de su esfuerzo terminaran en nada. Un patrón incesante en los cíclicos anales de la historia.
-  Quizás, desde la perspectiva de Terraria, nuestros propios logros no sean más que el débil retorcer de simples slimes.
+			Un perturbador trastorno en el dominio jerárquico de todos los seres vivos.
+			Pensar que la culminación del escalón más bajo de las criaturas pudo, aun así, poseer un alma Áurica pese a carecer de cualquier herencia dracónica...
+			Se convirtió en algo superior, acercándose a un ser perfecto compuesto únicamente de partes imperfectas... quizás lo que realmente define a un Dios permanecerá para siempre desconocido.
+			Mi aprensión hacia tu cultivo de esta grotesca monstruosidad es superada por mi curiosidad hacia ella.
+			¿Qué pudo haber influido en la forma que adoptó? Su apariencia desmiente la destreza y sofisticación con la que manipuló a sus sujetos.
+			Qué lástima que los frutos de su esfuerzo terminaran en nada. Un patrón incesante en los cíclicos anales de la historia.
+			Quizás, desde la perspectiva de Terraria, nuestros propios logros no sean más que el débil retorcer de simples slimes.
 			'''
 		Tooltip: ""
 	}
@@ -141,14 +141,14 @@ Items: {
 			'''
 		SetBonus:
 			'''
-			 17% de aumento de daño y +5 esbirros máximos
-  {$CommonItemTooltip.FlightAndSlowfall}
-  Sobrescribe cualquier ala durante este vuelo
-  {$CommonItemTooltip.PressDownToHover}
-  Permite la habilidad de dash y mejora otros dashes
-  Mantén Abajo para descender rápidamente
-  Aumenta la velocidad de salto
-  Otorga inmunidad a muchos efectos negativos de endgame y relacionados con el movimiento
+			17% de aumento de daño y +5 esbirros máximos
+			{$CommonItemTooltip.FlightAndSlowfall}
+			Sobrescribe cualquier ala durante este vuelo
+			{$CommonItemTooltip.PressDownToHover}
+			Permite la habilidad de dash y mejora otros dashes
+			Mantén Abajo para descender rápidamente
+			Aumenta la velocidad de salto
+			Otorga inmunidad a muchos efectos negativos de endgame y relacionados con el movimiento
 			'''
 	}
 
@@ -478,12 +478,12 @@ Items: {
 	}
 
 	AshenSoul: {
-		DisplayName: Alma Áurica Cenicienta
+		DisplayName: Alma áurica cenicienta
 		Tooltip:  Absórbela para obtener inmensos poderes magmáticos
 	}
 
 	RottenSoul: {
-		DisplayName: Alma Áurica Putrefacta
+		DisplayName: Alma áurica putrefacta
 		Tooltip: Absórbela para obtener inmensos poderes radiactivos
 	}
 
@@ -493,22 +493,22 @@ Items: {
 	}
 
 	GoozmaMusicBoxExiledP1: {
-		DisplayName: Music Box (Exiled Goozma)
+		DisplayName: Caja de música (Exiled Goozma)
 		Tooltip: ""
 	}
 
 	GoozmaMusicBoxExiledP2: {
-		DisplayName: Music Box (Exiled Goozma Desperate)
+		DisplayName: Caja de música (Exiled Goozma Desperate)
 		Tooltip: ""
 	}
 
 	GoozmaMusicBoxJteohP1: {
-		DisplayName: Music Box (Jteoh Goozma)
+		DisplayName: Caja de música (Jteoh Goozma)
 		Tooltip: ""
 	}
 
 	GoozmaMusicBoxJteohP2: {
-		DisplayName: Music Box (Jteoh Goozma Desperate)
+		DisplayName: Caja de música (Jteoh Goozma Desperate)
 		Tooltip: ""
 	}
 
@@ -518,21 +518,21 @@ Items: {
 	}
 
 	SludgeSpongeEmpty: {
-		DisplayName:  Esponja de Lodo
+		DisplayName:  Esponja de lodo
 		Tooltip: Úsala en una estatua de Ninja Slime potenciada para terminar una lluvia de slimes
 	}
 
 	SludgeSpongeFull: {
-		DisplayName: Esponja de Lodo Saturada
+		DisplayName: Esponja de lodo saturada
 		Tooltip:
 			'''
 			Úsala en una estatua de Ninja Slime potenciada para iniciar una lluvia de slimes
-'Diviértete exprimiéndola'
+			'Diviértete exprimiéndola'
 			'''
 	}
 
 	ReplicaGauntlets: {
-		DisplayName: Guanteletes Réplica
+		DisplayName: Guanteletes réplica
 		Tooltip: "'Todo el brillo sin el glamour'"
 	}
 
@@ -542,22 +542,22 @@ Items: {
 	}
 
 	EbonianCystDye: {
-		DisplayName: Tinte de Quiste Eboniano
+		DisplayName: Tinte de quiste eboniano
 		Tooltip: ""
 	}
 
 	CrimulanGougeDye: {
-		DisplayName: Tinte de Desgarro Crimulano
+		DisplayName: Tinte de desgarro crimulan
 		Tooltip: ""
 	}
 
 	StellarHeavenDye: {
-		DisplayName: Tinte de Cielo Estelar
+		DisplayName: Tinte de cielo estelar
 		Tooltip: ""
 	}
 
 	DivineResplendanceDye: {
-		DisplayName: Tinte de Resplandor Divino
+		DisplayName: Tinte de resplandor divino
 		Tooltip: ""
 	}
 }
@@ -669,7 +669,7 @@ Chat: {
 
 	DeathReasons: {
 		NuclearLemonade: "{0} debe estar bebiendo limonada de Lord Vertice."
-		StellarGeliath:"{0} fue destrozado por la gravedad."
+		StellarGeliath: "{0} fue destrozado por la gravedad."
 		DivineGargooptuar: "{0} vio la luz."
 	}
 }
