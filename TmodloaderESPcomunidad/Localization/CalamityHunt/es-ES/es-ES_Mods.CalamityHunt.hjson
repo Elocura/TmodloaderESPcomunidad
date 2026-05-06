@@ -29,13 +29,13 @@ Items: {
 		DisplayName: Goozma
 		Lore:
 			'''
-			A most chilling upset, in the hierarchical dominion of all things living.
-			To think the culmination of the lowest echelon of creatures could nevertheless possess an Auric soul despite lacking any draconic heritage…
-			It became something greater, approaching a perfect being comprised of naught but imperfect parts...perhaps what truly makes a God will forever be unknown.
-			My apprehension towards your cultivation of this grotesque monstrosity is outweighed by my curiosity towards it.
-			What could have influenced the form that it took? Its appearance belies the finesse and sophistication of the manipulation of its subjects.
-			What a pity it is that the fruits of its effort came to nothing in the end. An unremitting pattern in the cyclic annals of history.
-			Perhaps, from the perspective of Terraria, our own achievements amount to little more than the impotent writhing of slimes.
+	Un perturbador trastorno en el dominio jerárquico de todos los seres vivos.
+  Pensar que la culminación del escalón más bajo de las criaturas pudo, aun así, poseer un alma Áurica pese a carecer de cualquier herencia dracónica...
+  Se convirtió en algo superior, acercándose a un ser perfecto compuesto únicamente de partes imperfectas... quizás lo que realmente define a un Dios permanecerá para siempre desconocido.
+  Mi aprensión hacia tu cultivo de esta grotesca monstruosidad es superada por mi curiosidad hacia ella.
+  ¿Qué pudo haber influido en la forma que adoptó? Su apariencia desmiente la destreza y sofisticación con la que manipuló a sus sujetos.
+  Qué lástima que los frutos de su esfuerzo terminaran en nada. Un patrón incesante en los cíclicos anales de la historia.
+  Quizás, desde la perspectiva de Terraria, nuestros propios logros no sean más que el débil retorcer de simples slimes.
 			'''
 		Tooltip: ""
 	}
@@ -141,14 +141,14 @@ Items: {
 			'''
 		SetBonus:
 			'''
-			17% increased damage and +5 max minions
-			{$CommonItemTooltip.FlightAndSlowfall}
-			Wearing any wings overrides this flight
-			{$CommonItemTooltip.PressDownToHover}
-			Allows the ability to dash and enhances other dashes
-			Hold DOWN to fastfall
-			Increases jump speed 
-			Grants immunity to many endgame and movement-based debuffs
+			 17% de aumento de daño y +5 esbirros máximos
+  {$CommonItemTooltip.FlightAndSlowfall}
+  Sobrescribe cualquier ala durante este vuelo
+  {$CommonItemTooltip.PressDownToHover}
+  Permite la habilidad de dash y mejora otros dashes
+  Mantén Abajo para descender rápidamente
+  Aumenta la velocidad de salto
+  Otorga inmunidad a muchos efectos negativos de endgame y relacionados con el movimiento
 			'''
 	}
 
@@ -458,7 +458,7 @@ Items: {
 	}
 
 	ShogunWings: {
-		DisplayName: Thousand-Fold Paper Fans
+		DisplayName: Abanicos de papel mil veces plegados
 		Tooltip: "'Son mejores para refrescarte'"
 	}
 
@@ -478,17 +478,17 @@ Items: {
 	}
 
 	AshenSoul: {
-		DisplayName: Ashen Auric Soul
-		Tooltip: Absorb to gain immense, magmatic powers
+		DisplayName: Alma Áurica Cenicienta
+		Tooltip:  Absórbela para obtener inmensos poderes magmáticos
 	}
 
 	RottenSoul: {
-		DisplayName: Rotten Auric Soul
-		Tooltip: Absorb to gain immense, radioactive powers
+		DisplayName: Alma Áurica Putrefacta
+		Tooltip: Absórbela para obtener inmensos poderes radiactivos
 	}
 
 	CancelSlimeRain: {
-		DisplayName: Cancel Slime Rain
+		DisplayName: Cancelar lluvia de slimes
 		Tooltip: ""
 	}
 
@@ -513,51 +513,51 @@ Items: {
 	}
 
 	GoozmaInfernumRelic: {
-		DisplayName: Infernal Goozma Relic
+		DisplayName: Reliquia Infernal de Goozma
 		Tooltip: ""
 	}
 
 	SludgeSpongeEmpty: {
-		DisplayName: Sludge Sponge
-		Tooltip: Use on an empowered Slime Ninja Statue to end a Slime Rain
+		DisplayName:  Esponja de Lodo
+		Tooltip: Úsala en una estatua de Ninja Slime potenciada para terminar una lluvia de slimes
 	}
 
 	SludgeSpongeFull: {
-		DisplayName: Engorged Sludge Sponge
+		DisplayName: Esponja de Lodo Saturada
 		Tooltip:
 			'''
-			Use on an empowered Slime Ninja Statue to start a Slime Rain
-			'Have fun wringing it out'
+			Úsala en una estatua de Ninja Slime potenciada para iniciar una lluvia de slimes
+'Diviértete exprimiéndola'
 			'''
 	}
 
 	ReplicaGauntlets: {
-		DisplayName: Replica Gauntlets
-		Tooltip: "'All the glitz without the glamour'"
+		DisplayName: Guanteletes Réplica
+		Tooltip: "'Todo el brillo sin el glamour'"
 	}
 
 	GunkHeart: {
-		DisplayName: Gunk Heart
-		Tooltip: Adds a bit of color to your afterimages
+		DisplayName:  Corazón de Gunk
+		Tooltip: Añade un poco de color a tus postimágenes
 	}
 
 	EbonianCystDye: {
-		DisplayName: Ebonian Cyst Dye
+		DisplayName: Tinte de Quiste Eboniano
 		Tooltip: ""
 	}
 
 	CrimulanGougeDye: {
-		DisplayName: Crimulan Gouge Dye
+		DisplayName: Tinte de Desgarro Crimulano
 		Tooltip: ""
 	}
 
 	StellarHeavenDye: {
-		DisplayName: Stellar Heaven Dye
+		DisplayName: Tinte de Cielo Estelar
 		Tooltip: ""
 	}
 
 	DivineResplendanceDye: {
-		DisplayName: Divine Resplendance Dye
+		DisplayName: Tinte de Resplandor Divino
 		Tooltip: ""
 	}
 }
@@ -668,9 +668,9 @@ Chat: {
 	NinjaShrineFailureFunny: Ofreces algo al santuario, pero no obtienes nada.
 
 	DeathReasons: {
-		NuclearLemonade: "{0} must be drinking Lord Vertice Lemonade."
-		StellarGeliath: "{0} was shredded by gravity."
-		DivineGargooptuar: "{0} saw the light."
+		NuclearLemonade: "{0} debe estar bebiendo limonada de Lord Vertice."
+		StellarGeliath:"{0} fue destrozado por la gravedad."
+		DivineGargooptuar: "{0} vio la luz."
 	}
 }
 
@@ -751,8 +751,8 @@ Configs: {
 		}
 
 		infernum: {
-			Label: Infernum AI
-			Tooltip: Causes Goozma to use its Death Mode AI while the Infernum Mod's Infernum Mode is active
+			Label: IA de Infernum
+			Tooltip: Hace que Goozma use su IA de Modo Muerte cuando el Modo Infernum del mod Infernum está activo
 		}
 
 		debugMode: {
@@ -794,7 +794,7 @@ Configs: {
 InfernumOnly: In Infernum Mode
 GoozmaShadowspecCurse: "[c/462545:Una maldición mucilaginosa te impide usar este objeto...]"
 AnyEvilBlock: Cualquier bloque maligno
-DropRules.WhenAnyPlayerHasntEaten: Drops if any player hasn't absorbed
+DropRules.WhenAnyPlayerHasntEaten: Se obtiene si algún jugador no la ha absorbido
 
 CalamityModName: {
 	Display: Calamity Mod
