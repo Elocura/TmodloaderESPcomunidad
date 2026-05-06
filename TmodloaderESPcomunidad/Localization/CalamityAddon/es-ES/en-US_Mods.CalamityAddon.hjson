@@ -1,0 +1,135 @@
+# This file will automatically update with entries for new content after a build and reload.
+
+Items: {
+	WulfrumSword: {
+		DisplayName: Espada Wulfrum
+		Tooltip:
+			'''
+		Acumula carga al golpear enemigos
+			Al acumular suficiente carga puedes presionar <right> para realizar un dash
+			[c/83B87E:'¿¡Una espada wulfrum gigante!? ¿¡Y además se puede cargar!?']
+			[c/83B87E:'¡Dame dos!']
+			'''
+	}
+
+	WulfrumPipe: {
+		DisplayName: Cañón Wulfrum
+		Tooltip: Era un cañón de tanque
+	}
+
+	WulfrumLRocket: {
+		DisplayName: Cohete Wulfrum
+		Tooltip: Con autoapuntado
+
+	}
+
+	WulfrumLuncher: {
+		DisplayName: Lanzador Wulfrum
+		Tooltip: "[c/83B87E:'Esto es más poderoso de lo que crees.']"
+	}
+
+	WulfrumTankBanner: {
+		DisplayName: Estandarte de Tanque Wulfrum
+		Tooltip: ""
+	}
+
+	WulfrumWormBanner: {
+		DisplayName: Estandarte de Excavador Wulfrum
+		Tooltip: ""
+	}
+
+	WulfrumMothershipRelic: {
+		DisplayName: Reliquia de la Nave Nodriza Wulfrum
+		Tooltip: ""
+	}
+
+	WulfrumHeart: {
+		Tooltip:
+			'''
+			Invoca la Nave Nodriza Wulfrum
+			No es consumible
+			'''
+		DisplayName: Corazón Wulfrum
+	}
+
+	WulfrumMothershipBag: {
+		Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
+		DisplayName: Esfera Wulfrum
+	}
+
+	Lore: {
+		LoreWulfrumMothership: {
+			Tooltip:
+				'''
+					Durante la guerra, estas majestuosas máquinas estaban en su máximo esplendor,
+				presumiendo de un pesado blindaje y gran maniobrabilidad, pero el tiempo no perdona a nadie...
+				Aunque estas naves nodrizas Wulfrum hace tiempo que se oxidaron,
+				siguen siendo un enemigo formidable hasta el día de hoy, aún protegidas por creaciones wulfrum menores.
+				'''
+			DisplayName: Historia (Nave Nodriza Wulfrum)
+		}
+	}
+
+	WulfrumBook: {
+		DisplayName: Libro Wulfrum
+		Tooltip:
+			'''
+				Crea máquinas wulfrum usando maná
+			[c/83B87E:'Ingeniería y control de construcciones Wulfrum.']
+			[c/83B87E:'¡Ingeniería mecánica en su máximo nivel!']
+			'''
+	}
+
+	WulfrumStaff: {
+		DisplayName: Bastón Wulfrum
+		Tooltip:
+			'''
+			Invoca una torreta protectora
+			[c/83B87E:'¡Tan poderosa y adorable!']
+			'''
+	}
+}
+
+NPCs: {
+	WulfrumTank: {
+		DisplayName: Tanque Wulfrum
+		Bestiary:  Un tanque de patrulla blindado hecho de aleación Wulfrum. Aunque estas máquinas eran relativamente simples, eran muy efectivas en el campo de batalla.
+	}
+
+	WulfrumWormBody.DisplayName: Excavador Wulfrum
+
+	WulfrumWormHead: {
+		DisplayName: Excavador Wulfrum
+		Bestiary: Estos excavadores Wulfrum se usaban para atravesar la roca rápidamente, pero cuando comenzó la guerra, su gran blindaje y velocidad los convirtieron en enemigos formidables.
+	}
+
+	WulfrumWormTail.DisplayName: Excavador Wulfrum
+
+	WulfrumMothership: {
+		DisplayName: Nave Nodriza Wulfrum
+		Bestiary:Una enorme nave nodriza que coordina las acciones de las máquinas Wulfrum. Armada con misiles guiados y un generador de escudo, también puede potenciar a otras máquinas Wulfrum.
+		SpawnInfo: Usa un  [i:CalamityAddon/WulfrumHeart] durante el día en la superficie.
+
+		DespawnMessage: La Nave Nodriza Wulfrum se ha retirado...
+	}
+
+	WulfrumShield.DisplayName: Nave Nodriza Wulfrum
+}
+
+# BossSpawnInfo.CalamityAddon.WulfrumMothership: Usa un [i:CalamityAddon/WulfrumHeart] durante el día en la superficie.
+# BossDespawnMessage.CalamityAddon.WulfrumMothership: La Nave Nodriza Wulfrum se ha retirado...
+
+Projectiles: {
+	WulfrumRocket.DisplayName: Cohete Wulfrum
+	WulfrumLRocketProj.DisplayName: Cohete Wulfrum
+	WulfrumMachineProj.DisplayName: Máquina Wulfrum
+	WulfrumTurret.DisplayName: Torreta Wulfrum
+	WulfrumMinis.DisplayName: Minis Wulfrum
+}
+
+Buffs: {
+	WulfrumTurretBuff: {
+		DisplayName: Torreta Wulfrum
+		Description: Estás protegido por una torreta Wulfrum
+	}
+}
