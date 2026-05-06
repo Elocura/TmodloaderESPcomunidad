@@ -39,14 +39,14 @@ Items: {
 	}
 
 	WulfrumMothershipRelic: {
-		DisplayName: Reliquia de la Nave Nodriza Wulfrum
+		DisplayName: Reliquia de la Nave nodriza Wulfrum
 		Tooltip: ""
 	}
 
 	WulfrumHeart: {
 		Tooltip:
 			'''
-			Invoca la Nave Nodriza Wulfrum
+			Invoca la Nave nodriza Wulfrum
 			No se consume
 			'''
 		DisplayName: Corazón Wulfrum
@@ -66,7 +66,7 @@ Items: {
 				Aunque estas naves nodrizas Wulfrum hace tiempo que se oxidaron,
 				siguen siendo un enemigo formidable hasta el día de hoy, aún protegidas por creaciones wulfrum menores.
 				'''
-			DisplayName: Historia (Nave Nodriza Wulfrum)
+			DisplayName: Historia (Nave nodriza Wulfrum)
 		}
 	}
 
@@ -113,7 +113,7 @@ NPCs: {
 		DespawnMessage: La Nave Nodriza Wulfrum se ha retirado...
 	}
 
-	WulfrumShield.DisplayName: Nave Nodriza Wulfrum
+	WulfrumShield.DisplayName: Nave nodriza Wulfrum
 }
 
 # BossSpawnInfo.CalamityAddon.WulfrumMothership: Usa un [i:CalamityAddon/WulfrumHeart] durante el día en la superficie.
