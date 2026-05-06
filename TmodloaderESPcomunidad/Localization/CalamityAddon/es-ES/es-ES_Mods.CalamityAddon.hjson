@@ -2,132 +2,134 @@
 
 Items: {
 	WulfrumSword: {
-		DisplayName: Wulfrum Sword
+		DisplayName: Espada Wulfrum
 		Tooltip:
 			'''
-			Builds up charge upon enemy hits
-			Building up enough charge allows you to press <right> to perform a dash
-			[c/83B87E:'A giant wulfrum sword?! And it's a chargeable one!?']
-			[c/83B87E:'Give me two!']
+		Acumula carga al golpear enemigos
+			Al acumular suficiente carga puedes presionar <right> para realizar un dash
+			[c/83B87E:'¿¡Una espada wulfrum gigante!? ¿¡Y además se puede cargar!?']
+			[c/83B87E:'¡Dame dos!']
 			'''
 	}
 
 	WulfrumPipe: {
-		DisplayName: Wulfrum Pipe
-		Tooltip: It was a tank gun
+		DisplayName: Cañón Wulfrum
+		Tooltip: Era un cañón de tanque
 	}
 
 	WulfrumLRocket: {
-		DisplayName: Wulfrum Rocket
-		Tooltip: With auto-aim
+		DisplayName: Cohete Wulfrum
+		Tooltip: Con autoapuntado
+
 	}
 
 	WulfrumLuncher: {
-		DisplayName: Wulfrum Launcher
-		Tooltip: "[c/83B87E:'This is more powerful than you think.']"
+		DisplayName: Lanzador Wulfrum
+		Tooltip: "[c/83B87E:'Esto es más poderoso de lo que crees.']"
 	}
 
 	WulfrumTankBanner: {
-		DisplayName: Wulfrum Tank Banner
+		DisplayName: Estandarte de Tanque Wulfrum
 		Tooltip: ""
 	}
 
 	WulfrumWormBanner: {
-		DisplayName: Wulfrum Digger Banner
+		DisplayName: Estandarte de Excavador Wulfrum
 		Tooltip: ""
 	}
 
 	WulfrumMothershipRelic: {
-		DisplayName: Wulfrum Mothership Relic
+		DisplayName: Reliquia de la Nave Nodriza Wulfrum
 		Tooltip: ""
 	}
 
 	WulfrumHeart: {
 		Tooltip:
 			'''
-			Summonsd Wulfrum Mothership
-			No consumable
+			Invoca la Nave Nodriza Wulfrum
+			No es consumible
 			'''
-		DisplayName: Wulfrum Heart
+		DisplayName: Corazón Wulfrum
 	}
 
 	WulfrumMothershipBag: {
 		Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
-		DisplayName: Wulfrum Sphere
+		DisplayName: Esfera Wulfrum
 	}
 
 	Lore: {
 		LoreWulfrumMothership: {
 			Tooltip:
 				'''
-				During the war, these majestic machines were in peak condition, 
-				Boasting heavy armor and high maneuverability, but time spares no one... 
-				Even though these Wulfrum Motherships have long since rusted over, 
-				They remain a formidable foe to this day, still protected by lesser wulfrum creations.
+					Durante la guerra, estas majestuosas máquinas estaban en su máximo esplendor,
+				presumiendo de un pesado blindaje y gran maniobrabilidad, pero el tiempo no perdona a nadie...
+				Aunque estas naves nodrizas Wulfrum hace tiempo que se oxidaron,
+				siguen siendo un enemigo formidable hasta el día de hoy, aún protegidas por creaciones wulfrum menores.
 				'''
-			DisplayName: Lore (Wulfrum Mothership)
+			DisplayName: Historia (Nave Nodriza Wulfrum)
 		}
 	}
 
 	WulfrumBook: {
-		DisplayName: Wulfrum Book
+		DisplayName: Libro Wulfrum
 		Tooltip:
 			'''
-			Crafts wulfrum machines from mana
-			[c/83B87E:'Engineering and commanding Wulfrum constructs.]
-			[c/83B87E:Peak mechanical engineering!']
+				Crea máquinas wulfrum usando maná
+			[c/83B87E:'Ingeniería y control de construcciones Wulfrum.']
+			[c/83B87E:'¡Ingeniería mecánica en su máximo nivel!']
 			'''
 	}
 
 	WulfrumStaff: {
-		DisplayName: Wulfrum Staff
+		DisplayName: Bastón Wulfrum
 		Tooltip:
 			'''
-			Summons a protective turret
-			[c/83B87E:'So powerful and cute!']
+			Invoca una torreta protectora
+			[c/83B87E:'¡Tan poderosa y adorable!']
 			'''
 	}
 }
 
 NPCs: {
 	WulfrumTank: {
-		DisplayName: Wulfrum Tank
-		Bestiary: An armored patrol tank made of Wulfrum alloy. While these machines were relatively simple, they were very effective on the battlefield.
+		DisplayName: Tanque Wulfrum
+		Bestiary:  Un tanque de patrulla blindado hecho de aleación Wulfrum. Aunque estas máquinas eran relativamente simples, eran muy efectivas en el campo de batalla.
 	}
 
-	WulfrumWormBody.DisplayName: Wulfrum Digger
+	WulfrumWormBody.DisplayName: Excavador Wulfrum
 
 	WulfrumWormHead: {
-		DisplayName: Wulfrum Digger
-		Bestiary: These Wulfrum diggers were used to quickly tunnel through rock, but when the war began, their high armor and speed made them formidable opponents.
+		DisplayName: Excavador Wulfrum
+		Bestiary: Estos excavadores Wulfrum se usaban para atravesar la roca rápidamente, pero cuando comenzó la guerra, su gran blindaje y velocidad los convirtieron en enemigos formidables.
 	}
 
-	WulfrumWormTail.DisplayName: Wulfrum Digger
+	WulfrumWormTail.DisplayName: Excavador Wulfrum
 
 	WulfrumMothership: {
-		DisplayName: Wulfrum Mothership
-		Bestiary: A massive mothership that coordinates the actions of Wulfrum machines. Armed with homing missiles and a shield generator, it can also charge other Wulfrum machines.
-		SpawnInfo: Use a [i:CalamityAddon/WulfrumHeart] during the day on the surface.
-		DespawnMessage: The Wulfrum Mothership has retreated...
+		DisplayName: Nave Nodriza Wulfrum
+		Bestiary:Una enorme nave nodriza que coordina las acciones de las máquinas Wulfrum. Armada con misiles guiados y un generador de escudo, también puede potenciar a otras máquinas Wulfrum.
+		SpawnInfo: Usa un  [i:CalamityAddon/WulfrumHeart] durante el día en la superficie.
+
+		DespawnMessage: La Nave Nodriza Wulfrum se ha retirado...
 	}
 
-	WulfrumShield.DisplayName: Wulfrum Mothership
+	WulfrumShield.DisplayName: Nave Nodriza Wulfrum
 }
 
-# BossSpawnInfo.CalamityAddon.WulfrumMothership: Use a [i:CalamityAddon/WulfrumHeart] during the day on the surface.
-# BossDespawnMessage.CalamityAddon.WulfrumMothership: The Wulfrum Mothership has retreated...
+# BossSpawnInfo.CalamityAddon.WulfrumMothership: Usa un [i:CalamityAddon/WulfrumHeart] durante el día en la superficie.
+# BossDespawnMessage.CalamityAddon.WulfrumMothership: La Nave Nodriza Wulfrum se ha retirado...
 
 Projectiles: {
-	WulfrumRocket.DisplayName: Wulfrum Rocket
-	WulfrumLRocketProj.DisplayName: Wulfrum Rocket
-	WulfrumMachineProj.DisplayName: Wulfrum Machine
-	WulfrumTurret.DisplayName: Wulfrum Turret
-	WulfrumMinis.DisplayName: Wulfrum Minis
+	WulfrumRocket.DisplayName: Cohete Wulfrum
+	WulfrumLRocketProj.DisplayName: Cohete Wulfrum
+	WulfrumMachineProj.DisplayName: Máquina Wulfrum
+	WulfrumTurret.DisplayName: Torreta Wulfrum
+	WulfrumMinis.DisplayName: Minis Wulfrum
 }
 
 Buffs: {
 	WulfrumTurretBuff: {
-		DisplayName: Wulfrum turret
-		Description: You are protected by wulfrum turret
+		DisplayName: Torreta Wulfrum
+		Description: Estás protegido por una torreta Wulfrum
 	}
 }
