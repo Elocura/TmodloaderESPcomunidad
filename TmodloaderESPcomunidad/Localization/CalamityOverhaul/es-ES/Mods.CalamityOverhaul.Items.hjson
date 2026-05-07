@@ -1,3 +1,9 @@
+SHPCModTooltipDraw: {
+	InstalledHeader: MÓDULOS INSTALADOS
+	NoModules: NINGUNO
+	BonusHeader: TOTAL DE BONIFICACIONES DE MÓDULOS
+}
+
 ElementWhip: {
 	DisplayName: Látigo elemental
 	Tooltip: Un látigo impregnado de la energía de la luna y los elementos.
@@ -422,6 +428,11 @@ DragonBreathBox: {
 		'''
 }
 
+HalibutItem: {
+	DisplayName: Halibut
+	Tooltip: ""
+}
+
 AvalancheM60: {
 	DisplayName: Avalancha M60
 	Tooltip:
@@ -625,7 +636,13 @@ WeaverGrievances: {
 
 Starship: {
 	DisplayName: Nave espacial
-	Tooltip: ""
+	Tooltip: 
+		'''
+		Disparar de forma continuada genera calor, lo que aumenta la cadencia de fuego con el tiempo
+		Haz clic derecho para consumir munición y cargar un proyectil cometa; el siguiente disparo lo lanza, causando un daño enorme e infligiendo Hiperdesintegración
+		Cuando el calor alcanza su punto álgido, dos escoltas vuelan a tu lado disparando rayos estelares teledirigidos; periódicamente se lanzan planetas desde tu espalda
+		Al soltar el gatillo se desata el final: 14 meteoritos teledirigidos que ignoran la defensa y una microgalaxia caen sobre el cursor
+		'''
 }
 
 SandDagger: {
@@ -1580,6 +1597,702 @@ Thrower: {
 
 Elysium: {
 	DisplayName: Elíseo
+	Tooltip:
+		'''
+		Mantén pulsado el clic izquierdo para invocar una serpiente sagrada
+		Haz clic derecho para convertir a los habitantes de los pueblos cercanos en uno de los Doce Discípulos (hasta un máximo de 12)
+		Cuando los discípulos mueren como mártires, acumulan energía de martirio; a partir de 11 acumulaciones, presiona [ElysiumQKey] para honrar al mártir Juan e invocar el Apocalipsis
+		Si se usa [ElysiumQKey] antes de alcanzar las 11 acumulaciones, se invoca en su lugar un rayo divino
+		[c/AADDFF:Cuantos más discípulos tengas, mayor será el daño global, la probabilidad de golpe crítico y la defensa; con 11 discípulos se recupera vida, y con 12 se obtiene una bonificación a la velocidad de movimiento]
+		[c/FF6666:Cuando los 12 estén reunidos: si tu salud cae por debajo del 30 %, Judas te traicionará y te matará al instante (tiempo de enfriamiento de 10 s)]
+		[c/FFD700:━━ Fase de revelación ━━]
+		[c/FFD700:[ElysiumQKey] Lanza un meteorito celestial (180% de daño)]
+		[c/FFD700:[ElysiumRKey] Activa el Juicio de los Tres Últimos Sellos (420% de daño)]
+		[c/FFD700:Haz clic derecho para invocar a los Cuatro Jinetes en este orden: Peste, Guerra, Hambre y Muerte]
+		[c/FFAA55:Guerra aumenta el daño y los golpes críticos; Hambre otorga una enorme penetración de armadura; Muerte amplifica todos los efectos de Meteoro y Jinetes de la Guerra.]
+		'''
+
+	DiscipleName_0: Simón Pedro
+	DiscipleName_1: San Andrés
+	DiscipleName_2: Santiago
+	DiscipleName_3: San Juan
+	DiscipleName_4: Felipe
+	DiscipleName_5: Bartolomeo
+	DiscipleName_6: Tomás
+	DiscipleName_7: San Mateo
+	DiscipleName_8: Santiago el Menor
+	DiscipleName_9: Tadeo
+	DiscipleName_10: Simón el Zelote
+	DiscipleName_11: Judas Iscariote
+	HorsemanName_0: Peste
+	HorsemanName_1: Guerra
+	HorsemanName_2: Hambre
+	HorsemanName_3: Muerte
+	DiscipleFullText: Las plazas para discípulos están completas
+	NoConvertTargetText: No hay residentes convertibles en las cercanías
+	DiscipleFallbackText: Discípulo
+	RevelationText: Revelación
+	RevelationEndText: Revelación terminada
+	CelestialMeteorText: Meteorito celestial
+	SealStarsText: Quinta estrella Sexta estrella Séptima estrella
+	HorsemenFullText: Los cuatro jinetes han sido convocados
+	HorsemanArrivalText: El jinete {0} desciende
+	DiscipleJoinedText: "{0} se ha incorporado"
+	JudasBetrayalText: ¡La traición de Judas!
+	JudasDeathReasonText: "{0} fue traicionado por Judas"
+	DiscipleMartyrText: "{0} fue martirizado"
+	MartyrdomPowerText: Mártires {0}/11
+	Tooltip_DiscipleCountText: Discípulos actuales: {0}/12
+	Tooltip_NoDisciplesText: Ningún discípulo te sigue
+	Tooltip_MartyrdomPowerText: Mártires: {0} {1}/11
+	Tooltip_RevelationReadyText: Si presionas Q — Juan será martirizado, comenzando así el Apocalipsis
+	Tooltip_JudgmentActiveText:  Se está llevando a cabo el juicio de los tres últimos sellos
+	Tooltip_RevelationActiveText: Revelación activa Q:Meteoro R:Sello del Juicio RMB:Jinetes {0}/4
+	Tooltip_JudasWarningText: Advertencia: la traición de Judas acecha a tu lado
+}
+
+SandevistansItem: {
+	DisplayName: Objeto Sandevistan
+	Tooltip: Militech Sandevistan Mk.5 — Reduce la percepción del tiempo en un 70% durante 3,5 segundos. Tiempo deenfriamiento: 15 s.
+}
+
+MimicPerchedAuxBrain: {
+	DisplayName: Cerebro auxiliar mímico en reposo
 	Tooltip: ""
+}
+
+RamCapacityUpgradeChip: {
+	DisplayName: Chip de ampliación de memoria RAM
+	Tooltip: Aumenta de forma permanente la RAM máxima base en 1
+}
+
+RamRecoveryUpgradeChip: {
+	DisplayName: Chip de actualización para la recuperación de RAM
+	Tooltip: Aumenta de forma permanente la velocidad base de recuperación de la RAM en 0,05 por segundo
+}
+
+Mewtwo: {
+	DisplayName: Mewtwo
+	Tooltip: ""
+}
+
+RapidBarrelModule: {
+	DisplayName: Cañón rápido
+	Tooltip: El resorte de retroceso hiper-extendido genera impulsos intensos a costa de la estabilidad y la potencia por disparo
+}
+
+FocusBarrelModule: {
+	DisplayName: Cañon de enfoque
+	Tooltip: Obliga a los tres haces de seguimiento a converger en un único y devastador impacto concentrado
+}
+
+PrecisionOpticModule: {
+	DisplayName: Óptica de precisión
+	Tooltip: La puntería asistida por láser elimina toda la dispersión y otorga una probabilidad adicional de golpe crítico
+}
+
+OverloadCoreModule: {
+	DisplayName: Núcleo de sobrecarga
+	Tooltip: Sustituye el búfer por una lógica de ciclo más rápido, lo que permite cargar el orbe más rápido y lanzarlo con más fuerza
+}
+
+SteadyStockModule: {
+	DisplayName: Culata estable
+	Tooltip: La culata compuesta de alta resistencia absorbe el retroceso, a cambio de sacrificar algo de cadencia de tiro a cambio de un mayor daño por disparo
+}
+
+HarmonyGripModule: {
+	DisplayName: Agarre armonioso
+	Tooltip: Los bioconductores conducen el maná a través del cuerpo, lo que reduce drásticamente el coste de maná
+}
+
+ResonanceFrameModule: {
+	DisplayName: Marco de resonancia
+	Tooltip: El marco con armazón armónico superpuesto emite un rayo adicional, lo que intensifica la ráfaga
+}
+
+AdaptiveOpticModule: {
+	DisplayName: Óptica adaptativa
+	Tooltip: Los algoritmos de Neural-link corrigen continuamente la trayectoria, fijando cada haz con mayor precisión sobre su objetivo
+}
+
+AssaultStockModule: {
+	DisplayName: Culata de asalto
+	Tooltip: La función Refuerzo asistido por adrenalina recarga el arma con mayor intensidad, lo que aumenta la potencia de fuego a costa de un mayor consumo de maná
+}
+
+BalancedGripModule: {
+	DisplayName: Agarre equilibrado
+	Tooltip: El reajuste de la distribución del peso mejora ligeramente la cadencia de disparo, el daño y la estabilidad en todos los aspectos
+}
+
+CapacitorBankModule: {
+	DisplayName: Banco de condensadores
+	Tooltip: Una densa pila de condensadores completa el orbe en un ciclo mucho más corto, pero reduce su energía de lanzamiento
+}
+
+CrystalGripModule: {
+	DisplayName: Agarre de cristal
+	Tooltip: El cristal dieléctrico sintético entra en resonancia con el usuario, reduciendo el coste de maná y aumentando la probabilidad de crítico, pero ralentizando la recarga
+}
+
+EfficientGripModule: {
+	DisplayName: Agarre eficaz
+	Tooltip: El agarre ergonómico de calidad industrial optimiza tanto el consumo de energía como la cadencia de disparo
+}
+
+HeavyBarrelModule: {
+	DisplayName: Cañón pesado
+	Tooltip: El estriado reforzado potencia la dispersión y la cadencia, convirtiendo cada disparo en un golpe contundente
+}
+
+HighVoltageCoreModule: {
+	DisplayName: Núcleo de alta tensión
+	Tooltip: El voltaje de salida se eleva, lo que amplifica el daño tanto del rayo puro como del rayo combinado a cambio de un coste adicional de maná
+}
+
+HoloOpticModule: {
+	DisplayName: Holo Óptica
+	Tooltip: La retícula holográfica fija el punto de impacto, reduciendo la dispersión y acelerando el disparo con un ligero sobrecalentamiento de maná
+}
+
+HypersonicBarrelModule: {
+	DisplayName: Cañón hipersónico
+	Tooltip: La cámara de choque sónico impulsa los rayos a una velocidad extrema, pero el sistema de guiado de precisión ya no puede seguir el ritmo
+}
+
+KineticDamperModule: {
+	DisplayName: Culata con amortiguador cinético
+	Tooltip: El amortiguador de líquido absorbe el retroceso, lo que elimina prácticamente la dispersión y proporciona una ligera ventaja en los golpes críticos
+}
+
+LightStockModule: {
+	DisplayName: Culata ligera
+	Tooltip: El armazón de compuesto de carbono aumenta considerablemente la cadencia de tiro, con una ligera merma en la estabilidad y la potencia por disparo
+}
+
+MultiCellFrameModule: {
+	DisplayName: Marco multicelular
+	Tooltip: Las celdas de enfriamiento paralelas emiten dos rayos a la vez, lo que amplía la cobertura a costa de la potencia de daño por rayo
+}
+
+PlasmaInjectorModule: {
+	DisplayName: Inyector de plasma
+	Tooltip: La inyección de plasma de alta entalpía aumenta considerablemente la velocidad orbital y el daño causado por el haz fusionado, aunque la carga es ligeramente más lenta
+}
+
+QuantumFrameModule: {
+	DisplayName: Marco cuántico
+	Tooltip: Los circuitos de dirección cuántica hacen que los rayos giren con mayor precisión y que las esferas vuelen más rápido, a costa de un consumo de maná ligeramente superior
+}
+
+ScattershotBarrelModule: {
+	DisplayName: Cañón de dispersión
+	Tooltip: El cañón fracturado divide cada disparo en una ráfaga de rayos, lo que amplía considerablemente el alcance pero reduce drásticamente el daño por rayo
+}
+
+ThermalOpticModule: {
+	DisplayName: Óptica térmica
+	Tooltip: El bloqueo por infrarrojos hace que los rayos se adhieran a su objetivo, lo que potencia tanto la precisión como las bonificaciones por golpes críticos
+}
+
+VolatileFrameModule: {
+	DisplayName: Marco volátil
+	Tooltip: La rejilla de refrigeración overclockeada aporta un rayo adicional y un aumento de la probabilidad de crítico, mientras que la regeneración de maná y el alcance se disparan
+}
+
+NovaBarrelModule: {
+	DisplayName: Cañon Nova
+	Tooltip:
+		'''
+		Un cañón de plasma sobrecargado genera un microimpulso en el punto de impacto de cada rayo
+		El precio es una dispersión mayor, un impacto por disparo más débil y un mayor consumo de maná
+		'''
+}
+
+PrismOpticModule: {
+	DisplayName: Prisma óptico
+	Tooltip:
+		'''
+		Un prisma de fase situado al final de la trayectoria óptica divide cada haz en dos ramificaciones al salir
+		Los haces primarios recorren una distancia ligeramente menor a cambio de una ventana crítica más nítida
+		'''
+}
+
+TeslaCoreModule: {
+	DisplayName: Núcleo tesla
+	Tooltip:
+		'''
+		Los arcos eléctricos de alta tensión hacen que los rayos lanzados alcancen al enemigo más cercano
+        Cada nodo encadenado hereda los efectos al impactar, con un coste de maná mayor
+		'''
+}
+
+RecoilStockModule: {
+	DisplayName: Culata de retroceso
+	Tooltip:
+		'''
+		Un amortiguador de sobrecarga convierte las detonaciones de los orbes en propulsión cinética para el portador
+		El alcance del rayo se amplía al mismo tiempo; el gatillo se nota un poco lento
+		'''
+}
+
+SwarmGripModule: {
+	DisplayName: Agarre en enjambre
+	Tooltip:
+		'''
+		Un agarre de malla neuronal libera un enjambre de microesferas con un potente sistema de guiado en el momento en que la esfera detona
+        La velocidad de las esferas disminuye y el consumo de maná aumenta como compensación
+		'''
+}
+
+GravityFrameModule: {
+	DisplayName: Marco gravitatorio
+	Tooltip:
+		'''
+		Un anillo de singularidad en miniatura convierte el orbe de energía en un pozo gravitatorio
+		Atrae a los enemigos cercanos hacia su núcleo mientras se carga, y el radio de detonación se amplía considerablemente
+		La cámara de precisión hace que la carga resulte un poco más pesada
+		'''
+}
+
+LaserBarrelModule: {
+	DisplayName: Cañón láser prismático
+	Tooltip: Sustituye el clic izquierdo por un haz láser prismático continuo que sigue el movimiento del cursor
+}
+
+OscillatorBarrelModule: {
+	DisplayName: Cañón oscilador láser
+	Tooltip:
+		'''
+		Un condensador de impulsos integrado provoca una microexplosión en la punta del rayo cada 45 fotogramas
+		El daño directo se reduce ligeramente y el coste de maná aumenta, pero las ráfagas de área compensan la falta de disparo continuo
+		'''
+}
+
+ScorchBarrelModule: {
+	DisplayName: Cañón láser quemado
+	Tooltip:
+		'''
+		Una pico de plasma de alta entalpía prende fuego a los enemigos al entrar en contacto con el láser
+		El daño directo del rayo es ligeramente menor, pero la combustión continuada compensa la pérdida de potencia directa
+		'''
+}
+
+ReflectionBarrelModule: {
+	DisplayName: Cañón láser reflectante
+	Tooltip:
+		'''
+		Un prisma de diamante situado en el punto de impacto desvía parte de la energía hacia dos haces laterales
+		El daño del haz principal aumenta, pero el enorme consumo de maná hace que el disparo sostenido resulte muy costoso
+		'''
+}
+
+EchoOpticModule: {
+	DisplayName: Eco óptico
+	Tooltip:
+		'''
+		Un elemento resonante situado al final del recorrido capta el eco de energía cuando un haz se extingue
+		Cada vez que un haz se extingue, se generan tres subhaces autoguiados que se dispersan en abanico, compensando así el alcance reducido
+		'''
+}
+
+FrostOpticModule: {
+	DisplayName: Óptica de escarcha
+	Tooltip:
+		'''
+		Una lente de enfoque criogénico inflige Quemadura por escarcha a los objetivos alcanzados
+        La velocidad del rayo se reduce, pero el seguimiento es más estable, con bonificaciones a la penetración y a los golpes críticos
+		'''
+}
+
+SingularityCoreModule: {
+	DisplayName: Núcleo de singularidad
+	Tooltip:
+		'''
+		Un generador de microgravedad dirige continuamente el orbe hacia el enemigo más cercano
+		El radio de la explosión se amplía considerablemente, pero el campo denso aumenta el coste de maná
+		'''
+}
+
+ScrambleFieldModule: {
+	DisplayName: Módulo de campo de combate
+	Tooltip:
+		'''
+		Una bobina de alta frecuencia dispara una microonda de choque alrededor del orbe cada 40 fotogramas mientras se carga
+		La potencia del impacto se amplifica a cambio de un tiempo de carga más lento y un mayor consumo de maná
+		'''
+}
+
+BraceStockModule: {
+	DisplayName: Culata de soporte
+	Tooltip: Una robusta abrazadera estabilizadora elimina por completo la dispersión y amplía el alcance del haz, a cambio de sacrificar ligeramente la cadencia de tiro a cambio de una precisión milimétrica
+}
+
+LaunchStockModule: {
+	DisplayName: Culata de lanzamiento
+	Tooltip:
+		'''
+		Un mecanismo de resorte sobrecargado dispara tres rayos autoguiados en forma de abanico en el instante en que se lanza el orbe
+		La velocidad del orbe aumenta a medida que crece el coste de maná
+		'''
+}
+
+SentinelGripModule: {
+	DisplayName: Empuñadura centinela
+	Tooltip:
+		'''
+		Una empuñadura con sensor inteligente dispara automáticamente un rayo autoguiado hacia el enemigo más cercano cada 20 fotogramas mientras el orbe está en el aire
+		La velocidad del orbe se reduce ligeramente y el coste de maná aumenta, pero el disparo lateral continuo lo compensa
+		'''
+}
+
+ConductorGripModule: {
+	DisplayName: Empuñadura conductora
+	Tooltip:
+		'''
+		El material superconductor aumenta el alcance y el número de saltos de los saltos de arco en cadena
+        Cada impacto va acompañado de una ráfaga de partículas de arco; el daño y el coste de maná aumentan ligeramente
+		'''
+}
+
+PhantomFrameModule: {
+	DisplayName: Marco fantasma
+	Tooltip:
+		'''
+		Una cavidad de fase cuántica teletransporta el rayo a 80 píxeles del enemigo más cercano cada 30 fotogramas
+        Esquiva los obstáculos por completo; aumenta ligeramente el alcance y el daño del rayo a cambio de un mayor coste de maná
+		'''
+}
+
+RecursiveFrameModule: {
+	DisplayName: Marco recursivo
+	Tooltip:
+		'''
+		Un chasis de bucle topológico vuelve a lanzar cada rayo desde la posición del jugador en su dirección original al morir
+        El daño del rayo principal aumenta, pero su alcance se reduce; el eco tiene un daño menor y no se repite
+		'''
+}
+
+ForkBarrelModule: {
+	DisplayName: Cañón de horquilla
+	Tooltip:
+		'''
+		Un prisma divisor interno bifurca cada haz en dos subhaces en ángulo cada 50 fotogramas
+		Ligeros daños y penalización en el coste de maná
+		'''
+}
+
+NullBarrelModule: {
+	DisplayName: Cañón nulo
+	Tooltip:
+		'''
+		Una cámara de borrado de datos reduce el daño casi a cero, pero otorga una perforación prácticamente ilimitada
+        Los golpes inyectan una toxina virulenta que corroe al objetivo con el paso del tiempo
+		'''
+}
+
+HelixBarrelModule: {
+	DisplayName: Cañón en espiral
+	Tooltip:
+		'''
+		La óptica de doble canal hace que dos rayos giren en espiral alrededor de un eje común
+        La dispersión se reduce a cero; provoca un daño leve y una ligera penalización de velocidad; ofrece una gran sinergia con configuraciones de alta penetración
+		'''
+}
+
+TargetPainterOpticModule: {
+	DisplayName: Pintor de objetivos
+	Tooltip:
+		'''
+		Un sistema de designación láser marca los objetivos alcanzados con un líquido corrosivo, lo que reduce su defensa
+        Además, aumenta la potencia de los misiles autoguiados y la probabilidad de asestar un golpe crítico
+		'''
+}
+
+StrobeOpticModule: {
+	DisplayName: Óptica estroboscópica
+	Tooltip:
+		'''
+		Un modulador de cambio de fase alterna rápidamente el haz entre los estados de penetración de paredes y el estado sólido
+        Tiene un 30% de probabilidad de confundir a los enemigos alcanzados; ofrece una pequeña bonificación a la penetración y a la velocidad
+		'''
+}
+
+SniperOpticModule: {
+	DisplayName: Optica de francotirador
+	Tooltip:
+		'''
+		Los colimadores magnéticos aumentan considerablemente la velocidad, el alcance y el daño por impacto de los proyectiles
+        A cambio de una cadencia de disparo muy reducida y una capacidad de seguimiento prácticamente nula
+        Se recomienda combinarlos con el Cañón de enfoque para ataques a muy larga distancia
+		'''
+}
+
+StormCellModule: {
+	DisplayName: Célula tormentosa
+	Tooltip:
+		'''
+		Durante la carga, lanza un rayo eléctrico autoguiado hacia el enemigo más cercano cada 25 fotogramas
+        Carga más rápido y tiene mayor radio de explosión, pero con un mayor coste de maná
+		'''
+}
+
+CryoCoreModule: {
+	DisplayName: Núcleo helado
+	Tooltip:
+		'''
+		Una célula de energía sobreenfriada congela a todos los enemigos que se encuentren dentro del radio de la explosión del orbe
+        Explosión ligeramente más grande, carga ligeramente más lenta
+		'''
+}
+
+DarkMatterCoreModule: {
+	DisplayName: Núcleo de materia oscura
+	Tooltip:
+		'''
+		Un campo de materia oscura atrae a los enemigos cercanos hacia el orbe durante su vuelo
+        El orbe rastrea simultáneamente a los objetivos; el radio de la explosión se ha incrementado considerablemente
+        Alto coste de maná
+		'''
+}
+
+ErgonomicStockModule: {
+	DisplayName: Culata ergonómica
+	Tooltip: Su diseño ergonómico de precisión reduce considerablemente el consumo de maná, con ligeras mejoras en la cadencia de disparo y la precisión
+}
+
+ExtenderStockModule: {
+	DisplayName: Culata extensora
+	Tooltip:
+		'''
+		Un riel ampliado proporciona a los rayos mayor alcance y velocidad de vuelo con un coste de daño mínimo
+        Combínalo con la Óptica de francotirador para obtener una cobertura de largo alcance extrema
+		'''
+}
+
+StormStockModule: {
+	DisplayName: Culata tormentosa
+	Tooltip:
+		'''
+		Los resortes de retroceso de alta densidad llevan la cadencia de tiro y el número de disparos al límite, a costa del daño por impacto
+        Combínalo con el Cañón de dispersión para lograr una cobertura total del terreno
+		'''
+}
+
+VampireGripModule: {
+	DisplayName: Agarre vampírico
+	Tooltip:
+		'''
+		Un agarre bioeléctrico convierte una parte del daño infligido por el rayo en recuperación de salud
+        Los disparos láser son más frecuentes, pero restauran menos salud por turno; resultan eficaces en combates prolongados
+		'''
+}
+
+ChronalGripModule: {
+	DisplayName: Agarre crónico
+	Tooltip:
+		'''
+		Una bobina de retardo de fase ralentiza a los enemigos con cada impacto
+        En combinación con una mejor capacidad de seguimiento, el fuego denso permite mantener un control de masas constante
+		'''
+}
+
+CascadeGripModule: {
+	DisplayName: Agarre en cascada
+	Tooltip:
+		'''
+		Un disparador topológico lanza una ráfaga radial de 8 rayos en el punto de impacto cada 5 impactos
+        Los rayos de la ráfaga infligen daño moderado; generan una descarga rítmica de alta densidad
+		'''
+}
+
+MirrorFrameModule: {
+	DisplayName: Marco de espejo
+	Tooltip:
+		'''
+		Una cavidad de reflexión simétrica genera un rayo reflejo de 180 grados por cada rayo disparado
+        Los rayos reflejos infligen menos daño; la cobertura bidireccional aumenta considerablemente la densidad de impactos
+		'''
+}
+
+NullspaceFrameModule: {
+	DisplayName: Marco del espacio nulo
+	Tooltip:
+		'''
+		Un generador de grietas del vacío deja un eco de microexplosión a lo largo de la trayectoria del rayo cada 20 fotogramas
+        Alcance ligeramente ampliado; penalización mínima de daño
+		'''
+}
+
+OverkillFrameModule: {
+	DisplayName: Overkill Frame
+	Tooltip:
+		'''
+		Un circuito de detección de overkill acumula una carga de overkill por cada muerte, hasta un máximo de 10; cada acumulación añade un 3% de daño.
+        Las acumulaciones se van perdiendo con el tiempo: cuanto más rápido mates, más fuerte te harás.
+		'''
+}
+
+GraviticBarrelModule: {
+	DisplayName: Cañon gravitacional
+	Tooltip:
+		'''
+		Una microsingularidad integrada atrae a los enemigos cercanos hacia cada rayo
+        La dispersión y la capacidad de seguimiento se reducen a medida que aumenta el alcance; la velocidad inicial disminuye ligeramente
+		'''
+}
+
+PrismaticBarrelModule: {
+	DisplayName: Cañon prismático
+	Tooltip:
+		'''
+		Los prismas de dispersión lanzan trazas RGB desde cada rayo, esparciendo fragmentos de color al impactar
+        Añade un rayo adicional y una ventaja crítico a cambio de un ligero descenso en el daño y la dispersión
+		'''
+}
+
+ConcussionBarrelModule: {
+	DisplayName: Boquilla para conmociones cerebrales
+	Tooltip:
+		'''
+		Un amortiguador de sobrecarga provoca una pequeña onda de choque en el punto de impacto cada 5 golpes
+        El daño por disparo y la dispersión se reducen, pero la velocidad de ataque se ve afectada
+		'''
+}
+
+CrosslinkOpticModule: {
+	DisplayName: Enlace cruzado óptico
+	Tooltip:
+		'''
+		Al impactar, una unidad de enlace neural establece una conexión de datos entre el objetivo alcanzado y el enemigo más cercano
+        Tanto el número de eslabones como el alcance de la cadena aumentan, con un ligero incremento del coste de maná
+		'''
+}
+
+ZoomOpticModule: {
+	DisplayName: Zoom óptico
+	Tooltip:
+		'''
+		Una lente magnética de largo alcance impulsa los rayos con mayor velocidad y alcance, a costa de la velocidad de seguimiento y de ataque
+        Los impactos a más de 600 píxeles activan un golpe incandescente adicional que aumenta en función de la distancia
+		'''
+}
+
+PingOpticModule: {
+	DisplayName: Silbido óptico
+	Tooltip:
+		'''
+		El sistema Pintor de objetivos imprime la Marca de la muerte en cada objetivo alcanzado, lo que amplifica todo el daño recibido
+        La mejora en el seguimiento, los golpes críticos y una dispersión más reducida completan el kit de puntería
+		'''
+}
+
+CapacitorPulseModule: {
+	DisplayName: Impulso de condensador
+	Tooltip:
+		'''
+		Las densas pilas de condensadores emiten una detonación de micropulsos aproximadamente dos veces por segundo mientras se cargan
+        Tanto el radio de la explosión como el tiempo de carga aumentan, y el coste de maná se incrementa
+		'''
+}
+
+EntropyCoreModule: {
+	DisplayName: Núcleo de entropía
+	Tooltip:
+		'''
+		El orbe absorbe entropía de los enemigos cercanos mientras vuela
+        Al detonar, provoca una onda de choque secundaria cuya intensidad depende de la entropía acumulada
+		'''
+}
+
+ResonanceReactorModule: {
+	DisplayName: Reactor de resonancia
+	Tooltip:
+		'''
+		Emite un sonido de resonancia cada ~0,75 s mientras se carga
+        La detonación provoca una onda de choque de resonancia adicional a los pies del jugador, que cubre las distancias en combate cuerpo a cuerpo
+		'''
+}
+
+OverwatchStockModule: {
+	DisplayName: Culata supervisora
+	Tooltip:
+		'''
+		Si te quedas quieto, se acumulan cargas de Supervisor (máximo 5), que desaparecen rápidamente en cuanto te mueves
+        Cada carga otorga un +2,5 % de daño y un +2 % de crítico; esta postura estoica reduce la velocidad de ataque y la dispersión
+		'''
+}
+
+MomentumStockModule: {
+	DisplayName: Culata de impulsos
+	Tooltip:
+		'''
+		Moverte rápidamente aumenta las acumulaciones de Impulso (máximo 6), que desaparecen rápidamente en cuanto te detienes.
+        Cada acumulación otorga un +5 % de velocidad de ataque y un +8 % de velocidad de disparo, al igual que en Supervisor
+		'''
+}
+
+BulwarkStockModule: {
+	DisplayName: Culata baluarte
+	Tooltip:
+		'''
+		Sostener el SHPC proporciona una reducción moderada del daño
+        La postura reforzada ralentiza ligeramente el tiempo de carga y aumenta el coste de maná
+		'''
+}
+
+CombatGripModule: {
+	DisplayName: Agarre de combate
+	Tooltip:
+		'''
+		Los golpes mortales con rayos o láser acumulan cargas de Combate (máximo 5)
+        Cada carga otorga un +6% de velocidad de ataque y un +2% de daño; las cargas se pierden entre combates
+		'''
+}
+
+TempestGripModule: {
+	DisplayName: Agarre tempestuoso
+	Tooltip:
+		'''
+		Tras cada serie de golpes consecutivos, lanza una Ráfaga de tempestad: múltiples arcos de datos que se extienden alrededor del último impacto
+        El daño por disparo se reduce y el coste de maná aumenta a cambio de una limpieza rítmica
+		'''
+}
+
+AbsorberGripModule: {
+	DisplayName: Agarre amortiguador
+	Tooltip:
+		'''
+		Los impactos de rayos y láseres devuelven una parte del daño infligido en forma de maná
+        A cambio, el daño por disparo disminuye ligeramente y el coste de maná base aumenta
+		'''
+}
+
+HarmonicFrameModule: {
+	DisplayName: Marco armónico
+	Tooltip:
+		'''
+		Cuando coexisten varios rayos, estos se unen entre sí mediante resonancia para infligir daño adicional
+        Añade un rayo adicional a costa de una reducción del daño por disparo y un ligero aumento de la dispersión
+		'''
+}
+
+ReplicatorFrameModule: {
+	DisplayName: Marco replicador
+	Tooltip:
+		'''
+		Al desaparecer, el rayo genera un breve eco en el mismo lugar que sigue volando en la misma dirección que el rayo original
+        El daño principal aumenta a medida que se reduce el alcance; el coste de maná también aumenta
+		'''
+}
+
+ArchiveFrameModule: {
+	DisplayName: Marco de archivo
+	Tooltip:
+		'''
+		Acumula daño SHPC; cada vez que se supera el umbral, una explosión de Archivo detona a los pies del jugador
+        El daño por disparo aumenta ligeramente, con un pequeño coste adicional de maná
+		'''
 }
 
