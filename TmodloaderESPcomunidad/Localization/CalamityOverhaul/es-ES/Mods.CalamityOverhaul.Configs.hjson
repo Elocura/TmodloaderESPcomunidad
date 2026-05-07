@@ -41,16 +41,6 @@ CWRServerConfig: {
 		Tooltip: Cuando está activada, el desplazamiento rápido a larga distancia ralentizará la cámara, lo que evita la sensación de moverse demasiado rápido
 	}
 
-	CartridgeUI_Offset_X_Value: {
-		Label: Valor horizontal de la interfaz del cargador
-		Tooltip: ""
-	}
-
-	CartridgeUI_Offset_Y_Value: {
-		Label: Valor vertical de la interfaz del cargador
-		Tooltip: ""
-	}
-
 	WeaponHandheldDisplay: {
 		Label: Pantalla portátil para armas
 		Tooltip:
@@ -62,24 +52,6 @@ CWRServerConfig: {
 			'''
 	}
 
-	ActivateGunRecoil: {
-		Label: Activar retroceso de las armas [c/06e33f:(Experimental)]
-		Tooltip: Cuando está activado, las armas de fuego tendrán un efecto de retroceso al dispararse. Desactívalo para eliminar estos efectos.
-	}
-
-	MagazineSystem: {
-		Label: Sistema de cargadores
-		Tooltip:
-			'''
-			Un extenso sistema de contenido, cuando está habilitado, introduce mecanismos de cargador en la mayoría de las armas de fuego, 
-			incluyendo características como la recarga y la mezcla de tipos de munición.
-			Desactivarlo eliminará estas características, devolviendo las armas de fuego a su disparo original
-			[c/fff08c:Cabe destacar que] que los principales ajustes de equilibrio del mod se realizancon el [c/fff08c:sistema de cargadores activado].
-			Si decides desactivarlo, algunas armas a distancia podrían volverse demasiado [c/de0808:poderosas].
-			Por lo tanto, si esta función está desactivada, el [c/de0808:equilibrio de las armas a distancia] en el juego ya no tendrá sentido.
-			[c/fff08c:Si cambias esta opción, vuelve a entrar en el mundo para asegurarte de que todos los efectos cambian correctamente]
-			'''
-	}
 
 	BowArrowDraw: {
 		Label: Tensar la cuerda del arco
@@ -93,20 +65,6 @@ CWRServerConfig: {
 	EnableCasingsEntity: {
 		Label: Habilitar casquillos
 		Tooltip: Si te molesta ver los casquillos rodando por ahí, es buena idea desactivar esta opción.
-	}
-
-	LoadingAA_Volume: {
-		Label: Coeficiente de volumen del sonido de recarga del arma
-		Tooltip: Cuanto mayor sea el valor, más prominente será el sonido; 1 es el volumen original.
-	}
-
-	ShotgunFireForcedReloadInterruption: {
-		Label: Interrupción forzada de recarga [c/06e33f:(Experimental)]
-		Tooltip:
-			'''
-			Un pequeño número de escopetas tienen la característica de que al intentar disparar mientras se recarga, interrumpe la acción de recarga. 
-			Si se activa, esta opción dará a todas las armas de escopeta esta característica.
-			'''
 	}
 
 	WeaponLazyRotationAngle: {
@@ -202,6 +160,11 @@ CWRServerConfig: {
 	GenSylvanOutpost: {
 		Label: Generar puesto avanzado silvano
 		Tooltip: Genera puestos avanzados de elfos de la madera o guardianes del bosque en lo profundo del bosque.
+	}
+
+SignalTowerDecryptionAutoPlay: {
+		Label: Reproducción automática de descifrado de la torre de señales 
+		Tooltip: ""
 	}
 }
 
