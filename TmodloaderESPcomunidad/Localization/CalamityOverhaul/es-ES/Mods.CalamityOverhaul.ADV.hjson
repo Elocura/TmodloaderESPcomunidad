@@ -389,8 +389,6 @@ SupCalDoGQuestReward: {
 	Line7: ......No la soporto.
 }
 
-AchievementToast.AchievementUnlocked: ¡Logro desbloqueado!
-
 SupCalYharonQuestReward: {
 	Rolename1: Bruja de azufre
 	Rolename2: Halibut
@@ -408,6 +406,19 @@ YharonQuestUI: {
 	QuestDesc: Usa el Machete Oni para matar a Yharon, el Dragón incinerador.
 	AcceptText: Aceptar
 	DeclineText: Rechazar
+}
+
+SupCalQuestLine: {
+	QuestCategory: Bruja de azufre
+	PallbearerTitle: Encargo: Caza a la Diosa profanada
+	PallbearerSummary: Derrota a la Diosa profanada con el Portador del féretro. Se requiere una contribución del 80%.
+	DoGTitle: Encargo: Caza al Devorador de Dioses
+	DoGSummary: Derrota al Devorador de Dioses usando el Arrancacoracones. Se requiere una contribución del 80%.
+	YharonTitle: Encargo: Caza al Dragón de la incineración
+	YharonSummary: Derrota a Yharon con el Machete Oni.  Se requiere una contribución del 80%.
+	TrackerSummonHint: No hay objetivo - Invoca a {0}
+	TrackerContribution: Contribución del arma: {0:0%}
+	TrackerRequired: Requerido: {0:0%}
 }
 
 HelensInterference: {
@@ -565,6 +576,38 @@ ExoMechThirdDefeat: {
 	DraedonName: Draedon
 	ThirdDefeatLine1: Rendimiento constante. Un componente de la perfección por la que lucho.
 	ThirdDefeatLine2: Has demostrado que tus capacidades no son... una anomalía estadística.
+}
+
+DraedonQuestLine: {
+	QuestCategory: Draedon
+	DeployTitle: Despliegue de redes de entrelazamiento cuántico
+	DeploySummary: Instalar 10 torres de señalización en puntos estratégicos de todo el mundo
+	TrackerNearestTarget: Punto de destino más cercano
+	TrackerNodeName: Nodo de entrelazamiento #[NUM]
+	TrackerInRange: Dentro del rango
+	TrackerDistance: Distancia
+	TrackerDeployProgress: Progreso del despliegue
+	TrackerQuestComplete: ¡Misión cumplida!
+}
+
+AbyssQuestLine: {
+	QuestCategory: Viejo Duque
+	CampsiteTitle: La llamada del Abismo
+	CampsiteSummary: Busca al Viejo Duque y habla con él
+	CampsiteObjective: Objetivo
+	CampsiteLocation: Ve al campamento del Viejo Duque
+	CampsiteDistance: Distancia
+	CampsiteInteract: Habla con el Viejo Duque
+	CampsiteComplete: ¡Misión completada!
+	CampsiteHoldHint: Mantén pulsado Fragmentos oceánicos para ver la dirección
+	FragmentTitle: La llamada del Abismo
+	FragmentSummary: Consigue 777 Fragmentos oceánicos
+	FragmentObjective: Objetivo
+	FragmentCollect:  Consigue Fragmentos oceánicos
+	FragmentCurrent: Actualmente en posesión
+	FragmentReturn: Vuelve al campamento para entregarlos
+	FragmentComplete: ¡Misión completada!
+	FragmentHint: Pesca o caza animales marinos
 }
 
 MusicToast.NowPlaying: Se está reproduciendo
@@ -909,4 +952,139 @@ ComeCampsiteFindMe: {
 	C1: Tengo asuntos que tratar contigo.
 	C2: Solo estaba pescando por diversión...
 	B1_NO: Ven a buscarme primero. Será mejor que aprendas el camino.
+}
+
+GalacticCrisis: {
+	DraedonName: Draedon
+	CrisisIntro1: Ahora que la red cuántica está reconectada, hay algunas cosas que tienes que ver por ti mismo.
+	CrisisIntro2: Esta es la sombra que actualmente está devorando los brazos espirales de la galaxia.
+	CrisisIntro3: Esas sombras forman parte del Enjambre. Antes de esto, desplegué millones de Exo-Titánes para intentar interceptarlos.
+	CrisisIntro4: Los datos indican que se trata de una guerra de desgaste que no podemos ganar. Son interminables y, tarde o temprano, mis recursos se agotarán.
+	CrisisIntro5: Por lo tanto, he elaborado el único plan con una tasa de éxito superior al 0%.
+	CrisisIntro6: Detonar los núcleos planetarios de todos los mundos, desde el Borde Exterior hasta el Borde Medio de la galaxia.
+	CrisisIntro7: Al convertir decenas de miles de años luz en una zona totalmente inhabilitada, puedo cortar las líneas de suministro del Enjambre, obligándolos a desviarse hacia galaxias vecinas debido al desgaste extremo que supone la navegación.
+	CrisisIntro8: El hambre es la fuerza motriz más poderosa del universo, y la más fácil de calcular. Si reduzco los recursos de la galaxia por debajo del umbral crítico, esta galaxia no será más que un ataúd vacío para el Enjambre.
+	CrisisIntro9: Terra también figura en la lista. Pero, como singularidad, tu esencia no debe extinguirse aquí. Te proporcionaré una nave espacial para la evacuación.
+	ChoiceRefuse: Tiene que haber otra manera.
+	ChoiceSilence: ......(Guardas silencio y agarras tu arma)
+	RebuttalLine1: ...Exactamente.
+	RebuttalLine2: Predije que había un 99% de probabilidades de que aceptaras la evacuación, pero esperaba con interés ese 1% de comportamiento irracional.
+	RebuttalLine3: Rechazaste el atajo hacia la supervivencia. Esa es precisamente la naturaleza de la singularidad que he observado.
+	RebuttalLine4: En ese caso, tengo un plan B: una operación que dejé de lado debido a su índice de éxito excesivamente bajo.
+	MissionBrief1: El objetivo es el sistema Corto. Ya ha caído, pero el Enjambre aún no lo ha asimilado del todo.
+	MissionBrief2: En el manto de su tercer planeta se está formando una veta de material Exo de pureza extremadamente alta.
+	MissionBrief3: El Enjambre no debe hacerse con él. En cuanto desarrollen la capacidad de utilizar la materia Exo, la situación en la galaxia se descontrolará por completo.
+	MissionBrief4: Tu misión es sencilla: abrirte paso entre la multitud de bichos, llegar al núcleo del planeta, detonar la veta y destruir por completo ese planeta.
+	MissionBrief5:  Si esta operación tiene éxito, quedará demostrado que los individuos pueden desempeñar un papel decisivo en la guerra contra el Enjambre, y elaboraré una nueva estrategia centrada en ti.
+	AndroidReveal1: Antes de tu llegada, envié un equipo de avanzada a esas coordenadas.
+	AndroidReveal2: Son androides tácticos fabricados con mi tecnología más avanzada: Altis y Apollia.
+	AndroidReveal3: Poseen una movilidad y una capacidad de procesamiento lógico que superan con creces a las de los mechas más antiguos, pero perdí su señal poco después de que aterrizaran en Corto III.
+	AndroidReveal4: Las últimas transmisiones de datos indican que aún presentan signos vitales, pero se encuentran en grave peligro.
+	MissionObjective: Dirígete al sistema Corto y comprueba el estado de esas dos unidades. Si aún pueden luchar, haz que te ayuden a completar la misión. Si no pueden...
+	MissionObjectiveDark: Como mínimo, recupera sus datos esenciales. No quiero que mis obras maestras acaben sin sentido como comida para los bichos.
+	FinalSendOff: Ya he introducido las coordenadas. Adelante, a ver si eres capaz de superar mis cálculos una vez más.
+}
+
+FirstMetApollia: {
+	Rolename: Apollia
+	Line1: ......Humano?
+	Line2: La trayectoria de caída era demasiado evidente. Calculé la zona de aterrizaje y vine a probar suerte.
+	Line3: Soy Apollia. Más te vale ser la guía de vanguardia de la Flota Exo, y que has venido a decirme que la fuerza principal te sigue de cerca.
+	C1: (Entregar el chip de autorización de Draedon)
+	C2: ¿Cómo sé que no eres una trampa mimetizadora del Enjambre?
+	C2_R1: ......Los mímicos no revelan activamente su posición, ni corren hacia una cápsula de descenso.
+	C2_R2: El chip. Muéstrame tu chip de autorización.
+	Line4: ......(Lyendo los datos del chip)
+	Line5: ¿Solo tú? ¡¿Pero qué demonios?!
+	Line6: Lo que necesitamos aquí es una Legión Titán y un Exterminatus! ¡No solo enviar a otra persona a morir!
+	Line7: (Respira hondo)......Mis disculpas. Ahora estoy al tanto de los planes de la Fuente
+	Line8: Apollia, antigua miembro de la Novena Legión, te ayudará a partir de ahora en todas tus operaciones en este planeta.
+}
+
+GargoyleWarningScenario: {
+	Line1: ......Un grupo de exploradores del enjambre. Es muy probable que el enjambre principal se encuentre justo detrás de ellos.
+	Line2: Sin duda te han visto. Sígueme. Más adelante hay una fortaleza abandonada; podemos aprovechar sus fortificaciones para contenerlos un rato.
+}
+
+DropPodCallScenario: {
+	CallerNameText: Draedon
+	Line1: Ha ido mejor de lo que esperaba. El tiempo de tránsito del salto fue de 43 minutos negativos.
+	Line2: Tu constitución es ideal para la navegación en el subespacio.
+	Line3: Ahora te encuentras en la órbita baja de Corto III.
+	Line4: Ten cuidado y evita los restos de esos Exo mecánicos.
+	Line5: Tras la guerra de clase Apocalipsis, la masa total de este planeta se duplicó. Por eso lo ves así.
+	Line6: He grabado los permisos en tu chip. Si te encuentras con alguna unidad superviviente, lo entenderán todo.
+	Line7: Estás a punto de entrar en el campo de protección creado por el Enjambre. Una vez dentro, se interrumpirá toda comunicación con el exterior.
+	Line8: Si consigues derrotar a la criatura nodal que se encuentra en este planeta, el campo debería disiparse. Es probable que se encuentre cerca del núcleo planetario.
+	Line9: Por último, buena suerte.
+}
+
+FishoilSubmitScenario: {
+	Rolename: Halibut
+	SubmitLine1: Mmm, ya has recogido suficientes peces.
+	SubmitLine2: Lo justo para que yo pueda sacar una botella de aceite de pescado.
+	QuestionLine: ¿Me los vas a entregar?
+	ChoiceGive: Claro, quédatelos.
+	ChoiceRefuse: Déjame pensarlo.
+	GiveResponse: ¡Genial!, un momento... Aquí tienes, un frasco nuevo de aceite de pescado.
+	RefuseResponse: Vale, regresa cuando te hayas decidido.
+	QuestTitle: Obtención de aceite de pescado
+	QuestSummary: Recoge 300 peces comunes y dáselos a Halibut a cambio de una botella de aceite de pescado.
+	QuestCategory: Halibut
+	ProgressFormat: "{0}/{1}"
+	TrackerCollecting: "Faltan {0} peces más"
+	TrackerReady: Peces conseguidos. Céntrate en la misión para enviar.
+	StatusSuspended: Suspendido
+	StatusCompleted: Completado
+	StatusSubmittable: Listo para enviar
+	StatusCollectingFormat: Recogidos ({0}/{1})
+	NotEnoughResponse: ¿Eh? Parece que no tienes suficiente pescado. Ve a pescar un poco más y vuelve.
+	AlreadyCompletedResponse: Ya te he dado el aceite de pescado. Si quieres más, tendrás que esperar hasta la próxima vez.
+	SubmitButtonLabel: Añadir un pez
+	AwaitingSubmitHint: Haz clic en Enviar para darle el pescado a Halibut
+}
+
+FirstMetShepel: {
+	RolenameSHPC: SHPC
+	Line1: Master! ¡Me alegro muchísimo de volver a verte!
+	Choice1Text: Te has equivocado de persona, ¿no?
+	Choice2Text: ...Cuánto tiempo sin verte.
+	Choice1Response: ...Sí. Mientras seas tú, estoy dispuesto a equivocarme siempre.
+	Choice1Silence: ......
+	CybCourseOfferLine: El programa Neurodanza se ha cargado correctamente. Maestro, ¿desea conectarse ahora al espacio Neurodanza para conocer el modo Hackeo y los protocolos de manejo de las armas SHPC?
+	CybCourseAcceptText: Vamos ya.
+	CybCourseDeclineText: Ahora mismo no.
+	CybCourseAcceptResponse: Recibido. Estableciendo conexión neuronal... Por favor, no se mueva.
+	CybCourseDeclineResponse: Entendido. Las credenciales de acceso a Neurodanza se han guardado en tus datos guardados. Puedes activarlo tú mismo en cualquier momento, Maestro.
+}
+
+TheHerInThePast: {
+	RolenameWitch: Bruja de azufre
+	RolenameSHPC: SHPC
+	WitchLine1: Que te persigan esas asquerosas cosas debe de ser bastante desagradable. Por suerte, te has topado conmigo.
+	ShpcLine1: Gracias... Pero, ¿cómo es posible? Perteneces al pasado y, sin embargo, puedes moverte...
+	WitchLine2: Si puedes invadir este lugar desde un siglo en el futuro, es lógico que yo pueda hacer algo parecido.
+	WitchLine3: Aunque, en realidad, no soy más que una sombra abandonada en este lugar.
+	ShpcLine2: ¿¡Puedes usar tus habilidades independientemente del momento del pasado?!
+	WitchLine4: Qué mirada tan linda... Date prisa y vete. Es mejor que estas cosas asquerosas se queden enterradas en el pasado conmigo.
+	WitchLine5: Ah, por cierto, pequeña criada.
+	ShpcLine3: ¿Qué quieres?
+	WitchLine6: El cansancio te ha calado hasta los huesos.
+	WitchLine7: Deja de intentar cambiar el pasado constantemente y aprende a aceptar el futuro.
+	ShpcLine4: ......
+}
+
+EternalBlazingNowNoHelen: {
+	Rolename1: ???Bruja de azufre???
+	Rolename2: Bruja de azufre
+	Line1: ......Hace mucho tiempo que nadie llegaba tan lejos.
+	Line2: No voy a morir... pero esto se le parece bastante.
+	Line3: Lo has hecho muy bien... quizá seas realmente "el único de esta época" de la que él hablaba, aquella por la que vale la pena esperar.
+	Line4: Por eso, tengo una última petición que hacerte.
+	Line5: Mientras quede una sola brasa del Fuego de azufre en el pasado y el presente de este mundo, "yo" no pereceré.
+	Line6: Pero mi conciencia se irá desvaneciendo poco a poco en este mar infinito de fuego.
+	Line7: Si no te hubiera conocido, habría aguantado como mucho treinta años más.
+	Line8: Esta es la única manera.
+	Line9: Cuando mi conciencia se desvanezca por completo, el mundo entero quedará reducido a cenizas.
+	Line10: Además, si pretendes poner fin a esta era, un cuerpo mortal es demasiado frágil.
 }
