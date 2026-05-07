@@ -177,7 +177,7 @@ Items: {
 					with a maximum of [S] sticks adhering to a single target
 					Stealth strike will recall all attached crystal spikes,
 					and continuously throw them towards the cursor direction
-					Ignore 12 defense
+					Ignore 4 defense
 					'''
 			}
 
@@ -201,7 +201,7 @@ Items: {
 					Stealth strike will recall all attached spikes,
 					and continuously throw them towards the cursor direction
 					Stealth strike hit will spawn tracking tectinic shard
-					Ignore 16 defense
+					Ignore 8 defense
 					'''
 			}
 		}
@@ -368,19 +368,6 @@ Items: {
 	DivineRemnants: {
 		DisplayName: Divine Remnants
 		Tooltip: ""
-	}
-
-	VoidElytra: {
-		DisplayName: Void Elytra
-		Tooltip:
-			'''
-			Horizontal speed: [A]
-			Acceleration multiplier: [B]
-			Excellent vertical speed
-			Flight time: [C]
-			Allow you to dash in four directions
-			[c/356498:Dedicate life to the void and achieve breakthroughs in the limits]
-			'''
 	}
 
 	BottleDarkMatter: {
@@ -672,8 +659,12 @@ Items: {
 			Puts a shell around the owner when below 50% life that reduces damage taken
 			Absorbs 25% of damage done to players on your team when above 25% life
 			Provide you with a Holy Shield that can withstand damage once
-			This effect has a 120 second cooldown time
+			This effect has a 150 second cooldown time
+			Hold shift and right click to toggle [i:PanicNecklace] [c/aaaaaa:Panic Necklace's effect]
+			[TOGGLE]
 			'''
+		ToggleEffectOn: "[c/00ff00:Panic enabled]"
+		ToggleEffectOff: "[c/808080:Panic disabled]"
 	}
 
 	VoidBar: {
@@ -702,7 +693,6 @@ Items: {
 			When the magic shield is broken, it eliminates its own magic sickness and benefits, and returns to its full magic value,
 			When there is no shield, magic barrage can suck blood
 			The higher your current magic value, the higher your blood sucking ability
-			The shield can not be affected by your defence and dr
 			You can not get magic shield when equip the Chalice of the Blood God
 			'''
 	}
@@ -840,7 +830,7 @@ Items: {
 		DisplayName: Jailer Whip
 		Tooltip:
 			'''
-			Minion gain 5% crit chance
+			Minion gain 2% crit chance
 			{$CommonItemTooltip.SummonTagDamage}
 			{$CommonItemTooltip.Whips}
 			Enemies will explode when dead
@@ -866,7 +856,7 @@ Items: {
 		DisplayName: Archmage's Handmirror
 		Tooltip:
 			'''
-			Gives you 40% extra mana
+			Gives you 25% extra mana
 			Every 1 extra mana provides 0.15% magic damage bonus
 			'''
 	}
@@ -978,7 +968,7 @@ Items: {
 		Tooltip:
 			'''
 			Provide you with a Holy Shield that can withstand damage once
-			This effect has a 120 second cooldown time
+			This effect has a 150 second cooldown time
 			Loot from hallow monsters
 			'''
 	}
@@ -994,7 +984,7 @@ Items: {
 			'''
 			Transform the damage received into astral erosion, reducing the corresponding health for a period of time
 			The attack can erode and transfer astral erosion to the target, dealing more damage
-			Reduce healing potion's effect by 50%
+			-50% Life regen
 			- Death -
 			'''
 	}
@@ -1110,10 +1100,9 @@ Items: {
 			+30% Damage
 			+20% Attack Speed
 			+4 Void Touch
-			+35% Damage taken
+			+50% Damage taken
 			-70% Life Regen
 			+16% Mana Cost
-			-12% Crit
 			'''
 	}
 
@@ -1205,19 +1194,6 @@ Items: {
 			'''
 	}
 
-	TheRevelation: {
-		DisplayName: The Revelation
-		Tooltip:
-			'''
-			Charging when using weapons,
-			when it is fully charged, release the mouse button to release a holy beam
-			deals 50 damage every 3 frames
-			Regarded as wing
-			hold [down] when flying to hover
-			"Awaken your faith"
-			'''
-	}
-
 	MosHat: {
 		DisplayName: Mo's Hat
 		Tooltip: ""
@@ -1249,7 +1225,11 @@ Items: {
 
 	GravityGaze: {
 		DisplayName: Gravity Gaze
-		Tooltip: ""
+		Tooltip:
+			'''
+			Shoot aeria beams
+			Deal 1.5x damage at close range
+			'''
 	}
 
 	DivineRadience: {
@@ -1301,9 +1281,9 @@ Items: {
 		DisplayName: Nihility Shell
 		Tooltip:
 			'''
-			Critical hits will deal 15% more damage
+			Critical hits will deal 18% more damage
 			Probability of obtaining an energy shell during critical strike
-			The energy shell can reduce the damage you receive by 16% once
+			The energy shell can reduce the damage you receive by 20% once
 			You can only get a maximum of three shells
 			'''
 	}
@@ -1499,8 +1479,8 @@ Items: {
 		Tooltip:
 			'''
 			+20% Damage
-			+20% Crit Chance
-			+30% Melee Speed
+			+10% Crit Chance
+			+10% Melee Speed
 			+200 Max Life
 			+200 Max Mana
 			'''
@@ -1510,9 +1490,9 @@ Items: {
 		DisplayName: Marivinium Greaves
 		Tooltip:
 			'''
-			+30% Speed
+			+36% Speed
 			-20% Mana Cost
-			+15% Damage
+			+5% Damage
 			+5 Crit Chance
 			'''
 	}
@@ -1863,6 +1843,7 @@ Items: {
 			'''
 			Active/Deactive Entropy Mode
 			More challenging, Less Health, Less Damage
+			Lore items gains a special bonus that can be activated
 			[c/ff0000: Note: This mode is not part of the official recommended process , and the balance adjustments Entropy do not take this mode into account]
 			Right click use to only toggle TDR
 			'''
@@ -1882,7 +1863,7 @@ Items: {
 		Tooltip:
 			'''
 			Quickly strike and deliver a final blow to your enemy
-			Minions have a 6% critical hit probability
+			Minions have a 3% critical hit probability
 			Generate split floating retention crystals during critical strikes
 			{$CommonItemTooltip.SummonTagDamage}
 			{$CommonItemTooltip.Whips}
@@ -1908,7 +1889,6 @@ Items: {
 		Tooltip:
 			'''
 			Throws forward and then retracts, tearing through enemies in its path.
-			Minions gain 6% increased critical strike chance
 			{$CommonItemTooltip.SummonTagDamage}
 			{$CommonItemTooltip.Whips}
 			Minions will tear enemies' flesh chunk when attaking
@@ -1998,20 +1978,6 @@ Items: {
 			When the is Orb is whole, it provides a {DMG}% damage bonus.
 			[c/ff0000:Removing the Orb will cause 90% damage to your maximum health]
 			"It drains your soul to repair itself. If forcibly severed, your soul will burst forth in a torrent"
-			'''
-	}
-
-	RuneWing: {
-		DisplayName: Soar Rune
-		Tooltip:
-			'''
-			Horizontal speed: [A]
-			Acceleration multiplier: [B]
-			Excellent vertical speed
-			Flight time: [C]
-			Press [KEY] to advance towards the mouse direction, during which immune damage occurs
-			Cooling is determined by the sprint distance, 
-			releasing the button in advance can end the sprint in advance, with a maximum sprint time of [DT] seconds
 			'''
 	}
 
@@ -2261,8 +2227,8 @@ Items: {
 			'''
 			{$CommonItemTooltip.SummonTagDamage}
 			{$CommonItemTooltip.Whips}
-			Increase the critical hit rate of minions by 16%
-			Tagged enemies take 16% more damage
+			Increase the critical hit rate of minions by 10%
+			Tagged enemies take 5% more damage
 			Minions' critical strike will pass 100% of damage to up to 5 nearby enemies
 			'''
 	}
@@ -2400,7 +2366,7 @@ Items: {
 			Whisper: Dropped by Crabulon
 			Purification: Dropped by Hallowed Mimics
 			Obscure: Found in Evil Biome Crates
-			Grudge: Crafted by shimmering 12 Ectoplasm
+			Grudge: Shimmering 12 Ectoplasm
 			Indigo: Found in Skyware Chests or Sky Crates
 			Mourning: Dropped by Golem boss
 			Woe: Rare drop from Underground Evil Biome enemies
@@ -2417,7 +2383,7 @@ Items: {
 			Increases immune time by [IM]%
 			Shortens debuff durations by [DB]%
 			Restores flight time upon touching enemy hitboxes and inflicts Soul Disruption debuff
-			Occasionally releases Soul Fragments on hit, which fly toward you to heal and grant temporary armor
+			Occasionally releases Soul Fragments on hit, which fly toward you to heal, grant temporary armor and recovery mana
 			Increases flight speed by [FL]% and duration by [FT]%
 			Slows the decay rate of stats (Armor, Damage, Crit Chance, Damage Reduction, Life Regeneration, Attributes) when they decrease
 			The lower your health, the higher your damage reduction (up to [BE]%)
@@ -2496,17 +2462,6 @@ Items: {
 	StarSootInjector: {
 		DisplayName: Star Soot Injector
 		Tooltip: ""
-	}
-
-	PhantomLightWing: {
-		DisplayName: Phantom Light Wings
-		Tooltip:
-			'''
-			Horizontal speed: [A]
-			Acceleration multiplier: [B]
-			Excellent vertical speed
-			Flight time: [C]
-			'''
 	}
 
 	AzafureAntiaircraftGun: {
@@ -2597,7 +2552,7 @@ Items: {
 	}
 
 	ThiefsPocketwatchOfEclipse: {
-		DisplayName: Thief's Pocketwatch Of Eclipse
+		DisplayName: Pocketwatch Of Eclipse
 		Tooltip:
 			'''
 			+[A]% Rogue Damage
@@ -2766,7 +2721,7 @@ Items: {
 			Having the effects of all its materials
 			Grows herbs beneath your feet
 			Grants 20% damage reduction while standing on the herbs
-			+5 HP/s life regeneration
+			+4 HP/s life regeneration
 			'''
 	}
 
@@ -2858,7 +2813,7 @@ Items: {
 		Level4:
 			'''
 			Effects of Mana Sickness and Mana Burn are halved.
-			Every 2 stacks of Empowered Mania grant 0.05% damage reduction.
+			Every 2 stacks of Empowered Mania grant 0.03% damage reduction.
 			Enhances health regeneration when hit while restoring mana.
 			'''
 		Level5:
@@ -2889,7 +2844,7 @@ Items: {
 
 	FadingRoseateReverie: {
 		DisplayName: Fading Roseate Reverie
-		Tooltip: ""
+		Tooltip: ^Yesterday's parting has turned into a future reunion
 	}
 
 	BloodstainedShirt: {
@@ -3124,30 +3079,6 @@ Items: {
 			'''
 	}
 
-	BigShotsWing: {
-		DisplayName: Big Shot's Wings
-		Tooltip:
-			'''
-			Horizontal speed: [A]
-			Acceleration multiplier: [B]
-			Disappointing vertical speed
-			Flight time: [C]
-			-90% flight time if there're any boss
-			"Now's your chance to be a..."
-			'''
-	}
-
-	IceShardWing: {
-		DisplayName: Ice Shard Wings
-		Tooltip:
-			'''
-			Horizontal speed: [A]
-			Acceleration multiplier: [B]
-			Excellent vertical speed
-			Flight time: [C]
-			'''
-	}
-
 	BookmarkSulphurous: {
 		DisplayName: Bookmark - Sulphurous
 		Tooltip:
@@ -3155,7 +3086,7 @@ Items: {
 			Creat a bubble to protect your
 			Bubble will pop after taken damage
 			Bubble need 60 sec to respawn
-			When there isn't a bubble, your damage will causing sulphurous poitioning
+			When there isn't a bubble, your damage will causing Irradiated
 			'''
 	}
 
@@ -3377,7 +3308,7 @@ Items: {
 		DisplayName: Exquisite Bookmark Holder
 		Tooltip:
 			'''
-			+[S]% Magic Weapons' Attack Speed
+			+[S]% Magic Crit
 			Gives an additional bookmark slot for entropy books
 			"Exquisite bookmark holder with a magic hat on top"
 			   Sold by Traveling Merchant
@@ -3389,7 +3320,7 @@ Items: {
 		Tooltip:
 			'''
 			+[D]% Magic Damage
-			+[S]% Magic Weapons' Attack Speed
+			+[S]% Magic Crit
 			Gives 2 additional bookmark slot for entropy books
 			"A bookmark holder with divine radiance,
 			making it easy to tightly clip bookmarks into books"
@@ -3726,7 +3657,7 @@ Items: {
 			'''
 			Increase 8% summon damage
 			+2 defence for each minion slot
-			Maximum increase of 20
+			Maximum increase of 12
 			'''
 	}
 
@@ -3806,7 +3737,6 @@ Items: {
 			'''
 			{$CommonItemTooltip.SummonTagDamage}
 			{$CommonItemTooltip.Whips}
-			Provide 5% crit chance to minions
 			Minion hit enemies will spawn a spade, dealing damage to colliding enemies
 			'''
 	}
@@ -3826,9 +3756,9 @@ Items: {
 		DisplayName: Talisman of the Azure Abyss
 		Tooltip:
 			'''
-			You can now breath in abyss
-			Increase 15% damage
-			Increase 4/s life regen
+			You can now breath in abyss , immune HadopelagicPressure and CrushDepth
+			Increase 15% damage and speed
+			Increase 2.5HP/s life regen
 			When receiving damage greater than 35% of maximum health, spawn an Azure Shield
 			Azure Shield will reduce 25% damage you take
 			Spawn some Azure Vortexs that will chase enemies simultaneously
@@ -3867,20 +3797,6 @@ Items: {
 			+7% Damage each attached projectile
 			Causing more adhering damage
 			'''
-	}
-
-	Accessories: {
-		Wings: {
-			FlowingLight: {
-				DisplayName: Flowing Light
-				Tooltip:
-					'''
-					Hold ↓ when flying to hover
-					Hold ↓ to accelerate the descent
-					$"Reaching the pinnacle of perfection"
-					'''
-			}
-		}
 	}
 
 	Neltharion: {
@@ -3971,7 +3887,7 @@ Items: {
 			+[5] Max health
 			Increase damage from debuffs inflicted by you by [4]%
 			Chance to apply a debuff based on progress to enemies after hitted
-			Level - [L]/7
+			Level - [L]/[ML]
 			'''
 	}
 
@@ -4044,12 +3960,12 @@ Items: {
 
 	EmberBolt: {
 		DisplayName: Ember Bolt
-		Tooltip: ""
+		Tooltip: Shoot explosive fireballs that will generate homing tectinic shards
 	}
 
 	RemnantsStaff: {
 		DisplayName: Remnants Staff
-		Tooltip: ""
+		Tooltip: Shoot homing remnants stars
 	}
 
 	CinderLantern: {
@@ -4060,12 +3976,39 @@ Items: {
 			Cinder core will shoot fireballs to enemies nearby
 			'''
 	}
+
+	Fuusen: {
+		DisplayName: Fuusen
+		Tooltip: ""
+	}
+
+	Ratziel: {
+		DisplayName: Ratziel
+		Tooltip:
+			'''
+			Summon a sentry to attack enemies within range.
+			It will cast a shield for you that can absorb damage.
+			As the level increases, so does the damage, range, and shield strength.
+			The attack will definitely deal a critical hit,
+			but only 50% of the critical damage will be applied
+			For every minion slot you have, the critical damage will increase by 5%.
+			Additionally, based on the number of minion slots,
+			your defense and percentage damage reduction will be increased.
+			Level: [LV] / [LVMAX]
+			'''
+	}
+
+	AzafureSupportRemote: {
+		DisplayName: Azafure Support Remote
+		Tooltip: Summon a combat drone, shooting armor-piercing shell to enemies
+	}
 }
 
 SmolderingSetBonus:
 	'''
 	Summon a smoldering tail that attack enemies nearby
 	+1 max minion
+	+80 Rogue Stealth
 	'''
 ChaoticSetBonus:
 	'''
@@ -4137,16 +4080,13 @@ MariviniumSet:
 	'''
 	+20% Melee Damage Reduce
 	+10 Minion Slot
-	+100% Summon Damage
-	+5% Summon Crit
-	+10% Damage Reduce
+	+75% Summon Damage
 	+135 Rogue Stealth
 	When standing, increase life regen
 	Immunity to most debuffs
 	When using true melee weapons, +10% Damage reduce and 15 defense
-	When using a whip, enhance summoner attributes
 	Stealth strike has a probability of causing an water explosion
-	Obtain 2 layers of shields, which will take 30 seconds to recover after being shattered
+	Obtain 2 layers of shields, which will take 36 seconds to recover after being shattered
 	After shield shattered, treat 100 health points and +50% damage for 10 seconds
 	'''
 DeathMode: Death Mode
@@ -4773,10 +4713,16 @@ Projectiles: {
 	ScorchingFireballMagic.DisplayName: Scorching Fireball
 	CinderMinion.DisplayName: Cinder Core
 	MinionCinderFireball.DisplayName: Cinder Fireball
+	GRainbowRocket.DisplayName: G Rainbow Rocket
+	RatzielSentry.DisplayName: Ratziel Sentry
+	AzafureCombatDrone.DisplayName: Azafure Combat Drone
+	CombatDroneBullet.DisplayName: Combat Drone Bullet
+	EmberFireball.DisplayName: Ember Fireball
+	GhostFireMagic.DisplayName: Ghost Fire Magic
 }
 
 LegendTooltip: - Legend -
-KilledByVoidTouch: was killed by the void
+KilledByVoidTouch: "{0} missed in the void"
 
 Buffs: {
 	VoidStorm: {
@@ -5157,6 +5103,11 @@ Buffs: {
 		DisplayName: Cinder Core
 		Description: Cinder Core will fight for you
 	}
+
+	CombatDrone: {
+		DisplayName: Combat Drone
+		Description: It was once used in large-scale wars
+	}
 }
 
 Uh: ""
@@ -5478,7 +5429,7 @@ Configs: {
 
 		LoreSpecialEffect: {
 			Label: Lore Special Effect
-			Tooltip: ""
+			Tooltip: Enable lore special effect when entropy mode isn't enable
 		}
 
 		BramblecleaveAlwaysUnlockAllSkill: {
@@ -5499,6 +5450,11 @@ Configs: {
 		ExtraItemsInStarterBag: {
 			Label: Extra Items In Starter Bag
 			Tooltip: Starter bag provide additional useful items
+		}
+
+		RogueAccessoriesProvide40Stealth: {
+			Label: Rogue Accessories Provide 40 Stealth
+			Tooltip: If you hasn't wearing rogue armors and you equiped any rogue accessories, you will have at least 40 stealth
 		}
 	}
 }
@@ -5659,8 +5615,8 @@ ArmorPrefixLastStandDescription:
 ArmorPrefixHeatDeathName: Heat Death
 ArmorPrefixHeatDeathDescription:
 	'''
-	+20% Defense
-	Multiply your damage by 1.2
+	+15% Defense
+	Multiply your damage by 1.15
 	[c/ff0000:Your attack will come with heat death, but your health will continue to drain]
 	'''
 ArmorPrefixArmorPrefixEchoName: Echo
@@ -5707,9 +5663,18 @@ IsaacLock: You can't equip this before you played The Binding of Isaac Repentanc
 PWSpawnInfo: Enter the Abyss with Chaos State debuff
 CdAS: Amima Sola Cooldown
 XythCharge: Xytheron Charge
-KilledByVoidVirus1: "Only Nihility remains in "
-KilledByVoidVirus2: "'s blood"
-KilledByAstral: " completely eroded by starlight"
+KilledByVoidVirus: Only Nihility remains in {0}'s blood
+KilledByAstral0: "{0} completely eroded by starlight."
+KilledByAstral1: "{0} gazed up at the myriad stars, his eyes gradually becoming misty."
+KilledByAstral2: "{0} pray to the sky, as flesh and blood gradually turn into nothingness."
+KilledByAstral3: "{0} came back to his senses and found himself in the starry sky."
+KilledByAstral4: "{0} prayed for forgiveness, yet he could not move."
+KilledByAstral5: "{0} ought to die."
+KilledByAstral6: "{0} became the successor."
+KilledByAstral7: When did {0} start being himself？
+KilledByAstral8: "{0}'s remains floated upwards, greeting their end"
+KilledByAstral9: "{0} transformed into wisps of starlight"
+Death: "{0} was killed"
 CdFF: Friend Finder Cooldown
 TooltipBookMark: Can insert in Entropy Books weapons
 TooltipBookMark2: Use RMB to quick insert/take out
@@ -5751,9 +5716,10 @@ AmmoBloodrune: Blood Rune
 AmmoStarblightSoot: Starblight Soot
 AmmoType: Ammo type
 AmmoMissile: Missile
+AmmoSouls: Souls
 UseAmmo: Use Ammo
-OrbPunishDeath0: shattered into pieces
-OrbPunishDeath1: try to remove the shattered foresee orb
+OrbPunishDeath0: "{0} shattered into pieces"
+OrbPunishDeath1: "{0} try to remove the shattered foresee orb"
 RuneDashCD: Rune Dash Cooldown
 ArmorPenetrationItemTooltip: Armor Penetration
 AmmoLifeTime: Life Time
@@ -5765,7 +5731,7 @@ PrefixVigorousDescr: +15% Stealth Regen
 WikiURL: https://terrariamods.wiki.gg/wiki/Calamity_Entropy/
 GameTips.VoidOreTip: Void ore will spawn high in the sky after defeated Cruiser
 LoreAwakeningDesc: Slightly increase movement speed and jumping height
-LoreKingSlimeDesc: Increase jumping height, but reduce movement speed
+LoreKingSlimeDesc: Increase jumping height
 LoreDesertScourgeDesc: Increase breath holding time
 LoreCrimsonDesc: +{1}max health
 LoreCrabulonDesc: Obtain mushy for {1} seconds after injury
@@ -5792,9 +5758,11 @@ LoreSulphurSeaDesc: Immune to acid venom
 LoreAzafureDesc: +{1}% Crit chance
 LoreCalamitasCloneDesc: +{1}% Melee speed
 LorePlanteraDesc: +0.5/s Life regen
-LoreAbyssDesc: Increase breath holding time
+LoreAquaticScourgeDesc: Increase breath holding time
+LoreAbyssDesc: Increase visibility in the abyss
 LoreLeviathanAnahitaDesc: Increase 1/s life regen in water
 LoreAstrumAureusDesc: Increase the speed of astral infection debuff decay
+LoreBrimstoneElementalDesc: +1% Damage reduce
 LoreGolemDesc: +{1}% Damage reduce
 LorePlaguebringerGoliathDesc: Increase the speed of plague debuff decay
 LoreEmpressofLightDesc: +{1} Defense in day time
@@ -5825,7 +5793,7 @@ DraedonDialogs: {
 
 SlotInfo2: InsertItem
 LightModeTip: Warning: Other lighting modes will cause some projectiles and NPCs of Calamity Entropy to become invisible. Best to use color mode.
-KilledByBloodBoiling: "'s blood is boiling"
+KilledByBloodBoiling: "{0}'s blood is boiling"
 BloodBoiling: Boiling Blood
 BloodBoilingDescr: Continuously using items increases attack speed, but it will cause sustained damage to yourself
 PrefixHeavyDesc: +10% Fall Speed
@@ -5878,8 +5846,8 @@ SolarBarInfo:
 RPDonorName: 冷级
 Acropolis: ""
 OblivionThretherCooldown: Oblivion Threther Dash Cooldown
-LilyDeath0: " was devoured by filth"
-LilyDeath1: "'s protective treasure is broken"
+LilyDeath0: "{0} was devoured by filth"
+LilyDeath1: "{0}'s protective treasure is broken"
 TheVoid: The Void
 
 Biomes: {
@@ -6056,7 +6024,10 @@ LMDialog18: What is this? You need a coin!
 NowLV: Level
 AnyOrichalcumBar: Any Orichalcum Bar
 AnyEvilBar: Any Evil Bar
+IronBar: Iron Bar
 AnyFairy: Any Fairy
+Gems: Gems
+Butterflies: Butterflies
 BCBarInfo: Bramble Bar(Hold [mouse middle] to drag)
 HallowedEnemiesDrop: Dropping from undergronud hallowed enemies
 EvilEnemiesDrop: Dropping from undergronud evil biomes' enemies
@@ -6142,6 +6113,8 @@ AzafureEnhances: {
 		-20% damage taken by shield
 		Increase shield regen speed
 		'''
+	AzafureSupportRemote: Increase attack speed
+	MottledSpear: Increase hook speed
 }
 
 Menu: {
@@ -6149,7 +6122,7 @@ Menu: {
 	Church: Church
 }
 
-DeathExplode: "[PlayerName] exploded"
+DeathExplode: "{0} exploded"
 BlockingCooldown: Blocking Cooldown
 FetalDreamCooldown: Fetal Dream Cooldown
 DriverCoreCooldown: Driver Core Shield
@@ -6162,8 +6135,9 @@ CdAcr: Acropolis Mech Cooldown
 SpecialThanks: Special Thanks
 PassedBossRush: Passed Boss Rush
 BloodthirstyRequirement: You need at least 200 health points to craft this item
-BloodthirstyKilled: bled out
+BloodthirstyKilled: "{0} bled out"
 Luminariswarm: Luminariswarm
 MinionAccDescCrownFangs: When equip with [ITEM]: +1 Minion slot
 NonZenithWorld: Not in zenith world
 ZenithWorld: In zenith world
+RatizelShield: Ratizel Shield
