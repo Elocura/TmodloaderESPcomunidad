@@ -6,6 +6,21 @@ Biomes: {
 		DisplayName: Bioma de tungsteno
 		TownNPCDialogueName: El bioma de tungsteno
 	}
+
+	MachineBiome: {
+		DisplayName: Bioma de las máquinas
+		TownNPCDialogueName: El Bioma de las máquinas
+	}
+
+	DropPodBiome: {
+		DisplayName: Bioma de la cápsula de desembarque
+		TownNPCDialogueName: El Bioma de la cápsula de desembarque
+	}
+
+	VoidColonyBiome: {
+		DisplayName: Bioma de la Colonia del Vacío
+		TownNPCDialogueName: El Bioma de la Colonia del Vacío
+	}
 }
 
 # For Language Pack Creators:
@@ -25,10 +40,242 @@ Arcanes: {
 
 Resurrections: {
 	ResurrectionDeath: {
-		DeathText: "{0} fue consumido por el Resurgimiento abisal"
+		DeathText: "{0} murió a causa de Resurrección abisal"
 		WarningCombatText: El abismo te está devorando...
-		DeathNoticeText: Has sido engullido por el Abismo...
-		MarkRemainText: La marca del Abismo aún te persigue...
-		RetainValueFormat: Valor de resurgimiento: {0}%
+		DeathNoticeText: El Abismo te engulló...
+		MarkRemainText: La marca del Abismo aún te envuelve...
+		RetainValueFormat: Índice de resurrección: {0}%
 	}
+}
+
+QuickHack: {
+	SynapseBurn: {
+		DisplayName: Fundesinapsis
+		Description: Sobrecarga las sinapsis neuronales del objetivo, infligiendo daño térmico continuo.
+	}
+
+	ShortCircuit: {
+		DisplayName: Cortocircuito
+		Description:  Lanza un pulso electromagnético que causa daño inmediato y una breve parálisis.
+	}
+
+	Cyberpsychosis: {
+		DisplayName: Ciberpsicosis
+		Description: Provoca un frenesí en el objetivo, que ataca a todas las unidades cercanas.
+	}
+
+	SystemReset: {
+		DisplayName: Reinicio del sistema
+		Description: Obliga a reiniciar el sistema del objetivo, paralizándolo por completo.
+	}
+
+	OpticOverload: {
+		DisplayName: Reinicio óptico
+		Description: Deja al objetivo ciego, impidiéndole percibir lo que le rodea.
+	}
+
+	MemoryWipe: {
+		DisplayName: Lavado de cerebro
+		Description: Borra los datos de hostilidad del objetivo y restablece su lista de aggro.
+	}
+
+	Contagion: {
+		DisplayName: Contagio
+		Description: Instala un malware autorreplicante que se propaga a objetivos cercanos.
+	}
+
+	TileDetonate: {
+		DisplayName: Detonación de unidad
+		Description: Pone en peligro la integridad estructural, provocando una explosión localizada.
+	}
+
+	TilePhase: {
+		DisplayName: Protocolo de fase
+		Description: Modifica las propiedades físicas de una unidad, haciéndola intangible durante un tiempo.
+	}
+
+	TileMagPull: {
+		DisplayName: Atracción magnética
+		Description: Genera un campo magnético que atrae hacia ti los objetos que se hayan caído cerca.
+	}
+
+	MachineShortCircuit: {
+		DisplayName: Cortocircuito en maquinaria
+		Description: Agota la energía del objetivo, liberando arcos eléctricos que dañan a las entidades cercanas.
+	}
+
+	TurretHijack: {
+		DisplayName: Secuestro de torreta
+		Description: Altera el módulo de reconocimiento IFF, invirtiendo temporalmente la identificación de amigo o enemigo de la torreta.
+	}
+
+	FalseMemory: {
+		DisplayName: Falso recuerdo
+		Description: Implanta recuerdos falsos, lo que provoca una breve interrupción en la persecución o suprime su instinto asesino.
+	}
+
+	SelfDismember: {
+		DisplayName: Automutilación
+		Description: Obliga a la entidad paranormal a desmembrarse.
+	}
+
+	SystemHalt: {
+		DisplayName: Apagado del sistema
+		Description: Hace que el objetivo se quede en silencio durante unos instantes y cese toda actividad.
+	}
+
+	TurretCircuitOverload: {
+		DisplayName: Sobrecarga del circuito
+		Description: Inyecta corriente inversa en el circuito eléctrico de la torreta, inutilizándola por completo durante un largo periodo de tiempo.
+	}
+
+	TurretShortCircuit: {
+		DisplayName: Cortocircuito en la torreta
+		Description: Descarga al instante la energía de la torreta para paralizarla momentáneamente, volviendo a funcionar inmediatamente tras la recuperación.
+	}
+
+	VirusBroadcast: {
+		DisplayName: Difusión de virus
+		Description: Inyecta un código malicioso en la torre de señales, lo que hace que esta emita ondas ciber-EMP que provocan un cortocircuito en todas las torretas dentro del radio de emisión durante un largo periodo de tiempo.
+	}
+}
+
+HackTargetType: {
+	ItemTargetType.DisplayName: ïtem soltado objetivo
+	NpcTargetType.DisplayName: NPC objetivo
+	ProjectileTargetType.DisplayName: Proyectil objetivo
+	SignalTowerTargetType.DisplayName: Torre de señal objetivo
+	TileTargetType.DisplayName: Unidad objetivo
+	TurretTargetType.DisplayName: Torreta objetivo
+	WaterTargetType.DisplayName: Líquido objetivo
+	WraithTargetType.DisplayName: Espectro objetivo
+}
+
+TileNameFallback: {
+	Dirt: Bloque de tierra
+	Stone: Bloque de piedra
+	Grass: Hierba
+	Plants: Plantas
+	Torch: Antorcha
+	Tree: Árbol
+	Iron: Mineral de hierro
+	Copper: Mineral de cobre
+	Gold: Mineral de oro
+	Silver: Mineral de plata
+	ClosedDoor: Puerta
+	OpenDoor: Puerta
+	Heart: Cristal de vida
+	Bottle: Botella
+	Table: Mesa
+	Chair: Silla
+	Anvil: Yunque
+	Furnace: Horno
+	WorkBench: Mesa de trabajo
+	Platform: Plataforma
+	Sapling: Retoño
+	Container: Cofre
+	Demonite: Mineral endemoniado
+	CorruptGrass: Hierba corrupta
+	CorruptPlants: Plantas corruptas
+	Ebonstone: Bloque de piedra de ébano
+	DemonAltar: Altar demoníaco
+	Sunflower: Girasol
+	Pot: Maceta
+	PiggyBank: Hucha
+	WoodBlock: Madera
+	ShadowOrb: Orbe sombrío
+	CorruptThorns: Espinas corruptas
+	Candle: Vela
+	Chandelier: Lámpara de araña
+	JackOLantern: Jack 'O Lantern
+	Present: Regalo
+	Meteorite: Meteorito
+	GrayBrick: Ladrillo gris
+	RedBrick: Ladrillo rojo
+	ClayBlock: Bloque de arcilla
+	BlueDungeonBrick: Ladrillo azul
+	HangingLantern: Lámapra colgante
+	GreenDungeonBrick: Ladrillo verde
+	PinkDungeonBrick: ladrillo rosa
+	GoldBrick: Ladrillo de oro
+	SilverBrick: ladrillo de plata
+	CopperBrick: ladrillo de bronce
+	Spikes: Espinas
+	WaterCandle: Vela de agua
+	Book: Libro
+	Cobweb: Telaraña
+	Vine: Liana
+	Sand: Bloque de arena
+	Glass: Cristal
+	Sign: Señal
+	Obsidian: Obsidiana
+	Ash: Bloque de cenizas
+	Hellstone: Piedra infernal
+	Mud: Bloque de barro
+	JungleGrass: Hierba de la selva
+	JunglePlants: Plantas de la selva
+	JungleVine: Liana de la selva
+	Sapphire: Bloque sa zafiro
+	Ruby: Bloque de rubí
+	Emerald: Bloque de esmeralda
+	Topaz: Bloque de topacio
+	Amethyst: Bloque de amatista
+	Diamond: Bloque de diamante
+	JungleThorns: Espinas de la selva
+	MushroomGrass: Hierba de setas
+	MushroomPlants: Champiñón brillante
+	MushroomTree: Champiñón brillante gigante
+	Plants2: Hierba alta
+	JunglePlants2: Plantas altas de selva
+	ObsidianBrick: Ladrillo de obsidiana
+	HellstoneBrick: Ladrillo de piedra infernal
+	Hellforge: Forja infernal
+	ClayPot: Olla de barro
+	Bed: Cama
+	Cactus: Cactus
+	Coral: Coral
+	ImmatureHerb: Hierba sin madurar
+	MatureHerb: Hierba madura
+	BloomingHerb: Hierba en flor
+	Tombstone: Lápida
+	Loom: Telar
+	Piano: Piano
+	Dresser: Vestidor
+	Bench: Banco
+	Bathtub: Bañera
+	BlueTorch: Antorcha azuk
+	RedTorch: Antorcha roja
+	GreenTorch: Antorcha verde
+	PurpleTorch: Antorcha púrpura
+	WhiteTorch: Antorcha blanca
+	YellowTorch: Antorcha amarilla
+	DemonTorch: Antorcha demoníaca
+	CursedTorch: Antorcha maldita
+	IceTorch: Antorcha de hielo
+	OrangeTorch: Antorcha naranja
+	IchorTorch: Antorcha de icor
+	UltrabrightTorch: Antorcha ultravrillante
+	BoneTorch: Antorcha de hueso
+	RainbowTorch: Antorcha de arcoiris
+	PinkTorch: Antorcha rosa
+	DesertTorch: Antorcha del desierto
+	CoralTorch: Antorcha de coral
+	CorruptTorch: Antorcha corrupta
+	CrimsonTorch: Antorcha carmesí
+	HallowedTorch: Antorcha sagrada
+	JungleTorch: Antorcha de la jungla
+	MushroomTorch: Antorcha de seta
+	AetherTorch: Antorcha del fulgor
+	ForestTree: Árbol del bosque
+	EbonwoodTree: Árbol de madera de ébano
+	RichMahoganyTree: Árbol de caoba rica
+	PearlwoodTree: Árbol de madera de perlada
+	BorealTree: Árbol boreal
+	ShadewoodTree: Árbol de madera sombría
+	IronAnvil: Yunque de hierro
+	LeadAnvil: Yunque de plomo
+	CrimsonAltar: Altar carmesí
+	Tile192: Hojas de madera viviente
+	Tile187: Maleza
+	Tile352: Espinas
 }
