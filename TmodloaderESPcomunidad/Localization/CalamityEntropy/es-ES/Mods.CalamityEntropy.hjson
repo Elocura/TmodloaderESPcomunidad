@@ -3876,7 +3876,7 @@ Neltharion: {
 			+[5] de salud máxima
 			Aumenta el daño de los debuffos que infliges en un [4]%
 			Hay una posibilidad de aplicar un debuffo a los enemigos en función de tu progreso tras golpearlos
-			Nivel - [L][ML]
+			Nivel - [L]/[ML]
 			'''
 	}
 
@@ -4713,7 +4713,7 @@ Projectiles: {
 }
 
 LegendTooltip: - Legendario -
-KilledByVoidTouch: ha caído por el vacío
+KilledByVoidTouch: {0} ha caído por el vacío
 
 Buffs: {
 	VoidStorm: {
@@ -6008,7 +6008,7 @@ LMDialog12: ¿Por qué no lo sacaste antes?
 LMDialog13: ¿Por qué no lo sacaste antes? Eres realmente rico.
 LMDialog14: Ya sabes como acaba esto.
 LMDialog15: El diseño de este objeto es un fracaso... No deberías usarlo
-LMDialog16:¿No lo ves, [NAME]? ¡¿Qué haces aquí?!
+LMDialog16: ¿No lo ves, [NAME]? ¡¿Qué haces aquí?!
 LMDialog17: No quiero tu basura.
 LMDialog18: ¿Qué es esto? ¡Necesitas una moneda!
 NowLV: Nivel
@@ -6133,7 +6133,7 @@ Menu: {
 }
 
 
-DeathExplode: "[PlayerName] explotó"
+DeathExplode: "{0} explotó"
 BlockingCooldown: Enfriamiento de bloqueo
 FetalDreamCooldown: Enfriamiento del Sueño fetal
 DriverCoreCooldown: Núcleo conductor del escudo
@@ -6152,4 +6152,3 @@ MinionAccDescCrownFangs: Al equiparlo con [ITEM]: +1 de espacio de súbditos
 NonZenithWorld: No en el mundo Cénit
 ZenithWorld: En un mundo cénit
 RatizelShield: Escudo de Ratizel
-
