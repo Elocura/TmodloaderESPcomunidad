@@ -444,3 +444,42 @@ SHPCTrialQuestLine: {
         Por favor, mantente alerta. Estaré vigilando el campo de batalla en todo momento y te ayudaré a zanjar esto de una vez por todas.
 		'''
 }
+
+SHPCModuleStat: {
+	AttackSpeed: "{0}% DE VELOCIDAD DE ATQ"
+	Damage: "{0}% DE DAÑO"
+	Spread: "{0}% DE MARGEN"
+	BeamSpeed: "{0}% DE VELOCIDAD DEL RAYO"
+	Homing: "{0}% DE GUIADO"
+	MergedDamage: "{0}% DE DAÑO FUSIONADO"
+	ManaCost: "{0}% DE COSTE DE MANÁ"
+	ChargeTime: "{0}% DE TIEMPO DE CARGA
+	OrbSpeed: "{0}% DE VELOCIDAD DEL ORBE"
+	BeamLife: "{0}% DE RANGO DEL RAYO"
+	ExplosionRadius: "{0}% DE RADIO DE EXPLOSIÓN"
+	BeamCount: "{0} RAYOS(S) / DESCARGADOS"
+	Crit: "{0}% DE CRÍTICO"
+	Pierce: "{0} DE PERFORACIÓN EXTRA"
+	Chain: "{0} SALTOS EN CADENA"
+	Split: "{0} RAYOS DIVIDIDOS"
+	Minions: "{0} ORBES BUSCADORES DETONADOS"
+	MergeBeams: +MERGE 3 RAYOS EN 1
+	BeamExplodeOnHit: +BEAMS CON MICROPULSOS DETONADOS AL INPACTAR
+	OrbDrainAura: +ORB ENEMIGOS SUCCIONADOS DURANTE LA RECARGA
+	OrbExplosionPropels: +ORB COHETES DETONADOS QUE TE LANZARON POR LOS AIRES
+	LaserMode: +PRISM LASER MODE: LMB dispara un haz láser que sigue el movimiento del cursor
+	LaserScorchOnHit: +LASER HAN INCENDIADO ENEMIGOS
+	LaserPulse: +LASER HA DETONADO HACES DE RAYOS EN SU EXTREMO
+	OrbFlyingAttract: +ORB SE HAN LANZADO HACIA UN ENEMIGO CERCANO
+}
+
+SHPCSlotTag: Módulo SHPC · {0}
+
+SHPCSlotName: {
+	Barrel: Ranura del cañón
+	Optic: Ranura óptica
+	Power: Ranura de núcleo
+	Stock: Ranura de culata
+	Grip: Ranura de agarre
+	Frame: Ranura de marco
+}
