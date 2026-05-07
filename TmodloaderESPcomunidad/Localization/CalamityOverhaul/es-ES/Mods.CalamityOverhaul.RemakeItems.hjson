@@ -3,9 +3,8 @@ HalibutOverride: {
 	Tooltip:
 		'''
 		Convierte las balas de mosquete en una corriente oceánica
-		legend_Text
 		[Lang4]
-		[Text]
+		legend_Text
 		'''
 }
 
@@ -25,7 +24,6 @@ MurasamaOverride: {
 		legend_Text
 		[c/ff4500:"Podría ser mejor si esto fuera una espada motosierra"]
 		[Lang4]
-		[Text]
 		'''
 }
 
@@ -33,15 +31,11 @@ SHPCOverride: {
 	DisplayName: SHPC
 	Tooltip:
 		'''
-		Lanza orbes de energía espiritual inestable y concentrada que permanecen en el aire y explotan tras un breve lapso de tiempo
-		Los orbes liberan almas en busca de un destino y dejan almas tras de sí
-		Los efectos de los orbes varían en función del tipo de alma utilizada
-		Haz clic derecho para utilizar la máquina como aspiradora y atraer almas rezagadas
-		Al soltar la tecla, se libera una avalancha de rayos espirituales proporcional al número de almas absorvidas.
-		Mantén pulsada la tecla Mayús para abrir el panel de control del núcleo espiritual
-		legend_Text
+		Haz clic izquierdo para disparar tres rayos láser
+        Mantén pulsado clic derecho para cargar energía
+        Todos los ataques pueden potenciarse gracias al campo
 		[Lang4]
-		[Text]
+		legend_Text
 		'''
 }
 
