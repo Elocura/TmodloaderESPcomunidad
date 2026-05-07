@@ -1,4 +1,10 @@
-﻿ElementWhip: {
+SHPCModTooltipDraw: {
+	InstalledHeader: INSTALLED MODULES
+	NoModules: NONE
+	BonusHeader: TOTAL MODULE BONUSES
+}
+
+ElementWhip: {
 	DisplayName: Element Whip
 	Tooltip: A Whip infused with the energy of the Moon and the Elements.
 }
@@ -422,6 +428,11 @@ DragonBreathBox: {
 		'''
 }
 
+HalibutItem: {
+	DisplayName: Halibut
+	Tooltip: ""
+}
+
 AvalancheM60: {
 	DisplayName: Avalanche M60
 	Tooltip:
@@ -624,7 +635,13 @@ WeaverGrievances: {
 
 Starship: {
 	DisplayName: Starship
-	Tooltip: ""
+	Tooltip:
+		'''
+		Continuously firing builds heat, increasing fire rate over time
+		Right-click to consume ammo and load a comet shell; the next shot fires it for massive damage and inflicts Hyper-Disintegration
+		At peak heat, two escort wingmen fly alongside firing homing star bolts; planets are periodically hurled from behind you
+		Releasing the trigger unleashes the finale: 14 defense-ignoring homing meteors and a micro-galaxy rain down at the cursor
+		'''
 }
 
 SandDagger: {
@@ -1580,5 +1597,700 @@ Thrower: {
 
 Elysium: {
 	DisplayName: Elysium
+	Tooltip:
+		'''
+		Hold left-click to channel a holy serpent
+		Right-click to convert nearby town residents into one of the Twelve Disciples (up to 12)
+		When disciples are martyred they build Martyrdom energy; at 11 stacks, press [ElysiumQKey] to martyr John and invoke the Revelation
+		Using [ElysiumQKey] before reaching 11 stacks calls down a divine lightning strike instead
+		[c/AADDFF:More disciples grant increasing global damage, critical strike chance, and defense; 11 disciples restores life, 12 grants bonus move speed]
+		[c/FF6666:With all 12 gathered: if your health falls below 30%, Judas will betray and instantly kill you (10s cooldown)]
+		[c/FFD700:━━ Revelation Phase ━━]
+		[c/FFD700:[ElysiumQKey] Drop a Celestial Meteor (180% damage)]
+		[c/FFD700:[ElysiumRKey] Trigger the Last Three Seals Judgment (420% damage)]
+		[c/FFD700:Right-click to summon the Four Horsemen in order: Pestilence, War, Famine, Death]
+		[c/FFAA55:War boosts damage and crits; Famine grants massive armor penetration; Death amplifies all Meteor and War Horseman effects]
+		'''
+	DiscipleName_0: Simon Peter
+	DiscipleName_1: Saint Andrew
+	DiscipleName_2: James
+	DiscipleName_3: Saint John
+	DiscipleName_4: Philip
+	DiscipleName_5: Bartholomew
+	DiscipleName_6: Thomas
+	DiscipleName_7: Saint Matthew
+	DiscipleName_8: James the Lesser
+	DiscipleName_9: Thaddaeus
+	DiscipleName_10: Simon the Zealot
+	DiscipleName_11: Judas Iscariot
+	HorsemanName_0: Pestilence
+	HorsemanName_1: War
+	HorsemanName_2: Famine
+	HorsemanName_3: Death
+	DiscipleFullText: Disciple slots full
+	NoConvertTargetText: No convertible residents nearby
+	DiscipleFallbackText: Disciple
+	RevelationText: Revelation
+	RevelationEndText: Revelation ended
+	CelestialMeteorText: Celestial Meteor
+	SealStarsText: Fifth Star Sixth Star Seventh Star
+	HorsemenFullText: All Four Horsemen summoned
+	HorsemanArrivalText: Horseman of {0} descends
+	DiscipleJoinedText: "{0} has joined"
+	JudasBetrayalText: Judas's Betrayal!
+	JudasDeathReasonText: "{0} was betrayed by Judas"
+	DiscipleMartyrText: "{0} was martyred"
+	MartyrdomPowerText: Martyrdom {0}/11
+	Tooltip_DiscipleCountText: Current Disciples: {0}/12
+	Tooltip_NoDisciplesText: No disciples following
+	Tooltip_MartyrdomPowerText: Martyrdom: {0} {1}/11
+	Tooltip_RevelationReadyText: Press Q — John will be martyred, Revelation begins
+	Tooltip_JudgmentActiveText: Last Three Seals judgment in progress
+	Tooltip_RevelationActiveText: Revelation active Q:Meteor R:Seal Judgment RMB:Horsemen {0}/4
+	Tooltip_JudasWarningText: Warning: Judas's betrayal lurks beside you
+}
+
+SandevistansItem: {
+	DisplayName: Sandevistans Item
+	Tooltip: Militech Sandevistan Mk.5 — Slows perceived time by 70% for 3.5 seconds. Cooldown 15s.
+}
+
+MimicPerchedAuxBrain: {
+	DisplayName: Mimic Perched Aux Brain
 	Tooltip: ""
+}
+
+RamCapacityUpgradeChip: {
+	DisplayName: RAM Capacity Upgrade Chip
+	Tooltip: Permanently increases base maximum RAM by 1
+}
+
+RamRecoveryUpgradeChip: {
+	DisplayName: RAM Recovery Upgrade Chip
+	Tooltip: Permanently increases base RAM recovery speed by 0.05 per second
+}
+
+Mewtwo: {
+	DisplayName: Mewtwo
+	Tooltip: ""
+}
+
+RapidBarrelModule: {
+	DisplayName: Rapid Barrel
+	Tooltip: Hyper-extended recoil spring delivers searing pulses at the cost of stability and per-shot power
+}
+
+FocusBarrelModule: {
+	DisplayName: Focus Barrel
+	Tooltip: Forces the three tracking beams to converge into one catastrophic concentrated strike
+}
+
+PrecisionOpticModule: {
+	DisplayName: Precision Optic
+	Tooltip: Laser-assisted aiming eliminates all spread and grants additional crit chance
+}
+
+OverloadCoreModule: {
+	DisplayName: Overload Core
+	Tooltip: Replaces the buffer with a faster cycling logic, charging the orb faster and launching it harder
+}
+
+SteadyStockModule: {
+	DisplayName: Steady Stock
+	Tooltip: Composite heavy stock absorbs recoil, trading some fire rate for extra damage per shot
+}
+
+HarmonyGripModule: {
+	DisplayName: Harmony Grip
+	Tooltip: Bio-conductive grip channels mana through the body, drastically reducing mana cost
+}
+
+ResonanceFrameModule: {
+	DisplayName: Resonance Frame
+	Tooltip: Harmonic-stacked frame leaks an extra beam, intensifying the volley
+}
+
+AdaptiveOpticModule: {
+	DisplayName: Adaptive Optic
+	Tooltip: Neural-link algorithms continuously correct trajectory, locking each beam tighter onto its target
+}
+
+AssaultStockModule: {
+	DisplayName: Assault Stock
+	Tooltip: Adrenaline-assisted bracing cycles the weapon more aggressively, raising firepower at higher mana cost
+}
+
+BalancedGripModule: {
+	DisplayName: Balanced Grip
+	Tooltip: Re-tuned weight distribution gives a small all-around boost to fire rate, damage and stability
+}
+
+CapacitorBankModule: {
+	DisplayName: Capacitor Bank
+	Tooltip: Dense capacitor stack tops the orb off in a much shorter cycle, but dampens its launch energy
+}
+
+CrystalGripModule: {
+	DisplayName: Crystal Grip
+	Tooltip: Synthetic crystal dielectric resonates with the user, trimming mana cost and boosting crit, but slowing charge
+}
+
+EfficientGripModule: {
+	DisplayName: Efficient Grip
+	Tooltip: Engineering-grade ergonomic grip refines both energy draw and trigger cadence
+}
+
+HeavyBarrelModule: {
+	DisplayName: Heavy Barrel
+	Tooltip: Reinforced rifling crushes spread and cadence, turning every shot into a heavy strike
+}
+
+HighVoltageCoreModule: {
+	DisplayName: High Voltage Core
+	Tooltip: Output voltage is pushed up the scale, amplifying both raw and merged-beam damage at extra mana cost
+}
+
+HoloOpticModule: {
+	DisplayName: Holo Optic
+	Tooltip: Holographic reticle locks the impact point, slashing spread and accelerating the trigger at slight mana overhead
+}
+
+HypersonicBarrelModule: {
+	DisplayName: Hypersonic Barrel
+	Tooltip: Sonic-shock chamber pushes beams to extreme velocity, but fine homing can no longer keep up
+}
+
+KineticDamperModule: {
+	DisplayName: Kinetic Damper Stock
+	Tooltip: Liquid damper swallows recoil, all but eliminating spread and granting a small crit edge
+}
+
+LightStockModule: {
+	DisplayName: Light Stock
+	Tooltip: Carbon-composite frame greatly increases fire rate at a mild cost to stability and per-shot power
+}
+
+MultiCellFrameModule: {
+	DisplayName: Multi-Cell Frame
+	Tooltip: Parallel cooling cells discharge two beams at once, widening coverage at the cost of per-beam damage
+}
+
+PlasmaInjectorModule: {
+	DisplayName: Plasma Injector
+	Tooltip: High-enthalpy plasma injection vastly amplifies orb velocity and merged-beam damage, charging slightly slower
+}
+
+QuantumFrameModule: {
+	DisplayName: Quantum Frame
+	Tooltip: Quantum steering circuits make beams turn smarter and orbs fly faster at slightly elevated mana cost
+}
+
+ScattershotBarrelModule: {
+	DisplayName: Scattershot Barrel
+	Tooltip: Fractured muzzle splits each shot into a spray of beams, drastically expanding coverage but tanking per-beam damage
+}
+
+ThermalOpticModule: {
+	DisplayName: Thermal Optic
+	Tooltip: Infrared lock makes beams cling to their target, doubling down with both precision and crit gains
+}
+
+VolatileFrameModule: {
+	DisplayName: Volatile Frame
+	Tooltip: Overclocked cooling lattice squeezes out an extra beam and crit chance, while mana draw and spread spike
+}
+
+NovaBarrelModule: {
+	DisplayName: Nova Barrel
+	Tooltip:
+		'''
+		An overcharged plasma muzzle detonates a micro-pulse where each beam lands
+		The price is wider spread, weaker per-shot impact and heavier mana draw
+		'''
+}
+
+PrismOpticModule: {
+	DisplayName: Prism Optic
+	Tooltip:
+		'''
+		A phase prism at the end of the optical path forks each beam into two splinters on expiration
+		Primary beams travel a touch shorter in exchange for a sharper crit window
+		'''
+}
+
+TeslaCoreModule: {
+	DisplayName: Tesla Core
+	Tooltip:
+		'''
+		High-voltage arcing lets struck beams leap to the nearest foe
+		Each chained node inherits the on-hit behaviors, at a steeper mana cost
+		'''
+}
+
+RecoilStockModule: {
+	DisplayName: Recoil Stock
+	Tooltip:
+		'''
+		An overload buffer converts orb detonations into kinetic propellant for the wielder
+		Beam range is extended in tandem; the trigger feels a touch sluggish
+		'''
+}
+
+SwarmGripModule: {
+	DisplayName: Swarm Grip
+	Tooltip:
+		'''
+		A neural-mesh grip releases a swarm of strongly homing micro-orbs the moment the orb detonates
+		Orb velocity dips and mana draw climbs as compensation
+		'''
+}
+
+GravityFrameModule: {
+	DisplayName: Gravity Frame
+	Tooltip:
+		'''
+		A miniature singularity ring turns the energy orb into a gravitic well
+		It pulls nearby foes toward its core while charging and the detonation radius is greatly enlarged
+		The precision chamber makes charging feel slightly heavier
+		'''
+}
+
+LaserBarrelModule: {
+	DisplayName: Prism Laser Barrel
+	Tooltip: Replaces left-click with a continuous prism laser column that tracks the cursor
+}
+
+OscillatorBarrelModule: {
+	DisplayName: Oscillator Laser Barrel
+	Tooltip:
+		'''
+		An embedded pulse capacitor detonates a micro-explosion at the beam tip every 45 frames
+		Direct damage is slightly reduced and mana cost increases, but area bursts cover the continuous-fire gap
+		'''
+}
+
+ScorchBarrelModule: {
+	DisplayName: Scorch Laser Barrel
+	Tooltip:
+		'''
+		A high-enthalpy plasma nozzle sets struck enemies ablaze on laser contact
+		Direct beam damage is slightly lower, but sustained burning offsets the direct output loss
+		'''
+}
+
+ReflectionBarrelModule: {
+	DisplayName: Reflection Laser Barrel
+	Tooltip:
+		'''
+		A diamond prism at the impact point deflects part of the energy into two flanking beams
+		Main beam damage increases, but the extreme mana draw makes sustained fire costly
+		'''
+}
+
+EchoOpticModule: {
+	DisplayName: Echo Optic
+	Tooltip:
+		'''
+		A resonance element at the path end captures the energy echo when a beam expires
+		Each beam death spawns three fan-spread homing sub-beams, offsetting the shortened range
+		'''
+}
+
+FrostOpticModule: {
+	DisplayName: Frost Optic
+	Tooltip:
+		'''
+		A cryo-focusing lens inflicts Frostburn on struck targets
+		Beam velocity is reduced but homing is more stable, with bonus pierce and crit
+		'''
+}
+
+SingularityCoreModule: {
+	DisplayName: Singularity Core
+	Tooltip:
+		'''
+		A micro-gravity generator continuously steers the orb toward the nearest enemy in flight
+		Explosion radius is greatly expanded, but the dense field drives up mana cost
+		'''
+}
+
+ScrambleFieldModule: {
+	DisplayName: Scramble Field Module
+	Tooltip:
+		'''
+		A high-frequency coil fires a micro-shockwave around the orb every 40 frames while charging
+		Blast scale is amplified at the cost of slower charge time and higher mana usage
+		'''
+}
+
+BraceStockModule: {
+	DisplayName: Brace Stock
+	Tooltip: A heavy stabilizer brace eliminates all spread and extends beam range, trading a little fire rate for pinpoint accuracy
+}
+
+LaunchStockModule: {
+	DisplayName: Launch Stock
+	Tooltip:
+		'''
+		An overloaded spring mechanism fires three fan-spread homing beams the instant the orb launches
+		Orb velocity increases while mana cost rises in tandem
+		'''
+}
+
+SentinelGripModule: {
+	DisplayName: Sentinel Grip
+	Tooltip:
+		'''
+		A smart-sensor grip auto-fires a homing beam at the nearest enemy every 20 frames while the orb is airborne
+		Orb speed is slightly reduced and mana cost rises, but the continuous side-fire compensates
+		'''
+}
+
+ConductorGripModule: {
+	DisplayName: Conductor Grip
+	Tooltip:
+		'''
+		Superconducting material boosts chain-arc hops to longer range and more jumps
+		Each hit is accompanied by an arc-particle burst; slight damage and mana cost increase
+		'''
+}
+
+PhantomFrameModule: {
+	DisplayName: Phantom Frame
+	Tooltip:
+		'''
+		A quantum-phase cavity teleports the beam to 80px from the nearest enemy every 30 frames
+		Bypasses obstacles entirely; slight beam range and damage boost at increased mana cost
+		'''
+}
+
+RecursiveFrameModule: {
+	DisplayName: Recursive Frame
+	Tooltip:
+		'''
+		A topological-loop chassis respawns each beam from the player position in its original direction on death
+		Main beam damage rises but range is shortened; the echo has reduced damage and does not recurse
+		'''
+}
+
+ForkBarrelModule: {
+	DisplayName: Fork Barrel
+	Tooltip:
+		'''
+		An internal splitting prism forks each beam into two angled sub-beams every 50 frames
+		Slight damage and mana cost penalty
+		'''
+}
+
+NullBarrelModule: {
+	DisplayName: Null Barrel
+	Tooltip:
+		'''
+		A data-erasure chamber drops damage to near-zero but grants virtually unlimited pierce
+		Hits inject a virulent toxin that corrodes the target over time
+		'''
+}
+
+HelixBarrelModule: {
+	DisplayName: Helix Barrel
+	Tooltip:
+		'''
+		Dual-channel optics force two beams to spiral around a shared axis
+		Spread is zeroed; slight damage and speed penalty; great synergy with high-pierce setups
+		'''
+}
+
+TargetPainterOpticModule: {
+	DisplayName: Target Painter
+	Tooltip:
+		'''
+		A laser designation system marks struck targets with corrosive ichor, reducing their defense
+		Also boosts homing strength and critical strike chance
+		'''
+}
+
+StrobeOpticModule: {
+	DisplayName: Strobe Optic
+	Tooltip:
+		'''
+		A phase-shift modulator rapidly cycles the beam between wall-piercing and solid states
+		Has a 30% chance to confuse struck enemies; minor pierce and speed bonus
+		'''
+}
+
+SniperOpticModule: {
+	DisplayName: Sniper Optic
+	Tooltip:
+		'''
+		Magnetic collimators dramatically increase projectile speed, range, and single-hit damage
+		At the cost of greatly reduced fire rate and near-zero homing
+		Best paired with the Focus Barrel for extreme long-range strikes
+		'''
+}
+
+StormCellModule: {
+	DisplayName: Storm Cell
+	Tooltip:
+		'''
+		During charge, releases a homing electric bolt toward the nearest enemy every 25 frames
+		Faster charge and larger blast radius, but higher mana cost
+		'''
+}
+
+CryoCoreModule: {
+	DisplayName: Cryo Core
+	Tooltip:
+		'''
+		A supercooled energy cell freezes all enemies caught in the orb's blast radius
+		Slightly larger explosion, slightly slower charge
+		'''
+}
+
+DarkMatterCoreModule: {
+	DisplayName: Dark Matter Core
+	Tooltip:
+		'''
+		A dark-matter field pulls nearby enemies toward the orb during its flight phase
+		The orb simultaneously tracks targets; explosion radius significantly increased
+		High mana cost
+		'''
+}
+
+ErgonomicStockModule: {
+	DisplayName: Ergonomic Stock
+	Tooltip: Precision ergonomic design substantially lowers mana cost with minor gains to fire rate and accuracy
+}
+
+ExtenderStockModule: {
+	DisplayName: Extender Stock
+	Tooltip:
+		'''
+		An extended rail grants beams greater range and flight speed at minimal damage cost
+		Stack with the Sniper Optic for extreme long-range coverage
+		'''
+}
+
+StormStockModule: {
+	DisplayName: Storm Stock
+	Tooltip:
+		'''
+		High-density recoil springs push fire rate and beam count to the limit at the cost of per-hit damage
+		Pair with the Scattershot Barrel for carpet-coverage saturation
+		'''
+}
+
+VampireGripModule: {
+	DisplayName: Vampire Grip
+	Tooltip:
+		'''
+		A bio-electric grip converts a portion of beam damage into health recovery
+		Laser hits are more frequent but restore less per tick; effective for sustained fights
+		'''
+}
+
+ChronalGripModule: {
+	DisplayName: Chronal Grip
+	Tooltip:
+		'''
+		A phase-delay coil slows enemies on each hit
+		Combined with improved homing, dense fire can maintain persistent crowd control
+		'''
+}
+
+CascadeGripModule: {
+	DisplayName: Cascade Grip
+	Tooltip:
+		'''
+		A topological trigger fires a radial burst of 8 beams at the point of impact every 5 hits
+		Burst beams deal moderate damage; creates rhythmic high-density output
+		'''
+}
+
+MirrorFrameModule: {
+	DisplayName: Mirror Frame
+	Tooltip:
+		'''
+		A symmetric reflection cavity spawns a 180-degree mirror beam for every beam fired
+		Mirror beams deal reduced damage; dual-directional coverage dramatically increases hit density
+		'''
+}
+
+NullspaceFrameModule: {
+	DisplayName: Nullspace Frame
+	Tooltip:
+		'''
+		A void-rift generator leaves a micro-explosion echo along the beam's path every 20 frames
+		Slightly extended range; minimal damage penalty
+		'''
+}
+
+OverkillFrameModule: {
+	DisplayName: Overkill Frame
+	Tooltip:
+		'''
+		An overkill-sensing circuit stacks one Overkill charge per kill, up to 10; each stack adds 3% damage
+		Stacks decay over time — the faster you slay, the stronger you become
+		'''
+}
+
+GraviticBarrelModule: {
+	DisplayName: Gravitic Barrel
+	Tooltip:
+		'''
+		An embedded micro-singularity tugs nearby enemies toward each beam in flight
+		Spread and homing tighten while range extends; muzzle velocity drops slightly
+		'''
+}
+
+PrismaticBarrelModule: {
+	DisplayName: Prismatic Barrel
+	Tooltip:
+		'''
+		Dispersion prisms shed RGB tracers from every beam, scattering color shards on hit
+		Adds one extra beam and a crit edge at the cost of a little damage and spread
+		'''
+}
+
+ConcussionBarrelModule: {
+	DisplayName: Concussion Muzzle
+	Tooltip:
+		'''
+		An overload buffer detonates a small concussion ring at the impact point every 5 stacked hits
+		Per-shot damage and spread tighten, but attack speed pays the toll
+		'''
+}
+
+CrosslinkOpticModule: {
+	DisplayName: Crosslink Optic
+	Tooltip:
+		'''
+		On hit, a neural-link unit arcs a data tether from the struck target to the nearest other foe
+		Chain count and chain range both extend, with a slight bump to mana cost
+		'''
+}
+
+ZoomOpticModule: {
+	DisplayName: Zoom Optic
+	Tooltip:
+		'''
+		A long-focus magnetic lens pushes beams faster and farther at the cost of homing and attack speed
+		Hits beyond 600 px trigger a bonus white-hot strike that scales with distance
+		'''
+}
+
+PingOpticModule: {
+	DisplayName: Ping Optic
+	Tooltip:
+		'''
+		Signal-painter system stamps Marked-for-Death on every target struck, amplifying all incoming damage
+		Bonus homing, crit, and tighter spread complete the targeting kit
+		'''
+}
+
+CapacitorPulseModule: {
+	DisplayName: Capacitor Pulse
+	Tooltip:
+		'''
+		Dense capacitor stacks vent a micro-pulse detonation roughly twice a second while charging
+		Explosion radius and charge time both rise, mana cost climbs
+		'''
+}
+
+EntropyCoreModule: {
+	DisplayName: Entropy Core
+	Tooltip:
+		'''
+		The orb siphons "entropy" from nearby enemies during flight
+		On detonation it releases a secondary aftershock scaled by accumulated entropy
+		'''
+}
+
+ResonanceReactorModule: {
+	DisplayName: Resonance Reactor
+	Tooltip:
+		'''
+		Emits a resonance ring every ~0.75 s while charging
+		Detonation triggers an extra resonance shock at the player's feet, covering melee gaps
+		'''
+}
+
+OverwatchStockModule: {
+	DisplayName: Overwatch Stock
+	Tooltip:
+		'''
+		Standing still ramps up "Overwatch" stacks (max 5) that decay rapidly once you move
+		Each stack grants +2.5% damage and +2% crit; a stoic posture trims attack speed and spread
+		'''
+}
+
+MomentumStockModule: {
+	DisplayName: Momentum Stock
+	Tooltip:
+		'''
+		Moving fast ramps up "Momentum" stacks (max 6) that decay rapidly once you stop
+		Each stack grants +5% attack speed and +8% beam speed — a mirror to Overwatch
+		'''
+}
+
+BulwarkStockModule: {
+	DisplayName: Bulwark Stock
+	Tooltip:
+		'''
+		Holding the SHPC grants modest damage reduction
+		The reinforced posture slightly slows charge time and bumps mana cost
+		'''
+}
+
+CombatGripModule: {
+	DisplayName: Combat Grip
+	Tooltip:
+		'''
+		Killing blows with beams or laser stack "Combat" charges (max 5)
+		Each stack grants +6% attack speed and +2% damage; charges decay between fights
+		'''
+}
+
+TempestGripModule: {
+	DisplayName: Tempest Grip
+	Tooltip:
+		'''
+		After every few stacked hits, fires a Tempest Burst — multiple data arcs around the latest impact
+		Per-shot damage trims and mana cost climbs in exchange for rhythmic clearing
+		'''
+}
+
+AbsorberGripModule: {
+	DisplayName: Absorber Grip
+	Tooltip:
+		'''
+		Beam and laser hits return a slice of the damage dealt as mana
+		Per-shot damage drops slightly and base mana cost rises in exchange
+		'''
+}
+
+HarmonicFrameModule: {
+	DisplayName: Harmonic Frame
+	Tooltip:
+		'''
+		Multiple coexisting beams arc resonance tethers between each other for bonus damage
+		Adds one extra beam at the cost of per-shot damage and a touch of spread
+		'''
+}
+
+ReplicatorFrameModule: {
+	DisplayName: Replicator Frame
+	Tooltip:
+		'''
+		On expiration, a beam spawns a brief echo in place that flies on along its original heading
+		Primary damage rises while range shortens; mana cost climbs
+		'''
+}
+
+ArchiveFrameModule: {
+	DisplayName: Archive Frame
+	Tooltip:
+		'''
+		Accumulates SHPC damage; each time the threshold is crossed, an Archive blast detonates at the player's feet
+		Per-shot damage rises slightly with a small mana surcharge
+		'''
 }

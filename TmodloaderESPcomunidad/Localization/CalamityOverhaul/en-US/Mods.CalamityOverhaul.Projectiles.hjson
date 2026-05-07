@@ -419,18 +419,64 @@ MuraSlashLine.DisplayName: Mura Slash Line
 WGGLumberjackSaw.DisplayName: Lumberjack Saw
 WGGLifeWeaverAcorn.DisplayName: Acorn
 Andrew.DisplayName: Andrew
-Bartholomew.DisplayName: Bartholomew
+
+Bartholomew: {
+	DisplayName: Bartholomew
+	TruthRevealText: Truth Revealed
+}
+
 ElysiumHeld.DisplayName: Elysium Held
-James.DisplayName: James
+
+James: {
+	DisplayName: James
+	ThunderChainText: Thunder Chain x{0}
+}
+
 John.DisplayName: John
-JudasIscariot.DisplayName: Judas Iscariot
-Jude.DisplayName: Jude
-Lesser.DisplayName: Lesser
-Matthew.DisplayName: Matthew
+
+JudasIscariot: {
+	DisplayName: Judas Iscariot
+	OminousText_0: Thirty silver coins...
+	OminousText_1: Betrayal...
+	OminousText_2: A kiss...
+	OminousText_3: The gallows...
+}
+
+Jude: {
+	DisplayName: Jude
+	HealingMiracleText: Healing Miracle
+	GuardianMiracleText: Guardian Miracle
+	JudgmentMiracleText: Judgment Miracle
+	JudgmentStandbyText: Judgment Standby
+	SwiftMiracleText: Swift Miracle
+	ManaMiracleText: Mana Miracle
+}
+
+Lesser: {
+	DisplayName: Lesser
+	DivineHealText: Divine Heal +{0}
+}
+
+Matthew: {
+	DisplayName: Matthew
+	WealthBlessingText: Wealth Blessing x{0}
+}
+
 Philip.DisplayName: Philip
-SimonPeter.DisplayName: Simon Peter
+
+SimonPeter: {
+	DisplayName: Simon Peter
+	RockShieldText: Rock Shield -{0}%
+}
+
 SnakeConversionWave.DisplayName: Snake Conversion Wave
-Thomas.DisplayName: Thomas
+
+Thomas: {
+	DisplayName: Thomas
+	VerifyEnhancedText: Verification Enhanced!
+	DoubtVerifyText: Doubt Verified!
+}
+
 Zealot.DisplayName: Zealot
 JudgmentLightning.DisplayName: Judgment Lightning
 HolySerpent.DisplayName: Holy Serpent
@@ -440,3 +486,50 @@ SingularityBlackHole.DisplayName: Singularity Black Hole
 SupernovaExplosion.DisplayName: Supernova Explosion
 StarfuryFallingStar.DisplayName: Starfury Falling Star
 SpawnOldDukeWannaToFight.DisplayName: Spawn Old Duke Wanna To Fight
+MachineTesla.DisplayName: Tesla Mecha
+CyberGlitchBoltProj.DisplayName: Cyber Glitch Bolt
+CyberShockwaveProj.DisplayName: Cyber Shockwave
+CyberTraceBeamProj.DisplayName: Cyber Trace Beam
+CyberChargeOrbProj.DisplayName: Cyber Charge Orb
+CyberDetonationProj.DisplayName: Cyber Detonation
+SHPCChargeHeldProj.DisplayName: SHPC Static Charge
+CyberFreezeWaveProj.DisplayName: Cyber Freeze Wave
+RevelationStar.DisplayName: Star of Revelation
+RevelationDomain.DisplayName: Revelation Domain
+DivineThunderStrike.DisplayName: Divine Thunder Strike
+ApocalypseHorseman.DisplayName: Horseman of the Apocalypse
+RevelationMeteorImpact.DisplayName: Revelation Meteor Impact
+RevelationMeteorStrike.DisplayName: Revelation Meteor Strike
+
+RevelationSealJudgment: {
+	Seal5Text: The Fifth Seal
+	Seal6Text: The Sixth Seal
+	Seal7Text: The Seventh Seal
+	WorldJudgmentText: World Judgment
+	DisplayName: Revelation Seal Judgment
+}
+
+VoidPortal.DisplayName: Void Portal
+StarshipComet.DisplayName: Starship Comet
+StarshipCometOrb.DisplayName: Starship Comet Orb
+StarshipMaxRateRing.DisplayName: Starship Max-Rate Ring
+StarshipMeteor.DisplayName: Starship Meteor
+StarshipMicroGalaxy.DisplayName: Starship Micro-Galaxy
+StarshipMicroStar.DisplayName: Starship Micro-Star
+StarshipPlanet.DisplayName: Starship Planet
+StarshipPlasmaBolt.DisplayName: Starship Plasma Bolt
+StarshipWingman.DisplayName: Starship Wingman
+VoidArrivalPortal.DisplayName: Void Arrival Portal
+GatlinBullet.DisplayName: Gatling Bullet
+GatlinImpactBurst.DisplayName: Gatling Impact Burst
+CyberReformProj.DisplayName: Cyber Reform Bolt
+CyberRiftSlashProj.DisplayName: Cyber Rift Slash
+CyberRestartProj.DisplayName: Cyber Restart
+CyberPixelDecomposeProj.DisplayName: Cyber Pixel Decomposition
+MimicPhantom.DisplayName: Mimic Phantom
+CyberExecutionBoltProj.DisplayName: Cyber Execution Bolt
+CyberPrismLaserProj.DisplayName: Cyber Prism Laser
+CyberDataArcProj.DisplayName: Cyber Data Arc Proj
+KingSlimeCrownBeamProj.DisplayName: King Slime Crown Beam Proj
+KingSlimeRoyalGelDropletProj.DisplayName: King Slime Royal Gel Droplet Proj
+KingSlimeShockwaveProj.DisplayName: King Slime Shockwave Proj

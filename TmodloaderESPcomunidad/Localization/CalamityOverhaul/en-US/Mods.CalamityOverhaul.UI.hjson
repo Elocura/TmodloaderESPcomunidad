@@ -1,4 +1,4 @@
-﻿ItemFilterUI: {
+ItemFilterUI: {
 	HintText: Left-click to add an item
 	HintText2: Left-click to remove an item
 	CloseHint: Press [ESC] or [Right-click] to close
@@ -27,24 +27,6 @@ QuestTracker: {
 	}
 }
 
-DoGQuestTrackerUI: {
-	QuestTitle: Commission: Hunt the Devourer of Gods
-	DamageContribution: Heartcarver Damage
-	RequiredContribution: Required: 80%
-}
-
-PallbearerQuestTrackerUI: {
-	QuestTitle: Commission: Hunt the Profaned Goddess
-	DamageContribution: Pallbearer Damage
-	RequiredContribution: Required: 80%
-}
-
-YharonQuestTrackerUI: {
-	QuestTitle: Commission: Hunt the Incineration Dragon
-	DamageContribution: Oni Machete Damage
-	RequiredContribution: Required: 75%
-}
-
 SeaDialogueBox: {
 	ContinueHint: Continue
 	FastHint: Accelerate
@@ -70,18 +52,6 @@ CQETConstructorTP: {
 	GuideText_NeedBlocks: Needs {0} Starflow Plated Block
 	GuideText_Ready: Ready!
 	GuideText_GroundIncomplete: The Ground Is Incomplete!
-}
-
-DeploySignaltowerTrackerUI: {
-	QuestTitle: Quantum Entanglement Network Deployment
-	DamageContribution: Deployment Progress
-	RequiredContribution: Goal: 10 Signal Towers
-	NearestTargetText: Nearest Target Point
-	NodeText: Entanglement Node #[NUM]
-	StatusText: Status
-	InRangeText: In Range
-	DistanceText: Distance
-	QuestCompleteText: Mission Complete!
 }
 
 SignalTowerTargetRenderer: {
@@ -162,30 +132,6 @@ OldDukeShopUI: {
 	HintTooltip: Scroll/Drag Bar
 }
 
-FindCampsiteUI: {
-	QuestTitle: The Abyss Beckons
-	DamageContribution: Quest Progress
-	RequiredContribution: Objective: Find and speak to the Old Duke
-	ObjectiveText: Objective
-	LocationText: Go to the Old Duke's Campsite
-	DistanceText: Distance
-	InteractText: Speak to the Old Duke
-	QuestCompleteText: Quest Complete!
-	HoldFragmentHintText: Hold Ocean Scraps to view direction
-}
-
-FindFragmentUI: {
-	QuestTitle: The Abyss Beckons
-	DamageContribution: Collection Progress
-	RequiredContribution: Objective: Collect 777 Ocean Scraps
-	ObjectiveText: Objective
-	CollectFragmentsText: Collect Ocean Scraps
-	CurrentFragmentsText: Currently Held
-	ReturnToCampsiteText: Return to campsite to submit
-	QuestCompleteText: Quest Complete!
-	HintText: Fish or loot creatures in the Ocean
-}
-
 OceanRaidersUI: {
 	TitleText: Ocean Devourer Storage
 	StorageText: Storage
@@ -207,9 +153,20 @@ QuestLog: {
 	ResetViewText: Reset View
 	SunModeText: Daytime Mode
 	LauncherHoverText: Left-Click Toggle, Right-Click Drag
+	QuestManagerText: 委托任务
 }
 
 QuestNotificationSystem.Text1: Quest Complete
+
+ExtraMain: {
+	ExtraText: EXTRA
+	GalleryText: GALLERY
+	SceneText: SCENE
+	MusicText: MUSIC
+	StaffText: STAFF
+	BackText: BACK
+	LockedText: ???
+}
 
 CompatibilityAlert: {
 	TitleText: Compatibility Mode Active
@@ -316,6 +273,37 @@ ElysiumUI: {
 	SwapSuccessText: Identity swap complete
 	SwapFailText: Swap failed
 	CannotSwapText: Cannot swap to this position
+	AbilityBrief_0: Rock Shield
+	AbilityBrief_1: Fishing Net Bind
+	AbilityBrief_2: Thunder Judgment
+	AbilityBrief_3: Revelation Sight
+	AbilityBrief_4: Holy Light Guide
+	AbilityBrief_5: Truth Revelation
+	AbilityBrief_6: Doubt's Touch
+	AbilityBrief_7: Wealth Blessing
+	AbilityBrief_8: Devotion Healing
+	AbilityBrief_9: Miracle Manifest
+	AbilityBrief_10: Zealous Force
+	AbilityBrief_11: Betrayal Pact
+}
+
+MartyrdomBarUI: {
+	SlotLabel_0: Pe
+	SlotLabel_1: An
+	SlotLabel_2: Ja
+	SlotLabel_3: Jo
+	SlotLabel_4: Ph
+	SlotLabel_5: Ba
+	SlotLabel_6: Th
+	SlotLabel_7: Mt
+	SlotLabel_8: Jl
+	SlotLabel_9: Td
+	SlotLabel_10: Si
+	SlotLabel_11: Ju
+	RevelationJudgingText: Revelation Last Three Seals in progress
+	RevelationStatusText: Revelation Horsemen {0}/4 Q:Meteor R:Judgment
+	RevelationReadyText: Press Q — Revelation ready
+	MartyrdomPowerText: Martyrdom {0}/11
 }
 
 MenuModify.OverhaulSettingsButtonText: Overhaul Settings
@@ -352,3 +340,501 @@ OverhaulSettingsUI: {
 }
 
 OverhaulSettingsButton.OverhaulSettingsButtonText: Overhaul Settings
+
+GalacticCrisisRender: {
+	HeaderStellarNavigation: ◢ STELLAR NAVIGATION ◣
+	HeaderKortoSystemOverview: ◢ KORTO SYSTEM OVERVIEW ◣
+	HeaderGalacticStrategicMap: ◢ GALACTIC STRATEGIC MAP ◣
+	MarkerTerra: TERRA
+	ExtinctionProtocolWarning: ◢ EXTINCTION PROTOCOL ACTIVE ◣
+	KortoSystemLabel: KORTO SYSTEM
+	KortoTargetLocked: ◢ TARGET LOCKED ◣
+	KortoStarLabel: KORTO
+	KortoIIILabel: KORTO-III
+	KortoPrimaryObjective: ◢ PRIMARY OBJECTIVE ◣
+	KortoClassTerrestrial: CLASS: TERRESTRIAL
+	KortoThreatCritical: THREAT: CRITICAL
+	KortoPlanetCountInfo: KORTO SYSTEM — 6 PLANETS
+	KortoStatusCompromised: STATUS: COMPROMISED
+	HeaderAndroidProfile: ◢ TACTICAL ANDROID DOSSIER ◣
+	AndroidArtisName: ARTIS
+	AndroidApolaName: APOLA
+	AndroidCodename: CODENAME
+	AndroidClassLabel: CLASS: TACTICAL ANDROID
+	AndroidStatusLabel: STATUS
+	AndroidStatusLost: SIGNAL LOST
+}
+
+TransitionScene: {
+	LoadingText: 数据链接中
+	InitializingText: 正在初始化协议
+	Hint0: 不要问为什么杀异形，而是要问为何不杀
+	Hint1: 阿切隆协议是嘉登最高级别的应急方案之一
+	Hint2: 战术人形无所畏惧，因为恐惧本身就是他们的武器
+	Hint3: 嘉登的机械造物已经超越了现实的极限
+	Hint4: 没有大到无法接受的牺牲，没有小到可以原谅的背叛
+	Hint5: 任何足够先进的技术，皆与魔法无异
+	Hint6: 灾厄之中蕴藏着超越一切的可能性
+	Hint7: 嘉登从不做无意义的事，每一步都是精密计算的结果
+	Hint8: 数据即是力量，知识即是武装
+	Hint9: 机械不会背叛，但操控机械的人或许会
+}
+
+StarStreamDialogueBox: {
+	ContinueHint: 继续
+	FastHint: 加速
+}
+
+ApolliaHeroPanelUI: {
+	TitleText: 阿波利娅
+	HPLabel: 生命值
+	DamageLabel: 伤害
+	DefenseLabel: 防御
+	CommandLabel: 作战指令
+	CmdFollow: 跟随
+	CmdHold: 驻守
+	CmdAggressive: 进攻
+	CmdDefensive: 防御
+}
+
+DraedonIncomingCall: {
+	IncomingLabel: 来电通讯
+	AnswerHint: 点击接听
+	ConnectingLabel: 连接中
+	EndLabel: 结束
+	NextLabel: 继续
+	TimerLabel: 时长
+	UnknownCaller: 未知
+	ChannelPrefix: CH
+}
+
+QuestManagerUI: {
+	TitleText: 任务管理
+	CategoryAll: 全部
+	CategoryActive: 进行中
+	CategoryCompleted: 已完成
+	CategorySuspended: 挂起
+	EmptyHintText: 暂无任务...
+	TrackHintText: "[右键] 关注/取消关注"
+	SuspendHintText: "[中键] 挂起/恢复"
+	OpenHintText: 按 [L] 打开任务管理
+	HeaderStatusTag: ◈ ACTIVE
+	FooterStatsFormat: TOTAL: {0}  |  ACTIVE: {1}
+	ExpandHintText: "[左键] 展开/收起详情"
+	EntryStatusActive: 进行中
+	EntryStatusTracked: 已关注
+	EntryStatusSuspended: 已挂起
+	EntryStatusCompleted: 已完成
+	EntryStatusFailed: 已失败
+}
+
+CyberwareUI: {
+	TitleText: CYBERWARE
+	StatusText: SYSTEM STATUS: OPERATIONAL
+	SlotSelectedText: "[ SELECTED ]"
+	SlotEmptyText: EMPTY
+	Slot_FrontalCortex: FRONTAL CORTEX
+	Slot_OcularSystem: OCULAR SYSTEM
+	Slot_LeftArm: LEFT ARM
+	Slot_Hands: HANDS
+	Slot_LeftLeg: LEFT LEG
+	Slot_Feet: FEET
+	Slot_OperatingSystem: OPERATING SYSTEM
+	Slot_CirculatorySystem: CIRCULATORY SYS
+	Slot_RightArm: RIGHT ARM
+	Slot_Skeleton: SKELETON
+	Slot_RightLeg: RIGHT LEG
+	Slot_NervousSystem: NERVOUS SYSTEM
+}
+
+SHPCDialogueBox: {
+	ContinueHint: 继续
+	FastHint: 加速
+}
+
+EntrustManagerNotification: {
+	LabelNewQuest: 新委托
+	LabelTracked: 已关注
+	LabelUntracked: 取消关注
+	LabelSuspended: 已挂起
+	LabelUnsuspended: 已恢复
+	LabelCompleted: 委托完成
+}
+
+HackTime: {
+	Locked: LOCKED
+	Done: DONE
+	Queued: QUEUED
+	UploadingText: UPLOADING...
+	BreachReady: BREACH PROTOCOL // READY
+	UploadComplete: >> UPLOAD COMPLETE <<
+	UploadQueue: "// UPLOAD QUEUE"
+	TargetLocked: "// TARGET LOCKED"
+	HpFormat: HP {0}%
+	Protocols: "[{0} PROTOCOLS]"
+	RamDepleted: !! RAM DEPLETED !!
+	LowRam: ! LOW RAM !
+	Scanning: SCANNING...
+	AnalysisComplete: ANALYSIS COMPLETE
+	TypeLabel: TYPE
+	BossClass: BOSS CLASS
+	EliteUnit: ELITE UNIT
+	HostileEntity: HOSTILE ENTITY
+	TownNpc: TOWN NPC
+	FriendlyUnit: FRIENDLY UNIT
+	PassiveCritter: PASSIVE CRITTER
+	NeutralEntity: NEUTRAL ENTITY
+	ThreatLabel: THREAT
+	ThreatExtreme: EXTREME
+	ThreatHigh: HIGH
+	ThreatModerate: MODERATE
+	ThreatLow: LOW
+	DefLabel: DEF
+	DmgLabel: DMG
+	KbResLabel: KB.RES
+	Breach: BREACH
+	InitBreach: "// INITIALIZING BREACH"
+	SystemBreach: "// SYSTEM BREACH"
+	Rebooting: REBOOTING...
+	SystemOnline: SYSTEM ONLINE
+	MemoryWiped: ???
+	Cyberpsychosis: CYBERPSYCHOSIS
+	RamRefund: +{0} RAM
+	ActiveText: ACTIVE
+	ActivePct: ACTIVE {0}%
+	Complete: COMPLETE
+	UploadingPct: UPLOADING {0}%
+	CatLethal: LETHAL
+	CatControl: CONTROL
+	CatCovert: COVERT
+	CatContagion: CONTAGION
+	CatUnknown: UNKNOWN
+	CatTileManip: TILE MANIP
+	TileScanName: NAME
+	TileScanClass: CLASS
+	TileScanSize: SIZE
+	TileScanHardness: HARDNESS
+	TileScanStatus: STATUS
+	TileScanCrafting: CRAFTING STATION
+	TileScanContainer: CONTAINER
+	TileScanLight: LIGHT SOURCE
+	TileScanFurniture: FURNITURE
+	TileScanBlock: STRUCTURE
+	TileScanDungeon: DUNGEON MATERIAL
+	TileScanLihzahrd: LIHZAHRD TECH
+	TileScanHardnessExtreme: EXTREME
+	TileScanHardnessHigh: HIGH
+	TileScanHardnessNormal: MODERATE
+	TileScanHardnessLow: LOW
+	TileScanActive: ACTIVE
+	TileScanInactive: INACTIVE
+	TileScanSealed: SEALED
+	TileScanOnline: ONLINE
+	TileScanIntact: INTACT
+	TileScanMisc: MISC
+	TileScanMiscPile: MISC PILE
+	ProjectileScanName: NAME
+	ProjectileScanClass: CLASS
+	ProjectileScanSpeed: SPEED
+	ProjectileScanKnockback: KNOCKBACK
+	ProjectileScanPenetrate: PENETRATION
+	ProjectileScanTimeLeft: TIME LEFT
+	ProjectileScanOwner: SOURCE
+	ProjectileScanAI: AI
+	ProjectileScanPosition: POSITION
+	ProjectileScanHostile: HOSTILE PROJECTILE
+	ProjectileScanFriendly: FRIENDLY PROJECTILE
+	ProjectileScanNeutral: NEUTRAL PROJECTILE
+	ProjectileScanMinion: MINION PROJECTILE
+	ProjectileScanSentry: SENTRY PROJECTILE
+	ProjectileScanTrap: TRAP PROJECTILE
+	ProjectileScanInfinite: INFINITE
+	ProjectileScanOwnerWorld: WORLD/ENVIRONMENT
+	ItemScanName: NAME
+	ItemScanClass: CLASS
+	ItemScanStack: STACK
+	ItemScanValue: VALUE
+	ItemScanRarity: RARITY
+	ItemScanCombat: COMBAT
+	ItemScanUtility: UTILITY
+	ItemScanPrefix: PREFIX
+	ItemScanTypeId: TYPE ID
+	ItemScanPosition: POSITION
+	ItemScanWeapon: WEAPON
+	ItemScanTool: TOOL
+	ItemScanArmor: ARMOR
+	ItemScanAccessory: ACCESSORY
+	ItemScanAmmo: AMMO
+	ItemScanConsumable: CONSUMABLE
+	ItemScanPlaceable: PLACEABLE
+	ItemScanMaterial: MATERIAL
+	ItemScanQuest: QUEST ITEM
+	ItemScanMisc: MISC ITEM
+	ItemScanNone: NONE
+	ItemScanNoValue: NO VALUE
+	WaterScanLiquid: LIQUID
+	WaterScanEnvironment: ENVIRONMENT
+	WaterScanDepth: DEPTH
+	WaterScanWorldLayer: WORLD LAYER
+	WaterScanTileCoord: TILE COORD
+	WaterScanContainment: CONTAINMENT
+	WaterScanWater: WATER
+	WaterScanLava: LAVA
+	WaterScanHoney: HONEY
+	WaterScanShimmer: SHIMMER
+	WaterScanLayerSky: SKY
+	WaterScanLayerSurface: SURFACE
+	WaterScanLayerUnderground: UNDERGROUND
+	WaterScanLayerCavern: CAVERN
+	WaterScanLayerUnderworld: UNDERWORLD
+	WaterScanEnvOcean: OCEAN WATER
+	WaterScanEnvDesert: DESERT WATER
+	WaterScanEnvSnow: SNOW WATER
+	WaterScanEnvJungle: JUNGLE WATER
+	WaterScanEnvCorruption: CORRUPTION WATER
+	WaterScanEnvCrimson: CRIMSON WATER
+	WaterScanEnvHallow: HALLOWED WATER
+	WaterScanEnvDungeon: DUNGEON WATER
+	WaterScanEnvMushroom: MUSHROOM WATER
+	WaterScanEnvUnderworld: UNDERWORLD LIQUID
+	WaterScanContainmentPocket: CONTAINED POCKET
+	WaterScanContainmentChannel: CHANNEL
+	WaterScanContainmentOpen: OPEN BODY
+	WaterScanStatusStill: STILL
+	WaterScanStatusFlowing: FLOWING
+	CatParanormal: Paranormal
+	WraithScanName: Designation
+	WraithScanNameValue: Unknown Wraith
+	WraithScanType: Paranormal Entity
+	WraithScanThreat: Unassessable ERR://-∞
+	WraithScanStatus: Status
+	WraithScanStatusStalking: Stealth Stalking
+	WraithScanStatusWatched: Being Watched
+	WraithScanStatusHalt: Halted
+	WraithScanStatusMemory: Memory Corruption
+	WraithScanStatusDismember: Spectral Disintegration
+	WraithScanIntegrity: Data Integrity
+	WraithScanIntegrityValue: 0x??% Corrupted
+	WraithScanOrigin: Origin
+	WraithScanOriginValue: Record Not Found
+	TurretScanName: Codename
+	TurretScanLaserName: Void Main Cannon Array
+	TurretScanGatlinName: Void Gatling Turret
+	TurretScanType: Automated Defense Mechanism
+	TurretScanPhase: Current Phase
+	TurretScanPhaseIdle: Standby
+	TurretScanPhaseCharging: Charging
+	TurretScanPhaseFiring: Firing
+	TurretScanPhaseCooldown: Cooldown
+	TurretScanPhaseLocking: Locking On
+	TurretScanCircuit: Circuit Status
+	TurretScanCircuitOnline: Online
+	TurretScanCircuitShorted: Short-Circuited
+	TurretScanCircuitOverload: Overload Paralysis
+	SignalTowerScanName: Void Signal Tower
+	SignalTowerScanType: Wide-Area Core Machine
+	SignalTowerScanThreat: Strategic Asset
+	SignalTowerScanStatus: Tower Status
+	SignalTowerScanStatusOnline: Online - Awaiting Broadcast
+	SignalTowerScanStatusBroadcasting: Broadcasting
+	SignalTowerScanStatusElectrified: Residual Charge
+	SignalTowerScanProtocol: Available Protocols
+	RightClickHint: "// RIGHT CLICK TO DESELECT"
+}
+
+DecryptionStrings: {
+	DecryptionPanelTitle: Void Signal Terminal Access
+	DecryptionPanelSubtitleLocked: Protocol Lockdown - Manual Breach Required
+	DecryptionPanelSubtitleBreaching: Breaching in Progress
+	DecryptionPanelSubtitleDataFlood: Data Flood Injection
+	DecryptionPanelSubtitleMessage: Decoded Signal Playback
+	DecryptionPanelTerminalId: TERM-ID ▸ {0}
+	DecryptionPanelCoordinate: ΔPOS ▸ {0}, {1}
+	DecryptionPanelSignalLock: Signal Lock Strength
+	DecryptionPanelSignalLockValue: "{0}%"
+	DecryptionPanelFooter: "[ESC] Disconnect    [Left Click] Interact    [?] Help"
+	DecryptionPanelHintLocked: Signal layer enclosed by an encrypted grid. Press [Space] or click [Initiate Breach] to enter the input sequence.
+	DecryptionPanelHintBreaching: Click matrix cells in order to fill the target sequence.
+	DecryptionPanelHintDataFlood: Protocol channel opened, injecting data flood...
+	DecryptionPanelHintMessage: Decoding complete, intercepted fragment below.
+	DecryptionPanelBeginBreach: ▷ Initiate Breach
+	DecryptionPanelClose: ✕ Disconnect
+	DecryptionPanelStatusLocked: LOCKED
+	DecryptionPanelStatusBreaching: BREACHING
+	DecryptionPanelStatusDataFlood: INJECTING
+	DecryptionPanelStatusMessage: DECODED
+	BreachBuffer: Buffer {0}/{1}
+	BreachTargets: Target Sequence
+	BreachTimer: Time Remaining
+	BreachAxisRow: Row Constraint ▸ Row {0}
+	BreachAxisCol: Column Constraint ▸ Col {0}
+	BreachCooldown: Protocol Resetting in {0:0.0}s
+	BreachAttempt: Attempt #{0}
+	BreachRestart: ⟳ Retry
+}
+
+MessageStrings: {
+	MsgHeader: ── Intercepted Fragment ▸ Origin 0x{0} / {1} ──
+	MsgSrcSystem: SYS
+	MsgSrcSignal: SIG
+	MsgSrcArchive: ARC
+	MsgFragment: FRAGMENT
+	MsgSignature: SIGN   ▸ {0}
+	MsgBody0: Terminal accessed. Verification key match at 98.4%.
+	MsgBody1: ...Unlabeled pulse signals remain within the static.
+	MsgBody2: Coordinate offsets point to deep echoes of the collapsing core.
+	MsgBody3: This node is marked as ██CLASSIFIED██, related fragments have been sealed.
+	MsgBody4: The next protocol window will be triggered by your actions.
+	MsgSkipHint: "[Space/Left Click] Skip text animation"
+	MsgCloseHint: "[Space/ESC] Disconnect"
+	MsgAccess: Access: Draedon
+	MsgStatus: Status: Partially Decrypted
+	MsgRec01Title: "[Log-01]"
+	MsgRec01_0: The Great Shriek. Unresolvable wavelengths, as if the entire universe were screaming.
+	MsgRec01_1: Spatial curvature permanently locked. Warp engines completely scrapped. Forced jumps only result in the disintegration of material structures.
+	MsgRec01_2: The end of conventional interstellar travel. Collapse of the old unified physics model.
+	MsgRec02Title: "[Log-02]"
+	MsgRec02_0: After 73,000 destroyed probes, the current Void coordinates have been locked.
+	MsgRec02_1: Established Base Zero. Deployed supporting industrial clusters.
+	MsgRec02_2: The barrier of reality here has been stretched to its limit, allowing for direct visual observation of that chaotic subspace storm.
+	MsgRec02_3: A perfect observation point.
+	MsgRec03Title: "[Log-03]"
+	MsgRec03_0: The storm is leaking.
+	MsgRec03_1: Physics abdicates. Absolute metaphysical rules have begun taking over this industrial sector.
+	MsgRec03_2: Timelines are overlapping. Corpses, echoes of the past, and subspace energy are beginning to fuse.
+	MsgRec03_3: Bizarre anomalies are now frequently observed within the industrial sector.
+	MsgRec04Title: "[Log-04]"
+	MsgRec04_0: Purging these paranormal entities is futile; they cannot be killed. They will be left as an outer barrier for the base.
+	MsgRec04_1: If this log is triggered, it means I have abandoned this place, and all channels to the outside world have been closed.
+	MsgRec04_2: Latecomer, find your own opportunities within the patterns of those foul things.
+}
+
+SHPCUI: {
+	CyberDomain_Title: CYBER DOMAIN
+	CyberDomain_Subtitle: Domain Control
+	CyberDomain_Description: Deploy and manage multi-layer cyberspace
+	Cyberware_Title: CYBERWARE
+	Cyberware_Subtitle: Body Augmentation
+	Cyberware_Description: Open cyberware augmentation manager
+	Cyberware_Status_Open: OPEN
+	Cyberware_Status_Closed: CLOSED
+	Status_Title: STATUS
+	Status_Subtitle: System Diagnostics
+	Status_Description: View current overload and cooldown info
+	Status_OK: OK
+	Config_Title: CONFIG
+	Config_Subtitle: System Settings
+	Config_Description: Adjust assist options and display parameters
+	State_On: ON
+	State_Off: OFF
+	State_Layer: L
+	Cyber_PanelTitle: CYBER DOMAIN
+	Cyber_PanelSubtitle: BLACKWALL ACCESS
+	Cyber_BtnActivate: ACTIVATE
+	Cyber_BtnDeactivate: DEACTIVATE
+	Cyber_LayerLabel: LAYER
+	Cyber_StateOnline: ONLINE
+	Cyber_StateOffline: OFFLINE
+	Cyber_Hint: "[{0}] Toggle domain / Click ring segment to switch layer"
+	Cyber_Layer1_Title: BASE ACCESS
+	Cyber_Layer2_Title: DEEP DIVE
+	Cyber_Layer3_Title: BLACKWALL BREACH
+	Cyber_NoSkill: "// No exclusive skills."
+	Cyber_LayerBaseFooter: Foundation layer — establishes the domain field.
+	Cyber_SkillUnlocked: "[#] UNLOCKED"
+	Cyber_SkillLocked: "[X] Requires Layer {0}"
+	Cyber_KeyUnbound: ?
+	Cyber_Skill_Teleport_Name: RIFT TELEPORT
+	Cyber_Skill_Teleport_Desc: Tear a dimensional rift to the cursor and reform inside the domain.
+	Cyber_Skill_Banish_Name: CYBER BANISH
+	Cyber_Skill_Banish_Desc: Send the foe under the cursor into deep cyberspace.
+	Cyber_Skill_Freeze_Name: DOMAIN FREEZE
+	Cyber_Skill_Freeze_Desc: Lock every hostile entity inside the domain in place.
+	Cyber_DrainHeader: RAM DRAIN
+	Cyber_DrainPerSec: -{0}/s
+	Cyber_SustainTime: SUSTAIN ~{0}s
+	Cyber_SustainInfinite: SUSTAIN ∞
+	Modify_Title: MODIFY
+	Modify_Subtitle: Gun Augmentation
+	Modify_Description: Install modification parts into SHPC chassis
+	Modify_SlotEmpty: EMPTY
+	Modify_Install: INSTALL
+	Modify_Unequip: UNEQUIP
+	Modify_Equipped: EQUIPPED
+	Modify_NoMatch: No compatible modules in inventory
+	Modify_Close: CLOSE
+	Modify_InstallSlot: INSTALL · {0}
+	Modify_Current: CURRENT: {0}
+	Modify_Slot_Barrel: BARREL
+	Modify_Slot_Optic: OPTIC
+	Modify_Slot_Power: POWER
+	Modify_Slot_Stock: STOCK
+	Modify_Slot_Grip: GRIP
+	Modify_Slot_Frame: FRAME
+	Talk_Title: TALK
+	Talk_Subtitle: Neural Link
+	Talk_Description: Open a direct channel to SHPC
+	Talk_Status_Busy: BUSY
+	Talk_Status_Ready: READY
+	Cyber_Skill_Restart_Name: SYSTEM REBOOT
+	Cyber_Skill_Restart_Desc: Collapse the domain into a singularity and burst back fully restored.
+	Modify_Preset_A: PRESET-A
+	Modify_Preset_B: PRESET-B
+	Modify_Preset_C: PRESET-C
+}
+
+EntrustManagerLead: {
+	TextKeyPromptBound: Press [{0}] to open the Commission Panel
+	TextKeyPromptWarnTitle: ⚠  Commission Hotkey Unbound!
+	TextKeyPromptDefaultKey: Press [{0}] (Default Key) to open the Commission Panel
+	TextKeyPromptBindHint: It is recommended to bind a custom key in Settings → Controls
+	TextKeyPromptConfirmBtn: Got it
+	TextPanelIntroTitle: Commission Instructions
+	TextRightClickLabel: Right-click a commission entry
+	TextRightClickAction: " →  Track Commission"
+	TextRightClickDesc: "     The tracker window on the left will continuously display quest progress"
+	TextMiddleClickLabel: Middle-click a commission entry
+	TextMiddleClickAction: " →  Suspend Commission"
+	TextMiddleClickDesc: "     Temporarily hides the commission, removing it from the tracker window"
+	TextStyleButtonTitle: Style Button Hint
+	TextStyleButtonLabel: Left-click the small button at the top
+	TextStyleButtonAction: " →  Toggle UI Style"
+	TextStyleButtonDesc: "     Cycles between Desert, Draedon, and Forest UI styles"
+	TextConfirmBtn: Understood
+	TextTrackPromptTitle: Track Commissions of Interest
+	TextTrackPromptHintLabel: Right-click a commission
+	TextTrackPromptHintAction: " →  Set to Tracked"
+	TextTrackPromptDesc: "     Tracked commissions will be pinned to the tracker on the left side of the screen for easy progress monitoring"
+	TextTrackPromptNextBtn: Next
+	TextTrackerIntroTitle: Commission Tracker
+	TextTrackerIntroLine1: The tracker on the left side of the screen persistently displays all tracked commissions
+	TextTrackerIntroLine2: Hold Left-click to drag and adjust its vertical position
+	TextTrackerIntroLine3: The tracker automatically collapses when the Commission Manager is open to prevent obstructing your view
+	TextTrackerIntroNextBtn: Next
+	TextSuspendIntroTitle: Suspend Unwanted Commissions
+	TextSuspendIntroHintLabel: Middle-click a commission
+	TextSuspendIntroHintAction: " →  Suspend Commission"
+	TextSuspendIntroDesc1: "     Suspended commissions will not appear in the tracker on the left, perfect for shelving them temporarily"
+	TextSuspendIntroDesc2: "     You can find them in the Suspended tab to restore tracking"
+}
+
+AbandonedPortalStrings: {
+	Title: Abandoned Portal Console
+	BrokenSubtitle: Structure Fractured · Core Offline
+	RepairingSubtitle: Auto-Repair Sequence Running
+	RepairedSubtitle: Channel Stable · Void Coordinates Available
+	BrokenBody: Faint subspace echoes still linger within the broken door frame. Once auto-repair is initiated, the portal will rebuild its positioning ring within minutes.
+	RepairingBody: Nano-welds are reconstructing the rift restrainer. Please keep the surrounding area stable and wait for calibration to complete.
+	RepairedBody: The portal has completed its auto-repair. The teleportation sequence will initiate a rift event before sending you into the Void.
+	StartRepair: ▷ Initiate Auto-Repair
+	Teleport: ▷ Initiate Teleport
+	Close: ✕ Close
+	ProgressFormat: Repair Progress {0}%
+	StatusBroken: STATUS  ▌ OFFLINE
+	StatusRepairing: STATUS  ▌ CALIBRATING
+	StatusRepaired: STATUS  ▌ ONLINE
+	DiagnosticHeader: "[DIAG]"
+	DiagnosticBroken: ERR-0xC4: Positioning Ring Fractured / Main Power Loop Disconnected
+	DiagnosticRepairing: INFO: Nano-weld array synchronizing... Do not move the portal base
+	DiagnosticRepaired: OK: All Subsystems Online / Coordinate Parsing Ready
+}

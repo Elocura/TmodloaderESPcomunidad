@@ -389,8 +389,6 @@ SupCalDoGQuestReward: {
 	Line7: ......I really can't stand her.
 }
 
-AchievementToast.AchievementUnlocked: Achievement Unlocked!
-
 SupCalYharonQuestReward: {
 	Rolename1: Brimstone Witch
 	Rolename2: Halibut
@@ -408,6 +406,19 @@ YharonQuestUI: {
 	QuestDesc: Use the Muramasa to slay Yharon, the Incineration Dragon.
 	AcceptText: Accept
 	DeclineText: Decline
+}
+
+SupCalQuestLine: {
+	QuestCategory: Brimstone Witch
+	PallbearerTitle: Commission: Hunt the Profaned Goddess
+	PallbearerSummary: Defeat the Profaned Goddess using the Pallbearer. 80% contribution required.
+	DoGTitle: Commission: Hunt the Devourer of Gods
+	DoGSummary: Defeat the Devourer of Gods using the Heartcarver. 80% contribution required.
+	YharonTitle: Commission: Hunt the Incineration Dragon
+	YharonSummary: Slay Yharon using the Oni Machete. 75% contribution required.
+	TrackerSummonHint: Target absent — summon {0}
+	TrackerContribution: Weapon contribution: {0:0%}
+	TrackerRequired: Required: {0:0%}
 }
 
 HelensInterference: {
@@ -565,6 +576,38 @@ ExoMechThirdDefeat: {
 	DraedonName: Draedon
 	ThirdDefeatLine1: Consistent performance. A component of the perfection I strive for.
 	ThirdDefeatLine2: You have proven your capabilities are not... a statistical anomaly.
+}
+
+DraedonQuestLine: {
+	QuestCategory: Draedon
+	DeployTitle: Quantum Entanglement Network Deployment
+	DeploySummary: Deploy 10 signal towers at target points across the world
+	TrackerNearestTarget: Nearest Target Point
+	TrackerNodeName: Entanglement Node #[NUM]
+	TrackerInRange: In Range
+	TrackerDistance: Distance
+	TrackerDeployProgress: Deployment Progress
+	TrackerQuestComplete: Mission Complete!
+}
+
+AbyssQuestLine: {
+	QuestCategory: Old Duke
+	CampsiteTitle: The Abyss Calls
+	CampsiteSummary: Find and speak with the Old Duke
+	CampsiteObjective: Objective
+	CampsiteLocation: Go to the Old Duke's campsite
+	CampsiteDistance: Distance
+	CampsiteInteract: Speak with the Old Duke
+	CampsiteComplete: Quest Complete!
+	CampsiteHoldHint: Hold Ocean Fragments to see direction
+	FragmentTitle: The Abyss Calls
+	FragmentSummary: Collect 777 Ocean Fragments
+	FragmentObjective: Objective
+	FragmentCollect: Collect Ocean Fragments
+	FragmentCurrent: Currently held
+	FragmentReturn: Return to campsite to submit
+	FragmentComplete: Quest Complete!
+	FragmentHint: Fish or hunt ocean creatures
 }
 
 MusicToast.NowPlaying: Now Playing
@@ -909,4 +952,139 @@ ComeCampsiteFindMe: {
 	C1: I have business with you.
 	C2: I was just fishing for fun...
 	B1_NO: Come find me first. You'd best learn the path.
+}
+
+GalacticCrisis: {
+	DraedonName: Draedon
+	CrisisIntro1: Now that the quantum network is reconnected, there are some things you must see for yourself.
+	CrisisIntro2: This is the shadow currently devouring the galactic spiral arms.
+	CrisisIntro3: These shadows are comprised of the Swarm. Prior to this, I deployed millions of Exo Titans in an attempt to intercept them.
+	CrisisIntro4: The data indicates this is a losing war of attrition. They are endless, and my resources will eventually be exhausted.
+	CrisisIntro5: Therefore, I have formulated the only plan with a success rate greater than 0%.
+	CrisisIntro6: Detonate the planetary cores of every world from the Outer Rim to the Mid Rim of the galaxy.
+	CrisisIntro7: By reducing tens of thousands of light-years into an absolute dead zone, I can sever the Swarm's supply lines, forcing them to divert to neighboring galaxies due to extreme navigational attrition.
+	CrisisIntro8: Starvation is the most powerful driving force in the universe, and the easiest to calculate. If I reduce the galaxy's resources below the critical threshold, this galaxy will become nothing more than an empty coffin to the Swarm.
+	CrisisIntro9: Terra is also on the scorched earth list. But as a singularity, your essence should not be extinguished here. I will provide you with a starship for evacuation.
+	ChoiceRefuse: There must be another way.
+	ChoiceSilence: ......(Remain silent and grip your weapon)
+	RebuttalLine1: ...Exactly.
+	RebuttalLine2: I predicted a 99% probability that you would accept the evacuation, but I was looking forward to that 1% of irrational behavior.
+	RebuttalLine3: You rejected the shortcut to survival. This is precisely the nature of the singularity I have observed.
+	RebuttalLine4: In that case, I have a backup plan—an operation I shelved due to its excessively low success rate.
+	MissionBrief1: The target is the Corto system. It has already fallen, but the Swarm has not yet fully digested it.
+	MissionBrief2: Within the mantle of its third planet, a vein of extremely high-purity Exo material is forming.
+	MissionBrief3: The Swarm must not acquire it. Once they evolve the ability to utilize Exo matter, the situation within the galaxy will spiral completely out of control.
+	MissionBrief4: Your task is simple: break through the sea of bugs, reach the planetary core, detonate the vein, and completely destroy that planet.
+	MissionBrief5: If this operation succeeds, it will prove that individuals can play a decisive role in the war against the Swarm, and I will draft a new strategy centered around you.
+	AndroidReveal1: Prior to your arrival, I dispatched an advance team to those coordinates.
+	AndroidReveal2: They are tactical androids built upon my latest technology: Altis and Apollia.
+	AndroidReveal3: They possess mobility and logical processing capabilities far exceeding older mechs, but I lost their signals shortly after they landed on Corto III.
+	AndroidReveal4: Final data transmissions indicate they still have vital signs, but are in extreme danger.
+	MissionObjective: Head to the Corto system and confirm the status of those two units. If they can still fight, have them assist you in completing the mission. If they cannot...
+	MissionObjectiveDark: At the very least, retrieve their core data. I do not wish for my masterpieces to meaninglessly become rations for the bugs.
+	FinalSendOff: Coordinates inputted. Go, and show me if you can transcend my calculations once more.
+}
+
+FirstMetApollia: {
+	Rolename: Apollia
+	Line1: ......Human?
+	Line2: That atmospheric drop trajectory was too obvious. I predicted the landing zone and came to try my luck.
+	Line3: I am Apollia. You'd better be the vanguard guide for the Exo Fleet, here to tell me the main force is right behind you.
+	C1: (Hand over Draedon's authorization chip)
+	C2: How do I know you're not a Swarm mimic trap?
+	C2_R1: ......Mimics don't actively expose their positions, nor do they run toward a drop pod.
+	C2_R2: The chip. Show me your authorization chip.
+	Line4: ......(Reading chip data)
+	Line5: Just you?! What the hell!
+	Line6: What we need here is a Titan Legion, and an Exterminatus! Not just sending another person to die!
+	Line7: (Deep breath)......My apologies. I am now aware of the Source's arrangements.
+	Line8: Apollia, formerly of the Ninth Legion, will now assist you in all your operations on this planet.
+}
+
+GargoyleWarningScenario: {
+	Line1: ......A Swarm scout cluster. The main swarm is highly likely right behind them.
+	Line2: They've definitely spotted you. Follow me. There's an abandoned fortress ahead; we can use its fortifications to hold them off for a while.
+}
+
+DropPodCallScenario: {
+	CallerNameText: Draedon
+	Line1: Smoother than I anticipated. Warp transit time was negative 43 minutes.
+	Line2: Your constitution is exceptionally suited for subspace navigation.
+	Line3: You are now in low orbit above Corto III.
+	Line4: Be careful to avoid the wreckage of those Exo Mechs.
+	Line5: Following the Apocalypse-class war, the total mass of this planet doubled. Hence, what you see here.
+	Line6: I have burned the permissions into your chip. If you encounter any surviving units, they will understand everything.
+	Line7: You are about to enter the shielding field established by the Swarm. Once inside, all communication with the outside will be severed.
+	Line8: If you successfully slay the node creature stationed on this planet, the field should dissipate. It is likely located near the planetary core.
+	Line9: Lastly, good luck.
+}
+
+FishoilSubmitScenario: {
+	Rolename: Halibut
+	SubmitLine1: Hmm, you've collected enough fish.
+	SubmitLine2: Just enough for me to extract a bottle of fish oil.
+	QuestionLine: Are you going to hand them over to me?
+	ChoiceGive: Sure, take them.
+	ChoiceRefuse: Let me think about it.
+	GiveResponse: Excellent, just a moment... Here you go, a fresh bottle of fish oil.
+	RefuseResponse: Alright, come find me whenever you've made up your mind.
+	QuestTitle: Fish Oil Collection
+	QuestSummary: Collect 300 ordinary fish and give them to Halibut in exchange for a bottle of fish oil.
+	QuestCategory: Halibut
+	ProgressFormat: "{0}/{1}"
+	TrackerCollecting: "{0} more fish needed"
+	TrackerReady: Fish collected. Please focus on the quest to submit.
+	StatusSuspended: Suspended
+	StatusCompleted: Completed
+	StatusSubmittable: Ready to Submit
+	StatusCollectingFormat: Collecting ({0}/{1})
+	NotEnoughResponse: Hmm? It seems you don't have enough fish. Go catch some more and come back.
+	AlreadyCompletedResponse: I've already given you the fish oil. If you want more, you'll have to wait until next time.
+	SubmitButtonLabel: Submit Fish
+	AwaitingSubmitHint: Click submit to give the fish to Halibut
+}
+
+FirstMetShepel: {
+	RolenameSHPC: SHPC
+	Line1: Master! I am so glad to see you again!
+	Choice1Text: You've got the wrong person, haven't you?
+	Choice2Text: ...Long time no see.
+	Choice1Response: ...Yes. As long as it is you, I am willing to be wrong every time.
+	Choice1Silence: ......
+	CybCourseOfferLine: Braindance program successfully loaded. Master, would you like to connect to the Braindance space now to learn about Hack Mode and SHPC weapon operating protocols?
+	CybCourseAcceptText: Let's go now.
+	CybCourseDeclineText: Not right now.
+	CybCourseAcceptResponse: Acknowledged. Establishing neural link... Please remain still.
+	CybCourseDeclineResponse: Understood. Braindance access credentials have been written to your save data. You can activate it yourself at any time, Master.
+}
+
+TheHerInThePast: {
+	RolenameWitch: Brimstone Witch
+	RolenameSHPC: SHPC
+	WitchLine1: Being chased by those filthy things must be pretty unpleasant. Luckily you ran into me.
+	ShpcLine1: Thank you... But how is this possible? You belong to the past, yet you can move around...
+	WitchLine2: If you can invade here from a century in the future, it's only natural I can do something similar.
+	WitchLine3: Though I am indeed just a shadow left behind in this place.
+	ShpcLine2: You can use your abilities independently from any point in the past?!
+	WitchLine4: Your focus is so cute... Hurry up and leave. It's better if these filthy things stay buried in the past with me.
+	WitchLine5: Oh, by the way, little maid.
+	ShpcLine3: What is it?
+	WitchLine6: Your exhaustion has seeped right into your bones.
+	WitchLine7: Stop always trying to change the past, and learn to accept the future.
+	ShpcLine4: ......
+}
+
+EternalBlazingNowNoHelen: {
+	Rolename1: ???Brimstone Witch???
+	Rolename2: Brimstone Witch
+	Line1: ......It has been a long time since anyone has made it this far.
+	Line2: I will not die... but this is close enough.
+	Line3: You have done well... perhaps, you truly are the "only one of this era" he spoke of, the one worth waiting for.
+	Line4: Therefore, I have one final request for you.
+	Line5: As long as a single ember of Brimstone Fire remains in the past and present of this world, "I" shall not perish.
+	Line6: But my consciousness will be gradually eroded away within this endless sea of fire.
+	Line7: Had I not met you, I could have held out for thirty more years at most.
+	Line8: This is the only way.
+	Line9: Once my consciousness completely dissipates, the entire world will be reduced to ashes.
+	Line10: Besides, if you intend to bring an end to this era, a mortal shell is far too fragile.
 }

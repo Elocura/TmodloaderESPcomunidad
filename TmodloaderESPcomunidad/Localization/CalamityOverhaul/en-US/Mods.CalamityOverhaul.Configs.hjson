@@ -24,8 +24,8 @@
 			'''
 	}
 
-	HalibutDomainConciseDisplay: {
-		Label: Halibut Ocean Domain Minimal Display
+	DomainConciseDisplay: {
+		Label: Domain Minimal Display
 		Tooltip: Off by default. When enabled, most visual effects within the domain will be hidden.
 	}
 
@@ -41,16 +41,6 @@
 		Tooltip: When enabled, long distance rapid displacement will slow the lens, which avoids the feeling of being moved too fast
 	}
 
-	CartridgeUI_Offset_X_Value: {
-		Label: Magazine UI landscape deviation value
-		Tooltip: ""
-	}
-
-	CartridgeUI_Offset_Y_Value: {
-		Label: Magazine UI deviates vertically value
-		Tooltip: ""
-	}
-
 	WeaponHandheldDisplay: {
 		Label: Weapon Handheld Display
 		Tooltip:
@@ -59,25 +49,6 @@
 			This effect has a very high priority and will override most of the handheld animations from third-party mods
 			It is turned on by default, and for visual reasons, the authors do not recommend turning it off
 			If you change this configuration during the game, some effects will need to be reloaded the mod files before they can be changed
-			'''
-	}
-
-	ActivateGunRecoil: {
-		Label: Activate Gun Recoil [c/06e33f:(Experimental)]
-		Tooltip: When enabled, firearms will have a recoil effect when fired. Disable it to turn off these effects.
-	}
-
-	MagazineSystem: {
-		Label: Magazine System
-		Tooltip:
-			'''
-			A sprawling content system, when enabled, introduces magazine mechanisms to the majority of firearms, 
-			including features like reloading and mixing ammunition types.
-			Disabling it will deactivate these features, reverting firearms to their original ammunition mechanisms.
-			[c/fff08c:It's worth noting] that the game's major balance adjustments are made based on the [c/fff08c:enabled magazine system].
-			Opting to disable it may render some ranged weapons [c/de0808:overpowered].
-			Therefore, if this feature is disabled, the [c/de0808:balance of ranged weapons] in the game will no longer be meaningful for discussion.
-			[c/fff08c:If you change this option, re-enter the world to make sure all effects change correctly]
 			'''
 	}
 
@@ -93,20 +64,6 @@
 	EnableCasingsEntity: {
 		Label: Enable Casings Entity
 		Tooltip: If you find the casings rolling around an eyesore, it's a good idea to turn this option off
-	}
-
-	LoadingAA_Volume: {
-		Label: Gun Reload Sound Volume Coefficient
-		Tooltip: The larger the value, the more prominent the sound; 1 is the original volume
-	}
-
-	ShotgunFireForcedReloadInterruption: {
-		Label: Shotgun Fire Forced Reload Interruption [c/06e33f:(Experimental)]
-		Tooltip:
-			'''
-			A small number of shotguns have this feature where attempting to fire while reloading will interrupt the reload action. 
-			If enabled, this option will give all shotgun weapons this feature.
-			'''
 	}
 
 	WeaponLazyRotationAngle: {
@@ -202,5 +159,10 @@
 	GenSylvanOutpost: {
 		Label: Generate Sylvan Outpost
 		Tooltip: Spawns wooden elven or forest guardian outposts deep within the forest.
+	}
+
+	SignalTowerDecryptionAutoPlay: {
+		Label: Signal Tower Decryption Auto Play
+		Tooltip: ""
 	}
 }
