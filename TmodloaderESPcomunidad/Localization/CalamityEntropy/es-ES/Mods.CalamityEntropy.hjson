@@ -175,7 +175,7 @@ Items: {
 					solamente se clabarán [S] púas a un solo objetivo
 					El ataque sigiloso recuperará todas las púas de cristal adheridas
 					y las lanzará continuamente en la dirección del cursor
-					Ignora 12 de defensa
+					Ignora 4 de defensa
 					'''
 			}
 
@@ -199,7 +199,7 @@ Items: {
                     El ataque sigiloso recuperará todas las púas adheridas
                     y las lanzará continuamente en la dirección del cursor
 					Un impacto de golpe sigiloso generará un fragmento rastreador.
-                    Ignora 16 de defensa
+                    Ignora 8 de defensa
 					'''
 			}
 		}
@@ -366,18 +366,6 @@ Items: {
 		Tooltip: ""
 	}
 
-	VoidElytra: {
-		DisplayName: Elitras del vacío
-		Tooltip:
-			'''
-			Velocidad horizontal: [A]
-			Multiplicador de aceleración: [B]
-			Excelente velocidad vertical
-			Tiempo de vuelo: [C]
-			Permite embestir en las cuatro direcciones
-			[c/356498:Dedica tu vida al vacío y supera los límites]
-			'''
-	}
 
 	BottleDarkMatter: {
 		DisplayName: Materia oscura embotellada
@@ -667,8 +655,10 @@ Items: {
 			Colocará una coraza alrededor del propietario cuando la vida esté por debajo del 50%, reduciendo el daño recibido
 			Absorverá un 25% del daño que reciban los jugadores de tu equipo cuando la vida esté por encima del 25%
 			Otorga un escudo sagrado que te protegerá de recibir daño una vez
-			Este efecto tiene 120 segundos de enfriamento
+			Este efecto tiene 150 segundos de enfriamento
 			'''
+		ToggleEffectOn: "[c/00ff00:Pánico activado]"
+		ToggleEffectOff: "[c/808080:Pánico desactivado]"
 	}
 
 	VoidBar: {
@@ -696,7 +686,6 @@ Items: {
 			Cuando los enemigos toquen el escudo, recibirán daño
 			Cuando el escudo mágico es destruido, la locura de maná será eliminada si se posee y se perderán los beneficios del escudo
 			Cuando no se tenga el escudo, se podrá robar vida al atacar
-			El escudo no escala ni con la defensa ni con la reducción de daño
 			Cuanto más alto sea el maná máximo, más vida robará
 			No puedes obtener el escudo mágico cuando te equipes el Cáliz del Dios de la Sangre
 			'''
@@ -835,7 +824,7 @@ Items: {
 		DisplayName: Látigo del carcelero
 		Tooltip:
 			'''
-			Los súbditos ganan un 5% de probabilidad de crítico
+			Los súbditos ganan un 2% de probabilidad de crítico
 			{$CommonItemTooltip.SummonTagDamage}
 			{$CommonItemTooltip.Whips}
 			Los enemigos explotarán al morir
@@ -861,7 +850,7 @@ Items: {
 		DisplayName: Espejo de mano del Archimago
 		Tooltip:
 			'''
-			Recibes un 40% extra de maná
+			Recibes un 25% extra de maná
 			Por cada punto extra de maná, aumentará el daño un 0.15%
 			'''
 	}
@@ -973,7 +962,7 @@ Items: {
 		Tooltip:
 			'''
 			Te provee un escudo sagrado que te protege de un golpe
-			Este efecto tiene 120 segundos de enfriamento
+			Este efecto tiene 150 segundos de enfriamento
 			Lo pueden soltar los enemigos de la bendición
 			'''
 	}
@@ -989,7 +978,7 @@ Items: {
 			'''
 			Transforma el daño recibido en erosión astral, reduciendo la vida poco a poco con el tiempo
 			Al atacar se puede erosionar y transferir la erosión astral al objetivo, inflingiendo más daño
-			Reduce un 50% el efecto de las pociones curativas 
+			-50% de regeneración de vida
 			- Modo muerte -
 			'''
 	}
@@ -1105,10 +1094,9 @@ Items: {
 			+30% de daño
 			+20% de velocidad de ataque
 			+4 de Toque del vacío
-			+35% de daño recibido
+			+50% de daño recibido
 			-70% de regeneración de vida
 			+16% de coste de maná
-			-12% de daño crítico
 			'''
 	}
 
@@ -1200,19 +1188,6 @@ Items: {
 			'''
 	}
 
-	TheRevelation: {
-		DisplayName: La revelación
-		Tooltip:
-			'''
-			Aparecerá una barra que se cargará al atacar continuamente
-			Cuando la barra está cargada por completo, al dejar de atacar liberará un rayo sagrado
-			Hace 50 de daño cada 3 fotogramas
-			Funciona como alas
-			Presiona [down] mientras vuelas para flotar
-			"Despierta tu fe"
-			'''
-	}
-
 	MosHat: {
 		DisplayName: Sombrero de Mo
 		Tooltip: ""
@@ -1244,7 +1219,11 @@ Items: {
 
 	GravityGaze: {
 		DisplayName: Mirada gravitatoria
-		Tooltip: ""
+		Tooltip: 
+			'''
+			Dispara rayos aéreos
+			Inflige 1,5 veces más daño a corta distancia
+			'''
 	}
 
 	DivineRadience: {
@@ -1296,9 +1275,9 @@ Items: {
 		DisplayName: Caparazón de la nihilidad
 		Tooltip:
 			'''
-			 Los golpes críticos harán un 15% más de daño
+			 Los golpes críticos harán un 18% más de daño
 			 Habrá una probabilidad de obtener una coraza energética al lograr un ataque crítico
-			 La coraza energética reduce el daño recibido un 16%
+			 La coraza energética reduce el daño recibido un 20%
 			 Solo puedes tener un máximo de tres corazas
 			'''
 	}
@@ -1494,8 +1473,8 @@ Items: {
 		Tooltip:
 			'''
 			+20% de daño
-			+20% de daño crítico
-			+30% velocidad de ataque cuerpo a cuerpo
+			+10% de daño crítico
+			+10% velocidad de ataque cuerpo a cuerpo
 			+250 de vida máxima
 			+250 de maná máximo
 			'''
@@ -1505,9 +1484,9 @@ Items: {
 		DisplayName: Mallas de marivinium
 		Tooltip:
 			'''
-			+30% de velocidad de movimiento
+			+36% de velocidad de movimiento
 			-20% de coste de maná
-			+15 de daño
+			+5% de daño
 			+5 de probabilidad de crítico
 			'''
 	}
@@ -1857,6 +1836,7 @@ Items: {
 			'''
 			Activa o desactiva el modo entrópico
 			Es más desafiante. Tienes menos salud y recibes más daño
+			Los objetos de lore obtienen una bonificación especial que se puede activar
 			[c/ff0000:Nota: Este modo no forma parte del progreso oficial recomendado. Los ajustes de equilibrio de Entropy no tienen en cuenta este modo]
 			Clic derecho para usar solamente TDR
 			'''
@@ -1992,20 +1972,6 @@ Items: {
 			Cuando el orbe está completo, proporciona una bonificación de daño del {DMG}%
 			[c/ff0000:Desequiparte el Orbe causará un 90% de daño a tu salud máxima]
 			"Drena tu alma al repararse. Si se separa por la fuerza, tu alma estallará en un torrente."
-			'''
-	}
-
-	RuneWing: {
-		DisplayName: Runa de vuelo
-		Tooltip:
-			'''
-			Velocidad horizontal: [A]
-			Multiplicador de aceleración: [B]
-			Excelente velocidad vertial
-			Tiempo de vuelo: [C]
-			Presiona [KEY] para lanzarte en la dirección del cursor. Durante el lanzamiento serás inmmune al daño
-			El enfriamiento viene determinado por la distancia recorrida
-			Soltar el botón antes de tiempo puede finalizar el desplazamiento de forma prematura, con un tiempo máximo de [DT] segundos
 			'''
 	}
 
@@ -2256,6 +2222,7 @@ Items: {
 			{$CommonItemTooltip.SummonTagDamage}
 			{$CommonItemTooltip.Whips}
 			Incrementa la probabilidad de crítico de los súbditos un 10%
+			Los enemigos marcados reciben un 5% más de daño
 			Los críticos de los súbditos infligirán un 100% del daño adicional a 4 enemigos cercanos
 			'''
 	}
@@ -2411,7 +2378,7 @@ Items: {
 			Incrementa el tiempo de invencibilidad un [IM]%
 			Reduce la duración de los debuffos un [DB]%
 			Restaura el tiempo de vuelo al tocar las hitboxes de los enemigos e inflige el debuff Perturbación del alma
-			De vez en cuando, al golpear a los enemigos, libera fragmentos de alma que vuelan hacia ti para curarte y otorgarte armadura de forma temporal
+			De vez en cuando, al golpear, lanza Fragmentos de alma, que vuelan hacia ti para curarte, otorgarte armadura temporal y recuperar maná
 			Aumenta la velocidad de vuelo en [FL]% y el tiempo de vuelo en [FT]%
 			Ralentiza la bajada de estadísticas (armadura, daño, probabilidad de crítico, reducción de daño, regeneración de vida y otros atributos) cuando estas disminuyen
 			Cuanto menor sea tu vida, mayor será tu reducción de daño (hasta un [BE]%)
@@ -2490,17 +2457,6 @@ Items: {
 	StarSootInjector: {
 		DisplayName: Inyector de hollín estelar
 		Tooltip: ""
-	}
-
-	PhantomLightWing: {
-		DisplayName: Alas de luz fantasmal
-		Tooltip:
-			'''
-			Velocidad horizontal: [A]
-			Multiplicador de aceleración: [B]
-			Excelente velocidad vertical
-			Tiempo de vuelo: [C]
-			'''
 	}
 
 	AzafureAntiaircraftGun: {
@@ -2591,7 +2547,7 @@ Items: {
 	}
 
 	ThiefsPocketwatchOfEclipse: {
-		DisplayName: Reloj de bolsillo del ladrón del eclipse
+		DisplayName: Reloj de bolsillo del eclipse
 		Tooltip:
 			'''
 			+[A]% de daño rogue
@@ -2760,7 +2716,7 @@ Items: {
 			Posee los efectos de todos sus materiales
 			Planta hierba bajo tus pies
 			Otorga una reducción de daño del 20% mientras estes pisando hierba
-			+5 HP/s de regeneración de vida por segundo
+			+4 HP/s de regeneración de vida por segundo
 			'''
 	}
 
@@ -2852,7 +2808,7 @@ Items: {
 		Level4:
 			'''
 			Los efectos de Enfermedad de maná y Quemadura de maná se reducen a la mitad.
-			Cada 2 acumulaciones de Manía potenciada otorgan una reducción del daño del 0,05 %.
+			Cada 2 acumulaciones de Manía potenciada otorgan una reducción del daño del 0,03 %.
 			Mejora la regeneración de vida al recibir golpes mientras se regenera maná
 			'''
 		Level5:
@@ -2883,7 +2839,7 @@ Items: {
 
 	FadingRoseateReverie: {
 		DisplayName: Ensueño rosado desvaneciente
-		Tooltip: ""
+		Tooltip: ^La despedida de ayer se ha convertido en un futuro reencuentro
 	}
 
 	BloodstainedShirt: {
@@ -3118,29 +3074,6 @@ Items: {
 			'''
 	}
 
-	BigShotsWing: {
-		DisplayName: Alas del mandamás
-		Tooltip:
-			'''
-			Velocidad horizontal: [A]
-			Multiplicador de aceleración: [B]
-			Velocidad vertical decepcionante
-			Tiempo de vuelo: [C]
-			-90% de tiempo de vuelo si hay algún jefe presente
-			"Ahora tienes la oportunidad de ser un..."
-			'''
-	}
-
-	IceShardWing: {
-		DisplayName: Alas de fragmentos de hielo
-		Tooltip:
-			'''
-			Velocidad horizontal: [A]
-			Multiplicador de aceleración: [B]
-			Velocidad vertical excelente
-			Tiempo de vuelo: [C]
-			'''
-	}
 
 	BookmarkSulphurous: {
 		DisplayName: Marcapáginas - Sulfúreo
@@ -3364,7 +3297,7 @@ Items: {
 		DisplayName: Soporte exquisito para marcapáginas
 		Tooltip:
 			'''
-			+[S]% de velocidad de ataque mágico
+			+[S]% de magia crítica
 			Proporciona una ranura adicional para los libros de entropía.
 			"Un soporte exisito con un sombrero mágico en la parte superior".
 			Vendido por el comerciante ambulante
@@ -3376,7 +3309,7 @@ Items: {
 		Tooltip:
 			'''
 			+[D]% de daño mágico
-			+[S]%  de velocidad de ataque mágico
+			+[S]% de magia crítica
 			Proporciona 2 ranuras adicionales para los libros de entropía
 			"Un soporte con un brillo divino,
 			que permite sujetar fácilmente los marcapáginas"
@@ -3714,7 +3647,7 @@ Items: {
 			'''
 			Aumenta el daño de invocación en un 8%
 			Tendrá +2 de defensa por cada espacio de súbditos
-			El aumento máximo es de 20
+			El aumento máximo es de 12
 			'''
 	}
 
@@ -3794,7 +3727,6 @@ Items: {
 			'''
 			{$CommonItemTooltip.SummonTagDamage}
 			{$CommonItemTooltip.Whips}
-			Proporciona un 5% de probabilidad de crítico a los súbditos
 			Los enemigos golpeados por los súbditos generarán una pica que infligirá daño a los enemigos con los que colisione
 			'''
 	}
@@ -3814,9 +3746,9 @@ Items: {
 		DisplayName: Talismán del abismo celeste
 		Tooltip:
 			'''
-			Ahora puedes respirar en el abismo
-			Aumenta el daño en un 15%
-			Aumenta la regeneración de vida en 4/s
+			Ahora puedes respirar en el abismo y te hace inmmune a Presión hadopelágica y Profundidad de aplastamiento
+			Aumenta el daño y la velocidad de ataque en un 15%
+			Aumenta la regeneración de vida en 2.5/s
 			Cuando recibas un daño superior al 35% de tu salud máxima, aparecerá un escudo azul
 			El escudo azul reducirá el daño que recibas en un 25%
 			Genera varios vórtices azules que perseguirán a los enemigos
@@ -3855,20 +3787,6 @@ Items: {
 			+7% de daño por cada proyectil adherido
 			Provoca más daño al adherirse
 			'''
-	}
-
-	Accessories: {
-		Wings: {
-			FlowingLight: {
-				DisplayName: Luz fluida
-				Tooltip:
-					'''
-					Mantén pulsado ↓ mientras vuelas para quedarte suspendido en el aire
-					Mantén pulsado ↓ para acelerar el descenso
-					$"Alcanzar la cima de la perfección"
-					'''
-			}
-		}
 	}
 
 Neltharion: {
@@ -3959,7 +3877,7 @@ Neltharion: {
 			+[5] de salud máxima
 			Aumenta el daño de los debuffos que infliges en un [4]%
 			Hay una posibilidad de aplicar un debuffo a los enemigos en función de tu progreso tras golpearlos
-			Level - [L]/7
+			Nivel - [L][ML]
 			'''
 	}
 
@@ -4048,12 +3966,39 @@ Neltharion: {
 			El núcleo de ceniza lanzará bolas de fuego a los enemigos cercanos
 			'''
 	}
+
+	Fuusen: {
+		DisplayName: Fuusen
+		Tooltip: ""
+	}
+
+	Ratziel: {
+		DisplayName: Ratziel
+		Tooltip:
+			'''
+			Invoca a un centinela para que ataque a los enemigos que se encuentren dentro de su alcance.
+			Este te proporcionará un escudo capaz de absorber daño.
+			A medida que aumenta el nivel, también lo hacen el daño, el alcance y la resistencia del escudo.
+			El ataque infligirá si o si un golpe crítico,
+			pero solo se aplicará el 50% del daño crítico.
+			Por cada ranura de súbdito que tengas, el daño crítico aumentará un 5%.
+			Además, en función del número de espacios de súbditos,
+			tu defensa y tu porcentaje de reducción de daño aumentarán.
+			Nivel: [LV] / [LVMAX]
+			'''
+	}
+
+	AzafureSupportRemote: {
+		DisplayName: Azafure Support Remote
+		Tooltip: Summon a combat drone, shooting armor-piercing shell to enemies
+	}
 }
 
 SmolderingSetBonus:
 	'''
 	Convoca una cola llameante que ataca a los enemigos cercanos
 	+1 de mSmolderinginion máximo
+	+80 sigilo de rogue
 	'''
 ChaoticSetBonus:
 	'''
@@ -4760,6 +4705,12 @@ Projectiles: {
 	ScorchingFireballMagic.DisplayName: Scorching Fireball
 	CinderMinion.DisplayName: Cinder Core
 	MinionCinderFireball.DisplayName: Cinder Fireball
+	GRainbowRocket.DisplayName: G Rainbow Rocket
+	RatzielSentry.DisplayName: Ratziel Sentry
+	AzafureCombatDrone.DisplayName: Azafure Combat Drone
+	CombatDroneBullet.DisplayName: Combat Drone Bullet
+	EmberFireball.DisplayName: Ember Fireball
+	GhostFireMagic.DisplayName: Ghost Fire Magic
 }
 
 LegendTooltip: - Legendario -
@@ -5148,6 +5099,11 @@ Buffs: {
 		DisplayName: Núcleo de ceniza
 		Description: Un Núcleo de ceniza luchará por tí
 	}
+
+	CombatDrone: {
+		DisplayName: Dron de combate
+		Description: En su día se utilizó en guerras a gran escala
+	}
 }
 
 Uh: ""
@@ -5482,9 +5438,15 @@ Configs: {
 			Label: Borra el sigilo al cambiar de equipamiento
 			Tooltip: ""
 		}
+
 		ExtraItemsInStarterBag: {
 			Label: Ítems adicionales en la bolsa de inicio
 			Tooltip: La bolsa de inicio proporciona objetos útiles adicionales
+		}
+
+		RogueAccessoriesProvide40Stealth: {
+			Label: Los accesorios de Rogue proporcionan 40 de sigilo
+			Tooltip: Si no llevas armaduras de rougue y te has equipado algún accesorio de rogue, tendrás al menos 40 de sigilo.
 		}
 	}
 }
@@ -5646,8 +5608,8 @@ ArmorPrefixLastStandDescription:
 ArmorPrefixHeatDeathName: Muerte térmica
 ArmorPrefixHeatDeathDescription:
 	'''
-	+50% de defensa
-	Multiplica tu daño en 1.5
+	+15% de defensa
+	Multiplica tu daño en 1.15
 	[c/ff0000:Tus ataques aplicarán muerte térmica pero tu salud continuará dereriorándose]
 	'''
 ArmorPrefixArmorPrefixEchoName: Eco
@@ -5694,9 +5656,18 @@ IsaacLock: No puedes equiparte esto antes de haber jugado a The Binding of Isaac
 PWSpawnInfo: Entra en el Abismo con el debuff Estado de caos
 CdAS: Enfriamiento de Anima Sola
 XythCharge: Carga de Xytheron 
-KilledByVoidVirus1: "Solo queda la nihilidad en "
-KilledByVoidVirus2: ""
-KilledByAstral: " completamente erosionado por la luz de las estrellas"
+KilledByVoidVirus1: En la sangre de {0} solo queda la nada
+KilledByAstral0: "{0} fue completamente erosionado por la luz de las estrellas".
+KilledByAstral1: "{0} contempló la miríada de estrellas, y sus ojos se fueron empañando poco a poco"
+KilledByAstral2: "{0} reza al cielo, mientras la carne y la sangre se desvanecen poco a poco."
+KilledByAstral3: "{0} volvió en sí y se encontró en el cielo estrellado."
+KilledByAstral4: "{0} suplicó perdón, pero no podía moverse."
+KilledByAstral5: "{0} debería morir."
+KilledByAstral6: "{0} se convirtió en el sucesor."
+KilledByAstral7:¿Cuándo empezó {0} a ser él mismo?
+KilledByAstral8: "Los restos de {0} flotaron hacia la superficie, dando la bienvenida a su fin"
+KilledByAstral9: "{0} se transformó en destellos de luz estelar"
+Death: "{0} fue asesinado"
 CdFF: Enfriamiento del Buscador de amigos
 TooltipBookMark: Pueden colocarse en los libros de la entropía
 TooltipBookMark2: Utilicza clic derecho para insertar o sacar rápidamente
@@ -5738,9 +5709,10 @@ AmmoBloodrune: Runa de sangre
 AmmoStarblightSoot: Hollín de plaga de estrellas
 AmmoType: Tipo de munición
 AmmoMissile: Misil
+AmmoSouls: Almas
 UseAmmo: Munición que usa
-OrbPunishDeath0: hecho añicos
-OrbPunishDeath1: intentó quitar el orbe vaticinador destrozado
+OrbPunishDeath0: "{0} se hizo añicos"
+OrbPunishDeath1: "{0}, intenta retirar el orbe vaticinador destrozado"
 RuneDashCD: Enfriamiento de la embestida de la runa
 ArmorPenetrationItemTooltip: Penetración de armadura
 AmmoLifeTime: Tiempo de la bala en el mapa
@@ -5752,7 +5724,7 @@ PrefixVigorousDescr: +15% de regeneración de sigilo
 WikiURL: https://terrariamods.wiki.gg/wiki/Calamity_Entropy/
 GameTips.VoidOreTip: El mineral del vacío aparecerá en lo alto del firmamento tras derrotar al Cruiser
 LoreAwakeningDesc: Aumenta ligeramente la velocidad de movimiento y la altura al saltar
-LoreKingSlimeDesc: Aumenta la altura del salto, pero reduce la velocidad de movimiento
+LoreKingSlimeDesc: Aumenta la altura de salto
 LoreDesertScourgeDesc: Aumenta el tiempo que puedes aguantar sin respirar bajo el agua
 LoreCrimsonDesc: +{1} de vida máxima
 LoreCrabulonDesc: Obtienes Pulposo cada {1} segundos al recibir daño
@@ -5812,7 +5784,7 @@ DraedonDialogs: {
 
 SlotInfo2: Insertar ítem
 LightModeTip: Aviso: Otros tipos de iluminación harán que algunos proyectiles y NPCs de Calamity Entropy se vuelvan invisibles.Es mejor utilizar el modo color.
-KilledByBloodBoiling: "'s blood is boiling"
+KilledByBloodBoiling: "{0} está que echa humo"
 BloodBoiling: Sangre hirviendo
 BloodBoilingDescr: El uso continuo de objetos aumenta la velocidad de ataque, pero te causará daño continuo a ti mismo
 PrefixHeavyDesc: +10% de velocidad de caída
@@ -5865,8 +5837,8 @@ SolarBarInfo:
 RPDonorName: 冷级
 Acropolis: ""
 OblivionThretherCooldown: Enfriamiento del Segador del olvido
-LilyDeath0: " fue devorado por la inmundicia"
-LilyDeath1: "'s protective treasure is broken"
+LilyDeath0: "{0} fue devorado por la inmundicia"
+LilyDeath1: "El tesoro protector de {0} está roto"
 TheVoid: El Vacío
 
 Biomes: {
@@ -6063,7 +6035,10 @@ Test: {
 
 AnyOrichalcumBar: Cualquier lingote de mineral del modo difícil
 AnyEvilBar: Cualquier lingote maligno
+IronBar: Lingote de hierro
 AnyFairy: Cualquier hada
+Gems: Gemas
+Butterflies: Mariposas
 BCBarInfo: Barra de zarzas (Presiona [mouse middle] para arrastrar)
 HallowedEnemiesDrop: Lo sueltan los enemigos del bioma sagrado subterráneo
 EvilEnemiesDrop: Lo sueltan los enemigos del los biomas malignos subterráneos
@@ -6149,6 +6124,8 @@ AzafureEnhances: {
 		El escudo tomará un 20% del daño que recibas.
 		Aumenta la velocidad de regeneración del escudo
 		'''
+	AzafureSupportRemote: Aumenta la velocidad de ataque
+	MottledSpear: Aumenta la velocidad del gancho
 }
 
 Menu: {
@@ -6175,7 +6152,5 @@ Luminariswarm: Luminariswarm
 MinionAccDescCrownFangs: Al equiparlo con [ITEM]: +1 de espacio de súbditos
 NonZenithWorld: No en el mundo Cénit
 ZenithWorld: En un mundo cénit
-
-
-
+RatizelShield: Escudo de Ratizel
 
