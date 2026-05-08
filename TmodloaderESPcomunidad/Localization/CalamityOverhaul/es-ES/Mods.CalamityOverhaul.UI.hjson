@@ -99,7 +99,7 @@ Generator: {
 		StatusLabel: Estado:
 		ActiveText: Activo
 		IdleText: Inactivo
-		EfficiencyText: Eficiencia: {0}%
+		EfficiencyText: "Eficiencia: {0}%"
 		InsertFuelHint: Clic para insertar/extraer combustible
 		TemperatureUnit: °C
 		PowerUnit: UE
@@ -302,7 +302,7 @@ MartyrdomBarUI: {
 	SlotLabel_10: Si
 	SlotLabel_11: Ju
 	RevelationJudgingText: Apocalipsis los tres últimos sellos en curso
-	RevelationStatusText: Jinetes del Apocalipsis {0}/4 Q:Meteorito R:Jucio
+	RevelationStatusText: "Jinetes del Apocalipsis {0}/4 Q:Meteorito R:Jucio"
 	RevelationReadyText: Pulsa Q — Revelación lista
 	MartyrdomPowerText: Martirio {0}/11
 }
@@ -418,8 +418,8 @@ QuestManagerUI: {
 	SuspendHintText: "[TClic central] Pausar/Reanudar"
 	OpenHintText: Pulsa [L] para abrir el Administrador de tareas
 	HeaderStatusTag: ◈ AVTIVO
-	FooterStatsFormat: TOTAL: {0}  |  ACTIVE: {1}
-	ExpandHintText: [Clic izquierdo] Mostrar/ocultar detalles"
+	FooterStatsFormat: "TOTAL: {0}  |  ACTIVE: {1}"
+	ExpandHintText: "[Clic izquierdo] Mostrar/ocultar detalles"
 	EntryStatusActive: En curso
 	EntryStatusTracked: Ya sigues
 	EntryStatusSuspended: Suspendido
@@ -498,11 +498,11 @@ HackTime: {
 	SystemOnline: SISTEMAS ONLINE
 	MemoryWiped: ???
 	Cyberpsychosis: CIBERPSICOSIS
-	RamRefund: +{0} RAM
+	RamRefund: "+{0} RAM"
 	ActiveText: ACTIVO
-	ActivePct: ACTIVO {0}%
+	ActivePct: "ACTIVO {0}%"
 	Complete: COMPLETADO
-	UploadingPct: CARGANDO {0}%
+	UploadingPct: "CARGANDO {0}%"
 	CatLethal: LETAL
 	CatControl: CONTROL
 	CatCovert: ENCUBIERTO
@@ -647,8 +647,8 @@ DecryptionStrings: {
 	DecryptionPanelSubtitleBreaching: Se está produciendo una intrusión
 	DecryptionPanelSubtitleDataFlood: Inyección de datos masivos
 	DecryptionPanelSubtitleMessage: Reproducción de la señal descodificada
-	DecryptionPanelTerminalId: TERM-ID ▸ {0}
-	DecryptionPanelCoordinate: ΔPOS ▸ {0}, {1}
+	DecryptionPanelTerminalId: "TERM-ID ▸ {0}"
+	DecryptionPanelCoordinate: "ΔPOS ▸ {0}, {1}"
 	DecryptionPanelSignalLock: Intensidad de la señal
 	DecryptionPanelSignalLockValue: "{0}%"
 	DecryptionPanelFooter: "[ESC] Desconectar    [Left Click] Interactuar   [?] Ayuda"
@@ -662,23 +662,23 @@ DecryptionStrings: {
 	DecryptionPanelStatusBreaching: ENTRANDO
 	DecryptionPanelStatusDataFlood: INYECTANDO
 	DecryptionPanelStatusMessage: DESCIFRADO
-	BreachBuffer: Buffer {0}/{1}
+	BreachBuffer: "Buffer {0}/{1}"
 	BreachTargets: Secuencia objetivo
 	BreachTimer:  Tiempo restante
-	BreachAxisRow: Restricción de fila ▸ Fila {0}
-	BreachAxisCol: Restricción de columna ▸ Columna {0}
-	BreachCooldown: Restablecimiento del protocolo en {0:0.0}s
-	BreachAttempt: Intento #{0}
+	BreachAxisRow: "Restricción de fila ▸ Fila {0}"
+	BreachAxisCol: "Restricción de columna ▸ Columna {0}"
+	BreachCooldown: "Restablecimiento del protocolo en {0:0.0}s"
+	BreachAttempt: "Intento #{0}"
 	BreachRestart: ⟳ Reintentar
 }
 
 MessageStrings: {
-	MsgHeader: ── Fragmento interceptado ▸ OrigEN 0x{0} / {1} ──
+	MsgHeader: "── Fragmento interceptado ▸ OrigEN 0x{0} / {1} ──"
 	MsgSrcSystem: SYS
 	MsgSrcSignal: SIG
 	MsgSrcArchive: ARC
 	MsgFragment: FRAGMENTO
-	MsgSignature: SEÑAL   ▸ {0}
+	MsgSignature: "SEÑAL   ▸ {0}"
 	MsgBody0: Terminal accedido. Coincidencia de la clave de verificación del 98,4%.
 	MsgBody1: ...Las señales de pulso sin etiquetar permanecen dentro del campo estático.
 	MsgBody2: Las desviaciones de coordenadas apuntan a ecos profundos del núcleo en colapso.
@@ -750,8 +750,8 @@ SHPCUI: {
 	Cyber_Skill_Freeze_Name: CONGELACIÓN DEL DOMINIO
 	Cyber_Skill_Freeze_Desc: Inmoviliza a todas las entidades hostiles que se encuentren dentro del dominio.
 	Cyber_DrainHeader: AGOTAMIENTO DE RAM
-	Cyber_DrainPerSec: -{0}/s
-	Cyber_SustainTime: SOSTENIBILIDAD ~{0}s
+	Cyber_DrainPerSec: "-{0}/s"
+	Cyber_SustainTime: "SOSTENIBILIDAD ~{0}s"
 	Cyber_SustainInfinite: SOSTENIBILIDAD ∞
 	Modify_Title: MODIFICAR
 	Modify_Subtitle: Mejoras para armas
@@ -762,8 +762,8 @@ SHPCUI: {
 	Modify_Equipped: EQUIPADO
 	Modify_NoMatch: No hay módulos compatibles en el inventario
 	Modify_Close: CERRADO
-	Modify_InstallSlot: INSTALAR · {0}
-	Modify_Current: ACTUAL: {0}
+	Modify_InstallSlot: "INSTALAR · {0}"
+	Modify_Current: "ACTUAL: {0}"
 	Modify_Slot_Barrel: CAÑÓN
 	Modify_Slot_Optic: OPTIÓ
 	Modify_Slot_Power: PODER
@@ -783,9 +783,9 @@ SHPCUI: {
 }
 
 EntrustManagerLead: {
-	TextKeyPromptBound: Presiona [{0}] para abrir el panel del encargo
+	TextKeyPromptBound: "Presiona [{0}] para abrir el panel del encargo"
 	TextKeyPromptWarnTitle: ⚠  ¡Tecla de Encargo sin asignar!
-	TextKeyPromptDefaultKey: Presiona [{0}] (Default Key) para abrir el panel de encargos
+	TextKeyPromptDefaultKey: "Presiona [{0}] (Default Key) para abrir el panel de encargos"
 	TextKeyPromptBindHint: Se recomienda asignar una tecla personalizada en Ajustes → Controles
 	TextKeyPromptConfirmBtn: Entendido
 	TextPanelIntroTitle: Instrucciones del encargo
