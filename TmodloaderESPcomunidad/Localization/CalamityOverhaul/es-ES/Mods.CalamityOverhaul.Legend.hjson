@@ -446,12 +446,12 @@ SHPCTrialQuestLine: {
 }
 
 SHPCModuleStat: {
-	AttackSpeed: "{0}% DE VELOCIDAD DE ATQ"
+	AttackSpeed: "{0}% DE VELOCIDAD DE ATAQUE"
 	Damage: "{0}% DE DAÑO"
-	Spread: "{0}% DE MARGEN"
-	BeamSpeed: "{0}% DE VELOCIDAD DEL RAYO"
+	Spread: "{0}% DE PROPAGACIÓN"
+	BeamSpeed: "{0}% DE VELOCIDAD DE RAYO"
 	Homing: "{0}% DE GUIADO"
-	MergedDamage: "{0}% DE DAÑO FUSIONADO"
+	MergedDamage: "{0}% DE DAÑO COMBINADO"
 	ManaCost: "{0}% DE COSTE DE MANÁ"
 	ChargeTime: "{0}% DE TIEMPO DE CARGA"
 	OrbSpeed: "{0}% DE VELOCIDAD DEL ORBE"
@@ -463,23 +463,22 @@ SHPCModuleStat: {
 	Chain: "{0} SALTOS EN CADENA"
 	Split: "{0} RAYOS DIVIDIDOS"
 	Minions: "{0} ORBES BUSCADORES DETONADOS"
-	MergeBeams: +MERGE 3 RAYOS EN 1
-	BeamExplodeOnHit: +BEAMS CON MICROPULSOS DETONADOS AL INPACTAR
-	OrbDrainAura: +ORB ENEMIGOS SUCCIONADOS DURANTE LA RECARGA
+	MergeBeams: +MAYOR COMBINACIÓN DE 3 RAYOS EN 1
+	BeamExplodeOnHit: +RAYOS CON MICROPULSOS DETONADOS AL INPACTAR
+	OrbDrainAura: +ORBES SUCCIONARÁN A LOS ENEMIGOS MIENTRAS LO CARGAS
 	OrbExplosionPropels: +ORB COHETES DETONADOS QUE TE LANZARON POR LOS AIRES
-	LaserMode: +PRISM LASER MODE: LMB dispara un haz láser que sigue el movimiento del cursor
-	LaserScorchOnHit: +LASER HAN INCENDIADO ENEMIGOS
-	LaserPulse: +LASER HA DETONADO HACES DE RAYOS EN SU EXTREMO
-	OrbFlyingAttract: +ORB SE HAN LANZADO HACIA UN ENEMIGO CERCANO
-}
+	LaserMode: +MODO LÁSER PRISMÁTICO: Hacer clic izquierdo disparará un haz láser que sigue el movimiento del cursor
+	LaserScorchOnHit: +MÁS LÁSERES INCENDIAN A LOS ENEMIGOS
+	LaserPulse: +DETONACIONES DEL LÁSER EN SU EXTREMO
+	OrbFlyingAttract: +ORBES DE LANZARÁN A LOS ENEMIGOS CERCANOS
 
 SHPCSlotTag: Módulo SHPC · {0}
 
 SHPCSlotName: {
 	Barrel: Ranura del cañón
 	Optic: Ranura óptica
-	Power: Ranura de núcleo
-	Stock: Ranura de culata
-	Grip: Ranura de agarre
-	Frame: Ranura de marco
+	Power: Ranura deL núcleo
+	Stock: Ranura de LA culata
+	Grip: Ranura del agarre
+	Frame: Ranura del marco
 }
