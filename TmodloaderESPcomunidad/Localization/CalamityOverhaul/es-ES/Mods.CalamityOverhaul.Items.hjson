@@ -1691,7 +1691,7 @@ FocusBarrelModule: {
 }
 
 PrecisionOpticModule: {
-	DisplayName: Óptica de precisión
+	DisplayName: Visor de precisión
 	Tooltip: La puntería asistida por láser elimina toda la dispersión y otorga una probabilidad adicional de golpe crítico
 }
 
@@ -1716,7 +1716,7 @@ ResonanceFrameModule: {
 }
 
 AdaptiveOpticModule: {
-	DisplayName: Óptica adaptativa
+	DisplayName: Visor adaptativo
 	Tooltip: Los algoritmos de Neural-link corrigen continuamente la trayectoria, fijando cada haz con mayor precisión sobre su objetivo
 }
 
@@ -1756,7 +1756,7 @@ HighVoltageCoreModule: {
 }
 
 HoloOpticModule: {
-	DisplayName: Holo Óptica
+	DisplayName: Visor holográfico
 	Tooltip: La retícula holográfica fija el punto de impacto, reduciendo la dispersión y acelerando el disparo con un ligero sobrecalentamiento de maná
 }
 
@@ -1796,7 +1796,7 @@ ScattershotBarrelModule: {
 }
 
 ThermalOpticModule: {
-	DisplayName: Óptica térmica
+	DisplayName: Visor térmico
 	Tooltip: El bloqueo por infrarrojos hace que los rayos se adhieran a su objetivo, lo que potencia tanto la precisión como las bonificaciones por golpes críticos
 }
 
@@ -1815,7 +1815,7 @@ NovaBarrelModule: {
 }
 
 PrismOpticModule: {
-	DisplayName: Prisma óptico
+	DisplayName: Visor prismático
 	Tooltip:
 		'''
 		Un prisma de fase situado al final de la trayectoria óptica divide cada haz en dos ramificaciones al salir
@@ -1893,7 +1893,7 @@ ReflectionBarrelModule: {
 }
 
 EchoOpticModule: {
-	DisplayName: Eco óptico
+	DisplayName: Visor eco
 	Tooltip:
 		'''
 		Un elemento resonante situado al final del recorrido capta el eco de energía cuando un haz se extingue
@@ -1902,7 +1902,7 @@ EchoOpticModule: {
 }
 
 FrostOpticModule: {
-	DisplayName: Óptica de escarcha
+	DisplayName: Visor escarchado
 	Tooltip:
 		'''
 		Una lente de enfoque criogénico inflige Quemadura por escarcha a los objetivos alcanzados
@@ -2000,7 +2000,7 @@ HelixBarrelModule: {
 	DisplayName: Cañón en espiral
 	Tooltip:
 		'''
-		La óptica de doble canal hace que dos rayos giren en espiral alrededor de un eje común
+		El visor de doble canal hace que dos rayos giren en espiral alrededor de un eje común
         La dispersión se reduce a cero; provoca un daño leve y una ligera penalización de velocidad; ofrece una gran sinergia con configuraciones de alta penetración
 		'''
 }
@@ -2015,7 +2015,7 @@ TargetPainterOpticModule: {
 }
 
 StrobeOpticModule: {
-	DisplayName: Óptica estroboscópica
+	DisplayName: Visor estroboscópico
 	Tooltip:
 		'''
 		Un modulador de cambio de fase alterna rápidamente el haz entre los estados de penetración de paredes y el estado sólido
@@ -2024,7 +2024,7 @@ StrobeOpticModule: {
 }
 
 SniperOpticModule: {
-	DisplayName: Optica de francotirador
+	DisplayName: Visor de francotirador
 	Tooltip:
 		'''
 		Los colimadores magnéticos aumentan considerablemente la velocidad, el alcance y el daño por impacto de los proyectiles
@@ -2071,7 +2071,7 @@ ExtenderStockModule: {
 	Tooltip:
 		'''
 		Un riel ampliado proporciona a los rayos mayor alcance y velocidad de vuelo con un coste de daño mínimo
-        Combínalo con la Óptica de francotirador para obtener una cobertura de largo alcance extrema
+        Combínalo con el Visor de francotirador para obtener una cobertura de largo alcance extrema
 		'''
 }
 
@@ -2166,7 +2166,7 @@ ConcussionBarrelModule: {
 }
 
 CrosslinkOpticModule: {
-	DisplayName: Enlace cruzado óptico
+	DisplayName: Visor entrecruzado
 	Tooltip:
 		'''
 		Al impactar, una unidad de enlace neural establece una conexión de datos entre el objetivo alcanzado y el enemigo más cercano
@@ -2175,7 +2175,7 @@ CrosslinkOpticModule: {
 }
 
 ZoomOpticModule: {
-	DisplayName: Zoom óptico
+	DisplayName: Visor de enfoque
 	Tooltip:
 		'''
 		Una lente magnética de largo alcance impulsa los rayos con mayor velocidad y alcance, a costa de la velocidad de seguimiento y de ataque
@@ -2184,7 +2184,7 @@ ZoomOpticModule: {
 }
 
 PingOpticModule: {
-	DisplayName: Silbido óptico
+	DisplayName: Visor de ping
 	Tooltip:
 		'''
 		El sistema Pintor de objetivos imprime la Marca de la muerte en cada objetivo alcanzado, lo que amplifica todo el daño recibido
