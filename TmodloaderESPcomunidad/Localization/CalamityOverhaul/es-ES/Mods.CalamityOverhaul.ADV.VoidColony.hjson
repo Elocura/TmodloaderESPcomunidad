@@ -1,44 +1,44 @@
 VoidTimeShiftLead: {
-	TextTitle: Void Time Invasion
-	TextBound: Press [{0}] to shift between the present and the past
-	TextUnboundWarn: ⚠  Time Invasion key is not bound!
-	TextUnboundDefault: Currently press [{0}] (default key) to perform a time invasion
-	TextBindHint: Consider binding a custom key in  Settings → Controls
-	TextConfirm: Got it
+	TextTitle: Invasión del tiempo del vacío
+	TextBound: Presiona [{0}] para alternar entre el presente y el pasado
+	TextUnboundWarn: ⚠  ¡La tecla para la invasión del tiempo no está asignada!
+	TextUnboundDefault:  Pulsa ahora [{0}] (default key) para realizar una invasión temporal
+	TextBindHint: Es recomendable que configures una tecla personalizada en  Ajustes → Controles
+	TextConfirm: Entendido
 }
 
 MessageStrings: {
-	MsgHeader: ── Intercepted Fragment ▸ Origin 0x{0} / {1} ──
-	MsgSrcSystem: SYS
-	MsgSrcSignal: SIG
-	MsgSrcArchive: ARC
-	MsgFragment: FRAGMENT
-	MsgSignature: SIGN   ▸ {0}
-	MsgBody0: Terminal accessed. Verification key match at 98.4%.
-	MsgBody1: ...Unlabeled pulse signals remain within the static.
-	MsgBody2: Coordinate offsets point to deep echoes of the collapsing core.
-	MsgBody3: This node is marked as ██CLASSIFIED██, related fragments have been sealed.
-	MsgBody4: The next protocol window will be triggered by your actions.
-	MsgSkipHint: "[Space/Left Click] Skip text animation"
-	MsgCloseHint: "[Space/ESC] Disconnect"
-	MsgAccess: Access: Draedon
-	MsgStatus: Status: Partially Decrypted
+	MsgHeader: ── Fragmento interceptado ▸ Origen 0x{0} / {1} ──
+	MsgSrcSystem: SISTEMA
+	MsgSrcSignal: SEÑAL
+	MsgSrcArchive: ARCHIVO
+	MsgFragment: FRAGMENTO
+	MsgSignature: SEÑAL   ▸ {0}
+	MsgBody0: Se ha accedido al terminal. La coincidencia de la clave de verificación es del 98,4 %.
+	MsgBody1: ...Las señales de pulso sin marcar permanecen dentro del ruido estático.
+	MsgBody2: Las desviaciones de coordenadas apuntan a ecos profundos del núcleo en colapso.
+	MsgBody3: Este nodo está marcado como ██CLASIFICADO██, Se han sellado los fragmentos correspondientes.
+	MsgBody4: La siguiente ventana del protocolo se activará en función de tus acciones.
+	MsgSkipHint: "[Espacio/Clic izquierdo] Saltar la animación del texto"
+	MsgCloseHint: "[Espacio/ESC] Desconectar"
+	MsgAccess: Acceso: Draedon
+	MsgStatus: Status: Descifrado parcialmente
 	MsgRec01Title: "[Log-01]"
-	MsgRec01_0: The Great Shriek. Unresolvable wavelengths, as if the entire universe were screaming.
-	MsgRec01_1: Spatial curvature permanently locked. Warp engines completely scrapped. Forced jumps only result in the disintegration of material structures.
-	MsgRec01_2: The end of conventional interstellar travel. Collapse of the old unified physics model.
+	MsgRec01_0: El Gran Grito. Longitudes de onda irresolubles, como si todo el universo estuviera gritando.
+	MsgRec01_1: La curvatura espacial está bloqueada de forma permanente. Los motores de distorsión han sido desmantelados por completo. Los saltos forzados solo provocan la desintegración de las estructuras materiales.
+	MsgRec01_2: El fin de los viajes interestelares convencionales. El colapso del antiguo modelo unificado de la física.
 	MsgRec02Title: "[Log-02]"
-	MsgRec02_0: After 73,000 destroyed probes, the current Void coordinates have been locked.
-	MsgRec02_1: Established Base Zero. Deployed supporting industrial clusters.
-	MsgRec02_2: The barrier of reality here has been stretched to its limit, allowing for direct visual observation of that chaotic subspace storm.
-	MsgRec02_3: A perfect observation point.
+	MsgRec02_0: Tras la destrucción de 73.000 sondas, se han fijado las coordenadas actuales del Vacío.
+	MsgRec02_1: Se ha establecido la Base Cero. Se han puesto en marcha los clústeres industriales de apoyo.
+	MsgRec02_2: La barrera de la realidad se ha extendido hasta sus límites, lo que permite la observación visual directa de esa caótica tormenta subespacial.
+	MsgRec02_3: Es un mirador perfecto.
 	MsgRec03Title: "[Log-03]"
-	MsgRec03_0: The storm is leaking.
-	MsgRec03_1: Physics abdicates. Absolute metaphysical rules have begun taking over this industrial sector.
-	MsgRec03_2: Timelines are overlapping. Corpses, echoes of the past, and subspace energy are beginning to fuse.
-	MsgRec03_3: Bizarre anomalies are now frequently observed within the industrial sector.
+	MsgRec03_0: La tormenta está filtrándose.
+	MsgRec03_1: La física se retira. Las reglas metafísicas absolutas han comenzado a imponerse en este sector industrial.
+	MsgRec03_2: Las líneas temporales se solapan. Los cadáveres, los ecos del pasado y la energía subespacial están empezando a fusionarse.
+	MsgRec03_3: En la actualidad se observan con frecuencia anomalías extrañas en el sector industrial.
 	MsgRec04Title: "[Log-04]"
-	MsgRec04_0: Purging these paranormal entities is futile; they cannot be killed. They will be left as an outer barrier for the base.
-	MsgRec04_1: If this log is triggered, it means I have abandoned this place, and all channels to the outside world have been closed.
-	MsgRec04_2: Latecomer, find your own opportunities within the patterns of those foul things.
+	MsgRec04_0: Expulsar a estas entidades paranormales es inútil; no se les puede matar. Se mantendrán como una barrera exterior para la base.
+	MsgRec04_1: Si se activa este mensaje, significa que he abandonado este lugar y que se han cortado todas las comunicaciones con el mundo exterior.
+	MsgRec04_2: Tú, que llegaste tarde, encuentra tu oportunidad entre los patrones de esas cosas repugnantes.
 }
