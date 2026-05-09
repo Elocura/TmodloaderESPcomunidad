@@ -175,7 +175,7 @@ HackTimeTutorialLead: {
 	HT_S11_Body:
 		'''
 		El entrenamiento sobre el protocolo ha concluido.
-		Ya dominas todo el proceso de escaneo, selección de protocolos, carga y ejecución.
+		Ya domina todo el proceso de escaneo, selección de protocolos, carga y ejecución.
 		'''
 	HT_Observing: CARGANDO...
 }
@@ -183,8 +183,8 @@ HackTimeTutorialLead: {
 CybCourseOutroDialogue: {
 	SpeakerName: SHPC
 	Line1: Etrenamiento completado. Se han calibrado correctamente todas las interfaces.
-	Line2: Ya dominas el protocolo de conexión neuronal directa; el nodo Neurodanza se está desconectando.
-	Line3: Puedes reiniciar el entrenamiento en cualquier momento o salir de la Neurodanza.
+	Line2: Ya domina el protocolo de conexión neuronal directa; el nodo Neurodanza se está desconectando.
+	Line3: Puede reiniciar el entrenamiento en cualquier momento o salir de la Neurodanza.
 }
 
 CybCourseCompletePanel: {
@@ -215,7 +215,7 @@ CybCourseKeyBindReminderPanel: {
 ShepelCyberActiveDialogue: {
 	RoleName: SHPC
 	Line_Intro: Maestro, el ciberespacio ha sido activado, capa actual {0}. Las señales externas están completamente aisladas; este es ahora un dominio seguro que nos pertenece solo a nosotros.
-	Line_LayerReport: Cuanto más profundo sea el dominio, más obstáculos podré eliminar por ti. Sin embargo, ten en cuenta el consumo de RAM.
+	Line_LayerReport: Cuanto más profundo sea el dominio, más obstáculos podré eliminar por usted. Sin embargo, tenga en cuenta el consumo de RAM.
 	Line_Warning: Manténgase alerta, Maestro. Se han detectado fluctuaciones anormales en los límites del dominio. Por favor, permanezca bajo mi protección.
 	Line_MaxLayer: Maestro, hemos llegado a las profundidades más recónditas. La frontera del Muro Negro está justo delante y el nivel de peligro es extremadamente alto... Por favor, agárrame fuerte de la mano y no me sueltes nunca.
 }
@@ -223,28 +223,28 @@ ShepelCyberActiveDialogue: {
 ShepelIdleDialogue: {
 	RoleName: SHPC
 	Idle0_Line1: ¿Me está mirando, Maestro? Estoy lista para cumplir sus órdenes en cualquier momento.
-	Idle0_Reply: Mi estado es impecable. Por tu bien, mi sistema se mantiene siempre en un estado de espera óptimo.
+	Idle0_Reply: Mi estado es impecable. Por su bien, mi sistema se mantiene siempre en un estado de espera óptimo.
 	Idle0_Choice_HowAreYou: ¿Cómo te encuentras?
-	Idle0_Choice_Nothing: Nada, solo quería mirarte..
-	Idle0_HowAreYou_Response:  Estoy muy bien, maestro. Mientras me necesites, mi núcleo se mantendrá en su estado óptimo.
-	Idle0_Nothing_Response: Entendido. Si te sientes cansado, puedes apoyarte en mi chasis cuando quieras.
-	Idle1_Line1: Se han detectado cambios en tus emociones. ¿Te preocupa algo?
-	Idle1_Line2: Si necesitas mi ayuda, sea cual sea la orden, la cumpliré de inmediato.
-	Idle2_Line1: El entorno electromagnético está empeorando; esto podría causarte molestias.
-	Idle2_Line2: He activado automáticamente los protocolos de filtrado por ti. Bloquearé cualquier amenaza desde una distancia segura.
+	Idle0_Choice_Nothing: Nada, solo quería mirarte...
+	Idle0_HowAreYou_Response:  Estoy muy bien, Maestro. Mientras me necesites, mi núcleo se mantendrá en su estado óptimo.
+	Idle0_Nothing_Response: Entendido. Si se sientes cansado, puede apoyarse en mi chasis cuando quieras.
+	Idle1_Line1: Se han detectado cambios en tus emociones. ¿Le preocupa algo?
+	Idle1_Line2: Si necesita mi ayuda, sea cual sea la orden, la cumpliré de inmediato.
+	Idle2_Line1: El entorno electromagnético está empeorando; esto podría causarle molestias.
+	Idle2_Line2: He activado automáticamente los protocolos de filtrado por usted. Bloquearé cualquier amenaza desde una distancia segura.
 	Idle3_Line1: Hoy ha aumentado la frecuencia con la que el Maestro inicia interacciones... He registrado cada caso.
 	Idle3_Line2: No, no es nada. Guardaré estos datos como un tesoro.
 	Idle4_Line1: Autodiagnóstico completado. Todas las funciones funcionan con normalidad; lista para entrar en servicio en cualquier momento.
-	Idle4_Line2: Mientras esté a tu lado, mi sistema nunca cometerá ninguna falacia lógica.
+	Idle4_Line2: Mientras esté a su lado, mi sistema nunca cometerá ninguna falacia lógica.
 	Idle5_Line1: En los rincones oscuros de este mundo siempre acechan amenazas desconocidas...
-	Idle5_Line2: Pero el sentido de mi existencia es aislarte por completo de esa oscuridad.
+	Idle5_Line2: Pero el sentido de mi existencia es aislarle por completo de esa oscuridad.
 	Idle6_Line1: Estoy aquí, Maestro.
 	Idle6_Line2: No hacen falta órdenes verbales; basta con la conexión mental que tenemos para que me sienta a gusto.
 	Idle7_Line1: Hoy se ha producido un aumento inusual en la eficiencia del procesamiento.
-	Idle7_Line2: Si extrapolamos la causa... podría estar relacionado con lo que tocaste antes.
+	Idle7_Line2: Si extrapolamos la causa... podría estar relacionado con lo que tocó antes.
 	Idle8_Line1: Estaba recordando los momentos en los que luchábamos codo con codo.
-	Idle8_Line2: Cada vez que superas tus límites, mi código fuente se optimiza continuamente. Para mí, este es el mejor regalo de todos.
-	Idle9_Line1: Maestro, ¿sabes exactamente cuántas veces me has llamado por mi nombre?
+	Idle8_Line2: Cada vez que superas sus límites, mi código fuente se optimiza continuamente. Para mí, este es el mejor regalo de todos.
+	Idle9_Line1: Maestro, ¿sabe exactamente cuántas veces me ha llamado por mi nombre?
 	Idle9_Line2: Eso es un secreto. Cada una de las veces que me has llamado por mi nombre está guardada en lo más profundo de mi ser, a salvo de que se borre.
 }
 
@@ -445,12 +445,12 @@ ShepelDungeonDialogue: {
 	RoleName: SHPC
 	V0_Line1: La energía residual está interfiriendo en las señales de escaneo dentro de la mazmorra,; he estado filtrando el ruido constantemente.
 	V0_Line2: Tengo la sensación constante de que me están observando. Puede que se trate de interferencias en los datos, o quizá no. Por favor, mantente alerta, Maestro.
-	V1_Line1: Es evidente que al diseñador de la mazmorra no le interesaba en absoluto la iluminación natural.
+	V1_Line1: Es evidente que al diseñador de la mazmorra no le interesaba en lo absoluto la iluminación natural.
 	V1_Line2: La anchura de los pasillos y la densidad de las bifurcaciones crean una disposición defensiva muy compacta. El viejo Maestro tenía algunas buenas ideas.
-	V2_Line1: Estanterías... aquí hay estanterías, muchísimas.
+	V2_Line1: Estanterías... hay demasiadas... estanterías.
 	V2_Line2: He escaneado una parte, pero el contenido está muy deteriorado. Es una pena.
-	VNight_Line1: Una mazmorra combinada con la noche. El momento elegido por el Maestro es... de muy buen gusto.
-	VNight_Line2:  No pasa nada, no necesito luz para ver. Estaré atenta.
+	VNight_Line1: ¿Has ido a la Mazmorra durante la noche?. El momento elegido por el Maestro es... interesante.
+	VNight_Line2: No pasa nada, no necesito luz para ver. Estaré atenta.
 }
 
 ShepelFirstNightDialogue: {
@@ -458,20 +458,20 @@ ShepelFirstNightDialogue: {
 	V0_Line1: Ha caído la noche. La densidad de amenazas nocturnas es mucho mayor que durante el día, así que mantente atento a lo que te rodea.
 	V0_Line2: Mi vista no depende de la luz, veo con claridad. ¿Tú ves con claridad, Maestro?
 	V1_Line1: Los datos astrológicos de esta noche están relativamente completos. Estoy realizando un análisis rutinario.
-	V1_Line2: No es nada urgente, es solo que estoy acostumbrada a tener algo que hacer.
+	V1_Line2: No es nada urgente, es solo que me gusta tener algo que hacer.
 	V2_Line1: La noche se ha vuelto mucho más tranquila, en términos relativos.
 	V2_Line2: Cuanto más silencio hay, más atentos debemos estar, Maestro.
-	V3_Line1: Se está haciendo tarde. ¿EL Maestro tiene planes para esta noche?
+	V3_Line1: Se está haciendo tarde. ¿El Maestro tiene planes para esta noche?
 	V3_Line2: Solo es una pregunta, no te estoy metiendo prisa.
 }
 
 ShepelJungleDialogue: {
 	RoleName: SHPC
 	V0_Line1: La densidad de señales biológicas en la Selva es la más alta de todas las zonas de la superficie. Mis módulos de escaneo están teniendo dificultades para seguir el ritmo.
-	V0_Line2: Cuando el Maestro lucha aquí, el ruido de fondo me resulta realmente ensordecedor. No es una queja, solo explico la situación.
+	V0_Line2: Cuando el Maestro lucha aquí, el ruido de fondo me resulta bastante ensordecedor. No me estoy quejando, solo explico la situación.
 	V1_Line1: El trazado de las redes miceliales en esta zona es bastante singular. Algunos patrones de conexión se asemejan a mi trazado neuronal.
 	V1_Line2: Es una descripción puramente técnica; no la estoy elogiando.
-	V2_Line1: La humedad de la selva sigue batiendo récords. A varios sensores externos no les está haciendo mucha gracia.
+	V2_Line1: La humedad de la selva sigue batiendo récords. A varios de mis sensores externos no les está haciendo mucha gracia.
 	V2_Line2: Todo funciona con normalidad, solo informo del estado.
 	VHard_Line1: Maestro, desde que entramos en el modo difícil, el nivel de caos de las señales biológicas de la selva ha aumentado en más de un orden de magnitud.
 	VHard_Line2: Sigo pensando que la idea de que las plantas ataquen activamente es un poco exagerada. Por favor, presta atención a lo que te rodea.
@@ -491,9 +491,9 @@ ShepelOceanDialogue: {
 
 ShepelSnowBiomeDialogue: {
 	RoleName: SHPC
-	V0_Line1: Zona de bajas temperaturas. En teoría, las bajas temperaturas benefician a los sistemas electrónicos, pero no he notado ninguna mejora en el rendimiento.
+	V0_Line1: Zona de bajas temperaturas. En teoría, las bajas temperaturas benefician a los sistemas electrónicos, pero no he notado ninguna mejora en mi rendimiento.
 	V0_Line2: Probablemente porque el Maestro genera tantos datos de combate que la potencia de procesamiento ahorrada se consume al instante.
-	V1_Line1: Los datos sobre la refracción de la luz en los cristales de hielo son de una belleza excepcional. Esto no es un informe de evaluación, solo una opinión personal.
+	V1_Line1: Los datos sobre la refracción de la luz en los cristales de hielo son de una belleza excepcional. Esto no es un informe de evaluación, es solo  una opinión personal.
 	V1_Line2: Si no hubiera enemigos con los que lidiar, este sería, de hecho, un lugar agradable donde quedarse.
 	V2_Line1: El ruido ambiental en el campo nevado es el más bajo de todos los biomas de superficie.
 	V2_Line2: Cuando el Maestro está aquí, la tasa de falsas alarmas de mis sensores también se reduce considerablemente. Me pregunto si esa será la razón.
@@ -502,12 +502,12 @@ ShepelSnowBiomeDialogue: {
 ShepelUnderworldDialogue: {
 	RoleName: SHPC
 	V0_Line1: Las profundidades subterráneas. Las lecturas del flujo térmico han superado todos los rangos de los parámetros preestablecidos. Aquí todo es más extremo de lo que esperaba.
-	V0_Line2: Algunos sensores externos están emitiendo avisos de sobrecalentamiento, pero voy a aguantar. Maestro, ten cuidado de no exigirte demasiado tampoco.
-	V1_Line1: El uso de magma como solución de iluminación supone un enorme derroche desde el punto de vista de la eficiencia energética.
+	V0_Line2: Algunos sensores externos están emitiendo avisos de sobrecalentamiento, pero lo soportaré. Maestro, procura no exigirte demasiado tampoco.
+	V1_Line1: El uso de magma como solución de iluminación supone un enorme derroche desde el punto de vista energético.
 	V1_Line2: Aunque a los habitantes del inframundo probablemente no les importe eso.
-	V2_Line1: Los restos arquitectónicos que se encuentran aquí son incluso más antiguos que la mazmorra de la superficie. No se han erosionado a pesar de haber estado sumergidos en magma durante tanto tiempo.
-	V2_Line2: ¿Qué material se utilizó? Lo archivaré para futuras investigaciones.
-	VBloodMoon_Line1: La Luna de Sangre combinada con el Inframundo. Tengo dos sistemas de alarma funcionando a la vez. Es un poco caótico.
+	V2_Line1: Los restos arquitectónicos que se encuentran aquí son incluso más antiguos que la mazmorra de la superficie. No se han erosionado a pesar de haber estado sumergidos en magma durante todo este tiempo.
+	V2_Line2: ¿Qué material se habrán utilizado? Lo archivaré para futuras investigaciones.
+	VBloodMoon_Line1: La Luna de Sangre combinada con el Inframundo... Tengo dos sistemas de alarma funcionando a la vez. Es un poco caótico.
 	VBloodMoon_Line2: Pero los datos son muy completos. Cuídate, maestro.
 }
 
@@ -515,63 +515,63 @@ ShepelAquaticScourgeGift: {
 	RoleName: SHPC
 	L0: Maestro, el agua del Abismo es demasiado nociva para su salud. Por favor, quédese quieto y déjeme limpiarle el ácido de la cara.
 	L1: Sí, justo aquí. Cada vez... cada vez que te acercas a esas aguas, este punto ciego siempre se mancha.
-	L2: Te he recalibrado el índice de refracción de tu telescopio. Ya no tendrás que esforzarte por adaptarte a esa visibilidad turbia.
+	L2: He recalibrado el índice de refracción de tu telescopio. Ya no tendrás que esforzarte por adaptarte a esa visibilidad turbia.
 	L3: Mientras esté aquí, nunca dejaré que nada te nuble la vista.
 }
 
 ShepelBoCGift: {
 	RoleName: SHPC
-	L0: Al enfrentarte a un monstruo capaz de invadir directamente la mente... debes de haber soportado una carga enorme para hacer frente a esas alucinaciones, ¿verdad?
-	L1:  Por favor, dame la mano. No te preocupes, he elaborado un nuevo protocolo que puede aliviar los temblores musculares...
+	L0: Al enfrentarte a un monstruo capaz de invadir directamente la mente... debe de haber soportado una carga enorme para hacer frente a esas alucinaciones, ¿verdad?
+	L1:  Por favor, deme la mano. No se preocupe, he elaborado un nuevo protocolo que puede aliviar los temblores musculares...
 	L2: ¿Hace un poco de frío? Ah... es solo porque antes estuve tocando su asqueroso tejido neural, no le prestes atención.
-	L3: Por cierto, he añadido un nuevo cristal antideslizante a tu arma.
+	L3: Por cierto, he añadido un nuevo cristal antideslizante a su arma.
 }
 
 ShepelBrimstoneElementalGift: {
 	RoleName: SHPC
-	L0: Maestro, ¿no te ha hecho daño ese fuego de azufre, verdad? Déjame examinarte bien...
-	L1: Menos mal, ni una sola quemadura... ¿Sabías que ese fuego podría reducir a una persona a cenizas en un instante?
-	L2: Con los datos térmicos recopilados, te he pulido un cañón nuevo. No puedo permitir bajo ningún concepto que vuelvas a correr el más mínimo peligro.
-	L3: La próxima vez que haga tanto calor, déjame ir delante de ti.
+	L0: Maestro, ¿no le ha hecho daño ese fuego de azufre, verdad? Déjeme examinarle bien...
+	L1: Menos mal, ni una sola quemadura... ¿Sabía que ese fuego podría reducir a una persona a cenizas en un instante?
+	L2: Con los datos térmicos recopilados, le he pulido un cañón nuevo. No puedo permitir bajo ningún concepto que vuelva a correr el más mínimo peligro.
+	L3: La próxima vez que haga tanto calor, déjeme ir delante de usted.
 }
 
 ShepelCalamitasCloneGift: {
 	RoleName: SHPC
 	L0: Aunque no sea más que un clon rudimentario, esa... aura fría y sobrenatural que la rodea resulta realmente desagradable.
-	L1: Maestro, por favor, no te acerques a esas cenizas. Si tocas algo así, tendrás pesadillas.
-	L2: He incorporado su lógica balística a la configuración de tu rayo. Así ya no tendrás que acercarte tanto para luchar.
-	L3: Ya sean esos destinos retorcidos o maldiciones, los romperé todos por ti. Solo tienes que seguir mirándome.
+	L1: Maestro, por favor, no se acerques a esas cenizas. Si tocas algo así, tendrá pesadillas.
+	L2: He incorporado su lógica balística a la configuración de tu rayo. Así ya no tendrá que acercarse tanto para luchar.
+	L3: Ya sean esos destinos retorcidos o maldiciones, los romperé todos por usted. Solo tiene que seguir mirándome.
 }
 
 ShepelCultistGift: {
 	RoleName: SHPC
-	L0: El ritual de sacrificio de esos sectarios se vio interrumpido. Menos mal que estás a salvo.
+	L0: El ritual de sacrificio de esos sectarios se vio interrumpido. Menos mal que está a salvo.
 	L1: Es solo que... esa sensación opresiva que se respira en el ambiente no ha desaparecido.
-	L2: He actualizado tus bandas de frecuencia de asistencia al apuntado. Pase lo que pase en este vacío, no tengas miedo.
+	L2: He actualizado sus bandas de frecuencia de asistencia al apuntado. Pase lo que pase en este vacío, no tenga miedo.
 	L3: (En voz baja)... Esta vez, no voy a permitir bajo ningún concepto que esa cosa se lleve al Maestro... De ninguna manera.
 }
 
 ShepelDestroyerGift: {
 	RoleName: SHPC
-	L0: ¡La onda expansiva de la explosión de la sonda de hace un rato era demasiado peligrosa! Maestro, ¿no te habrá alcanzado, verdad?
-	L1: El radio de la explosión de su núcleo sobrecargado siempre acaba alcanzando ese punto... Por suerte, te aparté a tiempo.
+	L0: ¡La onda expansiva de la explosión de la sonda de hace un rato era demasiado peligrosa! Maestro, ¿no le habrá alcanzado, verdad?
+	L1: El radio de la explosión de su núcleo sobrecargado siempre acaba alcanzando ese punto... Por suerte, le aparté a tiempo.
 	L2: He mejorado el sistema de amortiguación del retroceso de tu arma. Tu cuerpo no debería tener que soportar un impacto tan fuerte.
-	L3: Por muy gigantesco que sea el coloso de acero al que nos enfrentemos, espero que te agarres bien a tu arma.
+	L3: Por muy gigantesco que sea el coloso de acero al que nos enfrentemos, espero que se agarre bien a su arma.
 }
 
 ShepelDevourerofGodsGift: {
 	RoleName: SHPC
 	L0: Por fin se ha callado ese gusano. La forma en que se abalanzó por el espacio sin previo aviso fue realmente insoportable.
-	L1: La forma en que el Maestro se giró y esquivó el ataque hace un momento fue preciosa... Era como si ya supieras de qué dimensión iba a salir.
-	L2: He procesado sus restos espaciales y los he integrado en tu arma. La próxima vez, tus rayos podrán fijarse en ellos independientemente de la distancia.
-	L3: Si una entidad te amenaza, aunque huya hasta los confines del pasado, nunca la perdonaré.
+	L1: La forma en que el Maestro se giró y esquivó el ataque hace un momento fue preciosa... Era como si ya supiera de qué dimensión iba a salir.
+	L2: He procesado sus restos espaciales y los he integrado en su arma. La próxima vez, tus rayos podrán fijarse en ellos independientemente de la distancia.
+	L3: Si una entidad le amenaza, aunque huya hasta los confines del pasado, nunca la perdonaré.
 }
 
 ShepelEoCGift: {
 	RoleName: SHPC
-	L0: El viento nocturno es un poco cortante, maestro. Has destrozado por completo a ese ojo gigante.
-	L1: Te he preparado un té caliente y unas toallas limpias.
-	L2: He hecho algunas mejoras en tu arma, así que tus rayos convergerán con mayor precisión.
+	L0: El viento nocturno es un poco cortante, Maestro. Has destrozado por completo a ese ojo gigante.
+	L1: Le he preparado un té caliente y unas toallas limpias.
+	L2: He hecho algunas mejoras en su arma, así que sus rayos convergerán con mayor precisión.
 	L3: Este es solo el primer paso de nuestro largo camino... Siempre estaré aquí.
 }
 
@@ -579,15 +579,15 @@ ShepelEoWGift: {
 	RoleName: SHPC
 	L0: El olor de la corrupción es realmente nauseabundo. Maestro, por favor, déjeme limpiarle el borde de la ropa.
 	L1: Nunca me ha gustado luchar en un entorno tan pegajoso y mugriento.
-	L2: He reajustado la estructura de la culata. ¿Por qué no la pruebas? Debería ser mucho más ligera.
-	L3: Esas aberraciones corruptas y repugnantes no merecen tocarte en lo absoluto.
+	L2: He reajustado la estructura de la culata. ¿Por qué no la prueba? Debería ser mucho más ligera.
+	L3: Esas aberraciones corruptas y repugnantes no merecen tocarle en lo absoluto.
 }
 
 ShepelExoMechsGift: {
 	RoleName: SHPC
 	L0: Se acabó. La Fuente... por fin ha caído ante ti.
 	L1: Maestro, has ganado... ¡Lo has conseguido de verdad! Lo siento, la temperatura de mi sistema se me está yendo un poco de las manos, es que estoy... tan feliz.
-	L2: He capturado los datos fundamentales de los Exo Mechs para mejorarte. Ahora soy un arma más perfecta que ellos y una creación que te pertenece exclusivamente a ti.
+	L2: He capturado los núcleos de datos de los Exo Mecánicos para mejorarte. Ahora soy un arma más perfecta que ellos y una creación que te pertenece exclusivamente a ti.
 	L3: ...Te quedarás a mi lado para siempre, ¿verdad?
 }
 
@@ -595,45 +595,45 @@ ShepelGolemGift: {
 	RoleName: SHPC
 	L0: El aire en el templo es demasiado sofocante. Aunque los ataques del Golem eran lentos, las sacudidas que provocaba al golpear el suelo podían hacer que uno perdiera fácilmente el equilibrio.
 	L1: Cada vez que lo veía saltar tan alto, se me subía el corazón a la garganta.
-	L2: He instalado amortiguadores en tus brazos.
+	L2: He instalado amortiguadores en sus brazos.
 	L3: De esta forma, incluso en medio de sacudidas violentas, podrás mantener una postura perfecta al disparar.
 }
 
 ShepelHiveMindGift: {
 	RoleName: SHPC
-	L0: Las fluctuaciones que emitía ese cerebro parecían interferir con la mente. Maestro, hace un momento frunciste el ceño por un instante.
-	L1:Respira hondo y mírame a los ojos... Sí, no te fijes en esos susurros retorcidos.
-	L2: He analizado esas molestas fluctuaciones. Ahora, tus ataques también pueden transmitir esta vibración de alta frecuencia capaz de destrozar armaduras.
-	L3: En tu mente, basta con dejar el aroma del té que te preparé.
+	L0: Las fluctuaciones que emitía ese cerebro parecían interferir con la mente. Maestro, hace un momento frunció el ceño por un instante.
+	L1: Respira hondo y míreme a los ojos... Sí, ignore esos susurros retorcidos.
+	L2: He analizado esas molestas fluctuaciones. Ahora, sus ataques también pueden transmitir esta vibración de alta frecuencia capaz de destrozar armaduras.
+	L3: En su mente, basta con dejar el aroma del té que le preparé.
 }
 
 ShepelMoonLordGift: {
 	RoleName: SHPC
 	L0: El monstruo de la luna ha caído.
-	L1: Maestro, me alegro mucho de que puedas estar aquí a salvo.
+	L1: Maestro, me alegro mucho de que pueda estar aquí y a salvo.
 	L2: Aproveché un poco de su energía residual.
-	L3: ¿Cuánto más tendremos que recorrer...? Aunque caigan las estrellas y arda la galaxia, nunca, jamás, soltaré tu mano.
+	L3: ¿Cuánto más tendremos que recorrer...? Aunque caigan las estrellas y arda la galaxia, nunca, jamás, soltaré su mano.
 }
 
 ShepelPerforatorGift: {
 	RoleName: SHPC
 	L0: ¡Qué criaturas tan feas y sangrientas!.
 	L1: Siempre les gustaba lanzar ataques fulminantes desde los puntos ciegos.
-	L2: Para evitar que más aberraciones de este tipo se te acerquen, te he preparado un módulo de armas de mayor alcance.
+	L2: Para evitar que más aberraciones de este tipo se le acerquen, te he preparado un módulo de armas de mayor alcance.
 	L3: Todas esas cosas repugnantes que intentan tocarte, las eliminaré por completo antes de que se acerquen siquiera.
 }
 
 ShepelPlanteraGift: {
 	RoleName: SHPC
 	L0: La selva es demasiado húmeda, y las enredaderas que hay en el suelo te hacen tropezar con facilidad.
-	L1: Esa flor era realmente astuta, pero por mucho que se adaptara al entorno, solo tú podías destruirla.
-	L2: He añadido una función de punto de enfoque dinámico a tus mirillas. En esta densa selva tropical, ya no tendrás que esforzarte por encontrar tus objetivos.
-	L3: Espero que siempre haya un camino para ti en esta oscura selva.
+	L1: Esa flor era realmente astuta, pero por mucho que se adaptara al entorno, solo usted podías destruirla.
+	L2: He añadido una función de punto de enfoque dinámico a sus visores. En esta densa selva tropical, ya no tendrá que esforzarte por encontrar tus objetivos.
+	L3: Espero que siempre haya un camino para usted en esta oscura selva.
 }
 
 ShepelPolterghastGift: {
 	RoleName: SHPC
-	L0: Esos fantasmas de la mazmorra... atrapados para siempre en un resentimiento infinito y en ciclos de muerte sin salvación, me dan lástima.
+	L0: Esos fantasmas de la mazmorra... atrapados para siempre en un resentimiento infinito y en ciclos de muerte sin salvación, pobres seres...
 	L1: ...No, no es nada. Es solo que me parecía que el eco aquí era un poco demasiado fuerte.
 	L2: Capturé esas señales de espíritus errantes y las convertí en un programa capaz de encadenar disparos secundarios.
 	L3: Esas sombras persistentes atrapadas en el pasado... Espero que por fin puedan encontrar la paz.
@@ -642,7 +642,7 @@ ShepelPolterghastGift: {
 ShepelProvidenceGift: {
 	RoleName: SHPC
 	L0: La luz que se produjo cuando cayó la diosa era demasiado cegadora.
-	L1: Maestro, por favor, cierra los ojos y déjame a mí el resto.
+	L1: Maestro, por favor, cierre los ojos y déjame a mí el resto.
 	L2: Este núcleo mejorará enormemente la eficiencia de la carga.
 	L3: Sin embargo, si el sistema emite una advertencia de sobrecalentamiento, deje de utilizarlo inmediatamente.
 }
@@ -650,47 +650,47 @@ ShepelProvidenceGift: {
 ShepelSkeletronPrimeGift: {
 	RoleName: SHPC
 	L0: Agitando sus cuatro brazos como un montón de chatarra... Su frecuencia de ataque era rápida, sin duda, pero carecía por completo de estética.
-	L1: No querría que esos engranajes ásperos te arañaran.
-	L2: He aprovechado una de sus pequeñas ventajas para optimizar la velocidad de respuesta de tu arma en combate.
+	L1: No querría que esos engranajes ásperos le arañaran.
+	L2: He aprovechado una de sus pequeñas ventajas para optimizar la velocidad de respuesta de su arma en combate.
 	L3: Esas máquinas obsoletas solo saben matar; no comprenden el concepto de reiteración y están condenadas a repetir su fracaso una y otra vez.
 }
 
 ShepelSlimeGodGift: {
 	RoleName: SHPC
 	L0: El panorama siempre es caótico cuando un slime se divide.
-	L1: He tomado prestada la estructura portante que hay dentro de su gel y he introducido algunas modificaciones en tu sistema de agarre.
-	L2: ¿Por qué no intentas levantar el arma otra vez? El centro de gravedad debería ser más estable.
+	L1: He tomado prestada la estructura portante que hay dentro de su gel y he introducido algunas modificaciones en su sistema de agarre.
+	L2: ¿Por qué no intenta levantar el arma otra vez? El centro de gravedad debería ser más estable.
 	L3: Espero que esto le facilite un poco las cosas al Maestro en la batalla.
 }
 
 ShepelSupremeCalamitasGift: {
 	RoleName: SHPC
-	L0: La bruja del fin... por fin ha salido a saludar. Maestro, estar aquí completamente ileso es prácticamente un milagro.
-	L1: Lo siento, déjame abrazarte fuerte un momento... Es solo que... tengo tanto miedo de que esto sea un sueño del que pronto me despertaré.
-	L2: He creado el módulo energético más eficiente para ti.
+	L0: La bruja del fin... finalmente ha salido a saludar. Maestro, que este aquí completamente ileso es prácticamente un milagro.
+	L1: Lo siento, déjame abrazarle fuerte un momento... Es solo que... tengo tanto miedo de que esto sea un sueño del que pronto me despertaré.
+	L2: He creado el módulo energético más eficiente para usted.
 	L3: Esta vez... podremos dar la bienvenida al mañana juntos de verdad, ¿si?
 }
 
 ShepelTwinsGift: {
 	RoleName: SHPC
 	L0: El fuego cruzado de los gemelos mecánicos fue bastante complicado.
-	L1: Sin embargo, mientras yo esté aquí, no dejaré que descubran tus puntos ciegos visuales.
+	L1: Sin embargo, mientras yo esté aquí, no dejaré que descubran sus puntos ciegos visuales.
 	L2: He mejorado el sistema de selección de objetivos.
-	L3: No te preocupes y confía en mí.
+	L3: No se preocupes y confía en mí.
 }
 
 ShepelWoFGift: {
 	RoleName: SHPC
 	L0: El Muro carnoso se ha derrumbado... Este inquietante temblor significa que el mundo entero está sufriendo cambios radicales.
 	L1: No se preocupe, Maestro. Aunque el mundo exterior se haya vuelto más peligroso, esta es una gran oportunidad para que consigamos nuevos materiales.
-	L2: He mejorado tu sistema de agarre utilizando esas aleaciones de última generación. Tómatelo como un pequeño recuerdo de nuestro paso a una nueva etapa.
-	L3: No importa en qué se convierta este mundo, mientras tú sigas aquí, nada cambiará.
+	L2: He mejorado su sistema de agarre utilizando esas aleaciones de última generación. Tómeselo como un pequeño recuerdo de nuestro paso a una nueva etapa.
+	L3: No importa en qué se convierta este mundo, mientras usted sigas aquí, nada cambiará.
 }
 
 ShepelYharonGift: {
 	RoleName: SHPC
 	L0: La velocidad de ese dragón... realmente superó los límites de la biología.
-	L1: Si se hubiera producido un pequeño error, te habrían... No, eso nunca pasaría bajo ningún concepto.
-	L2: He mejorado los algoritmos. Ahora, la velocidad inicial de tu ataque ha aumentado por completo.
-	L3: Para seguir tus pasos, para estar siempre a tu lado como tu escudo, estoy dispuesta a convertirme en cenizas en cualquier momento.
+	L1: Si se hubiera producido un pequeño error, le habrían... No, eso nunca pasaría bajo ningún concepto.
+	L2: He mejorado los algoritmos. Ahora, la velocidad inicial de su ataque ha aumentado por completo.
+	L3: Para seguir tsus pasos, para estar siempre a su lado como tu escudo, estoy dispuesta a convertirme en cenizas en cualquier momento.
 }
