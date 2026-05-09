@@ -365,17 +365,17 @@ GalacticCrisisRender: {
 }
 
 TransitionScene: {
-	LoadingText: Enlace de datos
-	InitializingText: Se está iniciando el protocolo
-	Hint0: No te preguntes por qué hay que matar a los alienígenas, sino por qué no hacerlo
-	Hint1: El Protocolo de Acheron es uno de los planes de emergencia de mayor nivel de Jia Dun.
-	Hint2: Las Tactics Dolls no conocen el miedo, porque el miedo es, en sí mismo, su arma
-	Hint3: Las creaciones mecánicas de Jia Deng han superado los límites de la realidad
-	Hint4: No hay sacrificio tan grande que no se pueda aceptar, ni traición tan pequeña que se pueda perdonar
-	Hint5:Cualquier tecnología lo suficientemente avanzada es, en esencia, magia
-	Hint6:  En medio de la adversidad se esconden posibilidades que lo superan todo
-	Hint7: Jia Deng nunca hace nada sin sentido; cada paso es el resultado de un cálculo minucioso.
-	Hint8: Los datos son poder; el conocimiento es poder
+	LoadingText: Enlazando datos...
+	InitializingText: Iniciando protocolos...
+	Hint0: No preguntes por qué matamos a las aberraciones; pregúntate, más bien, por qué no lo hacemos.
+	Hint1: El protocolo Acheron es uno de los planes de contingencia de mayor nivel de Draedon.
+	Hint2: Las Muñecas tácticas no conocen el miedo, pues el miedo mismo es su arma.
+	Hint3: Las creaciones mecánicas de Draedon han traspasado los límites de la realidad
+	Hint4: Ningún sacrificio es demasiado grande para aceptarlo, y ninguna traición es demasiado pequeña para perdonarla
+	Hint5: Cualquier tecnología suficientemente avanzada es indistinguible de la magia
+	Hint6: En la calamidad se esconden posibilidades que lo superan todo
+	Hint7: Draedon nunca actúa sin un motivo; cada paso es fruto de un cálculo preciso.
+	Hint8: Los datos son poder, y el conocimiento es un arma
 	Hint9: Las máquinas no traicionan, pero quienes las manejan quizá sí.
 }
 
@@ -386,38 +386,38 @@ StarStreamDialogueBox: {
 
 ApolliaHeroPanelUI: {
 	TitleText: Apolonia
-	HPLabel: Puntos de vida
+	HPLabel: Vida
 	DamageLabel: Daño
 	DefenseLabel: Defensa
 	CommandLabel: Órdenes de combate
 	CmdFollow: Seguir
-	CmdHold: Mantener pulsado
-	CmdAggressive: Ataque
-	CmdDefensive: Defensa
+	CmdHold: Mantener posición
+	CmdAggressive: Agresiva
+	CmdDefensive: Defensiva
 }
 
 DraedonIncomingCall: {
-	IncomingLabel: Comunicaciones 
-	AnswerHint: Pulsa para contestar
-	ConnectingLabel: Conectando...
-	EndLabel: Fin
-	NextLabel: Siguiente
-	TimerLabel: Duración
-	UnknownCaller: Desconocido
+	IncomingLabel: LLAMADA ENTRANTE
+	AnswerHint: Clic para contestar
+	ConnectingLabel: CONECTANDO...
+	EndLabel: FIN
+	NextLabel: SIGUIENTE
+	TimerLabel: DURACIÓN
+	UnknownCaller: DESCONOCIDO
 	ChannelPrefix: CH
 }
 
 QuestManagerUI: {
-	TitleText: Gestión de tareas
-	CategoryAll: Todo
+	TitleText: Gestión de misiones
+	CategoryAll: TODOS
 	CategoryActive: En curso
 	CategoryCompleted: Completado
 	CategorySuspended: Pendiente
-	EmptyHintText: No hay tareas por ahora...
+	EmptyHintText: No hay misiones disponibles...
 	TrackHintText: "[Clic derecho] Seguir/Dejar de seguir"
 	SuspendHintText: "[TClic central] Pausar/Reanudar"
-	OpenHintText: Pulsa [L] para abrir el Administrador de tareas
-	HeaderStatusTag: ◈ AVTIVO
+	OpenHintText: Pulsa [L] para abrir el Gestor de misiones
+	HeaderStatusTag: ◈ ACTIVO
 	FooterStatsFormat: "TOTAL: {0}  |  ACTIVE: {1}"
 	ExpandHintText: "[Clic izquierdo] Mostrar/ocultar detalles"
 	EntryStatusActive: En curso
@@ -453,10 +453,10 @@ SHPCDialogueBox: {
 
 EntrustManagerNotification: {
 	LabelNewQuest: Nuevo encargo
-	LabelTracked: Ya sigues
-	LabelUntracked: Dejar de seguir
+	LabelTracked: Siguiendo
+	LabelUntracked: Sin seguir
 	LabelSuspended: Suspendido
-	LabelUnsuspended: Ya se ha restablecido
+	LabelUnsuspended: Renaudado
 	LabelCompleted: Encargo completado
 }
 
@@ -639,6 +639,8 @@ HackTime: {
 	SignalTowerScanStatusElectrified: Carga residual
 	SignalTowerScanProtocol: Protocolos disponibles
 	RightClickHint: "//CLIC DERECHO PARA DESELECCIONAR"
+	AccessDeniedTitle: MODO HACKEO NO DISPONIBLE
+	AccessDeniedDesc: Conecta un arma inteligente o instala un ciberimplante de netrunner para acceder a habilidades de hackeo.
 }
 
 DecryptionStrings: {
@@ -670,42 +672,6 @@ DecryptionStrings: {
 	BreachCooldown: "Restablecimiento del protocolo en {0:0.0}s"
 	BreachAttempt: "Intento #{0}"
 	BreachRestart: ⟳ Reintentar
-}
-
-MessageStrings: {
-	MsgHeader: "── Fragmento interceptado ▸ OrigEN 0x{0} / {1} ──"
-	MsgSrcSystem: SYS
-	MsgSrcSignal: SIG
-	MsgSrcArchive: ARC
-	MsgFragment: FRAGMENTO
-	MsgSignature: "SEÑAL   ▸ {0}"
-	MsgBody0: Terminal accedido. Coincidencia de la clave de verificación del 98,4%.
-	MsgBody1: ...Las señales de pulso sin etiquetar permanecen dentro del campo estático.
-	MsgBody2: Las desviaciones de coordenadas apuntan a ecos profundos del núcleo en colapso.
-	MsgBody3: Este nodo está marcado como ██CLASIFICADO██, os fragmentos relacionados han sido sellados.
-	MsgBody4: La siguiente ventana del protocolo se activará en función de tus acciones.
-	MsgSkipHint: "[Space/Left Click] Omitir la animación del texton"
-	MsgCloseHint: "[Space/ESC] Desconectar"
-	MsgAccess: Acceso: Draedon
-	MsgStatus: Estado: Descifrado parcialmente
-	MsgRec01Title: "[Log-01]"
-	MsgRec01_0: El Gran Grito. Longitudes de onda irresolubles, como si todo el universo estuviera gritando.
-	MsgRec01_1: La curvatura espacial está bloqueada de forma permanente. Los motores de distorsión han sido desmantelados por completo. Los saltos forzados solo provocan la desintegración de las estructuras materiales.
-	MsgRec01_2: El fin de los viajes interestelares convencionales. El colapso del antiguo modelo unificado de la física.
-	MsgRec02Title: "[Log-02]"
-	MsgRec02_0: Tras la destrucción de 73 000 sondas, se han fijado las coordenadas actuales del Vacío.
-	MsgRec02_1: Se ha establecido la Base Cero. Se han puesto en marcha los clústeres industriales de apoyo.
-	MsgRec02_2: La barrera de la realidad se ha extendido aquí hasta sus límites, lo que permite la observación visual directa de esa caótica tormenta subespacial.
-	MsgRec02_3: Un mirador perfecto
-	MsgRec03Title: "[Log-03]"
-	MsgRec03_0: La tormenta está entrando.
-	MsgRec03_1: La física se retira. Las reglas metafísicas absolutas han comenzado a imponerse en este sector industrial.
-	MsgRec03_2: Las líneas temporales se solapan. Los cadáveres, los ecos del pasado y la energía subespacial están empezando a fusionarse.
-	MsgRec03_3: Actualemente se observan con frecuencia anomalías extrañas en el sector industrial.
-	MsgRec04Title: "[Log-04]"
-	MsgRec04_0: Expulsar a estas entidades paranormales es inútil; no se les puede matar. Se mantendrán como una barrera exterior para la base.
-	MsgRec04_1: Si se activa este mensaje, significa que he abandonado este lugar y que se han cortado todas las comunicaciones con el mundo exterior.
-	MsgRec04_2: Tú, que llegas tarde, encuentra tus propias oportunidades entre los patrones de esas cosas repugnantes.
 }
 
 SHPCUI: {
