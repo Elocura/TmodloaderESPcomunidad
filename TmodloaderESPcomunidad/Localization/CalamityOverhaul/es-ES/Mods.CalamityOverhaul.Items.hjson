@@ -1828,7 +1828,7 @@ TeslaCoreModule: {
 	Tooltip:
 		'''
 		Los arcos eléctricos de alta tensión hacen que los rayos lanzados alcancen al enemigo más cercano
-        Cada nodo encadenado hereda los efectos al impactar, con un coste de maná mayor
+		Cada nodo encadenado hereda los efectos al impactar, con un coste de maná mayor
 		'''
 }
 
@@ -1846,7 +1846,7 @@ SwarmGripModule: {
 	Tooltip:
 		'''
 		Un agarre de malla neuronal libera un enjambre de microesferas con un potente sistema de guiado en el momento en que la esfera detona
-        La velocidad de las esferas disminuye y el consumo de maná aumenta como compensación
+		La velocidad de las esferas disminuye y el consumo de maná aumenta como compensación
 		'''
 }
 
@@ -1906,7 +1906,7 @@ FrostOpticModule: {
 	Tooltip:
 		'''
 		Una lente de enfoque criogénico inflige Quemadura por escarcha a los objetivos alcanzados
-        La velocidad del rayo se reduce, pero el seguimiento es más estable, con bonificaciones a la penetración y a los golpes críticos
+		La velocidad del rayo se reduce, pero el seguimiento es más estable, con bonificaciones a la penetración y a los golpes críticos
 		'''
 }
 
@@ -1956,16 +1956,16 @@ ConductorGripModule: {
 	Tooltip:
 		'''
 		El material superconductor aumenta el alcance y el número de saltos de los saltos de arco en cadena
-        Cada impacto va acompañado de una ráfaga de partículas de arco; el daño y el coste de maná aumentan ligeramente
+		Cada impacto va acompañado de una ráfaga de partículas de arco; el daño y el coste de maná aumentan ligeramente
 		'''
 }
 
 PhantomFrameModule: {
-	DisplayName: Marco fantasma
+	DisplayName: Marco fantasmal
 	Tooltip:
 		'''
 		Una cavidad de fase cuántica teletransporta el rayo a 80 píxeles del enemigo más cercano cada 30 fotogramas
-        Esquiva los obstáculos por completo; aumenta ligeramente el alcance y el daño del rayo a cambio de un mayor coste de maná
+		Esquiva los obstáculos por completo; aumenta ligeramente el alcance y el daño del rayo a cambio de un mayor coste de maná
 		'''
 }
 
@@ -1974,7 +1974,7 @@ RecursiveFrameModule: {
 	Tooltip:
 		'''
 		Un chasis de bucle topológico vuelve a lanzar cada rayo desde la posición del jugador en su dirección original al morir
-        El daño del rayo principal aumenta, pero su alcance se reduce; el eco tiene un daño menor y no se repite
+		El daño del rayo principal aumenta, pero su alcance se reduce; el eco tiene un daño menor y no se repite
 		'''
 }
 
@@ -1992,7 +1992,7 @@ NullBarrelModule: {
 	Tooltip:
 		'''
 		Una cámara de borrado de datos reduce el daño casi a cero, pero otorga una perforación prácticamente ilimitada
-        Los golpes inyectan una toxina virulenta que corroe al objetivo con el paso del tiempo
+		Los golpes inyectan una toxina virulenta que corroe al objetivo con el paso del tiempo
 		'''
 }
 
@@ -2001,7 +2001,7 @@ HelixBarrelModule: {
 	Tooltip:
 		'''
 		El visor de doble canal hace que dos rayos giren en espiral alrededor de un eje común
-        La dispersión se reduce a cero; provoca un daño leve y una ligera penalización de velocidad; ofrece una gran sinergia con configuraciones de alta penetración
+		La dispersión se reduce a cero; provoca un daño leve y una ligera penalización de velocidad; ofrece una gran sinergia con configuraciones de alta penetración
 		'''
 }
 
@@ -2010,7 +2010,7 @@ TargetPainterOpticModule: {
 	Tooltip:
 		'''
 		Un sistema de designación láser marca los objetivos alcanzados con un líquido corrosivo, lo que reduce su defensa
-        Además, aumenta la potencia de los misiles autoguiados y la probabilidad de asestar un golpe crítico
+		Además, aumenta la potencia de los misiles autoguiados y la probabilidad de asestar un golpe crítico
 		'''
 }
 
@@ -2019,7 +2019,7 @@ StrobeOpticModule: {
 	Tooltip:
 		'''
 		Un modulador de cambio de fase alterna rápidamente el haz entre los estados de penetración de paredes y el estado sólido
-        Tiene un 30% de probabilidad de confundir a los enemigos alcanzados; ofrece una pequeña bonificación a la penetración y a la velocidad
+		Tiene un 30% de probabilidad de confundir a los enemigos alcanzados; ofrece una pequeña bonificación a la penetración y a la velocidad
 		'''
 }
 
@@ -2028,8 +2028,8 @@ SniperOpticModule: {
 	Tooltip:
 		'''
 		Los colimadores magnéticos aumentan considerablemente la velocidad, el alcance y el daño por impacto de los proyectiles
-        A cambio de una cadencia de disparo muy reducida y una capacidad de seguimiento prácticamente nula
-        Se recomienda combinarlos con el Cañón de enfoque para ataques a muy larga distancia
+		A cambio de una cadencia de disparo muy reducida y una capacidad de seguimiento prácticamente nula
+		Se recomienda combinarlos con el Cañón de enfoque para ataques a muy larga distancia
 		'''
 }
 
@@ -2038,7 +2038,7 @@ StormCellModule: {
 	Tooltip:
 		'''
 		Durante la carga, lanza un rayo eléctrico autoguiado hacia el enemigo más cercano cada 25 fotogramas
-        Carga más rápido y tiene mayor radio de explosión, pero con un mayor coste de maná
+		Carga más rápido y tiene mayor radio de explosión, pero con un mayor coste de maná
 		'''
 }
 
@@ -2047,7 +2047,7 @@ CryoCoreModule: {
 	Tooltip:
 		'''
 		Una célula de energía sobreenfriada congela a todos los enemigos que se encuentren dentro del radio de la explosión del orbe
-        Explosión ligeramente más grande, carga ligeramente más lenta
+		Explosión ligeramente más grande, carga ligeramente más lenta
 		'''
 }
 
@@ -2056,8 +2056,8 @@ DarkMatterCoreModule: {
 	Tooltip:
 		'''
 		Un campo de materia oscura atrae a los enemigos cercanos hacia el orbe durante su vuelo
-        El orbe rastrea simultáneamente a los objetivos; el radio de la explosión se ha incrementado considerablemente
-        Alto coste de maná
+		El orbe rastrea simultáneamente a los objetivos; el radio de la explosión se ha incrementado considerablemente
+		Alto coste de maná
 		'''
 }
 
@@ -2071,7 +2071,7 @@ ExtenderStockModule: {
 	Tooltip:
 		'''
 		Un riel ampliado proporciona a los rayos mayor alcance y velocidad de vuelo con un coste de daño mínimo
-        Combínalo con el Visor de francotirador para obtener una cobertura de largo alcance extrema
+		Combínalo con el Visor de francotirador para obtener una cobertura de largo alcance extrema
 		'''
 }
 
@@ -2089,7 +2089,7 @@ VampireGripModule: {
 	Tooltip:
 		'''
 		Un agarre bioeléctrico convierte una parte del daño infligido por el rayo en recuperación de salud
-        Los disparos láser son más frecuentes, pero restauran menos salud por turno; resultan eficaces en combates prolongados
+		Los disparos láser son más frecuentes, pero restauran menos salud por turno; resultan eficaces en combates prolongados
 		'''
 }
 
@@ -2098,7 +2098,7 @@ ChronalGripModule: {
 	Tooltip:
 		'''
 		Una bobina de retardo de fase ralentiza a los enemigos con cada impacto
-        En combinación con una mejor capacidad de seguimiento, el fuego denso permite mantener un control de masas constante
+		En combinación con una mejor capacidad de seguimiento, el fuego denso permite mantener un control de masas constante
 		'''
 }
 
@@ -2107,7 +2107,7 @@ CascadeGripModule: {
 	Tooltip:
 		'''
 		Un disparador topológico lanza una ráfaga radial de 8 rayos en el punto de impacto cada 5 impactos
-        Los rayos de la ráfaga infligen daño moderado; generan una descarga rítmica de alta densidad
+		Los rayos de la ráfaga infligen daño moderado; generan una descarga rítmica de alta densidad
 		'''
 }
 
@@ -2116,7 +2116,7 @@ MirrorFrameModule: {
 	Tooltip:
 		'''
 		Una cavidad de reflexión simétrica genera un rayo reflejo de 180 grados por cada rayo disparado
-        Los rayos reflejos infligen menos daño; la cobertura bidireccional aumenta considerablemente la densidad de impactos
+		Los rayos reflejos infligen menos daño; la cobertura bidireccional aumenta considerablemente la densidad de impactos
 		'''
 }
 
@@ -2125,16 +2125,16 @@ NullspaceFrameModule: {
 	Tooltip:
 		'''
 		Un generador de grietas del vacío deja un eco de microexplosión a lo largo de la trayectoria del rayo cada 20 fotogramas
-        Alcance ligeramente ampliado; penalización mínima de daño
+		Alcance ligeramente ampliado; penalización mínima de daño
 		'''
 }
 
 OverkillFrameModule: {
-	DisplayName: Overkill Frame
+	DisplayName: Marco overkill
 	Tooltip:
 		'''
 		Un circuito de detección de overkill acumula una carga de overkill por cada muerte, hasta un máximo de 10; cada acumulación añade un 3% de daño.
-        Las acumulaciones se van perdiendo con el tiempo: cuanto más rápido mates, más fuerte te harás.
+		Las acumulaciones se van perdiendo con el tiempo: cuanto más rápido mates, más fuerte te harás.
 		'''
 }
 
@@ -2143,7 +2143,7 @@ GraviticBarrelModule: {
 	Tooltip:
 		'''
 		Una microsingularidad integrada atrae a los enemigos cercanos hacia cada rayo
-        La dispersión y la capacidad de seguimiento se reducen a medida que aumenta el alcance; la velocidad inicial disminuye ligeramente
+		La dispersión y la capacidad de seguimiento se reducen a medida que aumenta el alcance; la velocidad inicial disminuye ligeramente
 		'''
 }
 
@@ -2152,7 +2152,7 @@ PrismaticBarrelModule: {
 	Tooltip:
 		'''
 		Los prismas de dispersión lanzan trazas RGB desde cada rayo, esparciendo fragmentos de color al impactar
-        Añade un rayo adicional y una ventaja crítico a cambio de un ligero descenso en el daño y la dispersión
+		Añade un rayo adicional y una ventaja crítico a cambio de un ligero descenso en el daño y la dispersión
 		'''
 }
 
@@ -2170,7 +2170,7 @@ CrosslinkOpticModule: {
 	Tooltip:
 		'''
 		Al impactar, una unidad de enlace neural establece una conexión de datos entre el objetivo alcanzado y el enemigo más cercano
-        Tanto el número de eslabones como el alcance de la cadena aumentan, con un ligero incremento del coste de maná
+		Tanto el número de eslabones como el alcance de la cadena aumentan, con un ligero incremento del coste de maná
 		'''
 }
 
@@ -2179,7 +2179,7 @@ ZoomOpticModule: {
 	Tooltip:
 		'''
 		Una lente magnética de largo alcance impulsa los rayos con mayor velocidad y alcance, a costa de la velocidad de seguimiento y de ataque
-        Los impactos a más de 600 píxeles activan un golpe incandescente adicional que aumenta en función de la distancia
+		Los impactos a más de 600 píxeles activan un golpe incandescente adicional que aumenta en función de la distancia
 		'''
 }
 
@@ -2188,7 +2188,7 @@ PingOpticModule: {
 	Tooltip:
 		'''
 		El sistema Pintor de objetivos imprime la Marca de la muerte en cada objetivo alcanzado, lo que amplifica todo el daño recibido
-        La mejora en el seguimiento, los golpes críticos y una dispersión más reducida completan el kit de puntería
+		La mejora en el seguimiento, los golpes críticos y una dispersión más reducida completan el kit de puntería
 		'''
 }
 
@@ -2197,7 +2197,7 @@ CapacitorPulseModule: {
 	Tooltip:
 		'''
 		Las densas pilas de condensadores emiten una detonación de micropulsos aproximadamente dos veces por segundo mientras se cargan
-        Tanto el radio de la explosión como el tiempo de carga aumentan, y el coste de maná se incrementa
+		Tanto el radio de la explosión como el tiempo de carga aumentan, y el coste de maná se incrementa
 		'''
 }
 
@@ -2206,7 +2206,7 @@ EntropyCoreModule: {
 	Tooltip:
 		'''
 		El orbe absorbe entropía de los enemigos cercanos mientras vuela
-        Al detonar, provoca una onda de choque secundaria cuya intensidad depende de la entropía acumulada
+		Al detonar, provoca una onda de choque secundaria cuya intensidad depende de la entropía acumulada
 		'''
 }
 
@@ -2215,7 +2215,7 @@ ResonanceReactorModule: {
 	Tooltip:
 		'''
 		Emite un sonido de resonancia cada ~0,75 s mientras se carga
-        La detonación provoca una onda de choque de resonancia adicional a los pies del jugador, que cubre las distancias en combate cuerpo a cuerpo
+		La detonación provoca una onda de choque de resonancia adicional a los pies del jugador, que cubre las distancias en combate cuerpo a cuerpo
 		'''
 }
 
@@ -2224,7 +2224,7 @@ OverwatchStockModule: {
 	Tooltip:
 		'''
 		Si te quedas quieto, se acumulan cargas de Supervisor (máximo 5), que desaparecen rápidamente en cuanto te mueves
-        Cada carga otorga un +2,5 % de daño y un +2 % de crítico; esta postura estoica reduce la velocidad de ataque y la dispersión
+		Cada carga otorga un +2,5 % de daño y un +2 % de crítico; esta postura estoica reduce la velocidad de ataque y la dispersión
 		'''
 }
 
@@ -2233,7 +2233,7 @@ MomentumStockModule: {
 	Tooltip:
 		'''
 		Moverte rápidamente aumenta las acumulaciones de Impulso (máximo 6), que desaparecen rápidamente en cuanto te detienes.
-        Cada acumulación otorga un +5 % de velocidad de ataque y un +8 % de velocidad de disparo, al igual que en Supervisor
+		Cada acumulación otorga un +5 % de velocidad de ataque y un +8 % de velocidad de disparo, al igual que en Supervisor
 		'''
 }
 
@@ -2242,7 +2242,7 @@ BulwarkStockModule: {
 	Tooltip:
 		'''
 		Sostener el SHPC proporciona una reducción moderada del daño
-        La postura reforzada ralentiza ligeramente el tiempo de carga y aumenta el coste de maná
+		La postura reforzada ralentiza ligeramente el tiempo de carga y aumenta el coste de maná
 		'''
 }
 
@@ -2251,7 +2251,7 @@ CombatGripModule: {
 	Tooltip:
 		'''
 		Los golpes mortales con rayos o láser acumulan cargas de Combate (máximo 5)
-        Cada carga otorga un +6% de velocidad de ataque y un +2% de daño; las cargas se pierden entre combates
+		Cada carga otorga un +6% de velocidad de ataque y un +2% de daño; las cargas se pierden entre combates
 		'''
 }
 
@@ -2260,7 +2260,7 @@ TempestGripModule: {
 	Tooltip:
 		'''
 		Tras cada serie de golpes consecutivos, lanza una Ráfaga de tempestad: múltiples arcos de datos que se extienden alrededor del último impacto
-        El daño por disparo se reduce y el coste de maná aumenta a cambio de una limpieza rítmica
+		El daño por disparo se reduce y el coste de maná aumenta a cambio de una limpieza rítmica
 		'''
 }
 
@@ -2269,7 +2269,7 @@ AbsorberGripModule: {
 	Tooltip:
 		'''
 		Los impactos de rayos y láseres devuelven una parte del daño infligido en forma de maná
-        A cambio, el daño por disparo disminuye ligeramente y el coste de maná base aumenta
+		A cambio, el daño por disparo disminuye ligeramente y el coste de maná base aumenta
 		'''
 }
 
@@ -2278,7 +2278,7 @@ HarmonicFrameModule: {
 	Tooltip:
 		'''
 		Cuando coexisten varios rayos, estos se unen entre sí mediante resonancia para infligir daño adicional
-        Añade un rayo adicional a costa de una reducción del daño por disparo y un ligero aumento de la dispersión
+		Añade un rayo adicional a costa de una reducción del daño por disparo y un ligero aumento de la dispersión
 		'''
 }
 
@@ -2287,7 +2287,7 @@ ReplicatorFrameModule: {
 	Tooltip:
 		'''
 		Al desaparecer, el rayo genera un breve eco en el mismo lugar que sigue volando en la misma dirección que el rayo original
-        El daño principal aumenta a medida que se reduce el alcance; el coste de maná también aumenta
+		El daño principal aumenta a medida que se reduce el alcance; el coste de maná también aumenta
 		'''
 }
 
@@ -2296,7 +2296,7 @@ ArchiveFrameModule: {
 	Tooltip:
 		'''
 		Acumula daño SHPC; cada vez que se supera el umbral, una explosión de Archivo detona a los pies del jugador
-        El daño por disparo aumenta ligeramente, con un pequeño coste adicional de maná
+		El daño por disparo aumenta ligeramente, con un pequeño coste adicional de maná
 		'''
 }
 
