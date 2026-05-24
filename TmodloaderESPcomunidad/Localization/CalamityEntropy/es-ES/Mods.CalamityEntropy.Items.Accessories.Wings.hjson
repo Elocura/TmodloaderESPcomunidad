@@ -1,65 +1,65 @@
 FlowingLight: {
-	DisplayName: Flowing Light
+	DisplayName: Luz fluida
 	Tooltip:
 		'''
-		Hold ↓ when flying to hover
-		Hold ↓ to accelerate the descent
-		$"Reaching the pinnacle of perfection"
+		Mantén pulsado ↓ mientras vuelas para quedarte suspendido en el aire
+		Mantén pulsado ↓ para acelerar el descenso
+		$"Alcanzando la cima de la perfección"
 		'''
 }
 
 PhantomLightWing: {
-	DisplayName: Phantom Light Wings
-	Tooltip: Leaving starlight trails during flight
+	DisplayName: Alas de luz fantasmal
+	Tooltip: Deja estelas de luz estelar durante el vuelo
 }
 
 RuneWing: {
-	DisplayName: Soar Rune
+	DisplayName: Runa de vuelo
 	Tooltip:
 		'''
-		Press [KEY] to advance towards the mouse direction, during which immune damage occurs
-		Cooling is determined by the sprint distance, 
-		releasing the button in advance can end the sprint in advance, with a maximum sprint time of [DT] seconds
+		Pulsa [KEY] para avanzar en la dirección del cursorn; mientras tanto, se produce daño inmunológico.
+        El enfriamiento depende de la distancia recorrida, 
+        y si sueltas el botón antes de tiempo, puedes detener el sprint; la duración máxima del sprint es de [DT] segundos.
 		'''
 }
 
 BigShotsWing: {
-	DisplayName: Big Shot's Wings
+	DisplayName: Alas peso pesasdo
 	Tooltip:
 		'''
-		-90% flight time if there're any boss
-		"Now's your chance to be a..."
-		Hold shift and right click to toggle strings' transparency
+		-90% del tiempo de vuelo si hay algún jefe
+		"Ahora tienes la oportunidad de convertirte en..."
+		Mantén pulsada la tecla Mayús y haz clic derecho para activar o desactivar la transparencia de los textos
 		[TOGGLE]
 		'''
-	Visual0: Opaque
-	Visual1: Translucent
+	Visual0: Opaco
+	Visual1: Translúcido
 	Visual2: Invisible
 }
 
 IceShardWing: {
-	DisplayName: Ice Shard Wings
-	Tooltip: It actually uses magic to fly
+	DisplayName: Alas de fragmentos de hielo
+	Tooltip: En realidad, vuela gracias a la magia
 }
 
 TheRevelation: {
-	DisplayName: The Revelation
+	DisplayName: El Apocalipsis
 	Tooltip:
 		'''
-		Charging when using weapons,
-		when it is fully charged, release the mouse button to release a holy beam
-		deals 50 damage every 3 frames
-		Regarded as wing
-		hold [down] when flying to hover
-		"Awaken your faith"
+		Se carga mientras usas armas;
+		cuando esté completamente cargada, suelta el botón del ratón para lanzar un rayo sagrado;
+		inflige 50 puntos de daño cada 3 fotogramas;
+		se considera como alas;
+		mantén pulsada la tecla [down] mientras vuelas para flotar en el aire;
+		"Despierta tu fe".
 		'''
 }
 
 VoidElytra: {
-	DisplayName: Void Elytra
+	DisplayName: Elitras del vacío
 	Tooltip:
 		'''
-		Allow you to dash in four directions
-		[c/356498:Dedicate life to the void and achieve breakthroughs in the limits]
+		Te permite lanzarte en cuatro direcciones
+		[c/356498:Dedica tu vida al vacío y supera los límites]
 		'''
 }
