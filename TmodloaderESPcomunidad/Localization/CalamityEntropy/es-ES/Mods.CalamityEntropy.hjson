@@ -1,3 +1,5 @@
+ModNameOverride: Calamity Entropy
+
 Items: {
 	VoidBlade: {
 		DisplayName: Cuchilla del vacío
@@ -2147,6 +2149,11 @@ Items: {
 		Tooltip: ""
 	}
 
+	ApsychosMusicBox: {
+		DisplayName: Caja de música de Apsychos
+		Tooltip: ""
+	}
+
 	NihilityTwinsMusicBox: {
 		DisplayName: Caja de música de los Gemelos de la Nihilidad 
 		Tooltip: ""
@@ -3882,12 +3889,12 @@ Neltharion: {
 
 	HellstoneMissile: {
 		DisplayName: Misil de piedra infernal
-		Tooltip: ""
+		Tooltip: +5% de daño por cada proyectil conectado
 	}
 
 	WulfrumMissile: {
 		DisplayName: Misil de wulfrum 
-		Tooltip: ""
+		Tooltip: +5% de daño por cada proyectil conectado
 	}
 
 	CursedRunestone: {
@@ -3991,6 +3998,36 @@ Neltharion: {
 		DisplayName: Apoyo a distancia de Azafure
 		Tooltip: Invoca un dron de combate que dispara proyectiles perforantes contra los enemigos
 	}
+
+	AerialiteMissile: {
+		DisplayName: Misil de aerialita
+		Tooltip:
+			'''
+			Genera plumas al explotar
+			+5% de daño por cada proyectil adherido
+			'''
+	}
+
+	ClusterMissile: {
+		DisplayName: Misil de racimo
+		Tooltip:
+			'''
+			Explota tras un tiempo determinado o al impactar
+			Se divide en 5 pequeños proyectiles que persiguen a los enemigos al explotar
+			+100% al número máximo de proyectiles adheridos
+			+3% de daño por cada proyectil adherido
+			'''
+	}
+
+	GiantBoulder: {
+		DisplayName: Roca gigantesca
+		Tooltip: ""
+	}
+
+	BeewaxWall: {
+		DisplayName: Pared de cera de abeja
+		Tooltip: ""
+	}
 }
 
 SmolderingSetBonus:
@@ -4081,7 +4118,7 @@ MariviniumSet:
 DeathMode: Modo Muerte
 CdMantle: Enfriamiento del Manto sagrado
 MissileLauncherDescTooltip: Lanza misiles capaces de adherirse al enemigo y causarle daño de forma continua
-MissileLauncherMaxStickTooltip: Hasta {0} hilos adhesivos
+MissileLauncherMaxStickTooltip: Se pueden adherir hasta {0}
 
 Projectiles: {
 	VoidBladeProj.DisplayName: Void Blade
@@ -4710,6 +4747,11 @@ Projectiles: {
 	CombatDroneBullet.DisplayName: Combat Drone Bullet
 	EmberFireball.DisplayName: Ember Fireball
 	GhostFireMagic.DisplayName: Ghost Fire Magic
+	AerialiteMissileFeather.DisplayName: Aerialite Missile Feather
+	AerialiteMissileProj.DisplayName: Aerialite Missile Proj
+	ClusterMissileProj.DisplayName: Cluster Missile Proj
+	ClusterMissileSmall.DisplayName: Cluster Missile Small
+	GiantBoulderProj.DisplayName: Giant Boulder Proj
 }
 
 LegendTooltip: - Legendario -
@@ -5343,6 +5385,8 @@ Tiles: {
 	VoidOre.MapEntry: Mineral del vacío
 	VoidOreTile.MapEntry: Mineral del vacío
 	VoidBarTile.MapEntry: Lingote del vacío
+	GiantBoulderTile.MapEntry: Roca gigantesca
+	
 }
 
 VoidChargeBar: Barra de carga del vacío
