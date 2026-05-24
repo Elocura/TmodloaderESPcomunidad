@@ -15,6 +15,9 @@ LegendUpgradeConfirmUI: {
 	ConfirmText: Actualizar
 	CancelText: Cancelar
 	Success: "[ITEM] ha sido actualizado al nivel [LEVEL]."
+	QueueIndicator: Aún quedan {0} armas legendarias por confirmar.
+	TrustText: Confía en este mundo
+	TrustSuccess: "[ITEM] ha marcado este mundo como de confianza y, a partir de ahora, se sincronizará automáticamente"
 }
 
 QuestTracker: {
@@ -154,7 +157,7 @@ QuestLog: {
 	ResetViewText: Restablecer
 	SunModeText: Modo diurno
 	LauncherHoverText: Clic izquierdo para abrir, clic derecho para arrastrar
-	QuestManagerText: Tarea encomendada
+	QuestManagerText: Misión
 }
 
 QuestNotificationSystem.Text1: Misión completada
@@ -191,8 +194,10 @@ QuestWorldConfirmUI: {
 		'''
 	ConfirmText: Comprobar misiones
 	CancelText: Saltar
+	TrustText: Confiar en este mundo
 	EnabledText: Comprobación de misiones acticado
 	DisabledText: Comprobación de misión omitida
+	TrustedText: Mundo reconocido; a partir de ahora, la comprobación de misiones se activará automáticamente aquí
 	DisabledOverlayText:
 		'''
 		La comprobación de misiones está desactivada en este mundo.
@@ -710,7 +715,9 @@ SHPCUI: {
 	Cyber_SkillLocked: "[X] Requiere capa {0}"
 	Cyber_KeyUnbound: ?
 	Cyber_Skill_Teleport_Name: TELETRANSPORTE A LA BRECHA
-	Cyber_Skill_Teleport_Desc: Abre una grieta dimensional hacia el cursor y reaparece dentro del dominio.
+	Cyber_Skill_Teleport_Desc: Descompone el chasis en un flujo de datos para transmitirlo a la ubicación de destino, y vuelve a recomponer su forma física al amparo del protocolo del Muro negro.
+	Cyber_Skill_Restart_Name: SISTEMA REINICIADO
+	Cyber_Skill_Restart_Desc: Abre el dominio, fuerza el cierre de los procesos en curso y reinicia el núcleo, reparando al instante los daños del chasis y restaurando todas las funciones a un estado óptimo.
 	Cyber_Skill_Banish_Name: CIBEREXPULSAR
 	Cyber_Skill_Banish_Desc: Envía al enemigo que se encuentra bajo el cursor a las profundidades del ciberespacio.
 	Cyber_Skill_Freeze_Name: CONGELACIÓN DEL DOMINIO
@@ -741,8 +748,6 @@ SHPCUI: {
 	Talk_Description: Establece un contacto directo con SHPC
 	Talk_Status_Busy: OCUPADO
 	Talk_Status_Ready: LISTO
-	Cyber_Skill_Restart_Name: REINICIO DEL SISTEMA
-	Cyber_Skill_Restart_Desc: Hace que el dominio se colapse en una singularidad y resurja completamente restaurado.
 	Modify_Preset_A: PRESET-A
 	Modify_Preset_B: PRESET-B
 	Modify_Preset_C: PRESET-C
@@ -781,6 +786,16 @@ EntrustManagerLead: {
 	TextSuspendIntroHintAction: " →  Encargo suspendido"
 	TextSuspendIntroDesc1: "     Las comisiones suspendidas no aparecerán en el panel de seguimiento de la izquierda, lo que resulta ideal para dejarlas en suspenso temporalmente"
 	TextSuspendIntroDesc2: "     Puedes encontrarlos en la pestaña Suspendidos para reactivar el seguimiento"
+}
+
+CyberwareSkillRadialUI: {
+	StatusOn: ACTIVADO
+	HintClickToSelect: "[Clic] para establecer como habilidad actual"
+	HintAlreadySelected: "[Seleccionado actualmente]"
+	HintKindCharge: Modo cargado: mantén pulsado el gatillo para cargar y suéltalo para disparar
+	HintKindToggle: Modo alternativo: pulsa el gatillo para encenderlo o apagarlo
+	HintKindInstant: Modo instantáneo: Presiona el gatillo para disparar
+	HintNotReady: No se cumplen las condiciones
 }
 
 AbandonedPortalStrings: {
