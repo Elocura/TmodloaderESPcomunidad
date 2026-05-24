@@ -470,7 +470,7 @@ SHPCModuleStat: {
 	BeamExplodeOnHit: +RAYOS CON MICROPULSOS DETONADOS AL INPACTAR
 	OrbDrainAura: +ORBES SUCCIONARÁN A LOS ENEMIGOS MIENTRAS LO CARGAS
 	OrbExplosionPropels: +ORB COHETES DETONADOS QUE TE LANZARON POR LOS AIRES
-	LaserMode: +MODO LÁSER PRISMÁTICO: Hacer clic izquierdo disparará un haz láser que sigue el movimiento del cursor
+	LaserMode: +Al pulsar el botón izquierdo del ratón se dispara un rayo láser que sigue el movimiento del cursor
 	LaserScorchOnHit: +MÁS LÁSERES INCENDIAN A LOS ENEMIGOS
 	LaserPulse: +DETONACIONES DEL LÁSER EN SU EXTREMO
 	OrbFlyingAttract: +ORBES DE LANZARÁN A LOS ENEMIGOS CERCANOS
@@ -485,4 +485,27 @@ SHPCSlotName: {
 	Stock: Ranura de la culata
 	Grip: Ranura del agarre
 	Frame: Ranura del marco
+}
+
+MoldProcessingUI: {
+	Title: PROCESAMIENTO DE MOLDES
+	Subtitle: DESCOMPONER · REFORJAR
+	TabWorkbench: BANCO DE TRABAJO
+	TabCodex: CODEX
+	Decompose: DESCOMPONER
+	Reforge: REFORJAR
+	ClearPin: BORRAR PIN
+	RandomMode: ALEATORIO · LO DESCONOCIDO PRIMERO
+	PinnedMode: FIjADO DESDE CODEX
+	CostLine: COSTE: {0}
+	HaveLine: TIENES: {0}
+	UnknownName: ??????
+	ProgressFormat: "{0}/{1}"
+	ShardSuffix: FRAGMENTOS
+	EmptyCandidates: "// No hay módulos compatibles en el inventario"
+	CloseHint: PULSA ESC PARA CERRAR
+	DecomposeHint: Haz clic en un módulo para descomponerlo
+	CodexHint: Haz clic en un molde encontrado para marcarlo como objetivo de reforja
+	Discovered: DESCUBIERTO
+	PinnedTag: FIJADO
 }
