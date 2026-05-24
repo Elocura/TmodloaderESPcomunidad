@@ -1,7 +1,17 @@
-SHPCModTooltipDraw: {
+﻿SHPCModTooltipDraw: {
 	InstalledHeader: INSTALLED MODULES
 	NoModules: NONE
 	BonusHeader: TOTAL MODULE BONUSES
+}
+
+MoldProcessingTable: {
+	DisplayName: Mold Processing Table
+	Tooltip:
+		'''
+		Right-click to open the Mold Processing Table
+		Deconstruct: Melts down surplus modification parts into fragments
+		Recast: Consumes fragments to produce new molds; can lock onto specific targets in the index
+		'''
 }
 
 ElementWhip: {
@@ -59,6 +69,27 @@ DivineSourceBlade: {
 FoodStallChair: {
 	DisplayName: Food Stall Chair
 	Tooltip: I AM THE CHAIR THAT IS APPROACHING!
+}
+
+Arbiter: {
+	DisplayName: Arbiter
+	Tooltip:
+		'''
+		Hold left click to charge and raise the axe of judgment
+		Release to cleave downward, sending a ground-hugging flame shockwave bursting out to both sides
+		Longer charges increase the flames' reach and power
+		"Judgment descends through fire"
+		'''
+}
+
+Cloudwalking: {
+	DisplayName: Cloudwalking
+	Tooltip:
+		'''
+		Hold left click to charge and raise the great axe
+		Release to send the axe flying forward, trailing clouds in its wake
+		The axe automatically returns to you
+		'''
 }
 
 AnnihilatingUniverse: {
@@ -247,17 +278,17 @@ DragonsScaleGreatsword: {
 
 CosmicCalamity: {
 	DisplayName: Galactic Disaster
-	Tooltip: Throws a Javelin infused with the Devourer's power. Stealth strikes causes several laser beams to assail the enemy.
+	Tooltip: Attack generates crescent-shaped shock waves.
 }
 
 SpearOfLonginus: {
 	DisplayName: Spear of Longinus
 	Tooltip:
 		'''
-		Each time the stealth bar fills, the Spear charges up and depletes stealth back to 0.
-		The maximum amount of charge is 6 full stealth bars.
-		When charged, circles will show the Area of effect. Upon thrown, It will unleash a world shattering strike.
-		If the spear has charge, the attack will be followed by a laser from the sun, sealing anything's fate.
+		While held, a holy cross forms beneath you and steadily fills with divine energy.
+		Each time the bar is filled, the Spear gains one charge, up to a maximum of six fields of holy power.
+		Marks the nearest enemy with the cross of fate while held.
+		Striking a marked enemy with a charged throw unleashes the Pilgrim's Fury.
 		[legend]
 		'''
 	Legend:
@@ -289,36 +320,6 @@ BloodAltar: {
 		Automatically collects dropped blood orbs from around the world and stores them in the nearest storage bin.
 		"Let the world be wreathed by Crimson."
 		'''
-}
-
-StarMyriadChanges: {
-	DisplayName: Star Myriad Changes
-	Tooltip: Praise the God of change!
-}
-
-TerminusOver: {
-	DisplayName: The final touch
-	Tooltip: The final battle awaits, however there is a price to pay.
-}
-
-PestilenceIngot: {
-	DisplayName: Pestilence Ingot
-	Tooltip: Smells like pungent sour apple candy.
-}
-
-ReminiscenceBreastplate: {
-	DisplayName: Reminiscence Breastplate
-	Tooltip: Reminisence on the Journey you've had and how far you have come.
-}
-
-MurasamaMould: {
-	DisplayName: Blood gold mold
-	Tooltip: A Material from seemingly another plain of existence. Its warm and electrifying to the touch and it seems to seek for bloodshed.
-}
-
-OverhaulTheBibleBook: {
-	DisplayName: Overhaul The Bible
-	Tooltip: Use to see Calamity Overhaul Mod related tutorials.... There may be more to come here later
 }
 
 BarrenBow: {
@@ -539,8 +540,8 @@ NeutronScythe: {
 	DisplayName: Blackhole Messenger
 	Tooltip:
 		'''
-		The scythe fires gamma rays at enemies, leaving several warp points along its path.
-		Stealth attack throws a circle of scythes.
+		A high-speed spinning neutron scythe that fires gamma rays at nearby enemies and leaves warp detonation points along its path.
+		Right click to unleash a Blackhole Burst, hurling thirteen scythes outward in a full circle.
 		'''
 }
 
@@ -648,8 +649,8 @@ SandDagger: {
 	DisplayName: Sand Dagger
 	Tooltip:
 		'''
-		Throws onto sand, then jumps into the air and explodes after a while
-		Stealth attacks throw an enhanced dagger
+		Hurled in a straight line and lightly pulled down by gravity
+		Embeds on impact; if struck into sand, it builds up before bursting upward to unleash a ground shockwave and a volley of sand spikes
 		'''
 }
 
@@ -690,8 +691,9 @@ SeasonalKunai: {
 	DisplayName: Seasonal Kunai
 	Tooltip:
 		'''
-		Throws three homing kunai at enemies
-		Stealth attacks throw a large kunai that splits at the end of its trajectory
+		Throws four primary kunai in a fan; each pierces deeply and grows larger as it flies
+		On hit or expiration, every blade splits into three secondary kunai sweeping outward
+		Daybreak by day, Nightwither by night
 		"Reflecting the Four Seasons"
 		'''
 }
@@ -700,8 +702,9 @@ WraithKunai: {
 	DisplayName: Wraith Kunai
 	Tooltip:
 		'''
-		Throws three homing kunai at enemies
-		Stealth attacks summon a group of ghostly daggers hovering around the player
+		Hurls three crimson blades in a fan; each hovers briefly before charging the nearest foe at high speed
+		Charging strikes erupt with crimson sparks and screen shake, and the blades detonate into soulburning shockwaves at the end of their flight
+		Sets enemies On Fire by day, Soul-burns them by night
 		'''
 }
 
@@ -811,11 +814,11 @@ CommandersChainsaw: {
 }
 
 GeminisTribute: {
-	DisplayName: Twins' Tribute
+	DisplayName: Twins' Yonder
 	Tooltip:
 		'''
-		Throws a fast-revolving scythe that slashes back and forth
-		Stealth attacks unleash a swarm of Destroyer cruise missiles
+		Alternately hurls a Retinazer scythe and a Spazmatism scythe, slashing back and forth along a sine-wave path
+		Right-click launches both scythes in a crossing arc; on impact a fused Twins eye condenses and rains dual-colored pulses across the area
 		"Only one dominant personality can exist, and clearly, Magmaflame Eye has won."
 		'''
 }
@@ -873,8 +876,9 @@ CommandersClaw: {
 	DisplayName: Commander's Claw
 	Tooltip:
 		'''
-		Throw them at the enemies and restrain them.
-		The stealth attack will generate several Destroyer Grenades.
+		Hurl an ornate commander's spear that always keeps its tip pointing forward.
+		Each impact erupts with metallic sparks, shockwaves, and a sharp screen shake.
+		Multiple spears can fly at once, embedding into terrain on a wall hit and pinning to enemies on a strike.
 		'''
 }
 
@@ -1232,8 +1236,8 @@ SporeburstPouch: {
 	DisplayName: Sporeburst Pouch
 	Tooltip:
 		'''
-		Throws a volatile pouch of fungal spores that explodes on impact
-		Stealth strikes unleash a much larger fungal detonation and a swarm of homing spore wisps
+		Lobs a tumbling spore grenade that detonates on impact or when its lifetime ends
+		Releases a toxic shockwave and a swarm of homing spore shrapnel; struck enemies are Poisoned
 		'''
 }
 
@@ -1655,9 +1659,129 @@ SandevistansItem: {
 	Tooltip: Militech Sandevistan Mk.5 — Slows perceived time by 70% for 3.5 seconds. Cooldown 15s.
 }
 
+Sandevistan: {
+	SkillName: Sandevistan
+	SkillDesc:
+		'''
+		Drastically slows perceived time, letting you move and act in apparent slow motion.
+		The reserve drains during use and auto-disables when empty, then refills naturally.
+		Select again in the radial to toggle it back off manually.
+		'''
+}
+
 MimicPerchedAuxBrain: {
-	DisplayName: Mimic Perched Aux Brain
-	Tooltip: ""
+	DisplayName: Mimic Perched Auxiliary Brain
+	Tooltip:
+		'''
+		Splits the host into four illusions that drift around the main body.
+		When struck, the real self hidden among the illusions will cause chaos and gain immunity, 
+		taking no damage from the attack.
+		Meanwhile, the illusions will charge at the attacker and detonate, 
+		dealing damage scaled with the enemy's raw attack power.
+		'''
+}
+
+CstmVisualEye: {
+	DisplayName: CSTM Opti-Visual Cybereye
+	Tooltip:
+		'''
+		A cybernetic optical implant that syncs Hack-Time directly into your cranial neural network.
+		Increases max RAM by 4
+		Displays an independent RAM arc bar in the bottom-left corner of the screen
+		'''
+}
+
+PrimePlasama: {
+	DisplayName: Prime Plasma Subdermal Armor
+	Tooltip:
+		'''
+		A layer of electroactive gel woven beneath the entire body's skin.
+		Permanently grants 25 defense and 6% damage reduction.
+		Massively boosts knockback resistance — common impacts can hardly stagger you.
+		'''
+}
+
+OmniElectricFoot: {
+	DisplayName: OmniElectric Foot
+	Tooltip:
+		'''
+		A high-output locomotor cybernetic combining electromagnetic recoil with dense propulsion gel.
+		Grants a mid-air double jump, letting you launch off again after leaving the ground.
+		Hover the Charge Jump slice in the cyberware radial to charge up, then release to launch.
+		A fully charged jump can reach more than twice the height of a normal jump.
+		'''
+	SkillHint: Hover Charge Jump on the {0} radial to charge
+	SkillName: Charge Jump
+	SkillDesc:
+		'''
+		Electromagnetic-propulsion burst leap.
+		Requires standing on the ground; hover time on the slice IS the charge time.
+		Release the key to launch at up to 2.5x normal jump height when fully charged.
+		'''
+}
+
+PlowSteelClampArm: {
+	DisplayName: PlowSteel Clamp Arm
+	Tooltip:
+		'''
+		An industrial cybernetic featuring magnetic pickup and high-rigidity clamps.
+		Greatly extends mining and block-placement range.
+		Permanently enables magnetic pickup of items and coins.
+		Cyberware skill: release a high-heat monomolecular wire from your palm.
+		Tap for a short wire, hold for a long wire; enemies along the path are continuously scorched.
+		'''
+	SkillHint: "[c/8AC4E8:{1}] Open the cyberware radial to switch · [c/F5C56A:{0}] Fire the wire (tap = short / hold = long)"
+	SkillName: Monomolecular Wire
+	SkillDesc:
+		'''
+		Hurls a high-heat monomolecular wire from your palm. Enemies along the path are continuously scorched.
+		[c/8AC4E8:Tap] —— Lays a ~12-tile short wire toward the cursor, lasts 2 seconds, no anchor required.
+		[c/F5C56A:Hold] —— Once fully charged, pins to a solid tile near the cursor for 5 seconds; if no anchor is found, falls back to a short wire.
+		Damage scales with the player's generic damage multipliers.
+		'''
+}
+
+SelfHealingSkelent: {
+	DisplayName: Self-Healing Endoskeleton
+	Tooltip:
+		'''
+		A high-tier biocyber implant that replaces the native skeleton with a nanocrystal lattice.
+		Continuously grants +2 HP/s life regeneration and +40 max life.
+		Out of combat for 4 seconds, enters Nanorepair state with greatly boosted regeneration.
+		The metallic endoskeleton fully negates fall damage.
+		'''
+}
+
+SelfHackCrystal: {
+	DisplayName: Self-Hack Crystal
+	Tooltip:
+		'''
+		A high-tier network cybernetic in the operating system slot.
+		Redirects the hacking interface back at the host.
+		Continuously grants additional RAM recovery speed.
+		Cyberware skill: spend RAM to instantly clear all debuffs
+		and gain brief invincibility — a window to break out of lethal situations.
+		'''
+	SkillHint: Trigger Self-Hack from the {0} radial to purge debuffs with RAM
+	SkillName: Self-Hack
+	SkillDesc:
+		'''
+		Redirects the hacking interface back at yourself for an emergency cleanse.
+		Spends 3 RAM to instantly remove all debuffs and grants ~1.5s of invincibility.
+		12s cooldown; auto-greys out when RAM is insufficient or still cooling down.
+		'''
+}
+
+SCCA32CRP: {
+	DisplayName: SCCA-32 CRP
+	Tooltip:
+		'''
+		An advanced neural-muscular co-processor.
+		Routes threat prediction and muscle-fiber reflexes around the brain entirely.
+		Continuously grants +8% critical strike chance and +8% movement speed.
+		18% chance to trigger a Reflex Dodge when struck, fully negating that hit.
+		On a successful dodge, enters a 3-second Reflex Surge with bonus crit and move speed.
+		'''
 }
 
 RamCapacityUpgradeChip: {
@@ -2101,8 +2225,9 @@ CascadeGripModule: {
 	DisplayName: Cascade Grip
 	Tooltip:
 		'''
-		A topological trigger fires a radial burst of 8 beams at the point of impact every 5 hits
-		Burst beams deal moderate damage; creates rhythmic high-density output
+		Every 5 hits, spawns a hovering cascade node at the point of impact
+		The node lingers ~2 seconds and fires 5 homing beams that hunt nearby enemies
+		Slightly reduces base damage
 		'''
 }
 
@@ -2157,6 +2282,96 @@ ConcussionBarrelModule: {
 		'''
 		An overload buffer detonates a small concussion ring at the impact point every 5 stacked hits
 		Per-shot damage and spread tighten, but attack speed pays the toll
+		'''
+}
+
+ObsidianBarrelModule: {
+	DisplayName: Obsidian Barrel
+	Tooltip:
+		'''
+		Hits carve obsidian cracks into targets; at full stacks they shatter into hunting volcanic glass
+		Orb detonations rupture nearby cracks early, rewarding sustained pressure on clustered enemies
+		'''
+}
+
+LifebloomBarrelModule: {
+	DisplayName: Lifebloom Barrel
+	Tooltip:
+		'''
+		Beams seed parasitic lifebuds that drain delayed damage and return a little life to the wielder
+		When a host dies, the bud transfers to a nearby enemy and keeps growing
+		'''
+}
+
+MagmaVentBarrelModule: {
+	DisplayName: Magma Vent Barrel
+	Tooltip:
+		'''
+		Hits and expired beams leave short-lived magma vents that periodically erupt into vertical heat columns
+		Underworld and high-heat liquid conditions make the vents cycle faster for area denial
+		'''
+}
+
+CumulusBarrelModule: {
+	DisplayName: Cumulus Barrel
+	Tooltip:
+		'''
+		Beam paths condense chargeable cloud nodes that feed on nearby SHPC beams and charge orbs
+		Once full, each cloud drops three short rain-lightning beams for positional firepower
+		'''
+}
+
+MossboundBarrelModule: {
+	DisplayName: Mossbound Barrel
+	Tooltip:
+		'''
+		Beams sow wet moss patches that slow enemies and build toward a brief root snare
+		Flying charge orbs absorb nearby moss to enlarge their final blast
+		'''
+}
+
+FrostfernBarrelModule: {
+	DisplayName: Frostfern Barrel
+	Tooltip:
+		'''
+		The first strike draws an ice-vein behind the target, sharing frost with enemies caught along the line
+		It links crowds through branching fern geometry instead of simply freezing one victim
+		'''
+}
+
+SandstormBarrelModule: {
+	DisplayName: Sandstorm Barrel
+	Tooltip:
+		'''
+		Sustained fire rolls a moving sand curtain forward, abrading enemies and softening hostile projectiles
+		Beams gain extra pierce while mana draw rises to keep the storm moving
+		'''
+}
+
+CoralReefBarrelModule: {
+	DisplayName: Coral Reef Barrel
+	Tooltip:
+		'''
+		Impact points grow coral anchors that connect into damaging reef lines
+		Orb detonations make nearby anchors release synchronized circular surges
+		'''
+}
+
+HiveBarrelModule: {
+	DisplayName: Hive Barrel
+	Tooltip:
+		'''
+		Left-click hits tag foes with pheromones, then orb detonations launch cyber bees at marked targets
+		Spread markers across the fight to make the swarm split and cover the field
+		'''
+}
+
+MoondewBarrelModule: {
+	DisplayName: Moondew Barrel
+	Tooltip:
+		'''
+		Beam trails condense dew prisms that refract later beams into short derived shots
+		Night and near-full moons raise each prism's refraction ceiling and payoff
 		'''
 }
 
