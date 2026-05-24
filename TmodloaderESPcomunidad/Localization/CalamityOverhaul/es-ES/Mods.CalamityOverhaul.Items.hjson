@@ -4,6 +4,16 @@ SHPCModTooltipDraw: {
 	BonusHeader: TOTAL DE BONIFICACIONES DE MÓDULOS
 }
 
+MoldProcessingTable: {
+	DisplayName: Mesa de procesamiento de moldes
+	Tooltip:
+		'''
+		Haz clic derecho para abrir la tabla de procesamiento de moldes
+        Desmontar: funde las piezas de modificación sobrantes y las convierte en fragmentos
+        Refundir: consume fragmentos para producir nuevos moldes; puede fijarse en objetivos específicos en el índice
+		'''
+}
+
 ElementWhip: {
 	DisplayName: Látigo elemental
 	Tooltip: Un látigo impregnado de la energía de la luna y los elementos.
@@ -60,6 +70,28 @@ FoodStallChair: {
 	DisplayName: Silla para puesto de comida
 	Tooltip: I AM THE CHAIR THAT IS APPROACHING!
 }
+
+Arbiter: {
+	DisplayName: Árbitro
+	Tooltip:
+		'''
+		Mantén pulsado clic izquierdo del ratón para cargar y levantar el hacha del juicio.
+        Suelta el botón para asestar un tajo hacia abajo, lo que provocará una onda de choque llameante que se extenderá a ambos lados a ras de suelo.
+        Cuanto más tiempo se cargue, mayor será el alcance y la potencia de las llamas.
+        "El juicio desciende a través del fuego"
+		'''
+}
+
+Cloudwalking: {
+	DisplayName: Caminar sobre nubes
+	Tooltip:
+		'''
+		Mantén pulsado clicn izquierdo del ratón para cargar y levantar el hacha gigante
+        Suelta el botón para lanzar el hacha hacia delante, dejando una estela de humo a su paso
+        El hacha volverá automáticamente hacia ti
+		'''
+}
+
 
 AnnihilatingUniverse: {
 	DisplayName: Aniquilador universal
@@ -248,17 +280,17 @@ DragonsScaleGreatsword: {
 
 CosmicCalamity: {
 	DisplayName: Desastre galáctico
-	Tooltip: Lanza una jabalina imbuida con el poder del Devorador. Los ataques sigilosos provocan que varios rayos láser ataquen al enemigo.
+	Tooltip: Atacar genera ondas de choque con forma de media luna.
 }
 
 SpearOfLonginus: {
 	DisplayName: Lanza de Longinus
 	Tooltip:
 		'''
-		Cada vez que se llena la barra de sigilo, la lanza se carga y agota el sigilo hasta llegar a 0.
-		La cantidad máxima de carga es de 6 barras de sigilo completas.
-		Cuando se carga, los círculos mostrarán el área de efecto. Al lanzarlo, desatará un golpe devastador.
-		Si la lanza está cargada, al atacar caerá un rayo láser procedente del sol, que sellará el destino de cualquier cosa.
+		Mientras la sujetas, se forma una cruz sagrada bajo tus pies que se va llenando poco a poco de energía divina.
+		Cada vez que se llena la barra, la Lanza gana una carga, hasta un máximo de seis campos de poder sagrado.
+		Marca al enemigo más cercano con la cruz del destino mientras la mantienes.
+		Al golpear a un enemigo marcado con un lanzamiento cargado, se desata la Furia del Peregrino.
 		[legend]
 		'''
 	Legend:
@@ -539,8 +571,8 @@ NeutronScythe: {
 	DisplayName: Mensajero del agujero negro
 	Tooltip:
 		'''
-		La guadaña dispara rayos gamma a los enemigos, dejando varios puntos de distorsión a lo largo de su trayectoria.
-		El ataque sigiloso lanza un círculo de guadañas
+		Una guadaña de neutrones que gira a gran velocidad dispara rayos gamma contra los enemigos cercanos y deja puntos de detonación deformados a su paso.
+        Haz clic derecho para lanzar una "Explosión de agujero negro", que lanza trece guadañas hacia fuera en un círculo completo
 		'''
 }
 
@@ -649,8 +681,8 @@ SandDagger: {
 	DisplayName: Daga de arena
 	Tooltip:
 		'''
-		Lanza una daga de arena. Al inpactar explota en proyectiles que caen desde arriba.
-		Los ataques sigilosos lanzan una daga mejorada
+		Se lanza en línea recta y ligeramente cae hacia abajo por la gravedad
+		Se clava al impactar; si se clava en la arena, se acumula antes de estallar hacia arriba y desatar una onda de choque en el suelo y una lluvia de picos de arena
 		'''
 }
 
@@ -691,8 +723,9 @@ SeasonalKunai: {
 	DisplayName: Kunai estacional
 	Tooltip:
 		'''
-		Lanza tres kunai teledirigidos contra los enemigos.
-		Los ataques sigilosos lanzan un kunai grande que se divide al final de su trayectoria.
+		Lanza cuatro kunais principales en forma de abanico; cada uno penetra profundamente y aumenta de tamaño a medida que vuela
+		Al impactar o al agotarse, cada hoja se divide en tres kunais secundarios que se dispersan hacia afuera
+		Amanecer durante el día, Marcha de la Noche durante la noche.
 		"Reflejando las cuatro estaciones".
 		'''
 }
@@ -701,8 +734,9 @@ WraithKunai: {
 	DisplayName: Kunai espectral
 	Tooltip:
 		'''
-		Lanza tres kunai teledirigidos a los enemigos.
-		Los ataques sigilosos invocan un grupo de dagas fantasmales que flotan alrededor del jugador
+		Lanza tres espadas carmesí en abanico; cada una de ellas se mantiene suspendida en el aire brevemente antes de abalanzarse a gran velocidad sobre el enemigo más cercano
+        Las embestidas estallan con chispas carmesí y sacuden la pantalla, y las espadas detonan al final de su trayectoria, provocando ondas de choque que queman el alma
+        Incendia a los enemigos durante el día y les quema el alma por la noche
 		'''
 }
 
@@ -815,8 +849,8 @@ GeminisTribute: {
 	DisplayName: Homenaje a los gemelos
 	Tooltip:
 		'''
-		Lanza una guadaña que gira rápidamente y corta de un lado a otro.
-		Los ataques sigilosos desatan una lluvia de misiles de crucero destructores.
+		Lanza alternativamente una guadaña Retinator y una guadaña Espasmatizador, trazando un recorrido sinusoidal de un lado a otro
+		Al hacer clic derecho, lanza ambas guadañas en un arco cruzado; al impactar, un ojo de los Gemelos fusionado se condensa y lanza una lluvia de pulsos bicolores por toda la zona
 		"Solo puede existir una personalidad dominante y, claramente, el ojo Espasmatizador ha ganado".
 		'''
 }
@@ -874,8 +908,9 @@ CommandersClaw: {
 	DisplayName: Garra del comandante
 	Tooltip:
 		'''
-		Lánzala contra los enemigos para inmovilizalos.
-		El ataque sigiloso generará varias granadas destructoras
+		Lanza una lanza de comandante ornamentada cuya punta siempre apunta hacia delante.
+		Cada impacto provoca una lluvia de chispas metálicas, ondas de choque y un fuerte temblor de la pantalla.
+		Pueden volar varias lanzas a la vez, clavándose en el terreno al impactar contra una pared y atravesando a los enemigos al golpearlos.
 		'''
 }
 
@@ -1232,8 +1267,8 @@ SporeburstPouch: {
 	DisplayName: Bolsa explosiva de esporas
 	Tooltip:
 		'''
-		Lanza una bolsa volátil de esporas fúngicas que explota al impactar.
-		Los ataques sigilosos desencadenan una detonación fúngica mucho mayor y un enjambre de esporas autoguiadas.
+		Lanza una granada de esporas giratoria que detona al impactar o cuando se agota su tiempo de vida
+		Libera una onda de choque tóxica y una lluvia de metralla de esporas autoguiadas; los enemigos alcanzados quedan envenenados
 		'''
 }
 
@@ -1660,9 +1695,129 @@ SandevistansItem: {
 		'''
 }
 
+Sandevistan: {
+	SkillName: Sandevistan
+	SkillDesc:
+		'''
+		Ralentiza drásticamente la percepción del tiempo, lo que te permite moverte y actuar como a cámara lenta.
+		La reserva se agota durante el uso y se desactiva automáticamente cuando se agota, para luego recargarse de forma natural.
+		Vuelve a seleccionarla en el menú radial para desactivarla manualmente.
+		'''
+}
+
 MimicPerchedAuxBrain: {
 	DisplayName: Cerebro auxiliar mímico en reposo
-	Tooltip: ""
+	Tooltip:
+			'''
+			Divide al anfitrión en cuatro ilusiones que flotan alrededor del cuerpo principal.
+			Cuando recibe un golpe, el yo real, oculto entre las ilusiones, provocará el caos y obtendrá inmunidad, 
+			sin sufrir daño alguno por el ataque.
+			Mientras tanto, las ilusiones se lanzarán contra el atacante y detonarán, 
+			infligiendo daño proporcional a la potencia de ataque bruta del enemigo.
+			'''
+}
+
+CstmVisualEye: {
+	DisplayName: Ciberojo CSTM Opti-Visual
+	Tooltip:
+		'''
+		Un implante óptico cibernético que sincroniza el Modo hackeo directamente con tu red neuronal craneal.
+		Aumenta la RAM máxima en 4
+		Muestra una barra de RAM independiente en la esquina inferior izquierda de la pantalla
+		'''
+}
+
+PrimePlasama: {
+	DisplayName: Armadura subcutánea de plasma de primera calidad
+	Tooltip:
+		'''
+		Posee una capa de gel electroactivo entretejida bajo toda la piel del cuerpo.
+		Otorga de forma permanente 25 de defensa y un 6% de reducción de daño.
+		Aumenta enormemente la resistencia al empuje: los golpes normales apenas te hacen tambalear.
+		'''
+}
+
+OmniElectricFoot: {
+	DisplayName: Pie omnieléctrico
+	Tooltip:
+		'''
+		Es una locomotora cibernética de gran potencia que combina el retroceso electromagnético con un gel de propulsión denso.
+		Permite realizar un doble salto en el aire, lo que te permite impulsarte de nuevo tras despegar del suelo.
+		Mantén pulsada la opción "Salto cargado" en el menú radial de ciberimplantes para cargarla y, a continuación, suéltala para lanzarte.
+		Un salto completamente cargado puede alcanzar más del doble de altura que un salto normal.
+		'''
+	SkillHint: Mantente en el aire, carga y salta sobre el cradial {0} para cargar
+	SkillName: Salto cargado
+	SkillDesc:
+		'''
+		Salto impulsado por propulsión electromagnética.
+		Debes estar de pie en el suelo; la duración del salto es igual al tiempo de carga.
+		Suelta el botón para lanzarte a una altura de hasta 2,5 veces la de un salto normal cuando esté completamente cargado.
+		'''
+}
+
+PlowSteelClampArm: {
+	DisplayName: Brazo de sujeción de Plowsteel
+	Tooltip:
+		'''
+		Un implante cibernético industrial con captación magnética y abrazaderas de alta rigidez.
+		Amplía considerablemente el alcance de la minería y la colocación de bloques.
+		Activa de forma permanente la captación magnética de objetos y monedas.
+		Habilidad cibernética: lanza un cable monomolecular de alta temperatura desde la palma de la mano.
+		Toca para lanzar un cable corto; mantén pulsado para lanzar uno largo; los enemigos que se encuentren en el camino sufrirán quemaduras continuas.
+		'''
+	SkillHint: "[c/8AC4E8:{1}] Abre el menú radial de ciberimplantes para cambiar · [c/F5C56A:{0}] Activa el cable (Un toque = cable corta / mantener pulsado = cable largo)"
+	SkillName: Cable monomolecular
+	SkillDesc:
+		'''
+		Lanza un hilo monomolecular a alta temperatura desde la palma de la mano. Los enemigos que se encuentran en su trayectoria quedan abrasados continuamente.
+		[c/8AC4E8:Tap] —— Tiende un cable corto de unas 12 casillas hacia el cursor; dura 2 segundos; no requiere anclaje.
+		[c/F5C56A:Hold] —— Una vez cargado por completo, se fija a una bloque sólido cercano al cursor durante 5 segundos; si no encuentra ningún punto de anclaje, vuelve a su posición inicial con un cable corto.
+		El daño varía en función de los multiplicadores de daño generales del jugador.
+		'''
+}
+
+SelfHealingSkelent: {
+	DisplayName: Endoesqueleto autorreparable
+	Tooltip:
+		'''
+		Un implante biocibernético de alto nivel que sustituye el esqueleto natural por una red de nanocristales.
+		Otorga de forma continua +2PV/s de regeneración de vida y +40 de vida máxima.
+		Al estar fuera de combate durante 4 segundos, entra en estado de "nanorreparación" que aporta una regeneración muy potenciada.
+		El endoesqueleto metálico anula por completo el daño por caída.
+		'''
+}
+
+SelfHackCrystal: {
+	DisplayName: Cristal de autohackeo
+	Tooltip:
+		'''
+		Un implante cibernético de red de alto nivel que se coloca en la ranura del sistema operativo.
+		Redirige la interfaz de hackeo hacia el propio huesped.
+		Proporciona continuamente una mayor velocidad de recuperación de RAM.
+		Habilidad de ciberware: gasta RAM para eliminar al instante todos los efectos negativos
+		y obtener una breve invulnerabilidad, lo que te da un respiro para escapar de situaciones letales
+		'''
+	SkillHint: Activa "Autohackeo" desde el menú radial {0} para eliminar los efectos negativos con la RAM
+	SkillName: Autohackeo
+	SkillDesc:
+		'''
+		Redirige la interfaz de hackeo hacia ti mismo para realizar una limpieza de emergencia.
+		Consume 3 de RAM para eliminar al instante todos los efectos negativos y otorga ~1,5s de invencibilidad.
+		Tiempo de recarga de 12s; se desactiva automáticamente si no hay suficiente RAM o si aún está en tiempo de recarga
+		'''
+}
+
+SCCA32CRP: {
+	DisplayName: SCCA-32 CRP
+	Tooltip:
+		'''
+		Un coprocesador neuromuscular avanzado.
+		Desvía por completo del cerebro la predicción de amenazas y los reflejos de las fibras musculares.
+		Otorga de forma continua un +8% de probabilidad crítica y un +8% de velocidad de movimiento.
+		Hay un 18% de probabilidad de activar una "Esquiva instintiva" al recibir un golpe, anulando por completo dicho impacto.
+		Al esquivar con éxito, se entra en un "Impulso instintivo" de 3 segundos, lo que da bonificaciones a la probabilidad crítica y a la velocidad de movimiento.
+		'''
 }
 
 RamCapacityUpgradeChip: {
@@ -2106,8 +2261,9 @@ CascadeGripModule: {
 	DisplayName: Agarre en cascada
 	Tooltip:
 		'''
-		Un disparador topológico lanza una ráfaga radial de 8 rayos en el punto de impacto cada 5 impactos
-		Los rayos de la ráfaga infligen daño moderado; generan una descarga rítmica de alta densidad
+		Cada 5 impactos, aparece un nodo en cascada que flota en el punto de impacto
+		El nodo permanece unos 2 segundos y dispara 5 rayos autoguiados que persiguen a los enemigos cercanos
+		Reduce ligeramente el daño base
 		'''
 }
 
@@ -2139,7 +2295,7 @@ OverkillFrameModule: {
 }
 
 GraviticBarrelModule: {
-	DisplayName: Cañon gravitacional
+	DisplayName: Boquilla gravitacional
 	Tooltip:
 		'''
 		Una microsingularidad integrada atrae a los enemigos cercanos hacia cada rayo
@@ -2148,7 +2304,7 @@ GraviticBarrelModule: {
 }
 
 PrismaticBarrelModule: {
-	DisplayName: Cañon prismático
+	DisplayName: Boquilla prismática
 	Tooltip:
 		'''
 		Los prismas de dispersión lanzan trazas RGB desde cada rayo, esparciendo fragmentos de color al impactar
@@ -2162,6 +2318,96 @@ ConcussionBarrelModule: {
 		'''
 		Un amortiguador de sobrecarga provoca una pequeña onda de choque en el punto de impacto cada 5 golpes
 		El daño por disparo y la dispersión se reducen, pero la velocidad de ataque se ve afectada
+		'''
+}
+
+ObsidianBarrelModule: {
+	DisplayName: Boquilla de obsidiana
+	Tooltip:
+		'''
+		Los impactos tallan grietas de obsidiana en los objetivos; cuando se acumulan al máximo, estos se hacen añicos y se convierten en cristales volcánicos
+		Las detonaciones de los orbes rompen prematuramente las grietas cercanas, lo que recompensa la presión constante sobre grupos de enemigos
+		'''
+}
+
+LifebloomBarrelModule: {
+	DisplayName: Boquilla floreciente
+	Tooltip:
+		'''
+		Los rayos lanzan brotes de vida parásitos que absorben el daño diferido y devuelven un poco de vida al portador
+		Cuando el huésped muere, el brote se traslada a un enemigo cercano y sigue creciendo
+		'''
+}
+
+MagmaVentBarrelModule: {
+	DisplayName: Boquilla contuctora de magma
+	Tooltip:
+		'''
+		Los impactos y los haces dejan conductos de magma efímeros que erupcionan periódicamente en columnas de calor verticales
+		Las condiciones del inframundo y del líquido a alta temperatura aceleran el ciclo de los conductos, lo que impide el acceso a la zona
+		'''
+}
+
+CumulusBarrelModule: {
+	DisplayName: Boquilla de cúmulos
+	Tooltip:
+		'''
+		Las trayectorias de los rayos condensan nodos de nubes cargadas que se alimentan de los rayos SHPC y los orbes de carga cercanos
+		Una vez llena, cada nube lanza tres rayos cortos de lluvia y relámpagos para proporcionar potencia de fuego posicional
+		'''
+}
+
+MossboundBarrelModule: {
+	DisplayName: Boquilla cubierta de musgo
+	Tooltip:
+		'''
+		Los rayos siembran manchas de musgo húmedo que ralentizan a los enemigos y se acumulan hasta formar una breve trampa de raíces
+		Los orbes de carga voladores absorben el musgo cercano para aumentar la potencia de su explosión final
+		'''
+}
+
+FrostfernBarrelModule: {
+	DisplayName: Boquilla a prueba de heladas
+	Tooltip:
+		'''
+		El primer golpe traza una veta de hielo detrás del objetivo, afectando con frío a los enemigos que se encuentren en su trayectoria
+		Enlaza a los grupos mediante una geometría ramificada en forma de helecho, en lugar de limitarse a congelar a una sola víctima
+		'''
+}
+
+SandstormBarrelModule: {
+	DisplayName: Boquilla tempestad de arena
+	Tooltip:
+		'''
+		Un disparo incesante hace avanzar una cortina de arena en movimiento, que desgasta a los enemigos y debilita los proyectiles hostiles
+        Los rayos ganan penetración adicional, mientras que la absorción de maná aumenta para mantener la tormenta en movimiento
+		'''
+}
+
+CoralReefBarrelModule: {
+	DisplayName: Boquilla arrecife de coral
+	Tooltip:
+		'''
+		Los puntos de impacto generan anclas de coral que se unen formando líneas de arrecifes destructivas
+		Las detonaciones de los orbes hacen que las anclas cercanas liberen ondas circulares sincronizadas
+		'''
+}
+
+HiveBarrelModule: {
+	DisplayName: Boquilla colmena
+	Tooltip:
+		'''
+		Al hacer clic izquierdo se rocía a los enemigos con feromonas; a continuación, la detonación de los orbes lanza abejas cibernéticas contra los objetivos marcados
+		Coloca marcadores por todo el campo de batalla para que el enjambre se divida y cubra todo el terreno
+		'''
+}
+
+MoondewBarrelModule: {
+	DisplayName: Boquilla de rocío lunar
+	Tooltip:
+		'''
+		Los rastros de los rayos condensan prismas de rocío que refractan los rayos posteriores en breves destellos derivados
+		Las noches de luna llena o casi llena aumentan el límite máximo de refracción de cada prisma y el efecto resultante
 		'''
 }
 
