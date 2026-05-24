@@ -1,3 +1,5 @@
+ModNameOverride: Calamity Entropy
+
 Items: {
 	VoidBlade: {
 		DisplayName: Void Blade
@@ -2158,6 +2160,11 @@ Items: {
 		Tooltip: ""
 	}
 
+	ApsychosMusicBox: {
+		DisplayName: Apsychos Music Box
+		Tooltip: ""
+	}
+
 	WelkinFractal: {
 		DisplayName: Welkin Fractal
 		Tooltip: "[c/d4fff8:Blessed by the heavens]"
@@ -3893,12 +3900,12 @@ Items: {
 
 	HellstoneMissile: {
 		DisplayName: Hellstone Missile
-		Tooltip: ""
+		Tooltip: +5% Damage each attached projectile
 	}
 
 	WulfrumMissile: {
 		DisplayName: Wulfrum Missile
-		Tooltip: ""
+		Tooltip: +5% Damage each attached projectile
 	}
 
 	CursedRunestone: {
@@ -4002,6 +4009,36 @@ Items: {
 		DisplayName: Azafure Support Remote
 		Tooltip: Summon a combat drone, shooting armor-piercing shell to enemies
 	}
+
+	AerialiteMissile: {
+		DisplayName: Aerialite Missile
+		Tooltip:
+			'''
+			Spawn feathers when explode
+			+5% Damage each attached projectile
+			'''
+	}
+
+	ClusterMissile: {
+		DisplayName: Cluster Missile
+		Tooltip:
+			'''
+			Explosion after a period of time or on-hit
+			Split to 5 small missile that chasing enemies when explode
+			+100% max adhered missile
+			+3% Damage each attached projectile
+			'''
+	}
+
+	GiantBoulder: {
+		DisplayName: Giant Boulder
+		Tooltip: ""
+	}
+
+	BeewaxWall: {
+		DisplayName: Beewax Wall
+		Tooltip: ""
+	}
 }
 
 SmolderingSetBonus:
@@ -4092,7 +4129,7 @@ MariviniumSet:
 DeathMode: Death Mode
 CdMantle: Holy Mantle Cooldown
 MissileLauncherDescTooltip: Launch missiles that can adhere to the enemy and cause sustained damage
-MissileLauncherMaxStickTooltip: Up to {0} adhesive threads
+MissileLauncherMaxStickTooltip: Up to {0} can be adhered
 
 Projectiles: {
 	VoidBladeProj.DisplayName: Void Blade
@@ -4719,6 +4756,11 @@ Projectiles: {
 	CombatDroneBullet.DisplayName: Combat Drone Bullet
 	EmberFireball.DisplayName: Ember Fireball
 	GhostFireMagic.DisplayName: Ghost Fire Magic
+	AerialiteMissileFeather.DisplayName: Aerialite Missile Feather
+	AerialiteMissileProj.DisplayName: Aerialite Missile Proj
+	ClusterMissileProj.DisplayName: Cluster Missile Proj
+	ClusterMissileSmall.DisplayName: Cluster Missile Small
+	GiantBoulderProj.DisplayName: Giant Boulder Proj
 }
 
 LegendTooltip: - Legend -
@@ -5348,6 +5390,7 @@ Tiles: {
 	VoidOre.MapEntry: Void Ore
 	VoidOreTile.MapEntry: Void Ore Tile
 	VoidBarTile.MapEntry: Void Bar Tile
+	GiantBoulderTile.MapEntry: Giant Boulder Tile
 }
 
 VoidChargeBar: Void Charging Bar
