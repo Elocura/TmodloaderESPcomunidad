@@ -2112,11 +2112,7 @@ Items: {
 	}
 
 	HiveBullet: {
-		DisplayName:
-			'''
-			Proyectil de la colmena
-			Invoca abejas rastreadoras después de golpear
-			'''
+		DisplayName: Proyectil de la colmena
 		Tooltip: Ignora el 50% de la defensa del objetivo
 	}
 
@@ -3436,7 +3432,7 @@ Items: {
 		Tooltip: Dispara láseres desde atrás
 	}
 
-	CharredMissle: {
+	CharredMissile: {
 		DisplayName: Misil carbonizado
 		Tooltip: Harás un 5% más de daño por cada proyectil adherido al enemigo
 	}
@@ -3867,8 +3863,8 @@ Neltharion: {
 		Tooltip:
 			'''
 			Invoca a un espíritu de cenizas que lanza escombros contra los enemigos.
-            Al golpear con un látigo, el espíritu de cenizas lanza una bola de fuego.
-            +1 espacio de súbditos
+			Al golpear con un látigo, el espíritu de cenizas lanza una bola de fuego.
+			+1 espacio de súbditos
 			'''
 	}
 
