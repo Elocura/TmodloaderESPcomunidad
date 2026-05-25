@@ -489,14 +489,14 @@ SHPCSlotName: {
 
 MoldProcessingUI: {
 	Title: PROCESAMIENTO DE MOLDES
-	Subtitle: DESCOMPONER · REFORJAR
+	Subtitle: DESGUAZAR · REFORJAR
 	TabWorkbench: BANCO DE TRABAJO
-	TabCodex: CODEX
-	Decompose: DESCOMPONER
-	Reforge: REFORJAR
-	ClearPin: BORRAR PIN
-	RandomMode: ALEATORIO · LO DESCONOCIDO PRIMERO
-	PinnedMode: FIjADO DESDE CODEX
+	TabCodex: RECETAS
+	Decompose: DESGUAZAR
+	Reforge: RECOMPONER
+	ClearPin: BORRAR SELECIONADO
+	RandomMode: ALEATORIO · SE CREARÁ AL AZAR
+	PinnedMode: FIJADO DESDE UNA RECETRA 
 	CostLine: COSTE: {0}
 	HaveLine: TIENES: {0}
 	UnknownName: ??????
@@ -504,8 +504,8 @@ MoldProcessingUI: {
 	ShardSuffix: FRAGMENTOS
 	EmptyCandidates: "// No hay módulos compatibles en el inventario"
 	CloseHint: PULSA ESC PARA CERRAR
-	DecomposeHint: Haz clic en un módulo para descomponerlo
-	CodexHint: Haz clic en un molde encontrado para marcarlo como objetivo de reforja
+	DecomposeHint: Haz clic en un módulo para desguazarlo
+	CodexHint: Haz clic en un molde para marcarlo como objetivo de reforja
 	Discovered: DESCUBIERTO
 	PinnedTag: FIJADO
 }
