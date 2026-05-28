@@ -1,0 +1,151 @@
+# This file will automatically update with entries for new content after a build and reload.
+
+Items: {
+	Genericus: {
+		DisplayName: Genericus
+		Tooltip: "'If you know, you know.'"
+	}
+
+	RubyPebble: {
+		DisplayName: Ruby Pebble
+		Tooltip: 5% increased damage
+	}
+
+	DiamondPebble: {
+		DisplayName: Diamond Pebble
+		Tooltip: 5% increased critical strike chance
+	}
+
+	EnragedCrystal: {
+		DisplayName: Wrathful Crystal
+		Tooltip: 10% increased damage and melee speed
+	}
+
+	AmethystPebble: {
+		DisplayName: Amethyst Pebble
+		Tooltip: 5% increased melee speed
+	}
+
+	FocusedCrystal: {
+		DisplayName: Focused Crystal
+		Tooltip: 10% increased critical strike chance and mana conservation
+	}
+
+	SapphirePebble: {
+		DisplayName: Sapphire Pebble
+		Tooltip: 5% increased mana conservation
+	}
+
+	JewelOfDeath: {
+		DisplayName: Jewel of Death
+		Tooltip:
+			'''
+			10% increased damage, melee speed,
+			critical strike chance, and mana conservation
+			'Sure looks very deadly to me!'
+			'''
+	}
+
+	ThePebble: {
+		DisplayName: The Pebble
+		Tooltip:
+			'''
+			Reacts to the Shimmer
+			'There are many pebbles, but only one The Pebble.'
+			'''
+	}
+
+	ResilientCrystal: {
+		DisplayName: Resilient Crystal
+		Tooltip: Reduces damage taken by 10%
+	}
+
+	VigorousCrystal: {
+		DisplayName: Vigorous Crystal
+		Tooltip: 10% increased movement and natural regeneration
+	}
+
+	DivineBrilliance: {
+		DisplayName: Divine Brilliance
+		Tooltip:
+			'''
+			10% increased damage reduction, movement, natural regeneration,
+			damage, melee speed, critical strike chance, and mana conservation
+			Cannot be equipped alongside other Jewels
+			'Is that too much? I think it is too much.'
+			'''
+	}
+
+	JewelOfLife: {
+		DisplayName: Jewel of Life
+		Tooltip:
+			'''
+			10% increased damage reduction, movement, and natural regeneration
+			'Sure looks very lively to me!'
+			'''
+	}
+
+	AmberPebble: {
+		DisplayName: Amber Pebble
+		Tooltip: Reduces damage taken by 5%
+	}
+
+	EmeraldPebble: {
+		DisplayName: Emerald Pebble
+		Tooltip: 5% increased natural life regeneration
+	}
+
+	TheCoolerPebble: {
+		DisplayName: The Cooler Pebble
+		Tooltip: "'There are many cool pebbles, but this one's the coolest of them all.'"
+	}
+
+	TopazPebble: {
+		DisplayName: Topaz Pebble
+		Tooltip: 5% increased movement speed, acceleration, and jump speed
+	}
+
+	WaifuNugget: {
+		DisplayName: Crispy Nugget
+		Tooltip: Summons a friendly Starpy to follow you around
+	}
+
+	EnragedPebble: {
+		DisplayName: Wrathful Pebble
+		Tooltip: 5% increased damage and melee speed
+	}
+
+	seven7seven7: {
+		DisplayName: Lucky Number
+		Tooltip:
+			'''
+			[Developer Item]
+			Fires an endless stream of various sword beams with varying capabilities
+			'It's your lucky day!'
+			'''
+	}
+
+	FocusedPebble: {
+		DisplayName: Focused Pebble
+		Tooltip: 5% increased critical strike chance and mana conservation
+	}
+
+	ResilientPebble: {
+		DisplayName: Resilient Pebble
+		Tooltip: Reduces damage taken by 5%
+	}
+
+	VigorousPebble: {
+		DisplayName: Vigorous Pebble
+		Tooltip: 5% increased movement and natural regeneration
+	}
+}
+
+Buffs: {
+	EdgyBirdBuff: {
+		DisplayName: Starpy
+		Description: Would.
+	}
+}
+
+Projectiles.EdgyBirdWife.DisplayName: Starpy

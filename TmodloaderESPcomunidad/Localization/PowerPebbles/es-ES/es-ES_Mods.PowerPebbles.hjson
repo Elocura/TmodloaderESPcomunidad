@@ -1,0 +1,159 @@
+# This file will automatically update with entries for new content after a build and reload.
+
+Items: {
+	Genericus: {
+		DisplayName: Genericus
+		Tooltip: "si sabes, si sabes.'"
+	}
+
+	RubyPebble: {
+		DisplayName: Guijarro de rubí
+		Tooltip: Aumenta un 5% el daño
+	}
+
+	DiamondPebble: {
+		DisplayName: Guijarro de diamante
+		Tooltip: Aumenta un 5% la probabilidad de ataque crítico
+	}
+
+	EnragedCrystal: {
+		DisplayName: Cristal de la ira
+		Tooltip: Aumenta un 10% la velocidad y el daño cuerpo a cuerpo
+	}
+
+	AmethystPebble: {
+		DisplayName: Guijarro de amatista
+		Tooltip: Aumenta un 5% la velocidad cuerpo a cuerpo
+	}
+
+	FocusedCrystal: {
+		DisplayName: Cristal de la concentracion
+		Tooltip:
+			'''
+			Aumenta en 10% la probabilidad de crítico
+			Reduce el coste de maná un 10%
+			'''
+	}
+
+	SapphirePebble: {
+		DisplayName: Guijarro de zafiro
+		Tooltip: Reduce el coste de maná un 5%
+	}
+
+	JewelOfDeath: {
+		DisplayName: Joya de la muerte
+		Tooltip:
+			'''
+			Aumenta un 10% la velocidad y el daño cuerpo a cuerpo
+			Aumenta un 10% la probabilidad de ataque crítico
+			Reduce el coste de mana un 10%
+			'¡A mí me parece demasiado letal!'
+			'''
+	}
+
+	ThePebble: {
+		DisplayName: El Guijarro
+		Tooltip:
+			'''
+			Reacciona ante el fulgor
+			'Hay muchos guijarros, pero solo un El Guijarro'
+			'''
+	}
+
+	ResilientCrystal: {
+		DisplayName: Cristal de la resistencia
+		Tooltip: Reduce un 10% el daño sufrido
+	}
+
+	VigorousCrystal: {
+		DisplayName: Cristal de la tenacidad
+		Tooltip: Aumenta en un 10% la velocidad de movimiento y la regeneración de vida
+	}
+
+	DivineBrilliance: {
+		DisplayName: Esplendor divino
+		Tooltip:
+			'''
+			Aumenta en un 10 % la velocidad de movimiento, la regeneración de vida, el daño, la velocidad de ataque cuerpo a cuerpo y la probabilidad de 			ataque crítico				
+			Reduce el coste de maná un 10%
+			No se puede equipar junto con otras joyas
+			'¿Es demasiado? Creo que sí.'
+			'''
+	}
+
+	JewelOfLife: {
+		DisplayName: Joya de la vida
+		Tooltip:
+			'''
+			Aumenta en un 10 % la reducción de daño, la velocidad de movimiento y la regeneración de vida
+			'¡A mí me parece muy animado!'
+			'''
+	}
+
+	AmberPebble: {
+		DisplayName: Guijarro de ámbar
+		Tooltip: Reduce un 5% el daño sufrido
+	}
+
+	EmeraldPebble: {
+		DisplayName: Guijarro de esmeralda
+		Tooltip: Aumenta en un 5% la regeneración de vida
+	}
+
+	TheCoolerPebble: {
+		DisplayName: Guijarro cool
+		Tooltip: "'Hay muchos guijarros geniales, pero este es el más cool de todos'"
+	}
+
+	TopazPebble: {
+		DisplayName: Guijarro de topacio
+		Tooltip: Aumenta en un 5 % la velocidad de movimiento, la aceleración y la velocidad de salto
+	}
+
+	WaifuNugget: {
+		DisplayName: Nugget crujiente
+		Tooltip: Invoca a una arpía amigable para que te siga
+	}
+
+	EnragedPebble: {
+		DisplayName: Guijarro de la ira
+		Tooltip: Aumenta un 5% la velocidad y el daño cuerpo a cuerpo
+	}
+
+	seven7seven7: {
+		DisplayName: Numero de la suerte
+		Tooltip:
+			'''
+			[Item de desarollador]
+			Dispara una ráfaga interminable de rayos de espada de todo tipo y con distintos efectos				
+			'¡Es tu día de suerte!'
+			'''
+	}
+
+	FocusedPebble: {
+		DisplayName: Guijarro de la concentracion
+		Tooltip: '''
+			Aumenta en 5% la probabilidad de crítico
+			Reduce el coste de maná un 5%
+			'''
+	}
+
+	ResilientPebble: {
+		DisplayName: Guijarro de la resistencia
+		Tooltip: Reduce un 5% el daño sufrido
+	}
+
+	VigorousPebble: {
+		DisplayName: Guijarro de la tenacidad
+		Tooltip: Aumenta en un 5% la velocidad de movimiento y la regeneración de vida
+	}
+}
+
+Buffs: {
+	EdgyBirdBuff: {
+		DisplayName: Arpía
+		Description: ¿Sería?
+	}
+}
+
+Projectiles.EdgyBirdWife.DisplayName: Starpy
