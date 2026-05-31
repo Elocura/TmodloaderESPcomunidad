@@ -1,0 +1,18 @@
+NPCs: {
+	Pyloner: {
+		// DisplayName: Pilonero
+
+		TownNPCMood: {
+			// Content: ¿Dónde estoy?
+			// NoHome: Soy como el polvo. Estoy en todas partes, por lo que mi hogar está en todas partes.
+			// FarFromHome: Veo que viajas a otro lugar, pero, ya sabes, yo siempre estoy y no estoy.
+			// LoveSpace: Tanta distancia en la que pasar el tiempo.
+			// DislikeCrowded: Hay muchas posibilidades, pero ¿por dónde empezar?.
+			// HateCrowded: Ahhh, sí, tengo un montón de sitios a los que ir.
+			// LikeNPC_Princess: ¿A alguien más se le han estado secando un poco más los ojos últimamente?
+			// Princess_LovesNPC: ACHOO! Uf, esto es tan molesto... Desde que apareció esa estupida piedra, tengo la nariz súper irritada.
+		}
+
+		// Census.SpawnCondition: Ten cualquier torre en tu inventario
+	}
+}

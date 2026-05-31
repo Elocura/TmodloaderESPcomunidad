@@ -1,0 +1,18 @@
+NPCs: {
+	Pyloner: {
+		// DisplayName: Pyloner
+
+		TownNPCMood: {
+			// Content: Where am I?
+			// NoHome: I am the dust. Where I am is everywhere thus, everywhere is my home.
+			// FarFromHome: I see travel somewhere else but, you remember, I am always else and not.
+			// LoveSpace: So much distance for me to spend my time.
+			// DislikeCrowded: Many possibilities await, but where does one begin?.
+			// HateCrowded: Ahh yes, lots of places for me to head.
+			// LikeNPC_Princess: Has anyone elses eyes been a bit drier recently?
+			// Princess_LovesNPC: ACHOO! Ughh this is so annoying.. Ever since that dumb stone came around my nose has just been so irritated.
+		}
+
+		// Census.SpawnCondition: Have any of a Pylon in your inventory
+	}
+}
