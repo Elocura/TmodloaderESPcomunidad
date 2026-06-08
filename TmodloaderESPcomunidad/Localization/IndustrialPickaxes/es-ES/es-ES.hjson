@@ -1,0 +1,213 @@
+Mods: {
+	IndustrialPickaxes: {
+		Common: {
+			AutosmeltPenalty: Utiliza golpes precisos para fundir lingotes a partir de minerales, lo que lo hace lento
+			AutosmeltNoPenalty: ¡Fundirá todos los minerales!
+			Prospector: Tiene la posibilidad de encontrar minerales en determinados bloques.
+		}
+
+		Achievements: {
+			DraconicEvolution: {
+				FriendlyName: Evolución dracónica
+				Description: Crea el pico industrial definitivo, la culminación de tu aventura.
+			}
+
+			ForgottenSands: {
+				FriendlyName: Arenas Olvidadas
+				Description: Crea el Buscador de Almas, una réplica de una reliquia procedente de un lejano reino desértico.
+
+			SuperSmelter: {
+				FriendlyName: Super Fundición
+				Description: Extrae y funde 2.500 minerales con un pico industrial.
+			}
+
+			NoStoneUnturned: {
+				FriendlyName: Ni una piedra sin mover
+				Description: Consigue 500 objetos mediante la recolección con el Buscador de almas o sus mejoras.
+			}
+		}
+
+		Items: {
+			BlazingMoltenPickaxe: {
+				DisplayName: Pico de metal llameante fundido
+				Tooltip:
+					'''
+					{$Common.AutosmeltPenalty}
+					'¡Siente el calor!'
+					'''
+			}
+
+			AvaliManipulator: {
+				DisplayName: Manipulador de luz sólida
+				Tooltip:
+					'''
+					La potencia del pico y el hacha se adapta al resto de tus herramientas
+					Click derecho cuando está seleccionado para alternar al modo extracción, lo que te permite minar en un área de 5x5
+					El cursor inteligente reducirá el área de minado a 3x3, lo que permitirá un control más preciso
+					Al equiparlo como accesorio, duplica la velocidad de minería y funde automáticamente los minerales extraídos
+					Este efecto funciona incluso cuando se lleva equipado como objeto decorativo, pero desactiva la fundición automática
+					'''
+			}
+
+			VioletThaumaturgy: {
+				DisplayName: Taumaturgia violeta
+				Tooltip:
+					'''
+					La potencia del pico se adapta a tus otros picos
+					{$Common.AutosmeltNoPenalty}
+					'Descansando a la luz de la luna...'
+					'''
+			}
+
+			DraconicStaffOfPower: {
+				DisplayName: Medios para un fin
+				Tooltip:
+					'''
+					{$Common.AutosmeltNoPenalty}
+					{$Common.Prospector}
+					'Una herramienta que resulta algo familiar y que en su día empuñó un antiguo cazador de dragones'
+					'''
+			}
+
+			EnchantedPickaxe: {
+				DisplayName: Pico encantado
+				Tooltip:
+					'''
+					{$Common.AutosmeltPenalty}
+					'Una réplica del pico que sella el mal, fabricada con una aleación resistente'
+					'''
+			}
+
+			GracefulChlorophytePickaxe: {
+				DisplayName: Pico de clorofita elegante
+				Tooltip:
+					'''
+					{$Common.AutosmeltPenalty}
+					'Toda rosa tiene espinas'
+					'''
+			}
+
+			LihzahrdianPicksaw: {
+				DisplayName: pico-hacha lihzahrdiano
+				Tooltip:
+					'''
+					{$Common.AutosmeltPenalty}
+					'Una reliquia legendaria de la tribu lihzahrdiana'
+					'''
+			}
+
+			LunaticsCelestialPick: {
+				DisplayName: Pico lunático celestial
+				Tooltip:
+					'''
+					{$Common.AutosmeltPenalty}
+					'Hay que estar loco para pensar que esto es un hacha'
+					'''
+			}
+
+			EclipsiumAlloy: {
+				DisplayName: Aleación Eclipsium
+				Tooltip: "'Brilla con un potencial inconmensurable'"
+			}
+
+			PrototypeNanoPickaxe: {
+				DisplayName: Prototipo de nano pico
+				Tooltip:
+					'''
+					puede extraer lodo negro endurecido
+					{$Common.AutosmeltPenalty}
+					'Mejorado con tecnología cibernética'
+					'''
+			}
+
+			SoulSeeker: {
+				DisplayName: Buscador de almas
+				Tooltip:
+					'''
+					{$Common.Prospector}
+					Se puede mejorar para aumentar la potencia del pico
+					'Un pico peculiar cuyo origen se remonta a un reino perdido hace mucho tiempo en un desierto olvidado'
+					'''
+			}
+
+			SoulSeekerS: {
+				DisplayName: Buscador de almas+
+				Tooltip:
+					'''
+					{$Common.Prospector}
+					Se puede mejorar para aumentar aún más la potencia del pico
+					'Los metales endurecidos no han hecho más que potenciar sus poderes latentes'
+					'''
+			}
+
+			SoulSeekerSS: {
+				DisplayName: Buscador de almas++
+				Tooltip:
+					'''
+					{$Common.Prospector}
+					Se puede mejorar una vez más para alcanzar su forma definitiva
+					'Le falta muy poco para alcanzar la perfección; sin duda, es una herramienta impresionante por sí misma'
+					'''
+			}
+
+			SteampunkExcavator: {
+				DisplayName: Excavador Steampunk
+				Tooltip:
+					'''
+					{$Common.AutosmeltPenalty}
+					'Todavía está en fase de pruebas...'
+					'''
+			}
+
+			StellarHorizon: {
+				DisplayName: Horizonte estelar
+				Tooltip:
+					'''
+					{$Common.AutosmeltNoPenalty}
+					{$Common.Prospector}
+					'Per ardua astra'
+					'''
+			}
+
+			ViridescentBlossomPickaxe: {
+				DisplayName: Pico de Flor Viridescente
+				Tooltip:
+					'''
+					{$Common.AutosmeltPenalty}
+					'La bendición de la propia Madre Naturaleza'
+					'''
+			}
+
+			OreClump: {
+				DisplayName: Trozos de mineral
+				Tooltip: Se puede usar en el Expriminator para obtener algunos minerales básicos
+			}
+
+			HardenedOreClump: {
+				DisplayName: Trozos de mineral endurecido
+				Tooltip: Se puede usar en el Expriminator para obtener algunos minerales avanzados
+			}
+		}
+
+		Projectiles: {
+			ACDE.DisplayName: Hardlight Manipulator
+			DrillBeam.DisplayName: Hardlight Beam
+		}
+
+		Configs: {
+			IndustrialConfig: {
+				DisplayName: Industrial Config
+
+				EnableGlowmasks: {
+					Label: habilita casillas luminosas
+					Tooltip:
+						'''
+						Dibuja cuadriculas luminosas al usar picos; esto no afecta a las cuadriculas luminosas cuando se sueltan en el mundo
+						Desactiva esta opción si las cuadriculas luminosas de este mod se comportan de forma extraña con otros mods
+						Una solución provisional para los conflictos entre mods, aunque, si se desactiva, Horizonte estelar no se verá tan bien
+						'''
+				}
+			}
+		}
+	}
+}
