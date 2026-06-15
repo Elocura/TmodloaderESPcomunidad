@@ -1,4 +1,4 @@
-﻿CWRServerConfig: {
+CWRServerConfig: {
 	DisplayName: Content Config
 
 	WeaponOverhaul: {
@@ -6,7 +6,7 @@
 		Tooltip:
 			'''
 			Enabling it will modify most weapons.
-			[c/FF0000: If you want to optimize the experience of disaster overhaul content, please open it!]
+			[c/FF0000: If you want the best Calamity Overhaul experience, please enable it!]
 			'''
 	}
 
@@ -16,11 +16,11 @@
 	}
 
 	MurasamaSpaceFragmentationBool: {
-		Label: Murasama Space Fragmentation Bool
+		Label: Murasama Finisher Screen-Shatter Effect
 		Tooltip:
 			'''
-			Turned on by default, the polymer cutting edge will create a screen crushing effect to enhance the impact
-			If turned off, these effects are disabled and can be set to your liking
+			Enabled by default. When Murasama performs its finisher, it creates a screen-shatter effect to enhance the impact.
+			If disabled, these effects are turned off.
 			'''
 	}
 
@@ -41,56 +41,13 @@
 		Tooltip: When enabled, long distance rapid displacement will slow the lens, which avoids the feeling of being moved too fast
 	}
 
-	WeaponHandheldDisplay: {
-		Label: Weapon Handheld Display
-		Tooltip:
-			'''
-			When turned on, most weapons have handheld animations and special use actions
-			This effect has a very high priority and will override most of the handheld animations from third-party mods
-			It is turned on by default, and for visual reasons, the authors do not recommend turning it off
-			If you change this configuration during the game, some effects will need to be reloaded the mod files before they can be changed
-			'''
-	}
-
-	BowArrowDraw: {
-		Label: Draw the bowstring arrow
-		Tooltip:
-			'''
-			When the player uses the bow class to attack, the corresponding arrow animation will be drawn in real time
-			It is enabled by default and can be set according to personal preferences
-			'''
-	}
-
-	EnableCasingsEntity: {
-		Label: Enable Casings Entity
-		Tooltip: If you find the casings rolling around an eyesore, it's a good idea to turn this option off
-	}
-
-	WeaponLazyRotationAngle: {
-		Label: Weapon Inertia Rotation Angle Update
-		Tooltip:
-			'''
-			If enabled, it makes the usage animation of handheld weapons closer to the vanilla game,
-			where the facing direction changes only once when firing.
-			'''
-	}
-
 	BiologyOverhaul: {
 		Label: Biology Overhaul [c/06e33f:(Experimental)]
 		Tooltip:
 			'''
 			[c/c20909:Unfinished]
-			Enabled by default, this will modify the AI behavior of certain creatures, such as bosses in death mode.
+			Enabled by default, this will modify the AI behavior of certain creatures, such as Boss AI in Death Mode.
 			This might significantly increase the game's difficulty, so you can choose to disable it based on your personal preference.
-			'''
-	}
-
-	EnableSwordLight: {
-		Label: Enable Sword Light
-		Tooltip:
-			'''
-			Turned on by default, many sword weapons will have a dazzling bright knife light
-			In the vast majority of cases, this makes the game cooler
 			'''
 	}
 
@@ -102,7 +59,7 @@
 			Style 2: Refined - Compact
 			Style 3: Classic - Floating Above The Head
 			Style 4: Classic - Compact
-			Style 5: Conceal
+			Style 5: Hidden
 			'''
 	}
 
@@ -156,8 +113,6 @@
 		Tooltip: Spawns wooden elven or forest guardian outposts deep within the forest.
 	}
 
-	SignalTowerDecryptionAutoPlay: {
-		Label: Signal Tower Decryption Auto Play
-		Tooltip: ""
-	}
+	ConfigChangePrefix: User
+	ConfigChangeSuffix: modified the server configuration
 }

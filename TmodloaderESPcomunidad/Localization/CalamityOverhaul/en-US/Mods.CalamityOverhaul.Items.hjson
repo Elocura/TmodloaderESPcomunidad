@@ -1,4 +1,4 @@
-﻿SHPCModTooltipDraw: {
+SHPCModTooltipDraw: {
 	InstalledHeader: INSTALLED MODULES
 	NoModules: NONE
 	BonusHeader: TOTAL MODULE BONUSES
@@ -16,43 +16,35 @@ MoldProcessingTable: {
 
 ElementWhip: {
 	DisplayName: Element Whip
-	Tooltip: A Whip infused with the energy of the Moon and the Elements.
-}
-
-TheRelicLuxor: {
-	DisplayName: The Relic Luxor
 	Tooltip:
 		'''
-		Searing psychic power will accompany you in every attack, and the God of Glory is with you
-		[tips]
-		'''
-}
-
-TheLuxirSoulArtifact: {
-	DisplayName: The Luxir Soul Artifact
-	Tooltip:
-		'''
-		Both God and immortality acknowledge your glory
-		[tips]
+		{$CommonItemTooltip.Whips}
+		Sets enemies ablaze with elemental fire
+		"Terra's primordial essence pierces the world alongside the elements of the cosmos"
 		'''
 }
 
 AzureDragonRage: {
 	DisplayName: Azure Dragon Rage
-	Tooltip: Smells like freshly cut albeit musty grass.
+	Tooltip:
+		'''
+		{$CommonItemTooltip.Whips}
+		Carries a thick scent of fresh grass
+		'''
 }
 
 BleedingScourge: {
 	DisplayName: Bleeding Scourge
-	Tooltip: Hitting an enemy with this whip causing blood to rain down from the sky before bursting on the enemy below, tagging it for minions.
+	Tooltip: Marks enemies for death on hit and calls down a rain of blood
 }
 
 GhostFireWhip: {
 	DisplayName: Ghost Fire Whip
 	Tooltip:
 		'''
-		An Extremely long whip, formed from fury of the restless dungeon spirits.
-		[c/d4bc75:Pure Zealousy Eminates from the base, encouraging you to seek out who wronged you.]
+		{$CommonItemTooltip.Whips}
+		An extremely long whip woven from the fury of restless dungeon spirits
+		[c/d4bc75:Pure passion radiates from the depths of hell, urging you to find who wronged you]
 		'''
 }
 
@@ -63,7 +55,12 @@ AllhallowsGoldWhip: {
 
 DivineSourceBlade: {
 	DisplayName: Divine Source Blade
-	Tooltip: Swinging causes a high velocity blade that slashes the first enemy it pierces through into ribbons.
+	Tooltip:
+		'''
+		Chains two swift slashes into a charged heavy cleave
+		The heavy cleave unleashes a colossal golden crescent of sword energy
+		"Life never ceases"
+		'''
 }
 
 FoodStallChair: {
@@ -96,11 +93,8 @@ AnnihilatingUniverse: {
 	DisplayName: Annihilating Universe
 	Tooltip:
 		'''
-		Wooden Arrows turn into a spread of Cosmic Bolts. 
-		Hitting an enemy causes Galaxy Rifts to attack other foes and leaves behind a star close to death, eventually imploding.
-		Right click to summon Projections of the Devourer that grow stronger and bigger over time. 
-		Letting go of right click fires the portal used to home in on enemies before eventually dying out.
-		[c/9C27B0:The End is Nigh.]
+		Arrows leave a brilliant star at the impact point after hitting an enemy
+		Right-click to destroy enemies with the Devourer's power
 		'''
 }
 
@@ -108,9 +102,9 @@ HeavenfallLongbow: {
 	DisplayName: Heavenfall Longbow
 	Tooltip:
 		'''
-		Fires out Pure Primordial Rainbow Light to completely annihiliate your foes in brilliance.
-		Right click will have the Primordial light rain down on your foes, exploding in pure magnifience.
-		Press [KEY] to start the Vientiane Trial when at max power.
+		Fires endless arrows; terminal rainbow energy follows shortly after
+		Right-click calls heaven's arrows down from the sky
+		After charging, press [KEY] to unleash the Myriad Judgment
 		[legend]
 		'''
 	Legend:
@@ -197,7 +191,7 @@ NeutronStarIngot: {
 
 InfinityCatalyst: {
 	DisplayName: Infinity Catalyst
-	Tooltip: ""
+	Tooltip: Your greed is about to reach its peak
 }
 
 DawnshatterAzure: {
@@ -243,8 +237,13 @@ SpectralMatter: {
 }
 
 InfiniteToiletItem: {
-	DisplayName: Infinite Toilet
-	Tooltip: The power of the universe, of the galaxies above and the space inbetween.. Now just reduced to a toilet.
+	OnlyZenithCondition: Only in Zenith World
+
+	InfiniteToiletItem: {
+		OnlyZenithCondition: Only in Zenith World
+		DisplayName: Infinite Toilet Item
+		Tooltip: ""
+	}
 }
 
 StormGoddessSpear: {
@@ -272,8 +271,14 @@ StormGoddessSpear: {
 }
 
 DragonsScaleGreatsword: {
-	DisplayName: Dragonseaweed Greatblade
-	Tooltip: Swings a mighty sword that summons poisonous clouds that weakly home into enemies.
+	DisplayName: Dragon Kelp Greatblade
+	Tooltip:
+		'''
+		Swings follow a three-hit combo, the third unleashing a mightier draconic finisher
+		Swings release spiraling kelp blade beams that burst into toxic algae clouds on hit
+		True melee strikes create many toxic algae clouds
+		Right-click to summon a verdant dragon soul that hunts toward the cursor, scattering toxic algae clouds along its path
+		'''
 }
 
 CosmicCalamity: {
@@ -331,9 +336,10 @@ ElementMuzzleBrake: {
 	DisplayName: Element Muzzle Brake
 	Tooltip:
 		'''
-		Reduces recoil and chamber pressure by 65%
-		Reduces ranged damage by 5%
-		Increases ranged critical hit rate by 15%
+		Increases ranged damage by 12%
+		Increases ranged critical strike chance by 15%
+		Increases ranged firing speed by 12%
+		Enemies have a harder time detecting you
 		'''
 }
 
@@ -361,13 +367,43 @@ EyeOfSingularity: {
 		'''
 }
 
+ArcaneThroneOfEternity: {
+	DisplayName: Arcane Throne of Eternity
+	Tooltip:
+		'''
+		Increases magic damage by 100%
+		Increases magic critical strike chance by 100%
+		Increases magic attack speed by 100%
+		Increases maximum mana by 1000; mana regeneration is greatly boosted and never interrupted
+		All magic projectiles gain infinite piercing
+		Your magic attacks tear through the veil of reality, opening continuously erupting Arcane Rifts on impact
+		All magic attacks inflict a random forbidden curse:
+		  Void Erosion, Temporal Stasis, Soul Burning, Gravitational Collapse, or Hyper Disintegration
+		While above 90% mana, you enter the 'Omniscience' state:
+		  All magic projectiles automatically home in on enemies, and critical damage multiplier rises to 1000%
+		Grants the ability of Truth Leap; press [KEY] to tear open space and enter a higher dimension:
+		  Become immune to all damage and move freely for a short time, unleashing a devastating Reality Tremor upon leaving
+		  30 second cooldown
+		Right-click to activate 'Root Calculation':
+		  For the next 10 seconds, every magic attack simultaneously releases 5 mirrored spells
+		  60 second cooldown
+		If you receive fatal damage, time rewinds to your state from 5 seconds ago, restoring your life, mana and position
+		This effect has a 60 second cooldown
+		Enemies are more likely to target you
+		[c/b84dff:"A nameless sage peels open your skull, inscribing forgotten truths beyond the stars"]
+		[c/ffdd66:"The Lord of Flux plucks the warp and weft of fate, treating reality as an unfinished draft"]
+		[c/66ffff:"The corpse upon the golden throne gazes at you, having long forgotten what death is"]
+		'''
+}
+
 PrecisionMuzzleBrake: {
 	DisplayName: Precision Muzzle Brake
 	Tooltip:
 		'''
-		Reduces recoil and chamber pressure by 55%
-		Reduces ranged damage by 10%
-		Increases ranged critical hit rate by 10%
+		Increases ranged damage by 8%
+		Increases ranged critical strike chance by 10%
+		Increases ranged firing speed by 8%
+		Enemies have a harder time detecting you
 		'''
 }
 
@@ -375,9 +411,10 @@ SimpleMuzzleBrake: {
 	DisplayName: Simple Muzzle Brake
 	Tooltip:
 		'''
-		Reduces recoil and chamber pressure by 40%
-		Reduces ranged damage by 15%
-		Increases ranged critical hit rate by 5%
+		Increases ranged damage by 5%
+		Increases ranged critical strike chance by 5%
+		Increases ranged firing speed by 5%
+		Enemies have a harder time detecting you
 		'''
 }
 
@@ -385,8 +422,7 @@ AmmoBoxFire: {
 	DisplayName: Burning Ammo Box
 	Tooltip:
 		'''
-		Long press to deploy, after deployment is complete, hold the firearm to right click the magazine, 
-		let the special ammunition to fill the magazine
+		Hold to deploy. Once deployed, right-click the ammo box while holding a firearm to load special ammunition into the magazine
 		Special ammo can be overlaid with the original bullet effect
 		It makes the warhead highly flammable and explodes when it hits the target
 		"This isn't cod."
@@ -397,8 +433,7 @@ ArmourPiercerBox: {
 	DisplayName: Armour Piercer Box
 	Tooltip:
 		'''
-		Long press to deploy, after deployment is complete, hold the firearm to right click the magazine, 
-		let the special ammunition to fill the magazine
+		Hold to deploy. Once deployed, right-click the ammo box while holding a firearm to load special ammunition into the magazine
 		Special ammo can be overlaid with the original bullet effect
 		Coat the ammunition with tungsten gold to increase the bullet's armor breaking ability, ignoring the target's 75% armor
 		"Even so, don't try to shoot down a tank with a pistol."
@@ -409,8 +444,7 @@ HighExplosiveBox: {
 	DisplayName: High Explosive Box
 	Tooltip:
 		'''
-		Long press to deploy, after deployment is complete, hold the firearm to right click the magazine, 
-		let the special ammunition to fill the magazine
+		Hold to deploy. Once deployed, right-click the ammo box while holding a firearm to load special ammunition into the magazine
 		Special ammo can be overlaid with the original bullet effect
 		Turn the warhead into a high-explosive projectile, firing a violent explosion when the bullet hits the target
 		"Blow them all up!"
@@ -421,8 +455,7 @@ DragonBreathBox: {
 	DisplayName: Dragon Breath Box
 	Tooltip:
 		'''
-		Long press to deploy, after deployment is complete, hold the firearm to right click the magazine, 
-		let the special ammunition to fill the magazine
+		Hold to deploy. Once deployed, right-click the ammo box while holding a firearm to load special ammunition into the magazine
 		Special ammo can be overlaid with the original bullet effect
 		A combination of magic and technology, bullets hit their targets and explode into a jet of metal, causing damage to a wide range of enemies
 		"This is the dragon's saliva. Do you want to believe it?"
@@ -431,6 +464,11 @@ DragonBreathBox: {
 
 HalibutItem: {
 	DisplayName: Halibut
+	Tooltip: ""
+}
+
+SHPCItem: {
+	DisplayName: SHPC
 	Tooltip: ""
 }
 
@@ -451,12 +489,11 @@ CrystalDimming: {
 	DisplayName: Crystal Dimming
 	Tooltip:
 		'''
-		Use snowballs as ammunition.
-		Launching frigid hail and snowballs,
-		Ice crystals rebound rapidly upon hitting walls,
-		Then track down enemies.
-		Every 20 shots triggers an overdrive surge,
-		Summoning a massive ice pillar at the mouse cursor.
+		Use snowballs as ammunition
+		Fires crystal shells that raise glacier spikes from the ground at the point of impact
+		Spikes grow taller when raised near existing crystal clusters
+		Right-click unleashes a glacial surge, raising an ever-taller ridge of ice along the terrain
+		"The earth remembers every frost"
 		'''
 }
 
@@ -476,7 +513,10 @@ SnowQuay: {
 	Tooltip:
 		'''
 		Use snowballs as ammunition
-		A large-caliber snow cannon, firing ice and snow mixed shells
+		Hold left-click to blow a dense stream of snow at your enemies
+		Blowing snow builds up pressure in the packing chamber
+		Release left-click with enough pressure to launch a packed snowball shell
+		"Winter's joy begins with a snowblower"
 		'''
 }
 
@@ -578,17 +618,20 @@ SnowQuayMK2: {
 	Tooltip:
 		'''
 		Use snowballs as ammunition
-		A large-caliber snow cannon that fires ice and snow mixed shells
-		No preheating is required to fire
+		A military refit with a cryo-compressor that casts snowballs into high-velocity icicles
+		Left-click fires three-round bursts; the final round is a heavy spike that bursts into crystals
+		Right-click vents an overpressure scatter of short-ranged icicles
+		"The second-generation Snow Viper no longer needs preheating"
 		'''
 }
 
 HghExplosiveBox: {
-	DisplayName: Hgh Explosive Box
+	DisplayName: High Explosive Ammo Box
 	Tooltip:
 		'''
 		Hold to deploy. Once deployed, right-click the ammo box with a firearm to load special ammunition into the magazine.
 		Special ammo can stack effects with regular bullets.
+		The warhead contains high explosives, creating a small explosion on hit.
 		"Blow them all to the skies!"
 		'''
 }
@@ -608,7 +651,8 @@ WeaverGrievances: {
 	Tooltip:
 		'''
 		Unleash a large number of claws of Evil spirits and have special effects in hell and dungeon environments
-		Right-click and roll in the direction of the cursor. Hitting an enemy during the roll will give the player an invincible frame
+		Swings follow a three-hit combo, the third unleashing a sweeping whirlwind finisher
+		Right-click and roll in the direction of the cursor as a wheel of vengeful souls. Hitting an enemy during the roll will give the player an invincible frame
 		A close roll would be considered a perfect dodge
 		[legend]
 		'''
@@ -656,7 +700,11 @@ SandDagger: {
 
 UnderTheSand: {
 	DisplayName: Beneath the Sand
-	Tooltip: Creates several sand orbs
+	Tooltip:
+		'''
+		Hurls a pair of sand surges that arc downward under gravity
+		On impact with the ground, a vertical sand spike erupts from beneath, launching enemies skyward
+		'''
 }
 
 WastelandFang: {
@@ -668,22 +716,34 @@ WastelandFang: {
 		'''
 }
 
-Flawless: {
-	DisplayName: Flawless
-	Tooltip: ""
-}
-
 MelodyTheSand: {
 	DisplayName: Song of the Sand
-	Tooltip: Throws a spread of sand spikes that are affected by gravity and pierce enemies
+	Tooltip:
+		'''
+		Fires a small sand tornado that falls to the ground under gravity
+		Once grounded, it patrols back and forth along the surface, reversing at walls and ledges
+		Repeatedly hurls struck enemies into the sky
+		'''
 }
 
 SandVortexOfTheDecayedSea: {
 	DisplayName: Decayed Sea Sand Vortex
 	Tooltip:
 		'''
-		Vomits several sulfuric steam orbs
-		"Master of Vomiting"
+		Summons a colossal decayed sea vortex at the cursor
+		The vortex relentlessly draws nearby enemies in and rends them, even unraveling hostile projectiles
+		Periodically hurls outward homing decayed sea orbs
+		Firing again refreshes the existing vortex; on natural collapse it bursts into a ring of orbs
+		"The roar of the rotting depths churned into sand"
+		'''
+}
+
+DuneStalker: {
+	DisplayName: Dune Stalker
+	Tooltip:
+		'''
+		Fires a chain-bound hookhead instead of consuming the ammunition outright
+		The hook tears through enemies along its path, then automatically reels back on impact or once it reaches its maximum range
 		'''
 }
 
@@ -748,8 +808,9 @@ WhiplashGalactica: {
 	DisplayName: Galactic Whiplash
 	Tooltip:
 		'''
-		Marks enemies upon hit and fires cosmic fireballs
-		"The spine of the cosmic serpent, brimming with celestial energy, guiding the fury of the universe"
+		{$CommonItemTooltip.Whips}
+		Marks enemies for death on hit and launches cosmic fireballs
+		"The spine of the cosmic serpent, brimming with cosmic energy, guiding the universe's wrath"
 		'''
 }
 
@@ -908,7 +969,7 @@ CommandersChainsawEX: {
 
 ForgedLashEX: {
 	DisplayName: Forged Lash EX
-	Tooltip: ""
+	Tooltip: Launches homing heat orbs while you lash
 }
 
 SoulofFrightEX: {
@@ -1106,8 +1167,9 @@ Collector: {
 	DisplayName: Collector
 	Tooltip:
 		'''
-		Automatically pick up the fallen objects around and place them in the nearest box
+		Consumes power to pick up nearby drops and place them in the nearest box
 		It won't work if there are no boxes around
+		Right-click the Collector while holding an item to mark it so it only collects that item type
 		'''
 	Text1: Excessive Quantity!
 	Text2: There are no boxes around!
@@ -1175,21 +1237,21 @@ ItemFilter: {
 
 SporeBubbleBlaster: {
 	DisplayName: Spore Bubble Blaster
-	Tooltip:
-		'''
-		Sprays a stream of spore particles
-		Causes only 50% damage during the day
-		'''
+	Tooltip: Sprays a stream of spore airflow
 }
 
 TomeofFungalDecay: {
-	DisplayName: Tomeof Fungal Decay
-	Tooltip: ""
+	DisplayName: Tome of Fungal Decay
+	Tooltip: Fires a ring of spore bursts
 }
 
 FungalRevolver: {
 	DisplayName: Fungal Revolver
-	Tooltip: ""
+	Tooltip:
+		'''
+		Converts Musket Balls into fungal rounds
+		"Cleaning it only made it worse"
+		'''
 }
 
 FungalFeed: {
@@ -1211,7 +1273,7 @@ MushroomSaddle: {
 		Left-click the Sporecrab while holding the saddle to equip it
 		Right-click an equipped Sporecrab to ride
 		'''
-	UseCombat: Can only be applied to crabulon
+	UseCombat: Can only be equipped on a Sporecrab
 }
 
 SporeboundRoller: {
@@ -1510,13 +1572,11 @@ UniversalFrost: {
 	DisplayName: Universal Frost
 	Tooltip:
 		'''
-		Uses Snowballs as ammo
-		Fires hailstones and frigid nova orbs
-		The orbs bounce, home in on enemies, and release frost beams upon explosion
-		Continuous firing accumulates ice energy
-		When fully charged, the next attack unleashes the Glacial Age
-		The Glacial Age summons a massive array of icicles and a blizzard field at the cursor position
-		"When all creation falls into silence, only eternal frost shall blanket the world"
+		Use snowballs as ammunition
+		Left-click rapidly fires frost glimmers, each shot charging the frost dome
+		Once fully charged, right-click unfurls an aurora curtain above the cursor
+		The curtain rains frost lances upon enemies beneath it
+		"When all creation falls silent, only the aurora still flows across the sky"
 		'''
 }
 
@@ -1550,7 +1610,7 @@ Lumberjack: {
 LifeWeaver: {
 	NoValidPositionText: No valid planting spots nearby!
 	NoEnergyText: Insufficient power!
-	DisplayName: Life Weaver
+	DisplayName: Tree Planter
 	Tooltip: Consumes power to plant trees nearby
 }
 
@@ -1560,7 +1620,7 @@ WGGLumberjack: {
 }
 
 WGGLifeWeaver: {
-	DisplayName: Wilderness Life Weaver
+	DisplayName: Wilderness Tree Planter
 	Tooltip: ""
 }
 
@@ -1655,8 +1715,8 @@ Elysium: {
 }
 
 SandevistansItem: {
-	DisplayName: Sandevistans Item
-	Tooltip: Militech Sandevistan Mk.5 — Slows perceived time by 70% for 3.5 seconds. Cooldown 15s.
+	DisplayName: Sandevistan Mk5
+	Tooltip: Slows perceived time by 70% for 5 seconds. Cooldown: 15 seconds.
 }
 
 Sandevistan: {
@@ -1795,8 +1855,8 @@ RamRecoveryUpgradeChip: {
 }
 
 Mewtwo: {
-	DisplayName: Mewtwo
-	Tooltip: ""
+	DisplayName: Superdream Chip
+	Tooltip: Use to enter the Superdream
 }
 
 RapidBarrelModule: {
@@ -1811,12 +1871,20 @@ FocusBarrelModule: {
 
 PrecisionOpticModule: {
 	DisplayName: Precision Optic
-	Tooltip: Laser-assisted aiming eliminates all spread and grants additional crit chance
+	Tooltip:
+		'''
+		Calibrated Judgment: eliminates all spread; consecutive hits without a miss build calibration
+		At ten stacks, fires a guaranteed-crit piercing judgment ray — missing a beam resets calibration
+		'''
 }
 
 OverloadCoreModule: {
 	DisplayName: Overload Core
-	Tooltip: Replaces the buffer with a faster cycling logic, charging the orb faster and launching it harder
+	Tooltip:
+		'''
+		Removes the orb's safety lock: keep charging past full to overload it — up to double damage and a wider blast
+		Hold past the red line and the core ruptures in your hands, knocking you back and burning half your mana
+		'''
 }
 
 SteadyStockModule: {
@@ -1826,7 +1894,11 @@ SteadyStockModule: {
 
 HarmonyGripModule: {
 	DisplayName: Harmony Grip
-	Tooltip: Bio-conductive grip channels mana through the body, drastically reducing mana cost
+	Tooltip:
+		'''
+		Bio-conduction lowers mana cost; mana spilled on hit condenses into resonant wisps across the battlefield
+		Wisps drift back to you — collecting one restores mana and stacks Harmonics for attack speed (up to 5)
+		'''
 }
 
 ResonanceFrameModule: {
@@ -1836,17 +1908,29 @@ ResonanceFrameModule: {
 
 AdaptiveOpticModule: {
 	DisplayName: Adaptive Optic
-	Tooltip: Neural-link algorithms continuously correct trajectory, locking each beam tighter onto its target
+	Tooltip:
+		'''
+		Predictive fire control: analyzes target motion and projects a holographic lead marker at the intercept point
+		Beams automatically deflect to lead their shots; hits against moving targets trigger bonus adaptive strikes
+		'''
 }
 
 AssaultStockModule: {
 	DisplayName: Assault Stock
-	Tooltip: Adrenaline-assisted bracing cycles the weapon more aggressively, raising firepower at higher mana cost
+	Tooltip:
+		'''
+		Twin combat pods are built into the stock: while wielding the weapon, a pair of hovering gun-arms deploys at your shoulders
+		The arms sync with your trigger, alternating rapid support bolts with every shot you fire
+		'''
 }
 
 BalancedGripModule: {
 	DisplayName: Balanced Grip
-	Tooltip: Re-tuned weight distribution gives a small all-around boost to fire rate, damage and stability
+	Tooltip:
+		'''
+		Twin Equilibrium Protocol: beam hits build Yang charge, charge orbs build Yin charge
+		While both charges stay in balance the scales align — damage, fire rate and mana efficiency all rise
+		'''
 }
 
 CapacitorBankModule: {
@@ -1856,7 +1940,11 @@ CapacitorBankModule: {
 
 CrystalGripModule: {
 	DisplayName: Crystal Grip
-	Tooltip: Synthetic crystal dielectric resonates with the user, trimming mana cost and boosting crit, but slowing charge
+	Tooltip:
+		'''
+		Synthetic crystal dielectric trims mana cost and boosts crit; critical impacts refract into matter —
+		shards burst from the target in ballistic arcs, then curve toward nearby foes under lattice gravity
+		'''
 }
 
 EfficientGripModule: {
@@ -1871,27 +1959,47 @@ HeavyBarrelModule: {
 
 HighVoltageCoreModule: {
 	DisplayName: High Voltage Core
-	Tooltip: Output voltage is pushed up the scale, amplifying both raw and merged-beam damage at extra mana cost
+	Tooltip:
+		'''
+		A high-voltage capacitor charges with every hit
+		At full charge, your next hit discharges a piercing arc from your body through everything in its path
+		'''
 }
 
 HoloOpticModule: {
 	DisplayName: Holo Optic
-	Tooltip: Holographic reticle locks the impact point, slashing spread and accelerating the trigger at slight mana overhead
+	Tooltip:
+		'''
+		Tactical lattice projector: periodically deploys a holographic lattice at your cursor while fighting
+		Hostile projectiles touching it dissolve; your beams passing through are recalibrated — empowered and re-aimed
+		'''
 }
 
 HypersonicBarrelModule: {
 	DisplayName: Hypersonic Barrel
-	Tooltip: Sonic-shock chamber pushes beams to extreme velocity, but fine homing can no longer keep up
+	Tooltip:
+		'''
+		Ramjet rifling makes beams accelerate in flight; breaking the sound barrier detonates a mach-ring shockwave
+		Past the barrier, beams go white-hot: bonus damage, extra pierce and a vapor condensation trail
+		'''
 }
 
 KineticDamperModule: {
 	DisplayName: Kinetic Damper Stock
-	Tooltip: Liquid damper swallows recoil, all but eliminating spread and granting a small crit edge
+	Tooltip:
+		'''
+		Hydraulic dampers store recoil from your hits as kinetic reserve; above half reserve you cannot be knocked back
+		The moment you take damage, the full reserve erupts as a seismic counter-wave that blasts enemies away
+		'''
 }
 
 LightStockModule: {
 	DisplayName: Light Stock
-	Tooltip: Carbon-composite frame greatly increases fire rate at a mild cost to stability and per-shot power
+	Tooltip:
+		'''
+		Segmented lightweight frame raises fire rate and turns every main beam into a crawling light-chain —
+		two chain segments trail along the beam's path, each dealing its own damage
+		'''
 }
 
 MultiCellFrameModule: {
@@ -1901,12 +2009,20 @@ MultiCellFrameModule: {
 
 PlasmaInjectorModule: {
 	DisplayName: Plasma Injector
-	Tooltip: High-enthalpy plasma injection vastly amplifies orb velocity and merged-beam damage, charging slightly slower
+	Tooltip:
+		'''
+		Injects high-enthalpy plasma into the orb: its detonation leaves behind a miniature plasma sun
+		The sun scorches everything nearby and periodically lashes the closest enemy with solar flares
+		'''
 }
 
 QuantumFrameModule: {
 	DisplayName: Quantum Frame
-	Tooltip: Quantum steering circuits make beams turn smarter and orbs fly faster at slightly elevated mana cost
+	Tooltip:
+		'''
+		Entanglement protocol: hitting two different targets in succession quantum-entangles them for a few seconds
+		Damage dealt to either is partially copied to the other; when one dies, the link collapses and slams the accumulated echo into the survivor
+		'''
 }
 
 ScattershotBarrelModule: {
@@ -1981,15 +2097,15 @@ GravityFrameModule: {
 
 LaserBarrelModule: {
 	DisplayName: Prism Laser Barrel
-	Tooltip: Replaces left-click with a continuous prism laser column that tracks the cursor
+	Tooltip: Converts the merged beam into a continuous prism laser column, at the cost of massive mana consumption and limited output power
 }
 
 OscillatorBarrelModule: {
 	DisplayName: Oscillator Laser Barrel
 	Tooltip:
 		'''
-		An embedded pulse capacitor detonates a micro-explosion at the beam tip every 45 frames
-		Direct damage is slightly reduced and mana cost increases, but area bursts cover the continuous-fire gap
+		An embedded pulse capacitor detonates an energy pulse at the beam endpoint every 30 frames
+		Direct damage is slightly reduced, but area bursts and lower mana cost compensate for sustained fire
 		'''
 }
 
@@ -2148,7 +2264,7 @@ SniperOpticModule: {
 		'''
 		Magnetic collimators dramatically increase projectile speed, range, and single-hit damage
 		At the cost of greatly reduced fire rate and near-zero homing
-		Best paired with the Focus Barrel for extreme long-range strikes
+		Best paired with the Hypersonic Barrel for extreme long-range strikes
 		'''
 }
 
@@ -2253,7 +2369,7 @@ OverkillFrameModule: {
 	DisplayName: Overkill Frame
 	Tooltip:
 		'''
-		An overkill-sensing circuit stacks one Overkill charge per kill, up to 10; each stack adds 3% damage
+		An overkill-sensing circuit stacks one Overkill charge per kill, up to 15; each stack adds 2% damage
 		Stacks decay over time — the faster you slay, the stronger you become
 		'''
 }
@@ -2395,11 +2511,7 @@ ZoomOpticModule: {
 
 PingOpticModule: {
 	DisplayName: Ping Optic
-	Tooltip:
-		'''
-		Signal-painter system stamps Marked-for-Death on every target struck, amplifying all incoming damage
-		Bonus homing, crit, and tighter spread complete the targeting kit
-		'''
+	Tooltip: The signal-painter system applies Marked for Death on hit and grants bonus crit chance
 }
 
 CapacitorPulseModule: {
@@ -2452,7 +2564,7 @@ BulwarkStockModule: {
 	Tooltip:
 		'''
 		Holding the SHPC grants modest damage reduction
-		The reinforced posture slightly slows charge time and bumps mana cost
+		The reinforced posture slightly slows charge time and reduces mana cost
 		'''
 }
 
@@ -2461,7 +2573,7 @@ CombatGripModule: {
 	Tooltip:
 		'''
 		Killing blows with beams or laser stack "Combat" charges (max 5)
-		Each stack grants +6% attack speed and +2% damage; charges decay between fights
+		Each stack grants +4% attack speed and +2% damage; charges decay between fights
 		'''
 }
 
@@ -2507,5 +2619,142 @@ ArchiveFrameModule: {
 		'''
 		Accumulates SHPC damage; each time the threshold is crossed, an Archive blast detonates at the player's feet
 		Per-shot damage rises slightly with a small mana surcharge
+		'''
+}
+
+CWRItem: {
+	TemperatureText: Combustion Temperature
+	InternalStoredEnergy: Stored Energy
+	DeathModeItemText: Death Mode
+	LegendItemUpgradeDisable:
+		'''
+		This legendary weapon cannot be upgraded in the current world.
+		Re-enter the world to lift this restriction.
+		'''
+	ItemLegendOnMouseLang: Press 'Shift' to hear its story...
+
+	CWRItem: {
+		TemperatureText: Combustion Temperature
+		InternalStoredEnergy: Stored Energy
+		DeathModeItemText: Death Mode
+		LegendItemUpgradeDisable:
+			'''
+			This legendary weapon cannot be upgraded in the current world.
+			Re-enter the world to lift this restriction.
+			'''
+		ItemLegendOnMouseLang: Press 'Shift' to hear its story...
+	}
+}
+
+RMagicConch: {
+	DontUseMagicConch: You're being watched by a powerful creature...
+
+	RMagicConch: {
+		DontUseMagicConch: You're being watched by a powerful creature...
+		DisplayName: Magic Conch
+		Tooltip: Listen closely and you'll hear the ocean
+	}
+}
+
+GraniteTome: {
+	DisplayName: Granite Tome
+	Tooltip:
+		'''
+		Conjures a slow, homing orb of granite energy
+		Shatters into seeking crystal shards on impact
+		'''
+}
+
+GraniteFlower: {
+	DisplayName: Granite Bloom
+	Tooltip:
+		'''
+		Fires a crystal seed that blossoms into a lingering energy flower
+		The bloom pulses several times, spraying crystal petals all around
+		'''
+}
+
+GraniteThrowingKnife: {
+	DisplayName: Granite Throwing Knife
+	Tooltip:
+		'''
+		Throws a piercing knife trailing crystalline energy
+		Shatters into crystal shards on its last hit or against terrain
+		'''
+}
+
+GraniteWalkingBoots: {
+	DisplayName: Granite Walking Boots
+	Tooltip:
+		'''
+		Greatly increases running speed and acceleration
+		Crackles with blue sparks at full speed
+		'''
+}
+
+MarbleClub: {
+	DisplayName: Marble Club
+	Tooltip:
+		'''
+		A slow, heavy swing with crushing knockback
+		May petrify foes, briefly slowing them
+		The first hit of each swing unleashes a marble shockwave
+		'''
+}
+
+MarbleHuntingKnife: {
+	DisplayName: Marble Hunting Knife
+	Tooltip:
+		'''
+		Swift slashing strikes
+		Every third strike is a wider finisher that sprays marble shards
+		'''
+}
+
+MarbleDisc: {
+	DisplayName: Marble Discus
+	Tooltip:
+		'''
+		Hurls a spinning discus that ricochets between foes and walls
+		Then curves back to your hand; up to two may fly at once
+		'''
+}
+
+MarblePebble: {
+	DisplayName: Marble Pebble
+	Tooltip:
+		'''
+		An endless sling stone, swift and prone to critical hits
+		Deals far greater damage to foes with high maximum life
+		Bounces once off the ground
+		'''
+}
+
+MarbleShield: {
+	DisplayName: Marble Aegis
+	Tooltip:
+		'''
+		Increases defense and knockback resistance
+		Maintains a regenerating stone guard that absorbs an incoming hit, bursting into shards
+		Brace for a perfect block that reflects projectiles
+		'''
+}
+
+MarbleBalloon: {
+	DisplayName: Marble Balloon
+	Tooltip:
+		'''
+		Increases jump height and grants a heavy second jump
+		Press Down while airborne to slam down, releasing a shockwave on landing
+		Negates fall damage
+		'''
+}
+
+MarbleinaBottle: {
+	DisplayName: Marble in a Bottle
+	Tooltip:
+		'''
+		Double-tap a direction to roll forward in a stone dash
+		Grants brief invulnerability while dashing
 		'''
 }

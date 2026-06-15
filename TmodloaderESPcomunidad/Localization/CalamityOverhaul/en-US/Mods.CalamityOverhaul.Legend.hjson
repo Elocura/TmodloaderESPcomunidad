@@ -1,31 +1,70 @@
-﻿HalibutText: {
+HalibutOverride: {
 	FishByStudied:
 		'''
-		[i:CalamityMod/HalibutCannon]:
+		[i:CalamityOverhaul/HalibutItem]:
 		This fish can be researched.
 		'''
 	FishOnStudied:
 		'''
-		[i:CalamityMod/HalibutCannon]:
+		[i:CalamityOverhaul/HalibutItem]:
 		This fish has been researched.
 		'''
-	FishByPuzzle:
+	DisplayName: Halibut
+	Tooltip:
 		'''
-		[i:CalamityMod/HalibutCannon]:
-		This fish can be used as a puzzle piece.
+		Converts Musket balls into a stream of Ocean Current
+		[Lang4]
+		legend_Text
 		'''
+}
 
-	SkillSlot: {
-		Hover1: Left Click: Select
-		Hover2: Right Click: Pin
-		Hover3: Scroll Wheel: Scroll
-		Hover4: Hold: Drag
-		Hover5: W Key: Store in Library
+HalibutText: {
+	HalibutAtlas: {
+		TitleText: A B Y S S A L  A T L A S
+		NavSea: Skill Sea
+		NavEyes: Domain Eyes
+		TierName0: Shallows · Sunlit Zone
+		TierName1: Open Sea · Twilight Zone
+		TierName2: Deep Sea · Midnight Zone
+		TierName3: Abyss · Lightless Zone
+		DockLabel: Loadout {0} / {1} · Click to select
+		LockedNodeName: Unknown Silhouette
+		LockedNodeHint: Research {0} at the Research Altar to light up this skill
+		EquipBtn: Equip
+		UnequipBtn: Remove
+		SelectBtn: Select
+		SelectedTag: Active
+		LoadoutFullHint: Loadout is full
+		UnlockFishLine: Research source: {0}
+		AltarTitle: Research Altar
+		AltarHint: Click the altar to pick a researchable fish from your inventory to study.
+		StudyPickerTitle: Commit to Research
+		StudyPickerCount: Researchable Fish · {0}
+		StudyPickerHint: Click a fish to place it into the altar for research
+		StudyPickerEmpty: No researchable fish in your inventory
+		StudyPlaceHint: Click to place into the Research Altar
+		StudyingFormat: Researching: {0}
+		StudyReclaim: Reclaim
+		DragHint: Hold and drag skills into the loadout · Scroll to dive
+		LayerStateFormat: Domain Layer {0}
+		UnlockCountFormat: Lit {0} / {1}
+	}
+
+	HalibutSkillWheel: {
+		ReleaseHint: Release {0} to confirm
+		CancelHint: Right-click to cancel
+		NoSelection: No skill selected
+	}
+
+	HalibutHud: {
+		OpenAtlasHint: Left-click or {0} to open the Abyssal Atlas, {1} to summon the skill wheel
+		DomainLayerFormat: Domain layers {0} / 10
+		StudyingLabel: Researching
 	}
 
 	DomainUI: {
 		TitleText: Abyssal Domain
-		ExtraEyeTitleText: Tier X
+		ExtraEyeTitleText: The  Tenth  Layer
 		CrashedLabelText: System Crashed
 		EyeDesc1:
 			'''
@@ -159,41 +198,49 @@
 		Trend5: Instantaneous Collapse
 		SummaryFormat: Current Diagnosis: {0} [Erosion Trend: {1}]
 	}
-
-	SkillLibraryUI: {
-		TitleText: Skill Library
-		EmptyText:
-			'''
-			Skill Library is empty.
-			Press [W] on a skill to store it.
-			'''
-		HintAddToList: "[W] Add to List"
-		HintRemoveFromList: "[W] Store in Library"
-	}
 }
 
-MuraText: {
-	Subtest_Text0: We must head to the Underworld to unleash the powers of light and dark. It will trigger a warp storm, but it must be done, recruit, to pen a magnificent stroke for our crusade!
-	Subtest_Text1:
-		'''
-		I miss the fiery tempering of the Brimstone Crags. Let's go meet its guardian.
-		I can feel two gazes upon us. Go take care of them.
-		'''
-	Subtest_Text2:
-		'''
-		A prison within the True Ice bulwark. A powerful psyker is held there. Free him; he will be a great asset in reclaiming Terra.
-		A decisive battle is approaching. Those heaps of scrap metal plan to unite in a vain attempt to stop us.
-		Tell them with blade and blood that the march of our crusade will crush all xenos heresy and abominable intelligence.
-		'''
+MurasamaOverride: {
 	World_Text0: Previously Upgraded World: <{0}> | Recorded Level: <{1}>
-	Subtest_Text4: In the jungle, someone's former clumsy creation still wanders. As a failure, it should rightfully be just a pile of scrap metal.
-	Subtest_Text5: A shell of interwoven flesh, the resentful wraith of an ancient battlefield, a ceaselessly destructive golem. It destroys all things, and we shall destroy it.
-	Subtest_Text6: The star gods of old have long fallen. What remains is but a mere maggot. Let us put an end to the era of the star gods once and for all.
-	Subtest_Text7: Let that aggregation of souls in the dungeon wither beneath my blade. Its soul will be the finest nourishment.
-	Subtest_Text8: A pathetic deity lingering by siphoning solar thermal energy. Its heretical fire must be completely extinguished.
-	Subtest_Text9: That alien plant deep in the jungle. Go tear its petals, crush its bulbs, and let its sap stain this land.
-	Subtest_Text10: That witch who threw herself into chaos has a deformed clone sister. Kill that xeno, and offer its blood and fire to the blade.
+	Text0: Unlocked
+	Text1: Not yet unlocked. Need to pass test [Unhook]
+	Text_Lang_0: Trial:
+	DisplayName: Murasama
+	Tooltip:
+		'''
+		Right-click to aim and charge the sword's energy. 
+		When a target is hit with a true melee attack using the left-click, the sword's energy will be charged. 
+		If there are powerful enemies nearby, the sword's energy will slowly charge on its own.
+		When the sword's energy is fully charged, press [KEY1] to release the blade. 
+		During the blade's flight, press the left-click to perform an Ascending Slash. [Lang1]
+		Hitting an enemy with the Ascending Slash will charge Weapon 1. 
+		Press [KEY2] to consume 1 point of weapon charge and perform a downward strike. [Lang2]
+		When the weapon charge reaches the maximum value of 10 points, 
+		hitting an enemy with the Ascending Slash again will trigger a finishing move. [Lang3]
+		[c/ff4500:" It would be better if this were a chainsaw sword "]
+		[Lang4]
+		legend_Text
+		'''
 }
+
+SHPCOverride: {
+	DisplayName: SHPC
+	Tooltip:
+		'''
+		Left-click to fire three laser beams
+		Right-click and hold to charge energy
+		All attacks can be enhanced by the field
+		[Lang4]
+		legend_Text
+		'''
+}
+
+LegendUpgradeManagerSystem: {
+	QuestManagerHint: Press [{KEY}] to open the quest list
+	TrialPassed: Already passed
+}
+
+TrialBlockedHint: The next trial requires the relevant content to be enabled before it can begin.
 
 HalibutTrialQuestLine: {
 	QuestCategory: Halibut Legend
@@ -214,23 +261,88 @@ HalibutTrialQuestLine: {
 	Trial_12: Pinnacle of Creation
 	Trial_13: Back to the Sea
 	TrackerBrief: Target：{0}
+	BossRushTargetName: Battle of Terminus
+	EventActiveFormat: "{0}: active"
+	TextDictionary_Content_0: Friend, let's challenge that enormous, slimy land creature.
+	TextDictionary_Content_1: There's a big eye staring at us. That's quite rude; we should teach it a lesson.
+	TextDictionary_Content_2: Life thrives not only in the Abyss but also in the Jungle. We should pay a visit to the queen bee there.
+	TextDictionary_Content_3:
+		'''
+		A cursed skeleton that never decays—we need to put it to rest.
+		The cries for help from Hell are becoming more frequent. We should leave soon. I'm sure the Guide won't mind.
+		'''
+	TextDictionary_Content_4:
+		'''
+		Do you know how inanimate objects come to life? I once built a massive underwater machine that could launch missiles made of bubbles
+		and countless thermonuclear torpedoes. I used it to hunt gigantic creatures living 10,000 meters below the sea—until I met...
+		Oh, I digress. I think we'll soon have four mechanical friends visiting us, so we should be prepared.
+		Also, there's a mutated giant sea worm in the polluted waters above the Abyss. It used to be a gatekeeper at the Sulphurous Sea University.
+		It should still be quite friendly; we can go have some afternoon tea with it.
+		'''
+	TextDictionary_Content_5:
+		'''
+		The next research sample is the clone.
+		A crude replica, yes, but it's saturated with that brimstone presence... excellent material for analysis.
+		...Oh, right. One more thing.
+		I'm fond of the jungle. It's practically my second home, brimming with life energy
+		on par with the deep abyss. However, we need to find a way to release it first.
+		Remember those giant bulbs underground? Go 'pick' them. It will... help with my botany degree.
+		'''
+	TextDictionary_Content_6:
+		'''
+		I enjoy archaeological digs. Last time I was wandering through the Jungle, I saw a massive ruin.
+		We should now have the key to open the door to that ruin. Let's go check it out.
+		Inside, there's an ancient machine waiting for us to power it up, just like a remote control for an air conditioner.
+		'''
+	TextDictionary_Content_7:
+		'''
+		Do you know the secret on the far side of the Moon? There's a giant octopus, a sponge, and a starfish...
+		Oh, I mean, the lunar crisis is coming.
+		'''
+	TextDictionary_Content_8:
+		'''
+		Now it's time for the solar crisis. A powerful energy being escaped from the far side of the Sun and burrowed into the planet's core.
+		We need to head down there and give it a cold shower.
+		'''
+	TextDictionary_Content_9:
+		'''
+		Countless indomitable souls from ancient battlefields have gathered now, hidden deep within the dungeon, and are becoming restless.
+		We can go down there and slay some of the wandering spirits. This might bring about a small storm in the Subspace, but it'll also lure them out.
+		'''
+	TextDictionary_Content_10:
+		'''
+		There's a species that is born and grows in space, capable of withstanding intense cosmic radiation and celestial-level energy.
+		We encountered one a long time ago, but now we face the champion among them—a being that claims to have devoured gods.
+		'''
+	TextDictionary_Content_11: The Jungle's temperature has risen lately; I think that powerful dragon has returned.
+	TextDictionary_Content_12:
+		'''
+		We're about to face the pinnacle of inorganic creations, with unmatched firepower and defense.
+		Additionally, the Sulphurous Fire Altar seems capable of summoning something.
+		'''
+	TextDictionary_Content_13:
+		'''
+		In the Abyss lies a special stone—use it to face the final battle.
+		There's also a powerful sea creature that destroyed my machine; let's seek revenge.
+		'''
+	TextDictionary_Content_14: Honestly, I feel like going back to the sea.
 }
 
 MurasamaTrialQuestLine: {
 	QuestCategory: Demon Blade Murasama · Trials
 	TrackerWaiting: Target is absent, awaiting summons...
 	TrackerFighting: "{0}: {1:0%}"
-	Trial_0: Desert Phantom
-	Trial_1: Sand Sea Hunt
+	Trial_0: Sludge First Cut
+	Trial_1: Desert Phantom
 	Trial_2: Invader
 	Trial_3: Corruption Purge
 	Trial_4: Parasitic Threat
-	Trial_5: Gelatinous Defiler
-	Trial_6: Dungeon Breach
+	Trial_5: Dungeon Breach
+	Trial_6: Gelatinous Defiler
 	Trial_7: Path to the Underworld
-	Trial_8: Tundra Shackles
-	Trial_9: Abyssal Cleansing
-	Trial_10: Brimstone Purging Flame
+	Trial_8: Abyssal Cleansing
+	Trial_9: Brimstone Purging Flame
+	Trial_10: Tundra Shackles
 	Trial_11: Steel Gears
 	Trial_12: Twin Eye Annihilation
 	Trial_13: Mechanical King Skull
@@ -249,7 +361,7 @@ MurasamaTrialQuestLine: {
 	Trial_26: Chaos Judgment
 	Trial_27: Primordial Return
 	TrialSummary_0: Prove yourself to me, recruit.\nThat slimy blue blob is a good place to start.\nHandle it.
-	TrialSummary_1: The siren remnants beneath the sand sea still roam.\nTrack it down and end it.
+	TrialSummary_1: The remnants of the sea scourge beneath the sands still roam.\nTrack it down and end it.
 	TrialSummary_2: The moon hangs high in the night. Let's go burst that giant eyeball flying around up there, and make that false god permanently blind.
 	TrialSummary_3:
 		'''
@@ -258,16 +370,16 @@ MurasamaTrialQuestLine: {
 		I want to see your blade dance through xenos flesh!
 		'''
 	TrialSummary_4: The corrupted earth still throbs like a heart. The flesh parasites are still active; the corrupted tumors are still thinking. Go banish them entirely!
-	TrialSummary_5: Do you feel it? That foul corruption reeking of gel.\nPurify this filthy aggregate completely.
-	TrialSummary_6:
+	TrialSummary_5:
 		'''
 		The curse at the dungeon entrance has loosened. I feel psychic energy stirring in its depths, mixed with screams, wails, whispers...
 		Shatter that giant skull.
 		'''
+	TrialSummary_6: Do you feel it? That foul corruption reeking of gel.\nPurify this filthy aggregate completely.
 	TrialSummary_7: Step into the Underworld. That wall of flesh spanning the lava—that is our door to the next era.\nTear it apart.
-	TrialSummary_8: In the bitter cold of the northern reaches lies a sealed creation of ice and snow.\nCrush it before it can fully unseal.
-	TrialSummary_9: The outcast of the Sulphurous Sea blocks our quest for the treasures of the abyss. Go end its devouring and wandering.
-	TrialSummary_10: The heretical fire of that Brimstone Emissary deep in the lava is an eyesore. Go extinguish it.
+	TrialSummary_8: The outcast of the Sulphurous Sea blocks our quest for the treasures of the abyss. Go end its devouring and wandering.
+	TrialSummary_9: The heretical fire of that Brimstone Emissary deep in the lava is an eyesore. Go extinguish it.
+	TrialSummary_10: In the bitter cold of the northern reaches lies a sealed creation of ice and snow.\nCrush it before it can fully unseal.
 	TrialSummary_11: A massive steel worm stands in the way of our crusade. Chop it into pieces.
 	TrialSummary_12: Those mechanical eyes look down on us—pierce them with your blade.
 	TrialSummary_13: The skeleton lord donned steel armor thinking it could stop us? Shatter that metal skull.
@@ -293,7 +405,7 @@ MurasamaTrialQuestLine: {
 		'''
 	TrialSummary_25:
 		'''
-		That heretic of the mechanical church firmly believes his Exo Mechs surpass the power of gods.
+		That heretic of the mechanical church firmly believes his Exo Titans surpass the power of gods.
 		Such a belief is utterly absurd. Let us return those Titans to their natural state—a pile of scrap metal.
 		'''
 	TrialSummary_26:
@@ -307,6 +419,8 @@ MurasamaTrialQuestLine: {
 		Use the Terminus and engage in the final decisive battle with the xeno.
 		'''
 	TrackerBrief: Target：{0}
+	BossRushTargetName: Battle of Terminus
+	EventActiveFormat: "{0}: active"
 }
 
 SHPCTrialQuestLine: {
@@ -323,7 +437,7 @@ SHPCTrialQuestLine: {
 	Trial_7: Mechanical Worm
 	Trial_8: Twin Eye Dismantlement
 	Trial_9: Steel Skull
-	Trial_10: Calamity Clone
+	Trial_10: Calamitas Clone
 	Trial_11: Ecological Survey
 	Trial_12: Ancient Tech
 	Trial_13: Interstellar Coordinates
@@ -446,6 +560,8 @@ SHPCTrialQuestLine: {
 		Please be prepared. I will monitor the battlefield throughout and assist you in settling this once and for all.
 		'''
 	TrackerBrief: Target：{0}
+	BossRushTargetName: Battle of Terminus
+	EventActiveFormat: "{0}: active"
 }
 
 SHPCModuleStat: {
@@ -502,7 +618,7 @@ MoldProcessingUI: {
 	UnknownName: ??????
 	ProgressFormat: "{0}/{1}"
 	ShardSuffix: SHARDS
-	EmptyCandidates: "// no compatible modules in inventory"
+	EmptyCandidates: "// No matching modules in inventory to salvage"
 	CloseHint: ESC TO CLOSE
 	DecomposeHint: Click a module to decompose it
 	CodexHint: Click a discovered mold to pin it as reforge target

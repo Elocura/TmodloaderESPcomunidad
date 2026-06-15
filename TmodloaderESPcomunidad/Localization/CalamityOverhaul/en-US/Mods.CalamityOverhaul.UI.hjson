@@ -1,4 +1,4 @@
-﻿ItemFilterUI: {
+ItemFilterUI: {
 	HintText: Left-click to add an item
 	HintText2: Left-click to remove an item
 	CloseHint: Press [ESC] or [Right-click] to close
@@ -155,7 +155,7 @@ QuestLog: {
 	NightModeText: Night Mode
 	ResetViewText: Reset View
 	SunModeText: Daytime Mode
-	LauncherHoverText: Left-Click Toggle, Right-Click Drag
+	LauncherHoverText: Left-click to interact, right-click to drag
 	QuestManagerText: Commission
 }
 
@@ -168,19 +168,7 @@ ExtraMain: {
 	MusicText: MUSIC
 	StaffText: STAFF
 	BackText: BACK
-	LockedText: ???
-}
-
-CompatibilityAlert: {
-	TitleText: Compatibility Mode Active
-	ContentText:
-		'''
-		Major content mods are missing or version conflicts have been detected. 
-		Some features are disabled or running in restricted mode.
-		If this is intentional, please ignore this message.
-		If this is due to outdated versions, please wait for an update.
-		The development team usually releases compatibility patches within 12 hours.
-		'''
+	LockedText: LOCKED
 }
 
 QuestWorldConfirmUI: {
@@ -305,7 +293,7 @@ MartyrdomBarUI: {
 	SlotLabel_9: Td
 	SlotLabel_10: Si
 	SlotLabel_11: Ju
-	RevelationJudgingText: Revelation Last Three Seals in progress
+	RevelationJudgingText: Last Three Seals judgment in progress
 	RevelationStatusText: Revelation Horsemen {0}/4 Q:Meteor R:Judgment
 	RevelationReadyText: Press Q — Revelation ready
 	MartyrdomPowerText: Martyrdom {0}/11
@@ -332,16 +320,6 @@ OverhaulSettingsUI: {
 	DensityEverywhereText: Everywhere
 	ResetDefaultText: Reset to Default
 	DensityTooltipText: Structure Generation Density
-	CompatibilitySettingsText: Compatibility Settings
-	CompatibilityFooterHintText: These options are used to resolve compatibility issues with other mods.
-	CompatHighFPSLabelText: Automatically disable HighFPSSupport Motion Interpolation
-	CompatHighFPSTooltipText:
-		'''
-		The motion interpolation feature of HighFPSSupport causes severe misalignment in some held weapon displays and shell casing ejections.
-		Enabling this option will automatically turn off that feature upon entering the world to ensure correct visual performance.
-		[c/FF6666:Disabling this option is not recommended unless you explicitly accept the broken visuals and understand the cause.]
-		'''
-	CompatHighFPSNotInstalledText: "[c/888888:(HighFPSSupport mod is not currently installed; this option has no effect.)]"
 }
 
 OverhaulSettingsButton.OverhaulSettingsButtonText: Overhaul Settings
@@ -438,6 +416,8 @@ CyberwareUI: {
 	StatusText: SYSTEM STATUS: OPERATIONAL
 	SlotSelectedText: "[ SELECTED ]"
 	SlotEmptyText: EMPTY
+	ClinicRequiredTitle: CYBERWARE LOCKED
+	ClinicRequiredDesc: Only a ripperdoc can install implants. Visit Victor.
 	Slot_FrontalCortex: FRONTAL CORTEX
 	Slot_OcularSystem: OCULAR SYSTEM
 	Slot_LeftArm: LEFT ARM
@@ -450,6 +430,30 @@ CyberwareUI: {
 	Slot_Skeleton: SKELETON
 	Slot_RightLeg: RIGHT LEG
 	Slot_NervousSystem: NERVOUS SYSTEM
+	TooltipSlot: SLOT:
+	TooltipCapacityCost: CAPACITY COST: {0}
+	SkillRamCost: RAM {0}
+}
+
+VictorTalkUI: {
+	SpeakerName: VICTOR
+	Greet0: Another customer? Come in, before the draft scatters your spare parts.
+	Greet1: Want a stronger body? Steel never betrays you - only your wallet does.
+	Greet2: I have seen too many fools soak up bullets with flesh. Now they only live on in my memory... and on my operating table.
+	Greet3: Brain, eyes, limbs - if the price is right, there is nothing I cannot replace.
+	ClinicButtonText: Cyberware Clinic
+	ChatButtonText: Small Talk
+	LeaveButtonText: Leave
+}
+
+VictorClinicUI: {
+	TitleText: VICTOR'S CLINIC
+	StatusText: RIPPERDOC ONLINE - SELECT A LIMB
+	GuideText: Select a body part to view, swap and buy its cyberware.
+	LabelOwned: OWNED
+	LabelForSale: FOR SALE
+	EmptyOwned: ( none in pack )
+	EmptyShop: ( nothing more to sell )
 }
 
 SHPCDialogueBox: {
@@ -471,10 +475,10 @@ HackTime: {
 	Done: DONE
 	Queued: QUEUED
 	UploadingText: UPLOADING...
-	BreachReady: BREACH PROTOCOL // READY
+	BreachReady: BREACH PROTOCOL · READY
 	UploadComplete: >> UPLOAD COMPLETE <<
-	UploadQueue: "// UPLOAD QUEUE"
-	TargetLocked: "// TARGET LOCKED"
+	UploadQueue: UPLOAD QUEUE
+	TargetLocked: TARGET LOCKED
 	HpFormat: HP {0}%
 	Protocols: "[{0} PROTOCOLS]"
 	RamDepleted: !! RAM DEPLETED !!
@@ -498,11 +502,11 @@ HackTime: {
 	DmgLabel: DMG
 	KbResLabel: KB.RES
 	Breach: BREACH
-	InitBreach: "// INITIALIZING BREACH"
-	SystemBreach: "// SYSTEM BREACH"
+	InitBreach: INITIALIZING BREACH
+	SystemBreach: SYSTEM BREACH
 	Rebooting: REBOOTING...
 	SystemOnline: SYSTEM ONLINE
-	MemoryWiped: ???
+	MemoryWiped: MEMORY WIPED
 	Cyberpsychosis: CYBERPSYCHOSIS
 	RamRefund: +{0} RAM
 	ActiveText: ACTIVE
@@ -644,7 +648,7 @@ HackTime: {
 	SignalTowerScanStatusBroadcasting: Broadcasting
 	SignalTowerScanStatusElectrified: Residual Charge
 	SignalTowerScanProtocol: Available Protocols
-	RightClickHint: "// RIGHT CLICK TO DESELECT"
+	RightClickHint: Right-click to deselect target
 	AccessDeniedTitle: HACK TIME UNAVAILABLE
 	AccessDeniedDesc: Connect a smart weapon or install a netrunner cyberware to access hacking abilities.
 }
@@ -710,11 +714,11 @@ SHPCUI: {
 	Cyber_Layer1_Title: BASE ACCESS
 	Cyber_Layer2_Title: DEEP DIVE
 	Cyber_Layer3_Title: BLACKWALL BREACH
-	Cyber_NoSkill: "// No exclusive skills."
+	Cyber_NoSkill: No exclusive skills
 	Cyber_LayerBaseFooter: Foundation layer — establishes the domain field.
 	Cyber_SkillUnlocked: "[#] UNLOCKED"
 	Cyber_SkillLocked: "[X] Requires Layer {0}"
-	Cyber_KeyUnbound: ?
+	Cyber_KeyUnbound: Unbound
 	Cyber_Skill_Teleport_Name: RIFT TELEPORT
 	Cyber_Skill_Teleport_Desc: Deconstructs the chassis into a data stream to transmit to the target location, recomposing its physical form under the cover of the Blackwall protocol.
 	Cyber_Skill_Restart_Name: SYSTEM REBOOT
@@ -818,4 +822,64 @@ AbandonedPortalStrings: {
 	DiagnosticBroken: ERR-0xC4: Positioning Ring Fractured / Main Power Loop Disconnected
 	DiagnosticRepairing: INFO: Nano-weld array synchronizing... Do not move the portal base
 	DiagnosticRepaired: OK: All Subsystems Online / Coordinate Parsing Ready
+}
+
+SupertableUI: {
+	RecipeViewLabel: View recipe
+	RecipeEmptyLabel: nothing
+	PlacementMonitorOff: Turn Off Placement Monitor
+	PlacementMonitorOn: Turn On Placement Monitor
+	QuickPlaceMaterials: Quick Place Materials
+	QuickTakeMaterials: Quick Take Materials
+}
+
+ArrowHolderUI: {
+	MarkArrowHint: Left-click to mark an arrow
+	UnmarkArrowHint: Right-click to unmark an arrow
+}
+
+BulletinBoardUI: {
+	MenuHoverLabel: Go to the mod's open source repository :)
+	WikiLabel: Mod Wiki
+	FeedbackLabel: Issue Feedback
+	LogLabel: View log
+	AcknowledgmentLabel: Acknowledgments
+}
+
+AcknowledgmentUI: {
+	ArtistRole: Artist
+	CodeAssistanceRole: Code Assistance
+	MusicianRole: Musician
+	DonorRole: Donor
+	BalanceTesterRole: Balance Tester
+}
+
+CWRPlayer: {
+	Error_HookFailure:
+		'''
+		A hook has failed. Close the game and re-enter to restore normal play.
+		If the issue persists, export your log and contact the mod developer.
+		'''
+	OnEnterWorld_ImproveGameWarning:
+		'''
+		[Quality of Terraria] is installed, but your version is out of date.
+		For stable gameplay, update [Quality of Terraria] to at least 1.7.1.7.
+		'''
+	HellfireExplosionDeathReason: "{0} was reduced to ash in the fires of the Underworld"
+	SoulfireExplosionDeathReason: "{0}'s soul ascended in flame"
+
+	CWRPlayer: {
+		Error_HookFailure:
+			'''
+			A hook has failed. Close the game and re-enter to restore normal play.
+			If the issue persists, export your log and contact the mod developer.
+			'''
+		OnEnterWorld_ImproveGameWarning:
+			'''
+			[Quality of Terraria] is installed, but your version is out of date.
+			For stable gameplay, update [Quality of Terraria] to at least 1.7.1.7.
+			'''
+		HellfireExplosionDeathReason: "{0} was reduced to ash in the fires of the Underworld"
+		SoulfireExplosionDeathReason: "{0}'s soul ascended in flame"
+	}
 }
