@@ -25,7 +25,6 @@ Items: {
 					Lanza un chakram forjado en el vacío que se encadena al enemigo más cercano y se dirige hacia su presa
 					Inflige "Vacío colapsante", causando un daño creciente con cada golpe sucesivo
 					El ataque sigiloso lanza un disco giratorio de vacío que destroza a los enemigos durante 3 segundos
-					Vacío colapsante tiene un límite de 312 de DPS
 					'''
 			}
 
@@ -35,7 +34,6 @@ Items: {
 					'''
 					Lanza una jabalina imbuida en vacío, forjada a partir de sombras condensadas
 					Los ataques sigilosos infligen más daño y atraviesan a los enemigos
-					El Vacío colapsante tiene un límite de 260 DPS
 					'''
 			}
 
@@ -384,7 +382,7 @@ Items: {
 	}
 
 	Godhead: {
-		DisplayName: Divino
+		DisplayName: Cabeza de dios
 		Tooltip:
 			'''
 			Los proyectiles tienen un aura que inflige daño constante a tu objetivo
@@ -1453,11 +1451,7 @@ Items: {
 
 	Nyxolithraken: {
 		DisplayName: Nyxolithraken
-		Tooltip:
-			'''
-			Invoca a un dragón Nyxolith
-			Ocupa 5 espacios de súbditos
-			'''
+		Tooltip: Invoca un dragón nyxolita
 	}
 
 	MariviniumBodyArmor: {
@@ -2949,7 +2943,6 @@ Items: {
 			Invoca a la polilla de luz estelar para que luche por ti
 			Cuando no hay un objetivo, te rodeará y te proporcionará vida
 			Mantén pulsada la tecla ([KEY]) para entrar manualmente en este modo
-			Consume 3 espacios de súbditos
 			'''
 	}
 
@@ -3320,11 +3313,7 @@ Items: {
 	
 	Knightmare: {
 		DisplayName: Caballero Pesadilla
-		Tooltip:
-			'''
-			Invoca una espada pesadillesca para que luche por ti
-			Necesitas 2 espacios de súbditos
-			'''
+		Tooltip: Invoca una espada pesadillesca para que luche por ti
 	}
 
 	BookmarkStarwreckage: {
@@ -3434,7 +3423,7 @@ Items: {
 
 	CharredMissile: {
 		DisplayName: Misil carbonizado
-		Tooltip: Harás un 5% más de daño por cada proyectil adherido al enemigo
+		Tooltip: Harás un 2% más de daño por cada proyectil adherido al enemigo
 	}
 
 	OsseousRemains: {
@@ -3592,11 +3581,7 @@ Items: {
 
 	CursedTorch: {
 		DisplayName: Antorcha maldita
-		Tooltip:
-			'''
-			Invoca una antorcha maldita que lanza fuego a los enemigos
-			COnsume dos espacios de súbditos
-			'''
+		Tooltip: Invoca una antorcha maldita que lanza fuego a los enemigos
 	}
 
 	PhantomBottle: {
@@ -3676,11 +3661,7 @@ Items: {
 
 	OblivionSkull: {
 		DisplayName: Calavera del olvido
-		Tooltip:
-			'''
-			Invoca un cráneo maldito que dispara pequeños cráneos a los enemigos
-			Ocupa 2 espacios de súbditos
-			'''
+		Tooltip: Invoca un cráneo maldito que dispara pequeños cráneos a los enemigos
 	}
 
 	BloodCodex: {
@@ -3786,7 +3767,7 @@ Items: {
 		DisplayName: Misil de Azafure
 		Tooltip:
 			'''
-			+7% de daño por cada proyectil adherido
+			+2% de daño por cada proyectil adherido
 			Provoca más daño al adherirse
 			'''
 	}
@@ -3885,12 +3866,12 @@ Neltharion: {
 
 	HellstoneMissile: {
 		DisplayName: Misil de piedra infernal
-		Tooltip: +5% de daño por cada proyectil conectado
+		Tooltip: +2% de daño por cada proyectil conectado
 	}
 
 	WulfrumMissile: {
 		DisplayName: Misil de wulfrum 
-		Tooltip: +5% de daño por cada proyectil conectado
+		Tooltip: +1% de daño por cada proyectil conectado
 	}
 
 	CursedRunestone: {
@@ -3986,7 +3967,7 @@ Neltharion: {
 			Por cada ranura de súbdito que tengas, el daño crítico aumentará un 5%.
 			Además, en función del número de espacios de súbditos,
 			tu defensa y tu porcentaje de reducción de daño aumentarán.
-			Nivel: [LV] / [LVMAX]
+			Nivel: [LV] / [MAXLV]
 			'''
 	}
 
@@ -4000,7 +3981,7 @@ Neltharion: {
 		Tooltip:
 			'''
 			Genera plumas al explotar
-			+5% de daño por cada proyectil adherido
+			+2% de daño por cada proyectil adherido
 			'''
 	}
 
@@ -4022,6 +4003,20 @@ Neltharion: {
 
 	BeewaxWall: {
 		DisplayName: Pared de cera de abeja
+		Tooltip: ""
+	}
+
+	HallowedMissile: {
+		DisplayName: Misil sagrado
+		Tooltip:
+			'''
+			Tiene un radio de explosión mayor
+			+3% de daño por cada proyectil acoplado
+			'''
+	}
+
+	AzafurePhonograph: {
+		DisplayName: Fonógrafo de Azafure
 		Tooltip: ""
 	}
 }
@@ -4619,8 +4614,17 @@ Projectiles: {
 	Stinger.DisplayName: Stinger
 	ExplosiveSpore.DisplayName: Explosive Spore
 	SporeGas.DisplayName: Spore Gas
-	AzureRapierHeld: Azure Rapier
-	AzureRapierBlockSlash: Azure Rapier Slash
+
+	AzureRapierHeld: {
+		$parentVal: Azure Rapier
+		DisplayName: Azure Rapier Held
+	}
+
+	AzureRapierBlockSlash: {
+		$parentVal: Azure Rapier Slash
+		DisplayName: Azure Rapier Block Slash
+	}
+
 	DarkScriptureHeld.DisplayName: Dark Scripture Held
 	DarkBullet.DisplayName: Dark Bullet
 	SelenbiteStar.DisplayName: Selenbite Star
@@ -4748,6 +4752,8 @@ Projectiles: {
 	ClusterMissileProj.DisplayName: Cluster Missile Proj
 	ClusterMissileSmall.DisplayName: Cluster Missile Small
 	GiantBoulderProj.DisplayName: Giant Boulder Proj
+	HallowedMissileProj.DisplayName: Hallowed Missile Proj
+	StarBreakerHeld.DisplayName: Star Breaker Held
 }
 
 LegendTooltip: - Legendario -
@@ -5178,7 +5184,7 @@ NPCs: {
 		}
 
 		DisplayName: Gusano primordial
-		Census.SpawnCondition: Condiciones de aparición desconocidas
+		Census.SpawnCondition: Derrota a la SIerpe primordial
 	}
 
 	NihilityActeriophage: {
@@ -5410,16 +5416,6 @@ Configs: {
 		ChainsawShakeScreen: {
 			Label: Sacudida de las motosierras
 			Tooltip: ""
-		}
-
-		BindingOfIsaac_Rep_BossMusic: {
-			Label: Reemplaza la música de los jefes por el de Binding Of Isaac 
-			Tooltip: ""
-		}
-
-		RepBossMusicReplaceCalamityMusic: {
-			Tooltip: ""
-			Label: Reemplaza la música de Calamity por el de Binding Of Isaac
 		}
 
 		ItemAdditionalInfo: {
