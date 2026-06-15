@@ -270,8 +270,8 @@ Mods: {
 					12% summon tag critical strike chance
 
 					All enemies struck by this whip
-					take 1.25x damage from the next minion attack and explode,
-					dealing 10% damage to nearby enemies.
+					take 1.50x damage from the next minion attack and explode,
+					dealing 20% damage to nearby enemies.
 
 					This whip attack ignores armor.
 					Damage reduction cannot be ignored.
@@ -364,7 +364,7 @@ Mods: {
 					'''
 					All enemies struck by this whip
 					are impaled by a spectral spear on the next minion attack,
-					taking 20% of the minion’s damage 8 times in succession.
+					taking 25% of the minion’s damage 8 times in succession.
 					The impaling damage pierces 50 armor.
 					'''
 			}
@@ -397,7 +397,11 @@ Mods: {
 				DisplayName: Shield Conduit
 				Tooltip:
 					'''
+					2 summon tag damage
 					Switches automatically between two modes.
+					'''
+				HoldShiftTooltip:
+					'''
 					-----------------------------
 					Defense Mode:
 					Striking an enemy with the whip causes
@@ -428,7 +432,11 @@ Mods: {
 				DisplayName: Shield Conduit Mk-II
 				Tooltip:
 					'''
+					4 summon tag damage
 					Switches automatically between two modes.
+					'''
+				HoldShiftTooltip:
+					'''
 					-----------------------------
 					Defense Mode:
 					Striking an enemy with the whip causes
@@ -459,7 +467,11 @@ Mods: {
 				DisplayName: Shield Conduit Mk-III
 				Tooltip:
 					'''
+					7 summon tag damage
 					Switches automatically between two modes.
+					'''
+				HoldShiftTooltip:
+					'''
 					-----------------------------
 					Defense Mode:
 					Striking an enemy with the whip causes
@@ -490,7 +502,11 @@ Mods: {
 				DisplayName: Shield Conduit Mk-IV
 				Tooltip:
 					'''
+					12 summon tag damage
 					Switches automatically between two modes.
+					'''
+				HoldShiftTooltip:
+					'''
 					-----------------------------
 					Defense Mode:
 					Striking an enemy with the whip causes
@@ -521,7 +537,11 @@ Mods: {
 				DisplayName: Shield Conduit Mk-V
 				Tooltip:
 					'''
+					20 summon tag damage
 					Switches automatically between two modes.
+					'''
+				HoldShiftTooltip:
+					'''
 					-----------------------------
 					Defense Mode:
 					Striking an enemy with the whip causes
@@ -599,6 +619,71 @@ Mods: {
 					This whip's tag damage stacks with itself.
 					Older stacks expire first.
 					A number of comets equal to the stacks count orbit around the enemy.
+					'''
+			}
+
+			GoldRush: {
+				DisplayName: Gold Rush
+				Tooltip:
+					'''
+					8 summon tag damage
+					Striking enemies regularly summons physical weapons dealing 100% of minion damage.
+					'''
+			}
+
+			GildedReliquary: {
+				DisplayName: Gilded Reliquary
+				Tooltip:
+					'''
+					20 summon tag damage
+					Striking enemies rapidly summons a swift arsenal dealing 120% of minion damage
+					'''
+			}
+
+			AurelianSanctum: {
+				DisplayName: Aurelian Sanctum
+				Tooltip:
+					'''
+					80 summon tag damage
+					Striking enemies unleashes a relentless barrage of weapons dealing 200% of minion damage
+					'''
+			}
+
+			KingsMajesty: {
+				DisplayName: King's Majesty
+				Tooltip:
+					'''
+					2 summon tag damage
+					4% summon tag critical strike chance
+					While holding this whip, a gem follows you
+					and attacks whenever your minions damage an enemy marked by the whip.
+					The gem's attack deals 50% of the triggering hit's damage.
+					'''
+			}
+
+			EmeraldSplash: {
+				DisplayName: Emerald Splash
+				Tooltip:
+					'''
+					5 summon tag damage
+					7% summon tag critical strike chance
+					While holding this whip, a gem follows you
+					and attacks whenever your minions damage an enemy marked by the whip.
+					The gem's attack deals 100% of the triggering hit's damage.
+					'''
+			}
+
+			CrackoftheUniverse: {
+				DisplayName: Crack of the Universe
+				Tooltip:
+					'''
+					20 summon tag damage
+					10% summon tag critical strike chance
+					While holding this whip, a gem follows you
+					and attacks whenever your minions damage an enemy marked by the whip.
+					The gem's attack deals 100% of the triggering hit's damage.
+					The gem charges before firing,
+					adding 15% of damage dealt during the charge to its attack.
 					'''
 			}
 
@@ -794,6 +879,19 @@ Mods: {
 					Some minions cannot benefit from this effect
 					Some whip tag effects are reduced
 					'I choose you!'
+					'''
+			}
+
+			StrikerEmblem: {
+				DisplayName: Striker Emblem
+				Tooltip:
+					'''
+					You can no longer summon minions or sentries
+					Whips strike enemies three additional times for 33% damage
+					These strikes benefit from summon tag effects
+					Increases whip range by 10% 
+					10% increased summon damage for each unused minion slot
+					'Die, monster!'
 					'''
 			}
 
@@ -1332,6 +1430,36 @@ Mods: {
 			SimpleWhipDebuffT20St: {
 				DisplayName: Simple Whip Debuff T20 St
 				Description: Mods.CalamitySimpleWhipAddon.Buffs.SimpleWhipDebuffT20St.Description
+			}
+
+			SimpleWhipDebuffEx12: {
+				Description: Mods.CalamitySimpleWhipAddon.Buffs.SimpleWhipDebuffEx12.Description
+				DisplayName: Simple Whip Debuff Ex12
+			}
+
+			SimpleWhipDebuffEx14: {
+				Description: Mods.CalamitySimpleWhipAddon.Buffs.SimpleWhipDebuffEx14.Description
+				DisplayName: Simple Whip Debuff Ex14
+			}
+
+			SimpleWhipDebuffEx13: {
+				Description: Mods.CalamitySimpleWhipAddon.Buffs.SimpleWhipDebuffEx13.Description
+				DisplayName: Simple Whip Debuff Ex13
+			}
+
+			SimpleWhipDebuffEx15: {
+				Description: Mods.CalamitySimpleWhipAddon.Buffs.SimpleWhipDebuffEx15.Description
+				DisplayName: Simple Whip Debuff Ex15
+			}
+
+			SimpleWhipDebuffEx16: {
+				DisplayName: Simple Whip Debuff Ex16
+				Description: Mods.CalamitySimpleWhipAddon.Buffs.SimpleWhipDebuffEx16.Description
+			}
+
+			SimpleWhipDebuffEx17: {
+				Description: Mods.CalamitySimpleWhipAddon.Buffs.SimpleWhipDebuffEx17.Description
+				DisplayName: Simple Whip Debuff Ex17
 			}
 		}
 
