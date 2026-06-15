@@ -54,7 +54,7 @@ QuestNode: {
 	}
 
 	CalamitasCloneQuest: {
-		DisplayName: El Clon de Calamitas
+		DisplayName: Clon de Calamitas
 		Description: Derrota al Clon de Calamitas
 		QuestObjective.Description: Derrota al Clon de Calamitas
 		QuestReward.Description: 10 Cenizas de la calamidad
@@ -278,9 +278,9 @@ QuestNode: {
 	}
 
 	SupremeCalamitasQuest: {
-		DisplayName: Calamitas suprema
-		Description: Derrota a Calamitas suprema
-		QuestObjective.Description: Derrota a Calamitas suprema
+		DisplayName: La Bruja suprema, Calamitas
+		Description: Derrota la Bruja suprema, Calamitas
+		QuestObjective.Description: Derrota a la Bruja suprema, Calamitas
 		QuestReward.Description: 20 Cenizas de la aniquilación
 		DetailedDescription: La legendaria Bruja de azufre. ¿Es este el final de tu viaje, o quizás un nuevo comienzo? Prepárate para un auténtico infierno de balas.
 	}
@@ -337,7 +337,7 @@ QuestNode: {
 		DisplayName: Perforación profunda
 		Description: Fabrica una Máquina minera MK2
 		QuestObjective.Description: Obtén una Máquina minera MK2
-		QuestReward.Description: 5 Pociones de minería
+		QuestReward.Description: 5 Pociones de espeleólogo
 		DetailedDescription: Su núcleo reforzado ofrece una velocidad sin igual.
 	}
 
@@ -478,10 +478,10 @@ QuestNode: {
 	}
 
 	RockQuest: {
-		QuestObjective.Description: Obtén la Roca
-		QuestReward.Description: 5 Esquirlas del destino
-		DisplayName: La Roca
-		Description: Consigue una Esquirla del destino
+		QuestObjective.Description: Obtén la Piedras eterna ancestrale
+		QuestReward.Description: 5 Piedras eternas ancestrales
+		DisplayName: Piedra eterna antigua
+		Description: Consigue una Piedra eterna ancestral
 		DetailedDescription: Una piedra aparentemente común, pero que ha sido testigo del ciclo de innumerables asaltos de jefes. Es un símbolo de perseverancia eterna.
 	}
 
@@ -502,10 +502,10 @@ QuestNode: {
 	}
 
 	HeavenfallLongbowQuest: {
-		QuestObjective.Description: Obtén el Viento celestial
+		QuestObjective.Description: Obtén el Arco del infinito
 		QuestReward.Description: 5 Lingotes del infinito
-		DisplayName: Viento celestial
-		Description: Consigue un Arco largo caído del cielo
+		DisplayName: Arco del infinito
+		Description: Consigue un Arco del infinito
 		DetailedDescription: Un arco largo que ha derribado a los dioses. Ahora reaparecerá en el mundo.
 	}
 
@@ -526,10 +526,10 @@ QuestNode: {
 	}
 
 	RockQuestII: {
-		QuestObjective.Description: Completa el Asalto de jefes 5 veces y obtén 5 rocas
-		QuestReward.Description: 5 Rocas
+		QuestObjective.Description: Completa el Asalto de jefes 5 veces y obtén 5 Piedras eternas ancestrales
+		QuestReward.Description: 5 Piedras eternas ancestrales
 		DisplayName: Ciclo de conquista
-		Description: Completa el Asalto de jefes 5 veces y obtén 5 rocas
+		Description: Completa el Asalto de jefes 5 veces y obtén 5 Piedras eternas ancestrales
 		DetailedDescription: El símbolo de un verdadero guerrero.
 	}
 
@@ -873,8 +873,8 @@ QuestNode: {
 
 	LifeWeaverQuest: {
 		DisplayName: Reforestación
-		Description: Obtén el Tejedor de vida
-		QuestObjective.Description: Obtén el Tejedor de vida
+		Description: Obtén el Plantador de árboles
+		QuestObjective.Description: Obtén el Plantador de árboles
 		DetailedDescription: La regeneración forestal suele ser un proceso lento. Esta máquina utiliza energía para plantar árboles jóvenes con precisión, restaurando rápidamente la vida en tierras áridas. Es la pieza final del rompecabezas para una recolección arbórea totalmente automatizada y sostenible.
 	}
 
