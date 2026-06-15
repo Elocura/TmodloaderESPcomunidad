@@ -1,31 +1,63 @@
-HalibutText: {
+HalibutOverride: {
 	FishByStudied:
 		'''
-		[i:CalamityMod/HalibutCannon]:
+		[i:CalamityOverhaul/HalibutItem]:
 		Este pez se puede investigar
 		'''
 	FishOnStudied:
 		'''
-		[i:CalamityMod/HalibutCannon]:
+		[i::CalamityOverhaul/HalibutItem]:
 		Este pez se ha investigado
 		'''
-	FishByPuzzle:
-		'''
-		[i:CalamityMod/HalibutCannon]:
-		Este pez se puede usar como pieza de un rompecabezas
-		'''
+}
 
-	SkillSlot: {
-		Hover1: Clic izquierdo: Seleccionar
-		Hover2: Clic derecho: Fijar arriba
-		Hover3: Rueda de desplazamiento: Desplazarse
-		Hover4: Arrastrar: Ordenar
-		// Hover5: W Key: Store in Library
+HalibutText: {
+	HalibutAtlas: {
+		TitleText: A T L A S  A B I S A L
+		NavSea: Habilidad marina
+		NavEyes: Ojos de dominio
+		TierName0: Poco profundo · Zona soleada
+		TierName1: Mar abierto · Zona crepuscular
+		TierName2: Profundidades · Zona de medianoche
+		TierName3: Abismo · Zona sin luz
+		DockLabel: Equipamiento {0} / {1} · Clic para seleccionar
+		LockedNodeName: Silueta desconocida
+		LockedNodeHint: Investiga {0} en el Altar de investigación para desbloquear esta habilidad
+		EquipBtn: Equipo
+		UnequipBtn: Eliminar
+		SelectBtn: Selecionar
+		SelectedTag: Activo
+		LoadoutFullHint: El equipamiento está completo
+		UnlockFishLine: Fuente de la investigación: {0}
+		AltarTitle: Altar de investigación
+		AltarHint: Haz clic en el altar para seleccionar un pez de tu inventario que puedas investigar y estudiarlo.
+		StudyPickerTitle: Confirmar investigación
+		StudyPickerCount: Peces que se pueden investigar · {0}
+		StudyPickerHint: Haz clic en un pez para colocarlo en el altar y estudiarlo
+		StudyPickerEmpty: No hay peces que se puedan investigar en tu inventario
+		StudyPlaceHint: Haz clic para colocarlo en el Altar de investigación
+		StudyingFormat: Investigando: {0}
+		StudyReclaim: Agarrar
+		DragHint: Mantén pulsadas las habilidades y arrástralas al equipamiento · Desplázate para ver más
+		LayerStateFormat: Capa de dominio {0}
+		UnlockCountFormat: Lit {0} / {1}
+	}
+
+	HalibutSkillWheel: {
+		ReleaseHint: Suelta {0} para confirmar
+		CancelHint: Clic derecho para cancelar
+		NoSelection: No se ha seleccionado ninguna habilidad
+	}
+
+	HalibutHud: {
+		OpenAtlasHint: Haz clic con el botón izquierdo o pulsa {0} para abrir el Atlas abisal, y {1} para abrir el menú de habilidades
+		DomainLayerFormat:Capas de dominio {0} / 10
+		StudyingLabel: Investigando
 	}
 
 	DomainUI: {
 		TitleText: Dominio abisal
-		ExtraEyeTitleText: Capa X
+		ExtraEyeTitleText: La  décima  capa
 		CrashedLabelText: Grito
 		EyeDesc1:
 			'''
@@ -160,40 +192,45 @@ HalibutText: {
 		SummaryFormat: Diagnóstico actual: {0} [Tendencia de erosión: {1}]
 	}
 
-	SkillLibraryUI: {
-		TitleText: Biblioteca de habilidades
-		EmptyText:
-			'''
-			La biblioteca de habilidades está vacía
-			Pulsa [W] sobre una habilidad para guardarla
-			'''
-		HintAddToList: "[W] Añadir a la lista"
-		HintRemoveFromList: "[W] Guardar en la biblioteca"
-	}
+MurasamaOverride: {
+	World_Text0: Mundo ya mejorado: <{0}> | Nivel registrado: <{1}>
+	Text0: Desbloqueado
+	Text1: Aún no está desbloqueado. Hay que superar la prueba [Desbloquear].
+	Text_Lang_0: Prueba:
+	DisplayName: Murasama
+	Tooltip:
+		'''
+		Haz clic derecho para apuntar y cargar la energía de la espada. 
+		Cuando se golpee a un objetivo con un ataque cuerpo a cuerpo válido utilizando el clic izquierdo, se cargará la energía de la espada. 
+		Si hay enemigos poderosos cerca, la energía de la espada se cargará lentamente por sí sola.
+		Cuando la energía de la espada esté completamente cargada, pulsa [KEY1] para lanzar la hoja. 
+		Durante el vuelo de la hoja, pulsa el botón izquierdo del ratón para realizar un Tajo Ascendente. [Lang1]
+		Golpear a un enemigo con el Tajo Ascendente cargará el Arma a 1.
+		Pulsa [KEY2] para consumir 1 punto de carga del arma y realizar un golpe descendente. [Lang2]
+		Cuando la carga del arma alcance el valor máximo de 10 puntos, 
+		golpear a un enemigo con el Tajo Ascendente de nuevo activará un movimiento final. [Lang3]
+		legend_Text
+		'''
 }
 
-MuraText: {
-	Subtest_Text0: Debemos dirigirnos al Inframundo para desatar los poderes de la luz y la oscuridad. Esto provocará una tormenta dimensional, pero hay que hacerlo, recluta, ¡para dar un golpe de efecto en nuestra cruzada!
-	Subtest_Text1:
+SHPCOverride: {
+	DisplayName: SHPC
+	Tooltip:
 		'''
-		Echo de menos el ambiente ardiente de los Peñascos del Azufre. Vamos a conocer a su guardián.
-        Siento dos miradas fijas en nosotros. Ve a ocuparte de ellas
+		Haz clic izquierdo para disparar tres rayos láser
+        Mantén pulsado clic derecho para cargar energía
+        Todos los ataques pueden potenciarse gracias al campo
+		[Lang4]
+		legend_Text
 		'''
-	Subtest_Text2:
-		'''
-		Una prisión situada dentro del baluarte del Hielo verdadero. Allí se encuentra recluido un poderoso psíquico. Libéralo; será de gran ayuda para recuperar Terra.
-        Se avecina una batalla decisiva. Esos montones de chatarra planean unirse en un vano intento por detenernos.
-        Demuéstrales con la espada y la sangre que el avance de nuestra cruzada aplastará toda herejía xenos y toda inteligencia abominable.
-		'''
-	World_Text0: Mundo ya mejorado: <{0}> | Nivel registrado: <{1}>
-	Subtest_Text4: En la selva, la antigua y torpe creación de alguien sigue vagando. Como es un fracaso, lo lógico sería que no fuera más que un montón de chatarra.
-	Subtest_Text5: Una coraza de carne entrelazada, el espectro resentido de un antiguo campo de batalla, un golem implacablemente destructor. Lo destruye todo, y nosotros lo destruiremos.
-	Subtest_Text6: Los antiguos dioses estelares cayeron hace mucho tiempo. Lo que queda no es más que un simple gusano. Acabemos de una vez por todas con la era de los dioses estelares.
-	Subtest_Text7: Que esa multitud de almas en la mazmorra se marchite bajo mi espada. Sus almas serán el mejor manjar.
-	Subtest_Text8: Una deidad patética que sobrevive a base de absorber energía solar térmica. Su fuego herético debe ser extinguido por completo.
-	Subtest_Text9: Esa planta exótica que crece en lo más profundo de la selva. Ve a arrancarle los pétalos, aplasta sus bulbos y deja que su savia manche esta tierra.
-	Subtest_Text10:  Esa bruja que se lanzó al caos tiene una hermana clon deforme. Mata a ese xeno y ofrece su sangre y su fuego a la espada.
 }
+
+LegendUpgradeManagerSystem: {
+	QuestManagerHint: Pulsa [{KEY}] para abrir la lista de misiones
+	TrialPassed: Ya superado
+}
+
+TrialBlockedHint: La siguiente prueba requiere que se habilite el contenido pertinente antes de que pueda comenzar
 
 HalibutTrialQuestLine: {
 	QuestCategory: Leyenda de Halibut
@@ -214,23 +251,88 @@ HalibutTrialQuestLine: {
 	Trial_12: La cumbre de la creación
 	Trial_13: De vuelta al mar
 	TrackerBrief: Objetivo：{0}
+	BossRushTargetName: Batalla de Terminus
+	EventActiveFormat: "{0}: activo"
+	TextDictionary_Content_0: Amigo, enfrentémonos a esa criatura terrestre enorme y viscosa.
+	TextDictionary_Content_1: Hay un ojo enorme mirándonos fijamente. Es bastante grosero; deberíamos darle una lección.
+	TextDictionary_Content_2: La vida no solo prospera en el Abismo, sino también en la Selva. Deberíamos ir a visitar a la abeja reina que vive allí.
+	TextDictionary_Content_3:
+		'''
+		Un esqueleto maldito que nunca se descompone... Tenemos que darle descanso.
+		Los gritos de auxilio que llegan desde el infierno son cada vez más frecuentes. Deberíamos marcharnos pronto. Estoy segura de que al Guía no le importará.
+		'''
+	TextDictionary_Content_4:
+		'''
+		¿Sabes cómo cobran vida los objetos inanimados? Una vez construí una enorme máquina submarina capaz de lanzar misiles hechos de burbujas
+		e innumerables torpedos termonucleares. La utilicé para cazar criaturas gigantescas que vivían a 10.000 metros bajo el mar... hasta que conocí a...
+		Oh, me estoy desviando del tema. Creo que pronto nos visitarán cuatro amigos mecánicos, así que deberíamos estar preparados.
+		Además, hay un gusano marino gigante mutado en las aguas contaminadas que hay sobre el Abismo. Solía ser el guardián de la Universidad del Mar sulfúrico.
+		Seguramente seguirá siendo bastante amistoso; podemos ir a tomar el té de la tarde con él.
+		'''
+	TextDictionary_Content_5:
+		'''
+		La siguiente muestra de investigación es el clon.
+		Una réplica tosca, sí, pero está impregnada de esa presencia azufrada... un material excelente para el análisis.
+		...Ah, claro. Una cosa más.
+		Me encanta la selva. Es prácticamente mi segundo hogar, rebosante de energía vital
+		a la altura del abismo más profundo. Sin embargo, primero tenemos que encontrar la manera de liberarla.
+		¿Recuerdas esos bulbos gigantes que hay bajo tierra? Ve a "recogerlos". Me... ayudará con mi título de botánica.
+		'''
+	TextDictionary_Content_6:
+		'''
+		Me encantan las excavaciones arqueológicas. La última vez que estaba paseando por la selva, vi unas ruinas enormes.
+        Ahora deberíamos tener la llave para abrir la puerta de esas ruinas. Vamos a echar un vistazo.
+        Dentro hay una máquina antigua esperando a que la encendamos, como si fuera el mando a distancia de un aire acondicionado.
+		'''
+	TextDictionary_Content_7:
+		'''
+		¿Conoces el secreto que se esconde en la cara oculta de la Luna? Hay un pulpo gigante, una esponja y una estrella de mar...
+        Ah, quiero decir que se avecina la crisis lunar.
+		'''
+	TextDictionary_Content_8:
+		'''
+		Ahora llega la crisis solar. Un poderoso ser energético se ha escapado de la cara oculta del Sol y se ha adentrado en el núcleo del planeta.
+        Tenemos que bajar hasta allí y darle una buena ducha de agua fría
+		'''
+	TextDictionary_Content_9:
+		'''
+		Innumerables almas indomables provenientes de antiguos campos de batalla se han reunido, ocultas en lo más profundo de la mazmorra, y están empezando a inquietarse.
+        Podemos bajar allí y acabar con algunos de esos espíritus errantes. Puede que esto provoque una pequeña tormenta en el Subespacio, pero también servirá para atraerlos hacia fuera.
+		'''
+	TextDictionary_Content_10:
+		'''
+		Hay una especie que nace y crece en el espacio, capaz de soportar la intensa radiación cósmica y la energía de escala celestial.
+        Nos topamos con uno hace mucho tiempo, pero ahora nos enfrentamos al campeón de entre ellos: un ser que afirma haber devorado a los dioses..
+		'''
+	TextDictionary_Content_11:  Últimamente ha subido la temperatura en la selva; creo que ese poderoso dragón ha vuelto
+	TextDictionary_Content_12:
+		'''
+		Estamos a punto de enfrentarnos a la cumbre de las creaciones inorgánicas, con una potencia de fuego y una defensa sin igual.
+        Además, el Altar del fuego sulfúrico parece capaz de invocar algo.
+		'''
+	TextDictionary_Content_13:
+		'''
+		En el Abismo hay una piedra especial: úsala para enfrentarte a la batalla final.
+        También hay una poderosa criatura marina que destruyó mi máquina; vamos a vengarnos.
+		'''
+	TextDictionary_Content_14: Sinceramente, siento que...
 }
 
 MurasamaTrialQuestLine: {
 	QuestCategory: Espada Demoníaca Murasama · Pruebas
 	TrackerWaiting:  No se encuentra al objetivo, invócalo...
 	TrackerFighting: "{0}: {1:0%}"
-	Trial_0: Fantasma del desierto
-	Trial_1: Caza en el mar de arena
+	Trial_0: Primer corte fangoso
+	Trial_1: Fantasma del desierto
 	Trial_2: Invasor
 	Trial_3: Purga de la corrupcción
 	Trial_4: Amenaza parasitaria
-	Trial_5: Contaminador gelatinoso
-	Trial_6: Asalto a la mazmorra
+	Trial_5: Asalto a la mazmorra
+	Trial_6: Profanador gelatinoso
 	Trial_7: Camino al inframundo
-	Trial_8: Grilletes de la tundra
-	Trial_9: Limpieza abisal
-	Trial_10: Llama purificadora de azufre
+	Trial_8: Limpieza abisal
+	Trial_9: Llama purificadora de azufre
+	Trial_10: Grilletes de la tundra
 	Trial_11: Engranajes de acero
 	Trial_12: Aniquilación de los Ojos gemelos
 	Trial_13: Calavera del Rey mecánico
@@ -249,7 +351,7 @@ MurasamaTrialQuestLine: {
 	Trial_26: El juicio del caos
 	Trial_27: Regreso primigenio
 	TrialSummary_0: Demuéstrame lo que vales, recluta.\nEsa masa azul y viscosa es un buen punto de partida.\nOcúpate de ella.
-	TrialSummary_1: Los restos de la sirena que yacen bajo el mar de arena siguen vagando.\nEncuéntralos y acaba con ellos
+	TrialSummary_1: Los restos de la plaga marina que yacen bajo la arena siguen vagando por ahí.\nEncuéntralos y acaba con ellos.
 	TrialSummary_2: La luna brilla en lo alto de la noche. Vamos a reventar ese ojo gigante que anda volando por ahí arriba y a dejar ciego para siempre a ese falso dios.
 	TrialSummary_3:
 		'''
@@ -258,16 +360,12 @@ MurasamaTrialQuestLine: {
         ¡Quiero ver cómo tu espada baila sobre la carne de los xenos!
 		'''
 	TrialSummary_4: La tierra corrompida sigue latiendo como un corazón. Los parásitos de la carne siguen activos; los tumores corruptos siguen pensando. ¡Acaba con ellos de una vez por todas!
-	TrialSummary_5: ¿Lo sientes? Esa repugnante podredumbre que apesta a gel.\nPurifica por completo este asqueroso conjunto.
-	TrialSummary_6:
-		'''
-		La maldición que se cierne sobre la entrada de la mazmorra se ha debilitado. Siento cómo la energía psíquica se agita en sus profundidades, mezclada con gritos, lamentos, susurros...
-        Destruye esa calavera gigante.
-		'''
+	TrialSummary_5: Lo sientes? Esa repugnante corrupción que apesta a gel.\nPurifica por completo este asqueroso conjunto.
+	TrialSummary_6: Do you feel it? That foul corruption reeking of gel.\nPurify this filthy aggregate completely.
 	TrialSummary_7: Adéntrate en el inframundo. Ese muro de carne que se extiende sobre la lava: esa es nuestra puerta hacia la próxima era.\nDerríbalo.
-	TrialSummary_8: En el gélido frío de las tierras del norte yace una creación sellada de hielo y nieve.\nDestrúyela antes de que se desbloquee por completo.
-	TrialSummary_9: El paria del Mar Sulfuroso nos impide seguir en busca de los tesoros del abismo. Ve y pon fin a su voracidad y a su deambular.
-	TrialSummary_10: El fuego herético de esa Emisaria del Azufre en las profundidades de la lava es una monstruosidad. Ve a apagarlo.
+	TrialSummary_8: El paria del Mar sulfúrico nos impide seguir en busca de los tesoros del abismo. Ve y pon fin a su voracidad y a su deambular.
+	TrialSummary_9: El fuego herético de ese Emisario del azufre en las profundidades de la lava es una monstruosidad. Ve a apagarlo.
+	TrialSummary_10: En el gélido frío de las tierras del norte yace una creación sellada de hielo y nieve.\nDestrúyela antes de que se desbloquee por completo.
 	TrialSummary_11: Un enorme gusano de acero se interpone en el camino de nuestra cruzada. Hazlo pedazos.
 	TrialSummary_12: Esos ojos mecánicos nos miran desde arriba: atraviesa sus párpados con tu espada.
 	TrialSummary_13: ¿El señor esqueleto se puso una armadura de acero pensando que eso nos detendría? Haz pedazos esa calavera de metal.
@@ -307,6 +405,8 @@ MurasamaTrialQuestLine: {
         Utilizad el Terminus y librad la batalla decisiva final contra los xeno.
 		'''
 	TrackerBrief: Objetivo de caza：{0}
+	BossRushTargetName: Batalla de Terminus
+	EventActiveFormat: "{0}: activo"
 }
 
 SHPCTrialQuestLine: {
@@ -445,7 +545,9 @@ SHPCTrialQuestLine: {
 		Maestro, los enemigos a los que derrotaste anteriormente han formado una alianza y están preparando un asalto final.
         Por favor, mantente alerta. Estaré vigilando el campo de batalla en todo momento y te ayudaré a zanjar esto de una vez por todas.
 		'''
-	TrackerBrief: Objetivo de muestreo：{0}
+	TrackerBrief: Objetivo de caza：{0}
+	BossRushTargetName: Batalla de Terminus
+	EventActiveFormat: "{0}: activo"
 }
 
 SHPCModuleStat: {
@@ -502,7 +604,7 @@ MoldProcessingUI: {
 	UnknownName: ??????
 	ProgressFormat: "{0}/{1}"
 	ShardSuffix: FRAGMENTOS
-	EmptyCandidates: "// No hay módulos compatibles en el inventario"
+	EmptyCandidates: "// No hay módulos coincidentes en el inventario que se puedan recuperar"
 	CloseHint: PULSA ESC PARA CERRAR
 	DecomposeHint: Haz clic en un módulo para desguazarlo
 	CodexHint: Haz clic en un molde para marcarlo como objetivo de reforja
