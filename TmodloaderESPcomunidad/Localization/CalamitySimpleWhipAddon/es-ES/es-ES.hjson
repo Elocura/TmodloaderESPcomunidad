@@ -273,8 +273,8 @@ Mods: {
 					
 					Todos los enemigos golpeados por este látigo:
 
-					Reciben 1,25 veces más daño del siguiente ataque de súbdito y explota,
-					inflingiendo un 10% de daño a los enemigos cercanos,
+					Reciben 1,50 veces más daño del siguiente ataque de súbdito y explota,
+					inflingiendo un 20% de daño a los enemigos cercanos,
 
 					Al atacar con este látigo se ignora la armadura
 					La reducción de daño no se puede ignorar
@@ -373,7 +373,7 @@ Mods: {
 					Todos los enemigos golpeados por este látigo:
 
 					Son empalados por un tridente espectral cuando los súbditos los golpean,
-					recibiendo un 20% del daño del súbdito 8 veces seguidas,
+					recibiendo un 25% del daño del súbdito 8 veces seguidas,
 					El daño por empalamiento perfora 50 puntos de armadura
 					'''
 			}
@@ -406,7 +406,11 @@ Mods: {
 				DisplayName: Conducto blindado
 				Tooltip:
 					'''
+					2 daño de etiqueta de invocador
 					Cambia automáticamente entre dos modos.
+					'''
+				HoldShiftTooltip:
+					'''
 					-----------------------------
 					Modo Defensa:
 					Al golpear a un enemigo con el látigo,
@@ -437,7 +441,11 @@ Mods: {
 				DisplayName: Conducto blindado Mk-II
 				Tooltip:
 					'''
+					4 daño de etiqueta de invocador
 					Cambia automáticamente entre dos modos.
+					'''
+				HoldShiftTooltip:
+					'''
 					-----------------------------
 					Modo Defensa:
 					Al golpear a un enemigo con el látigo,
@@ -468,8 +476,12 @@ Mods: {
 				DisplayName: Conducto blindado Mk-III
 				Tooltip:
 					'''
+					7 daño de etiqueta de invocador
 					Cambia automáticamente entre dos modos.
+					'''
 					-----------------------------
+				HoldShiftTooltip:
+					'''
 					Modo Defensa:
 					Al golpear a un enemigo con el látigo,
 					los ataques de los súbditos liberan fragmentos de escudo azul
@@ -499,7 +511,11 @@ Mods: {
 				DisplayName: Conducto blindado Mk-IV
 				Tooltip:
 					'''
+					12 daño de etiqueta de invocador
 					Cambia automáticamente entre dos modos.
+					'''
+				HoldShiftTooltip:
+					'''
 					-----------------------------
 					Modo Defensa:
 					Al golpear a un enemigo con el látigo,
@@ -530,7 +546,12 @@ Mods: {
 				DisplayName: Conducto blindado Mk-V
 				Tooltip:
 					'''
+					20 daño de etiqueta de invocador
 					Cambia automáticamente entre dos modos.
+					'''
+
+				HoldShiftTooltip:
+					'''
 					-----------------------------
 					Modo Defensa:
 					Al golpear a un enemigo con el látigo,
@@ -608,6 +629,71 @@ Mods: {
 					El daño de marca de este látigo se acumula consigo mismo.
 					Las acumulaciones más antiguas se eliminan primero
 					Se adhieren al enemigo tantas polillas como acumulaciones halla
+					'''
+			}
+
+			GoldRush: {
+				DisplayName: Fiebre del oro
+				Tooltip:
+					'''
+					8 de daño de etiqueta de invocación
+					Al golpear a los enemigos, invoca regularmente armas físicas que infligen el 100% del daño de los súbditos
+					'''
+			}
+
+			GildedReliquary: {
+				DisplayName: Reliquario dorado
+				Tooltip:
+					'''
+					20 de daño de etiqueta de invocación
+					Al golpear a los enemigos, se invoca rápidamente un arsenal que inflige el 120% del daño de los súbditos
+					'''
+			}
+
+			AurelianSanctum: {
+				DisplayName: Santuario Aureliano
+				Tooltip:
+					'''
+					80 de daño de etiqueta de invocación
+					Al golpear a los enemigos, se desata una lluvia implacable de proyectiles que infligen el 200% del daño de los súbditos
+					'''
+			}
+
+			KingsMajesty: {
+				DisplayName: Su Majestad el Rey
+				Tooltip:
+					'''
+					2 de daño de etiqueta de invocación
+					4% de probabilidad de golpe crítico de la etiqueta de invocación
+					Mientras empuñas este látigo, una gema te sigue
+					y ataca cada vez que tus esbirros infligen daño a un enemigo marcado por el látigo
+					El ataque de la gema inflige el 50% del daño del golpe que lo ha activado
+					'''
+			}
+
+			EmeraldSplash: {
+				DisplayName: Salpicadura de esmeralda
+				Tooltip:
+					'''
+					5 de daño de etiqueta de invocación
+					7% de probabilidad de golpe crítico de la etiqueta de invocación
+					Mientras empuñas este látigo, una gema te sigue
+					y ataca cada vez que tus esbirros infligen daño a un enemigo marcado por el látigo
+					El ataque de la gema inflige el 100% del daño del golpe que lo ha activado
+					'''
+			}
+
+			CrackoftheUniverse: {
+				DisplayName: La grieta del universo
+				Tooltip:
+					'''
+					20 de daño de etiqueta de invocación
+					10% de probabilidad de golpe crítico de la marca de invocación
+					Mientras empuñas este látigo, una gema te sigue
+					y ataca cada vez que tus esbirros infligen daño a un enemigo marcado por el látigo
+					El ataque de la gema inflige el 100% del daño del golpe que lo ha activado
+					La gema se carga antes de disparar,
+					añadiendo a su ataque el 15% del daño infligido durante la carga
 					'''
 			}
 
@@ -804,6 +890,19 @@ Mods: {
 					Algunos súbditos no pueden beneficiarse de este efecto
 					Se reducirán algunos efectos de etiqueta de látigo
 					'¡Te elijo a ti!'
+					'''
+			}
+
+			StrikerEmblem: {
+				DisplayName: Emblema del atacante
+				Tooltip:
+					'''
+					Ya no puedes invocar súbditos ni centinelas
+					Los latigos golpean a los enemigos tres veces más, infligiendo un 33% de daño adicional
+					Estos golpes se benefician de los efectos de la etiqueta de invocación
+					Aumenta el alcance del latigo en un 10%
+					Aumenta el daño de invocación en un 1% por cada ranura de súbdito sin usar
+					'¡Muere, monstruo!'
 					'''
 			}
 
@@ -1341,6 +1440,66 @@ Mods: {
 			SimpleWhipDebuffT20St: {
 				DisplayName: Simple Whip Debuff T20 St
 				Description: Mods.CalamitySimpleWhipAddon.Buffs.SimpleWhipDebuffT20St.Description
+			}
+
+		SimpleWhipDebuffEx12: {
+				Description: Mods.CalamitySimpleWhipAddon.Buffs.SimpleWhipDebuffEx12.Description
+				DisplayName: Simple Whip Debuff Ex12
+			}
+
+			SimpleWhipDebuffEx14: {
+				Description: Mods.CalamitySimpleWhipAddon.Buffs.SimpleWhipDebuffEx14.Description
+				DisplayName: Simple Whip Debuff Ex14
+			}
+
+			SimpleWhipDebuffEx13: {
+				Description: Mods.CalamitySimpleWhipAddon.Buffs.SimpleWhipDebuffEx13.Description
+				DisplayName: Simple Whip Debuff Ex13
+			}
+
+			SimpleWhipDebuffEx15: {
+				Description: Mods.CalamitySimpleWhipAddon.Buffs.SimpleWhipDebuffEx15.Description
+				DisplayName: Simple Whip Debuff Ex15
+			}
+
+			SimpleWhipDebuffEx16: {
+				DisplayName: Simple Whip Debuff Ex16
+				Description: Mods.CalamitySimpleWhipAddon.Buffs.SimpleWhipDebuffEx16.Description
+			}
+
+			SimpleWhipDebuffEx17: {
+				Description: Mods.CalamitySimpleWhipAddon.Buffs.SimpleWhipDebuffEx17.Description
+				DisplayName: Simple Whip Debuff Ex17
+			}
+
+			SimpleWhipDebuffEx12: {
+				Description: Mods.CalamitySimpleWhipAddon.Buffs.SimpleWhipDebuffEx12.Description
+				DisplayName: Simple Whip Debuff Ex12
+			}
+
+			SimpleWhipDebuffEx14: {
+				Description: Mods.CalamitySimpleWhipAddon.Buffs.SimpleWhipDebuffEx14.Description
+				DisplayName: Simple Whip Debuff Ex14
+			}
+
+			SimpleWhipDebuffEx13: {
+				Description: Mods.CalamitySimpleWhipAddon.Buffs.SimpleWhipDebuffEx13.Description
+				DisplayName: Simple Whip Debuff Ex13
+			}
+
+			SimpleWhipDebuffEx15: {
+				Description: Mods.CalamitySimpleWhipAddon.Buffs.SimpleWhipDebuffEx15.Description
+				DisplayName: Simple Whip Debuff Ex15
+			}
+
+			SimpleWhipDebuffEx16: {
+				DisplayName: Simple Whip Debuff Ex16
+				Description: Mods.CalamitySimpleWhipAddon.Buffs.SimpleWhipDebuffEx16.Description
+			}
+
+			SimpleWhipDebuffEx17: {
+				Description: Mods.CalamitySimpleWhipAddon.Buffs.SimpleWhipDebuffEx17.Description
+				DisplayName: Simple Whip Debuff Ex17
 			}
 		}
 
