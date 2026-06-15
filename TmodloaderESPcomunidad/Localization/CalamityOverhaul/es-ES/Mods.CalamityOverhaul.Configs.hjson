@@ -6,7 +6,7 @@ CWRServerConfig: {
 		Tooltip:
 			'''
 			Al habilitarlo, se modificarán la mayoría de las armas.
-			[c/FF0000:Si desea optimizar la experiencia del contenido de Overhaul, ¡por favor, activalo!!]
+			[c/FF0000:Si quieres disfrutar al máximo de Calamity Overhaul, ¡actívalo!]
 			'''
 	}
 
@@ -16,11 +16,11 @@ CWRServerConfig: {
 	}
 
 	MurasamaSpaceFragmentationBool: {
-		Label: Efecto de fragmentación de pantalla de la Murasama
+		Label: Efecto de rotura de pantalla en el remate de la Murasama
 		Tooltip:
 			'''
-			Activado por defecto, producirá efectos de fragmentación de pantalla, así que los golpes serán más intensos.
-			Si se desactivan, estos efectos serán eliminados. Puedes configurarlo a tu gusto
+			Activado por defecto. Cuando Murasama ejecuta su movimiento final, crea un efecto de rotura de pantalla para realzar el impacto.
+			Si se desactiva, estos efectos se eliminarán.
 			'''
 	}
 
@@ -40,6 +40,41 @@ CWRServerConfig: {
 		Label: Suavizado de cámara
 		Tooltip: Cuando está activada, el desplazamiento rápido a larga distancia ralentizará la cámara, lo que evita la sensación de moverse demasiado rápido
 	}
+
+	WeaponHandheldDisplay: {
+		Label: Mostrar armas en la mano
+		Tooltip:
+			'''
+			Cuando se activan, la mayoría de las armas cuentan con animaciones al usarlas y acciones de uso especial
+			Este efecto tiene una prioridad muy alta y anulará la mayoría de las animaciones de este estilo de los mods de terceros
+			Está activada por defecto y, por motivos estéticos, los autores no recomiendan desactivarla
+			Si modificas esta configuración durante la partida, será necesario volver a cargar algunos efectos de los archivos del mod antes de que se puedan modificar
+			'''
+	}
+
+	BowArrowDraw: {
+		Label: Tensa el arco y dispara la flecha
+		Tooltip:
+			'''
+			Cuando el jugador utilice la clase de arquero para atacar, se mostrará la animación correspondiente de la flecha en tiempo real
+			Está activada por defecto y se puede configurar según las preferencias personales
+			'''
+	}
+
+	EnableCasingsEntity: {
+		Label: Habilitar casquillos
+		Tooltip: Si te parece que los casquillos que se quedan por ahí son antiestéticos, es recomendable desactivar esta opción
+	}
+
+	WeaponLazyRotationAngle: {
+		Label: Actualización del ángulo de rotación por inercia del arma
+		Tooltip:
+			'''
+			Si se activa, hace que la animación de uso de las armas en mano se parezca más a la del Terrarria vanilla,
+			en el que la orientación cambia solo una vez al disparar.
+			'''
+	}
+
 
 	WeaponHandheldDisplay: {
 		Label: Pantalla portátil para armas
@@ -81,7 +116,7 @@ CWRServerConfig: {
 		Tooltip:
 			'''
 			[c/c20909:Sin terminar]
-			Habilitado por defecto, esto modificará el comportamiento de la IA de ciertas criaturas, como los jefes en el modo muerte.
+			Habilitado por defecto, esto modificará el comportamiento de la IA de ciertas criaturas, como la IA de los jefes en el modo Muerte.
 			Esto podría aumentar significativamente la dificultad del juego, por lo que puedes optar por desactivarlo según tus preferencias personales.
 			'''
 	}
@@ -157,9 +192,7 @@ CWRServerConfig: {
 		Tooltip: Genera puestos avanzados de elfos de la madera o guardianes del bosque en lo profundo del bosque.
 	}
 
-SignalTowerDecryptionAutoPlay: {
-		Label: Reproducción automática de descifrado de la torre de señales 
-		Tooltip: ""
-	}
+	ConfigChangePrefix: User
+	ConfigChangeSuffix: modificó la configuración del servidor
 }
 
