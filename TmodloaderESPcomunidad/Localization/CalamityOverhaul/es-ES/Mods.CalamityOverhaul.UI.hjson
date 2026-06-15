@@ -156,7 +156,7 @@ QuestLog: {
 	NightModeText: Modo nocturno
 	ResetViewText: Restablecer
 	SunModeText: Modo diurno
-	LauncherHoverText: Clic izquierdo para abrir, clic derecho para arrastrar
+	LauncherHoverText: Clic izquierdo para interactuar, clic derecho para arrastrar
 	QuestManagerText: Misión
 }
 
@@ -169,7 +169,7 @@ ExtraMain: {
 	MusicText: MÚSICA
 	StaffText: PERSONAL
 	BackText: ATRÁS
-	LockedText: ???
+	LockedText: CERRADO
 }
 
 CompatibilityAlert: {
@@ -306,7 +306,7 @@ MartyrdomBarUI: {
 	SlotLabel_9: Td
 	SlotLabel_10: Si
 	SlotLabel_11: Ju
-	RevelationJudgingText: Apocalipsis los tres últimos sellos en curso
+	RevelationJudgingText: El juicio de los tres últimos sellos está en curso
 	RevelationStatusText: "Jinetes del Apocalipsis {0}/4 Q:Meteorito R:Jucio"
 	RevelationReadyText: Pulsa Q — Revelación lista
 	MartyrdomPowerText: Martirio {0}/11
@@ -333,16 +333,6 @@ OverhaulSettingsUI: {
 	DensityEverywhereText: En todas partes
 	ResetDefaultText: Restablecer valores
 	DensityTooltipText: Densidad de generación de estructuras
-	CompatibilitySettingsText: Configuración de compatibilidad
-	CompatibilityFooterHintText: Opciones para resolver problemas con otros mods
-	CompatHighFPSLabelText: Desactivar interpolación de HighFPSSupport
-	CompatHighFPSTooltipText:
-		'''
-		La interpolación de movimiento de HighFPSSupport causa graves desalineaciones visuales en armas sostenidas, casquillos, etc.
-		Activar esta opción deshabilitará automáticamente esa función al entrar al mundo para asegurar una visualización correcta.
-		[c/FF6666:No se recomienda desactivar esta opción a menos que aceptes los fallos visuales y entiendas la causa.]
-		'''
-	CompatHighFPSNotInstalledText: "[c/888888:(Mod HighFPSSupport no instalado, sin efecto)]"
 }
 
 GalacticCrisisRender: {
@@ -437,6 +427,8 @@ CyberwareUI: {
 	StatusText: ESTADO DEL SISTEMA: OPERATIVO
 	SlotSelectedText: "[ SELECIONADO ]"
 	SlotEmptyText: VACÍO
+	ClinicRequiredTitle: CIBERIMPLANTES BLOQUEADOS
+	ClinicRequiredDesc: Solo un Matasanos puede instalar implantes. Visita a Victor.
 	Slot_FrontalCortex: CORTEZA FRONTAL
 	Slot_OcularSystem: SISTEMA OCULAR
 	Slot_LeftArm: BRAZO IZQUIERDO
@@ -449,6 +441,30 @@ CyberwareUI: {
 	Slot_Skeleton: ESQUELETO
 	Slot_RightLeg: PIERNA DERECHA
 	Slot_NervousSystem: SISTEMA NERVIOSO
+	TooltipSlot: RANURA:
+	TooltipCapacityCost: COSTE DE CAPACIDAD: {0}
+	SkillRamCost: RAM {0}
+}
+
+VictorTalkUI: {
+	SpeakerName: VICTOR
+	Greet0: ¿Otro cliente? PasA, antes de que la corriente de aire se lleve sus repuestos.
+	Greet1: ¿Quieres un cuerpo más fuerte? El acero nunca te falla; solo tu cartera lo hace..
+	Greet2:  He visto a demasiados necios recibir balazos en el cuerpo. Ahora solo siguen vivos en mi memoria... y en mi mesa de operaciones.
+	Greet3: El cerebro, los ojos, las extremidades... Si el precio es el adecuado, no hay nada que no pueda reemplazar..
+	ClinicButtonText: Clínica de ciberimplantes
+	ChatButtonText: Charla informal
+	LeaveButtonText: Salir
+}
+
+VictorClinicUI: {
+	TitleText: CLÍNICA DE VICTOR
+	StatusText: MATASANOS EN LÍNEA - SELECCIONA UNA EXTREMIDAD
+	GuideText: Selecciona una parte del cuerpo para verla, cambiarla y comprar su ciberimplante.
+	LabelOwned: EN PROPIEDAD
+	LabelForSale: A LA VENTA
+	EmptyOwned: ( ninguno en el paquete )
+	EmptyShop: ( ya no hay nada más que vender )
 }
 
 SHPCDialogueBox: {
@@ -470,10 +486,10 @@ HackTime: {
 	Done: HECHO
 	Queued: EN COLA
 	UploadingText: CARGANDO...
-	BreachReady: PROTOCOLO DE INFRACCIÓN // LISTO
+	BreachReady: PROTOCOLO DE INFRACCIÓN · LISTO
 	UploadComplete: >> UCARGA COMPLETADA <<
-	UploadQueue: "// COLA DE CARGAS"
-	TargetLocked: "// OBJETIVO FIJADO"
+	UploadQueue: COLA DE CARGAS
+	TargetLocked: OBJETIVO FIJADO
 	HpFormat: HP {0}%
 	Protocols: "[{0} PROTOCOLOS]"
 	RamDepleted: !! MEMORIA RAM AGOTADA !!
@@ -497,11 +513,11 @@ HackTime: {
 	DmgLabel: DMG
 	KbResLabel: KB.RES
 	Breach: BRECHA
-	InitBreach: "// INICIANDO INFRACCIÓN"
-	SystemBreach: "// INFRACCIÓN DEL SISTEMA"
+	InitBreach: INICIANDO INFRACCIÓN
+	SystemBreach: INFRACCIÓN DEL SISTEMA
 	Rebooting: REINICIANDO...
 	SystemOnline: SISTEMAS ONLINE
-	MemoryWiped: ???
+	MemoryWiped: MEMORIA BORRADA
 	Cyberpsychosis: CIBERPSICOSIS
 	RamRefund: "+{0} RAM"
 	ActiveText: ACTIVO
@@ -643,7 +659,7 @@ HackTime: {
 	SignalTowerScanStatusBroadcasting: Radiodifusión
 	SignalTowerScanStatusElectrified: Carga residual
 	SignalTowerScanProtocol: Protocolos disponibles
-	RightClickHint: "//CLIC DERECHO PARA DESELECCIONAR"
+	RightClickHint: Haz clic derecho para deseleccionar el destino
 	AccessDeniedTitle: MODO HACKEO NO DISPONIBLE
 	AccessDeniedDesc: Conecta un arma inteligente o instala un ciberimplante de netrunner para acceder a habilidades de hackeo.
 }
@@ -709,11 +725,11 @@ SHPCUI: {
 	Cyber_Layer1_Title: ACCESO A LA BASE
 	Cyber_Layer2_Title: ANÁLISIS EN PROFUNDIDAD
 	Cyber_Layer3_Title: BRECHA EN EL MURO NEGRO
-	Cyber_NoSkill: "//  Sin habilidades exclusivas."
+	Cyber_NoSkill: Sin habilidades exclusivas
 	Cyber_LayerBaseFooter: Capa base: define el campo de dominio.
 	Cyber_SkillUnlocked: "[#] DESBLOQUEADO"
 	Cyber_SkillLocked: "[X] Requiere capa {0}"
-	Cyber_KeyUnbound: ?
+	Cyber_KeyUnbound: Sin asignar
 	Cyber_Skill_Teleport_Name: TELETRANSPORTE A LA BRECHA
 	Cyber_Skill_Teleport_Desc: Descompone el chasis en un flujo de datos para transmitirlo a la ubicación de destino, y vuelve a recomponer su forma física al amparo del protocolo del Muro negro.
 	Cyber_Skill_Restart_Name: SISTEMA REINICIADO
@@ -818,6 +834,63 @@ AbandonedPortalStrings: {
 	DiagnosticRepairing: INFO: Sincronización de la matriz de nanosoldaduras... No muevas la base del pórtico
 	DiagnosticRepaired: OK: Todos los subsistemas están en línea / Listos para el análisis de coordenadas
 }
+SupertableUI: {
+	RecipeViewLabel: View recipe
+	RecipeEmptyLabel: nothing
+	PlacementMonitorOff: Turn Off Placement Monitor
+	PlacementMonitorOn: Turn On Placement Monitor
+	QuickPlaceMaterials: Quick Place Materials
+	QuickTakeMaterials: Quick Take Materials
+}
 
-OverhaulSettingsButton.OverhaulSettingsButtonText: Configuración de Overhaul
+ArrowHolderUI: {
+	MarkArrowHint: Left-click to mark an arrow
+	UnmarkArrowHint: Right-click to unmark an arrow
+}
+
+BulletinBoardUI: {
+	MenuHoverLabel: Go to the mod's open source repository :)
+	WikiLabel: Mod Wiki
+	FeedbackLabel: Issue Feedback
+	LogLabel: View log
+	AcknowledgmentLabel: Acknowledgments
+}
+
+AcknowledgmentUI: {
+	ArtistRole: Artist
+	CodeAssistanceRole: Code Assistance
+	MusicianRole: Musician
+	DonorRole: Donor
+	BalanceTesterRole: Balance Tester
+}
+
+CWRPlayer: {
+	Error_HookFailure:
+		''
+		Se ha producido un error en un gancho. Cierra el juego y vuelve a iniciarlo para restablecer el funcionamiento normal.
+		Si el problema persiste, exporta el registro y ponte en contacto con el desarrollador del mod
+		'''
+	OnEnterWorld_ImproveGameWarning:
+		'''
+		[Quality of Terraria]  está instalado, pero tu versión está desactualizada.
+		Para disfrutar de una experiencia de juego estable, actualiza [Quality of Terraria] al menos hasta la versión 1.7.1.7
+		'''
+	HellfireExplosionDeathReason: "{0} quedó reducido a cenizas en las llamas del inframundo"
+	SoulfireExplosionDeathReason: "El alma de {0} ascendió envuelta en llamas"
+
+	CWRPlayer: {
+		Error_HookFailure:
+			'''
+			Se ha producido un error en un gancho. Cierra el juego y vuelve a iniciarlo para restablecer el funcionamiento normal.
+			Si el problema persiste, exporta el registro y ponte en contacto con el desarrollador del mod
+			'''
+		OnEnterWorld_ImproveGameWarning:
+			'''
+			[Quality of Terraria]  está instalado, pero tu versión está desactualizada.
+			Para disfrutar de una experiencia de juego estable, actualiza [Quality of Terraria] al menos hasta la versión 1.7.1.7
+			'''
+		HellfireExplosionDeathReason: "{0} quedó reducido a cenizas en las llamas del inframundo
+		SoulfireExplosionDeathReason: "El alma de {0} ascendió envuelta en llamas"
+	}
+}
 
