@@ -251,7 +251,7 @@ FirstMetSupCal: {
 	NoFishLine1: Mataste a mi 'hermana' mucho antes de lo que esperaba. ¿Y has venido solo?
 	NoFishLine2: Te estás volviendo más fuerte de lo que esperaba.
 	NoFishLine3: ¿Me preguntas por qué sigo viva? Parece que has empezado a ver verdades que no deberías conocer.
-	NoFishLine4: Mi conciencia se forjó en las llamas de azufre hace mucho tiempo. Este cuerpo... no es más que un cadáver, un títere.
+	NoFishLine4: Mi conciencia se forjó en las llamas de azufre hace mucho tiempo. Este cuerpo... no es más que un cadáver manejado por las llamas.
 	NoFishLine5: Pero es inútil. Tu comprensión es demasiado limitada para entender mi yo actual.
 	NoFishLine6: Por supuesto, no me revelado ante tí solo para explicar estas trivialidades.
 }
@@ -280,11 +280,11 @@ SupCalDefeat: {
 	Line2: Pero tú no eres el más fuerte. Puede que seas bueno, pero *él* sin duda no es peor que tú.
 	Line3: Yharim ya ha recorrido ese camino hasta el final. Ha alcanzado la cima de lo que un terrariano puede llegar a ser. Nadie es más fuerte.
 	Line4: Es una pena que ustedes dos no puedan conocerse...
-	Line5: Tu dimensión es demasiado baja. Nunca comprenderás el estado en el que estoy.
-	Line6: ... ¿Mi dimensión es demasiado baja?
-	Line7: (He vivido mucho tiempo y es la primera vez que alguien me dice que mi 'dimensión' es baja)
+	Line5: Tu nivel de comprensión es demasiado bajo. Nunca llegarás a entender mi situación
+	Line6: ... ¿Mi nivel de comprensión es demasiado bajo?
+	Line7: (He vivido mucho tiempo y es la primera vez que alguien me dice que mi 'nivel' es bajo)
 	Line8: Soy el único ser 'engendrado' por una era. Desde que me atreví a despojarme de mi identidad terrárea y declararme dios, soy naturalmente omnipotente.
-	Line9: ¿Dices que Yharim puede 'puede conmigo'? Tendrías que traerme a Xylos.
+	Line9: ¿Dices que Yharim 'puede conmigo'? Tendrías que traerme a Xeroc.
 	Line10: ......
 }
 
@@ -444,7 +444,7 @@ HelensInterference: {
 	Branch_Inquiry: {
 		Line1: Últimamente me siento cada vez más ansiosa.
 		Line2: Esa espada... cuando la toqué, me pareció oír... a alguien *riendo*.
-		Line3: Todas se sienten como... una especie de 'médium'.
+		Line3: Todas se sienten como... una especie de 'conductor'.
 		Line4: No puedo dejarte seguir con esto, al menos...
 	}
 
@@ -708,7 +708,7 @@ SupCalDisplayText: {
 		'''
 	Story2:
 		'''
-		Esta miserable espada está desafilada porque no corta carne, sino que corta mediums.
+		Esta miserable espada está desafilada porque no está hecha para cortar carne.
 		Cuando aún era aprendiz, una boca que nunca se cerraba creció en el corazón de mi maestro.
 		Más tarde murió, pero ese corazón siguió latiendo. Con cada latido, la boca gritaba, 
 		y una persona de nuestro entorno simplemente desaparecía.
@@ -736,7 +736,7 @@ SupCalDisplayText: {
 SupCalDisplayTextByBossRush: {
 	SummonBossRush: Je... El aura que te rodea casi me recuerda a la de alguien que hace tiempo que falleció.
 	SummonBossRushWithProverbs: Ese anillo... incluso un simple remanente como yo puede sentir su temblor.
-	StartBossRush: Puede que no sea más que una construcción anómala nacida del Alma dorada... pero hay deberes que incluso yo debo cumplir.
+	StartBossRush: Puede que no sea más que una construcción anómala nacida del Alma áruica... pero hay deberes que incluso yo debo cumplir.
 	BH2BossRush: Tu fuerza es impresionante... pero aún insuficiente.
 	BH3BossRush: Las sombras del pasado... reducidas a cenizas hace tiempo, están esparcidas por el camino que recorres. Je...
 	BrothersBossRush: Estas almas... sombras de sombras. Cuanto más copias algo, más triste se vuelve, ¿no crees?
@@ -891,12 +891,12 @@ CampsiteInteractionDialogue: {
 		Research_Intro: Estoy tratando de reconstruir una historia, o más bien, recuperar una experiencia perdida.
 		Research_CurrentWork: Estos fragmentos se aferran a los recuerdos del pasado. Registran cómo aquella antigua civilización buscó un camino para sobrevivir en una situación desesperada.
 		Research_Breakthrough: Para combatir esta especie de terror, la fuerza bruta es inútil. Hay que descubrir sus 'reglas asesinas' y aprovecharlas.
-		Research_Difficulties: Pero descifrarlos es peligroso. Estos fragmentos pienan por si mismos. Si los miras fijamente durante demasiado tiempo, es posible que oigas sonidos que no deberías oír.
+		Research_Difficulties: Estos fragmentos son, en sí mismos, conductos. Si los miras fijamente durante demasiado tiempo, es posible que oigas sonidos que no deberías oír.
 		Research_Theory: Si consigo reunir todas las piezas, tal vez encuentre la manera de sellar definitivamente el origen del abismo.
 		Choice_Research_Details: ¿A qué te refieres con 'reglas asesinas'?
 		Choice_Research_Help: ¿Qué tengo que hacer?
 		Choice_Research_Back: Volver atrás
-		Research_Details1: Por ejemplo, hay cosas que no se pueden ver, nombres que no se pueden pronunciar. Una vez que se activa un medio, la muerte es inevitable. Esa civilización intentó someter a los dioses con reglas.
+		Research_Details1: Por ejemplo, hay cosas que no se pueden ver, nombres que no se pueden pronunciar. Una vez que se activa un conducto, la muerte es inevitable. Esa civilización intentó someter a los dioses con reglas.
 		Research_Details2: Incluso construyeron enormes contenedores, intentando encarcelar a esas cosas. Desafortunadamente, los contenedores tenían fugas.
 		Research_Help: Ayúdame a encontrar más fragmentos. Dedicaré el resto de mi vida a investigarlos.
 		History_Intro: El Mar sulfúrico es solo una fachada. Es el residuo que queda tras la invasión del dominio de esa cosa.
@@ -908,13 +908,13 @@ CampsiteInteractionDialogue: {
 		Choice_History_MoreRuins: ¿Que lugar es el más peligroso?
 		Choice_History_Dangers: ¿Existen medidas para contrarrestar esto?
 		Choice_History_Back: Volver atrás
-		History_MoreRuins1: En el fondo de ese mar de cadáveres hay una puerta. Nunca llames. Nadie puede soportar lo que hay tras ella, a menos que llegue ese tirano.
+		History_MoreRuins1: En lo más profundo de ese mar de cadáveres hay una puerta. No llames. Lo que haya detrás, más vale que se pudra allí para siempre.
 		History_MoreRuins2: Todavía hay habitaciones sin abrir en esas ruinas hundidas. Son cámaras secretas construidas con metales pesados especiales, diseñadas para aislar la percepción de esas cosas.
 		History_Dangers1: Aparte de los muertos vivientes mutados, ten cuidado con las cosas que no puedes ver. A veces, un golpe fatal es invisible.
 		History_Dangers2: No confíes en tus ojos. No respondas a llamadas inexplicables. En ese mar de cadáveres, los vivos son la anomalía.
 		Fragments_Intro: Restos oceánicos... a mis ojos, son archivos manchados de sangre.
 		Fragments_Nature: Son el residuo de un fenómeno. Como maldiciones comprimidas.
-		Fragments_Power: Cada fragmento es un 'medio'. Por sí solos, pueden ser inofensivos, pero cuando se reúnen en una cantidad suficiente, crean una colisión de fuerzas inquietantes.
+		Fragments_Power: Cada fragmento es un 'conducto'. Por sí solos, pueden ser inofensivos, pero cuando se reúnen en una cantidad suficiente, crean una colisión de fuerzas inquietantes.
 		Fragments_Collection: Están esparcidos por todos los rincones del mar muerto: algunos enterrados bajo ruinas, otros convertidos en carne de criaturas.
 		Fragments_Purpose: Todavía estoy reuniendo las piezas, tratando de reconstruir el origen de ese desastre. Solo descubriendo cómo mata esa cosa podré encontrar la manera de encarcelarla.
 		Personal_Intro: Bueno, aguanto como puedo.
@@ -927,7 +927,7 @@ CampsiteInteractionDialogue: {
 		Choice_Personal_Back: Volver atrás
 		Personal_Tea1: Se elabora a partir de varias plantas especiales del abismo. El sabor... es como barro podrido.
 		Personal_Tea2: ¿Quieres una taza? Te calmará como a un pez muerto.
-		Personal_Past1: ¿Quién sabe? Quizás mi verdadero yo murió hace mucho tiempo y ahora solo soy un... fantasma con los recuerdos del Viejo Duque. Cada muerte provoca un reinicio, volviendo al momento anterior a la muerte.
+		Personal_Past1: ¿Quién sabe? Quizá mi verdadero yo murió hace mucho tiempo, y lo que queda es... otra cosa con sus recuerdos.
 		Personal_Past2: Pero aún recuerdo la sensación del sol en mi rostro y el tacto de los libros. Mientras recuerde todo eso, me seguiré sintiendo vivo.
 		Personal_Past3: Si no fuera por ese accidente... probablemente ahora estaría descansando en paz en una tumba. En lugar de estar así, incapaz de morir aunque quisiera.
 		Farewell_Normal: Dejémoslo aquí. Si necesitas algo, ven a buscarme.
@@ -1051,11 +1051,11 @@ FirstMetShepel: {
 	Choice2Text: ...Cuánto tiempo sin verte.
 	Choice1Response: ...Sí. Mientras seas tú, estoy dispuesto a equivocarme siempre.
 	Choice1Silence: ......
-	CybCourseOfferLine: El programa Neurodanza se ha cargado correctamente. Maestro, ¿desea conectarse ahora al espacio Neurodanza para conocer el modo Hackeo y los protocolos de manejo de las armas SHPC?
+	CybCourseOfferLine: El programa Supersueño se ha cargado correctamente. Maestro, ¿desea conectarse ahora al espacio Supersueño para conocer el modo Hackeo y los protocolos de manejo de las armas SHPC?
 	CybCourseAcceptText: Vamos ya.
 	CybCourseDeclineText: Ahora mismo no.
 	CybCourseAcceptResponse: Recibido. Estableciendo conexión neuronal... Por favor, no se mueva.
-	CybCourseDeclineResponse: Entendido. Las credenciales de acceso a Neurodanza se han guardado en tus datos guardados. Puedes activarlo tú mismo en cualquier momento, Maestro.
+	CybCourseDeclineResponse: Entendido. Las credenciales de acceso a Supersueño se han guardado en tus datos guardados. Puede activarlo tú mismo en cualquier momento, Maestro.
 }
 
 TheHerInThePast: {
@@ -1065,7 +1065,7 @@ TheHerInThePast: {
 	ShpcLine1: Gracias... Pero, ¿cómo es posible? Perteneces al pasado y, sin embargo, puedes moverte...
 	WitchLine2: Si puedes invadir este lugar desde un siglo en el futuro, es lógico que yo pueda hacer algo parecido.
 	WitchLine3: Aunque, en realidad, no soy más que una sombra abandonada en este lugar.
-	ShpcLine2: ¿¡Puedes usar tus habilidades independientemente del momento del pasado?!
+	ShpcLine2: Si eso es cierto, usar su poder de esta manera hará que se desvanezca.
 	WitchLine4: Qué mirada tan linda... Date prisa y vete. Es mejor que estas cosas asquerosas se queden enterradas en el pasado conmigo.
 	WitchLine5: Ah, por cierto, pequeña criada.
 	ShpcLine3: ¿Qué quieres?
