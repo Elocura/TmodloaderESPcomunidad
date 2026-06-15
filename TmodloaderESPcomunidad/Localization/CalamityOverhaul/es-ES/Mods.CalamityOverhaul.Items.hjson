@@ -16,43 +16,36 @@ MoldProcessingTable: {
 
 ElementWhip: {
 	DisplayName: Látigo elemental
-	Tooltip: Un látigo impregnado de la energía de la luna y los elementos.
-}
-
-TheRelicLuxor: {
-	DisplayName: La reliquia de Luxor
 	Tooltip:
 		'''
-		Un abrasador poder psíquico te acompañará en cada ataque. El Dios de la Gloria estará contigo.
-		[tips]
+		{$CommonItemTooltip.Whips}
+		Incendia a los enemigos con fuego elemental
+		"La esencia primordial de Terra impregna el mundo junto con los elementos del cosmos"
 		'''
-}
 
-TheLuxirSoulArtifact: {
-	DisplayName: El artefacto del alma de Luxir
-	Tooltip:
-		'''
-		Tanto Dios como la inmortalidad reconocen tu gloria.
-		[tips]
-		'''
 }
 
 AzureDragonRage: {
 	DisplayName: Ira del dragón celeste
-	Tooltip: Huele a hierba recién cortada, aunque mohosa
+	Tooltip:
+		'''
+		{$CommonItemTooltip.Whips}
+		Desprende un intenso aroma a hierba fresca
+		'''
 }
 
 BleedingScourge: {
 	DisplayName: Azote sangrante
-	Tooltip: Al golpear a un enemigo con este látigo, hace que llueva sangre del cielo antes de estallar sobre el enemigo, marcándolo.
+	Tooltip: Marca a los enemigos para acabar con ellos al impactar y desata una lluvia de sangre
 }
 
 GhostFireWhip: {
 	DisplayName: Látigo de fuego fantasmal
 	Tooltip:
 		'''
-		Un látigo extremadamente largo, formado a partir de la furia de los espíritus inquetos de las mazmorras.
-		[c/d4bc75:Pura envidia emana desde la base, animándote a buscar a quien te ha hecho daño.]
+		{$CommonItemTooltip.Whips}
+		Un látigo extremadamente largo tejido con la furia de los espíritus inquietos de la mazmorra
+		[c/d4bc75:La pura pasión irradia desde las profundidades del infierno, instándote a encontrar a quien te hizo daño]
 		'''
 }
 
@@ -63,7 +56,12 @@ AllhallowsGoldWhip: {
 
 DivineSourceBlade: {
 	DisplayName: Hoja de la Fuente divina
-	Tooltip: Blandirla hace que la hoja alcance una gran velocidad. Corta en tiras al primer enemigo que atraviesa.
+	Tooltip:
+		'''
+		Encadena dos rápidos cortes en un tajo potente cargado
+		El tajo potente desata una colosal media luna dorada de energía
+		"La vida nunca se detiene"
+		'''
 }
 
 FoodStallChair: {
@@ -97,11 +95,8 @@ AnnihilatingUniverse: {
 	DisplayName: Aniquilador universal
 	Tooltip:
 		'''
-		Las flechas de madera se convierten en una lluvia de rayos cósmicos. 
-		Al golpear a un enemigo inflinge Fisura galáctica, ataca a otros enemigos y deja tras de sí una estrella moribunda, que finalmente implosiona.
-		Clic derecho para invocar proyecciones del Devorador que se vuelven más fuertes y grandes con el tiempo. 
-		Al soltar el clic derecho, el portal persigue a los enemigos antes de desaparecer.
-		[c/9C27B0:El Fin está cerca.]
+		Las flechas dejan una estrella brillante en el punto de impacto tras golpear a un enemigo
+		Haz clic derecho para destruir a los enemigos con el poder del Devorador
 		'''
 }
 
@@ -109,9 +104,9 @@ HeavenfallLongbow: {
 	DisplayName: Arco largo caído del cielo
 	Tooltip:
 		'''
-		Lanza una luz arcoíris primordial pura para aniquilar por completo a tus enemigos con su resplandor.
-		Al hacer clic derecho, la luz primordial caerá sobre tus enemigos, explotando en pura magnificencia.
-		Presiona [KEY] para iniciar el Juicio de Vientiane cuando se alcanza la potencia máxima.
+		Lanza una lluvia interminable de flechas; poco después le sigue una energía arcoíris devastadora
+        Al hacer clic derecho, invoca flechas celestiales desde el cielo
+        Tras cargar el ataque, pulsa [KEY] para desatar el "Juicio de las Miríadas"
 		[legend]
 		'''
 	Legend:
@@ -199,7 +194,7 @@ NeutronStarIngot: {
 
 InfinityCatalyst: {
 	DisplayName: Catalizador infinito
-	Tooltip: ""
+	Tooltip: "Tu codicia está a punto de alcanzar su punto álgido"
 }
 
 DawnshatterAzure: {
@@ -245,8 +240,12 @@ SpectralMatter: {
 }
 
 InfiniteToiletItem: {
+	OnlyZenithCondition: Solo en una semilla Cénit
+	InfiniteToiletItem: {
+	OnlyZenithCondition: Solo en una semilla Cénit
 	DisplayName: Inodoro del infinito
 	Tooltip: El poder del universo, de las galaxias superioes y del espacio que hay entre ellas... Ahora reducido a un retrete.
+	}
 }
 
 StormGoddessSpear: {
@@ -274,8 +273,14 @@ StormGoddessSpear: {
 }
 
 DragonsScaleGreatsword: {
-	DisplayName: Gran hoja de alga de dragón
-	Tooltip: Blande una poderosa espada que invoca nubes venenosas que se dirigen débilmente hacia los enemigos.
+	DisplayName: Gran espada del Dragón de algas
+	Tooltip:
+		'''
+		La espada golpea tres veces, y el tercer golpe desata un poderoso remate draconiano
+		Al atacar lanza rayos en espiral de hojas de algas marinas que, al impactar, se convierten en nubes de algas tóxicas
+		Los golpes cuerpo a cuerpo veredaderos generan numerosas nubes de algas tóxicas
+		Haz clic derecho para invocar un alma de dragón verde que se abalanza hacia el cursor, esparciendo nubes de algas tóxicas a su paso
+		'''
 }
 
 CosmicCalamity: {
@@ -363,9 +368,10 @@ ElementMuzzleBrake: {
 	DisplayName: Freno de boca elemental
 	Tooltip:
 		'''
-		Reduce el retroceso y la presión de la recámara en un 65%
-		Reduce el daño a distancia en un 5%
+		Aumenta el daño a distancia en un 12%
 		Aumenta la probabilidad de golpe crítico a distancia en un 15%
+		Aumenta la velocidad de disparo a distancia en un 12%
+		A los enemigos les cuesta más detectarte
 		'''
 }
 
@@ -393,13 +399,43 @@ EyeOfSingularity: {
 		'''
 }
 
+ArcaneThroneOfEternity: {
+	DisplayName: Trono arcano de la Eternidad
+	Tooltip:
+		'''
+		Aumenta el daño mágico en un 100%
+		Aumenta la probabilidad de golpe crítico mágico en un 100%
+		Aumenta la velocidad de ataque mágico en un 100%
+		Aumenta el maná máximo en 1000; la regeneración de maná se potencia enormemente y nunca se interrumpe
+		Todos los proyectiles mágicos obtienen perforación infinita
+		Tus ataques mágicos rasgan el velo de la realidad, abriendo al impacto Grietas arcanas que no dejan de erupcionar
+		Todos los ataques mágicos infligen una maldición prohibida aleatoria:
+		Erosión del Vacío, Estasis Temporal, Quema de Almas, Colapso Gravitacional o Hiperdesintegración
+		Mientras tengas más del 90% de maná, entras en el estado "Omnisciencia":
+		Todos los proyectiles mágicos se dirigen automáticamente hacia los enemigos, y el multiplicador de daño crítico aumenta al 1000 
+		Otorga la habilidad Salto de la Verdad; pulsa [KEY] para rasgar el espacio y entrar en una dimensión superior:
+		Te vuelves inmune a todo daño y te mueves libremente durante un breve periodo de tiempo, desatando un devastador Temblor de la realidad al terminar
+		Enfriamiento de 30 segundos
+		Haz clic derecho para activar "Cálculo de la raíz":
+		Durante los siguientes 10 segundos, cada ataque mágico lanza simultáneamente 5 hechizos reflejados.
+		Enfrentamiento de 60 segundos.
+        Si recibes daño mortal, el tiempo retrocede hasta tu estado de hace 5 segundos, restaurando tu vida, maná y posición.
+        Este efecto tiene un enfrentamiento de 60 segundos.
+        Los enemigos son más propensos a atacarte.
+		[c/b84dff:"Un sabio anónimo te abre el cráneo y graba verdades olvidadas más allá de las estrellas"]
+		[c/ffdd66:"El Señor del flujo teje la trama y la urdimbre del destino, tratando la realidad como un borrador sin terminar"]
+		[c/66ffff:"El cadáver que yace sobre el trono dorado te mira, habiendo olvidado hace tiempo lo que es la muerte"]
+		'''
+}
+
 PrecisionMuzzleBrake: {
 	DisplayName: Freno de boca de precisión
 	Tooltip:
 		'''
-		Reduce el retroceso y la presión de la recámara en un 55%.
-		Reduce el daño a distancia en un 10%.
-		Aumenta la probabilidad de golpe crítico a distancia en un 10%.
+		Aumenta el daño a distancia en un 8%
+		Aumenta la probabilidad de golpe crítico a distancia en un 10%
+		Aumenta la velocidad de disparo a distancia en un 8%
+		A los enemigos les cuesta más detectarte
 		'''
 }
 
@@ -407,9 +443,10 @@ SimpleMuzzleBrake: {
 	DisplayName: Freno de boca simple
 	Tooltip:
 		'''
-		Reduce el retroceso y la presión de la recámara en un 40%.
-		Reduce el daño a distancia en un 15%.
-		Aumenta la probabilidad de golpe crítico a distancia en un 5%.
+		Aumenta el daño a distancia en un 5%
+		Aumenta la probabilidad de golpe crítico a distancia en un 5%
+		Aumenta la velocidad de disparo a distancia en un 5%
+		A los enemigos les cuesta más detectarte
 		'''
 }
 
@@ -417,7 +454,8 @@ AmmoBoxFire: {
 	DisplayName: Caja de munición ardiente
 	Tooltip:
 		'''
-		Mantén pulsado clic izquierdo para desplegar la caja. Una vez completado, haz clic en la caja con el arma equipada para usar la munición
+		Mantén pulsado para desplegar. Una vez desplegada, haz clic con el botón derecho sobre la caja de munición mientras sostienes un arma 
+		para cargar munición especial.
 		La munición especial se puede superponer con el efecto de bala original
 		Hace que la bala sea altamente inflamable y explote al impactar en el objetivo.
 		"Esto no es Call of Duty."
@@ -428,8 +466,8 @@ ArmourPiercerBox: {
 	DisplayName: Caja perforadora de blindajes
 	Tooltip:
 		'''
-		Mantén pulsado clic izquierdo para desplegar la caja. Una vez completado, 
-		haz clic en la caja con el arma equipada para usar la munición.
+		Mantén pulsado para desplegar. Una vez desplegada, haz clic con el botón derecho sobre la caja de munición mientras sostienes un arma 
+		para cargar munición especial.
 		La munición especial se puede superponer con el efecto de bala original.
 		Recubre la munición con oro de tungsteno para aumentar la capacidad de la bala para romper blindajes, ignorando el 75% del blindaje del objetivo
 		"Aun así, no intentes derribar un tanque con una pistola."
@@ -440,8 +478,8 @@ HighExplosiveBox: {
 	DisplayName: Caja de gran exlosión
 	Tooltip:
 		'''
-		Mantén pulsado clic izquierdo para desplegar la caja. Una vez completado, 
-		haz clic en la caja con el arma equipada para usar la munición.
+		Mantén pulsado para desplegar. Una vez desplegada, haz clic con el botón derecho sobre la caja de munición mientras sostienes un arma 
+		para cargar munición especial.
 		La munición especial se puede superponer con el efecto de bala original.
 		Convierte la bala en un proyectil altamente explosivo, que provoca una violenta explosión alcanza a su objetivo.
 			"¡Hazlos volar por los aires!"
@@ -465,6 +503,11 @@ HalibutItem: {
 	Tooltip: ""
 }
 
+SHPCItem: {
+	DisplayName: SHPC
+	Tooltip: ""
+}
+
 AvalancheM60: {
 	DisplayName: Avalancha M60
 	Tooltip:
@@ -482,12 +525,10 @@ CrystalDimming: {
 	DisplayName: Atenuación cristalina
 	Tooltip:
 		'''
-		Usa bolas de nieve como munición.
-		Lanza granizo helado y bolas de nieve.
-		Los cristales de hielo rebotan rápidamente al golpear las paredes.
-		Luego, localiza a los enemigos.
-		Cada 20 disparos el arma se sobrecarga,
-		e invoca una enorme columna de hielo en el cursor.
+		Lanza proyectiles de cristal que hacen surgir picos glaciares del suelo en el punto de impacto
+		Los picos crecen más cuando surgen cerca de grupos de cristales ya existentes
+		Al hacer clic derecho se desata una oleada glaciar, que forma una cresta de hielo cada vez más alta a lo largo del terreno
+		"La tierra recuerda cada helada"
 		'''
 }
 
@@ -507,7 +548,10 @@ SnowQuay: {
 	Tooltip:
 		'''
 		Utiliza bolas de nieve como munición
-		Un cañón de nieve de gran calibre que dispara proyectiles mezclados con hielo y nieve
+		Mantén pulsado el botón izquierdo del ratón para lanzar una densa ráfaga de nieve contra tus enemigos
+		Al soplar la nieve, se acumula presión en la cámara de compresión
+		Suelta el botón izquierdo del ratón cuando haya suficiente presión para lanzar un proyectil de bola de nieve compactada
+		"La alegría del invierno empieza con un lanzanieve"
 		'''
 }
 
@@ -608,9 +652,10 @@ SnowQuayMK2: {
 	DisplayName: Vívora de las nieves MK2
 	Tooltip:
 		'''
-		Utiliza bolas de nieve como munición.
-		Un cañón de nieve de gran calibre que dispara proyectiles mezclados con hielo y nieve.
-		No es necesario precalentar el arma para disparar
+		Una versión militar equipada con un criocompresor que lanza bolas de nieve convertidas en carámbanos a gran velocidad
+		Al hacer clic izquierdo se disparan ráfagas de tres disparos; el último disparo es una punta pesada que estalla en cristales
+		Al hacer clic derecho se libera una ráfaga de carámbanos de corto alcance por sobrepresión
+		"La Vívora de las nieves de segunda generación ya no necesita precalentamiento"
 		'''
 }
 
@@ -618,9 +663,10 @@ HghExplosiveBox: {
 	DisplayName: Caja explosiva grande
 	Tooltip:
 		'''
-		Mantén pulsado clic izquierdo para desplegar la caja. Una vez completado, haz clic en la caja con el arma equipada para usar la munición.
-		La munición especial se puede superponer con el efecto de bala original.
-		"¡Hazlos volar por los aires!"
+		Mantén pulsado para desplegarlo. Una vez desplegado, haz clic derecho sobre la caja de munición con un arma de fuego 
+		para cargar munición especial en el cargador.
+        La munición especial puede acumular efectos con las balas normales.
+        La ojiva contiene explosivos de alta potencia, lo que provoca una pequeña explosión al impactar.
 		'''
 }
 
@@ -639,7 +685,8 @@ WeaverGrievances: {
 	Tooltip:
 		'''
 		Desata una gran cantidad de garras de espíritus malignos y consigue efectos especiales en entornos infernales y mazmorras.
-		Clic derecho para lanzarte en la dirección del cursor. Si golpeas a un enemigo durante el lanzamiento, obtenrás un frame de invencibilidad.
+		El arma hace tres golpes, y el tercero desata un remate arrollador
+		Haz clic derecho y rueda en la dirección del cursor transformándote en una rueda de almas vengativas. Si golpeas a un enemigo durante el giro, obtendrás un fotograma de invencibilidad
 		El esquive será perfecto si te lanzas en el momento justo.
 		[legend]
 			
@@ -687,8 +734,12 @@ SandDagger: {
 }
 
 UnderTheSand: {
-	DisplayName: Bajo la arena
-	Tooltip: Crea varias esferas de arena
+	DisplayName: Colmillo del páramo
+	Tooltip:
+		'''
+		Lanza dos oleadas de arena que caen en arco hacia abajo por la fuerza de la gravedad
+		Al impactar contra el suelo, brota de debajo una estela vertical de arena que lanza a los enemigos por los aires
+		'''
 }
 
 WastelandFang: {
@@ -707,17 +758,35 @@ Flawless: {
 
 MelodyTheSand: {
 	DisplayName: Canción de las arenas
-	Tooltip: Lanza una serie de púas de arena que se ven afectadas por la gravedad y atraviesan a los enemigos
+	Tooltip:
+		'''
+		Lanza un pequeño tornado de arena que cae al suelo por la fuerza de la gravedad
+		Una vez en el suelo, recorre la superficie de un lado a otro, dando marcha atrás al llegar a paredes y salientes
+		Lanza repetidamente por los aires a los enemigos a los que golpea
+		'''
 }
 
 SandVortexOfTheDecayedSea: {
 	DisplayName: Vórtice de arena marina descompuesta
 	Tooltip:
 		'''
-		Vomita varias esferas de vapor sulfúrico.
-		"Maestro del vómito"
+		Invoca un colosal vórtice marino putrefacto en el cursor
+		El vórtice atrae sin piedad a los enemigos cercanos y los desgarra, llegando incluso a desintegrar los proyectiles hostiles
+		Lanza periódicamente hacia fuera orbes marinos putrefactos que siguen al objetivo
+		Al disparar de nuevo, se renueva el vórtice existente; cuando se desintegra de forma natural, estalla en un anillo de orbes
+		"El rugido de las profundidades en descomposición se convirtió en arena"
 		'''
 }
+
+DuneStalker: {
+	DisplayName: Acechador de las dunas
+	Tooltip:
+		'''
+		Lanza un gancho con cadena en lugar de gastar la munición directamente
+		El gancho atraviesa a los enemigos a su paso y, a continuación, se recoge automáticamente al impactar o al alcanzar su alcance máximo
+		'''
+}
+
 
 SeasonalKunai: {
 	DisplayName: Kunai estacional
@@ -780,6 +849,7 @@ WhiplashGalactica: {
 	DisplayName: Espinazo galáctico
 	Tooltip:
 		'''
+		{$CommonItemTooltip.Whips}
 		Marca a los enemigos al golpearlos y lanza bolas de fuego cósmicas.
 		"La columna vertebral de la serpiente cósmica, rebosante de energía celestial, guía la furia del universo".
 		'''
@@ -940,7 +1010,7 @@ CommandersChainsawEX: {
 
 ForgedLashEX: {
 	DisplayName: Pestañas postizas EX
-	Tooltip: ""
+	Tooltip: "Lanza orbes de fuego teledirigidos mientras atacas"
 }
 
 SoulofFrightEX: {
@@ -1139,6 +1209,7 @@ Collector: {
 		'''
 		Recoge automáticamente los objetos caídos a su alrededor para luego colocarlos en el almacenamiento más cercano
 		No funcionará si no hay almacenamientos cerca.
+		Haz clic derecho del sobre el coleccionista mientras sostienes un objeto para marcarlo, de modo que solo recoja ese tipo de objeto
 		'''
 	Text1: ¡Cantidad excesiva!
 	Text2: ¡No hay cajas alrededor!
@@ -1206,11 +1277,7 @@ ItemFilter: {
 
 SporeBubbleBlaster: {
 	DisplayName: Disparador de burbujas de esporas
-	Tooltip:
-		'''
-		Pulveriza una corriente de esporas
-		Solo causa un 50% de daño durante el día
-		'''
+	Tooltip: Proyecta un chorro de aire con esporas
 }
 
 TomeofFungalDecay: {
@@ -1220,7 +1287,11 @@ TomeofFungalDecay: {
 
 FungalRevolver: {
 	DisplayName: Revólver fúngico
-	Tooltip: ""
+	Tooltip:
+		'''
+		Convierte las balas de mosquete en proyectiles fúngicos
+		"Limpiarlo solo empeoró las cosas"
+		'''
 }
 
 FungalFeed: {
@@ -1242,7 +1313,7 @@ MushroomSaddle: {
 		Clic izquierdo en el cangrejo fúngico mientras sostienes el sillín para equiparselo
 		Clic derecho aun cangrejo espora equipado con el sillín para montar
 		'''
-	UseCombat: Solo se puede aplicar a Crabulón
+	UseCombat: Solo se puede equipar en un Cangrejo de esporas
 }
 
 SporeboundRoller: {
@@ -1542,12 +1613,10 @@ UniversalFrost: {
 	 Tooltip:
 		'''
 		Usa bolas de nieve como munición
-		Lanza granizo y orbes nova helados
-		Las esferas rebotan, se dirigen hacia los enemigos y liberan rayos helados al explotar
-		Disparar continuamente acumula energía de hielo
-		Cuando está completamente cargado, el siguiente ataque desata la Era Glacial
-		La Era Glacial invoca una gran cantidad de carámbanos y una ventisca en la posición del cursor
-		"Cuando toda la creación caiga en el silencio, el hielo eterno cubrirá el mundo"
+        Al hacer clic izquierdo se disparan rápidamente destellos de escarcha; cada disparo carga la cúpula de escarcha
+        Una vez cargada por completo, al hacer clic derecho se despliega una cortina de aurora sobre el cursor
+        La cortina lanza una lluvia de lanzas de escarcha sobre los enemigos que se encuentran debajo
+        "Cuando toda la creación se queda en silencio, solo la aurora sigue fluyendo por el cielo"
 		''' 
 }
 
@@ -1581,7 +1650,7 @@ Lumberjack: {
 LifeWeaver: {
 	NoValidPositionText: ¡No hay lugares válidos para plantar cerca!
 	NoEnergyText: ¡Energía insuficiente!
-	DisplayName: Tejedora de vida
+	DisplayName: Plantadora de árboles
 	Tooltip: Consume energía para plantar árboles en las cercanías
 }
 
@@ -1591,7 +1660,7 @@ WGGLumberjack: {
 }
 
 WGGLifeWeaver: {
-	DisplayName: Tejedor de vida salvaje
+	DisplayName: Plantadora de árboles salvaje
 	Tooltip: ""
 }
 
@@ -1687,12 +1756,8 @@ Elysium: {
 }
 
 SandevistansItem: {
-	DisplayName: Objeto Sandevistan
-	Tooltip:
-		'''
-		Militech Sandevistan Mk.5 — Reduce la percepción del tiempo en un 70% durante 3,5 segundos.
-		Tiempo deenfriamiento: 15 s.
-		'''
+	DisplayName: Sandevistan MK5
+	Tooltip: Reduce la percepción del tiempo en un 70% durante 5 segundos. Tiempo de recarga: 15 segundos.
 }
 
 Sandevistan: {
@@ -1831,8 +1896,8 @@ RamRecoveryUpgradeChip: {
 }
 
 Mewtwo: {
-	DisplayName: Mewtwo
-	Tooltip: ""
+	DisplayName: Chip Supersueño
+	Tooltip: "Úsalo para entrar al Supersueño"
 }
 
 RapidBarrelModule: {
@@ -1847,12 +1912,20 @@ FocusBarrelModule: {
 
 PrecisionOpticModule: {
 	DisplayName: Visor de precisión
-	Tooltip: La puntería asistida por láser elimina toda la dispersión y otorga una probabilidad adicional de golpe crítico
+	Tooltip:
+		'''
+		Juicio calibrado: elimina toda la dispersión; los impactos consecutivos sin fallos aumentan la calibración
+		Al alcanzar diez acumulaciones, dispara un rayo de juicio perforante con crítico garantizado; si falla un rayo, se reinicia la calibración
+		'''
 }
 
 OverloadCoreModule: {
 	DisplayName: Núcleo de sobrecarga
-	Tooltip: Sustituye el búfer por una lógica de ciclo más rápido, lo que permite cargar el orbe más rápido y lanzarlo con más fuerza
+	Tooltip:
+		'''
+		Desactiva el bloqueo de seguridad del orbe: sigue cargándolo más allá del máximo para sobrecargarlo — hasta duplicar el daño y ampliar el radio de la explosión
+		Si mantienes la carga más allá de la línea roja, el núcleo se romperá en tus manos, te lanzará hacia atrás y quemará la mitad de tu maná
+		'''
 }
 
 SteadyStockModule: {
@@ -1862,7 +1935,11 @@ SteadyStockModule: {
 
 HarmonyGripModule: {
 	DisplayName: Agarre armonioso
-	Tooltip: Los bioconductores conducen el maná a través del cuerpo, lo que reduce drásticamente el coste de maná
+	Tooltip:
+		'''
+		La bioconducción reduce el coste de maná; el maná derramado al golpear se condensa en volutas resonantes que se esparcen por el campo de batalla
+		Las volutas vuelven hacia ti: al recoger una, se restaura maná y se acumulan "Armonías" que aumentan la velocidad de ataque (hasta 5)
+		'''
 }
 
 ResonanceFrameModule: {
@@ -1872,17 +1949,29 @@ ResonanceFrameModule: {
 
 AdaptiveOpticModule: {
 	DisplayName: Visor adaptativo
-	Tooltip: Los algoritmos de Neural-link corrigen continuamente la trayectoria, fijando cada haz con mayor precisión sobre su objetivo
+	Tooltip:
+		'''
+		Control predictivo de disparo: analiza el movimiento del objetivo y proyecta un marcador holográfico de anticipación en el punto de interceptación
+		Los rayos se desvían automáticamente para anticiparse a los disparos; los impactos contra objetivos en movimiento activan ataques adaptativos adicionales
+		'''
 }
 
 AssaultStockModule: {
 	DisplayName: Culata de asalto
-	Tooltip: La función Refuerzo asistido por adrenalina recarga el arma con mayor intensidad, lo que aumenta la potencia de fuego a costa de un mayor consumo de maná
+	Tooltip:
+		'''
+		La culata incorpora dos cápsulas de combate gemelas: al empuñar el arma, se despliegan un par de brazos armados flotantes a la altura de los hombros
+		Los brazos se sincronizan con el gatillo, alternando disparos de apoyo rápidos con cada tiro que realizas
+		'''
 }
 
 BalancedGripModule: {
 	DisplayName: Agarre equilibrado
-	Tooltip: El reajuste de la distribución del peso mejora ligeramente la cadencia de disparo, el daño y la estabilidad en todos los aspectos
+	Tooltip:
+		'''
+		Protocolo de Equilibrio Dual: los impactos de rayo generan carga Yang, mientras que los orbes de carga generan carga Yin
+		Mientras ambas cargas se mantengan en equilibrio, la balanza se alinea: el daño, la cadencia de disparo y la eficiencia de maná aumentan
+		'''
 }
 
 CapacitorBankModule: {
@@ -1907,27 +1996,47 @@ HeavyBarrelModule: {
 
 HighVoltageCoreModule: {
 	DisplayName: Núcleo de alta tensión
-	Tooltip: El voltaje de salida se eleva, lo que amplifica el daño tanto del rayo puro como del rayo combinado a cambio de un coste adicional de maná
+	Tooltip:
+		'''
+		Un condensador de alta tensión se carga con cada golpe
+		Cuando está completamente cargado, tu siguiente golpe descarga un arco penetrante que sale de tu cuerpo y atraviesa todo lo que se encuentra a su paso
+		'''
 }
 
 HoloOpticModule: {
 	DisplayName: Visor holográfico
-	Tooltip: La retícula holográfica fija el punto de impacto, reduciendo la dispersión y acelerando el disparo con un ligero sobrecalentamiento de maná
+	Tooltip:
+		'''
+		Proyector de rejilla táctica: despliega periódicamente una rejilla holográfica alrededor del cursor mientras luchas
+		Los proyectiles hostiles que la tocan se desintegran; los rayos que la atraviesan se recalibran, se potencian y se reorientan
+		'''
 }
 
 HypersonicBarrelModule: {
 	DisplayName: Cañón hipersónico
-	Tooltip: La cámara de choque sónico impulsa los rayos a una velocidad extrema, pero el sistema de guiado de precisión ya no puede seguir el ritmo
+	Tooltip:
+		'''
+		El estriado del motor estatoreactor hace que los rayos se aceleren en vuelo; al romper la barrera del sonido se desencadena una onda de choque en forma de anillo de sujeción
+		Una vez superada la barrera, los rayos se vuelven incandescentes: aplica daño adicional, mayor penetración y una estela de condensación de vapor
+		'''
 }
 
 KineticDamperModule: {
 	DisplayName: Culata con amortiguador cinético
-	Tooltip: El amortiguador de líquido absorbe el retroceso, lo que elimina prácticamente la dispersión y proporciona una ligera ventaja en los golpes críticos
+	Tooltip:
+		'''
+		Los amortiguadores hidráulicos almacenan el retroceso de tus golpes como reserva cinética; por encima de la mitad de la reserva, no puedes ser empujado hacia atrás
+		En el momento en que recibes daño, toda la reserva se libera en forma de una onda sísmica contraria que lanza a los enemigos por los aires
+		'''
 }
 
 LightStockModule: {
 	DisplayName: Culata ligera
-	Tooltip: El armazón de compuesto de carbono aumenta considerablemente la cadencia de tiro, con una ligera merma en la estabilidad y la potencia por disparo
+	Tooltip:
+		'''
+		El armazón ligero segmentado aumenta la cadencia de disparo y convierte cada rayo principal en una cadena de luz que se arrastra: 
+		dos segmentos de la cadena se deslizan a lo largo de la trayectoria del rayo, cada uno de los cuales inflige su propio daño
+		'''
 }
 
 MultiCellFrameModule: {
@@ -1937,12 +2046,20 @@ MultiCellFrameModule: {
 
 PlasmaInjectorModule: {
 	DisplayName: Inyector de plasma
-	Tooltip: La inyección de plasma de alta entalpía aumenta considerablemente la velocidad orbital y el daño causado por el haz fusionado, aunque la carga es ligeramente más lenta
+	Tooltip:
+		'''
+		Inyecta plasma de alta entalpía en la esfera: su detonación deja tras de sí un sol de plasma en miniatura
+		El sol abrasa todo lo que hay a su alrededor y azota periódicamente al enemigo más cercano con erupciones solares
+		'''
 }
 
 QuantumFrameModule: {
 	DisplayName: Marco cuántico
-	Tooltip: Los circuitos de dirección cuántica hacen que los rayos giren con mayor precisión y que las esferas vuelen más rápido, a costa de un consumo de maná ligeramente superior
+	Tooltip:
+		'''
+		Protocolo de entrelazamiento: al golpear dos objetivos diferentes de forma consecutiva, estos quedan entrelazados cuánticamente durante unos segundos
+		El daño infligido a cualquiera de ellos se transmite parcialmente al otro; cuando uno muere, el vínculo se rompe y el eco acumulado se descarga sobre el superviviente
+		'''
 }
 
 ScattershotBarrelModule: {
@@ -2017,15 +2134,15 @@ GravityFrameModule: {
 
 LaserBarrelModule: {
 	DisplayName: Cañón láser prismático
-	Tooltip: Sustituye el clic izquierdo por un haz láser prismático continuo que sigue el movimiento del cursor
+	Tooltip: Convierte el haz fusionado en una columna láser prismática continua, a costa de un enorme consumo de maná y una potencia de salida limitada
 }
 
 OscillatorBarrelModule: {
 	DisplayName: Cañón oscilador láser
 	Tooltip:
 		'''
-		Un condensador de impulsos integrado provoca una microexplosión en la punta del rayo cada 45 fotogramas
-		El daño directo se reduce ligeramente y el coste de maná aumenta, pero las ráfagas de área compensan la falta de disparo continuo
+		Un condensador de pulsos integrado dispara un pulso de energía en el extremo del rayo cada 30 fotogramas
+        El daño directo se reduce ligeramente, pero las ráfagas de área y el menor coste de maná compensan el fuego sostenido
 		'''
 }
 
@@ -2184,7 +2301,7 @@ SniperOpticModule: {
 		'''
 		Los colimadores magnéticos aumentan considerablemente la velocidad, el alcance y el daño por impacto de los proyectiles
 		A cambio de una cadencia de disparo muy reducida y una capacidad de seguimiento prácticamente nula
-		Se recomienda combinarlos con el Cañón de enfoque para ataques a muy larga distancia
+		Se recomienda combinarlos con el Cañón hipersónico para ataques a muy larga distancia
 		'''
 }
 
@@ -2289,7 +2406,7 @@ OverkillFrameModule: {
 	DisplayName: Marco overkill
 	Tooltip:
 		'''
-		Un circuito de detección de overkill acumula una carga de overkill por cada muerte, hasta un máximo de 10; cada acumulación añade un 3% de daño.
+		Un circuito de detección de overkill acumula una carga de overkill por cada muerte, hasta un máximo de 15; cada acumulación añade un 2% de daño.
 		Las acumulaciones se van perdiendo con el tiempo: cuanto más rápido mates, más fuerte te harás.
 		'''
 }
@@ -2431,11 +2548,7 @@ ZoomOpticModule: {
 
 PingOpticModule: {
 	DisplayName: Visor de ping
-	Tooltip:
-		'''
-		El sistema Pintor de objetivos imprime la Marca de la muerte en cada objetivo alcanzado, lo que amplifica todo el daño recibido
-		La mejora en el seguimiento, los golpes críticos y una dispersión más reducida completan el kit de puntería
-		'''
+	Tooltip: El sistema "Pintor de señales" aplica "Marcado para morir" al impactar y otorga una probabilidad de crítico adicional
 }
 
 CapacitorPulseModule: {
@@ -2488,7 +2601,7 @@ BulwarkStockModule: {
 	Tooltip:
 		'''
 		Sostener el SHPC proporciona una reducción moderada del daño
-		La postura reforzada ralentiza ligeramente el tiempo de carga y aumenta el coste de maná
+		La postura reforzada ralentiza ligeramente el tiempo de carga y reduce el coste de maná
 		'''
 }
 
@@ -2497,7 +2610,7 @@ CombatGripModule: {
 	Tooltip:
 		'''
 		Los golpes mortales con rayos o láser acumulan cargas de Combate (máximo 5)
-		Cada carga otorga un +6% de velocidad de ataque y un +2% de daño; las cargas se pierden entre combates
+		Cada carga otorga un +4% de velocidad de ataque y un +2% de daño; las cargas se pierden entre combates
 		'''
 }
 
@@ -2543,6 +2656,143 @@ ArchiveFrameModule: {
 		'''
 		Acumula daño SHPC; cada vez que se supera el umbral, una explosión de Archivo detona a los pies del jugador
 		El daño por disparo aumenta ligeramente, con un pequeño coste adicional de maná
+		'''
+}
+
+CWRItem: {
+	TemperatureText: Temperatura de combustión
+	InternalStoredEnergy: Energía alamacenada
+	DeathModeItemText: Modo muerte
+	LegendItemUpgradeDisable:
+		'''
+		Esta arma legendaria no se puede mejorar en el mundo actual.
+		Vuelve a entrar en el mundo para eliminar esta restricción.
+		'''
+	ItemLegendOnMouseLang: Presiona 'Shift' para escuchar su historia...
+
+	CWRItem: {
+		TemperatureText: Temperatura de combustión
+		InternalStoredEnergy:Energía alamacenada
+		DeathModeItemText: Modo muerte
+		LegendItemUpgradeDisable:
+			'''
+			Esta arma legendaria no se puede mejorar en el mundo actual.
+			Vuelve a entrar en el mundo para eliminar esta restricción.
+			'''
+		ItemLegendOnMouseLang:  Presiona 'Shift' para escuchar su historia...
+	}
+}
+
+RMagicConch: {
+	DontUseMagicConch: Te está observando una criatura poderosa...
+
+	RMagicConch: {
+		DontUseMagicConch: Te está observando una criatura poderosa...
+		DisplayName: Caracola mágica
+		Tooltip: Escucha con atención y oirás el mar
+	}
+}
+
+GraniteTome: {
+	DisplayName: Libro de granito
+	Tooltip:
+		'''
+		Conjura un orbe de energía granítica que se desplaza lentamente y se dirige hacia su objetivo
+		Al impactar, se fragmenta en cristales que persiguen a su objetivo
+		'''
+}
+
+GraniteFlower: {
+	DisplayName: Floración de granito
+	Tooltip:
+		'''
+		Lanza una semilla de cristal que florece convertida en una flor de energía persistente
+		La flor palpita varias veces, esparciendo pétalos de cristal por todas partes
+		'''
+}
+
+GraniteThrowingKnife: {
+	DisplayName: Cuchillo arrojadizo de granito
+	Tooltip:
+		'''
+		Lanza un cuchillo perforador que deja tras de sí una estela de energía cristalina
+		Se hace añicos en fragmentos de cristal al impactar por última vez o contra el terreno
+		'''
+}
+
+GraniteWalkingBoots: {
+	DisplayName: Botas de senderismo de granito
+	Tooltip:
+		'''
+		Aumenta considerablemente la velocidad al correr y la aceleración
+		Emites chispas azules a toda velocidad
+		'''
+}
+
+MarbleClub: {
+	DisplayName: Garrote de mármol
+	Tooltip:
+		'''
+		Hace un golpe lento y contundente con un fuerte empuje hacia atrás
+		Puede petrificar a los enemigos, ralentizándolos momentáneamente
+		El primer impacto de cada golpe desata una onda de choque de mármol
+		'''
+}
+
+MarbleHuntingKnife: {
+	DisplayName: Cuchillo arrojadizo de mármol
+	Tooltip:
+		'''
+		Hace lolpes cortantes y rápidos
+		Cada tercer golpe provoca un remate más amplio que lanza fragmentos de mármol
+		'''
+}
+
+MarbleDisc: {
+	DisplayName: Disco de mármol
+	Tooltip:
+		'''
+		Lanza un disco giratorio que rebota entre los enemigos y las paredes
+		y luego vuelve volando a tu mano; pueden volar hasta dos a la vez
+		'''
+}
+
+MarblePebble: {
+	DisplayName: Guijarro de mármol
+	Tooltip:
+		'''
+		Lanza una piedra de honda que no se detiene, es rápida y tiene una tendencia a infligir golpes críticos
+		Inflige un daño mucho mayor a los enemigos con mucha vida
+		Rebota una vez en el suelo
+		'''
+}
+
+MarbleShield: {
+	DisplayName: Égida de mármol
+	Tooltip:
+		'''
+		Aumenta la defensa y la resistencia al empuje
+		Mantiene un escudo de piedra regenerativo que absorbe los golpes recibidos y se hace añicos
+		haz un bloqueo perfecto para devuelver los proyectiles
+		'''
+}
+
+MarbleBalloon: {
+	DisplayName: Globo de mármol
+	Tooltip:
+		'''
+		Aumenta la altura del salto y permite realizar un segundo salto potente
+		Pulsa Abajo mientras estás en el aire para realizar un salto con impulso, lo que provoca una onda de choque al aterrizar
+		Anula el daño por caída
+		'''
+}
+
+MarbleinaBottle: {
+	DisplayName: Mármol en una botella
+	Tooltip:
+		'''
+		Toca dos veces en una dirección para lanzarte hacia delante
+		Te otorga una breve invulnerabilidad mientras corres
 		'''
 }
 
