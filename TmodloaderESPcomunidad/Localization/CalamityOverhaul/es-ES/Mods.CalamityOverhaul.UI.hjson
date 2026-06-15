@@ -834,34 +834,35 @@ AbandonedPortalStrings: {
 	DiagnosticRepairing: INFO: Sincronización de la matriz de nanosoldaduras... No muevas la base del pórtico
 	DiagnosticRepaired: OK: Todos los subsistemas están en línea / Listos para el análisis de coordenadas
 }
+
 SupertableUI: {
-	RecipeViewLabel: View recipe
-	RecipeEmptyLabel: nothing
-	PlacementMonitorOff: Turn Off Placement Monitor
-	PlacementMonitorOn: Turn On Placement Monitor
-	QuickPlaceMaterials: Quick Place Materials
-	QuickTakeMaterials: Quick Take Materials
+	RecipeViewLabel: Ver receta
+	RecipeEmptyLabel: nada
+	PlacementMonitorOff: Desactivar el Monitor de colocación
+	PlacementMonitorOn: Activar el Monitor de colocación
+	QuickPlaceMaterials: Colocación rápida de materiales
+	QuickTakeMaterials: Agarre rápido de materiales
 }
 
 ArrowHolderUI: {
-	MarkArrowHint: Left-click to mark an arrow
-	UnmarkArrowHint: Right-click to unmark an arrow
+	MarkArrowHint: Haz clic izquierdo para marcar una flecha
+	UnmarkArrowHint: Haz clic derecho para desmarcar una flecha
 }
 
 BulletinBoardUI: {
-	MenuHoverLabel: Go to the mod's open source repository :)
+	MenuHoverLabel: Ve al repositorio de código abierto del mod :)
 	WikiLabel: Mod Wiki
-	FeedbackLabel: Issue Feedback
-	LogLabel: View log
-	AcknowledgmentLabel: Acknowledgments
+	FeedbackLabel: Enviar comentarios
+	LogLabel: Ver registro
+	AcknowledgmentLabel: Agradecimientos
 }
 
 AcknowledgmentUI: {
-	ArtistRole: Artist
-	CodeAssistanceRole: Code Assistance
-	MusicianRole: Musician
-	DonorRole: Donor
-	BalanceTesterRole: Balance Tester
+	ArtistRole: Artista
+	CodeAssistanceRole: Asistente del código
+	MusicianRole: Músico
+	DonorRole: Donante
+	BalanceTesterRole: Testeador de balance
 }
 
 CWRPlayer: {
