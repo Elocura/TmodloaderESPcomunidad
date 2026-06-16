@@ -1,0 +1,214 @@
+Mods: {
+	IndustrialPickaxes: {
+		Common: {
+			AutosmeltPenalty: Uses precise strikes to smelt bars from ores, slow as a result
+			AutosmeltNoPenalty: Smelts all ores!
+			Prospector: Has a chance to prospect minerals out of certain tiles
+		}
+
+		Achievements: {
+			DraconicEvolution: {
+				FriendlyName: Draconic Evolution
+				Description: Create the ultimate Industrial Pickaxe, the culmination of your journey.
+			}
+
+			ForgottenSands: {
+				FriendlyName: Forgotten Sands
+				Description: Craft the Soul Seeker, a replica of a relic from a far-off desert kingdom.
+			}
+
+			SuperSmelter: {
+				FriendlyName: Super Smelter
+				Description: Mine and smelt 2,500 ores using an Industrial Pickaxe.
+			}
+
+			NoStoneUnturned: {
+				FriendlyName: No Stone Unturned
+				Description: Obtain 500 items from prospecting using the Soul Seeker or its upgrades.
+			}
+		}
+
+		Items: {
+			BlazingMoltenPickaxe: {
+				DisplayName: Blazing Molten Pickaxe
+				Tooltip:
+					'''
+					{$Common.AutosmeltPenalty}
+					'Feel the heat!'
+					'''
+			}
+
+			AvaliManipulator: {
+				DisplayName: Hardlight Manipulator
+				Tooltip:
+					'''
+					Pickaxe and axe power adapts to your other tools
+					<right> while selected to toggle beamaxe mode, allowing you to mine tiles in a 5x5 area
+					Smart cursor will shrink the area mined to 3x3, allowing finer control
+					Accessory effect: Doubles mining speed and auto smelts mined ores
+					This effect works even while equipped as vanity, but disables auto smelt capability
+					'''
+			}
+
+			VioletThaumaturgy: {
+				DisplayName: Violet Thaumaturgy
+				Tooltip:
+					'''
+					Pickaxe power adapts to your other pickaxes
+					{$Common.AutosmeltNoPenalty}
+					'Resting in the moonlight...'
+					'''
+			}
+
+			DraconicStaffOfPower: {
+				DisplayName: Means to an End
+				Tooltip:
+					'''
+					{$Common.AutosmeltNoPenalty}
+					{$Common.Prospector}
+					'A somewhat familiar tool once wielded by an ancient dragon slayer'
+					'''
+			}
+
+			EnchantedPickaxe: {
+				DisplayName: Enchanted Pickaxe
+				Tooltip:
+					'''
+					{$Common.AutosmeltPenalty}
+					'A replica of the pickaxe that seals evil, made with a durable alloy'
+					'''
+			}
+
+			GracefulChlorophytePickaxe: {
+				DisplayName: Graceful Chlorophyte Pickaxe
+				Tooltip:
+					'''
+					{$Common.AutosmeltPenalty}
+					'Every rose has its thorn'
+					'''
+			}
+
+			LihzahrdianPicksaw: {
+				DisplayName: Lihzahrdian Picksaw
+				Tooltip:
+					'''
+					{$Common.AutosmeltPenalty}
+					'A fabled relic of the Lihzahrdian tribe'
+					'''
+			}
+
+			LunaticsCelestialPick: {
+				DisplayName: Lunatic's Celestial Pick
+				Tooltip:
+					'''
+					{$Common.AutosmeltPenalty}
+					'You'd have to be crazy to think this was an axe'
+					'''
+			}
+
+			EclipsiumAlloy: {
+				DisplayName: Eclipsium Alloy
+				Tooltip: "'It glows with immeasurable potential'"
+			}
+
+			PrototypeNanoPickaxe: {
+				DisplayName: Prototype Nano Pickaxe
+				Tooltip:
+					'''
+					Can mine Black Hardened Sludge
+					{$Common.AutosmeltPenalty}
+					'Enhanced with cybertech'
+					'''
+			}
+
+			SoulSeeker: {
+				DisplayName: Soul Seeker
+				Tooltip:
+					'''
+					{$Common.Prospector}
+					Can be upgraded to have more pickaxe power
+					'A peculiar pickaxe whose design originates from a long-lost kingdom of a forgotten desert'
+					'''
+			}
+
+			SoulSeekerS: {
+				DisplayName: Soul Seeker+
+				Tooltip:
+					'''
+					{$Common.Prospector}
+					Can be upgraded to further increase pickaxe power
+					'The hardened metals have only improved its latent abilities'
+					'''
+			}
+
+			SoulSeekerSS: {
+				DisplayName: Soul Seeker++
+				Tooltip:
+					'''
+					{$Common.Prospector}
+					Can be upgraded once more to achieve its final form
+					'It is but one step away from perfection, truly an impressive tool in its own right'
+					'''
+			}
+
+			SteampunkExcavator: {
+				DisplayName: Steampunk Excavator
+				Tooltip:
+					'''
+					{$Common.AutosmeltPenalty}
+					'It's still being tested...'
+					'''
+			}
+
+			StellarHorizon: {
+				DisplayName: Stellar Horizon
+				Tooltip:
+					'''
+					{$Common.AutosmeltNoPenalty}
+					{$Common.Prospector}
+					'Per ardua astra'
+					'''
+			}
+
+			ViridescentBlossomPickaxe: {
+				DisplayName: Viridescent Blossom Pickaxe
+				Tooltip:
+					'''
+					{$Common.AutosmeltPenalty}
+					'The blessing of Mother Nature herself'
+					'''
+			}
+
+			OreClump: {
+				DisplayName: Ore Clump
+				Tooltip: Can be Extractinated for some basic minerals
+			}
+
+			HardenedOreClump: {
+				DisplayName: Hardened Ore Clump
+				Tooltip: Can be Extractinated for some advanced minerals
+			}
+		}
+
+		Projectiles: {
+			ACDE.DisplayName: Hardlight Manipulator
+			DrillBeam.DisplayName: Hardlight Beam
+		}
+
+		Configs: {
+			IndustrialConfig: {
+				DisplayName: Industrial Config
+
+				EnableGlowmasks: {
+					Label: Enable Glowmasks
+					Tooltip:
+						'''
+						Allows glowmasks to be drawn when pickaxes are used, this doesn't affect glowmasks when dropped in the world
+						Disable this if this mod's glowmasks behave weirdly with the mods you have enabled
+						Pretty much a workaround for mod conflicts, this will make Stellar Horizon not as pretty when disabled though
+						'''
+				}
+			}
+		}
+	}
+}
