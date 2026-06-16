@@ -74,9 +74,9 @@ Arbiter: {
 	Tooltip:
 		'''
 		Mantén pulsado clic izquierdo del ratón para cargar y levantar el hacha del juicio.
-        Suelta el botón para asestar un tajo hacia abajo, lo que provocará una onda de choque llameante que se extenderá a ambos lados a ras de suelo.
-        Cuanto más tiempo se cargue, mayor será el alcance y la potencia de las llamas.
-        "El juicio desciende a través del fuego"
+		Suelta el botón para asestar un tajo hacia abajo, lo que provocará una onda de choque llameante que se extenderá a ambos lados a ras de suelo.
+		Cuanto más tiempo se cargue, mayor será el alcance y la potencia de las llamas.
+		"El juicio desciende a través del fuego"
 		'''
 }
 
@@ -85,8 +85,8 @@ Cloudwalking: {
 	Tooltip:
 		'''
 		Mantén pulsado clicn izquierdo del ratón para cargar y levantar el hacha gigante
-        Suelta el botón para lanzar el hacha hacia delante, dejando una estela de humo a su paso
-        El hacha volverá automáticamente hacia ti
+		Suelta el botón para lanzar el hacha hacia delante, dejando una estela de humo a su paso
+		El hacha volverá automáticamente hacia ti
 		'''
 }
 
@@ -105,8 +105,8 @@ HeavenfallLongbow: {
 	Tooltip:
 		'''
 		Lanza una lluvia interminable de flechas; poco después le sigue una energía arcoíris devastadora
-        Al hacer clic derecho, invoca flechas celestiales desde el cielo
-        Tras cargar el ataque, pulsa [KEY] para desatar el "Juicio de las Miríadas"
+		Al hacer clic derecho, invoca flechas celestiales desde el cielo
+		Tras cargar el ataque, pulsa [KEY] para desatar el "Juicio de las Miríadas"
 		[legend]
 		'''
 	Legend:
@@ -278,7 +278,7 @@ DragonsScaleGreatsword: {
 		'''
 		La espada golpea tres veces, y el tercer golpe desata un poderoso remate draconiano
 		Al atacar lanza rayos en espiral de hojas de algas marinas que, al impactar, se convierten en nubes de algas tóxicas
-		Los golpes cuerpo a cuerpo veredaderos generan numerosas nubes de algas tóxicas
+		Los golpes cuerpo a cuerpo verdaderos generan numerosas nubes de algas tóxicas
 		Haz clic derecho para invocar un alma de dragón verde que se abalanza hacia el cursor, esparciendo nubes de algas tóxicas a su paso
 		'''
 }
@@ -419,9 +419,9 @@ ArcaneThroneOfEternity: {
 		Haz clic derecho para activar "Cálculo de la raíz":
 		Durante los siguientes 10 segundos, cada ataque mágico lanza simultáneamente 5 hechizos reflejados.
 		Enfrentamiento de 60 segundos.
-        Si recibes daño mortal, el tiempo retrocede hasta tu estado de hace 5 segundos, restaurando tu vida, maná y posición.
-        Este efecto tiene un enfrentamiento de 60 segundos.
-        Los enemigos son más propensos a atacarte.
+		Si recibes daño mortal, el tiempo retrocede hasta tu estado de hace 5 segundos, restaurando tu vida, maná y posición.
+		Este efecto tiene un enfrentamiento de 60 segundos.
+		Los enemigos son más propensos a atacarte.
 		[c/b84dff:"Un sabio anónimo te abre el cráneo y graba verdades olvidadas más allá de las estrellas"]
 		[c/ffdd66:"El Señor del flujo teje la trama y la urdimbre del destino, tratando la realidad como un borrador sin terminar"]
 		[c/66ffff:"El cadáver que yace sobre el trono dorado te mira, habiendo olvidado hace tiempo lo que es la muerte"]
@@ -616,7 +616,7 @@ NeutronScythe: {
 	Tooltip:
 		'''
 		Una guadaña de neutrones que gira a gran velocidad dispara rayos gamma contra los enemigos cercanos y deja puntos de detonación deformados a su paso.
-        Haz clic derecho para lanzar una "Explosión de agujero negro", que lanza trece guadañas hacia fuera en un círculo completo
+		Haz clic derecho para lanzar una "Explosión de agujero negro", que lanza trece guadañas hacia fuera en un círculo completo
 		'''
 }
 
@@ -804,8 +804,8 @@ WraithKunai: {
 	Tooltip:
 		'''
 		Lanza tres espadas carmesí en abanico; cada una de ellas se mantiene suspendida en el aire brevemente antes de abalanzarse a gran velocidad sobre el enemigo más cercano
-        Las embestidas estallan con chispas carmesí y sacuden la pantalla, y las espadas detonan al final de su trayectoria, provocando ondas de choque que queman el alma
-        Incendia a los enemigos durante el día y les quema el alma por la noche
+		Las embestidas estallan con chispas carmesí y sacuden la pantalla, y las espadas detonan al final de su trayectoria, provocando ondas de choque que queman el alma
+		Incendia a los enemigos durante el día y les quema el alma por la noche
 		'''
 }
 
@@ -1613,10 +1613,10 @@ UniversalFrost: {
 	 Tooltip:
 		'''
 		Usa bolas de nieve como munición
-        Al hacer clic izquierdo se disparan rápidamente destellos de escarcha; cada disparo carga la cúpula de escarcha
-        Una vez cargada por completo, al hacer clic derecho se despliega una cortina de aurora sobre el cursor
-        La cortina lanza una lluvia de lanzas de escarcha sobre los enemigos que se encuentran debajo
-        "Cuando toda la creación se queda en silencio, solo la aurora sigue fluyendo por el cielo"
+		Al hacer clic izquierdo se disparan rápidamente destellos de escarcha; cada disparo carga la cúpula de escarcha
+		Una vez cargada por completo, al hacer clic derecho se despliega una cortina de aurora sobre el cursor
+		La cortina lanza una lluvia de lanzas de escarcha sobre los enemigos que se encuentran debajo
+		"Cuando toda la creación se queda en silencio, solo la aurora sigue fluyendo por el cielo"
 		''' 
 }
 
@@ -2142,7 +2142,7 @@ OscillatorBarrelModule: {
 	Tooltip:
 		'''
 		Un condensador de pulsos integrado dispara un pulso de energía en el extremo del rayo cada 30 fotogramas
-        El daño directo se reduce ligeramente, pero las ráfagas de área y el menor coste de maná compensan el fuego sostenido
+		El daño directo se reduce ligeramente, pero las ráfagas de área y el menor coste de maná compensan el fuego sostenido
 		'''
 }
 
