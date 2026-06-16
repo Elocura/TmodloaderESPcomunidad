@@ -1,17 +1,17 @@
 Victor: {
-	DisplayName: Cyberware Doctor
-	Bestiary: A cyberware doctor washed up on these shores, hauling enough cybernetic implants on his back to piece together an entire body. They say he can trade anyone's flesh for steel and electric current—as long as you can pay the price.
-	TalkHint: Talk to Victor
+	DisplayName: Doctor en ciberimplantes
+	Bestiary: Un médico especialista en ciberimplantes apareció por estas costas, cargando a sus espaldas suficientes implantes cibernéticos como para reconstruir un cuerpo entero. Dicen que es capaz de sustituir la carne de cualquiera por acero y electricidad... siempre y cuando puedas pagar el precio.
+	TalkHint: Hablar con Victor
 	Name0: Victor
 
 	TownNPCMood: {
-		Content: I am content.
-		NoHome: I hate not having a home.
-		FarFromHome: I am too far from home.
-		LoveSpace: I love having so much space.
-		DislikeCrowded: I don't like it being so crowded.
-		HateCrowded: I hate it being so crowded.
-		LikeNPC_Princess: I like {NPCName}.
-		Princess_LovesNPC: I like {NPCName}.
+		Content: Estoy contento.
+		NoHome: Odio no tener un hogar.
+		FarFromHome: Estoy demasiado lejos de casa.
+		LoveSpace: Me encanta tener tanto espacio.
+		DislikeCrowded: No me gusta que haya tanta gente.
+		HateCrowded: No me gusta nada que haya tanta gente.
+		LikeNPC_Princess: Me gusta {NPCName}.
+		Princess_LovesNPC: Me gusta {NPCName}.
 	}
 }
