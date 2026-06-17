@@ -57,7 +57,6 @@ CQETConstructorTP: {
 	GuideText_GroundIncomplete: ¡No hay bloques suficientes!
 }
 
-
 SignalTowerTargetRenderer: {
 	InRangeText: Dentro del rango
 	TargetCompletedText: Objetivo [NUM] ¡Completado!
@@ -170,18 +169,6 @@ ExtraMain: {
 	StaffText: PERSONAL
 	BackText: ATRÁS
 	LockedText: CERRADO
-}
-
-CompatibilityAlert: {
-	TitleText: Modo de compatibilidad activo
-	ContentText:
-		'''
-		Faltan mods importantes de contenido o se han detectado conflictos entre versiones. 
-		Algunas funciones estarán desactivadas o se ejecutarán en modo restringido.
-		Si esto es intencionado, ignore este mensaje.
-		Si se debe a versiones obsoletas, espere a que se publique una actualización.
-		El equipo de desarrollo suele publicar parches de compatibilidad en un plazo de 12 horas
-		'''
 }
 
 QuestWorldConfirmUI: {
@@ -334,6 +321,8 @@ OverhaulSettingsUI: {
 	ResetDefaultText: Restablecer valores
 	DensityTooltipText: Densidad de generación de estructuras
 }
+
+OverhaulSettingsButton.OverhaulSettingsButtonText: Configuración de Overhaul
 
 GalacticCrisisRender: {
 	HeaderStellarNavigation: ◢ NAVEGACIÓN ESTELAR ◣
@@ -867,7 +856,7 @@ AcknowledgmentUI: {
 
 CWRPlayer: {
 	Error_HookFailure:
-		''
+		'''
 		Se ha producido un error en un gancho. Cierra el juego y vuelve a iniciarlo para restablecer el funcionamiento normal.
 		Si el problema persiste, exporta el registro y ponte en contacto con el desarrollador del mod
 		'''
@@ -890,8 +879,7 @@ CWRPlayer: {
 			[Quality of Terraria]  está instalado, pero tu versión está desactualizada.
 			Para disfrutar de una experiencia de juego estable, actualiza [Quality of Terraria] al menos hasta la versión 1.7.1.7
 			'''
-		HellfireExplosionDeathReason: "{0} quedó reducido a cenizas en las llamas del inframundo
+		HellfireExplosionDeathReason: "{0} quedó reducido a cenizas en las llamas del inframundo"
 		SoulfireExplosionDeathReason: "El alma de {0} ascendió envuelta en llamas"
 	}
 }
-

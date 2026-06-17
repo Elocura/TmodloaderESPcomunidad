@@ -298,11 +298,11 @@ Mods: {
 				Tooltip:
 					'''
 					+10 de daño de etiqueta de invocación por acumulación
-                    Todos los enemigos alcanzados por este látigo: 
-                    reciben un golpe crítico garantizado de un súbdito que inflige 4 veces más de daño
-                    Las acumulaciones de este látigo se suman entre sí.
-                    Las acumulaciones más antiguas se eliminan primero.
-                    Un número de cometas igual al de acumulaciones orbita alrededor del enemigo
+					Todos los enemigos alcanzados por este látigo: 
+					reciben un golpe crítico garantizado de un súbdito que inflige 4 veces más de daño
+					Las acumulaciones de este látigo se suman entre sí.
+					Las acumulaciones más antiguas se eliminan primero.
+					Un número de cometas igual al de acumulaciones orbita alrededor del enemigo
 					'''
 			}
 
@@ -479,9 +479,9 @@ Mods: {
 					7 daño de etiqueta de invocador
 					Cambia automáticamente entre dos modos.
 					'''
-					-----------------------------
 				HoldShiftTooltip:
 					'''
+					-----------------------------
 					Modo Defensa:
 					Al golpear a un enemigo con el látigo,
 					los ataques de los súbditos liberan fragmentos de escudo azul
@@ -549,7 +549,6 @@ Mods: {
 					20 daño de etiqueta de invocador
 					Cambia automáticamente entre dos modos.
 					'''
-
 				HoldShiftTooltip:
 					'''
 					-----------------------------
@@ -583,8 +582,8 @@ Mods: {
 				Tooltip:
 					'''
 					+1 de daño de etiqueta de invocación por acumulación
-                    El daño de marca de este látigo se acumula consigo mismo.
-                    Las acumulaciones más antiguas se eliminan primero
+					El daño de marca de este látigo se acumula consigo mismo.
+					Las acumulaciones más antiguas se eliminan primero
 					'''
 			}
 
@@ -696,7 +695,6 @@ Mods: {
 					añadiendo a su ataque el 15% del daño infligido durante la carga
 					'''
 			}
-
 
 			Accessories: {
 				BleachedNucleogenesis: {
@@ -1090,6 +1088,7 @@ Mods: {
 				DisplayName: Invisible Wooden Whip
 				Tooltip: ""
 			}
+
 			InvisibleGlitterGutter2: {
 				DisplayName: Invisible Glitter Gutter2
 				Tooltip: ""
@@ -1440,36 +1439,6 @@ Mods: {
 			SimpleWhipDebuffT20St: {
 				DisplayName: Simple Whip Debuff T20 St
 				Description: Mods.CalamitySimpleWhipAddon.Buffs.SimpleWhipDebuffT20St.Description
-			}
-
-		SimpleWhipDebuffEx12: {
-				Description: Mods.CalamitySimpleWhipAddon.Buffs.SimpleWhipDebuffEx12.Description
-				DisplayName: Simple Whip Debuff Ex12
-			}
-
-			SimpleWhipDebuffEx14: {
-				Description: Mods.CalamitySimpleWhipAddon.Buffs.SimpleWhipDebuffEx14.Description
-				DisplayName: Simple Whip Debuff Ex14
-			}
-
-			SimpleWhipDebuffEx13: {
-				Description: Mods.CalamitySimpleWhipAddon.Buffs.SimpleWhipDebuffEx13.Description
-				DisplayName: Simple Whip Debuff Ex13
-			}
-
-			SimpleWhipDebuffEx15: {
-				Description: Mods.CalamitySimpleWhipAddon.Buffs.SimpleWhipDebuffEx15.Description
-				DisplayName: Simple Whip Debuff Ex15
-			}
-
-			SimpleWhipDebuffEx16: {
-				DisplayName: Simple Whip Debuff Ex16
-				Description: Mods.CalamitySimpleWhipAddon.Buffs.SimpleWhipDebuffEx16.Description
-			}
-
-			SimpleWhipDebuffEx17: {
-				Description: Mods.CalamitySimpleWhipAddon.Buffs.SimpleWhipDebuffEx17.Description
-				DisplayName: Simple Whip Debuff Ex17
 			}
 
 			SimpleWhipDebuffEx12: {
