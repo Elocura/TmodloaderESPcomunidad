@@ -27,6 +27,7 @@ Mods: {
 			VoidAnomalyCrafting: Conversión de agujero de gusano
 			CurseTooltip: "{$LegacyTooltip.59}"
 			TesseractInventory: Objeto Tesseract
+		}
 
 		ModifyWorldGenTasks: {
 			GeneratingSurfaceStructures: Generando Estructuras de la superficie
@@ -40,8 +41,6 @@ Mods: {
 			GeneratingGeodes: Generando Geodas decorativas
 			GenerationAdjacentDesert: ¡La arena te molesta y se mete por todas partes!
 		}
-
-	}
 
 		AddRecipeGroups: {
 			AG: " Gema"
@@ -3419,8 +3418,6 @@ Mods: {
 				Tooltip: Aumenta el daño de invocación en un 15%
 				SetBonus: Invoca una bandada de serpientes voladoras para que te ayuden en combate
 			}
-
-			
 
 			PharaohsCane: {
 				DisplayName: Bastón del Faraón
@@ -6932,11 +6929,6 @@ Mods: {
 					Obtienes una cola lanzamisiles que ataca a los enemigos cercanos con un coste de 1 de vacío
 					Reduce el daño recibido en un 10%
 					'''
-				SetBonus:
-					'''
-					Aumenta la velocidad de ataque de la cola del lanzamisiles en un 50%
-					Aumenta la velocidad de regeneración de vacío en un 30%
-					'''
 			}
 
 			ExcavatorLeggings: {
@@ -7583,6 +7575,7 @@ Mods: {
 				MapEntry1: Cofre con revestimiento caótico
 				MapEntry0: Cofre con revestimiento caótico cerrado
 			}
+		}
 
 		WorldGeneration: {
 			GetStatus: Generando luz estelar...
@@ -8207,7 +8200,6 @@ Mods: {
 			x7: "'No puedes escapar de tu destino'"
 			x8: "'Es como un espejo que se asoma a tu alma'"
 		}
-	
 
 		PrecariousClusterTextList: {
 			0: Reduce el daño infligido en un 10%
