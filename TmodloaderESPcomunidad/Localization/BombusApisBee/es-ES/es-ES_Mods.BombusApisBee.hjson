@@ -1,0 +1,1668 @@
+Keybinds: {
+	"Honey Manipulation.DisplayName": Manipulación de miel
+	"Lihzardian Hornet Relic.DisplayName": Reliquia del avispón lihzardiano
+	"Change Beekeeper State.DisplayName": Cambiar estado del apicultor
+}
+
+Buffs: {
+	AstralStarBuff: {
+		DisplayName: Bendecido por los cielos
+		Description: Aumenta el daño y la velocidad de ataque del apicultor
+	}
+
+	BandOfTheHiveCooldown: {
+		DisplayName: Recarga de la Banda Tocada por la Colmena
+		Description: La banda necesita recargarse
+	}
+
+	BladeOfAculeusCleave: {
+		DisplayName: Hendido
+		Description: Tu defensa no sirve de nada
+	}
+
+	BrokenScope: {
+		DisplayName: Gafas rotas
+		Description: Parece que no puedes marcar enemigos
+	}
+
+	CthulhuEnraged: {
+		DisplayName: Enfurecido
+		Description: Aumenta el daño del apicultor
+	}
+
+	Electrocuted: {
+		DisplayName: Electrocutado
+		Description: ¡Zas!
+	}
+
+	Frostbroken: {
+		DisplayName: Quebrado por la escarcha
+		Description: ¡Brr!... ¡Segunda parte!
+	}
+
+	Glacialstruck: {
+		DisplayName: Golpe glacial
+		Description: ¡Brr!
+	}
+
+	HeartOfNectar: {
+		DisplayName: Corazón de néctar
+		Description: Aumenta considerablemente la regeneración de vida
+	}
+	HoneyBeeBuff: {
+		DisplayName: La abeja melífera
+		Description: ¡La abeja recolectará miel para ti!
+	}
+
+	HoneyLaserCooldown: {
+		DisplayName: Recarga del láser de miel
+		Description: El panal necesita tiempo para enfriarse
+	}
+
+	HoneyManipulatorCooldown: {
+		DisplayName: Recarga del manipulador de miel
+		Description: El manipulador de miel necesita recargarse
+	}
+
+	HoneyTeleportCooldown: {
+		DisplayName: Recarga de teletransportación de miel
+		Description: Tus moléculas necesitan tiempo para alinearse
+	}
+
+	ImprovedHoney: {
+		DisplayName: Miel mejorada
+		Description: Aumenta considerablemente la regeneración de vida
+	}
+
+	ImprovedPoison: {
+		DisplayName: Intoxicado
+		Description: Será mejor que encuentres el antídoto
+	}
+
+	LihzardianHornetRelicCooldown: {
+		DisplayName: Recarga de la reliquia del avispón lihzardiano
+		Description: Parece que la reliquia ya no funciona... por ahora
+	}
+
+	NectarGlazed: {
+		DisplayName: Glaseado con néctar
+		Description: ¡Delicioso!
+	}
+
+	RottenDebuff: {
+		DisplayName: Podrido
+		Description: Hueles horrible
+	}
+
+	SkeletalCurse: {
+		DisplayName: Maldición esquelética
+		Description: No puedes sentir tu alma
+	}
+
+	SquireBuff: {
+		DisplayName: ¡Escudero abeja!
+		Description: ¡El escudero abeja te protegerá con su vida!
+	}
+
+	TheQueensGuard: {
+		DisplayName: La guardia de la reina
+		Description: ¡La reina te protegerá!
+	}
+
+	HiveBlessingBuff: {
+		DisplayName: Bendición de la colmena
+		Description: Has sido bendecido por la colmena
+	}
+
+	HoneycombShardCooldown: {
+		DisplayName: Recarga del fragmento de panal
+		Description:
+			'''
+			No puedes usar los efectos del fragmento de panal
+			¡Aunque las abejas aún se fortalecen!
+			'''
+	}
+
+	ChippedTailspikeBuff: {
+		DisplayName: Superespinoso
+		Description: La probabilidad de golpe crítico del apicultor aumenta un 25%
+	}
+
+	ShadestingerScytheCooldown: {
+		DisplayName: Recarga de curación oscura
+		Description: Sus almas necesitan tiempo para regenerar una curación digna de ser tomada...
+	}
+
+	Stormsurged: {
+		DisplayName: Embestida tormentosa
+		Description: ¡Tormentoso!
+	}
+
+	Mycosis: {
+		DisplayName: Micosis
+		Description: Cubierto de mugre y apestando a hongos
+	}
+
+	Ionized: {
+		DisplayName: Ionizado
+		Description: Tienes un electrón de valencia metido aquí
+	}
+
+	Sulphurstruck: {
+		DisplayName: Golpe de azufre
+		Description: Dándole con todo al azufre hasta que eche chispas
+	}
+
+	CoralcombBleed: {
+		DisplayName: Sangrado
+		Description: ¡Auch!
+	}
+}
+
+Items: {
+	HemocombShard: {
+	DisplayName: Fragmento de hemopanal
+	Tooltip:
+		'''
+		Aumenta un 30% la probabilidad de fortalecer a las abejas aliadas
+		Las abejas fortalecidas pueden explotar en trozos de carne curativos
+		Solo puedes tener equipado un fragmento de panal a la vez
+
+		'''
+    }
+
+	HemocombShardChunk1: {
+	DisplayName: Trozo de carne
+	Tooltip: No deberías estar viendo esto...
+}
+
+	HemocombShardChunk2: {
+		DisplayName: Trozo de carne
+		Tooltip: No deberías estar viendo esto...
+	}
+
+	HemocombShardChunk3: {
+		DisplayName: Trozo de carne
+		Tooltip: No deberías estar viendo esto...
+	}
+
+	CursedHoneycomb: {
+		Tooltip:
+			'''
+			Mantén <izquierda> para controlar un panal maldito
+			El panal maldito escupe dientes y ojos malditos
+			Los dientes se adhieren a los enemigos e infligen daño continuo acumulable, mientras que los ojos persiguen a los enemigos
+			Genera abejas malditas al impactar
+			'''
+		DisplayName: Panal maldito
+	}
+
+	EaterOfHoneycombs: {
+		Tooltip:
+			'''
+			Dispara abejas corruptas y minidevoradores antes de lanzarse y buscar objetivos
+			«¿Parece... estar vivo?»
+			'''
+		DisplayName: Devorador de panales
+	}
+
+	BrainyHoneycomb: {
+		Tooltip:
+			'''
+			Dispara abejas genio que infligen Confusión y acumulaciones de Desorientación cerebral
+			Cada acumulación de Desorientación cerebral hace que el objetivo inflija un 5% menos de daño y reciba 5 de daño continuo, hasta un máximo de 5 acumulaciones
+			«El coeficiente intelectual de este panal está por las nubes»
+			'''
+		DisplayName: Panal cerebral
+	}
+
+	CystComb: {
+		DisplayName: Cistopanal
+		Tooltip:
+			'''
+			Lanza un panal retornante infestado de tumores
+			Golpear enemigos provoca una explosión de icor
+			«Un panal invadido por quistes... qué asco»
+			'''
+	}
+
+	ManaInfusedHoneycomb: {
+		Tooltip:
+			'''
+			Mantén <izquierda> para cargar una ráfaga de abejas imbuidas de maná
+			Las abejas de maná generan estrellas de maná perseguidoras al impactar
+			'''
+		DisplayName: Panal imbuido de maná
+	}
+
+	Skelecomb: {
+		Tooltip:
+			'''
+			Invoca abejas esqueléticas que acuchillan a los enemigos
+			Pulsa <derecha> para disparar un cráneo maldito que hace que los enemigos reciban un 15% más de daño de todas las fuentes
+			'''
+		DisplayName: Esquelepanal
+	}
+
+	SkeletalBeeChestplate: {
+		Tooltip:
+			'''
+			Reduce el daño recibido un 10%
+			Aumenta en 2 las abejas leales
+			'''
+		DisplayName: Peto de abeja esquelética
+	}
+
+	SkeletalBeeHelmet: {
+		Tooltip:
+			'''
+			Probabilidad de golpe crítico del apicultor aumentada un 10%
+			Aumenta la miel máxima en 50
+			'''
+		DisplayName: Casco de abeja esquelética
+	}
+
+	SkeletalBeeLeggings: {
+		Tooltip: Daño del apicultor aumentado un 10%
+		DisplayName: Grebas de abeja esquelética
+	}
+
+	SpectralBeeTome: {
+		Tooltip: "«Las almas de abejas olvidadas buscan venganza»"
+		DisplayName: Tomo de la abeja espectral
+	}
+
+	HymenoptraFlasks: {
+		Tooltip:
+			'''
+			Lanza una variedad de frascos relacionados con las abejas
+			«Quizá deberías ponerte unas gafas»
+			'''
+		DisplayName: Frascos de himenópteros
+	}
+
+	BeeFinTuna: {
+		DisplayName: Atún aleta de abeja
+		Tooltip:
+			'''
+			Escupe una dispersión de burbujas de miel que estallan en abejas
+			«Se dice que su carne es increíblemente dulce y tierna»
+			'''
+	}
+
+	CopperBeeIdol: {
+		Tooltip:
+			'''
+			Probabilidad de no consumir miel aumentada un 10%
+			«Está claro que las civilizaciones antiguas no sabían qué aspecto tenían las abejas»
+			'''
+		DisplayName: Ídolo de abeja de cobre
+	}
+
+	TinBeeIdol: {
+	Tooltip:
+		'''
+		Aumenta un 4% el daño y la probabilidad de golpe crítico del apicultor
+		«Está claro que las civilizaciones antiguas no sabían qué aspecto tenían las abejas»
+		'''
+	DisplayName: Ídolo de abeja de estaño
+}
+
+	BeekeepersPants: {
+		Tooltip: Probabilidad de golpe crítico del apicultor aumentada un 5%
+		DisplayName: Pantalones de apicultor
+	}
+
+	BeekeepersRobe: {
+		DisplayName: Túnica de apicultor
+		Tooltip:
+			'''
+			Daño del apicultor aumentado un 5%
+			Aumenta en 1 el máximo de abejas leales
+			'''
+	}
+
+	BeekeepersVeil: {
+		DisplayName: Velo de apicultor
+		Tooltip:
+			'''
+			Probabilidad de golpe crítico del apicultor aumentada un 5%
+			Aumenta la miel máxima en 25
+			'''
+	}
+
+	Beemerang: {
+		Tooltip:
+			'''
+			Mantén <izquierda> para cargar un abejarang retornante
+			Según la carga, el abejarang obtiene más retroceso, velocidad, daño y genera más abejas al impactar
+			'''
+		DisplayName: Abejarang
+	}
+
+	BeenadeLauncher: {
+		Tooltip:
+			'''
+			Dispara bombabejas rebotantes llenas de abejas
+			«Oh, van a tener que pegarte de nuevo»
+			«¡EN EL INFIERNO!»
+			'''
+		DisplayName: Lanzabejadas
+	}
+
+	BeeInyGun: {
+		Tooltip: "«Cuesta cuatrocientas mil botellas de miel disparar esta arma... durante doce segundos»"
+		DisplayName: Abejetralladora
+	}
+
+	BeeSniperArmor: {
+		Tooltip:
+			'''
+			Probabilidad de no consumir miel aumentada un 25%
+			Aumenta en 3 el máximo de abejas leales
+			'''
+		DisplayName: Armadura de francotirador apícola
+	}
+
+	BeeSniperGoggles: {
+		Tooltip:
+			'''
+			Probabilidad de golpe crítico del apicultor aumentada un 15%
+			Aumenta la miel máxima en 60
+			'''
+		DisplayName: Gafas de francotirador apícola
+	}
+
+	BeeSniperLeggings: {
+		Tooltip: Daño del apicultor aumentado un 10%
+		DisplayName: Grebas de francotirador apícola
+	}
+
+	BeeZooka: {
+		Tooltip:
+			'''
+			Dispara una ráfaga de cohetes abeja perseguidores que explotan en minimisiles
+			Los minimisiles apuntan al enemigo más cercano al cursor y explotan en metralla
+			«¡Si Dios hubiera querido que vivieras, no me habría creado!»
+			'''
+		DisplayName: Abejazuca
+	}
+
+	GelatinousHoneycomb: {
+		Tooltip:
+			'''
+			Dispara abejas reales que hacen llover bolas de gelatina rebotantes
+			Dispara un rubí volátil cada pocos disparos
+			«Un panal digno de un rey»
+			'''
+		DisplayName: Panal gelatinoso
+	}
+
+	GlassOfHoney: {
+		Tooltip:
+			'''
+			Daño del apicultor aumentado un 10%
+			Aumenta la miel máxima en 10
+			Aumenta considerablemente la regeneración de vida
+			'''
+		DisplayName: Vaso de miel
+	}
+
+	HoneyBeeItem: {
+		Tooltip:
+			'''
+			Invoca una gran abeja melífera que imitará a tus abejas leales
+			Aumenta la miel máxima en 25
+			'''
+		DisplayName: Objeto de abeja melífera
+	}
+
+	Honeycomb: {
+		Tooltip:
+			'''
+			Dispara una ráfaga de tres abejas antes de lanzar el panal vacío
+			«Amigo, este panal solo tiene como tres abejas»
+			'''
+		DisplayName: Panal
+	}
+
+	HoneycombChunkPickup: {
+		DisplayName: Trozo de panal
+		Tooltip: No deberías ver esto...
+	}
+
+	HoneycombShard: {
+		DisplayName: Fragmento de panal
+		Tooltip:
+			'''
+			Aumenta un 15% la probabilidad de fortalecer a las abejas aliadas
+			«¡Crujiente!»
+			Solo se puede equipar un fragmento de panal a la vez
+
+			'''
+	}
+
+	HoneyedEmblem: {
+		DisplayName: Emblema meloso
+		Tooltip:
+			'''
+			Daño del apicultor aumentado un 12%
+			Aumenta la miel máxima en 10
+			'''
+	}
+
+	HoneyFlareCannon: {
+		Tooltip: Dispara rápidamente bengalas de miel
+		DisplayName: Cañón de bengalas de miel
+	}
+
+	HoneyFlareGun: {
+		Tooltip:
+			'''
+			Dispara bengalas de miel que se adhieren a los enemigos y explotan en miel perseguidora y nubes de miel
+			Las nubes de miel otorgan la mejora Miel mientras permaneces dentro de ellas
+			'''
+		DisplayName: Pistola de bengalas de miel
+	}
+
+	HoneyGun: {
+		DisplayName: Pistola de miel
+		Tooltip: Dispara un chorro de miel a gran velocidad
+	}
+
+	JarOfHoney: {
+		DisplayName: Tarro de miel
+		Tooltip:
+			'''
+			Aumenta un 6% el daño del apicultor
+			Aumenta la miel máxima en 5
+			Aumenta la regeneración de vida
+			'''
+	}
+
+	HymenoptraHandcannon: {
+		Tooltip:
+			'''
+			Dispara una ráfaga de 6 balas de abeja
+			«¡Teme al enjambre!»
+			'''
+		DisplayName: Cañón de mano de himenópteros
+	}
+
+	HymenoptrianNecklace: {
+	Tooltip:
+		'''
+		Aumenta la penetración de armadura en 5
+		Cubre los ataques del apicultor con néctar dulce, otorgándoles robo de vida con golpes críticos
+		Aumenta la vida máxima en 20
+		Libera abejas y cthulabejas, aumenta el daño del apicultor y la velocidad de movimiento, y cubre al usuario de miel al recibir daño
+		'''
+	DisplayName: Collar himenóptero
+}
+
+	LivingFlowerChestplate: {
+		DisplayName: Peto de flor viviente
+		Tooltip: Daño del apicultor aumentado un 4%
+	}
+
+	LivingFlowerCrown: {
+		DisplayName: Corona de flor viviente
+		Tooltip:
+			'''
+			Probabilidad de golpe crítico del apicultor aumentada un 3%
+			Aumenta la miel máxima en 15
+			'''
+	}
+
+	LivingFlowerLeggings: {
+		Tooltip: Probabilidad de golpe crítico del apicultor aumentada un 3%
+		DisplayName: Grebas de flor viviente
+	}
+
+	Nectarlace: {
+		DisplayName: Nectacollar
+		Tooltip:
+			'''
+			Aumenta la penetración de armadura en 5
+			Libera abejas y cubre al usuario de miel al recibir daño
+			Cubre los ataques del apicultor con néctar dulce, otorgándoles robo de vida con golpes críticos
+			Aumenta la vida máxima en 20
+			'''
+	}
+
+	NectarSlasher: {
+		DisplayName: Cortanéctar
+		Tooltip:
+			'''
+			Realiza un combo de tres movimientos con golpes rápidos y lanzamientos
+			Atraviesa a los enemigos al impactar
+			Restaura vida al impactar
+			'''
+	}
+
+	Nectarthrower: {
+		Tooltip:
+			'''
+			Dispara néctar fundido que recubre a los enemigos con un glaseado de néctar
+			Los enemigos glaseados liberan proyectiles curativos al ser golpeados
+			'''
+		DisplayName: Lanzanéctar
+	}
+
+	ThePeeperPoker: {
+		Tooltip:
+			'''
+			Hace girar rápidamente una jabalina infestada de ojos alrededor del jugador
+			Suelta el botón del ratón para lanzar la jabalina
+			Cuanto más tiempo la hagas girar, más rápido viajará, más daño infligirá y más enemigos atravesará
+			Genera cthulabejas mientras gira y mientras viaja
+			'''
+		DisplayName: El pinchaojos
+	}
+
+	StoneHoneycomb: {
+		DisplayName: Panal petrificado
+		Tooltip:
+			'''
+			Lanza un pesado panal petrificado
+			El panal siempre asesta golpes críticos cuando cae con suficiente velocidad
+			«Rocas... abejas... ¿qué podría salir mal?»
+			'''
+	}
+
+	PollenItem: {
+		DisplayName: Polen
+		Tooltip: "«Ten cuidado si eres alérgico»"
+	}
+
+	TheQueensLarvae: {
+		Tooltip:
+			'''
+			Consume tu miel al usarlo
+			Reserva un 65% de tu miel mientras esté con vida
+			«Antes una reina real, ahora tu guardia real»
+			'''
+		DisplayName: Larva de la reina
+	}
+
+	RetinaReleaser: {
+		DisplayName: Liberador de retinas
+		Tooltip:
+			'''
+			«Creo que te están mirando»
+			Recibir daño libera una ráfaga de cthulabejas y aumenta un 12% el daño del apicultor durante un breve periodo
+			'''
+	}
+
+	RottenHoneycombShard: {
+		DisplayName: Fragmento de panal podrido
+		Tooltip:
+			'''
+			Aumenta un 20% la probabilidad de fortalecer a las abejas aliadas
+			Las abejas fortalecidas aplican una desventaja debilitante
+			«Huele horrible»
+			Solo se puede equipar un fragmento de panal a la vez
+
+			'''
+	}
+
+	TESTWEAPON: {
+		DisplayName: Panal de prueba
+		Tooltip: PRUEBA, NO USAR
+	}
+
+	TheBeeBlade: {
+		Tooltip:
+			'''
+			«Una espada casi perfecta que irradia la energía de la colmena»
+			Crea un gran corte de miel al blandirla
+			Golpear a un enemigo genera una ráfaga de aguijones detrás del jugador
+			'''
+		DisplayName: La espada de abeja
+	}
+
+	TheTraitorsSaxophone: {
+		DisplayName: Saxofón del traidor
+		Tooltip: "«¿Te gusta el jazz?»"
+	}
+
+	TrueNectarSlasher: {
+		DisplayName: Cortanéctar verdadero
+		Tooltip:
+			'''
+			Realiza un combo de cinco movimientos con golpes ligeros, golpes fuertes y lanzamientos
+			Atraviesa a los enemigos al impactar
+			Restaura vida al impactar
+			'''
+	}
+
+	WoodenApiary: {
+		DisplayName: Apiario de madera
+		Tooltip:
+			'''
+			Mantén <izquierda> para disparar abejas rápidamente
+			Mantén <derecha> para disparar más lentamente y controlar las abejas, haciendo que inflijan 3 de daño adicional
+			'''
+	}
+
+	BeeSquireShield: {
+		DisplayName: Escudo del escudero abeja
+		Tooltip:
+			'''
+			«¡El más noble de los escuderos abeja te protegerá!»
+			Invoca un escudero abeja que flota cerca de ti y dispara flechas a los enemigos cercanos
+			'''
+	}
+
+	BeeEmblem: {
+		DisplayName: Emblema del apicultor
+		Tooltip: Daño del apicultor aumentado un 15%
+	}
+
+	HellcombShard: {
+		DisplayName: Fragmento de panal infernal
+		Tooltip:
+			'''
+			Aumenta un 40% la probabilidad de fortalecer a las abejas aliadas
+			Las abejas fortalecidas pueden provocar explosiones volátiles
+			Solo se puede equipar un fragmento de panal a la vez
+
+			'''
+	}
+
+	HellfireBeemstick: {
+		Tooltip:
+			'''
+			Dispara una dispersión infernal de perdigones de abeja y abejas que infligen Fuego infernal
+			Pulsa <derecha> para disparar una bala de fuego infernal que explota al impactar
+			'''
+		DisplayName: Abejeta de fuego infernal
+	}
+
+	HoneyShot: {
+		DisplayName: Disparamiel
+		Tooltip: Dispara una descarga de flechas de miel
+	}
+
+	SyrupSickle: {
+		DisplayName: Hoz de néctar
+		Tooltip:
+			'''
+			Invoca una hoz de néctar resplandeciente frente al usuario
+			Asestar un golpe crítico aumenta considerablemente la regeneración de vida durante un breve periodo
+			'''
+	}
+
+	Ambrosia: {
+		DisplayName: Lanzamiento ambrosial
+		Tooltip:
+			'''
+			Lanza un yoyó de néctar puro
+			Provoca explosiones de néctar al impactar que curan al usuario
+			'''
+	}
+
+	Beemstick: {
+	Tooltip:
+		'''
+		Dispara una dispersión de perdigones de abeja y abejas
+		«Esta... es mi ABEJETA»
+		'''
+	DisplayName: Abejeta
+}
+
+	BladeOfAculeus: {
+		DisplayName: Hoja de Aculeus
+		Tooltip:
+			'''
+			Realiza golpes pesados que lanzan aguijones perforantes con una fuerza letal
+			Los ataques cuerpo a cuerpo destrozan la armadura de los enemigos
+			'''
+	}
+
+	ChlorophyteHoneycomb: {
+		DisplayName: Cloropanal
+		Tooltip:
+			'''
+			Lanza un panal frágil que se rompe en fragmentos perseguidores, cloroesporas y cloroabejas
+			Las cloroabejas se convierten en cloroenergía al morir
+			'''
+	}
+
+	BandOfTheHive: {
+		DisplayName: Banda tocada por la colmena
+		Tooltip: Infligir una gran cantidad de daño en poco tiempo hace que tu siguiente golpe provoque una gran explosión de miel
+	}
+
+	HoneyedHeart: {
+		DisplayName: Corazón de miel
+		Tooltip: El 25% de la miel obtenida se convierte en vida
+	}
+
+	HoneyLocket: {
+		DisplayName: Medallón de miel
+		Tooltip:
+			'''
+			«Parece tener una conexión profunda con la colmena»
+			Aumenta en 3 el máximo de abejas leales
+			'''
+	}
+
+	HoneyphyteChestpiece: {
+		Tooltip:
+			'''
+			Probabilidad de no consumir miel aumentada un 30%
+			Aumenta en 5 el máximo de abejas leales
+			'''
+		DisplayName: Peto de mielofita
+	}
+
+	HoneyphyteGreaves: {
+		DisplayName: Grebas del acaparador de miel
+		Tooltip: Daño del apicultor aumentado un 5%
+	}
+
+	HoneyphyteHeadgear: {
+		DisplayName: Capucha del acaparador de miel
+		Tooltip: Aumenta la miel máxima en 100
+	}
+
+	HoneyphyteMask: {
+		Tooltip:
+			'''
+			Aumenta un 10% el daño y la probabilidad de golpe crítico del apicultor
+			Aumenta la miel máxima en 75
+			'''
+		DisplayName: Máscara de mielofita
+	}
+
+	LihzardianHornetRelic: {
+		Tooltip:
+			'''
+			Aumenta un 35% la velocidad de movimiento y el tiempo de vuelo de las alas
+			modifyTooltips
+			Mientras canalizas, el daño, la velocidad de ataque y la probabilidad de golpe crítico del apicultor aumentan un 12%
+			Recibes un 10% más de daño y sufres daño continuo mientras canalizas
+			Este efecto tiene un tiempo de recarga de 45 segundos
+			'''
+		DisplayName: Reliquia del avispón lihzardiano
+	}
+
+	MegaHornet: {
+		DisplayName: Megaavispón
+		Tooltip:
+			'''
+			Se carga cuanto más tiempo disparas, aumentando el daño infligido
+			«La hermana mayor de Miniavispón»
+			'''
+	}
+
+	MiniHornet: {
+		DisplayName: Miniavispón
+		Tooltip: "«Mitad avispón, mitad arma, completamente increíble»"
+	}
+
+	NectarBolt: {
+		Tooltip:
+			'''
+			Lanza un rayo de néctar reluciente que rebota en los bloques
+			Al rebotar genera néctar perseguidor con un ligero robo de vida
+			'''
+		DisplayName: Rayo de néctar
+	}
+
+	NectarVial: {
+		Tooltip:
+			'''
+			Cubre los ataques del apicultor con néctar dulce, otorgándoles robo de vida con golpes críticos
+			Aumenta la vida máxima en 20
+			«Es un manjar en la mayoría de lugares del mundo»
+			'''
+		DisplayName: Frasco de néctar
+	}
+
+	Needleshot: {
+		Tooltip: Dispara una ráfaga de aguijones de alta velocidad y bombas de colmena
+		DisplayName: Disparo de agujas
+	}
+
+	TheQueensCharge: {
+		Tooltip:
+			'''
+			Pulsa dos veces en cualquier dirección para embestir
+			Genera abejas mientras embistes
+			'''
+		DisplayName: Embestida de la reina
+	}
+
+	RoyalJelly: {
+		Tooltip:
+			'''
+			Aumenta permanentemente la miel máxima en 25
+			«Un manjar muy codiciado por su sabor refinado y sus propiedades curativas»
+			'''
+		DisplayName: Jalea real
+	}
+
+	TheStingerSlinger: {
+		Tooltip:
+			'''
+			Lanza un yoyó que dispara aguijones a los enemigos
+			Dispara periódicamente una ráfaga de aguijones perseguidores
+			'''
+		DisplayName: El lanzaguijones
+	}
+
+	TheSting: {
+		Tooltip:
+			'''
+			«Este sí que va a doler»
+			Invoca una Abeja Reina en miniatura que ataca donde se encuentra el cursor
+			Alterna entre 3 ataques:
+			Rodear el cursor mientras dispara aguijones
+			Embestir hacia el cursor
+			Permanecer sobre el cursor y generar abejas
+			Consume 2 de miel por cada segundo que permanece con vida
+			'''
+		DisplayName: El aguijón
+	}
+
+	TomeOfTheSun: {
+		Tooltip: Crea un pulso de energía de néctar vibrante en el cursor que se divide en proyectiles perseguidores
+		DisplayName: Tomo del sol
+	}
+
+	TriTipStinger: {
+		DisplayName: Aguijón de tres puntas
+		Tooltip:
+			'''
+			Otorga a los ataques del apicultor una probabilidad de aplicar un veneno mejorado al impactar
+			El veneno mejorado inflige un porcentaje de la vida máxima del enemigo afectado y se propaga entre enemigos
+			'''
+	}
+
+	Wasparang: {
+		Tooltip:
+			'''
+			Pulsa <derecha> para cargar un avisparang retornante
+			Suelta para lanzar el avisparang, generando avispas durante el vuelo y aguijones perseguidores al impactar
+			'''
+		DisplayName: Avisparang
+	}
+
+	WaspBreastplate: {
+		Tooltip:
+			'''
+			Aumenta un 6% el daño y la probabilidad de golpe crítico del apicultor
+			Aumenta en 1 el máximo de abejas leales
+			'''
+		DisplayName: Peto de avispa
+	}
+
+	WaspGreaves: {
+	Tooltip: Velocidad de movimiento aumentada un 15%
+	DisplayName: Grebas de avispa
+}
+
+	WaspHead: {
+		Tooltip:
+			'''
+			Aumenta un 20% el tiempo de vuelo con alas y aumenta la velocidad de salto
+			Aumenta la miel máxima en 35
+			'''
+		DisplayName: Cabeza de avispa
+	}
+
+	TheWaspNest: {
+		Tooltip:
+			'''
+			Lanza un nido de avispas que genera avispas mientras está en el aire
+			Consume 1 de miel cada vez que genera una avispa
+			'''
+		DisplayName: El nido de avispas
+	}
+
+	BeeBubbleBlaster: {
+		DisplayName: Abejanopopper
+		Tooltip: "«A los alienígenas les encantan las burbujas... que disparan balas»"
+	}
+
+	HoneyManipulator: {
+		Tooltip:
+			'''
+
+			TP
+			+20 de miel máxima
+			Este efecto tiene un tiempo de recarga de 90 segundos
+			No puedes regenerar miel durante 5 segundos después de activar la habilidad
+			'''
+		DisplayName: Manipulador de miel
+	}
+
+	LaserbeemBlaster: {
+		Tooltip:
+			'''
+			Dispara concentraciones puras de energía de miel que rebotan entre enemigos
+			Genera abejas de energía de miel pura al rebotar
+			'''
+		DisplayName: Cañón láserabeja
+	}
+
+	HoneycombCrusaderGreaves: {
+		DisplayName: Grebas del cruzado del panal
+		Tooltip: Daño del apicultor aumentado un 5%
+	}
+
+	HoneycombCrusaderHelmet: {
+		Tooltip:
+			'''
+			Probabilidad de golpe crítico del apicultor aumentada un 5%
+			Aumenta la miel máxima en 75
+			'''
+		DisplayName: Casco del cruzado del panal
+	}
+
+	HoneycombCrusaderPlatemail: {
+		DisplayName: Armadura de placas del cruzado del panal
+		Tooltip:
+			'''
+			Probabilidad de no consumir miel aumentada un 30%
+			Aumenta en 4 el máximo de abejas leales
+			'''
+	}
+
+	MetalPlatedHoneycomb: {
+		Tooltip:
+			'''
+			Mantén <izquierda> para canalizar el poder del Panal Supremo
+			«Inicializando proj.Ubersaw»
+			«Inicializando proj.MetalBee»
+			«Inicializando proj.DeathLaser»
+			«Compilando Panal Supremo»
+			'''
+		DisplayName: Panal blindado de metal
+	}
+
+	OcularRemote: {
+		Tooltip:
+			'''
+			Invoca al Retinapanal y al Espasmapanal para que luchen temporalmente por ti
+			Solo puede haber una pareja de gemelos con vida a la vez
+			Cada gemelo reserva 35 de miel mientras está con vida
+			Pulsa <derecha> mientras sostienes el control para autodestruirlos; esta acción tiene tiempo de recarga
+			«Menos mal que los Gemelos no guardan rencor»
+			'''
+		DisplayName: Control ocular
+	}
+
+	ProbeyComb: {
+		Tooltip:
+			'''
+			Mantén <izquierda> para cargar una ráfaga de sondabejas
+			Las sondabejas disparan láseres letales a los enemigos
+			'''
+		DisplayName: Sondapanal
+	}
+
+	HoneycombOfTheGalaxies: {
+		DisplayName: Panal del cosmos
+		Tooltip:
+			'''
+			«Un panal todopoderoso que, según se dice, nació en el centro del cosmos»
+			Mantén pulsado el botón izquierdo para canalizar un panal que irradia energía universal
+			El panal se carga y debilita el tejido del cosmos
+			Al soltar el botón del ratón, el panal regresará canalizado hacia su dueño
+			Esta acción rompe el tejido del cosmos y libera energías poderosas y abejas galácticas
+			'''
+	}
+
+	PhotonFragment: {
+		DisplayName: Partícula fotónica
+		Tooltip: "«Se puede oír un zumbido incesante proveniente de esta partícula»"
+	}
+
+	BorealApiary: {
+		DisplayName: Apiario boreal
+		Tooltip:
+			'''
+			Mantén <izquierda> para disparar rápidamente abejas nevadas
+			Mantén <derecha> para dispararlas más lentamente y tomar el control de ellas
+			Las abejas controladas tienen un 10% más de probabilidad de golpe crítico y sus golpes críticos infligen Quemadura gélida
+			'''
+	}
+
+	FrostedHoneycomb: {
+		Tooltip:
+			'''
+			Lanza un panal congelante que se rompe en múltiples fragmentos de hielo
+			Inflige Golpe glacial
+			Asestar un golpe crítico a un enemigo afectado por Golpe glacial hace que explote en una ráfaga de abejas
+			'''
+		DisplayName: Panal escarchado
+	}
+
+	FrozenStinger: {
+		Tooltip:
+			'''
+			Probabilidad de golpe crítico del apicultor aumentada un 8%
+			Los golpes críticos del apicultor infligen Quebrado por la escarcha
+			Los enemigos afectados por Quebrado por la escarcha pierden un 35% de defensa y se hacen añicos cuando tienen poca vida, dañando a los enemigos cercanos
+			'''
+		DisplayName: Aguijón congelado
+	}
+
+	ElectricHoneycomb: {
+		Tooltip: Lanza un panal cargado de electricidad que electrocuta todo lo que se acerca y explota en electroabejas
+		DisplayName: Panal eléctrico
+	}
+
+	TheStarStrap: {
+		Tooltip:
+			'''
+			«Ve bien armado»
+			Dispara una ráfaga de abejas estelares que hacen caer estrellas celestiales al impactar
+			'''
+		DisplayName: La correa estelar
+	}
+
+	AstralStarPickup: {
+		DisplayName: Estrella astral
+		Tooltip: No deberías ver esto...
+	}
+
+	TheStarSwarmer: {
+		Tooltip:
+			'''
+			Dispara rápidamente abejas estelares
+			Pulsa <derecha> para disparar una estrella que se divide
+			Recoger la estrella restaura miel y aumenta el daño y la velocidad de ataque del usuario
+			'''
+		DisplayName: El enjambrador estelar
+	}
+
+	EnchantedCharm: {
+		DisplayName: Colgante de disparo estelar
+		Tooltip:
+			'''
+			Los apiarios invocan estrellas dañinas durante la noche
+			«Estrellita, ¿dónde estás?»
+			'''
+	}
+
+	EnergizerItem: {
+		DisplayName: Energizador
+		Tooltip:
+			'''
+			Aumenta un 25% la velocidad de las abejas aliadas
+			Las abejas proporcionan una pequeña cantidad de luz
+			Alterna este efecto con la visibilidad del accesorio
+			'''
+	}
+
+	FlamingApiary: {
+	DisplayName: Apiario llameante
+	Tooltip:
+		'''
+		Mantén <izquierda> para disparar abejas rápidamente
+		Mantén <derecha> para dispararlas más lentamente y tomar el control de ellas, prendiéndolas en llamas
+		Las abejas controladas se mueven un 25% más rápido, tienen un 5% más de probabilidad de golpe crítico y sus golpes críticos infligen ¡En llamas!
+		'''
+}
+
+	IronApiary: {
+		DisplayName: Apiario de hierro
+		Tooltip:
+			'''
+			Mantén <izquierda> para disparar abejas rápidamente
+			Mantén <derecha> para dispararlas más lentamente y tomar el control de ellas
+			Las abejas controladas se cubren de metal pesado, haciendo que se muevan un 25% más lento pero inflijan el doble de daño
+			'''
+	}
+
+	TrueStingerScimitar: {
+		DisplayName: Cimitarra de aguijón verdadera
+		Tooltip: ""
+	}
+
+	LeadApiary: {
+		DisplayName: Apiario de plomo
+		Tooltip:
+			'''
+			Mantén <izquierda> para disparar abejas rápidamente
+			Mantén <derecha> para dispararlas más lentamente y tomar el control de ellas
+			Las abejas controladas infligen acumulaciones de Envenenamiento por plomo
+			«Prohibido en Míchigan»
+			'''
+	}
+
+	ShadesentHoneycombShard: {
+		Tooltip:
+			'''
+			Aumenta un 35% la probabilidad de fortalecer a las abejas aliadas
+			Las abejas fortalecidas pueden atravesar paredes, aumentando su probabilidad de golpe crítico
+			'''
+		DisplayName: Fragmento de panal umbrío
+	}
+
+	ChippedTailspike: {
+		Tooltip:
+			'''
+			Hace que crezcan púas en tu espalda con el tiempo
+			Recibir un golpe por detrás rompe las púas y refleja el daño al atacante
+			Cuando las púas terminan de crecer, recibir un golpe refleja un 500% del daño al atacante y aumenta brevemente la probabilidad de golpe crítico del apicultor
+			'''
+		DisplayName: Pincho caudal astillado
+	}
+
+	MyocombShard: {
+		DisplayName: Fragmento de micopanal
+		Tooltip:
+			'''
+			Aumenta un 25% la probabilidad de fortalecer a las abejas aliadas
+			Las abejas fortalecidas dejan nubes de esporas a su paso
+			Solo se puede equipar un fragmento de panal a la vez
+
+			'''
+	}
+
+	MolluscanHoneycombShard: {
+		Tooltip:
+			'''
+			Aumenta un 30% la probabilidad de fortalecer a las abejas aliadas
+			Las abejas fortalecidas ignoran 25 puntos de defensa
+			'''
+		DisplayName: Fragmento de panal de molusco
+	}
+
+	HydrophobicCoating: {
+		Tooltip:
+			'''
+			Cubre los ataques del apicultor con un revestimiento hidrofóbico especial, haciendo que inflijan más daño cuando están mojados
+			Evita que tus proyectiles de abeja desaparezcan en el agua
+			Desactiva la visibilidad del accesorio para ocultar el aura acuática de los proyectiles mojados
+			'''
+		DisplayName: Revestimiento hidrofóbico
+	}
+
+	GlisteningGear: {
+		Tooltip:
+			'''
+			Velocidad de ataque del apicultor aumentada un 7%
+			Aumenta la miel máxima en 10
+			«¡¿Cómo se supone que volver pegajoso un engranaje ayuda en algo?!»
+			'''
+		DisplayName: Engranaje reluciente
+	}
+
+	WulfrumHoneycombShard: {
+		DisplayName: Fragmento de panal Wulfrum
+		Tooltip:
+			'''
+			Aumenta un 25% la probabilidad de fortalecer a las abejas aliadas
+			Las abejas fortalecidas aparecen con un escudo que les permite atacar una vez más
+			Desactiva la visibilidad del accesorio para ocultar el escudo y sus efectos de ruptura en las abejas fortalecidas
+			Solo se puede equipar un fragmento de panal a la vez
+
+			'''
+	}
+
+	WulfrumHoneycomb: {
+		Tooltip: Pulsa <derecha> para potenciar temporalmente la máquina a cambio de 20 de miel
+		DisplayName: Panal Wulfrum
+	}
+
+	VictideNautihelm: {
+		DisplayName: Nauticasco de victide
+		Tooltip: Daño del apicultor aumentado un 5%
+	}
+
+	ShadestingerScepter: {
+		DisplayName: Cetro de aguijón sombrío
+		Tooltip:
+			'''
+			Lanza una descarga de aguijones sombríos inestables que impregnan a los enemigos con Energía oscura
+			Golpea a los enemigos con suficiente Energía oscura para arrancarles abejas ensombrecidas
+
+			'''
+	}
+
+	ShadestingerScythe: {
+		DisplayName: Guadaña de aguijón sombrío
+		Tooltip:
+			'''
+			Golpea rápidamente a los enemigos con una ráfaga de estocadas y lanzamientos, impregnándolos con Energía oscura
+			Golpea a los enemigos con suficiente Energía oscura para arrancarles abejas ensombrecidas
+			Pulsa <derecha> para extraer energía curativa de todos los enemigos y eliminar toda su Energía oscura
+			La curación tiene un tiempo de recarga de 30 segundos
+			'''
+	}
+
+	ScourgedHoneycomb: {
+		Tooltip:
+			'''
+			Mantén <izquierda> para cargar un poderoso ataque de mandíbula
+			Al cargarse por completo, dispara una ráfaga de agua letal
+			«Imbuido con el poder del Azote»
+			'''
+		DisplayName: Panal del Azote
+	}
+
+	StormsentSceptre: {
+		DisplayName: Cetro de la tormenta
+		Tooltip:
+			'''
+			Lanza una descarga de abejas de tormenta
+			Pulsa <derecha> para lanzar un rayo en cadena que inflige Embestida tormentosa
+			Las abejas de tormenta infligen mucho más daño a los enemigos afectados por Embestida tormentosa
+			'''
+	}
+
+	FungalApiary: {
+		DisplayName: Apiario fúngico
+		Tooltip:
+			'''
+			Mantén <izquierda> para disparar abejas fúngicas
+			Mantén <derecha> para dispararlas más lentamente y tomar el control de ellas, haciendo que generen esporas perseguidoras al impactar
+			Los golpes críticos generan esporas explosivas
+			'''
+	}
+
+	MycelialHoneycomb: {
+		Tooltip:
+			'''
+			Dispara abejas fúngicas
+			Mantén <derecha> para hacer brotar esporas letales desde el bloque más cercano e infligir Micosis
+			La Micosis hace que los enemigos afectados generen abejas fúngicas periódicamente
+			'''
+		DisplayName: Panal micelial
+	}
+
+	SulphuricApiary: {
+		DisplayName: Apiario sulfúrico
+		Tooltip:
+			'''
+			Mantén <izquierda> para disparar abejas sulfúricas
+			Mantén <derecha> para dispararlas más lentamente y tomar el control de ellas, haciendo que inflijan Ionizado
+			Ionizado se propaga entre enemigos y provoca explosiones
+			Los enemigos ionizados reciben un 15% más de daño de apicultor proveniente de fuentes que no sean abejas
+			'''
+	}
+
+	SulphuricStingerSpear: {
+		DisplayName: Lanza de aguijón sulfúrico
+		Tooltip:
+			'''
+			Empala a los enemigos y hace explotar a los afectados por Golpe de azufre
+			Pulsa <derecha> para lanzar la lanza e infligir Golpe de azufre
+			'''
+	}
+
+	SeashoneHoneycomb: {
+	Tooltip:
+		'''
+		Pulsa <izquierda> para lanzar el panal
+		Mantén <derecha> para materializar un poderoso cristal que se incrusta en los enemigos
+		Golpea a los enemigos con cristales incrustados para hundirlos más profundamente hasta que estallen en proyectiles violentos
+		Solo puede haber un cristal incrustado en cada enemigo a la vez
+		'''
+	DisplayName: Panal marino reluciente
+}
+
+	Coralcomb: {
+		Tooltip:
+			'''
+			Lanza un panal dentado capaz de despedazar a los enemigos
+			Los golpes críticos hacen sangrar a los enemigos
+			El último golpe siempre es crítico e inflige un 50% más de daño
+			'''
+		DisplayName: Coralpanal
+	}
+
+	WulfrumStinger: {
+		Tooltip:
+			'''
+			Lanza rápidamente aguijones Wulfrum
+			Golpear a un enemigo puede hacer que suelte una celda de energía Wulfrum inestable
+			Las celdas de energía pueden recogerse y lanzarse con <derecha>
+			Las celdas de energía pueden golpearse en el aire para sobrecargarlas, haciendo que detonen con una explosión aún más violenta
+			'''
+		DisplayName: Aguijón Wulfrum
+	}
+
+	MoltenCharm: {
+		DisplayName: Colgante de disparo ígneo
+		Tooltip: Los apiarios invocan estrellas llameantes
+	}
+
+	EboncombShard: {
+		DisplayName: Fragmento de crimopanal
+		Tooltip:
+			'''
+			Aumenta un 30% la probabilidad de fortalecer a las abejas aliadas
+			Aumenta en 3 el daño de las abejas fortalecidas
+			Solo se puede equipar un fragmento de panal a la vez
+
+			'''
+	}
+
+	CrimcombShard: {
+		DisplayName: Fragmento de crimopanal
+		Tooltip:
+			'''
+			Aumenta un 30% la probabilidad de fortalecer a las abejas aliadas
+			Aumenta en 3 el daño de las abejas fortalecidas
+			Solo se puede equipar un fragmento de panal a la vez
+
+			'''
+	}
+
+	StarryApiary: {
+		DisplayName: Lluvia de estrellas
+		Tooltip:
+			'''
+			Mantén <izquierda> para disparar abejas rápidamente
+			Mantén <derecha> para dispararlas más lentamente y tomar el control de ellas, haciendo llover estrellas sobre los enemigos cercanos
+			Las estrellas se vuelven más poderosas durante la noche
+			'''
+	}
+
+	TestAccessory: {
+		DisplayName: Accesorio de prueba
+		Tooltip: Para fines de depuración
+	}
+}
+
+Projectiles: {
+	CursedBee.DisplayName: Abeja maldita
+	CursedEye.DisplayName: Ojo maldito
+	CursedHoneycombThrowout.DisplayName: Panal maldito
+	CursedTooth.DisplayName: Diente maldito
+	CorruptedBee.DisplayName: Abeja corrupta
+	CorruptMiniEater.DisplayName: Minidevorador corrupto
+	EaterOfHoneycombsHoldout.DisplayName: Devorador de panales
+	BrainyBee.DisplayName: Abeja genio
+	IchorBee.DisplayName: Abeja de icor
+	IchorExplosion.DisplayName: Explosión de icor
+	IchorHoneycombHoldout.DisplayName: Abejarang
+	HomingManaStar.DisplayName: Estrella de maná perseguidora
+	ManaBee.DisplayName: Abeja de maná
+	ManaBolt.DisplayName: Rayo de maná
+	SkelecombProjectile.DisplayName: Cráneo maldito
+	SkeletalBee.DisplayName: Abeja esquelética
+	SkeletalBeeSlash.DisplayName: Corte esquelético
+	SkeletalHornetProjectile.DisplayName: Avispón esquelético
+	SkeletalStinger.DisplayName: Aguijón esquelético
+	SpectralBee.DisplayName: Abeja espectral
+	SpectralBeeTomeHoldout.DisplayName: Tomo de la abeja espectral
+	SpectralSoul.DisplayName: Alma espectral
+	BeeFishBubble.DisplayName: Burbuja de miel
+	BeemerangHoldout.DisplayName: Abejarang
+	BeenadeLauncherProjectile.DisplayName: Bombabejas
+	BeeMinigunHoldout.DisplayName: Abejetralladora
+	BeezookaRocket.DisplayName: Cohete abeja
+	BeezookaRocketSmall.DisplayName: Minicohete abeja
+	BeezookaShrapnel.DisplayName: Metralla de Abejazuca
+	GelBee.DisplayName: Abeja de gel
+	RubyExplosion.DisplayName: Explosión de rubí
+	RubyProjectile.DisplayName: Rubí volátil
+	VolatileGel.DisplayName: Bola de gelatina rebotante
+	HoneycombHoldout.DisplayName: Panal
+	HoneyFlare.DisplayName: Bengala de miel
+	HoneyGunHoldout.DisplayName: Pistola de miel
+	HoneyGunShot.DisplayName: Chorro de miel
+	Nectarslash.DisplayName: Corte de néctar
+	NectarSlasherHoldout.DisplayName: Cortanéctar
+	NectarthrowerProj.DisplayName: Néctar fundido
+	CthulhuBee.DisplayName: Cthulabeja
+	PeeperPokerHoldout.DisplayName: Pinchaojos
+	PeeperPokerThrow.DisplayName: Pinchaojos
+	StoneHoneycombProjectile.DisplayName: Panal petrificado
+	QueensLarvaeProjectile.DisplayName: La reina
+	BeeBladeStinger.DisplayName: Aguijón
+	BeeBladeSwing.DisplayName: Espada de abeja
+	BeeSwordSlash.DisplayName: Corte de miel
+	HoneyNoteEighth.DisplayName: Corchea de miel
+	HoneyNoteEighthTied.DisplayName: Corchea ligada de miel
+	HoneyNoteQuarter.DisplayName: Negra de miel
+	HoneyQuarterNote.DisplayName: Nota de miel
+	HoneyTiedEighthNote.DisplayName: Nota de miel
+	MiniHoneyNoteEighth.DisplayName: Minicorchea de miel
+	MiniHoneyNoteEighthTied.DisplayName: Minicorchea ligada de miel
+	MiniHoneyNoteQuarter.DisplayName: Mininegra de miel
+	TheTraitorsSaxophoneHoldout.DisplayName: Saxofón del traidor
+	TrueHomingNectar.DisplayName: Néctar perseguidor verdadero
+	TrueNectarslash.DisplayName: Corte de néctar verdadero
+	TrueNectarSlasherHoldout.DisplayName: Cortanéctar verdadero
+	WoodenApiaryHoldout.DisplayName: Apiario
+	SquireBee.DisplayName: Escudero abeja
+	HellcombShardExplosion.DisplayName: Explosión volátil
+	HellfireBee.DisplayName: Abeja de fuego infernal
+	HellfireBeeBuckshot.DisplayName: Perdigón de abeja de fuego infernal
+	HellfireBeemstickSlug.DisplayName: Bala de fuego infernal
+	HellfireSlugExplosion.DisplayName: Explosión de fuego infernal
+	HoneyArrow.DisplayName: Flecha de miel
+	HoneyShotHoldout.DisplayName: Disparamiel
+	SyrupSickleProjectile.DisplayName: Hoz de miel
+	AmbrosiaExplosion.DisplayName: Explosión de ambrosía
+	AmbrosiaProjectile.DisplayName: Ambrosía
+	BeeBuckshot.DisplayName: Perdigón de abeja
+	AculeusBladeHoldout.DisplayName: Hoja de Aculeus
+	AculeusBladeStinger.DisplayName: Aguijón
+	ChloroEnergy.DisplayName: Cloroenergía
+	ChlorophyteBee.DisplayName: Abeja de clorofita
+	ChlorophyteHoneycombProjectile.DisplayName: Cloropanal
+	Chloroshard.DisplayName: Clorofragmento
+	Chlorospore.DisplayName: Cloroespora
+	BandHoneyExplosion.DisplayName: Explosión de miel
+	BandHoneyGlob.DisplayName: Glóbulo de miel
+	HoneyphyteHeadgearExplosion.DisplayName: Explosión de miel
+	HoneyphyteMaskLaserHoneycomb.DisplayName: Panal de mielofita
+	MegaHornetHoldout.DisplayName: Megaavispón
+	NectarBoltHoming.DisplayName: Rayo de néctar
+	NectarBoltProjectile.DisplayName: Rayo de néctar
+	HighVelocityStinger.DisplayName: Aguijón de alta velocidad
+	Hivebomb.DisplayName: Bomba de colmena
+	StingerYoyoProj.DisplayName: Yoyó aguijoneador
+	TomeOfTheSunProjectile.DisplayName: Energía de miel vibrante
+	TomeOfTheSunProjectileHoming.DisplayName: Rayo de energía solar
+	WasparangHoldout.DisplayName: Abejarang
+	TheWaspNestProjectile.DisplayName: Nido de avispas
+	BeeBubble.DisplayName: Burbuja de abeja
+	HoneycombCrusaderShieldProjectile.DisplayName: Escudo de miel
+	HoneycombPrime.DisplayName: Panal Supremo
+	HoneycombPrime_Laser.DisplayName: Láser del Panal Supremo
+	HoneycombPrime_Saw.DisplayName: Sierra del Panal Supremo
+	CursedExplosion.DisplayName: Explosión maldita
+	CursedFlameball.DisplayName: Bola de llama maldita
+	RetinaHoneycomb.DisplayName: Retinapanal
+	SpazBee.DisplayName: Espasmabeja
+	SpazHoneycomb.DisplayName: Espasmapanal
+	Probee.DisplayName: Sondabeja
+	ProbeycombHoldout.DisplayName: Sondapanal
+	GalacticBee.DisplayName: Abeja galáctica
+	GalacticSeeker.DisplayName: Buscador galáctico
+	GalacticStar.DisplayName: Estrella galáctica
+	GalaxyHoneycombProj.DisplayName: Panal galáctico
+	LargeGalaticStar.DisplayName: Estrella
+	BasicExplosion.DisplayName: Explosión
+	BasicExplosionDebuff.DisplayName: Explosión
+	BeeBullet.DisplayName: Bala de abeja
+	BeeResourceIncreaseProjectile.DisplayName: Miel
+	DaybloomProj.DisplayName: Flor
+	HealingProjectile.DisplayName: Orbe de curación galáctica
+	HomingNectar.DisplayName: Néctar perseguidor
+	HomingStinger.DisplayName: Aguijón perseguidor
+	HoneyBee.DisplayName: Abeja melífera
+	HoneyBeeProj.DisplayName: Abeja melífera
+	HoneyEighthNote.DisplayName: Nota de miel
+	HoneyEnergyBee.DisplayName: Abeja de miel pura
+	HoneyHoming.DisplayName: Miel
+	HoneyHomingMetaballs.DisplayName: Miel
+	HoneySmoke.DisplayName: Nube de miel
+	HymenoptraFlask_Honey.DisplayName: Frasco de miel
+	HymenoptraFlask_Nectar.DisplayName: Frasco de néctar
+	HymenoptraFlask_Stinger.DisplayName: Frasco de aguijones
+	LaserbeemProjectile.DisplayName: Láser de miel rebotante
+	MetalBee.DisplayName: Abeja de metal
+	MetalBeeExplosion.DisplayName: Explosión
+	NectarHealingBolt.DisplayName: Proyectil curativo de néctar
+	NectarSmoke.DisplayName: Nube de néctar
+	PoisonSmoke.DisplayName: Nube venenosa
+	RedLaser.DisplayName: Láser
+	RedLaserHoming.DisplayName: Láser
+	RegularBeeProjectile.DisplayName: Abeja
+	StingerFriendly.DisplayName: Aguijón
+	StingerGravity.DisplayName: Aguijón
+	TheStingProj.DisplayName: La reina aguijoneadora
+	WeakBeeProjectile.DisplayName: Abeja
+	BorealApiaryHoldout.DisplayName: Apiario
+	SnowBee.DisplayName: Abeja nevada
+	FrostedBee.DisplayName: Abeja escarchada
+	FrostedHoneycombProj.DisplayName: Panal congelado
+	FrostedProjectile_Homing.DisplayName: Carámbano perseguidor
+	FrostedProjectile_Piercing.DisplayName: Carámbano perforante
+	FrostedProjectile_Solid.DisplayName: Carámbano sólido
+	ElectricBee.DisplayName: Abeja eléctrica
+	ElectricHoneycombLightning.DisplayName: Rayo
+	ElectricHoneycombProj.DisplayName: Panal eléctrico
+	AstralBee.DisplayName: Abeja astral
+	AstralStar.DisplayName: Estrella astral
+	AstralStarSplitting.DisplayName: Estrella astral divisoria
+	AstralStarSplittingShards.DisplayName: Fragmento astral
+	BigStar.DisplayName: Estrella grande
+	MiniStars.DisplayName: Miniestrella
+	FlamingApiaryHoldout.DisplayName: Apiario
+	IronApiaryHoldout.DisplayName: Apiario
+	BeePlayerBeeProjectile.DisplayName: Abeja
+	BeePlayerShieldProjectile.DisplayName: Escudo
+	ManaHoneycombHoldout.DisplayName: Panal de maná
+	EnchantedBolt.DisplayName: Proyectil encantado
+	LeadApiaryHoldout.DisplayName: Apiario
+	SporeCloud.DisplayName: Nube de esporas
+	DarksentBee.DisplayName: Abeja umbría
+	ShadestingerScepterHoldout.DisplayName: Cetro de aguijón sombrío
+	ShadestingerScepterStinger.DisplayName: Aguijón sombrío
+	ShadestingerScytheAltProjectile.DisplayName: Guadaña de aguijón sombrío
+	ShadestingerScytheProjectile.DisplayName: Guadaña de aguijón sombrío
+	ScourgedHoneycombBolt.DisplayName: Disparo de agua
+	ScourgedHoneycombExplosion.DisplayName: Explosión del Panal del Azote
+	ScourgedHoneycombHoldout.DisplayName: Panal del Azote
+	ScourgedHoneycombHoldoutJaw.DisplayName: Panal del Azote
+	StormsentBee.DisplayName: Abeja de tormenta
+	StormsentLightningBolt.DisplayName: Rayo
+	StormsentSceptreHoldout.DisplayName: Cetro de la tormenta
+	StormsentSceptreHoldoutAlt.DisplayName: Cetro de la tormenta
+	ExplosiveSpore.DisplayName: Espora explosiva
+	FungalApiaryHoldout.DisplayName: Apiario
+	FungalBee.DisplayName: Abeja fúngica
+	FungalExplosion.DisplayName: Explosión fúngica
+	FungalSpore.DisplayName: Espora
+	HomingMycelialSpore.DisplayName: Espora perseguidora
+	MycelialHoneycombProjectile.DisplayName: Panal micelial
+	MycelialMushroom.DisplayName: Hongo
+	SulphuricApiaryHoldout.DisplayName: Apiario
+	SulphuricBee.DisplayName: Abeja sulfúrica
+	SulphuricExplosion.DisplayName: Explosión sulfúrica
+	SulphuricStingerSpearProjectile.DisplayName: Lanza de aguijón sulfúrico
+	SulphuricStingerSpearThrownProjectile.DisplayName: Lanza de aguijón sulfúrico
+	SeashoneHoneycomb_CrystalBig.DisplayName: Cristal
+	SeashoneHoneycomb_CrystalSmall.DisplayName: Cristal perseguidor
+	SeashoneHoneycomb_Thrown.DisplayName: Panal marino reluciente
+	CoralcombProjectile.DisplayName: Coralpanal
+	WulfrumBeeProjectile.DisplayName: Abeja Wulfrum
+	WulfrumHoneycombLaser.DisplayName: Láser Wulfrum
+	WulfrumPowerCellExplosion.DisplayName: Explosión
+	WulfrumStingerPowerCellItemProjectile.DisplayName: Celda de energía Wulfrum
+	WulfrumStingerPowerCellProjectile.DisplayName: Celda de energía Wulfrum
+	WulfrumStingerProjectile.DisplayName: Aguijón Wulfrum
+	StarryApiaryHoldout.DisplayName: Apiario
+	SeashoneHoneycombHoldout.DisplayName: Panal marino reluciente
+	MoltenBolt.DisplayName: Rayo fundido
+	StarryApiaryStar.DisplayName: Estrella del apiario estelar
+	StarryApiaryStarBlue.DisplayName: Estrella azul del apiario estelar
+	StarryApiaryStarGolden.DisplayName: Estrella dorada del apiario estelar
+	StarryApiaryStarGreen.DisplayName: Estrella verde del apiario estelar
+	StarryApiaryStarPink.DisplayName: Estrella rosa del apiario estelar
+	StarryApiaryStarPurple.DisplayName: Estrella morada del apiario estelar
+}
+
+NPCs: {
+	TheTraitorBee: {
+	DisplayName: Abeja traidora
+
+	TownNPCMood: {
+		Content: Estoy conforme.
+		NoHome: Odio no tener un hogar.
+		FarFromHome: Estoy demasiado lejos de casa.
+		LoveSpace: Me encanta tener tanto espacio.
+		DislikeCrowded: No me gusta estar en un lugar tan abarrotado.
+		HateCrowded: Odio estar en un lugar tan abarrotado.
+		LoveBiome: Me encanta {BiomeName}.
+		LikeBiome: Me gusta {BiomeName}.
+		DislikeBiome: No me gusta {BiomeName}.
+		HateBiome: Odio {BiomeName}.
+		LoveNPC: Amo a {NPCName}.
+		LikeNPC: Me agrada {NPCName}.
+		DislikeNPC: No me agrada {NPCName}.
+		HateNPC: Odio a {NPCName}.
+		LikeNPC_Princess: Me agrada {NPCName}.
+		Princess_LovesNPC: Me agrada {NPCName}.
+	}
+}
+
+	WulfrumBee.DisplayName: Abeja Wulfrum
+	WulfrumHive.DisplayName: Colmena Wulfrum
+}
+
+DamageClasses.BeekeeperDamageClass.DisplayName: daño de apicultor
+
+Prefixes: {
+	Bittersweet.DisplayName: Agridulce
+	Bland.DisplayName: Insípido
+	Buzzing.DisplayName: Zumbante
+	Conserving.DisplayName: Ahorrador
+	Critical.DisplayName: Crítico
+	Delectable.DisplayName: Exquisito
+	Delicious.DisplayName: Delicioso
+	Frugal.DisplayName: Frugal
+	Juicy.DisplayName: Jugoso
+	Moldy.DisplayName: Mohoso
+	Piquant.DisplayName: Picante
+	Punchy.DisplayName: Contundente
+	Pungent.DisplayName: Acre
+	Rotten.DisplayName: Podrido
+	Snaillike.DisplayName: Caracolesco
+	Succulent.DisplayName: Suculento
+	Sweetened.DisplayName: Endulzado
+}
+
+Configs: {
+	BombusConfig: {
+		DisplayName: Configuración de Bombus
+
+		yOffset: {
+			Label: Desplazamiento Y de la interfaz de miel del jugador
+			Tooltip: ""
+		}
+
+		DrawLegacyUI: {
+			Label: Mostrar la interfaz antigua del recurso de miel (desactualizada)
+			Tooltip: ""
+		}
+
+		DragUI: {
+			Label: Arrastrar la interfaz del recurso de miel
+			Tooltip: ""
+		}
+
+		ResourceOffX: {
+			Label: Se usa para las propiedades de arrastre de la interfaz del recurso. No debe cambiarse manualmente; restablece este valor y el desplazamiento Y a 0 para usar la posición predeterminada.
+			Tooltip: ""
+		}
+
+		ResourceOffY: {
+			Label: Se usa para las propiedades de arrastre de la interfaz del recurso. No debe cambiarse manualmente; restablece este valor y el desplazamiento X a 0 para usar la posición predeterminada.
+			Tooltip: ""
+		}
+	}
+}
