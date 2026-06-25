@@ -4,20 +4,19 @@ Mods: {
 			worldEnter: (SOTS): ¡Gracias por jugar Secrets of the Shadows! Por favor, considera probar el paquete de texturas de SOTS, si no lo has hecho todavía.
 			worldEnterThanks: (SOTS): ¡Gracias por usar el paquete de texturas de SOTS! ¡Por favor, disfruta de todo el esfuerzo que se ha invertido en él!
 			Dedicated: Objeto Dedicado
-			BlastDoor: Puerta Blindada
-			Dresser: Cómoda
-			Unbound: Sin límite
 			ACZV: Se consume automáticamente cuando el vacío cae por debajo de cero
 			SOTSTexturePackName: Paquete de Texturas de Secrets of the Shadows
 			Void: "Vacío: "
-			Damage: Daño
-			Void2: "{0} vacío {1}"
-			VoidM: "{0} vacío + cuerpo a cuerpo {1}"
-			VoidR: "{0} vacío + a distancia {1}"
-			VoidM2: "{0} vacío + magia {1}"
-			VoidS: "{0} vacío + invocación {1}"
-			VoidSDouble: "{0} vacío + {1}invocación {2}"
-			VoidSPercent: ??? vacío + invocación {0}
+			Void2: "{0} de daño de vacío"
+			VoidM: "{0} de daño de vacío + melee"
+			VoidR: "{0} de daño de vacío + a distancia"
+			VoidM2: "{0} de daño de vacío + mágico"
+			VoidS: "{0} de daño de vacío + daño de invocación"
+			Melee: "melee + "
+			Ranged: "a distancia + "
+			Magic: "mágico + "
+			VoidSDouble: "{0} de daño de vacío + {1}daño de invocación"
+			VoidSPercent: ??? de daño de vacío + daño de invocación
 			CV: Consume {0} vacío
 			GenSOTSOres: Generando Minerales de SOTS
 			GenSOTSGeodes: Generando Geodas brillantes
@@ -26,37 +25,8 @@ Mods: {
 			ArchaeologistItemMap: "Teletransportado "
 			ArchaeologistShopCondition: En una ubicación específica
 			VoidAnomalyCrafting: Conversión de agujero de gusano
+			CurseTooltip: "{$LegacyTooltip.59}"
 			TesseractInventory: Objeto Tesseract
-			TesseractInvalid: Objeto no válido para clonar
-			TesseractAwaiting: "{0} clones alineados están esperando especificaciones de uso"
-			TesseractUsage: "{0} clones alineados usarán {1} fuego {2}"
-			TesseractUsageContinuous: continuamente
-			TesseractUsageDuration: durante {0} segundos
-			TesseractUsagePrimary: primario
-			TesseractUsageSecondary: secundario
-			Solar0: Sol
-			Solar1: Mercurio
-			Solar2: Venus
-			Solar3: Tierra
-			Solar4: Marte
-			Solar5: Júpiter
-			Solar6: Saturno
-			Solar7: Urano
-			Solar8: Neptuno
-			Solar9: Plutón
-		}
-
-		ContainerName: {
-			NaturePlatingDresserTile: Cómoda con revestimiento natural
-			EarthenPlatingDresserTile: Cómoda con revestimiento terroso
-			PermafrostPlatingDresserTile: Cómoda con revestimiento de permafrost
-			TidalPlatingDresserTile: Cómoda con revestimiento marino
-			OtherworldPlatingDresser: Cómoda con revestimiento de otro mundo
-			EvilPlatingDresserTile: Cómoda con revestimiento maligno
-			InfernoPlatingDresserTile: Cómoda con revestimiento infernal
-			ChaosPlatingDresserTile: Cómoda con revestimiento caótico
-			AncientGoldDresser: Cómoda de oro antiguo
-		}
 
 		ModifyWorldGenTasks: {
 			GeneratingSurfaceStructures: Generando Estructuras de la superficie
@@ -66,112 +36,12 @@ Mods: {
 			GeneratingGemStructures: Generando estructuras de gemas
 			GeneratingPeanuts: Colocando manís
 			GeneratingSanctuary: Generando Santuario
+			GeneratingOres: Generando minerales de SOTS 
+			GeneratingGeodes: Generando Geodas decorativas
+			GenerationAdjacentDesert: ¡La arena te molesta y se mete por todas partes!
 		}
 
-		AdjacentDesertGeneration.SEverywhere: ¡La arena es fastidiosa y se mete por todas partes!
-
-		Configuration: {
-			Header: {
-				UI: Interfaz de usuario
-				GS: Configuración de gráficos
-				TPS: Configuración del paquete de texturas
-				GPS: Configuración de jugabilidad
-				BAL: Cambios en el equilibrio
-				MS: Configuración de música
-			}
-
-			Label: {
-				Config: Configuración
-				SConfig: Configuración del servidor
-				VBX: Barra de Vacío X
-				VBY: Barra de Vacío Y
-				LVB: Bloquear barra de vacío
-				AVBD: Dirección alternativa de la barra de vacío
-				AVBS: Estilo alternativo de la barra de vacío
-				VBTT: Texto superior de la barra de bacío
-				VBHT: Texto al pasar el cursor sobre la barra de Vacío
-				SVBT: Texto simple de la barra de vacío
-				SVBF: Relleno simple de la barra de vacío
-				PM: Modo rendimiento
-				CTF: Congelación del tiempo en colores
-				AVE: Efectos visuales adicionales
-				SHT: Tipo de casa inicial (Al generar el mundo)
-				NINS: Nerfear la Insignia del surco antes de Lux
-				BLZD: Música de SOTS alternativa
-			}
-
-			Tooltip: {
-				VBX:
-					'''
-					La posición horizontal de la Barra de Vacío en la pantalla
-					Medido en píxeles desde la izquierda
-					'''
-				VBY:
-					'''
-					La posición vertical de la Barra de Vacío en la pantalla
-					Medido en píxeles desde la parte superior
-					'''
-				LVB:
-					'''
-					Evita que la Barra de Vacío se mueva con el cursor
-					También evita que la Barra de Vacío cambie automáticamente de posición al usar la configuración de interfaz 'Barras' de Salud y Maná
-					'''
-				AVBD: Cambia la dirección de despliegue de la Barra de Vacío
-				AVBS: Modifica ligeramente los visuales de la Barra de Vacío
-				VBTT: Activar/desactivar el texto sobre la Barra de Vacío
-				VBHT: Activar/desactivar el texto que aparece al pasar el ratón sobre la Barra de Vacío
-				SVBT: Elimina los indicadores de cantidad de esbirros de vacío del texto de la Barra de Vacío
-				SVBF: Elimina las líneas de división entre los elementos de relleno interno de la Barra de Vacío
-				PM:
-					'''
-					Reduce varios efectos visuales para aumentar la tasa de fotogramas
-					Afecta principalmente a los visuales relacionados con jefes y las estelas de proyectiles
-					'''
-				CTF: Si el color de la pantalla durante la congelación de tiempo está teñido o en blanco y negro
-				AVE:
-					'''
-					Añade efectos visuales adicionales, como polvo, a algunos bloques
-					Solo funciona con el paquete de texturas de SOTS habilitado
-					'''
-				SHT:
-					'''
-					-2 = Sin casa inicial (Estás trastornado)
-					-1 = Casa inicial aleatoria
-					0 = Casa Legado
-					1 = Ángel Legado
-					2 = Barril Legado
-					3 = Gran Hotel Legado
-					4 = Origen Legado
-					5 = Torre Legado
-					6 = Espada Legado
-					7 = Árbol Legado
-					8 = Biblioteca Legado
-					9 = Caja Legado
-					10 = Mushnib's
-					11 = Astrobit's
-					12 = Luna de Sangre
-					13 = Bandido
-					14 = Roca
-					15 = Mina
-					16 = Taberna
-					17 = Caos
-					18 = Ahogado
-					19 = Acogedor
-					20 = Naturaleza
-					'''
-				NINS:
-					'''
-					Nerfea la Insignia del surco, haciendo que solo otorgue vuelo infinito después de derrotar a Lux.
-					Antes de derrotar a Lux, solo duplicará tu tiempo de vuelo.
-					Si no estás de acuerdo con este cambio, puedes desactivarlo aquí
-					'''
-				BLZD:
-					'''
-					Cuando está activado, SOTS reproducirá la música creada por Banana Lizard cuando sea aplicable.
-					Cuando está desactivado, SOTS reproducirá la música creada por Heart Plus Up cuando sea aplicable.
-					'''
-			}
-		}
+	}
 
 		AddRecipeGroups: {
 			AG: " Gema"
@@ -189,13 +59,6 @@ Mods: {
 			AS: " Semillas alquímicas"
 			CC: " Componente de circuito"
 			EGG: " Huevo joya"
-		}
-
-		KeyBindName: {
-			Blink: Teletransporte
-			ArmorSet: Conjunto de armadura
-			MFM: Modificar modo de vuelo
-			SlowFlight: Ralentizar modo de vuelo
 		}
 
 		BossAwoken: {
@@ -265,18 +128,25 @@ Mods: {
 		}
 
 		Prefixes: {
+			# Accessories
+			Awakened.DisplayName: Despertado
+			Omnipotent.DisplayName: Omnipotente
+			Chained.DisplayName: Encadenado
+			Soulbound.DisplayName: Atado al alma
+			# Weapons
+			Famished.DisplayName: Famélico
+			Precarious.DisplayName: Precario
+			Potent.DisplayName: Potente
+			Omnipotent.DisplayName: Omnipotente
+			Chthonic.DisplayName: Ctónico
+			
+
+			Effects: {
 			MaxVoid.DisplayName: " vacío máximo"
 			RegVoid.DisplayName: " ganancia de vacío"
 			CosVoid.DisplayName: % costo de vacío
-			Awakened.DisplayName: Despertado
-			Chained.DisplayName: Encadenado
-			Chthonic.DisplayName: Ctónico
-			Famished.DisplayName: Hambriento
-			Omnipotent.DisplayName: Omnipotente
-			Omniscient.DisplayName: Omnisciente
-			Potent.DisplayName: Potente
-			Precarious.DisplayName: Precario
-			Soulbound.DisplayName: Atado al alma
+			}
+
 		}
 
 		Items: {
@@ -556,7 +426,6 @@ Mods: {
 			Apocalypse: {
 				# Celestial
 				DisplayName: Apocalipsis
-				# Celestial
 				Tooltip:
 					'''
 					Libera un rayo verde hacia tu cursor
@@ -681,7 +550,7 @@ Mods: {
 				Tooltip:
 					'''
 					Aumenta el daño de vacío y magia en un 10%
-					Aumenta el crítico de vacío en un 10%
+					Aumenta la probabilida crítica de vacío en un 10%
 					Los golpes críticos curan pequeñas cantidades de vacío
 					Reduce el costo de vacío en un 8%
 					Aumenta la ganancia de vacío en 4 y el vacío máximo en 50
@@ -693,7 +562,6 @@ Mods: {
 			Armaggedon: {
 				# Chaos
 				DisplayName: Armagedón
-				# Chaos
 				Tooltip:
 					'''
 					Libera una ráfaga de puñetazos
@@ -834,7 +702,6 @@ Mods: {
 			BagOfAmmoGathering: {
 				# ChestItems
 				DisplayName: Bolsa recolectora de munición
-				# ChestItems
 				Tooltip:
 					'''
 					20% de probabilidad de no consumir munición
@@ -983,7 +850,6 @@ Mods: {
 			ArchaeologistToolbelt: {
 				# Conduit
 				DisplayName: Cinturón de herramientas para arqueólogos
-				# Conduit
 				Tooltip:
 					'''
 					Aumenta el alcance de colocación de bloques y herramientas en 3
@@ -1087,7 +953,6 @@ Mods: {
 			OtherworldlyAmplifier: {
 				# CritBonus
 				DisplayName: Amplificador de Otro mundo
-				# CritBonus
 				Tooltip: Los golpes críticos infligen 8 de daño adicional
 			}
 
@@ -1222,7 +1087,6 @@ Mods: {
 			AquaticEclipse: {
 				# Crushers
 				DisplayName: Eclipse
-				# Crushers
 				Tooltip:
 					'''
 					Carga el arma para aumentar el daño hasta un 700%
@@ -1384,11 +1248,15 @@ Mods: {
 			DoorPants: {
 				# DoorItems
 				DisplayName: Pantalones para puertas
-				# DoorItems
 				Tooltip:
 					'''
 					Acelera el movimiento horizontal al pasar por puertas
 					Acumula velocidad mientras estás quieto en las puertas
+					'''
+				SetBonus:
+					'''
+					La aceleración dura más tiempo
+					Ganas velocidad más rápido
 					'''
 			}
 
@@ -1404,7 +1272,6 @@ Mods: {
 			}
 
 			GlowSilk: {
-				# Earth
 				# Glowmoth
 				DisplayName: Seda brillante
 				Tooltip: ""
@@ -1417,8 +1284,6 @@ Mods: {
 
 			GlowSpores: {
 				DisplayName: Esporas brillantes
-				# Earth
-				# Glowmoth
 				Tooltip:
 					'''
 					Aumenta el maná recibido por pociones en 40
@@ -1601,10 +1466,6 @@ Mods: {
 				Tooltip: Dispara un rayo teledirigido
 			}
 
-			VibrantChestplate: {
-				DisplayName: Coraza vibrante
-				Tooltip: Aumenta el daño de vacío en un 10% y el daño a distancia en un 5%
-			}
 
 			VibrantHelmet: {
 				DisplayName: Casco vibrante
@@ -1613,6 +1474,16 @@ Mods: {
 					Aumenta el vacío máximo en 50
 					Aumenta la probabilidad crítica a distancia en un 5%
 					'''
+				SetBonus:
+					'''
+					Aumenta la ganancia de vacío en 2
+                    La Pistola vibrante dispara tres tiros a la vez a costa de perder precisión
+					'''
+			}
+
+			VibrantChestplate: {
+				DisplayName: Coraza vibrante
+				Tooltip: Aumenta el daño de vacío en un 10% y el daño a distancia en un 5%
 			}
 
 			VibrantLeggings: {
@@ -1632,7 +1503,6 @@ Mods: {
 			AbyssalFury: {
 				# Evil
 				DisplayName: Furia abisal
-				# Evil
 				Tooltip: Invoca cuchillas sombrías desde el cielo hacia tu cursor
 			}
 
@@ -1687,7 +1557,6 @@ Mods: {
 			Curgeon: {
 				# Fishing
 				DisplayName: Cirujano
-				# Fishing
 				Tooltip: Tiene huevos valiosos que solo pueden ser recolectados al diseccionarlo
 			}
 
@@ -1719,7 +1588,6 @@ Mods: {
 			Aten: {
 				# Flails
 				DisplayName: Aten
-				# Flails
 				Tooltip:
 					'''
 					Conjura estrellas que infligen un 70% de daño y explotan infligiendo un 140% de daño
@@ -1980,8 +1848,6 @@ Mods: {
 				# Furniture
 				# AncientGold
 				DisplayName: Cama de oro antiguo
-				# Furniture
-				# AncientGold
 				Tooltip: "'Para siestas dignas de un rey'"
 			}
 
@@ -2081,7 +1947,6 @@ Mods: {
 			NatureHydroponics: {
 				# Functional
 				DisplayName: Hidroponía con revestimiento  natural
-				# Functional
 				Tooltip:
 					'''
 					Cultiva automáticamente una variedad de hierbas alquímicas
@@ -2115,7 +1980,6 @@ Mods: {
 			AmberRing: {
 				# Gems
 				DisplayName: Anillo de Asmodeus
-				# Gems
 				Tooltip: Recibir daño otorga un buffo aleatorio durante 30 segundos
 			}
 
@@ -2126,7 +1990,12 @@ Mods: {
 
 			DiamondRing: {
 				DisplayName: Anillo del Portador de la luz
-				Tooltip: Aumenta el daño en un (defensa)%
+				Tooltip:
+					'''
+					Aumenta el daño en función de la defensa y, a continuación, reduce la defensa en un tercio del aumento de daño
+					Daño incrementado en {0}%
+					Defensa recudice en {1}
+					'''
 			}
 
 			EmeraldRing: {
@@ -2192,7 +2061,6 @@ Mods: {
 			BlazingClub: {
 				# Inferno
 				DisplayName: Garrote ardiente
-				# Inferno
 				Tooltip:
 					'''
 					Despliega minas con púas que se mantienen en el aire
@@ -2265,18 +2133,18 @@ Mods: {
 			VesperaMask: {
 				# Invidia
 				DisplayName: Máscara de Vespera
-				# Invidia
 				Tooltip: Aumenta el vacío máximo en 25 y la ganancia de vacío en 1
-			}
-
-			VesperaLeggings: {
-				DisplayName: Grebas de Vespera
-				Tooltip: Aumenta el vacío máximo en 25 y la velocidad de movimiento en un 5%
+				SetBonus: Aumenta el vacío máximo en 25 y la ganancia de vacío en un 50%
 			}
 
 			VesperaBreastplate: {
 				DisplayName: Coraza de Vespera
 				Tooltip: Aumenta el vacío máximo en 25 y el daño de vacío en un 5%
+			}
+
+			VesperaLeggings: {
+				DisplayName: Grebas de Vespera
+				Tooltip: Aumenta el vacío máximo en 25 y la velocidad de movimiento en un 5%
 			}
 
 			VesperaFishingRod: {
@@ -2335,7 +2203,6 @@ Mods: {
 
 			KnucklesMusicBox: {
 				DisplayName: Caja de Música (Knuckles)
-				# MusicBoxes
 				Tooltip: "'¿Puedo poner mi...'"
 			}
 
@@ -2377,7 +2244,6 @@ Mods: {
 			AcornBag: {
 				# Nature
 				DisplayName: Bolsa de Bellotas
-				# Nature
 				Tooltip: Invoca una ardilla para que luche por ti
 			}
 
@@ -2408,16 +2274,18 @@ Mods: {
 			NatureWreath: {
 				DisplayName: Corona de ajenjo
 				Tooltip: Aumenta el número máximo de súbditos en 1
+				SetBonus: Invoca tres Ganchos florecientes para que te ayuden en el combate
+			}
+
+
+			NatureShirt: {
+				DisplayName: Camisa de ajenjo
+				Tooltip: Aumenta la defensa por cada súbdito activo
 			}
 
 			NatureLeggings: {
 				DisplayName: Grebas de ajenjo
 				Tooltip: Aumenta el daño de invocación en un 5% y la velocidad de movimiento en un 5%
-			}
-
-			NatureShirt: {
-				DisplayName: Camisa de ajenjo
-				Tooltip: Aumenta la defensa por cada súbdito activo
 			}
 
 			NatureSpell: {
@@ -2461,7 +2329,6 @@ Mods: {
 			GoldArkStaff: {
 				# OreItems
 				DisplayName: Bastón de arco dorado
-				# OreItems
 				Tooltip: Inflige un 150% de daño a hasta 2 enemigos que rodean al enemigo inicialmente golpeado
 			}
 
@@ -2539,7 +2406,13 @@ Mods: {
 
 			MachinaBooster: {
 				DisplayName: Refuerzo de maquinaria
-				Tooltip: Permite volar y caer lentamente
+				Tooltip:
+					'''
+					Permite volar y caer lentamente
+					Aumenta la ganancia de vacío en 1
+					Pulsa {0} para obtener un vuelo rápido y multidireccional a cambio de 5 de vacío
+					Aumenta el consumo de vacío en 3 mientras esté activo
+					'''
 			}
 
 			TwilightGyroscope: {
@@ -2556,7 +2429,6 @@ Mods: {
 			ArclightOrbs: {
 				# FromChests
 				DisplayName: Orbes de luz en forma de arco
-				# FromChests
 				Tooltip: Lanza un grupo de orbes de trueno que explotan en una cadena de rayos que inflige un 80% de daño
 			}
 
@@ -2742,7 +2614,22 @@ Mods: {
 
 			TwilightAssassinsCirclet: {
 				DisplayName: Diadema del Asesino crepuscular
-				Tooltip: Gamer
+				Tooltip:
+					'''
+					Aumenta en 1 el número máximo de súbditos y centinelas
+					Aumenta el daño de los súbditos y el daño cuerpo a cuerpo en un 7%
+					Aumenta el nivel máximo de vacío en 50
+					Proporciona un súbdito Ojo Holo para ayudar en el combate
+					Pulsa {0} para que lance un rayo desestabilizador que aplica 4 niveles de desestabilizado» pero solo una vez por enemigo
+					Los enemigos desestabilizados tienen un 5% de probabilidad fija de recibir un golpe crítico
+					Cuesta 6 de vacío lanzarlo
+					El Ojo Holo permanece activo en el inventario cuando se marca como favorito o mientras se lleva en las ranuras de vanidad, pero no puede atacar
+					'''
+				SetBonus:
+					'''
+					Ahora el Ojo Holo ataca automáticamente por ti
+					Los ataques automáticos tienen un 25% de probabilidad de desestabilizar a los enemigos, pero dicha probabilidad disminuye con cada nivel ya aplicado.
+					'''
 			}
 
 			TwilightAssassinsChestplate: {
@@ -2797,7 +2684,6 @@ Mods: {
 			DigitalDisplay: {
 				# Furniture
 				DisplayName: Pantalla Digital
-				# Furniture
 				Tooltip: Haz clic derecho para aumentar el daño de vacío en un 10%
 			}
 
@@ -2928,7 +2814,6 @@ Mods: {
 			AbsoluteBar: {
 				# Permafrost
 				DisplayName: Aleación absoluta
-				# Permafrost
 				Tooltip: "'Quema al tocarlo'"
 			}
 
@@ -2951,19 +2836,6 @@ Mods: {
 					'''
 			}
 
-			FrigidCrown: {
-				DisplayName: Corona glacial
-				Tooltip: Añade una explosión adicional al Bastón de fragmentos y al Hechizo de tormenta
-			}
-
-			FrigidGreaves: {
-				DisplayName: Grebas glaciales
-				Tooltip:
-					'''
-					Otorga el efecto de los Patines de hielo
-					Aumenta la velocidad de movimiento y la velocidad de ataque de vacío en un 10%
-					'''
-			}
 
 			FrigidHourglass: {
 				DisplayName: Reloj de arena glacial
@@ -2985,9 +2857,38 @@ Mods: {
 				Tooltip: Lanza una jabalina poderosa y de viaje rápido que rebota en las superficies
 			}
 
+			FrigidCrown: {
+				DisplayName: Corona glacial
+				Tooltip: Añade una explosión adicional al Bastón de fragmentos y al Hechizo de tormenta
+			}
+
 			FrigidRobe: {
 				DisplayName: Túnica glacial
 				Tooltip: La Jabalina glacial rebota mejor
+				SetBonus:
+					'''
+					La Jabalina glacial ya no consume vacío.
+                    Reduce el daño dl vacío en un 15%.
+					'''
+			}
+
+			ShatterShardChestplate: {
+				DisplayName: Coraza de fragmentos destrozados
+				Tooltip: Recibir un golpe te rodea con fragmentos de hielo
+				SetBonus:
+					'''
+					Aumenta la regeneración de vida en 2
+                    Inmunidad a Enfriado, Congelado y Quemadura de escarcha
+					'''
+			}
+
+			FrigidGreaves: {
+				DisplayName: Grebas glaciales
+				Tooltip:
+					'''
+					Otorga el efecto de los Patines de hielo
+					Aumenta la velocidad de movimiento y la velocidad de ataque de vacío en un 10%
+					'''
 			}
 
 			FrostArtifact: {
@@ -3003,6 +2904,7 @@ Mods: {
 			FrostArtifactHelmet: {
 				DisplayName: Casco de artefacto de escarcha
 				Tooltip: Aumenta el daño cuerpo a cuerpo y a distancia en un 14%
+				SetBonus: La mayoría de los ataques cuerpo a cuerpo y a distancia invocan varios cañones polares que infligen cada uno un 25% de daño
 			}
 
 			FrostArtifactTrousers: {
@@ -3097,10 +2999,6 @@ Mods: {
 					'''
 			}
 
-			ShatterShardChestplate: {
-				DisplayName: Coraza de fragmentos destrozados
-				Tooltip: Recibir un golpe te rodea con fragmentos de hielo
-			}
 
 			ShoeIce: {
 				DisplayName: Calzado para hielo
@@ -3121,7 +3019,6 @@ Mods: {
 			AbyssalTonic: {
 				# Potions
 				DisplayName: Tónico abisal
-				# Potions
 				Tooltip:
 					'''
 					Recibes aleatoriamente 2 de los siguientes buffos:
@@ -3292,7 +3189,7 @@ Mods: {
 
 			RoastedPeanuts: {
 				DisplayName: Maní Tostado
-				Tooltip: Mejoras menores en todas las estadísticas
+				Tooltip: "{$CommonItemTooltip.MinorStats}"
 			}
 
 			PyramidAmbient: {
@@ -3304,8 +3201,6 @@ Mods: {
 
 			PyramidRubble: {
 				DisplayName: Escombros de pirámide
-				# Pyramid
-				# AltPyramidBlocks
 				Tooltip: "'Es mucho menos un ladrillo que una colección de rocas'"
 			}
 
@@ -3347,16 +3242,6 @@ Mods: {
 					'''
 			}
 
-			CursedRobe: {
-				DisplayName: Túnica Maldita
-				Tooltip:
-					'''
-					Aumenta el maná máximo y el vacío en 80
-					Reduce el uso de maná y vacío en un 15%
-					Invoca un Monolito de rubí a tu lado
-					El Monolito de rubí aumenta tu velocidad de regeneración de vacío en un 10%
-					'''
-			}
 
 			CursedHood: {
 				DisplayName: Capucha Maldita
@@ -3367,6 +3252,23 @@ Mods: {
 					El enemigo más cercano a ti es afectado por una maldición
 					Al recibir daño, los enemigos malditos se iluminan, recibiendo 140% de daño adicional e infligiendo 140% de daño a otros enemigos cercanos
 					Este efecto tiene un enfriamiento de 2 segundos
+					'''
+					SetBonus:
+					'''
+					Pulsa {0} para que el Monolito de rubí adopte una postura ofensiva
+					Mientras se mantiene la postura ofensiva, se reduce el tiempo de recarga de Estallido de maldición en un 80%.
+					Sin embargo, aumenta el drenaje del vacío en 6 en lugar de aumentar la velocidad de regeneración del vacío en un 10%
+					'''
+			}
+
+			CursedRobe: {
+				DisplayName: Túnica Maldita
+				Tooltip:
+					'''
+					Aumenta el maná máximo y el vacío en 80
+					Reduce el uso de maná y vacío en un 15%
+					Invoca un Monolito de rubí a tu lado
+					El Monolito de rubí aumenta tu velocidad de regeneración de vacío en un 10%
 					'''
 			}
 
@@ -3503,11 +3405,6 @@ Mods: {
 				Tooltip: Aumenta el número máximo de esbirros en 1
 			}
 
-			PatchLeatherPants: {
-				DisplayName: Botas de cuero remendado
-				Tooltip: Aumenta el daño de invocación en un 15%
-			}
-
 			PatchLeatherTunic: {
 				DisplayName: Túnica de cuero Remendado
 				Tooltip:
@@ -3516,6 +3413,14 @@ Mods: {
 					Otorga inmunidad a los debuffos de veneno y ponzoña
 					'''
 			}
+
+			PatchLeatherPants: {
+				DisplayName: Botas de cuero remendado
+				Tooltip: Aumenta el daño de invocación en un 15%
+				SetBonus: Invoca una bandada de serpientes voladoras para que te ayuden en combate
+			}
+
+			
 
 			PharaohsCane: {
 				DisplayName: Bastón del Faraón
@@ -3662,7 +3567,6 @@ Mods: {
 			PhotonGeyser: {
 				# Secrets
 				DisplayName: Géiser de fotones
-				# Secrets
 				Tooltip: Desata una espiral de luz arcoíris. Soltar el botón de atacar dañará a los enemigos
 			}
 
@@ -3702,12 +3606,9 @@ Mods: {
 				Tooltip2: Haz clic derecho para lanzar una orbe de niebla que libera rayos de corto alcance que infligen 50% de daño
 			}
 
-			ForgottenLamp.DisplayName: Lámpara olvidada
-
 			FireSpitter: {
 				# Slime
 				DisplayName: Escupefuego
-				# Slime
 				Tooltip: Usa gel como munición
 			}
 
@@ -3802,7 +3703,6 @@ Mods: {
 			BoreBullet: {
 				# SoldStuff
 				DisplayName: Bala perforadora
-				# SoldStuff
 				Tooltip: Penetra el 20% de la defensa del enemigo más 10 de defensa
 			}
 
@@ -3833,7 +3733,6 @@ Mods: {
 			ChaosSpiritStaff: {
 				# SpiritStaves
 				DisplayName:  Bastón del espíritu del caos
-				# SpiritStaves
 				Tooltip:
 					'''
 					Invoca un Espíritu del Caos para luchar por ti
@@ -3901,7 +3800,6 @@ Mods: {
 			Helios: {
 				# Temple
 				DisplayName: Helios
-				# Temple
 				Tooltip:
 					'''
 					Los ataques queman con cada golpe, aumentando el daño infligido en un 3% de forma permanente
@@ -3950,7 +3848,6 @@ Mods: {
 			ArkhalisChain: {
 				# Tide
 				DisplayName: Cadena Perdida
-				# Tide
 				Tooltip: "'Probablemente no vino de aquí'"
 			}
 
@@ -4050,7 +3947,6 @@ Mods: {
 			AncientSteelGreatHamaxe: {
 				# Tools
 				DisplayName: Gran hacha de acero antiguo
-				# Tools
 				Tooltip: Los golpes críticos infligen un 50% más de daño y pueden aplicar una hemoragia permanente y acumulativa de 5 de daño por segundo
 			}
 
@@ -4146,7 +4042,6 @@ Mods: {
 			ScarletStar: {
 				# Void
 				DisplayName: Media luna escarlata
-				# Void
 				Tooltip:
 					'''
 					Aumenta permanentemente el vacío máximo en 50 y la velocidad de regeneración de vacío en un 5%
@@ -4510,7 +4405,7 @@ Mods: {
 			}
 
 			EarthenPlatingBeam: {
-				DisplayName: Viga de revestimiento terrestre
+				DisplayName: Viga de revestimiento terrestre (Pared)
 				Tooltip: ""
 			}
 
@@ -4949,7 +4844,13 @@ Mods: {
 
 			BlinkPack: {
 				DisplayName: Mochila de teletransporte
-				Tooltip: temp
+				Tooltip:
+					'''
+					Pulsa {0} para teletransportarte hacia el cursor
+					Teletransportarte a través de los enemigos infligirá daño y activará enfriamiento más corto, pero solo se puede hacer hasta 3 veces seguidas
+					Otorga cierta inmunidad luego de dasehar
+					Anula el daño por caída
+					'''
 			}
 
 			HardlightAlloy: {
@@ -5217,6 +5118,22 @@ Mods: {
 				Tooltip: ""
 			}
 
+			VoidspaceMask: {
+				DisplayName: Máscara del explorador del vacío
+				Tooltip:
+					'''
+					Aumenta la probabilidad de golpe crítico mágico y a distancia en un 25%
+					Aumenta la probabilidad de golpe crítico de vacío en un 15% y el maná máximo en 100
+					Aumenta la obtención de vacío en 4 y el vacío máximo en 50
+					'''
+				SetBonus:
+					'''
+					Los ataques infligen de forma permanente el efecto negativo Llamas subespaciales, que inflige 10 de daño por segundo
+					Cuando un enemigo afectado por Llamas subespaciales muere, inflige a todos los demás enemigos un daño equivalente al daño acumulado que haya recibido por dicho efecto
+					A los enemigos que reciban daño de esta forma también se les aplicará el efecto Llamas subespaciales.
+					'''
+			}
+
 			VoidspaceBreastplate: {
 				DisplayName: Coraza del explorador del vacío
 				Tooltip:
@@ -5238,16 +5155,7 @@ Mods: {
 					'''
 			}
 
-			VoidspaceMask: {
-				DisplayName: Máscara del explorador del vacío
-				Tooltip:
-					'''
-					Aumenta la probabilidad de golpe crítico mágico y a distancia en un 25%
-					Aumenta la probabilidad de golpe crítico de vacío en un 15% y el maná máximo en 100
-					Aumenta la obtención de vacío en 4 y el vacío máximo en 50
-					'''
-			}
-
+		
 			HandCannon: {
 				DisplayName: Cañón de mano
 				Tooltip:
@@ -5397,8 +5305,7 @@ Mods: {
 
 			ElementalBreastplate: {
 				DisplayName: Coraza Elemental
-				Tooltip: TEMP
-				TooltipExt:
+				Tooltip:
 					'''
 					Aumenta el daño cuerpo a cuerpo y de invocación en un 30%
 					Aumenta la regeneración de vida en 4
@@ -5414,6 +5321,12 @@ Mods: {
 					Aumenta el daño cuerpo a cuerpo, de invocación y de vacío en un 15%
 					Aumenta la obtención de vacío en 3 y el vacío máximo en 100
 					Aumenta el número máximo de esbirros en 2
+					'''
+				SetBonus:
+					'''
+					Los enemigos alcanzados por el teletransporte quedarán paralizados temporalmente.
+					Reduce el tiempo de enfriamiento del teletransporte a 6 segundos y aumenta en un 50% el radio en el que los enemigos recibirán daño del teletransporte
+					Aumenta el daño del teletransporte en función de los modificadores de daño del vacío
 					'''
 			}
 
@@ -5439,8 +5352,7 @@ Mods: {
 
 			GildedBladeWings: {
 				DisplayName: Alas de hojas doradas
-				Tooltip: TEMP
-				Description:
+				Tooltip:
 					'''
 					Permite vuelo infinito y caer lentamente
 					Aumenta la obtención de vacío en 3 y la velocidad de regeneración de vacío en un 25%
@@ -5904,6 +5816,14 @@ Mods: {
 					Los golpes críticos generan corazones
 					'¡Esta pinta tiene mucha fuerza!'
 					'''
+
+				CombatText: {
+					0: ¡OH, SÍ!
+					1: BLAM
+					2: PUM
+					3: SLAM
+					4: APLASTAR
+				}
 			}
 
 			FishBomb: {
@@ -6108,11 +6028,6 @@ Mods: {
 					'''
 			}
 
-			EarthenChestplate: {
-				DisplayName: Coraza terrestre
-				Tooltip: Aumenta la velocidad de minería y la velocidad de movimiento en un 10%
-			}
-
 			EarthenHelmet: {
 				DisplayName: Casco terrestre
 				Tooltip:
@@ -6120,6 +6035,16 @@ Mods: {
 					Mejora la visión y proporciona luz cuando se lleva puesto
 					Aumenta la velocidad de minería y la velocidad de movimiento en un 10%
 					'''
+				SetBonus:
+					'''
+					Los golpes cuerpo a cuerpo tienen una probabilidad de aplicar a los enemigos un efecto de desgarro permanente y acumulable, lo que hace que reciban daño adicional de todos los ataques
+					Aumenta la velocidad de ataque en un 20%
+					'''
+			}
+
+			EarthenChestplate: {
+				DisplayName: Coraza terrestre
+				Tooltip: Aumenta la velocidad de minería y la velocidad de movimiento en un 10%
 			}
 
 			EarthenLeggings: {
@@ -6746,7 +6671,7 @@ Mods: {
 
 			VeganBurger: {
 				DisplayName: Hamburguesa vegana
-				Tooltip: Mejoras menores en todas las estadísticas
+				Tooltip: "{$CommonItemTooltip.MinorStats}"
 			}
 
 			VigorPotion: {
@@ -6994,6 +6919,12 @@ Mods: {
 					'''
 			}
 
+
+			ExcavatorHelmet: {
+				DisplayName: Casco perforador
+				Tooltip: Aumenta el vacío máximo en 25, la ganancia de vacío en un 25% y la velocidad de regeneración de vacío en un 10%
+			}
+
 			ExcavatorBreastplate: {
 				DisplayName: Coraza perforadora
 				Tooltip:
@@ -7001,11 +6932,11 @@ Mods: {
 					Obtienes una cola lanzamisiles que ataca a los enemigos cercanos con un coste de 1 de vacío
 					Reduce el daño recibido en un 10%
 					'''
-			}
-
-			ExcavatorHelmet: {
-				DisplayName: Casco perforador
-				Tooltip: Aumenta el vacío máximo en 25, la ganancia de vacío en un 25% y la velocidad de regeneración de vacío en un 10%
+				SetBonus:
+					'''
+					Aumenta la velocidad de ataque de la cola del lanzamisiles en un 50%
+					Aumenta la velocidad de regeneración de vacío en un 30%
+					'''
 			}
 
 			ExcavatorLeggings: {
@@ -7192,7 +7123,7 @@ Mods: {
 
 			Infected: {
 				DisplayName: Infectado
-				Description: Mods.SOTS.BuffDescription.Infected
+				Description: ""
 			}
 
 			InfernalDefense: {
@@ -7550,71 +7481,27 @@ Mods: {
 			}
 		}
 
-		ArmorSetBonus: {
-			DoorItems:
-				'''
-				La aceleración dura más
-				Acumula velocidad más rápido
-				'''
-			Vibrant:
-				'''
-				Aumenta la obtención de vacío en 2
-				La Pistola vibrante dispara tres tiros a la vez a costa de una menor precisión
-				'''
-			Vespera: Aumenta el vacío máximo en 25 y la obtención de vacío en un 50%
-			NatureWreath: Invoca tres Ganchos florecientes para ayudar en combate
-			TwilightAssassins:
-				'''
-				El Ojo holográfico ahora ataca automáticamente por ti
-				Los ataques automáticos tienen un 25% de probabilidad de desestabilizar a los enemigos, pero la probabilidad de aplicarlo disminuye con cada nivel ya aplicado
-				'''
-			Frigid:
-				'''
-				El Javalina frígida ya no consume vacío
-				Disminuye el daño de vacío en un 15%
-				'''
-			FrostArtifact: La mayoría de los ataques cuerpo a cuerpo y a distancia invocan un puñado de Cañones polares que infligen 25% de daño cada uno
-			ShatterShard:
-				'''
-				Aumenta la regeneración de vida en 2
-				Inmunidad a Congelado, Helado y Quemadura de hielo
-				'''
-			Cursed:
-				'''
-				Presiona '{0}' para cambiar el Monolito de rubí a una postura ofensiva
-				Mientras estás en postura ofensiva, reduce el enfriamiento de la Llamarada maldita en un 80%
-				Sin embargo, aumenta el drenaje de vacío en 6 en lugar de aumentar la velocidad de regeneración de vacío en un 10%
-				'''
-			PatchLeather: Invoca una bandada de serpientes voladoras para ayudar en combate
-			oidspace:
-				'''
-				Los ataques infligen permanentemente el debuff Llamas subespaciales, que inflige 10 puntos de daño por segundo
-				Cuando un enemigo con Llamas subespaciales muere, inflige a todos los demás enemigos un daño equivalente al daño acumulado que ha recibido de Llamas subespaciales
-				Los enemigos que reciban daño de esta forma también sufrirán Llamas subespaciales
-				'''
-			Elemental:
-				'''
-				Los enemigos golpeados por el teletransporte serán congelados en el tiempo temporalmente
-				Reduce el enfriamiento del teletransporte a 6 segundos y aumenta el rango en el que los enemigos recibirán daño del teletransporte en un 50%
-				Aumenta el daño del teletransporte basado en los modificadores de daño de vacío
-				'''
-			Earthen:
-				'''
-				Los golpes cuerpo a cuerpo tienen la posibilidad de aplicar un desgarro permanente y acumulativo a los enemigos, lo que les hace recibir daño adicional de todos los ataques
-				Aumenta la velocidad de ataque en un 20%
-				'''
-			Excavator:
-				'''
-				Aumenta la velocidad de ataque de la cola del lanzamisiles en un 50%
-				Aumenta la velocidad de regeneración de vacío en un 30%
-				'''
-		}
-
 		Tiles: {
 			NatureConduitTile.MapEntry: Conducto de la naturaleza
 			EarthenConduitTile.MapEntry: Conducto de tierra
 			PeanutBushTile.MapEntry: Arbusto de manís
 			PeanutOreTile.MapEntry: Mineral de maní
+			SilkCocoonTile.MapEntry: Capullo resplandeciente
+			VibrantOreTile.MapEntry: Mineral vivrante
+			VibrantCrystalTile.MapEntry: Fragmento vivrante
+			VibrantCrystalLargeTile.MapEntry: Fragmento vivrante grande
+			Hydroponics.MapEntry: Hidroponía
+			SOTSGemLockTiles.MapEntry: Interruptor misterioso
+			GatewayTile.MapEntry: Puerta de enlace extraña
+			AncientGoldGateTile.MapEntry: Pilar extraño
+			CrystalStatue.MapEntry: Estatua de cristal
+			CursedAppleTile.MapEntry: Fruta extraña
+			CursedGrowthTile.MapEntry: Crecimiento maldito
+			ManaStatue.MapEntry: Estatua de maná
+			RubyKeystoneTile.MapEntry: Piedra angular extraña
+			ElectromagneticDeterrentTile.MapEntry: D.E.F.E
+			EnchantedPickShrineTile.MapEntry: Santuario del pico
+			EnchantedSwordShrineTile.MapEntry: Santuario de la espada
 
 			RuinedChestTile: {
 				MapEntry0: Cofre Arruinado
@@ -7671,186 +7558,31 @@ Mods: {
 				MapEntry9: Cofre de Invidia de media luna menguante cerrada
 			}
 
-			HoloEyeBannerTile.MapEntry: Estandarte
-			HoloSlimeBannerTile.MapEntry: Estandarte
-			HoloSwordBannerTile.MapEntry: Estandarte
-			SOTSBanners.MapEntry: Estandarte
-			SOTSBanners2.MapEntry: Estandarte
-			SOTSTrophies.MapEntry: Trofeo
-			SilkCocoonTile.MapEntry: Capullo brillante
-			BigCrystalTile.MapEntry: Cristal gigante
-			VibrantOreTile.MapEntry: Mineral vibrante
-			VibrantCrystalTile.MapEntry: Fragmento vibrante
-			VibrantBrickTile.MapEntry: Ladrillo vibrante
-			VibrantCrystalLargeTile.MapEntry: Fragmento vibrante grande
-			PyramidCrateTile.MapEntry: Caja de pirámide
-			AncientGoldCampfireTile.MapEntry: Chimenea eterna
-			AncientGoldThroneTile.MapEntry: Trono de oro antiguo
-			AncientGoldTorchTile.MapEntry: Antorcha de oro antiguo
-			EarthenPlatingTorchTile.MapEntry: Antorcha con revestimiento de tierra
-			GoopwoodBarrelTile.MapEntry0: Barril de madera pegajosa
-			Hydroponics.MapEntry: Hidroponía
-			NaturePlatingTorchTile.MapEntry: Antorcha con revestimiento de naturaleza
-			PermafrostPlatingTorchTile.MapEntry: Antorcha con revestimiento de permafrost
-			SOTSGemLockTiles.MapEntry: Interruptor misterioso
-			AdvisorMusicBoxTile.MapEntry: Caja de música
-			AncientPyramidMusicBoxTile.MapEntry: Caja de música
-			KnucklesMusicBoxTile.MapEntry: Caja de música
-			LuxMusicBoxTile.MapEntry: Caja de música
-			PlanetariumMusicBoxTile.MapEntry: Caja de música
-			PolarisMusicBoxTile.MapEntry: Caja de música
-			PutridPinkyMusicBoxTile.MapEntry: Caja de música
-			PyramidBattleMusicBoxTile.MapEntry: Caja de música
-			SubspaceSerpentMusicBoxTile.MapEntry: Caja de música
-			CurseMusicBoxTile.MapEntry: Caja de música
-			DigitalDisplayTile.MapEntry: Pantalla digital
-			HardlightFabricatorTile.MapEntry: Fabricador de luz sólida
-			HardlightTableTile.MapEntry: Mesa de luz sólida
-			PotGeneratorTile.MapEntry: Generador de macetas
-			SkyPots.MapEntry: Maceta
-			SkyChainTile.MapEntry: Cadena del cielo
-			TransmutationAltarTile.MapEntry: Altar de transmutación
-			AvaritianGatewayTile.MapEntry: Portal extraño
-			FrigidIceTile.MapEntry: Mineral frígido
-			FrigidIceTileSafe.MapEntry: Mineral frígido
-			FrostArtifactTile.MapEntry: Artefacto de escarcha
-			AcediaGatewayTile.MapEntry: Portal extraño
-			AncientGoldGateTile.MapEntry: Portal extraño
-			CrystalStatue.MapEntry: Estatua de cristal
-			CursedAppleTile.MapEntry: Fruta extraña
-			CursedGrowthTile.MapEntry: Crecimiento maldito
-			ManaStatue.MapEntry: Estatua de maná
-			PyramidChestTile.MapEntry0: Cofre de pirámide
-			PyramidGateTile.MapEntry: Puerta de pirámide
-			PyramidPots.MapEntry: Maceta
-			RoyalRubyShardTile.MapEntry: Fragmento de piedra angular real
-			RubyKeystoneTile.MapEntry: Piedra angular extraña
-			SarcophagusTile.MapEntry: Sarcófago
-			TaintedKeystoneShardTile.MapEntry: Fragmento de piedra angular contaminada
-			StrangeKeystoneTile.MapEntry: Piedra angular extraña
-			ForgottenLampTile.MapEntry: Lámpara falsa
-			ArkhalisChainTile.MapEntry: Cadena perdida
-			ElectromagneticDeterrentTile.MapEntry: D.E.F.E
-			EnchantedPickShrineTile.MapEntry: Santuario de pico encantado
-			EnchantedSwordShrineTile.MapEntry: Santuario de espada encantada
-			MineralariumTile.MapEntry: Mineralario
-			HydraulicPressTile.MapEntry: Prensa hidráulica
-
-			AncientGoldDoorClosed: {
-				MapEntry: Puerta de oro antiguo
-				DisplayName: Puerta de oro antiguo
-			}
-
-			AncientGoldDoorOpen: {
-				MapEntry: Puerta de oro antiguo
-				DisplayName: Puerta de oro antiguo
-			}
-
-			EarthenPlatingBlastDoorTileClosed.MapEntry: Puerta de explosión con revestimiento de tierra
-			EarthenPlatingBlastDoorTileOpen.MapEntry: Puerta de explosión de revestimiento de tierra
-
-			GoopwoodDoorClosed: {
-				MapEntry: Puerta de madera pegajosa
-				DisplayName: Puerta de madera pegajosa
-			}
-
-			GoopwoodDoorOpen: {
-				MapEntry: Puerta de madera pegajosa
-				DisplayName: Puerta de madera pegajosa
-			}
-
-			NaturePlatingBlastDoorTileClosed.MapEntry: Puerta de explosión con revestimiento de naturaleza
-			NaturePlatingBlastDoorTileOpen.MapEntry: Puerta de explosión de revestimiento de naturaleza
-			PermafrostPlatingBlastDoorTileClosed.MapEntry: Puerta de explosión de revestimiento de permafrost
-			PermafrostPlatingBlastDoorTileOpen.MapEntry: Puerta de explosión de revestimiento de permafrost
-
-			GemChestTile: {
-				MapEntry0: Cofre de Gemas
-				MapEntry1: Cofre de Gemas cerrado
-				MapEntry2: Cofre de Gemas
-				MapEntry3: Cofre de Gemas cerrado
-				MapEntry4: Cofre de Gemas
-				MapEntry5: Cofre de Gemas cerrado
-				MapEntry6: Cofre de Gemas
-				MapEntry7: Cofre de Gemas cerrado
-				MapEntry8: Cofre de Gemas
-				MapEntry9: Cofre de Gemas cerrado
-				MapEntry10: Cofre de Gemas
-				MapEntry11: Cofre de Gemas cerrado
-				MapEntry12: Cofre de Gemas
-				MapEntry13: Cofre de Gemas cerrado
-			}
-
-			OtherworldCrateTile.MapEntry: Caja de otro mundo
-			PlanetariumCrateTile.MapEntry: Caja del planetario
-			ChaosConduitTile.MapEntry: Conducto del caos
-			OtherworldConduitTile.MapEntry: Conducto del caos
-			EvilConduitTile.MapEntry: EContucto maligno
-			InfernoConduitTile.MapEntry: Conducto infernal
-			PermafrostConduitTile.MapEntry: Conducto de permafrost
-			TidalConduitTile.MapEntry: Conducto de la marea
-			GulaGatewayTile.MapEntry: Portal extraño
-			AVPots.MapEntry: Maceta
-			AVMusicBoxTile.MapEntry: Caja de música
-			TidalPlatingBlastDoorTileClosed.MapEntry: Puerta con revestimiento de marea
-			TidalPlatingBlastDoorTileOpen.MapEntry: Puerta con revestimiento de marea
-
 			TidalPlatingChestTile: {
 				MapEntry0: Cofre con revestimiento de marera
 				MapEntry1: Cofre con revestimiento de marea cerrado
 			}
-
-			TidalPlatingTorchTile.MapEntry: Antorcha con revestimiento de marera
-			AVMinesMusicBoxTile.MapEntry: Caja de música
-			PinkyTestTube.MapEntry: Experimento fallido
-			OtherworldPlatingBlastDoorTileClosed.MapEntry: Puerta de explosión con revestimiento de marea
-			OtherworldPlatingBlastDoorTileOpen.MapEntry: Puerta de explosión con revestimiento de otro mundo
 
 			OtherworldPlatingChestTile: {
 				MapEntry0: Cápsula con revestimiento de otro mundo
 				MapEntry1: Cápsula con revestimiento de otro mundo cerrada
 			}
 
-			OtherworldPlatingTorchTile.MapEntry: Antorcha con revestimiento de otro mundo
-			EvilPlatingBlastDoorTileClosed.MapEntry: Puerta de explosión con revestimiento maligno
-			EvilPlatingBlastDoorTileOpen.MapEntry:Puerta de explosión con revestimiento maligno
-
 			EvilPlatingChestTile: {
 				MapEntry0: Cápsula con revestimiento maligno
 				MapEntry1: Cápsula con revestimiento maligno cerrado
 			}
 
-			EvilPlatingTorchTile.MapEntry: Anrtorcha con revestimiento maligno cerrado
-			InfernoPlatingBlastDoorTileClosed.MapEntry: Puerta de explosión con revestimiento infernal
-			InfernoPlatingBlastDoorTileOpen.MapEntry: Puerta de explosión con revestimiento infernal
 
 			InfernoPlatingChestTile: {
 				MapEntry0: Cofre con revestimiento infernal
 				MapEntry1: Cofre con revestimiento infernal cerrado
 			}
 
-			InfernoPlatingTorchTile.MapEntry: Antorcha con revestimiento infernal
-			ChaosPlatingTorchTile.MapEntry: Antorcha con revestimiento caótico
-
 			ChaosPlatingChestTile: {
 				MapEntry1: Cofre con revestimiento caótico
 				MapEntry0: Cofre con revestimiento caótico cerrado
 			}
-
-			ChaosPlatingBlastDoorTileOpen.MapEntry: Puerta de explosión con revestimiento caótico
-			ChaosPlatingBlastDoorTileClosed.MapEntry: Puerta de explosión con revestimiento caótico
-			MothMusicBoxTile.MapEntry: Caja de música
-			RuinedStatueTile.MapEntry: Estatua arruinada
-			SerpentStatueTile.MapEntry: Estatua de serpiente
-			InvidiaGatewayTile.MapEntry: Portal extraño
-			SanctuaryMusicBoxTile.MapEntry: Caja de música
-			EvostonePots.MapEntry: Macetas
-			SeismicStationTile.MapEntry: Estación sísmica
-			TideChainTile.MapEntry: Cadena de marea
-			IraGatewayTile.MapEntry: Portal de Ira
-			ExcavatorMusicBoxTile.MapEntry: Caja de música
-			LightStatueTile.MapEntry: Estatua de la luz
-		}
 
 		WorldGeneration: {
 			GetStatus: Generando luz estelar...
@@ -8125,7 +7857,7 @@ Mods: {
 			Maligmor: Nacidos del deseo de La Maldición de consumirlo todo, los Maligmors son protuberancias de La Maldición dotadas de cristales como fuentes de energía. Los cristales les proporcionan una visión mejorada, lo que ayuda a los Maligmors a defender la Piedra angular de los invasores.
 			ArcticGoblin: Un duende exiliado abandonado a su suerte en la implacable tundra.
 			Polaris: Una máquina de guerra olvidada. Fabricada mucho antes que el trío mecánico, Polaris no se construyó con el propósito de revivir a Cthulhu, sino como un arma de destrucción masiva.
-			FluxSlime:Creadas antes que el Pinky pútrido, estas amenazas gelatinosas tienen su origen en los primeros experimentos con limo rosa.
+			FluxSlime: Creadas antes que el Pinky pútrido, estas amenazas gelatinosas tienen su origen en los primeros experimentos con limo rosa.
 			PP: Una abominación con un apetito insaciable por los manís. El Pinky pútrido fue un experimento fallido que fue creado utilizando limo rosa.
 			BlueSlimer: Un slime azul que se volvió volador al desarrollar unas alas rudimentarias. Sus alas se rompen fácilmente con un golpe, lo que le impide volar.
 			NatureSlime: Un slime controlado de forma engañosa por una flor parásita. Su singular biología lo había convertido anteriormente en objeto de gran interés científico.
@@ -8274,7 +8006,7 @@ Mods: {
 			Pupa:
 				'''
 				Intentaron huir, pero la carne no era firme, por lo que resbalaron.
-				Entraron en pánico y se arrastraron, pero la carne también se arrastró hacia ellos.
+				Presas del pánico, se pusieron a arrastrarse, pero la carne también se arrastraba hacia ellos.
 				Consiguieron llegar a un terreno más elevado, pero la carne les devoró la parte inferior del cuerpo.
 				Desearon estar muertos, pero ahora eran uno.
 				'''
@@ -8308,43 +8040,11 @@ Mods: {
 		}
 
 		DeathMessage: {
-			VD1: " fue extremadamente descuidado."
-			VD2: " fue consumido por el vacío."
-			VD3: " fue devorado por la oscuridad."
-			VD4: " no entiende la mecánica del vacío."
-			VD5: " murió."
-		}
-
-		BossChecklist: {
-			BossName: {
-				PutridPinky: Pinky pútrido
-				PharaohsCurse: Maldición del Faraon
-				TheAdvisor: El Consejero
-				Polaris: Polaris
-				Lux: Lux
-				SubspaceSerpent: Serpiente subespacial
-				Glowmoth: Polilla luminosa
-			}
-
-			BossDescription: {
-				PutridPinky: Invócalo en cualquier bioma y en cualquier momento usando un {0}
-				PharaohsCurse: Activa el {0} en la pirámide
-				TheAdvisor: Destruye los 4 Constructos de Otro Mundo encadenados del Planetario
-				Polaris: Activa el {0} del bioma de nieve usando {1}
-				Lux: Enfurece a un Espíritu del caos
-				SubspaceSerpent: Desgarra un portal dimensional en el infierno detonando un {0}
-				Glowmoth: En un bioma de hongos brillantes, perturba un capullo de seda brillante o despiértalo manualmente usando un {0}
-			}
-
-			BossDisappear: {
-				PutridPinky: ¡Pinky pútrido ha robado a todos sus cacahuetes!
-				PharaohsCurse: ""
-				TheAdvisor: ""
-				Polaris: ""
-				Lux: ""
-				SubspaceSerpent: ""
-				Glowmoth: ""
-			}
+			VD1: "{0} fue extremadamente descuidado."
+			VD2: "{0} fue consumido por el vacío."
+			VD3: "{0} fue devorado por la oscuridad."
+			VD4: "{0} no entiende la mecánica del vacío."
+			VD5: "{0} murió."
 		}
 
 		VisionAmuletTextList: {
@@ -8507,14 +8207,7 @@ Mods: {
 			x7: "'No puedes escapar de tu destino'"
 			x8: "'Es como un espejo que se asoma a tu alma'"
 		}
-		
-		DiamondRingText: Aumenta el daño basado en la defensa, luego reduce la defensa en un tercio del aumento de daño
-		DiamondRingText2:
-			'''
-
-			Aumenta el daño en {0}%
-			Reduce la defensa en {1}
-			'''
+	
 
 		PrecariousClusterTextList: {
 			0: Reduce el daño infligido en un 10%
@@ -8538,56 +8231,14 @@ Mods: {
 			7: Aumenta el daño de invocación en un 3%, hasta un máximo de 12%
 		}
 		
-		MachinaBoosterText:
-			'''
-			Permite volar y caer lentamente
-			Aumenta la obtención de vacío en 1
-			Presiona '{0}' para obtener un vuelo rápido y multidireccional a costa de 5 de vacío
-			Aumenta el drenaje de vacío en 3 mientras está activo
-			'''
-		MachinaBoosterText2:
-			'''
-			Permite volar y caer lentamente
-			Aumenta la obtención de vacío en 1
-			Presiona '{0}' para obtener un vuelo rápido y multidireccional a costa de 5 de vacío
-			Aumenta el drenaje de vacío en 3 mientras está activo
-			'''
-		BlinkPackText:
-			'''
-			Presiona '{0}' para teletransportarte hacia tu cursor
-			Teletransportarte a través de enemigos infligirá daño y activará un enfriamiento más corto, pero solo se puede hacer hasta 3 veces en rápida sucesión
-			Proporciona algo de inmunidad después de dashear
-			Anula el daño por caída
-			'''
-			BlinkPackText2:
-			'''
-			Presiona '{0}' para teletransportarte hacia tu cursor
-			Teletransportarte a través de enemigos infligirá daño y activará un enfriamiento más corto, pero solo se puede hacer hasta 3 veces en rápida sucesión
-			Proporciona algo de inmunidad después de dashear
-			Anula el daño por caída
-			'''
-		TwilightAssassinsCircletText:
-			'''
-			Aumenta el número máximo de súbditos y centinelas en 1
-			Aumenta el daño de súbditos y cuerpo a cuerpo en un 7%
-			Aumenta el vacío máximo en 50
-			Proporciona un Ojo holográfico para ayudarte en combate
-			Presiona '{0}' para hacer que lance un rayo desestabilizador que aplica 4 niveles de desestabilizado, pero solo una vez por enemigo
-			Los enemigos desestabilizados ganan un 5% de probabilidad plana de ser golpeados críticamente
-			Cuesta 6 de vacío lanzar
-			El Ojo holográfico permanece activo en el inventario cuando está favorito o mientras se usa en ranuras de vanidad, pero no puede atacar
-			'''
-		TwilightAssassinsCircletText2:
-			'''
-			Aumenta el número máximo de súbditos y centinelas en 1
-			Aumenta el daño de esbirros y cuerpo a cuerpo en un 7%
-			Aumenta el vacío máximo en 50
-			Proporciona un Ojo holográfico para ayudarte en combate
-			Presiona '{0}' para hacer que lance un rayo desestabilizador que aplica 4 niveles de desestabilizado, pero solo una vez por enemigo
-			Los enemigos desestabilizados ganan un 5% de probabilidad plana de ser golpeados críticamente
-			Cuesta 6 de vacío lanzar
-			El Ojo holográfico permanece activo en el inventario cuando está favorito o mientras se usa en ranuras de vanidad, pero no puede atacar
-			'''
+	TesseractText: {
+			InvalidItem: Elemento no válido para su uso en clonación
+			Awaiting: "Los clones alineados {0} están a la espera de que se especifiquen sus usos"
+			Usage: Los clones alineados {0} utilizarán {1} fuego {2}
+			UsageContinuous: de forma continua
+			UsageDuration: durante {0} segundos
+			UsagePrimary: primario
+			UsageSecondary: secundario
 
 		UndoArrow: {
 			Ruby: Rubí: {0}
@@ -8620,6 +8271,22 @@ Mods: {
 			Warning2: Si algo sale mal, es porque TÚ lo pediste
 			Warning3: ¡Aquí viene NADA!!!
 		}
+
+			WorldgenScannerMessages: {
+			LihzahrdAltarNotFound: Altar de Lihzahrd: No encontrado
+			FrostArtifactNotFound: Artefacto de escarcha: No encontrado
+			SarcophagusNotFound: Sarcófago: No encontrado
+			AvaritiaGatewayNotFound: Avaritia Gateway: No encontrado
+			AcediaGatewayNotFound: Puerta de enlace Acedia: No encontrado
+			WorldGeneratedWithoutIssues: El mundo se ha generado sin problemas importantes
+			AdvisorSpawned: Se oye un zumbido lejano procedente del cielo
+			ShadowOrbsCount: Orbes sombríos/Corazones carmesí: {0}
+			WaterWalkingBootsCount: Botas de flotación: {0}
+			LavaCharmsCount: Talismanes de lava: {0}
+			FlowerBootsCount: Botas floridas: {0}
+			PeanutBushesCount: Arbustos de manís: {0}
+		}
+
 
 		Projectiles: {
 			AcornOfJustice.DisplayName: Acorn Of Justice
@@ -9268,119 +8935,185 @@ Mods: {
 		}
 
 		Keybinds: {
-			Mods: {
-				SOTS: {
-					KeyBindName: {
-						Blink.DisplayName: Teletransporte
-						ArmorSet.DisplayName: Conjunto de armadura
-						MFM.DisplayName: Cambiar modo de vuelo
-						SlowFlight.DisplayName: Vuelo lento
-					}
-				}
-			}
+			Blink.DisplayName: Parpadeo
+			ArmorSet.DisplayName: Set de armadura
+			MFM.DisplayName: Cambiar modo de vuelo
+			SlowFlight.DisplayName: Vuelo lento
 		}
 
 		Configs: {
 			SOTSConfig: {
-				DisplayName: "{$Mods.SOTS.Configuration.Label.Config}"
+				DisplayName: Configuración
+
+				Headers: {
+					UI: UI
+					GS: Configuración gráfica
+					TPS: Configuración del paquete de texturas
+					GPS: COnfiguración del gameplay
+					MS: Configuración de la música
+				}
 
 				StarterHouseType: {
-					Label: "{$Mods.SOTS.Configuration.Label.SHT}"
-					Tooltip: "{$Mods.SOTS.Configuration.Tooltip.SHT}"
+					Label: Tipo de casa inicial (al generarse el mundo)
+					Tooltip:
+						'''
+						-2 = Nada de casas (estás loco)
+						-1 = Casa inicial aleatoria
+						0 = Casa cásica
+						1 = Ángel clásico
+						2 = Barril clásico
+						3 = GRAN hotel clásico
+						4 = Origen clásico
+						5 = Torre clásica
+						6 = Espada clásica
+						7 = Árbol clásico
+						8 = Biblioteca clásica
+						9 = Caja clásica
+						10 = Mushnib's
+						11 = Astrobit's
+						12 = Luna de sangre
+						13 = Bandido
+						14 = Roca
+						15 = Mina
+						16 = Taverna
+						17 = Caos
+						18 = Ahogado
+						19 = Cómodo
+						20 = Naturaleza
+						'''
 				}
 
 				voidBarPointX: {
-					Label: "{$Mods.SOTS.Configuration.Label.VBX}"
-					Tooltip: "{$Mods.SOTS.Configuration.Tooltip.VBX}"
+					Label: Efe X Barra de vacío
+					Tooltip:
+						'''
+						Posición horizontal de la barra de vacío en la pantalla
+						Medida en píxeles desde la izquierda
+						'''
 				}
 
 				voidBarPointY: {
-					Label: "{$Mods.SOTS.Configuration.Label.VBY}"
-					Tooltip: "{$Mods.SOTS.Configuration.Tooltip.VBY}"
+					Label: Efe y Barra de vacío
+					Tooltip:
+						'''
+						Posición vertical de la barra de vacío en la pantalla
+                        Medida en píxeles desde la parte superior
+						'''
 				}
 
 				lockVoidBar: {
-					Label: "{$Mods.SOTS.Configuration.Label.LVB}"
-					Tooltip: "{$Mods.SOTS.Configuration.Tooltip.LVB}"
+					Label: Bloquear la Barra de vacío
+					Tooltip:
+						'''
+						Evita que la barra del Vacío se mueva al pasar el cursor por encima
+						También evita que la barra del vacío cambie de posición automáticamente al utilizar la configuración de interfaz Barras en el estilo de salud y maná
+						'''
 				}
 
 				alternateVoidBarDirection: {
-					Label: "{$Mods.SOTS.Configuration.Label.AVBD}"
-					Tooltip: "{$Mods.SOTS.Configuration.Tooltip.AVBD}"
+					Label: Dirección alternativa de la barra de vacío
+					Tooltip: Cambia la dirección de desplazamiento hacia abajo de la barra del Vacío
 				}
 
 				alternateVoidBarStyle: {
-					Label: "{$Mods.SOTS.Configuration.Label.AVBS}"
-					Tooltip: "{$Mods.SOTS.Configuration.Tooltip.AVBS}"
+					Label: Estilo alternatico de la barra de vacío
+					Tooltip: Modifica ligeramente el aspecto de la barra del Vacío
 				}
 
 				voidBarTextOn: {
-					Label: "{$Mods.SOTS.Configuration.Label.VBTT}"
-					Tooltip: "{$Mods.SOTS.Configuration.Tooltip.VBTT}"
+					Label: Texto de la zona superior de la barra de vacío
+					Tooltip: Activa o desactiva el texto que aparece encima de la barra de vacío
 				}
 
 				voidBarHoverTextOn: {
-					Label: "{$Mods.SOTS.Configuration.Label.VBHT}"
-					Tooltip: "{$Mods.SOTS.Configuration.Tooltip.VBHT}"
+					Label: Texto al pasar el cursor por la barra de vacío
+					Tooltip: Activa o desactiva el texto que aparece al pasar el cursor por encima de la barra vacío
 				}
 
 				simpleVoidText: {
-					Label: "{$Mods.SOTS.Configuration.Label.SVBT}"
-					Tooltip: "{$Mods.SOTS.Configuration.Tooltip.SVBT}"
+					Label: Texto sencillo para la barra de vacío
+					Tooltip: Elimina los indicadores de cantidad de súbditos del Vacío del texto de la barra de vacío
 				}
 
 				simpleVoidFill: {
-					Label: "{$Mods.SOTS.Configuration.Label.SVBF}"
-					Tooltip: "{$Mods.SOTS.Configuration.Tooltip.SVBF}"
+					Label: Relleno sencillo para la barra de vacío
+					Tooltip: Elimina las líneas divisorias entre los elementos interiores de la barra de vacío
 				}
 
 				lowFidelityMode: {
-					Label: "{$Mods.SOTS.Configuration.Label.PM}"
-					Tooltip: "{$Mods.SOTS.Configuration.Tooltip.PM}"
+					Label: Modo rendimiento
+					Tooltip:
+						'''
+						Reduce diversos efectos visuales para aumentar la velocidad de fotogramas
+						Afecta principalmente a los efectos visuales relacionados con los jefes y a las estelas de los proyectiles
+						'''
 				}
 
 				coloredTimeFreeze: {
-					Label: "{$Mods.SOTS.Configuration.Label.CTF}"
-					Tooltip: "{$Mods.SOTS.Configuration.Tooltip.CTF}"
+					Label: Congelación del tiempo a color
+					Tooltip: Determina si el color de la pantalla durante la pausa temporal es a color o en blanco y negro
 				}
 
 				screenShake: {
-					Label: Screenshake
-					Tooltip: Only effects screenshake originating from SOTS
+					Label: Sacudidas en la pantalla
+					Tooltip: Solo afecta al temblor de imagen procedente de SOTS
 				}
 
 				additionalTexturePackVisuals: {
-					Label: "{$Mods.SOTS.Configuration.Label.AVE}"
-					Tooltip: "{$Mods.SOTS.Configuration.Tooltip.AVE}"
+					Label: Efectos visuales adicionales
+					Tooltip:
+						'''
+						Añade efectos visuales adicionales, como el polvo, a algunos bloques
+						Solo funciona si el paquete de texturas SOTS está activado
+						'''
 				}
 
 				alternativeMusic: {
-					Label: "{$Mods.SOTS.Configuration.Label.BLZD}"
-					Tooltip: "{$Mods.SOTS.Configuration.Tooltip.BLZD}"
+					Label: Música alternativa para SOTS 
+					Tooltip:
+						'''
+						Cuando esté activado, SOTS reproducirá la banda sonora compuesta por Banana Lizard cuando sea aplicable.
+						Cuando esté desactivado, SOTS reproducirá la banda sonora compuesta por Heart Plus Up cuando sea aplicable.
+						'''
+				}
+
+				SanctuaryLagReduction: {
+					Label: Reducción de lag en el Sanctuario
+					Tooltip: Cuando está activada, reduce la cantidad de desenfoques de resplandor utilizados en el Santuario, lo que mejora el rendimiento
 				}
 			}
 
 			SOTSServerConfig: {
-				DisplayName: "{$Mods.SOTS.Configuration.Label.SConfig}"
+				DisplayName: Configuración de servidor
+
+				Headers: {
+					GPS: Opciones de gameplay
+					BAL: Opciones de balance
+				}
 
 				NerfInsignia: {
-					Label: "{$Mods.SOTS.Configuration.Label.NINS}"
-					Tooltip: "{$Mods.SOTS.Configuration.Tooltip.NINS}"
+					Label: Nerfeo a la Insignia del surco antes de Lux
+					Tooltip:
+						'''
+						Se ha debilitará la Insignia del surco, de modo que ahora solo otorga vuelo infinito una vez derrotada Lux.
+                        Antes de derrotar a Lux, solo duplicará tu tiempo de vuelo.
+                        Si no estás de acuerdo con este cambio, puedes desactivarlo aquí.
+						'''
 				}
 
 				AddPlightToVanillaRecipes: {
-					Label: Add Plight To Vanilla Recipes
-					Tooltip: Disable and reload in order to remove Soul of Plight from recipes that normally do not require it
+					Label: Añadir Alma de la adversidad a las recetas de vainilla
+					Tooltip: Desactívalo y vuelve a cargar el mod para eliminar el Alma de la adversidad de las recetas que normalmente no la requieren.
 				}
 
 				GeneratePhaseOreAfterDefeatingLux: {
-					Label: Generate Phase Ore After Defeating Lux
-					Tooltip: Disable to prevent Phase Ore from generating after the first Lux kill
+					Label: Generar mineral de fase tras derrotar a Lux
+					Tooltip: Desactívalo para evitar que aparezca  el mineral de fase tras la primera muerte de Lux
 				}
 
 				NaturallySpawningPeanutBushes: {
-					Label: Naturally Spawning Peanut Bushes
-					Tooltip: Disable to prevent Peanut Bushes from growing naturally on grass
+					Label: Los arbustos de maní se reproducen de forma natural
+					Tooltip: Desactivalo para evitar que los arbustos de maní crezcan de forma natural en la hierba
 				}
 			}
 		}
@@ -9487,7 +9220,6 @@ Mods: {
 			}
 		}
 	}
-
 }
 
 
