@@ -49,6 +49,7 @@ Buffs: {
 		DisplayName: Corazón de néctar
 		Description: Aumenta considerablemente la regeneración de vida
 	}
+
 	HoneyBeeBuff: {
 		DisplayName: La abeja melífera
 		Description: ¡La abeja recolectará miel para ti!
@@ -162,19 +163,19 @@ Buffs: {
 Items: {
 	HemocombShard: {
 	DisplayName: Fragmento de hemopanal
-	Tooltip:
-		'''
-		Aumenta un 30% la probabilidad de fortalecer a las abejas aliadas
-		Las abejas fortalecidas pueden explotar en trozos de carne curativos
-		Solo puedes tener equipado un fragmento de panal a la vez
+		Tooltip:
+			'''
+			Aumenta un 30% la probabilidad de fortalecer a las abejas aliadas
+			Las abejas fortalecidas pueden explotar en trozos de carne curativos
+			Solo puedes tener equipado un fragmento de panal a la vez
 
-		'''
-    }
+			'''
+	}
 
 	HemocombShardChunk1: {
 	DisplayName: Trozo de carne
 	Tooltip: No deberías estar viendo esto...
-}
+	}
 
 	HemocombShardChunk2: {
 		DisplayName: Trozo de carne
@@ -490,15 +491,15 @@ Items: {
 	}
 
 	HymenoptrianNecklace: {
-	Tooltip:
-		'''
-		Aumenta la penetración de armadura en 5
-		Cubre los ataques del apicultor con néctar dulce, otorgándoles robo de vida con golpes críticos
-		Aumenta la vida máxima en 20
-		Libera abejas y cthulabejas, aumenta el daño del apicultor y la velocidad de movimiento, y cubre al usuario de miel al recibir daño
-		'''
-	DisplayName: Collar himenóptero
-}
+		Tooltip:
+			'''
+			Aumenta la penetración de armadura en 5
+			Cubre los ataques del apicultor con néctar dulce, otorgándoles robo de vida con golpes críticos
+			Aumenta la vida máxima en 20
+			Libera abejas y cthulabejas, aumenta el daño del apicultor y la velocidad de movimiento, y cubre al usuario de miel al recibir daño
+			'''
+		DisplayName: Collar himenóptero
+	}
 
 	LivingFlowerChestplate: {
 		DisplayName: Peto de flor viviente
@@ -703,13 +704,13 @@ Items: {
 	}
 
 	Beemstick: {
-	Tooltip:
-		'''
-		Dispara una dispersión de perdigones de abeja y abejas
-		«Esta... es mi ABEJETA»
-		'''
-	DisplayName: Abejeta
-}
+		Tooltip:
+			'''
+			Dispara una dispersión de perdigones de abeja y abejas
+			«Esta... es mi ABEJETA»
+			'''
+		DisplayName: Abejeta
+	}
 
 	BladeOfAculeus: {
 		DisplayName: Hoja de Aculeus
@@ -900,9 +901,9 @@ Items: {
 	}
 
 	WaspGreaves: {
-	Tooltip: Velocidad de movimiento aumentada un 15%
-	DisplayName: Grebas de avispa
-}
+		Tooltip: Velocidad de movimiento aumentada un 15%
+		DisplayName: Grebas de avispa
+	}
 
 	WaspHead: {
 		Tooltip:
@@ -1100,14 +1101,14 @@ Items: {
 	}
 
 	FlamingApiary: {
-	DisplayName: Apiario llameante
-	Tooltip:
-		'''
-		Mantén <izquierda> para disparar abejas rápidamente
-		Mantén <derecha> para dispararlas más lentamente y tomar el control de ellas, prendiéndolas en llamas
-		Las abejas controladas se mueven un 25% más rápido, tienen un 5% más de probabilidad de golpe crítico y sus golpes críticos infligen ¡En llamas!
-		'''
-}
+		DisplayName: Apiario llameante
+		Tooltip:
+			'''
+			Mantén <izquierda> para disparar abejas rápidamente
+			Mantén <derecha> para dispararlas más lentamente y tomar el control de ellas, prendiéndolas en llamas
+			Las abejas controladas se mueven un 25% más rápido, tienen un 5% más de probabilidad de golpe crítico y sus golpes críticos infligen ¡En llamas!
+			'''
+	}
 
 	IronApiary: {
 		DisplayName: Apiario de hierro
@@ -1165,34 +1166,23 @@ Items: {
 			'''
 	}
 
-	MolluscanHoneycombShard: {
-		Tooltip:
-			'''
-			Aumenta un 30% la probabilidad de fortalecer a las abejas aliadas
-			Las abejas fortalecidas ignoran 25 puntos de defensa
-			'''
-		DisplayName: Fragmento de panal de molusco
-	}
-
-	HydrophobicCoating: {
-		Tooltip:
-			'''
-			Cubre los ataques del apicultor con un revestimiento hidrofóbico especial, haciendo que inflijan más daño cuando están mojados
-			Evita que tus proyectiles de abeja desaparezcan en el agua
-			Desactiva la visibilidad del accesorio para ocultar el aura acuática de los proyectiles mojados
-			'''
-		DisplayName: Revestimiento hidrofóbico
-	}
-
-	GlisteningGear: {
-		Tooltip:
-			'''
-			Velocidad de ataque del apicultor aumentada un 7%
-			Aumenta la miel máxima en 10
-			«¡¿Cómo se supone que volver pegajoso un engranaje ayuda en algo?!»
-			'''
-		DisplayName: Engranaje reluciente
-	}
+	MolluscanHoneycombShard.Tooltip:
+		'''
+		Aumenta un 30% la probabilidad de fortalecer a las abejas aliadas
+		Las abejas fortalecidas ignoran 25 puntos de defensa
+		'''
+	HydrophobicCoating.Tooltip:
+		'''
+		Cubre los ataques del apicultor con un revestimiento hidrofóbico especial, haciendo que inflijan más daño cuando están mojados
+		Evita que tus proyectiles de abeja desaparezcan en el agua
+		Desactiva la visibilidad del accesorio para ocultar el aura acuática de los proyectiles mojados
+		'''
+	GlisteningGear.Tooltip:
+		'''
+		Velocidad de ataque del apicultor aumentada un 7%
+		Aumenta la miel máxima en 10
+		«¡¿Cómo se supone que volver pegajoso un engranaje ayuda en algo?!»
+		'''
 
 	WulfrumHoneycombShard: {
 		DisplayName: Fragmento de panal Wulfrum
@@ -1206,10 +1196,7 @@ Items: {
 			'''
 	}
 
-	WulfrumHoneycomb: {
-		Tooltip: Pulsa <derecha> para potenciar temporalmente la máquina a cambio de 20 de miel
-		DisplayName: Panal Wulfrum
-	}
+	WulfrumHoneycomb.Tooltip: Pulsa <derecha> para potenciar temporalmente la máquina a cambio de 20 de miel
 
 	VictideNautihelm: {
 		DisplayName: Nauticasco de victide
@@ -1237,15 +1224,12 @@ Items: {
 			'''
 	}
 
-	ScourgedHoneycomb: {
-		Tooltip:
-			'''
-			Mantén <izquierda> para cargar un poderoso ataque de mandíbula
-			Al cargarse por completo, dispara una ráfaga de agua letal
-			«Imbuido con el poder del Azote»
-			'''
-		DisplayName: Panal del Azote
-	}
+	ScourgedHoneycomb.Tooltip:
+		'''
+		Mantén <izquierda> para cargar un poderoso ataque de mandíbula
+		Al cargarse por completo, dispara una ráfaga de agua letal
+		«Imbuido con el poder del Azote»
+		'''
 
 	StormsentSceptre: {
 		DisplayName: Cetro de la tormenta
@@ -1267,15 +1251,12 @@ Items: {
 			'''
 	}
 
-	MycelialHoneycomb: {
-		Tooltip:
-			'''
-			Dispara abejas fúngicas
-			Mantén <derecha> para hacer brotar esporas letales desde el bloque más cercano e infligir Micosis
-			La Micosis hace que los enemigos afectados generen abejas fúngicas periódicamente
-			'''
-		DisplayName: Panal micelial
-	}
+	MycelialHoneycomb.Tooltip:
+		'''
+		Dispara abejas fúngicas
+		Mantén <derecha> para hacer brotar esporas letales desde el bloque más cercano e infligir Micosis
+		La Micosis hace que los enemigos afectados generen abejas fúngicas periódicamente
+		'''
 
 	SulphuricApiary: {
 		DisplayName: Apiario sulfúrico
@@ -1297,37 +1278,27 @@ Items: {
 			'''
 	}
 
-	SeashoneHoneycomb: {
-	Tooltip:
+	SeashoneHoneycomb.Tooltip:
 		'''
 		Pulsa <izquierda> para lanzar el panal
 		Mantén <derecha> para materializar un poderoso cristal que se incrusta en los enemigos
 		Golpea a los enemigos con cristales incrustados para hundirlos más profundamente hasta que estallen en proyectiles violentos
 		Solo puede haber un cristal incrustado en cada enemigo a la vez
 		'''
-	DisplayName: Panal marino reluciente
-}
+	Coralcomb.Tooltip:
+		'''
+		Lanza un panal dentado capaz de despedazar a los enemigos
+		Los golpes críticos hacen sangrar a los enemigos
+		El último golpe siempre es crítico e inflige un 50% más de daño
+		'''
 
-	Coralcomb: {
-		Tooltip:
-			'''
-			Lanza un panal dentado capaz de despedazar a los enemigos
-			Los golpes críticos hacen sangrar a los enemigos
-			El último golpe siempre es crítico e inflige un 50% más de daño
-			'''
-		DisplayName: Coralpanal
-	}
-
-	WulfrumStinger: {
-		Tooltip:
-			'''
-			Lanza rápidamente aguijones Wulfrum
-			Golpear a un enemigo puede hacer que suelte una celda de energía Wulfrum inestable
-			Las celdas de energía pueden recogerse y lanzarse con <derecha>
-			Las celdas de energía pueden golpearse en el aire para sobrecargarlas, haciendo que detonen con una explosión aún más violenta
-			'''
-		DisplayName: Aguijón Wulfrum
-	}
+	WulfrumStinger.Tooltip:
+		'''
+		Lanza rápidamente aguijones Wulfrum
+		Golpear a un enemigo puede hacer que suelte una celda de energía Wulfrum inestable
+		Las celdas de energía pueden recogerse y lanzarse con <derecha>
+		Las celdas de energía pueden golpearse en el aire para sobrecargarlas, haciendo que detonen con una explosión aún más violenta
+		'''
 
 	MoltenCharm: {
 		DisplayName: Colgante de disparo ígneo
@@ -1588,27 +1559,27 @@ Projectiles: {
 
 NPCs: {
 	TheTraitorBee: {
-	DisplayName: Abeja traidora
+		DisplayName: Abeja traidora
 
-	TownNPCMood: {
-		Content: Estoy conforme.
-		NoHome: Odio no tener un hogar.
-		FarFromHome: Estoy demasiado lejos de casa.
-		LoveSpace: Me encanta tener tanto espacio.
-		DislikeCrowded: No me gusta estar en un lugar tan abarrotado.
-		HateCrowded: Odio estar en un lugar tan abarrotado.
-		LoveBiome: Me encanta {BiomeName}.
-		LikeBiome: Me gusta {BiomeName}.
-		DislikeBiome: No me gusta {BiomeName}.
-		HateBiome: Odio {BiomeName}.
-		LoveNPC: Amo a {NPCName}.
-		LikeNPC: Me agrada {NPCName}.
-		DislikeNPC: No me agrada {NPCName}.
-		HateNPC: Odio a {NPCName}.
-		LikeNPC_Princess: Me agrada {NPCName}.
-		Princess_LovesNPC: Me agrada {NPCName}.
+		TownNPCMood: {
+			Content: Estoy conforme.
+			NoHome: Odio no tener un hogar.
+			FarFromHome: Estoy demasiado lejos de casa.
+			LoveSpace: Me encanta tener tanto espacio.
+			DislikeCrowded: No me gusta estar en un lugar tan abarrotado.
+			HateCrowded: Odio estar en un lugar tan abarrotado.
+			LoveBiome: Me encanta {BiomeName}.
+			LikeBiome: Me gusta {BiomeName}.
+			DislikeBiome: No me gusta {BiomeName}.
+			HateBiome: Odio {BiomeName}.
+			LoveNPC: Amo a {NPCName}.
+			LikeNPC: Me agrada {NPCName}.
+			DislikeNPC: No me agrada {NPCName}.
+			HateNPC: Odio a {NPCName}.
+			LikeNPC_Princess: Me agrada {NPCName}.
+			Princess_LovesNPC: Me agrada {NPCName}.
+		}
 	}
-}
 
 	WulfrumBee.DisplayName: Abeja Wulfrum
 	WulfrumHive.DisplayName: Colmena Wulfrum
