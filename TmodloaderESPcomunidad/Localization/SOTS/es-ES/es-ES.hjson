@@ -18,8 +18,6 @@ Mods: {
 			VoidSDouble: "{0} de daño de vacío + {1} daño de invocación"
 			VoidSPercent: ??? de daño de vacío + daño de invocación
 			CV: Consume {0} de vacío
-			GenSOTSOres: Generando Minerales de SOTS
-			GenSOTSGeodes: Generando Geodas brillantes
 			InsigniaNerf: "[SOTS]: Los efectos y la duración de vuelo estarán menguados hasta que Lux sera derrotado"
 			ArchaeologistMap: Anomalía
 			ArchaeologistItemMap: "Teletransportado "
@@ -129,7 +127,7 @@ Mods: {
 		Prefixes: {
 			# Accessories
 			Awakened.DisplayName: Despertado
-			Omnipotent.DisplayName: Omnipotente
+			Omniscient.DisplayName: Omnipotente
 			Chained.DisplayName: Encadenado
 			Soulbound.DisplayName: Atado al alma
 			# Weapons
@@ -138,21 +136,18 @@ Mods: {
 			Potent.DisplayName: Potente
 			Omnipotent.DisplayName: Omnipotente
 			Chthonic.DisplayName: Ctónico
-			
 
 			Effects: {
 			MaxVoid.DisplayName: " vacío máximo"
 			RegVoid.DisplayName: " ganancia de vacío"
 			CosVoid.DisplayName: % costo de vacío
 			}
-
 		}
 
 		Items: {
 			AncientSteelBar: {
 				# Abandoned Village
 				DisplayName: Lingote de acero antiguo
-				# Abandoned Village
 				Tooltip: "'Un antiguo prototipo de acero utilizado por diversas civilizaciones... y goblins'"
 			}
 
@@ -859,7 +854,11 @@ Mods: {
 
 			ConduitChassis: {
 				DisplayName: Chasis para conducto
-				Tooltip: Completa la coraza de un conducto, permitiendo la redirección de energía
+				Tooltip:
+					'''
+					Completa la coraza de un conducto, permitiendo la redirección de energía
+					Solo se puede colocar si se tiene equipado el Cinturón de herramientas del arqueólogo
+					'''
 			}
 
 			NatureConduit: {
@@ -1464,7 +1463,6 @@ Mods: {
 				DisplayName: Bastón vibrante
 				Tooltip: Dispara un rayo teledirigido
 			}
-
 
 			VibrantHelmet: {
 				DisplayName: Casco vibrante
@@ -2276,7 +2274,6 @@ Mods: {
 				SetBonus: Invoca tres Ganchos florecientes para que te ayuden en el combate
 			}
 
-
 			NatureShirt: {
 				DisplayName: Camisa de ajenjo
 				Tooltip: Aumenta la defensa por cada súbdito activo
@@ -2835,7 +2832,6 @@ Mods: {
 					'''
 			}
 
-
 			FrigidHourglass: {
 				DisplayName: Reloj de arena glacial
 				Tooltip:
@@ -2998,7 +2994,6 @@ Mods: {
 					'''
 			}
 
-
 			ShoeIce: {
 				DisplayName: Calzado para hielo
 				Tooltip:
@@ -3055,7 +3050,6 @@ Mods: {
 						Buenas vibraciones por 13 minutos
 						Rapidez por 11 minutos
 						Regeneración por 9 minutos
-						
 					'''
 			}
 
@@ -3241,7 +3235,6 @@ Mods: {
 					'''
 			}
 
-
 			CursedHood: {
 				DisplayName: Capucha Maldita
 				Tooltip:
@@ -3252,7 +3245,7 @@ Mods: {
 					Al recibir daño, los enemigos malditos se iluminan, recibiendo 140% de daño adicional e infligiendo 140% de daño a otros enemigos cercanos
 					Este efecto tiene un enfriamiento de 2 segundos
 					'''
-					SetBonus:
+				SetBonus:
 					'''
 					Pulsa {0} para que el Monolito de rubí adopte una postura ofensiva
 					Mientras se mantiene la postura ofensiva, se reduce el tiempo de recarga de Estallido de maldición en un 80%.
@@ -3416,7 +3409,6 @@ Mods: {
 			PatchLeatherPants: {
 				DisplayName: Botas de cuero remendado
 				Tooltip: Aumenta el daño de invocación en un 15%
-				SetBonus: Invoca una bandada de serpientes voladoras para que te ayuden en combate
 			}
 
 			PharaohsCane: {
@@ -5079,8 +5071,8 @@ Mods: {
 					Haz clic derecho para lanzar un tiburón de agua autoguiado
 					Si el tridente golpea a un enemigo al regresar, le robará vida y otorgará un buffo cuando sea atrapado.
 					El buffo aumenta el daño mágico y de cuerpo a cuerpo en función del aumento de las estadísticas del otro, aumenta la velocidad de movimiento en un 20% y reduce el daño recibido en un 10%
-                    Mientras esté buffeada, esta arma tampoco gasta vacío
-                    Los enemigos golpeados por el tiburón de agua o el tridente al regresar quedarán rodeados por agua, recibirán varios cortes que les causarán un 20% de daño y se ralentizarán
+					Mientras esté buffeada, esta arma tampoco gasta vacío
+					Los enemigos golpeados por el tiburón de agua o el tridente al regresar quedarán rodeados por agua, recibirán varios cortes que les causarán un 20% de daño y se ralentizarán
 					'''
 			}
 
@@ -5152,7 +5144,6 @@ Mods: {
 					'''
 			}
 
-		
 			HandCannon: {
 				DisplayName: Cañón de mano
 				Tooltip:
@@ -6917,10 +6908,14 @@ Mods: {
 					'''
 			}
 
-
 			ExcavatorHelmet: {
 				DisplayName: Casco perforador
 				Tooltip: Aumenta el vacío máximo en 25, la ganancia de vacío en un 25% y la velocidad de regeneración de vacío en un 10%
+				SetBonus:
+					'''
+					Aumenta la velocidad de ataque de la cola del lanzamisiles en un 50%
+					Aumenta la velocidad de regeneración de vacío en un 30%
+					'''
 			}
 
 			ExcavatorBreastplate: {
@@ -7070,13 +7065,13 @@ Mods: {
 			}
 
 			EarthenSpiritAid: {
-				DisplayName: Spirit Aid
-				Description: Earthen Spirits assist you in combat
+				DisplayName: Ayuda espiritual
+				Description: Los espíritus de la tierra te ayudan en combate
 			}
 
 			Ethereal: {
-				DisplayName: Ethereal
-				Description: Ethereal Flames assist you in combat
+				DisplayName: Etéreo
+				Description: Las llamas etéreas te ayudan en combate
 			}
 
 			EvilSpiritAid: {
@@ -7185,11 +7180,11 @@ Mods: {
 			}
 
 			RubyMonolithAttack: {
-				DisplayName: Ruby Monolith Attack
+				DisplayName: Ataque del monolito de rubí
 				Description:
 					'''
-					Increases void drain by 6
-					Increases void damage by 10%
+					Aumenta el drenaje del vacío en 6
+					Aumenta el daño del vacío en un 10%
 					'''
 			}
 
@@ -7203,8 +7198,8 @@ Mods: {
 			}
 
 			Satiated: {
-				DisplayName: Satiated
-				Description: No more eating!
+				DisplayName: Saciado
+				Description: ¡Ya no hay que comer más!
 			}
 
 			Shattered: {
@@ -7475,8 +7470,7 @@ Mods: {
 		}
 
 		Tiles: {
-			NatureConduitTile.MapEntry: Conducto de la naturaleza
-			EarthenConduitTile.MapEntry: Conducto de tierra
+			BlastDoorTile.MapEntry: Puerta explosiva
 			PeanutBushTile.MapEntry: Arbusto de manís
 			PeanutOreTile.MapEntry: Mineral de maní
 			SilkCocoonTile.MapEntry: Capullo resplandeciente
@@ -7551,6 +7545,13 @@ Mods: {
 				MapEntry9: Cofre de Invidia de media luna menguante cerrada
 			}
 
+			GoopwoodBarrelTile.MapEntry0: Barril de ajenjo
+
+			GemChestTile: {
+				MapEntry0: Cofre de gemas
+				MapEntry1: Cofre de gemas cerrado
+			}
+
 			TidalPlatingChestTile: {
 				MapEntry0: Cofre con revestimiento de marera
 				MapEntry1: Cofre con revestimiento de marea cerrado
@@ -7566,7 +7567,6 @@ Mods: {
 				MapEntry1: Cápsula con revestimiento maligno cerrado
 			}
 
-
 			InfernoPlatingChestTile: {
 				MapEntry0: Cofre con revestimiento infernal
 				MapEntry1: Cofre con revestimiento infernal cerrado
@@ -7576,6 +7576,8 @@ Mods: {
 				MapEntry1: Cofre con revestimiento caótico
 				MapEntry0: Cofre con revestimiento caótico cerrado
 			}
+
+			PyramidChestTile.MapEntry0: Cofre de pirámide
 		}
 
 		WorldGeneration: {
@@ -7657,7 +7659,6 @@ Mods: {
 			BulletSnakeEnd.DisplayName: Serpiente bala
 			BulletSnakeWing.DisplayName: Serpiente bala
 
-
 			Polaris: {
 				DisplayName: Polaris
 
@@ -7671,7 +7672,7 @@ Mods: {
 			PolarisCannon.DisplayName: Cañón polar
 			PolarisLaser.DisplayName: Cañón cuádruple polar
 			PolarisSpike.DisplayName: Púa polar
-			
+
 			Glowmoth: {
 				# Glowmoth
 				DisplayName: Polilla luminosa
@@ -7954,10 +7955,10 @@ Mods: {
 			Collector:
 				'''
 				MENSAJE REENVIADO
-                DE: NEXUS
-                DIRIGIDO AL SITIO AVARITIA...
-                REENVÍA ESTE MENSAJE AL SITIO DE EXTRACCIÓN GULA.
-                TU OPERACIÓN HA SIDO UN ÉXITO TOTAL.
+				DE: NEXUS
+				DIRIGIDO AL SITIO AVARITIA...
+				REENVÍA ESTE MENSAJE AL SITIO DE EXTRACCIÓN GULA.
+				TU OPERACIÓN HA SIDO UN ÉXITO TOTAL.
 				LO PEOR DE LA HAMBRUNA HA SIDO CONTENIDO.
 				HEMOS DESCUBIERTO LA VERDADERA NATURALEZA DE ESTAS PUERTAS.
 				SE NOS HAN ABRIDO NUEVAS OPORTUNIDADES.
@@ -8117,10 +8118,10 @@ Mods: {
 		}
 
 		ExperimentalInjectionTextList: {
-			0: First strike applies a permanent bleed for 5 damage per second and increase max life by 20
-			1: First strike is guaranteed to critically strike and increase critical strike damage by 20%
-			2: First strike inflicts poison and steals life
-			3: Increases damage, attack speed, and movement speed by 5%
+			0: El primer golpe aplica una hemorragia permanente de 5 de daño por segundo y aumenta la vida máxima en un 20%
+			1: El primer golpe garantiza un golpe crítico y aumenta el daño crítico en un 20%
+			2: El primer golpe inflige veneno y roba vida
+			3: Aumenta el daño, la velocidad de ataque y la velocidad de movimiento en un 5%
 		}
 
 		EggName: {
@@ -8172,7 +8173,7 @@ Mods: {
 			45: Huevo de la venganza
 			46: Huevo táctico
 			47: Huevo de paz
-			8: Huevo de avaricia
+			48: Huevo de avaricia
 			49: Huevo de lujuria
 			50: Huevo de pereza
 			51: Huevo de amor
@@ -8223,8 +8224,8 @@ Mods: {
 			6: Aumenta el drenaje de vacío en 0.5 mientras está en el inventario
 			7: Aumenta el daño de invocación en un 3%, hasta un máximo de 12%
 		}
-		
-	TesseractText: {
+
+		TesseractText: {
 			InvalidItem: Elemento no válido para su uso en clonación
 			Awaiting: "Los clones alineados {0} están a la espera de que se especifiquen sus usos"
 			Usage: Los clones alineados {0} utilizarán {1} fuego {2}
@@ -8279,7 +8280,7 @@ Mods: {
 			Warning3: ¡Aquí viene NADA!!!
 		}
 
-			WorldgenScannerMessages: {
+		WorldgenScannerMessages: {
 			LihzahrdAltarNotFound: Altar de Lihzahrd: No encontrado
 			FrostArtifactNotFound: Artefacto de escarcha: No encontrado
 			SarcophagusNotFound: Sarcófago: No encontrado
@@ -8293,7 +8294,6 @@ Mods: {
 			FlowerBootsCount: Botas floridas: {0}
 			PeanutBushesCount: Arbustos de manís: {0}
 		}
-
 
 		Projectiles: {
 			AcornOfJustice.DisplayName: Acorn Of Justice
@@ -9004,7 +9004,7 @@ Mods: {
 					Tooltip:
 						'''
 						Posición vertical de la barra de vacío en la pantalla
-                        Medida en píxeles desde la parte superior
+						Medida en píxeles desde la parte superior
 						'''
 				}
 
@@ -9103,8 +9103,8 @@ Mods: {
 					Tooltip:
 						'''
 						Se ha debilitará la Insignia del surco, de modo que ahora solo otorga vuelo infinito una vez derrotada Lux.
-                        Antes de derrotar a Lux, solo duplicará tu tiempo de vuelo.
-                        Si no estás de acuerdo con este cambio, puedes desactivarlo aquí.
+						Antes de derrotar a Lux, solo duplicará tu tiempo de vuelo.
+						Si no estás de acuerdo con este cambio, puedes desactivarlo aquí.
 						'''
 				}
 
@@ -9228,11 +9228,3 @@ Mods: {
 		}
 	}
 }
-
-
-
-
-
-
-
-
