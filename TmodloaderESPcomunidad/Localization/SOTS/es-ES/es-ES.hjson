@@ -8,11 +8,11 @@ Mods: {
 			SOTSTexturePackName: Paquete de Texturas de Secrets of the Shadows
 			Void: "Vacío: "
 			Void2: "{0} de daño de vacío"
-			VoidM: "{0} de daño de vacío + melee"
+			VoidM: "{0} de daño de vacío + cuerpo a cuerpo"
 			VoidR: "{0} de daño de vacío + a distancia"
 			VoidM2: "{0} de daño de vacío + mágico"
 			VoidS: "{0} de daño de vacío + daño de invocación"
-			Melee: "melee + "
+			Melee: "cuerpo a cuerpo + "
 			Ranged: "a distancia + "
 			Magic: "mágico + "
 			VoidSDouble: "{0} de daño de vacío + {1}daño de invocación"
@@ -1476,7 +1476,7 @@ Mods: {
 				SetBonus:
 					'''
 					Aumenta la ganancia de vacío en 2
-                    La Pistola vibrante dispara tres tiros a la vez a costa de perder precisión
+					La Pistola vibrante dispara tres tiros a la vez a costa de perder precisión
 					'''
 			}
 
@@ -2867,7 +2867,7 @@ Mods: {
 				SetBonus:
 					'''
 					La Jabalina glacial ya no consume vacío.
-                    Reduce el daño dl vacío en un 15%.
+					Reduce el daño dl vacío en un 15%.
 					'''
 			}
 
@@ -2877,7 +2877,7 @@ Mods: {
 				SetBonus:
 					'''
 					Aumenta la regeneración de vida en 2
-                    Inmunidad a Enfriado, Congelado y Quemadura de escarcha
+					Inmunidad a Enfriado, Congelado y Quemadura de escarcha
 					'''
 			}
 
@@ -2907,7 +2907,7 @@ Mods: {
 			}
 
 			FrostArtifactTrousers: {
-				DisplayName: Pantalones de artefacto de ascarcha
+				DisplayName: Pantalones de artefacto de escarcha
 				Tooltip: Aumenta la velocidad de ataque cuerpo a cuerpo y de movimiento en un 10%
 			}
 
@@ -6034,7 +6034,8 @@ Mods: {
 					'''
 				SetBonus:
 					'''
-					Los golpes cuerpo a cuerpo tienen una probabilidad de aplicar a los enemigos un efecto de desgarro permanente y acumulable, lo que hace que reciban daño adicional de todos los ataques
+					Los golpes cuerpo a cuerpo tienen una probabilidad de aplicar a los enemigos un efecto de desgarro permanente y acumulable, 
+					lo que hace que reciban daño adicional de todos los ataques
 					Aumenta la velocidad de ataque en un 20%
 					'''
 			}
