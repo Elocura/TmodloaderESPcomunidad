@@ -1391,7 +1391,11 @@ Items: {
 
 	AbyssalAltar: {
 		DisplayName: Altar abisal
-		Tooltip: ""
+		Tooltip:
+			'''
+			Se utiliza para fabricar algunas armas y equipos.
+			Haz clic derecho con un diente de wyrm para invocar a la Sierpe primordial
+			'''
 	}
 
 	Ystralyn: {
@@ -4019,6 +4023,26 @@ Neltharion: {
 		DisplayName: Fonógrafo de Azafure
 		Tooltip: ""
 	}
+
+	BuriedSun: {
+		DisplayName: Sol enterrado
+		Tooltip:
+			'''
+			Dispara una ráfaga de [c/f0ffe6:Láseres del atardecer],
+			al desaparecer, genera [c/f0ffe6:Puntos de eclipse]
+			Tres puntos adyacentes dispararán [c/f0ffe6:Astilla solar] contra objetivos cercanos,
+			y convergerán para disparar un [c/f0ffe6:Láser del atardecer] no penetrante
+			'''
+	}
+
+	BaXingChong: {
+		DisplayName: Ba Xing Chong
+		Tooltip:
+			'''
+			Lanza una salva de misiles autoguiados
+            [c/ff7f50:"¿El antiguo dueño de esta arma? ¿Te refieres a ese tipo que está cubierto de ciberimplantes, excepto el cerebro?"]
+			'''
+	}
 }
 
 SmolderingSetBonus:
@@ -4715,10 +4739,10 @@ Projectiles: {
 	ZafkielProj.DisplayName: Zafkiel
 	ApsychosTailShoot.DisplayName: Apsychos Tail Shoot
 	EmberSwordHoldout.DisplayName: Ember Sword Holdout
-	TectinicShardHoming.DisplayName: Tectinic Shard Homing
+	TectonicShardHoming.DisplayName: Tectinic Shard Homing
 	AshesSpirit.DisplayName: Ashes Spirit
 	AshesSpiritFireball.DisplayName: Ashes Spirit Fireball
-	TectinicShardAshesCore.DisplayName: Tectinic Shard Ashes Core
+	TectonicShardAshesCore.DisplayName: Tectinic Shard Ashes Core
 	ScorchingChakramThrown.DisplayName: Scorching Chakram Thrown
 	ScorchingFireball.DisplayName: Scorching Fireball
 	HellstoneMissileProj.DisplayName: Hellstone Missile Proj
@@ -4754,6 +4778,13 @@ Projectiles: {
 	GiantBoulderProj.DisplayName: Giant Boulder Proj
 	HallowedMissileProj.DisplayName: Hallowed Missile Proj
 	StarBreakerHeld.DisplayName: Star Breaker Held
+	BuriedSunHoldout.DisplayName: Buried Sun Holdout
+	BuriedShoot.DisplayName: Buried Shoot
+	BuriedDot.DisplayName: Buried Dot
+	BuriedShoot2.DisplayName: Buried Shoot2
+	TectinicShardAshesCore.DisplayName: Tectinic Shard Ashes Core
+	TectinicShardHoming.DisplayName: Tectinic Shard Homing
+	AcropolisTeslaBallWarn.DisplayName: Acropolis Tesla Ball Warn
 }
 
 LegendTooltip: - Legendario -
@@ -5146,6 +5177,41 @@ Buffs: {
 	CombatDrone: {
 		DisplayName: Dron de combate
 		Description: En su día se utilizó en guerras a gran escala
+	}
+
+	CrystedgeWhipDebuff: {
+		DisplayName: Efecto negativo del látigo Crystedge
+		Description: Mods.CalamityEntropy.Buffs.CrystedgeWhipDebuff.Description
+	}
+
+	DaylightWhipDebuff: {
+		DisplayName: Efecto negativo del Látigo de la luz del día
+		Description: Mods.CalamityEntropy.Buffs.DaylightWhipDebuff.Description
+	}
+
+	ForeseeWhipDebuff: {
+		DisplayName: Efecto nevativo del látigo preventivo
+		Description: Mods.CalamityEntropy.Buffs.ForeseeWhipDebuff.Description
+	}
+
+	LashingBramblerodWhipDebuff: {
+		DisplayName: Lashing Bramblerod Whip Debuff
+		Description: Mods.CalamityEntropy.Buffs.LashingBramblerodWhipDebuff.Description
+	}
+
+	MindCorruptorWhipDebuff: {
+		DisplayName: Mind Corruptor Whip Debuff
+		Description: Mods.CalamityEntropy.Buffs.MindCorruptorWhipDebuff.Description
+	}
+
+	SinewLashWhipDebuff: {
+		DisplayName: Sinew Lash Whip Debuff
+		Description: Mods.CalamityEntropy.Buffs.SinewLashWhipDebuff.Description
+	}
+
+	WhipOfEvilKingWhipDebuff: {
+		DisplayName: Whip Of Evil King Whip Debuff
+		Description: Mods.CalamityEntropy.Buffs.WhipOfEvilKingWhipDebuff.Description
 	}
 }
 
