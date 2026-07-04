@@ -30,19 +30,15 @@ QuestTracker: {
 	}
 }
 
-SeaDialogueBox: {
-	ContinueHint: Seguir
+DialogueSystem: {
+	ContinueHint: Continuar
 	FastHint: Acelerar
-}
-
-BrimstoneDialogueBox: {
-	ContinueHint: Seguir
-	FastHint: Acelerar
-}
-
-DraedonDialogueBox: {
-	ContinueHint: Seguir
-	FastHint: Acelerar
+	AutoHint: Auto
+	SkipHint: Saltar
+	BacklogHint: LOG
+	ClaimHint: Clic para reclamar
+	PopupContinueHint: Clic para continuar
+	ChoiceTitle: Elige
 }
 
 ExoMechdusaSumRender: {
@@ -74,9 +70,12 @@ DraedonCallUI: {
 	DisabledReasonText: Draedon ha sido convocado
 }
 
-TzeentchDialogueBox: {
-	ContinueHint: Seguir
-	FastHint: Acelerar
+DraedonShopUI: {
+	TitleText: INTERCAMBIO.DRAEDON
+	FundsLabelText: BALANCE
+	BuyActionText: COMPRAR
+	HintText: "[LMB] Comprar · Mantener para repetir ·  [ESC] Cerrar"
+	EmptyText: No hay artículos disponibles para cambiar
 }
 
 EnchantUI: {
@@ -124,11 +123,6 @@ ChargingStationUI: {
 	StationText2: ¡Solo aceptan Células de energía de Draedon!
 }
 
-SulfseaDialogueBox: {
-	ContinueHint: Seguir
-	FastHint: acelerar
-}
-
 OldDukeShopUI: {
 	TitleText: Tienda del Viejo Duque
 	CurrencyName: Restos oceánicos
@@ -157,6 +151,11 @@ QuestLog: {
 	SunModeText: Modo diurno
 	LauncherHoverText: Clic izquierdo para interactuar, clic derecho para arrastrar
 	QuestManagerText: Misión
+	ObjectiveTemplate: {
+		DefeatNpc: Derrota a {0}
+		ObtainItem: Obtén {0}
+		CollectItem: Recoge {0} {1}
+	}
 }
 
 QuestNotificationSystem.Text1: Misión completada
@@ -363,11 +362,6 @@ TransitionScene: {
 	Hint9: Las máquinas no traicionan, pero quienes las manejan quizá sí.
 }
 
-StarStreamDialogueBox: {
-	ContinueHint: Continuar
-	FastHint: Acelerar
-}
-
 ApolliaHeroPanelUI: {
 	TitleText: Apolonia
 	HPLabel: Vida
@@ -441,6 +435,14 @@ VictorTalkUI: {
 	Greet1: ¿Quieres un cuerpo más fuerte? El acero nunca te falla; solo tu cartera lo hace..
 	Greet2:  He visto a demasiados necios recibir balazos en el cuerpo. Ahora solo siguen vivos en mi memoria... y en mi mesa de operaciones.
 	Greet3: El cerebro, los ojos, las extremidades... Si el precio es el adecuado, no hay nada que no pueda reemplazar..
+	Greet4: Todavía tienes los dos ojos originales. Qué curioso. La mayoría de la gente es de lo primero que se opera.
+	Greet5: No toques nada de esa bandeja. La mitad está esterilizada. La otra mitad está aún peor.
+	Greet6: No te voy a preguntar cómo te has hecho esa herida. Solo me aseguro de que no vuelva a ocurrir de nuevo.
+	Greet7: El último cliente llegó sin un brazo. Se fue con dos mejores. Eso sí que es un avance.
+	Greet8: La carne se pudre. El cromo adecuado, no. Tenlo en cuenta antes de salir de aquí sin haberte implatado nada.
+	Greet9: El tiempo es dinero. El mío, concretamente. Dime lo que necesitas y sáltate la charla trivial.
+	Greet10: Las piezas nuevas necesitan un periodo de adaptación. Intenta no exponerte a fuego intenso durante unos días.
+	Greet11: El cuerpo no es más que una herramienta. Parece que el tuyo lleva un tiempo sin recibir mantenimiento.
 	ClinicButtonText: Clínica de ciberimplantes
 	ChatButtonText: Charla informal
 	LeaveButtonText: Salir
@@ -454,11 +456,6 @@ VictorClinicUI: {
 	LabelForSale: A LA VENTA
 	EmptyOwned: ( ninguno en el paquete )
 	EmptyShop: ( ya no hay nada más que vender )
-}
-
-SHPCDialogueBox: {
-	ContinueHint: Continuar
-	FastHint: Acelerar
 }
 
 EntrustManagerNotification: {
@@ -852,6 +849,10 @@ AcknowledgmentUI: {
 	MusicianRole: Músico
 	DonorRole: Donante
 	BalanceTesterRole: Testeador de balance
+	TitleText: Agradecimientos
+	SubtitleText: Calamity Overhaul · Todos los colaboradores
+	FinaleText: Gracias por acompañarnos en este viaje
+	ExitHintText: Mantén pulsada cualquier tecla para salir
 }
 
 CWRPlayer: {
