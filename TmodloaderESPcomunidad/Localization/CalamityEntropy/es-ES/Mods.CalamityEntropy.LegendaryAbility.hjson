@@ -13,17 +13,17 @@ TlipocasScytheLegend: {
 		TScytheA2B:
 			'''
 			Pulsa clic izquierdo para teletransportarte al cursor y lanzar un corte mayor.
-			Esta habilidad tiene un tiempo de enfriamiento de {0} segundos.
+			Esta habilidad tiene un tiempo de enfriamiento de 30 segundos.
 			'''
 		TScytheA3:
 			'''
 			Al lanzarla, pulsa clic derecho para que la guadaña siga tu cursor
-			Los ataques sigilosos te curarán 15 puntos
+			Los ataques sigilosos te curarán 7 puntos
 			'''
 		TScytheA4:
 			'''
-			El teletransporte cortante potenciará tu arma con el vacío en {0} segundos
-			{1} de daño al estar potenciado
+			El teletransporte cortante potenciará tu arma con el vacío en 8 segundos
+			+20 de daño al estar potenciado
 			'''
 		TScytheA5:
 			'''
@@ -34,7 +34,7 @@ TlipocasScytheLegend: {
 		TScytheA6: Deja una grieta al realizar un corte rápido. La grieta causará daño continuamente
 		TScytheA7: Resiste una golpe mortal y recupera la mitad de tu salud máxima. Tiene 5 minutos de enfriamiento
 		TScytheA8: Atacar puede causar toque del vacío
-		TScytheA9: Cuanto más cerca estés del objetivo, mayor será el daño provocado, con un daño adicional máximo del 35%
+		TScytheA9: Cuanto más cerca estés del objetivo, mayor será el daño provocado, con un daño adicional máximo del 25%
 	}
 
 	Downed: {
