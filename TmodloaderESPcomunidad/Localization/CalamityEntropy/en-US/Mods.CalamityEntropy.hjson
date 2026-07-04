@@ -185,7 +185,7 @@ Items: {
 				DisplayName: Scorching Chakram
 				Tooltip:
 					'''
-					Throw out a chakram that will explode into tracked tectinic shards after flying for a period of time
+					Throw out a chakram that will explode into tracked tectonic shards after flying for a period of time
 					Stealth strike will cause the chakram to launch some fireballs after stopping, 
 					then chase the nearest target and explode into more shards
 					'''
@@ -200,7 +200,7 @@ Items: {
 					Explode when hit a target
 					Stealth strike will recall all attached spikes,
 					and continuously throw them towards the cursor direction
-					Stealth strike hit will spawn tracking tectinic shard
+					Stealth strike hit will spawn tracking tectonic shard
 					Ignore 8 defense
 					'''
 			}
@@ -1396,7 +1396,11 @@ Items: {
 
 	AbyssalAltar: {
 		DisplayName: Abyssal Altar
-		Tooltip: ""
+		Tooltip:
+			'''
+			Used to craft some weapons and equipments
+			Right click with a wyrm tooth to summon the Primordial Wyrm
+			'''
 	}
 
 	Ystralyn: {
@@ -3851,7 +3855,7 @@ Items: {
 
 	GreatSwordofEmbers: {
 		DisplayName: Great Sword of Embers
-		Tooltip: Shattered into tracking tectinic shard on the fourth hit
+		Tooltip: Shattered into tracking tectonic shard on the fourth hit
 	}
 
 	AshesCore: {
@@ -3948,7 +3952,7 @@ Items: {
 
 	EmberBolt: {
 		DisplayName: Ember Bolt
-		Tooltip: Shoot explosive fireballs that will generate homing tectinic shards
+		Tooltip: Shoot explosive fireballs that will generate homing tectonic shards
 	}
 
 	RemnantsStaff: {
@@ -4033,6 +4037,26 @@ Items: {
 	AzafurePhonograph: {
 		DisplayName: Azafure Phonograph
 		Tooltip: ""
+	}
+
+	BuriedSun: {
+		DisplayName: Buried Sun
+		Tooltip:
+			'''
+			Burst-fire [c/f0ffe6:Sunfall Laser],
+			upon disappearing, generates [c/f0ffe6:Eclipse Spots]
+			Three adjacent spots will fire [c/f0ffe6:Sun Splinter] at nearby targets,
+			and converge together to fire a non-penetrating [c/f0ffe6:Sunfall Laser]
+			'''
+	}
+
+	BaXingChong: {
+		DisplayName: Ba Xing Chong
+		Tooltip:
+			'''
+			Launch lot of homing missile
+			[c/ff7f50:"Former owner of this gun? You mean that guy covered by cyberware except his brain?"]
+			'''
 	}
 }
 
@@ -4729,10 +4753,10 @@ Projectiles: {
 	ZafkielProj.DisplayName: Zafkiel
 	ApsychosTailShoot.DisplayName: Apsychos Tail Shoot
 	EmberSwordHoldout.DisplayName: Ember Sword Holdout
-	TectinicShardHoming.DisplayName: Tectinic Shard Homing
+	tectonicShardHoming.DisplayName: tectonic Shard Homing
 	AshesSpirit.DisplayName: Ashes Spirit
 	AshesSpiritFireball.DisplayName: Ashes Spirit Fireball
-	TectinicShardAshesCore.DisplayName: Tectinic Shard Ashes Core
+	tectonicShardAshesCore.DisplayName: tectonic Shard Ashes Core
 	ScorchingChakramThrown.DisplayName: Scorching Chakram Thrown
 	ScorchingFireball.DisplayName: Scorching Fireball
 	HellstoneMissileProj.DisplayName: Hellstone Missile Proj
@@ -4768,6 +4792,13 @@ Projectiles: {
 	GiantBoulderProj.DisplayName: Giant Boulder Proj
 	HallowedMissileProj.DisplayName: Hallowed Missile Proj
 	StarBreakerHeld.DisplayName: Star Breaker Held
+	BuriedSunHoldout.DisplayName: Buried Sun Holdout
+	BuriedShoot.DisplayName: Buried Shoot
+	BuriedDot.DisplayName: Buried Dot
+	BuriedShoot2.DisplayName: Buried Shoot2
+	TectinicShardAshesCore.DisplayName: Tectinic Shard Ashes Core
+	TectinicShardHoming.DisplayName: Tectinic Shard Homing
+	AcropolisTeslaBallWarn.DisplayName: Acropolis Tesla Ball Warn
 }
 
 LegendTooltip: - Legend -
@@ -5156,6 +5187,41 @@ Buffs: {
 	CombatDrone: {
 		DisplayName: Combat Drone
 		Description: It was once used in large-scale wars
+	}
+
+	CrystedgeWhipDebuff: {
+		DisplayName: Crystedge Whip Debuff
+		Description: Mods.CalamityEntropy.Buffs.CrystedgeWhipDebuff.Description
+	}
+
+	DaylightWhipDebuff: {
+		DisplayName: Daylight Whip Debuff
+		Description: Mods.CalamityEntropy.Buffs.DaylightWhipDebuff.Description
+	}
+
+	ForeseeWhipDebuff: {
+		DisplayName: Foresee Whip Debuff
+		Description: Mods.CalamityEntropy.Buffs.ForeseeWhipDebuff.Description
+	}
+
+	LashingBramblerodWhipDebuff: {
+		DisplayName: Lashing Bramblerod Whip Debuff
+		Description: Mods.CalamityEntropy.Buffs.LashingBramblerodWhipDebuff.Description
+	}
+
+	MindCorruptorWhipDebuff: {
+		DisplayName: Mind Corruptor Whip Debuff
+		Description: Mods.CalamityEntropy.Buffs.MindCorruptorWhipDebuff.Description
+	}
+
+	SinewLashWhipDebuff: {
+		DisplayName: Sinew Lash Whip Debuff
+		Description: Mods.CalamityEntropy.Buffs.SinewLashWhipDebuff.Description
+	}
+
+	WhipOfEvilKingWhipDebuff: {
+		DisplayName: Whip Of Evil King Whip Debuff
+		Description: Mods.CalamityEntropy.Buffs.WhipOfEvilKingWhipDebuff.Description
 	}
 }
 
@@ -6134,7 +6200,7 @@ AzafureEnhances: {
 	AzafurePioneerCannon: Increase the upper limit of ammunition loading
 	AzafureProtectiveCannon: Reduce cooldown time
 	AzafurePulseWand: Increase tag limit and search range
-	AzafureRailgun: Increase the number of small tracking bullets
+	AzafureRailgun: Increase the number of small tracking bullets base on durability
 	AzafureSurgeRod: The projectile can deliver an additional electric shock to a target
 	AzafureTeslaGun: Increase arc damage
 	AzafureElectrocauteryWand: Increase charging speed
