@@ -55,6 +55,23 @@ HalibutText: {
 		StudyingLabel: Investigando
 	}
 
+	HalibutHudLead: {
+		HudTitle: Ojo Abisal
+		HudBody: Mientras se mantiene a Halibut, este ojo aparece en la esquina inferior izquierda, mostrando tus niveles de habilidad, resurrección y dominio.
+		HudPrompt: Haz clic izquierdo sobre el ojo o pulsa {0} para abrir el Atlas abisal.
+		HudOpenBtn: Abrir Atlas
+		ResearchTitle: Altar de investigación
+		ResearchBody: Deja un pez que hayas capturado en el altar para investigarlo y desbloquear la habilidad correspondiente.
+		ResearchPrompt: Haz clic en el Altar de investigación resaltado y elige un pez para estudiarlo.
+		EquipTitle: Equipamiento
+		EquipBody: Esa fila de la parte inferior es tu equipamiento; las habilidades investigadas se colocan aquí, hasta un máximo de 10.
+		EquipWaiting: Investigando... La habilidad se añadirá a tu equipamiento cuando hayas terminado.
+		WheelTitle: Rueda de habilidades
+		WheelBody: Una vez equipada una habilidad, puedes cambiar tu habilidad activa sobre la marcha durante el combate
+		WheelPrompt:  Mantén pulsado {0} para abrir el menú de habilidades; pruébalo.
+		SkipBtn: Saltar
+	}
+
 	DomainUI: {
 		TitleText: Dominio abisal
 		ExtraEyeTitleText: La  décima  capa
