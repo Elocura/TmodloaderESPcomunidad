@@ -30,19 +30,15 @@ QuestTracker: {
 	}
 }
 
-SeaDialogueBox: {
+DialogueSystem: {
 	ContinueHint: Continue
 	FastHint: Accelerate
-}
-
-BrimstoneDialogueBox: {
-	ContinueHint: Continue
-	FastHint: Accelerate
-}
-
-DraedonDialogueBox: {
-	ContinueHint: Continue
-	FastHint: Accelerate
+	AutoHint: Auto
+	SkipHint: Skip
+	BacklogHint: BACKLOG
+	ClaimHint: Click to claim
+	PopupContinueHint: Click to continue
+	ChoiceTitle: Choose
 }
 
 ExoMechdusaSumRender: {
@@ -74,9 +70,12 @@ DraedonCallUI: {
 	DisabledReasonText: Draedon Has Been Called
 }
 
-TzeentchDialogueBox: {
-	ContinueHint: Continue
-	FastHint: Accelerate
+DraedonShopUI: {
+	TitleText: DRAEDON.EXCHANGE
+	FundsLabelText: BALANCE
+	BuyActionText: BUY
+	HintText: "[LMB] Buy · Hold to repeat · [ESC] Close"
+	EmptyText: No goods available for exchange
 }
 
 EnchantUI: {
@@ -124,11 +123,6 @@ ChargingStationUI: {
 	StationText2: Only accepts Draedon Power Cells!
 }
 
-SulfseaDialogueBox: {
-	ContinueHint: Continue
-	FastHint: Accelerate
-}
-
 OldDukeShopUI: {
 	TitleText: Old Duke's Shop
 	CurrencyName: Ocean Scraps
@@ -157,6 +151,12 @@ QuestLog: {
 	SunModeText: Daytime Mode
 	LauncherHoverText: Left-click to interact, right-click to drag
 	QuestManagerText: Commission
+
+	ObjectiveTemplate: {
+		DefeatNpc: Defeat {0}
+		ObtainItem: Obtain {0}
+		CollectItem: Collect {0} {1}
+	}
 }
 
 QuestNotificationSystem.Text1: Quest Complete
@@ -363,11 +363,6 @@ TransitionScene: {
 	Hint9: Machines do not betray, but those who control them might.
 }
 
-StarStreamDialogueBox: {
-	ContinueHint: Continue
-	FastHint: Fast Forward
-}
-
 ApolliaHeroPanelUI: {
 	TitleText: Apollia
 	HPLabel: HP
@@ -441,6 +436,14 @@ VictorTalkUI: {
 	Greet1: Want a stronger body? Steel never betrays you - only your wallet does.
 	Greet2: I have seen too many fools soak up bullets with flesh. Now they only live on in my memory... and on my operating table.
 	Greet3: Brain, eyes, limbs - if the price is right, there is nothing I cannot replace.
+	Greet4: You still have both original eyes. Interesting. Most people fix that first.
+	Greet5: Don't touch anything on that tray. Half of it is sterile. The other half is worse.
+	Greet6: I don't ask where you got the damage. I just make sure it does not happen the same way twice.
+	Greet7: Last customer came in missing an arm. Left with two better ones. That is progress.
+	Greet8: Flesh rots. The right chrome does not. Keep that in mind before you walk out of here unchanged.
+	Greet9: Time is money. Mine, specifically. Tell me what you need and skip the small talk.
+	Greet10: New parts need breaking in. Try not to take heavy fire for a few days.
+	Greet11: The body is just a tool. Yours looks like it has skipped maintenance for a while.
 	ClinicButtonText: Cyberware Clinic
 	ChatButtonText: Small Talk
 	LeaveButtonText: Leave
@@ -454,11 +457,6 @@ VictorClinicUI: {
 	LabelForSale: FOR SALE
 	EmptyOwned: ( none in pack )
 	EmptyShop: ( nothing more to sell )
-}
-
-SHPCDialogueBox: {
-	ContinueHint: Continue
-	FastHint: Fast Forward
 }
 
 EntrustManagerNotification: {
@@ -852,6 +850,10 @@ AcknowledgmentUI: {
 	MusicianRole: Musician
 	DonorRole: Donor
 	BalanceTesterRole: Balance Tester
+	TitleText: Acknowledgments
+	SubtitleText: Calamity Overhaul · All Contributors
+	FinaleText: Thank you for journeying with us
+	ExitHintText: Hold any key to exit
 }
 
 CWRPlayer: {

@@ -62,6 +62,23 @@ HalibutText: {
 		StudyingLabel: Researching
 	}
 
+	HalibutHudLead: {
+		HudTitle: Abyssal Eye
+		HudBody: While the Halibut is held, this eye sits at the lower-left, showing your skill, resurrection and domain layers
+		HudPrompt: Left-click the eye, or press {0} to open the Abyssal Atlas
+		HudOpenBtn: Open Atlas
+		ResearchTitle: Research Altar
+		ResearchBody: Drop a caught fish onto the altar to research it and unlock the matching skill
+		ResearchPrompt: Click the highlighted Research Altar and pick a fish to study
+		EquipTitle: Loadout
+		EquipBody: That row of sockets at the bottom is your loadout; researched skills land here, up to 10
+		EquipWaiting: Researching... the skill is added to your loadout when done
+		WheelTitle: Skill Wheel
+		WheelBody: Once a skill is equipped, swap your active skill on the fly in combat
+		WheelPrompt: Hold {0} to summon the skill wheel — give it a try
+		SkipBtn: Skip
+	}
+
 	DomainUI: {
 		TitleText: Abyssal Domain
 		ExtraEyeTitleText: The  Tenth  Layer
