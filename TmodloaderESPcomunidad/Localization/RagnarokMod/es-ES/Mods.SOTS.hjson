@@ -1,0 +1,99 @@
+VisionAmuletTextList: {
+	4: Aumenta el daño de los golpes críticos en un 5% que se mejora hasta el 10% en el modo difícil
+	6:
+		'''
+		Aumenta la vida máxima en20
+		Aumenta el daño en un 5%. En el modo difícil, este aumento pasa a ser del 10%
+		'''
+}
+
+VisionAmuletTextList2: {
+	1:
+		'''
+
+		Reduce el coste de maná en un 20%. En el modo difícil, este aumento pasa a ser del 25%
+		'''
+	3:
+		'''
+
+		Permite acceder a las estaciones Banco de trabajo, Horno y Yunque
+		También permite acceder a la estación Mesa de alquimia en el modo difícil
+		Aumenta el maná máximo y el maná obtenido de las pociones en 40
+		'''
+	4:
+		'''
+
+		Aumenta todo el daño en un 10% respecto a los aumentos recibidos para cualquier otro tipo de daño procedentes de otras fuentes
+		'''
+	5:
+		'''
+
+		La eficacia de la defensa del enemigo se reduce en un 5%, que aumenta hasta un 10% en el modo difícil
+		'''
+}
+
+NPCs.CorpseBloom.DisplayName: Rotbloom
+
+Items: {
+	Sharanga.DisplayName: Kodanda
+	Dreamcatcher.DisplayName: Talismán de los sueños
+	EnchantedPickaxe.DisplayName: Pico místico
+	VigorPotion.Tooltip: Otorga la capacidad de realizar 25 dashes
+	HarvestersScythe.Tooltip:
+		'''
+		Aumenta el daño de los golpes críticos en un 5%
+		Los enemigos tienen un 10% de probabilidad de soltar el doble de botín,que sube a un 20% si mueren por un golpe crítico
+		'''
+	RockCandy.Tooltip:
+		'''
+		Aumenta la potencia del pico en 
+		Aumenta la velocidad de minadp, la velocidad de ataque cuerpo a cuerpo y la velocidad de movimiento en un 5%
+		'''
+	HydrokineticAntennae.Tooltip:
+		'''
+		Utiliza la hidrocinética para ampliar el alcance efectivo de las armas cuerpo a cuerpo y otros objetos de corto alcance, como los látigos
+		Reduce el daño cuerpo a cuerpo verdadero en un 15%
+		'''
+	FrostArtifactHelmet.Tooltip: Aumenta un 15% el daño cuerpo a cuerpo y a distancia
+	FrostArtifactChestplate.Tooltip: Aumenta un 15% la probabilidad de golpe crítico cuerpo a cuerpo y a distancia
+
+	ElementalBreastplate: {
+		DisplayName: Coraza elemental
+		Tooltip: TEMP
+		TooltipExt:
+			'''
+			Aumenta el daño cuerpo a cuerpo y el de invocaciones en un 10%
+			Aumenta la regeneración de vida en 4
+			Pulsa '{0}' para teletransportarte hasta la posición del cursor, infligiendo a todos los enemigos que se encuentren en tu camino un daño equivalente al 200% de tu defensa
+			Tiene un tiempo de enfriamiento de 15 segundos, pero aumenta la velocidad de ataque cuerpo a cuerpo en un 40% durante dicho enfriamiento
+			'''
+	}
+}
+
+ArmorSetBonus.Earthen:
+	'''
+	Los golpes cuerpo a cuerpo tienen una probabilidad de aplicar a los enemigos un efecto de desgarro permanente y acumulable, lo que hace que reciban daño adicional de todos los ataques
+	Aumenta la velocidad de ataque en un 10%
+	'''
+TwilightAssassinsCircletText:
+	'''
+	Aumenta el número máximo de centinelas en 1
+	Aumenta el daño de los súbditos y el daño cuerpo a cuerpo en un 7%
+	Aumenta el nivel máximo de vacío en 50
+	Proporciona un esbirro Ojo Holo para ayudar en combate
+	Pulsa '{0}'para que lance un rayo desestabilizador que aplica 4 niveles de desestabilizado, pero solo una vez por enemigo
+	Los enemigos desestabilizados tienen un 5% de probabilidad fija de recibir un golpe crítico
+	Cuesta 6 de vacío lanzarlo
+	El Ojo Holo permanece activo en el inventario cuando se marca como favorito o mientras se lleva en las ranuras de vanidad, pero no puede atacar
+	'''
+TwilightAssassinsCircletText2:
+	'''
+	Aumenta el número máximo de centinelas en 1
+	Aumenta el daño de los súbditos y el daño cuerpo a cuerpo en un 7%
+	Aumenta el nivel máximo de vacío en 50
+	Proporciona un esbirro Ojo Holo para ayudar en combate
+	Pulsa '{0}'para que lance un rayo desestabilizador que aplica 4 niveles de desestabilizado, pero solo una vez por enemigo
+	Los enemigos desestabilizados tienen un 5% de probabilidad fija de recibir un golpe crítico
+	Cuesta 6 de vacío lanzarlo
+	El Ojo Holo permanece activo en el inventario cuando se marca como favorito o mientras se lleva en las ranuras de vanidad, pero no puede atacar
+	'''

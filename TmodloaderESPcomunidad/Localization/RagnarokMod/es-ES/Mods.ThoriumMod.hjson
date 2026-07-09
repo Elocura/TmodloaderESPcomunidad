@@ -1,0 +1,604 @@
+Buffs: {
+	NinjaBuff.Description: La velocidad de ataque de arrojador by 20%,aumenta un 20% y la probabilidad de golpe crítico de arrojador aumenta un 10%.
+	BloodRush.Description: Aumenta un 15% en la velocidad de minado
+}
+
+Items: {
+	CapeoftheSurvivor: {
+		DisplayName: Cabo del superviviente
+		Tooltip:
+			'''
+			"El propio tejido de esta capa ha sido diseñado para ayudarte a superar los días más difíciles"
+			Con el tiempo, obtienes rápidamente hasta un 15% de reducción de daño
+			Si recibes un golpe, esta bonificación se reduce temporalmente a un -10% 
+			Mientras esta bonificación sea superior al 0%, recuperas hasta 2 puntos de vida
+			'''
+	}
+
+	/*
+	ScryingGlass: {
+	DisplayName: Cristal adivinatorio
+	Tooltip: Al pulsar la tecla'{$Keybinds.AccessoryAbility.DisplayName}' activará o desactivará un mayor campo de visión
+	}
+	*/
+	
+	ShootingStarHat.SetBonus:
+		'''
+		Las potenciaciones sinfónicas duran 6 segundos más
+		Cada potenciación única que tengas aumenta tu daño sinfónico en un 2,5%
+		Cada potenciación única que tengas aumenta tu regeneración de inspiración en un 2%
+		'''
+
+	SoulofPlight: {
+		DisplayName: Alma de rencor
+		Tooltip: "'La esencia de las criaturas malditas'"
+	}
+
+	SoulofPlightinaBottle: {
+		DisplayName: Alma de rencor en una botella
+		Tooltip: ""
+	}
+
+	KeyofPlight: {
+		DisplayName: Llave del rencor
+		Tooltip: "'Cargado con la esencia de muchas almas'"
+	}
+
+	MasterMarksmansScouter.Tooltip:
+		'''
+		"La pólvora acabará con los débiles"
+		Se detectará al enemigo más cercano, y recibirá un 10% más de daño de todas las fuentes
+		Tu daño a distancia aplica llamas malditas a los enemigos
+		'''
+	AssassinsGuard.Tooltip:
+		'''
+		Aumenta un 16% el daño a distancia
+		Aumenta un 15% la probabilidad de golpe crítico a distancia
+		Se reduce en un 25% la probabilidad de gastar munición
+		'''
+
+	Kinetoscythe: {
+		DisplayName: Guadaña cinética
+		Tooltip:
+			'''
+			Hace girar rápidamente una guadaña de alta tecnología a tu alrededor
+			Presiona <right> para generar una guadaña de energía giratoria estacionaria
+			El arma gira mientras la guadaña de energía esté activa para que impacte en los enemigos. 
+			'''
+	}
+
+	BlackMIDI: {
+		DisplayName: MIDI negro
+		Tooltip:
+			'''
+			Lanza rápidamente una oleada de ruido hacia el cursor
+			El ruido amarillo cura al usuario un 0,5% del daño infligido
+			'''
+	}
+
+	DreamCatcher: {
+		DisplayName: Atrapasueños
+		Tooltip:
+			'''
+			Invoca un atrapasueños en la ubicación del cursor
+			Si permaneces dentro del atrapasueños, recuperarás el 20% de tu vida máxima si recibes daño letal
+			Los jugadores revividos verán reducidas temporalmente sus estadísticas y no podrán revivir de nuevo durante 2 minutos
+			"Para atrapar y acunar las esperanzas del mundo..."
+			'''
+	}
+
+	HereticBreaker: {
+		DisplayName: Rompeherejes
+		Tooltip: Roba 3 puntos de vida
+	}
+
+	CrystalHoney: {
+		DisplayName: Miel cristalina
+		Tooltip:
+			'''
+			Aumenta la vida máxima en 20
+			Aumenta el daño radiante en un 5%
+			Aumenta la probabilidad de golpe crítico radiante en un 5%
+			'''
+	}
+
+	DarkGlaze: {
+		DisplayName: Glaseado oscuro
+		Tooltip:
+			'''
+			"Endiabladamente dulce"
+			Potencia ciertos ataques radiantes con energía oscura
+			Aumenta la vida máxima en 20
+			Aumenta el daño radiante en un 10%
+			Aumenta la probabilidad de golpe crítico radiante en un 5%
+			'''
+	}
+
+	DemonTongue: {
+		DisplayName: Lengua de demonio
+		Tooltip:
+			'''
+			Potencia ciertos ataques radiantes con energía oscura
+			Aumenta el daño radiante en un 10%
+			Reduce a la mitad el coste de vida radiante, pero no su efecto de transferencia de vida
+			'''
+	}
+
+	ArchDemonCurse: {
+		DisplayName: Maldición del archidemonio
+		Tooltip:
+			'''
+			Potencia ciertos ataques radiantes con energía oscura
+			Aumenta la vida máxima en 20
+			Aumenta la velocidad de ataque radiante en un 10% 
+			Aumenta el daño radiante en un 10%
+			Aumenta la probabilidad de golpe crítico radiante en un 5%
+			'''
+	}
+
+	FlightMask.Tooltip:
+		'''
+		Aumenta el daño de arrojador en un 10%
+		Aumenta la probabilidad de golpe crítico de arrojador en un 5%
+		"El cielo es tu campo de juego"
+		'''
+	FlightMail.Tooltip:
+		'''
+		Aumenta el daño de arrojador en un 3%
+		"El cielo es tu campo de juego"
+		'''
+
+	BronzeHelmet: {
+		DisplayName: Casco de bronce
+		Tooltip:
+			'''
+			Aumenta la probabilidad de golpe crítico de arrojador en un 6%
+			Aumenta dun 10% la velocidad de las armas arrojadizas 
+			'''
+	}
+
+	BronzeBreastplate: {
+		DisplayName: Coraza de bronce
+		Tooltip: Aumenta el daño de arrojador en un 10%
+	}
+
+	BronzeGreaves: {
+		DisplayName: Grebas de bronce
+		Tooltip:
+			'''
+			Aumenta el daño de arrojador en un 10%
+			Aumenta un 10% la velocidad de movimiento
+			'''
+	}
+
+	PlagueDoctorsMask: {
+		DisplayName: Máscara de médico de la peste
+		Tooltip:
+			'''
+			"¿Qué brebaje tan repugnante estarás preparando?"
+			Aumenta el daño de arrojador en un 5%
+			Hay un 33% de probabilidad de no consumir los objetos arrojables
+			Aumenta tus puntos de técnica máximos en 1
+			'''
+	}
+
+	PlagueDoctorsGarb: {
+		DisplayName: Traje de médico de la peste
+		Tooltip:
+			'''
+			"¿Qué brebaje tan repugnante estarás preparando?"
+			Aumenta el daño de arrojador en un 15%
+			Aumenta un 10% la velocidad de las armas arrojadizas 
+			'''
+	}
+
+	PlagueDoctorsLeggings: {
+		DisplayName: Mallas del médico de la peste
+		Tooltip:
+			'''
+			"¿Qué brebaje tan repugnante estarás preparando?"
+			Aumenta el daño de arrojador en un 10%
+			Aumenta la probabilidad de golpe crítico de arrojador en un 10%
+			'''
+	}
+
+	FungusHat: {
+		DisplayName: Gorro de hongo
+		Tooltip:
+			'''
+			Aumenta el daño de arrojador en un 15%
+			Hay un 33% de probabilidad de no consumir los objetos arrojables
+			Aumenta tus puntos de técnica máximos en 1
+			'''
+	}
+
+	FungusGuard: {
+		DisplayName: Protector de hongo
+		Tooltip: Aumenta el daño de arrojador en un 10%
+	}
+
+	HallowedGuise: {
+		DisplayName: Apariencia sagrada
+		Tooltip:
+			'''
+			Aumenta el daño de arrojador en un 10%
+			Aumenta la probabilidad de golpe crítico de arrojador en un 8%
+			'''
+	}
+
+	LichCarapace: {
+		DisplayName: Caparazón de Lich
+		Tooltip:
+			'''
+			"Acepta la muerte..."
+			Aumenta el daño de arrojador en un 15%
+			Aumenta un 30% la velocidad de las armas arrojadizas 
+			'''
+	}
+
+	LichTalon: {
+		DisplayName: Garras de Lich
+		Tooltip:
+			'''
+			"Acepta la muerte..."
+			Aumenta el daño de arrojador en un 10%
+			Aumenta la probabilidad de golpe crítico de arrojador en un 10%
+			'''
+	}
+
+	ShadeMasterMask: {
+		DisplayName: Máscara del maestro de las sombras
+		Tooltip:
+			'''
+			"Vive en las sombras y ataca con precisión"
+			Aumenta el daño de arrojador en un 10%
+			Hay un 33% de probabilidad de no consumir los objetos arrojables
+			Aumenta tus puntos de técnica máximos en 2
+			'''
+	}
+
+	ShadeMasterGarb: {
+		DisplayName: Atuendo del Maestro de las sombras
+		Tooltip:
+			'''
+			"Vive en las sombras y ataca con precisión"
+			Aumenta el daño de arrojador en un 15%
+			Aumenta un 30% la velocidad de las armas arrojadizas 
+			'''
+	}
+
+	ShadeMasterTreads: {
+		DisplayName: Huellas del Maestro de las sombras
+		Tooltip:
+			'''
+			"Vive en las sombras y ataca con precisión"
+			Aumenta el daño de arrojador en un 10%
+			Aumenta la probabilidad de golpe crítico de arrojador en un 15%
+			Aumenta un 15% la velocidad de movimiento
+			'''
+	}
+
+	WhiteDwarfMask: {
+		DisplayName: Máscara de enano blanco
+		Tooltip:
+			'''
+			Aumenta el daño de arrojador en un 15%
+			Hay un 33% de probabilidad de no consumir los objetos arrojables
+			Aumenta tus puntos de técnica máximos en 2
+			'''
+	}
+
+	WhiteDwarfGuard: {
+		DisplayName: Guardia del enano blanco
+		Tooltip:
+			'''
+			Aumenta el daño de arrojador en un 10%
+			Aumenta un 30% la velocidad de las armas arrojadizas 
+			'''
+	}
+
+	WhiteDwarfGreaves: {
+		DisplayName: Grebas de enano blanco
+		Tooltip:
+			'''
+			Aumenta el daño de arrojador en un 10%
+			Aumenta la probabilidad de golpe crítico de arrojador en un 20%
+			Aumenta un 20% la velocidad de movimiento
+			'''
+	}
+
+	IridescentHelmet: {
+		DisplayName: Casco iridiscente
+		Tooltip: Aumenta la probabilidad de golpe crítico radiante en un 5%
+	}
+
+	IridescentMail: {
+		DisplayName: Cota de malla iridiscente
+		Tooltip:
+			'''
+			Aumenta el daño radiante en un 10%
+			Aumenta la probabilidad de golpe crítico radiante en un 2%
+			Los hechizos de curación curarán 1 punto de vida adicional
+			'''
+	}
+
+	IridescentGreaves: {
+		DisplayName: Grebas iridiscentes
+		Tooltip:
+			'''
+			Aumenta el daño radiante en un 5%
+			Aumenta un 8% la velocidad de movimiento
+			Los hechizos de curación curarán 1 punto de vida adicional
+			'''
+	}
+
+	BloomingTabard: {
+		DisplayName: Tabardo en flor
+		Tooltip:
+			'''
+			Reduce un 10% el daño no radiante
+			Aumenta el daño radiante en un 5%
+			Aumenta de forma moderada la regeneración de maná
+			Los hechizos de curación curarán 2 puntos de vida adicionales
+			'''
+	}
+
+	BioTechGarment: {
+		DisplayName: Prenda biotecnológica
+		Tooltip:
+			'''
+			Reduce un 25% el daño no radiante
+			Aumenta el daño radiante en un 25%
+			Aumenta la regeneración de maná
+			Reduce un 10% el coste de maná
+			Los hechizos de curación curarán 3 puntos de vida adicionales
+			'''
+	}
+
+	WarlockHood: {
+		DisplayName: Capucha de brujo
+		Tooltip:
+			'''
+			Corrompe tus poderes radiantes
+			Reduce un 10% el daño no radiante
+			Aumenta el daño radiante en un 10%
+			Aumenta la probabilidad de golpe crítico radiante en un 7%
+			El maná máximo aumenta en 20
+			Los hechizos de curación curarán 1 punto de vida adicional
+			'''
+	}
+
+	WarlockGarb: {
+		DisplayName: Traje de brujo
+		Tooltip:
+			'''
+			Reduce un 15% el daño no radiante
+			Aumenta el daño radiante en un 15%
+			Aumenta la probabilidad de golpe crítico radiante en un 7%
+			Los hechizos de curación curarán 2 puntos de vida adicionales
+			'''
+	}
+
+	WarlockLeggings: {
+		DisplayName: Mallas de brujo
+		Tooltip:
+			'''
+			Reduce un 12% el daño no radiante
+			Aumenta el daño radiante en un 12%
+			Se reduce el coste de maná en un 15%
+			Los hechizos de curación curarán 1 punto de vida adicional
+			'''
+	}
+
+	FallenPaladinFaceguard: {
+		DisplayName: Guarda-cara del paladín caído
+		Tooltip:
+			'''
+			Reduce un 10% el daño no radiante
+			Aumenta el daño radiante en un 10%
+			Aumenta la probabilidad de golpe crítico radiante en un 3%
+			Aumenta la regeneración de vida
+			'''
+	}
+
+	FallenPaladinCuirass: {
+		DisplayName: Coraza del paladín caído
+		Tooltip:
+			'''
+			Reduce un 20% el daño no radiante
+			Aumenta el daño radiante en un 20%
+			Aumenta la probabilidad de golpe crítico radiante en un 8%
+			Aumenta un 15% la reducción de daño
+			Los hechizos de curación curarán 2 puntos de vida adicionales
+			'''
+	}
+
+	FallenPaladinGreaves: {
+		DisplayName: Grebas del paladín caído
+		Tooltip:
+			'''
+			Reduce un 15% el daño no radiante
+			Aumenta el daño radiante en un 15%
+			Aumenta la probabilidad de golpe crítico radiante en un 4%
+			Se reduce el coste de maná en un 15%
+			Aumenta un 20% la velocidad de movimiento
+			Los hechizos de curación curarán 1 punto de vida adicional
+			'''
+	}
+
+	WhisperingHood: {
+		DisplayName: Capucha susurrante
+		Tooltip:
+			'''
+			Corrompe tus poderes radiantes
+			Reduce un 20% el daño no radiante
+			Aumenta el daño radiante en un 20%
+			Aumenta la probabilidad de golpe crítico radiante en un 10%
+			Aumenta el maná máximo en 40
+			Los hechizos de curación curarán 1 punto de vida adicional
+			'''
+	}
+
+	WhisperingTabard: {
+		DisplayName: Tabardo susurrante
+		Tooltip:
+			'''
+			Reduce un 25% el daño no radiante
+			Aumenta el daño radiante en un 25%
+			Aumenta la probabilidad de golpe crítico radiante en un 8%
+			Los hechizos de curación curarán 2 puntos de vida adicionales
+			'''
+	}
+
+	WhisperingLeggings: {
+		DisplayName: Mallas susurrantes
+		Tooltip:
+			'''
+			Reduce un 15% el daño no radiante
+			Aumenta el daño radiante en un 15%
+			Se reduce el coste de maná en un 15%
+			Los hechizos de curación curarán 1 punto de vida adicional
+			'''
+	}
+
+	DreamWeaversHelmet: {
+		DisplayName: Casco del Tejedor de sueños
+		Tooltip:
+			'''
+			"Ata a los enemigos de tu futuro en una agonía temporal"
+			Corrompe tus poderes radiantes
+			Reduce un 45% el daño no radiante
+			Aumenta el daño radiante en un 45%
+			Aumenta la probabilidad de golpe crítico radiante en un 36%
+			Aumenta el maná máximo en 20
+			'''
+	}
+
+	DreamWeaversHood: {
+		DisplayName: Capucha del Tejedor de sueños
+		Tooltip:
+			'''
+			"Haz realidad tus sueños más preciados con la ayuda de tus aliados"
+			Reduce un 25% el daño no radiante
+			Aumenta el daño radiante en un 30%
+			Aumenta la probabilidad de golpe crítico radiante en un 16%
+			Se reduce el coste de maná en un 35%
+			Aumenta considerablemente la regeneración de maná
+			Aumenta el maná máximo en 60
+			Los hechizos de curación curarán 6 puntos de vida adicionales
+			'''
+	}
+
+	DreamWeaversTabard: {
+		DisplayName: Tabardo del Tejedor de sueños
+		Tooltip:
+			'''
+			Reduce un 25% el daño no radiante
+			Aumenta el daño radiante en un 25%
+			Aumenta la probabilidad de golpe crítico radiante en un 14%
+			Se reduce el coste de maná en un 20%
+			Aumenta considerablemente la regeneración de maná
+			Los hechizos de curación curarán 2 puntos de vida adicionales
+			'''
+	}
+
+	TideTurnersGaze: {
+		DisplayName: Corona de las profundidades de Tide Turner
+		Tooltip:
+			'''
+			"Desata la furia acuática sobre tus enemigos"
+			Aumenta el daño de arrojador en un 35%
+			Hay un 50% de probabilidad de no consumir los objetos arrojables
+			Aumenta tus puntos de técnica máximos en 2
+			El daño de arrojador aumenta temporalmente el daño que recibe el enemigo en un 10%
+			Genera una glóbulo flotante cada segundo
+			Cada glóbulo hace que tu próximo ataque sea un minicrítico, en el caso de que no sea un crítico
+			'''
+	}
+
+	TideTurnerBreastplate: {
+		DisplayName: Guarda de las profunidades de Tide Turner
+		Tooltip:
+			'''
+			Aumenta un 15% el daño cuerpo a cuerpo y de arrojador
+			Aumenta un 10% la velocidad de ataque cuerpo a cuerpo
+			Aumenta un 16% la probabilidad de golpe crítico cuerpo a cuerpo y de arrojador
+			'''
+	}
+
+	TideTurnerGreaves: {
+		DisplayName: Caminadores de las profundidades de Tide Turner
+		Tooltip:
+			'''
+			Aumenta un 10% el daño cuerpo a cuerpo y de arrojador
+			Aumenta un 20% la velocidad de ataque cuerpo a cuerpo
+			 Aumenta un 30% la velocidad de movimiento
+			'''
+	}
+
+	MagmaSeersMask.Tooltip:
+		'''
+		"Dirige un ejército reforzado con magma"
+		Aumenta un 50% el daño de invocación
+		Aumenta en 2 el número máximo de súbditos y centinelas
+		Aumenta el empuje de los súbditos
+		'''
+	CursedFlailCore.Tooltip:
+		'''
+		Las armas de mayal lanzan una bola de púas malditas al primer impacto
+		Los impactos posteriores tienen la posibilidad de lanzar más bolas de púas malditas
+		Las bolas infligen llamas malditas a los enemigos a los que causan daño
+		'''
+	VileFlailCore.Tooltip:
+		'''
+		Las armas de mayal lanzan una bola de púas maligns al primer impacto
+		Los impactos posteriores tienen la posibilidad de lanzar más bolas de púas malignas.
+		Las bolas aplican icor a los enemigos dañados
+		'''
+	IronFlailCore.Tooltip:
+		'''
+		Las armas de mayal lanzan una bola con púas rodante al primer impacto
+		Los impactos posteriores tienen la posibilidad de lanzar más bolas con púas rodantes
+		'''
+	BloomingShield.Tooltip:
+		'''
+		Generas constantemente un escudo de 20 puntos de vida
+		Los hechizos de curación te curarán 1 punto de vida adicional, o 2 si el escudo está al máximo
+		Fuera de combate, tu recuperación de vida aumentará hasta 5 puntos con el paso del tiempo
+		'''
+	AstroBeetleHusk.Tooltip:
+		'''
+		El daño recibido se reduce en un 5%
+		Generas constantemente un escudo de 50 puntos de vida
+		'''
+}
+
+ThrowerTechniques: {
+	Decoy: {
+		DisplayName: Carnada
+		Description:
+			'''
+			Invoca un señuelo al enemigo para obtener una mayor velocidad de ataque durante un segundo
+			El señuelo intentará atraer la atención de los enemigos cercanos
+			'''
+	}
+
+	BloodLotus: {
+		DisplayName: Loto sangriento
+		Description:
+			'''
+			Quédate quieto para lanzar una lluvia de cuchillos contra el enemigo más cercano
+            Cada cuchillo te cura hasta un 10% del daño infligido
+            La lluvia otorga al jugador 100 de defensa, pero desaparece al recibir daño
+			'''
+	}
+
+	SmokeBomb: {
+		DisplayName: Bomba de humo
+		Description:
+			'''
+			Lanza una bomba de humo
+			Las bombas de humo te otorgan inmunidad al daño y una mayor velocidad de ataque durante 2 segundos
+			'''
+	}
+}

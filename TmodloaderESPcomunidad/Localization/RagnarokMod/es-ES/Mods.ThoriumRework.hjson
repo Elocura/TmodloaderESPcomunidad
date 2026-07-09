@@ -1,0 +1,44 @@
+Items: {
+	ImpulseAmplifier.Tooltip:
+		'''
+		Los proyectiles de los instrumentos electrónicos son considerablemente más rápidos e infligen [cbuff:Electrified] al primer impacto
+		Además, al primer impacto, los proyectiles de los instrumentos electrónicos provocan una cadena de rayos que inflige un 10% de daño al enemigo más cercano
+		'''
+	FanDonations.Tooltip:
+		'''
+		Todos los ataques con instrumentos explotan al impactar; el tamaño de la explosión varía e inflige un 50% menos de daño crítico
+		Los ataques penetrantes con instrumentos de cuerda aumentan de velocidad con cada impacto y ya no pierden daño
+		Ciertos ataques de instrumentos de cuerda que activan efectos al chocar contra un bloque también se activan al impactar
+		Los ataques de instrumentos de percusión lanzan martillos hacia arriba que, al final, caen
+		Los proyectiles de los instrumentos electrónicos son significativamente más rápidos e infligen [cbuff:Electrified] al primer impacto
+		Los proyectiles de los instrumentos electrónicos también, al primer impacto, provocan una cadena de rayos que inflige un 10% de daño al enemigo más cercano
+		Aumenta la inspiración máxima en 5
+		'''
+	LunateCharm.Tooltip:
+		'''
+		Al obtener Ganancia de alma, se obtiene un escudo cuando la salud está al máximo.
+		Elimina la penalización de daño radiante de la desventaja [cbuff:InfernalEclipseAPI/BrokenOath]
+		'''
+	SealedContract.Tooltip:
+		'''
+		La vida máxima aumenta en 60
+		Los hechizos de curación otorgan 5 puntos de vida adicionales
+		Al obtener Ganancia de alma, se obtiene un escudo cuando la salud está al máximo
+		Elimina la penalización de daño radiante de la desventaja [cbuff:InfernalEclipseAPI/BrokenOath]
+		Al obtener Ganancia de alma con guadañas radiantes, se obtiene una acumulación de carga agregada
+		El daño radiante de los proyectiles de guadañas o de armas que no sean guadañas consume carga agregada para otorgar Ganancia de alma
+		"¡Cierra el trato!"
+		'''
+}
+
+ItemDescriptions: {
+	TideTurnerGreaves: ""
+	PyromancerTabard:
+		'''
+		Aumenta un 25% el alcance del látigo
+		Aumenta en 1 tu número máximo de súbditos
+		'''
+	MagmaSeersMask: Aumenta un 20% la velocidad del látigo
+	MasterMarksmansScouter: ""
+	AssassinsGuard: ""
+}

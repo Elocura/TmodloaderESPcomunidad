@@ -1,0 +1,85 @@
+Items: {
+	OstaraHat: {
+		DisplayName: Sombrero de Ostara
+		Tooltip: Aumenta un 7% la velocidad de movimiento
+		SetBonus:
+			'''
+			Permite saltar automáticamente y elimina el daño por caída
+			Al dar saltitos de conejo, se lanzarán 5 cuchillos perforantes hacia fuera
+			Puedes hacerlo hasta 5 veces seguidas; los cuchillos se reinician cada 3 segundos
+			'''
+	}
+
+	JadeSeal: {
+		DisplayName: Sello de Jade
+		Tooltip:
+			'''
+			Haz clic izquierdo para invocar una linterna dorada que se desplaza lentamente hacia el cursor y cura a los aliados
+			Haz clic derecho para invocar una linterna de jade que permanece en el mismo lugar y aumenta el daño y la defensa de los aliados que se encuentren en su radio de acción
+			Solo puede haber una linterna activa a la vez
+			'''
+	}
+
+	OldViperChestplate: {
+		DisplayName: Chaqueta de vívora antigua
+		Tooltip:
+			'''
+			Aumenta un 10% el daño de arrojador
+			Aumenta un 20% la velocidad ataque de arrojador
+			'''
+	}
+
+	OldViperHelmet: {
+		DisplayName: Casco de víbora antigua
+		Tooltip:
+			'''
+			Aumenta el daño de arrojador en un 10%
+			Hay un 3% de probabilidad de no consumir los objetos lanzados
+			Aumenta tus puntos de técnica máximos en 2
+			'''
+	}
+
+	OldViperLegs: {
+		DisplayName: Pantalones de víbora antigua
+		Tooltip:
+			'''
+			Aumenta el daño de arrojador en un 10%
+			Aumenta un 15% la probabilidad de asestar un golpe crítico de arrojador
+			Aumenta un 15% la velocidad de movimiento
+			'''
+	}
+
+	ViperChestplate: {
+		DisplayName: Chaqueta de vívora
+		Tooltip:
+			'''
+			Aumenta un 10% el daño de arrojador
+			Aumenta un 20% la velocidad ataque de arrojador
+			'''
+	}
+
+	ViperHelmet: {
+		DisplayName: Casco de víbora 
+		Tooltip:
+			'''
+			Aumenta el daño de arrojador en un 10%
+			Hay un 3% de probabilidad de no consumir los objetos lanzados
+			Aumenta tus puntos de técnica máximos en 2
+			'''
+		SetBonus:
+			'''
+			El daño de arrojador tiene un 10% de probabilidad de envenenar a los enemigos
+			Los enemigos cercanos reciben daño adicional por el veneno y la ponzoña.
+			'''
+	}
+
+	ViperLegs: {
+		DisplayName: Pantalones de víbora
+		Tooltip:
+			'''
+			Aumenta el daño de arrojador en un 10%
+			Aumenta un 15% la probabilidad de asestar un golpe crítico de arrojador
+			Aumenta un 15% la velocidad de movimiento
+			'''
+	}
+}
