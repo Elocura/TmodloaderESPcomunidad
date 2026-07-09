@@ -1,85 +1,85 @@
 Items: {
 	OstaraHat: {
-		DisplayName: Hat of Ostara
-		Tooltip: 7% increased movement speed
+		DisplayName: Sombrero de Ostara
+		Tooltip: Aumenta un 7% la velocidad de movimiento
 		SetBonus:
 			'''
-			Allows auto-jump and negates fall damage
-			Bunny hops will fire 5 piercing knives outwards
-			You can do this consecutively up to 5 times, with knives reseting every 3 seconds
+			Permite saltar automáticamente y elimina el daño por caída
+			Al dar saltitos de conejo, se lanzarán 5 cuchillos perforantes hacia fuera
+			Puedes hacerlo hasta 5 veces seguidas; los cuchillos se reinician cada 3 segundos
 			'''
 	}
 
 	JadeSeal: {
-		DisplayName: Jade Seal
+		DisplayName: Sello de Jade
 		Tooltip:
 			'''
-			Left click to summon a golden lantern that slowly hovers towards the cursor and heals allies
-			Right click to summon a jade lantern that hovers in place, boosting the damage and defense of allies in radius
-			Only one lantern can exist at a time
+			Haz clic izquierdo para invocar una linterna dorada que se desplaza lentamente hacia el cursor y cura a los aliados
+			Haz clic derecho para invocar una linterna de jade que permanece en el mismo lugar y aumenta el daño y la defensa de los aliados que se encuentren en su radio de acción
+			Solo puede haber una linterna activa a la vez
 			'''
 	}
 
 	OldViperChestplate: {
-		DisplayName: Ancient Viper Jacket
+		DisplayName: Chaqueta de vívora antigua
 		Tooltip:
 			'''
-			10% increased throwing damage
-			20% increased throwing velocity
+			Aumenta un 10% el daño de arrojador
+			Aumenta un 20% la velocidad ataque de arrojador
 			'''
 	}
 
 	OldViperHelmet: {
-		DisplayName: Ancient Viper Helmet
+		DisplayName: Casco de víbora antigua
 		Tooltip:
 			'''
-			10% increased throwing damage
-			33% chance not to consume thrown items
-			Increases your maximum technique points by 2
+			Aumenta el daño de arrojador en un 10%
+			Hay un 3% de probabilidad de no consumir los objetos lanzados
+			Aumenta tus puntos de técnica máximos en 2
 			'''
 	}
 
 	OldViperLegs: {
-		DisplayName: Ancient Viper Pants
+		DisplayName: Pantalones de víbora antigua
 		Tooltip:
 			'''
-			10% increased throwing damage
-			15% increased throwing critical strike chance
-			15% increased movement speed
+			Aumenta el daño de arrojador en un 10%
+			Aumenta un 15% la probabilidad de asestar un golpe crítico de arrojador
+			Aumenta un 15% la velocidad de movimiento
 			'''
 	}
 
 	ViperChestplate: {
-		DisplayName: Viper Jacket
+		DisplayName: Chaqueta de vívora
 		Tooltip:
 			'''
-			10% increased throwing damage
-			20% increased throwing velocity
+			Aumenta un 10% el daño de arrojador
+			Aumenta un 20% la velocidad ataque de arrojador
 			'''
 	}
 
 	ViperHelmet: {
-		DisplayName: Viper Helmet
+		DisplayName: Casco de víbora 
 		Tooltip:
 			'''
-			10% increased throwing damage
-			33% chance not to consume thrown items
-			Increases your maximum technique points by 2
+			Aumenta el daño de arrojador en un 10%
+			Hay un 3% de probabilidad de no consumir los objetos lanzados
+			Aumenta tus puntos de técnica máximos en 2
 			'''
 		SetBonus:
 			'''
-			Throwing damage has a 10% chance to poison enemies
-			Nearby enemies take extra damage from poison and venom
+			El daño de arrojador tiene un 10% de probabilidad de envenenar a los enemigos
+			Los enemigos cercanos reciben daño adicional por el veneno y la ponzoña.
 			'''
 	}
 
 	ViperLegs: {
-		DisplayName: Viper Pants
+		DisplayName: Pantalones de víbora
 		Tooltip:
 			'''
-			10% increased throwing damage
-			15% increased throwing critical strike chance
-			15% increased movement speed
+			Aumenta el daño de arrojador en un 10%
+			Aumenta un 15% la probabilidad de asestar un golpe crítico de arrojador
+			Aumenta un 15% la velocidad de movimiento
 			'''
 	}
 }

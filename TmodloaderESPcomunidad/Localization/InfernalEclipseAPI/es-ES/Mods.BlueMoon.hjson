@@ -1,49 +1,49 @@
 Items: {
 	EmeraldRing: {
-		DisplayName: Ring of the Mint Moon
+		DisplayName: Anillo de luna mentolada
 		Tooltip:
 			'''
-			Gives the [cbuff:BlueMoon/MintyFreshnessBuff] Buff
-			Increasing damage and movement speed by 7%
+			Otorga el efecto [cbuff:BlueMoon/MintyFreshnessBuff]
+			Aumenta el daño y la velocidad de movimiento en un 7%
 			'''
 	}
 
 	AmethystRing: {
-		DisplayName: Ring of the Cherry Moon
+		DisplayName: Anillo de la luna de cereza
 		Tooltip:
 			'''
-			Gives the [cbuff:BlueMoon/FloralBlessingBuff] Buff
-			Granting +2HP/s life regeneration
+			Otorga el efecto [cbuff:BlueMoon/FloralBlessingBuff]
+			Otorga una regeneración de vida de +2 HP/s
 			'''
 	}
 
 	SapphireRing: {
-		DisplayName: Ring of the Blue Moon
+		DisplayName: Anillo de la luna azul
 		Tooltip:
 			'''
-			Gives the [cbuff:BlueMoon/LunarEmpowermentBuff] Buff
-			Increasing the luck of the wearer, moreso in hardmode
+			Otorga el efecto [cbuff:BlueMoon/LunarEmpowermentBuff]
+			Aumenta la suerte de quien lo lleva, sobre todo en el modo difícil
 			'''
 	}
 
 	TopazRing: {
-		DisplayName: Ring of the Harvest Moon
+		DisplayName: Anillo de la luna de la cosecha
 		Tooltip:
 			'''
-			Gives the [cbuff:BlueMoon/BountifulHarvestBuff] Buff
-			Increasing the amount of coins dropped by enemies by x1.5, x2 in hardmode
+			Otorga el efecto [cbuff:BlueMoon/BountifulHarvestBuff]
+			Aumenta la cantidad de monedas que sueltan los enemigos en x1,5; y en el modo difícil, en x2
 			'''
 	}
 
 	MoonsRing: {
-		DisplayName: Ring of the Enchanted Moons
+		DisplayName: Anillo de las lunas encantadas
 		Tooltip:
 			'''
-			You are blessed by the power of all enchanted moons
-			Increasing damage and movement speed by 7%
-			Granting +2HP/s life regeneration
-			Increasing the luck of the wearer, moreso in hardmode
-			Increasing the amount of coins dropped by enemies by x1.5, x2 in hardmode
+			Estás bendecido por el poder de todas las lunas encantadas
+			Aumenta el daño y la velocidad de movimiento en un 7%
+			Otorga una regeneración de vida de +2 HP/s
+			Aumenta la suerte de quien lo lleva, sobre todo en el modo difícil
+			Aumenta la cantidad de monedas que sueltan los enemigos en x1,5; y en el modo difícil, en x2
 			'''
 	}
 }

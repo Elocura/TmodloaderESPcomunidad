@@ -1,440 +1,476 @@
 Items: {
 	OrangePhaseWhip: {
-		DisplayName: Orange Phase Whip
+		DisplayName: Látigo de fase naranja
 		Tooltip:
 			'''
-			1.08x summon tag damage multiplier
+			Multiplica un 1,08 el daño de etiqueta de invocador
 
-			Ignores part of the enemies armor
+			Ignora parte de la armadura de los enemigos
 			'''
 	}
 
 	GreenPhaseWhip: {
-		DisplayName: Green Phase Whip
+		DisplayName: Látigo de fase verde
 		Tooltip:
 			'''
-			1.08x summon tag damage multiplier
+			Multiplica un 1,08 el daño de etiqueta de invocador
 
-			Ignores part of the enemies armor
+			Ignora parte de la armadura de los enemigos
 			'''
 	}
 
 	BluePhaseWhip: {
-		DisplayName: Blue Phase Whip
+		DisplayName: Látigo de fase azul
 		Tooltip:
 			'''
-			1.08x summon tag damage multiplier
+			Multiplica un 1,08 el daño de etiqueta de invocador
 
-			Ignores part of the enemies armor
+			Ignora parte de la armadura de los enemigos
 			'''
 	}
 
 	PurplePhaseWhip: {
-		DisplayName: Purple Phase Whip
+		DisplayName: Látigo de fase púrpura
 		Tooltip:
 			'''
-			1.08x summon tag damage multiplier
+			Multiplica un 1,08 el daño de etiqueta de invocador
 
-			Ignores part of the enemies armor
+			Ignora parte de la armadura de los enemigos
 			'''
 	}
 
 	RedPhaseWhip: {
-		DisplayName: Red Phase Whip
+		DisplayName: Látigo de fase rojo
 		Tooltip:
 			'''
-			1.08x summon tag damage multiplier
+			Multiplica un 1,08 el daño de etiqueta de invocador
 
-			Ignores part of the enemies armor
+			Ignora parte de la armadura de los enemigos
 			'''
 	}
 
 	WhitePhaseWhip: {
-		DisplayName: White Phase Whip
+		DisplayName: Látigo de fase blanco
 		Tooltip:
 			'''
-			1.08x summon tag damage multiplier
+			Multiplica un 1,08 el daño de etiqueta de invocador
 
-			Ignores part of the enemies armor
+			Ignora parte de la armadura de los enemigos
 			'''
 	}
 
 	YellowPhaseWhip: {
-		DisplayName: Yellow Phase Whip
+		DisplayName: Látigo de fase amarillo
 		Tooltip:
 			'''
-			1.08x summon tag damage multiplier
+			Multiplica un 1,08 el daño de etiqueta de invocador
 
-			Ignores part of the enemies armor
+			Ignora parte de la armadura de los enemigos
 			'''
 	}
 
 	OrangePhaseScourge: {
-		DisplayName: Orange Phase Scourge
+		DisplayName: Azote fásico naranja
 		Tooltip:
 			'''
-			1.09x summon tag damage multiplier
+			Multiplica un 1,09 el daño de etiqueta de invocador
 
-			Ignores part of the enemies armor
+			Ignora parte de la armadura de los enemigos
 			'''
 	}
 
 	GreenPhaseScourge: {
-		DisplayName: Green Phase Scourge
+		DisplayName: Azote fásico verde
 		Tooltip:
 			'''
-			1.09x summon tag damage multiplier
+			Multiplica un 1,09 el daño de etiqueta de invocador
 
-			Ignores part of the enemies armor
+			Ignora parte de la armadura de los enemigos
 			'''
 	}
 
 	BluePhaseScourge: {
-		DisplayName: Blue Phase Scourge
+		DisplayName: Azote fásico azul
 		Tooltip:
 			'''
-			1.09x summon tag damage multiplier
+			Multiplica un 1,09 el daño de etiqueta de invocador
 
-			Ignores part of the enemies armor
+			Ignora parte de la armadura de los enemigos
 			'''
 	}
 
 	PurplePhaseScourge: {
-		DisplayName: Purple Phase Scourge
+		DisplayName:  Azote fásico púrpura
 		Tooltip:
 			'''
-			1.09x summon tag damage multiplier
+			Multiplica un 1,09 el daño de etiqueta de invocador
 
-			Ignores part of the enemies armor
+			Ignora parte de la armadura de los enemigos
 			'''
 	}
 
 	RedPhaseScourge: {
-		DisplayName: Red Phase Scourge
+		DisplayName: Azote fásico rojo
 		Tooltip:
 			'''
-			1.09x summon tag damage multiplier
+			Multiplica un 1,09 el daño de etiqueta de invocador
 
-			Ignores part of the enemies armor
+			Ignora parte de la armadura de los enemigos
 			'''
 	}
 
 	WhitePhaseScourge: {
-		DisplayName: White Phase Scourge
+		DisplayName: Azote fásico blanco
 		Tooltip:
 			'''
-			1.09x summon tag damage multiplier
+			Multiplica un 1,09 el daño de etiqueta de invocador
 
-			Ignores part of the enemies armor
+			Ignora parte de la armadura de los enemigos
 			'''
 	}
 
 	YellowPhaseScourge: {
-		DisplayName: Yellow Phase Scourge
+		DisplayName: Azote fásico blanco amarillo
 		Tooltip:
 			'''
-			1.09x summon tag damage multiplier
+			Multiplica un 1,09 el daño de etiqueta de invocador
 
-			Ignores part of the enemies armor
+			Ignora parte de la armadura de los enemigos
 			'''
 	}
 
 	GlitterGutter: {
-		DisplayName: Glitter Gutter
+		DisplayName: Miseria brillante
 		Tooltip:
 			'''
-			10% summon tag critical strike chance
-			Enemies struck by this whip cause the next minion attack to release tracking crystal shards
+			10% de probabilidad de crítico de etiqueta de invocador
+			Los enemigos alcanzados por este látigo hacen que el siguiente ataque de un súbdito lance 
+			fragmentos de cristal que siguen al objetivo.
 			'''
 	}
 
 	DestructionChain: {
-		DisplayName: Destruction Chain
+		DisplayName: Cadena de destrucción
 		Tooltip:
 			'''
-			Enemies struck by this whip cause the next minion attack to trigger an explosion
-			Enemies killed by this explosion trigger another explosion, which can continue to chain
+			Los enemigos alcanzados por este látigo provocan que el siguiente ataque de súbdito desencadene una explosión
+			Los enemigos muertos por esta explosión desencadenan otra explosión, que puede continuar encadenándose
 			'''
 	}
 
 	GloamshardConduit: {
-		DisplayName: Gloamshard Conduit
+		DisplayName: Conducto de fragmento crepuscular
 		Tooltip:
 			'''
-			1.1x summon tag damage multiplier
-			10% summon tag critical strike chance
+			Multiplica un 1,1 el daño de etiqueta de invocador
+			Hay una probabilidad del 10% de hacer un daño crítico de etiqueta de invocador
 
-			   Enemies struck by this whip take 1.25x damage from the next minion attack and explode
+			  Los enemigos alcanzados por este látigo reciben 1,25 veces más daño del siguiente ataque de súbdito y explotan
 			'''
 	}
 
 	Satellite: {
-		DisplayName: Satellite
-		Tooltip: "   Enemies struck by this whip take one guaranteed critical hit from a minion."
+		DisplayName: Satélite
+		Tooltip: "   Los enemigos alcanzados por este látigo reciben un golpe crítico garantizado de un súbdito."
 	}
 
 	ResonantVoid: {
-		DisplayName: Resonant Void
+		DisplayName: Vacío resonante
 		Tooltip:
 			'''
-			1.12x summon tag damage multiplier
-			12% summon tag critical strike chance
+			Multiplica un 1,12 el daño de etiqueta de invocador
+			Hay una probabilidad del 12% de hacer un daño crítico de etiqueta de invocador
 
-			Enemies struck by this whip take 1.25x damage from the next minion attack and explode
+			Los enemigos alcanzados por este látigo Reciben 1,25 veces más daño del siguiente ataque de súbdito y explota
 
-			Ignores part of the enemies armor
+			Ignora parte de la armadura de los enemigos
 			'''
 	}
 
 	SkybreakerCoil: {
-		DisplayName: Skybreaker Coil
+		DisplayName: Bobina quebrantanubes
 		Tooltip:
 			'''
-			All enemies struck by this whiptake 1.30x damage from the next minion attack and unleash an electrical burst
-			The burst rapidly shocks nearby enemies for a short time and has armor penetration
+			Los enemigos alcanzados por este látigo reciben 1,30 veces más daño del siguiente ataque de súbdito y desata una descarga eléctrica
+			La explosión inflige daño rápido a los enemigos cercanos durante un breve periodo de tiempo y penetra la armadura
 			'''
 	}
 
 	Milkyway: {
-		DisplayName: Milkyway
+		DisplayName: Vía láctea
 		Tooltip:
 			'''
-			+10 summon tag damage per stack
-			Enemies struck by this whip take one guaranteed 4x damage critical hit from a minion
-			This whip's tag stacks with itself
-			Comets equal to the stacks count orbit around the enemy
+			+10 de daño de etiqueta de invocación por acumulación
+			Los enemigos alcanzados por este látigo reciben un golpe crítico garantizado de un súbdito que inflige 4 veces más de daño
+			Las acumulaciones de este látigo se suman entre sí
+			Un número de cometas igual al de acumulaciones orbita alrededor del enemigo
 			'''
 	}
 
 	Loadout: {
-		DisplayName: Loadout
+		DisplayName: Carga
 		Tooltip:
 			'''
-			1.07x summon tag damage multiplier
-			7% summon tag critical strike chance
-			Enemies struck by this whip are hit by a laser on the next minion attack
-			Ignores part of the enemies armor
+			Multiplica un 1,07 el daño de etiqueta de invocador
+			Hay una probabilidad del 7% de hacer un daño crítico de etiqueta de invocador
+			Los enemigos alcanzados por este látigo son alcanzados por un láser cuando los súbditos los golpea
+			Ignora parte de la armadura de los enemigos
 			'''
 	}
 
 	AncientBonds: {
-		DisplayName: Ancient Bonds
+		DisplayName: Lazos ancestrales
 		Tooltip:
 			'''
-			Enemies struck by this whip are impaled by a spectral blade on the next minion attack
-			The spectral blade deals 20% of the minion’s damage 3 times in succession
-			The impaling damage has 5 armor penetration
+			Los enemigos alcanzados por este látigo son empalados por una espada espectral cuando los súbditos los golpean
+			La espada espectral inflige el 20% del daño del súbdito tres veces seguidas
+			El daño por empalamiento tiene 5 de penetración de armadura
 			'''
 	}
 
 	PrimalBonds: {
-		DisplayName: Primal Bonds
+		DisplayName: Lazos primarios
 		Tooltip:
 			'''
-			Enemies struck by this whip are impaled by a spectral blade on the next minion attack
-			The spectral blade deals 20% of the minion’s damage 5 times in succession
-			The impaling damage has 10 armor penetration
+			Los enemigos alcanzados por este látigo son empalados por una espada espectral cuando los súbditos los golpean
+			La espada espectral inflige el 20% del daño del súbdito cinco veces seguidas
+			El daño por empalamiento tiene 10 de penetración de armadura
 			'''
 	}
 
 	ExistenceBonds: {
-		DisplayName: Existence Bonds
+		DisplayName: Lazos existenciales
 		Tooltip:
 			'''
-			Enemies struck by this whip are impaled by a spectral blade on the next minion attack
-			The spectral blade deals 20% of the minion’s damage 6 times in succession
-			The impaling damage has 15 armor penetration
+			Los enemigos alcanzados por este látigo son empalados por una espada espectral cuando los súbditos los golpean
+			La espada espectral inflige el 20% del daño del súbdito seis veces seguidas
+			El daño por empalamiento tiene 15 de penetración de armadura
 			'''
 	}
 
 	MermaidsTear: {
-		DisplayName: Mermaid's Tear
+		DisplayName: Lágrimas de sirenas
 		Tooltip:
 			'''
-			Enemies struck by this whip are impaled by a spectral blade on the next minion attack
-			The spectral blade deals 25% of the minion’s damage 8 times in succession
-			The impaling damage has 50 armor penetration
+			Los enemigos alcanzados por este látigo son empalados por una espada espectral cuando los súbditos los golpean
+			La espada espectral inflige el 25% del daño del súbdito ocho veces seguidas
+			El daño por empalamiento tiene 50 de penetración de armadura
 			'''
 	}
 
 	MandibleLash: {
-		DisplayName: Mandible Lash
+		DisplayName: Látigo mandibular
 		Tooltip:
 			'''
-			1 summon tag damage
-			Enemies struck by this whip cause the next minion attack to launch a sandball
-			The sandball is effected by gravity and deals 40% of the minion's damage
-			The sandball explodes on block impact, damaging nearby enemies
+			1 daño de etiqueta de invocador
+			Los enemigos alcanzados por este látigo hacen que el siguiente ataque del súbdito lance una esfera de arena
+			La esfera de arena se mueve por la fuerza de la gravedad e inflige el 40% del daño del súbdito
+			La esfera de arena explota al chocar contra un bloque, causando daño a los enemigos cercanos
 			'''
 	}
 
 	DarkMandibleLash: {
-		DisplayName: Dark Mandible Lash
+		DisplayName: Látigo mandibular oscuro
 		Tooltip:
 			'''
-			2 summon tag damage
-			Enemies struck by this whip cause the next minion attack to launch a sandball
-			The sandball is effected by gravity and deals 40% of the minion's damage
-			The sandball explodes on block impact, damaging nearby enemies
+			2 daño de etiqueta de invocador
+			Los enemigos alcanzados por este látigo hacen que el siguiente ataque del súbdito lance una esfera de arena
+			La esfera de arena se mueve por la fuerza de la gravedad e inflige el 40% del daño del súbdito
+			La esfera de arena explota al chocar contra un bloque, causando daño a los enemigos cercanos
 			'''
 	}
 
 	ShieldConduit: {
-		DisplayName: Shield Conduit
+		DisplayName: Conducto blindado
 		Tooltip:
 			'''
-			2 summon tag damage
-			Automatically switches between two modes.
+			2 daño de etiqueta de invocador
+			Cambia automáticamente entre dos modos.
 			'''
 		HoldShiftTooltip:
 			'''
 			-----------------------------
-			Defense Mode:
-			Striking an enemy with the whip causes minion attacks to release blue shield shards for a short time
-			Collecting shards builds shield charge
-			At 50 charge, you gain a 50 HP shield
+			Modo Defensa:
+			Al golpear a un enemigo con el látigo,
+			los ataques de los súbditos liberan fragmentos de escudo azul
+			durante un breve periodo de tiempo.
+			Al recoger los fragmentos, se acumula cargas de escudo.
+			Con 50 cargas, se obtiene un escudo de 50 puntos de vida
 			-----------------------------
-			Attack Mode:
-			Striking an enemy with the whip causes minion attacks to release red shield shards for a short time.
-			Red shards home in on enemies, dealing 10% of the minion's damage +3 flat damage.
+			Modo Ataque:
+			Al golpear a un enemigo con el látigo,
+			los ataques de los súbditoss liberan fragmentos de escudo rojos durante un breve periodo de tiempo.
+			Los fragmentos rojos se dirigen hacia los enemigos,
+			infligiendo un 10% del daño de los súbditos +3 de daño fijo
 			-----------------------------
-			Shield shard release has a very short cooldown
-			When the shield takes damage, it enters a recharge cooldown lasting 5–50 seconds based on your remaining shield
-			If the shield is fully broken, the recharge cooldown becomes 60 seconds
-			During cooldown, switches to Attack Mode
-			When the cooldown ends, switches to Defense Mode
-			If any shield remains, collecting shards restores shield durability.
+			La liberación de fragmentos de escudo tiene un tiempo de enfriamiento muy corto.
+			Cuando el escudo recibe daño, entra en un enfriamiento
+			que dura entre 5 y 50 segundos, dependiendo del escudo restante.
+			Si el escudo se rompe por completo,
+			el tiempo de recarga pasa a ser de 60 segundos.
+			Durante el tiempo de recarga, cambia al modo de ataque.
+			Cuando finaliza el tiempo de recarga, cambia al modo de defensa.
+			Si queda algo de escudo, al recoger fragmentos
+			se restaurará la durabilidad del escudo
 			'''
 	}
 
 	ShieldConduitMkII: {
-		DisplayName: Shield Conduit Mk-II
+		DisplayName: Conducto blindado Mk-II
 		Tooltip:
 			'''
-			4 summon tag damage
-			Switches automatically between two modes.
+			4 daño de etiqueta de invocador
+			Cambia automáticamente entre dos modos.
 			'''
 		HoldShiftTooltip:
 			'''
 			-----------------------------
-			Defense Mode:
-			Striking an enemy with the whip causes minion attacks to release blue shield shards for a short time
-			Collecting shards builds shield charge
-			At 100 charge, you gain a 100 HP shield
+			Modo Defensa:
+			Al golpear a un enemigo con el látigo,
+			los ataques de los súbditos liberan fragmentos de escudo azul
+			durante un breve periodo de tiempo.
+			Al recoger los fragmentos, se acumula cargas de escudo.
+			Con 100 cargas, se obtiene un escudo de 100 puntos de vida
 			-----------------------------
-			Attack Mode:
-			Striking an enemy with the whip causes minion attacks to release red shield shards for a short time.
-			Red shards home in on enemies, dealing 10% of the minion's damage +5 flat damage.
+			Modo Ataque:
+			Al golpear a un enemigo con el látigo,
+			los ataques de los súbditoss liberan fragmentos de escudo rojos durante un breve periodo de tiempo.
+			Los fragmentos rojos se dirigen hacia los enemigos,
+			infligiendo un 10% del daño de los súbditos +5 de daño fijo
 			-----------------------------
-			Shield shard release has a very short cooldown
-			When the shield takes damage, it enters a recharge cooldown lasting 5–50 seconds based on your remaining shield
-			If the shield is fully broken, the recharge cooldown becomes 60 seconds
-			During cooldown, switches to Attack Mode
-			When the cooldown ends, switches to Defense Mode
-			If any shield remains, collecting shards restores shield durability.
+			La liberación de fragmentos de escudo tiene un tiempo de enfriamiento muy corto.
+			Cuando el escudo recibe daño, entra en un enfriamiento
+			que dura entre 5 y 50 segundos, dependiendo del escudo restante.
+			Si el escudo se rompe por completo,
+			el tiempo de recarga pasa a ser de 60 segundos.
+			Durante el tiempo de recarga, cambia al modo de ataque.
+			Cuando finaliza el tiempo de recarga, cambia al modo de defensa.
+			Si queda algo de escudo, al recoger fragmentos
+			se restaura la durabilidad del escudo
 			'''
 	}
 
 	ShieldConduitMkIII: {
-		DisplayName: Shield Conduit Mk-III
+		DisplayName: Conducto blindado Mk-III
 		Tooltip:
 			'''
-			7 summon tag damage
-			Switches automatically between two modes.
+			7 daño de etiqueta de invocador
+			Cambia automáticamente entre dos modos.
 			'''
 		HoldShiftTooltip:
 			'''
 			-----------------------------
-			Defense Mode:
-			Striking an enemy with the whip causes minion attacks to release blue shield shards for a short time
-			Collecting shards builds shield charge
-			At 150 charge, you gain a 150 HP shield
+			Modo Defensa:
+			Al golpear a un enemigo con el látigo,
+			los ataques de los súbditos liberan fragmentos de escudo azul
+			durante un breve periodo de tiempo.
+			Al recoger los fragmentos, se acumula cargas de escudo.
+			Con 150 cargas, se obtiene un escudo de 150 puntos de vida
 			-----------------------------
-			Attack Mode:
-			Striking an enemy with the whip causes minion attacks to release red shield shards for a short time.
-			Red shards home in on enemies, dealing 10% of the minion's damage +25 flat damage.
+			Modo Ataque:
+			Al golpear a un enemigo con el látigo,
+			los ataques de los súbditoss liberan fragmentos de escudo rojos durante un breve periodo de tiempo.
+			Los fragmentos rojos se dirigen hacia los enemigos,
+			infligiendo un 10% del daño de los súbditos +25 de daño fijo
 			-----------------------------
-			Shield shard release has a very short cooldown
-			When the shield takes damage, it enters a recharge cooldown lasting 5–50 seconds based on your remaining shield
-			If the shield is fully broken, the recharge cooldown becomes 60 seconds
-			During cooldown, switches to Attack Mode
-			When the cooldown ends, switches to Defense Mode
-			If any shield remains, collecting shards restores shield durability.
+			La liberación de fragmentos de escudo tiene un tiempo de enfriamiento muy corto.
+			Cuando el escudo recibe daño, entra en un enfriamiento
+			que dura entre 5 y 50 segundos, dependiendo del escudo restante.
+			Si el escudo se rompe por completo,
+			el tiempo de recarga pasa a ser de 60 segundos.
+			Durante el tiempo de recarga, cambia al modo de ataque.
+			Cuando finaliza el tiempo de recarga, cambia al modo de defensa.
+			Si queda algo de escudo, al recoger fragmentos
+			se restaura la durabilidad del escudo
 			'''
 	}
 
 	ShieldConduitMkIV: {
-		DisplayName: Shield Conduit Mk-IV
+		DisplayName: Conducto blindado Mk-IV
 		Tooltip:
 			'''
-			12 summon tag damage
-			Switches automatically between two modes.
+			12 daño de etiqueta de invocador
+			Cambia automáticamente entre dos modos.
 			'''
 		HoldShiftTooltip:
 			'''
 			-----------------------------
-			Defense Mode:
-			Striking an enemy with the whip causes minion attacks to release blue shield shards for a short time
-			Collecting shards builds shield charge
-			At 200 charge, you gain a 200 HP shield
+			Modo Defensa:
+			Al golpear a un enemigo con el látigo,
+			los ataques de los súbditos liberan fragmentos de escudo azul
+			durante un breve periodo de tiempo.
+			Al recoger los fragmentos, se acumula cargas de escudo.
+			Con 200 cargas, se obtiene un escudo de 200 puntos de vida
 			-----------------------------
-			Attack Mode:
-			Striking an enemy with the whip causes minion attacks to release red shield shards for a short time.
-			Red shards home in on enemies, dealing 10% of the minion's damage +50 flat damage.
+			Modo Ataque:
+			Al golpear a un enemigo con el látigo,
+			los ataques de los súbditoss liberan fragmentos de escudo rojos durante un breve periodo de tiempo.
+			Los fragmentos rojos se dirigen hacia los enemigos,
+			infligiendo un 10% del daño de los súbditos +50 de daño fijo
 			-----------------------------
-			Shield shard release has a very short cooldown
-			When the shield takes damage, it enters a recharge cooldown lasting 5–50 seconds based on your remaining shield
-			If the shield is fully broken, the recharge cooldown becomes 60 seconds
-			During cooldown, switches to Attack Mode
-			When the cooldown ends, switches to Defense Mode
-			If any shield remains, collecting shards restores shield durability.
+			La liberación de fragmentos de escudo tiene un tiempo de enfriamiento muy corto.
+			Cuando el escudo recibe daño, entra en un enfriamiento
+			que dura entre 5 y 50 segundos, dependiendo del escudo restante.
+			Si el escudo se rompe por completo,
+			el tiempo de recarga pasa a ser de 60 segundos.
+			Durante el tiempo de recarga, cambia al modo de ataque.
+			Cuando finaliza el tiempo de recarga, cambia al modo de defensa.
+			Si queda algo de escudo, al recoger fragmentos
+			se restaura la durabilidad del escudo
 			'''
 	}
 
 	ShieldConduitMkV: {
-		DisplayName: Shield Conduit Mk-V
+		DisplayName: Conducto blindado Mk-V
 		Tooltip:
 			'''
-			20 summon tag damage
-			Switches automatically between two modes.
+			20 daño de etiqueta de invocador
+			Cambia automáticamente entre dos modos.
 			'''
 		HoldShiftTooltip:
 			'''
 			-----------------------------
-			Defense Mode:
-			Striking an enemy with the whip causes minion attacks to release blue shield shards for a short time
-			Collecting shards builds shield charge
-			At 250 charge, you gain a 250 HP shield
+			Modo Defensa:
+			Al golpear a un enemigo con el látigo,
+			los ataques de los súbditos liberan fragmentos de escudo azul
+			durante un breve periodo de tiempo.
+			Al recoger los fragmentos, se acumula cargas de escudo.
+			Con 250 cargas, se obtiene un escudo de 250 puntos de vida
 			-----------------------------
-			Attack Mode:
-			Striking an enemy with the whip causes minion attacks to release red shield shards for a short time.
-			Red shards home in on enemies, dealing 10% of the minion's damage +150 flat damage.
+			Modo Ataque:
+			Al golpear a un enemigo con el látigo,
+			los ataques de los súbditoss liberan fragmentos de escudo rojos durante un breve periodo de tiempo.
+			Los fragmentos rojos se dirigen hacia los enemigos,
+			infligiendo un 10% del daño de los súbditos +150 de daño fijo
 			-----------------------------
-			Shield shard release has a very short cooldown
-			When the shield takes damage, it enters a recharge cooldown lasting 5–50 seconds based on your remaining shield
-			If the shield is fully broken, the recharge cooldown becomes 60 seconds
-			During cooldown, switches to Attack Mode
-			When the cooldown ends, switches to Defense Mode
-			If any shield remains, collecting shards restores shield durability.
+			La liberación de fragmentos de escudo tiene un tiempo de enfriamiento muy corto.
+			Cuando el escudo recibe daño, entra en un enfriamiento
+			que dura entre 5 y 50 segundos, dependiendo del escudo restante.
+			Si el escudo se rompe por completo,
+			el tiempo de recarga pasa a ser de 60 segundos.
+			Durante el tiempo de recarga, cambia al modo de ataque.
+			Cuando finaliza el tiempo de recarga, cambia al modo de defensa.
+			Si queda algo de escudo, al recoger fragmentos
+			se restaura la durabilidad del escudo
 			'''
 	}
 
 	LayeredPain: {
-		DisplayName: Layered Pain
+		DisplayName: Dolor por capas
 		Tooltip:
 			'''
-			+1 summon tag damage per stack
-			This whip's tag damage stacks with itself, with older stacks expiring first
+			+1 de daño de etiqueta de invocación por acumulación
+			El daño de marca de este látigo se acumula consigo mismo. Las acumulaciones más antiguas se eliminan primero
 			'''
 	}
 
 	NightButterfly: {
-		DisplayName: Night Butterfly
+		DisplayName: Mariposa nocturna
 		Tooltip:
 			'''
-			+2 summon tag damage per stack
-			This whip's tag damage stacks with itself, with older stacks expiring first
-			A number of moths equal to the number of stacks attach themselves to the enemy
+			+2 de daño de etiqueta de invocación por acumulación
+			El daño de marca de este látigo se acumula consigo mismo. Las acumulaciones más antiguas se eliminan primero
+			Se adhieren al enemigo tantas polillas como acumulaciones halla
 			'''
 	}
 
@@ -442,19 +478,19 @@ Items: {
 		DisplayName: Actias Aliena
 		Tooltip:
 			'''
-			+3 summon tag damage per stack
-			This whip's tag damage stacks with itself, with older stacks expiring first
-			A number of moths equal to the number of stacks attach themselves to the enemy
+			+3 de daño de etiqueta de invocación por acumulación
+			El daño de marca de este látigo se acumula consigo mismo. Las acumulaciones más antiguas se eliminan primero
+			Se adhieren al enemigo tantas polillas como acumulaciones halla
 			'''
 	}
 
 	ButterflyEffect: {
-		DisplayName: Butterfly Effect
+		DisplayName: Efecto mariposa
 		Tooltip:
 			'''
-			+6 summon tag damage per stack
-			This whip's tag damage stacks with itself, with older stacks expiring first
-			A number of moths equal to the number of stacks attach themselves to the enemy
+			+6 de daño de etiqueta de invocación por acumulación
+			El daño de marca de este látigo se acumula consigo mismo. Las acumulaciones más antiguas se eliminan primero
+			Se adhieren al enemigo tantas polillas como acumulaciones halla
 			'''
 	}
 
@@ -462,46 +498,46 @@ Items: {
 		DisplayName: Eta Carinae
 		Tooltip:
 			'''
-			+10 summon tag damage per stack
-			This whip's tag damage stacks with itself, with older stacks expiring first
-			A number of comets equal to the number of stacks attach themselves to the enemy
+			+10 de daño de etiqueta de invocación por acumulación
+			El daño de marca de este látigo se acumula consigo mismo. Las acumulaciones más antiguas se eliminan primero
+			Se adhieren al enemigo tantas polillas como acumulaciones halla
 			'''
 	}
 
 	GoldRush: {
-		DisplayName: Gold Rush
+		DisplayName: Fiebre del oro
 		Tooltip:
 			'''
-			8 summon tag damage
-			Striking enemies regularly summons physical weapons dealing 100% of your minion's damage.
+			20 de daño de etiqueta de invocación
+			Al golpear a los enemigos, se invoca rápidamente un arsenal que inflige el 120% del daño de los súbditos
 			'''
 	}
 
 	GildedReliquary: {
-		DisplayName: Gilded Reliquary
+		DisplayName: Reliquario dorado
 		Tooltip:
 			'''
-			20 summon tag damage
-			Striking enemies rapidly summons a swift arsenal dealing 120% of your minion's damage
+			20 de daño de etiqueta de invocación
+			Al golpear a los enemigos, se invoca rápidamente un arsenal que inflige el 120% del daño de los súbditos
 			'''
 	}
 
 	AurelianSanctum: {
-		DisplayName: Aurelian Sanctum
+		DisplayName: Santuario Aureliano
 		Tooltip:
 			'''
-			80 summon tag damage
-			Striking enemies unleashes a relentless barrage of weapons dealing 200% of your minion's damage
+			80 de daño de etiqueta de invocación
+			Al golpear a los enemigos, se desata una lluvia implacable de proyectiles que infligen el 200% del daño de los súbditos
 			'''
 	}
 
 	LeatherGrip: {
-		DisplayName: Leather Grip
+		DisplayName: Empuñadura de cuero
 		Tooltip:
 			'''
-			Increases whip range by 10% 
-			Whips gain 1.05x summon tag damage multiplier
-			Only one Grip accessory can be equipped at a time
+			Aumenta el alcance de los látigos en un 10%
+			Multiplica un 1,05 el daño de etiqueta de invocador
+			Solo se puede equipar una empuñadura a la vez
 			'''
 	}
 
@@ -509,106 +545,110 @@ Items: {
 		DisplayName: Silk Grip
 		Tooltip:
 			'''
-			Increases whip range by 10% 
-			Whips gain 5% summon tag critical strike chance
-			Only one Grip accessory can be equipped at a time
+			Aumenta el alcance del látigo en un 10%
+			Hay una probabilidad del 5% de hacer un daño crítico de etiqueta de invocador
+			Solo se puede equipar una empuñadura a la vez
 			'''
 	}
 
 	RubberGrip: {
-		DisplayName: Rubber Grip
+		DisplayName: Empuñadura de goma
 		Tooltip:
 			'''
-			Increases whip range by 15% 
-			Whips gain 1.03x summon tag damage multiplier and 3% summon tag critical strike chance
-			Only one Grip accessory can be equipped at a time
+			Aumenta el alcance de los látigos en un 15%
+			Multiplica un 1,03 el daño de etiqueta de invocador 
+			y hay una probabilidad del 3% de hacer un daño crítico de etiqueta de invocador
+			Solo se puede equipar una empuñadura a la vez
 			'''
 	}
 
 	NecromanticGrip: {
-		DisplayName: Necromantic Grip
+		DisplayName: Empuñadura de necromántico
 		Tooltip:
 			'''
-			Increases max minions by 1
-			Increases whip range by 15% 
-			Whips gain 1.05x summon tag damage multiplier and 5% summon tag critical strike chance
-			Allows whips to hit enemies through walls
-			Only one Grip accessory can be equipped at a time
+			Aumenta el número máximo de súbditos en 1
+			Aumenta el alcance de los látigos en un 15%
+			Multiplica un 1,05 el daño de etiqueta de invocador
+			y hay una probabilidad del 5% de hacer un daño crítico de etiqueta de invocador
+			Permite a los látigos golpear a los enemigos a través de bloques
+			Solo se puede equipar una empuñadura a la vez
 			'''
 	}
 
 	EmperorsGrip: {
-		DisplayName: Emperors Grip
+		DisplayName: Empuñadura de emperador
 		Tooltip:
 			'''
-			Increases max minions by 2
-			Increases whip range by 30% 
-			Whips gain 1.07x summon tag damage multiplier and 7% summon tag critical strike chance
-			Allows whips to hit enemies through walls
-			Only one Grip accessory can be equipped at a time
+			Aumenta el número máximo de súbditos en 2
+			Aumenta el alcance de los látigos en un 30%
+			Multiplica un 1,07 el daño de etiqueta de invocador
+			y hay una probabilidad del 7% de hacer un daño crítico de etiqueta de invocador
+			Permite a los látigos golpear a los enemigos a través de bloques
+			Solo se puede equipar una empuñadura a la vez
 			'''
 	}
 
 	LightSpiritGrip: {
-		DisplayName: Light Spirit Grip
+		DisplayName: Empuñadura de espíritu de la luz
 		Tooltip:
 			'''
-			Allows whips to hit enemies through walls
-			Only one Grip accessory can be equipped at a time
+			Permite a los látigos golpear a los enemigos a través de bloques
+			Solo se puede equipar una empuñadura a la vez
 			'''
 	}
 
 	AirflowGrip: {
-		DisplayName: Airflow Grip
+		DisplayName: Empuñadura de flujo de aire
 		Tooltip:
 			'''
-			Reduces whip range by 15%
-			Allows whips to hit enemies through walls
-			Only one Grip accessory can be equipped at a time
+			Disminuye el alcance de los látigos en un 15%
+			Permite a los látigos golpear a los enemigos a través de bloques
+			Solo se puede equipar una empuñadura a la vez
 			'''
 	}
 
 	CommanderGrip: {
-		DisplayName: Commander Grip
+		DisplayName: Empuñadura de comandante
 		Tooltip:
 			'''
-			Minion projectiles deal less damage but now home in on the taged enemy for a short duration
-			Only one Grip accessory can be equipped at a time
+			Los proyectiles de tus súbditos se dirigirán hacia los enemigos golpeados por tu látigo durante un breve periodo de tiempo
+			Solo se puede equipar una empuñadura a la vez
 			'''
 	}
 
 	MagneticGrip: {
-		DisplayName: Magnetic Grip
+		DisplayName: Empuñadura magnética
 		Tooltip:
 			'''
-			Reduces whip range by 15% but minion projectiles home in on the taged enemy for a short duration
-			Only one Grip accessory can be equipped at a time
+			Disminuye el alcance de los látigos en un 15%
+			Los proyectiles de tus súbditos se dirigirán hacia los enemigos
+			golpeados por tu látigo durante un breve periodo de tiempo
 			'''
 	}
 
 	BuddyEmblem: {
-		DisplayName: Buddy Emblem
+		DisplayName: Emblema del panita
 		Tooltip:
 			'''
-			Significantly increases damage when only one Minion is present
-			The minion's damage increases based on the number of unused minion slots
-			The more this effect enhances a minion, the slightly larger it becomes
-			Some minions cannot benefit from this effect
-			Some whip tag effects are reduced
-			'I choose you!'
+			Aumenta significativamente el daño cuando solo hay un súbdito presente
+			El daño del súbdito aumenta en función del número de espacios de súbdito sin usar
+			Cuanto más se potencie a ese súbdito, más grande se volverá
+			Algunos súbditos no pueden beneficiarse de este efecto
+			Se reducirán algunos efectos de etiqueta de látigo
+			'¡Te elijo a ti!'
 			'''
 	}
 
 	StrikerEmblem: {
-		DisplayName: Striker Emblem
+		DisplayName: Emblema del atacante
 		Tooltip:
 			'''
-			You can no longer summon minions or sentries
-			Whips strike enemies three additional times for 33% damage
-			These strikes benefit from summon tag effects
-			Increases whip range by 10% 
-			10% increased summon damage for each unused minion slot
-			'Die, monster!'
+			Ya no puedes invocar súbditos ni centinelas
+			Los latigos golpean a los enemigos tres veces más, infligiendo un 33% de daño adicional
+			Estos golpes se benefician de los efectos de la etiqueta de invocación
+			Aumenta el alcance del latigo en un 10%
+			Aumenta el daño de invocación en un 1% por cada ranura de súbdito sin usar
+			'¡Muere, monstruo!'
 			'''
 	}
 }

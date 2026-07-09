@@ -1,33 +1,33 @@
 Items: {
 	ImpulseAmplifier.Tooltip:
 		'''
-		Electronic instrument projectiles are significantly faster and inflict [cbuff:Electrified] on first hit
-		Electronic instrument projectiles also on first hit chain lightning for 10% damage to the nearest close enemy
+		Los proyectiles de los instrumentos electrónicos son considerablemente más rápidos e infligen [cbuff:Electrified] al primer impacto
+		Además, al primer impacto, los proyectiles de los instrumentos electrónicos provocan una cadena de rayos que inflige un 10% de daño al enemigo más cercano
 		'''
 	FanDonations.Tooltip:
 		'''
-		All instrument attacks explode on hit, explosion size varies and deals 50% less crit damage
-		Piercing string instrument attacks increase in speed every hit and no longer lose damage
-		Certain string instrument attacks that trigger effects on tile collision also trigger on hit
-		Percussion instrument attacks launch hammers upward that eventually fall down
-		Electronic instrument projectiles are significantly faster and inflict [cbuff:Electrified] on first hit
-		Electronic instrument projectiles also on first hit chain lightning for 10% damage to the nearest close enemy
-		Increases max inspiration by 5
+		Todos los ataques con instrumentos explotan al impactar; el tamaño de la explosión varía e inflige un 50% menos de daño crítico
+		Los ataques penetrantes con instrumentos de cuerda aumentan de velocidad con cada impacto y ya no pierden daño
+		Ciertos ataques de instrumentos de cuerda que activan efectos al chocar contra un bloque también se activan al impactar
+		Los ataques de instrumentos de percusión lanzan martillos hacia arriba que, al final, caen
+		Los proyectiles de los instrumentos electrónicos son significativamente más rápidos e infligen [cbuff:Electrified] al primer impacto
+		Los proyectiles de los instrumentos electrónicos también, al primer impacto, provocan una cadena de rayos que inflige un 10% de daño al enemigo más cercano
+		Aumenta la inspiración máxima en 5
 		'''
 	LunateCharm.Tooltip:
 		'''
-		Gaining soul essence grants shield when health is full
-		Removes the radiant damage penalty from the [cbuff:InfernalEclipseAPI/BrokenOath] debuff
+		Al obtener Ganancia de alma, se obtiene un escudo cuando la salud está al máximo.
+		Elimina la penalización de daño radiante de la desventaja [cbuff:InfernalEclipseAPI/BrokenOath]
 		'''
 	SealedContract.Tooltip:
 		'''
-		Maximum life increased by 60
-		Healing spells grant an additional 5 life
-		Gaining soul essence grants shield when health is full
-		Removes the radiant damage penalty from the [cbuff:InfernalEclipseAPI/BrokenOath] debuff
-		Gaining soul essence with radiant scythes grant a stack of aggregate charge
-		Radiant damage from scythe projectiles or non-scythe weapons consume aggregate charge to grant soul essence
-		"Seal the deal!"
+		La vida máxima aumenta en 60
+		Los hechizos de curación otorgan 5 puntos de vida adicionales
+		Al obtener Ganancia de alma, se obtiene un escudo cuando la salud está al máximo
+		Elimina la penalización de daño radiante de la desventaja [cbuff:InfernalEclipseAPI/BrokenOath]
+		Al obtener Ganancia de alma con guadañas radiantes, se obtiene una acumulación de carga agregada
+		El daño radiante de los proyectiles de guadañas o de armas que no sean guadañas consume carga agregada para otorgar Ganancia de alma
+		"¡Cierra el trato!"
 		'''
 }
 
@@ -35,10 +35,10 @@ ItemDescriptions: {
 	TideTurnerGreaves: ""
 	PyromancerTabard:
 		'''
-		25% increased whip range
-		Increases your max number of minions by 1
+		Aumenta un 25% el alcance del látigo
+		Aumenta en 1 tu número máximo de súbditos
 		'''
-	MagmaSeersMask: 20% increased whip speed
+	MagmaSeersMask: Aumenta un 20% la velocidad del látigo
 	MasterMarksmansScouter: ""
 	AssassinsGuard: ""
 }

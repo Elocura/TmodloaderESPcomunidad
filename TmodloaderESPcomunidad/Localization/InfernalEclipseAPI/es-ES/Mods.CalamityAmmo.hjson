@@ -1,28 +1,28 @@
 Items: {
 	WulfrumCoil: {
-		DisplayName: Wulfrum Coil
+		DisplayName: Bobina de wulfrum
 		Tooltip:
 			'''
-			5% increased ranged damage
-			Slightly increases the velocity of ranged projectiles
+			Aumenta un 5% del daño a distancia
+			Aumenta ligeramente la velocidad de los proyectiles a distancia
 			'''
 	}
 
 	WulfrumBullet: {
-		DisplayName: Wulfrum Scrap Bullet
+		DisplayName: Bala de chatarra de wulfrum
 		Tooltip:
 			'''
-			Radiates wulfrum energy beams with a slight homing ability
-			"Last Hamon, son."
+			Emite rayos de energía wulfrum con una ligera capacidad de seguimiento
+			"Último Hamon, hijo"
 			'''
 	}
 
 	SoulBullet: {
-		DisplayName: Soul Bullet
+		DisplayName: Bala del alma
 		Tooltip:
 			'''
-			Homes in on the nearest enemy, deals half damage however pierces three times with decreasing damage each hit
-			"Made by pressing miserable souls into shell casings, may attract the same pitiful souls."
+			Se centra en el enemigo más cercano. Inflige la mitad de daño, pero perfora tres veces con un daño decreciente en cada impacto
+			"Fabricado a partir de almas desdichadas comprimidas en casquillos de bala, puede atraer a otras almas igual de lamentables"
 			'''
 	}
 }

@@ -1,46 +1,46 @@
 Items: {
 	CoralCrusher.Tooltip:
 		'''
-		4% summon tag damage
+		+4% de daño de etiqueta de invocación
 		{$Mods.CatalystMod.Tooltips.WhipTooltip}
-		Hitting an enemy with the tip embeds a coral shard
-		Minion attacks can shatter the coral shard, stopping their movement and triggering 6% summon tag damage 
+		Si golpeas a un enemigo con la punta, le clavas un fragmento de coral
+		Los ataques de los súbditos pueden romper el fragmento de coral, lo que detiene su movimiento y provoca un daño adicional del 6% por etiqueta de invocación
 		'''
 	ResonantStriker.Tooltip:
 		'''
-		8% summon tag damage
+		+9% de daño de etiqueta de invocación
 		{$Mods.CatalystMod.Tooltips.WhipTooltip}
-		Releases homing orbs of electricity on hit
-		Your minions stun non-boss enemies on hit
+		Lanza orbes de electricidad que se dirigen hacia el objetivo al impactar
+		Tus súbditos aturden a los enemigos que no sean jefes al impactar
 		'''
 	BlossomsBlessing.Tooltip:
 		'''
-		12% summon tag damage
+		+12% de daño de etiqueta de invocación
 		{$Mods.CatalystMod.Tooltips.WhipTooltip}
-		Carries blossoms upon the wind
-		Touch the largest petal to receive a blessing to regeneration, damage, and thorns.
-		'It blooms, it blooms, it withers and droops.'
+		Aparecen flores en el viento
+		Toca el pétalo más grande para recibir una bendición que te otorga regeneración de vida, daño y espinas
+		"Florece, florece, se marchita y se mustia".
 		'''
 	UnrelentingTorment.Tooltip:
 		'''
-		10% summon tag damage
+		+10% de daño de etiqueta de invocación
 		{$Mods.CatalystMod.Tooltips.WhipTooltip}
-		Releases a cascade of otherworldly claws to tear at foes
+		Lanza una cascada de garras sobrenaturales para desgarrar a sus enemigos
 		'''
 	Catharsis.Tooltip:
 		'''
-		12% summon tag damage
+		+12% de daño de etiqueta de invocación
 		{$Mods.CatalystMod.Tooltips.WhipTooltip}
-		Swinging the whip costs health
-		Hitting enemies stores a blood charge. Up to 20 charges may be stored
-		<right> activates the charges, temporarily empowering Catharsis and restoring the health lost
-		[c/c61b40:The purifying light, forsaken and consumed by pain,]
-		[c/c61b40:Returned to this realm as obliterating shadow.]
+		Blandir el látigo te resta salud
+		Al golpear a los enemigos, se acumula una carga de sangre. Se pueden acumular hasta 20 cargas
+		Si pulsas <right> se activarán las cargas, potenciando temporalmente a Catársis y recuperando la salud perdida
+		[c/c61b40:La luz purificadora, abandonada y consumida por el dolor,]
+		[c/c61b40:Regresó a este reino como una sombra devastadora.]
 		'''
 }
 
 ArmorSetBonus.IntergelacticRanged:
 	'''
-	Ranged weapons summon stars for 10% damage
-	You are immune to the [cbuff:CatalystMod/AstralBlight] and your attacks inflict it
+	Las armas a distancia invocan estrellas que infligen un 10% de daño adicional
+	Eres inmune a [cbuff:CatalystMod/AstralBlight] y tus ataques lo infligen
 	'''
