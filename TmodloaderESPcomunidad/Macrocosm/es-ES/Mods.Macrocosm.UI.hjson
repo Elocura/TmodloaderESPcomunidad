@@ -1,0 +1,235 @@
+Common: {
+	AlignLeft: Alinear a la izquierda
+	AlignRight: Alinear a la derecha
+	AlignCenterHorizontal: Alinear al centro
+	AlignTop: Alinear arriba
+	AlignBottom: Alinear abajo
+	AlignCenterVertical: Alinear al centro
+	CopyColorHex: Copiar el color al portapapeles
+	PasteColorHex: Pegar el color del portapapeles
+	RandomizeColor: Seleccionar un color al azar
+	ApplyColor: Aceptar los cambios de color
+	CancelColor: Descartar los cambios de color
+	ZoomIn: Acercar
+	ZoomOut: Alejar
+	Inventory.OpenInventory: Abrir inventario
+}
+
+LaunchPad: {
+	Assemble: Montar
+	Disassemble: Desmontar
+	AnyChest: Cualquier cofre
+	UnknownLocation: Desconocido
+
+	Configurations: {
+		Manned: Tripulado
+		Unmanned: No tripulado
+	}
+}
+
+Rocket: {
+	Common: {
+		Close: Cerrar
+		Navigation: Navegación
+		Checklist: Revisión previa al vuelo
+		LaunchLocations: Puntos de lanzamiento
+		Crew: Tripulación
+		Commander: Comandante
+		Cargo: Carga
+		Payload: Carga útil
+		Inventory: Inventario
+		Fuel: Combustible
+		Customization: Personalización
+		Assembly: Montaje
+	}
+
+	Modules: {
+		CommandPod.DisplayName: Módulo de mando
+		PayloadPod.DisplayName: Carga útil
+		ServiceModule.DisplayName: Módulo de servicio
+		StructureModule.DisplayName: Módulo de estructura
+		UnmannedTug.DisplayName: Remolcador no tripulado
+		ReactorModule.DisplayName: Módulo de reactor
+		EngineModuleMk1.DisplayName: Módulo del motor MK1
+		EngineModuleMk2.DisplayName: Módulo del motor MK2
+		BoosterLeft.DisplayName: Refuerzo izquierdo
+		BoosterRight.DisplayName: Refuerzo derecho
+		LegModuleLeft.DisplayName: Módulo de la pierna izquierda
+		LegModuleRight.DisplayName: Módulo de la pierna derecha
+	}
+
+	Customization: {
+		Apply: Aplicar cambios en el aspecto del cohete
+		Cancel: Deshacer los cambios en el aspecto del cohete
+		CopyModule: Copiar el aspecto del módulo
+		PasteModule: Pegar el aspecto del módulo
+		CopyRocket: Copiar el aspecto del cohete
+		PasteRocket: Pegar el aspecto del cohete
+		ResetModule: Restablecer la apariencia predeterminada del módulo
+		ResetRocket: Restablecer la apariencia predeterminada del cohete
+		ResetPattern: restablecer el patrón a su aspecto predeterminado
+
+		Patterns: {
+			Astra: Astra
+			Basic: Basic
+			Binary: Binary
+			Delta: Delta
+			Hazard: Hazard
+			Helix: Helix
+			Redstone: Redstone
+			Saturn: Saturn
+		}
+	}
+
+	Cargo.DumpFuel: Verter
+
+	Navigation: {
+		LaunchButton: {
+			NoTarget: SIN OBJETIVO
+			CantReach: INACCESIBLE
+			DifferentTarget: UBICACIÓN ACTUAL
+			Occupied: OCUPADO
+			ZoomIn: ACERCAR
+			Launch: LANZAMIENTO
+			LaunchInactive: LANZAMIENTO
+		}
+
+		SpaceStationNumber: Estación espacial #{0}
+		CreateSpaceStation: Crear una estación espacial
+
+		Gravity: {
+			Name: Gravedad
+			UnitG: "{0} G {1}{2}{3}"
+			UnitMetric: "{0} m/s² {1}{2}{3}"
+			UnitImperial: "{0} ft/s² {1}{2}{3}"
+		}
+
+		Radius: {
+			Name: Radio
+			UnitMetric: "{0} km {1}{2}{3}"
+			UnitImperial: "{0} {^0:milla;millas} {1}{2}{3}"
+		}
+
+		DayPeriod: {
+			Name: Período del día
+			UnitDays: "{0} {^0:día;días} {1}{2}{3}"
+			UnitHours: "{0} {^0:hora;horas} {1}{2}{3}"
+		}
+
+		Special: {
+			TidallyLocked: Rotación síncrona
+			Unstable: Inestable
+			Negligible: Insignificante
+			Retrograde: Retrógrado
+		}
+
+		ThreatLevel: {
+			Name: Nivel de amenaza
+			Threat1: "{0} - Inofensivo"
+			Threat2: "{0} - Incómodo"
+			Threat3: "{0} - Cuestionable"
+			Threat4: "{0} - Peligroso"
+			Threat5: "{0} - Muy Peligroso"
+			Threat6: "{0} - Letal"
+			Threat7: "{0} - Cataclísmico"
+			Threat8: "{0} - Pesadilla"
+			Threat9: "{0} - Apollyon"
+			Threat10: "{0} - Desconocido"
+		}
+
+		Hazard: {
+			Name: Peligro
+			MeteorStorms: Tormentas de meteoritos
+			SolarStorms: Tormentas solares
+		}
+
+		Checklist: {
+			Fuel: {
+				Met.Display: Combustible suficiente
+
+				NotMet: {
+					Display: Combustible insuficiente
+					Hover: Necesitas más combustible para lanzar el cohete
+				}
+			}
+
+			Obstruction: {
+				Met.Display: Camino despejado
+
+				NotMet: {
+					Display: Camino bloqueado
+					Hover: Hay un obstáculo en la trayectoria de vuelo del cohete
+				}
+			}
+
+			Boss: {
+				NotMet: {
+					Display: El jefe está vivo
+					Hover: Tienes que derrotar al jefe para poder volar sin peligro.
+				}
+			}
+
+			Invasion: {
+				NotMet: {
+					Display: Invasión en curso
+					Hover: Debes acabar con la invasión que está teniendo lugar para poder volar con seguridad.
+				}
+			}
+
+			BloodMoon: {
+				NotMet: {
+					Display: La Luna de Sangre sigue en curso
+					Hover: El vacío del espacio no es seguro cuando hay una luna de sangre
+				}
+			}
+
+			Selected: {
+				NotMet: {
+					Display: Selecciona un destino
+					Hover: por defecto
+				}
+			}
+
+			DifferentTarget: {
+				NotMet: {
+					Display: Ya estás aquí
+					Hover: por defecto
+				}
+			}
+
+			VacantLaunchpad: {
+				NotMet: {
+					Display: La plataforma de lanzamiento está ocupada
+					Hover: por defecto
+				}
+			}
+		}
+	}
+
+	Special: {
+		TidallyLocked: Rotación síncrona
+		Retrograde: Retrógrado
+	}
+}
+
+LoadingScreenTips: {
+	Moon: {
+		Moon_Tip1: Has dado tu primer paso hacia un mundo más amplio.
+		Moon_Tip2: La Luna tarda mucho más en dar una vuelta completa que la Tierra. Asegúrate de tener provisiones suficientes para pasar la noche!
+		Moon_Tip3: ¿De verdad está hecha la Luna de queso? Adéntrate hasta su núcleo para descubrirlo.
+		Moon_Tip4: Incluso en esta roca sin aire, la vida se abre camino. Mantente siempre alerta.
+		Moon_Tip5: Aprovecha la baja gravedad de la Luna, pero recuerda que tus enemigos harán lo mismo.
+		Moon_Tip6: Cuando llega la hora sangrienta, es hora de esconderse.
+		Moon_Tip7: Si no hay atmósfera, no hay fuego, pero hay otras formas de iluminar la oscuridad.
+		Moon_Tip8: ¡Cuidado con las tormentas solares!
+		Moon_Tip9: El Señor de la Luna no fue más que el principio. ¿Qué otros horrores te esperan en nuestro satélite plateado?
+	}
+
+	Earth: {
+		Earth_Tip1: ¿Vuelves por una cerveza?
+		Earth_Tip2: Si crees que tienes suficiente electricidad, sin duda te equivocas.
+		Earth_Tip3: ¿Te resulta demasiado dura la gravedad normal después de una expedición espacial? ¡Prueba a mejorar tus botas con tecnología gravitatoria avanzada!
+		Earth_Tip4: ¡Puedes personalizar tu cohete! ¡Dale una nueva capa de pintura, iza tu bandera favorita y ponle un nombre!
+		Earth_Tip5: Intenta utilizar varias fuentes de electricidad. Nunca se sabe cuándo puede empezar a llover de repente.
+	}
+}

@@ -1,0 +1,46 @@
+OilRefinery.DisplayName: Refinería de Petróleo
+OreDrill.DisplayName: Ore Excavator
+OreExcavator.DisplayName: Excavadora
+Pumpjack.DisplayName: Unidad de bombeo mecánico
+SteamEngine.DisplayName: Motor de vapor
+AutocrafterT1.DisplayName: Ensamblador (nivel 1)
+AutocrafterT2.DisplayName: Ensamblador (nivel 2)
+AutocrafterT3.DisplayName: Ensamblador (nivel 3)
+AutosmelterT1.DisplayName: Fundidor (nivel 1)
+AutosmelterT2.DisplayName: Fundidor (nivel 2)
+AutosmelterT3.DisplayName: Fundidor (nivel 3)
+
+BurnerGenerator: {
+	DisplayName: Generador de combustión
+	HullHeatMetric: Temperatura interna: {0}°C
+	HullHeatImperial: Temperatura interna: {0}°F
+}
+
+KeroseneGenerator: {
+	DisplayName: Generador de Queroseno
+	RPM: "{0} RPM"
+}
+
+Common: {
+	ConsumedPower: Consumo de energía: {0}kW
+	GeneratedPower: Energía generada: {0}kW
+	StoredEnergy: Energía almacenada: {0}kJ
+	LiquidExtract: Extraíble
+	LiquidContainer: Contenedor de líquidos
+	BurnFuel: Combustibles inflamables
+	TemperatureMetric: "{0}°C"
+	TemperatureImperial: "{0}°F"
+	AirQualityIndex: "{0} AQI"
+
+	PowerInfo: {
+		Simple: "{0}kW"
+		Energy: "{0}kJ"
+		Common: "{0} / {1}kW"
+		Consumer: Suministrado: {0}kW / Demanda: {1}kW / Max: {2}kW
+		ConsumerIdle: Inactivo / Max: {0}kW
+		Generator: Generado: {0}kW / Max: {1}kW
+		Battery: Almacenado: {0}kJ / Capacidad: {1}kJ
+		Circuit: Circuito: Generado {0}kW / Demanda {1}kW / Baterías {2}kJ/{3}kJ ({4}kW)
+		Controller: ""
+	}
+}
