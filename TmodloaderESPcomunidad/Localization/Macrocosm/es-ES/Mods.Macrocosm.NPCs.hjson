@@ -1,202 +1,202 @@
 CraterDemon: {
-	DisplayName: Crater Demon
-	BestiaryFlavorText: This massive meteorite demon is a member of a race that invaded the Moon long ago, and bears the scars of an ancient war.
-	SpawnInfo: Use a [i:Macrocosm/CraterDemonSummon] at any time on the Moon.
-	DespawnMessage: "{0} has left."
-	FunnyDeathMessage: "{0} died for the crater good"
+	DisplayName: Demonio del Cráter
+	BestiaryFlavorText: Este enorme demonio meteorito pertenece a una raza que invadió la Luna hace mucho tiempo y porta las cicatrices de una guerra ancestral.
+	SpawnInfo: Utiliza una [i:Macrocosm/CraterDemonSummon] en cualquier lugar de la Luna.
+	DespawnMessage: "{0} se ha ido."
+	FunnyDeathMessage: "{0} murió por el cráter, bien hecho"
 }
 
 CraterImp: {
-	DisplayName: Crater Imp
-	BestiaryFlavorText: Smaller companions of the infamous Crater Demon, these lesser demons aid their master in combat.
+	DisplayName: Duendecillo del cráter
+	BestiaryFlavorText: Los compañeros más pequeños del infame Demonio del Cráter, estos demonios menores ayudan a su maestro en combate.
 }
 
-FlamingMeteor.DisplayName: Flaming Meteor
+FlamingMeteor.DisplayName: Meteorito en llamas
 
 MoonChampion: {
-	DisplayName: Moon Champion
-	BestiaryFlavorText: A mysterious, superhuman lunatic who has dedicated his life to protecting the Moon, and challenging all who threaten it.
+	DisplayName: Campeón de la Luna
+	BestiaryFlavorText: Un misterioso lunático con poderes sobrehumanos que ha dedicado su vida a proteger la Luna y a enfrentarse a todos aquellos que la amenazan.
 
 	TownNPCMood: {
-		Content: I am content.
-		NoHome: I hate not having a home.
-		FarFromHome: I am too far from home.
-		LoveSpace: I love having so much space.
-		DislikeCrowded: I dislike how crowded I am.
-		HateCrowded: I hate how crowded I am.
-		LoveBiome: I love {BiomeName}.
-		LikeBiome: I like {BiomeName}.
-		DislikeBiome: I dislike {BiomeName}.
-		HateBiome: I hate {BiomeName}.
-		LoveNPC: I love {NPCName}.
-		LikeNPC: I like {NPCName}.
-		DislikeNPC: I dislike {NPCName}.
-		HateNPC: I hate {NPCName}.
-		LikeNPC_Princess: I like {NPCName}.
-		Princess_LovesNPC: I like {NPCName}.
+		Content: Estoy contento.
+		NoHome: Odio no tener una casa.
+		FarFromHome: Estoy demasiado lejos de casa.
+		LoveSpace: Me encanta tener tanto espacio.
+		DislikeCrowded: No me gusta sentirme tan apretado.
+		HateCrowded: Odio lo abarrotado que estoy.
+		LoveBiome: Me encanta {BiomeName}.
+		LikeBiome: Me gusta {BiomeName}.
+		DislikeBiome: No me gusta {BiomeName}.
+		HateBiome: Odio {BiomeName}.
+		LoveNPC: Me encanta {NPCName}.
+		LikeNPC: Me gusta {NPCName}.
+		DislikeNPC: No me gusta {NPCName}.
+		HateNPC: Odio {NPCName}.
+		LikeNPC_Princess: Me gusta {NPCName}.
+		Princess_LovesNPC: Me gusta {NPCName}.
 	}
 
 	Chat: {
-		Shop: Shop
-		Advice: Advice
-		ShopName: Shop
-		Rescued1: Wow, it's bright! How long was I out for, I swear I only took a nap for a moment! ...Oh, you killed that big monster that ate me. Well, thank you!
-		Rescued2: Thank you very much for rescuing me! It was starting to get a little stuffy in there! You must be a brave champion to have come out all this way. Like me!
-		Rescued3: Woah, thank you human! You saved me from that frightening space monster! Perhaps...you are also a champion of the Moon, as I am!
-		Day1: The Moon is not so bad once you get used to it! I personally find it quite beautiful! Just stay indoors during the night, I shall defend you from those evil Moon monsters!
-		Day2: I found an old space lander once! It looked abandoned, and there was this weird pole with cloth attached to it. Do you know anything about this?
-		Day3: Earth looks very pretty! I went to visit it once, the President of the planet gave me a cookie!
-		Day4: Am I a good Moon Champion? Of course! If I wasn't a good Moon Champion, I wouldn't be sitting here discussing it with you now, would I?
-		Day5: What was I doing on the Moon before I got eaten? I was fighting Moon monsters, of course!
-		Day6: A meteorite hit me on the head today. How rude!
-		Day7: Planet Earth is blue, and there's nothing I can do! Not that I'd want to, it's so pretty to look at!
-		Day8: What a wonderful place my Moon is, isn't it? Nothing but silver plains and dunes as far as the eye can see, amidst an inky black sky! ...And Earth's there, too!
-		Day9: Have I ever told you how much I love my Moon?
-		Night1: Human, I am curious, is the Earth made of cheese?
-		Night2: Stand alert, human! Nighttime lasts far longer than it does on Earth, and lots of scary monsters emerge from the craters and shadows looking for food!
-		Night3: You look troubled, are you afraid of those Moon monsters? Do not be, for I will defend you! Those Moon monsters will never defeat me!
-		Night4: Yes, nighttime is finally here! This is the time my Moon offers some of its most challenging foes, and a true Champion will never shy away from a fight!
-		Night5: A while back, I discovered I could tune in on human conversations if they were happening close enough to the Moon! I kept hearing the word 'Houston' come up in their conversations. I haven't heard from him in a while...I would like to meet this Houston some day!
-		Night6: Space is so cool! There are thousands of billions of billions of stars and galaxies! There is nothing I like more than space...well, except my Moon, of course!
-		Night7: Why do I love my Moon so much? ...I'm not sure! I've been here since I first woke up, and it's captivated me with its beauty! It also keeps my senses and skills sharpened with its ceaseless monsters and challenges! It makes me feel alive!
-		Night8: So many Moon monsters out tonight...plaguing, desecrating my Moon. I shall kill all of them, and you shall help me!
-		Advice1: Don't forget your spacesuit, human! I don't know why, but it always makes me feel weird whenever I take it off, so I never do!
-		Advice2: Monsters on my Moon drop these shiny gemstones, and I love keeping them! I'll gladly take them in exchange for some supplies I...found!
-		Advice3: Be prepared for anything, and stay alert! The Moon is a very dangerous place crawling with all kinds of monsters, prowling the surface or crawling deep below!
-		Advice4: Take caution when going deeper into the Moon's caverns, many of its monsters HATE light! ...Why do they hate light? I'm not sure! They might be scared of it.
-		Advice5: There's an old human Moon base not far from here! I'd go explore it if I were you, but be careful! I don't think everything in there is entirely dead just yet!
-		BloodMoon1: Finally! The challenge I have been waiting millennia for... Stand back, human. This fight is MINE!
-		BloodMoon2: I have never felt so ALIVE. I wish this night to never end, I will return drenched in blood!
-		BloodMoon3: I LOVE THIS WORLD. IT GIVES ME NO SHORTAGE OF CHALLENGE, OF THRILL, OF BLOOD. I WILL BLEED AND SPILL FOR MY MOON.
-		BloodMoon4: Get inside. Now.
-		SolarStorm1: You should get inside, human! The Sun has sent a volley of interlopers here to my Moon, but they won't live long enough to tell the tale!
-		SolarStorm2: WOW, the Sun is bright today! More so than usual...but not the brightest I've seen it. You should have been there, human; there was no shortage of things to kill!
-		SolarStorm3: The Sun appears angry, human! Beware, sometimes frightening monsters ride the solar winds here, and they are not to be trifled with!
-		SolarStorm4: Do you taste metal, human?
+		Shop: Tienda
+		Advice: Consejos
+		ShopName: Tienda
+		Rescued1: ¡Vaya, qué brillante! ¿Cuánto tiempo he estado inconsciente? ¡Juro que solo me eché una siesta de un momento!... Ah, has matado a ese gran monstruo que se me comió. ¡Muchas gracias!
+		Rescued2: ¡Muchísimas gracias por rescatarme! ¡Empezaba a hacer un poco de calor ahí dentro! Debes de ser un valiente campeón para haber venido hasta aquí. ¡Como yo!
+		Rescued3: ¡Vaya, gracias, humano! ¡Me has salvado de ese aterrador monstruo espacial! Quizás... ¡tú también seas un campeón de la Luna, como yo!
+		Day1: ¡La Luna no está tan mal una vez que te acostumbras! ¡A mí, personalmente, me parece preciosa! Solo quédate en casa por la noche, ¡yo te protegeré de esos malvados monstruos lunares!
+		Day2: ¡Una vez encontré un viejo módulo de aterrizaje espacial! Parecía abandonado, y había un poste muy raro con un trozo de tela atado a él. ¿Sabes algo al respecto?
+		Day3: ¡La Tierra es preciosa! Fui a visitarla una vez, ¡y el presidente del planeta me dio una galleta!
+		Day4: ¿Soy un buen Campeón de la Luna? ¡Por supuesto! Si no fuera un buen Campeón de la Luna, no estaría aquí sentado hablando de ello contigo ahora mismo, ¿verdad?
+		Day5: ¿Qué estaba haciendo en la Luna antes de que me devoraran? ¡Pues luchando contra los monstruos lunares, claro!
+		Day6: Hoy me ha caído un meteorito en la cabeza. ¡Qué descaro!
+		Day7: ¡El planeta Tierra es azul, y no hay nada que yo pueda hacer al respecto! ¡No es que quiera hacerlo, es que es tan bonito de ver!
+		Day8: ¡Qué lugar tan maravilloso es mi Luna, ¿verdad?! ¡Nada más que llanuras y dunas plateadas hasta donde alcanza la vista, en medio de un cielo negro como la tinta! ... ¡Y la Tierra también está ahí!
+		Day9: ¿Te he dicho alguna vez lo mucho que quiero a mi Luna?
+		Night1: Oye, humano, tengo curiosidad: ¿la Tierra está hecha de queso?
+		Night2: ¡Mantente alerta, humano! ¡La noche dura mucho más que en la Tierra, y un montón de monstruos aterradores salen de los cráteres y las sombras en busca de comida!
+		Night3: Pareces preocupado, ¿tienes miedo de esos monstruos de la Luna? ¡No te preocupes, porque yo te protegeré! ¡Esos monstruos de la Luna nunca me vencerán!
+		Night4: ¡Sí, por fin ha llegado la noche! Es el momento en el que mi Luna nos presenta a algunos de sus enemigos más temibles, ¡y un auténtico campeón nunca retrocederá ante una pelea!
+		Night5: Hace un tiempo, descubrí que podía escuchar conversaciones humanas si se producían lo suficientemente cerca de la Luna. No paraba de oír la palabra “Houston” en sus conversaciones. Hace tiempo que no sé nada de él... ¡Me gustaría conocer a ese tal Houston algún día!
+		Night6: ¡El espacio es genial! ¡Hay miles de miles de millones de estrellas y galaxias! No hay nada que me guste más que el espacio... bueno, ¡excepto mi Luna, claro!
+		Night7: ¿Por qué me gusta tanto mi Luna? ... ¡No estoy seguro! Llevo aquí desde que desperté por primera vez, ¡y me ha cautivado con su belleza! Además, mantiene mis sentidos y mis habilidades afiladas con sus incesantes monstruos y retos. ¡Me hace sentir vivo!
+		Night8: Esta noche hay tantos monstruos lunares... atormentando y profanando mi Luna. ¡Los mataré a todos, y tú me ayudarás!
+		Advice1: ¡No te olvides del traje espacial, humano! No sé por qué, pero siempre me da una sensación rara cuando me lo quito, ¡así que nunca me lo quito!
+		Advice2: ¡Los monstruos de mi Luna sueltan estas piedras preciosas brillantes, y me encanta quedármelas! Las aceptaré encantado a cambio de algunos suministros que... ¡encontré!
+		Advice3: ¡Prepárate para cualquier cosa y mantente alerta! ¡La Luna es un lugar muy peligroso, plagado de todo tipo de monstruos que merodean por la superficie o se arrastran en las profundidades!
+		Advice4: Ten cuidado al adentrarte en las cavernas de la Luna, ¡muchos de sus monstruos ODIAN la luz! ... ¿Por qué odian la luz? ¡No estoy seguro! Quizá les dé miedo.
+		Advice5: ¡Hay una antigua base lunar humana no muy lejos de aquí! Yo que tú iría a explorarla, ¡pero ten cuidado! ¡No creo que todo lo que hay ahí dentro esté del todo muerto aún!
+		BloodMoon1: ¡Por fin! El desafío que llevaba milenios esperando... ¡Apártate, humano! ¡Esta lucha es MÍA!
+		BloodMoon2: Nunca me he sentido tan VIVO. ¡Ojalá esta noche no acabara nunca! ¡Volveré empapado en sangre!
+		BloodMoon3: ME ENCANTA ESTE MUNDO. NO ME FALTA NINGÚN TIPO DE RETO, DE EMOCIÓN NI DE SANGRE. SANGRARÉ Y DERRAMARÉ MI SANGRE POR MI LUNA.
+		BloodMoon4: Entra. Ya.
+		SolarStorm1: ¡Deberías entrar, humano! El Sol ha enviado una oleada de intrusos aquí, a mi Luna, ¡pero no vivirán lo suficiente para contarlo!
+		SolarStorm2: ¡Vaya, qué sol tan brillante hace hoy! Más de lo habitual... pero no es el más brillante que he visto. ¡Deberías haber estado allí, humano! ¡No faltaban cosas que matar!
+		SolarStorm3: ¡El Sol parece enfadado, humano! ¡Ten cuidado, a veces hay monstruos aterradores que se dejan llevar por los rayos solares, y no hay que tomárselos a la ligera!
+		SolarStorm4: ¿Notas un sabor metálico, humano?
 	}
 
-	Census.SpawnCondition: Conditions unknown
+	Census.SpawnCondition: Condiciones desconocidas
 }
 
 Clavite: {
 	DisplayName: Clavite
-	BestiaryFlavorText: A ravenous alien that prowls the surface of the Moon, attacking and charging at anything it finds.
+	BestiaryFlavorText: Un alienígena voraz que merodea por la superficie de la Luna, atacando y abalanzándose sobre cualquier cosa que se encuentre.
 }
 
 CraterCrawlerHead: {
-	DisplayName: Crater Crawler
-	BestiaryFlavorText: The distant, non-domesticated relatives of crawltipedes, left to aimlessly wander the abandoned moonscape during its long, frigid nights.
+	DisplayName: Explorador de cráteres
+	BestiaryFlavorText: Los parientes lejanos y no domesticados de los crawltipedes, condenados a deambular sin rumbo por el paisaje lunar abandonado durante sus largas y gélidas noches.
 }
 
-CraterCrawlerBody.DisplayName: Crater Crawler
-CraterCrawlerTail.DisplayName: Crater Crawler
+CraterCrawlerBody.DisplayName: Explorador de cráteres
+CraterCrawlerTail.DisplayName: Explorador de cráteres
 
 CrescentGhoul: {
-	DisplayName: Crescent Ghoul
-	BestiaryFlavorText: These devious, crescent-shaped aliens prowl the Moon's long nights, using their immense velocity to shred their victims.
+	DisplayName: Ghoul de la luna creciente
+	BestiaryFlavorText: Estos alienígenas astutos, con forma de media luna, merodean por las largas noches lunares y aprovechan su inmensa velocidad para destrozar a sus víctimas.
 }
 
 Leaper: {
 	DisplayName: Leaper
-	BestiaryFlavorText: These agile creatures live deep below the Moon's surface, jumping to and from the walls and ceilings of caverns to confuse their victims.
+	BestiaryFlavorText: Estas ágiles criaturas viven en las profundidades de la superficie lunar, saltando de las paredes y los techos de las cavernas para despistar a sus víctimas.
 }
 
 LuminiteSlime: {
-	DisplayName: Luminite Slime
-	BestiaryFlavorText: Some slimes beneath the Moon's surface develop an attraction to luminite, consuming so much that it becomes part of their makeup.
+	DisplayName: Slime de Luminita
+	BestiaryFlavorText: Algunos slimes que habitan bajo la superficie de la Luna sienten una atracción por la luminita y la consumen en tal cantidad que acaba formando parte de su composición.
 }
 
 LuminiteSlimeVolatile: {
-	DisplayName: Volatile Luminite Slime
-	BestiaryFlavorText: Some slimes beneath the Moon's surface develop an attraction to luminite, consuming so much that it becomes part of their makeup.
+	DisplayName: Slime de Luminita Volátil
+	BestiaryFlavorText: Algunos slimes que habitan bajo la superficie de la Luna sienten una atracción por la luminita y la consumen en tal cantidad que acaba formando parte de su composición.
 }
 
 MoonWormHead: {
-	DisplayName: Moon Worm
-	BestiaryFlavorText: The Moon's long nights bring forth many an alien monster, few more infamous than its colossal Moon worms, ambushing their prey from below.
+	DisplayName: Gusano Lunar
+	BestiaryFlavorText: Las largas noches lunares dan lugar a numerosos monstruos alienígenas, pocos tan infames como sus colosales gusanos lunares, que acechan a sus presas desde las profundidades.
 }
 
-MoonWormBody.DisplayName: Moon Worm
-MoonWormTail.DisplayName: Moon Worm
+MoonWormBody.DisplayName: Gusano Lunar
+MoonWormTail.DisplayName: Gusano Lunar
 
 MoonZombie: {
-	DisplayName: Zombie Astronaut
-	BestiaryFlavorText: As if zombies weren't bad enough on Earth, the Moon is infested with undead astronauts from long abandoned human colonies.
+	DisplayName: Astronauta zombi
+	BestiaryFlavorText: Por si los zombis no fueran ya un problema suficiente en la Tierra, la Luna está infestada de astronautas no muertos procedentes de colonias humanas abandonadas hace mucho tiempo.
 }
 
 RadioactiveSlime: {
-	DisplayName: Radioactive Slime
-	BestiaryFlavorText: These slimes have absorbed high amounts of uranium, chromium, and other radioactive materials. Handle with care!
+	DisplayName: Slime radiactivo
+	BestiaryFlavorText: Estos slimes han absorbido grandes cantidades de uranio, cromo y otros materiales radiactivos. ¡Manéjalos con cuidado!
 }
 
 RegolithSlime: {
-	DisplayName: Regolith Slime
-	BestiaryFlavorText: Even extreme environments such as the Moon can host equally extreme types of slimes, mixing with the Moon's silvery regolith.
+	DisplayName: Slime de Regolito
+	BestiaryFlavorText: Incluso entornos extremos como la Luna pueden albergar tipos de slimes igualmente extremos, que se mezclan con el regolito plateado de la Luna.
 }
 
 ZombieSecurity: {
-	DisplayName: Zombie Security
-	BestiaryFlavorText: Remnants of the Moon Base's security personnel, now reanimated and patrolling the area as undead sentinels.
+	DisplayName: Seguridad zombi
+	BestiaryFlavorText: Los restos del personal de seguridad de la base lunar, ahora reanimados y que patrullan la zona como centinelas no muertos.
 }
 
 KyaniteScarabCritter: {
-	DisplayName: Kyanite Scarab Hatchling
-	BestiaryFlavorText: Juvenile Scarabs are rarely seen away from their nests and are completely defenseless, relying on the vigilant protection of the adult Scarabs. In a long-lost civilization, they were once considered a delicacy.
+	DisplayName: Cría de escarabajo de cianita
+	BestiaryFlavorText: Rara vez se ve a los escarabajos jóvenes lejos de sus nidos y, al carecer por completo de medios de defensa, dependen de la protección vigilante de los escarabajos adultos. En una civilización desaparecida hace mucho tiempo, se les consideraba un manjar.
 }
 
 KyaniteScarabSmall: {
-	DisplayName: Kyanite Scarab Worker
-	BestiaryFlavorText: Kyanite Scarabs establish their homes close to ore deposits, crafting nests from found metals. The shinier their nests, the likelier they are to attract mates from other nests.
+	DisplayName: Escarabajo obrero de cianita
+	BestiaryFlavorText: Los escarabajos de cianita establecen sus hogares cerca de yacimientos minerales y construyen sus nidos con los metales que encuentran. Cuanto más brillantes son sus nidos, más probabilidades tienen de atraer a parejas de otros nidos.
 }
 
 KyaniteScarabLarge: {
-	DisplayName: Kyanite Scarab Soldier
-	BestiaryFlavorText: Larger Kyanite Scarabs serve as fighters and guardians of their nests. Highly aggressive by nature, they will fiercely attack any intruder that approaches their territory.
+	DisplayName: Escarabajo soldado de cianita
+	BestiaryFlavorText: Los escarabajos de cianita de mayor tamaño actúan como luchadores y guardianes de sus nidos. De naturaleza muy agresiva, atacan con ferocidad a cualquier intruso que se acerque a su territorio.
 }
 
 LuminiteElemental: {
-	DisplayName: Luminite Elemental
-	BestiaryFlavorText: Even on this desolate Moon, elementals have manifested in clumps of luminite ore, using its bizarre properties to defend itself.
+	DisplayName: Elemental de Luminita
+	BestiaryFlavorText: Incluso en esta desolada Luna, los elementales se han manifestado en acumulaciones de mineral de Luminita, aprovechando sus extrañas propiedades para defenderse.
 }
 
 Shade: {
-	DisplayName: Shade
-	BestiaryFlavorText: Exposure to light will cause these ghostly entities to flee. However, if they remain exposed and vulnerable for an extended period of time, they may retaliate with hostility.
+	DisplayName: Sombra
+	BestiaryFlavorText: La exposición a la luz hará que estas entidades fantasmales huyan. Sin embargo, si permanecen expuestas y vulnerables durante un periodo prolongado, pueden responder con hostilidad.
 }
 
 ZombieEngineer: {
-	DisplayName: Zombie Engineer
-	BestiaryFlavorText: The engineer's leaking gas tank makes it a ticking time bomb, prone to exploding at any moment. It was once part of the Moon base's maintenance crew.
+	DisplayName: Ingeniero zombi
+	BestiaryFlavorText: El depósito de combustible con fugas del ingeniero lo convierte en una bomba de relojería, susceptible de explotar en cualquier momento. En su día formó parte del equipo de mantenimiento de la base lunar.
 }
 
 MoonLich: {
-	DisplayName: Moon Lich
-	BestiaryFlavorText: An ancient alien infused with powerful lunar magic, boasting the ability to reanimate the dead to serve and fight for their new master.
+	DisplayName: Lich Lunar
+	BestiaryFlavorText: Un antiguo extraterrestre imbuido de una poderosa magia lunar, capaz de resucitar a los muertos para que sirvan y luchen por su nuevo amo.
 }
 
 XenoHive: {
-	DisplayName: Xeno Hive
-	BestiaryFlavorText: Zombified aliens molded to serve as mobile hives for swarms of alien leeches, deployed to defend their Lich.
+	DisplayName: Xeno Colmena
+	BestiaryFlavorText: Extraterrestres convertidos en zombis, transformados para servir como colmenas móviles para enjambres de sanguijuelas alienígenas, desplegados para defender a su Lich.
 }
 
 XenoHornet: {
-	DisplayName: Alien Leech
-	BestiaryFlavorText: Tiny, mutated alien drones that have evolved to fly with small, biochemical jets. They can quickly overwhelm their targets in large numbers.
+	DisplayName: Sanguijuela alienígena
+	BestiaryFlavorText: Pequeños drones alienígenas mutados que han evolucionado para volar gracias a pequeños propulsores bioquímicos. En grandes cantidades, pueden abrumar rápidamente a sus objetivos.
 }
 
 LunarChimera: {
-	DisplayName: Gutbelcher
-	BestiaryFlavorText: Reconstructed amalgams of various lunar aliens, belching their acidic and volatile insides at their targets.
+	DisplayName: Regurgitador
+	BestiaryFlavorText: Amalgamas reconstruidas de diversos extraterrestres lunares, que escupen sus entrañas ácidas y volátiles contra sus objetivos.
 }
 
 Scatterbrained: {
-	DisplayName: Scatterbrained
-	BestiaryFlavorText: Reanimated storm divers, their bodies reconfigured and distorted. Their attacks are slow and inaccurate, but deadly.
+	DisplayName: Despistado
+	BestiaryFlavorText: Buzos de tormenta reanimados, con los cuerpos reconfigurados y deformados. Sus ataques son lentos e imprecisos, pero letales.
 }
 
 Dweller: {
-	DisplayName: Dweller
-	BestiaryFlavorText: Alien beasts of immense size that stalk their prey in the Moon's pitch black caverns. They act extremely aggressive in the presence of light.
+	DisplayName: Morador
+	BestiaryFlavorText: Criaturas alienígenas de tamaño gigantesco que acechan a sus presas en las cavernas completamente a oscuras de la Luna. Se muestran extremadamente agresivas ante la presencia de luz.
 }
 
 Hermite: {
@@ -206,52 +206,52 @@ Hermite: {
 
 Bruiser: {
 	DisplayName: Bruiser
-	BestiaryFlavorText: A hulking, tanky behemoth of alien flesh, bone, and fury. Get too close and they'll slug your bloody entrails into orbit!
+	BestiaryFlavorText: Un gigante descomunal y resistente, hecho de carne, huesos y furia alienígenas. ¡Si te acercas demasiado, te lanzarán las entrañas ensangrentadas hasta la órbita!
 }
 
 LuminiteHorror: {
-	DisplayName: Luminite Horror
-	BestiaryFlavorText: Possessed by countless souls of restless, enraged lunar spirits, this hulking mass of raw luminite patrols the Moon's caverns for new victims.
+	DisplayName: El horror de Luminita
+	BestiaryFlavorText: Poseída por innumerables almas de espíritus lunares inquietos y enfurecidos, esta gigantesca masa de luminita en bruto patrulla las cavernas de la Luna en busca de nuevas víctimas.
 }
 
 GunTurret: {
-	DisplayName: Gun Turret
+	DisplayName: Torreta de artillería
 	BestiaryFlavorText: Mods.Macrocosm.NPCs.GunTurret.BestiaryFlavorText
 }
 
 LaserTurret: {
-	DisplayName: Laser Turret
+	DisplayName: Torreta láser
 	BestiaryFlavorText: Mods.Macrocosm.NPCs.LaserTurret.BestiaryFlavorText
 }
 
 TaserTurret: {
-	DisplayName: Taser Turret
+	DisplayName: Torreta de electrochoque
 	BestiaryFlavorText: Mods.Macrocosm.NPCs.TaserTurret.BestiaryFlavorText
 }
 
 TarSlime: {
-	BestiaryFlavorText: A slime whose outer layer is covered in tar. To compensate for its sticky body, the Tar Slime has evolved powerful jumps and is able to leap further than the average slime.
-	DisplayName: Tar Slime
+	BestiaryFlavorText: Un slime cuya capa exterior está cubierta de alquitrán. Para compensar su cuerpo pegajoso, el slime de alquitrán ha desarrollado la capacidad de dar saltos potentes y es capaz de saltar más lejos que un limo normal.
+	DisplayName: Slime de alquitrán
 }
 
 TarBlob: {
-	BestiaryFlavorText: The pint-sized offspring of the Tar Slime. Get swarmed by these nuisances and you’ll be in for a sticky situation!
-	DisplayName: Tar Blob
+	BestiaryFlavorText: Las crías en miniatura del Slime de alquitrán. ¡Si te envuelven estas molestas criaturas, te encontrarás en un buen lío!
+	DisplayName: Mancha de alquitrán
 }
 
 SmogWisp: {
-	DisplayName: Smog Wisp
-	BestiaryFlavorText: Ethereal predators that drift silently through densely polluted areas, blending seamlessly with the toxic haze until they close in on their prey. They’re thought to exclusively target humans and small critters.
+	DisplayName: Nube de smog
+	BestiaryFlavorText: Depredadores etéreos que se deslizan en silencio por zonas densamente contaminadas, mimetizándose perfectamente con la neblina tóxica hasta que se abalanzan sobre su presa. Se cree que atacan exclusivamente a seres humanos y a pequeños animales.
 }
 
 Trashnado: {
 	DisplayName: Trashnado
-	BestiaryFlavorText: A cyclone-like wisp that pulls in discarded junk, only to launch it back at its unsuspecting targets. Underestimating it is a surefire way to get taken out like yesterday’s trash, by yesterday’s trash!
+	BestiaryFlavorText: Un remolino similar a un ciclón que atrae basura abandonada para luego lanzársela a sus víctimas desprevenidas. Subestimarlo es la forma más segura de acabar como la basura de ayer, ¡a manos de la basura de ayer!
 }
 
 WyrmwoodHead: {
 	DisplayName: Wyrmwood
-	BestiaryFlavorText: A winged serpent seen within areas of extreme pollution. Wherever it flies, it leaves behind a trail of sticky tar, staining the ground in its wake.
+	BestiaryFlavorText: Una serpiente alada que se observa en zonas de contaminación extrema. Dondequiera que vuele, deja tras de sí un rastro de alquitrán pegajoso que mancha el suelo a su paso.
 }
 
 WyrmwoodBody.DisplayName: Wyrmwood
