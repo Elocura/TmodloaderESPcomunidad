@@ -1,0 +1,175 @@
+# Localization file for the configs
+
+ClientConfig: {
+	DisplayName: Client Configuration
+	GameplayHeader: Gameplay
+	UIHeader: User Interface
+	VisualsHeader: Visuals
+
+	AlwaysDisplayTitleCards: {
+		Label: Always display title cards
+		Tooltip: Whether to display the introductory title card even if you've visited this celestial body before.
+	}
+
+	GunRecoilEffects: {
+		Label: Gun recoil effects
+		Tooltip: Whether guns have recoil effects.
+	}
+
+	UnitSystem: {
+		Label: Unit system
+		Tooltip: The unit system used to display numeric values.
+	}
+
+	DisplayGravityInGs: {
+		Label: Display gravity values in Gs
+		Tooltip: Whether to display the gravity in Gs, or gravitational acceleration measured in the current unit system.
+	}
+
+	SelectedUITheme: {
+		Label: UI Theme
+		Tooltip: The mod's UI display theme.
+	}
+
+	DisableSilicaSandGeneration: {
+		Label: Disable Silica Sand Generation
+		Tooltip: Disable the generation of Silica Sand underneath the Ocean, to avoid breaking other mods' biomes.
+	}
+
+	DisableOilShaleGeneration: {
+		Label: Disable Oil Shale Generation
+		Tooltip: ""
+	}
+
+	Use3DCelestialBodies: {
+		Label: 3D Planets (Experimental)
+		Tooltip: Enables experimental high fidelity planet/moon textures.
+	}
+
+	Headers: {
+		GameplayHeader: Gameplay
+		UIHeader: UI
+		VisualsHeader: Visuals
+	}
+}
+
+ServerConfig: {
+	DisplayName: Server Configuration
+
+	DisableSilicaSandGeneration: {
+		Label: Disable Silica Sand Generation
+		Tooltip: Disable the generation of Silica Sand underneath the Ocean, to avoid breaking other mods' biomes.
+	}
+
+	DisableOilShaleGeneration: {
+		Label: Disable Oil Shale Generation
+		Tooltip: Disable the generation of Oil Shale in the Underground Desert, to avoid breaking other mods' biomes.
+	}
+
+	CircuitSearchUpdateRate: {
+		Label: Circuit Search Update Frequency
+		Tooltip: Adjust the update frequency of circuit search.
+	}
+
+	CircuitSolveUpdateRate: {
+		Label: Circuit Solve Update Frequency
+		Tooltip: Adjust the update frequency of circuit solving.
+	}
+
+	RoomPressureUpdateRate: {
+		Label: Room Pressure Update Frequency
+		Tooltip: ""
+	}
+
+	ClusterFindUpdateRate: {
+		Label: Cluster Find Update Rate
+		Tooltip: ""
+	}
+
+	Headers: {
+		WorldGenHeader: World Generation
+		UpdatesHeader: Updates
+	}
+}
+
+UnitSystemType: {
+	Tooltip: ""
+
+	Metric: {
+		Label: Metric
+		Tooltip: ""
+	}
+
+	Imperial: {
+		Label: Imperial
+		Tooltip: ""
+	}
+}
+
+UpdateRate: {
+	Tooltip: ""
+
+	Realtime: {
+		Label: Realtime (every update tick)
+		Tooltip: ""
+	}
+
+	Fast: {
+		Label: Fast (6 times per second)
+		Tooltip: ""
+	}
+
+	Medium: {
+		Label: Medium (twice per second)
+		Tooltip: ""
+	}
+
+	Slow: {
+		Label: Slow (once per second)
+		Tooltip: ""
+	}
+}
+
+DebugConfig: {
+	DisplayName: Debug Config
+
+	RocketBounds: {
+		Label: Rocket Bounds
+		Tooltip: ""
+	}
+
+	RocketIndex: {
+		Label: Rocket Index
+		Tooltip: ""
+	}
+
+	RocketCount: {
+		Label: Rocket Count
+		Tooltip: ""
+	}
+
+	UIDebug: {
+		Label: U I Debug
+		Tooltip: ""
+	}
+
+	PacketDebug: {
+		Label: Packet Debug
+		Tooltip: ""
+	}
+
+	RoomOxygenDebug: {
+		Label: Room Oxygen Debug
+		Tooltip: ""
+	}
+
+	ShowCursorTileCoords: {
+		Label: Show Cursor Tile Coords
+		Tooltip: ""
+	}
+
+	ShowCursorWorldCoords: {
+		Label: Show Cursor World Coords
+		Tooltip: ""
+	}
+}
