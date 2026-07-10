@@ -1,424 +1,424 @@
 SetBonuses: {
-	SpaceProtection_1: Pressurized spacesuit allows for exploration of other celestial bodies.
-	SpaceProtection_2: Lead-lined suit allows for safe exploration of highly irradiated environments.
+	SpaceProtection_1: El traje espacial presurizado permite explorar otros cuerpos celestes.
+	SpaceProtection_2: El traje revestido de plomo permite explorar con seguridad entornos con altos niveles de radiación.
 }
 
 CelestialBulwark: {
-	DisplayName: Celestial Bulwark
+	DisplayName: Bastión Celestial
 	Tooltip:
 		'''
-		Allows the player to dash into the enemy
-		Allows for horizontal and vertical dashing
-		Double tap any direction to dash
+		Permite al jugador dashear contra el enemigo
+		Permite hacer dashes horizontales y verticales
+		Toca dos veces en cualquier dirección para dashear
 		'''
 }
 
 AluminumGreaves: {
-	DisplayName: Aluminum Greaves
+	DisplayName: Grebas de Aluminio
 	Tooltip: ""
 }
 
 AluminumBreastplate: {
-	DisplayName: Aluminum Breastplate
+	DisplayName: Coraza de Aluminio
 	Tooltip: ""
 }
 
 AluminumHelmet: {
-	DisplayName: Aluminum Helmet
+	DisplayName: Casco de Aluminio
 	Tooltip: ""
 }
 
 SeleniteBreastplate: {
-	DisplayName: Selenite Breastplate
-	Tooltip: 6% increased melee critical strike chance
+	DisplayName: Coraza de Selenita
+	Tooltip: Aumenta 6% la probabilidad de golpe crítico en combate cuerpo a cuerpo
 }
 
 SeleniteHelmet: {
-	DisplayName: Selenite Helmet
-	Tooltip: 18% increased melee damage
+	DisplayName: Casco de Selenita
+	Tooltip: Aumenta 18% el daño cuerpo a cuerpo
 }
 
 SeleniteLeggings: {
-	DisplayName: Selenite Leggings
-	Tooltip: 15% increased melee and movement speed
+	DisplayName: Grebas de Selenita
+	Tooltip: Aumenta 15% la velocidad de combate cuerpo a cuerpo y de movimiento
 }
 
 AstronautHelmet: {
-	DisplayName: Astronaut Helmet
+	DisplayName: Casco de Astronauta
 	Tooltip: ""
 }
 
 AstronautLeggings: {
-	DisplayName: Astronaut Leggings
+	DisplayName: Pantalones de Astronauta
 	Tooltip: ""
 }
 
 AstronautSuit: {
-	DisplayName: Astronaut Suit
+	DisplayName: Traje de Astronauta
 	Tooltip: ""
 }
 
 ChandriumBreastplate: {
-	DisplayName: Chandrium Breastplate
+	DisplayName: Coraza de Chandrium
 	Tooltip:
 		'''
-		Increases max number of minions by 1
-		15% increased whip range and speed
+		Aumenta en 1 el número máximo de súbditos
+		Aumenta 15% el alcance y la velocidad de los látigos
 		'''
 }
 
 ChandriumHelm: {
-	DisplayName: Chandrium Helm
+	DisplayName: Casco de Chandrium
 	Tooltip:
 		'''
-		Increases max number of minions by 1
-		25% increased summon damage
+		Aumenta en 1 el número máximo de súbditos
+		Aumenta 25% el daño de invocación
 		'''
 }
 
 ChandriumLeggings: {
-	DisplayName: Chandrium Leggings
+	DisplayName: Grebas de Chandrium
 	Tooltip:
 		'''
-		Increases you max number of minions by 1
-		10% increased movement speed
+		Aumenta en 1 el número máximo de súbditos
+		Aumenta 10% la velocidad de movimiento
 		'''
 }
 
 DianiteBreastplate: {
-	DisplayName: Dianite Breastplate
-	Tooltip: 12% increased magic critical strike chance
+	DisplayName: Coraza de Dianite
+	Tooltip: Aumenta 12% la probabilidad de golpe crítico mágico
 }
 
 DianiteLeggings: {
-	DisplayName: Dianite Leggings
+	DisplayName: Grebas de Dianite
 	Tooltip:
 		'''
-		5% increased magic damage
-		10% increased movement speed
+		Aumenta 5% el daño mágico
+		Aumenta 10% la velocidad de movimiento
 		'''
 }
 
 DianiteVisor: {
-	DisplayName: Dianite Visor
+	DisplayName: Visor de Dianite
 	Tooltip:
 		'''
-		Increases maximum mana by 50
-		10% increased magic damage
+		Aumenta el maná máximo en 50
+		Aumenta 10% el daño mágico
 		'''
 }
 
 ArtemiteBreastplate: {
-	DisplayName: Artemite Breastplate
-	Tooltip: 12% increased ranged critical strike chance
+	DisplayName: Coraza de Artemite
+	Tooltip: Aumenta 12% la probabilidad de golpe crítico a distancia
 }
 
 ArtemiteHeadgear: {
-	DisplayName: Artemite Headgear
+	DisplayName: Casco de Artemite
 	Tooltip:
 		'''
-		10% increased ranged damage
-		15% chance to save ammo
+		Aumenta 10% el daño a distancia
+		15% de probabilidad de ahorrar munición
 		'''
 }
 
 ArtemiteLeggings: {
-	DisplayName: Artemite Leggings
+	DisplayName: Grebas de Artemite
 	Tooltip:
 		'''
-		5% increased ranged damage
-		20% increased movement speed
+		Aumenta 5% el daño a distancia
+		Aumenta 20% la velocidad de movimiento
 		'''
 }
 
 CraterDemonBossBag: {
-	DisplayName: Treasure Bag (Crater Demon)
+	DisplayName: Bolsa del tesoro (Demonio del Cráter)
 	Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
 }
 
 CraterDemonSummon: {
-	DisplayName: Daemonic Tablet
+	DisplayName: Tablilla demoníaca
 	Tooltip:
 		'''
-		Summons Crater Demon
-		Must be used on the Moon
+		Invoca al Demonio del Cráter
+		Debe utilizarse en la Luna
 		'''
 }
 
 Moonstone: {
-	DisplayName: Moonstone
-	TooltipNoChampion: These are a currency for the Moon Champion, but unfortunately he is not with you
-	TooltipChampion: These are a currency for {0}, the Moon Champion
+	DisplayName: Piedra lunar
+	TooltipNoChampion: Estas son las monedas del Campeón de la Luna, pero, por desgracia, él no está contigo.
+	TooltipChampion: Son las monedas de {0}, el Campeón de la Luna.
 	Tooltip: ""
 }
 
 BanHammer: {
-	DisplayName: Ban Hammer
-	Tooltip: BEGONE.
+	DisplayName: Martillo del baneo
+	Tooltip: LARGO DE AQUÍ.
 }
 
 DevPick: {
-	DisplayName: Developer Pickaxe
-	Tooltip: It's actually good as a weapon
+	DisplayName: Pico del desarrollador
+	Tooltip: La verdad es que sirve bien como arma
 }
 
 RocketPlacer: {
 	DisplayName: Rocket Placer
-	Tooltip: Places a rocket. <right> to despawn all rockets in the Solar System
+	Tooltip: Coloca un cohete. <right> para eliminar todos los cohetes del Sistema Solar
 }
 
 Rocket: {
-	DisplayName: Rocket
+	DisplayName: Cohete
 	Tooltip: ""
 }
 
 Teleporter: {
-	DisplayName: Teleporter
-	Tooltip: Teleports the user to and from the Moon
+	DisplayName: Teletransportador
+	Tooltip: Teletransporta al usuario hacia la Luna y desde ella
 }
 
 AluminumBar: {
-	DisplayName: Aluminum Bar
+	DisplayName: Lingote de Aluminio
 	Tooltip: ""
 }
 
 AluminumOre: {
-	DisplayName: Aluminum Ore
+	DisplayName: Mineral de Aluminio
 	Tooltip: ""
 }
 
 SeleniteBar: {
-	DisplayName: Selenite Bar
+	DisplayName: Lingote de Selenita
 	Tooltip: ""
 }
 
 SeleniteOre: {
-	DisplayName: Selenite Ore
+	DisplayName: Mineral de Selenita
 	Tooltip: ""
 }
 
 BrokenHeroShield: {
-	DisplayName: Broken Hero Shield
+	DisplayName: Escudo del héroe roto
 	Tooltip: ""
 }
 
 ChandriumBar: {
-	DisplayName: Chandrium Bar
+	DisplayName: Lingote de Chandrium
 	Tooltip: ""
 }
 
 ChandriumOre: {
-	DisplayName: Chandrium Ore
+	DisplayName: Mineral de Chandrium
 	Tooltip: ""
 }
 
 CortexFragment: {
-	DisplayName: Cortex Fragment
+	DisplayName: Fragmento de corteza cerebral
 	Tooltip: ""
 }
 
 CosmicDust: {
-	DisplayName: Cosmic Dust
+	DisplayName: Polvo cósmico
 	Tooltip: ""
 }
 
 CosmicEssence: {
-	DisplayName: Cosmic Essence
+	DisplayName: Esencia cósmica
 	Tooltip: ""
 }
 
 DeliriumPlating: {
-	DisplayName: Delirium Plating
+	DisplayName: Placas de Delirium
 	Tooltip: ""
 }
 
 DianiteBar: {
-	DisplayName: Dianite Bar
+	DisplayName: Lingote de Dianite
 	Tooltip: ""
 }
 
 DianiteOre: {
-	DisplayName: Dianite Ore
+	DisplayName: Mineral de Dianite
 	Tooltip: ""
 }
 
 LithiumOre: {
-	DisplayName: Lithium
+	DisplayName: Litio
 	Tooltip: ""
 }
 
 LuminiteCrystal: {
-	DisplayName: Luminite Crystal
+	DisplayName: Cristal Luminita
 	Tooltip: ""
 }
 
 OilShale: {
-	DisplayName: Oil Shale
+	DisplayName: Esquistos bituminosos
 	Tooltip: ""
 }
 
 OxygenTank: {
-	DisplayName: Oxygen Tank
+	DisplayName: Bote de oxígeno
 	Tooltip: ""
 }
 
 PrintedCircuitBoard: {
-	DisplayName: Printed Circuit Board
+	DisplayName: Placa de circuito impreso
 	Tooltip: ""
 }
 
 ArtemiteBar: {
-	DisplayName: Artemite Bar
+	DisplayName: Lingote de Artemite
 	Tooltip: ""
 }
 
 ArtemiteOre: {
-	DisplayName: Artemite Ore
+	DisplayName: Mineral de Artemite
 	Tooltip: ""
 }
 
 SiliconOre: {
-	DisplayName: Raw Silicon
+	DisplayName: Silicio en bruto
 	Tooltip: ""
 }
 
 Silicon: {
-	DisplayName: Silicon
+	DisplayName: Silicio
 	Tooltip: ""
 }
 
 MeteoricChunk: {
-	DisplayName: Lunar Meteoric Chunk
-	Tooltip: <right> to smash open!
+	DisplayName: Fragmento de meteorito lunar
+	Tooltip: ¡<right> para romperla y abrirla!
 }
 
 NebulaChunk: {
-	DisplayName: Nebula Meteoric Chunk
-	Tooltip: <right> to smash open!
+	DisplayName: Fragmento de meteorito de nebulosa
+	Tooltip: ¡<right> para romperla y abrirla!
 }
 
 SolarChunk: {
-	DisplayName: Solar Meteoric Chunk
-	Tooltip: <right> to smash open!
+	DisplayName: Fragmento de meteorito solar
+	Tooltip: ¡<right> para romperla y abrirla!
 }
 
 StardustChunk: {
-	DisplayName: Stardust Meteoric Chunk
-	Tooltip: <right> to smash open!
+	DisplayName: Fragmento de meteorito de polvo estelar
+	Tooltip: ¡<right> para romperla y abrirla!
 }
 
 VortexChunk: {
-	DisplayName: Vortex Meteoric Chunk
-	Tooltip: <right> to smash open!
+	DisplayName: Fragmento de meteorito de vórtice
+	Tooltip: ¡<right> para romperla y abrirla!
 }
 
 IronChunk: {
-	DisplayName: Ferrous Meteoric Chunk
-	Tooltip: <right> to smash open!
+	DisplayName: Fragmento de meteorito ferroso
+	Tooltip: ¡<right> para romperla y abrirla!
 }
 
 TitaniumChunk: {
-	DisplayName: Ilmenite Meteoric Chunk
-	Tooltip: <right> to smash open!
+	DisplayName: Trozo meteórico de Ilmenita
+	Tooltip: ¡<right> para romperla y abrirla!
 }
 
 SpaceShuttle: {
-	DisplayName: Space Shuttle
-	Tooltip: In memory of STS-51-L and STS-107.
+	DisplayName: Transbordador espacial
+	Tooltip: En memoria de las misiones STS-51-L y STS-107
 }
 
 IrradiatedBrick: {
-	DisplayName: Irradiated Brick
+	DisplayName: Ladrillo irradiado
 	Tooltip: ""
 }
 
 IrradiatedBrickWall: {
-	DisplayName: Irradiated Brick Wall
+	DisplayName: Pared de ladrillos irradiados
 	Tooltip: ""
 }
 
 IrradiatedRock: {
-	DisplayName: Irradiated Rock
+	DisplayName: Roca irradiada
 	Tooltip: ""
 }
 
 IrradiatedRockWall: {
-	DisplayName: Irradiated Rock Wall
+	DisplayName: Pared de roca irradiada
 	Tooltip: ""
 }
 
 Basalt: {
-	DisplayName: Basalt
+	DisplayName: Basalto
 	Tooltip: ""
 }
 
 Protolith: {
-	DisplayName: Protolith
+	DisplayName: Protolito
 	Tooltip: ""
 }
 
 ProtolithWall: {
-	DisplayName: Protolith Wall
+	DisplayName: Pared de Protolito
 	Tooltip: ""
 }
 
 Regolith: {
-	DisplayName: Regolith
+	DisplayName: Regolito
 	Tooltip: ""
 }
 
 RegolithBrick: {
-	DisplayName: Regolith Brick
+	DisplayName: Ladrillo de Regolito
 	Tooltip: ""
 }
 
 RegolithBrickWall: {
-	DisplayName: Regolith Brick Wall
+	DisplayName: Pared de ladrillos de Regolito
 	Tooltip: ""
 }
 
 RegolithWall: {
-	DisplayName: Regolith Wall
+	DisplayName: Pared de Regolito
 	Tooltip: ""
 }
 
 AdamantiteLoom: {
-	DisplayName: Adamantite Loom
-	Tooltip: Used to make spacesuit fabric
+	DisplayName: Telar de adamantita
+	Tooltip: Se utiliza para fabricar el tejido de los trajes espaciales
 }
 
 TitaniumLoom: {
-	DisplayName: Titanium Loom
-	Tooltip: Used to make spacesuit fabric
+	DisplayName: Telar de titanio
+	Tooltip: Se utiliza para fabricar el tejido de los trajes espaciales
 }
 
 SolarPanelLarge: {
-	DisplayName: Medium Solar Panel
-	Tooltip: Converts solar energy into electricity
+	DisplayName: Panel solar mediano
+	Tooltip: Convierte la energía solar en electricidad
 }
 
 BloodSunRising: {
-	DisplayName: Blood Sun Rising
+	DisplayName: El amanecer del sol sangriento
 	Tooltip: "'L. Reda'"
 }
 
 DarkFortress: {
-	DisplayName: Dark Fortress
+	DisplayName: Fortaleza Oscura
 	Tooltip: "'L. Reda'"
 }
 
 Empress: {
-	DisplayName: Empress
+	DisplayName: Emperatriz
 	Tooltip: "'L. Reda'"
 }
 
 Overlord: {
-	DisplayName: Overlord
+	DisplayName: Señor supremo
 	Tooltip: "'L. Reda'"
 }
 
 Retributor: {
-	DisplayName: Retributor
+	DisplayName: Retribuidor
 	Tooltip: "'L. Reda'"
 }
 
@@ -428,7 +428,7 @@ WhenDayBreaks: {
 }
 
 InANutshell: {
-	DisplayName: In A Nutshell
+	DisplayName: En pocas palabras
 	Tooltip: "'L. Reda'"
 }
 
@@ -438,12 +438,12 @@ Apollo115: {
 }
 
 Freedomfaller: {
-	DisplayName: Freedomfaller
+	DisplayName: Caída libre
 	Tooltip: "'T. Williams'"
 }
 
 ShoresOfOblivion: {
-	DisplayName: Shores Of Oblivion
+	DisplayName: Las orillas del olvido
 	Tooltip: "'E. Bracht'"
 }
 
@@ -453,218 +453,218 @@ SakuraRuckenfigur: {
 }
 
 CraterDemonRelic: {
-	DisplayName: Crater Demon Relic
+	DisplayName: Reliquia del Demonio del Cráter
 	Tooltip: ""
 }
 
 MoonGoldTombstone: {
-	DisplayName: Moon Gold Tombstone
+	DisplayName: Lápida Lunar Dorada
 	Tooltip: ""
 }
 
 MoonTombstone: {
-	DisplayName: Moon Tombstone
+	DisplayName: Lápida lunar
 	Tooltip: ""
 }
 
 CraterDemonTrophy: {
-	DisplayName: Crater Demon Trophy
+	DisplayName: Trofeo Demonio del Cráter
 	Tooltip: ""
 }
 
 AluminumAxe: {
-	DisplayName: Aluminum Axe
+	DisplayName: Hacha de Aluminio
 	Tooltip: ""
 }
 
 AluminumHammer: {
-	DisplayName: Aluminum Hammer
+	DisplayName: Martillo de Aluminio
 	Tooltip: ""
 }
 
 AluminumPickaxe: {
-	DisplayName: Aluminum Pickaxe
+	DisplayName: Pico de Aluminio
 	Tooltip: ""
 }
 
 SeleniteAxe: {
-	DisplayName: Selenite Axe
+	DisplayName: Hacha de Selenita
 	Tooltip: ""
 }
 
 SeleniteDrill: {
-	DisplayName: Selenite Drill
+	DisplayName: Taladro de Selenita
 	Tooltip: ""
 }
 
 SeleniteHammer: {
-	DisplayName: Selenite Hammer
+	DisplayName: Martillo de Selenita
 	Tooltip: ""
 }
 
 SelenitePickaxe: {
-	DisplayName: Selenite Pickaxe
+	DisplayName: Pico de Selenita
 	Tooltip: ""
 }
 
 ChandriumAxe: {
-	DisplayName: Chandrium Axe
+	DisplayName: Hacha de Chandrium
 	Tooltip: ""
 }
 
 ChandriumDrill: {
-	DisplayName: Chandrium Drill
+	DisplayName: Taladro de Chandrium
 	Tooltip: ""
 }
 
 ChandriumHammer: {
-	DisplayName: Chandrium Hammer
+	DisplayName: Martillo de Chandrium
 	Tooltip: ""
 }
 
 ChandriumPickaxe: {
-	DisplayName: Chandrium Pickaxe
+	DisplayName: Pico de Chandrium
 	Tooltip: ""
 }
 
 DianiteAxe: {
-	DisplayName: Dianite Axe
+	DisplayName: Hacha de Dianite
 	Tooltip: ""
 }
 
 DianiteDrill: {
-	DisplayName: Dianite Drill
+	DisplayName: Taladro de Dianite
 	Tooltip: ""
 }
 
 DianiteHammer: {
-	DisplayName: Dianite Hammer
+	DisplayName: Martillo de Dianite
 	Tooltip: ""
 }
 
 DianitePickaxe: {
-	DisplayName: Dianite Pickaxe
+	DisplayName: Pico de Dianite
 	Tooltip: ""
 }
 
 ArtemiteAxe: {
-	DisplayName: Artemite Axe
+	DisplayName: Hacha de Artemite
 	Tooltip: ""
 }
 
 ArtemiteDrill: {
-	DisplayName: Artemite Drill
+	DisplayName: Taladro de Artemite
 	Tooltip: ""
 }
 
 ArtemiteHammer: {
-	DisplayName: Artemite Hammer
+	DisplayName: Martillo de Artemite
 	Tooltip: ""
 }
 
 ArtemitePickaxe: {
-	DisplayName: Artemite Pickaxe
+	DisplayName: Pico de Artemite
 	Tooltip: ""
 }
 
 CraterDemonMask: {
-	DisplayName: Crater Demon Mask
+	DisplayName: Máscara del Demonio del Cráter
 	Tooltip: ""
 }
 
 DianiteFork: {
-	DisplayName: Dianite Fork
-	Tooltip: Fire swirling magic at your enemies
+	DisplayName: Tenedor de Dianite
+	Tooltip: Lanza magia de remolinos de fuego contra tus enemigos
 }
 
 DianiteTome: {
-	DisplayName: Dianite Tome
+	DisplayName: Tomo de Dianite
 	Tooltip:
 		'''
-		Conjure a portal to rain 
-		flaming meteors down on your foes
+		Crear un portal para que lluevan
+		meteoritos en llamas que caen sobre tus enemigos
 		'''
 }
 
 ImbriumJewel: {
-	DisplayName: Imbrium Jewel
-	Tooltip: In it lies hidden magic
+	DisplayName: La joya de Imbrium
+	Tooltip: En ella se esconde la magia
 }
 
 AluminumBroadsword: {
-	DisplayName: Aluminum Broadsword
+	DisplayName: Espada larga de Aluminio
 	Tooltip: ""
 }
 
 AluminumShortsword: {
-	DisplayName: Aluminum Shortsword
+	DisplayName: Espada corta de Aluminio
 	Tooltip: ""
 }
 
 SeleniteGreatsword: {
-	DisplayName: Selenite Greatsword
-	Tooltip: Hold <right> for a charged-up swing
+	DisplayName: Gran Espada de Selenita
+	Tooltip: Mantén pulsado <right> para realizar un golpe cargado
 }
 
 SeleniteSpear: {
-	DisplayName: Selenite Spear
-	Tooltip: <right> to throw the spear
+	DisplayName: Lanza de Selenita
+	Tooltip: <right> Para lanzar la lanza
 }
 
 SeleniteSword: {
-	DisplayName: Selenite Straightsword
-	Tooltip: Fires an accelerating energy wave
+	DisplayName: Espada recta de Selenita
+	Tooltip: Lanza una onda de energía que va acelerándose
 }
 
 ClawWrench: {
-	DisplayName: Claw Wrench
-	Tooltip: <right> to throw the wrench
+	DisplayName: Llave ajustable
+	Tooltip: <right> Para tirar la llave
 }
 
 Crucible: {
-	DisplayName: Crucible
+	DisplayName: Crisol
 	Tooltip:
 		'''
-		A sword forged from the fires of Hell itself
-		'The only thing they fear is you.'
+		Una espada forjada en los fuegos del mismísimo infierno
+		'Lo único que temen es a ti.'
 		'''
 }
 
 MoonSword: {
-	DisplayName: Moon Sword
+	DisplayName: Espada Lunar
 	Tooltip:
 		'''
-		Fires a lunar wave when swinging the blade
-		'My guiding moonlight'
+		Lanza una onda lunar al blandir la espada
+		'La luz de la luna que me guía'
 		'''
 }
 
 Noxsaber: {
-	DisplayName: The Noxsaber
-	Tooltip: An ancient black energy saber, stolen from the temple of a long dead cult
+	DisplayName: El Noxsable
+	Tooltip: Un antiguo sable de energía negra, robado del templo de una secta desaparecida hace mucho tiempo
 }
 
 AluminumBow: {
-	DisplayName: Aluminum Bow
+	DisplayName: Arco de Aluminio
 	Tooltip: ""
 }
 
 ArchersLine: {
-	DisplayName: Archer's Line
-	Tooltip: Bullets ricochet from one enemy to another
+	DisplayName: La línea de los arqueros
+	Tooltip: Las balas rebotan de un enemigo a otro
 }
 
 Copernicus: {
-	DisplayName: Copernicus
-	Tooltip: Every 5th shot also shoots a rocket
+	DisplayName: Copérnico
+	Tooltip: Cada 5 disparos lanza un cohete
 }
 
 Cruithne: {
 	DisplayName: Cruithne-3753
 	Tooltip:
 		'''
-		Converts musket balls to green slugs
-		Shoots an explosive delirium shell
+		Convierte las balas de mosquete en babosas verdes
+		Dispara un proyectil explosivo de delirium
 		'''
 }
 
@@ -672,68 +672,68 @@ LHBMinigun: {
 	DisplayName: LHB-59
 	Tooltip:
 		'''
-		'What's more effective than bullets?
-		A whole LOT of bullets.'
+		'¿Qué es más eficaz que las balas?
+		Un MONTÓN de balas.'
 		'''
 }
 
 NWARocketLauncher: {
 	DisplayName: NWA-5000
-	Tooltip: <right> to lock onto an enemy
+	Tooltip: <right> Para fijar como objetivo a un enemigo
 }
 
 ArtemiteBow: {
-	DisplayName: Artemite Bow
-	Tooltip: Fires two arrows
+	DisplayName: Arco de Artemite
+	Tooltip: Dispara dos flechas
 }
 
 ArtemiteMagnum: {
-	DisplayName: Artemite Magnum
-	Tooltip: <right> to rapidly fan six bullets
+	DisplayName: Magnum de Artemite
+	Tooltip: <right> para disparar rápidamente seis balas
 }
 
 CalcicCane: {
-	DisplayName: Calcic Cane
-	Tooltip: Summons a Crater Imp to fight for you
+	DisplayName: Bastón Cálcico
+	Tooltip: Invoca a un duendecillo del cráter para que luche a tu lado
 }
 
 CrudePhaser: {
-	DisplayName: Crude Phaser
-	Tooltip: Fires a three-shot burst; the first shot phases through enemies
+	DisplayName: Fáser rudimentario
+	Tooltip: Dispara una ráfaga de tres disparos; el primer disparo atraviesa a los enemigos
 }
 
 ChandriumStaff: {
-	DisplayName: Chandrium Staff
-	Tooltip: Summons a Crescent Ghoul to fight for you
+	DisplayName: Báculo de Chandrium
+	Tooltip: Invoca a un ghoul de la luna creciente para que luche a tu lado
 }
 
 ChandriumWhip: {
-	DisplayName: Chandrium Whip
-	Tooltip: Deals extra damage every third strike
+	DisplayName: Látigo de Chandrium
+	Tooltip: Inflige daño adicional cada tres golpes
 }
 
 HandheldEngine: {
-	DisplayName: Handheld Engine
+	DisplayName: Motor portátil
 	Tooltip:
 		'''
-		Uses mana as coolant
-		Engine will overheat if not supplied mana for too long
-		'Yeah, ROCKET science!'
+		Utiliza maná como refrigerante
+		El motor se sobrecalentará si no se le da maná durante mucho tiempo.
+		'Sí, ¡es ciencia de cohetes!'
 		'''
 }
 
 HazardWall: {
-	DisplayName: Hazard Wall
+	DisplayName: Pared de riesgo
 	Tooltip: ""
 }
 
 SpaceDust: {
-	DisplayName: Space Dust
+	DisplayName: Polvo espacial
 	Tooltip: ""
 }
 
 MoonPhaseGlobe: {
-	DisplayName: Moon Phase Globe
+	DisplayName: Globo de las fases lunares
 	Tooltip: ""
 }
 
@@ -743,324 +743,324 @@ TychoDesertEagle: {
 }
 
 ChampionsBladeBroken: {
-	DisplayName: Champion's Blade
+	DisplayName: La Espada del Campeón
 	Tooltip:
 		'''
-		Repeated hits with the blade strengthen it
-		This effect wears off after some time if the blade is not used
+		Los golpes repetidos con la hoja la hacen mas fuerte
+		Este efecto desaparece al cabo de un tiempo si no se utiliza la hoja.
 		'''
 }
 
 ChampionsBladeRepaired: {
-	DisplayName: Champion's Blade
+	DisplayName: La Espada del Campeón
 	Tooltip:
 		'''
-		Repeated hits with the blade strengthen it
-		This effect wears off after some time if the blade is not used
+		Los golpes repetidos con la hoja la hacen mas fuerte
+		Este efecto desaparece al cabo de un tiempo si no se utiliza la hoja.
 		'''
 }
 
 ChampionsBlade: {
-	DisplayName: Champion's Blade
+	DisplayName: La Espada del Campeón
 	Tooltip:
 		'''
-		Repeated hits with the blade strengthen it
-		This effect wears off after some time if the blade is not used
+		Los golpes repetidos con la hoja la hacen mas fuerte
+		Este efecto desaparece al cabo de un tiempo si no se utiliza la hoja.
 		'''
 }
 
 SilicaCrimsand: {
-	DisplayName: Silica Crimsand
+	DisplayName: Arena carmesí de Sílice
 	Tooltip: ""
 }
 
 SilicaEbonsand: {
-	DisplayName: Silica Ebonsand
+	DisplayName: Arena de ébano de Sílice
 	Tooltip: ""
 }
 
 SilicaPearlsand: {
-	DisplayName: Silica Pearlsand
+	DisplayName: Arena perlada de Sílice
 	Tooltip: ""
 }
 
 Bitumen: {
-	DisplayName: Bitumen
+	DisplayName: Betún
 	Tooltip: ""
 }
 
 SilicaSand: {
-	DisplayName: Silica Sand
+	DisplayName: Arena de sílice
 	Tooltip: ""
 }
 
 LaunchPadMarker: {
-	DisplayName: Launchpad Marker
-	Tooltip: Used to create a launch pad for rockets
+	DisplayName: Marcadores de la plataforma de lanzamiento
+	Tooltip: Se utiliza para construir una plataforma de lanzamiento de cohetes
 }
 
 SteelBar: {
-	DisplayName: Steel Bar
+	DisplayName: Lingote de Acero
 	Tooltip: ""
 }
 
 SteelHamaxe: {
-	DisplayName: Steel Hamaxe
+	DisplayName: Hacha-martillo de Acero
 	Tooltip: ""
 }
 
 SteelPickaxe: {
-	DisplayName: Steel Pickaxe
+	DisplayName: Pico de Acero
 	Tooltip: ""
 }
 
 SteelZweihander: {
-	DisplayName: Steel Zweihander
-	Tooltip: Hold <right> for a charged-up swing
+	DisplayName: Zweihander de Acero
+	Tooltip: Mantén <right> para realizar un golpe cargado
 }
 
 SteelCrossbow: {
-	DisplayName: Steel Crossbow
+	DisplayName: Ballesta de Acero
 	Tooltip: ""
 }
 
 SteelRifle: {
-	DisplayName: Steel Rifle
+	DisplayName: Rifle de Acero
 	Tooltip: ""
 }
 
 IndustrialPlating: {
-	DisplayName: Industrial Plating
+	DisplayName: Recubrimiento industrial
 	Tooltip: ""
 }
 
 IndustrialPlatform: {
-	DisplayName: Industrial Platform
+	DisplayName: Plataforma industrial
 	Tooltip: ""
 }
 
 IndustrialHazardWall: {
-	DisplayName: Industrial Hazard Wall
+	DisplayName: Pared de riesgo industrial
 	Tooltip: ""
 }
 
 IndustrialHazardWallUnsafe: {
-	DisplayName: Perilous Industrial Hazard Wall
+	DisplayName: Pared de riesgo industrial insegura
 	Tooltip: ""
 }
 
 IndustrialPlatingWall: {
-	DisplayName: Industrial Plating Wall
+	DisplayName: Pared de revestimiento industrial
 	Tooltip: ""
 }
 
 IndustrialPlatingWallUnsafe: {
-	DisplayName: Perilous Industrial Plating Wall
+	DisplayName: Pared de revestimiento industrial insegura
 	Tooltip: ""
 }
 
 IndustrialSquarePaneledWall: {
-	DisplayName: Industrial Square Paneled Wall
+	DisplayName: Pared con paneles industriales cuadrados
 	Tooltip: ""
 }
 
 IndustrialSquarePaneledWallUnsafe: {
-	DisplayName: Perilous Industrial Square Paneled Wall
+	DisplayName: Pared con paneles industriales cuadrados insegura
 	Tooltip: ""
 }
 
 IndustrialTrimmingWall: {
-	DisplayName: Industrial Trimming Wall
+	DisplayName: Pared de recorte industrial
 	Tooltip: ""
 }
 
 IndustrialTrimmingWallUnsafe: {
-	DisplayName: Perilous Industrial Trimming Wall
+	DisplayName: Pared de recorte industrial insegura
 	Tooltip: ""
 }
 
 IndustrialCandle: {
-	DisplayName: Industrial Candle
+	DisplayName: Vela industrial
 	Tooltip: ""
 }
 
 IndustrialLamp: {
-	DisplayName: Industrial Lamp
+	DisplayName: Lámpara industrial
 	Tooltip: ""
 }
 
 IndustrialLantern: {
-	DisplayName: Industrial Lantern
+	DisplayName: Linterna industrial
 	Tooltip: ""
 }
 
 IndustrialNeonTube: {
-	DisplayName: Industrial Neon Tube
+	DisplayName: Tubo industrial neón
 	Tooltip: ""
 }
 
 IndustrialCrate: {
-	DisplayName: Industrial Crate
+	DisplayName: Caja industrial
 	Tooltip: ""
 }
 
 IndustrialGurney: {
-	DisplayName: Industrial Gurney
+	DisplayName: Camilla industrial
 	Tooltip: ""
 }
 
 IndustrialTable: {
-	DisplayName: Industrial Table
+	DisplayName: Mesa industrial
 	Tooltip: ""
 }
 
 IndustrialWorkbench: {
-	DisplayName: Industrial Workbench
+	DisplayName: Banco de trabajo industrial
 	Tooltip: ""
 }
 
 IndustrialBed: {
-	DisplayName: Industrial Bed
+	DisplayName: Cama industrial
 	Tooltip: ""
 }
 
 IndustrialChair: {
-	DisplayName: Industrial Reception Chair
+	DisplayName: Silla de recepción industrial
 	Tooltip: ""
 }
 
 IndustrialChairSleek: {
-	DisplayName: Industrial Sleek Chair
+	DisplayName: Silla industrial elegante
 	Tooltip: ""
 }
 
 IndustrialDeskLamp: {
-	DisplayName: Industrial Desk Lamp
+	DisplayName: Lámpara de escritorio industrial
 	Tooltip: ""
 }
 
 IndustrialSofa: {
-	DisplayName: Industrial Sofa
+	DisplayName: Sofá industrial
 	Tooltip: ""
 }
 
 IndustrialChest: {
-	DisplayName: Industrial Storage Unit
+	DisplayName: Unidad de almacenamiento industrial
 	Tooltip: ""
 }
 
 IndustrialChestElectronic: {
-	DisplayName: Industrial Electronic Storage Unit
+	DisplayName: Unidad de almacenamiento electrónico industrial
 	Tooltip: ""
 }
 
 IndustrialLocker: {
-	DisplayName: Industrial Locker
+	DisplayName: Taquilla industrial
 	Tooltip: ""
 }
 
 IndustrialDoor: {
-	DisplayName: Industrial Door
+	DisplayName: Puerta industrial
 	Tooltip: ""
 }
 
 IndustrialBulkhead: {
-	DisplayName: Industrial Bulkhead
+	DisplayName: Mampara industrial
 	Tooltip: ""
 }
 
 IndustrialBathtub: {
-	DisplayName: Industrial Bathtub
+	DisplayName: Bañera industrial
 	Tooltip: ""
 }
 
 IndustrialControlPanel: {
-	DisplayName: Industrial Control Panel
+	DisplayName: Panel de control industrial
 	Tooltip: ""
 }
 
 IndustrialControlStation: {
-	DisplayName: Industrial Control Station
+	DisplayName: Estación de control industrial
 	Tooltip: ""
 }
 
 IndustrialDeskClock: {
-	DisplayName: Industrial Desk Clock
+	DisplayName: Reloj de mesa industrial
 	Tooltip: ""
 }
 
 IndustrialPiano: {
-	DisplayName: Industrial Piano
+	DisplayName: Piano industrial
 	Tooltip: ""
 }
 
 IndustrialSink: {
-	DisplayName: Industrial Sink
+	DisplayName: Fregadero industrial
 	Tooltip: ""
 }
 
 IndustrialBookcase: {
-	DisplayName: Industrial Bookcase
+	DisplayName: Librería industrial
 	Tooltip: ""
 }
 
 IndustrialCeilingMonitor: {
-	DisplayName: Industrial Ceiling Monitor
+	DisplayName: Monitor de techo industrial
 	Tooltip: ""
 }
 
 IndustrialDeskMonitor: {
-	DisplayName: Industrial Desk Monitor
+	DisplayName: Monitor de escritorio industrial
 	Tooltip: ""
 }
 
 IndustrialWallMonitor: {
-	DisplayName: Industrial Wall Monitor
+	DisplayName: Monitor industrial de pared
 	Tooltip: ""
 }
 
 IndustrialDresser: {
-	DisplayName: Industrial Dresser
+	DisplayName: Aparador industrial
 	Tooltip: ""
 }
 
 IndustrialToilet: {
-	DisplayName: Industrial Toilet
+	DisplayName: Retrete industrial
 	Tooltip: ""
 }
 
 OilRefinery: {
-	DisplayName: Oil Refinery
-	Tooltip: Used to refine fuel and other fluids
+	DisplayName: Refinería de Petróleo
+	Tooltip: Se utiliza para refinar combustible y otros fluidos
 }
 
 SolarPanelSmall: {
-	DisplayName: Small Solar Panel
-	Tooltip: Converts solar energy into electricity
+	DisplayName: Panel solar pequeño
+	Tooltip: Convierte la energía solar en electricidad
 }
 
 Procellarum: {
 	DisplayName: Procellarum
 	Tooltip:
 		'''
-		<left> to swing, with hits applying a Lightning Mark
-		<right> to throw, charging to call down 5 heavenly lightning bolts down upon enemies
-		Lightning bolts will prioritise and home in on and deal 50% increased damage to marked enemies
+		<left> para atacar, y los golpes infligen una Marca de Rayo
+		<right> Para lanzar, cárgalo para invocar 5 rayos celestiales sobre los enemigos
+		Los rayos darán prioridad a los enemigos marcados, se dirigirán hacia ellos e infligirán un 50 % más de daño.
 		'''
 }
 
 LexanGlass: {
-	DisplayName: Lexan Glass
+	DisplayName: Cristal de Lexan
 	Tooltip: ""
 }
 
 QuestionMark: {
-	DisplayName: Question Mark
+	DisplayName: Signo de interrogación
 	Tooltip: ""
 }
 
 ZombieFinger: {
-	DisplayName: Zombie Finger
+	DisplayName: Dedo zombi
 	Tooltip: ""
 }
 
@@ -1068,49 +1068,49 @@ XFLR6: {
 	DisplayName: XFLR-6
 	Tooltip:
 		'''
-		'Well, what do you think of that?
-		Look what the goat created.'
+		'Bueno, ¿qué te parece eso?
+		Mira lo que ha hecho la cabra.'
 		'''
 }
 
 InvarArrow: {
-	DisplayName: Invar Arrow
-	Tooltip: High velocity arrows that pierce enemies
+	DisplayName: Flecha de Invar
+	Tooltip: Flechas de gran velocidad que atraviesan a los enemigos
 }
 
 InvarBullet: {
-	DisplayName: Invar Bullet
-	Tooltip: Might ricochet between enemies
+	DisplayName: Balas de Invar
+	Tooltip: Puede rebotar entre los enemigos
 }
 
 SpaceTeddy: {
-	DisplayName: Space Teddy
+	DisplayName: Osito espacial
 	Tooltip: ""
 }
 
 TeddyBear: {
-	DisplayName: Teddy Bear
+	DisplayName: Osito de peluche
 	Tooltip: ""
 }
 
 SteelChestplate: {
-	DisplayName: Steel Chestplate
+	DisplayName: Coraza de Acero
 	Tooltip: ""
 }
 
 SteelHelmet: {
-	DisplayName: Steel Helmet
+	DisplayName: Casco de Acero
 	Tooltip: ""
 }
 
 SteelLeggings: {
-	DisplayName: Steel Leggings
+	DisplayName: Grebas de Acero
 	Tooltip: ""
 }
 
 RapaciousBrand: {
-	DisplayName: Rapacious Brand
-	Tooltip: Shoots a bloody sawblade
+	DisplayName: Marca voraz
+	Tooltip: Lanza una hoja de sierra ensangrentada
 }
 
 Motor: {
@@ -1119,248 +1119,248 @@ Motor: {
 }
 
 CraterDemonPet: {
-	DisplayName: Toy Rocket
+	DisplayName: Cohete de juguete
 	Tooltip:
 		'''
-		Summons a Crater Imp
+		Invoca a un duendecillo del cráter
 		'Fly me to the Moon!'
 		'''
 }
 
 MoonGoldCrescent: {
-	DisplayName: Moon Gold Crescent
+	DisplayName: Media Luna Dorada
 	Tooltip: ""
 }
 
 MoonGoldLunarCross: {
-	DisplayName: Moon Gold Lunar Cross
+	DisplayName: Cruz Lunar Dorada
 	Tooltip: ""
 }
 
 MoonHeadstone: {
-	DisplayName: Moon Headstone
+	DisplayName: Lápida lunar
 	Tooltip: ""
 }
 
 Coal: {
-	DisplayName: Coal
+	DisplayName: Carbón
 	Tooltip: ""
 }
 
 OxygenSystem: {
-	DisplayName: Oxygen System
+	DisplayName: Sistema de oxígeno
 	Tooltip: ""
 }
 
 MercurianBanner: {
-	DisplayName: Mercurian Banner
+	DisplayName: Estandarte mercuriano
 	Tooltip: ""
 }
 
 MoonDayMusicBox: {
-	DisplayName: Music Box (Moon Day)
+	DisplayName: Caja de música (Día Lunar)
 	Tooltip:
 		'''
-		Plays "Deadworld"
+		Reproduce "Deadworld"
 		By Lincoln Ennis
 		'''
 }
 
 MoonNightMusicBox: {
-	DisplayName: Music Box (Moon Night)
+	DisplayName: Caja de música (Noche lunar)
 	Tooltip:
 		'''
-		Plays "Requiem"
+		Reproduce "Requiem"
 		By Lincoln Ennis
 		'''
 }
 
 CraterDemonMusicBox: {
-	DisplayName: Music Box (Crater Demon)
+	DisplayName: Caja de música (Demonio del Cráter)
 	Tooltip:
 		'''
-		Plays "Space Invader"
+		Reproduce "Space Invader"
 		By Lincoln Ennis
 		'''
 }
 
 UndergroundMoonMusicBox: {
-	DisplayName: Music Box (Underground Moon)
+	DisplayName: Caja de música (Luna subterránea)
 	Tooltip:
 		'''
-		Plays "Stygia"
+		Reproduce "Stygia"
 		By Lincoln Ennis
 		'''
 }
 
 MenuMusicBox: {
-	DisplayName: Music Box (Menu)
+	DisplayName: Caja de música (Menu)
 	Tooltip:
 		'''
-		Plays "Into The Unknown"
+		Reproduce "Into The Unknown"
 		By Lincoln Ennis
 		'''
 }
 
 PollutionMusicBox: {
-	DisplayName: Music Box (Pollution)
+	DisplayName: Caja de música (Contaminación)
 	Tooltip:
 		'''
-		Plays "Impurity"
+		Reproduce "Impurity"
 		By Thanatos
 		'''
 }
 
 UndergroundPollutionMusicBox: {
-	DisplayName: Music Box (Underground Pollution)
+	DisplayName: Caja de música (Contaminación subterránea)
 	Tooltip:
 		'''
-		Plays "Disposal"
+		Reproduce "Disposal"
 		By Super (SMZ)
 		'''
 }
 
 MeteorStormMusicBox: {
-	DisplayName: Music Box (Meteor Storm)
+	DisplayName: Caja de música (Tormenta de meteoritos)
 	Tooltip:
 		'''
-		Plays "Collision Course"
+		Reproduce "Collision Course"
 		By Super (SMZ)
 		'''
 }
 
 OsmiumBoots: {
-	DisplayName: Osmium Boots
+	DisplayName: Botas de Osmio
 	Tooltip:
 		'''
-		Increases player's fall speed
-		Double tap down to further increase fall speed
+		Aumenta la velocidad de caída del jugador
+		Toca dos veces hacia abajo para aumentar aún más la velocidad de caída
 		'''
 }
 
 EarthGlobe: {
-	DisplayName: Earth Globe
-	Tooltip: "'Home sweet home!'"
+	DisplayName: Globo terráqueo
+	Tooltip: "'¡Hogar, dulce hogar!'"
 }
 
 PowerJunction: {
-	DisplayName: Power Junction
+	DisplayName: Enlace de potencia
 	Tooltip: ""
 }
 
 Computer: {
-	DisplayName: Computer
+	DisplayName: Ordenador
 	Tooltip: ""
 }
 
 HelixPatternDesign: {
-	DisplayName: Helix Pattern Design
+	DisplayName: Diseño de patrón helicoidal
 	Tooltip: ""
 }
 
 Gear: {
-	DisplayName: Gear
+	DisplayName: engranaje
 	Tooltip: ""
 }
 
 SpacesuitFabric: {
-	DisplayName: Spacesuit Fabric
+	DisplayName: Tejido para trajes espaciales
 	Tooltip: ""
 }
 
 ConstructionLight: {
-	DisplayName: Construction Light
+	DisplayName: Iluminación para obras
 	Tooltip: ""
 }
 
 OreExcavator: {
-	DisplayName: Tier 2 Excavator
+	DisplayName: Excavadora (nivel 2)
 	Tooltip:
 		'''
-		Automatically extracts ores and resources from underground
-		Does not damage terrain
+		Extrae automáticamente minerales y recursos del subsuelo
+		No daña el terreno
 		'''
 }
 
 AlienResidue: {
-	DisplayName: Alien Residue
+	DisplayName: Residuo alienígena
 	Tooltip: ""
 }
 
 Plastic: {
-	DisplayName: Plastic
+	DisplayName: Plástico
 	Tooltip: ""
 }
 
 ReactorComponent: {
-	DisplayName: Reactor Component
+	DisplayName: Componente del reactor
 	Tooltip: ""
 }
 
 ReactorHousing: {
-	DisplayName: Reactor Housing
+	DisplayName: Carcasa del reactor
 	Tooltip: ""
 }
 
 Fabricator: {
-	DisplayName: Fabricator
-	Tooltip: Used to craft advanced machines and rocket components
+	DisplayName: Fabricador
+	Tooltip: Se utiliza para fabricar máquinas avanzadas y componentes de cohetes
 }
 
 Battery: {
-	DisplayName: Battery
+	DisplayName: Batería
 	Tooltip: ""
 }
 
 CompactDisk: {
-	DisplayName: Compact Disk
+	DisplayName: Disco compacto
 	Tooltip: ""
 }
 
 ElasticFiber: {
-	DisplayName: Elastic Fiber
+	DisplayName: Fibra elástica
 	Tooltip: ""
 }
 
 RocketLandingLeg: {
-	DisplayName: Rocket Landing Leg
+	DisplayName: Pata de aterrizaje del cohete
 	Tooltip: ""
 }
 
 RocketPlating: {
-	DisplayName: Rocket Plating
+	DisplayName: Recubrimiento de cohetes
 	Tooltip: ""
 }
 
 CoalBrick: {
-	DisplayName: Coal Brick
+	DisplayName: Ladrillo de carbón
 	Tooltip: ""
 }
 
 LandingGear: {
-	DisplayName: Landing Gear
+	DisplayName: Tren de aterrizaje
 	Tooltip: ""
 }
 
 FuelCanister: {
-	DisplayName: Fuel Canister
+	DisplayName: Bidón de combustible
 	Tooltip: ""
-	CapacityTooltip: Can hold up to {0} {1} of fuel
+	CapacityTooltip: Tiene capacidad para hasta {0} {1} de combustible
 	AmountTooltip: "{0}/{1} {2}"
 }
 
 EngineComponent: {
-	DisplayName: Engine Component
+	DisplayName: Componente del motor
 	Tooltip: ""
 }
 
 CopperWire: {
-	DisplayName: Copper Wire
+	DisplayName: Alambre de cobre
 	Tooltip: ""
 }
 
 GothicCoalBrick: {
-	DisplayName: Gothic Coal Brick
+	DisplayName: Ladrillo gótico de carbón
 	Tooltip: ""
 }
 
@@ -1370,670 +1370,670 @@ SpookyDookie: {
 }
 
 CheeseBlock: {
-	DisplayName: Cheese Block
+	DisplayName: Bloque de Queso
 	Tooltip: ""
 }
 
 Cheese: {
-	DisplayName: Cheese
+	DisplayName: Queso
 	Tooltip: "{$CommonItemTooltip.MajorStats}"
 }
 
 CapstoneRush: {
-	DisplayName: Capstone Rush
+	DisplayName: La carrera final
 	Tooltip: "{$CommonItemTooltip.MajorStats}"
 }
 
 CheeseBathtub: {
-	DisplayName: Cheese Bathtub
+	DisplayName: Bañera de Queso
 	Tooltip: ""
 }
 
 CheeseBed: {
-	DisplayName: Cheese Bed
+	DisplayName: Cama de Queso
 	Tooltip: ""
 }
 
 CheeseBookcase: {
-	DisplayName: Cheese Bookcase
+	DisplayName: Librería de Queso
 	Tooltip: ""
 }
 
 CheeseCandelabra: {
-	DisplayName: Cheese Candelabra
+	DisplayName: Candelabro de Queso
 	Tooltip: ""
 }
 
 CheeseCandle: {
-	DisplayName: Cheese Candle
+	DisplayName: Vela de Queso
 	Tooltip: ""
 }
 
 CheeseChair: {
-	DisplayName: Cheese Chair
+	DisplayName: Silla de Queso
 	Tooltip: ""
 }
 
 CheeseChandelier: {
-	DisplayName: Cheese Chandelier
+	DisplayName: Lámpara araña de Queso
 	Tooltip: ""
 }
 
 CheeseChest: {
-	DisplayName: Cheese Chest
+	DisplayName: Cofre de Queso
 	Tooltip: ""
 }
 
 CheeseClock: {
-	DisplayName: Cheese Clock
+	DisplayName: Reloj de Queso
 	Tooltip: ""
 }
 
 CheeseDoor: {
-	DisplayName: Cheese Door
+	DisplayName: Puerta de Queso
 	Tooltip: ""
 }
 
 CheeseDresser: {
-	DisplayName: Cheese Dresser
+	DisplayName: Vestidor de Queso
 	Tooltip: ""
 }
 
 CheeseLamp: {
-	DisplayName: Cheese Lamp
+	DisplayName: Lámpara de Queso
 	Tooltip: ""
 }
 
 CheeseLantern: {
-	DisplayName: Cheese Lantern
+	DisplayName: Farola de Queso
 	Tooltip: ""
 }
 
 CheesePiano: {
-	DisplayName: Cheese Piano
+	DisplayName: Piano de Queso
 	Tooltip: ""
 }
 
 CheeseSink: {
-	DisplayName: Cheese Sink
+	DisplayName: Fregadero de Queso
 	Tooltip: ""
 }
 
 CheeseSofa: {
-	DisplayName: Cheese Sofa
+	DisplayName: Sofá de Queso
 	Tooltip: ""
 }
 
 CheeseTable: {
-	DisplayName: Cheese Table
+	DisplayName: Mesa de Queso
 	Tooltip: ""
 }
 
 CheeseToilet: {
-	DisplayName: Cheese Toilet
-	Tooltip: "'This is a horrible idea.'"
+	DisplayName: Retrete de Queso
+	Tooltip: "'Es una idea horrible.'"
 }
 
 CheeseWorkbench: {
-	DisplayName: Cheese Workbench
+	DisplayName: Banco de trabajo de Queso
 	Tooltip: ""
 }
 
 LuminiteBookcase: {
-	DisplayName: Luminite Bookcase
+	DisplayName: Librería de Luminita
 	Tooltip: ""
 }
 
 LuminiteChair: {
-	DisplayName: Luminite Chair
+	DisplayName: Silla de Luminita
 	Tooltip: ""
 }
 
 LuminiteClock: {
-	DisplayName: Luminite Clock
+	DisplayName: Reloj de Luminita
 	Tooltip: ""
 }
 
 LuminiteToilet: {
-	DisplayName: Luminite Toilet
+	DisplayName: Retrete de Luminita
 	Tooltip: ""
 }
 
 WindTurbine: {
-	DisplayName: Wind Turbine
+	DisplayName: Turbina eólica
 	Tooltip: ""
 }
 
 EmployeeBoots: {
-	DisplayName: Employee Boots
+	DisplayName: Botas de empleado
 	Tooltip: ""
 }
 
 EmployeeSuit: {
-	DisplayName: Employee Suit
+	DisplayName: Traje de empleado
 	Tooltip: ""
 }
 
 EmployeeVisor: {
-	DisplayName: Employee Visor
+	DisplayName: Visera de empleado
 	Tooltip: ""
 }
 
 Boombox: {
-	DisplayName: Boombox
+	DisplayName: Radiocasete
 	Tooltip: ""
 }
 
 StopSign: {
-	DisplayName: Stop Sign
-	Tooltip: "'Stop right there!'"
+	DisplayName: Señal de Stop
+	Tooltip: "'¡Detente ahí mismo!'"
 }
 
 WindTurbineLarge: {
-	DisplayName: Large Wind Turbine
-	Tooltip: Converts wind energy into electricity
+	DisplayName: Turbina eólica grande
+	Tooltip: Convierte la energía del viento en electricidad
 }
 
 WindTurbineSmall: {
-	DisplayName: Medium Wind Turbine
-	Tooltip: Converts wind energy into electricity
+	DisplayName: Turbina eólica mediana
+	Tooltip: Convierte la energía del viento en electricidad
 }
 
 WeCanDoItBlue: {
-	DisplayName: We Can Do It!
-	Tooltip: Now in blue!
+	DisplayName: ¡Podemos hacerlo!
+	Tooltip: ¡Ahora en azul!
 }
 
 WeCanDoItYellow: {
-	DisplayName: We Can Do It!
-	Tooltip: Now in yellow!
+	DisplayName: ¡Podemos hacerlo!
+	Tooltip: ¡Ahora en amarillo!
 }
 
 DisplayScreen: {
-	DisplayName: Display Screen
+	DisplayName: Pantalla de visualización
 	Tooltip: ""
 }
 
 BurnerGenerator: {
-	DisplayName: Burner Generator
-	Tooltip: Converts combustible fuel into electricity
+	DisplayName: Generador de combustión
+	Tooltip: Convierte el combustible en electricidad
 }
 
 IndustrialServer: {
-	DisplayName: Industrial Server
+	DisplayName: Servidor industrial
 	Tooltip: ""
 }
 
 Medkit: {
 	DisplayName: Medkit
 	Tooltip: ""
-	RestoreLifeText: "{0} over {1} {^1:second;seconds}"
+	RestoreLifeText: "{0} durante {1} {^1:segundo;segundos}"
 }
 
 FrigorianGaze: {
-	DisplayName: Frigorian Gaze
-	Tooltip: Consume your enemies in a swirl of chilling projectiles
+	DisplayName: Gas Frigoriano
+	Tooltip: Consume a tus enemigos en un torbellino de proyectiles escalofriantes
 }
 
 StarDestroyer: {
-	DisplayName: Star Destroyer
-	Tooltip: Fires a legion of stars at your enemies
+	DisplayName: Destructor Estelar
+	Tooltip: Lanza una legión de estrellas contra tus enemigos
 }
 
 WaveGunBlue: {
-	DisplayName: Blue Zap Gun
+	DisplayName: Zap Gun Azul
 	Tooltip: ""
 }
 
 WaveGunRed: {
-	DisplayName: Red Zap Gun
+	DisplayName: Zap Gun Roja
 	Tooltip: ""
 }
 
 WaveGunDual: {
 	DisplayName: Wave Gun
-	Tooltip: Right click to switch firing mode
-	DisplayNameDual: Zap Gun Dual Wield
+	Tooltip: Haz click derecho para cambiar el modo de disparo
+	DisplayNameDual: Zap Gun a dos manos
 	DisplayNameRifle: Wave Gun
 }
 
 Cynthalith: {
-	DisplayName: Cynthalith
+	DisplayName: Cintalita
 	Tooltip: ""
 }
 
 Chalcedony: {
-	DisplayName: Chalcedony
+	DisplayName: Calcedonia
 	Tooltip: ""
 }
 
 AstraBookcase: {
-	DisplayName: Astra Bookcase
+	DisplayName: Librería de Astra
 	Tooltip: ""
 }
 
 AstraChair: {
-	DisplayName: Astra Chair
+	DisplayName: Silla de Astra
 	Tooltip: ""
 }
 
 AstraChest: {
-	DisplayName: Astra Chest
+	DisplayName: Cofre de Astra
 	Tooltip: ""
 }
 
 AstraClock: {
-	DisplayName: Astra Clock
+	DisplayName: Reloj de Astra
 	Tooltip: ""
 }
 
 AstraToilet: {
-	DisplayName: Astra Toilet
+	DisplayName: Retrete de Astra
 	Tooltip: ""
 }
 
 CosmicEmberBookcase: {
-	DisplayName: Cosmic Ember Bookcase
+	DisplayName: Librería de Ember Cosmico
 	Tooltip: ""
 }
 
 CosmicEmberChair: {
-	DisplayName: Cosmic Ember Chair
+	DisplayName: Silla de Ember Cosmico
 	Tooltip: ""
 }
 
 CosmicEmberChest: {
-	DisplayName: Cosmic Ember Chest
+	DisplayName: Cofre de Ember Cosmico
 	Tooltip: ""
 }
 
 CosmicEmberClock: {
-	DisplayName: Cosmic Ember Clock
+	DisplayName: Reloj de Ember Cosmico
 	Tooltip: ""
 }
 
 CosmicEmberToilet: {
-	DisplayName: Cosmic Ember Toilet
+	DisplayName: Retrete de Ember Cosmico
 	Tooltip: ""
 }
 
 CryocoreBookcase: {
-	DisplayName: Cryocore Bookcase
+	DisplayName: Librería de Cryocore 
 	Tooltip: ""
 }
 
 CryocoreChair: {
-	DisplayName: Cryocore Chair
+	DisplayName: Silla de Cryocore
 	Tooltip: ""
 }
 
 CryocoreChest: {
-	DisplayName: Cryocore Chest
+	DisplayName: Cofre de Cryocore
 	Tooltip: ""
 }
 
 CryocoreClock: {
-	DisplayName: Cryocore Clock
+	DisplayName: Reloj de Cryocore
 	Tooltip: ""
 }
 
 CryocoreToilet: {
-	DisplayName: Cryocore Toilet
+	DisplayName: Retrete de Cryocore
 	Tooltip: ""
 }
 
 DarkCelestialBookcase: {
-	DisplayName: Dark Celestial Bookcase
+	DisplayName: Librería de Oscuridad Celestial
 	Tooltip: ""
 }
 
 DarkCelestialChair: {
-	DisplayName: Dark Celestial Chair
+	DisplayName: Silla de Oscuridad Celestial
 	Tooltip: ""
 }
 
 DarkCelestialChest: {
-	DisplayName: Dark Celestial Chest
+	DisplayName: Cofre de Oscuridad Celestial
 	Tooltip: ""
 }
 
 DarkCelestialClock: {
-	DisplayName: Dark Celestial Clock
+	DisplayName: Reloj de Oscuridad Celestial
 	Tooltip: ""
 }
 
 DarkCelestialToilet: {
-	DisplayName: Dark Celestial Toilet
+	DisplayName: Retrete de Oscuridad Celestial
 	Tooltip: ""
 }
 
 HeavenforgeBookcase: {
-	DisplayName: Heavenforge Bookcase
+	DisplayName: Librería de Heavenforge
 	Tooltip: ""
 }
 
 HeavenforgeChair: {
-	DisplayName: Heavenforge Chair
+	DisplayName: Silla de Heavenforge
 	Tooltip: ""
 }
 
 HeavenforgeChest: {
-	DisplayName: Heavenforge Chest
+	DisplayName: Cofre de Heavenforge
 	Tooltip: ""
 }
 
 HeavenforgeClock: {
-	DisplayName: Heavenforge Clock
+	DisplayName: Reloj de Heavenforge
 	Tooltip: ""
 }
 
 HeavenforgeToilet: {
-	DisplayName: Heavenforge Toilet
+	DisplayName: Retrete de Heavenforge
 	Tooltip: ""
 }
 
 LuminiteChest: {
-	DisplayName: Luminite Chest
+	DisplayName: Cofre de Luminita
 	Tooltip: ""
 }
 
 LunarRustBookcase: {
-	DisplayName: Lunar Rust Bookcase
+	DisplayName: Librería de Óxido Lunar
 	Tooltip: ""
 }
 
 LunarRustChair: {
-	DisplayName: Lunar Rust Chair
+	DisplayName: Sila de Óxido Lunar
 	Tooltip: ""
 }
 
 LunarRustChest: {
-	DisplayName: Lunar Rust Chest
+	DisplayName: Cofre de Óxido Lunar
 	Tooltip: ""
 }
 
 LunarRustClock: {
-	DisplayName: Lunar Rust Clock
+	DisplayName: Reloj de Óxido Lunar
 	Tooltip: ""
 }
 
 LunarRustToilet: {
-	DisplayName: Lunar Rust Toilet
+	DisplayName: Retrete de Óxido Lunar
 	Tooltip: ""
 }
 
 MercuryBookcase: {
-	DisplayName: Mercury Bookcase
+	DisplayName: Librería de Mercurio
 	Tooltip: ""
 }
 
 MercuryChair: {
-	DisplayName: Mercury Chair
+	DisplayName: Silla de Mercurio
 	Tooltip: ""
 }
 
 MercuryChest: {
-	DisplayName: Mercury Chest
+	DisplayName: Cofre de Mercurio
 	Tooltip: ""
 }
 
 MercuryClock: {
-	DisplayName: Mercury Clock
+	DisplayName: Reloj de Mercurio
 	Tooltip: ""
 }
 
 MercuryToilet: {
-	DisplayName: Mercury Toilet
+	DisplayName: Retrete de Mercurio
 	Tooltip: ""
 }
 
 StarRoyaleBookcase: {
-	DisplayName: Star Royale Bookcase
+	DisplayName: Librería de Estrella Real
 	Tooltip: ""
 }
 
 StarRoyaleChair: {
-	DisplayName: Star Royale Chair
+	DisplayName: Silla de Estrella Real
 	Tooltip: ""
 }
 
 StarRoyaleChest: {
-	DisplayName: Star Royale Chest
+	DisplayName: Cofre de Estrella Real
 	Tooltip: ""
 }
 
 StarRoyaleClock: {
-	DisplayName: Star Royale Clock
+	DisplayName: Reloj de Estrella Real
 	Tooltip: ""
 }
 
 StarRoyaleToilet: {
-	DisplayName: Star Royale Toilet
+	DisplayName: Retrete de Estrella Real
 	Tooltip: ""
 }
 
 XaocKey: {
-	DisplayName: Xaoc Key
-	Tooltip: Opens all Luminite Chests
+	DisplayName: Llave Xaoc
+	Tooltip: Abre todos los cofres de luminita
 }
 
 AstraCandelabra: {
-	DisplayName: Astra Candelabra
+	DisplayName: Candelabro de Astra
 	Tooltip: ""
 }
 
 AstraCandle: {
-	DisplayName: Astra Candle
+	DisplayName: Vela de Astra
 	Tooltip: ""
 }
 
 AstraLantern: {
-	DisplayName: Astra Lantern
+	DisplayName: Linterna de Astra
 	Tooltip: ""
 }
 
 CosmicEmberCandelabra: {
-	DisplayName: Cosmic Ember Candelabra
+	DisplayName: Candelabro de Ember Cosmico
 	Tooltip: ""
 }
 
 CosmicEmberCandle: {
-	DisplayName: Cosmic Ember Candle
+	DisplayName: Vela de Ember Cosmico
 	Tooltip: ""
 }
 
 CosmicEmberLantern: {
-	DisplayName: Cosmic Ember Lantern
+	DisplayName: Linterna de Ember Cosmico
 	Tooltip: ""
 }
 
 CryocoreCandelabra: {
-	DisplayName: Cryocore Candelabra
+	DisplayName: Candelabro de Cryocore
 	Tooltip: ""
 }
 
 CryocoreCandle: {
-	DisplayName: Cryocore Candle
+	DisplayName: Vela de Cryocore
 	Tooltip: ""
 }
 
 CryocoreLantern: {
-	DisplayName: Cryocore Lantern
+	DisplayName: Linterna de Cryocore
 	Tooltip: ""
 }
 
 DarkCelestialCandelabra: {
-	DisplayName: Dark Celestial Candelabra
+	DisplayName: Candelabro de Oscuridad Celestial
 	Tooltip: ""
 }
 
 DarkCelestialCandle: {
-	DisplayName: Dark Celestial Candle
+	DisplayName: Vela de Oscuridad Celestial
 	Tooltip: ""
 }
 
 DarkCelestialLantern: {
-	DisplayName: Dark Celestial Lantern
+	DisplayName: Linterna de Oscuridad Celestial
 	Tooltip: ""
 }
 
 HeavenforgeCandelabra: {
-	DisplayName: Heavenforge Candelabra
+	DisplayName: Candelabro de Heavenforge
 	Tooltip: ""
 }
 
 HeavenforgeCandle: {
-	DisplayName: Heavenforge Candle
+	DisplayName: Vela de Heavenforge
 	Tooltip: ""
 }
 
 HeavenforgeLantern: {
-	DisplayName: Heavenforge Lantern
+	DisplayName: Linterna de Heavenforge
 	Tooltip: ""
 }
 
 LuminiteCandelabra: {
-	DisplayName: Luminite Candelabra
+	DisplayName: Candelabro de Luminita
 	Tooltip: ""
 }
 
 LuminiteCandle: {
-	DisplayName: Luminite Candle
+	DisplayName: Vela de Luminita
 	Tooltip: ""
 }
 
 LuminiteLantern: {
-	DisplayName: Luminite Lantern
+	DisplayName: Linterna de Luminita
 	Tooltip: ""
 }
 
 LunarRustCandelabra: {
-	DisplayName: Lunar Rust Candelabra
+	DisplayName: Candelabro de Óxido Lunar
 	Tooltip: ""
 }
 
 LunarRustCandle: {
-	DisplayName: Lunar Rust Candle
+	DisplayName: Vela de Óxido Lunar
 	Tooltip: ""
 }
 
 LunarRustLantern: {
-	DisplayName: Lunar Rust Lantern
+	DisplayName: Linterna de Óxido Lunar
 	Tooltip: ""
 }
 
 MercuryCandelabra: {
-	DisplayName: Mercury Candelabra
+	DisplayName: Candelabro de Mercurio
 	Tooltip: ""
 }
 
 MercuryCandle: {
-	DisplayName: Mercury Candle
+	DisplayName: Vela de Mercurio
 	Tooltip: ""
 }
 
 MercuryLantern: {
-	DisplayName: Mercury Lantern
+	DisplayName: Linterna de Mercurio
 	Tooltip: ""
 }
 
 StarRoyaleCandelabra: {
-	DisplayName: Star Royale Candelabra
+	DisplayName: Candelabro de Estrella Real
 	Tooltip: ""
 }
 
 StarRoyaleCandle: {
-	DisplayName: Star Royale Candle
+	DisplayName: Vela de Estrella Real
 	Tooltip: ""
 }
 
 StarRoyaleLantern: {
-	DisplayName: Star Royale Lantern
+	DisplayName: Linterna de Estrella Real
 	Tooltip: ""
 }
 
 AntiRadiationPills: {
-	DisplayName: Anti Radiation Pills
+	DisplayName: Pastillas antirradiación
 	Tooltip: ""
 }
 
 AirVent: {
-	DisplayName: Air Vent
+	DisplayName: Rejilla de ventilación
 	Tooltip: ""
 }
 
 Sledgehammer: {
-	DisplayName: Sledgehammer
-	Tooltip: Breaks more walls than a regular hammer
+	DisplayName: Martillo de demolición
+	Tooltip: Rompe más paredes que un martillo normal
 }
 
 IrradiatedAltar: {
-	DisplayName: Irradiated Altar
+	DisplayName: Altar irradiado
 	Tooltip: ""
 }
 
 IrradiatedBrickWallUnsafe: {
-	DisplayName: Perilous Irradiated Brick Wall
+	DisplayName: Pared de ladrillos irradiados insegura
 	Tooltip: ""
 }
 
 IrradiatedRockWallUnsafe: {
-	DisplayName: Perilous Irradiated Rock Wall
+	DisplayName: Pared de roca irradiada insegura
 	Tooltip: ""
 }
 
 ProtolithWallUnsafe: {
-	DisplayName: Perilous Protolith Wall
+	DisplayName: Pared de Protolito insegura
 	Tooltip: ""
 }
 
 RegolithBrickWallUnsafe: {
-	DisplayName: Perilous Regolith Brick Wall
+	DisplayName: Pared de ladrillos de Protolito insegura
 	Tooltip: ""
 }
 
 RegolithWallUnsafe: {
-	DisplayName: Perilous Regolith Wall
+	DisplayName: Pared de Regolito insegura
 	Tooltip: ""
 }
 
 Micronova: {
 	DisplayName: Micronova
-	Tooltip: Spawns two portals to fire beams at your cursor
+	Tooltip: Genera dos portales que disparan rayos hacia el cursor
 }
 
 LexanGlassWall: {
-	DisplayName: Lexan Glass Wall
+	DisplayName: Pared de Cristal de Lexan
 	Tooltip: ""
 }
 
 KyaniteScarabCritter: {
-	DisplayName: Kyanite Scarab Critter
+	DisplayName: Criatura escarabajo de cianita
 	Tooltip: ""
 }
 
 Fridge: {
-	DisplayName: Fridge
+	DisplayName: Nevera
 	Tooltip: ""
 }
 
 IVPole: {
-	DisplayName: IV Pole
+	DisplayName: Soporte para suero
 	Tooltip: ""
 }
 
 DevOmnitool: {
-	DisplayName: Dev Omnitool
+	DisplayName: Omniherramienta de desarrollador
 	Tooltip: ""
 }
 
 LunarCrystal: {
-	DisplayName: Lunar Crystal
+	DisplayName: Cristal Lunar
 	Tooltip: ""
 }
 
 CrescentMoon: {
-	DisplayName: Crescent Moon
+	DisplayName: Luna creciente
 	Tooltip: ""
 }
 
@@ -2043,750 +2043,750 @@ RocheChakram: {
 }
 
 CrescentScripture: {
-	DisplayName: Crescent Scripture
-	Tooltip: "'Etched with ancient symbols from a long-lost lunarian text.'"
+	DisplayName: Escritura de la Media Luna
+	Tooltip: "'Grabado con símbolos antiguos procedentes de un texto lunar perdido hace mucho tiempo.'"
 }
 
 Totality: {
-	DisplayName: Totality
-	Tooltip: Slashes leave behind rifts of umbral magic
+	DisplayName: Totalidad
+	Tooltip: Los cortes dejan tras de sí grietas de magia de la umbra
 }
 
 AstraWorkbench: {
-	DisplayName: Astra Workbench
+	DisplayName: Banco de trabajo de Astra
 	Tooltip: ""
 }
 
 CosmicEmberWorkbench: {
-	DisplayName: Cosmic Ember Workbench
+	DisplayName: Banco de trabajo de Ember Cosmico
 	Tooltip: ""
 }
 
 CryocoreWorkbench: {
-	DisplayName: Cryocore Workbench
+	DisplayName: Banco de trabajo de Cryocore
 	Tooltip: ""
 }
 
 DarkCelestialWorkbench: {
-	DisplayName: Dark Celestial Workbench
+	DisplayName: Banco de trabajo de Oscuridad Celestial	
 	Tooltip: ""
 }
 
 HeavenforgeWorkbench: {
-	DisplayName: Heavenforge Workbench
+	DisplayName: Banco de trabajo de Heavenforge
 	Tooltip: ""
 }
 
 LuminiteWorkbench: {
-	DisplayName: Luminite Workbench
+	DisplayName: Banco de trabajo de Luminita
 	Tooltip: ""
 }
 
 LunarRustWorkbench: {
-	DisplayName: Lunar Rust Workbench
+	DisplayName: Banco de trabajo de Óxido Lunar
 	Tooltip: ""
 }
 
 MercuryWorkbench: {
-	DisplayName: Mercury Workbench
+	DisplayName: Banco de trabajo de Mercurio
 	Tooltip: ""
 }
 
 StarRoyaleWorkbench: {
-	DisplayName: Star Royale Workbench
+	DisplayName: Banco de trabajo de Estrella Real
 	Tooltip: ""
 }
 
 InvarBar: {
-	DisplayName: Invar Bar
+	DisplayName: Lingote de Invar
 	Tooltip: ""
 }
 
 NickelOre: {
-	DisplayName: Nickel Ore
+	DisplayName: Mineral de Níquel
 	Tooltip: ""
 }
 
 QuartzFragment: {
-	DisplayName: Quartz Fragment
+	DisplayName: Fragmento de cuarzo
 	Tooltip: ""
 }
 
 ManisolBlades: {
-	DisplayName: Manisol Blades
+	DisplayName: Cuchillas Manisol
 	Tooltip:
 		'''
-		Throw blades that stick into enemies
-		Sol blades explode when returning
-		Mani blades pierce through enemies when returning
+		Lanza cuchillas que se clavan en los enemigos
+		Las cuchillas Sol explotan al volver
+		Las cuchillas Mani atraviesan a los enemigos al volver
 		'''
 }
 
 ArmstrongGauntlets: {
-	DisplayName: Armstrong Gauntlets
+	DisplayName: Guanteletes Armstrong
 	Tooltip:
 		'''
-		Throws a flurry of punches
-		Every few punches you will leap forward
-		'You expect me to flee?!'
+		Lanza una ráfaga de puñetazos
+		Cada cierto número de golpes, darás un salto hacia delante
+		'¿¡Te esperas que salga corriendo?!'
 		'''
 }
 
 WornLunarianDagger: {
-	DisplayName: Worn Lunarian Dagger
+	DisplayName: Daga lunar desgastada
 	Tooltip:
 		'''
-		'A worn out dagger once had multiple uses. 
-		Now only its magical capabilities remain.'
+		'Una daga gastada que alguna vez tuvo múltiples usos. 
+		Ahora solo quedan sus poderes mágicos.'
 		'''
 }
 
 Canister: {
-	DisplayName: Canister
+	DisplayName: Bidón
 	Tooltip: ""
 }
 
 RocketFuelCanister: {
-	DisplayName: Kerosene Canister
+	DisplayName: Bidón de Queroseno
 	Tooltip: ""
 }
 
 TempestuousBand: {
-	DisplayName: Tempestuous Band
+	DisplayName: La banda tempestuosa
 	Tooltip:
 		'''
-		Critical strikes deal 20% increased extra damage
-		Non-critical strikes deal 20% less damage
-		15% increased critical strike chance
+		Los golpes críticos infligen un 20 % más de daño adicional
+		Los golpes no críticos infligen un 20 % menos de daño
+		Aumenta 15% la probabilidad de golpe crítico
 		'''
 }
 
 ArcaneBarnacle: {
-	DisplayName: Arcane Barnacle
+	DisplayName: Crustáceo arcano
 	Tooltip:
 		'''
-		10% increased magic damage
-		70% increased mana cost
-		Hitting an enemy leeches 2% of damage as mana
-		Items that instantly restore mana are disabled
+		Aumenta 10% el daño mágico
+		Aumenta 70% el coste de maná
+		Al golpear a un enemigo, se recupera el 2% del daño infligido en maná.
+		Los objetos que restauran maná al instante están desactivados
 		'''
 }
 
 MomentumLash: {
-	DisplayName: Momentum Lash
-	Tooltip: Repeatedly hitting enemies with a whip increases summon damage and whip speed up to +18%
+	DisplayName: Látigo de impulso
+	Tooltip: Golpear repetidamente a los enemigos con un látigo aumenta el daño de la invocación y la velocidad del látigo hasta un +18 %.
 }
 
 Ilmenite: {
-	DisplayName: Ilmenite
+	DisplayName: Ilmenita
 	Tooltip:
 		'''
-		<left> to fire bolts of light
-		Hold <right> to charge up an explosive vortex of light
+		<left> para lanzar rayos de luz
+		Mantén <right> para cargar un vórtice explosivo de luz
 		'''
 }
 
 StalwartTowerShield: {
-	DisplayName: Stalwart Tower Shield
-	Tooltip: Repeatedly getting hit will increase defense by +3 up to +12
+	DisplayName: Escudo de torre inquebrantable
+	Tooltip: Si recibes golpes repetidamente, tu defensa aumentará entre +3 y +12
 }
 
 ThaumaturgicWard: {
-	DisplayName: Thaumaturgic Ward
+	DisplayName: Protección taumatúrgica
 	Tooltip:
 		'''
-		Below 30% of maximum life, 50% of damage is taken from mana
-		Any overflow on damage to mana is then applied back to your life
-		Deal no non-magic damage
-		Cannot be equipped with Magic Cuffs
+		Por debajo del 30% de la vida máxima, el 50% del daño se deduce del maná
+		Cualquier exceso de daño que no se haya convertido en maná se aplica a tu vida
+		No infliges ningún tipo de daño que no sea mágico
+		No se puede equipar con Esposas mágicas
 		'''
 }
 
 HummingbirdDroneRemote: {
-	DisplayName: P.D.C.D. Controller
+	DisplayName: Controlador P.D.C.D.
 	Tooltip:
 		'''
-		Summons a Hummingbird drone to fight for you
-		At low health they will surround you in a defensive position
+		Convoca a un dron "Colibrí" para que luche a tu lado
+		Cuando tengas poca vida, te rodearán adoptando una posición defensiva
 		'''
 }
 
 GreatstaffOfHorus: {
-	DisplayName: Greatstaff Of Horus
-	Tooltip: Summons a Lesser Granule to fight for you
+	DisplayName: El magnífico báculo de Horus
+	Tooltip: Invoca un Gránulo Menor para que luche a tu lado
 }
 
 LuminiteTorch: {
-	DisplayName: Luminite Torch
-	Tooltip: Can be used in airless environments
+	DisplayName: Linterna de Luminita
+	Tooltip: Se puede utilizar en entornos sin aire
 }
 
 RyuguStaff: {
-	DisplayName: Mortar Staff
-	Tooltip: Summons a Ryugu to fight for you
+	DisplayName: Báculo de mortero
+	Tooltip: Invoca a un Ryugu para que luche a tu lado
 }
 
 AstraDoor: {
-	DisplayName: Astra Door
+	DisplayName: Puerta de Astra
 	Tooltip: ""
 }
 
 CosmicEmberDoor: {
-	DisplayName: Cosmic Ember Door
+	DisplayName: Puerta de Ember Cosmico
 	Tooltip: ""
 }
 
 CryocoreDoor: {
-	DisplayName: Cryocore Door
+	DisplayName: Puerta de Cryocore
 	Tooltip: ""
 }
 
 DarkCelestialDoor: {
-	DisplayName: Dark Celestial Door
+	DisplayName: Puerta de Oscuridad Celestial
 	Tooltip: ""
 }
 
 HeavenforgeDoor: {
-	DisplayName: Heavenforge Door
+	DisplayName: Puerta de Heavenforge
 	Tooltip: ""
 }
 
 LuminiteDoor: {
-	DisplayName: Luminite Door
+	DisplayName: Puerta de Luminita
 	Tooltip: ""
 }
 
 LunarRustDoor: {
-	DisplayName: Lunar Rust Door
+	DisplayName: Puerta de Óxido Lunar
 	Tooltip: ""
 }
 
 MercuryDoor: {
-	DisplayName: Mercury Door
+	DisplayName: Puerta de Mercurio
 	Tooltip: ""
 }
 
 StarRoyaleDoor: {
-	DisplayName: Star Royale Door
+	DisplayName: Puerta de Estrella Real
 	Tooltip: ""
 }
 
 SolarCell: {
-	DisplayName: Solar Cell
+	DisplayName: Célula solar
 	Tooltip: ""
 }
 
 LaserSight: {
-	DisplayName: Laser Sight
-	Tooltip: 30% reduced ranged weapon spread
+	DisplayName: Mirilla láser
+	Tooltip: Reducción del 30% en la desviación de las armas a distancia
 }
 
 ProtolithBrick: {
-	DisplayName: Protolith Brick
+	DisplayName: Ladrillo de Protolito
 	Tooltip: ""
 }
 
 ProtolithBrickWall: {
-	DisplayName: Protolith Brick Wall
+	DisplayName: Pared de ladrillos de protolito
 	Tooltip: ""
 }
 
 ProtolithBrickWallUnsafe: {
-	DisplayName: Perilous Protolith Brick Wall
+	DisplayName: Pared de ladrillos de Protolito insegura
 	Tooltip: ""
 }
 
 AstraBathtub: {
-	DisplayName: Astra Bathtub
+	DisplayName: Bañera de Astra
 	Tooltip: ""
 }
 
 AstraBed: {
-	DisplayName: Astra Bed
+	DisplayName: Cama de Astra
 	Tooltip: ""
 }
 
 AstraChandelier: {
-	DisplayName: Astra Chandelier
+	DisplayName: Lámpara araña de Astra
 	Tooltip: ""
 }
 
 AstraDresser: {
-	DisplayName: Astra Dresser
+	DisplayName: Aparador de Astra
 	Tooltip: ""
 }
 
 AstraLamp: {
-	DisplayName: Astra Lamp
+	DisplayName: Lámpara de Astra
 	Tooltip: ""
 }
 
 AstraPiano: {
-	DisplayName: Astra Piano
+	DisplayName: Piano de Astra
 	Tooltip: ""
 }
 
 AstraSink: {
-	DisplayName: Astra Sink
+	DisplayName: Fregadero de Astra
 	Tooltip: ""
 }
 
 AstraSofa: {
-	DisplayName: Astra Sofa
+	DisplayName: Sofá de Astra
 	Tooltip: ""
 }
 
 AstraTable: {
-	DisplayName: Astra Table
+	DisplayName: Mesa de Astra
 	Tooltip: ""
 }
 
 CosmicEmberBathtub: {
-	DisplayName: Cosmic Ember Bathtub
+	DisplayName: Bañera de Ember Cosmico
 	Tooltip: ""
 }
 
 CosmicEmberBed: {
-	DisplayName: Cosmic Ember Bed
+	DisplayName: Cama de Ember Cosmico
 	Tooltip: ""
 }
 
 CosmicEmberChandelier: {
-	DisplayName: Cosmic Ember Chandelier
+	DisplayName: Lámpara araña de Ember Cosmico
 	Tooltip: ""
 }
 
 CosmicEmberDresser: {
-	DisplayName: Cosmic Ember Dresser
+	DisplayName: Aparador de Ember Cosmico
 	Tooltip: ""
 }
 
 CosmicEmberLamp: {
-	DisplayName: Cosmic Ember Lamp
+	DisplayName: Lámpara de Ember Cosmico
 	Tooltip: ""
 }
 
 CosmicEmberPiano: {
-	DisplayName: Cosmic Ember Piano
+	DisplayName: Piano de Ember Cosmico
 	Tooltip: ""
 }
 
 CosmicEmberSink: {
-	DisplayName: Cosmic Ember Sink
+	DisplayName: Fregadero de Ember Cosmico
 	Tooltip: ""
 }
 
 CosmicEmberSofa: {
-	DisplayName: Cosmic Ember Sofa
+	DisplayName: Sofá de Ember Cosmico
 	Tooltip: ""
 }
 
 CosmicEmberTable: {
-	DisplayName: Cosmic Ember Table
+	DisplayName: Mesa de Ember Cosmico
 	Tooltip: ""
 }
 
 CryocoreBathtub: {
-	DisplayName: Cryocore Bathtub
+	DisplayName: Bañera de Cryocore
 	Tooltip: ""
 }
 
 CryocoreBed: {
-	DisplayName: Cryocore Bed
+	DisplayName: Cama de Cryocore
 	Tooltip: ""
 }
 
 CryocoreChandelier: {
-	DisplayName: Cryocore Chandelier
+	DisplayName: Lámpara araña de Cryocore
 	Tooltip: ""
 }
 
 CryocoreDresser: {
-	DisplayName: Cryocore Dresser
+	DisplayName: Aparador de Cryocore
 	Tooltip: ""
 }
 
 CryocoreLamp: {
-	DisplayName: Cryocore Lamp
+	DisplayName: Lámpara de Cryocore
 	Tooltip: ""
 }
 
 CryocorePiano: {
-	DisplayName: Cryocore Piano
+	DisplayName: Piano de Cryocore
 	Tooltip: ""
 }
 
 CryocoreSink: {
-	DisplayName: Cryocore Sink
+	DisplayName: Fregadero de Cryocore
 	Tooltip: ""
 }
 
 CryocoreSofa: {
-	DisplayName: Cryocore Sofa
+	DisplayName: Sofá de Cryocore
 	Tooltip: ""
 }
 
 CryocoreTable: {
-	DisplayName: Cryocore Table
+	DisplayName: Mesa de Cryocore
 	Tooltip: ""
 }
 
 DarkCelestialBathtub: {
-	DisplayName: Dark Celestial Bathtub
+	DisplayName: Bañera de Oscuridad Celestial
 	Tooltip: ""
 }
 
 DarkCelestialBed: {
-	DisplayName: Dark Celestial Bed
+	DisplayName: Cama de Oscuridad Celestial
 	Tooltip: ""
 }
 
 DarkCelestialChandelier: {
-	DisplayName: Dark Celestial Chandelier
+	DisplayName: Lámpara araña de Oscuridad Celestial
 	Tooltip: ""
 }
 
 DarkCelestialDresser: {
-	DisplayName: Dark Celestial Dresser
+	DisplayName: Aparador de Oscuridad Celestial
 	Tooltip: ""
 }
 
 DarkCelestialLamp: {
-	DisplayName: Dark Celestial Lamp
+	DisplayName: Lámpara de Oscuridad Celestial
 	Tooltip: ""
 }
 
 DarkCelestialPiano: {
-	DisplayName: Dark Celestial Piano
+	DisplayName: Piano de Oscuridad Celestial
 	Tooltip: ""
 }
 
 DarkCelestialSink: {
-	DisplayName: Dark Celestial Sink
+	DisplayName: Fregadero de Oscuridad Celestial
 	Tooltip: ""
 }
 
 DarkCelestialSofa: {
-	DisplayName: Dark Celestial Sofa
+	DisplayName: Sofá de Oscuridad Celestial
 	Tooltip: ""
 }
 
 DarkCelestialTable: {
-	DisplayName: Dark Celestial Table
+	DisplayName: Mesa de Oscuridad Celestial
 	Tooltip: ""
 }
 
 HeavenforgeBathtub: {
-	DisplayName: Heavenforge Bathtub
+	DisplayName: Bañera de Heavenforge
 	Tooltip: ""
 }
 
 HeavenforgeBed: {
-	DisplayName: Heavenforge Bed
+	DisplayName: Cama de Heavenforge
 	Tooltip: ""
 }
 
 HeavenforgeChandelier: {
-	DisplayName: Heavenforge Chandelier
+	DisplayName: Lámpara araña de Heavenforge
 	Tooltip: ""
 }
 
 HeavenforgeDresser: {
-	DisplayName: Heavenforge Dresser
+	DisplayName: Aparador de Heavenforge
 	Tooltip: ""
 }
 
 HeavenforgeLamp: {
-	DisplayName: Heavenforge Lamp
+	DisplayName: Lámpara de Heavenforge
 	Tooltip: ""
 }
 
 HeavenforgePiano: {
-	DisplayName: Heavenforge Piano
+	DisplayName: Piano de Heavenforge
 	Tooltip: ""
 }
 
 HeavenforgeSink: {
-	DisplayName: Heavenforge Sink
+	DisplayName: Fregadero de Heavenforge
 	Tooltip: ""
 }
 
 HeavenforgeSofa: {
-	DisplayName: Heavenforge Sofa
+	DisplayName: Sofá de Heavenforge
 	Tooltip: ""
 }
 
 HeavenforgeTable: {
-	DisplayName: Heavenforge Table
+	DisplayName: Mesa de Heavenforge
 	Tooltip: ""
 }
 
 LuminiteBathtub: {
-	DisplayName: Luminite Bathtub
+	DisplayName: Bañera de Luminita
 	Tooltip: ""
 }
 
 LuminiteBed: {
-	DisplayName: Luminite Bed
+	DisplayName: Cama de Luminita
 	Tooltip: ""
 }
 
 LuminiteChandelier: {
-	DisplayName: Luminite Chandelier
+	DisplayName: Lámpara araña de Luminita
 	Tooltip: ""
 }
 
 LuminiteDresser: {
-	DisplayName: Luminite Dresser
+	DisplayName: Aparador de Luminita
 	Tooltip: ""
 }
 
 LuminiteLamp: {
-	DisplayName: Luminite Lamp
+	DisplayName: Lámpara de Luminita
 	Tooltip: ""
 }
 
 LuminitePiano: {
-	DisplayName: Luminite Piano
+	DisplayName: Piano de Luminita
 	Tooltip: ""
 }
 
 LuminiteSink: {
-	DisplayName: Luminite Sink
+	DisplayName: Fregadero de Luminita
 	Tooltip: ""
 }
 
 LuminiteSofa: {
-	DisplayName: Luminite Sofa
+	DisplayName: Sofá de Luminita
 	Tooltip: ""
 }
 
 LuminiteTable: {
-	DisplayName: Luminite Table
+	DisplayName: Mesa de Luminita
 	Tooltip: ""
 }
 
 LunarRustBathtub: {
-	DisplayName: Lunar Rust Bathtub
+	DisplayName: Bañera de Óxido Lunar
 	Tooltip: ""
 }
 
 LunarRustBed: {
-	DisplayName: Lunar Rust Bed
+	DisplayName: Cama de Óxido Lunar
 	Tooltip: ""
 }
 
 LunarRustChandelier: {
-	DisplayName: Lunar Rust Chandelier
+	DisplayName: Lámpara araña de Óxido Lunar
 	Tooltip: ""
 }
 
 LunarRustDresser: {
-	DisplayName: Lunar Rust Dresser
+	DisplayName: Aparador de Óxido Lunar
 	Tooltip: ""
 }
 
 LunarRustLamp: {
-	DisplayName: Lunar Rust Lamp
+	DisplayName: Lámpara de Óxido Lunar
 	Tooltip: ""
 }
 
 LunarRustPiano: {
-	DisplayName: Lunar Rust Piano
+	DisplayName: Piano de Óxido Lunar
 	Tooltip: ""
 }
 
 LunarRustSink: {
-	DisplayName: Lunar Rust Sink
+	DisplayName: Fregadero de Óxido Lunar
 	Tooltip: ""
 }
 
 LunarRustSofa: {
-	DisplayName: Lunar Rust Sofa
+	DisplayName: Sofá de Óxido Lunar
 	Tooltip: ""
 }
 
 LunarRustTable: {
-	DisplayName: Lunar Rust Table
+	DisplayName: Mesa de Óxido Lunar
 	Tooltip: ""
 }
 
 MercuryBathtub: {
-	DisplayName: Mercury Bathtub
+	DisplayName: Bañera de Mercurio
 	Tooltip: ""
 }
 
 MercuryBed: {
-	DisplayName: Mercury Bed
+	DisplayName: Cama de Mercurio
 	Tooltip: ""
 }
 
 MercuryChandelier: {
-	DisplayName: Mercury Chandelier
+	DisplayName: Lámpara araña de Mercurio
 	Tooltip: ""
 }
 
 MercuryDresser: {
-	DisplayName: Mercury Dresser
+	DisplayName: Aparador de Mercurio
 	Tooltip: ""
 }
 
 MercuryLamp: {
-	DisplayName: Mercury Lamp
+	DisplayName: Lámpara de Mercurio
 	Tooltip: ""
 }
 
 MercuryPiano: {
-	DisplayName: Mercury Piano
+	DisplayName: Piano de Mercurio
 	Tooltip: ""
 }
 
 MercurySink: {
-	DisplayName: Mercury Sink
+	DisplayName: Fregadero de Mercurio
 	Tooltip: ""
 }
 
 MercurySofa: {
-	DisplayName: Mercury Sofa
+	DisplayName: Sofá de Mercurio
 	Tooltip: ""
 }
 
 MercuryTable: {
-	DisplayName: Mercury Table
+	DisplayName: Mesa de Mercurio
 	Tooltip: ""
 }
 
 StarRoyaleBathtub: {
-	DisplayName: Star Royale Bathtub
+	DisplayName: Bañera de Estrella Real
 	Tooltip: ""
 }
 
 StarRoyaleBed: {
-	DisplayName: Star Royale Bed
+	DisplayName: Cama de Estrella Real
 	Tooltip: ""
 }
 
 StarRoyaleChandelier: {
-	DisplayName: Star Royale Chandelier
+	DisplayName: Lámpara araña de Estrella Real
 	Tooltip: ""
 }
 
 StarRoyaleDresser: {
-	DisplayName: Star Royale Dresser
+	DisplayName: Aparador de Estrella Real
 	Tooltip: ""
 }
 
 StarRoyaleLamp: {
-	DisplayName: Star Royale Lamp
+	DisplayName: Lámpara de Estrella Real
 	Tooltip: ""
 }
 
 StarRoyalePiano: {
-	DisplayName: Star Royale Piano
+	DisplayName: Piano de Estrella Real
 	Tooltip: ""
 }
 
 StarRoyaleSink: {
-	DisplayName: Star Royale Sink
+	DisplayName: Fregadero de Estrella Real
 	Tooltip: ""
 }
 
 StarRoyaleSofa: {
-	DisplayName: Star Royale Sofa
+	DisplayName: Sofá de Estrella Real
 	Tooltip: ""
 }
 
 StarRoyaleTable: {
-	DisplayName: Star Royale Table
+	DisplayName: Mesa de Estrella Real
 	Tooltip: ""
 }
 
 AstraPlatform: {
-	DisplayName: Astra Platform
+	DisplayName: Plataforma de Astra
 	Tooltip: ""
 }
 
 CosmicEmberPlatform: {
-	DisplayName: Cosmic Ember Platform
+	DisplayName: Plataforma de Ember Cosmico
 	Tooltip: ""
 }
 
 CryocorePlatform: {
-	DisplayName: Cryocore Platform
+	DisplayName: Plataforma de Cryocore
 	Tooltip: ""
 }
 
 DarkCelestialPlatform: {
-	DisplayName: Dark Celestial Platform
+	DisplayName: Plataforma de Oscuridad Celestial
 	Tooltip: ""
 }
 
 HeavenforgePlatform: {
-	DisplayName: Heavenforge Platform
+	DisplayName: Plataforma de Heavenforge
 	Tooltip: ""
 }
 
 LuminitePlatform: {
-	DisplayName: Luminite Platform
+	DisplayName: Plataforma de Luminita
 	Tooltip: ""
 }
 
 LunarRustPlatform: {
-	DisplayName: Lunar Rust Platform
+	DisplayName: Plataforma de Óxido Lunar
 	Tooltip: ""
 }
 
 MercuryPlatform: {
-	DisplayName: Mercury Platform
+	DisplayName: Plataforma de Mercurio
 	Tooltip: ""
 }
 
 StarRoyalePlatform: {
-	DisplayName: Star Royale Platform
+	DisplayName: Plataforma de Estrella Real
 	Tooltip: ""
 }
 
 CheesePlatform: {
-	DisplayName: Cheese Platform
+	DisplayName: Plataforma de Queso
 	Tooltip: ""
 }
 
 CheeseWall: {
-	DisplayName: Cheese Wall
+DisplayName: Pared de Queso
 	Tooltip: ""
 }
 
 CircuitProbe: {
-	DisplayName: Circuit Probe
-	Tooltip: Used for circuitry troubleshooting
+	DisplayName: Sonda de circuito
+	Tooltip: Se utiliza para la solución de problemas en circuitos
 }
 
 IndustrialBattery: {
-	DisplayName: Industrial Battery
+	DisplayName: Batería industrial
 	Tooltip:
 		'''
-		Stores excess energy from electrical networks
-		Energy is taken from batteries when the electrical network demands more than is produced
+		Almacena el exceso de energía de las redes eléctricas
+		La energía se extrae de las baterías cuando la red eléctrica necesita más de la que se produce
 		'''
 }
 
 AdvancedCircuitBoard: {
-	DisplayName: Advanced Circuit Board
+	DisplayName: Placa de circuito avanzada
 	Tooltip: ""
 }
 
 ClydersHood: {
-	DisplayName: Clyders Hood
+	DisplayName: Capucha de Clyders
 	Tooltip: ""
 }
 
 ClydersRobe: {
-	DisplayName: Clyders Robe
+	DisplayName: Bata de Clyders
 	Tooltip: ""
 }
 
 ClydersWings: {
-	DisplayName: Clyders Wings
+	DisplayName: Alas de Clyders
 	Tooltip: ""
 }
 
@@ -2794,464 +2794,464 @@ Schroteri: {
 	DisplayName: Schroteri
 	Tooltip:
 		'''
-		Repeated hits with the blade increase its reach
-		This effect wears off after some time while the blade is not used
+		Los golpes repetidos con la hoja aumentan su alcance
+		Este efecto desaparece al cabo de un tiempo si no se utiliza la hoja.
 		'''
 }
 
 Conveyor: {
-	DisplayName: Conveyor
-	Tooltip: Connects containers, taking items from one place to another
+	DisplayName: Cinta transportadora
+	Tooltip: Conecta contenedores, trasladando artículos de un lugar a otro
 }
 
 KeroseneGenerator: {
-	DisplayName: Kerosene Generator
-	Tooltip: Consumes kerosene to produce electricity
+	DisplayName: Generador de Queroseno
+	Tooltip: Consume Queroseno para generar electricidad
 }
 
 SteamEngine: {
-	DisplayName: Steam Engine
+	DisplayName: Motor de vapor
 	Tooltip: ""
 }
 
 Flag: {
-	DisplayName: Flag
+	DisplayName: Bandera
 	Tooltip: ""
 }
 
 Barometer: {
-	DisplayName: Barometer
-	Tooltip: Records the atmospheric pressure of your surroundings, measured in earth atmospheres
+	DisplayName: Barómetro
+	Tooltip: Registra la presión atmosférica del entorno, medida en atmósferas terrestres
 }
 
 GeigerMuller: {
-	DisplayName: Geiger Muller
-	Tooltip: Records radiation and alerts you of high radiation levels
+	DisplayName: Contador Geiger
+	Tooltip: Registra la radiación y te avisa en caso de niveles elevados de radiación
 }
 
 Nephelometer: {
-	DisplayName: Nephelometer
-	Tooltip: Records the air quality of your surroundings
+	DisplayName: Nefelómetro
+	Tooltip: Registra la calidad del aire de tu entorno
 }
 
 SolarPanelTile: {
-	DisplayName: Solar Panel Tile
-	Tooltip: Converts solar energy into electricity
+	DisplayName: Baldosa de panel solar
+	Tooltip: Convierte la energía solar en electricidad
 }
 
 TrailScepter: {
-	Tooltip: Fires a flurry of ruinous stars
-	DisplayName: Trail Scepter
+	Tooltip: Lanza una lluvia de estrellas destructoras
+	DisplayName: Cetro de estelas
 }
 
 HaemonovaBrick: {
-	DisplayName: Haemonova Brick
+	DisplayName: Ladrillo de Haemonova
 	Tooltip: ""
 }
 
 HaemonovaBathtub: {
-	DisplayName: Haemonova Bathtub
+	DisplayName: Bañera de Haemonova
 	Tooltip: ""
 }
 
 HaemonovaBed: {
-	DisplayName: Haemonova Bed
+	DisplayName: Cama de Haemonova
 	Tooltip: ""
 }
 
 HaemonovaBookcase: {
-	DisplayName: Haemonova Bookcase
+	DisplayName:  Librería de Haemonova
 	Tooltip: ""
 }
 
 HaemonovaCandelabra: {
-	DisplayName: Haemonova Candelabra
+	DisplayName:  Candelabro de Haemonova
 	Tooltip: ""
 }
 
 HaemonovaCandle: {
-	DisplayName: Haemonova Candle
+	DisplayName:  Vela de Haemonova
 	Tooltip: ""
 }
 
 HaemonovaChair: {
-	DisplayName: Haemonova Chair
+	DisplayName: Silla de Haemonova
 	Tooltip: ""
 }
 
 HaemonovaChandelier: {
-	DisplayName: Haemonova Chandelier
+	DisplayName:  Lámpara araña de Haemonova
 	Tooltip: ""
 }
 
 HaemonovaChest: {
-	DisplayName: Haemonova Chest
+	DisplayName: Cofre de Haemonova
 	Tooltip: ""
 }
 
 HaemonovaClock: {
-	DisplayName: Haemonova Clock
+	DisplayName: Reloj de Haemonova
 	Tooltip: ""
 }
 
 HaemonovaDoor: {
-	DisplayName: Haemonova Door
+	DisplayName: Puerta de Haemonova
 	Tooltip: ""
 }
 
 HaemonovaDresser: {
-	DisplayName: Haemonova Dresser
+	DisplayName: Aparador de Haemonova
 	Tooltip: ""
 }
 
 HaemonovaLamp: {
-	DisplayName: Haemonova Lamp
+	DisplayName: Lámpara de Haemonova
 	Tooltip: ""
 }
 
 HaemonovaLantern: {
-	DisplayName: Haemonova Lantern
+	DisplayName: Linterna de Haemonova
 	Tooltip: ""
 }
 
 HaemonovaPiano: {
-	DisplayName: Haemonova Piano
+	DisplayName: Piano de Haemonova
 	Tooltip: ""
 }
 
 HaemonovaPlatform: {
-	DisplayName: Haemonova Platform
+	DisplayName: Platforma de Haemonova
 	Tooltip: ""
 }
 
 HaemonovaSink: {
-	DisplayName: Haemonova Sink
+	DisplayName: Fregadero de Haemonova
 	Tooltip: ""
 }
 
 HaemonovaSofa: {
-	DisplayName: Haemonova Sofa
+	DisplayName: Sofá de Haemonova
 	Tooltip: ""
 }
 
 HaemonovaTable: {
-	DisplayName: Haemonova Table
+	DisplayName: Mesa de Haemonova
 	Tooltip: ""
 }
 
 HaemonovaToilet: {
-	DisplayName: Haemonova Toilet
+	DisplayName: Retrete de Haemonova
 	Tooltip: ""
 }
 
 HaemonovaWorkbench: {
-	DisplayName: Haemonova Workbench
+	DisplayName: Banco de trabajo de Haemonova
 	Tooltip: ""
 }
 
 Rubber: {
-	DisplayName: Rubber
+	DisplayName: Caucho
 	Tooltip: ""
 }
 
 PhantasmalSkullTome: {
-	DisplayName: Phantasmal Skull
-	Tooltip: Fires phantasmal skulls around you
+	DisplayName: Cráneo fantasmal
+	Tooltip: Lanza calaveras fantasmales a tu alrededor
 }
 
 ConveyorInlet: {
-	DisplayName: Conveyor Inlet
-	Tooltip: Connects to a conveyor and puts items into chests and machines
+	DisplayName: Bahía de acceso de cinta transportadora
+	Tooltip: Se conecta a una cinta transportadora y coloca los objetos en cofres y máquinas
 }
 
 ConveyorOutlet: {
-	DisplayName: Conveyor Outlet
-	Tooltip: Connects to a conveyor and takes items from chests and machines
+	DisplayName: Salida de cinta transportadora
+	Tooltip: Se conecta a una cinta transportadora y recoge objetos de cofres y máquinas
 }
 
 ConveyorAttachmentTool: {
-	DisplayName: Conveyor Attachment Tool
+	DisplayName: Herramienta de conexión para cintas transportadoras
 	Tooltip:
 		'''
-		Uses hoppers and droppers from your inventory
-		Right click to rotate placed attachments
+		Utiliza las tolvas y los depósitos de tu inventario
+		Haz clic derecho para girar los elementos adjuntos colocados
 		'''
 }
 
 ConveyorWrenchRed: {
-	DisplayName: Conveyor Wrench
-	Tooltip: Places red conveyor pipes from your inventory
+	DisplayName: Llave para cintas transportadoras
+	Tooltip: Coloca los tubos transportadores rojos de tu inventario
 }
 
 ConveyorWrenchGreen: {
-	DisplayName: Green Conveyor Wrench
-	Tooltip: Places green conveyor pipes from your inventory
+	DisplayName: Llave para cintas transportadoras verdes
+	Tooltip: Coloca los tubos transportadores verdes de tu inventario
 }
 
 ConveyorWrenchBlue: {
-	DisplayName: Blue Conveyor Wrench
-	Tooltip: Places blue conveyor pipes from your inventory
+	DisplayName: Llave para cintas transportadoras azules
+	Tooltip: Coloca los tubos transportadores azules de tu inventario
 }
 
 ConveyorWrenchYellow: {
-	DisplayName: Yellow Conveyor Wrench
-	Tooltip: Places yellow conveyor pipes from your inventory
+	DisplayName: Llave para cintas transportadoras amarillas
+	Tooltip: Coloca tubos transportadores amarillos de tu inventario
 }
 
 PipeCutter: {
-	DisplayName: Pipe Cutter
-	Tooltip: Removes conveyor pipes and attachments
+	DisplayName: Cortatubos
+	Tooltip: Desmonta los tubos y los accesorios de la cinta transportadora
 }
 
 CrudeWireCutter: {
-	DisplayName: Crude Wire Cutter
-	Tooltip: Cuts wires
+	DisplayName: Alicates corta-alambres
+	Tooltip: Corta los cables
 }
 
 HoneyCanister: {
-	DisplayName: Honey Canister
+	DisplayName: Bidón de miel
 	Tooltip: ""
 }
 
 LavaCanister: {
-	DisplayName: Lava Canister
+	DisplayName: Bidón de lava
 	Tooltip: ""
 }
 
 OilBucket: {
-	DisplayName: Oil Bucket
+	DisplayName: Cubo de Petróleo
 	Tooltip: ""
 }
 
 OilCanister: {
-	DisplayName: Oil Canister
+	DisplayName: Bidón de Petróleo
 	Tooltip: ""
 }
 
 RocketFuelBucket: {
-	DisplayName: Kerosene Bucket
+	DisplayName: Cubo de Queroseno
 	Tooltip: ""
 }
 
 ShimmerCanister: {
-	DisplayName: Shimmer Canister
+	DisplayName: Bidón de fulgor
 	Tooltip: ""
 }
 
 WaterCanister: {
-	DisplayName: Water Canister
+	DisplayName: Bidón de agua
 	Tooltip: ""
 }
 
 EngineComponentMk1: {
-	DisplayName: Engine Component Mk1
+	DisplayName: Componente de motor Mk1
 	Tooltip: ""
 }
 
 EngineComponentMk2: {
-	DisplayName: Engine Component Mk2
+	DisplayName: Componente de motor Mk2
 	Tooltip: ""
 }
 
 MannedManeuveringUnit: {
-	DisplayName: Manned Maneuvering Unit
+	DisplayName: Unidad de maniobra tripulada
 	Tooltip:
 		'''
-		Allows flight and slow fall
-		Grants greater maneuverability in zero gravity
+		Permite volar y caer lentamente
+		Proporciona una mayor maniobrabilidad en condiciones de gravedad cero
 		'''
 }
 
 MoonChampionHelmet: {
-	DisplayName: Moon Champion Helmet
+	DisplayName: Casco del Campeón Lunar
 	Tooltip: ""
 }
 
 MoonChampionLeggings: {
-	DisplayName: Moon Champion Leggings
+	DisplayName: Grebas del Campeón Lunar
 	Tooltip: ""
 }
 
 MoonChampionSuit: {
-	DisplayName: Moon Champion Suit
+	DisplayName: Traje del Campeón Lunar
 	Tooltip: ""
 }
 
 Craterfish: {
-	DisplayName: Craterfish
+	DisplayName: Pez cráter
 	Tooltip: ""
 }
 
 DunceCraterfish: {
-	DisplayName: Dunce Craterfish
+	DisplayName: Pez cráter zopenco
 	Tooltip: ""
 	AnglerDescription: ""
 	AnglerLocation: Caught on the Moon
 }
 
 HermitCan: {
-	DisplayName: Hermit Can
+	DisplayName: Lata Ermitaño
 	Tooltip: ""
 	AnglerDescription: ""
 	AnglerLocation: Caught on the Moon
 }
 
 MutatedGoldfish: {
-	DisplayName: Mutated Goldfish
+	DisplayName: Pez dorado mutado
 	Tooltip: ""
 	AnglerDescription: ""
 	AnglerLocation: Caught in the Pollution
 }
 
 SmogWispfish: {
-	DisplayName: Smog Wispfish
+	DisplayName: Pez nube de smog
 	Tooltip: ""
 	AnglerDescription: ""
 	AnglerLocation: Caught in the Pollution
 }
 
 RadioactiveSlimeBannerItem: {
-	DisplayName: Radioactive Slime Banner Item
+	DisplayName: Estandarte de slime radiactivo
 	Tooltip: ""
 }
 
 RegolithSlimeBannerItem: {
-	DisplayName: Regolith Slime Banner Item
+	DisplayName: Estandarte de slime de regolito
 	Tooltip: ""
 }
 
 IndustrialFishingRod: {
-	DisplayName: Industrial Fishing Rod
+	DisplayName: Caña de pescar industrial
 	Tooltip: ""
 }
 
 MoonBeastFishingRod: {
-	DisplayName: Moon Beast Fishing Rod
+	DisplayName: Caña de pescar de la bestia lunar
 	Tooltip: ""
 }
 
 ACUnit: {
-	DisplayName: AC Unit
+	DisplayName: Unidad de aire acondicionado
 	Tooltip: ""
 }
 
 MoonChampionSentry: {
-	DisplayName: Handmade Turret Caller
-	Tooltip: Summons a makeshift missile launcher
+	DisplayName: Convocador de torreta hecho a mano
+	Tooltip: Invoca un lanzamisiles improvisado
 }
 
 RegolithBathtub: {
-	DisplayName: Regolith Bathtub
+	DisplayName: Bañera de Regolito
 	Tooltip: ""
 }
 
 RegolithBed: {
-	DisplayName: Regolith Bed
+	DisplayName: Cama de Regolito
 	Tooltip: ""
 }
 
 RegolithBookcase: {
-	DisplayName: Regolith Bookcase
+	DisplayName: Librería de Regolito
 	Tooltip: ""
 }
 
 RegolithCandelabra: {
-	DisplayName: Regolith Candelabra
+	DisplayName: Candelabro de Regolito
 	Tooltip: ""
 }
 
 RegolithCandle: {
-	DisplayName: Regolith Candle
+	DisplayName: Vela de Regolito
 	Tooltip: ""
 }
 
 RegolithChair: {
-	DisplayName: Regolith Chair
+	DisplayName: Silla de Regolito
 	Tooltip: ""
 }
 
 RegolithChandelier: {
-	DisplayName: Regolith Chandelier
+	DisplayName: Lámpara araña de Regolito
 	Tooltip: ""
 }
 
 RegolithChest: {
-	DisplayName: Regolith Chest
+	DisplayName: Cofre de Regolito
 	Tooltip: ""
 }
 
 RegolithClock: {
-	DisplayName: Regolith Clock
+	DisplayName: Reloj de Regolito
 	Tooltip: ""
 }
 
 RegolithDoor: {
-	DisplayName: Regolith Door
+	DisplayName: Puerta de Regolito
 	Tooltip: ""
 }
 
 RegolithDresser: {
-	DisplayName: Regolith Dresser
+	DisplayName: Aparador de Regolito
 	Tooltip: ""
 }
 
 RegolithLamp: {
-	DisplayName: Regolith Lamp
+	DisplayName: Lámpara de Regolito
 	Tooltip: ""
 }
 
 RegolithLantern: {
-	DisplayName: Regolith Lantern
+	DisplayName: Linterna de Regolito
 	Tooltip: ""
 }
 
 RegolithPiano: {
-	DisplayName: Regolith Piano
+	DisplayName: Piano de Regolito
 	Tooltip: ""
 }
 
 RegolithSink: {
-	DisplayName: Regolith Sink
+	DisplayName: Fregadero de Regolito
 	Tooltip: ""
 }
 
 RegolithSofa: {
-	DisplayName: Regolith Sofa
+	DisplayName: Sofá de Regolito
 	Tooltip: ""
 }
 
 RegolithTable: {
-	DisplayName: Regolith Table
+	DisplayName: Mesa de Regolito
 	Tooltip: ""
 }
 
 RegolithWorkbench: {
-	DisplayName: Regolith Workbench
+	DisplayName: Banco de trabajo de Regolito
 	Tooltip: ""
 }
 
 Thermometer: {
-	DisplayName: Thermometer
-	Tooltip: Records the temperature of your surroundings
+	DisplayName: Termómetro
+	Tooltip: Registra la temperatura del entorno
 }
 
 CorrugatedSteelBrick: {
-	DisplayName: Corrugated Steel Brick
+	DisplayName: Ladrillo de Acero ondulado
 	Tooltip: ""
 }
 
 CorrugatedSteelWall: {
-	DisplayName: Corrugated Steel Wall
+	DisplayName: Pared de Acero ondulado
 	Tooltip: ""
 }
 
 CorrugatedSteelWallUnsafe: {
-	DisplayName: Perilous Corrugated Steel Wall
+	DisplayName: Pared de Acero ondulado insegura
 	Tooltip: ""
 }
 
 SteelCage: {
-	DisplayName: Steel Cage
+	DisplayName: Jaula de Acero
 	Tooltip: ""
 }
 
@@ -3261,77 +3261,77 @@ BLPAsterix: {
 }
 
 StasisGrenade: {
-	DisplayName: Stasis Grenade
-	Tooltip: Greatly slows enemies caught in the blast
+	DisplayName: Granada de estasis
+	Tooltip: Ralentiza considerablemente a los enemigos que quedan atrapados en la explosión
 }
 
 AutocrafterT1: {
-	DisplayName: Tier 1 Assembler
+	DisplayName: Ensamblador (nivel 1)
 	Tooltip:
 		'''
-		Crafts items automatically
-		Crafts most pre-hardmode recipes
+		Fabrica objetos automáticamente
+		Elabora la mayoría de las recetas anteriores al hardmode
 		'''
 }
 
 AutocrafterT2Cobalt: {
-	DisplayName: Tier 2 Assembler
+	DisplayName: Ensamblador (nivel 2)
 	Tooltip:
 		'''
-		Crafts items automatically
-		Can craft recipes from mythril anvils
+		Fabrica objetos automáticamente
+		Se pueden crear recetas de los yunques de mithril
 		'''
 }
 
 AutocrafterT2Palladium: {
-	DisplayName: Tier 2 Assembler
+	DisplayName: Ensamblador (nivel 2)
 	Tooltip:
 		'''
-		Crafts items automatically
-		Can craft recipes from mythril anvils
+		Fabrica objetos automáticamente
+		Se pueden crear recetas de los yunques de mithril
 		'''
 }
 
 AutocrafterT3: {
-	DisplayName: Tier 3 Assembler
+	DisplayName: Ensamblador (nivel 3)
 	Tooltip:
 		'''
-		Crafts items automatically
-		Can craft recipes from the ancient manipulator
+		Fabrica objetos automáticamente
+		Se pueden crear recetas del manipulador antiguo
 		'''
 }
 
 OreDrill: {
-	DisplayName: Tier 1 Excavator
+	DisplayName: Excavadora (nivel 1)
 	Tooltip:
 		'''
-		Automatically extracts ores and resources from underground
-		Does not damage terrain
+		Extrae automáticamente minerales y recursos del subsuelo
+		No daña el terreno
 		'''
 }
 
 Pumpjack: {
-	DisplayName: Pumpjack
-	Tooltip: Pumps oil from the ground
+	DisplayName: Unidad de bombeo mecánico
+	Tooltip: Extrae Petróleo del subsuelo
 }
 
 Astrolith: {
-	DisplayName: Astrolith
+	DisplayName: Astrolito
 	Tooltip: ""
 }
 
 AstrolithWall: {
-	DisplayName: Astrolith Wall
+	DisplayName: Pared de Astrolito
 	Tooltip: ""
 }
 
 AstrolithWallUnsafe: {
-	DisplayName: Perilous Astrolith Wall
+	DisplayName: Pared de Astrolito insegura
 	Tooltip: ""
 }
 
 BrittleHollow: {
-	DisplayName: Brittle Hollow
+	DisplayName: Vacío frágil
 	Tooltip: ""
 }
 
@@ -3341,42 +3341,42 @@ CacoLisa: {
 }
 
 ChillingInSpace: {
-	DisplayName: Chilling In Space
+	DisplayName: Relajándose en el espacio
 	Tooltip: ""
 }
 
 ElegyForTheRings: {
-	DisplayName: Elegy For The Rings
+	DisplayName: Elegía por los anillos
 	Tooltip: ""
 }
 
 GiantsDeep: {
-	DisplayName: Giants Deep
+	DisplayName: La profundidad de los gigantes
 	Tooltip: ""
 }
 
 HourglassTwins: {
-	DisplayName: Hourglass Twins
+	DisplayName: Los gemelos reloj de arena
 	Tooltip: ""
 }
 
 IsleOfTheDead: {
-	DisplayName: Isle Of The Dead
+	DisplayName: La Isla de los Muertos
 	Tooltip: ""
 }
 
 PaleBluePixel: {
-	DisplayName: Pale Blue Pixel
+	DisplayName: Píxel azul pálido
 	Tooltip: ""
 }
 
 TheEye: {
-	DisplayName: The Eye
+	DisplayName: El Ojo
 	Tooltip: ""
 }
 
 TheInterloper: {
-	DisplayName: The Interloper
+	DisplayName: El intruso
 	Tooltip: ""
 }
 
@@ -3386,16 +3386,16 @@ TimberHearth: {
 }
 
 CelestialMeteorStaff: {
-	DisplayName: Lunar Flash
-	Tooltip: Showers celestial meteors with varying deadly effects
+	DisplayName: Destello lunar
+	Tooltip: Hace llover meteoritos celestiales con diversos efectos letales
 }
 
 LockOnStaff: {
-	DisplayName: Lock-On Staff
+	DisplayName: Bastón de fijación
 	Tooltip:
 		'''
-		Targets up to four enemies before firing explosive beams
-		'Time to hit 'em hard and make 'em regret it!'
+		Apunta a un máximo de 4 enemigos antes de disparar rayos explosivos
+		'¡Es hora de darles duro y hacer que se arrepientan!'
 		'''
 }
 
@@ -3403,8 +3403,8 @@ MegaBlade: {
 	DisplayName: Mega Blade
 	Tooltip:
 		'''
-		A massive blade made from a rocket's hull
-		'Surprisingly lighter than it looks'
+		Una enorme cuchilla fabricada con el fuselaje de un cohete
+		'Sorprendentemente más ligero de lo que parece'
 		'''
 }
 
@@ -3414,207 +3414,207 @@ Choronzon: {
 }
 
 AtomicWavePotion: {
-	DisplayName: Atomic Wave Potion
-	Tooltip: Periodically releases an atomic wave that damages nearby enemies
+	DisplayName: Poción de Onda Atómica
+	Tooltip: Lanza periódicamente una onda atómica que causa daño a los enemigos cercanos
 }
 
 BoosterPotion: {
-	DisplayName: Booster Potion
-	Tooltip: Spawns boosters from the nebula armor set bonus, but less powerful
+	DisplayName: Poción de nebulosa
+	Tooltip: Genera potenciadores del bonus del conjunto de armadura de Nebulosa, pero menos potentes
 }
 
 DensityPotion: {
-	DisplayName: Density Potion
-	Tooltip: Increases gravity
+	DisplayName: Poción de densidad
+	Tooltip: Aumenta la gravedad
 }
 
 LifelinePotion: {
-	DisplayName: Lifeline Potion
-	Tooltip: Chance for enemies to drop hearts on hit
+	DisplayName: Poción de sustento
+	Tooltip: Probabilidad de que los enemigos suelten corazones al ser golpeados
 }
 
 ManiaPotion: {
-	DisplayName: Mania Potion
-	Tooltip: Increases attack speed
+	DisplayName: Poción de la locura
+	Tooltip: Aumenta la velocidad de ataque
 }
 
 PointBlankPotion: {
-	DisplayName: Point Blank Potion
-	Tooltip: Increased ranged damage to close targets, decreased damage to targets far away
+	DisplayName: Poción a Quemarropa
+	Tooltip: Aumenta el daño a distancia contra objetivos cercanos; reduce el daño contra objetivos lejanos
 }
 
 SafeguardPotion: {
-	DisplayName: Safeguard Potion
-	Tooltip: Protects from the next hit, with a cooldown before you can drink another
+	DisplayName: Poción protectora
+	Tooltip: Te protege del siguiente golpe, pero hay que esperar un tiempo antes de poder beber otra.
 }
 
 ZoningPotion: {
-	DisplayName: Zoning Potion
-	Tooltip: Increased ranged damage to faraway targets, decreased damage to targets up close
+	DisplayName: Poción de zoneo
+	Tooltip: Aumenta el daño a distancia contra objetivos lejanos; reduce el daño contra objetivos cercanos
 }
 
 RegolithToilet: {
-	DisplayName: Regolith Toilet
+	DisplayName: Retrete de Regolito
 	Tooltip: ""
 }
 
 ArmorPiercingRound: {
-	DisplayName: Armor Piercing Round
+	DisplayName: Proyectil perforante
 	Tooltip: ""
 }
 
 RailgunBolt: {
-	DisplayName: Railgun Bolt
+	DisplayName: Proyectil de railgun
 	Tooltip: ""
 }
 
 ShredderBullet: {
-	DisplayName: Shredder Bullet
+	DisplayName: Bala trituradora
 	Tooltip: ""
 }
 
 IndustrialBeam: {
-	DisplayName: Industrial Beam
+	DisplayName: Viga industrial
 	Tooltip: ""
 }
 
 AutosmelterT1: {
-	DisplayName: Tier 1 Smelter
+	DisplayName: Fundidor (nivel 1)
 	Tooltip:
 		'''
-		Smelts ores automatically
-		Can craft all the recipes of a stone furnace
+		Fundirá los minerales automáticamente
+		Puede elaborar todas las recetas de una forja
 		'''
 }
 
 AutosmelterT2Adamantite: {
-	DisplayName: Tier 2 Smelter
+	DisplayName: Fundidor (nivel 2)
 	Tooltip:
 		'''
-		Smelts ores automatically
-		Can craft all the recipes of an adamantite furnace
+		Fundirá los minerales automáticamente
+		Puede elaborar todas las recetas de una forja de adamantita
 		'''
 }
 
 AutosmelterT2Titanium: {
-	DisplayName: Tier 2 Smelter
+	DisplayName: Fundidor (nivel 2)
 	Tooltip:
 		'''
-		Smelts ores automatically
-		Can craft all the recipes of a titanium furnace
+		Fundirá los minerales automáticamente
+		Puede elaborar todas las recetas de una forja de titanio
 		'''
 }
 
 AutosmelterT3: {
-	DisplayName: Tier 3 Smelter
+	DisplayName: Fundidor (nivel 3)
 	Tooltip:
 		'''
-		Smelts ores automatically
-		Can smelt luminite and moon ores
+		Fundirá los minerales automáticamente
+		Se puede fundir la Luminita y los minerales lunares
 		'''
 }
 
 OilBarrel: {
-	DisplayName: Oil Barrel
+	DisplayName: Barril de Petróleo
 	Tooltip: ""
 }
 
 SolarPanelExtraLarge: {
-	DisplayName: Large Solar Panel
-	Tooltip: Converts solar energy into electricity
+	DisplayName: Panel solar grande
+	Tooltip: Convierte la energía solar en electricidad
 }
 
 Dropper: {
 	DisplayName: Dropper
-	Tooltip: Drops items from chests and machines
+	Tooltip: Saca objetos de los cofres y de las maquinas
 }
 
 ScrapshotBow: {
-	DisplayName: Scrapshot Bow
+	DisplayName: Arco Scrapshot
 	Tooltip:
 		'''
-		Shoots a burst of arrows and metal scrap
-		'Prone to faulty firing!'
+		Dispara una ráfaga de flechas y chatarra metálica
+		'¡Es propenso a fallos de disparo!'
 		'''
 }
 
 LegacyDianiteBreastplate: {
-	DisplayName: Legacy Dianite Breastplate
+	DisplayName: Coraza de Dianite Antigua
 	Tooltip: ""
 }
 
 LegacyDianiteLeggings: {
-	DisplayName: Legacy Dianite Leggings
+	DisplayName: Grebas de Dianite Antiguas
 	Tooltip: ""
 }
 
 LegacyDianiteVisor: {
-	DisplayName: Legacy Dianite Visor
+	DisplayName: Visor de Dianite Antiguo
 	Tooltip: ""
 }
 
 SeleniteBrick: {
-	DisplayName: Selenite Brick
+	DisplayName: Ladrillo de Selenita
 	Tooltip: ""
 }
 
 DianiteBrick: {
-	DisplayName: Dianite Brick
+	DisplayName: Ladrillo de Dianite
 	Tooltip: ""
 }
 
 MineralizedProtolith: {
-	DisplayName: Mineralized Protolith
+	DisplayName: Protolito mineralizado
 	Tooltip: ""
 }
 
 HeveaSapling: {
-	DisplayName: Hevea Sapling
+	DisplayName: Plántula de Hevea
 	Tooltip: ""
 }
 
 RubberSap: {
-	DisplayName: Rubber Sap
+	DisplayName: Savia de caucho
 	Tooltip: ""
 }
 
 HeveaWood: {
-	DisplayName: Hevea Wood
+	DisplayName: Madera de Hevea
 	Tooltip: ""
 }
 
 HeveaHammer: {
-	DisplayName: Hevea Hammer
+	DisplayName: Martillo de Hevea
 	Tooltip: ""
 }
 
 HeveaWall: {
-	DisplayName: Hevea Wall
+	DisplayName: Pared de Hevea
 	Tooltip: ""
 }
 
 SeleniteBrickWall: {
-	DisplayName: Selenite Brick Wall
+	DisplayName: Pared de ladrillos de Selenita
 	Tooltip: ""
 }
 
 LightningSpear: {
-	DisplayName: Lightning Spear
-	Tooltip: Hurls a lightning spear
+	DisplayName: Lanza relámpago
+	Tooltip: Lanza una lanza relámpago
 }
 
 HeveaSword: {
-	DisplayName: Hevea Sword
+	DisplayName: Espada de Hevea
 	Tooltip: ""
 }
 
 MetalCutter: {
-	DisplayName: Metal Cutter
-	Tooltip: Shoots an energy flame controlled by the cursor
+	DisplayName: Cortador de metal
+	Tooltip: Lanza una llamarada de energía controlada por el cursor
 }
 
 HeveaBow: {
-	DisplayName: Hevea Bow
+	DisplayName: Arco de Hevea
 	Tooltip: ""
 }
 
@@ -3622,146 +3622,146 @@ ProtoRailgun: {
 	DisplayName: Proto Railgun
 	Tooltip:
 		'''
-		Fires a high piercing bolt
-		'A mere glimpse into the future of firearms!'
+		Lanza un rayo penetrante de gran potencia
+		'¡Un pequeño vistazo al futuro de las armas de fuego!'
 		'''
 }
 
 Hopper: {
-	DisplayName: Hopper
-	Tooltip: Takes items and puts them into chests and machines
+	DisplayName: Tolva
+	Tooltip: Coge objetos y los guarda en cofres y máquinas
 }
 
 SteelPipe: {
-	DisplayName: Steel Pipe
+	DisplayName: Tubo de Acero
 	Tooltip: ""
 }
 
 IndustrialBatteryLarge: {
-	DisplayName: Large Industrial Battery
+	DisplayName: Batería industrial de gran tamaño
 	Tooltip:
 		'''
-		Stores excess energy from electrical networks
-		Energy is taken from batteries when the electrical network demands more than is produced
+		Almacena el exceso de energía de las redes eléctricas
+		La energía se extrae de las baterías cuando la red eléctrica necesita más de la que se produce
 		'''
 }
 
 WindTurbineTiny: {
-	DisplayName: Small Wind Turbine
-	Tooltip: Converts wind energy into electricity
+	DisplayName: Turbina eólica pequeña
+	Tooltip: Convierte la energía del viento en electricidad
 }
 
 RegolithPlatform: {
-	DisplayName: Regolith Platform
+	DisplayName: Plataforma de Regolito
 	Tooltip: ""
 }
 
 CrudeWireWrenchBlue: {
-	DisplayName: Crude Blue Wrench
-	Tooltip: Places blue wire
+	DisplayName: Llave inglesa azul rudimentaria
+	Tooltip: Coloca cables azules
 }
 
 CrudeWireWrenchRed: {
-	DisplayName: Crude Red Wrench
-	Tooltip: Places red wire
+	DisplayName: Llave inglesa roja rudimentaria
+	Tooltip: Coloca cables rojos
 }
 
 HeveaBathtub: {
-	DisplayName: Hevea Bathtub
+	DisplayName: Bañera de Hevea
 	Tooltip: ""
 }
 
 HeveaBed: {
-	DisplayName: Hevea Bed
+	DisplayName: Cama de Hevea
 	Tooltip: ""
 }
 
 HeveaBookcase: {
-	DisplayName: Hevea Bookcase
+	DisplayName: Librería de Hevea
 	Tooltip: ""
 }
 
 HeveaCandelabra: {
-	DisplayName: Hevea Candelabra
+	DisplayName: Candelabro de Hevea
 	Tooltip: ""
 }
 
 HeveaCandle: {
-	DisplayName: Hevea Candle
+	DisplayName: Vela de Hevea
 	Tooltip: ""
 }
 
 HeveaChair: {
-	DisplayName: Hevea Chair
+	DisplayName: Silla de Hevea
 	Tooltip: ""
 }
 
 HeveaChandelier: {
-	DisplayName: Hevea Chandelier
+	DisplayName: Lámpara araña de Hevea
 	Tooltip: ""
 }
 
 HeveaChest: {
-	DisplayName: Hevea Chest
+	DisplayName: Cofre de Hevea
 	Tooltip: ""
 }
 
 HeveaClock: {
-	DisplayName: Hevea Clock
+	DisplayName: Reloj de Hevea
 	Tooltip: ""
 }
 
 HeveaDoor: {
-	DisplayName: Hevea Door
+	DisplayName: Puerta de Hevea
 	Tooltip: ""
 }
 
 HeveaDresser: {
-	DisplayName: Hevea Dresser
+	DisplayName: Aparador de Hevea
 	Tooltip: ""
 }
 
 HeveaLamp: {
-	DisplayName: Hevea Lamp
+	DisplayName: Lámpara de Hevea
 	Tooltip: ""
 }
 
 HeveaLantern: {
-	DisplayName: Hevea Lantern
+	DisplayName: Linterna de Hevea
 	Tooltip: ""
 }
 
 HeveaPiano: {
-	DisplayName: Hevea Piano
+	DisplayName: Piano de Hevea
 	Tooltip: ""
 }
 
 HeveaSink: {
-	DisplayName: Hevea Sink
+	DisplayName: Fregadero de Hevea
 	Tooltip: ""
 }
 
 HeveaSofa: {
-	DisplayName: Hevea Sofa
+	DisplayName: Sofá de Hevea
 	Tooltip: ""
 }
 
 HeveaTable: {
-	DisplayName: Hevea Table
+	DisplayName: Mesa de Hevea
 	Tooltip: ""
 }
 
 HeveaToilet: {
-	DisplayName: Hevea Toilet
+	DisplayName: Retrete de Hevea
 	Tooltip: ""
 }
 
 HeveaWorkbench: {
-	DisplayName: Hevea Workbench
+	DisplayName: Banco de trabajo de Hevea
 	Tooltip: ""
 }
 
 HeveaFence: {
-	DisplayName: Hevea Fence
+	DisplayName: Valla de Hevea
 	Tooltip: ""
 }

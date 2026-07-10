@@ -1,94 +1,94 @@
 # Localization file for the configs
 
 ClientConfig: {
-	DisplayName: Client Configuration
+	DisplayName: Configuración del cliente
 	GameplayHeader: Gameplay
-	UIHeader: User Interface
-	VisualsHeader: Visuals
+	UIHeader: Interfaz de usuario
+	VisualsHeader: Elementos visuales
 
 	AlwaysDisplayTitleCards: {
-		Label: Always display title cards
-		Tooltip: Whether to display the introductory title card even if you've visited this celestial body before.
+		Label: Mostrar siempre las tarjetas de título
+		Tooltip: Mostrar la tarjeta de título introductoria aunque ya hayas visitado este cuerpo celeste anteriormente.
 	}
 
 	GunRecoilEffects: {
-		Label: Gun recoil effects
-		Tooltip: Whether guns have recoil effects.
+		Label: Efectos del retroceso de las armas de fuego
+		Tooltip: Si las armas tienen retroceso.
 	}
 
 	UnitSystem: {
-		Label: Unit system
-		Tooltip: The unit system used to display numeric values.
+		Label: Sistema de unidades
+		Tooltip: El sistema de unidades utilizado para expresar los valores numéricos.
 	}
 
 	DisplayGravityInGs: {
-		Label: Display gravity values in Gs
-		Tooltip: Whether to display the gravity in Gs, or gravitational acceleration measured in the current unit system.
+		Label: Mostrar los valores de gravedad en Gs
+		Tooltip: Si se debe mostrar la gravedad en G o la aceleración gravitatoria medida en el sistema de unidades actual.
 	}
 
 	SelectedUITheme: {
-		Label: UI Theme
-		Tooltip: The mod's UI display theme.
+		Label: Tema de la interfaz
+		Tooltip: El tema de interfaz del mod.
 	}
 
 	DisableSilicaSandGeneration: {
-		Label: Disable Silica Sand Generation
-		Tooltip: Disable the generation of Silica Sand underneath the Ocean, to avoid breaking other mods' biomes.
+		Label: Desactivar la generación de arena de sílice
+		Tooltip: Desactiva la generación de arena de sílice bajo el océano para evitar que se alteren los biomas de otros mods.
 	}
 
 	DisableOilShaleGeneration: {
-		Label: Disable Oil Shale Generation
+		Label: Desactivar la generación de esquisto bituminoso
 		Tooltip: ""
 	}
 
 	Use3DCelestialBodies: {
-		Label: 3D Planets (Experimental)
-		Tooltip: Enables experimental high fidelity planet/moon textures.
+		Label: Planetas 3D (Experimental)
+		Tooltip: Activa texturas experimentales de alta fidelidad para planetas y lunas.
 	}
 
 	Headers: {
 		GameplayHeader: Gameplay
-		UIHeader: UI
-		VisualsHeader: Visuals
+		UIHeader: Interfaz de usuario
+		VisualsHeader: Elementos visuales
 	}
 }
 
 ServerConfig: {
-	DisplayName: Server Configuration
+	DisplayName: Configuración del servidor
 
 	DisableSilicaSandGeneration: {
-		Label: Disable Silica Sand Generation
-		Tooltip: Disable the generation of Silica Sand underneath the Ocean, to avoid breaking other mods' biomes.
+		Label: Desactivar la generación de arena de sílice
+		Tooltip: Desactiva la generación de arena de sílice bajo el océano para evitar que se alteren los biomas de otros mods.
 	}
 
 	DisableOilShaleGeneration: {
-		Label: Disable Oil Shale Generation
-		Tooltip: Disable the generation of Oil Shale in the Underground Desert, to avoid breaking other mods' biomes.
+		Label: Desactivar la generación de esquisto bituminoso
+		Tooltip: Desactiva la generación de esquisto bituminoso en el desierto subterráneo para evitar que se alteren los biomas de otros mods.
 	}
 
 	CircuitSearchUpdateRate: {
-		Label: Circuit Search Update Frequency
-		Tooltip: Adjust the update frequency of circuit search.
+		Label: Frecuencia de actualización de la búsqueda de circuitos
+		Tooltip: Ajusta la frecuencia de actualización de la búsqueda de circuitos.
 	}
 
 	CircuitSolveUpdateRate: {
-		Label: Circuit Solve Update Frequency
-		Tooltip: Adjust the update frequency of circuit solving.
+		Label: Frecuencia de actualización de resolución de circuitos
+		Tooltip: Ajusta la frecuencia de actualización de la resolución de circuitos.
 	}
 
 	RoomPressureUpdateRate: {
-		Label: Room Pressure Update Frequency
+		Label: Frecuencia de actualización de la presión en la Habitación
 		Tooltip: ""
 	}
 
 	ClusterFindUpdateRate: {
-		Label: Cluster Find Update Rate
+		Label: Tasa de encuentro de clústeres
 		Tooltip: ""
 	}
 
 	Headers: {
-		WorldGenHeader: World Generation
-		UpdatesHeader: Updates
+		WorldGenHeader: Generación mundial
+		UpdatesHeader: Actualizaciones
 	}
 }
 
@@ -96,12 +96,12 @@ UnitSystemType: {
 	Tooltip: ""
 
 	Metric: {
-		Label: Metric
+		Label: Sistema métrico
 		Tooltip: ""
 	}
 
 	Imperial: {
-		Label: Imperial
+		Label: Sistema Imperial
 		Tooltip: ""
 	}
 }
@@ -110,22 +110,22 @@ UpdateRate: {
 	Tooltip: ""
 
 	Realtime: {
-		Label: Realtime (every update tick)
+		Label: En tiempo real (en cada intervalo de actualización)
 		Tooltip: ""
 	}
 
 	Fast: {
-		Label: Fast (6 times per second)
+		Label: Rápido (6 veces por segundo)
 		Tooltip: ""
 	}
 
 	Medium: {
-		Label: Medium (twice per second)
+		Label: Medio (2 veces por segundo)
 		Tooltip: ""
 	}
 
 	Slow: {
-		Label: Slow (once per second)
+		Label: Lento (1 vez por segundo)
 		Tooltip: ""
 	}
 }
