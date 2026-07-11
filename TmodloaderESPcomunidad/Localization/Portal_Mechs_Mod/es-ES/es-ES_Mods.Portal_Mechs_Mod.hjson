@@ -1,0 +1,1760 @@
+Buffs: {
+	GraniteMinionBuff: {
+		Description: The Granite Youngling will fight for you
+		DisplayName: Granite Youngling
+	}
+
+	GraniteWhipDebuff: {
+		DisplayName: Granite Whip
+		Description: Mods.Portal_Mechs_Mod.Buffs.GraniteWhipDebuff.Description
+	}
+
+	MarbleJavelinDebuff: {
+		DisplayName: Impaled
+		Description: Mods.Portal_Mechs_Mod.Buffs.MarbleJavelinDebuff.Description
+	}
+
+	PhantomMinionBuff: {
+		DisplayName: Phantom
+		Description: The Phantom will fight for you
+	}
+
+	AetherMinionBuff: {
+		DisplayName: Aether Wyrm
+		Description: The Aether Wyrm will fight for you
+	}
+
+	CultistMinionBuff: {
+		DisplayName: Sunplate Archer
+		Description: The Sunplate Archer will fight for you
+	}
+
+	CultistMinionDebuff: {
+		DisplayName: Impaled
+		Description: You are taking constant damage
+	}
+
+	EctoMinionBuff: {
+		DisplayName: Ecto Mace
+		Description: The Ecto Mace will fight for you
+	}
+
+	EctoFrenzy: {
+		Description: Mods.Portal_Mechs_Mod.Buffs.EctoFrenzy.Description
+		DisplayName: Ecto Frenzy
+	}
+
+	InfiniteFlightBuff: {
+		DisplayName: Low Gravity
+		Description: Your wings never get tired
+	}
+
+	InDreamMongerArena: {
+		DisplayName: Dreamfixed Stare
+		Description: You feel magic throughout the entire arena, preventing you from manipulating this dream world...
+	}
+
+	CursedBleedDebuff: {
+		DisplayName: Cursed Touch
+		Description: No health regeneration
+	}
+}
+
+Items: {
+	EctoBane: {
+		Tooltip: ""
+		DisplayName: Desolate Whirlpool
+	}
+
+	GraniteClaw: {
+		Tooltip: ""
+		DisplayName: Granite Claw
+	}
+
+	GraniteCarapace: {
+		Tooltip: ""
+		DisplayName: Granite Carapace
+	}
+
+	EctoSteelBar: {
+		Tooltip: ""
+		DisplayName: Cursed Bar
+	}
+
+	GraniteCrabSummon: {
+		Tooltip: Summons the Granite Crab
+		DisplayName: Granite Pearl
+	}
+
+	EctoGuardianSummon: {
+		Tooltip: Summons the Ecto Guardian
+		DisplayName: Cursed Dungeon Key
+	}
+
+	EctoFlail: {
+		DisplayName: Ecto Flail
+		Tooltip: This weapon was removed from normal gameplay and can only be accessed via cheats. So... Don't use it. Or do. It doesn't really matter
+	}
+
+	MarbleFortressSummon: {
+		DisplayName: Marble Statuette
+		Tooltip: Summons the Marble Fortress
+	}
+
+	GraniteWhip: {
+		DisplayName: Crab Leg
+		Tooltip:
+			'''
+			1 summon tag damage
+			Your summons will focus struck enemies
+			'''
+	}
+
+	GraniteStaff: {
+		DisplayName: Granite Staff
+		Tooltip: Summons a Granite Youngling to fight for you
+	}
+
+	MarbleBrick: {
+		DisplayName: Enchanted Marble
+		Tooltip: ""
+	}
+
+	MarbleJavelin: {
+		DisplayName: Enchanted Javelin
+		Tooltip: ""
+	}
+
+	MarbleFireSword: {
+		DisplayName: East Tower
+		Tooltip: ""
+	}
+
+	MarbleFrostStaff: {
+		DisplayName: West Tower
+		Tooltip: ""
+	}
+
+	DesertPhantomSummon: {
+		DisplayName: Cursed Relic
+		Tooltip: Summons the Desert Phantom
+	}
+
+	GraniteYoyo: {
+		DisplayName: Crab Eye
+		Tooltip: ""
+	}
+
+	EndlessShimmerPotion: {
+		DisplayName: Endless Shimmer Potion
+		Tooltip:
+			'''
+			Reusable
+			Drink to become insubstantial
+			'''
+	}
+
+	EndlessPanicPotion: {
+		DisplayName: Endless Panic Potion
+		Tooltip:
+			'''
+			Reusable
+			Drink to induce panic
+			'''
+	}
+
+	EndlessBeerPotion: {
+		DisplayName: Endless Beer Potion
+		Tooltip:
+			'''
+			Reusable
+			The world's greatest treasure
+			'''
+	}
+
+	AetherEssence: {
+		DisplayName: Aether Essence
+		Tooltip: ""
+	}
+
+	AetherDragonSummon: {
+		DisplayName: Aether Lure
+		Tooltip: Summons the Aether Wyrm
+	}
+
+	PharaohsEye: {
+		DisplayName: Pharaoh's Eye
+		Tooltip: ""
+	}
+
+	SpiritFlame: {
+		DisplayName: Spirit Essence
+		Tooltip: ""
+	}
+
+	ArchitectsTome: {
+		DisplayName: Architect's Tome
+		Tooltip: ""
+	}
+
+	PharaohsStaff: {
+		DisplayName: Pharaoh's Staff
+		Tooltip:
+			'''
+				Summons an invisible Phantom to fight for you
+				Phantoms will create Spirit Flames over a large area to chase down nearby enemies, applying long lasting Shadowflame
+			'''
+	}
+
+	AetherScale: {
+		DisplayName: Aether Scale
+		Tooltip: ""
+	}
+
+	AetherEdge: {
+		DisplayName: Aether Edge
+		Tooltip: ""
+	}
+
+	AetherBow: {
+		DisplayName: Aether Bow
+		Tooltip: Shatters wooden arrows into beams of radiant light
+	}
+
+	AetherStaff: {
+		DisplayName: Aether Staff
+		Tooltip: Summons an Aether Wyrm to fight for you
+	}
+
+	SunplateVoyagerSummon: {
+		DisplayName: Sunplate Medallion
+		Tooltip: Summons the Sunplate Privateer
+	}
+
+	SunplateCaptainMask: {
+		DisplayName: Sunplate Captain Mask
+		Tooltip: ""
+	}
+
+	SunplateDoubloon: {
+		DisplayName: Solar Essence
+		Tooltip: ""
+	}
+
+	CollapsingStar: {
+		DisplayName: Collapsing Star
+		Tooltip: ""
+	}
+
+	CultistStaff: {
+		DisplayName: Captain's Staff
+		Tooltip: Summons a Sunplate Archer to fight for you
+	}
+
+	SunplateCannonBall: {
+		DisplayName: Cannonball and Chain
+		Tooltip: ""
+	}
+
+	EctoMaceStaff: {
+		DisplayName: Dungeon Lord's Staff
+		Tooltip: Summons an Ecto Mace to fight for you
+	}
+
+	CryptGun: {
+		DisplayName: Crypt Gun
+		Tooltip: Converts ordinary bullets into spectral rounds
+	}
+
+	CursedModeSummon: {
+		DisplayName: Forgotten Seal
+		Tooltip:
+			'''
+			Enables Cursed Mode.
+			Cursed Mode adds new enemies and revamps vanilla bosses by giving them completely new attacks and behavior.
+			Also includes an overhaul of the Celestial Pillars event, adding four completely new bosses themed after each pillar.
+			Bosses affected by Cursed Mode will award you with a small permanent stat buff upon defeat.
+			Taking damage from a boss with Cursed Mode active will cause you to lose all passive health regeneration for a few seconds.
+			Dying to a Cursed Mode boss will result in its respective summoning item being returned to you.
+			Cannot be enabled on Classic difficulty.
+			Cannot be turned off, but only affects the world in which it was activated.
+			WARNING: Cursed Mode is excruciatingly hard. Only the bravest should attempt this challenge.
+			'''
+	}
+
+	BetaCursedModeSummon: {
+		DisplayName: Inverted Seal
+		Tooltip:
+			'''
+			Enables Beta Cursed Mode, enabling Cursed Mode and reverting certain bosses back to their original versions before being revamped.
+			This currently includes Marble Fortress, Frigid Spectre, Desert Phantom, Ecto Guardian and Cursed Mode Queen Bee, but will expand as more bosses are updated.
+			The original versions of these bosses were removed for a reason. The Author will not be responsible for any emotional or physical trauma caused by exposure to them.
+			Cannot be enabled on Classic difficulty.
+			Cannot be turned off, but only affects the world in which it was activated.
+			'''
+	}
+
+	AbsoluteRadianceSummon: {
+		DisplayName: Dream Core
+		Tooltip: Unleashes the true power of the Forgotten Light
+	}
+
+	SolarQuadrupletsSummon: {
+		DisplayName: Solar Eye
+		Tooltip: Summons The Quadruplets
+	}
+
+	NebulaQuadrupletsSummon: {
+		DisplayName: Nebula Eye
+		Tooltip: Summons The Quadruplets
+	}
+
+	StardustQuadrupletsSummon: {
+		DisplayName: Stardust Eye
+		Tooltip: Summons The Quadruplets
+	}
+
+	VortexQuadrupletsSummon: {
+		DisplayName: Vortex Eye
+		Tooltip: Summons The Quadruplets
+	}
+
+	UltimateQuadrupletsSummon: {
+		DisplayName: Forgotten Eye
+		Tooltip: Why do you need a reason?
+	}
+
+	FrostbittenScepter: {
+		DisplayName: Frostbitten Scepter
+		Tooltip: Fires 4 spirits at your cursor.
+	}
+
+	ArcticVisage: {
+		DisplayName: Arctic Visage
+		Tooltip:
+			'''
+			Shoots a slow homing projectile, dealing 
+			high damage. Cannot fire another shot
+			during this time.
+			'''
+	}
+
+	GlacialFortitude: {
+		DisplayName: Glacial Fortitude
+		Tooltip:
+			'''
+			Getting hit by any non-projectile
+			attack will cause you to fire back
+			instantly with a projectile, dealing
+			45 ranged damage.
+			'''
+	}
+
+	FrostedGreatsword: {
+		Tooltip: ""
+		DisplayName: Frosted Greatsword
+	}
+
+	FrigidSpiritBag: {
+		DisplayName: Treasure Bag (Frigid Spectres)
+		Tooltip: Right click to open
+	}
+
+	FrigidSpiritRelicItem: {
+		DisplayName: Frigid Spectres Relic
+		Tooltip: ""
+	}
+
+	AbsoluteZeroIdol: {
+		DisplayName: Frozen Idol
+		Tooltip: Summons the Frigid Spectres
+	}
+
+	Armor: {
+		PreHardmode: {
+			GraniteChestplate: {
+				DisplayName: Granite Shell
+				Tooltip: ""
+			}
+
+			GraniteGreaves: {
+				DisplayName: Granite Greaves
+				Tooltip: ""
+			}
+
+			GraniteHat: {
+				DisplayName: Granite Helmet
+				Tooltip: ""
+			}
+		}
+	}
+
+	CursedModePlanteraSummon: {
+		DisplayName: REDACTED
+		Tooltip: Let's play a game
+	}
+
+	CultistBossSummon: {
+		DisplayName: Mysterious Tablet
+		Tooltip: Summons the Lunatic Cultist
+	}
+
+	QuoteSummon: {
+		DisplayName: Quote Summon
+		Tooltip: ""
+	}
+
+	MoonLordSummon: {
+		DisplayName: Celestial Sigil
+		Tooltip: Summons the Impending Doom
+	}
+
+	RadianceReward: {
+		DisplayName: Curse Fragment (Radiance)
+		Tooltip: ""
+	}
+
+	PermanentUpgradeReset: {
+		Tooltip: ""
+		DisplayName: Reset Button
+	}
+
+	BloodMoonSlimeReward: {
+		DisplayName: Curse Fragment (Blood Slime)
+		Tooltip: ""
+	}
+
+	PrimordiusReward: {
+		DisplayName: Lunar Essence (Primordius)
+		Tooltip: ""
+	}
+
+	PlanteraReward: {
+		DisplayName: Curse Fragment (Plantera)
+		Tooltip: ""
+	}
+
+	ArthropodReward: {
+		DisplayName: Lunar Essence (Arthropod)
+		Tooltip: ""
+	}
+
+	BeeKingReward: {
+		DisplayName: Curse Fragment (Bee King)
+		Tooltip: ""
+	}
+
+	BrainofCthulhuReward: {
+		DisplayName: Curse Fragment (Brain of Cthulhu)
+		Tooltip: ""
+	}
+
+	DeerclopsReward: {
+		DisplayName: Curse Fragment (Deerclops)
+		Tooltip: ""
+	}
+
+	DestroyerReward: {
+		DisplayName: Curse Fragment (Destroyer)
+		Tooltip: ""
+	}
+
+	DukeFishronReward: {
+		DisplayName: Curse Fragment (Duke Fishron)
+		Tooltip: ""
+	}
+
+	EaterofWorldsReward: {
+		DisplayName: Curse Fragment (Eater of Worlds)
+		Tooltip: ""
+	}
+
+	EclipseSlimeReward: {
+		DisplayName: Curse Fragment (Eclipse Slime)
+		Tooltip: ""
+	}
+
+	EyeofCthulhuReward: {
+		DisplayName: Curse Fragment (Eye of Cthulhu)
+		Tooltip: ""
+	}
+
+	GazeiaReward: {
+		DisplayName: Curse Fragment (Gazeia)
+		Tooltip: ""
+	}
+
+	GolemReward: {
+		DisplayName: Curse Fragment (Golem)
+		Tooltip: ""
+	}
+
+	LashestoneReward: {
+		DisplayName: Curse Fragment (Lashestone)
+		Tooltip: ""
+	}
+
+	LunaticCultistReward: {
+		DisplayName: Curse Fragment (Lunatic Cultist)
+		Tooltip: ""
+	}
+
+	MeasurelessMatterReward: {
+		DisplayName: Lunar Essence (Measureless Matter)
+		Tooltip: ""
+	}
+
+	MoonSlimeReward: {
+		DisplayName: Curse Fragment (Moon Slime)
+		Tooltip: ""
+	}
+
+	PerfectEntropyReward: {
+		DisplayName: Lunar Essence (Perfect Entropy)
+		Tooltip: ""
+	}
+
+	QueenSlimeReward: {
+		DisplayName: Curse Fragment (Queen Slime)
+		Tooltip: ""
+	}
+
+	RetinarcReward: {
+		DisplayName: Curse Fragment (Retinarc)
+		Tooltip: ""
+	}
+
+	SkeletronPrimeReward: {
+		DisplayName: Curse Fragment (Skeletron Prime)
+		Tooltip: ""
+	}
+
+	SkeletronReward: {
+		DisplayName: Curse Fragment (Skeletron)
+		Tooltip: ""
+	}
+
+	StareialReward: {
+		DisplayName: Curse Fragment (Stareial)
+		Tooltip: ""
+	}
+
+	SunSlimeReward: {
+		DisplayName: Curse Fragment (Sun Slime)
+		Tooltip: ""
+	}
+
+	WallofFleshReward: {
+		DisplayName: Curse Fragment (Wall of Flesh)
+		Tooltip: ""
+	}
+
+	BlueTrafficCone: {
+		DisplayName: Blue Traffic Cone
+		Tooltip:
+			'''
+			Can be worn as vanity or fires traffic cones as a weapon.
+			[c/6C6868:Ever wanted to impersonate a dev, and splice your enemies at the same time?]
+			[c/6C6868:Well now you can!]
+			[c/1048FF:Sophie's developer item]
+			'''
+	}
+
+	ChronozardGreaves: {
+		DisplayName: ChronoZard's Greaves
+		Tooltip:
+			'''
+			[c/6C6868:It was rumored that those who wore these cursed greaves would lose their ability to walk...]
+			[c/6C6868:That can't be true...Right? RIGHT? Also great for impersonating a FE dev!]
+			[c/42ABC6:Darkat's developer item]
+			'''
+	}
+
+	ChronozardScarfAndBuckle: {
+		DisplayName: ChronoZard's Scarf n' Buckle
+		Tooltip:
+			'''
+			[c/6C6868:Fables say that the scarf is what allowed the sorcerer to possess magical abilities...]
+			[c/6C6868:For some reason, it doesn't work on you... Also great for impersonating a FE dev!]
+			[c/42ABC6:Darkat's developer item]
+			'''
+	}
+
+	ChronozardSorcererCone: {
+		DisplayName: ChronoZard's Sorcerer Cone
+		Tooltip:
+			'''
+			[c/6C6868:From a sorcerer with a dark past... Also great for impersonating a FE dev!]
+			[c/42ABC6:Darkat's developer item]
+			'''
+	}
+
+	AnimatorWings: {
+		DisplayName: Danialeissus's Wings
+		Tooltip:
+			'''
+			[c/6C6868:Said to have lost its original intention, although it works perfectly fine.]
+			[c/2EEC11:Danialeissus's dev item]
+			'''
+	}
+
+	UltrasonicHalo: {
+		DisplayName: Ultrasonic Halo
+		Tooltip:
+			'''
+			When hit, creates four homing soundwave spears that deal damage based on your held weapon.
+			If hit with contact damage, instead create a large sound burst that deals much more damage.
+			[c/6C6868:How am I supposed to wear this?]
+			[c/2EA7F2:Eeveeisepic's dev item]
+			'''
+	}
+
+	FairyMask: {
+		DisplayName: Fairy Mask
+		Tooltip:
+			'''
+			[c/6C6868:It smells faintly of pollen and moss.]
+			[c/FF0080:Vel's dev item]
+			'''
+	}
+
+	PortalBoots: {
+		DisplayName: Portal's Boots
+		Tooltip:
+			'''
+			[c/6C6868:God made me, and I am a man.]
+			[c/FFF700:Portal Mech's dev item]
+			'''
+	}
+
+	PortalMonocle: {
+		DisplayName: Portal's Monocle
+		Tooltip:
+			'''
+			[c/6C6868:God made me, and I am a man.]
+			[c/FFF700:Portal Mech's dev item]
+			'''
+	}
+
+	PortalVest: {
+		DisplayName: Portal's Vest
+		Tooltip:
+			'''
+			[c/6C6868:God made me, and I am a man.]
+			[c/FFF700:Portal Mech's dev item]
+			'''
+	}
+
+	ChrisonmagicWatch: {
+		DisplayName: Chrisonmagic's Pocket Watch
+		Tooltip:
+			'''
+			Functions as both a yoyo and a pocketwatch.
+			[c/6C6868:Very heavy and robust.]
+			[c/FFAA3A:Chrisonmagic's dev item]
+			'''
+	}
+
+	MirrorTwistBlade: {
+		DisplayName: Mirrortwist Blade
+		Tooltip: Provides short range melee capability, and also fires fast moving projectiles with some inaccuracy.
+	}
+
+	GlassStriker: {
+		DisplayName: Glass Striker
+		Tooltip: Creates 3 projectiles around your cursor when fired, which shoot inward.
+	}
+
+	MindWeaver: {
+		DisplayName: Mindweaver
+		Tooltip: Causes a flash that strikes all enemies on your screen after a two second delay.
+	}
+
+	DreamRift: {
+		DisplayName: Dream Rift
+		Tooltip:
+			'''
+			+10% increased summon damage
+			Provides +22 armor when holding a summon damage weapon.
+			'''
+	}
+
+	DreamMongerBag: {
+		DisplayName: Treasure Orb (The Dreammonger)
+		Tooltip: Right click to open
+	}
+
+	DreamMongerRelicItem: {
+		DisplayName: Dreammonger Relic
+		Tooltip: ""
+	}
+
+	PortalNote: {
+		DisplayName: Note
+		Tooltip: ""
+	}
+
+	SolarKey: {
+		DisplayName: Solar Key
+		Tooltip: Banishes the Solar Pillar
+	}
+
+	NebulaKey: {
+		DisplayName: Nebula Key
+		Tooltip: Banishes the Nebula Pillar
+	}
+
+	VortexKey: {
+		DisplayName: Vortex Key
+		Tooltip: Banishes the Vortex Pillar
+	}
+
+	StardustKey: {
+		DisplayName: Stardust Key
+		Tooltip: Banishes the Stardust Pillar
+	}
+
+	MarbleFireStaff: {
+		DisplayName: East Tower
+		Tooltip: ""
+	}
+}
+
+NPCs: {
+	TempleWarden.DisplayName: Temple Warden
+	CultistBossShadowClone.DisplayName: Lunatic Cultist
+	Ectogeist.DisplayName: Ectogeist
+
+	EctoGuardian: {
+		DisplayName: Ecto Guardian
+		BossChecklistIntegration.SpawnInfo: Encounter naturally in The Dungeon or summon with Cursed Dungeon Key. [i:Portal_Mechs_Mod/EctoGuardianSummon]
+	}
+
+	EctoGuardianSignal.DisplayName: ""
+	EctoGuardianSpawner.DisplayName: ""
+	EctoHand.DisplayName: Skeletron
+	EctoMace.DisplayName: Ecto Mace
+
+	GraniteCrabHead: {
+		DisplayName: Granite Crab
+		BossChecklistIntegration.SpawnInfo: Find sleeping in Granite Caves or summon with Granite Pearl. [i:Portal_Mechs_Mod/GraniteCrabSummon]
+	}
+
+	GraniteCrabClaw.DisplayName: Granite Crab
+	GraniteCrabClaw2.DisplayName: Granite Crab
+	GraniteCrabInnerLeg.DisplayName: ""
+	GraniteCrabInnerLeg2.DisplayName: ""
+	GraniteCrabLeg.DisplayName: ""
+	GraniteCrabLeg2.DisplayName: ""
+	GraniteCrabLowerLeg.DisplayName: ""
+	GraniteCrabLowerLeg2.DisplayName: ""
+	GraniteCrabLowerLeg3.DisplayName: ""
+	GraniteCrabLowerLeg4.DisplayName: ""
+	GraniteCrabLowerLeg5.DisplayName: ""
+	GraniteCrabLowerLeg6.DisplayName: ""
+	GraniteCrabOuterLeg.DisplayName: ""
+	GraniteCrabOuterLeg2.DisplayName: ""
+	GraniteCrabSignal.DisplayName: ""
+	GraniteCrabSignal2.DisplayName: ""
+	GraniteCrabSleeping.DisplayName: ???
+	InvulnerableEctoGuardian.DisplayName: Ecto Guardian
+	InvulnerablePrimeLaser.DisplayName: Prime Laser
+	MoonLordHandSignal.DisplayName: ""
+	MoonLordHeadSignal.DisplayName: ""
+	MoonLordEnemySpawner.DisplayName: ""
+	MoonLordDeathSignal.DisplayName: ""
+	TestEntity.DisplayName: Test Entity
+	WallOfFleshShadowEye.DisplayName: Eye of Chaos
+	WallOfFleshSignal.DisplayName: ""
+	WallOfFleshMouth.DisplayName: Ravenous Maw
+	WallOfFleshFrostEye.DisplayName: Eye of Frost
+	WallOfFleshFrostEyeSpawner.DisplayName: ""
+	WallOfFleshFireEye.DisplayName: Eye of Flame
+	WallOfFleshFireEyeSpawner.DisplayName: ""
+	WallOfFleshTransitionEye.DisplayName: Eye of Madness
+	WallOfFleshRedOverlay.DisplayName: ""
+	WallOfFleshBlackBackground.DisplayName: ""
+	WallOfFleshNightmareEye.DisplayName: Eye of Madness
+	MoonLordLaserEffect.DisplayName: ""
+	MoonLord.DisplayName: Moon Lord
+
+	MarbleFortress: {
+		DisplayName: Marble Fortress
+		BossChecklistIntegration.SpawnInfo: Find dormant in Marble Caves or summon with Marble Statuette. [i:Portal_Mechs_Mod/MarbleFortressSummon]
+	}
+
+	MarbleFrostTurret.DisplayName: West Tower
+	MarbleFireTurret.DisplayName: East Tower
+	MarbleHopliteStatue.DisplayName: ""
+	MarbleHopliteStatue2.DisplayName: ""
+	MarbleHoplite.DisplayName: Hoplite
+	MarbleHoplite2.DisplayName: Hoplite
+	MarbleFortressEye.DisplayName: ""
+	MarbleFireTurretFlying.DisplayName: East Tower
+	MarbleFrostTurretFlying.DisplayName: West Tower
+	MarbleFortressDormant.DisplayName: ???
+	MarbleHopliteStatueDormant.DisplayName: ""
+	MarbleHopliteStatueDormant2.DisplayName: ""
+	AngryGolemHead.DisplayName: Golem Head
+	GolemDeathSignal.DisplayName: ""
+	GolemLootDropper.DisplayName: ""
+	KingSlimeDemon.DisplayName: Demon
+	KingSlimeSignal.DisplayName: ""
+	CursedModeKingSlime.DisplayName: King Slime
+	KingSlimeHarpy.DisplayName: Harpy
+	KingSlimeHornet.DisplayName: Hornet
+	KingSlimeIceElemental.DisplayName: Ice Elemental
+	KingSlimeFlyingAntlion.DisplayName: Desert Spirit
+	KingSlimeMartianProbe.DisplayName: Martian Probe
+	KingSlimeSlimer.DisplayName: Eater of Souls
+	KingSlimeFireImp.DisplayName: Fire Imp
+	KingSlimeSandElemental.DisplayName: Sand Elemental
+	KingSlimeWallOfFleshEye.DisplayName: Wall of Flesh
+	KingSlimeEyeofCthulhu.DisplayName: Eye of Cthulhu
+	KingSlimeSkeletron.DisplayName: Dungeon Guardian
+	KingSlimeBlackBackground.DisplayName: ""
+	KingSlimeFlash.DisplayName: ""
+	KingSlimeLaserShooter.DisplayName: ""
+	KingSlimeCometLight.DisplayName: ""
+	KingSlimeSun.DisplayName: ""
+	KingSlimeMoon.DisplayName: ""
+	KingSlimeMoonLight.DisplayName: ""
+	KingSlimeEclipseSignal.DisplayName: ""
+	KingSlimeSolarEclipse.DisplayName: ""
+	BrainofCthulhuRedOverlay.DisplayName: ""
+	CreeperDeathSignal.DisplayName: ""
+	BrainofCthulhuClone.DisplayName: Brain of Cthulhu
+	BrainofCthulhuFlash.DisplayName: ""
+	BrainofCthulhuSignal.DisplayName: ""
+	BrainofCthulhuCloneLeft.DisplayName: Brain of Cthulhu
+	BrainofCthulhuCloneRight.DisplayName: Brain of Cthulhu
+	BrainofCthulhuCloneUp.DisplayName: Brain of Cthulhu
+	BrainofCthulhuCloneDown.DisplayName: Brain of Cthulhu
+	CursedModeBrainofCthulhu.DisplayName: Brain of Cthulhu
+	BrainofCthulhuCloneFalling.DisplayName: Brain of Cthulhu
+	SkeletronBlackBackground.DisplayName: ""
+	SkeletronHandSignal.DisplayName: ""
+	SkeletronHandDeathSignal.DisplayName: ""
+	MawofTheAbyssBody.DisplayName: Eater of Worlds
+	MawofTheAbyss.DisplayName: Eater of Worlds
+	MawofTheAbyssDarkness.DisplayName: Eater of Worlds
+	MawofTheAbyssDeathSignal.DisplayName: ""
+	MawofTheAbyssLootDropper.DisplayName: ""
+	MawofTheAbyssDevourer.DisplayName: Devourer
+	MawofTheAbyssEaterofSouls.DisplayName: Eater of Souls
+	MawofTheAbyssSpawnLimiter.DisplayName: ""
+	MawofTheAbyssClinger.DisplayName: Clinger
+	CursedModeDeerclopsBody.DisplayName: ""
+	DeerclopsBackground.DisplayName: ""
+	CursedModeDeerclopsHead.DisplayName: Deerclops
+	CursedModeDeerclopsManager.DisplayName: ""
+	CursedModeDeerclopsHand.DisplayName: Deerclops
+	DeerclopsHand1AbovePlayerSignal.DisplayName: ""
+	DeerclopsHand1SlamSignal.DisplayName: ""
+	DeerclopsHandReturnSignal.DisplayName: ""
+	CursedModeDeerclopsHand2.DisplayName: Deerclops
+	DeerclopsHand2AbovePlayerSignal.DisplayName: ""
+	DeerclopsHand2SlamSignal.DisplayName: ""
+	DeerclopsBothHandsAbovePlayerSignal.DisplayName: ""
+	DeerclopsEnemySpawner.DisplayName: ""
+	DeerclopsDemon.DisplayName: Demon
+	DeerclopsHandSpawnSignal.DisplayName: ""
+	DeerclopsEnemySpawner2.DisplayName: ""
+	DeerclopsHarpy.DisplayName: Harpy
+	DeerclopsLaserShooter.DisplayName: ""
+	DeerclopsHeadWindupSignal.DisplayName: ""
+	DeerclopsLaserShooter2.DisplayName: ""
+	DeerclopsLaserReturnSignal.DisplayName: ""
+	DeerclopsEnemyDespawnSignal.DisplayName: ""
+	DeerclopsDemonEye.DisplayName: Demon Eye
+	DeerclopsCorruptor.DisplayName: Corruptor
+	DeerclopsShadowFlameApparition.DisplayName: Shadowflame Apparition
+	DeerclopsStarShooter.DisplayName: ""
+	DeerclopsHand1ChargeUpSignal.DisplayName: ""
+	DeerclopsHand2ChargeUpSignal.DisplayName: ""
+	DeerclopsHandChargeUp.DisplayName: ""
+	DeerclopsHandChargeUp2.DisplayName: ""
+	CursedModeEyeofCthulhu.DisplayName: Eye of Cthulhu
+	EyeofCthulhuDeathSignal.DisplayName: ""
+	EyeofCthulhuBlackBackground.DisplayName: ""
+	EyeofCthulhuRedOverlay.DisplayName: ""
+	EyeofCthulhuLootDropper.DisplayName: ""
+	WallOfFleshLootDropper.DisplayName: ""
+	KingSlimeLootDropperEclipse.DisplayName: ""
+	KingSlimeLootDropperMoon.DisplayName: ""
+	KingSlimeLootDropperSun.DisplayName: ""
+	EctoGuardianLootDropper.DisplayName: ""
+	BeeKing.DisplayName: The Bee King
+	BeeKingDespawnSignal.DisplayName: ""
+	JackalFace.DisplayName: Jackal Face
+	DesertPhantomActivateSignal.DisplayName: ""
+
+	DesertPhantom: {
+		DisplayName: Desert Phantom
+		BossChecklistIntegration.SpawnInfo: Destroy a Sarcophagus in the Undeground Desert or summon with Cursed Relic. [i:Portal_Mechs_Mod/DesertPhantomSummon]
+	}
+
+	JackalFaceFist1.DisplayName: Jackal Face
+	JackalFaceFist1SlamSignal.DisplayName: ""
+	JackalFaceFistJackHammerSignal.DisplayName: ""
+	JackalFaceFist2.DisplayName: Jackal Face
+	JackalFaceFist2SlamSignal.DisplayName: ""
+	JackalFaceFistReturnSignal.DisplayName: ""
+	JackalFaceFist.DisplayName: Jackal Face
+	DesertPhantomSpawnLimiter.DisplayName: ""
+	DesertPhantomDecoy.DisplayName: Desert Phantom
+	DesertPhantomDecoySignal.DisplayName: ""
+	GhoulFace.DisplayName: Sun Face
+	GhoulFaceSpikes.DisplayName: Sun Face
+	BlockFace.DisplayName: Block Face
+	DesertPhantomSarcophagus.DisplayName: Sarcophagus
+	GraniteYoungling.DisplayName: Granite Youngling
+
+	AetherDragonHead: {
+		DisplayName: Aether Wyrm
+		BossChecklistIntegration.SpawnInfo: Approach the Shimmer or summon with Aether Lure. [i:Portal_Mechs_Mod/AetherDragonSummon]
+	}
+
+	AetherDragonBody.DisplayName: Aether Wyrm
+	AetherDragonTail.DisplayName: Aether Wyrm
+	AetherDragonStar.DisplayName: Radiant Light
+	AetherDragonStarSignal.DisplayName: ""
+	AetherDragonFadeInSignal.DisplayName: ""
+	AetherDragonFadeOutSignal.DisplayName: ""
+	AetherDragonCrossStraight.DisplayName: ""
+	AetherDragonCrossStraightSignal.DisplayName: ""
+	AetherDragonCrossDiagonal.DisplayName: ""
+	AetherDragonCrossDiagonalSignal.DisplayName: ""
+	AetherDragonStarSignal2.DisplayName: ""
+	AetherDragonCrossRandomSignal.DisplayName: ""
+	AetherDragonStar2.DisplayName: Radiant Light
+	AetherDragonStar3.DisplayName: Radiant Light
+	AetherDragonStarSpawner.DisplayName: ""
+	AetherDragonLootDropper.DisplayName: ""
+	WallOfFleshCursedEye.DisplayName: Eye of Corruption
+	WallOfFleshCursedEyeSpawner.DisplayName: ""
+	AetherMinionManager.DisplayName: ""
+
+	SunplateVoyager: {
+		DisplayName: Sunplate Privateer
+		BossChecklistIntegration.SpawnInfo: Kill enough Harpies or summon with Sunplate Medallion. [i:Portal_Mechs_Mod/SunplateVoyagerSummon]
+	}
+
+	SunplateVoyagerTurnLeftSignal.DisplayName: ""
+	SunplateVoyagerTurnRightSignal.DisplayName: ""
+	SunplateCannon.DisplayName: Sunplate Cannon
+	SunplateCannon2.DisplayName: Sunplate Cannon
+	SunplateCannon3.DisplayName: Sunplate Cannon
+	SunplateCannon4.DisplayName: Sunplate Cannon
+	SunplateCultist.DisplayName: Sunplate Archer
+	SunplateCultist2.DisplayName: Sunplate Archer
+	SunplateCultist3.DisplayName: Sunplate Archer
+	SunplateCultist4.DisplayName: Sunplate Archer
+	SunplateCultist5.DisplayName: Sunplate Archer
+	SunplateCultist6.DisplayName: Sunplate Archer
+	SunplateCultist7.DisplayName: Sunplate Archer
+	SunplateCultist8.DisplayName: Sunplate Archer
+	SunplateCaptain.DisplayName: Sunplate Captain
+	SunplateCaptainExplosionSpawner.DisplayName: ""
+	SunplateCaptainExplosionSpawner2.DisplayName: ""
+	SunplateCannonDeathSignal.DisplayName: ""
+	SunplateCultistDeathSignal.DisplayName: ""
+	SunplateVoyagerLootDropper.DisplayName: ""
+	ForgottenSeal.DisplayName: Forgotten Seal
+	ForgottenSealBackground.DisplayName: ""
+	ForgottenSealOverlay.DisplayName: ""
+	ForgottenSealFlash.DisplayName: ""
+	ForgottenSealDropper.DisplayName: ""
+	BetaForgottenSeal.DisplayName: Inverted Seal
+	SkeletronLootDropper.DisplayName: ""
+	MawofTheAbyssDevourerBody.DisplayName: Devourer
+	MawofTheAbyssDevourerHead.DisplayName: Devourer
+	MawofTheAbyssDevourerTail.DisplayName: Devourer
+	MawofTheAbyssCorruptor.DisplayName: Corruptor
+	MawofTheAbyssLootDropper2.DisplayName: ""
+	MawofTheAbyssSpawner.DisplayName: ""
+	WallOfFleshBarrier.DisplayName: ""
+	KingSlimeLootDropperBloodMoon.DisplayName: ""
+	CursedModeSkeletronPrime.DisplayName: Skeletron Prime
+	SkeletronPrimeBlackBackground.DisplayName: ""
+	SkeletronPrimeFlash.DisplayName: ""
+	CursedModeSkeletronPrimeArm.DisplayName: Skeletron Prime
+	Lashes.DisplayName: Lashestone
+	Blinky.DisplayName: Retinarc
+	Starei.DisplayName: Stareial
+	Glancer.DisplayName: Gazeia
+	QuadrupletsOverlay.DisplayName: ""
+	BlinkyOverlay.DisplayName: ""
+	StareiOverlay.DisplayName: ""
+	GlancerOverlay.DisplayName: ""
+	QuadrupletsDeathSignal.DisplayName: ""
+	QuadrupletsBlackBackground.DisplayName: ""
+	QuadrupletsLootDropper.DisplayName: ""
+	PortalModSpawnLimiter.DisplayName: ""
+	CursedModeDestroyer.DisplayName: The Destroyer
+	CursedModeDestroyerManager.DisplayName: ""
+	DestroyerIntroLight.DisplayName: ""
+	DestroyerIntroFlash.DisplayName: ""
+	DestroyerBackground.DisplayName: ""
+	DestroyerEdgeBarrierRight.DisplayName: ""
+	DestroyerEdgeBarrierUp.DisplayName: ""
+	DestroyerEdgeBarrierLeft.DisplayName: ""
+	DestroyerEdgeBarrierDown.DisplayName: ""
+	DestroyerForceField.DisplayName: The Destroyer
+	DestroyerShieldProbe.DisplayName: Probe
+	DestroyerProbeLight.DisplayName: ""
+	DestroyerSignal.DisplayName: ""
+	DestroyerCrossStraight.DisplayName: ""
+	DestroyerCrossFlash.DisplayName: ""
+	DestroyerLaserShooter.DisplayName: ""
+	DestroyerLaserShooter2.DisplayName: ""
+	DestroyerDeathSignal.DisplayName: ""
+	BlinkyLootDropper.DisplayName: ""
+	GlancerLootDropper.DisplayName: ""
+	LashesLootDropper.DisplayName: ""
+	StareiLootDropper.DisplayName: ""
+	KingSlimeBiomeManager.DisplayName: ""
+	KingSlimeBloodMoonManager.DisplayName: ""
+	KingSlimeMoonManager.DisplayName: ""
+	KingSlimeEclipseManager.DisplayName: ""
+	BoomWorm.DisplayName: Dynamite Worm
+	BoomWormBody.DisplayName: Dynamite Worm
+	Tank.DisplayName: Tank
+	CroupSpi.DisplayName: Croup Spi
+	CroupSpiBody.DisplayName: Croup Spi Body
+	CroupSpiBodyDown.DisplayName: Croup Spi Body Down
+	CroupSpiDown.DisplayName: Croup Spi Down
+	CroupSpiTail.DisplayName: Croup Spi Tail
+	MawofTheAbyssScreenShake.DisplayName: ""
+	MawofTheAbyssMinionTarget.DisplayName: ""
+	WallOfFleshMinionTarget.DisplayName: ""
+	CursedModeQueenSlime.DisplayName: Queen Slime
+	QueenSlimeWings.DisplayName: Queen Slime
+	QueenSlimeBiomeManager.DisplayName: ""
+	QueenSlimeEclipse.DisplayName: ""
+	QueenSlimeSignal.DisplayName: ""
+	QueenSlimeSubscribeButton.DisplayName: ""
+	QueenSlimeCursor.DisplayName: Cursor
+	QueenSlimeNamelessDeity.DisplayName: ""
+	QueenSlimeGasterBlaster.DisplayName: ""
+	QueenSlimeSans.DisplayName: ""
+	QueenSlimeSupremeCalamitas.DisplayName: ""
+	QueenSlimeErchiusHorror.DisplayName: ""
+	QueenSlimeLeagueofLegends.DisplayName: ""
+	QueenSlimeSpelunkyGhost.DisplayName: ""
+	QueenSlimeFlash.DisplayName: ""
+	QueenSlimeLaserShooter.DisplayName: ""
+	QueenSlimeLaserShooter2.DisplayName: ""
+	Radiance.DisplayName: The Radiance
+	RadianceBackground.DisplayName: The Radiance
+	RadianceDying.DisplayName: The Radiance
+	RadianceIntro.DisplayName: ""
+	RadianceFlash.DisplayName: ""
+	RadianceSignal.DisplayName: ""
+	RadianceTitleCard.DisplayName: ""
+	RadianceTeleportFlash.DisplayName: ""
+	RadianceSkipIntro.DisplayName: ""
+	RadianceLaserWall.DisplayName: Pillar of Light
+	AbsoluteRadiance.DisplayName: Absolute Radiance
+	AbsoluteRadianceBackground.DisplayName: Absolute Radiance
+	AbsoluteRadianceDying.DisplayName: Absolute Radiance
+	AbsoluteRadianceIntro.DisplayName: ""
+	RadianceSummonReturn.DisplayName: ""
+	QueenSlimeSummonReturn.DisplayName: ""
+	QuadrupletsSummonReturn.DisplayName: ""
+	DestroyerSummonReturn.DisplayName: ""
+	SkeletronPrimeSummonReturn.DisplayName: ""
+	BeeKingSummonReturn.DisplayName: ""
+	BrainofCthulhuSummonReturn.DisplayName: ""
+	DeerclopsSummonReturn.DisplayName: ""
+	EyeofCthulhuSummonReturn.DisplayName: ""
+	KingSlimeSummonReturn.DisplayName: ""
+	MawofTheAbyssSummonReturn.DisplayName: ""
+	WallOfFleshSummonReturn.DisplayName: ""
+	BoomSlime.DisplayName: Boom Slime
+	LavaShark.DisplayName: Lava Shark
+	QuadrupletsUltimateSignal.DisplayName: ""
+	DestroyerSingleFlashSignal.DisplayName: ""
+	CursedModePlantera.DisplayName: ""
+	FakePlantera.DisplayName: Plantera
+	PlanteraEye.DisplayName: ""
+	PlanteraHeart.DisplayName: ????????????????????????????????????????????????????????????
+
+	PlanteraMapImage: {
+		DisplayName: NO ESCAPE
+
+		TownNPCMood: {
+			Content: I am content.
+			NoHome: I hate not having a home.
+			FarFromHome: I am too far from home.
+			LoveSpace: I love having so much space.
+			DislikeCrowded: I dislike how crowded I am.
+			HateCrowded: I hate how crowded I am.
+			LikeNPC_Princess: I like {NPCName}.
+			Princess_LovesNPC: I like {NPCName}.
+		}
+	}
+
+	PlanteraSignal.DisplayName: NO ESCAPE
+	PlanteraMaw.DisplayName: ????????????????????????????????????????????????????????????
+	PlanteraHeartHostile.DisplayName: ????????????????????????????????????????????????????????????
+	PlanteraDarkness.DisplayName: ""
+	PlanteraHeartBig.DisplayName: ????????????????????????????????????????????????????????????
+	PlanteraHeart2.DisplayName: ????????????????????????????????????????????????????????????
+	PlanteraSummonReturn.DisplayName: I WIN
+	PlanteraSignal2.DisplayName: NO ESCAPE
+	PlanteraHeartBig2.DisplayName: ????????????????????????????????????????????????????????????
+	PlanteraHeart3.DisplayName: ????????????????????????????????????????????????????????????
+	PlanteraHeart4.DisplayName: ????????????????????????????????????????????????????????????
+	PlanteraHeadMiniboss.DisplayName: ????????????????????????????????????????????????????????????
+	PlanteraFinalForm.DisplayName: ""
+
+	PlanteraPlayerSoul: {
+		DisplayName: ""
+
+		TownNPCMood: {
+			Content: I am content.
+			NoHome: I hate not having a home.
+			FarFromHome: I am too far from home.
+			LoveSpace: I love having so much space.
+			DislikeCrowded: I dislike how crowded I am.
+			HateCrowded: I hate how crowded I am.
+			LikeNPC_Princess: I like {NPCName}.
+			Princess_LovesNPC: I like {NPCName}.
+		}
+	}
+
+	PlanteraSkipSignal.DisplayName: ""
+	PlanteraGun.DisplayName: ""
+	PlanteraEyeShooter.DisplayName: ""
+	PlanteraPlayerAttack.DisplayName: ""
+	PlanteraDamageSignal.DisplayName: ""
+	PlanteraFinalFormSignal.DisplayName: ""
+	PlanteraPlayerAttack2.DisplayName: ""
+	PlanteraExitSignal.DisplayName: ""
+	PlanteraLootDropper.DisplayName: Plantera
+	PlanteraOutro.DisplayName: Plantera
+	PlanteraHeartBeam.DisplayName: my power
+
+	FrigidSpirit_NEW: {
+		DisplayName: Frigid Spectre
+		BossChecklistIntegration.SpawnInfo: Summon with Frozen Idol. [i:Portal_Mechs_Mod/AbsoluteZeroIdol]
+	}
+
+	FrigidSpiritClone.DisplayName: Frigid Spectre
+	SoulLantern.DisplayName: Soul Lantern
+	GolemPhase1Manager.DisplayName: ""
+	GolemHeadDrone.DisplayName: Golem Head
+	GolemSummonReturn.DisplayName: ""
+	GolemPhase2Manager.DisplayName: ""
+	GolemMissileSignal.DisplayName: ""
+	GolemLaserSignal.DisplayName: ""
+	GolemJumpSignal.DisplayName: ""
+	GolemFistSignal.DisplayName: ""
+	GolemPillar.DisplayName: Lihzahrd Monument
+	GolemPillarSignal.DisplayName: ""
+	GolemHealthBar.DisplayName: Golem
+	GolemHelper.DisplayName: ???
+	GolemHelper2.DisplayName: ???
+	GolemHelperOverlay.DisplayName: ""
+	GolemSpawner.DisplayName: ""
+	CursedModeGolem.DisplayName: Golem
+	CursedModeGolemHead.DisplayName: Golem
+	GolemLaserShooter.DisplayName: ""
+	GolemFireballSignal.DisplayName: ""
+	GolemOverlay.DisplayName: ""
+	GolemHelperPostFight.DisplayName: ???
+	GolemDeathFlash.DisplayName: ""
+	GolemHeadDying.DisplayName: Golem
+	GolemHelperPostFight2.DisplayName: ???
+	GolemExit.DisplayName: ""
+	GolemReset1.DisplayName: ""
+	GolemReset2.DisplayName: ""
+	MawofTheAbyssRetreat.DisplayName: ""
+	CursedModeDukeFishron.DisplayName: Duke Fishron
+	DukeFishronOverlay.DisplayName: ""
+	DukeSignal.DisplayName: ""
+	DukeSignal2.DisplayName: ""
+	DukeFishronOverlay2.DisplayName: ""
+	DukeSummonReturn.DisplayName: ""
+	DukeDeathSignal.DisplayName: ""
+	DukeSkipFirstPhase.DisplayName: ""
+	CursedModeLunaticCultist.DisplayName: Lunatic Cultist
+	CursedModeLunaticCultistClone.DisplayName: Lunatic Cultist
+	CultistRemoveClonesSignal.DisplayName: ""
+	CultistCircleSignal.DisplayName: ""
+	CultistLightningSignal.DisplayName: ""
+	CultistCrossSignal.DisplayName: ""
+	CultistRandomSignal.DisplayName: ""
+	CultistSummonReturn.DisplayName: ""
+	CursedModeLunaticCultistCutscene.DisplayName: Lunatic Cultist
+	CultistTablet.DisplayName: Mysterious Tablet
+	ForgottenSealCutscene.DisplayName: Forgotten Seal
+	CultistVortex.DisplayName: ""
+	ForgottenEvil.DisplayName: Worldless Mark
+	ForgottenEvilSoul.DisplayName: Dark Matter
+	ForgottenEvilYellowSignal.DisplayName: ""
+	ForgottenEvilClone.DisplayName: Worldless Mark
+	ForgottenEvilWhiteSignal.DisplayName: ""
+	ForgottenEvilBlueSignal.DisplayName: ""
+	ForgottenEvilPurpleSignal.DisplayName: ""
+	ForgottenEvilCutscene.DisplayName: Worldless Mark
+	CursedModeLunaticCultistDying.DisplayName: Lunatic Cultist
+	CultistBossCheckpoint.DisplayName: ""
+	Quote.DisplayName: Quote
+	SolarPortal.DisplayName: ""
+	SolarSkyManager.DisplayName: ""
+	Primordius.DisplayName: Primordius
+	PrimordiusIntro.DisplayName: ???
+	PrimordiusLaserShooter.DisplayName: ""
+	PrimordiusSnake.DisplayName: Primordius
+	PrimordiusTailDrawer.DisplayName: ""
+	PrimordiusDying.DisplayName: Primordius
+	SolarExitPortal.DisplayName: ""
+	NebulaPortal.DisplayName: ""
+	NebulaSkyManager.DisplayName: ""
+	MeasurelessMatter.DisplayName: Measureless Matter
+	NebulaReset.DisplayName: ""
+	MeasurelessMatterIntro.DisplayName: Measureless Matter
+	NebulaBarrier.DisplayName: ""
+	MeasurelessMatterSignal.DisplayName: ""
+	MeasurelessMatterDying.DisplayName: Measureless Matter
+	NebulaExitPortal.DisplayName: ""
+	MeasurelessMatterLootDropper.DisplayName: ""
+	MeasurelessMatterMinionTarget.DisplayName: ""
+	VortexPortal.DisplayName: ""
+	VortexSkyManager.DisplayName: ""
+	Arthropod.DisplayName: Arthropod
+	ArthropodLeg.DisplayName: Arthropod
+	ArthropodIntro.DisplayName: ???
+	VortexPortalHostile.DisplayName: ""
+	ArthropodJumpSignal.DisplayName: ""
+	ArthropodSignal.DisplayName: ""
+	ArthropodLegSignal.DisplayName: ""
+	ArthropodDying.DisplayName: Arthropod
+	VortexExitPortal.DisplayName: ""
+	PrimordiusSignal.DisplayName: ""
+	StardustPortal.DisplayName: ""
+	StardustExitPortal.DisplayName: ""
+	StardustSkyManager.DisplayName: ""
+	PerfectEntropyIntro.DisplayName: ???
+	PerfectEntropy.DisplayName: Perfect Entropy
+	PerfectEntropyLaserShooter.DisplayName: ""
+	PerfectEntropyLaserShooter2.DisplayName: ""
+	PerfectEntropySignal.DisplayName: ""
+	PerfectEntropyMedium.DisplayName: Perfect Entropy
+	PerfectEntropySmall.DisplayName: Perfect Entropy
+	PerfectEntropyPhase2Manager.DisplayName: ""
+	PerfectEntropyDying.DisplayName: Perfect Entropy
+	PerfectEntropyLootDropper.DisplayName: Perfect Entropy
+	MoonSkyManager.DisplayName: ""
+	SpaceSkyManager.DisplayName: ""
+	TrueEyeofCthulhuIntro.DisplayName: ""
+	TrueEyeofCthulhu.DisplayName: True Eye of Cthulhu
+	TrueEyeofCthulhuCounter.DisplayName: ""
+	VoidPillar.DisplayName: Void Pillar
+	VoidPortal.DisplayName: ""
+	MoonIntro.DisplayName: ""
+	Moon.DisplayName: The Moon
+	MoonDying.DisplayName: The Moon
+	NebulaPortalHostile.DisplayName: ""
+	StardustPortalHostile.DisplayName: ""
+	SolarPortalHostile.DisplayName: ""
+	MoonSignal.DisplayName: ""
+	LunarPanicManager.DisplayName: ""
+	MeasurelessMatterWeakened.DisplayName: Measureless Matter
+	ArthropodWeakened.DisplayName: Arthropod
+	ArthropodDying2.DisplayName: Arthropod
+	PrimordiusSnakeWeakened.DisplayName: Primordius
+	PrimordiusTailDrawer2.DisplayName: ""
+	PrimordiusDying2.DisplayName: Primordius
+	LunarCutsceneManager.DisplayName: ""
+	FalseHeavenSkyManager.DisplayName: ""
+	MoonLordIntro.DisplayName: The Moon
+	MoonLordSignal.DisplayName: ""
+	MoonLordNova.DisplayName: ""
+	MoonLordLaserSpawner.DisplayName: ""
+	MoonLordNightmareEye.DisplayName: True Eye of Cthulhu
+	MoonLordNightmareEye2.DisplayName: True Eye of Cthulhu
+	MoonLordBlackHole.DisplayName: ""
+	MoonLordDying.DisplayName: ""
+	ForgottenDeityIntro.DisplayName: Worldless Mark
+	MoonZoomOutSignal.DisplayName: ""
+	MoonLordHelper.DisplayName: ???
+	DesertPhantom_NEW.DisplayName: Desert Phantom
+	Sarcophagus.DisplayName: Sarcophagus
+	DesertPhantomSignal.DisplayName: ""
+	JackalFace_NEW.DisplayName: Jackal Face
+	JackalFaceSignal.DisplayName: ""
+	JackalFaceSignal2.DisplayName: ""
+	JackalFaceSignal3.DisplayName: ""
+	DesertPhantomSignal2.DisplayName: ""
+	SunFace_NEW.DisplayName: Sun Face
+	SunFaceFlame.DisplayName: Spirit Flame
+	BlockFace_NEW.DisplayName: Block Face
+	DesertPhantomSignal3.DisplayName: ""
+	DesertPhantomMarker.DisplayName: ""
+	MoonLordLootDropper.DisplayName: ""
+	VoidExitPortal.DisplayName: ""
+	FrigidSpiritMain.DisplayName: Frigid Spectre
+	FrigidSpiritClone_NEW.DisplayName: Frigid Spectre
+	BeeBishop.DisplayName: Beeshop
+	BeeKnight.DisplayName: Knee
+	BeePawn.DisplayName: Bawn
+	BeeRook.DisplayName: Reek
+	BeeKing_NEW.DisplayName: The Bee King
+	ResetDropper.DisplayName: ""
+	FrigidSpiritLootDropper.DisplayName: ""
+	FrigidSpiritSkyManager.DisplayName: ""
+	DreamMongerLeftLeg.DisplayName: Dream Monger
+	DreamMongerRightLeg.DisplayName: Dream Monger
+
+	DreamMongerMain: {
+		DisplayName: Dream Monger
+		BossChecklistIntegration.SpawnInfo: Find ??? in the Underground Hallow
+	}
+
+	MirrorSpawn.DisplayName: Mirrorspawn
+	MirrorSpawnAlternate.DisplayName: Mirrorspawn
+	MirrorSpawnAlternate2.DisplayName: Mirrorspawn
+	ShadowGuide.DisplayName: ""
+	DreamMongerSpawnLimiter.DisplayName: ""
+	GuideBackground.DisplayName: ""
+	SubworldEnterEnemy.DisplayName: ???
+	RemoveCursedMode.DisplayName: Remove Cursed Mode
+	MarbleFortress_NEW.DisplayName: Marble Fortress
+	MarbleFireTurret_NEW.DisplayName: East Tower
+	MarbleFrostTurret_NEW.DisplayName: West Tower
+	MarbleHoplite_NEW.DisplayName: ""
+	MarbleFortressDormant_NEW.DisplayName: ???
+	EctoGuardian_NEW.DisplayName: Ecto Guardian
+	EctoGuardianClone.DisplayName: Ecto Guardian
+	EctoMace_NEW.DisplayName: Ecto Mace
+	SpectralCaster.DisplayName: Spectral Caster
+	DungeonSpirit.DisplayName: Dungeon Spirit
+	EctoGuardianLootDropper_NEW.DisplayName: ""
+	EctoGuardianSpawner_NEW.DisplayName: ???
+}
+
+Projectiles: {
+	DestroyerFire.DisplayName: Destroyer Fire
+	EctoBaneBurst.DisplayName: Ecto Bane
+	EctoBaneProjectile.DisplayName: Ecto Bane
+	EctoFlailProjectile.DisplayName: Ecto Flail
+	GraniteBlast.DisplayName: Granite Beam
+	TidalSpray.DisplayName: Tidal Spray
+	WallOfFleshFireBlast.DisplayName: Fire Blast
+	MarbleIcicle.DisplayName: Ice Spike
+	MarbleIcicleStuck.DisplayName: Ice Spike
+	GraniteWhipProjectile.DisplayName: Crab Leg
+	MiniGraniteFlyer.DisplayName: Mini Granite Flyer
+	GraniteMinion.DisplayName: Granite Minion
+	GraniteBlastFriendly.DisplayName: Granite Beam
+	MarbleJavelinProjectile.DisplayName: Enchanted Javelin
+	GreekFireFriendly.DisplayName: East Tower
+	MarbleIcicleFriendly.DisplayName: West Tower
+	MarbleIcicleBurst.DisplayName: West Tower
+	MarbleIcicleStuckFriendly.DisplayName: West Tower
+	KingSlimeOrbitingStar.DisplayName: Burning Star
+	KingSlimeOrbitingStarTrail.DisplayName: Burning Star
+	KingSlimeLightBeam.DisplayName: Super Nova
+	KingSlimeLaser.DisplayName: Sun Ray
+	KingSlimeMoonTear.DisplayName: Moon Tear
+	KingSlimeMoonBeam.DisplayName: Moon Beam
+	KingSlimeMoonVortex.DisplayName: Shooting Star
+	KingSlimeFallingStar.DisplayName: Shooting Star
+	KingSlimeEclipseTear.DisplayName: Eclipse Tear
+	BrainofCthulhuBeam.DisplayName: Abyssal Laser
+	SkeletronBolt.DisplayName: Water Bolt
+	MawofTheAbyssLostSoul.DisplayName: Tormented Soul
+	MawofTheAbyssRuptureSpawner.DisplayName: ""
+	MawofTheAbyssRupture.DisplayName: Vile Rupture
+	DeerclopsLaser.DisplayName: Abyssal Death Ray
+	DeerclopsStar.DisplayName: Abyssal Star
+	DeerclopsShockwave.DisplayName: Abyssal Rupture
+	DeerclopsFadingHead.DisplayName: ""
+	EyeofCthulhuLaser.DisplayName: Eye Laser
+	BeeKingBombSmall.DisplayName: Stinger Bomb
+	BeeKingBombLarge.DisplayName: Stinger Bomb
+	BeeKingSpawner.DisplayName: ""
+	DesertPhantomFlameTrail.DisplayName: Desert Spirit's Curse
+	DesertPhantomTrail.DisplayName: Desert Phantom
+	DesertPhantomFlameShot.DisplayName: Desert Spirit's Curse
+	BlockFaceTrail.DisplayName: Block Face
+	GraniteYoyoProjectile.DisplayName: Crab Eye
+	AetherDragonBeam.DisplayName: Radiant Light
+	PharaohsEyeProjectile.DisplayName: Pharaoh's Eye
+	PharaohsEyeFlame.DisplayName: Pharaoh's Eye
+	ArchitectsTomeProjectile.DisplayName: Architect's Tome
+	PhantomMinion.DisplayName: Phantom
+	PhantomMinionFlame.DisplayName: Phantom Minion Flame
+	AetherEdgeStar.DisplayName: Aether Edge
+	AetherEdgeStarBurst.DisplayName: Aether Edge
+	AetherBowBurst.DisplayName: Aether Bow
+	AetherBowBeam.DisplayName: Aether Bow
+	AetherMinion.DisplayName: Aether Wyrm
+	AetherMinionHead.DisplayName: Aether Wyrm
+	AetherMinionBody.DisplayName: Aether Wyrm
+	AetherMinionTail.DisplayName: Aether Wyrm
+	AetherMinionStar.DisplayName: Radiant Light
+	SunplateCaptainTrail.DisplayName: Sunplate Captain
+	SunplateCaptainTrail2.DisplayName: Sunplate Captain
+	CollapsingStarProjectile.DisplayName: Collapsing Star
+	KingSlimeLightBeamFriendly.DisplayName: Collapsing Star
+	CollapsingStarProjectile2.DisplayName: Collapsing Star
+	EctoBeam.DisplayName: Ecto Beam
+	CultistMinion.DisplayName: Sunplate Archer
+	CultistMinionProjectile.DisplayName: Sunplate Archer
+	SunplateCannonBallProjectile.DisplayName: Cannonball and Chain
+	EctoMinion.DisplayName: Ecto Mace
+	SpectralBullet.DisplayName: Spectral Bullet
+	AetherWyrmStar.DisplayName: Radiant Light
+	BlinkyLightningOrb.DisplayName: Lightning Orb
+	DestroyerLightning.DisplayName: Death Volt
+	DestroyerLightning2.DisplayName: Death Volt
+	DestroyerHomingMissile.DisplayName: Death Rocket
+	DestroyerBomb.DisplayName: Plasma Bomb
+	DestroyerExplosiveCharge.DisplayName: Explosive Charge
+	DestroyerTargetMarker.DisplayName: Target Marker
+	DestroyerLaser.DisplayName: Death Ray
+	EctoBaneTrail.DisplayName: Ecto Bane
+	BloodBall.DisplayName: Blood Ball
+	DeerclopsSnowDebris.DisplayName: Debris
+	NamelessDeityLaser.DisplayName: Nameless Deity
+	GasterBlasterLaser.DisplayName: Gaster Blaster
+	SupremeCalamitasDart.DisplayName: Brimstone Dart
+	SupremeCalamitasGigablast.DisplayName: Brimstone Gigablast
+	ErchiusHorrorLaser.DisplayName: Erchius Horror
+	ErchiusHorrorShot.DisplayName: Erchius Horror
+	LeagueofLegendsFlame.DisplayName: Flame
+	SpelunkyGhostDiamond.DisplayName: Diamond
+	QueenSlimeLaser.DisplayName: Terminal Laser
+	QueenSlimeOrbitingStar.DisplayName: Otherworldly Star
+	QueenSlimeOrbitingStarTrail.DisplayName: Otherworldly Star
+	QueenSlimeLaserSmall.DisplayName: Shattered Light
+	QueenSlimeDeathRay.DisplayName: Annihilation Ray
+	QueenSlimeVortex.DisplayName: Shattered Dreams
+	QueenSlimeDeathRay2.DisplayName: Annihilation Ray
+	RadianceNail.DisplayName: Ascended Nail
+	RadianceNailHitbox.DisplayName: Ascended Nail
+	RadianceNailLarge.DisplayName: Ascended Nail
+	RadianceNailLarge2.DisplayName: Ascended Nail
+	RadianceOrb.DisplayName: Miniature Sun
+	RadianceBeam.DisplayName: Cleansing Ray
+	RadianceBeamSpawner.DisplayName: Cleansing Ray
+	RadianceLaserWallEffect.DisplayName: Pillar of Light
+	RadianceSpike.DisplayName: Dream Spike
+	RadianceNailScreenWrap.DisplayName: Ascended Nail
+	RadianceNailScreenWrap2.DisplayName: Ascended Nail
+	DestroyerLaserSpawner.DisplayName: ""
+	PlanteraStatic.DisplayName: my power
+	PlanteraOverlay.DisplayName: my power
+	PlanteraFlash.DisplayName: my power
+	PlanteraEyeBolt.DisplayName: my power
+	PlanteraEye.DisplayName: my power
+	PlanteraSpider.DisplayName: my power
+	PlanteraSoul.DisplayName: my power
+	PlanteraHead.DisplayName: my power
+	PlanteraChainBig.DisplayName: my power
+	PlanteraSkullBolt.DisplayName: my power
+	PlanteraSkull.DisplayName: my power
+	PlanteraNumeral.DisplayName: my power
+	PlanteraWord.DisplayName: my power
+	PlanteraGhost.DisplayName: my power
+	PlanteraGhostEye.DisplayName: my power
+	PlanteraBee.DisplayName: my power
+	PlanteraStinger.DisplayName: my power
+	PlanteraAvatar.DisplayName: my power
+	PlanteraAvatarBolt.DisplayName: my power
+	PlanteraFinalFormFlash.DisplayName: my power
+	PlanteraFinalFormFlash2.DisplayName: my power
+	PlanteraTelegraph.DisplayName: my power
+	PlanteraHead2.DisplayName: my power
+	PlanteraGun.DisplayName: my power
+	PlanteraSoulBomb.DisplayName: my power
+	PlanteraEyeBolt2.DisplayName: my power
+	PlanteraPhrase.DisplayName: my power
+	PlanteraTelegraph2.DisplayName: my power
+	PlanteraContactDamage.DisplayName: my power
+	PlanteraLaser.DisplayName: my power
+	PlanteraHeartChain.DisplayName: my power
+	GolemDebris.DisplayName: Debris
+	GolemFlash.DisplayName: ""
+	GolemMissile.DisplayName: Titan Missile
+	GolemMissileTelegraph.DisplayName: Titan Missile
+	GolemLaser.DisplayName: Giga Death Ray
+	GolemDebris2.DisplayName: Debris
+	GolemGiantFist.DisplayName: Golem Fist
+	GolemPillarBeam.DisplayName: ""
+	GolemMissileSmall.DisplayName: Titan Missile
+	GolemMissileTelegraphSmall.DisplayName: Titan Missile
+	GolemDeathRay.DisplayName: Giga Death Ray
+	GolemDelayedFireball.DisplayName: Fireball
+	GolemShockWaveTrail.DisplayName: Seismic Wave
+	GolemShockwave.DisplayName: Seismic Wave
+	GolemLaser2.DisplayName: Giga Death Ray
+	GolemLaser3.DisplayName: Giga Death Ray
+	GolemBigFireBall.DisplayName: Fireball
+	GolemSmallFireball.DisplayName: Fireball
+	SpinningCubeProjectile.DisplayName: Spinning Cube Projectile
+	RadianceTitleCard.DisplayName: ""
+	FrigidProjectile.DisplayName: Cold Star
+	FrigidTeleport.DisplayName: ""
+	FrigidCopyProjectile.DisplayName: Frigid Apparition
+	FrigidShotgunIcicle.DisplayName: Dry Icicle
+	ProjTelegraph.DisplayName: ""
+	FrigidHomingProjectile.DisplayName: Frostball
+	FrigidShieldProjectile.DisplayName: Frostbite
+	FrigidGreatswordProj.DisplayName: Frosted Greatsword
+	DukeBolt.DisplayName: Chill Wave
+	DukeBolt2.DisplayName: Chill Wave
+	DukeWhirlShot.DisplayName: Whirl Shot
+	DukeOverlay.DisplayName: ""
+	DukeVoidShark.DisplayName: the foes
+	DukeIceSphere.DisplayName: Ice Sphere
+	DukeEmerald.DisplayName: Emerald that's a Gem
+	DukeSkull.DisplayName: Skulls that Burn
+	DukeFireball.DisplayName: Fireball
+	DukeCube.DisplayName: a maze
+	DukeRupture.DisplayName: Flare Eruption
+	DukeRuptureSpawner.DisplayName: Flare Eruption
+	DukeFireBolt.DisplayName: Scorching Wave
+	DukeFireBolt2.DisplayName: Scorching Wave
+	DukeBuck.DisplayName: the bucks
+	QueenSlimeBeamSpawner.DisplayName: ""
+	QueenSlimeBeamSpawner2.DisplayName: ""
+	DeerclopsBeamSpawner.DisplayName: ""
+	KingSlimeBeamSpawner.DisplayName: ""
+	ErchiusHorrorBeamSpawner.DisplayName: ""
+	CultistShadowBolt.DisplayName: Shadow Bolt
+	CultistStar.DisplayName: Pinwheel
+	CultistLaser.DisplayName: Seeking Laser
+	CultistLightningOrb.DisplayName: Anti Lightning Ritual
+	CultistLightning.DisplayName: Black Lightning
+	BlackLightning.DisplayName: Black Lightning
+	CultistCube.DisplayName: Magic Box
+	CultistCubeShard.DisplayName: Magic Box Shard
+	LunaticCultistFlash.DisplayName: ""
+	ForgottenEvilStar.DisplayName: Dark Matter
+	ForgottenEvilSquare.DisplayName: Dark Matter
+	ForgottenEvilHexagon.DisplayName: Dark Matter
+	ForgottenEvilOctagon.DisplayName: Dark Matter
+	ForgottenEvilTriangle.DisplayName: Dark Matter
+	CultistCubeLarge.DisplayName: Magic Box
+	ForgottenEvilTrail.DisplayName: Dark Matter
+	ForgottenEvilAsteroid.DisplayName: Dark Matter
+	ForgottenEvilSpikeBall.DisplayName: Dark Matter
+	ForgottenEvilSatellite.DisplayName: Dark Matter
+	ForgottenEvilComet.DisplayName: Dark Matter
+	ForgottenEvilTriangle2.DisplayName: Dark Matter
+	PrimordiusBeamSpawner.DisplayName: Unfathomable Heat
+	PrimordiusLaser.DisplayName: Unfathomable Heat
+	PrimordiusPortal.DisplayName: Infernal Portal
+	PrimordiusFireBall.DisplayName: Fire Bubble
+	PrimordiusMeteor.DisplayName: Meteor
+	PrimordiusDebris.DisplayName: Molten Rock
+	PrimordiusCorite.DisplayName: Corite
+	PrimordiusSroller.DisplayName: Sroller
+	MeasurelessMatterWeaver.DisplayName: Nebula Weaver
+	MeasurelessMatterWeaverSpawner.DisplayName: ""
+	MeasurelessMatterStrandSpawner.DisplayName: ""
+	MeasurelessMatterStrand.DisplayName: Alien DNA
+	MeasureLessMatterPiercer.DisplayName: Alien DNA
+	MeasurelessMatterNebulaFloater.DisplayName: Nebula Floater
+	MeasurelessMatterFlurrySpawner.DisplayName: ""
+	MeasureLessMatterBolt.DisplayName: Incomplete Cell
+	MeasureLessMatterPredictor.DisplayName: Predictor
+	MeasureLessMatterSpikeBall.DisplayName: Miracle Matter
+	MeasurelessMatterSigil.DisplayName: Otherworldly Sigil
+	MeasurelessMatterNebulaSpread.DisplayName: ""
+	MeasurelessMatterLaser.DisplayName: Raw Unfiltered Energy
+	MeasurelessMatterLaserSpawner.DisplayName: ""
+	MeasureLessMatterEvolutionBeast.DisplayName: Evolution Beast
+	MeasurelessMatterBlood.DisplayName: Alien Blood
+	ArthropodDebris.DisplayName: Lorentz Force
+	ArthropodFloater.DisplayName: Lorentz Force
+	ArthropodLaserSpawner.DisplayName: Data Laser
+	ArthropodVortexian.DisplayName: Alien Egg
+	ArthropodBeam.DisplayName: Data Laser
+	ArthropodLightning.DisplayName: False Lightning
+	ArthropodFloater2.DisplayName: Lorentz Force
+	PerfectEntropyStar.DisplayName: Living Star
+	PerfectEntropyPlanetoid.DisplayName: Polar Star
+	PerfectEntropyBeamSpawner.DisplayName: Astral Deathray
+	PerfectEntropyLaser.DisplayName: Astral Deathray
+	PerfectEntropyStar2.DisplayName: Living Star
+	PerfectEntropyLaser2.DisplayName: Astral Deathray
+	PerfectEntropyBeamSpawner2.DisplayName: Astral Deathray
+	PerfectEntropyBolt.DisplayName: Astral Comet
+	PerfectEntropyBomb.DisplayName: Volatile Cell
+	PerfectEntropyBlade.DisplayName: Astral Blade
+	PerfectEntropyTwinkle.DisplayName: Twinkle
+	TrueEyeofCthulhuBolt.DisplayName: Phantasmal Eye
+	TrueEyeofCthulhuSphere.DisplayName: Phantasmal Sphere
+	TrueEyeofCthulhuSphere2.DisplayName: Phantasmal Sphere
+	MoonBolt.DisplayName: Phantasmal Bolt
+	MoonBolt2.DisplayName: Phantasmal Bolt
+	MeasurelessMatterSigil2.DisplayName: Otherworldly Sigil
+	MoonLaser.DisplayName: Phantasmal Deathray
+	PrimordiusMeteor2.DisplayName: Meteor
+	PrimordiusMeteor3.DisplayName: Meteor
+	MoonBolt3.DisplayName: Phantasmal Bolt
+	MoonLordHandBeam.DisplayName: Astral Energy
+	MoonLordStar.DisplayName: Giga Star
+	MoonLordStarFragment.DisplayName: Star Fragment
+	MoonLordTwinkle.DisplayName: Twinkle
+	MoonLordSigil.DisplayName: Cosmic Sigil
+	MoonLordFloater.DisplayName: Cosmic Bubble
+	MoonLaser2.DisplayName: Phantasmal Death Ray
+	MoonLordBeamSpawner.DisplayName: Phantasmal Death Ray
+	MoonLordBlood.DisplayName: Cosmic Blood
+	MoonLaser3.DisplayName: Phantasmal Death Ray
+	MoonLordPlanet.DisplayName: Planet
+	MoonLordHomingShot.DisplayName: Magnet Sphere
+	MoonLordDebris.DisplayName: Asteroid
+	DesertPhantomFragment.DisplayName: Spirit Flame
+	DesertPhantomShockwave.DisplayName: Cursed Brick
+	DesertPhantomSquare.DisplayName: Cursed Brick
+	DesertPhantomSquare2.DisplayName: Cursed Brick
+	DesertPhantomSquare3.DisplayName: Cursed Brick
+	BeeKingBomb.DisplayName: Bee Bomb
+	BeeKingStinger.DisplayName: Stinger
+	BeeRoar.DisplayName: ""
+	BeeKingExplosion.DisplayName: Bee King Explosion
+	DreamMongerCyanProjectile.DisplayName: Hallowed Arrow
+	DreamMongerMagentaProjectile.DisplayName: Hallowed Arrow
+	DreamMongerLeftExplosion.DisplayName: Stomp
+	DreamMongerRightExplosion.DisplayName: Stomp
+	DreamMongerFlash.DisplayName: ""
+	DreamMongerMirrorDisplay.DisplayName: ""
+	DreamMongerBouncingProjectile.DisplayName: Dream Orb
+	DreamMongerBounceEffect.DisplayName: ""
+	DreamMongerEffectCircle.DisplayName: ""
+	DreamMongerEffectCircleRed.DisplayName: ""
+	DreamMongerMineField.DisplayName: Unstable Mine
+	DreamMongerStraightProjectile.DisplayName: Dream Orb
+	DreamMongerEffectFlash.DisplayName: ""
+	DreamMongerDeathraySpawner.DisplayName: ""
+	DreamMongerLaser.DisplayName: Dream Beam
+	DreamMongerWaveExplosion.DisplayName: Explosion
+	BigShadowGuide.DisplayName: Shadow Visage
+	DreamMongerBackgroundProjectile.DisplayName: Nightmare Apparition
+	DreamMongerBladeArrow.DisplayName: Dream Arrow
+	DreamMongerTwistBladeProj.DisplayName: Mirrortwist Blade
+	DreamMongerStaffFlash.DisplayName: Bright Flash
+	BlueTrafficConeExplosion.DisplayName: Blue Traffic Cone
+	BlueTrafficConeProj.DisplayName: Blue Traffic Cone
+	UltrasonicHaloExplosion.DisplayName: Ultrasonic Halo
+	UltrasonicHaloEffect.DisplayName: ""
+	UltrasonicSoundwave.DisplayName: Ultrasonic Soundwave
+	ChrisonmagicWatchProj.DisplayName: Chrisonmagic's Pocket Watch
+	MarbleFortressInfernoBolt.DisplayName: Inferno Bolt
+	MarbleFortressIcicle.DisplayName: Icicle
+	MarbleFortressIceSphere.DisplayName: Ice Sphere
+	MarbleFortressFireJavelin.DisplayName: Fire Javelin
+	MarbleFortressFrostJavelin.DisplayName: Frost Javelin
+	EctoBaneHostile.DisplayName: Spectral Bolt
+}
+
+Subworlds: {
+	GolemSubworld.DisplayName: Outer Ridge
+	GolemSubworld2.DisplayName: Outer Ridge
+	SolarSubworld.DisplayName: The Planet of Fire
+	NebulaSubworld.DisplayName: The Great Nebula
+	VortexSubworld.DisplayName: The Cosmic Wasteland
+	StardustSubworld.DisplayName: The Night Sky
+}
+
+Biomes: {
+	DeerclopsBiome: {
+		DisplayName: Deerclops Biome
+		TownNPCDialogueName: the Deerclops Biome
+	}
+
+	KingSlimeBiome: {
+		DisplayName: King Slime Biome
+		TownNPCDialogueName: the King Slime Biome
+	}
+
+	QueenSlimeBiome: {
+		DisplayName: Queen Slime Biome
+		TownNPCDialogueName: the Queen Slime Biome
+	}
+
+	RadianceBiome: {
+		DisplayName: Radiance Biome
+		TownNPCDialogueName: the Radiance Biome
+	}
+
+	SkeletronPrimeBiome: {
+		DisplayName: Skeletron Prime Biome
+		TownNPCDialogueName: the Skeletron Prime Biome
+	}
+
+	AbsoluteRadianceBiome: {
+		DisplayName: Absolute Radiance Biome
+		TownNPCDialogueName: the Absolute Radiance Biome
+	}
+
+	GolemBiome: {
+		DisplayName: Golem Biome
+		TownNPCDialogueName: the Golem Biome
+	}
+
+	DukeFishronBiome: {
+		DisplayName: Duke Fishron Biome
+		TownNPCDialogueName: the Duke Fishron Biome
+	}
+
+	AlienWorld: {
+		TownNPCDialogueName: the Alien World
+		DisplayName: Alien World
+	}
+
+	NebulaBiome: {
+		DisplayName: Nebula Biome
+		TownNPCDialogueName: the Nebula Biome
+	}
+
+	SolarBiome: {
+		DisplayName: Solar Biome
+		TownNPCDialogueName: the Solar Biome
+	}
+
+	StardustBiome: {
+		DisplayName: Stardust Biome
+		TownNPCDialogueName: the Stardust Biome
+	}
+
+	VortexBiome: {
+		DisplayName: Vortex Biome
+		TownNPCDialogueName: the Vortex Biome
+	}
+
+	MoonBiome: {
+		DisplayName: Moon Biome
+		TownNPCDialogueName: the Moon Biome
+	}
+
+	FalseHeaven: {
+		DisplayName: False Heaven
+		TownNPCDialogueName: the False Heaven
+	}
+
+	MoonLordBiome: {
+		DisplayName: Moon Lord Biome
+		TownNPCDialogueName: the Moon Lord Biome
+	}
+
+	DreamMongerBiome: {
+		DisplayName: Dream Monger Biome
+		TownNPCDialogueName: the Dream Monger Biome
+	}
+}
+
+Achievements: {
+	CursedModeCompleted: {
+		FriendlyName: Blessed
+		Description: Achieve ultimate victory over the Curse.
+	}
+}

@@ -1,0 +1,246 @@
+DefaultStealthStrikeTooltip: Stealth strikes deal increased damage and fly faster
+DefaultStealthStrikeTooltipDamage: Stealth strikes have +75% damage
+DefaultStealthStrikeTooltipVelocity: Stealth strikes have +75% velocity
+CrumblingStrikeTooltip: Stealth strikes deal increased damage and inflict crumbling for 5 seconds
+CrunchStrikeTooltip: Stealth strikes deal increased damage and inflict armor crunch for 5 seconds
+
+UI: {
+	IEoRNotice:
+		'''
+		NOTICE: Thrower Unification does not balance each of the modded classes merged together.
+		It has also been detected you are using both the Infernum Mode mod & Thorium Mod.
+		If you are seeking a more balanced unification, consider using the Infernal Eclipse of Ragnarok mod.
+		'''
+	HummusNotice:
+		'''
+		NOTICE: Thrower Unification does not balance each of the modded classes merged together.
+		It has also been detected you are using both the Calamity Mod & Thorium Mod.
+		If you are seeking a more balanced unification, consider using the Hummus' Calamity/Thorium Balancing mod.
+		'''
+}
+
+ThoriumStealthStrike: {
+	CactusNeedle: Stealth strikes throw out needles in a tight fan of 3
+	IcyTomahawk: Stealth strikes throw out 4 tomahawks of different speeds that last longer and pierce more
+	ZephyrRuin: Stealth strikes throw a stronger spear that always crits
+	ClockworkBomb: Stealth strikes create a larger field that lasts longer
+	SoulBomb: Stealth strikes release a burst of homing souls on detonation
+	PlayingCard: Stealth strikes throw 5 homing cards that are always explosive
+	Soulslasher: Stealth strikes will also aggressively home after hitting an enemy
+	WhiteDwarfCutter: During a stealth strike each hit creates Ivory flares that damage for 0.1% of the target's max HP
+	CaptainsPoignard: Stealth strikes throw a burst of 6 daggers and gives the player increased attack speed for 10 seconds
+	SoftServeSunderer: Stealth strikes summon a rain of cones from above the hit enemy
+	ShadeShuriken: Stealth strikes throw a larger, faster shuriken that has increased pierce
+	LodestoneJav: Stealth strikes cause earth to erupt from the struck enemy, inflicting sunder
+	ValadiumThrowingAxe: Stealth strikes on first hit will create a ring of axes to fly at the struck enemy
+	ChlorophyteTomahawk: Stealth strikes will last longer, have more pierce and generate homing spores throughout it's duration
+	DraculaFang: Stealth strikes will throw a fan of 4 fangs that life steal
+	WackWrench: Stealth strikes throw a larger wrench that will pass through blocks and stay in place after hitting an enemy
+	EnchantedKnife: Stealth strikes on hit will summon a star from the sky to strike hit enemies
+	GoblinWarSpear: Stealth strikes will shatter into 3-4 yew wood shrapnels on hit that will always gouge
+	MeteoriteClusterBomb: Stealth strikes will split into another group of itself, making for a recursive cluster
+	AquaiteKnife: Stealth strikes will carve high piercing waves outwards from hit enemies
+	SteelThrowingAxe: Stealth strikes throw a spread of 3 axes that will stun enemies on hit
+	DurasteelThrowingSpear: Stealth strikes throw a spread of 3 higher pierce spears that will stun enemies on hit
+	ShinobiSlicer: Stealth strikes on bounce release gel fragments that home onto nearby enemies
+	FireAxe:
+		'''
+		'Best to avoid chasms with this thing...'
+		Stealth strikes summon a spectral axe of flames to cleave hit enemies
+		'''
+	TerraKnife:
+		'''
+		Left click to quickly throw terra daggers
+		Right click to throw an impaling terra knife, which constantly damages your chosen target
+		Both the daggers and the knife are thrown on a stealth strike, with the knife summoning a barrage of slashes on hit
+		'''
+	GelGlove:
+		'''
+		Throws out a ball of gel that bounces against surfaces
+		Can be charged to increase in damage, bounce amount, and size
+		Stealth strikes shoot out shurikens at nearby enemies as they travel
+		'''
+	TidalWave:
+		'''
+		'Sweep away your foes with the fury of the tide...'
+		Throws out a massive aquatic shuriken that releases miniature waves
+		Stealth strikes spawn a damaging tidal wave that follows the shuriken and pulls enemies in
+		'''
+}
+
+GripsRework: {
+	PaddedRework:
+		'''
+		Thrower projectiles have a 10% chance to grant the player 15% thrower attack speed for 1 second upon death
+		This effect can only trigger once every 2 seconds
+		'''
+	BoneRework:
+		'''
+		Thrower projectiles have a 20% chance to grant the player 15% thrower attack speed for 1 second upon death
+		This effect can only trigger once every 2 seconds
+		'''
+	MagnetoRework:
+		'''
+		Thrower projectiles have a 20% chance to grant the player 15% thrower attack speed for 1 second upon death
+		This effect can only trigger once every 1.5 seconds
+		'''
+}
+
+DamageClasses: {
+	UnitedModdedThrower: {
+		DisplayName: {
+			0: thrower damage
+			1: rogue damage
+			2: malevolent damage
+			3: kinetic damage
+			Thrower: thrower damage
+			Rogue: rogue damage
+			Malevolent: malevolent damage
+			Kinetic: kinetic damage
+			thrower: thrower damage
+			rogue: rogue damage
+			malevolent: malevolent damage
+			kinetic: kinetic damage
+		}
+	}
+}
+
+CustomName: "{0} damage"
+ClassTag: -{0} Class-
+
+Configs: {
+	ThrowerModConfig: {
+		DisplayName: Thrower Mod Config
+
+		Headers: {
+			General: General
+			ColoredDamageType: Colored Damage Type
+			ClassTag: Class Tag Header
+			Experimental: Experimental
+		}
+
+		Vanilla: {
+			Label: Vanilla
+			Tooltip: Toggles the class unification merge for any mod that uses the vanilla thrower class damage. This mainly includes Thorium mod.
+		}
+
+		Calamity: {
+			Label: Calamity
+			Tooltip: Toggles the class unification merge for the Rogue class from Calamity mod.
+		}
+
+		Vitality: {
+			Label: Vitality
+			Tooltip: Toggles the class unification merge for the Blood Hunter class from Vitality mod.
+		}
+
+		SacredTools: {
+			Label: Shadows of Abaddon
+			Tooltip: Toggles the class unification merge for the Revenant class from Shadows of Abaddon.
+		}
+
+		TooltipOverride: {
+			Label: Class Name & Tooltips Override
+			Tooltip: Lets you adjust the name of the class to any of the supported classes, or the custom name set below.
+		}
+
+		R: {
+			Label: R
+			Tooltip: ""
+		}
+
+		G: {
+			Label: G
+			Tooltip: ""
+		}
+
+		B: {
+			Label: B
+			Tooltip: ""
+		}
+
+		StealthStrikes: {
+			Label: Stealth Strikes
+			Tooltip:
+				'''
+				Toggles the non-Calamity stealth strikes added by this mod.
+				This setting does nothing if Calamity is not enabled
+				'''
+		}
+
+		CustomTooltipOverride: {
+			Label: Custom Tooltip Override
+			Tooltip:
+				'''
+				Allows you to enter a custom name for the united thrower class.
+				Enter the deseried class name with proper capitalization (i.e. Thrower)
+				'''
+		}
+
+		ThoriumClassTag: {
+			Label: Class Tag
+			Tooltip: Toggles the class tag that appears at the top of an items tooltip.
+		}
+
+		TagR: {
+			Label: Tag R
+			Tooltip: ""
+		}
+
+		TagG: {
+			Label: Tag G
+			Tooltip: ""
+		}
+
+		TagB: {
+			Label: Tag B
+			Tooltip: ""
+		}
+
+		LegacyVanillaThrowerWeapons: {
+			Tooltip: Toggles the conversion of vanilla ranged weapons that used to be thrower to thrower.
+			Label: Legacy Vanilla Thrower Weapons
+		}
+
+		ConsumableWeaponConversion: {
+			Label: Consumable Weapon Conversion
+			Tooltip: Toggles whether Thrower weapons outside of Calamity and Vanilla are made non-consumable to match Calamity mod Rogue weapons
+		}
+	}
+
+	TooltipOverrideStyle: {
+		Tooltip: ""
+
+		Thrower: {
+			Label: Thrower
+			Tooltip: ""
+		}
+
+		Rogue: {
+			Label: Rogue
+			Tooltip: ""
+		}
+
+		Malevolent: {
+			Label: Malevolent
+			Tooltip: ""
+		}
+
+		Kinetic: {
+			Label: Kinetic
+			Tooltip: ""
+		}
+
+		Custom: {
+			Label: Custom
+			Tooltip: ""
+		}
+	}
+}
+
+Projectiles: {
+	FireAxeStealthPro.DisplayName: Fire Axe Stealth Pro
+	RogueSpectreBlast.DisplayName: Rogue Spectre Blast
+	TidalWaveWhirlpool.DisplayName: Tidal Wave Whirlpool
+	ShinobiGelStealthPro.DisplayName: Shinobi Gel Stealth Pro
+}

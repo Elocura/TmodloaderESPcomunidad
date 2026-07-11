@@ -1,0 +1,59 @@
+Items: {
+	TerrariumHelmet: {
+		DisplayName: Terrarium Helmet
+		Tooltip:
+			'''
+			'All will fall before your might...'
+			Maximum life increased by {0} & life regen increased by {1}
+			{2}% increased damage
+			Sight in the dark is improved
+			'''
+		SetBonus:
+			'''
+			The energies of Terraria will seek to protect you when you're in combat
+			Pressing the '{$Keybinds.ArmorAbility.DisplayName}' key will allow you to cycle and select a Class Focus
+			'''
+
+		Focus: {
+			Generic: {
+				Name: No Focus
+				Description: "{0}% increased damage"
+			}
+
+			Melee: {
+				Name: Melee Focus
+				Description: "{0}% increased damage reduction"
+			}
+
+			Ranged: {
+				Name: Ranged Focus
+				Description: "{0}% increased firing speed"
+			}
+
+			Magic: {
+				Name: Magic Focus
+				Description: Maximum mana increased by {0}
+			}
+
+			Summon: {
+				Name: Summon Focus
+				Description: Increases your max number of minions by {0} & decreases non-summon damage by {1}%
+			}
+
+			Throwing: {
+				Name: Throwing Focus
+				Description: Increases your maximum technique points by {0} & grants +110 stealth
+			}
+
+			Healer: {
+				Name: Radiant Focus
+				Description: Healing spells will heal an additional {0} life
+			}
+
+			Bard: {
+				Name: Symphonic Focus
+				Description: Increases empowerment duration by {0} {^0:second;seconds}
+			}
+		}
+	}
+}
