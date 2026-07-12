@@ -1,14 +1,8 @@
 ItemDescriptions: {
 	AstralBreastplate: +6 max inspiration and +4 bonus healing
 	AstralHelm: 12% increased inspiration regeneration rate
-	CelestialCarrier:
-		'''
-		Horizontal speed: 9.00
-		Acceleration multiplier: 2.5
-		Great vertical speed
-		Flight time: 180
-		Healing spells will heal an additional 4 life while wearing Celestial Armor
-		'''
+	CelestialCarrier: Healing spells will heal an additional 4 life while wearing Celestial Armor
+	ChampionWing: 10% increased damage
 	DemonshadeGreaves:
 		'''
 		Increases your maximum technique points by 2, maximum inspiration by 15, and bonus healing by 25 life
@@ -21,69 +15,44 @@ ItemDescriptions: {
 		35% increased healing, radiant casting and symphonic playing speed
 		55% increased inspiration regeneration rate and notes drop chance
 		'''
-	DemonBloodWings:
-		'''
-		Horizontal speed: 7.5
-		Acceleration multiplier: 1.0
-		Average vertical speed
-		Flight time: 170
-		Rapid life regeneration during Rage mode while wearing Demon Blood Armor
-		'''
-	DragonWings:
-		'''
-		Horizontal speed: 6.25
-		Acceleration multiplier: 1.0
-		Average vertical speed
-		Flight time: 100
-		Attacks inflict cursed inferno while wearing Dragon Armor
-		'''
-	DreadWings:
-		'''
-		Horizontal speed: 7.5
-		Acceleration multiplier: 1.0
-		Average vertical speed
-		Flight time: 170
-		Increased Rage mode damage multiplier while wearing Dread Armor
-		'''
-	FleshWings:
-		'''
-		Horizontal speed: 6.25
-		Acceleration multiplier: 1.0
-		Average vertical speed
-		Flight time: 100
-		Attacks have a chance to steal life while wearing Flesh Armor
-		'''
+	DemonBloodWings: Rapid life regeneration during Rage mode while wearing Demon Blood Armor
+	DragonWings: Attacks inflict cursed inferno while wearing Dragon Armor
+	DreadWings: Increased Rage mode damage multiplier while wearing Dread Armor
+	DridersGrace: Increases max number of minions by 1 when wearing Spider Armor
+	FleshWings: Attacks have a chance to steal life while wearing Flesh Armor
 	OmegaBlueSet:
 		'''
 		Increases maximum technique points by 2 and inspiration by 12
 		Healing spells will heal an additional 7 life
 		'''
 	OmegaBlueSetNoThrower: Increases maximum inspiration by 12 and bonus healing by 7 life
-	ShootingStarTurboTuba:
-		'''
-		Horizontal speed: 9.00
-		Acceleration multiplier: 2.5
-		Great vertical speed
-		Flight time: 180
-		15% increased inspiration regeneration rate while wearing Shooting Star Armor
-		'''
-	TitanWings:
-		'''
-		Horizontal speed: 7.5
-		Acceleration multiplier: 1.0
-		Average vertical speed
-		Flight time: 160
-		15% increased damage and special damage reduction while wearing Titan Armor
-		'''
-	WhiteDwarfThrusters:
-		'''
-		Horizontal speed: 9.00
-		Acceleration multiplier: 2.5
-		Great vertical speed
-		Flight time: 180
-		Throwing weapons take 50% longer to exhaust you while wearing White Dwarf Armor
-		'''
+	RelicOfConvergence: Does not trigger on-heal effects
+	ShootingStarTurboTuba: 15% increased inspiration regeneration rate while wearing Shooting Star Armor
+	TerrariumWings: Flight time is doubled when wearing Terrarium Armor
+	TitanWings: 15% increased damage and special damage reduction while wearing Titan Armor
+	WhiteDwarfThrusters: Throwing weapons take 50% longer to exhaust you while wearing White Dwarf Armor
 	WulfrumJacket: 25% increased empowerment range
+}
+
+WhisperingHood: {
+	DesertScourge: I hate sand, it's course, it's rough, it gets everywhere...
+	Crabulon: Everything returns to crab the same way they return to the earth...
+	HiveMind: Yet they couldn't agree on a way to defeat us...
+	PerforatorHive: Didn't think it was possible for a tumor to grow that big...
+	SlimeGod: By another day you mean never...
+	AquaticScourge: Ever wondered how it felt to swim on stomach acid?
+	Leviathan: There goes the big one... I wonder who even invited it here?
+	Anahita: All that presentation just to fall even harder...
+	CalamitasClone: Fraud.
+	PlaguebringerGoliath: The smell, it lingers...
+	AstrumAureus: Like with any spider, burn it to the ground...
+	AstrumDeus: For a "God", all it could show was a reason for its own loss...
+	Ravager: It really is just like its predecessor...
+	Providence: Quite surprised to still be able to see after all that...
+	Polterghast: Maybe all those souls should've clumped together into a more ideal form...
+	OldDuke: Ok, boomer.
+	DevourerofGods: Bold words from someone who is within these hands' range...
+	Yharon: Ok, but what if this is a fight I could win?
 }
 
 Items: {
@@ -92,6 +61,7 @@ Items: {
 		Tooltip:
 			'''
 			7% increased radiant damage and casting speed
+			15% decreased non-radiant damage
 			Healing spells will heal an additional 2 life
 			'''
 		SetBonus:
@@ -116,7 +86,9 @@ Items: {
 		DisplayName: "{$Mods.CalamityMod.Items.Weapons.Magic.AnahitasArpeggio.DisplayName}"
 		Tooltip:
 			'''
-			{$Mods.CalamityMod.Items.Weapons.Magic.AnahitasArpeggio.Tooltip}
+			Shoots bouncing treble clefs
+			Treble clefs return to orbit the cursor after some time
+			While orbiting, damage dealt is increased by how many times it bounced beforehand
 			Based off of the harp from "Forbidden Lullaby" by DM Dokuro
 			'''
 	}
@@ -127,7 +99,7 @@ Items: {
 			'''
 			Rapidly shoots out abyssal tentacles that curl up in random directions
 			Eventually settles and form damaging water currents
-			Inflicts crushing depth on hit
+			Inflicts [cbuff:CalamityMod/CrushDepth] on hit
 			"Drown in the deep, or rise from it... as Aquaius, the Endless Tide advised"
 			'''
 	}
@@ -155,6 +127,7 @@ Items: {
 		SetBonus:
 			'''
 			Bard Intergelactic, Bloodflare and God Slayer armor effects
+			Press {0} to make the asteroids more transparent
 			God Slayer dash uses Calamity's armor ability keybind
 			Alluring Song uses Thorium's armor ability keybind
 			Increases empowerment duration by 5 seconds
@@ -168,6 +141,7 @@ Items: {
 		Tooltip:
 			'''
 			15% increased radiant damage
+			35% decreased non-radiant damage
 			10% increased radiant critical strike chance
 			45% decreased mana cost
 			Massively increased life and mana regeneration
@@ -178,6 +152,7 @@ Items: {
 		SetBonus:
 			'''
 			Healer Intergelactic, Bloodflare and Silva armor effects
+			Press {0} to make the asteroids more transparent
 			40% increased radiant damage
 			20% increased radiant critical strike chance
 			16% increased healing and radiant casting speed
@@ -211,6 +186,7 @@ Items: {
 		Tooltip:
 			'''
 			15% increased radiant damage
+			35% decreased non-radiant damage
 			10% increased radiant critical strike chance
 			45% decreased mana cost
 			Massively increased life and mana regeneration
@@ -233,7 +209,16 @@ Items: {
 			'''
 			Shoots an assortment of reeds, bubbles and notes
 			Reeds and bubbles inflict irradiated
-			Notes inflict sulphuric poisoning and acid venom
+			Notes inflict [cbuff:CalamityMod/SulphuricPoisoning] and [cbuff:70]
+			'''
+	}
+
+	BigBangCymbals: {
+		DisplayName: Big Bang Cymbals
+		Tooltip:
+			'''
+			Hold <left> then release to charge up a big clang
+			Unleashes an inaccurate barrage of starts that expand outwards
 			'''
 	}
 
@@ -242,6 +227,7 @@ Items: {
 		Tooltip:
 			'''
 			15% increased radiant damage and critical strike chance
+			25% decreased non-radiant damage
 			+80 max life
 			Moderately increased life regeneration
 			Healing spells will heal an additional 12 life
@@ -318,11 +304,11 @@ Items: {
 	}
 
 	ChristmasCarol: {
-		DisplayName: Christmas Carol
+		DisplayName: Deck the Halls
 		Tooltip:
 			'''
 			Throws a big, very-decorated tambourine that returns to you
-			Three weak ice shards are also thrown alongside the tambourine
+			On hit, the tambourine will bounce back then freeze in the air to bombard the last hit target with ornaments
 			Successfully timing hits will steadily increase its empowerment level and damage
 			Successfully timing hits also causes the tambourine to maul enemies
 			{$Mods.ThoriumMod.Common.Tooltips.BigInstrument}
@@ -334,7 +320,7 @@ Items: {
 		Tooltip:
 			'''
 			Ignores 10 points of defense
-			Spins a cryonic scythe that inflict frostbite on hit
+			Spins a cryonic scythe that inflict [cbuff:324] on hit
 			Constantly spews out icicles that deal 50% damage
 			<right> to throw the scythe, which will curve on its way back
 			The scythe deals 30% more damage when thrown
@@ -349,7 +335,7 @@ Items: {
 			Ignores 20 points of defense
 			This scythe is swung directionally instead of spun
 			Shoots a barrage of acidic gas clouds per swing
-			Inflicts acid venom and sulphuric poisoning on hit
+			Inflicts [cbuff:70] and [cbuff:CalamityMod/SulphuricPoisoning] on hit
 			'''
 	}
 
@@ -368,6 +354,7 @@ Items: {
 		Tooltip:
 			'''
 			10% increased radiant damage
+			25% decreased non-radiant damage
 			5% increased healing speed
 			Healing spells will heal an additional 3 life
 			'''
@@ -393,8 +380,8 @@ Items: {
 			5% increased symphonic playing speed
 			Increases inspiration regeneration rate by 10%
 			Increases empowerment duration by 3 seconds
-			Symphonic damage inflicts frostburn and frostbite on hit
-			Nearby allies have a chance to inflict frostburn on hit
+			Symphonic damage inflicts [cbuff:44] and [cbuff:324] on hit
+			Nearby allies have a chance to inflict [cbuff:44] on hit
 			'''
 	}
 
@@ -418,8 +405,8 @@ Items: {
 			Shoots syringes full of Great Sand Shark blood
 			Syringes latch onto hit enemies or players and inject them
 			Doing so damages them continuously or heal if its a player
-			Inflicts crush depth and armor crunch on hit enemies
-			Inflicts long-lasting life recovery on healed allies
+			Inflicts [cbuff:CalamityMod/CrushDepth] and [cbuff:CalamityMod/ArmorCrunch] on hit enemies
+			Inflicts long-lasting [cbuff:ThoriumMod/LifeRecovery] on healed allies
 			Can be used to heal yourself
 			"Contains a small amount of Herobrine"
 			'''
@@ -434,7 +421,7 @@ Items: {
 			Every third swing, the scythe is spun around
 			When spun, it leaves behind a scorching maelstrom instead
 			The scorching maelstrom damages both players and enemies
-			Inflicts vulnerability hex on hit
+			Inflicts [cbuff:CalamityMod/VulnerabilityHex] on hit
 			This scythe is swung directionally instead of spun
 			[c/C61B40:'Are you sure you want to lose your life?]
 			[c/C61B40:From a witch who has caused you nothing but strife?']
@@ -447,7 +434,7 @@ Items: {
 			'''
 			Rapidly shoots a fiery toot that homes into to targets
 			Ignores 35 points of defense
-			Inflicts dragonfire on hit
+			Inflicts [cbuff:CalamityMod/Dragonfire] on hit
 			Every 25th attack, two larger versions of the weapon appear besides the screen to attack in a fixed direction
 			Successfully timing hits will steadily increase its empowerment level, damage, homing range and trumpet count
 			{$Mods.ThoriumMod.Common.Tooltips.BigInstrument}
@@ -471,7 +458,7 @@ Items: {
 		Tooltip:
 			'''
 			Spins a statigel scythe that emits red and purple energy on each blade
-			Hitting enemies with the purple energy inflicts shadowflame to them
+			Hitting enemies with the purple energy inflicts [cbuff:153] to them
 			Hitting enemies with the red energy massively boost health regeneration
 			<right> to throw the scythe, which will curve on its way back
 			The scythe deals 20% more damage when thrown
@@ -490,7 +477,7 @@ Items: {
 	}
 
 	ElectricQuarterstaff: {
-		DisplayName: Electric Quarterstaff
+		DisplayName: S-TSL: Electric Quarterstaff
 		Tooltip:
 			'''
 			Spins an electric tazer staff
@@ -511,7 +498,7 @@ Items: {
 			10% increased radiant casting speed
 			12% increased radiant critical strike chance
 			Healing spells will heal an additional 2 life
-			Empowers radiant attacks with elemental energy
+			Empowers radiant attacks with [cbuff:CalamityMod/ElementalMix]
 			Increases the strength of damage over time effects by 66%
 			"When light and dark clash, they harmonize to a final shape"
 			'''
@@ -531,7 +518,7 @@ Items: {
 		Tooltip:
 			'''
 			Shoots a stream of molten hot notes
-			Notes can either inflict tuned or dragonfire, or refund inspiration back
+			Notes can either inflict tuned or [cbuff:CalamityMod/Dragonfire], or refund inspiration back
 			Notes deal more damage against targets suffering from damage over time effects
 			<right> to summon an amplifier that shoots notes toward your mouse cursor
 			"WOOO!! FAAAAAAANTASYY WORLDDDDD!"
@@ -567,7 +554,7 @@ Items: {
 			'''
 			Ignores 15 points of defense
 			Unleashes a burning flurry of flames
-			Inflicts brimstone flames on hit
+			Inflicts [cbuff:CalamityMod/BrimstoneFlames] on hit
 			"Calling this a fire hazard would be an understatement"
 			'''
 	}
@@ -588,7 +575,7 @@ Items: {
 		Tooltip:
 			'''
 			Plays the iconic bell you all know and love
-			Inflicts vulnerability hex on hit and causes brimstone lightning to smite enemies
+			Inflicts [cbuff:CalamityMod/VulnerabilityHex] on hit and causes brimstone lightning to smite enemies
 			[c/C61B40:'A bell belonging to a legendary musician, if only he was still with us...']
 			'''
 	}
@@ -640,7 +627,7 @@ Items: {
 			Ignores 50 points of defense
 			This scythe is swung directionally instead of spun
 			Shoots a flaming wave that is accompanied by 2 homing flames
-			Inflicts crush depth and hellfire on hit
+			Inflicts [cbuff:CalamityMod/CrushDepth] and [cbuff:323] on hit
 			"A catalyst to a lethal chemical reaction"
 			'''
 	}
@@ -650,6 +637,7 @@ Items: {
 		Tooltip:
 			'''
 			12% increased radiant damage
+			27% decreased non-radiant damage
 			6% increased radiant critical strike chance
 			Healing spells will heal an additional 4 life
 			'''
@@ -681,6 +669,21 @@ Items: {
 			'''
 	}
 
+	HyphaeBaton: {
+		DisplayName: Hyphae Baton
+		Tooltip: Generate lingering spores everytime soul essence is gained
+	}
+
+	InfestedCastanet: {
+		DisplayName: C4$+@n3+
+		Tooltip:
+			'''
+			Dual wield two crab claws that create short-ranged clacks
+			Clacks are shot in an even spread of three
+			Based off of the castanets from "1nf3$+@+!0n" by DM Dokuro
+			'''
+	}
+
 	IntergelacticCloche: {
 		DisplayName: Intergelactic Cloche
 		Tooltip:
@@ -703,6 +706,7 @@ Items: {
 		Tooltip:
 			'''
 			11% increased radiant damage, critical strike chance and casting speed
+			33% decreased non-radiant damage
 			Healing spells will heal an additional 4 life
 			'''
 		SetBonus:
@@ -719,9 +723,22 @@ Items: {
 			'''
 			Shoots a bouncy, non-piercing, homing astral flame crystal
 			The crystal is accompanied by two astral lasers that bounce twice
+			<right> to summon 6 astral flame crystals at the cost of more inspiration
 			Inflicts astral infection on hit
 			"Sick riffs that travel through out the whole universe!"
 			Based off of the guitar solo from "Interstellar Stomper" by DM Dokuro
+			'''
+	}
+
+	IrradiatedKusarigama: {
+		DisplayName: Irradiated Kusarigama
+		Tooltip:
+			'''
+			This mace counts as a scythe
+			Performs a dual combo of throwing a mace core then a small scythe
+			Hits with the ball generate healing mist, with only 3 being allowed at once
+			Hits with the scythe or when it returns to the user creates homing bubbles
+			Inflicts [cbuff:70] and [cbuff:CalamityMod/SulphuricPoisoning] on hit
 			'''
 	}
 
@@ -769,13 +786,23 @@ Items: {
 			'''
 	}
 
+	OldDukesWisdom: {
+		DisplayName: Old Duke's Wisdom
+		Tooltip:
+			'''
+			Shoots a barrage of tooth balls that explode into teeth
+			Inflicts [cbuff:70] and [cbuff:CalamityMod/SulphuricPoisoning] on hit
+			Based off of the weird sounding brass from "Toxic Wisdom" by DM Dokuro
+			'''
+	}
+
 	OmnicidesLaw: {
 		DisplayName: Omnicide's Law
 		Tooltip:
 			'''
 			Ignores 40 points of defense
 			Shoots out skulls that curve in random directions before homing to an enemy
-			Inflicts the plague on hit
+			Inflicts [cbuff:CalamityMod/Plague] on hit
 			"All life has a beginning and an end, as Omnicide, the Life Defiler claims"
 			'''
 	}
@@ -804,7 +831,7 @@ Items: {
 			Ignores 50 points of defense
 			This scythe is swung directionally instead of spun
 			Shoots out a powerful slash that leave a trail of fire
-			Inflicts dragonfire on hit
+			Inflicts [cbuff:CalamityMod/Dragonfire] on hit
 			'''
 	}
 
@@ -816,6 +843,18 @@ Items: {
 			Shoots 3 brimstone rays that home on up to 3 different players and heal them
 			If there are less than 3 players, extra rays can heal the same players again
 			[c/C61B40:'As a thank you from the witch's brothers, they pledged their selflessness.']
+			'''
+	}
+
+	Procioplexon: {
+		DisplayName: Procioplexon
+		Tooltip:
+			'''
+			100 Armor Penetration
+			This scythe is swung directionally instead of spun
+			Sends abyssal tides every swing alongside abyssal slashes
+			Every third swing, the scythe is spun around
+			While spun, this waepon unleashes multiple relentless storms
 			'''
 	}
 
@@ -833,7 +872,12 @@ Items: {
 
 	ReturntoSludge: {
 		DisplayName: Return to Sludge
-		Tooltip: Charge to build up a goo bomb then release to shoot it
+		Tooltip:
+			'''
+			Hold <left> to build up a goo bomb then release to shoot it
+			The goo bomb deals more damage the longer it is charged
+			The goo bomb can deal up to 10x more damage maximum
+			'''
 	}
 
 	SARS: {
@@ -844,13 +888,13 @@ Items: {
 			Releases plague traces while spun
 			Releases even more when hitting enemies
 			Plague traces have weak tracking
-			Inflicts the plague on hit
+			Inflicts [cbuff:CalamityMod/Plague] on hit
 			"Please practice social distancing"
 			'''
 	}
 
 	SavingGrace: {
-		DisplayName: Saving Grace
+		DisplayName: Beyond Saving Grace
 		Tooltip:
 			'''
 			Rapidly shoots a healing helix of cosmic energy
@@ -870,11 +914,12 @@ Items: {
 	}
 
 	ScrapGuitar: {
-		DisplayName: Scrap Guitar
+		DisplayName: G-GSS: Scrap Guitar
 		Tooltip:
 			'''
 			Shoots slow electrical beams that bounce between enemies
 			Bounce count is increased by string instrument bounce stat
+			<right> to swing the guitar, tuning hit targets and restoring inspiration
 			"Plays Stairway to Heaven upon touching the exposed wires"
 			'''
 	}
@@ -891,7 +936,7 @@ Items: {
 	}
 
 	ScuffedKeytar: {
-		DisplayName: Scuffed Keytar
+		DisplayName: K-GSS: Scuffed Keytar
 		Tooltip:
 			'''
 			Ignores 5 points of defense
@@ -905,6 +950,7 @@ Items: {
 		Tooltip:
 			'''
 			12% increased radiant damage and critical strike chance
+			30% decreased non-radiant damage
 			Moderately increased life regeneration
 			+100 max life
 			Healing spells will heal an additional 15 life
@@ -938,7 +984,7 @@ Items: {
 		Tooltip:
 			'''
 			Rapidly shoots out brimstone beams that curve in random directions
-			Inflicts brimstone flames on hit
+			Inflicts [cbuff:CalamityMod/BrimstoneFlames] on hit
 			"A relic from the remains of Azafure, as Slag Fury, the First Flame intended"
 			'''
 	}
@@ -947,8 +993,8 @@ Items: {
 		DisplayName: Song of the Ancients
 		Tooltip:
 			'''
-			Shoots two elemental beams that move in a helix pattern before splitting
 			Ignores 15 points of defense
+			Shoots two elemental beams that move in a helix pattern before splitting
 			Successfully timing hits will steadily increase its empowerment level
 			{$Mods.ThoriumMod.Common.Tooltips.BigInstrument}
 			'''
@@ -958,9 +1004,12 @@ Items: {
 		DisplayName: Song of the Cosmos
 		Tooltip:
 			'''
+			Ignores 75 points of defense
 			Shoot five cosmic beams that move in a helix pattern
 			Can hit the same target multiple times
-			Ignores 75 points of defense
+			Dealing enough damage allows this weapon to be <right> to summon a small bang
+			Small bangs produce weaker stars that home to the closest enemy and deal double damage
+			While any small bang is active, inspiration cost is halved
 			"The very song that harmonizes the universe"
 			'''
 	}
@@ -969,16 +1018,31 @@ Items: {
 		DisplayName: Song of the Elements
 		Tooltip:
 			'''
+			Ignores 25 points of defense
 			Shoot three elemental beams that move in a helix pattern
 			Can hit the same target multiple times
-			Ignores 25 points of defense
 			"The very song that brings balance to many worlds"
 			'''
 	}
 
 	SpookyMonth: {
 		DisplayName: Spooky Month
-		Tooltip: Shoots a barrage of flaming pumpkin skulls that home into targets
+		Tooltip:
+			'''
+			Shoots a barrage of flaming pumpkin skulls that home into targets
+			Every now and then, shoots a singular giant skull that deals 7x more damage but does not home
+			'''
+	}
+
+	SoulSplicer: {
+		DisplayName: Soul Splicer
+		Tooltip:
+			'''
+			Ignores 10 points of defense
+			Rapidly spin a soul splicing scythe
+			Periodically releases apparitions of itself
+			Inflicts [cbuff:144] and [cbuff:323] on hit
+			'''
 	}
 
 	StarBirth: {
@@ -988,6 +1052,17 @@ Items: {
 			Summons an expanding nebula that heals every one-third of a second
 			Stars form in the nebula which homes in to players but heal half as much
 			Though, these homing stars cannot heal the caster
+			'''
+	}
+
+	StarCluster: {
+		DisplayName: Star Cluster
+		Tooltip:
+			'''
+			Hold <left> to slowly accumulate a cluster of stars
+			Release <left> to unleash them all at once in a barrage
+			Stars pierce infinitely but can only hit the same enemy once
+			The maximum amount of stars that can accumulate is the same as maximum inspiration
 			'''
 	}
 
@@ -1006,6 +1081,7 @@ Items: {
 		Tooltip:
 			'''
 			9% increased radiant damage and casting speed
+			27% decreased non-radiant damage
 			Healing spells will heal an additional 4 life
 			'''
 		SetBonus:
@@ -1063,6 +1139,7 @@ Items: {
 		Tooltip:
 			'''
 			10% increased radiant damage
+			30% decreased non-radiant damage
 			5% increased radiant critical strike chance
 			5% increased damage reduction
 			+20 max life
@@ -1081,7 +1158,7 @@ Items: {
 		Tooltip:
 			'''
 			Shoots out two rocks that collide in the cursor position
-			Upon colliding, it creates a medium-sized explosion that inflicts crush depth
+			Upon colliding, it creates a medium-sized explosion that inflicts [cbuff:CalamityMod/CrushDepth]
 			"Sponsored by Alfred Wegener"
 			'''
 	}
@@ -1092,8 +1169,8 @@ Items: {
 			'''
 			Ignores 40 points of defense
 			This scythe is swung directionally instead of spun
-			Shoots a miniature tidal wave every swing
-			Inflicts crushing depth on hit
+			Shoots a miniature tidal wave every swing that then splits after travelling a set distance
+			Inflicts [cbuff:CalamityMod/CrushDepth] on hit
 			'''
 	}
 
@@ -1149,6 +1226,17 @@ Items: {
 			'''
 	}
 
+	Trinity: {
+		DisplayName: Trinity
+		Tooltip:
+			'''
+			Spin a very fast triple scythe that hit targets more frequently
+			Hits with this weapon occasionally spawn three curving beams of astral fire
+			<right> to throw the scythe, which will curve on its way back
+			The scythe deals 30% more damage when thrown
+			'''
+	}
+
 	VictideAmmoniteHat: {
 		DisplayName: Victide Ammonite Hat
 		Tooltip: 5% increased symphonic damage and inspiration regeneration rate
@@ -1165,6 +1253,49 @@ Items: {
 			{$Mods.ThoriumMod.Common.Tooltips.BigInstrument}
 			"Rated 18+ for sax and violince"
 			Based off of the violin from "Blood Coagulant" by DM Dokuro ft. SixteenInMono
+			'''
+	}
+
+	Vivapollum: {
+		DisplayName: Vivapollum
+		Tooltip:
+			'''
+			Shoots a burst of abyssal bubbles which explode on hit inflicting life oppression
+			Running out of inspiration causes a short-lasting upward torrent of abyssal bubbles
+			Once triggered, it cannot happen again until the user fully recovers all inspiration
+			'''
+	}
+
+	VoidFaquirBiretta: {
+		DisplayName: Void Faquir Warpriest Biretta
+		Tooltip:
+			'''
+			+30% Radiant Damage
+			-35% Non-Radiant Damage
+			+15% Healing Speed
+			+8 Bonus Healing
+			<armorBonus>
+			'''
+		SetBonus:
+			'''
+			Increases void energy generated shortly after healing an ally or gaining soul essence
+			Void energy gained from healing allies slowly diminishes the longer you heal them
+			'''
+	}
+
+	VoidFaquirChapeau: {
+		DisplayName: Void Faquir Deathsinger Chapeau
+		Tooltip:
+			'''
+			+25% Symphonic Damage
+			+15% Symphonic Playing Speed
+			+15% Inspiration Regeneration Rate
+			<armorBonus>
+			'''
+		SetBonus:
+			'''
+			Increases void energy generated for each active empowerment
+			Increased even further the higher each empowerment level is
 			'''
 	}
 
@@ -1210,7 +1341,7 @@ Items: {
 			930 symphonic damage
 			Summons three supersonic speakers that hover beside and below you
 			The speakers will shoot burning beats that tracks to the closest enemy
-			Inflicts dragonfire and tunes enemies hit
+			Inflicts [cbuff:CalamityMod/Dragonfire] and tunes enemies hit
 			"We're ascending beyond the sound barrier with this one [i/s1:2701][i/s1:2701][i/s1:2701]"
 			'''
 	}
@@ -1221,10 +1352,14 @@ Projectiles: {
 	AcidicSaxBubble.DisplayName: "{$Mods.CalamityMod.Projectiles.Magic.AcidicSaxBubble.DisplayName}"
 	AcidicSaxMist.DisplayName: "{$Mods.CalamityMod.Projectiles.Magic.AcidicSaxMist.DisplayName}"
 	AnahitasArpeggioNote.DisplayName: "{$Mods.CalamityMod.Projectiles.Magic.AnahitasArpeggioNote.DisplayName}"
+	AnahitasArpeggioNote2.DisplayName: "{$Mods.CalamityMod.Projectiles.Magic.AnahitasArpeggioNote.DisplayName}"
 	AncientSong.DisplayName: Ancient Song
 	AquaiusAdvice.DisplayName: Aquaius' Advice
 	ArcticReinforcement.DisplayName: Arctic Reinforcement
 	ArcticReinforcement2.DisplayName: Arctic Reinforcement
+	AstralFlames.DisplayName: Astral Flames
+	BigBangCymbals.DisplayName: Big Bang Cymbals
+	BigBangStar.DisplayName: Big Bang Star
 	BloodflareRitual.DisplayName: Bloodflare Ritual
 	BloomingSaintessDevotion.DisplayName: Blooming Saintess' Devotion
 	BloomingSaintessDevotion2.DisplayName: Blooming Saintess' Flower
@@ -1236,9 +1371,12 @@ Projectiles: {
 	CherubimOmega.DisplayName: Cherubim Omega
 	CherubimRift.DisplayName: Cherubim Rift
 	CherubimSlash.DisplayName: Cherubim Slash
-	ChristmasCarol.DisplayName: Christmas Carol
+	ChristmasCarol.DisplayName: Deck the Halls
+	ChristmasCarolDecor.DisplayName: Christmas Decor
 	ColdShoulder.DisplayName: Cold Shoulder
 	ColdShoulderIcicle.DisplayName: Icicle
+	CosmicEncore.DisplayName: Cosmic Encore
+	CosmicEncoreStar.DisplayName: Cosmic Encore
 	CosmicSong.DisplayName: Cosmic Song
 	CottonMouth.DisplayName: Cotton Mouth
 	CottonMouthGas.DisplayName: Laughing Gas
@@ -1277,13 +1415,19 @@ Projectiles: {
 	HydrogenSulfideWave.DisplayName: Hydrogen Sulfide
 	HydrothermalEruption.DisplayName: Hydrothermal Eruption
 	HydrothermalOasis.DisplayName: Hydrothermal Oasis
+	HyphaeBaton.DisplayName: Hyphae Baton
+	HyphaeBatonSporeCloud.DisplayName: Hyphae Baton
 	IceCreamMachine.DisplayName: Ice Cream Machine
 	IceCube.DisplayName: Ice Cube
+	InfestedCastanet.DisplayName: C4$+@+n3+
 	InterstellarShredder.DisplayName: Interstellar Shredder
 	InterstellarShredder2.DisplayName: Interstellar Shredder
+	IrradiatedKusarigama.DisplayName: Irradiated Kusarigama
+	IrradiatedOasis.DisplayName: Irradiated Oasis
+	IrradiatedVortex.DisplayName: Irradiated Vortex
 	LostOasis.DisplayName: Lost Oasis
-	LuxorsPrayer.DisplayName: Luxor's Prayer
-	LuxorsSong.DisplayName: Luxor's Song
+	LuxorBard.DisplayName: Luxor's Song
+	LuxorHealer.DisplayName: Luxor's Cure
 	MelterAmp.DisplayName: "{$Mods.CalamityMod.Projectiles.Magic.MelterAmp.DisplayName}"
 	MelterNote1.DisplayName: "{$Mods.CalamityMod.Projectiles.Magic.MelterNote1.DisplayName}"
 	MelterNote2.DisplayName: "{$Mods.CalamityMod.Projectiles.Magic.MelterNote2.DisplayName}"
@@ -1292,17 +1436,24 @@ Projectiles: {
 	Noisebringer.DisplayName: Noisebringer
 	NoisebringerGoliath.DisplayName: Noisebringer Goliath
 	OathofSacrifice.DisplayName: Oath of Sacrifice
+	OldDukesWisdom.DisplayName: Old Dukes Wisdom
+	OldDukesWisdomTooth.DisplayName: Old Dukes Wisdom Tooth
 	OmnicidesLaw.DisplayName: Omnicide's Law
 	PhoenicianBeak.DisplayName: Phoenician Beak
 	PhoenicianBeakSlice.DisplayName: Phoenician Beak Slice
 	PlagueSwarmerMissile.DisplayName: Plague Swarmer
 	PlagueTrace.DisplayName: Plague Trace
 	PledgeofSelflessness.DisplayName: Pledge of Selflessness
+	Procioplexon.DisplayName: Procioplexon
+	ProcioplexonSlash.DisplayName: Procioplexon
+	ProcioplexonVortex.DisplayName: Procioplexon
+	ProcioplexonWave.DisplayName: Procioplexon
 	PurgedSoul.DisplayName: Purged Soul
 	SARS.DisplayName: S.A.R.S.
-	SavingGrace.DisplayName: Saving Grace
+	SavingGrace.DisplayName: Beyond Saving Grace
 	ScorchingMaelstrom.DisplayName: Scorching Maelstrom
 	ScrapGuitar.DisplayName: Scrap Guitar
+	ScrapGuitar2.DisplayName: Scrap Guitar
 	ScreamingClam.DisplayName: Screaming Clam
 	ScreamingClamScream.DisplayName: Screaming Clam
 	ScuffedKeytar.DisplayName: Scuffed Keytar
@@ -1311,9 +1462,13 @@ Projectiles: {
 	SingularityStar.DisplayName: Singularity
 	SlagFurysIntent.DisplayName: Slag Fury's Intent
 	SludgeBomb.DisplayName: Sludge Bomb
+	SoulSplicer.DisplayName: Soul Splicer
+	SoulSplicerApparition.DisplayName: Soul Splicer
 	SpookyMonth.DisplayName: Spooky Month
+	SpookyMonthBig.DisplayName: Spooky Month
 	StarBirth.DisplayName: Nebula
 	StarBirthStar.DisplayName: Newly Born Star
+	StarCluster.DisplayName: Star Cluster
 	Supercluster.DisplayName: Supercluster
 	SuperclusterStar.DisplayName: Supercluster
 	SymphonicExoMissile.DisplayName: Symphonic Exo Missile
@@ -1332,8 +1487,11 @@ Projectiles: {
 	ToxicQuarterNote.DisplayName: Toxic "{$ProjectileName.QuarterNote}"
 	ToxicTiedEightNote.DisplayName: Toxic "{$ProjectileName.TiedEightNote}"
 	Transfiguration.DisplayName: Transfiguration
+	Trinity.DisplayName: Trinity
 	Violince.DisplayName: Violince
 	ViolinceBow.DisplayName: Violince
+	Vivapollum.DisplayName: Vivapollum
+	VivapollumExplosion.DisplayName: Vivapollum
 	Whirlwind.DisplayName: Whirlwind
 	WhisperingLeaf.DisplayName: Whispering Leaf
 	WhisperingTrunk.DisplayName: Whispering Trunk
@@ -1413,6 +1571,35 @@ Configs: {
 		rogueThrowerMerge: {
 			Label: Merge Rogue and Thrower class
 			Tooltip: Automatically disabled when Ragnarok mod is installed
+		}
+
+		generalItemBalanceChanges: {
+			Label: General Item Balance Changes
+			Tooltip: Enables miscellaneous balance changes to Thorium items
+		}
+
+		showItemChanges: {
+			Label: Show Item Changes
+			Tooltip: Whether or not to display the "Is Modified By" tooltip on items changed by this mod
+		}
+
+		defenseDamage: {
+			Label: Defense Damage on Thorium enemies
+			Tooltip: Enables defense damage for Thorium enemies
+		}
+
+		convertItems: {
+			Label: Convert Calamity items to respective Thorium classes
+			Tooltip:
+				'''
+				Converts certain Calamity items into either a bard or healer item
+				Might rework respective items to work better with this change
+				Changed Items:
+				-Anahita's Arpeggio -> String Instrument, behavior also reworked
+				-Belching Saxophone -> Brass Instrument
+				-Face Melter -> Electric-String Instrument hybrid, behavior also reworked
+				-Relic of Convergence -> Healing Spell, base healing increased to keep up with other healing spells
+				'''
 		}
 
 		bard: {
