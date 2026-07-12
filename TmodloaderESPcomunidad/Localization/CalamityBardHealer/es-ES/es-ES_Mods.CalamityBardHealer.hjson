@@ -1,14 +1,8 @@
 ItemDescriptions: {
 	AstralBreastplate: +6 de inspiración máxima y +4 de curación adicional
 	AstralHelm: +12% a la velocidad de regeneración de inspiración
-	CelestialCarrier:
-		'''
-		Velocidad horizontal: 9.00  
-		Multiplicador de aceleración: 2.5  
-		Gran velocidad vertical  
-		Tiempo de vuelo: 180  
-		Los hechizos de curación restauran 4 de vida adicional mientras usas la armadura celestial
-		'''
+	CelestialCarrier: Los hechizos de curación restauran 4 de vida adicional mientras usas la armadura celestial
+	ChampionWing: 10% mas de daño
 	DemonshadeGreaves:
 		'''
 		Aumenta tus puntos de técnica máximos en 2, la inspiración máxima en 15 y la curación adicional en 25 de vida  
@@ -21,69 +15,44 @@ ItemDescriptions: {
 		+35% a la velocidad de lanzamiento radiante, curación y ejecución sinfónica  
 		+55% a la regeneración de inspiración y probabilidad de caída de notas
 		'''
-	DemonBloodWings:
-		'''
-		Velocidad horizontal: 7.5  
-		Multiplicador de aceleración: 1.0  
-		Velocidad vertical promedio  
-		Tiempo de vuelo: 170  
-		Regeneración rápida de vida durante el modo Furia mientras usas la armadura Sangre Demoníaca
-		'''
-	DragonWings:
-		'''
-		Velocidad horizontal: 6.25  
-		Multiplicador de aceleración: 1.0  
-		Velocidad vertical promedio  
-		Tiempo de vuelo: 100  
-		Los ataques infligen infierno maldito mientras usas la armadura de Dragón
-		'''
-	DreadWings:
-		'''
-		Velocidad horizontal: 7.5  
-		Multiplicador de aceleración: 1.0  
-		Velocidad vertical promedio  
-		Tiempo de vuelo: 170  
-		Multiplicador de daño aumentado en modo Furia mientras usas la armadura de Terror
-		'''
-	FleshWings:
-		'''
-		Velocidad horizontal: 6.25  
-		Multiplicador de aceleración: 1.0  
-		Velocidad vertical promedio  
-		Tiempo de vuelo: 100  
-		Los ataques tienen una probabilidad de robar vida mientras usas la armadura de Carne
-		'''
+	DemonBloodWings: Regeneración rápida de vida durante el modo Furia mientras usas la armadura Sangre Demoníaca
+	DragonWings: Los ataques infligen infierno maldito mientras usas la armadura de Dragón
+	DreadWings: Multiplicador de daño aumentado en modo Furia mientras usas la armadura de Terror
+	DridersGrace: Aumenta el número máximo de súbditos en 1 al usar la armadura de araña
+	FleshWings: Los ataques tienen una probabilidad de robar vida mientras usas la armadura de Carne
 	OmegaBlueSet:
 		'''
 		Aumenta tus puntos de técnica máximos en 2  
 		Aumenta la inspiración máxima en 12 y la curación adicional en 7 de vida
 		'''
-	// OmegaBlueSetNoThrower: Increases maximum inspiration by 12 and bonus healing by 7 life
-	ShootingStarTurboTuba:
-		'''
-		Velocidad horizontal: 9.00  
-		Multiplicador de aceleración: 2.5  
-		Gran velocidad vertical  
-		Tiempo de vuelo: 180  
-		+15% a la velocidad de regeneración de inspiración mientras usas la armadura Estrella Fugaz
-		'''
-	TitanWings:
-		'''
-		Velocidad horizontal: 7.5  
-		Multiplicador de aceleración: 1.0  
-		Velocidad vertical promedio  
-		Tiempo de vuelo: 160  
-		+15% de daño y reducción especial de daño mientras usas la armadura Titán
-		'''
-	WhiteDwarfThrusters:
-		'''
-		Velocidad horizontal: 9.00  
-		Multiplicador de aceleración: 2.5  
-		Gran velocidad vertical  
-		Tiempo de vuelo: 180  
-		Las armas arrojadizas tardan un 50% más en agotarte mientras usas la armadura de Enana Blanca
-		'''
+	OmegaBlueSetNoThrower: Aumenta la inspiración máxima en 12 y la curación adicional en 7 puntos de vida
+	RelicOfConvergence: No activa efectos de curación
+	ShootingStarTurboTuba: +15% a la velocidad de regeneración de inspiración mientras usas la armadura Estrella Fugaz
+	TerrariumWings: El tiempo de vuelo se duplica al usar la armadura Terrarium
+	TitanWings: +15% de daño y reducción especial de daño mientras usas la armadura Titán
+	WhiteDwarfThrusters: Las armas arrojadizas tardan un 50% más en agotarte mientras usas la armadura de Enana Blanca
 	WulfrumJacket: +25% de alcance de potenciaciones
+}
+
+WhisperingHood: {
+	DesertScourge: I hate sand, it's course, it's rough, it gets everywhere...
+	Crabulon: Everything returns to crab the same way they return to the earth...
+	HiveMind: Yet they couldn't agree on a way to defeat us...
+	PerforatorHive: Didn't think it was possible for a tumor to grow that big...
+	SlimeGod: By another day you mean never...
+	AquaticScourge: Ever wondered how it felt to swim on stomach acid?
+	Leviathan: There goes the big one... I wonder who even invited it here?
+	Anahita: All that presentation just to fall even harder...
+	CalamitasClone: Fraud.
+	PlaguebringerGoliath: The smell, it lingers...
+	AstrumAureus: Like with any spider, burn it to the ground...
+	AstrumDeus: For a "God", all it could show was a reason for its own loss...
+	Ravager: It really is just like its predecessor...
+	Providence: Quite surprised to still be able to see after all that...
+	Polterghast: Maybe all those souls should've clumped together into a more ideal form...
+	OldDuke: Ok, boomer.
+	DevourerofGods: Bold words from someone who is within these hands' range...
+	Yharon: Ok, but what if this is a fight I could win?
 }
 
 Items: {
@@ -92,6 +61,7 @@ Items: {
 		Tooltip:
 			'''
 			+7% de daño radiante y velocidad de lanzamiento
+			-15% de daño no radiante
 			Los hechizos curativos restauran 2 puntos de vida adicionales
 			'''
 		SetBonus:
@@ -116,7 +86,9 @@ Items: {
 		DisplayName: "{$Mods.CalamityMod.Items.Weapons.Magic.AnahitasArpeggio.DisplayName}"
 		Tooltip:
 			'''
-			{$Mods.CalamityMod.Items.Weapons.Magic.AnahitasArpeggio.Tooltip}
+			Disparos que rebotan en claves de sol
+			Las claves de sol vuelven a orbitar alrededor del cursor después de un tiempo
+			Mientras orbita, el daño infligido aumenta según la cantidad de veces que haya rebotado previamente
 			Basado en el arpa de "Forbidden Lullaby" por DM Dokuro
 			'''
 	}
@@ -127,7 +99,7 @@ Items: {
 			'''
 			Dispara rápidamente tentáculos abisales que se enrollan en direcciones aleatorias
 			Eventualmente se estabilizan y forman corrientes de agua dañinas
-			Inflige Aplastamiento por Profundidad al golpear
+			Inflige [cbuff:CalamityMod/CrushDepth] al golpear
 			"Ahógate en lo profundo, o asciende desde él... como aconsejó Aquaius, la Marea Infinita"
 			'''
 	}
@@ -155,7 +127,8 @@ Items: {
 		SetBonus:
 			'''
 			Efectos de la armadura de Bardo Intergaláctico, Bloodflare y God Slayer
-			El dash de God Slayer usa la tecla de habilidad de armadura de Calamity
+			Pulsa {0} para hacer que los asteroides sean más transparentes
+			El dash de God Slayer usa la tecla de 'habilidad de armadura' de Calamity
 			Canción Seductora usa la tecla de habilidad de Thorium
 			Aumenta la duración del empoderamiento en 5 segundos
 			Aumenta la regeneración de inspiración en un 20%
@@ -168,6 +141,7 @@ Items: {
 		Tooltip:
 			'''
 			+15% de daño radiante
+			-35% de daño no radiante
 			+10% de probabilidad de crítico radiante
 			-45% de costo de maná
 			Aumenta enormemente la regeneración de vida y maná
@@ -178,6 +152,7 @@ Items: {
 		SetBonus:
 			'''
 			Efectos de la armadura de Sanador Intergaláctico, Bloodflare y Silva
+			Pulsa {0} para hacer que los asteroides sean más transparentes
 			+40% de daño radiante
 			+20% de probabilidad de crítico radiante
 			+16% de velocidad de casteo radiante y de curación
@@ -211,6 +186,7 @@ Items: {
 		Tooltip:
 			'''
 			+15% de daño radiante
+			-35% de daño no radiante
 			+10% de probabilidad de crítico radiante
 			-45% de costo de maná
 			Aumenta enormemente la regeneración de vida y maná
@@ -233,7 +209,16 @@ Items: {
 			'''
 			Dispara una mezcla de juncos, burbujas y notas
 			Los juncos y burbujas infligen irradiación
-			Las notas envenenan con ácido y sulfuro
+			Las notas infligen [cbuff:CalamityMod/SulphuricPoisoning] y [cbuff:70]
+			'''
+	}
+
+	BigBangCymbals: {
+		DisplayName: Platillos Big Bang
+		Tooltip:
+			'''
+			Hold <left> then release to charge up a big clang
+			Unleashes an inaccurate barrage of starts that expand outwards
 			'''
 	}
 
@@ -242,6 +227,7 @@ Items: {
 		Tooltip:
 			'''
 			+15% de daño radiante y probabilidad crítica
+			-25% de daño no radiante
 			+80 de vida máxima
 			Aumenta moderadamente la regeneración de vida
 			Los hechizos curativos restauran 12 de vida adicional
@@ -318,11 +304,11 @@ Items: {
 	}
 
 	ChristmasCarol: {
-		DisplayName: Villancico navideño
+		DisplayName: Adornen los salones
 		Tooltip:
 			'''
 			Lanza una pandereta grande y decorada que regresa a ti
-			Tres débiles fragmentos de hielo se lanzan junto a la pandereta
+			Al ser golpeada, la pandereta rebotará y luego se congelará en el aire para bombardear con adornos al último objetivo alcanzado.
 			Golpear con ritmo preciso aumenta su nivel de potenciación y daño
 			Golpear con ritmo también hace que la pandereta destroce a los enemigos
 			{$Mods.ThoriumMod.Common.Tooltips.BigInstrument}
@@ -334,7 +320,7 @@ Items: {
 		Tooltip:
 			'''
 			Ignora 10 puntos de defensa
-			Gira una guadaña criónica que causa congelación al golpear
+			Gira una guadaña criónica que inflige [cbuff:324] al golpear
 			Lanza carámbanos constantemente que hacen el 50% del daño
 			<right> para lanzar la guadaña, que curvará en su regreso
 			La guadaña inflige 30% más daño cuando es lanzada
@@ -349,7 +335,7 @@ Items: {
 			Ignora 20 puntos de defensa
 			Esta guadaña se balancea direccionalmente en vez de girar
 			Lanza una ráfaga de nubes de gas ácido con cada golpe
-			Inflige veneno ácido y envenenamiento sulfúrico al golpear
+			Inflige [cbuff:70] y [cbuff:CalamityMod/SulphuricPoisoning] al golpear
 			'''
 	}
 
@@ -368,6 +354,7 @@ Items: {
 		Tooltip:
 			'''
 			+10% de daño radiante
+			-25% de daño no radiante
 			+5% de velocidad de curación
 			Los hechizos curativos restauran 3 puntos de vida adicionales
 			'''
@@ -393,8 +380,8 @@ Items: {
 			+5% de velocidad al tocar instrumentos
 			Aumenta la regeneración de inspiración en un 10%
 			Aumenta la duración de las potenciaciones en 3 segundos
-			El daño sinfónico inflige quemadura gélida y congelación
-			Los aliados cercanos tienen una probabilidad de infligir quemadura gélida al golpear
+			El daño sinfónico inflige [cbuff:44] y [cbuff:324]
+			Los aliados cercanos tienen una probabilidad de infligir [cbuff:44] al golpear
 			'''
 	}
 
@@ -418,8 +405,8 @@ Items: {
 			Dispara jeringas con sangre de Gran Tiburón de Arena
 			Las jeringas se adhieren a enemigos o jugadores y los inyectan
 			Esto les causa daño constante o los cura si es un jugador
-			Inflige profundidad aplastante y fractura de armadura a los enemigos
-			Otorga regeneración prolongada a los aliados curados
+			Inflige [cbuff:CalamityMod/CrushDepth] y [cbuff:CalamityMod/ArmorCrunch] a los enemigos
+			Otorga [cbuff:ThoriumMod/LifeRecovery] prolongada a los aliados curados
 			También puede usarse para curarte a ti mismo
 			"Contiene una pequeña cantidad de Herobrine"
 			'''
@@ -434,7 +421,7 @@ Items: {
 			Cada tercer golpe, la guadaña gira
 			Cuando gira, deja un torbellino abrasador en lugar del rastro
 			El torbellino abrasador daña tanto a jugadores como a enemigos
-			Inflige maldición de vulnerabilidad al golpear
+			Inflige [cbuff:CalamityMod/VulnerabilityHex] al golpear
 			Esta guadaña se balancea direccionalmente en vez de girar
 			[c/C61B40:¿Estás seguro de querer perder la vida?]
 			[c/C61B40:¿A manos de una bruja que solo te ha causado sufrimiento?]
@@ -447,7 +434,7 @@ Items: {
 			'''
 			Dispara rápidamente un estallido de fuego que persigue objetivos
 			Ignora 35 puntos de defensa
-			Inflige fuego de dragón al impactar
+			Inflige [cbuff:CalamityMod/Dragonfire] al impactar
 			Cada 25 ataques, dos versiones grandes del arma aparecen en los bordes de la pantalla para atacar en línea recta
 			Golpear con ritmo preciso aumenta su potenciación, daño, alcance de persecución y número de trompetas
 			{$Mods.ThoriumMod.Common.Tooltips.BigInstrument}
@@ -471,7 +458,7 @@ Items: {
 		Tooltip:
 			'''
 			Hace girar una guadaña de statigel que emite energía roja y púrpura por cada hoja
-			Golpear enemigos con la energía púrpura les inflige llama sombría
+			Golpear enemigos con la energía púrpura les inflige [cbuff:153]
 			Golpear enemigos con la energía roja mejora enormemente la regeneración de vida
 			<click derecho> lanza la guadaña, que curvará su trayectoria al regresar
 			La guadaña inflige 20% más de daño cuando es lanzada
@@ -490,7 +477,7 @@ Items: {
 	}
 
 	ElectricQuarterstaff: {
-		DisplayName: Bastón eléctrico extensible
+		DisplayName: S-TSL: Bastón eléctrico extensible
 		Tooltip:
 			'''
 			Gira un bastón eléctrico taser
@@ -511,7 +498,7 @@ Items: {
 			+10% de velocidad de lanzamiento radiante
 			+12% de probabilidad crítica radiante
 			Los hechizos curativos restauran 2 de vida adicional
-			Refuerza los ataques radiantes con energía elemental
+			Refuerza los ataques radiantes con [cbuff:CalamityMod/ElementalMix]
 			Aumenta un 66% la fuerza de los efectos de daño en el tiempo
 			"Cuando la luz y la oscuridad chocan, armonizan en una forma final"
 			'''
@@ -531,7 +518,7 @@ Items: {
 		Tooltip:
 			'''
 			Dispara una corriente de notas ardientes
-			Las notas pueden infligir sintonización, fuego dracónico o devolver inspiración
+			Las notas pueden infligir sintonización, [cbuff:CalamityMod/Dragonfire] o devolver inspiración
 			Las notas infligen más daño a enemigos que sufren daño por efectos persistentes
 			<click derecho> para invocar un amplificador que lanza notas hacia tu cursor
 			"¡¡¡WOOOO!! ¡¡¡MUUUNDO DE FANTASÍAAA!!!"
@@ -567,7 +554,7 @@ Items: {
 			'''
 			Ignora 15 puntos de defensa
 			Libera una ráfaga ardiente de llamas
-			Inflige llamas del azufre al golpear
+			Inflige [cbuff:CalamityMod/BrimstoneFlames] al golpear
 			"Llamarlo un riesgo de incendio sería quedarse corto"
 			'''
 	}
@@ -588,7 +575,7 @@ Items: {
 		Tooltip:
 			'''
 			Toca la campana icónica que todos conocen y aman
-			Inflige maldición de vulnerabilidad y convoca rayos del azufre sobre los enemigos
+			Inflige [cbuff:CalamityMod/VulnerabilityHex] y convoca rayos del azufre sobre los enemigos
 			[c/C61B40:'Una campana de un músico legendario... si tan solo siguiera con nosotros...']
 			'''
 	}
@@ -640,7 +627,7 @@ Items: {
 			Ignora 50 puntos de defensa
 			Esta guadaña se balancea direccionalmente en lugar de girar
 			Dispara una ola llameante acompañada de 2 llamas teledirigidas
-			Inflige profundidad aplastante y fuego infernal al impactar
+			Inflige [cbuff:CalamityMod/CrushDepth] y [cbuff:323] al impactar
 			"Un catalizador para una reacción química letal"
 			'''
 	}
@@ -650,6 +637,7 @@ Items: {
 		Tooltip:
 			'''
 			+12% de daño radiante
+			-27% de daño no radiante
 			+6% de probabilidad de crítico radiante
 			Los hechizos de curación restauran 4 puntos de vida adicionales
 			'''
@@ -681,6 +669,21 @@ Items: {
 			'''
 	}
 
+	HyphaeBaton: {
+		DisplayName: Batón de hifas
+		Tooltip: Genera esporas persistentes cada vez que se obtiene esencia de alma.
+	}
+
+	InfestedCastanet: {
+		DisplayName: C4$+@n3+
+		Tooltip:
+			'''
+			Empuña dos pinzas de cangrejo que producen chasquidos de corto alcance
+			Los disparos se realizan en una distribución uniforme de tres
+			Basado en las castañuelas de "1nf3$+@+!0n" por DM Dokuro
+			'''
+	}
+
 	IntergelacticCloche: {
 		DisplayName: Campana interestelar
 		Tooltip:
@@ -703,6 +706,7 @@ Items: {
 		Tooltip:
 			'''
 			+11% de daño radiante, probabilidad de crítico y velocidad de lanzamiento
+			-33% de daño no radiante
 			Los hechizos de curación restauran 4 puntos de vida adicionales
 			'''
 		SetBonus:
@@ -719,9 +723,22 @@ Items: {
 			'''
 			Dispara un cristal de llama astral teledirigido, sin perforación y que rebota
 			El cristal va acompañado de dos láseres astrales que rebotan dos veces
+			<right> para invocar 6 cristales de llama astral a costa de más inspiración
 			Inflige infección astral al golpear
 			"¡Riffs brutales que viajan por todo el universo!"
 			Basado en el solo de guitarra de "Interstellar Stomper" por DM Dokuro
+			'''
+	}
+
+	IrradiatedKusarigama: {
+		DisplayName: Kusarigama irradiada
+		Tooltip:
+			'''
+			Esta maza se considera una guadaña
+			Realiza un combo doble lanzando primero el núcleo de una maza y luego una pequeña guadaña
+			Los golpes con la pelota generan niebla curativa, permitiéndose solo 3 a la vez
+			Los golpes con la guadaña o cuando regresa al jguador crean burbujas teledirigidas
+			Inflige [cbuff:70] y [cbuff:CalamityMod/SulphuricPoisoning] al golpear
 			'''
 	}
 
@@ -769,13 +786,23 @@ Items: {
 			'''
 	}
 
+	OldDukesWisdom: {
+		DisplayName: La sabiduría del Viejo Duque
+		Tooltip:
+			'''
+			Dispara una ráfaga de bolas de dientes que explotan en dientes
+			Inflige [cbuff:70] y [cbuff:CalamityMod/SulphuricPoisoning] al golpear
+			Basado en el sonido extraño de los metales de "Toxic Wisdom" por DM Dokuro
+			'''
+	}
+
 	OmnicidesLaw: {
 		DisplayName: Ley del Omnicida
 		Tooltip:
 			'''
 			Ignora 40 puntos de defensa
 			Dispara calaveras que se curvan en direcciones aleatorias antes de buscar a un enemigo
-			Inflige peste al golpear
+			Inflige [cbuff:CalamityMod/Plague] al golpear
 			"Toda vida tiene un inicio y un fin, como afirma Omnicida, el Profanador de la Vida"
 			'''
 	}
@@ -804,7 +831,7 @@ Items: {
 			Ignora 50 puntos de defensa
 			Esta guadaña se balancea direccionalmente en lugar de girar
 			Lanza un tajo poderoso que deja un rastro de fuego
-			Inflige fuego de dragón al impactar
+			Inflige [cbuff:CalamityMod/Dragonfire] al impactar
 			'''
 	}
 
@@ -816,6 +843,18 @@ Items: {
 			Dispara 3 rayos de azufre que buscan hasta 3 jugadores diferentes y los curan
 			Si hay menos de 3 jugadores, los rayos extra curarán a los mismos jugadores otra vez
 			[c/C61B40:'Como agradecimiento, los hermanos de la bruja prometieron su desinterés.']
+			'''
+	}
+
+	Procioplexon: {
+		DisplayName: Procioplexon
+		Tooltip:
+			'''
+			100 penetración de armadura
+			Esta guadaña se balancea direccionalmente en lugar de girarla
+			Envía mareas abisales con cada golpe junto con cortes abisales
+			Cada tercer golpe, la guadaña se hace girar
+			Mientras giraba, esta arma desató múltiples tormentas implacables
 			'''
 	}
 
@@ -833,7 +872,12 @@ Items: {
 
 	ReturntoSludge: {
 		DisplayName: Regreso al lodo
-		Tooltip: Carga para preparar una bomba de baba y suéltala para dispararla
+		Tooltip: 
+			'''
+			Mantén pulsado <left> para cargar una bomba de baba y suéltala para dispararla
+			La bomba de baba inflige más daño cuanto más tiempo esté cargada
+			La bomba de baba puede infligir hasta 10 veces más daño máximo
+			'''
 	}
 
 	SARS: {
@@ -844,13 +888,13 @@ Items: {
 			Lanza rastros de peste mientras gira
 			Lanza aún más al golpear enemigos
 			Los rastros tienen seguimiento débil
-			Inflige peste al golpear
+			Inflige [cbuff:CalamityMod/Plague] al golpear
 			"Por favor, practica el distanciamiento social"
 			'''
 	}
 
 	SavingGrace: {
-		DisplayName: Gracia salvadora
+		DisplayName: Más allá de la gracia salvadora
 		Tooltip:
 			'''
 			Dispara rápidamente una hélice curativa de energía cósmica
@@ -870,11 +914,12 @@ Items: {
 	}
 
 	ScrapGuitar: {
-		DisplayName: Guitarra chatarra
+		DisplayName: G-GSS: Guitarra chatarra
 		Tooltip:
 			'''
 			Dispara rayos eléctricos lentos que rebotan entre enemigos
 			El número de rebotes aumenta según la estadística de rebote de instrumentos de cuerda
+			<right> para balancear la guitarra, afinando objetivos y restaurando la inspiración
 			"Toca Escalera al Cielo al tocar los cables pelados"
 			'''
 	}
@@ -891,7 +936,7 @@ Items: {
 	}
 
 	ScuffedKeytar: {
-		DisplayName: Keytar destrozado
+		DisplayName: K-GSS: Keytar destrozado
 		Tooltip:
 			'''
 			Ignora 5 puntos de defensa
@@ -905,6 +950,7 @@ Items: {
 		Tooltip:
 			'''
 			+12% de daño radiante y probabilidad de crítico
+			-30% de daño no radiante
 			Aumenta moderadamente la regeneración de vida
 			+100 de vida máxima
 			Los hechizos curativos restauran 15 de vida adicional
@@ -937,7 +983,7 @@ Items: {
 		Tooltip:
 			'''
 			Dispara rápidamente rayos de azufre que se curvan en direcciones aleatorias
-			Inflige llamas de azufre al impactar
+			Inflige [cbuff:CalamityMod/BrimstoneFlames] al impactar
 			"Una reliquia de los restos de Azafure, como la Furia de Escoria, la Primera Llama, lo quiso"
 			'''
 	}
@@ -946,8 +992,8 @@ Items: {
 		DisplayName: Canto de los Antiguos
 		Tooltip:
 			'''
-			Dispara dos rayos elementales que se mueven en patrón helicoidal antes de dividirse
 			Ignora 15 puntos de defensa
+			Dispara dos rayos elementales que se mueven en patrón helicoidal antes de dividirse
 			Cuando sincronizas los impactos con éxito, aumenta progresivamente su nivel de poder
 			{$Mods.ThoriumMod.Common.Tooltips.BigInstrument}
 			'''
@@ -957,9 +1003,12 @@ Items: {
 		DisplayName: Canto del cosmos
 		Tooltip:
 			'''
+			Ignora 75 puntos de defensa
 			Dispara cinco rayos cósmicos que se mueven en patrón helicoidal
 			Pueden golpear varias veces al mismo objetivo
-			Ignora 75 puntos de defensa
+			Infligir suficiente daño permite usar <right>, para invocar una pequeña explosión
+			Las pequeñas explosiones producen estrellas más débiles que se dirigen al enemigo más cercano y causan el doble de daño
+			Mientras haya algún pequeño estallido activo, el coste de inspiración se reduce a la mitad
 			"La canción que armoniza el universo"
 			'''
 	}
@@ -968,16 +1017,31 @@ Items: {
 		DisplayName: Canto de los elementos
 		Tooltip:
 			'''
+			Ignora 25 puntos de defensa
 			Dispara tres rayos elementales que se mueven en patrón helicoidal
 			Pueden golpear varias veces al mismo objetivo
-			Ignora 25 puntos de defensa
 			"La canción que trae equilibrio a muchos mundos"
 			'''
 	}
 
 	SpookyMonth: {
 		DisplayName: Mes espeluznante
-		Tooltip: Dispara una ráfaga de calaveras de calabaza llameantes que buscan enemigos
+		Tooltip:
+			'''
+			Dispara una ráfaga de calaveras de calabaza llameantes que buscan enemigos
+			De vez en cuando, dispara una única calavera gigante que inflige 7 veces más daño, pero no se dirige al objetivo
+			'''
+	}
+
+	SoulSplicer: {
+		DisplayName: Empalmador de almas
+		Tooltip:
+			'''
+			Ignora 10 puntos de defensa
+			Gira rápidamente una guadaña que corta almas
+			Periódicamente libera apariciones de sí mismo
+			Inflige [cbuff:144] y [cbuff:323] al golpear
+			'''
 	}
 
 	StarBirth: {
@@ -987,6 +1051,17 @@ Items: {
 			Invoca una nebulosa en expansión que cura cada tercio de segundo
 			Se forman estrellas en la nebulosa que buscan a los jugadores, pero curan la mitad
 			Estas estrellas no pueden curar al invocador
+			'''
+	}
+
+	StarCluster: {
+		DisplayName: Cúmulo estelar
+		Tooltip:
+			'''
+			Mantén pulsado <left> para acumular lentamente un cúmulo de estrellas.
+			Suelta <left> para liberarlos todos a la vez en una ráfaga
+			Las estrellas atraviesan infinitamente, pero solo pueden golpear al mismo enemigo una vez
+			La cantidad máxima de estrellas que se pueden acumular es la misma que la inspiración máxima
 			'''
 	}
 
@@ -1005,6 +1080,7 @@ Items: {
 		Tooltip:
 			'''
 			+9% de daño radiante y velocidad de lanzamiento
+			-27% de daño no radiante
 			Los hechizos curativos restauran 4 de vida adicional
 			'''
 		SetBonus:
@@ -1062,6 +1138,7 @@ Items: {
 		Tooltip:
 			'''
 			+10% de daño radiante
+			-30% de daño no radiante
 			+5% de probabilidad crítica radiante
 			+5% de reducción de daño
 			+20 de vida máxima
@@ -1080,7 +1157,7 @@ Items: {
 		Tooltip:
 			'''
 			Dispara dos rocas que colisionan en la posición del cursor
-			Al chocar, crean una explosión mediana que inflige presión abisal
+			Al chocar, crean una explosión mediana que inflige [cbuff:CalamityMod/CrushDepth]
 			"Patrocinado por Alfred Wegener"
 			'''
 	}
@@ -1092,7 +1169,7 @@ Items: {
 			Ignora 40 puntos de defensa
 			Esta guadaña se balancea direccionalmente en lugar de girar
 			Dispara una pequeña ola de marea con cada golpe
-			Inflige presión abisal al impactar
+			Inflige [cbuff:CalamityMod/CrushDepth] al impactar
 			'''
 	}
 
@@ -1209,7 +1286,7 @@ Items: {
 			930 de daño sinfónico
 			Invoca tres altavoces supersónicos que flotan a tu lado y debajo de ti
 			Disparan ritmos ardientes que rastrean al enemigo más cercano
-			Inflige fuego de dragón y afina a los enemigos golpeados
+			Inflige [cbuff:CalamityMod/Dragonfire] y afina a los enemigos golpeados
 			"Estamos rompiendo la barrera del sonido con esta joyita [i/s1:2701][i/s1:2701][i/s1:2701]"
 			'''
 	}
@@ -1381,7 +1458,7 @@ FargoEnchantments: {
 		'''
 	BloodflareEnchant:
 		'''
-		Pulsa la tecla de 'Habilidad de Armadura' para usar la mitad de tu vida y crear un ritual curativo que sana a los aliados igual a la curación extra
+		Pulsa la tecla de 'habilidad de armadura' para usar la mitad de tu vida y crear un ritual curativo que sana a los aliados igual a la curación extra
 		Solo se puede tener un ritual activo a la vez, y esta habilidad no tiene recarga, pero si se usa en exceso, te mata
 		Al hacerlo también obtienes el beneficio de Canción Seductora por 5 segundos
 		Canción Seductora aumenta la regeneración de inspiración y el alcance de empoderamiento en un 50%, y extiende la duración del empoderamiento en 5 segundos
@@ -1402,7 +1479,7 @@ FargoEnchantments: {
 
 Configs: {
 	BalanceConfig: {
-		DisplayName: Configuración de Balance
+		DisplayName: Configuración de balance
 
 		expensiveDraedonsForge: {
 			Label: Forja de Draedon costosa
