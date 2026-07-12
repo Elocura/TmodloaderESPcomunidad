@@ -979,12 +979,12 @@ Items: {
 	}
 
 	SlagFurysIntent: {
-		DisplayName: Intención de la furia de Escoria
+		DisplayName: Intención de la furia de escoria
 		Tooltip:
 			'''
 			Dispara rápidamente rayos de azufre que se curvan en direcciones aleatorias
 			Inflige [cbuff:CalamityMod/BrimstoneFlames] al impactar
-			"Una reliquia de los restos de Azafure, como la Furia de Escoria, la Primera Llama, lo quiso"
+			"Una reliquia de los restos de Azafure, como la Furia de escoria, la Primera Llama, lo quiso"
 			'''
 	}
 
@@ -1168,7 +1168,7 @@ Items: {
 			'''
 			Ignora 40 puntos de defensa
 			Esta guadaña se balancea direccionalmente en lugar de girar
-			Dispara una pequeña ola de marea con cada golpe
+			Dispara una pequeña ola de marea con cada balanceo, que luego se divide después de recorrer una distancia determinada
 			Inflige [cbuff:CalamityMod/CrushDepth] al impactar
 			'''
 	}
@@ -1225,6 +1225,17 @@ Items: {
 			'''
 	}
 
+	Trinity: {
+		DisplayName: Trinidad
+		Tooltip:
+			'''
+			Gira una guadaña triple muy rápida que golpea los objetivos con mayor frecuencia
+			Los impactos con esta arma generan ocasionalmente tres haces curvos de fuego astral
+			<right> para lanzar la guadaña, que se curvará en su camino de regreso
+			La guadaña inflige un 30% más de daño al ser lanzada
+			'''
+	}
+
 	VictideAmmoniteHat: {
 		DisplayName: Sombrero ammonite de Victide
 		Tooltip: +5% de daño sinfónico y velocidad de regeneración de inspiración
@@ -1241,6 +1252,49 @@ Items: {
 			{$Mods.ThoriumMod.Common.Tooltips.BigInstrument}
 			"Clasificado +18 por sax y violíncia"
 			Basado en el violín de "Blood Coagulant" por DM Dokuro ft. SixteenInMono
+			'''
+	}
+
+	Vivapollum: {
+		DisplayName: Vivapollum
+		Tooltip:
+			'''
+			Dispara una ráfaga de burbujas abisales que explotan al impactar, infligiendo opresión vital
+			La falta de inspiración provoca un torrente ascendente y efímero de burbujas abisales
+			Una vez activado, no puede volver a ocurrir hasta que el usuario recupere por completo toda su inspiración
+			'''
+	}
+
+	VoidFaquirBiretta: {
+		DisplayName: Birreta del Sacerdote de guerra del Faquir del vacío
+		Tooltip:
+			'''
+			+30% de daño radiante
+			-35% de daño no radiante
+			+15% de velocidad de curación
+			+8 de curación adicional
+			<armorBonus>
+			'''
+		SetBonus:
+			'''
+			Aumenta la energía del vacío generada poco después de curar a un aliado o ganar esencia de alma
+			La energía del vacío obtenida al curar a los aliados disminuye lentamente cuanto más tiempo los cures
+			'''
+	}
+
+	VoidFaquirChapeau: {
+		DisplayName: Chapeau del Canto de muerte del Faquir del vacío
+		Tooltip:
+			'''
+			+25% de daño sinfónico
+			+15% velocidad de ejecución sinfónica
+			+15% de regeneración de inspiración
+			<armorBonus>
+			'''
+		SetBonus:
+			'''
+			Aumenta la energía del vacío generada por cada activación
+			Aumenta aún más cuanto mayor sea cada nivel de empoderamiento
 			'''
 	}
 
@@ -1297,10 +1351,14 @@ Projectiles: {
 	AcidicSaxBubble.DisplayName: "{$Mods.CalamityMod.Projectiles.Magic.AcidicSaxBubble.DisplayName}"
 	AcidicSaxMist.DisplayName: "{$Mods.CalamityMod.Projectiles.Magic.AcidicSaxMist.DisplayName}"
 	AnahitasArpeggioNote.DisplayName: "{$Mods.CalamityMod.Projectiles.Magic.AnahitasArpeggioNote.DisplayName}"
+	AnahitasArpeggioNote2.DisplayName: "{$Mods.CalamityMod.Projectiles.Magic.AnahitasArpeggioNote.DisplayName}"
 	AncientSong.DisplayName: Canción Antigua
 	AquaiusAdvice.DisplayName: Consejo de Aquaius
 	ArcticReinforcement.DisplayName: Refuerzo ártico
 	ArcticReinforcement2.DisplayName: Refuerzo ártico
+	AstralFlames.DisplayName: Llamas astrales
+	BigBangCymbals.DisplayName: Platillos Big Bang
+	BigBangStar.DisplayName: Estrella Big Bang
 	BloodflareRitual.DisplayName: Ritual Bloodflare
 	BloomingSaintessDevotion.DisplayName: Devoción de la Santa floreciente
 	BloomingSaintessDevotion2.DisplayName: Flor de la Santa floreciente
@@ -1312,9 +1370,12 @@ Projectiles: {
 	CherubimOmega.DisplayName: Querubín Omega
 	CherubimRift.DisplayName: Fisura de Querubín
 	CherubimSlash.DisplayName: Corte de Querubín
-	ChristmasCarol.DisplayName: Villancico
+	ChristmasCarol.DisplayName: Adornen los salones
+	ChristmasCarolDecor.DisplayName: Decoración navideña
 	ColdShoulder.DisplayName: Desaire gélido
 	ColdShoulderIcicle.DisplayName: Carámbano
+	CosmicEncore.DisplayName: Corazones cósmicos
+	CosmicEncoreStar.DisplayName: Corazones cósmicos
 	CosmicSong.DisplayName: Canción Cósmica
 	CottonMouth.DisplayName: Boca de algodón
 	CottonMouthGas.DisplayName: Gas de la risa
@@ -1353,13 +1414,19 @@ Projectiles: {
 	HydrogenSulfideWave.DisplayName: Sulfuro de hidrógeno
 	HydrothermalEruption.DisplayName: Erupción hidrotermal
 	HydrothermalOasis.DisplayName: Oasis hidrotermal
+	HyphaeBaton.DisplayName: Batón de hifas
+	HyphaeBatonSporeCloud.DisplayName: Batón de hifas
 	IceCreamMachine.DisplayName: Máquina de helado
 	IceCube.DisplayName: Cubo de hielo
+	InfestedCastanet.DisplayName: C4$+@+n3+
 	InterstellarShredder.DisplayName: Triturador interestelar
 	InterstellarShredder2.DisplayName: Triturador interestelar
+	IrradiatedKusarigama.DisplayName: Kusarigama irradiada
+	IrradiatedOasis.DisplayName: Oasis irradiado
+	IrradiatedVortex.DisplayName: Vórtice irradiado
 	LostOasis.DisplayName: Oasis perdido
-	LuxorsPrayer.DisplayName: Oración de Luxor
-	LuxorsSong.DisplayName: Canción de Luxor
+	LuxorBard.DisplayName: Canción de Luxor
+	LuxorHealer.DisplayName: La cura de Luxor
 	MelterAmp.DisplayName: "{$Mods.CalamityMod.Projectiles.Magic.MelterAmp.DisplayName}"
 	MelterNote1.DisplayName: "{$Mods.CalamityMod.Projectiles.Magic.MelterNote1.DisplayName}"
 	MelterNote2.DisplayName: "{$Mods.CalamityMod.Projectiles.Magic.MelterNote2.DisplayName}"
@@ -1368,17 +1435,24 @@ Projectiles: {
 	Noisebringer.DisplayName: Portador del ruido
 	NoisebringerGoliath.DisplayName: Goliat del ruido
 	OathofSacrifice.DisplayName: Juramento de sacrificio
+	OldDukesWisdom.DisplayName: Sabiduría del Viejos Duques
+	OldDukesWisdomTooth.DisplayName: Muela del juicio del Viejo Duque
 	OmnicidesLaw.DisplayName: Ley del Omnicida
 	PhoenicianBeak.DisplayName: Pico fenicio
 	PhoenicianBeakSlice.DisplayName: Corte del pico fenicio
 	PlagueSwarmerMissile.DisplayName: Enjambre de la plaga
 	PlagueTrace.DisplayName: Rastro de plaga
 	PledgeofSelflessness.DisplayName: Promesa de desinterés
+	Procioplexon.DisplayName: Procioplexon
+	ProcioplexonSlash.DisplayName: Procioplexon
+	ProcioplexonVortex.DisplayName: Procioplexon
+	ProcioplexonWave.DisplayName: Procioplexon
 	PurgedSoul.DisplayName: Alma purgada
 	SARS.DisplayName: S.A.R.S.
-	SavingGrace.DisplayName: Gracia salvadora
+	SavingGrace.DisplayName: Más allá de la gracia salvadora
 	ScorchingMaelstrom.DisplayName: Torbellino abrasador
 	ScrapGuitar.DisplayName: Guitarra chatarra
+	ScrapGuitar2.DisplayName: Guitarra chatarra
 	ScreamingClam.DisplayName: Almeja gritona
 	ScreamingClamScream.DisplayName: Almeja gritona
 	ScuffedKeytar.DisplayName: Keytar Destrozado
@@ -1387,9 +1461,13 @@ Projectiles: {
 	SingularityStar.DisplayName: Estrella de singularidad
 	SlagFurysIntent.DisplayName: Intención de la furia de escoria
 	SludgeBomb.DisplayName: Bomba de lodo
+	SoulSplicer.DisplayName: Empalmador de almas
+	SoulSplicerApparition.DisplayName: Empalmador de almas
 	SpookyMonth.DisplayName: Mes espeluznante
+	SpookyMonthBig.DisplayName: Mes espeluznante
 	StarBirth.DisplayName: Nébula
 	StarBirthStar.DisplayName: Estrella recién nacida
+	StarCluster.DisplayName: Cúmulo estelar
 	Supercluster.DisplayName: Supercúmulo
 	SuperclusterStar.DisplayName: Estrella del supercúmulo
 	SymphonicExoMissile.DisplayName: Misil Exo sinfónico
@@ -1408,8 +1486,11 @@ Projectiles: {
 	ToxicQuarterNote.DisplayName: Toxic "{$ProjectileName.QuarterNote}"
 	ToxicTiedEightNote.DisplayName: Toxic "{$ProjectileName.TiedEightNote}"
 	Transfiguration.DisplayName: Transfiguración
+	Trinity.DisplayName: Trinidad
 	Violince.DisplayName: Violencia
 	ViolinceBow.DisplayName: Violencia
+	Vivapollum.DisplayName: Vivapollum
+	VivapollumExplosion.DisplayName: Vivapollum
 	Whirlwind.DisplayName: Torbellino
 	WhisperingLeaf.DisplayName: Hoja Susurrante
 	WhisperingTrunk.DisplayName: Tronco Susurrante
@@ -1489,6 +1570,35 @@ Configs: {
 		rogueThrowerMerge: {
 			Label: Fusionar clases Pícaro y Lanzador
 			Tooltip: Se desactiva automáticamente si el mod Ragnarok está instalado
+		}
+
+		generalItemBalanceChanges: {
+			Label: Cambios en el equilibrio general de los objetos
+			Tooltip: Permite realizar cambios de equilibrio en diversos objetos de Thorium
+		}
+
+		showItemChanges: {
+			Label: Mostrar cambios en el objeto
+			Tooltip: Si se debe mostrar o no la información emergente "Is Modified By"/"Modificado por" en los objetos modificados por este mod
+		}
+
+		defenseDamage: {
+			Label: Daño de defensa en enemigos de Thorium
+			Tooltip: Permite infligir daño de defensa a los enemigos de Thorium
+		}
+
+		convertItems: {
+			Label: Convierte los objetos del Calamity a las clases de Thorium correspondientes
+			Tooltip:
+				'''
+				Convierte ciertos objetos del Calamity en objetos de bardo o de sanador
+				Es posible que haya que modificar los objetos correspondientes para que funcionen mejor con este cambio
+				Objetos modificados:
+				-Arpegio de Anahita -> Instrumento de cuerda, comportamiento también reelaborado
+				-Saxofón eructador -> Instrumento de metal
+				-Derretidor de rostros -> Instrumento híbrido de cuerda eléctrica, comportamiento también reelaborado
+				-Reliquia de convergencia -> Hechizo de curación, la curación base aumenta para mantenerse al nivel de otros hechizos de curación
+				'''
 		}
 
 		bard: {
