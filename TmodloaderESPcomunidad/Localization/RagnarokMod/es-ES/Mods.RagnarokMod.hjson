@@ -1,373 +1,375 @@
 Buffs: {
 	AntarcticCreativityBuff: {
-		DisplayName: Antarctic Creativity
-		Description: The cold brings great inspiration
-		ItemTooltip: +15% inspiration regeneration rate and +10% increased symphonic playing speed
+		DisplayName: Creatividad antártica
+		Description: El frío es una gran fuente de inspiración
+		ItemTooltip: +15% de regeneración de inspiración y +10% de velocidad de interpretación sinfónica
 	}
 
 	AntarcticReinforcementBuff: {
-		DisplayName: Antarctic Reinforcement
-		Description: The cold protects you
-		ItemTooltip: +8 defense and +2 bonus healing
+		DisplayName: Refuerzo antártico
+		Description: El frio te protege
+		ItemTooltip: +8 de defensa y +2 de curación adicional
 	}
 
 	AntarcticExhaustionDebuff: {
-		DisplayName: Antarctic Exhaustion
-		Description: The cold settles into your bones
+		DisplayName: Agotamiento antártico
+		Description: El frío te cala hasta los huesos
 	}
 
 	GuardianHealerBeamBuff: {
-		DisplayName: Guardian Healer's Blessing
-		Description: You are under a profane blessing
-		ItemTooltip: +10% damage reduction and +5 hp/s life regen
+		DisplayName: Bendición del sanador guardián
+		Description: Estás bajo una bendición profana
+		ItemTooltip: +10% de reducción de daño y +5 hp/s de regeneración de vida
 	}
 
 	ElementalScytheCooldown: {
-		DisplayName: Elemental Reaper Cooldown
-		Description: Elemental Reaper is on cooldown!
+		DisplayName: Tiempo de enfriamiento del Segador elemental
+		Description: ¡El Segador elemental está en enfriamiento!
 	}
 
 	ScytheAirBuff: {
-		DisplayName: Blessing of the Air
-		Description: You always have a tailwind
-		ItemTooltip: +20% movement speed and wing time
+		DisplayName: Bendición del aire
+		Description: Siempre tienes el viento a favor
+		ItemTooltip: +20% de velocidad de movimiento y tiempo de vuelo
 	}
 
 	ScytheBrimstoneBuff: {
-		DisplayName: Blessing of the Brimstone
-		Description: Your enemies erupt into accursed flames
-		ItemTooltip: Inflict [cbuff:CalamityMod/BrimstoneFlames] on hit
+		DisplayName: La bendición del azufre
+		Description: Tus enemigos se convierten en llamas malditas
+		ItemTooltip: Inglinge [cbuff:CalamityMod/BrimstoneFlames] con cada golpe
 	}
 
 	ScytheEarthBuff: {
-		DisplayName: Blessing of the Earth
-		Description: The earth protects you
-		ItemTooltip: +10 defense
+		DisplayName: Bendición de la tierra
+		Description: La Tierra te protege
+		ItemTooltip: +10 de defensa
 	}
 
 	ScytheOasisBuff: {
-		DisplayName: Blessing of the Oasis
-		Description: You feel rejuvenated from the desert oasis
-		ItemTooltip: +15 hp/s life regen
+		DisplayName: La bendición del oasis
+		Description: Te sientes revitalizado gracias al oasis del desierto
+		ItemTooltip: +15 hp/s de regeneración de vida
 	}
 
 	ScytheSandBuff: {
-		DisplayName: Blessing of the Sand
-		Description: The sands strengthen you
-		ItemTooltip: +5% attack damage
+		DisplayName: La bendición de la arena
+		Description: La arena te da fuerzas
+		ItemTooltip: +5% de daño de ataqueack damage
 	}
 
 	ScytheWaterBuff: {
-		DisplayName: Blessing of the Water
-		Description: The water guides your hand
-		ItemTooltip: +5% all attack speed
+		DisplayName: Bendición del agua
+		Description: El agua guía tu mano
+		ItemTooltip: +5% de velocidad de ataque total
 	}
 
 	AuricSurge: {
-		DisplayName: Auric Surge
-		Description: You are being smited from within.
+		DisplayName: Oleada áurica
+		Description: Te están castigando desde dentro.
 	}
 
 	KellyPetBuff: {
 		DisplayName: Kelly!
-		Description: Kelly will follow you.
+		Description: Kelly te seguirá.
 	}
 
 	NightfallenDebuff: {
-		DisplayName: Nightfallen
-		Description: The darkness consumes.
+		DisplayName: Anochecer
+		Description: La oscuridad lo devora todo.
 		ItemTooltip:
 			'''
-			Typeless - 100 DPS
-			+10% damage taken from all sources
+			Sin tipo - 100 DPS
+			+10% de daño recibido de todas las fuentes
 			'''
 	}
 
 	LeviathanHeartBubble: {
-		DisplayName: Leviathan Bubble
-		Description: The Leviathan's Bubble grants you +5% damage reduction
-		ItemTooltip: +5% damage reduction
+		DisplayName: Burbuja de Leviatán
+		Description: La Burbuja del Leviatán te otorga un +5% de reducción de daño
+		ItemTooltip: +5% de reducción de daño
 	}
 
 	LeviathanHeartBubbleCorrupted: {
-		DisplayName: Corrupted Leviathan Bubble
+		DisplayName: Burbuja de Leviatán corrompida
 		Description:
 			'''
-			The Corrupted Leviathan's Bubble grants you +10% damage
-			But you take 5% more damage
+			La burbuja del Leviatán Corrupto te otorga un +10% de daño
+			pero recibes un 5% más de daño
 			'''
-		ItemTooltip: +10% attack damage, +5% damage taken from all sources
+		ItemTooltip: +10% de daño de ataque y +5% de daño recibido de todas las fuentes
 	}
 }
 
 Tooltips: {
 	WhiteDwarfSetBonus:
 		'''
-		Rogue attacks have a 5% chance unleash an ivory flare from the cosmos for 1.75x damage
-		The flare's damage is based on non-crit damage, but itself can crit
+		Los ataques de rogue tienen un 5% de probabilidad de desencadenar una llamarada de marfil procedente del cosmos 
+		que inflige 1,75 veces más daño
+		El daño de la llamarada se basa en el daño no crítico, pero la propia llamarada puede infligir daño crítico
 		'''
 
 	LeviathanHeart: {
 		NormalTooltip:
 			'''
-			Healing spells heal 25% more hp
-			Healing spells apply [rbuff:RagnarokMod/LeviathanHeartBubble] to their target.
+			Los hechizos de curación curan un 25% más de puntos de vida
+			Los hechizos de curación aplican [rbuff:RagnarokMod/LeviathanHeartBubble] a su objetivo
 			'''
 		CorruptTooltip:
 			'''
-			The Leviathan's Bubble reacts to your dark energy!
-			All health costs are reduced by 1
-			Spending health grants you [rbuff:RagnarokMod/LeviathanHeartBubbleCorrupted]
-			10% increased radiant attack speed
+			¡La burbuja del Leviatán reacciona a tu energía oscura!
+			Todos los costes de salud se reducen en 1
+			Al gastar salud, obtienes [rbuff:RagnarokMod/LeviathanHeartBubbleCorrupted]
+			Aumenta un 10% la velocidad de ataque radiante
 			'''
 	}
 }
 
 Compat: {
-	TechPoints: Increases your maximum technique points by
-	Recharge: and recharge by
-	BasicDamage: basic damage
-	DupeDamage: of your rogue damage is duplicated
-	DupeCap: Duplication damage caps at
-	NoGuideStack: Effect does not stack with other Guides
-	Power: % Power
-	Smited: was smited.
-	Darkness: fell into darkness.
-	TurnedToAmmo: was converted into ammunition.
-	Recoil: could not handle the recoil.
+	TechPoints: Aumenta tus puntos de técnica máximos en
+	Recharge: y la recarga en
+	BasicDamage: daño básico
+	DupeDamage: del daño rogue se duplica
+	DupeCap: El daño por duplicación tiene un límite máximo de
+	NoGuideStack: El efecto no se acumula con otras Guías.
+	Power: % de Poder
+	Smited: fue castigado.
+	Darkness: se sumió en la oscuridad.
+	TurnedToAmmo: se convirtió en munición.
+	Recoil: no pudo soportar el retroceso.
 }
 
 Items: {
 	DrumStick: {
-		DisplayName: Drum Stick
-		Tooltip: "'Your enemies are your drums!'"
+		DisplayName: Baqueta
+		Tooltip: "'¡Tus enemigos son tus tambores!'"
 	}
 
 	AerospecBard: {
-		DisplayName: Aerospec Shovel Hat
+		DisplayName: Gorra con visera de aerospec
 		Tooltip:
 			'''
-			5% increased playing and inspiration regeneration speed
-			+2 seconds to empowerment duration
+			Aumenta un 5% la velocidad de regeneración al tocar un instrumento y la de inspiración 
+			+2 segundos de duración del potenciador
 			'''
 		SetBonus:
 			'''
-			Taking over 25 damage in one hit will cause a spread of homing feathers to fall
-			Allows you to fall more quickly and disables fall damage
-			6% increased symphonic damage
-			7% increased movement speed
+			Si recibes más de 25 puntos de daño de un solo golpe, caerán una lluvia de plumas autoguiadas
+			Te permite caer más rápido y desactiva el daño por caída
+			Aumenta el daño sinfónico en un 6%
+			Aumenta la velocidad de movimiento en un 7%
 			'''
 	}
 
 	AerospecHealer: {
-		DisplayName: Aerospec Hood
+		DisplayName: Capucha de a erospec
 		Tooltip:
 			'''
-			10% decreased non-radiant damage
-			10% increased radiant damage
-			+20 maximum mana
+			10% menos de daño no radiante
+            10% más de daño radiante
+            +20 de maná máximo
 			'''
 		SetBonus:
 			'''
-			10% decreased non-radiant damage
-			10% increased radiant damage
-			Taking over 25 damage in one hit will cause a spread of homing feathers to fall
-			Allows you to fall more quickly and disables fall damage
-			Healing spells heal an additional 2 life
-			10% increased movement speed
+			Se reduce un 10% del daño no radiante
+			Aumenta un 10% del daño radiante
+			Si recibes más de 25 de daño de un solo golpe, caerán una lluvia de plumas autoguiadas
+			Te permite caer más rápido y desactiva el daño por caída
+			Los hechizos de curación curan 2 puntos de vida adicionales
+			Aumenta un 10% la velocidad de movimiento
 			'''
 	}
 
 	AuricTeslaFrilledHelmet: {
-		DisplayName: Auric Tesla Frilled Helmet
-		DisplayNameEclipse: Primordial Tesla Frilled Helmet
+		DisplayName: Gorra con visera de tesla áurica
+		DisplayNameEclipse: Gorra con visera de tesla primordial
 		Tooltip:
 			'''
-			20% increased symphonic damage, critical strike chance, and wind instrument homing speed
-			5% increased movement speed
-			30% increased inspiration regeneration
-			+15 max inspiration
-			+2 string instrument projectile bounces
+			Aumenta un 20% al daño sinfónico, la probabilidad de golpe crítico y a la velocidad de seguimiento de los proyectiles de los instrumentos de viento
+			Aumento un 5% la velocidad de movimiento
+			Aumenta un 30% la regeneración de inspiración
+			+15 de inspiración máxima
+			+2 rebotes de los proyectiles de los instrumentos de cuerda
 			'''
 		SetBonus:
 			'''
-			Bloodflare, God Slayer, and Rhapsodist armor effects
-			Pressing the '{$ThoriumMod.Keybinds.ArmorAbility.DisplayName}' key will trigger both Rhapsodist armor abilities
+			Aplica los efectos de las armaduras Llama de sangre, Matadioses y de Rapsoda
+            Al pulsar la tecla '{$ThoriumMod.Keybinds.ArmorAbility.DisplayName}' se activarán las dos habilidades de la armadura de Rapsoda
 			'''
-		SetBonusHelheim: Tarragon, Bloodflare, and God Slayer armor effects
+		SetBonusHelheim: Efectos de las armaduras de Tarragón, Llama de sangre y Matadioses
 	}
 
 	AuricTeslaHealerHead: {
-		DisplayName: Auric Tesla Irradiant Visage
-		DisplayNameEclipse: Primordial Tesla Irradiant Visage
+		DisplayName: Rostro radiante de tesla áurica
+		DisplayNameEclipse: Rostro radiante de tesla primordial
 		Tooltip:
 			'''
-			Corrupts your radiant powers
-			100% increased radiant damage but 80% decreased non-radiant damage
-			25% increased radiant critical strike chance
-			5% increased movement speed
-			25% decreased mana usage
-			Healing spells heal an additional 10 life
-			+100 maximum mana
+			Corrompe tus poderes radiantes
+			Aumenta el daño radiante un 100%, pero reduce el daño no radiante un 80%
+			Aumenta la probabilidad de golpe crítico radiante un 25%
+			Aumenta la velocidad de movimiento un 5%
+			Reduce el consumo de maná un 25%
+			Los hechizos de curación curan 10 puntos de vida adicionales
+			+100 de maná máximo
 			'''
-		ToggleTooltip: "[c/aaaaaa:Shift-Right Click this item in your inventory to toggle] [c/CC44FF:corrupted radiant powers]"
+		ToggleTooltip: "[c/aaaaaa:Pulsa Mayús + clic derecho sobre este objeto de tu inventario para activarlo o desactivarlo] [c/CC44FF:poderes radiantes corrompidos]"
 		SetBonus:
 			'''
-			Bloodflare, Silva, and Dreamweaver armor effects
-			Pressing the '{$ThoriumMod.Keybinds.ArmorAbility.DisplayName}' key will trigger both Dreamweaver armor abilities
-			50% increased radiant damage
+			Posee los efectos de las armaduras de Llama de sangre, de Silva, y la de Tejedor de sueños
+			Al pulsar la tecla '{$ThoriumMod.Keybinds.ArmorAbility.DisplayName}' se activarán las dos habilidades de la armadura de Tejedor de sueños
+			Aumenta el daño radiante un 50%
 			'''
 		SetBonusHelheim:
 			'''
-			Tarragon, Bloodflare, and Silva armor effects
-			50% increased radiant damage
+			Efectos de las armaduras Tarragon, llama de sangre y de Silva
+			Aumenta el daño radiante un 50%
 			'''
 	}
 
 	BlazingDrumBeat: {
-		DisplayName: Emblazoned Drum Stick
+		DisplayName: Baqueta decorada
 		Tooltip:
 			'''
-			Successfully timing hits will steadily increase its damage and empowerment level
-			Mistiming hits will decrease these bonuses greatly and cost 9 inspiration
-			These bonuses will stay between weapon swaps, but gradually fade while not your active weapon
-			Chaining two or more successes will let out a large flaming slash
-			Flaming slashes inflict all enemies in range with [cbuff:CalamityMod/HolyFlames]
+			Si aciertas con el timing de los golpes, el daño y el nivel de potenciación aumentarán progresivamente
+			Si fallas el timing de los golpes, estas bonificaciones se reducirán considerablemente y te costarán 9 puntos de inspiración
+			Estas bonificaciones se mantendrán entre cambios de arma, pero se irán desvaneciendo gradualmente mientras no sea tu arma activa
+			Encadenar dos o más aciertos provocará un gran tajo llameante
+			Los tajos llameantes infligen a todos los enemigos dentro del alcance [cbuff:CalamityMod/HolyFlames]
 			'''
 	}
 
 	BloodflareHeadBard: {
-		DisplayName: Bloodflare Spiked Helmet
+		DisplayName: Casco con púas de llama de sangre
 		Tooltip:
 			'''
-			20% increased symphonic damage and 12% increased symphonic critical strike chance
-			+15% increased inspiration regeneration and +6 maximum inspiration
-			+15% chance for inspiration notes to drop from enemies
+			Aumenta un 20% el daño sinfónico y aumenta un 12% la probabilidad de golpe crítico sinfónico
+            Aumenta un 15% la regeneración de inspiración y obtienes +6 de la inspiración máxima
+            Aumenta un 15% la probabilidad de que los enemigos suelten notas de inspiración
 			'''
 		SetBonus:
 			'''
-			Doing symphonic damage will apply Burning Blood on enemies
-			You will build a blood lust, 2 points for every hit enemy (can only occur 3 times a second)
-			Upon reaching 100 points: 20% increased symphonic damage and strike chance, 25% increased movement speed
-			Empowerments will be prolonged for an additional 3 seconds and 10% faster inspiration regen
-			Pressing the 'Armor Ability' key will consume 20 points to replenish 10 inspiration
-			You will lose 25 points upon getting hit and rapidly points when not hitting enemies for more than 5 seconds
-			Your points are also reset when a boss is spawned
+			Infligir daño sinfónico aplicará Sangre ardiente a los enemigos
+			Acumularás sed de sangre: 2 puntos por cada enemigo al que golpees (solo puede ocurrir 3 veces por segundo)
+			Al alcanzar los 100 puntos: auments un 20% el daño sinfónico y la probabilidad de golpe crítico, y un aumento del 25% de la velocidad de movimiento
+			Las potenciaciones se prolongarán 3 segundos más y la regeneración de inspiración será un 10% más rápida
+			Al pulsar la tecla de la "Habilidad de armadura", se consumirán 20 puntos para recuperar 10 de inspiración
+			Perderás 25 puntos al recibir un golpe y perderás puntos rápidamente si no golpeas a los enemigos durante más de 5 segundos
+			Tus puntos se reiniciarán cuando aparezca un jefe
 			'''
 	}
 
 	BloodflareHeadHealer: {
-		DisplayName: Bloodflare Grim Visage
+		DisplayName: Rostro sombrío de llama de sangre
 		Tooltip:
 			'''
-			20% reduced mana usage
-			70% decreased non-radiant damage and 50% increased radiant damage
-			20% increased radiant critical strike chance
-			Healing spells will heal for an additional 7 life
-			+60 maximum mana
+			Reduce un 20% el consumo de maná
+			Reduce un 70% el daño no radiante y aumenta un 50% el daño radiante
+			Aumenta un 20% la probabilidad de golpe crítico radiante
+			Los hechizos de curación curarán 7 puntos de vida adicionales
+			+60 de maná máximo
 			'''
 		SetBonus:
 			'''
-			Doing radiant damage will apply Burning Blood on enemies
-			You will build a blood lust, 2 points for every hit enemy (can only occur 3 times a second)
-			Upon reaching 100 points: 20% increased radiant damage and strike chance, 20% increased movement speed
-			and your healing spells will heal for an additional 3 health
-			Additionally you get healed for a small fraction of your dealt damage
-			Pressing the 'Armor Ability' key will consume 20 points to replenish 25 + bonus heal life 
-			You will lose 25 points upon getting hit and rapidly points when not hitting enemies for more than 5 seconds
-			Your points are also reset when a boss is spawned
+			Infligir daño radiante aplicará Sangre ardiente a los enemigos
+			Acumularás sed de sangre: 2 puntos por cada enemigo al que golpees (solo puede ocurrir 3 veces por segundo)
+			Al alcanzar los 100 puntos: aumenta un 20% el daño radiante y en la probabilidad de golpear, aumenta un 20% la velocidad de movimiento
+			y tus hechizos de curación curarán 3 puntos de salud adicionales
+			Además, recibirás una pequeña fracción del daño infligido en forma de curación
+			Al pulsar la tecla de "Habilidad de armadura", consumirás 20 puntos para recuperar 25 puntos de vida + bonificación de curación
+			Perderás 25 puntos al recibir un golpe y perderás puntos rápidamente si no golpeas a los enemigos durante más de 5 segundos
+			Tus puntos se reiniciarán cuando aparezca un jefe
 			'''
 	}
 
 	CalamityBell: {
-		DisplayName: Calamity Bell
-		Tooltip: Shoots homing brimstone fireblasts that inflict [cbuff:CalamityMod/BrimstoneFlames] on hit
+		DisplayName: Campana de la catástrofe
+		Tooltip: Lanza ráfagas de fuego de azufre autoguiadas que infligen [cbuff:CalamityMod/BrimstoneFlames] al impactar
 	}
 
-	CelestialManaCost: 20% decreased mana cost
+	CelestialManaCost: Reduce un 20% el coste de maná
 
 	DaedalusHeadBard: {
-		DisplayName: Daedalus Headgear
+		DisplayName: Tocado de dédalo
 		Tooltip:
 			'''
-			12% increased symphonic damage and 5% increased symphonic critical strike chance
-			+2 max inspiration
+			Aumenta un 12% el daño sinfónico y aumenta un 5% la probabilidad de golpe crítico sinfónico
+			+2 de inspiración máxima
 			'''
 		SetBonus:
 			'''
-			+10% increased inspiration regeneration speed
-			Pressing the '{$ThoriumMod.Keybinds.ArmorAbility.DisplayName}' key will grant you [rbuff:RagnarokMod/AntarcticCreativityBuff] for 15 seconds.
-			Costs 12 inspiration
+			+10% de velocidad de regeneración de inspiración
+			Al pulsar la tecla '{$ThoriumMod.Keybinds.ArmorAbility.DisplayName}', obtendrás [rbuff:RagnarokMod/AntarcticCreativityBuff] durante 15 segundos
+			Cuesta 12 puntos de inspiración
 			'''
 	}
 
 	DaedalusHeadHealer: {
-		DisplayName: Daedalus Visage
+		DisplayName: Rostro de dédalo
 		Tooltip:
 			'''
-			10% reduced mana usage
-			15% decreased non-radiant damage
-			15% increased radiant damage and 7% increased radiant critical strike chance
-			+40 maximum mana
+			10% menos de consumo de maná
+			15% menos de daño no radiante
+			+15% más de daño radiante y +7% de probabilidad de golpe crítico radiante
+			+40 de maná máximo
 			'''
 		SetBonus:
 			'''
-			Healing spells heal an additional 3 life
-			Pressing the '{$ThoriumMod.Keybinds.ArmorAbility.DisplayName}' key will shield you for 50 life and grants you [rbuff:RagnarokMod/AntarcticReinforcementBuff] for 15 seconds
-			Costs 100 mana
+			Los hechizos de curación curan 3 puntos de vida adicionales
+			Al pulsar la tecla '{$ThoriumMod.Keybinds.ArmorAbility.DisplayName}', obtendrás un escudo de 50 puntos de vida y recibirás 
+			[rbuff:RagnarokMod/AntarcticReinforcementBuff] durante 15 segundos.
+			Cuesta 100 de maná
 			'''
 	}
 
 	GodSlayerHeadBard: {
-		DisplayName: God Slayer Tricorn Helm
+		DisplayName: Yelmo tricórnio del Matadioses
 		Tooltip:
 			'''
-			25% increased symphonic damage and 15% increased symphonic critical strike chance
-			15% increased inspiration regeneration
-			+7 max inspiration
-			+15% chance for inspiration notes to drop from enemies
+			Aumenta un 25% el daño sinfónico y aumenta ub 15% la probabilidad de golpe crítico sinfónico
+			Aumenta un 15% la regeneración de inspiración
+			+7 de inspiración máxima
+			+15% de probabilidad de que los enemigos suelten notas de inspiración
 			'''
-		SetBonus: While you are holding an instrument you will apply random empowerments
+		SetBonus: Mientras sostengas un instrumento, aplicarás potenciaciones aleatorias
 	}
 
 	SilvaHeadHealer: {
-		DisplayName: Silva Wreathed Helmet
+		DisplayName: Casco con guirnalda de Silva
 		Tooltip:
 			'''
-			25% reduced mana usage
-			70% decreased non-radiant damage and 55% increased radiant damage
-			20% increased radiant critical strike chance
-			Healing spells will heal for an additional 9 life
-			+80 maximum mana
+			25% menos de consumo de maná
+			Se reduce un 70% el daño no randiante y aumenta un 55% el daño radiante
+			Aumenta un 20% la probablidad de crítico radiante
+			Los hechizos de curación curarán 9 puntos de vida adicionales.
+			+80 de maná máximo
 			'''
 		SetBonus:
 			'''
-			Your healing spells will increase the life recovery and life recovery rate of your allies
-			Healed allies will be granted 50 more maximum health
-			Occasionally you will be blessed by heals or life shields
-			Will trigger more frequently on low health
-			+3 HP/s life regen
-			5% increased max run speed and acceleration
-			Taking fatal damage will revive you and make you invulnerable to all damage for 5 seconds
-			This effect has a 5 minute cooldown, which does not decrement if any bosses or events are active
+			Tus hechizos de curación aumentarán la recuperación de vida y la velocidad de recuperación de vida de tus aliados
+			Los aliados curados obtendrán 50 puntos más de salud máxima
+			De vez en cuando recibirás bendiciones en forma de curaciones o escudos de vida
+			Se activará con mayor frecuencia cuando tengas poca salud
+			+3 PV/s de regeneración de vida.
+			Aumenta un 5% la velocidad máxima al correr y al acelerar
+			Si recibes daño letal, revivirás y serás invulnerable a todo daño durante 5 segundos
+			Este efecto tiene un tiempo de enfriamiento de 5 minutos, que no se reduce si hay jefes o eventos activos
 			'''
 	}
 
 	StormFeather: {
-		DisplayName: Storm Feather
+		DisplayName: Pluma tormentosa
 		Tooltip:
 			'''
-			Can be sold for a very good price to shops
-			'A small feather fallen from the Grand Thunder Bird, it crackles with lightning'
+			Se puede vender a muy buen precio a las tiendas
+			"Una pequeña pluma caída del Gran Pájaro del trueno, que crepita con relámpagos"
 			'''
 	}
 
 	StrangeAlienMotherBoard: {
-		DisplayName: Strange Alien Motherboard
+		DisplayName: Placa base extraterrestre extraña
 		Tooltip:
 			'''
-			The motherboard from the Star Scouter
-			'This technology is beyond your knowledge'
+			La placa base del Explorador Estelar
+			"Esta tecnología va más allá de tu conocimiento"
 			'''
 	}
 
@@ -378,7 +380,7 @@ Items: {
 
 	AnahitasArpeggioOverride: {
 		DisplayName: "{$CalamityMod.Items.Weapons.Magic.AnahitasArpeggio.DisplayName}"
-		Tooltip: Casts slow-moving treble clefs that confuse enemies
+		Tooltip: Lanza claves de sol que se mueven lentamente y confunden a los enemigos
 	}
 
 	FaceMelterOverride: {
@@ -387,384 +389,385 @@ Items: {
 	}
 
 	EmpoweredGranite: {
-		DisplayName: Empowered Granite
-		Tooltip: "'Granite block charged full of energy from the Granite Energy Storm'"
+		DisplayName: Granito potenciado
+		Tooltip:"'Bloque de granito cargado de energía procedente de la Tormenta de energía de ranito'"
 	}
 
 	EnchantedMarble: {
-		DisplayName: Enchanted Marble
-		Tooltip: "'Special marble, imbued with ancient holy magic'"
+		DisplayName: Mármol encantado
+		Tooltip: "'Un mármol especial, impregnado de antigua magia sagrada'"
 	}
 
 	StatigelHeadBard: {
-		DisplayName: Statigel Hat
+		DisplayName: Gorro de statigel
 		Tooltip:
 			'''
-			10% increased symphonic damage
-			7% increased symphonic critical strike chance
+			Aumenta un 10% el daño sinfónico
+            Aumenta un 7% la probabilidad de golpe crítico sinfónico
 			'''
 		SetBonus:
 			'''
-			When you take over 100 damage in one hit you become immune to damage for an extended period of time
-			Grants an extra jump and increased jump height
-			12% increased jump speed
-			+10% inspiration note drop chance
-			+5% inspiration regeneration rate
-			Symphonic empowerments last 2 seconds longer
+			Cuando recibes más de 100 de daño de un solo golpe, te vuelves inmune al daño durante un periodo prolongado
+			Otorga un salto adicional y aumenta la altura del salto
+			Aumenta la velocidad de salto en un 12%
+			+10% de probabilidad de obtener notas de inspiración
+			+5% de velocidad de regeneración de inspiración
+			Los potenciadores sinfónicos duran 2 segundos más
 			'''
 	}
 
 	StatigelHeadHealer: {
-		DisplayName: Statigel Headpiece
+		DisplayName: Tocado de statigel
 		Tooltip:
 			'''
-			10% decreased non-radiant damage
-			10% increased radiant damage
-			7% increased radiant critical strike chance
+			Reduce un 10% el daño no radiante
+			Aumenta un 10% el daño radiante
+			Aumenta un 7% la probabilidad de golpe crítico radiante
 			'''
 		SetBonus:
 			'''
-			When you take over 100 damage in one hit you become immune to damage for an extended period of time
-			Grants an extra jump and increased jump height
-			12% increased jump speed
-			Healing spells heal an additional 2 life
-			Maximum mana increased by 20
-			5% decreased mana usage
+			Cuando recibes más de 100 puntos de daño de un solo golpe, te vuelves inmune al daño durante un periodo prolongado
+			Otorga un salto adicional y aumenta la altura del salto
+			Aumenta la velocidad de salto en un 12%
+			Los hechizos de curación curan 2 puntos de vida adicionales
+			El maná máximo aumenta en 20
+			Se reduce el consumo de maná en un 5%
 			'''
 	}
 
 	StriderFang: {
-		DisplayName: Strider Fang
-		Tooltip: "'An icy fang straight from the Borean Strider's mouth'"
+		DisplayName: Colmillo de zancudo
+		Tooltip: "'Un colmillo helado sacado directamente de la boca del Caminante boreal'"
 	}
 
 	TarragonCowl: {
-		DisplayName: Tarragon Cowl
+		DisplayName: Capucha de estragón
 		Tooltip:
 			'''
-			5% increased damage reduction
-			60% decreased non-radiant damage
-			40% increased radiant damage and 15% increased critical radiant strike chance
-			Bonus healing increased by 7
-			Maximum mana increased by 60
-			Mana usage reduced by 20%
+			Aumenta un 5% la reducción de daño
+			Reduce un 60% el daño no radiante
+			Aumenta un 40% el daño radiante y aumenta un 15% la probabilidad de golpe crítico radiante
+			Aumenta la curación adicional en 7
+			Auments el maná máximo en 60
+			Reduce el consumo de maná en un 20%
 			'''
 		SetBonus:
 			'''
-			A Guardian healer will assist you in healing your allies
-			Heals ally life equal to your bonus healing + 5 health
-			and grants them [rbuff:RagnarokMod/GuardianHealerBeamBuff] for 20 seconds
+			Un sanador Guardián te ayudará a curar a tus aliados
+			Cura a los aliados una cantidad de vida igual a tu bonificación de curación +5 de salud
+			y les otorga [rbuff:RagnarokMod/GuardianHealerBeamBuff] durante 20 segundos
 			{$CalamityMod.Items.Armor.PostMoonLord.TarragonBreastplate.CommonSetBonus}
 			'''
 	}
 
 	TarragonShroud: {
-		DisplayName: Tarragon Shroud
+		DisplayName: Sudario de estragón
 		Tooltip:
 			'''
-			5% increased damage reduction
-			20% increased symphonic damage and 15% increased critical symphonic strike chance
-			15% increased playing speed
-			Greatly increased inspiration regen
-			+15% chance for inspiration notes to drop from enemies
-			+4 maximum inspiration
+			Aumenta un 5% la reducción de daño
+			Aumenta un 20% el daño sinfónico y un 15% la probabilidad de golpe crítico sinfónico
+			Aumenta un 15% la velocidad de interpretación
+			Aumenta considerablemente la regeneración de inspiración
+			+15% de probabilidad de que los enemigos suelten notas de inspiración
+			+4 de inspiración máxima
 			'''
 		SetBonus:
 			'''
-			Symphonic critical strikes cause a random active empowerment to increase by one level
-			Your empowerments last 50% longer
+			Los golpes críticos sinfónicos hacen que una potenciación activa aleatoria suba un nivel
+			Tus potenciaciones duran un 50% más.
 			{$CalamityMod.Items.Armor.PostMoonLord.TarragonBreastplate.CommonSetBonus}
 			'''
 	}
 
 	VictideHeadHealer: {
-		DisplayName: Victide Sponge Hood
-		Tooltip: 5% increased radiant damage but 5% decreased non-radiant damage
+		DisplayName: Capucha de esponja de victide
+		Tooltip: Aumenta el daño radiante en un 5%, pero reduce el daño no radiante en un 5%
 		SetBonus:
 			'''
-			Enemies are less likely to target you
-			+3 life regen and 10% increased radiant but 10% decreased non-radiant damage while submerged in liquid
+			Los enemigos serán menos propensos a atacarte
+			Tendrás +3 de regeneración de vida y un aumento del 10% en el daño radiante, pero 
+			se reducirá un 10% el daño no radiante mientras estés sumergido en un líquido
 			'''
 	}
 
 	NightfallenHelmet: {
-		DisplayName: Nightfallen Helmet
+		DisplayName: Casco de la Noche caída
 		Tooltip:
 			'''
-			Corrupts your radiant powers
-			33% decreased non-radiant damage
-			33% increased radiant damage
-			16% increased radiant critical strike chance
-			25% decreased mana cost
-			Maximum mana increased by 60
+			Corrompe tus poderes radiantes
+			Se reduce un 33%  del daño no radiante
+			Aumenta un 33% el daño radiante
+			Aumneta un 16% la probabilidad de golpe crítico radiante
+			Se reduce un 25% el coste de maná
+			Aumenta el maná máximo en 60
 			'''
 		SetBonus:
 			'''
-			Healing spells will heal an additional 4 life
-			All attacks inflict [rbuff:RagnarokMod/NightfallenDebuff]
+			Los hechizos de curación curarán 4 puntos de vida adicionales
+			Todos los ataques infligen [rbuff:RagnarokMod/NightfallenDebuff]
 			'''
 	}
 
 	NightfallenBreastplate: {
-		DisplayName: Nightfallen Breastplate
+		DisplayName: Coraza de la Noche caída
 		Tooltip:
 			'''
-			25% decreased non-radiant damage
-			25% increased radiant damage
-			16% increased radiant critical strike chance
-			20% decreased mana cost
+			Se reduce un 25% el daño no radiante
+			Aumneta un 25% el daño radiante
+			Aumenta un 16% la probabilidad de golpe crítico radiante
+			Se reduce un 20% el coste de maná
 			'''
 	}
 
 	NightfallenGreaves: {
-		DisplayName: Nightfallen Greaves
+		DisplayName: Grebas de la Noche caída
 		Tooltip:
 			'''
-			20% decreased non-radiant damage
-			20% increased radiant damage
-			12% increased radiant critical strike chance
-			20% decreased mana cost
-			20% increased movement speed
+			Se reduce un 20% el daño no radiante
+			20% de aumento del daño radiante
+			Aumenta un 12% la probabilidad de golpe crítico radiante
+			Se reduce un 20% el coste de maná
+			Aumenta un 20% la velocidad de movimiento
 			'''
 	}
 
 	VictideHeadBard: {
-		DisplayName: Victide Hatanemone
-		Tooltip: 5% increased symphonic damage
+		DisplayName: Sombrero de anémona de victide
+		Tooltip: Aumento un 5% el daño sinfónico
 		SetBonus:
 			'''
-			Enemies are less likely to target you
-			+3 life regen and 10% increased symphonic damage while submerged in liquid
+			Los enemigos serán menos propensos a atacarte
+            Tendrás +3 de regeneración de vida y un 10% más de daño sinfónico mientras estés sumergido en líquido
 			'''
 	}
 
 	EquivalentExchange: {
-		DisplayName: Equivalent Exchange
+		DisplayName: Intercambio equivalente
 		Tooltip:
 			'''
-			Fires a life stealing bolt
-			Press <right> to fire fast moving healing bolts instead
-			'You must follow the law of equivalent exchange'
-			'You can only get out equal to what you put in'
+			Lanza un rayo que roba vida.
+			Pulsa <right> para lanzar en su lugar rayos curativos de gran velocidad
+			"Debes seguir la ley de intercambio equivalente".
+			"Solo puedes obtener algo igual a lo que has aportado".
 			'''
 	}
 
 	ProfanedScythe: {
-		DisplayName: Profaned Scythe
+		DisplayName: Guadaña profanada
 		Tooltip:
 			'''
-			A holy inferno of a scythe
-			Press <right> to throw the scythe in a returning arc
-			The scythe deals 20% more damage when thrown and flings molten blobs during flight
+			Una guadaña conocida por ser un auténtico infierno sagrado
+			Pulsa <right>> para lanzar la guadaña que describirá una trayectoria curva al volver
+			La guadaña inflige un 20 % más de daño al lanzarla y arroja gotas de material fundido durante el vuelo
 			'''
 	}
 
 	MarbleScythe: {
-		DisplayName: Marble Scythe
-		Tooltip: The magic marble imbues the scythe head with extra radiance
+		DisplayName: Guadaña de mármol
+		Tooltip: El mármol mágico confiere a la hoja de la guadaña un brillo adicional
 	}
 
 	ScoriaDualscythe: {
-		DisplayName: Scoria Dualscythe
+		DisplayName: Guadaña doble de escoria
 		Tooltip:
 			'''
-			The scoria allows you to spin the scythe much faster by constantly expelling steam
-			Press <right> to throw the scythe, which will curve on it's way back
-			The scythe deals 20% more damage when thrown
+			La escoria te permite hacer girar la guadaña mucho más rápido al expulsar vapor constantemente
+			Pulsa <right>> para lanzar la guadaña, que describirá una trayectoria curva al volver
+			La guadaña inflige un 20% más de daño cuando se lanza
 			'''
 	}
 
-	InspirationEssence.DisplayName: Inspiration Essence
+	InspirationEssence.DisplayName: Esencia de inspiración
 
 	AstralRipper: {
-		DisplayName: Astral Ripper
+		DisplayName: Destripador astral
 		Tooltip:
 			'''
-			Spinning this scythe creates stars that orbit you. 
-			After completing a full circle, they pulsate once before exploding.
-			Holding <right> will start charging the scythe.
-			While charging, stars will begin to rapidly fall towards your cursor.
-			Release the charge to swing the scythe in a massive arc.
-			Landing the swing causes a large group of stars to crash down on the target.
-			All hits from this weapon inflict [cbuff:CalamityMod/AstralInfectionDebuff].
+			Al hacer girar esta guadaña, se crean estrellas que orbitan a tu alrededor
+			Tras completar una vuelta completa, parpadean una vez antes de explotar
+			Si mantienes pulsado <right>, la guadaña comenzará a cargarse
+			Mientras se carga, las estrellas empezarán a caer rápidamente hacia tu cursor
+			Suelta la carga para blandir la guadaña describiendo un arco enorme
+			Al acertar el golpe, un gran grupo de estrellas se abatirá sobre el objetivo
+			Todos los impactos de esta arma infligen [cbuff:CalamityMod/AstralInfectionDebuff]
 			'''
 	}
 
 	RadioMic: {
-		DisplayName: Radio Mic
+		DisplayName: Micrófono inalámbrico
 		Tooltip:
 			'''
-			Sing a song that creates a spread of shadowflame sound waves
-			The central sound wave will instead be cursed
-			The cursed sound will summon a tendril to attack the first enemy hit
-			'The microphone of a famous demon'
+			Cantas una canción que genera una onda sonora de llamas sombrías que se van propagando
+			La onda sonora central estará maldita
+			El sonido maldito invocará un zarcillo que atacará al primer enemigo al que alcance
+			"El micrófono de un demonio famoso"
 			'''
 	}
 
 	CorrosiveFlux: {
-		DisplayName: Corrosive Flux
-		Tooltip: Fires 3 toxic bubbles
+		DisplayName: Fundente corrosivo
+		Tooltip: Lanza 3 burbujas tóxicas
 	}
 
 	WindReaver: {
-		DisplayName: Wind Reaver
-		Tooltip: Releases an occasional wind slice when spun
+		DisplayName: Recuperador del viento
+		Tooltip: Al girarlo, lanza de vez en cuando un rayo de viento
 	}
 
 	TrueSquirrelScarf: {
-		DisplayName: True Squirrel Scarf
+		DisplayName: Bufanda de ardilla auténtica
 		Tooltip:
 			'''
-			The true, original form of the squirrel scarf.
-			Grants +999 Sentry Slots
+			La auténtica y original bufanda de ardilla
+			Otorga +999 ranuras para centinelas
 			'''
 	}
 
 	Prisma: {
 		DisplayName: Prisma
-		Tooltip: Fire a holy water sea star that shatters into 5 spikes
+		Tooltip: Lanza una estrella de mar de agua bendita que se hace añicos en 5 púas
 	}
 
 	VoidseerPearl: {
-		DisplayName: Voidseer Pearl
+		DisplayName: Perla del Vidente del vacío
 		Tooltip:
 			'''
-			Can be sold for a very good price to shops
-			'They say beauty is in the eye of the beholder... I don't think they meant that literally'
+			Se puede vender a muy buen precio a las tiendas
+			"Dicen que la belleza está en los ojos del que mira... No creo que lo dijeran en sentido literal"
 			'''
 	}
 
 	QueenJelly: {
-		DisplayName: Queen Jelly
+		DisplayName: Jalea real
 		Tooltip:
 			'''
-			Restores 100 life
-			Medium improvements to all stats
-			'A delicious jellyfish jelly
-			One could say it makes the tastiest sandwich in the sea'
+			Restaura 100 puntos de vida
+			Mejoras moderadas en todas las estadísticas
+			"Una deliciosa gelatina de medusa,
+			Se podría decir que con ella se hace el bocadillo más sabroso del mar"
 			'''
 	}
 
 	Steampipes: {
-		DisplayName: Steampipes
-		Tooltip: Steam-Powered Bagpipes!
+		DisplayName: Tuberías de vapor
+		Tooltip: ¡Gaitas impulsadas por vapor!
 	}
 
 	ElysianSong: {
-		DisplayName: Elysian Song
-		Tooltip: "'So close to an angel's trumpet, yet so far...'"
+		DisplayName: Canción elísea
+		Tooltip: "'Tan cerca de la trompeta de un ángel, y sin embargo tan lejos...'"
 	}
 
 	ExecutionerMark05: {
-		DisplayName: The Executioner: Mark 05
+		DisplayName: El verdugo: Mark 05
 		Tooltip:
 			'''
-			It starts slow, but will continuously build speed
-			Once at maximum speed, it will launch itself into the nearest enemy and explode for a massive area of effect
-			'The core of XM-05 Thanatos rebuilt as a scythe'
+			Empieza despacio, pero va ganando velocidad progresivamente
+			Una vez alcanzada la velocidad máxima, se lanzará contra el enemigo más cercano y explotará, provocando un efecto de gran alcance
+			"El núcleo del XM-05 Thanatos reconvertido en una guadaña".
 			'''
 	}
 
 	JellySlicer: {
-		DisplayName: Jelly Slicer
-		Tooltip: Shoots a fan of bouncing slime projectiles when swung
+		DisplayName: Cortador de gelatina
+		Tooltip: Al balancearlo, lanza una ráfaga de proyectiles de slimes que rebotan
 	}
 
 	Splattercannon: {
-		DisplayName: Splattercannon
+		DisplayName: Cañón salpicador
 		Tooltip:
 			'''
-			Press <right> to add 8 rounds into the chamber
-			Can hold a maximum of 64 rounds in the chamber
-			Press <left> to release all rounds at once
-			Will always have 8 rounds in the chamber
-			Spews blood orbs upon enemy hits
-			Picking up these blood orbs reduces the duration of [rbuff:PotionSickness]
-			'BLOOD IS FUEL'
+			Pulsa <right> para cargar 8 balas en la recámara
+			Puede contener un máximo de 64 balas en la recámara
+			Pulsa <left> para disparar todas las balas a la vez
+			Siempre tendrás 8 balas en la recámara
+			Lanza orbes de sangre al golpear a los enemigos
+			Recoger estos orbes de sangre reduce la duración de la [rbuff:PotionSickness]
+			"LA SANGRE ES COMBUSTIBLE"
 			'''
 	}
 
 	ProfanedBell: {
-		DisplayName: Profaned Bell
+		DisplayName: Campana profanada
 		Tooltip:
 			'''
-			Shoots holy flame blasts
-			Hit enemies are afflicted with [cbuff:CalamityMod/HolyFlames] for 3 seconds
+			Lanza ráfagas de llamas sagradas
+			Los enemigos alcanzados quedan afectados por [cbuff:CalamityMod/HolyFlames] durante 3 segundos
 			'''
 	}
 
 	AuricDamru: {
-		DisplayName: Auric Damru
+		DisplayName: Damru áurico
 		Tooltip:
 			'''
-			Play the bongos, dealing damage to all nearby enemies
-			Press <right> to shoot a Flare Bomb
-			Flare Bombs afflict enemies with [cbuff:CalamityMod/Dragonfire] for 3 seconds
+			Toca los bongos para infligir daño a todos los enemigos cercanos
+			Pulsa <right> para lanzar una bomba de bengalas
+			Las bombas de bengalas infligen a los enemigos el efecto [cbuff:CalamityMod/Dragonfire] durante 3 segundos
 			'''
 	}
 
 	NewLichRequirement: {
-		DisplayName: New Lich Requirement
-		Tooltip: you're uhhhh... not supposed to see this
+		DisplayName: Nuevo requisito para el Lich
+		Tooltip: Se supone que... eh... no deberías ver esto
 	}
 
 	EldritchShellFragment: {
-		DisplayName: Eldritch Shell Fragment
+		DisplayName: Fragmento de coraza sobrenatural
 		Tooltip:
 			'''
-			Fetches quite a fortune on the market
-			'An enchanted shard from the prison of an ancient god'
+			Se vende por una auténtica fortuna en las tiendas
+			"Un fragmento encantado procedente de la prisión de un dios antiguo"
 			'''
 	}
 
 	SigilOfACruelWorld: {
-		DisplayName: Sigil of a Cruel World
+		DisplayName: El símbolo de un mundo cruel
 		Tooltip:
 			'''
-			Increases symphonic damage by 15%
-			Increases symphonic playing speed by 8%
-			Increases inspiration regeneration rate by 8%
-			Increases maximum inspiration by 3
+			Aumenta el daño sinfónico en un 15%
+			Aumenta la velocidad de interpretación sinfónica en un 8%
+			Aumenta la tasa de regeneración de inspiración en un 8%
+			Aumenta la inspiración máxima en 3
 			'''
 	}
 
 	UniversalHeadset: {
-		DisplayName: Universal Headset
+		DisplayName: Cascos universales
 		Tooltip:
 			'''
-			Increases symphonic damage by 20%
-			Increases symphonic critical strike chance by 7%
-			Increases symphonic playing speed by 10%
-			Increases inspiration regeneration rate by 10%
-			Increases maximum inspiration by 5
-			Each unique empowerment you have increases movement speed by 2% and playing speed by 1%
+			Aumenta el daño sinfónico en un 20%
+			Aumenta la probabilidad de golpe crítico sinfónico en un 7%
+			Aumenta la velocidad de interpretación sinfónica en un 10%
+			Aumenta la tasa de regeneración de inspiración en un 10 
+			Aumenta la inspiración máxima en 5
+			Cada potenciador único que tengas aumenta la velocidad de movimiento en un 2% y la velocidad de interpretación en un 1%
 			'''
 	}
 
 	GoldenBatDroppings: {
-		DisplayName: Golden Bat Droppings
+		DisplayName: Excrementos de murciélago dorado
 		Tooltip:
 			'''
-			+25% coins from enemies (50% while in rage mode)
-			Increases damage based on held coins (coinslots only)
-			This bonus is increased by 50% while in adrenaline mode.
-			You will lose 25% of your coins permanently upon death (50% on death or master mode)
-			"You're not greedy, you're just batshit crazy!"
+			+25% de monedas de los enemigos (Sube a un 50% al usar la Ira)
+			Aumenta el daño en función de las monedas que lleves (solo en las ranuras de monedas)
+			Esta bonificación aumenta un 50% al usar la Adrenalina
+			Perderás el 25% de tus monedas de forma permanente al morir (que subirá a un 50% en el modo Muerte o Maestro)
+			"¡No eres codicioso, es que estás completamente loco!"
 			'''
 	}
 
 	VerdurantBloom: {
-		DisplayName: Verdurant Bloom
-		Tooltip: Fire a spread of various flower petals
+		DisplayName: Flor verdosa
+		Tooltip: Lanza un ramillete de pétalos de flores de distintos tipos
 	}
 
 	CosmicInjector: {
-		DisplayName: Cosmic Injector
+		DisplayName: Inyector Cósmico
 		Tooltip:
 			'''
-			Rapid fires both healing and damaging needles
-			Inflicts [cbuff:CalamityMod/GodSlayerInferno] on hit
-			Uses Syringes as ammo
+			Dispara rápidamente agujas que curan y causan daño
+			Inflige [cbuff:CalamityMod/GodSlayerInferno] al impactar
+			Utiliza jeringuillas como munición
 			'''
 	}
 
@@ -772,36 +775,36 @@ Items: {
 		DisplayName: Korobeiniki
 		Tooltip:
 			'''
-			Causes Tetriminos to fall from the sky
-			'A non-descript game console'
+			Hace que los tetriminos caigan del cielo
+            "Una consola de videojuegos cualquiera"
 			'''
 	}
 
 	GraspofVoid: {
-		DisplayName: Grasp of Void
-		Tooltip: Fires a shard of void essence, inflicting [rbuff:ShadowFlame] on hit
+		DisplayName: Agarre del Vacío
+		Tooltip: Lanza un fragmento de esencia del vacío que, al impactar, inflige [rbuff:ShadowFlame]
 	}
 
 	PhantasmalEdge: {
-		DisplayName: Phantasmal Edge
+		DisplayName: Filo fantasmal
 		Tooltip:
 			'''
-			Spinning this scythe creates many miniature fireballs that follow as you continue to spin the scythe
-			Once you stop spinning the scythe, the fireballs immediately seek out the nearest target and explode
-
-			Press <right> to launch the scythe like a hook, pulling enemies towards you
-			However, the strongest of enemies will pull you instead!
+			Al hacer girar esta guadaña, se generan numerosas bolas de fuego en miniatura que te siguen mientras sigas girándola
+			En cuanto dejes de girar la guadaña, las bolas de fuego se dirigen inmediatamente hacia el objetivo más cercano y explotan
+			
+			Pulsa <right> para lanzar la guadaña a modo de gancho y atraer a los enemigos hacia ti
+			Sin embargo, ¡los enemigos más fuertes te atraerán hacia ellos en su lugar!
 			'''
 	}
 
 	GodSlayersReap: {
-		DisplayName: God Slayer's Reap
+		DisplayName: La cosecha del Asesino de Dioses
 		Tooltip:
 			'''
-			Creates a small hologram resembling the Devourer of Gods at the very edge of your scythe spin
-			This hologram will grow in damage over time to a cap and inflict [cbuff:CalamityMod/GodSlayerInferno] on hit
-			Stopping use of the scythe while a hologram is active will release it to attack the nearest enemy 
-			The released hologram will deal increased damage and inflict [cbuff:CalamityMod/WhisperingDeath]
+			Crea un pequeño holograma que se asemeja al Devorador de Dioses en el extremo de la guadaña al girarla.
+			Este holograma irá aumentando su daño con el tiempo hasta un límite máximo e infligirá [cbuff:CalamityMod/GodSlayerInferno] al impactar
+			Si dejas de usar la guadaña mientras el holograma está activo, este se liberará para atacar al enemigo más cercano
+			El holograma liberado infligirá un daño mayor y aplicará [cbuff:CalamityMod/WhisperingDeath].
 			'''
 	}
 
@@ -809,25 +812,25 @@ Items: {
 		DisplayName: Lucent Gemini
 		Tooltip:
 			'''
-			Spinning this scythe surrounds you with an ethereal moonlight pulse
-			Hits generate [c/78C8FF:Soul Essence] and have a chance to generate [c/78C8FF:Stratus Starburst]
-			Press <right> with 5 or more Starburst to summon the [c/A0DCFF:Gemini] constellation
-			Each star fires piercing rays of moonlight that inflict [cbuff:CalamityMod/Voidfrost]
-			Press <right> again to dismiss the constellation
+			Al hacer girar esta guadaña, te envuelve un etéreo pulso de luz lunar.
+			Los golpes generan [c/78C8FF:Esencia del alma] y tienen una probabilidad de generar [c/78C8FF:Estratos estelares]
+			Pulsa <right> con 5 o más Estratos para invocar la constelación [c/A0DCFF:Gemini]
+			Cada estrella dispara rayos penetrantes de luz lunar que infligen [cbuff:CalamityMod/Voidfrost]
+			Vuelve a pulsar <right> para disipar la constelación
 			'''
 	}
 
 	Arpeggiator: {
 		DisplayName: Arpeggiator
-		Tooltip: Rapid-fires projectiles in an arpeggio pattern
+		Tooltip: Dispara proyectiles en ráfagas siguiendo un patrón de arpegio
 	}
 
 	ElementalReaper: {
-		DisplayName: Elemental Reaper
+		DisplayName: Segador Elemental
 		Tooltip:
 			'''
-			Spinning this scythe creates homing projectiles that inflict [rbuff:CalamityMod/ElementalMix]
-			Press <right> to grant you and all allies one of the following Elemental Blessings for 10 seconds:
+			Al hacer girar esta guadaña, se crean proyectiles autoguiados que infligen [rbuff:CalamityMod/ElementalMix]
+			Pulsa <right> para otorgarte a ti y a todos los aliados una de las siguientes bendiciones elementales durante 10 segundos:
 			[rbuff:RagnarokMod/ScytheAirBuff]
 			[rbuff:RagnarokMod/ScytheBrimstoneBuff]
 			[rbuff:RagnarokMod/ScytheEarthBuff]
@@ -838,380 +841,380 @@ Items: {
 	}
 
 	BrimScythe: {
-		DisplayName: Brimscythe
+		DisplayName: Guadañazufre
 		Tooltip:
 			'''
-			While spinning, you are surrounded in a circle of Brimstone Flames that deals constant damage
-			Enemies hit by the circle are also afflicted by [cbuff:CalamityMod/BrimstoneFlames] for 5 seconds
-			While below 25% hp, killing an enemy with the fire circle will heal you for 3 + 5% of the enemy maximum health
+			Mientras giras el arma, te rodea un círculo de llamas de azufre que infligen daño constante
+			Los enemigos alcanzados por el círculo también quedan afectados por [cbuff:CalamityMod/BrimstoneFlames] durante 5 segundos
+			Si tienes menos del 25% de vida, matar a un enemigo con el círculo de fuego te curará 3 + el 5% de la vida máxima del enemigo
 			'''
 	}
 
 	MaxEmpowermentTester: {
-		DisplayName: Max Empowerment Tester
-		Tooltip: Grants all empowerments at a level specified in item code :P
+		DisplayName: Evaluador de empoderamiento máximo
+		Tooltip: Otorga todas las habilitaciones al nivel especificado en el código del ítem :P
 	}
 
 	UnbreakableCombatUkulele: {
-		DisplayName: Unbreakable Combat Ukulele
+		DisplayName: Ukelele de combate irrompible
 		Tooltip:
 			'''
-			Press <left> to play the ukulele
-			Press <right> to throw the ukulele
-			'Does not make for a good apology'
+			Pulsa <left> para tocar el ukelele
+			Pulsa <right> para lanzar el ukelele
+			"No es una buena forma de pedir perdón"
 			'''
 	}
 
 	NightmareFreezer: {
-		DisplayName: Nightmare Freezer
+		DisplayName: Congelador de pesadillas
 		Tooltip:
 			'''
-			Spinning the scythe periodically releases a barrage of chilling darts
-			'Found somewhere between Halloween and Christmas... you could make a movie about that!'
+			Al girar la guadaña periódicamente lanzas una lluvia de dardos helados
+			"Encontrado en algún momento entre Halloween y Navidad... ¡Se podría hacer una película sobre eso!"
 			'''
 	}
 
 	DragonForce: {
-		DisplayName: Dragon Force
+		DisplayName: Fuerza dracónica
 		Tooltip:
 			'''
-			Consumes inspiration rapidly as you channel an inferno to your cursor
-			Press <right> to play the [c/FF4500:Roar of the Jungle Dragon] riff!
-			While the riff is active, the inferno this weapon unleases is amplified
+			Consume inspiración rápidamente mientras canalizas un infierno hacia el cursor
+			¡Pulsa <right> para reproducir el riff [c/FF4500:Rugido del Dragón de la jungla]!
+			Mientras el riff está activo, el infierno que desata esta arma se amplifica
 			'''
 	}
 
 	Lamentation: {
-		DisplayName: Lamentation
-		Tooltip: Shoots homing brimstone gigablasts that inflict [cbuff:CalamityMod/BrimstoneFlames] on hit
+		DisplayName: Lamentación
+		Tooltip: Dispara gigablasters de azufre autoguiados que infligen [cbuff:CalamityMod/BrimstoneFlames] al impactar
 	}
 
 	Virusprayer: {
-		DisplayName: Virusprayer
-		Tooltip: Shoots a barrage of acid bubbles
+		DisplayName: Pulverizador de virus
+		Tooltip: Lanza una lluvia de burbujas de ácido
 	}
 
 	IntergelacticRobohelm: {
-		DisplayName: Intergelactic Robohelm
+		DisplayName: Casco robótico intergaláctico
 		Tooltip:
 			'''
-			Increases symphonic damage, critical strike chance, and playing speed by 20%
-			Increases inspiration regen by 15%
-			Increases max inspiration by 6
-			Increases empowerment duration by 3 seconds
-			Reduces damage taken by 12%
+			Aumenta el daño sinfónico, la probabilidad de golpe crítico y la velocidad de interpretación sinfónica en un 20%
+			Aumenta la regeneración de inspiración en un 15%
+			Aumenta la inspiración máxima en 6
+			Aumenta la duración del potenciamiento en 3 segundos
+			Reduce el daño recibido en un 12%
 			'''
 	}
 
 	IntergelacticRamhelm: {
-		DisplayName: Intergelactic Ramhelm
+		DisplayName: Casco con cuernos intergaláctico
 		Tooltip:
 			'''
-			Decreases non-radiant damage by 40%
-			Increases radiant damage by 30%
-			Increases radiant critical strike chance and attack speed by 15%
-			10% decreased mana usage
-			+60 maximum mana
-			Your healing spells will heal for an additional 5 life
+			Reduce el daño no radiante en un 40%
+			Aumenta el daño radiante en un 30%
+			Aumenta la probabilidad de golpe crítico radiante y la velocidad de ataque en un 15%
+			Reduce el consumo de maná en un 10%
+			+60 de maná máximo
+			Tus hechizos de curación curarán 5 puntos de vida adicionales
 			'''
 	}
 
 	KellyPet: {
-		DisplayName: Wand of Anarchi
+		DisplayName: Varita de anarquista
 		Tooltip:
 			'''
-			Summons Kelly to follow you
-			'Donor Item by HayWire799'
-			'Sprites by Zenovia'
+			Invoca a Kelly para que te siga
+			"Objeto de donador de HayWire799"
+			"Sprites hechos por Zenovia"
 			'''
 	}
 
 	LeviathanHeart: {
-		DisplayName: Leviathan Heart
+		DisplayName: Corazón de Leviatán
 		Tooltip: ""
 	}
 
 	SirenScale: {
-		DisplayName: Siren Scale
+		DisplayName: Escama de sirena
 		Tooltip:
 			'''
-			The Siren sings along with your enchanting tune.
-			Symphonic damage increased by 15%
-			Inspiration regen rate increased by 20%
-			Anahita will sing along with your string instruments, firing additional water projectiles
+			La Sirena canta al compás de tu encantadora melodía
+			Daño sinfónico aumenta en 15 %
+			La celocidad de regeneración de inspiración aumenta un 20 %
+			Anahita cantará al compás de tus instrumentos de cuerda, lanzando proyectiles de agua adicionales
 			'''
 	}
 
 	ScourgesFrets: {
-		DisplayName: Scourge's Frets
+		DisplayName: Los trastes del Azote
 		Tooltip:
 			'''
-			Sends out bouncing sound waves that appear to be made out of sand
-			Press <right> to play the [c/34C9EB:Guardian of the Former Seas] riff!
-			While the riff is active, attacks from this guitar are twice as large and deal 25% more damage
-			Time your attacks during the riff to reduce the cooldown
+			Emite ondas sonoras rebotantes que parecen estar hechas de arena
+			¡Pulsa <right> para tocar el riff [c/34C9EB:Guardián de los Mares Antiguos]!
+			Mientras el riff está activo, los ataques de esta guitarra son el doble de potentes e infligen un 25% más de daño
+			Sincroniza tus ataques durante el riff para reducir el tiempo de enfriamiento
 			'''
 	}
 
 	AuricGreatscythe: {
-		DisplayName: Auric Greatscythe
+		DisplayName: Gran guadaña áurica
 		Tooltip:
 			'''
-			This scythe charges up the longer you spin it,
-			accelerating to unbelievable speeds
-			Press <right> to hurl a bolt of lightning
+			Esta guadaña se carga cuanto más tiempo la haces girar,
+            alcanzando velocidades increíbles.
+            Pulsa <right> para lanzar un rayo
 			'''
 	}
 
 	IrradiantInfinity: {
-		DisplayName: Irradiant Infinity
+		DisplayName: Infinito radiante
 		Tooltip:
 			'''
-			Press <left> to fire an [c/FF5555:Irradiant Red] orb with massive knockback
-			Press <right> to summon an [c/55AAFF:Irradiant Blue] orb that follows your cursor
-			[c/55AAFF:Irradiant Blue] pulls in nearby enemies and grows larger with each hit
-			Once it reaches critical mass, strike it with [c/FF5555:Irradiant Red] to unleash [c/CC44FF:Irradiant Purple]
+			Pulsa <left> para lanzar un orbe [c/FF5555:Rojo radiante] con un enorme efecto de repulsión
+			Pulsa <right> para invocar un orbe [c/55AAFF:Azul radiante] que sigue a tu cursor
+			El [c/55AAFF:Azul radiante] atrae a los enemigos cercanos y crece con cada impacto
+			Una vez que alcance la masa crítica, golpéala con [c/FF5555:Rojo Irradiante] para desatar [c/CC44FF:Púrpura Irradiante]
 			'''
 	}
 
 	PrimalTerror: {
-		DisplayName: Primal Terror
-		Tooltip: Keep me favorited ;P
-		HasAwoken: The Primordial Wyrm has awoken!
+		DisplayName: Terror primigenio
+		Tooltip: Añádeme a favoritos ;P
+		HasAwoken: ¡La Sierpe primordial ha despertado!
 	}
 
 	DevourerOfSines: {
-		DisplayName: Devourer of Sines
+		DisplayName: Devorador de ángulos senos
 		Tooltip:
 			'''
-			Channel this weapon to create a massive sine wave
-			Press <right> to play the [c/501eb4:Universal Collapse] riff!
-			While the riff is active, all players in range have unlimited flight
+			Utiliza esta arma para generar una onda sinusoidal de gran magnitud.
+			¡Pulsa <right> para reproducir el riff [c/501eb4:Colapso universal]!
+			Mientras el riff esté activo, todos los jugadores que se encuentren dentro del radio de acción tendrán vuelo ilimitado.
 			'''
 	}
 
 	Ectambourine: {
-		DisplayName: Ectambourine
+		DisplayName: Ectamburina
 		Tooltip:
 			'''
-			Throw an endless amount of ghostly tambourines
-			Press <right> to jingle the thrown tambourines, damaging nearby enemies
+			Lanza una cantidad infinita de panderetas fantasmales
+			Pulsa <right> para hacer sonar las panderetas lanzadas y causar daño a los enemigos cercanos
 			'''
 	}
 
 	InfectedOcarina: {
-		DisplayName: Infected Ocarina
+		DisplayName: Ocarina infectada
 		Tooltip:
 			'''
-			Whistles out a cursed burst of noise
-			Has a chance to shoot vile spit
-			Press <right> to play the [c/50477e:Filthy Mind] riff!
-			While the riff is active, infected pustules spawn around you
-			Infected pustules will spew cursed fire at the nearest enemy
+			Emite una ráfaga de ruido maldito
+			Tienes la posibilidad de lanzar saliva repugnante
+			¡Pulsa <right> para reproducir el riff [c/50477e:Mente perversa]!
+			Mientras el riff está activo, aparecen pústulas infectadas a tu alrededor
+			Las pústulas infectadas escupirán fuego maldito al enemigo más cercano
 			'''
 	}
 
 	Shredder: {
-		DisplayName: Shredder
+		DisplayName: Trituradora
 		Tooltip:
 			'''
-			Sends out bloody shockwaves
-			Press <right> to play the [c/AA1111:Blood Coagulant] riff!
-			While the riff is active, all players in range have life steal
-			Time your attacks during the riff to reduce the cooldown
-			Missed timings during the riff do not reduce the cooldown, but also do not reduce your damage
+			Lanza ondas de choque sangrientas
+			¡Pulsa <right> para reproducir el riff [c/AA1111:Coagulante de sangre]!
+			Mientras el riff está activo, todos los jugadores que se encuentren dentro del alcance obtienen robo de vida
+			Sincroniza tus ataques durante el riff para reducir el tiempo de enfriamiento
+			Si no sincronizas bien tus ataques durante el riff, no reducirás el tiempo de enfriamiento, pero tampoco se reducirá tu daño
 			'''
 	}
 
 	SquirrelScarf: {
-		DisplayName: Squirrel Scarf
+		DisplayName: Bufanda de ardilla
 		Tooltip:
 			'''
-			Increases your max number of sentries by 1
-			'As fluffy as a squirrel's tail'
+			Aumenta en 1 el número máximo de centinelas
+			"Tan mullido como la cola de una ardilla"
 			'''
 	}
 
 	RiffTester: {
-		DisplayName: Riff Tester
-		Tooltip: Clears Riff Cooldowns. Use Responsibly.
+		DisplayName: Probador de riffs
+		Tooltip: Borra los tiempos de enfriamiento de los riffs. Úsalo con responsabilidad.
 	}
 
 	StellarRiff: {
-		DisplayName: Stellar Riff
+		DisplayName: Riff estelar
 		Tooltip:
 			'''
-			Sends out homing stars, that split into homing shards
-			Playing success will increase the number of shards
-			Press <right> to play the [c/00FFC8:Interstellar Stomper] riff!
-			While the riff is active, stars rain down from above
-			Homings shard count is doubled while the riff is active
-			Time your attacks during the riff to reduce the cooldown
+			Lanza estrellas autoguiadas, que se dividen en fragmentos autoguiados
+			Si lo haces bien, aumentará el número de fragmentos
+			¡Pulsa <right> para tocar el riff [c/00FFC8:Pisotón interestelar]!
+			Mientras el riff está activo, llueven estrellas desde arriba
+			El número de fragmentos autoguiados se duplica mientras el riff esté activo
+			Sincroniza tus ataques durante el riff para reducir el tiempo de enfriamiento
 			'''
 	}
 
 	ToxicWaves: {
-		DisplayName: Toxic Waves
+		DisplayName: Ondas tóxicas
 		Tooltip:
 			'''
-			Launches floating toxic clouds that inflict [cbuff:CalamityMod/SulphuricPoisoning] and [cbuff:CalamityMod/Irradiated] on hit
-			The clouds will pierce through enemies based on your additional string weapon bounces
-			Press <right> to play the [c/37C300:Toxic Wisdom] riff!
-			While the riff is active, a sulphurous vortex summons acid sharkrons from above
-			Time your attacks during the riff to reduce the cooldown
+			Lanza nubes tóxicas flotantes que infligen [cbuff:CalamityMod/SulphuricPoisoning] y [cbuff:CalamityMod/Irradiated] al impactar
+			Las nubes atravesarán a los enemigos en función de los rebotes adicionales de tu instrumento de cuerda
+			¡Pulsa <right> para tocar el riff [c/37C300:Sabiduría tóxica]!
+			Mientras el riff está activo, un vórtice sulfuroso invoca tiburones ácidos desde arriba
+			Sincroniza tus ataques durante el riff para reducir el tiempo de enfriamiento
 			'''
 	}
 
 	FateoftheGods: {
-		DisplayName: Fate of the Gods
+		DisplayName: Destino de los dioses
 		Tooltip:
 			'''
-			Thanks to the entire team, everyone who supported, and those who all play the mod and keep it alive!
-			The confines of this painting is not enough to fit the entire team
-			[c/999999:Hold Left Shift to see a list of past and current developers]
+			¡Gracias a todo el equipo, a todos los que nos han apoyado y a todos los que jugáis al mod y lo mantenéis vivo!
+			El espacio de este cuadro no basta para dar cabida a todo el equipo
+			[c/999999:Mantén pulsada la tecla Mayús izquierda para ver una lista de los desarrolladores anteriores y actuales]
 			'''
-		Donors: Donors
-		Artists: Artists
-		Programmers: Programmers
-		OtherDevelopers: Other Developers
+		Donors: Donadores
+		Artists: Artistas
+		Programmers: Programadores
+		OtherDevelopers: Otros desarrolladores
 	}
 
 	ProfanityFilter: {
-		DisplayName: Profanity Filter
+		DisplayName: Filtro de palabrotas
 		Tooltip:
 			'''
-			Electronic weapons have 10% reduced damage, but 50% increased playing speed
-			15% increased symphonic damage for weapons that are not Electronic
-			10% increased symphonic critical chance
-			Increases maximum inspiration by 4
-			Symphonic damage has a 10% chance to increase the level of one of your active empowerments
-			This effect can only trigger once every 2.5 seconds
+			Las armas electrónicas tienen un 10% menos de daño, pero un 50% más de velocidad de innterpretación
+			Aumenta un 15% el daño sinfónico para las armas que no sean electrónicas
+			Aumenta un 10% la de probabilidad de crítico sinfónico
+			Aumenta la inspiración máxima en 4.
+			El daño sinfónico tiene un 10% de probabilidad de aumentar el nivel de uno de tus potenciadores activos
+			Este efecto solo puede activarse una vez cada 2,5 segundos
 			'''
 	}
 
 	RedglassMonocle: {
-		DisplayName: Redglass Monocle
+		DisplayName: Monóculo de cristal rojo
 		Tooltip:
 			'''
-			Once worn by an infamous underworld star
-			25% increased symphonic damage
-			Flat Damage empowerment is twice as effective on you
-			While worn, Radio Mic gets the following bonuses:
-			Inspiration cost reduced by 2
-			Increases the Damage empowerment level by 1
-			Inflicts [rbuff:ThoriumMod/Charmed] for 5 seconds
+			Lo llevó en su día una famosa estrella underground
+			Aumenta el daño sinfónico en un 25%
+			La potenciación de Daño fijo es el doble de eficaz
+			Mientras lo lleves puesto, el Micrófono inalámbrico obtiene las siguientes bonificaciones:
+			El coste de inspiración se reduce en 2
+			Aumenta el nivel de la potenciación de Daño en 1
+			Inflige [rbuff:ThoriumMod/Charmed] durante 5 segundos
 			'''
 	}
 
 	RelicOfConvergenceOverride: {
 		Tooltip:
 			'''
-			Creates a profaned crystal at the cursor that channels a healing aura before shattering
-			All players within the area of effect are healed for {0} + 4x healing bonus HP
-			Allies gain 50% extra healing
-			Holding out the crystal decreases defense and increases incoming damage
-			[c/FF8C00:Never once had I known kindness. Neither my peers or family had a shred of compassion for me.]
-			[c/FF8C00:I wished for someone I could confide. A presence that cleansed me of anxiety.]
-			[c/FF8C00:And when I saw Her radiant smile when we met, I knew I had finally found it.]
+			Crea un cristal profanado en el cursor que canaliza un aura curativa antes de romperse
+			Todos los jugadores dentro del área de efecto recuperan {0} + 4 veces la bonificación de curación en PV
+			Los aliados obtienen un 50% de curación adicional
+			Mantener el cristal en alto reduce la defensa y aumenta el daño recibido
+			[c/FF8C00:Nunca había conocido la bondad. Ni mis compañeros ni mi familia sentían ni una pizca de compasión por mí.]
+			[c/FF8C00:Anhelaba a alguien en quien poder confiar. Una presencia que me liberara de la ansiedad.]
+			[c/FF8C00:Y cuando vi su radiante sonrisa al conocernos, supe que por fin lo había encontrado.]
 			'''
-		DisplayName: Relic of Convergence
+		DisplayName: Reliquia de la convergencia
 	}
 
 	CorroslimeBass: {
 		Tooltip:
 			'''
-			Sends out bouncing corroslime balls
-			Press <right> to split balls into {0} smaller balls
-			This process can be done {1} times
+			Lanza bolas de slime corrosivo que rebotan
+			Pulsa <right> para dividir las bolas en {0} bolas más pequeñas
+			Este proceso se puede repetir {1} veces
 			'''
-		DisplayName: Corroslime Bass
+		DisplayName: Bajo de slime corrosivo
 	}
 
 	CrimslimeOboe: {
-		DisplayName: Crimslime Oboe
+		DisplayName: Oboe de slime carmesí
 		Tooltip:
 			'''
-			Shoots sticky crimslime darts
-			After {0} seconds the darts will explode
+			Dispara dardos pegajosos de slimes carmesís
+			Dentro de {0} segundos, los dardos explotarán
 			'''
 	}
 
 	StringsofOblivion: {
-		DisplayName: Stringsof Oblivion
+		DisplayName: Cuerdas del olvido
 		Tooltip: ""
 	}
 
 	WulfrumGuitar: {
 		Tooltip:
 			'''
-			Shoots bouncing sound waves
-			Press <right> to return the waves
-			Returning waves will ignore tiles
+			Lanza ondas sonoras que rebotan
+			Pulsa <right> para devolver las ondas
+			Las ondas devueltas ignorarán los bloques
 			'''
-		DisplayName: Wulfrum Guitar
+		DisplayName: Guitarra de wulfrum
 	}
 
 	MenuMusicBox: {
-		DisplayName: Music Box (Ragnarok Title)
-		Tooltip: Plays 'Menu Theme' by CrafterDaemon
+		DisplayName: Caja de música (Título de Ragnarok)
+		Tooltip: Reproduce "Menu Theme", de CrafterDaemon
 	}
 
-	InspirationSingularity.DisplayName: Inspiration Singularity
+	InspirationSingularity.DisplayName: Inspiración de singularidad
 
 	Asterion: {
-		DisplayName: Asterion
+		DisplayName: Asterión
 		Tooltip:
 			'''
-			Creates a branching fractal of starlight around you
-			This starlight occasionally grants you Starbursts on successful enemy hits
-			Press <right> with enough Starbursts to create Asterion
-			Asterion consumes Starburts quickly, but releases constant stellar pulses
-			These pulses heal you and allies in range, and inflict [cbuff:CalamityMod/Voidfrost] on enemies
-			'As loyal as a hound'
+			Crea un fractal ramificado de luz estelar a tu alrededor
+			Esta luz estelar te otorga ocasionalmente Estrellas fugaces al acertar a los enemigos.
+			Pulsa <right> cuando tengas suficientes Estrellas fugaces para crear a Asterión
+			Asterion consume Estrellas fugaces rápidamente, pero libera pulsos estelares constantes
+			Estos pulsos te curan a ti y a tus aliados que estén dentro del alcance, e infligen [cbuff:CalamityMod/Voidfrost] a los enemigos
+			"Tan leal como un sabueso"
 			'''
 	}
 
 	FungalCastanets: {
-		DisplayName: Fungal Castanets
+		DisplayName: Castañuelas fúngicas
 		Tooltip:
 			'''
-			Alternating castanet clicks spray lingering fungal spores
-			Press <right> to play the [c/00FFFF:1NF3S+@+!0N Riff!]
-			During the riff, your castanets become Crabulon's claws while spores rain from above
-			'Sounds like crab claws!'
+			Los chasquidos alternos de las castañuelas esparcen esporas fúngicas que permanecen en el aire
+			¡Pulsa <right> para reproducir el riff [c/00FFFF:1NF3S+@+!0N]!
+			Durante el riff, tus castañuelas se convierten en las pinzas de Crabulon mientras llueven esporas desde arriba
+			"¡Suena como pinzas de cangrejo!"
 			'''
 	}
 
 	CantStopWontStop: {
-		DisplayName: Cant Stop Wont Stop
-		Tooltip: This is the song that never ends...!
+		DisplayName: No puedo parar, no voy a parar
+		Tooltip: ¡Esta es la canción que nunca acaba...!
 	}
 
 	GlacialHarvester: {
-		DisplayName: Glacial Harvester
+		DisplayName: Cosechadora glacial
 		Tooltip:
 			'''
-			Hold <left> to spin the scythe
-			Press <right> to slam the scythe, sending out a massive wave of ice
-			Inflicts [rbuff:Frostburn]
+			Mantén pulsado <left> para hacer girar la guadaña
+            Pulsa <right> para asestar un golpe con la guadaña y lanzar una enorme ola de hielo
+			Inflige [rbuff:Frostburn]
 			'''
-		Cooldown: Glacial Slam is on cooldown
+		Cooldown: Golpe glacial está en enfriamiento
 	}
 
 	Aphelion: {
-		DisplayName: Aphelion
+		DisplayName: Afélio
 		Tooltip:
 			'''
-			Hold <left> to spin the scythe, pulling nearby enemies into its vortex
-			Spin long enough to summon two orbiting [c/DDEEFF:S][c/D2E3FA:t][c/C7D8F5:e][c/BCCDEF:l][c/B2C2EA:l][c/A7B7E5:a][c/9CACE0:r] [c/8697D5:M][c/7B8CD0:a][c/7181CB:s][c/6676C5:s][c/5B6BC0:e][c/5060BB:s]
-			When both are active, press <right> to collapse their orbit into a supernova
-			Inflicts [rbuff:CalamityMod/MiracleBlight] on hit
-			[c/DDEEFF:S][c/D2E3FA:t][c/C7D8F5:e][c/BCCDEF:l][c/B2C2EA:l][c/A7B7E5:a][c/9CACE0:r] [c/8697D5:M][c/7B8CD0:a][c/7181CB:s][c/6676C5:s][c/5B6BC0:e][c/5060BB:s] inflict [rbuff:CalamityMod/Dragonfire], [rbuff:CalamityMod/GodSlayerInferno], and [rbuff:CalamityMod/Daybroken] on contact
+			Mantén pulsado <left> para hacer girar la guadaña y atraer a los enemigos cercanos hacia su vórtice
+			Gira el tiempo suficiente para invocar dos [c/DDEEFF:S][c/D2E3FA:t][c/C7D8F5:e][c/BCCDEF:l][c/B2C2EA:l][c/A7B7E5:a][c/9CACE0:r] [c/8697D5:M][c/7B8CD0:a][c/7181CB:s][c/6676C5:s][c/5B6BC0:e][c/5060BB:s]
+			Cuando ambos estén activos, pulsa <derecha> para colapsar su órbita y convertirla en una supernova
+			 Inflige [rbuff:CalamityMod/MiracleBlight] al impactar
+			[c/DDEEFF:S][c/D2E3FA:t][c/C7D8F5:e][c/BCCDEF:l][c/B2C2EA:l][c/A7B7E5:a][c/9CACE0:r] [c/8697D5:M][c/7B8CD0:a][c/7181CB:s][c/6676C5:s][c/5B6BC0:e][c/5060BB:s] inflige [rbuff:CalamityMod/Dragonfire], [rbuff:CalamityMod/GodSlayerInferno] y [rbuff:CalamityMod/Daybroken] al entrar en contacto
 			'''
 	}
 
 	Thaumonomicon: {
-		DisplayName: Thaumonomicon
+		DisplayName: Taumonomicon
 		Tooltip: ""
 	}
 }
@@ -1356,191 +1359,191 @@ Projectiles: {
 
 Configs: {
 	BossProgressionConfig: {
-		DisplayName: Boss Progression Config
-		Headers.BossProgressionChanges: Boss Progression Changes
+		DisplayName: Configuración de la progresión de jefes
+		Headers.BossProgressionChanges: Cambios en la progresión de los jefes
 
 		GrandFlareGun: {
-			Label: Grand Thunder Bird Recipe Change
-			Tooltip: Changes Grand Flare Gun and Storm Flare to require Stormlion Mandibles rather than Vulture Feathers. Defaults to True
+			Label: Cambio de receta para invocar al Gran Pájaro del Trueno
+			Tooltip: Modifica la Gran Pistola de bengalas y la Bengala de tormenta para que requieran Mandíbulas de león de tormenta en lugar de Plumas de buitre.
 		}
 
 		DesertMedallion: {
-			Label: Desert Scourge Recipe Change
-			Tooltip: Changes Desert Medallion to use Sandstone Ingots from the Grand Thunder Bird. Defaults to True
+			Label: Cambio de receta para invocar al Azote del desierto
+			Tooltip: Cambia Medallón del desierto para que utilice lingotes de arenisca del Gran Pájaro del Trueno. 
 		}
 
 		DecapoditaSprout: {
-			Label: Crabulon Recipe Change
-			Tooltip: Changes Decapodita Sprout to use Pearl Shards, Storm Feathers, and Queen Jelly. Defaults to True
+			Label: Cambio de receta para invocar a Crabulón
+			Tooltip: Modifica el Brotes de Decapodita para que utilice fragmentos de perla, plumas de tormenta y jalea real. 
 		}
 
 		MarbleGranite: {
-			Label: Granite Energy Storms and Buried Champion Recipe Changes
-			Tooltip: Changes Ancient Blade and Unstable Core to require Aerialite Bars. Defaults to True
+			Label: Cambio de recetas para invocar al Tormensa de energía de granito y al El campeón enterrado 
+			Tooltip: Modifica la Hoja ancestral y el Núcleo inestable para que requieran lingotes de Aerialita. 
 		}
 
 		OverloadedSludge: {
-			Label: Slime God Recipe Change
-			Tooltip: Changes Overloaded Sludge to use Enchanted Marble and Empowered Granite. Defaults to True
+			Label: Cambio de receta para invocar al Dios Slime
+			Tooltip: Modifica el Lodo sobrecargado para que utilice Mármol encantado y Granito potenciado.
 		}
 
 		StarCaller: {
-			Label: Star Scouter Recipe Change
-			Tooltip: Changes Star Caller to use Aerialite Bars and the evil boss material. Defaults to True
+			Label: Cambio de receta para invocar al Explorador Estelar
+			Tooltip: Modifica el Llamador Estelar para que utilice lingotes de aerialita y el material de uno de los jefes malignos.
 		}
 
 		CryoKey: {
-			Label: Cryogen Recipe Change
-			Tooltip: Changes Cryo Key to use Strider Fangs. Defaults to True
+			Label: Cambio de receta para invocar a Criógeno
+			Tooltip: Modica la Llave criónica para que use Colmillos de zancudo.
 		}
 
 		MechBosses: {
-			Label: Mech Bosses Recipe Change
-			Tooltip: Changes Mechanical Eye, Worm, and Skull to each require a Strange Alien Motherboard. Defaults to True
+			Label: Cambios de recetas para invocar a los Jefes mecánicos
+			Tooltip: Cambia Ojo mecánico, «Gusano» y Cráneo para que cada uno requiera una Placa base alienígena extraña
 		}
 
 		Lich: {
-			Label: Lich Summon Change
-			Tooltip: Changes the Ancient Phylactory to require Essence of Havoc to summon the Lich rather than pumpkins. Defaults to True
+			Label: Cambio de receta para invocar al Lich
+			Tooltip: Modifica el Filactorio Antiguo para que, en lugar de calabazas, requiera Esencia del Caos para invocar al Lich.
 		}
 
 		CharredIdol: {
-			Label: Brimstone Elemental Recipe Change
-			Tooltip: Changes Charred Idol to require a Void Heart. Defaults to True
+			Label: Cambio de receta para invocar a la Elemental de azufre
+			Tooltip: Modifica el Ídolo carbonizado para que requiera un Corazón del Vacío.
 		}
 
 		Seafood: {
-			Label: Aquatic Scourge Recipe Change
-			Tooltip: Changes Seafood to require Queen Jelly. Defaults to True
+			Label: Cambio de receta para invocar al Azote acuático
+			Tooltip: Modidica el Marisco para que requiera Jalea real.
 		}
 
 		EyeOfDesolation: {
-			Label: Calamitas Clone Recipe Change
-			Tooltip: Changes Eye of Desolation to require Voidseer's Pearl. Defaults to True
+			Label: Cambio de receta para invocar al Clon de Calamitas
+			Tooltip: Modifica Ojo de la desolación para que requiera la Perla del vidente del vacío
 		}
 
 		DeathWhistle: {
-			Label: Ravager Recipe Change
-			Tooltip: Changes Death Whistle to require Cursed Cloth. Defaults to True
+			Label: Cambio de receta para invocar al Devastador
+			Tooltip: Modifica el Silbido de la muerte para que requiera Tela maldita.
 		}
 
 		DoomSayerCoin: {
-			Label: Primordials Recipe Change
-			Tooltip: Changes Doom Sayer's Coin to require Ashes of Calamity. Defaults to True
+			Label:  Cambio de receta para invocara los Primordiales
+			Tooltip: Modifica Moneda del Augurador del Fin para que requiera Cenizas de la calamidad.
 		}
 
 		RuneOfKos: {
-			Label: Providence Spawning Changes
-			Tooltip: Changes Mark of Providence recipe to require Divine Geodes and Primordials Essences, and makes it no longer drop from Providence. Defaults to True
+			Label: Cambios en la aparición de Providencia
+			Tooltip: Modifica la receta de la Marca de la Providencia para que requiera Geodas divinas» y Esencias primordiales, y hace que ya no se obtenga como botín de Providencia.
 		}
 	}
 
 	ClassBalancerConfig: {
-		DisplayName: Class Balancer Config
+		DisplayName: Configuración para el balance de clases
 
 		Headers: {
-			ClassBalanceChanges: Class Balance Changes
-			ClassMechanicChanges: Class Mechanic Changes
+			ClassBalanceChanges: Cambios en el equilibrio de las clases
+			ClassMechanicChanges: Cambios en la mecánica de las clases
 		}
 
 		HealerDamageModifier: {
-			Label: Healer Damage Modifier
-			Tooltip: Multiplier for Healer damage. Multiplier applies after all other changes have been applied.
+			Label: Modificador de daño de sanador
+			Tooltip: Multiplicador del daño de sanador. El multiplicador se aplica una vez que se han aplicado todos los demás cambios.
 		}
 
 		BardDamageModifier: {
-			Label: Bard Damage Modifier
-			Tooltip: Multiplier for Bard damage. Multiplier applies after all other changes have been applied.
+			Label: Modificador de daño de bardo
+			Tooltip: Multiplicador del daño de Bardo. El multiplicador se aplica una vez que se han aplicado todos los demás cambios.
 		}
 
 		RogueDamageModifier: {
-			Label: Rogue Damage Modifier
-			Tooltip: Multiplier for Rogue/Throwing damage. Multiplier applies after all other changes have been applied.
+			Label: Modificador de daño de rogue
+			Tooltip: Multiplicador del daño de rogue/arrojador. El multiplicador se aplica una vez que se han aplicado todos los demás cambios.
 		}
 
 		RangedDamageModifier: {
-			Label: Ranged Damage Modifier
-			Tooltip: Multiplier for Ranged damage. Multiplier applies after all other changes have been applied.
+			Label: Modificador de daño a distancia
+			Tooltip: Multiplicador del daño a distancia. El multiplicador se aplica una vez que se han aplicado todos los demás cambios.
 		}
 
 		MagicDamageModifier: {
-			Label: Magic Damage Modifier
-			Tooltip: Multiplier for Magic damage. Multiplier applies after all other changes have been applied.
+			Label: Modificador de daño mágico
+			Tooltip: Multiplicador del daño mágico. El multiplicador se aplica una vez que se han aplicado todos los demás cambios.
 		}
 
 		SummonDamageModifier: {
-			Label: Summon Damage Modifier
-			Tooltip: Multiplier for Summon damage. Multiplier applies after all other changes have been applied.
+			Label: Modificador de daño de invocación
+			Tooltip: Multiplicador del daño de Invocador. El multiplicador se aplica una vez que se han aplicado todos los demás cambios.
 		}
 
 		MeleeDamageModifier: {
-			Label: Melee Damage Modifier
-			Tooltip: Multiplier for Melee damage. Multiplier applies after all other changes have been applied.
+			Label: Modificador de daño cuerpo a cuerpo
+			Tooltip: Multiplicador del daño cuerpo a cuerpo. El multiplicador se aplica una vez que se han aplicado todos los demás cambios.
 		}
 
 		HealingBonusModifier: {
-			Label: Healing Bonus Modifier
-			Tooltip: Multiplier for healing bonuses. Multiplier applies after all other changes have been applied.
+			Label: Modificador de bonificación de curación
+			Tooltip:  Multiplicador de las bonificaciones de curación. El multiplicador se aplica una vez que se han aplicado todos los demás cambios.
 		}
 
 		RiffsRequireRiffInstrumentToBeHeld: {
-			Label: Riffs Require Riff Instrument To Be Held
-			Tooltip: Riffs end automatically when the weapon is no longer held.
+			Label:  Para tocar riffs es necesario sujetar el instrumento con el que se toca
+			Tooltip: Los rifs terminan automáticamente cuando se deja de empuñar el arma.
 		}
 
 		MistimedDamagePen: {
-			Label: Mistimed Damage Penanlty
+			Label: Penalización por daño inoportuno
 			Tooltip:
 				'''
-				Thorium's damage penalty for mistimed big instrument attacks.
-				Thorium's default is 0.75, meaning mistimed attacks deal 75% less damage.
-				Ragnarok's default is 0.6, meaning mistimed attacks deal 60% less damage.
-				[c/7C0A02:Some mods may force this value to another value for their own balance, however.]
+				Penalización de daño de Thorium por ataques con instrumentos grandes mal sincronizados
+				El valor predeterminado de Thorium es 0,75, lo que significa que los ataques mal sincronizados infligen un 75% menos de daño.
+				El valor predeterminado de Ragnarok es 0,6, lo que significa que los ataques mal sincronizados infligen un 60% menos de daño.
+				[c/7C0A02:Sin embargo, algunos mods pueden forzar este valor a otro distinto para mantener su propio balance.]
 				'''
 		}
 	}
 
 	ItemBalancerConfig: {
-		DisplayName: Item Balancer Config
-		Headers.ItemBalanceChanges: Item Balance Changes Header
+		DisplayName: Configuración para el balance de objetos
+		Headers.ItemBalanceChanges: Encabezado de cambios de balance de objetos
 
 		OmegaCore: {
-			Label: Omega Core
-			Tooltip: Nerfs the movement speed bonus of Omega Core to keep it more balanced for the further progression in the game.
+			Label: Núcleo Omega
+			Tooltip: Se reduce la bonificación de velocidad de movimiento del Núcleo Omega para que resulte más equilibrado a medida que avanza el juego.
 		}
 
 		genericweaponchanges: {
-			Label: Generic Weapon Tweaks
-			Tooltip: Applies general weapon rebalances.
+			Label: Ajustes generales de las armas
+			Tooltip: Aplica ajustes generales al rebalance de las armas.
 		}
 	}
 
 	UIConfig: {
-		DisplayName: UI Config
+		DisplayName: Configuración de la interfaz de usuario
 
 		Headers: {
-			UITweaks: UI Tweaks Header
-			Debug: Debug Header
+			UITweaks: Encabezado de ajustes de la interfaz de usuario
+			Debug: Encabezado de depuración
 		}
 
 		BardEmpowermentBarOffsetX: {
-			Label: Bard Empowerment Bar Offset X
-			Tooltip: X offset of the bard empowerment bar. Default value should already fix the overlap with Calamity item cooldowns.
+			Label: Desplazamiento X de la barra de bardo
+			Tooltip: Desplazamiento en X de la barra de potenciación del bardo. El valor por defecto ya debería solucionar la superposición con los tiempos de enfriamiento de los objetos de Calamity.
 		}
 
 		BardEmpowermentBarOffsetY: {
-			Label: Bard Empowerment Bar Offset Y
-			Tooltip: Y offset of the bard empowerment bar. Default value should already fix the overlap with Calamity item cooldowns.
+			Label: Desplazamiento Y de la barra de bardo
+			Tooltip: Desplazamiento en Y de la barra de potenciación del bardo. El valor por defecto ya debería solucionar la superposición con los tiempos de enfriamiento de los objetos de Calamity.
 		}
 	}
 
 	ModCompatConfig: {
-		DisplayName: Mod Compatibility Config
-		Headers.ModCompat: Mod Compat
+		DisplayName: Configuración de compatibilidad con mods
+		Headers.ModCompat: Compatibilidad de mods
 
 		item_deduplication_mode: {
-			Label: Calamity Bard & Healer item deduplication
-			Tooltip: Select which item recipes of duplicate items are loaded. Off enables both mod versions.
+			Label: Eliminación de objetos duplicados de Bardo y Sanador de Calamity
+			Tooltip: Selecciona qué recetas de objetos duplicados se cargan. La opción "Off" (Desactivado) habilita ambas versiones del mod.
 		}
 	}
 
@@ -1564,57 +1567,57 @@ Configs: {
 	}
 
 	BossConfig: {
-		DisplayName: Boss Config
-		Headers.BossChanges: Boss Changes
+		DisplayName: Configuración de jefes
+		Headers.BossChanges: Cambios de jefes
 
 		bird: {
-			Label: Grand Thunderbird AI
-			Tooltip: Select which AI rework should be used. Off for default behaviour.
+			Label: IA del Gran Pájaro del trueno
+			Tooltip: Selecciona qué reajuste de IA se debe utilizar. Desactivado para el comportamiento predeterminado
 		}
 
 		jelly: {
-			Label: Queen Jellyfish AI
-			Tooltip: Select which AI rework should be used. Off for default behaviour.
+			Label: IA de la Reina medusa
+			Tooltip: Selecciona qué reajuste de IA se debe utilizar. Desactivado para el comportamiento predeterminado
 		}
 
 		bossstatstweak: {
-			Label: Boss Stat Tweak
-			Tooltip: Select if Thorium bosses receive stat tweaks (attack damage, health, defense, damage reduction) for Calamity scaling.
+			Label: Ajustes en las estadísticas de los jefes
+			Tooltip: Selecciona si los jefes de Thorium reciben ajustes en sus estadísticas (daño de ataque, salud, defensa, reducción de daño) para la escalabilidad de Calamity.
 		}
 
 		bossrush: {
-			Label: Thorium Boss Rush
-			Tooltip: Select which boss rush mode should be used. Off disables boss rush.
+			Label: Boss Rush de Thorium
+			Tooltip: Selecciona qué modo boss rush quieres utilizar. Si lo desactivas, se desactiva el modo boss rush.
 		}
 
 		viscount: {
-			Label: Viscount AI
-			Tooltip: Select which AI rework should be used. Off for vanilla behaviour. Auto uses Ragnarok AI if no other rework is detected.
+			Label: IA del Vizconde
+			Tooltip: Selecciona qué versión mejorada de la IA se debe utilizar. Desactivada para el comportamiento predeterminado. La opción Auto utiliza la IA de Ragnarok si no se detecta ningún otro rework.
 		}
 
 		granite: {
-			Label: Granite Energy Storm AI
-			Tooltip: Select which AI rework should be used. Off for vanilla behaviour. Auto uses Ragnarok AI if no other rework is detected.
+			Label: IA de la Tormenta de energía de granito
+			Tooltip: Selecciona qué versión mejorada de la IA se debe utilizar. Desactivada para el comportamiento predeterminado. La opción Auto utiliza la IA de Ragnarok si no se detecta ningún otro rework.
 		}
 
 		champion: {
-			Label: Buried Champion AI
-			Tooltip: Select which AI rework should be used. Off for vanilla behaviour. Auto uses Ragnarok AI if no other rework is detected.
+			Label: IA del Campeón enterrado
+			Tooltip: Selecciona qué versión mejorada de la IA se debe utilizar. Desactivada para el comportamiento predeterminado. La opción Auto utiliza la IA de Ragnarok si no se detecta ningún otro rework.
 		}
 
 		scouter: {
-			Label: Star Scouter AI
-			Tooltip: Select which AI rework should be used. Off for vanilla behaviour. Auto uses Ragnarok AI if no other rework is detected.
+			Label: IA del Explorador estelar
+			Tooltip: Selecciona qué versión mejorada de la IA se debe utilizar. Desactivada para el comportamiento predeterminado. La opción Auto utiliza la IA de Ragnarok si no se detecta ningún otro rework.
 		}
 
 		strider: {
-			Label: Borean Strider AI
-			Tooltip: Select which AI rework should be used. Off for vanilla behaviour. Auto uses Ragnarok AI if no other rework is detected.
+			Label: IA del Caminante boreal
+			Tooltip: Selecciona qué versión mejorada de la IA se debe utilizar. Desactivada para el comportamiento predeterminado. La opción Auto utiliza la IA de Ragnarok si no se detecta ningún otro rework.
 		}
 
 		beholder: {
-			Label: Fallen Beholder AI
-			Tooltip: Select which AI rework should be used. Off for vanilla behaviour. Auto uses Ragnarok AI if no other rework is detected.
+			Label: IA del Observador caído
+			Tooltip: Selecciona qué versión mejorada de la IA se debe utilizar. Desactivada para el comportamiento predeterminado. La opción Auto utiliza la IA de Ragnarok si no se detecta ningún otro rework.
 		}
 	}
 
@@ -1632,7 +1635,7 @@ Configs: {
 		}
 
 		ThoriumBossRework: {
-			Label: Thorium Boss Rework
+			Label: Reworks de jefes de Thorium
 			Tooltip: ""
 		}
 
@@ -1643,200 +1646,200 @@ Configs: {
 	}
 
 	ClientConfig: {
-		DisplayName: Client Config
+		DisplayName: Configuración del cliente
 
 		Headers: {
 			Audio: Audio
-			UITweaks: UI Tweaks
-			WelcomeText: Welcome Text
-			Visual: Visuals
-			VisFluxMeter: Vis Flux Meter Header
+			UITweaks: Ajustes en la interfaz de usuario
+			WelcomeText: Texto de bienvenida
+			Visual: Elementos visuales
+			VisFluxMeter: Cabecera del medidor de flujo de aire
 		}
 
 		BardEmpowermentBarOffsetX: {
-			Label: Bard Empowerment Bar Offset X
+			Label: Desplazamiento X de la barra de potenciación del bardo
 			Tooltip: ""
 		}
 
 		BardEmpowermentBarOffsetY: {
-			Label: Bard Empowerment Bar Offset Y
+			Label: Desplazamiento Y de la barra de potenciación del bardo
 			Tooltip: ""
 		}
 
 		RiffMusicVolume: {
-			Label: Riff Music Volume
+			Label: Volumen de la música del riff
 			Tooltip:
 				'''
-				Set the volume for the Riff music.
-				Setting to 0 will disable Riff music, and won't fade out playing music when a riff starts.
+				Ajusta el volumen de la música de los riffs.
+				Si se establece en 0, se desactivará la música de los riffs y no se atenuará la música en reproducción al comenzar un riff
 				'''
 		}
 
 		StartText: {
-			Label: Start Text
-			Tooltip: Enable or Disable welcome text on world entry.
+			Label: Inicio del texto
+			Tooltip: Activa o desactiva el texto de bienvenida al entrar en el mundo
 		}
 
 		RiffScreenEffectIntensity: {
-			Label: Riff Screen Effect Intensity
-			Tooltip: Controls the intensity of Riff Screen Effects. Set to 0 to disable.
+			Label: Intensidad del efecto de pantalla del riff
+			Tooltip: Controla la intensidad de los efectos de pantalla del riff. Ajústalo a 0 para desactivarlos.
 		}
 
 		MissSoundPreset: {
-			Label: Miss Sound Preset
-			Tooltip: Choose a preset sound style for your missed timing sounds.
+			Label: Preajuste de sonido de fallo
+			Tooltip: Elige un estilo de sonido predefinido para los avisos de tiempo agotado.
 		}
 
 		CustomMissSoundPath: {
-			Label: Custom Miss Sound Path
+			Label: Ruta de sonido personalizada de fallo
 			Tooltip:
 				'''
-				Type in a mod sound path for the custom missed timing sound you would like to use.
-				For example, 'RagnarokMod/Sounds/bonk'.
-				Must have a corresponding .ogg file in the mod's Sounds folder, otherwise it might cause crashes or just not work.
-				Does not do anything unless the Miss Sound Preset is set to Custom.
+				Introduce la ruta de sonido del mod para el sonido personalizado de fallo que quieras utilizar.
+				Por ejemplo, "RagnarokMod/Sounds/bonk".
+				Debe haber un archivo .ogg correspondiente en la carpeta Sounds del mod; de lo contrario, podría provocar fallos en el juego o simplemente no funcionar.
+				No tiene ningún efecto a menos que la opción Preajuste de sonido de fallo esté configurada en Personalizado.
 				'''
 		}
 
 		MissSoundVolume: {
-			Label: Miss Sound Volume
-			Tooltip: Set the volume for the missed timing sound.
+			Label: Volumen del sonido de fallo
+			Tooltip: Ajusta el volumen del sonido de aviso de tiempo agotado.
 		}
 
 		MissSoundDuringRiff: {
-			Label: Miss Sound During Riff
-			Tooltip: Determines whether the missed timing sound will play during an active riff.
+			Label: Sonido de fallo durante el riff
+			Tooltip: Determina si se reproducirá el sonido de falta de sincronización durante un riff activo.
 		}
 
 		PlaySoundDuringRiff: {
-			Label: Play Sound During Riff
+			Label: Reproducir sonido durante el riff
 			Tooltip:
 				'''
-				Determines whether the instrument sound plays during riffs.
-				Set to 1 to always play the sound during riffs, -1 to never play the sound during riffs.
-				0 will only play the sound during riffs for intended specific items, such as the Fungal Castanets.
+				Determina si se reproduce el sonido del instrumento durante los riffs.
+				Establece el valor en 1 para que el sonido se reproduzca siempre durante los riffs, y en -1 para que nunca se reproduzca.
+				El valor 0 hará que el sonido solo se reproduzca durante los riffs en los objetos específicos previstos, como las Castañuelas fúngicas.
 				'''
 		}
 
 		MeterOffsetX: {
-			Label: Meter Offset X
+			Label: Desplazamiento del medidor X
 			Tooltip: ""
 		}
 
 		MeterOffsetY: {
-			Label: Meter Offset Y
+			Label: Desplazamiento del medidor Y
 			Tooltip: ""
 		}
 
 		RiffsOverrideEventMusic: {
-			Label: Riffs Override Event Music
-			Tooltip: Toggles if Riff Music overrides Event music
+			Label: Los riffs tienen prioridad sobre la música de los eventos
+			Tooltip: Activa o desactiva la opción de que la música de Riff sustituya a la música de los eventos.
 		}
 
 		RiffsOverrideBossMusic: {
-			Label: Riffs Override Boss Music
-			Tooltip: Toggles if Riff Music overrides Boss music
+			Label: Los riffs se imponen a la música de los jefes
+			Tooltip: Activa o desactiva la opción de que la música de los riffs sustituya a la de los jefes.
 		}
 	}
 
 	DebugConfig: {
-		DisplayName: Debug Config
-		Headers.Debugging: Debugging
+		DisplayName: Configuración de depuración
+		Headers.Debugging: Depuración
 
 		ItemHoldOffsetX: {
-			Label: Item Hold Offset X
+			Label: Desplazamiento X de la sujeción del objeto
 			Tooltip: ""
 		}
 
 		ItemHoldOffsetY: {
-			Label: Item Hold Offset Y
+			Label: Desplazamiento Y de la sujeción del objeto
 			Tooltip: ""
 		}
 
 		ItemUseStylePerpendicular: {
-			Label: Item Use Style Perpendicular
+			Label: Estilo de uso del objeto: Perpendicular
 			Tooltip: ""
 		}
 
 		ShootOffsetForward: {
-			Label: Shoot Offset Forward
+			Label: Disparo desplazado hacia delante
 			Tooltip: ""
 		}
 
 		ShootOffsetPerpendicular: {
-			Label: Shoot Offset Perpendicular
+			Label: Disparo descentrado perpendicular
 			Tooltip: ""
 		}
 
 		ItemHoldPerpendicular: {
-			Label: Item Hold Perpendicular
+			Label: Sujeción del objeto perpendicular
 			Tooltip: ""
 		}
 	}
 
 	AprilChaos: {
-		DisplayName: April Chaos
+		DisplayName: Caos de Abril
 
 		Headers: {
-			AprilChaos: April Chaos
-			RadiantMage: Radiant Mage
-			MeleeSummoner: Melee Summoner
-			RogueRanger: Rogue Ranger
-			ObnoxiousBard: Obnoxious Bard
+			AprilChaos: Caos de Abril
+			RadiantMage: Mago radiante
+			MeleeSummoner: Invocador y cuerpo a cuerpo
+			RogueRanger: Rogue y a distancia
+			ObnoxiousBard: El Bardo insoportable
 		}
 
 		MasterToggle: {
-			Label: Master Toggle
-			Tooltip: Disables/Enables all options below.
+			Label: Botón alternador
+			Tooltip: Desactiva/activa todas las opciones que aparecen a continuación
 		}
 
 		RadMage: {
-			Label: Radiant Mage
+			Label: Mago radiante
 			Tooltip:
 				'''
-				Healer just felt like an extension of mage.
-				So we fixed that.
-				By replacing Mage with Healer.
-				All magic is healing if you believe hard enough. 
-				Or hit hard enough.
+				El sanador parecía una mera extensión del mago.
+				Así que lo hemos arreglado.
+				Sustituyendo mago por sanador.
+				Toda la magia es sanadora si crees con suficiente fuerza. 
+				O si golpeas con suficiente fuerza.
 				'''
 		}
 
 		MelSum: {
-			Label: Melee Summoner
+			Label: Invocador cuerpo a cuerpo
 			Tooltip:
 				'''
-				Summoner had some unfortunate progression gaps.
-				So we fixed that.
-				By giving all of Melee to Summoner.
-				Your minions now respect you. 
-				Your sword does not.
+				Invocador tenía algunas carencias desafortunadas en su progresión.
+                Así que lo hemos solucionado.
+                Otorgándole a Invocador todas las habilidades de combate cuerpo a cuerpo.
+                Ahora tus súbditos te respetan. 
+                Tu espada, en cambio, no.
 				'''
 		}
 
 		RogRan: {
-			Label: Rogue Ranger
+			Label: Rogue y a distancia
 			Tooltip:
 				'''
-				Rogue is taking back its roots.
-				By absorbing Ranger.
-				They were always the same person. 
-				One just had better shoes.
+				Rogue vuelve a sus raíces.
+				Al absorber la clase a distancia.
+				Siempre fueron la misma persona. 
+				Solo que uno llevaba mejores zapatos.
 				'''
 		}
 
 		ObBard: {
-			Label: Obnoxious Bard
-			Tooltip: Makes your riffs... less riffin
+			Label: El bardo insoportable
+			Tooltip: Hace que tus riffs... suenen menos a riffs
 		}
 
 		OwnRiffWeight: {
-			Label: Own Riff Weight
+			Label: Peso propio del riff
 			Tooltip: ""
 		}
 
 		RiffWeights: {
-			Label: Riff Weights
+			Label: Peso de los riffs
 			Tooltip: ""
 		}
 	}
@@ -1845,32 +1848,32 @@ Configs: {
 		Tooltip: ""
 
 		Default: {
-			Label: Default
+			Label: Por defecto
 			Tooltip: ""
 		}
 
 		Softer: {
-			Label: Softer
+			Label: Más suave
 			Tooltip: ""
 		}
 
 		Percussion: {
-			Label: Percussion
+			Label: Percusión
 			Tooltip: ""
 		}
 
 		Custom: {
-			Label: Custom
+			Label: Personalizado
 			Tooltip: ""
 		}
 
 		Bounce: {
-			Label: Bounce
+			Label: Rebote
 			Tooltip: ""
 		}
 
 		Meow: {
-			Label: Meow
+			Label: Miau
 			Tooltip: ""
 		}
 
@@ -1881,22 +1884,22 @@ Configs: {
 	}
 }
 
-WikiMessage: "[i:RagnarokMod/EquivalentExchange][c/FF2929:Help us complete the official ][c/B428FF:Ragnarok Mod][c/FF2929: wiki at ][c/3898FF:ragnarokmod.wiki.gg][c/FF2929:!][i:RagnarokMod/CorrosiveFlux]"
-FandomWarning: "[i:GolfCupFlagRed][c/B428FF:Ragnarok Mod ][c/FF2929:has never had a Fandom wiki. Any information from Fandom may be inaccurate!][i:GolfCupFlagRed]"
-DiscordInvite: "[i:WireKite][c/9696FF:Join the official ][c/B428FF:Ragnarok Mod][c/9696FF: Discord! ][c/3898FF:discord.gg/UBAQwtKCbf][i:WireKite]"
-PatreonAd: "[i:LuckyCoin][c/96FF96:If you enjoy the mod, consider supporting us on Patreon: ][c/3898FF:patreon.com/c/DevTeamRagnarok][i:LuckyCoin]"
-DisableMe: "[i:Wrench][c/FFFF0A:If you would like to stop getting these messages, you can disable them in the config in your pause menu!][i:Wrench]"
+WikiMessage: "[i:RagnarokMod/EquivalentExchange][c/FF2929:Ayúdanos a completar la wiki oficial ][c/B428FF:Ragnarok Mod][c/FF2929: en ][c/3898FF:ragnarokmod.wiki.gg][c/FF2929:!] [i:RagnarokMod/CorrosiveFlux]""
+FandomWarning: "[i:GolfCupFlagRed][c/B428FF:El mod Ragnarok ][c/FF2929:nunca ha tenido una wiki Fandom. ¡Cualquier información procedente de Fandom puede ser inexacta!][i:GolfCupFlagRed]
+DiscordInvite: "[i:WireKite][c/9696FF:¡Únete al servidor oficial de Discord del ][c/B428FF:mod Ragnarok][c/9696FF:! ][c/3898FF:discord.gg/UBAQwtKCbf][i:WireKite]
+PatreonAd: "[i:LuckyCoin][c/96FF96:Si te gusta el mod, plantéate apoyarnos en Patreon: ][c/3898FF:patreon.com/c/DevTeamRagnarok][i:LuckyCoin]"
+DisableMe: "[i:Wrench][c/FFFF0A:Si no quieres seguir recibiendo estos mensajes, ¡puedes desactivarlos en la configuración del menú de pausa!][i:Wrench]"
 
 Riffs: {
-	Cooldown: Riff Cooldown
-	EmpowermentsHeader: Riff Empowerments:
+	Cooldown: Tiempo de enfriamiento del riff
+	EmpowermentsHeader: Potenciaciones de riffs:
 }
 
 DamageClasses: {
-	ThoriumRogueClass.DisplayName: rogue damage
-	MeleeSummoner.DisplayName: summelee damage
-	RadiantMagic.DisplayName: radiagic damage
-	RogueRanger.DisplayName: roganged damage
+	ThoriumRogueClass.DisplayName: daño rogue
+	MeleeSummoner.DisplayName: daño invocamelee
+	RadiantMagic.DisplayName: daño magiradiante
+	RogueRanger.DisplayName: daño distanciarogue
 }
 
-Tiles.MenuMusicBoxTile.MapEntry: Menu Music Box Tile
+Tiles.MenuMusicBoxTile.MapEntry: Caja de música

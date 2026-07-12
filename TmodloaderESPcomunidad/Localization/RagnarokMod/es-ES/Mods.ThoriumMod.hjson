@@ -1,634 +1,635 @@
 Buffs: {
 	AssassinPotionBuff: {
-		DisplayName: Assassin
-		Description: Out of combat rogue attacks will crit for x4 damage
+		DisplayName: Asesino
+		Description: Los ataques de rogue fuera de combate infligirán daño x4
 	}
 
 	DeepFreezeCoatingBuff: {
-		DisplayName: Rogue Weapon Imbue : Deep Freeze
-		Description: Rogue damage has a chance to significantly hinder the hit enemies movement
+		DisplayName: Imbuición de arma Rogue : Congelación profunda
+		Description: El daño infligido por la clase Rogue tiene una probabilidad de dificultar considerablemente el movimiento de los enemigos
 	}
 
 	ExplosiveCoatingBuff: {
-		DisplayName: Rogue Weapon Imbue : Explosive
-		Description: Rogue damage has a chance to burst, setting nearby enemies on fire
+		DisplayName: Imbuición de arma Rogue : Explosivo
+		Description: El daño infligido por la clase Rogue  tiene la posibilidad de estallar, prendiendo fuego a los enemigos cercanos
 	}
 
 	GorgonCoatingBuff: {
-		DisplayName: Rogue Weapon Imbue : Gorgon Blood
-		Description: Rogue damage has a chance to petrify hit enemies
+		DisplayName: Imbuición de arma Rogue : Sangre de gorgona
+		Description: El daño infligido por la clase Rogue tiene la posibilidad de petrificar a los enemigos
 	}
 
 	LichSetBuff: {
-		DisplayName: Soul Harvest
-		Description: Your movement and rogue attack speed are greatly enhanced
+		DisplayName: Cosecha de almas
+		Description: Tu velocidad de movimiento y la velocidad de ataque rogue se han incrementado considerablemente
 	}
 
 	MyceliumVeins: {
-		DisplayName: Mycelium Veins
-		Description: Rogue attack speed increased by 10%
+		DisplayName: Venas de micelio
+		Description: La velocidad de ataque rogue aumenta un 10%
 	}
 
 	NinjaBuff: {
-		DisplayName: Sleight of Hand
-		Description: Rogue weapon velocity, speed, and critical strike chance increased
+		DisplayName: Juego de manos
+		Description: Se han aumentado la velocidad de las armas rogue, así como su rapidez y su probabilidad de golpe crítico
 	}
 
 	SporeCoatingBuff: {
-		DisplayName: Rogue Weapon Imbue : Spores
-		Description: Rogue damage has a chance to infect enemies with mycelium
+		DisplayName: Imbuición de arma Rogue : Esporas
+		Description: El daño infligido por la clase Rogue tiene la posibilidad de infectar a los enemigos con micelio
 	}
 
 	LastStandBuff: {
-		DisplayName: Last Stand
-		Description: Rogue weapon speed & damage increased by 30%, but at a price...
+		DisplayName: Última batalla
+		Description: La velocidad y el daño de las armas rogue aumentan un 30%, pero con un precio...
 	}
 
 	ThrowingSpeed: {
-		DisplayName: Rogue's Speed
-		Description: Your rogue attack speed has been increased by 15%
+		DisplayName: Velocidad de pícaro
+		Description: La velocidad de ataque rogue aumenta un 15%
 	}
 
 	ToxicCoatingBuff: {
-		DisplayName: Rogue Weapon Imbue : Toxic
-		Description: Rogue damage has a chance to poison hit enemies
+		DisplayName:  Imbuición de arma Rogue : Tóxico
+		Description: El daño infligido por la clase Rogue tiene la posibilidad de envenenar a los enemigos
 	}
 
 	TrueStrike: {
-		DisplayName: True Strike
-		Description: Your damage has a 100% chance to critically strike
+		DisplayName: Golpe certero
+		Description: Tu ataque tiene un 100% de probabilidad de ser un golpe crítico
 	}
 
 	GoldenScaleBuff: {
-		DisplayName: Goldfish
-		Description: You've got gills and a great cracker taste.\nUnfortunately, goldfish do not like the Abyss.
+		DisplayName: Pececito dorado
+		Description: Tienes branquias y un sabor a galleta estupendo.\nPor desgracia, a los peces de colores no les gusta el Abismo
 	}
 }
 
 Items: {
 	AmberRing: {
-		DisplayName: Amber Ring
-		Tooltip: 3% increased summon damage
+		DisplayName: Anillo de ámbar
+		Tooltip: Aumenta un 3% el daño de invocador
 	}
 
 	AmethystRing: {
-		DisplayName: Amethyst Ring
-		Tooltip: Increases armor penetration by 2
+		DisplayName: Anillo de amatista
+		Tooltip: Incrementa la penetración de armadura en 2
 	}
 
 	AquamarineRing: {
-		DisplayName: Aquamarine Ring
-		Tooltip: 3% increased radiant damage
+		DisplayName: Anillo de aguamarina
+		Tooltip: Aumenta un 3% el daño radiante
 	}
 
 	EmeraldRing: {
-		DisplayName: Emerald Ring
-		Tooltip: 3% increased ranged damage
+		DisplayName: Anillo de esmeralda
+		Tooltip: Aumenta un 3% el daño a distancia
 	}
 
 	OpalRing: {
-		DisplayName: Opal Ring
-		Tooltip: 3% increased symphonic damage
+		DisplayName: Anillo de ópalo
+		Tooltip: Aumenta un 3% el daño sinfónico
 	}
 
 	RubyRing: {
-		DisplayName: Ruby Ring
-		Tooltip: 3% increased melee damage
+		DisplayName: Anillo de rubí
+		Tooltip: Aumenta un 3% el daño cuerpo a cuerpo
 	}
 
 	SapphireRing: {
-		DisplayName: Sapphire Ring
-		Tooltip: 3% increased magic damage
+		DisplayName: Anillo de zafiro
+		Tooltip: Aumenta un 3% el daño mágico
 	}
 
 	TheRing: {
-		DisplayName: The Ring
+		DisplayName: El Anillo
 		Tooltip:
 			'''
-			4% increased damage
-			Increases armor penetration by 3
-			Increases critical strike chance by 4%
+			Aumenta el daño un 4%
+			Aumenta la penetración de armadura en 3
+			Aumenta la probabilidad de golpe crítico en un 4%
 			'''
 	}
 
 	TopazRing: {
-		DisplayName: Topaz Ring
-		Tooltip: 3% increased rogue damage
+		DisplayName: Anillo de topacio
+		Tooltip: Aumenta un 3% el daño rogue
 	}
 
 	FlightMail: {
-		DisplayName: Flight Mail
+		DisplayName: Coraza de vuelo
 		Tooltip:
 			'''
-			'The sky is your playing field'
-			10% increased rogue damage
+			"El cielo es tu campo de juego"
+			 Aumenta un 10% el daño rogue
 			'''
 	}
 
 	FlightMask: {
-		DisplayName: Flight Hat
+		DisplayName: Gorra de vuelo
 		Tooltip:
 			'''
-			'The sky is your playing field'
-			5% increased rogue damage
-			6% increased rogue critical strike chance
+			"El cielo es tu campo de juego"
+			Aumenta un 5% el daño rogue
+			Aumenta la probabilidad de golpe crítico en un 6%
 			'''
 	}
 
 	BronzeBreastplate: {
-		DisplayName: Bronze Breastplate
-		Tooltip: 20% increased rogue damage
+		DisplayName: Coraza de bronce
+		Tooltip: Aumenta un 20% el daño rogue
 	}
 
 	BronzeGreaves: {
-		DisplayName: Bronze Greaves
+		DisplayName: Grebas de bronce
 		Tooltip:
 			'''
-			10% increased rogue speed
-			10% increased movement speed
+			Aumenta un 10% la velocidad de ataque de rogue
+			Aumenta un 10% la velocidad de movimiento
 			'''
 	}
 
 	BronzeHelmet: {
-		DisplayName: Bronze Helmet
+		DisplayName: Casco de bronce
 		Tooltip:
 			'''
-			10% increased rogue critical strike chance
-			10% increased rogue weapon velocity
+			Aumenta la probabilidad de golpe crítico rogue en un 6%
+			Aumenta un 10% la velocidad de ataque de rogue
 			'''
 	}
 
 	DeepFreezeCoatingItem: {
-		DisplayName: Deep Freeze Coating
-		Tooltip: Rogue attacks will have a chance to significantly hinder the hit enemies movement
+		DisplayName: Revestimiento de Hielo profundo
+		Tooltip: Los ataques de rogue tendrán una probabilidad de dificultar considerablemente el movimiento de los enemigos
 	}
 
 	ExplosiveCoatingItem: {
-		DisplayName: Explosive Coating
-		Tooltip: Rogue attacks will have a chance to burst, causing nearby enemies to melt
+		DisplayName: Revestimiento explosivo
+		Tooltip: Los ataques rogue tendrán una probabilidad de provocar un estallido, lo que hará que los enemigos cercanos se derritan
 	}
 
 	GorgonCoatingItem: {
-		DisplayName: Gorgon Coating
-		Tooltip: Rogue attacks will have a chance to petrify enemies
+		DisplayName: Revestimiento de gorgona
+		Tooltip: Los ataques rogue tendrán una probabilidad de petrificar a los enemigos
 	}
 
 	SporeCoatingItem: {
-		DisplayName: Spore Coating
-		Tooltip: Rogue attacks will have a chance to infect enemies with mycelium
+		DisplayName: Revestimiento de esporas
+		Tooltip: Los ataques rogue tendrán una probabilidad de infectar a los enemigos con micelio
 	}
 
 	ToxicCoatingItem: {
-		DisplayName: Toxic Coating
-		Tooltip: Rogue attacks will have a chance to poison enemies
+		DisplayName: Revestimiento tóxico
+		Tooltip: Los ataques rogue tendrán una probabilidad de envenenar a los enemigos
 	}
 
 	PlagueLordFlask: {
-		DisplayName: Plague Lord's Flask
+		DisplayName: Frasco del señor de la peste
 		Tooltip:
 			'''
-			10% increased rogue damage
-			10% increased rogue weapon velocity
-			10% increased rogue weapon speed
-			Using a rogue item has a 20% chance to unleash two Blight Daggers
-			Blight Daggers home in on enemies and apply a highly contagious disease
-			[c/FF0000:Projectile damage caps at 2000.]
+			Aumenta un 10% el daño rogue
+			Aumenta un 10% la velocidad de ataque rogue
+			Aumenta un 10% la rapidez de las armas rogue
+			Al usar un objeto de rogue, hay un 20% de probabilidad de lanzar dos Dagas de la plaga
+			Las Dagas de la plaga se dirigen hacia los enemigos y les contagian una enfermedad altamente contagiosa
+			[c/FF0000:El daño causado por los proyectiles tiene un límite de 2000.]
 			'''
 	}
 
 	ShinobiSigil: {
-		DisplayName: Shinobi Sigil
+		DisplayName: Símbolo shinobi
 		Tooltip:
 			'''
-			6% increased rogue critical strike chance
-			Dealing two consecutive rogue attack critical strikes will discharge dark lightning and increase rogue attack speed briefly
-			[c/FF0000:Projectile damage caps at 500.]
+			Aumenta la probabilidad de golpe crítico rogue en un 6%
+			Si se asestan dos golpes críticos consecutivos con un ataque rogue, se descargará un rayo oscuro y 
+			aumentará brevemente la velocidad de ataque rogue
+			[c/FF0000::El daño causado por los proyectiles tiene un límite de 500.]
 			'''
 	}
 
 	TideTurnerBreastplate: {
-		DisplayName: Tide Turner's Depth-Guard
+		DisplayName: Guardaprofundo del Volteador de mareas
 		Tooltip:
 			'''
-			15% increased melee & rogue damage
-			10% increased melee & rogue weapon speed
-			16% increased melee & rogue weapon critical strike chance
+			Aumenta un 15% el daño cuerpo a cuerpo y de rogue
+			Aumenta un 10% la velocidad de ataque cuerpo a cuerpo y de rogue
+			Aumenta un 16% la probabilidad de golpe crítico de las armas cuerpo a cuerpo y de rogue
 			'''
 	}
 
 	TideTurnerGreaves: {
-		DisplayName: Tide Turner's Depth-Walkers
+		DisplayName: Corona Profunda del Volteador de mareas
 		Tooltip:
 			'''
-			10% increased melee & rogue damage
-			20% increased melee knockback & rogue weapon velocity
-			30% increased movement speed
+			Aumenta un 10% el daño cuerpo a cuerpo y de rogue
+			Aumenta un 20% el empuje de las armas cuerpo a cuerpo y velocidad de ataque rogue
+			Aumenta un 30% la velocidad de movmiento
 			'''
 	}
 
 	TideTurnersGaze: {
-		DisplayName: Tide Turner's Depth-Crown
+		DisplayName: Caminaprofundo del Volteador de mareas
 		Tooltip:
 			'''
-			'Unleash aquatic wrath upon your foes'
-			25% increased rogue damage
-			50% chance not to consume rogue items
-			Increases your maximum technique points by 2
-			Rogue damage briefly increases the damage the enemy takes by 10%
-			Produces a floating globule every 1 second
-			Every globule makes your next attack a mini-crit, if it does not crit
+			"Desata la furia acuática sobre tus enemigos"
+			Aumenta un 25% el daño rogue
+			Hay un 50% de probabilidades de no consumir objetos rogue
+			Aumenta tus puntos de técnica máximos en 2
+			El daño infligido por la clase Rogue aumenta temporalmente el daño que recibe el enemigo en un 10%
+			Genera un glóbulo flotante cada segundo
+			Cada glóbulo hace que tu próximo ataque sea un minicrítico, siempre que no sea un crítico
 			'''
 	}
 
 	LichCarapace: {
-		DisplayName: Lich's Carapace
+		DisplayName: Caparazón de Lich
 		Tooltip:
 			'''
-			'Embrace death...'
-			15% increased rogue damage
-			30% increased rogue weapon velocity
+			"Acepta la muerte..."
+			Aumenta un 15% el daño rogue
+			Aumenta un 30% la velocidad de ataque rogue
 			'''
 	}
 
 	LichCowl: {
-		DisplayName: Lich's Cowl
+		DisplayName: Capucha de Lich
 		Tooltip:
 			'''
-			'Embrace death...'
-			10% increased rogue damage
-			33% chance not to consume rogue items
-			Increases your maximum technique points by 2
+			"Acepta la muerte..."
+			Aumenta un 10% el daño rogue
+			Hay un 33% de probabilidades de no consumir objetos rogue
+			Aumenta tus puntos de técnica máximos en 2
 			'''
 	}
 
 	LichTalon: {
-		DisplayName: Lich's Talons
+		DisplayName: Garras de Lich
 		Tooltip:
 			'''
-			'Embrace death...'
-			12.5% increased rogue damage
-			15% increased rogue critical strike chance
+			"Acepta la muerte..."
+			Aumenta un 12.5% el daño rogue
+			Aumenta la probabilidad de golpe crítico rogue en un 15%
 			'''
 	}
 
 	AncientHallowedGuise: {
-		DisplayName: Ancient Hallowed Guise
+		DisplayName: Antigua apariencia sagrada
 		Tooltip:
 			'''
-			20% increased rogue damage
-			8% increased rogue weapon speed and critical strike chance
+			Aumenta un 20% el daño rogue
+			Aumenta un 8% la velocidad de ataque rogue y la probablidad de golpe crítico
 			'''
 	}
 
 	NinjaRack: {
-		DisplayName: Ninja Rack
-		Tooltip: Increases various rogue stats when interacted with
+		DisplayName: Soporte ninja
+		Tooltip: Al interactuar con él, aumenta diversas estadísticas de rogue
 	}
 
 	SandStoneGreaves: {
-		DisplayName: Sandstone Greaves
+		DisplayName: Grebas de arenisca
 		Tooltip:
 			'''
-			'Enveloped by desert winds'
-			3% increased movement speed
-			5% increased rogue damage
+			"Envuelto por los vientos del desierto"
+			Aumenta un 3% la velocidad de movimiento
+			Aumenta un 5% el daño rogue
 			'''
 	}
 
 	SandStoneHelmet: {
-		DisplayName: Sandstone Helmet
+		DisplayName: Casco de arenisca
 		Tooltip:
 			'''
-			'Enveloped by desert winds'
-			2% increased movement speed
-			5% increased rogue damage
+			"Envuelto por los vientos del desierto"
+			Aumenta un 2% la velocidad de movimiento
+			Aumenta un 5% el daño rogue
 			'''
 	}
 
 	SandstoneIngot: {
-		DisplayName: Sandstone Ingot
-		Tooltip: "'Dry and brittle, but it'll work'"
+		DisplayName: Lingote de arenisca
+		Tooltip: "Está seco y quebradizo, pero servirá"
 	}
 
 	SandStoneMail: {
-		DisplayName: Sandstone Mail
+		DisplayName: Cota de malla de arenisca
 		Tooltip:
 			'''
-			'Enveloped by desert winds'
-			5% increased movement speed
-			5% increased rogue damage
+			"Envuelto por los vientos del desierto"
+			Aumenta un 5% la velocidad de movimiento
+			Aumenta un 5% el daño rogue
 			'''
 	}
 
 	AssassinPotion: {
-		DisplayName: Assassin Potion
-		Tooltip: Your first rogue attack when out of combat will crit for x4 damage
+		DisplayName: Poción de asesino
+		Tooltip: Tu primer ataque rogue fuera de combate infligirá un x4 de daño crítico 
 	}
 
 	BoneGrip: {
-		DisplayName: Bone Grip
+		DisplayName: Agarre óseo
 		Tooltip:
 			'''
-			Picking up rogue ammunition has a 33% chance to duplicate it and increase your rogue attack speed
-			This effect can only trigger once every half-second while out of combat
+			Al recoger munición de rogue, tienes un 33% de probabilidades de duplicarla y aumentar tu velocidad de ataque rogue
+			Este efecto solo se puede activar una vez cada medio segundo cuando no estás en combate
 			'''
 	}
 
 	Canteen: {
-		DisplayName: Canteen
-		Tooltip: Non-consumable rogue weapons will take 40% longer to exhaust you
+		DisplayName: Cantina
+		Tooltip: Las armas rogue no consumibles tardarán un 40% más en agotarte
 	}
 
 	CaptainsPoniard: {
-		DisplayName: Captain's Poignard
-		Tooltip: Striking enemies that are close to you increases your rogue attack speed briefly
+		DisplayName: Puñal de capitán
+		Tooltip: Al golpear a enemigos que estén cerca de ti, tu velocidad de ataque rogue aumenta brevemente
 	}
 
 	FungusGuard: {
-		DisplayName: Fungus Guard
+		DisplayName: Protector de hongos
 		Tooltip:
 			'''
-			12% increased rogue damage
-			5% increased rogue weapon speed
+			Aumenta un 12% el daño rogue
+			Aumenta un 5% la velocidad de ataque rogue
 			'''
 	}
 
 	FungusHat: {
-		DisplayName: Fungus Cap
+		DisplayName: Sombrero de hongo
 		Tooltip:
 			'''
-			8% increased rogue damage
-			33% chance not to consume rogue items
-			Increases your maximum technique points by 1
+			Aumenta un 8% el daño rogue
+			Hay un 33% de probabilidades de no consumir objetos rogue
+			Aumenta tus puntos de técnica máximos en 1
 			'''
 	}
 
 	FungusLeggings: {
-		DisplayName: Fungus Leggings
+		DisplayName: Mallas de hongos
 		Tooltip:
 			'''
-			10% increased rogue damage
-			5% increased rogue weapon critical strike chance
+			Aumenta un 10% el daño rogue
+			Aumenta la probabilidad de golpe crítico rogue en un 5%
 			'''
 	}
 
 	MagnetoGrip: {
-		DisplayName: Magneto Grip
+		DisplayName: Agarre magnético
 		Tooltip:
 			'''
-			Increases pickup range of rogue items on the ground
-			Picking up a rogue item has a 33% chance to duplicate it and increase your rogue attack speed
-			This effect can only trigger once every half-second while out of combat
+			Aumenta el alcance de recogida de objetos rogue del suelo
+			Al recoger un objeto rogue, hay un 33% de probabilidad de que se duplique y de que aumente tu velocidad de ataque rogue
+			Este efecto solo puede activarse una vez cada medio segundo cuando no estás en combate
 			'''
 	}
 
 	MermaidCanteen: {
-		DisplayName: Mermaid's Canteen
+		DisplayName: Cantina de la sirena
 		Tooltip:
 			'''
-			Non-consumable rogue weapons will take 60% longer to exhaust you
-			Non-consumable rogue weapons will deal up to 15% more damage the less exhausted you are
+			Las armas rogue no consumibles tardarán un 60% más en agotarte
+			Las armas rogue no consumibles infligirán hasta un 15% más de daño cuanto menos agotado estés
 			'''
 	}
 
 	NinjaEmblem: {
-		DisplayName: Multiclasser's Emblem
+		DisplayName: Emblema multiclase
 		Tooltip:
 			'''
-			10% increased damage
-			2% increased critical strike chance
+			Aumenta un 10% el daño
+			Aumenta un 2% la probabilidad de golpe crítico
 			'''
 	}
 
 	OlympicTorch: {
-		DisplayName: Olympic Torch
+		DisplayName: Antorcha olímpica
 		Tooltip:
 			'''
-			Rogue damage increases your movement speed by 1% up to 25%
-			Rogue damage increases your rogue attack speed by 0.4% up to 10%
-			These effects will fade after 3 seconds of not dealing rogue damage
+			El daño rogue aumenta tu velocidad de movimiento en un 1%, hasta un máximo del 25%
+			El daño rogue aumenta la velocidad de ataque rogue en un 0,4%, hasta un máximo del 10%
+			Estos efectos desaparecerán tras 3 segundos si no se inflige daño rogue
 			'''
 	}
 
 	PaddedGrip: {
-		DisplayName: Padded Grip
+		DisplayName: Empuñadura acolchada
 		Tooltip:
 			'''
-			Picking up a rogue item has a 25% chance to duplicate it
-			This effect can only trigger once every half-second while out of combat
+			Al recoger un objeto rogue, hay un 25% de probabilidades de que se duplique
+			Este efecto solo puede activarse una vez cada medio segundo cuando no se está en combate
 			'''
 	}
 
 	PiratesPurse: {
-		DisplayName: Pirate's Purse
+		DisplayName: Monedero de pirata
 		Tooltip:
 			'''
-			Enemies killed by your rogue damage release a spread of damaging coins
-			Enemies damaged by the coins are gouged and drop more money on death
+			Los enemigos abatidos por el daño rogue lanzan una lluvia de monedas dañinas
+			Los enemigos que reciben daño de las monedas sufren heridas profundas y sueltan más dinero al morir
 			'''
 	}
 
 	PlagueDoctorsGarb: {
-		DisplayName: Plague Doctor's Garb
+		DisplayName: Traje de médico de la peste
 		Tooltip:
 			'''
-			'What nasty concoction could you be brewing?'
-			14% increased rogue damage
-			10% increased rogue weapon velocity
+			"¿Qué brebaje tan repugnante estarás preparando?"
+			Aumenta un 14% el daño rogue
+			Aumenta un 10% la velocidad de ataque rogue
 			'''
 	}
 
 	PlagueDoctorsLeggings: {
-		DisplayName: Plague Doctor's Leggings
+		DisplayName: Pantalones de médico de la peste
 		Tooltip:
 			'''
-			'What nasty concoction could you be brewing?'
-			14% increased rogue damage
-			10% increased rogue weapon critical strike chance
+			"¿Qué brebaje tan repugnante estarás preparando?"
+			Aumenta un 14% el daño rogue
+			Aumenta la probabilidad de golpe crítico rogue en un 10%
 			'''
 	}
 
 	PlagueDoctorsMask: {
-		DisplayName: Plague Doctor's Mask
+		DisplayName: Máscara de médico de la peste
 		Tooltip:
 			'''
-			'What nasty concoction could you be brewing?'
-			12% increased rogue damage
-			33% chance not to consume rogue items
-			Increases your maximum technique points by 1
+			"¿Qué brebaje tan repugnante estarás preparando?"
+			Aumenta un 14% el daño rogue
+			Hay un 33% de probabilidades de no consumir objetos rogue
+			Aumenta tus puntos de técnica máximos en 1
 			'''
 	}
 
 	ShadeMasterGarb: {
-		DisplayName: Shade Master's Garb
+		DisplayName: Atuendo del Maestro de las sombras
 		Tooltip:
 			'''
-			'Live in the shadows and strike with precision'
-			15% increased rogue damage
-			10% increased rogue weapon speed
-			30% increased rogue weapon velocity
+			"Vive en las sombras y ataca con precisión"
+			Aumenta un 15% el daño rogue
+			Aumenta un 10% la velocidad de ataque rogue
+			Aumenta un 30% la velocidad de la armas rogue
 			'''
 	}
 
 	ShadeMasterMask: {
-		DisplayName: Shade Master's Mask
+		DisplayName: Máscara del Maestro de las sombras
 		Tooltip:
 			'''
-			'Live in the shadows and strike with precision'
-			15% increased rogue damage
-			33% chance not to consume rogue items
-			Increases your maximum technique points by 2
+			"Vive en las sombras y ataca con precisión"
+			Aumenta un 15% el daño rogue
+			Hay un 33% de probabilidades de no consumir objetos rogue
+			Aumenta tus puntos de técnica máximos en 2
 			'''
 	}
 
 	ShadeMasterTreads: {
-		DisplayName: Shade Master's Treads
+		DisplayName: Huellas del Maestro de las sombras
 		Tooltip:
 			'''
-			'Live in the shadows and strike with precision'
-			12.5% increased rogue damage
-			20% increased rogue weapon critical strike chance
-			15% increased movement speed
+			"Vive en las sombras y ataca con precisión"
+			Aumenta un 12.5% el daño rogue
+			Aumenta la probabilidad de golpe crítico rogue en un 30%
+			Aumenta un 15% la velocidad de movimiento
 			'''
 	}
 
 	TechniqueBlankScroll: {
-		DisplayName: Blank Technique Scroll
+		DisplayName: Pergamino en blanco para técnicas
 		Tooltip:
 			'''
-			'Used in the crafting of unique technique abilities'
-			After activating a technique, deal rogue damage to charge technique points
-			Technique points decay over time if damage is not continually dealt
-			Press the '{$Keybinds.ThrowingTechnique.DisplayName}' key to use your active technique's ability
+			"Se utiliza para crear habilidades técnicas únicas"
+			Tras activar una técnica, inflige daño rogue para recargar puntos de técnica
+			Los puntos de técnica se pierden con el tiempo si no se inflige daño de forma continua
+			Presiona la tecla '{$Keybinds.ThrowingTechnique.DisplayName}' para utilizar la habilidad de tu técnica activa
 			'''
 	}
 
 	ThiefsWallet: {
-		DisplayName: Thief's Wallet
-		Tooltip: Enemies killed by your rogue damage drop up to 2 additional silver coins
+		DisplayName: Cartera del ladrón
+		Tooltip: Los enemigos abatidos por daño rogue sueltan hasta 2 monedas de plata adicionales
 	}
 
 	ThrowingGuide: {
 		DisplayName: Rogue 101
-		Tooltip: 15% of your rogue damage is duplicated
+		Tooltip: El 15% del daño que infliges como rogue se duplica
 	}
 
 	ThrowingGuideVolume2: {
-		DisplayName: Rogue 101 : Volume II
+		DisplayName: Rogue 101 : Volumen II
 		Tooltip:
 			'''
-			10% increased rogue damage
-			20% of your rogue damage is duplicated
+			Aumenta un 10% el daño rogue
+			El 20% del daño que infliges como rogue se duplica
 			'''
 	}
 
 	ThrowingGuideVolume3: {
-		DisplayName: Rogue 101 : Volume III
+		DisplayName: Rogue 101 : Volumen III
 		Tooltip:
 			'''
-			10% increased rogue damage
-			10% increased rogue weapon velocity
-			25% of your rogue damage is duplicated
+			Aumenta un 10% el daño rogue
+			Aumenta un 10% la velocidad de ataque rogue
+			El 25% del daño que infliges como rogue se duplica
 			'''
 	}
 
 	WhiteDwarfGreaves: {
-		DisplayName: White Dwarf Greaves
+		DisplayName: Grebas de enano blanco
 		Tooltip:
 			'''
-			15% increased rogue damage
-			20% increased rogue weapon critical strike chance
-			20% increased movement speed
+			Aumenta un 15% el daño rogue
+			Aumenta la probabilidad de golpe crítico rogue en un 20%
+			Aumenta un 20% la velocidad de movimiento
 			'''
 		SetBonus:
 			'''
-			Critical strikes will unleash ivory flares from the cosmos
-			Ivory flares deal 0.05% of the hit target's maximum life as damage
+			Los golpes críticos provocarán destellos de marfil procedentes del cosmos
+			Los destellos de marfil infligen un daño equivalente al 0,05% de la vida máxima del objetivo alcanzado
 			'''
 	}
 
 	WhiteDwarfGuard: {
-		DisplayName: White Dwarf Guard
+		DisplayName: Guarda de enano blanco
 		Tooltip:
 			'''
-			15% increased rogue damage
-			15% increased rogue weapon speed
-			30% increased rogue weapon velocity
+			Aumenta un 15% el daño rogue
+			Aumenta un 10% la velocidad de ataque rogue
+			Aumenta un 30% la velocidad de la armas rogue
 			'''
 		SetBonus:
 			'''
-			Critical strikes will unleash ivory flares from the cosmos
-			Ivory flares deal 0.05% of the hit target's maximum life as damage
+			Los golpes críticos provocarán destellos de marfil procedentes del cosmos
+			Los destellos de marfil infligen un daño equivalente al 0,05% de la vida máxima del objetivo alcanzado
 			'''
 	}
 
 	WhiteDwarfMask: {
-		DisplayName: White Dwarf Mask
+		DisplayName: Máscara de enano blanco
 		Tooltip:
 			'''
-			15% increased rogue damage
-			33% chance not to consume rogue items
-			Increases your maximum technique points by 2
+			Aumenta un 15% el daño rogue
+			Hay un 33% de probabilidades de no consumir objetos rogue
+			Aumenta tus puntos de técnica máximos en 2
 			'''
 		SetBonus:
 			'''
-			Critical strikes will unleash ivory flares from the cosmos
-			Ivory flares deal 0.05% of the hit target's maximum life as damage
+			Los golpes críticos provocarán destellos de marfil procedentes del cosmos
+			Los destellos de marfil infligen un daño equivalente al 0,05% de la vida máxima del objetivo alcanzado
 			'''
 	}
 
 	Wreath: {
-		DisplayName: Wreath
+		DisplayName: Corona
 		Tooltip:
 			'''
-			10% increased rogue velocity
-			10% increased movement speed while holding a rogue item
+			Aumenta un 10% la velocidad de ataque rogue
+			Aumenta un 10% la velocidad de movimiento mientras se lleva un objeto rogue
 			'''
 	}
 
 	DepthDiverHelmet: {
-		DisplayName: Depth Diver's Helmet
+		DisplayName: Casco de buceo de profundidad
 		Tooltip:
 			'''
-			'Become a selfless protector'
-			Critical strike chance increased by 6%
+			"Conviértete en un protector desinteresado"
+			La probabilidad de golpe crítico aumenta un 6%
 			'''
 		SetBonus:
 			'''
-			You and nearby allies gain {0}% increased damage, {1}% movement speed.
-			You and nearby allies can also breathe underwater while outside of the Abyss.
-			In the Abyss, You and your allies +10 defense and +20% movement speed instead.
-			You will also randomly get some oxygen back while in the Abyss.
+			Tú y los aliados cercanos obtenéis un aumento del {0}% de daño y del {1}% en la velocidad de movimiento
+			Tú y los aliados cercanos también podéis respirar bajo el agua cuando estáis fuera del Abismo
+			En el Abismo, tú y tus aliados obtenéis, en su lugar, +10 fr defensa y un +20 % a la velocidad de movimiento
+			Además, recuperarás algo de oxígeno de forma aleatoria mientras estés en el Abismo
 			'''
 	}
 
 	NagaSkinMask: {
-		DisplayName: Naga-Skin Mask
+		DisplayName: Máscara de piel de Naga
 		Tooltip:
 			'''
-			'Garb of the original aquatic casters'
-			Maximum mana increased by 60.
-			Allows you to breathe underwater.
-			Does not work in the Abyss.
+			"Atuendo de los hechiceros acuáticos originales"
+			El maná máximo aumenta en 60
+			Te permite respirar bajo el agua
+			No funciona en el Abismo
 			'''
-		SetBonus: Every {0} mana spent will dramatically increase your magic damage and casting speed briefly
+		SetBonus: Cada {0} de maná que gastes aumentará considerablemente tu daño mágico y tu velocidadde ataque mágico durante un breve periodo de tiempo
 	}
 }
 
-Keybinds.ThrowingTechnique.DisplayName: Rogue Technique
+Keybinds.ThrowingTechnique.DisplayName: Técnica rogue
 
 ThrowerTechniques: {
-	UseToEnable: Sets your active technique on use | Deal rogue damage to build points
-	UseToDisable: Technique Active | Use again to disable | Deal rogue damage to build points
+	UseToEnable: Establece tu técnica activa al usarla | Inflige daño rogue para acumular puntos
+	UseToDisable: Técnica activa | Vuelve a pulsar para desactivarla | Inflige daño rogue para acumular puntos
 
 	LastStand: {
-		DisplayName: Last Stand
+		DisplayName: Última batalla
 		Description:
 			'''
-			Automatically triggers when you take fatal damage, granting you 8 seconds of invulnerability
-			While invulnerable, you gain {1}% rogue speed & damage but die at the end of the duration
+			Se activa automáticamente cuando recibes daño letal, lo que te otorga 8 segundos de invulnerabilidad
+			Mientras seas invulnerable, obtienes un {1}% de velocidad y daño rogue, pero mueres al finalizar la duración
 			'''
 	}
 }
 
-Configs.ThoriumConfigClient.Headers.ThrowerOptions: Rogue Options
+Configs.ThoriumConfigClient.Headers.ThrowerOptions: Opciones de rogue
