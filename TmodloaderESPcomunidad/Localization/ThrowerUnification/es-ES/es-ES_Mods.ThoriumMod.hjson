@@ -1,58 +1,58 @@
 Items: {
 	TerrariumHelmet: {
-		DisplayName: Terrarium Helmet
+		DisplayName: Casco de Terrarium
 		Tooltip:
 			'''
-			'All will fall before your might...'
-			Maximum life increased by {0} & life regen increased by {1}
-			{2}% increased damage
-			Sight in the dark is improved
+			'Todo caerá ante tu poder...'
+			La vida máxima aumentó en {0} y la regeneración de vida aumentó en {1}
+			+{2}% de daño
+			La visión en la oscuridad ha mejorado
 			'''
 		SetBonus:
 			'''
-			The energies of Terraria will seek to protect you when you're in combat
-			Pressing the '{$Keybinds.ArmorAbility.DisplayName}' key will allow you to cycle and select a Class Focus
+			Las energías de Terraria intentarán protegerte cuando estés en combate
+			Al pulsar la tecla '{$Keybinds.ArmorAbility.DisplayName}' podrás alternar y seleccionar un Enfoque de clase
 			'''
 
 		Focus: {
 			Generic: {
-				Name: No Focus
-				Description: "{0}% increased damage"
+				Name: Ningun enfoque
+				Description: "+{0}% de daño"
 			}
 
 			Melee: {
-				Name: Melee Focus
-				Description: "{0}% increased damage reduction"
+				Name: Enfoque cuerpo a cuerpo
+				Description: "+{0}% de reducción de daño"
 			}
 
 			Ranged: {
-				Name: Ranged Focus
-				Description: "{0}% increased firing speed"
+				Name: Enfoque a distancia
+				Description: "+{0}% velocidad de disparo"
 			}
 
 			Magic: {
-				Name: Magic Focus
-				Description: Maximum mana increased by {0}
+				Name: Enfoque mágico
+				Description: El maná máximo aumentó en {0}
 			}
 
 			Summon: {
-				Name: Summon Focus
-				Description: Increases your max number of minions by {0} & decreases non-summon damage by {1}%
+				Name: Enfoque de invocador
+				Description: Aumenta tu número máximo de súbditos en {0} y disminuye el daño que no sea de invocación en {1}%
 			}
 
 			Throwing: {
-				Name: Throwing Focus
-				Description: Increases your maximum technique points by {0} & grants +110 stealth
+				Name: Enfoque en arrojables
+				Description: Aumenta tus puntos de técnica máximos en {0} y otorga +110 de sigilo
 			}
 
 			Healer: {
-				Name: Radiant Focus
-				Description: Healing spells will heal an additional {0} life
+				Name: Enfoque radiante
+				Description: Los hechizos curativos curarán una vida adicional de {0}
 			}
 
 			Bard: {
-				Name: Symphonic Focus
-				Description: Increases empowerment duration by {0} {^0:second;seconds}
+				Name: Enfoque sinfónico
+				Description: Aumenta la duración del empoderamiento en {0} {^0:segundo;segundos}
 			}
 		}
 	}
