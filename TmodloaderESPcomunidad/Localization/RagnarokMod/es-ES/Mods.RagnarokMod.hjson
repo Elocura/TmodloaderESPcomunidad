@@ -34,7 +34,7 @@ Buffs: {
 	}
 
 	ScytheBrimstoneBuff: {
-		DisplayName: La bendición del azufre
+		DisplayName: Bendición del azufre
 		Description: Tus enemigos se convierten en llamas malditas
 		ItemTooltip: Inglinge [cbuff:CalamityMod/BrimstoneFlames] con cada golpe
 	}
@@ -46,13 +46,13 @@ Buffs: {
 	}
 
 	ScytheOasisBuff: {
-		DisplayName: La bendición del oasis
+		DisplayName: Bendición del oasis
 		Description: Te sientes revitalizado gracias al oasis del desierto
 		ItemTooltip: +15 hp/s de regeneración de vida
 	}
 
 	ScytheSandBuff: {
-		DisplayName: La bendición de la arena
+		DisplayName: Bendición de la arena
 		Description: La arena te da fuerzas
 		ItemTooltip: +5% de daño de ataqueack damage
 	}
@@ -242,8 +242,8 @@ Items: {
 		Tooltip:
 			'''
 			Aumenta un 20% el daño sinfónico y aumenta un 12% la probabilidad de golpe crítico sinfónico
-            Aumenta un 15% la regeneración de inspiración y obtienes +6 de la inspiración máxima
-            Aumenta un 15% la probabilidad de que los enemigos suelten notas de inspiración
+			Aumenta un 15% la regeneración de inspiración y obtienes +6 de la inspiración máxima
+			Aumenta un 15% la probabilidad de que los enemigos suelten notas de inspiración
 			'''
 		SetBonus:
 			'''
@@ -401,9 +401,9 @@ Items: {
 	StatigelHeadBard: {
 		DisplayName: Gorro de statigel
 		Tooltip:
-			'''
+			''
 			Aumenta un 10% el daño sinfónico
-            Aumenta un 7% la probabilidad de golpe crítico sinfónico
+			Aumenta un 7% la probabilidad de golpe crítico sinfónico
 			'''
 		SetBonus:
 			'''
@@ -557,7 +557,7 @@ Items: {
 		Tooltip:
 			'''
 			Una guadaña conocida por ser un auténtico infierno sagrado
-			Pulsa <right>> para lanzar la guadaña que describirá una trayectoria curva al volver
+			Pulsa <right> para lanzar la guadaña que describirá una trayectoria curva al volver
 			La guadaña inflige un 20 % más de daño al lanzarla y arroja gotas de material fundido durante el vuelo
 			'''
 	}
@@ -776,7 +776,7 @@ Items: {
 		Tooltip:
 			'''
 			Hace que los tetriminos caigan del cielo
-            "Una consola de videojuegos cualquiera"
+			"Una consola de videojuegos cualquiera"
 			'''
 	}
 
@@ -971,7 +971,7 @@ Items: {
 		Tooltip:
 			'''
 			Pulsa <left> para lanzar un orbe [c/FF5555:Rojo radiante] con un enorme efecto de repulsión
-			Pulsa <right> para invocar un orbe [c/55AAFF:Azul radiante] que sigue a tu cursor
+			Pulsa <right> para invocar un orbe [c/55AAFF:Azul radiante] que sigue a tu curso
 			El [c/55AAFF:Azul radiante] atrae a los enemigos cercanos y crece con cada impacto
 			Una vez que alcance la masa crítica, golpéala con [c/FF5555:Rojo Irradiante] para desatar [c/CC44FF:Púrpura Irradiante]
 			'''
