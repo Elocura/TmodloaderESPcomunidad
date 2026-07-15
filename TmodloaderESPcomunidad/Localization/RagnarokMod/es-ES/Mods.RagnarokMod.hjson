@@ -437,7 +437,7 @@ Items: {
 
 	StriderFang: {
 		DisplayName: Colmillo de zancudo
-		Tooltip: "'Un colmillo helado sacado directamente de la boca del Caminante boreal'"
+		Tooltip: "'Un colmillo helado sacado directamente de la boca del Estrider boreal'"
 	}
 
 	TarragonCowl: {
@@ -1611,7 +1611,7 @@ Configs: {
 		}
 
 		strider: {
-			Label: IA del Caminante boreal
+			Label: IA del Estrider boreal
 			Tooltip: Selecciona qué versión mejorada de la IA se debe utilizar. Desactivada para el comportamiento predeterminado. La opción Auto utiliza la IA de Ragnarok si no se detecta ningún otro rework.
 		}
 
