@@ -21,7 +21,7 @@ Mods: {
 
 		Configs: {
 			FargoServerConfig: {
-				DisplayName: Configuración del Servidor
+				DisplayName: Configuración del servidor
 
 				Mutant: {
 					Label: "[i:Fargowiltas/MutantMask] [c/ffffff:{$Mods.Fargowiltas.NPCs.Mutant.DisplayName} {$Mods.Fargowiltas.Configs.Common.CanSpawn}]"
@@ -49,12 +49,12 @@ Mods: {
 				}
 
 				CatchNPCs: {
-					Label: "[i:267] Capturar NPCs del Pueblo"
+					Label: "[i:267] Capturar NPCs del pueblo"
 					Tooltip: ""
 				}
 
 				NPCSales: {
-					Label: "[i:267] Ventas extra de NPCs del Pueblo"
+					Label: "[i:267] Ventas extra de NPCs del pueblo"
 					Tooltip: ""
 				}
 
@@ -129,7 +129,7 @@ Mods: {
 				}
 
 				StalkerMoneyTrough: {
-					Label: "[i:3213] Cañón de Carne Acechador"
+					Label: "[i:3213] Cañón de carne acechador"
 					Tooltip: ""
 				}
 
@@ -203,7 +203,7 @@ Mods: {
 				}
 
 				Headers: {
-					TownNPCs: NPCs del Pueblo
+					TownNPCs: NPCs del pueblo
 					Seasons: Estaciones
 					Seeds: Semillas
 					Unlimited: Ilimitado
@@ -243,7 +243,7 @@ Mods: {
 			}
 
 			FargoClientConfig: {
-				DisplayName: Configuración del Cliente
+				DisplayName: Configuración del cliente
 
 				ExpandedTooltips: {
 					Label: "[i:171] Más descripciones muestran cambios del Mod Mutant"
@@ -304,8 +304,8 @@ Mods: {
 		RecipeGroups: {
 			EvilWood: Madera Maldita
 			CommonFish: Pez Común
-			CaughtNPC: NPC de Pueblo Capturado
-			CaughtSlime: Slime de Pueblo Capturado
+			CaughtNPC: NPC de pueblo capturado
+			CaughtSlime: Slime de pueblo capturado
 			ArmoredBonesBanner: Estandarte de Huesos Blindados
 			FoodT2: Comida Bastante Satisfactoria
 			FoodT3: Comida Exquisitamente Rellenadora
@@ -1959,7 +1959,7 @@ Mods: {
 
 			RegalStatue: {
 				DisplayName: Estatua Regia
-				Tooltip: Los PNJs del pueblo reaparecen muy rápidamente al estar cerca
+				Tooltip: Los NPCs del pueblo reaparecen muy rápidamente al estar cerca
 			}
 
 			Semistation: {
@@ -2300,17 +2300,17 @@ Mods: {
 			}
 
 			TownDog: {
-				DisplayName: Perro del Pueblo
+				DisplayName: Perro del pueblo
 				Tooltip: "'¡Guau!'"
 			}
 
 			TownCat: {
-				DisplayName: Gato del Pueblo
+				DisplayName: Gato del pueblo
 				Tooltip: "'¡Miau!'"
 			}
 
 			TownBunny: {
-				DisplayName: Conejo del Pueblo
+				DisplayName: Conejo del pueblo
 				Tooltip: "'*Sonidos de conejo*'"
 			}
 
