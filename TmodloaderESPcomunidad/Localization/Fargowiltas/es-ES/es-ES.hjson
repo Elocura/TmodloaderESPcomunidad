@@ -294,27 +294,27 @@ Mods: {
 			SeasonSelections: {
 				Tooltip: ""
 				Normal.Label: Normal
-				AlwaysOn.Label: Siempre Activado
-				AlwaysOff.Label: Siempre Desactivado
+				AlwaysOn.Label: Siempre activado
+				AlwaysOff.Label: Siempre desactivado
 			}
 
 			Common.CanSpawn: Puede aparecer
 		}
 
 		RecipeGroups: {
-			EvilWood: Madera Maldita
-			CommonFish: Pez Común
+			EvilWood: Madera maldita
+			CommonFish: Pez común
 			CaughtNPC: NPC de pueblo capturado
 			CaughtSlime: Slime de pueblo capturado
-			ArmoredBonesBanner: Estandarte de Huesos Blindados
-			FoodT2: Comida Bastante Satisfactoria
-			FoodT3: Comida Exquisitamente Rellenadora
-			GemRobe: Túnica de Gema
+			ArmoredBonesBanner: Estandarte de Huesos blindados
+			FoodT2: Comida bastante satisfactoria
+			FoodT3: Comida exquisitamente rellenadora
+			GemRobe: Túnica de gema
 			Or: O
 		}
 
 		UI: {
-			StatButton: Hoja de Estadísticas
+			StatButton: Hoja de estadísticas
 			SearchText: Buscar...
 			// Stat Sheet Elements
 			MeleeDamage: Daño cuerpo a cuerpo: {0}%
@@ -433,17 +433,17 @@ Mods: {
 			}
 
 			WoodDrop: {
-				DisplayName: Lluvia de Madera
+				DisplayName: Caída de madera
 				Description: Mods.Fargowiltas.BuffDescription.WoodDrop
 			}
 
 			BigSuckBuff: {
-				DisplayName: Gran Succión
+				DisplayName: Gran succión
 				Description: Estás absorbiendo todo
 			}
 
 			CoolCrabBuff: {
-				DisplayName: Cangrejo Genial
+				DisplayName: Cangrejo genial
 				Description: Cree que deberías jugar Elden Ring
 			}
 		}
@@ -510,7 +510,7 @@ Mods: {
 			}
 
 			BrittleBone: {
-				DisplayName: Hueso Frágil
+				DisplayName: Hueso frágil
 				Tooltip: ""
 			}
 
@@ -585,131 +585,131 @@ Mods: {
 			}
 
 			CopperCoinBag: {
-				DisplayName: Cofre Infinito de Monedas de Cobre
+				DisplayName: Cofre infinito de monedas de cobre
 				Tooltip: ""
 			}
 
 			GoldCoinBag: {
-				DisplayName: Cofre Infinito de Monedas de Oro
+				DisplayName: Cofre infinito de monedas de oro
 				Tooltip: ""
 			}
 
 			PlatinumCoinBag: {
-				DisplayName: Cofre Infinito de Monedas de Platino
+				DisplayName: Cofre infinito de monedas de platino
 				Tooltip: ""
 			}
 
 			SilverCoinBag: {
-				DisplayName: Cofre Infinito de Monedas de Plata
+				DisplayName: Cofre infinito de Monedas de plata
 				Tooltip: ""
 			}
 
 			CrystalDartBox: {
-				DisplayName: Caja Infinita de Dardos de Cristal
+				DisplayName: Caja infinita de dardos de cristal
 				Tooltip: ""
 			}
 
 			CursedDartBox: {
-				DisplayName: Caja Infinita de Dardos Malditos
+				DisplayName: Caja infinita de dardos malditos
 				Tooltip: ""
 			}
 
 			IchorDartBox: {
-				DisplayName: Caja Infinita de Dardos de Ícor
+				DisplayName: Caja infinita de dardos de ícor
 				Tooltip: ""
 			}
 
 			PoisonDartBox: {
-				DisplayName: Caja Infinita de Dardos Venenosos
+				DisplayName: Caja infinita de dardos venenosos
 				Tooltip: ""
 			}
 
 			GelPack: {
-				DisplayName: Paquete Infinito de Gel
+				DisplayName: Paquete infinito de gel
 				Tooltip: ""
 			}
 
 			ClusterRocket1Bag: {
-				DisplayName: Bolsa Infinita de Cohetes Racimo I
+				DisplayName: Bolsa infinita de cohetes racimo I
 				Tooltip: ""
 			}
 
 			ClusterRocket2Bag: {
-				DisplayName: Bolsa Infinita de Cohetes Racimo II
+				DisplayName: Bolsa infinita de cohetes racimo II
 				Tooltip: ""
 			}
 
 			DryRocketBag: {
-				DisplayName: Bolsa Infinita de Cohetes Secos
+				DisplayName: Bolsa infinita de cohetes secos
 				Tooltip: ""
 			}
 
 			HoneyRocketBag: {
-				DisplayName: Bolsa Infinita de Cohetes de Miel
+				DisplayName: Bolsa infinita de cohetes de miel
 				Tooltip: ""
 			}
 
 			LavaRocketBag: {
-				DisplayName: Bolsa Infinita de Cohetes de Lava
+				DisplayName: Bolsa infinita de cohetes de lava
 				Tooltip: ""
 			}
 
 			MiniNuke1Bag: {
-				DisplayName: Bolsa Infinita de Mini Nuke I
+				DisplayName: Bolsa infinita de mini nuke I
 				Tooltip: ""
 			}
 
 			MiniNuke2Bag: {
-				DisplayName: Bolsa Infinita de Mini Nuke II
+				DisplayName: Bolsa infinita de mini nuke II
 				Tooltip: ""
 			}
 
 			Rocket1Bag: {
-				DisplayName: Bolsa Infinita de Cohetes I
+				DisplayName: Bolsa infinita de cohetes I
 				Tooltip: ""
 			}
 
 			Rocket2Bag: {
-				DisplayName: Bolsa Infinita de Cohetes II
+				DisplayName: Bolsa infinita de cohetes II
 				Tooltip: ""
 			}
 
 			Rocket3Bag: {
-				DisplayName: Bolsa Infinita de Cohetes III
+				DisplayName: Bolsa infinita de cohetes III
 				Tooltip: ""
 			}
 
 			Rocket4Bag: {
-				DisplayName: Bolsa Infinita de Cohetes IV
+				DisplayName: Bolsa infinita de cohetes IV
 				Tooltip: ""
 			}
 
 			WetRocketBag: {
-				DisplayName: Bolsa Infinita de Cohetes Mojados
+				DisplayName: Bolsa infinita de cohetes húmedo
 				Tooltip: ""
 			}
 
 			StarPouch: {
-				DisplayName: Bolsa Infinita de Estrellas
+				DisplayName: Bolsa infinita de estrellas
 				Tooltip: ""
 			}
 
 			AltarExterminator: {
-				DisplayName: Exterminador de Altares
+				DisplayName: Exterminador de altares
 				Tooltip:
 					'''
-					Destruye todos los Altares de Demonio y Carmesí naturales
+					Destruye todos los altares demoníacos y carmesí naturales
 					'También conocido como el Wraithmaker 200'
 					'''
 			}
 
 			AutoHouse: {
-				DisplayName: Casa Instantánea
+				DisplayName: Casa instantánea
 				Tooltip: Coloca una casa para NPC al instante
 			}
 
 			BoomShuriken: {
-				DisplayName: Shuriken Explosivo
+				DisplayName: Shuriken explosivo
 				Tooltip:
 					'''
 					Explota al instante al chocar con bloques, rompiéndolos
@@ -720,7 +720,7 @@ Mods: {
 			}
 
 			CityBuster: {
-				DisplayName: Destructor de Ciudades
+				DisplayName: Destructor de ciudades
 				Tooltip:
 					'''
 					Destruye un área extensa
@@ -731,7 +731,7 @@ Mods: {
 			}
 
 			DoubleObsidianInstabridge: {
-				DisplayName: Megapuente Doble de Obsidiana
+				DisplayName: Megapuente doble de obsidiana
 				Tooltip:
 					'''
 					Crea 2 puentes de plataformas de obsidiana a lo largo de todo el mundo
@@ -743,12 +743,12 @@ Mods: {
 			}
 
 			GraveBuster: {
-				DisplayName: Rompe Tumbas
+				DisplayName: Rompe tumbas
 				Tooltip: Destruye lápidas en un área grande
 			}
 
 			HalfInstavator: {
-				DisplayName: Media Instavadora
+				DisplayName: Media instavadora
 				Tooltip:
 					'''
 					Lanza una bomba que crea medio hellevator al instante
@@ -759,7 +759,7 @@ Mods: {
 			}
 
 			InstaBridge: {
-				DisplayName: Puente Instantáneo
+				DisplayName: Puente instantáneo
 				Tooltip:
 					'''
 					Crea un puente de plataformas a lo largo de todo el mundo
@@ -772,7 +772,7 @@ Mods: {
 			}
 
 			InstaTrack: {
-				DisplayName: Riel Instantáneo
+				DisplayName: Riel instantáneo
 				Tooltip:
 					'''
 					Crea una vía de mina a lo largo de todo el mundo
@@ -794,7 +794,7 @@ Mods: {
 			}
 
 			LihzahrdInstactuationBomb: {
-				DisplayName: Bomba Instactuadora Lihzahrd
+				DisplayName: Bomba instactuadora Lihzahrd
 				Tooltip:
 					'''
 					Limpia un espacio alrededor del Altar Lihzahrd si se usa frente a él
@@ -804,7 +804,7 @@ Mods: {
 			}
 
 			MiniInstaBridge: {
-				DisplayName: Mini Puente Instantáneo
+				DisplayName: Mini puente instantáneo
 				Tooltip:
 					'''
 					Crea un puente largo de plataformas donde pongas el cursor
@@ -813,7 +813,7 @@ Mods: {
 			}
 
 			ObsidianInstaBridge: {
-				DisplayName: Puente de Obsidiana Instantáneo
+				DisplayName: Puente de obsidiana instantáneo
 				Tooltip:
 					'''
 					Crea un puente de plataformas de obsidiana a lo largo de todo el mundo
@@ -825,7 +825,7 @@ Mods: {
 			}
 
 			OmniBridgifier: {
-				DisplayName: Omni-Puentificador
+				DisplayName: Omni-puentificador
 				Tooltip:
 					'''
 					Uso infinito
@@ -835,7 +835,7 @@ Mods: {
 			}
 
 			BattleCry: {
-				DisplayName: Grito de Batalla
+				DisplayName: Grito de batalla
 				Tooltip:
 					'''
 					Clic izquierdo para activar una tasa de aparición 10x mayor
@@ -850,7 +850,7 @@ Mods: {
 			}
 
 			DeathFruit: {
-				DisplayName: Fruta de la Muerte
+				DisplayName: Fruta de la muerte
 				Tooltip:
 					'''
 					Clic izquierdo para reducir la cantidad de Cristales de Vida, o Frutas de Vida si tienes, en 1
@@ -860,22 +860,22 @@ Mods: {
 			}
 
 			InstantResearch: {
-				DisplayName: Investigación Instantánea
+				DisplayName: Investigación instantánea
 				Tooltip:
 					'''
 					OBJETO DE DEPURACIÓN
 					Investiga todo al instante
 					'''
-				// ResearchText: researched {0} items
+				ResearchText: Se investigaron {0} objetos
 			}
 
 			MapViewer: {
-				DisplayName: El Mapa del Maestro Ancestral de los Grandes Antepasados del Rey Perdido
+				DisplayName: El mapa del Maestro ancestral de los Grandes antepasados del Rey perdido
 				Tooltip: Revela todo el mapa
 			}
 
 			ModeToggle: {
-				DisplayName: Token del Mundo
+				DisplayName: Token del mundo
 				Tooltip:
 					'''
 					Cambia entre modos de dificultad con clic izquierdo
@@ -888,7 +888,7 @@ Mods: {
 			}
 
 			PortableSundial: {
-				DisplayName: Reloj Solar Portátil
+				DisplayName: Reloj solar portátil
 				Tooltip:
 					'''
 					Clic izquierdo para cambiar la hora instantáneamente
@@ -900,7 +900,7 @@ Mods: {
 			}
 
 			PylonCleaner: {
-				DisplayName: Limpiador de Pilares
+				DisplayName: Limpiador de pilares
 				Tooltip:
 					'''
 					Purifica el área alrededor de cada pilar
@@ -909,7 +909,7 @@ Mods: {
 			}
 
 			SuperDummy: {
-				DisplayName: Súper Muñeco de Pruebas
+				DisplayName: Súper muñeco de pruebas
 				Tooltip:
 					'''
 					Genera un súper muñeco en el cursor
@@ -921,88 +921,88 @@ Mods: {
 			}
 
 			CorruptRenewal: {
-				DisplayName: Renovación de Corrupción
+				DisplayName: Renovación de corrupción
 				Tooltip: Corrompe un área grande
 			}
 
 			CorruptRenewalSupreme: {
-				DisplayName: Renovación Suprema de Corrupción
+				DisplayName: Renovación suprema de corrupción
 				Tooltip: Corrompe el mundo entero
 			}
 
 			CrimsonRenewal: {
-				DisplayName: Renovación Carmesí
+				DisplayName: Renovación carmesí
 				Tooltip: Infecta un área grande con Carmesí
 			}
 
 			CrimsonRenewalSupreme: {
-				DisplayName: Renovación Suprema Carmesí
+				DisplayName: Renovación suprema carmesí
 				Tooltip: Infecta todo el mundo con Carmesí
 			}
 
 			HallowRenewal: {
-				DisplayName: Renovación Sagrada
-				Tooltip: Sagra un área grande
+				DisplayName: Renovación sagrada
+				Tooltip: Bendice una gran área
 			}
 
 			HallowRenewalSupreme: {
-				DisplayName: Renovación Suprema Sagrada
-				Tooltip: Sagra todo el mundo
+				DisplayName: Renovación suprema sagrada
+				Tooltip: Bendice todo el mundo
 			}
 
 			MushroomRenewal: {
-				DisplayName: Renovación de Hongos
-				Tooltip: Convierte un área grande en bioma de hongos
+				DisplayName: Renovación de champiñón
+				Tooltip: Convierte un área grande en bioma de champiñón
 			}
 
 			MushroomRenewalSupreme: {
-				DisplayName: Renovación Suprema de Hongos
-				Tooltip: Convierte todo el mundo en bioma de hongos
+				DisplayName: Renovación suprema de champiñón
+				Tooltip: Convierte todo el mundo en bioma de champiñón
 			}
 
 			PurityRenewal: {
-				DisplayName: Renovación de Pureza
+				DisplayName: Renovación purificadora
 				Tooltip: Purifica un área grande
 			}
 
 			PurityRenewalSupreme: {
-				DisplayName: Renovación Suprema de Pureza
+				DisplayName: Renovación purificadora suprema
 				Tooltip: Purifica todo el mundo
 			}
 
 			SnowRenewal: {
-				DisplayName: Renovación Invernal
+				DisplayName: Renovación invernal
 				Tooltip: Cubre un área grande con nieve
 			}
 
 			SnowRenewalSupreme: {
-				DisplayName: Renovación Invernal Suprema
+				DisplayName: Renovación invernal suprema
 				Tooltip: Cubre todo el mundo con nieve
 			}
 
 			SandRenewal: {
-				DisplayName: Renovación del Desierto
+				DisplayName: Renovación del desierto
 				Tooltip: Convierte un área grande en desierto
 			}
 
 			SandRenewalSupreme: {
-				DisplayName: Renovación Suprema del Desierto
+				DisplayName: Renovación Suprema del desierto
 				Tooltip: Convierte todo el mundo en desierto
 			}
 
 			DirtRenewal: {
-				DisplayName: Renovación del Bosque
+				DisplayName: Renovación del bosque
 				Tooltip: Cubre un área grande con tierra de bosque
 			}
 
 			DirtRenewalSupreme: {
-				DisplayName: Renovación Suprema del Bosque
+				DisplayName: Renovación Suprema del bosque
 				Tooltip: Cubre todo el mundo con tierra de bosque
 			}
 
 			Abeemination2: {
-				DisplayName: Una Abeja en Mi Nación
-				Tooltip: Invoca a la Abeja Reina en cualquier bioma subterráneo
+				DisplayName: Una abeja en mi nación
+				Tooltip: Invoca a la Abeja reina en cualquier bioma subterráneo
 			}
 
 			Anemometer: {
@@ -1011,175 +1011,175 @@ Mods: {
 			}
 
 			BatteredClub: {
-				DisplayName: Garrote Deteriorado
+				DisplayName: Garrote deteriorado
 				Tooltip: Invoca al Ogro
 			}
 
 			BetsyEgg: {
-				DisplayName: Huevo de Dragón Antiguo
+				DisplayName: Huevo de dragón antiguo
 				Tooltip: Invoca a Betsy
 			}
 
 			FestiveOrnament: {
-				DisplayName: Adorno Festivo
+				DisplayName: Adorno festivo
 				Tooltip:
 					'''
-					Invoca al Árbol Tenebroso (Everscream)
-					Solo usable de noche
+					Invoca al Árbol tenebroso (Everscream)
+					Solo se puede usar de noche
 					'''
 			}
 
 			ForbiddenScarab: {
-				DisplayName: Escarabajo Prohibido
-				Tooltip: Inicia una Tormenta de Arena
+				DisplayName: Escarabajo prohibido
+				Tooltip: Inicia una Tormenta de arena
 			}
 
 			ForbiddenTome: {
-				DisplayName: Tomo Prohibido
-				Tooltip: Invoca a un Mago Oscuro
+				DisplayName: Tomo prohibido
+				Tooltip: Invoca a un Mago oscuro
 			}
 
 			HeadofMan: {
-				DisplayName: Cabeza de Hombre
+				DisplayName: Cabeza de hombre
 				Tooltip:
 					'''
-					Invoca al Jinete Sin Cabeza
-					Solo usable de noche
+					Invoca al Jinete sin cabeza
+					Solo se puede usar de noche
 					'''
 			}
 
 			IceKingsRemains: {
-				DisplayName: Restos del Rey de Hielo
+				DisplayName: Restos del Rey de hielo
 				Tooltip:
 					'''
-					Invoca a la Reina de Hielo
-					Solo usable de noche
+					Invoca a la Reina de hielo
+					Solo se puede usar de noche
 					'''
 			}
 
 			MartianMemoryStick: {
-				DisplayName: Memoria Marciana
-				Tooltip: Invoca al Platillo Marciano
+				DisplayName: Memoria marciana
+				Tooltip: Invoca al Platillo marciano
 			}
 
 			MatsuriLantern: {
-				DisplayName: Linterna Matsuri
-				Tooltip: Convierte cualquier noche posible en Noche de Linternas
+				DisplayName: Farol de matsuri
+				Tooltip: Hace que cada noche sea una Noche de faroles cuando sea posible
 			}
 
 			NaughtyList: {
-				DisplayName: Lista Traviesa
+				DisplayName: Lista traviesa
 				Tooltip:
 					'''
 					Invoca a Santa-NK1
-					Solo usable de noche
+					Solo se puede usar de noche
 					'''
 			}
 
 			PartyInvite: {
-				DisplayName: Invitación a Fiesta
+				DisplayName: Invitación a fiesta
 				Tooltip:
 					'''
 					¡Inicia una Fiesta!
-					Se requieren al menos 5 PNJs de ciudad
+					Se requieren al menos 5 NPCs de ciudad
 					'''
 			}
 
 			PillarSummon: {
-				DisplayName: Portal del Forastero
-				Tooltip: Invoca los Pilares Celestiales
+				DisplayName: Portal del forastero
+				Tooltip: Invoca los Pilares celestiales
 			}
 
 			RunawayProbe: {
-				DisplayName: Sonda Fugitiva
-				Tooltip: Inicia la Invasión Marciana
+				DisplayName: Sonda fugitiva
+				Tooltip: Inicia la Invasión marciana
 			}
 
 			SlimyBarometer: {
 				DisplayName: Barómetro Baboso
-				Tooltip: Inicia la Lluvia de Slimes
+				Tooltip: Inicia la Lluvia de slimes
 			}
 
 			SpentLantern: {
-				DisplayName: Linterna Apagada
-				Tooltip: Desactiva el efecto de la Linterna Matsuri
+				DisplayName: Farol de apagado
+				Tooltip: Desactiva el efecto de Farol de matsuri
 			}
 
 			SpookyBranch: {
-				DisplayName: Rama Espeluznante
+				DisplayName: Rama espeluznante
 				Tooltip:
 					'''
-					Invoca al Árbol del Duelo (Mourning Wood)
-					Solo usable de noche
+					Invoca al Árbol de luto
+					Solo se puede usar de noche
 					'''
 			}
 
 			SuspiciousLookingScythe: {
-				DisplayName: Guadaña Sospechosa
+				DisplayName: Guadaña sospechosa
 				Tooltip:
 					'''
-					Invoca al Rey Calabaza (Pumpking)
-					Solo usable de noche
+					Invoca al Rey calabaza
+					Solo se puede usar de noche
 					'''
 			}
 
 			WeatherBalloon: {
-				DisplayName: Globo del Clima
+				DisplayName: Globo del clima
 				Tooltip: Inicia la Lluvia
 			}
 
 			CelestialSigil2: {
-				DisplayName: Sello Celestial
-				Tooltip: Invoca instantáneamente al Señor de la Luna
+				DisplayName: Sello celestial
+				Tooltip: Invoca instantáneamente al Señor de la luna
 			}
 
 			DeerThing2: {
-				DisplayName: Cráneo de Ciervo Extraño
-				Tooltip: Invoca al Ciervocéfalo (Deerclops) en cualquier bioma
+				DisplayName: Cráneo de ciervo extraño
+				Tooltip: Invoca al Ciervíclope en cualquier bioma
 			}
 
 			AmalgamatedSkull: {
-				DisplayName: Cráneo Amalgamado
+				DisplayName: Cráneo amalgamado
 				Tooltip:
 					'''
 					Invoca a los pistoleros esqueléticos
-					Solo usable de noche o bajo tierra
+					Solo se puede usar de noche o en el subterráneo
 					'''
 			}
 
 			AmalgamatedSpirit: {
-				DisplayName: Espíritu Amalgamado
+				DisplayName: Espíritu amalgamado
 				Tooltip:
 					'''
 					Invoca a los magos esqueléticos
-					Solo usable de noche o bajo tierra
+					Solo se puede usar de noche o en el subterráneo
 					'''
 			}
 
 			AthenianIdol: {
-				DisplayName: Ídolo Ateniense
+				DisplayName: Ídolo ateniense
 				Tooltip:
 					'''
 					Invoca a Medusa  
-					Solo usable de noche o bajo tierra
+					Solo se puede usar de noche o en el subterráneo
 					'''
 			}
 
 			AttractiveOre: {
-				DisplayName: Mineral Atractivo
+				DisplayName: Mineral atractivo
 				Tooltip:
 					'''
-					Invoca al Minero No-muerto  
-					Solo usable de noche o bajo tierra
+					Invoca al Minero no-muerto
+					Solo se puede usar de noche o en el subterráneo
 					'''
 			}
 
 			BloodSushiPlatter: {
-				DisplayName: Bandeja de Sushi Sangrienta
+				DisplayName: Bandeja de Sushi sangrienta
 				Tooltip:
 					'''
-					Invoca al Dreadnautilus  
-					Solo usable durante la Luna de Sangre
+					Invoca al Dreadnautilus
+					Solo usable durante la Luna de sangre
 					'''
 			}
 
@@ -1188,7 +1188,7 @@ Mods: {
 				Tooltip:
 					'''
 					Invoca a la Anguila Sangrienta  
-					Solo usable durante la Luna de Sangre
+					Solo usable durante la Luna de sangre
 					'''
 			}
 
@@ -1202,7 +1202,7 @@ Mods: {
 				Tooltip:
 					'''
 					Invoca al Payaso  
-					Solo usable de noche o bajo tierra
+					Solo se puede usar de noche o en el subterráneo
 					'''
 			}
 
@@ -1240,7 +1240,7 @@ Mods: {
 				Tooltip:
 					'''
 					Invoca al Doctor Bones  
-					Solo usable de noche o bajo tierra
+					Solo se puede usar de noche o en el subterráneo
 					'''
 			}
 
@@ -1269,7 +1269,7 @@ Mods: {
 				Tooltip:
 					'''
 					Invoca al Paladín  
-					Solo usable de noche o bajo tierra
+					Solo se puede usar de noche o en el subterráneo
 					'''
 			}
 
@@ -1283,7 +1283,7 @@ Mods: {
 				Tooltip:
 					'''
 					Invoca a la Ninfa  
-					Solo usable de noche o bajo tierra
+					Solo se puede usar de noche o en el subterráneo
 					'''
 			}
 
@@ -1301,7 +1301,7 @@ Mods: {
 				Tooltip:
 					'''
 					Invoca a Tim  
-					Solo usable de noche o bajo tierra
+					Solo se puede usar de noche o en el subterráneo
 					'''
 			}
 
@@ -1315,7 +1315,7 @@ Mods: {
 				Tooltip:
 					'''
 					Invoca a Bone Lee
-					Solo usable de noche o bajo tierra
+					Solo se puede usar de noche o en el subterráneo
 					'''
 			}
 
@@ -1362,7 +1362,7 @@ Mods: {
 				Tooltip:
 					'''
 					Invoca al Mago Rúnico
-					Solo usable de noche o bajo tierra
+					Solo se puede usar de noche o en el subterráneo
 					'''
 			}
 
@@ -1395,7 +1395,7 @@ Mods: {
 				Tooltip:
 					'''
 					Invoca a un Pez Ojo Errante y a un Hombre Mermo Zombi
-					Solo usable de noche
+					Solo se puede usar de noche
 					'''
 			}
 
@@ -1434,7 +1434,7 @@ Mods: {
 				Tooltip:
 					'''
 					Invoca a TODOS los jefes (incluidos los de mods)
-					Solo usable de noche
+					Solo se puede usar de noche
 					‘Úsalo bajo tu propio riesgo’
 					'''
 			}
@@ -1453,7 +1453,7 @@ Mods: {
 				Tooltip:
 					'''
 					Invoca a todos los jefes del modo normal
-					Solo usable de noche
+					Solo se puede usar de noche
 					Algunos jefes solo aparecerán si estás en su bioma específico
 					'''
 			}
@@ -1731,7 +1731,7 @@ Mods: {
 
 			OverloadDeer: {
 				DisplayName: Amalgama de Venado
-				Tooltip: Invoca a un Ciervocéfalo energizado
+				Tooltip: Invoca a un Ciervíclope energizado
 			}
 
 			OverloadDestroyer: {
