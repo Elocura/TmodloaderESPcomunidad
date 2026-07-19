@@ -1,147 +1,147 @@
-DefaultStealthStrikeTooltip: Stealth strikes deal increased damage and fly faster
-DefaultStealthStrikeTooltipDamage: Stealth strikes have +75% damage
-DefaultStealthStrikeTooltipVelocity: Stealth strikes have +75% velocity
-CrumblingStrikeTooltip: Stealth strikes deal increased damage and inflict crumbling for 5 seconds
-CrunchStrikeTooltip: Stealth strikes deal increased damage and inflict armor crunch for 5 seconds
+DefaultStealthStrikeTooltip: Los ataques sigilosos infligen mayor daño y vuelan más rápido
+DefaultStealthStrikeTooltipDamage: Los ataques sigilosos tienen un +75% de daño
+DefaultStealthStrikeTooltipVelocity: Los ataques sigilosos tienen un +75% de velocidad
+CrumblingStrikeTooltip: Los ataques sigilosos infligen daño aumentado y provocan desmoronamiento durante 5 segundos
+CrunchStrikeTooltip: Los ataques sigilosos infligen daño aumentado y provocan Crujido de armadura durante 5 segundos
 
 UI: {
 	IEoRNotice:
 		'''
-		NOTICE: Thrower Unification does not balance each of the modded classes merged together.
-		It has also been detected you are using both the Infernum Mode mod & Thorium Mod.
-		If you are seeking a more balanced unification, consider using the Infernal Eclipse of Ragnarok mod.
+		AVISO: Thrower Unification no equilibra cada una de las clases modificadas que se fusionan.
+		También se ha detectado que estás utilizando tanto el mod Infernum Mode como el Thorium Mod.
+		Si buscas una unificación más equilibrada, considera usar el mod Infernal Eclipse of Ragnarok.
 		'''
 	HummusNotice:
 		'''
-		NOTICE: Thrower Unification does not balance each of the modded classes merged together.
-		It has also been detected you are using both the Calamity Mod & Thorium Mod.
-		If you are seeking a more balanced unification, consider using the Hummus' Calamity/Thorium Balancing mod.
+		AVISO: Thrower Unification no equilibra cada una de las clases modificadas que se fusionan.
+		También se ha detectado que estás utilizando tanto el Calamity mod como el Thorium Mod.
+		Si buscas una unificación más equilibrada, considera usar el mod Hummus' Calamity/Thorium Balancing.
 		'''
 }
 
 ThoriumStealthStrike: {
-	CactusNeedle: Stealth strikes throw out needles in a tight fan of 3
-	IcyTomahawk: Stealth strikes throw out 4 tomahawks of different speeds that last longer and pierce more
-	ZephyrRuin: Stealth strikes throw a stronger spear that always crits
-	ClockworkBomb: Stealth strikes create a larger field that lasts longer
-	SoulBomb: Stealth strikes release a burst of homing souls on detonation
-	PlayingCard: Stealth strikes throw 5 homing cards that are always explosive
-	Soulslasher: Stealth strikes will also aggressively home after hitting an enemy
-	WhiteDwarfCutter: During a stealth strike each hit creates Ivory flares that damage for 0.1% of the target's max HP
-	CaptainsPoignard: Stealth strikes throw a burst of 6 daggers and gives the player increased attack speed for 10 seconds
-	SoftServeSunderer: Stealth strikes summon a rain of cones from above the hit enemy
-	ShadeShuriken: Stealth strikes throw a larger, faster shuriken that has increased pierce
-	LodestoneJav: Stealth strikes cause earth to erupt from the struck enemy, inflicting sunder
-	ValadiumThrowingAxe: Stealth strikes on first hit will create a ring of axes to fly at the struck enemy
-	ChlorophyteTomahawk: Stealth strikes will last longer, have more pierce and generate homing spores throughout it's duration
-	DraculaFang: Stealth strikes will throw a fan of 4 fangs that life steal
-	WackWrench: Stealth strikes throw a larger wrench that will pass through blocks and stay in place after hitting an enemy
-	EnchantedKnife: Stealth strikes on hit will summon a star from the sky to strike hit enemies
-	GoblinWarSpear: Stealth strikes will shatter into 3-4 yew wood shrapnels on hit that will always gouge
-	MeteoriteClusterBomb: Stealth strikes will split into another group of itself, making for a recursive cluster
-	AquaiteKnife: Stealth strikes will carve high piercing waves outwards from hit enemies
-	SteelThrowingAxe: Stealth strikes throw a spread of 3 axes that will stun enemies on hit
-	DurasteelThrowingSpear: Stealth strikes throw a spread of 3 higher pierce spears that will stun enemies on hit
-	ShinobiSlicer: Stealth strikes on bounce release gel fragments that home onto nearby enemies
+	CactusNeedle: Los ataques sigilosos lanzan agujas en un abanico cerrado de 3
+	IcyTomahawk: Los ataques sigilosos lanzan 4 tomahawks de diferentes velocidades que duran y perforan más
+	ZephyrRuin: Los ataques sigilosos lanzan una lanza más fuerte que siempre inflige golpes críticos
+	ClockworkBomb: Los ataques sigilosos crean un campo más grande que dura más tiempo
+	SoulBomb: Los ataques sigilosos liberan una ráfaga de almas teledirigidas al detonar
+	PlayingCard: Los ataques sigilosos lanzan 5 cartas teledirigidas que siempre son explosivas
+	Soulslasher: Los ataques sigilosos también volverán a su objetivo de forma agresiva después de impactar a un enemigo
+	WhiteDwarfCutter: Durante un ataque sigiloso, cada impacto crea llamaradas de marfil que infligen un daño equivalente al 0,1% de la vida máxima del objetivo
+	CaptainsPoignard: Los ataques sigilosos lanzan una ráfaga de 6 dagas y otorgan al jugador una mayor velocidad de ataque durante 10 segundos
+	SoftServeSunderer: Los ataques sigilosos invocan una lluvia de conos desde arriba del enemigo alcanzado
+	ShadeShuriken: Los golpes sigilosos lanzan un shuriken más grande y rápido que tiene mayor penetración
+	LodestoneJav: Los ataques sigilosos hacen que la tierra brote del enemigo golpeado, infligiendo Fragmentado
+	ValadiumThrowingAxe: Los ataques sigilosos al primer impacto crearán un anillo de hachas que volarán hacia el enemigo golpeado
+	ChlorophyteTomahawk: Los ataques sigilosos durarán más, tendrán mayor penetración y generarán esporas teledirigidas durante toda su duración
+	DraculaFang: Los ataques sigilosos lanzarán un abanico de 4 colmillos que roban vida
+	WackWrench: Los ataques sigilosos lanzan una llave inglesa más grande que atravesará los bloques y permanecerá en su lugar después de golpear a un enemigo
+	EnchantedKnife: Los ataques sigilosos al impactar invocarán una estrella del cielo para golpear a los enemigos alcanzados
+	GoblinWarSpear: Los ataques sigilosos se fragmentarán en 3 o 4 trozos de madera de tejo al impactar, que siempre dejarán marcas
+	MeteoriteClusterBomb: Los ataques sigilosos se dividirán en otro grupo, formando un clúster recursivo
+	AquaiteKnife: Los ataques sigilosos crearán ondas penetrantes de gran alcance que se propagarán desde los enemigos alcanzados
+	SteelThrowingAxe: Los ataques sigilosos lanzan una ráfaga de 3 hachas que aturden a los enemigos al impactar
+	DurasteelThrowingSpear: Los ataques sigilosos lanzan una ráfaga de 3 lanzas perforantes de mayor calibre que aturdirán a los enemigos al impactar
+	ShinobiSlicer: Los ataques sigilosos al rebotar liberan fragmentos de gel que se dirigen automáticamente hacia los enemigos cercanos
 	FireAxe:
 		'''
-		'Best to avoid chasms with this thing...'
-		Stealth strikes summon a spectral axe of flames to cleave hit enemies
+		'Es mejor evitar los abismos con esto...'
+		Los ataques sigilosos invocan un hacha espectral de llamas para partir en dos a los enemigos alcanzados
 		'''
 	TerraKnife:
 		'''
-		Left click to quickly throw terra daggers
-		Right click to throw an impaling terra knife, which constantly damages your chosen target
-		Both the daggers and the knife are thrown on a stealth strike, with the knife summoning a barrage of slashes on hit
+		Haz clic izquierdo para lanzar rápidamente Cuchillo de terra
+		Haz clic derecho para lanzar un Cuchillo de terra empalador, que daña constantemente al objetivo elegido
+		Tanto las dagas como el cuchillo se lanzan en un ataque sigiloso, y el cuchillo invoca una ráfaga de cortes al impactar
 		'''
 	GelGlove:
 		'''
-		Throws out a ball of gel that bounces against surfaces
-		Can be charged to increase in damage, bounce amount, and size
-		Stealth strikes shoot out shurikens at nearby enemies as they travel
+		Expulsa una bola de gel que rebota contra las superficies
+		Se puede cargar para aumentar el daño, la cantidad de rebotes y el tamaño
+		Los ataques sigilosos disparan shurikens a los enemigos cercanos mientras se desplazan
 		'''
 	TidalWave:
 		'''
-		'Sweep away your foes with the fury of the tide...'
-		Throws out a massive aquatic shuriken that releases miniature waves
-		Stealth strikes spawn a damaging tidal wave that follows the shuriken and pulls enemies in
+		'Arrasa con tus enemigos con la furia de la marea...'
+		Lanza un enorme shuriken acuático que libera olas en miniatura
+		Los ataques sigilosos generan una ola gigante dañina que sigue al shuriken y atrae a los enemigos
 		'''
 }
 
 GripsRework: {
 	PaddedRework:
 		'''
-		Thrower projectiles have a 10% chance to grant the player 15% thrower attack speed for 1 second upon death
-		This effect can only trigger once every 2 seconds
+		Los proyectiles arrojadizos tienen un 10% de probabilidad de otorgar al jugador un 15% de velocidad de ataque arrojadizo durante 1 segundo al morir
+		Este efecto solo puede activarse una vez cada 2 segundos
 		'''
 	BoneRework:
 		'''
-		Thrower projectiles have a 20% chance to grant the player 15% thrower attack speed for 1 second upon death
-		This effect can only trigger once every 2 seconds
+		Los proyectiles arrojadizos tienen un 20% de probabilidad de otorgar al jugador un 15% de velocidad de ataque arrojadizo durante 1 segundo al morir
+		Este efecto solo puede activarse una vez cada 2 segundos
 		'''
 	MagnetoRework:
 		'''
-		Thrower projectiles have a 20% chance to grant the player 15% thrower attack speed for 1 second upon death
-		This effect can only trigger once every 1.5 seconds
+		Los proyectiles arrojadizos tienen un 20% de probabilidad de otorgar al jugador un 15% de velocidad de ataque arrojadizo durante 1 segundo al morir
+		Este efecto solo puede activarse una vez cada 1.5 segundos
 		'''
 }
 
 DamageClasses: {
 	UnitedModdedThrower: {
 		DisplayName: {
-			0: thrower damage
-			1: rogue damage
-			2: malevolent damage
-			3: kinetic damage
-			Thrower: thrower damage
-			Rogue: rogue damage
-			Malevolent: malevolent damage
-			Kinetic: kinetic damage
-			thrower: thrower damage
-			rogue: rogue damage
-			malevolent: malevolent damage
-			kinetic: kinetic damage
+			0: Daño arrojadizo
+			1: Daño rogue
+			2: Daño malévolo
+			3: Daño cinético
+			Thrower: Daño arrojadizo
+			Rogue: Daño rogue
+			Malevolent: Daño malévolo
+			Kinetic: Daño cinético
+			thrower: Daño arrojadizo
+			rogue: Daño rogue
+			malevolent: Daño malévolo
+			kinetic: Daño cinético
 		}
 	}
 }
 
-CustomName: "{0} damage"
-ClassTag: -{0} Class-
+CustomName: "{0} daño"
+ClassTag: -Clase {0}-
 
 Configs: {
 	ThrowerModConfig: {
-		DisplayName: Thrower Mod Config
+		DisplayName: Configuración de Thrower Mod
 
 		Headers: {
 			General: General
-			ColoredDamageType: Colored Damage Type
-			ClassTag: Class Tag Header
+			ColoredDamageType: Color de tipo de daño
+			ClassTag: Encabezado de etiqueta de clase
 			Experimental: Experimental
 		}
 
 		Vanilla: {
 			Label: Vanilla
-			Tooltip: Toggles the class unification merge for any mod that uses the vanilla thrower class damage. This mainly includes Thorium mod.
+			Tooltip: Activa/desactiva la fusión de clases para cualquier mod que utilice el daño de la clase arrojadizo predeterminada. Esto incluye principalmente el Thorium mod.
 		}
 
 		Calamity: {
 			Label: Calamity
-			Tooltip: Toggles the class unification merge for the Rogue class from Calamity mod.
+			Tooltip: Activa/desactiva la fusión de clases para la clase Rogue del Calamity mod.
 		}
 
 		Vitality: {
 			Label: Vitality
-			Tooltip: Toggles the class unification merge for the Blood Hunter class from Vitality mod.
+			Tooltip: Activa/desactiva la fusión de clases para la clase Cazador de sangre del Vitality mod.
 		}
 
 		SacredTools: {
 			Label: Shadows of Abaddon
-			Tooltip: Toggles the class unification merge for the Revenant class from Shadows of Abaddon.
+			Tooltip: Activa/desactiva la fusión de clases para la clase Revenant de Shadows of Abaddon.
 		}
 
 		TooltipOverride: {
-			Label: Class Name & Tooltips Override
-			Tooltip: Lets you adjust the name of the class to any of the supported classes, or the custom name set below.
+			Label: Sobreescribir nombre de la clase y su descripción
+			Tooltip: Permite ajustar el nombre de la clase a cualquiera de las clases compatibles o al nombre personalizado que se muestra a continuación.
 		}
 
 		R: {
@@ -160,51 +160,51 @@ Configs: {
 		}
 
 		StealthStrikes: {
-			Label: Stealth Strikes
+			Label: Ataques sigilosos
 			Tooltip:
 				'''
-				Toggles the non-Calamity stealth strikes added by this mod.
-				This setting does nothing if Calamity is not enabled
+				Activa/desactiva los ataques sigilosos que no son del Calamity añadidos por este mod.
+				Esta configuración no tiene efecto si Calamity no está habilitado
 				'''
 		}
 
 		CustomTooltipOverride: {
-			Label: Custom Tooltip Override
+			Label: Sobrescribir descripción personalizada
 			Tooltip:
 				'''
-				Allows you to enter a custom name for the united thrower class.
-				Enter the deseried class name with proper capitalization (i.e. Thrower)
+				Te permite introducir un nombre personalizado para united thrower class.
+				Introduzca el nombre de la clase deseada con las mayúsculas y minúsculas correctas (ejem, Thrower/arrojadizo)
 				'''
 		}
 
 		ThoriumClassTag: {
-			Label: Class Tag
-			Tooltip: Toggles the class tag that appears at the top of an items tooltip.
+			Label: Etiqueta de clase
+			Tooltip: Activa/desactiva la etiqueta de clase que aparece en la parte superior de la descripción del objeto.
 		}
 
 		TagR: {
-			Label: Tag R
+			Label: Etiqueta R
 			Tooltip: ""
 		}
 
 		TagG: {
-			Label: Tag G
+			Label: Etiqueta G
 			Tooltip: ""
 		}
 
 		TagB: {
-			Label: Tag B
+			Label: Etiqueta B
 			Tooltip: ""
 		}
 
 		LegacyVanillaThrowerWeapons: {
-			Tooltip: Toggles the conversion of vanilla ranged weapons that used to be thrower to thrower.
-			Label: Legacy Vanilla Thrower Weapons
+			Tooltip: Activa/desactiva la conversión de armas a distancia vanilla que antes eran arrojadizas a arrojadizas.
+			Label: Armas legacy arrojadizas del vainilla
 		}
 
 		ConsumableWeaponConversion: {
-			Label: Consumable Weapon Conversion
-			Tooltip: Toggles whether Thrower weapons outside of Calamity and Vanilla are made non-consumable to match Calamity mod Rogue weapons
+			Label: Conversión de armas consumibles
+			Tooltip: Activa/desactiva la opción de hacer que las armas arrojadizas fuera de Calamity mod y vanilla no sean consumibles para que coincidan con las armas de Rogue del Calamity mod
 		}
 	}
 
@@ -212,7 +212,7 @@ Configs: {
 		Tooltip: ""
 
 		Thrower: {
-			Label: Thrower
+			Label: Arrojadizo
 			Tooltip: ""
 		}
 
@@ -222,25 +222,25 @@ Configs: {
 		}
 
 		Malevolent: {
-			Label: Malevolent
+			Label: Malévolo
 			Tooltip: ""
 		}
 
 		Kinetic: {
-			Label: Kinetic
+			Label: Cinético
 			Tooltip: ""
 		}
 
 		Custom: {
-			Label: Custom
+			Label: Personalizado
 			Tooltip: ""
 		}
 	}
 }
 
 Projectiles: {
-	FireAxeStealthPro.DisplayName: Fire Axe Stealth Pro
-	RogueSpectreBlast.DisplayName: Rogue Spectre Blast
-	TidalWaveWhirlpool.DisplayName: Tidal Wave Whirlpool
-	ShinobiGelStealthPro.DisplayName: Shinobi Gel Stealth Pro
+	FireAxeStealthPro.DisplayName: Hacha de fuego
+	RogueSpectreBlast.DisplayName: Explosión espectral rogue
+	TidalWaveWhirlpool.DisplayName: Remolino de ola gigante
+	ShinobiGelStealthPro.DisplayName: Sigilo del Shinobi gel
 }
