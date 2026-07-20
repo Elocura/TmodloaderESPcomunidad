@@ -1179,7 +1179,7 @@ Mods: {
 				Tooltip:
 					'''
 					Invoca al Nautilo terrible
-					Solo usable durante la Luna de sangre
+					Solo se puede usar durante la Luna de sangre
 					'''
 			}
 
@@ -1188,7 +1188,7 @@ Mods: {
 				Tooltip:
 					'''
 					Invoca a la Anguila de sangre
-					Solo usable durante la Luna de sangre
+					Solo se puede usar durante la Luna de sangre
 					'''
 			}
 
@@ -1207,18 +1207,18 @@ Mods: {
 			}
 
 			CoreoftheFrostCore: {
-				DisplayName: Núcleo del núcleo gélido
-				Tooltip: Invoca al Gólem de Hielo
+				DisplayName: Núcleo del Núcleo congelado
+				Tooltip: Invoca al Gólem de hielo
 			}
 
 			CorruptChest: {
 				DisplayName: Cofre corrupto
-				Tooltip: Invoca al Cofre falso corrupto
+				Tooltip: Invoca un Cofre falso corrupto
 			}
 
 			CrimsonChest: {
 				DisplayName: Cofre carmesí
-				Tooltip: Invoca al Cofre falso carmesí
+				Tooltip: Invoca un Cofre falso carmesí
 			}
 
 			DemonicPlushie: {
@@ -1255,7 +1255,7 @@ Mods: {
 			}
 
 			GoblinScrap: {
-				DisplayName: Chatarra goblin
+				DisplayName: Chatarra de duende
 				Tooltip: Invoca al Duende explorador
 			}
 
@@ -1275,11 +1275,11 @@ Mods: {
 
 			HallowChest: {
 				DisplayName: Cofre sagrado
-				Tooltip: Invoca al Mímico Sagrado
+				Tooltip: Invoca al Cofre falso sagrado
 			}
 
 			HeartChocolate: {
-				DisplayName: Chocolate de corazón
+				DisplayName: Corazón de chocolate
 				Tooltip:
 					'''
 					Invoca a la Ninfa
@@ -1292,7 +1292,7 @@ Mods: {
 				Tooltip:
 					'''
 					Invoca al Tiburón hemoduende
-					Solo usable durante la Luna de sangre
+					Solo se puede usar durante la Luna de sangre
 					'''
 			}
 
@@ -1306,131 +1306,131 @@ Mods: {
 			}
 
 			JungleChest: {
-				DisplayName: Cofre de la jungla
-				Tooltip: Invoca un Mímico de la Jungla
+				DisplayName: Cofre de la selva
+				Tooltip: Invoca un Cofre falso de la selva
 			}
 
 			LeesHeadband: {
 				DisplayName: Cinta de Lee
 				Tooltip:
 					'''
-					Invoca a Bone Lee
+					Invoca a Hueso Lee
 					Solo se puede usar de noche o en el subterráneo
 					'''
 			}
 
 			MothLamp: {
-				DisplayName: Lámpara de Polilla
+				DisplayName: Lámpara de polilla
 				Tooltip: Invoca una Polilla
 			}
 
 			MothronEgg: {
-				DisplayName: Huevo de Mothron
+				DisplayName: Huevo de Polillón
 				Tooltip:
 					'''
-					Invoca a Mothron
-					Solo usable durante un Eclipse Solar
+					Invoca a Polillón
+					Solo se puede usar durante un Eclipse solar
 					'''
 			}
 
 			Pincushion: {
-				DisplayName: Almohadilla de Alfileres
+				DisplayName: Almohadilla de alfileres
 				Tooltip:
 					'''
-					Invoca a Nailhead
-					Solo usable durante un Eclipse Solar
+					Invoca a Cabezaclavo
+					Solo se puede usar durante un Eclipse solar
 					'''
 			}
 
 			PinkSlimeCrown: {
-				DisplayName: Tiara de Slime Rosa
-				Tooltip: Invoca a Pinky
+				DisplayName: Tiara de Slime rosa
+				Tooltip: Invoca a Slime rosa
 			}
 
 			PirateFlag: {
-				DisplayName: Bandera Pirata
-				Tooltip: Invoca al Capitán Pirata
+				DisplayName: Bandera pirata
+				Tooltip: Invoca al Capitán pirata
 			}
 
 			PlunderedBooty: {
-				DisplayName: Botín Saqueado
-				Tooltip: Invoca al Holandés Volador
+				DisplayName: Botín saqueado
+				Tooltip: Invoca al Holandés volador
 			}
 
 			RuneOrb: {
-				DisplayName: Orbe Rúnico
+				DisplayName: Orbe rúnico
 				Tooltip:
 					'''
-					Invoca al Mago Rúnico
+					Invoca al Mago rúnico
 					Solo se puede usar de noche o en el subterráneo
 					'''
 			}
 
 			ShadowflameIcon: {
-				DisplayName: Ícono de Llama Sombría
+				DisplayName: Ícono de llama sombría
 				Tooltip:
 					'''
-					Invoca a la Invocadora Goblin
-					Solo usable durante la invasión Goblin
+					Invoca a la Duende hechicero
+					Solo se puede usar durante la invasión Goblin
 					'''
 			}
 
 			SlimyLockBox: {
-				DisplayName: Cerradura Babosa
-				Tooltip: Invoca a un Slime de Calabozo
+				DisplayName: Cerradura pegajosa
+				Tooltip: Invoca a un Slime de las mazmorras
 			}
 
 			SuspiciousLookingChest: {
-				DisplayName: Cofre de Apariencia Sospechosa
+				DisplayName: Cofre de apariencia sospechosa
 				Tooltip:
 					'''
-					Invoca a un Mímico
-					Invoca a un Mímico de Hielo si estás en la bioma de nieve
+					Invoca a un Cofre falso
+					Invoca a un Cofre falso de hielo si estás en la bioma de nieve
 					'''
-				HardmodeLock: Solo usable en Modo difícil
+				HardmodeLock: Solo se puede usar durante el Modo difícil
 			}
 
 			SuspiciousLookingLure: {
-				DisplayName: Carnada de Apariencia Sospechosa
+				DisplayName: Carnada de apariencia sospechosa
 				Tooltip:
 					'''
-					Invoca a un Pez Ojo Errante y a un Hombre Mermo Zombi
+					Invoca a un Pez ojo errante y a un Tritón zombie
 					Solo se puede usar de noche
 					'''
 			}
 
 			WormSnack: {
-				DisplayName: Bocadillo de Gusano
+				DisplayName: Bocadillo de gusano
 				Tooltip:
 					'''
-					Invoca a un Gusano Gigante en modo normal
-					Invoca a Digger en Modo difícil
-					Solo usable bajo tierra
+					Invoca a un Gusano gigante en modo normal
+					Invoca a Excavador en Modo difícil
+					Solo se puede usar en el subterráneo
 					'''
 			}
 
 			GoreySpine: {
-				DisplayName: Materia Cerebral
+				DisplayName: Materia cerebral
 				Tooltip: Invoca al Cerebro de Cthulhu en cualquier bioma
 			}
 
 			MechEye: {
-				DisplayName: Algún Tipo de Ojo Metálico
-				Tooltip: Invoca a los Gemelos
+				DisplayName: Algún tipo de ojo metálico
+				Tooltip: Invoca a Los Gemelos
 			}
 
 			MechSkull: {
-				DisplayName: Algún Tipo de Cráneo Metálico
-				Tooltip: Invoca a Skeletron Prime
+				DisplayName: Algún tipo de Cráneo metálico
+				Tooltip: Invoca a Esqueletrón mayor
 			}
 
 			MechWorm: {
-				DisplayName: Algún Tipo de Gusano Metálico
+				DisplayName: Algún tipo de gusano metálico
 				Tooltip: Invoca al Destructor
 			}
 
 			AncientSeal: {
-				DisplayName: Sello Antiguo
+				DisplayName: Sello antiguo
 				Tooltip:
 					'''
 					Invoca a TODOS los jefes (incluidos los de mods)
@@ -1440,10 +1440,10 @@ Mods: {
 			}
 
 			CultistSummon: {
-				DisplayName: Posesión del Fanático
+				DisplayName: Posesión del fanático
 				Tooltip:
 					'''
-					Invoca al Fanático Lunático
+					Invoca al Sectario lunático
 					No genera los pilares si ya ha sido derrotado antes
 					'''
 			}
@@ -1721,7 +1721,7 @@ Mods: {
 
 			OverloadCultist: {
 				DisplayName: Locura del Fanático
-				Tooltip: Invoca a un Cultista Lunático energizado
+				Tooltip: Invoca a un Sectario lunático energizado
 			}
 
 			OverloadDarkMage: {
@@ -2937,7 +2937,7 @@ Mods: {
 			HorsemanDown: Después de derrotar a un Jinete Sin Cabeza
 			PillarsDown: Después de derrotar a los Pilares Celestiales
 			Downed: Después de derrotar
-			WormDown: Después de derrotar a un Gusano Gigante o Perforador
+			WormDown: Después de derrotar a un Gusano gigante o Excavador
 			PinkyDown: Después de derrotar a un Pinky
 			ScoutDown: Después de derrotar a un Duende explorador
 			DoctorDown: Después de derrotar al Doctor Látigo
@@ -2945,7 +2945,7 @@ Mods: {
 			TimDown: Después de derrotar a Tim
 			GnomeDown: Después de derrotar a un Gnomo
 			GoldSlimeDown: Después de derrotar a un Slime Dorado
-			DungeonSlimeDown: Después de derrotar a un Slime de Mazmorra y a Esqueletrón
+			DungeonSlimeDown: Después de derrotar a un Slime de las mazmorras y a Esqueletrón
 			MedusaDown: Después de derrotar a una Medusa, en Modo difícil
 			ClownDown: Después de derrotar a un Payaso, en Modo difícil
 			NymphDown: Después de derrotar a una Ninfa
@@ -2961,15 +2961,15 @@ Mods: {
 			IceGolemDown: Después de derrotar a un Gólem de Hielo, en Modo difícil
 			SandDown: Después de derrotar a un Elemental de Arena, en Modo difícil
 			DevilDown: Después de derrotar a un Diablo Rojo, en Modo difícil
-			BloodFishDown: Después de derrotar a un Pez Ojo Errante o un Hombre Pez Zombi
+			BloodFishDown: Después de derrotar a un Pez ojo errante o a un Tritón zombie
 			BloodEelDown: Después de derrotar a una Anguila Sangrienta, en Modo difícil
 			BloodGoblinDown: Después de derrotar a un Tiburón hemoduende, en Modo difícil
 			BloodNautDown: Después de derrotar al Nautilo terrible, en Modo difícil
-			SummonerDown: Después de derrotar a una Invocadora Goblin y al Ejército Goblin, en Modo difícil
+			SummonerDown: Después de derrotar a una Duende hechicero y al Ejército Goblin, en Modo difícil
 			PirateDown: Después de derrotar a un Capitán Pirata y a la Invasión Pirata, en Modo difícil
-			NailheadDown: Después de derrotar a un Clavacabezas y a todos los Jefes Mecánicos
-			MothronDown: Después de derrotar a un Mothron y a todos los Jefes Mecánicos
-			LeeDown: Después de derrotar a un Bone Lee y a Plantera
+			NailheadDown: Después de derrotar a un Cabezaclavo y a todos los Jefes Mecánicos
+			MothronDown: Después de derrotar a Polillón y a todos los Jefes Mecánicos
+			LeeDown: Después de derrotar a Hueso Lee y a Plantera
 			PaladinDown: Después de derrotar a un Paladín y a Plantera
 			SkeleGunDown: Después de derrotar a un Francotirador Esqueleto, un Esqueleto Táctico o un Comando Esqueleto, luego de Plantera
 			SkeleMagesDown: Después de derrotar a un Nigromante, un Diablista o un Hechicero Andrajoso, luego de Plantera
