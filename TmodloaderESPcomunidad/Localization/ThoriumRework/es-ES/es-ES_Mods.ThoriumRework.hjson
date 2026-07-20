@@ -685,7 +685,7 @@ Items: {
 	}
 
 	BeholderTentaclesCosmetic: {
-		DisplayName: Beholder's Tentacles
+		DisplayName: Tentáculos del observador
 		Tooltip:
 			'''
 			Provoca los efectos {$ItemName.FrogLeg} y {$ItemName.LavaWaders}, pero sin la inmunidad a la lava
@@ -884,7 +884,7 @@ Items: {
 	}
 
 	FluteofCurses: {
-		DisplayName: La flauta de las maldiciones
+		DisplayName: Flauta de las maldiciones
 		Tooltip: Lanza calaveras malditas que se adhieren a los enemigos y les infligen daño continuo
 	}
 
@@ -1018,7 +1018,7 @@ Items: {
 			Los enemigos desbordados reciben un 5% más de daño.
 			Puedes soltar con <left> para lanzar todas esas esferas a la vez
 			No te agota.
-            "Le da un nuevo significado a lo de “tener las pelotas azules”.
+			"Le da un nuevo significado a lo de “tener las pelotas azules”.
 			'''
 	}
 
@@ -1040,7 +1040,7 @@ Items: {
 			Los hechizos de curación otorgan 5 puntos de vida adicionales
 			Al obtener esencia de alma con las guadañas radiantes, se obtiene una acumulación de carga agregada y un escudo cuando la salud está al máximo
 			El daño radiante de los proyectiles de las guadañas o de las armas que no sean guadañas consume carga agregada para otorgar esencia de alma
-            "¡Cierra el trato!"
+			"¡Cierra el trato!"
 			'''
 	}
 
@@ -1225,7 +1225,7 @@ Items: {
 	}
 
 	ValadiumHeavyScythe: {
-		DisplayName: Guada pesada de valadio
+		DisplayName: Guadaña pesada de valadio
 		Tooltip:
 			'''
 			Esta guadaña se blande en una dirección concreta en lugar de girarse
@@ -1627,7 +1627,7 @@ Configs: {
 		}
 
 		abyssion: {
-			Label: "[i:ThoriumMod/ForgottenOneMask]Abyssion"
+			Label: "[i:ThoriumMod/ForgottenOneMask]Abisón"
 			Tooltip: Rework del Olvidado
 		}
 
