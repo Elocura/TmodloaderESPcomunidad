@@ -194,6 +194,7 @@ ItemDescriptions: {
 		También genera una ráfaga de luz del vacío que ataca rápidamente a los enemigos
 		'''
 	OrnateArmor: Ya no es posible desincronizar los instrumentos grandes, pero la regeneración de la inspiración se detendrá al sostener un arma de este tipo
+	SoulRender:
 		'''
 		Cada tercer y cuarto ataque, la guadaña gira sobre sí misma, lanzando cuchillas de alma volátiles que infligen un 40% de daño
 		Las cuchillas de alma volátiles infligen más daño cuanto mayor sea tu velocidad de ataque, para compensar la menor cantidad de proyectiles lanzados
@@ -1631,7 +1632,7 @@ Configs: {
 		}
 
 		requireAbyssion: {
-			Label: "[i:ThoriumMod/ForgottenOneMask]Requisito: Abisón en la progresión
+			Label: "[i:ThoriumMod/ForgottenOneMask]Requisito: Abisón en la progresión"
 			Tooltip:
 				'''
 				Ahora es necesario matar al Olvidado junto con el Golem para que aparezcan los cultistas.
@@ -1951,7 +1952,7 @@ Configs: {
 		}
 
 		TerrariumRippleKnife: {
-			Label: "[i:ThoriumMod/TerrariumRippleKnife]Cuchillo ondulante de terrarium
+			Label: "[i:ThoriumMod/TerrariumRippleKnife]Cuchillo ondulante de terrarium"
 			Tooltip: ""
 		}
 
