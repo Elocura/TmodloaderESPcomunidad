@@ -368,8 +368,8 @@ Mods: {
 			HaveAwoken: ¡{0} ha despertado!
 			// Cancel Event
 			CancelEvent: ¡Los invasores se han marchado!
-			CancelPumpkinMoon: La Luna Calabaza se desvanece...
-			CancelFrostMoon: La Luna Escarchada se desvanece...
+			CancelPumpkinMoon: La luna calabaza se desvanece...
+			CancelFrostMoon: La luna gélida se desvanece...
 			CancelEclipse: ¡No está ocurriendo un eclipse solar!
 			CancelBloodMoon: La luna sangrienta está descendiendo...
 			CancelWindyDay: ¡El viento ha cesado!
@@ -408,13 +408,13 @@ Mods: {
 			OverloadWall: ¡Una fortaleza de carne surge desde las profundidades!
 			OverloadWorm: ¡El suelo se agita con precisión calculada!
 			// Swarm Events
-			OverloadFrostMoonStop: ¡La Luna Escarchada se desvanece!
-			OverloadFrostMoonStart: La Luna Escarchada se eleva...
+			OverloadFrostMoonStop: ¡La luna gélida se desvanece!
+			OverloadFrostMoonStart: La luna gélida se eleva...
 			OverloadFrostMoonWave20: Oleada: 20: Todo
-			OverloadPumpkinMoonStop: ¡La Luna Calabaza se desvanece!
-			OverloadPumpkinMoonStart: La Luna Calabaza se eleva...
+			OverloadPumpkinMoonStop: ¡La luna calabaza se desvanece!
+			OverloadPumpkinMoonStart: La luna calabaza se eleva...
 			OverloadPumpkinMoonWave15: Oleada: 15: Todo
-			OverloadGoblinsStop: ¡Los goblins se han calmado!
+			OverloadGoblinsStop: ¡Los duendes se han calmado!
 			OverloadMartiansStop: ¡Los marcianos se han calmado!
 			OverloadPiratesStop: ¡Los piratas se han calmado!
 			// Swarm Misc
@@ -630,12 +630,12 @@ Mods: {
 			}
 
 			ClusterRocket1Bag: {
-				DisplayName: Bolsa infinita de cohetes racimo I
+				DisplayName: Bolsa infinita de cohetes clúster I
 				Tooltip: ""
 			}
 
 			ClusterRocket2Bag: {
-				DisplayName: Bolsa infinita de cohetes racimo II
+				DisplayName: Bolsa infinita de cohetes clúster II
 				Tooltip: ""
 			}
 
@@ -879,7 +879,7 @@ Mods: {
 				Tooltip:
 					'''
 					Cambia entre modos de dificultad con clic izquierdo
-					Activa o desactiva el Modo Viaje con clic derecho (puede causar problemas en multijugador)
+					Activa o desactiva el Modo viaje con clic derecho (puede causar problemas en multijugador)
 					'''
 				Journey: ¡Modo Viaje activado!
 				Normal: ¡Modo Normal activado!
@@ -932,12 +932,12 @@ Mods: {
 
 			CrimsonRenewal: {
 				DisplayName: Renovación carmesí
-				Tooltip: Infecta un área grande con Carmesí
+				Tooltip: Infecta un área grande con carmesí
 			}
 
 			CrimsonRenewalSupreme: {
 				DisplayName: Renovación suprema carmesí
-				Tooltip: Infecta todo el mundo con Carmesí
+				Tooltip: Infecta todo el mundo con carmesí
 			}
 
 			HallowRenewal: {
@@ -1092,7 +1092,7 @@ Mods: {
 
 			RunawayProbe: {
 				DisplayName: Sonda fugitiva
-				Tooltip: Inicia la Invasión marciana
+				Tooltip: Inicia la Locura marciana
 			}
 
 			SlimyBarometer: {
@@ -1194,7 +1194,7 @@ Mods: {
 
 			CloudSnack: {
 				DisplayName: Bocadillo de nube
-				Tooltip: Invoca a un Guiverno
+				Tooltip: Invoca un Guiverno
 			}
 
 			ClownLicense: {
@@ -1344,7 +1344,7 @@ Mods: {
 
 			PinkSlimeCrown: {
 				DisplayName: Tiara de Slime rosa
-				Tooltip: Invoca a un Slime rosa
+				Tooltip: Invoca un Slime rosa
 			}
 
 			PirateFlag: {
@@ -1371,7 +1371,7 @@ Mods: {
 				Tooltip:
 					'''
 					Invoca a la Duende hechicera
-					Solo se puede usar durante la invasión Goblin
+					Solo se puede usar durante el evento del ejército de duendes
 					'''
 			}
 
@@ -1403,8 +1403,8 @@ Mods: {
 				DisplayName: Bocadillo de gusano
 				Tooltip:
 					'''
-					Invoca a un Gusano gigante en modo normal
-					Invoca a un Excavador en Modo difícil
+					Invoca un Gusano gigante en Modo normal
+					Invoca un Excavador en Modo difícil
 					Solo se puede usar en el subterráneo
 					'''
 			}
@@ -1416,7 +1416,7 @@ Mods: {
 
 			MechEye: {
 				DisplayName: Algún tipo de ojo metálico
-				Tooltip: Invoca a Los Gemelos
+				Tooltip: Invoca a Los gemelos
 			}
 
 			MechSkull: {
@@ -1452,7 +1452,7 @@ Mods: {
 				DisplayName: Hada portadora de muerte
 				Tooltip:
 					'''
-					Invoca a todos los jefes del modo normal
+					Invoca a todos los jefes del Modo normal
 					Solo se puede usar de noche
 					Algunos jefes solo aparecerán si estás en su bioma específico
 					'''
@@ -1481,7 +1481,7 @@ Mods: {
 				DisplayName: Peluche del mutante
 				Tooltip:
 					'''
-					Invoca a TODOS los jefes  
+					Invoca a TODOS los jefes
 					Solo se puede usar de noche
 					'''
 			}
@@ -1500,7 +1500,7 @@ Mods: {
 				DisplayName: Calavera sospechosa
 				Tooltip:
 					'''
-					Invoca a Esqueletrón sin matar al Sastre 
+					Invoca a Esqueletrón sin matar al Sastre
 					Invoca al Guardián de la mazmorra durante el día
 					'''
 			}
@@ -1591,7 +1591,7 @@ Mods: {
 				DisplayName: Energizante de hada
 				Tooltip:
 					'''
-					Se forma tras usar 10 Frascos de Luciérnagas
+					Se forma tras usar 10 Frascos de luciérnagas
 					'Usa protección ocular al mirar'
 					'''
 			}
@@ -1636,7 +1636,7 @@ Mods: {
 				DisplayName: Energizador hojeante
 				Tooltip:
 					'''
-					Formado tras usar 10 Corazones de la Jungla
+					Formado tras usar 10 Corazones de la jungla
 					'Ser una hoja suena divertido'
 					'''
 			}
@@ -1645,17 +1645,17 @@ Mods: {
 				DisplayName: Energizador supremo
 				Tooltip:
 					'''
-					Formado tras usar 10 Chips de Control Primigenios
+					Formado tras usar 10 Chips de control primario
 					'Te sientes como una nueva persona'
 					'''
 			}
 
 			EnergizerQueenSlime: {
-				DisplayName: Energizador Cristalino
+				DisplayName: Energizador cristalino
 				Tooltip:
 					'''
-					Formado tras usar 10 Cristales Sobrecargados
-					'Se siente muy baboso'
+					Formado tras usar 10 Cristales sobrecargados
+					'Se siente muy viscoso'
 					'''
 			}
 
@@ -1669,19 +1669,19 @@ Mods: {
 			}
 
 			EnergizerSlime: {
-				DisplayName: Energizador Pegajoso
+				DisplayName: Energizador viscoso
 				Tooltip:
 					'''
-					Formado tras usar 10 Órdenes Reales Personales
-					'Se siente un poco baboso'
+					Formado tras usar 10 Órdenes reales personales
+					'Se siente un poco viscoso'
 					'''
 			}
 
 			EnergizerTwins: {
-				DisplayName: Energizador Fraternal
+				DisplayName: Energizador fraternal
 				Tooltip:
 					'''
-					Formado tras usar 10 Lentes Omnifocales
+					Formado tras usar 10 Lentes omnifocales
 					'Ojalá tuvieras más'
 					'''
 			}
@@ -1696,7 +1696,7 @@ Mods: {
 			}
 
 			EnergizerWorm: {
-				DisplayName: Energizador Gusanesco
+				DisplayName: Energizador gusanesco
 				Tooltip:
 					'''
 					Formado tras usar 10 Pollogusanos
@@ -1706,7 +1706,7 @@ Mods: {
 
 			OverloadBee: {
 				DisplayName: Larva sobrecargada
-				Tooltip: Invoca a una Abeja Reina energizada
+				Tooltip: Invoca a una Abeja reina energizada
 			}
 
 			OverloadBetsy: {
@@ -1716,17 +1716,17 @@ Mods: {
 
 			OverloadBrain: {
 				DisplayName: Tormenta cerebral
-				Tooltip: Invoca a un Cerebro de Cthulhu energizado
+				Tooltip: Invoca al Cerebro de Cthulhu energizado
 			}
 
 			OverloadCultist: {
 				DisplayName: Locura del fanático
-				Tooltip: Invoca a un Sectario lunático energizado
+				Tooltip: Invoca al Sectario lunático energizado
 			}
 
 			OverloadDarkMage: {
-				DisplayName: Tomo Realmente Prohibido
-				Tooltip: Invoca a un Mago Oscuro energizado
+				DisplayName: Tomo realmente prohibido
+				Tooltip: Invoca a un Mago oscuro energizado
 			}
 
 			OverloadDeer: {
@@ -1736,21 +1736,21 @@ Mods: {
 
 			OverloadDestroyer: {
 				DisplayName: Actuador sísmico
-				Tooltip: Invoca a un Destructor energizado
+				Tooltip: Invoca al Destructor energizado
 			}
 
 			OverloadedSlimeRain: {
-				DisplayName: Invocador de Tormentas Babosas
+				DisplayName: Invocador de tormentas viscosas
 				Tooltip:
 					'''
-					Invoca una Lluvia de Slimes Sobrecargada  
+					Invoca una Lluvia de slimes sobrecargada  
 					Usa de nuevo para detener el evento
 					'''
 			}
 
 			OverloadEmpress: {
-				DisplayName: Frasco de Luciérnagas
-				Tooltip: Invoca a una Emperatriz de la Luz energizada
+				DisplayName: Frasco de luciérnagas
+				Tooltip: Invoca a una Emperatriz de la luz energizada
 			}
 
 			Overloader: {
@@ -1778,19 +1778,19 @@ Mods: {
 			}
 
 			OverloadFrostMoon: {
-				DisplayName: Saco de Regalos Traviesos
+				DisplayName: Saco de regalos traviesos
 				Tooltip:
 					'''
-					Invoca una Luna Helada Sobrecargada  
+					Invoca un la luna gélida sobrecargada
 					Úsalo de nuevo para detener el evento
 					'''
 			}
 
 			OverloadGoblins: {
-				DisplayName: Estandarte de Guerra Goblin
+				DisplayName: Estandarte de guerra duende
 				Tooltip:
 					'''
-					Invoca una Invasión Goblin Sobrecargada  
+					Invoca a un ejército de duendes sobrecargado
 					Úsalo de nuevo para detener el evento
 					'''
 			}
@@ -1801,83 +1801,83 @@ Mods: {
 			}
 
 			OverloadMartians: {
-				DisplayName: Satélite de Comunicación Marciano
+				DisplayName: Satélite de comunicación marciano
 				Tooltip:
 					'''
-					Invoca una Invasión Marciana Sobrecargada  
+					Invoca a la Locura marciana sobrecargada
 					Úsalo de nuevo para detener el evento
 					'''
 			}
 
 			OverloadMoon: {
 				DisplayName: Inscripción rúnica
-				Tooltip: Invoca a un Señor de la Luna energizado
+				Tooltip: Invoca a un Señor de la luna energizado
 			}
 
 			OverloadPirates: {
-				DisplayName: Botín del Pirata
+				DisplayName: Botín del pirata
 				Tooltip:
 					'''
-					Invoca una Invasión Pirata Sobrecargada  
+					Invoca una Invasión pirata sobrecargada
 					Úsalo de nuevo para detener el evento
 					'''
 			}
 
 			OverloadPlant: {
-				DisplayName: Corazón de la Jungla
+				DisplayName: Corazón de la jungla
 				Tooltip: Invoca a una Plantera energizada
 			}
 
 			OverloadPrime: {
-				DisplayName: Chip de Control Primal
+				DisplayName: Chip de control primario
 				Tooltip: Invoca a un Esqueletrón Prime energizado
 			}
 
 			OverloadPumpkinMoon: {
-				DisplayName: Medallón de la Luna Calabaza Sobrecargado
+				DisplayName: Medallón de Luna calabaza sobrecargado
 				Tooltip:
 					'''
-					Invoca una Luna Calabaza Sobrecargada  
+					Invoca a la Luna calabaza sobrecargada
 					Úsalo de nuevo para detener el evento
 					'''
 			}
 
 			OverloadQueenSlime: {
-				DisplayName: Cristal Sobrecargado
-				Tooltip: Invoca a una Reina Slime energizada
+				DisplayName: Cristal sobrecargado
+				Tooltip: Invoca a una Reina slime energizada
 			}
 
 			OverloadSkele: {
 				DisplayName: Collar de cadenas de calavera
 				Tooltip:
 					'''
-					Invoca a un Esqueletrón energizado durante la noche  
-					Invoca a un Guardián de la Mazmorra energizado durante el día
+					Invoca a un Esqueletrón energizado durante la noche
+					Invoca a un Guardián de la mazmorra energizado durante el día
 					'''
 			}
 
 			OverloadSlimeCrown: {
-				DisplayName: Orden Real Personal
-				Tooltip: Invoca a un Rey Slime energizado
+				DisplayName: Orden real personal
+				Tooltip: Invoca al Rey slime energizado
 			}
 
 			OverloadTwins: {
-				DisplayName: Lente Omnifocal
+				DisplayName: Lente omnifocal
 				Tooltip: Invoca a un par de Gemelos energizados
 			}
 
 			OverloadWall: {
-				DisplayName: Paquete de Muñecas
-				Tooltip: Invoca una Muro carnoso energizada
+				DisplayName: Paquete de muñecas
+				Tooltip: Invoca al Muro carnoso energizado
 			}
 
 			OverloadWorm: {
-				DisplayName: Pollo Gusano
-				Tooltip: Invoca a un Devorador de Mundos energizado
+				DisplayName: Pollogusano
+				Tooltip: Invoca a un Devoramundos energizado
 			}
 
 			TruffleWorm2: {
-				DisplayName: Aceite de Gusano Trufa Concentrado
+				DisplayName: Aceite de gusano trufa concentrado
 				Tooltip: Invoca al Duque Fishron sin necesidad de pescar
 			}
 
@@ -1887,17 +1887,17 @@ Mods: {
 			}
 
 			WormyFood: {
-				DisplayName: Cebo Podrido
-				Tooltip: Invoca al Devorador de Mundos en cualquier bioma
+				DisplayName: Cebo podrido
+				Tooltip: Invoca al Devoramundos en cualquier bioma
 			}
 
 			CrimsonAltar: {
-				DisplayName: Altar Carmesí
+				DisplayName: Altar carmesí
 				Tooltip: ""
 			}
 
 			CrucibleCosmos: {
-				DisplayName: Crisol del Cosmos
+				DisplayName: Crisol del cosmos
 				Tooltip:
 					'''
 					Funciona como todas las estaciones de creación
@@ -1906,12 +1906,12 @@ Mods: {
 			}
 
 			DemonAltar: {
-				DisplayName: Altar Demoníaco
+				DisplayName: Altar demoníaco
 				Tooltip: ""
 			}
 
 			MutantToilet: {
-				DisplayName: Inodoro del Mutante
+				DisplayName: Inodoro del mutante
 				Tooltip: No lo hagas.
 			}
 
@@ -1921,17 +1921,17 @@ Mods: {
 			}
 
 			ElementalAssembler: {
-				DisplayName: Ensamblador Elemental
+				DisplayName: Ensamblador elemental
 				Tooltip: Funciona como varias estaciones de creación básicas
 			}
 
 			GoldenDippingVat: {
-				DisplayName: Tina Dorada de Inmersión
-				Tooltip: Se usa para crear Criaturas Doradas
+				DisplayName: Tina dorada de inmersión
+				Tooltip: Se usa para crear Criaturas doradas
 			}
 
 			MultitaskCenter: {
-				DisplayName: Centro Multitareas
+				DisplayName: Centro multitareas
 				Tooltip: Funciona como varias estaciones de creación básicas
 			}
 
@@ -1958,7 +1958,7 @@ Mods: {
 			}
 
 			RegalStatue: {
-				DisplayName: Estatua Regia
+				DisplayName: Estatua regia
 				Tooltip: Los NPCs del pueblo reaparecen muy rápidamente al estar cerca
 			}
 
@@ -1972,7 +1972,7 @@ Mods: {
 			}
 
 			SiblingPylon: {
-				DisplayName: Pilón Fraternal
+				DisplayName: Pilón fraternal
 				Tooltip:
 					'''
 					Te teletransporta a otro pilón cuando Mutant, Abominationn y Deviantt están cerca
@@ -1981,77 +1981,77 @@ Mods: {
 			}
 
 			UnsafeBlueBrickWall: {
-				DisplayName: Pared de Ladrillo Azul Insegura
-				Tooltip: Permite que aparezcan enemigos específicos de zona
+				DisplayName: Pared de ladrillo azul insegura
+				Tooltip: Permite que aparezcan enemigos específicos de su zona
 			}
 
 			UnsafeBlueSlabWall: {
-				DisplayName: Pared de Losa Azul Insegura
-				Tooltip: Permite que aparezcan enemigos específicos de zona
+				DisplayName: Pared de losa azul insegura
+				Tooltip: Permite que aparezcan enemigos específicos de su zona
 			}
 
 			UnsafeBlueTileWall: {
-				DisplayName: Pared de Baldosa Azul Insegura
-				Tooltip: Permite que aparezcan enemigos específicos de zona
+				DisplayName: Pared de baldosa azul insegura
+				Tooltip: Permite que aparezcan enemigos específicos de su zona
 			}
 
 			UnsafeGraniteWall: {
-				DisplayName: Pared de Granito Insegura
-				Tooltip: Permite que aparezcan enemigos específicos de zona
+				DisplayName: Pared de granito insegura
+				Tooltip: Permite que aparezcan enemigos específicos de su zona
 			}
 
 			UnsafeGreenBrickWall: {
-				DisplayName: Pared de Ladrillo Verde Insegura
-				Tooltip: Permite que aparezcan enemigos específicos de zona
+				DisplayName: Pared de ladrillo verde insegura
+				Tooltip: Permite que aparezcan enemigos específicos de su zona
 			}
 
 			UnsafeGreenSlabWall: {
-				DisplayName: Pared de Losa Verde Insegura
-				Tooltip: Permite que aparezcan enemigos específicos de zona
+				DisplayName: Pared de losa verde insegura
+				Tooltip: Permite que aparezcan enemigos específicos de su zona
 			}
 
 			UnsafeGreenTileWall: {
-				DisplayName: Pared de Baldosa Verde Insegura
-				Tooltip: Permite que aparezcan enemigos específicos de zona
+				DisplayName: Pared de baldosa verde insegura
+				Tooltip: Permite que aparezcan enemigos específicos de su zona
 			}
 
 			UnsafeLihzahrdBrickWall: {
-				DisplayName: Pared de Ladrillo Lihzahrd Insegura
-				Tooltip: Permite que aparezcan enemigos específicos de zona
+				DisplayName: Pared de ladrillo Lihzahrd insegura
+				Tooltip: Permite que aparezcan enemigos específicos de su zona
 			}
 
 			UnsafeMarbleWall: {
-				DisplayName: Pared de Mármol Insegura
-				Tooltip: Permite que aparezcan enemigos específicos de zona
+				DisplayName: Pared de mármol insegura
+				Tooltip: Permite que aparezcan enemigos específicos de su zona
 			}
 
 			UnsafePinkBrickWall: {
-				DisplayName: Pared de Ladrillo Rosado Insegura
-				Tooltip: Permite que aparezcan enemigos específicos de zona
+				DisplayName: Pared de ladrillo rosado insegura
+				Tooltip: Permite que aparezcan enemigos específicos de su zona
 			}
 
 			UnsafePinkSlabWall: {
-				DisplayName: Pared de Losa Rosada Insegura
-				Tooltip: Permite que aparezcan enemigos específicos de zona
+				DisplayName: Pared de losa rosada insegura
+				Tooltip: Permite que aparezcan enemigos específicos de su zona
 			}
 
 			UnsafePinkTileWall: {
-				DisplayName: Pared de Baldosa Rosada Insegura
-				Tooltip: Permite que aparezcan enemigos específicos de zona
+				DisplayName: Pared de baldosa rosada insegura
+				Tooltip: Permite que aparezcan enemigos específicos de su zona
 			}
 
 			UnsafeSpiderWall: {
-				DisplayName: Pared de Araña Insegura
-				Tooltip: Permite que aparezcan enemigos específicos de zona
+				DisplayName: Pared de araña insegura
+				Tooltip: Permite que aparezcan enemigos específicos de su zona
 			}
 
 			WalkingRick: {
-				DisplayName: Rick Caminante
+				DisplayName: Rick caminante
 				Tooltip: "'Kien R. Oco'"
 			}
 
 			WoodenToken: {
-				DisplayName: Ficha de Madera
+				DisplayName: Ficha de madera
 				Tooltip: "'El símbolo de un verdadero amante de la madera'"
 			}
 
@@ -2091,22 +2091,22 @@ Mods: {
 			}
 
 			LumberHat: {
-				DisplayName: Sombrero del Leñador
+				DisplayName: Sombrero del leñador
 				Tooltip: ""
 			}
 
 			LumberjackBody: {
-				DisplayName: Cuerpo del Leñador
+				DisplayName: Cuerpo del leñador
 				Tooltip: ""
 			}
 
 			LumberjackMask: {
-				DisplayName: Máscara del Leñador
+				DisplayName: Máscara del leñador
 				Tooltip: ""
 			}
 
 			LumberjackPants: {
-				DisplayName: Pantalones del Leñador
+				DisplayName: Pantalones del leñador
 				Tooltip: ""
 			}
 
@@ -2126,7 +2126,7 @@ Mods: {
 			}
 
 			LumberJaxe: {
-				DisplayName: El Hacherramienta
+				DisplayName: El hacherramienta
 				Tooltip:
 					'''
 					Los enemigos golpeados pueden soltar madera al morir
@@ -2145,7 +2145,7 @@ Mods: {
 			}
 
 			ArmsDealer: {
-				DisplayName: Vendedor de Armas
+				DisplayName: Traficante de armas
 				Tooltip: "'¡Mantén tus manos alejadas de mi arma, amigo!'"
 			}
 
@@ -2175,12 +2175,12 @@ Mods: {
 			}
 
 			DyeTrader: {
-				DisplayName: Comerciante de Tintes
+				DisplayName: Comerciante de tintes
 				Tooltip: "'Querido, lo que llevas puesto es demasiado apagado.'"
 			}
 
 			GoblinTinkerer: {
-				DisplayName: Manitas Goblin
+				DisplayName: Duende chapucero
 				Tooltip: "'¿Buscas a un experto en aparatos? ¡Soy tu goblin!'"
 			}
 
@@ -2225,7 +2225,7 @@ Mods: {
 			}
 
 			PartyGirl: {
-				DisplayName: Chica de las Fiestas
+				DisplayName: Chica fiestera
 				Tooltip: "'Tenemos que hablar. Es... es sobre las fiestas.'"
 			}
 
@@ -2240,7 +2240,7 @@ Mods: {
 			}
 
 			SkeletonMerchant: {
-				DisplayName: Comerciante Esquelético
+				DisplayName: Mercader esquelético
 				Tooltip: "'No creerías las cosas que me lanzan... ¿Quieres comprar alguna?'"
 			}
 
@@ -2250,7 +2250,7 @@ Mods: {
 			}
 
 			Steampunker: {
-				DisplayName: Punk de Vapor
+				DisplayName: Steampunker
 				Tooltip: "'¡Muéstrame unos engranajes!'"
 			}
 
@@ -2265,12 +2265,12 @@ Mods: {
 			}
 
 			TaxCollector: {
-				DisplayName: Recaudador de Impuestos
+				DisplayName: Recaudador de impuestos
 				Tooltip: "'¿Tú otra vez? ¡Supongo que quieres más dinero!?'"
 			}
 
 			TravellingMerchant: {
-				DisplayName: Mercader Ambulante
+				DisplayName: Mercader ambulante
 				Tooltip: "'¡Vendo artículos de lugares que quizá ni existan!'"
 			}
 
@@ -2280,8 +2280,8 @@ Mods: {
 			}
 
 			WitchDoctor: {
-				DisplayName: Médico Brujo
-				Tooltip: "'¿Qué doctor soy? ¡Soy el Médico Brujo!'"
+				DisplayName: Médico brujo
+				Tooltip: "'¿Qué doctor soy? ¡Soy el Médico brujo!'"
 			}
 
 			Wizard: {
@@ -2315,7 +2315,7 @@ Mods: {
 			}
 
 			SemiBridgifier: {
-				DisplayName: Semi-Puenteador
+				DisplayName: Semi-puenteador
 				Tooltip:
 					'''
 					Puede reutilizarse infinitamente  
@@ -2325,7 +2325,7 @@ Mods: {
 			}
 
 			PurityTotem: {
-				DisplayName: Tótem de Pureza
+				DisplayName: Tótem de pureza
 				Tooltip:
 					'''
 					Puede reutilizarse infinitamente  
@@ -2337,66 +2337,66 @@ Mods: {
 
 			HoneyRocketBox: {
 				Tooltip: ""
-				DisplayName: Caja Infinita de Cohetes de Miel
+				DisplayName: Caja infinita de cohetes de miel
 			}
 
 			DryRocketBox: {
 				Tooltip: ""
-				DisplayName: Caja Infinita de Cohetes Secos
+				DisplayName: Caja infinita de cohetes secos
 			}
 
 			ClusterRocket2Box: {
 				Tooltip: ""
-				DisplayName: Caja Infinita de Cohetes de Racimo II
+				DisplayName: Caja infinita de cohetes de clúster II
 			}
 
 			ClusterRocket1Box: {
 				Tooltip: ""
-				DisplayName: Caja Infinita de Cohetes de Racimo I
+				DisplayName: Caja infinita de cohetes de clúster I
 			}
 
 			LavaRocketBox: {
-				DisplayName: Caja Infinita de Cohetes de Lava
+				DisplayName: Caja infinita de cohetes de lava
 				Tooltip: ""
 			}
 
 			MiniNuke1Box: {
-				DisplayName: Caja Infinita de Mini Nuke I
+				DisplayName: Caja infinita de Mini nuke I
 				Tooltip: ""
 			}
 
 			MiniNuke2Box: {
-				DisplayName: Caja Infinita de Mini Nuke II
+				DisplayName: Caja infinita de Mini nuke II
 				Tooltip: ""
 			}
 
 			Rocket1Box: {
-				DisplayName: Caja Infinita de Cohetes I
+				DisplayName: Caja infinita de cohetes I
 				Tooltip: ""
 			}
 
 			Rocket2Box: {
-				DisplayName: Caja Infinita de Cohetes II
+				DisplayName: Caja infinita de cohetes II
 				Tooltip: ""
 			}
 
 			Rocket3Box: {
-				DisplayName: Caja Infinita de Cohetes III
+				DisplayName: Caja infinita de cohetes III
 				Tooltip: ""
 			}
 
 			Rocket4Box: {
-				DisplayName: Caja Infinita de Cohetes IV
+				DisplayName: Caja infinita de cohetes IV
 				Tooltip: ""
 			}
 
 			WetRocketBox: {
-				DisplayName: Caja Infinita de Cohetes Mojados
+				DisplayName: Caja infinita de cohetes húmedos
 				Tooltip: ""
 			}
 
 			InstaPond: {
-				DisplayName: Lago Instantáneo
+				DisplayName: Lago instantáneo
 				Tooltip:
 					'''
 					Lanza una bomba que crea un cuerpo de agua de 150x50 bloques debajo
@@ -2407,11 +2407,11 @@ Mods: {
 
 			KohaCrystal: {
 				DisplayName: Cristal Koha
-				Tooltip: Disminuye en 1 la cantidad de Cristales de Maná que tienes
+				Tooltip: Disminuye en 1 la cantidad de Cristales de maná que tienes
 			}
 
 			BigSuckPotion: {
-				DisplayName: Poción del Gran Succionador
+				DisplayName: Poción del Gran succionador
 				Tooltip:
 					'''
 					Te hace absorber todo
@@ -2420,7 +2420,7 @@ Mods: {
 			}
 
 			MiniDirtInstaBridge: {
-				DisplayName: Mini Puente Instantáneo de Tierra
+				DisplayName: Mini puente de tierra instantáneo
 				Tooltip:
 					'''
 					Crea un pequeño puente de tierra donde esté el cursor
@@ -2429,52 +2429,52 @@ Mods: {
 			}
 
 			WiresPainting: {
-				DisplayName: Pintura de Cables
+				DisplayName: Pintura de cables
 				Tooltip: Mira dentro
 			}
 
 			CrabSizedGlasses: {
-				DisplayName: Gafas Tamaño Cangrejo
+				DisplayName: Gafas tamaño cangrejo
 				Tooltip: Invoca un cangrejo genial
 			}
 
 			NerdySlime: {
-				DisplayName: Slime Nerd
+				DisplayName: Slime empollón
 				Tooltip: "'¿Burble burbuja? ¿Hrm?'"
 			}
 
 			CoolSlime: {
-				DisplayName: Slime Genial
+				DisplayName: Slime molón
 				Tooltip: "'¡Yo, slurp glurp!'"
 			}
 
 			ElderSlime: {
-				DisplayName: Slime Anciano
+				DisplayName: Slime anciano
 				Tooltip: "'Poot... ¡ejem!'"
 			}
 
 			ClumsySlime: {
-				DisplayName: Slime Torpe
+				DisplayName: Slime patoso
 				Tooltip: "'*Silencio Incómodo*'"
 			}
 
 			DivaSlime: {
-				DisplayName: Slime Diva
+				DisplayName: Slime superestrella
 				Tooltip: "'¡Sprinkle, tinkle!'"
 			}
 
 			SurlySlime: {
-				DisplayName: Slime Gruñón
+				DisplayName: Slime malhumorado
 				Tooltip: "'¡Hiss! ¡Gárgara! Grrrrr...'"
 			}
 
 			MysticSlime: {
-				DisplayName: Slime Místico
+				DisplayName: Slime místico
 				Tooltip: "'¡Blobra Kaslobra!'"
 			}
 
 			SquireSlime: {
-				DisplayName: Slime Escudero
+				DisplayName: Slime escudero
 				Tooltip: "'¡Squish 'n sploink!'"
 			}
 		}
@@ -2541,8 +2541,8 @@ Mods: {
 					NoEvent: No creo que haya un evento activo ahora mismo.
 				}
 
-				Census.SpawnCondition: Cuando el Ejército Goblin ha sido derrotado.
-				CancelEvent: Cancelar Evento
+				Census.SpawnCondition: Cuando el ejército de duendes ha sido derrotado.
+				CancelEvent: Cancelar evento
 			}
 
 			Deviantt: {
@@ -2822,7 +2822,7 @@ Mods: {
 
 				Census.SpawnCondition: Cuando cualquier jefe ha sido derrotado.
 				CycleShop: Cambiar tienda
-				PreHM: Pre Modo difícil
+				PreHM: Antes del Modo difícil
 				HM: Modo difícil
 				PostML: Post Señor de la Luna
 			}
@@ -2861,118 +2861,118 @@ Mods: {
 				Census.SpawnCondition: Tener una ardilla con gorro en el inventario.
 			}
 
-			SuperDummy.DisplayName: Super Muñeco
+			SuperDummy.DisplayName: Super muñeco de pruebas
 		}
 
 		Projectiles: {
-			CorruptNukeProj.DisplayName: Renovación Corrupta
-			CorruptNukeSupremeProj.DisplayName: Renovación Corrupta Suprema
+			CorruptNukeProj.DisplayName: Renovación corrupta
+			CorruptNukeSupremeProj.DisplayName: Renovación corrupta suprema
 			CrimsonNukeProj.DisplayName: Renovación Carmesí
-			CrimsonNukeSupremeProj.DisplayName: Renovación Carmesí Suprema
+			CrimsonNukeSupremeProj.DisplayName: Renovación carmesí suprema
 			DeathScythe.DisplayName: Guadaña de la Abominación
 			Explosion.DisplayName: Explosión
-			AltarExterminatorProj.DisplayName: Exterminador de Altares
-			AutoHouseProj.DisplayName: Proyector de Casa Automática
-			CityBuster.DisplayName: Destruye Ciudades
-			DoubleObsInstaBridgeProj.DisplayName: Megapuente de Obsidiana
-			GraveBuster.DisplayName: Rompe Tumbas
-			HalfInstaProj.DisplayName: Semi-Instavador
+			AltarExterminatorProj.DisplayName: Exterminador de altares
+			AutoHouseProj.DisplayName: Casa automática
+			CityBuster.DisplayName: Destruye ciudades
+			DoubleObsInstaBridgeProj.DisplayName: Megapuente doble de obsidiana
+			GraveBuster.DisplayName: Rompe tumbas
+			HalfInstaProj.DisplayName: Semi-instavador
 			InstabridgeProj.DisplayName: Instapuente
-			InstaHouseVisual.DisplayName: Visual de Casa Instantánea
+			InstaHouseVisual.DisplayName: Visual de casa instantánea
 			InstaProj.DisplayName: Instavador
 			InstatrackProj.DisplayName: Instarril
-			LihzahrdInstactuationBombProj.DisplayName: Bomba de Activación Lihzahrd Instantánea
-			MiniInstabridgeProj.DisplayName: Minipuente Instantáneo
-			ObsInstabridgeProj.DisplayName: Instapuente de Obsidiana
-			OmniBridgifierProj.DisplayName: Omni-Puenteador
+			LihzahrdInstactuationBombProj.DisplayName: Bomba de activación Lihzahrd instantánea
+			MiniInstabridgeProj.DisplayName: Minipuente instantáneo
+			ObsInstabridgeProj.DisplayName: Instapuente de obsidiana
+			OmniBridgifierProj.DisplayName: Omni-puenteador
 			ShurikenProj.DisplayName: Shuriken
-			EyeProjectile.DisplayName: Proyectil Ocular
-			FakeHeart2Deviantt.DisplayName: Corazón Falso
-			FakeHeartDeviantt.DisplayName: Corazón Falso
-			FakeHeartMarkDeviantt.DisplayName: Corazón Falso
-			HallowNukeProj.DisplayName: Renovación Sagrada
-			HallowNukeSupremeProj.DisplayName: Renovación Sagrada Suprema
-			LumberJaxe.DisplayName: Hacha Motosierra
-			MechEyeProjectile.DisplayName: Proyectil Ocular Mecánico
-			MushroomNukeProj.DisplayName: Renovación de Champiñones
-			MushroomNukeSupremeProj.DisplayName: Renovación de Champiñones Suprema
-			PhantasmalEyeProjectile.DisplayName: Proyectil Ocular Fantasmal
-			PurityNukeProj.DisplayName: Renovación de Pureza
-			PurityNukeSupremeProj.DisplayName: Renovación de Pureza Suprema
+			EyeProjectile.DisplayName: Proyectil ocular
+			FakeHeart2Deviantt.DisplayName: Corazón falso
+			FakeHeartDeviantt.DisplayName: Corazón falso
+			FakeHeartMarkDeviantt.DisplayName: Corazón falso
+			HallowNukeProj.DisplayName: Renovación sagrada
+			HallowNukeSupremeProj.DisplayName: Renovación sagrada suprema
+			LumberJaxe.DisplayName: Hacha motosierra
+			MechEyeProjectile.DisplayName: Proyectil ocular mecánico
+			MushroomNukeProj.DisplayName: Renovación fúngica
+			MushroomNukeSupremeProj.DisplayName: Renovación suprema fúngica
+			PhantasmalEyeProjectile.DisplayName: Proyectil ocular Fantasmal
+			PurityNukeProj.DisplayName: Renovación purificadora
+			PurityNukeSupremeProj.DisplayName: Renovación purificadora suprema
 			SpawnProj.DisplayName: Invocación
-			SemiBridgifierProj.DisplayName: Semi-Puenteador
-			DirtNukeProj.DisplayName: Renovación de Tierra
-			DirtNukeSupremeProj.DisplayName: Renovación de Tierra Suprema
-			SandNukeProj.DisplayName: Renovación de Arena
-			SandNukeSupremeProj.DisplayName: Renovación de Arena Suprema
-			SnowNukeProj.DisplayName: Renovación de Nieve
-			SnowNukeSupremeProj.DisplayName: Renovación de Nieve Suprema
-			WorldTokenProj.DisplayName: Proyector de Ficha Mundial
-			InstaPondProj.DisplayName: Estanque Instantáneo
-			MiniDirtInstabridgeProj.DisplayName: Minipuente de Tierra
-			CoolCrab.DisplayName: Cangrejo Facherito
+			SemiBridgifierProj.DisplayName: Semi-puenteador
+			DirtNukeProj.DisplayName: Renovación del bosque
+			DirtNukeSupremeProj.DisplayName: Renovación suprema del bosque
+			SandNukeProj.DisplayName: Renovación del desierto
+			SandNukeSupremeProj.DisplayName: Renovación suprema del desierto 
+			SnowNukeProj.DisplayName: Renovación invernal
+			SnowNukeSupremeProj.DisplayName: Renovación invernal suprema
+			WorldTokenProj.DisplayName: Token del mundo
+			InstaPondProj.DisplayName: Lago instantáneo
+			MiniDirtInstabridgeProj.DisplayName: Minipuente de tierra
+			CoolCrab.DisplayName: Cangrejo facherito
 		}
 
 		Tiles: {
-			CrimsonAltarSheet.MapEntry: Altar Carmesí
-			CrucibleCosmosSheet.MapEntry: Crisol del Cosmos
-			DemonAltarSheet.MapEntry: Altar Demoníaco
-			ElementalAssemblerSheet.MapEntry: Ensamblador Elemental
-			GoldenDippingVatSheet.MapEntry: Tinaja de Inmersión Dorada
-			MultitaskCenterSheet.MapEntry: Centro Multitarea
-			OmnistationSheet.MapEntry: Estación Ómnica
-			OmnistationSheet2.MapEntry: Estación Ómnica
-			RegalStatueSheet.MapEntry: Estatua Regia
+			CrimsonAltarSheet.MapEntry: Altar carmesí
+			CrucibleCosmosSheet.MapEntry: Crisol del cosmos
+			DemonAltarSheet.MapEntry: Altar demoníaco
+			ElementalAssemblerSheet.MapEntry: Ensamblador elemental
+			GoldenDippingVatSheet.MapEntry: Tina dorada de inmersión
+			MultitaskCenterSheet.MapEntry: Centro multitarea
+			OmnistationSheet.MapEntry: Estación ómnica
+			OmnistationSheet2.MapEntry: Estación ómnica
+			RegalStatueSheet.MapEntry: Estatua regia
 			SemistationSheet.MapEntry: Semiestación
-			SiblingPylonTile.MapEntry: Pilón Hermano
-			PurityTotemSheet.MapEntry: Tótem de la Pureza
+			SiblingPylonTile.MapEntry: Pilón hermano
+			PurityTotemSheet.MapEntry: Tótem de pureza
 		}
 
 		Conditions: {
 			DownedBoss: Después de derrotar a cualquier jefe
-			DutchmanDown: Después de derrotar a un Holandés Volador
-			MageDown: Después de derrotar a un Mago Oscuro
+			DutchmanDown: Después de derrotar a un Holandés volador
+			MageDown: Después de derrotar a un Mago oscuro
 			OgreDown: Después de derrotar a un Ogro
 			BetsyDown: Después de derrotar a Betsy
-			HorsemanDown: Después de derrotar a un Jinete Sin Cabeza
-			PillarsDown: Después de derrotar a los Pilares Celestiales
+			HorsemanDown: Después de derrotar a un Jinete sin cabeza
+			PillarsDown: Después de derrotar a los Pilares celestiales
 			Downed: Después de derrotar
 			WormDown: Después de derrotar a un Gusano gigante o Excavador
-			PinkyDown: Después de derrotar a un Pinky
+			PinkyDown: Después de derrotar a un Slime rosa
 			ScoutDown: Después de derrotar a un Duende explorador
 			DoctorDown: Después de derrotar al Doctor Látigo
-			MinerDown: Después de derrotar a un Minero No-Muerto
+			MinerDown: Después de derrotar a un Minero no muerto
 			TimDown: Después de derrotar a Tim
 			GnomeDown: Después de derrotar a un Gnomo
-			GoldSlimeDown: Después de derrotar a un Slime Dorado
+			GoldSlimeDown: Después de derrotar a un Slime dorado
 			DungeonSlimeDown: Después de derrotar a un Slime de las mazmorras y a Esqueletrón
-			MedusaDown: Después de derrotar a una Medusa, en Modo difícil
+			MedusaDown: Después de derrotar a Medusa, en Modo difícil
 			ClownDown: Después de derrotar a un Payaso, en Modo difícil
 			NymphDown: Después de derrotar a una Ninfa
 			MothDown: Después de derrotar a una Polilla, en Modo difícil
-			RainbowSlimeDown: Después de derrotar a un Slime Arcoíris, en Modo difícil
-			WyvernDown: Después de derrotar a un Guiverno, en Modo difícil
+			RainbowSlimeDown: Después de derrotar a un Slime arcoíris, en Modo difícil
+			WyvernDown: Después de derrotar un Guiverno, en Modo difícil
 			RuneDown: Después de derrotar a un Mago rúnico, en Modo difícil
 			MimicDown: Después de derrotar a un Cofre falso, en Modo difícil
 			MimicHallowDown: Después de derrotar a un Cofre falso sagrado, en Modo difícil
 			MimicCorruptDown: Después de derrotar a un Cofre falso corrupto, en Modo difícil
 			MimicCrimsonDown: Después de derrotar a un Cofre falso carmesí, en Modo difícil
 			MimicJungleDown: Después de derrotar a un Cofre falso de la selva, en Modo difícil
-			IceGolemDown: Después de derrotar a un Gólem de Hielo, en Modo difícil
-			SandDown: Después de derrotar a un Elemental de Arena, en Modo difícil
-			DevilDown: Después de derrotar a un Diablo Rojo, en Modo difícil
+			IceGolemDown: Después de derrotar a un Gólem de hielo, en Modo difícil
+			SandDown: Después de derrotar a un Elemental de arena, en Modo difícil
+			DevilDown: Después de derrotar a un Diablo rojo, en Modo difícil
 			BloodFishDown: Después de derrotar a un Pez ojo errante o a un Tritón zombie
-			BloodEelDown: Después de derrotar a una Anguila Sangrienta, en Modo difícil
+			BloodEelDown: Después de derrotar a una Anguila de sangre, en Modo difícil
 			BloodGoblinDown: Después de derrotar a un Tiburón hemoduende, en Modo difícil
 			BloodNautDown: Después de derrotar al Nautilo terrible, en Modo difícil
 			SummonerDown: Después de derrotar a una Duende hechicero y al Ejército Goblin, en Modo difícil
-			PirateDown: Después de derrotar a un Capitán Pirata y a la Invasión Pirata, en Modo difícil
-			NailheadDown: Después de derrotar a un Cabezaclavo y a todos los Jefes Mecánicos
-			MothronDown: Después de derrotar a Polillón y a todos los Jefes Mecánicos
+			PirateDown: Después de derrotar al Capitán pirata y a la Invasión pirata, en Modo difícil
+			NailheadDown: Después de derrotar a un Cabezaclavo y a todos los Jefes mecánicos
+			MothronDown: Después de derrotar a Polillón y a todos los Jefes mecánicos
 			LeeDown: Después de derrotar a Hueso Lee y a Plantera
 			PaladinDown: Después de derrotar a un Paladín y a Plantera
-			SkeleGunDown: Después de derrotar a un Francotirador Esqueleto, un Esqueleto Táctico o un Comando Esqueleto, luego de Plantera
-			SkeleMagesDown: Después de derrotar a un Nigromante, un Diablista o un Hechicero Andrajoso, luego de Plantera
+			SkeleGunDown: Después de derrotar a un Esqueleto francotirador , un Esqueleto táctico o un Esqueleto comando, luego de Plantera
+			SkeleMagesDown: Después de derrotar a un Nigromante, un Diablista o un Mago harapiento, luego de Plantera
 			SiblingPylon: Si todos los hermanos están presentes
 			BossDown: Después de derrotar a cualquier jefe
 			DownedTheBoss: Después de que el jefe ha sido derrotado
@@ -2983,28 +2983,28 @@ Mods: {
 			Angler25: Completa 25 misiones del Pescador
 			Angler30: Completa 30 misiones del Pescador
 			InRockOrDirtLayerHeight: Mientras estás bajo tierra
-			BrittleBone: Tener un arma que use Huesos Quebradizos como munición en tu inventario
+			BrittleBone: Tener un arma que use Hueso frágil como munición en tu inventario
 			Seeds: Tener un arma que use semillas como munición en tu inventario
-			RedHusk: Después de recoger una Cáscara Roja
-			OrangeBloodroot: Después de recoger una Raíz de Sangre Naranja
-			YellowMarigold: Después de recoger una Caléndula Amarilla
-			LimeKelp: Después de recoger un Alga Lima
-			GreenMushroom: Después de recoger un Hongo Verde
-			TealMushroom: Después de recoger un Hongo Azul Verdoso
-			CyanHusk: Después de recoger una Cáscara Cian
-			SkyBlueFlower: Después de recoger una Flor Celeste
-			BlueBerries: Después de recoger Arándanos
-			PurpleMucos: Después de recoger Mucos Morado
-			VioletHusk: Después de recoger una Cáscara Violeta
-			PinkPricklyPear: Después de recoger una Tuna Rosada
-			BlackInk: Después de recoger Tinta Negra
+			RedHusk: Después de recoger un Caparazón rojo
+			OrangeBloodroot: Después de recoger una Sanguinaria naranja
+			YellowMarigold: Después de recoger una Caléndula amarilla
+			LimeKelp: Después de recoger un Alga verde lima
+			GreenMushroom: Después de recoger un Champiñón verde
+			TealMushroom: Después de recoger un Champiñón verde azulado
+			CyanHusk: Después de recoger una Caparazón turquesa
+			SkyBlueFlower: Después de recoger una Flor azul celeste
+			BlueBerries: Después de recoger Bayas azules
+			PurpleMucos: Después de recoger Mucosa morada
+			VioletHusk: Después de recoger una Caparazón morado
+			PinkPricklyPear: Después de recoger una Pera espinosa rosa
+			BlackInk: Después de recoger Tinta negra
 		}
 
 		Keybinds: {
-			Home.DisplayName: Regreso Rápido/Espejo
-			Stat.DisplayName: Abrir Hoja de Estadísticas
-			Dash.DisplayName: Tecla de Deslizamiento
-			SetBonus.DisplayName: Tecla de Bonificación de Conjunto
+			Home.DisplayName: Regreso rápido/espejo
+			Stat.DisplayName: Abrir hoja de estadísticas
+			Dash.DisplayName: Tecla de deslizamiento
+			SetBonus.DisplayName: Tecla de bonificación de conjunto
 		}
 
 		ExpandedTooltips: {
