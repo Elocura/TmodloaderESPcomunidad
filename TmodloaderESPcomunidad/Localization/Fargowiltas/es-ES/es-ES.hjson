@@ -98,6 +98,21 @@ Mods: {
 					Tooltip: ""
 				}
 
+				NoTrapsWorld: {
+					Label: "[i:510] Mundo sin Trampas"
+					Tooltip: ""
+				}
+
+				RemixWorld: {
+					Label: "[i:4711] Mundo de Remix"
+					Tooltip: ""
+				}
+
+				ZenithWorld: {
+					Label: "[i:4956] Mundo Zenith"
+					Tooltip: ""
+				}
+
 				UnlimitedAmmo: {
 					Label: "[i:771] Munición infinita con 3996+ en Modo difícil"
 					Tooltip: ""
@@ -109,8 +124,8 @@ Mods: {
 				}
 
 				UnlimitedPotionBuffsOn120: {
-					Label: "[i:292] Buffs y carnadas infinitas al llevarlas en ciertas cantidades"
-					Tooltip: 30+ para pociones y carnadas
+					Label: "[i:292] Buffs y cebos infinitos al tenerlo en ciertas cantidades"
+					Tooltip: 30+ para pociones y cebos
 				}
 
 				ExtraBuffSlots: {
@@ -255,6 +270,11 @@ Mods: {
 					Tooltip: La velocidad del objeto se muestra en tiempo de uso, lo que significa que un número más alto = más lento.
 				}
 
+				AnimatedRecipeGroups: {
+					Label: "[i:9] Grupos de recetas animadas"
+					Tooltip: Si los iconos de los grupos de recetas deben mostrarse alternando entre los objetos viables del grupo de recetas.
+				}
+
 				HideUnlimitedBuffs: {
 					Label: "[i:292] Ocultar los buffs ilimitados en la barra"
 					Tooltip: ""
@@ -271,12 +291,12 @@ Mods: {
 				}
 
 				DebuffOpacity: {
-					Label: "[i:1612] Opacidad máxima de los perjuicios"
+					Label: "[i:1612] Opacidad máxima en las desventajas"
 					Tooltip: ""
 				}
 
 				DebuffFaderRatio: {
-					Label: "[i:1612] Intensidad del desvanecimiento por duración del perjuicio"
+					Label: "[i:1612] Intensidad del desvanecimiento por duración de la desventajas"
 					Tooltip: ""
 				}
 
@@ -293,9 +313,21 @@ Mods: {
 
 			SeasonSelections: {
 				Tooltip: ""
-				Normal.Label: Normal
-				AlwaysOn.Label: Siempre activado
-				AlwaysOff.Label: Siempre desactivado
+
+				Normal: {
+					Label: Normal
+					Tooltip: ""
+				}
+
+				AlwaysOn: {
+					Label: Siempre activado
+					Tooltip: ""
+				}
+
+				AlwaysOff: {
+					Label: Siempre desactivado
+					Tooltip: ""
+				}
 			}
 
 			Common.CanSpawn: Puede aparecer
@@ -310,6 +342,19 @@ Mods: {
 			FoodT2: Comida bastante satisfactoria
 			FoodT3: Comida exquisitamente rellenadora
 			GemRobe: Túnica de gema
+			WoodenCrate: Caja de madera
+			IronCrate: Caja de hierro
+			GoldenCrate: Caja dorada
+			JungleCrate: Caja de la selva
+			SkyCrate: Caja celestial
+			CorruptCrate: Caja corrompida
+			CrimsonCrate: Caja carmesí
+			HallowedCrate: Caja sagrada
+			DungeonCrate: Caja de la mazmorra
+			FrozenCrate: Caja congelada
+			SandCrate: Caja de oasis
+			LavaCrate: Caja de obsidiana
+			OceanCrate: Caja del océano
 			Or: O
 		}
 
@@ -342,10 +387,10 @@ Mods: {
 			FishingQuests: Misiones de pesca: {0}
 			BattleCry: Grito de batalla: {0}
 			// Battle & Calming are in Items.BattleCry
-			// BattleCryNone: None
+			BattleCryNone: Ninguno
 			MaxSpeed: Velocidad máxima: {0} mph
 			AttackSpeed: Velocidad de ataque: {0}%
-			WingNull: ¿¿¿
+			WingNull: ???
 			WingTime: Tiempo de vuelo: {0}
 			WingTimeMoreThan60Sec: Sí
 			WingTimeActual: "{0} seg"
@@ -365,7 +410,7 @@ Mods: {
 			SiblingPylonNotNearSiblings: Ese pilón necesita a los hermanos mutados para funcionar.
 			NearbySiblingPylonNotNearSiblings: El pilón cercano necesita a los hermanos mutados para funcionar.
 			NewItemUnlocked: ¡Un nuevo objeto ha sido desbloqueado en la tienda de {0}!
-			HaveAwoken: ¡{0} ha despertado!
+			HaveAwoken: "¡{0} ha despertado!"
 			// Cancel Event
 			CancelEvent: ¡Los invasores se han marchado!
 			CancelPumpkinMoon: La luna calabaza se desvanece...
@@ -496,7 +541,7 @@ Mods: {
 
 			LuminiteQuiver: {
 				DisplayName: Carcaj de flecha de luminita eterna
-				Tooltip: ¡'Derribándolos a la velocidad del sonido!'
+				Tooltip: "'¡Derribándolos a la velocidad del sonido!'"
 			}
 
 			UnholyQuiver: {
@@ -846,7 +891,7 @@ Mods: {
 				Activated: activado
 				Deactivated: desactivado
 				// {Battle / Calming} Cry {activated / deactivated} for {playerName}{punctuation}
-				CryText: Grito de {0} {1} para {2}{3}
+				CryText: "Grito de {0} {1} para {2}{3}"
 			}
 
 			DeathFruit: {
@@ -1160,7 +1205,7 @@ Mods: {
 				DisplayName: Ídolo ateniense
 				Tooltip:
 					'''
-					Invoca a Medusa  
+					Invoca a Medusa
 					Solo se puede usar de noche o en el subterráneo
 					'''
 			}
@@ -1201,7 +1246,7 @@ Mods: {
 				DisplayName: Licencia de payaso
 				Tooltip:
 					'''
-					Invoca al Payaso  
+					Invoca al Payaso
 					Solo se puede usar de noche o en el subterráneo
 					'''
 			}
@@ -1478,7 +1523,7 @@ Mods: {
 			}
 
 			MutantVoodoo: {
-				DisplayName: Peluche del mutante
+				DisplayName: Peluche del Mutante
 				Tooltip:
 					'''
 					Invoca a TODOS los jefes
@@ -1743,7 +1788,7 @@ Mods: {
 				DisplayName: Invocador de tormentas viscosas
 				Tooltip:
 					'''
-					Invoca una Lluvia de slimes sobrecargada  
+					Invoca una Lluvia de slimes sobrecargada
 					Usa de nuevo para detener el evento
 					'''
 			}
@@ -1757,15 +1802,17 @@ Mods: {
 				DisplayName: Sobrecargador
 				Tooltip:
 					'''
-					Usado para fabricar invocaciones energizadas  
-					Al usarlo, se consumirán todas las invocaciones del conjunto, hasta un máximo de 10  
-					Cuantas más se consuman, más fuerte será el jefe  
-					Si se consumen más de 5, el jefe será más rápido  
-					Caerán 5 Bolsas de Botín por cada objeto consumido  
-					Un Trofeo caerá por cada 3 objetos consumidos  
+					Usado para fabricar invocaciones energizadas
+					Al usarlo, se consumirán todas las invocaciones del conjunto, hasta un máximo de 10
+					Cuantas más se consuman, más fuerte será el jefe
+					Si se consumen más de 5, el jefe será más rápido
+					Caerán 5 Bolsas de Botín por cada objeto consumido
+					Un Trofeo caerá por cada 3 objetos consumidos
 					Un Energizador caerá por cada 10 objetos consumidos
 					'''
 			}
+
+			OverloaderRewards: El jefe soltará {0} bolsas de tesoro, {1} trofeos y {2} energizantes al ser derrotado (las recompensas aumentan con el tamaño del stack).
 
 			OverloadEye: {
 				DisplayName: Ojamalgama
@@ -1911,7 +1958,7 @@ Mods: {
 			}
 
 			MutantToilet: {
-				DisplayName: Inodoro del mutante
+				DisplayName: Inodoro del Mutante
 				Tooltip: No lo hagas.
 			}
 
@@ -2181,7 +2228,7 @@ Mods: {
 
 			GoblinTinkerer: {
 				DisplayName: Duende chapucero
-				Tooltip: "'¿Buscas a un experto en aparatos? ¡Soy tu goblin!'"
+				Tooltip: "'¿Buscas a un experto en aparatos? ¡Soy tu duende!'"
 			}
 
 			Golfer: {
@@ -2318,8 +2365,8 @@ Mods: {
 				DisplayName: Semi-puenteador
 				Tooltip:
 					'''
-					Puede reutilizarse infinitamente  
-					Mejora la plataforma donde estás parado para usar Semi-estaciones  
+					Puede reutilizarse infinitamente
+					Mejora la plataforma donde estás parado para usar Semi-estaciones
 					¡NO construye una plataforma!
 					'''
 			}
@@ -2328,9 +2375,9 @@ Mods: {
 				DisplayName: Tótem de pureza
 				Tooltip:
 					'''
-					Puede reutilizarse infinitamente  
-					Permite que los NPC del pueblo vivan en biomas corruptos  
-					Evita que los bloques malignos formen biomas malignos  
+					Puede reutilizarse infinitamente
+					Permite que los NPC del pueblo vivan en biomas corruptos
+					Evita que los bloques malignos formen biomas malignos
 					Evita que las lápidas formen cementerios
 					'''
 			}
@@ -2499,7 +2546,7 @@ Mods: {
 					DislikeNPC: No me agrada {NPCName}.
 					HateNPC: "{NPCName} arruina la gloria de la batalla, no quiero que se me acerque."
 					LikeNPC_Princess: "{NPCName} está bien."
-					Princess_LovesNPC: ¡{NPCName} cuenta grandes historias sobre sus batallas!
+					Princess_LovesNPC: "¡{NPCName} cuenta grandes historias sobre sus batallas!"
 				}
 
 				Chat: {
@@ -2560,7 +2607,7 @@ Mods: {
 					DislikeBiome: ¿Podemos ir a algún lugar más cálido que esto?
 					HateBiome: ¡Quiero vivir en otro lado! ¡Esto es horrible, estoy sudando como loco!
 					LikeNPC: "{NPCName} es mi hermano mayor, pero no el más grande. ¡Es bastante genial!"
-					LoveNPC: ¡{NPCName} está aquí! ¡Ese es mi hermano mayor! ¿No es el más genial?
+					LoveNPC: "¡{NPCName} está aquí! ¡Ese es mi hermano mayor! ¿No es el más genial?"
 					DislikeNPC: No soporto a chicas como {NPCName}, siento que solo está aquí por cierto público...
 					HateNPC: Entre tú y yo… ¿has pensado en devolver a {NPCName} de donde lo sacaste?
 					LikeNPC_Princess: Tengo que visitar a {NPCName} otra vez, ¡es una chica que sí me entiende!
@@ -2628,8 +2675,8 @@ Mods: {
 					QueenBee: La abeja reina invoca a su progenie como apoyo. Es más difícil dañarla mientras están presentes, así que elimínalos primero. Ah, y su enjambre no puede golpear directamente arriba o abajo de ella.
 					Brain: ¡Concéntrate en cómo se mueve el icor y no te abrumes! Cuando el cerebro se enfurece, te confundirá cada pocos segundos. ¡Cuatro anillos para confundirte, uno cuando se pasa!
 					Eater: Cuanto más se divide el devorador del mundo, más gusanos te atacan a la vez. Su cabeza ahora es más resistente, ¡pero no dejes que se acumulen!
-					GoblinsCrimson: ¡Cuidado al romper tu segundo Corazón Carmesí! Podría atraer goblins, así que prepárate antes de hacerlo.
-					GoblinsCorruption: ¡Cuidado al romper tu segundo Orbe Sombrío! Podría atraer goblins, así que prepárate antes de hacerlo.
+					GoblinsCrimson: ¡Cuidado al romper tu segundo Corazón Carmesí! Podría atraer a los duendes, así que prepárate antes de hacerlo.
+					GoblinsCorruption: ¡Cuidado al romper tu segundo Orbe Sombrío! Podría atraer a los duendes, así que prepárate antes de hacerlo.
 					EOC: Ese ojo gigante tiene el poder de la luna, ¡pero es demasiado llamativo para su propio bien! Aprende a fijarte solo en lo que realmente te puede dañar.
 					Slime: ¿Vas a pelear con el rey slime pronto? Crear uno o dos Mini Puentes Instantáneos puede ayudar, y cuídate de la lluvia babosa. Pero no te quedes demasiado lejos o se enfadará.
 					// Other
@@ -2648,7 +2695,7 @@ Mods: {
 					RainLightning: ¡Cuidado con los rayos cuando llueve! Es bueno llevar un paraguas para no quedar empapado.
 				}
 
-				Census.SpawnCondition: Cuando un enemigo raro es derrotado.
+				Census.SpawnCondition: "Cuando un enemigo 'raro' es derrotado."
 				HelpButton: Ayuda
 			}
 
@@ -2670,8 +2717,8 @@ Mods: {
 					LoveNPC: Me alegra que {NPCName} entienda la belleza de derribar un gran árbol.
 					DislikeNPC: "{NPCName} me dijo que debería abrazar los árboles... así que le enseñé a mi hacha a abrazarlos por mí."
 					HateNPC: "{NPCName} no me entiende en absoluto. ¡Hacer estallar un bosque no es talar madera!"
-					LikeNPC_Princess: ¡{NPCName} es mejor con un hacha de lo que esperaba!
-					Princess_LovesNPC: ¡{NPCName} es tan fuerte, que quiero intentar talar madera algún día!
+					LikeNPC_Princess: "¡{NPCName} es mejor con un hacha de lo que esperaba!"
+					Princess_LovesNPC: "¡{NPCName} es tan fuerte, que quiero intentar talar madera algún día!"
 				}
 
 				Chat: {
@@ -2740,7 +2787,7 @@ Mods: {
 					DislikeNPC: ¿Por qué está {NPCName} aquí? Está bien, tranquilo, solo no lo mires a los ojos y no podrá asustarte...
 					HateNPC: "{NPCName} tiene que irse antes de que mi Penetrador lo haga por él."
 					LikeNPC_Princess: "{NPCName} parece amable."
-					Princess_LovesNPC: ¡{NPCName} tiene objetos geniales, perfectos para hacer nuevos amigos!
+					Princess_LovesNPC: "¡{NPCName} tiene objetos geniales, perfectos para hacer nuevos amigos!"
 				}
 
 				Chat: {
@@ -2965,7 +3012,7 @@ Mods: {
 			BloodEelDown: Después de derrotar a una Anguila de sangre, en Modo difícil
 			BloodGoblinDown: Después de derrotar a un Tiburón hemoduende, en Modo difícil
 			BloodNautDown: Después de derrotar al Nautilo terrible, en Modo difícil
-			SummonerDown: Después de derrotar a una Duende hechicero y al Ejército Goblin, en Modo difícil
+			SummonerDown: Después de derrotar a la Duende hechicera y al Ejército de duendes, en Modo difícil
 			PirateDown: Después de derrotar al Capitán pirata y a la Invasión pirata, en Modo difícil
 			NailheadDown: Después de derrotar a un Cabezaclavo y a todos los Jefes mecánicos
 			MothronDown: Después de derrotar a Polillón y a todos los Jefes mecánicos
