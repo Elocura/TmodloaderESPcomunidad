@@ -141,14 +141,15 @@ Items: {
 			'''
 		SetBonus:
 			'''
-			17% de aumento de daño y +5 esbirros máximos
+			+5 esbirros máximos
+			+100 de sigilo máximo mientras se empuña un arma de la clase Rogue
 			{$CommonItemTooltip.FlightAndSlowfall}
 			Sobrescribe cualquier ala durante este vuelo
 			{$CommonItemTooltip.PressDownToHover}
 			Permite la habilidad de dash y mejora otros dashes
 			Mantén Abajo para descender rápidamente
 			Aumenta la velocidad de salto
-			Otorga inmunidad a muchos efectos negativos de endgame y relacionados con el movimiento
+			Otorga inmunidad a muchos efectos negativos de endgame y inmunidad al retroceso
 			'''
 	}
 
@@ -487,11 +488,6 @@ Items: {
 		Tooltip: Absórbela para obtener inmensos poderes radiactivos
 	}
 
-	CancelSlimeRain: {
-		DisplayName: Cancelar lluvia de slimes
-		Tooltip: ""
-	}
-
 	GoozmaMusicBoxExiledP1: {
 		DisplayName: Caja de música (Exiled Goozma)
 		Tooltip: ""
@@ -791,7 +787,6 @@ Configs: {
 	}
 }
 
-InfernumOnly: In Infernum Mode
 GoozmaShadowspecCurse: "[c/462545:Una maldición mucilaginosa te impide usar este objeto...]"
 AnyEvilBlock: Cualquier bloque maligno
 DropRules.WhenAnyPlayerHasntEaten: Se obtiene si algún jugador no la ha absorbido
