@@ -3,7 +3,7 @@ ModNameOverride: Calamity Entropy
 Items: {
 	VoidBlade: {
 		DisplayName: Cuchilla del vacío
-		Tooltip: Realiza cortes profundos rápidamente
+		Tooltip: Realiza tajos amplios y rápidos en rápida sucesión que infligen [cebuff:CalamityEntropy/VoidTouch]
 	}
 
 	Weapons: {
@@ -14,7 +14,7 @@ Items: {
 					'''
 					Lanza una hoz que regresa y dispara mini-hozas fusionadas
 					Las mini-hozas fusionadas duran poco tiempo y se dirigen hacia los objetivos
-					El ataque sigiloso dispara dos hozas autoguiadas adicionales
+					Los ataques sigilosos lanzan un abanico de tres hozas explosivas autoguiadas, junto con un potente tajo
 					'''
 			}
 
@@ -22,9 +22,12 @@ Items: {
 				DisplayName: Silencio
 				Tooltip: 
 					'''
-					Lanza un chakram forjado en el vacío que se encadena al enemigo más cercano y se dirige hacia su presa
-					Inflige "Vacío colapsante", causando un daño creciente con cada golpe sucesivo
-					El ataque sigiloso lanza un disco giratorio de vacío que destroza a los enemigos durante 3 segundos
+					[c/9387ff:Lanza un frisbee]
+					[c/9387ff:Tras golpear a un enemigo,]
+					[c/9387ff:utilizará una Cadena del Vacío para atraerte hacia ese enemigo tras una breve demora,]
+					[c/9387ff:y explotará al entrar en contacto con él]
+					[c/9387ff:Los ataques sigilosos hacen que el frisbee se adhiera al enemigo alcanzado]
+					[c/9387ff:y genere un vórtice de gran área, que inflige daño continuo a los objetivos que se encuentren dentro de su radio de acción]
 					'''
 			}
 
