@@ -337,7 +337,6 @@ Items: {
 				Al final, el intento solo tuvo un éxito parcial, dejando a la extraña criatura atrapada en su angustioso estado. Ya era hora de que alguien la liberara del error de los hombres.
 				'''
 		}
-
 	}
 
 	BrokenChainsaw: {
@@ -384,7 +383,6 @@ Items: {
 		DisplayName: Vestigios divinos
 		Tooltip: Invoca a un amigo astral para que te guíe en tu camino
 	}
-
 
 	BottleDarkMatter: {
 		DisplayName: Materia oscura contenida
@@ -843,6 +841,7 @@ Items: {
 	RailPulseBow: {
 		DisplayName: Arco de riel de pulsos
 		Tooltip: Las flechas lanzan una cadena de rayos al impactar, lo que tiene una probabilidad de infligir [cbuff:CalamityMod/GalvanicCorrosion]
+	}
 
 	JailerWhip: {
 		DisplayName: Carcelero corrupto
@@ -1921,7 +1920,7 @@ Items: {
 		Tooltip:
 			'''
 			Se lanza hacia delante y luego se retrae, arrasando con los enemigos a su paso e infligiendo [cbuff:CalamityMod/BurningBlood]
-			{$CommonItemTooltip.SummonTagDamage
+			{$CommonItemTooltip.SummonTagDamage}
 			{$CommonItemTooltip.Whips}
 			Los súbditos arrancan trozos de carne a los enemigos al atacar
 			'''
