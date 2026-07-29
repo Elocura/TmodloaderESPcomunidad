@@ -22,14 +22,15 @@ TlipocasScytheLegend: {
 			'''
 		TScytheA4:
 			'''
-			El teletransporte cortante potenciará tu arma con el vacío en 8 segundos
-			+20 de daño al estar potenciado
+			El teletransporte cortante potenciará tu arma con el poder del vacío
+            Este efecto durará 8 segundos. Tras derrotar al Cruiser, la duración aumentará a 15 segundos.
+            Obtendrás un aumento del 20% en el daño mientras el efecto esté activo
 			'''
 		TScytheA5:
 			'''
-			Deja una sombra cuando realices un teletransporte. La sombra atacará contigo.
-			El corte rápido generará un corte adicional perpendicular al sprint original
-			Aumenta el valor de curación cuando realices un ataque sigiloso.
+			Deja una sombra al realizar un ataque de teletransporte; la sombra atacará junto a ti.
+            La embestida cortante generará un corte adicional perpendicular al original.
+            Se ha aumentado el valor de curación de los ataques sigilosos
 			'''
 		TScytheA6: Deja una grieta al realizar un corte rápido. La grieta causará daño continuamente
 		TScytheA7: Resiste una golpe mortal y recupera la mitad de tu salud máxima. Tiene 5 minutos de enfriamiento
@@ -51,7 +52,7 @@ TlipocasScytheLegend: {
 		TScytheU9: Derrota a la Bruja suprema
 		TWOF: Derrota al Muro carnoso
 		TALLMECHBOSS: Derrota a todos los jefes mecánicos
-		TLevel2: Necesitas alcanzar el nivel 2
+		TLevel2: Alcanza el nivel 2
 	}
 
 	Dialog: {
@@ -207,7 +208,7 @@ DCarverDia16: Nuestro viaje juntos ha llegado a su fin, pero aún nos esperan mu
 
 
 General: {
-	Locked: BLOQUEADO
+	Locked: [BLOQUEADO]
 	PagesTips: Mantén pulsado Alt izquierdo para leer directamente la habilidad, pulsa clic izquierdo para cambiar
 
 }
