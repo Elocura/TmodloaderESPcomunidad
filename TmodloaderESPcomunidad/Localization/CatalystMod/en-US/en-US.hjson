@@ -1,15 +1,14 @@
 Mods: {
 	CatalystMod: {
 		Common: {
-			UnboundKey: "'Unbound Key'"
-			BoundKey: "'{0}'"
-			Infinite: Mods.CatalystMod.Common.Infinite
-			InfiniteSign: Mods.CatalystMod.Common.InfiniteSign
+			UnboundKey: "[Unbound]"
+			BoundKey: "{0}"
 		}
 
 		Items: {
 			Lore: {
 				LoreAstrageldon: {
+					DisplayName: Astrageldon
 					Lore:
 						'''
 						Such an existence defies comprehension. Draedon once reported on this anomalous power from his survey of the Astral Infection.
@@ -21,7 +20,7 @@ Mods: {
 						The covetous Slime God would have been envy stricken at the mere thought of such potential.
 						With it now eradicated, one can only ponder what greater threats lie far beyond.
 						'''
-					DisplayName: Astrageldon
+					Tooltip: ""
 				}
 			}
 
@@ -69,8 +68,8 @@ Mods: {
 				DisplayName: "{$Mods.CatalystMod.NPCs.Astrageldon.DisplayName}"
 				Tooltip:
 					'''
-					[c/e3af40:Whispers from on high dance in your ears...]
-					[c/bebebe:Press "Left Shift" to listen closer]
+					[c/E3AF40:Whispers from on high dance in your ears...]
+					[c/BEBEBE:Hold Shift to listen closer]
 					'''
 			}
 
@@ -198,10 +197,10 @@ Mods: {
 				DisplayName: Astral Lash
 				Tooltip:
 					'''
-					Reach: 40.000 tiles
-					Launch Velocity: 50.00
-					Reelback Velocity: 72.00
-					Pull Velocity: 16.00
+					Reach: 40 tiles
+					Launch Velocity: 50
+					Reelback Velocity: 72
+					Pull Velocity: 16
 					Teleports you to the location of the hook
 					Any tiles blocking the way between you and the hook will be ignored
 					'''
@@ -519,7 +518,7 @@ Mods: {
 					'''
 					{$Mods.CatalystMod.Tooltips.WhipTooltip}
 					Carries blossoms upon the wind
-					Touch the largest petal to receive a blessing to regeneration, damage, and thorns.
+					Touch the largest petal to receive a blessing to regeneration, damage, and thorns
 					'It blooms, it blooms, it withers and droops.'
 					'''
 			}
@@ -571,7 +570,7 @@ Mods: {
 				Tooltip:
 					'''
 					'Lighting the way to a new update'
-					Left Click to turn the flashlight on, Double Click to cycle between different lenses in your inventory.
+					Left Click to turn the flashlight on, Double Click to cycle between different lenses in your inventory
 					'''
 			}
 
@@ -618,43 +617,6 @@ Mods: {
 					The color depends on your selected team
 					'''
 			}
-
-			Astrageldon1MusicBox.DisplayName: Mods.CatalystMod.ItemName.Astrageldon1MusicBox
-			Astrageldon2MusicBox.DisplayName: Mods.CatalystMod.ItemName.Astrageldon2MusicBox
-
-			KnowledgeAstrageldon: {
-				DisplayName: Mods.CatalystMod.ItemName.KnowledgeAstrageldon
-				Tooltip: Mods.CatalystMod.ItemTooltip.KnowledgeAstrageldon
-			}
-
-			IntergelacticHardhat: {
-				DisplayName: Mods.CatalystMod.ItemName.IntergelacticHardhat
-				Tooltip: Mods.CatalystMod.ItemTooltip.IntergelacticHardhat
-			}
-
-			IntergelacticVisor: {
-				DisplayName: Mods.CatalystMod.ItemName.IntergelacticVisor
-				Tooltip: Mods.CatalystMod.ItemTooltip.IntergelacticVisor
-			}
-
-			IntergelacticMask: {
-				DisplayName: Mods.CatalystMod.ItemName.IntergelacticMask
-				Tooltip: Mods.CatalystMod.ItemTooltip.IntergelacticMask
-			}
-
-			IntergelacticHornedHelmet.DisplayName: Mods.CatalystMod.ItemName.IntergelacticHornedHelmet
-
-			IntergelacticHeadgear: {
-				DisplayName: Mods.CatalystMod.ItemName.IntergelacticHeadgear
-				Tooltip: Mods.CatalystMod.ItemTooltip.IntergelacticHeadgear
-			}
-
-			AstragelHook: {
-				DisplayName: Mods.CatalystMod.ItemName.AstragelHook
-				Tooltip: Mods.CatalystMod.ItemTooltip.AstragelHook
-			}
-
-			AstrageldonMenuMusicBox.DisplayName: Mods.CatalystMod.ItemName.AstrageldonMenuMusicBox
 
 			WulfrumMineBanner: {
 				DisplayName: "{$Mods.CatalystMod.NPCs.WulfrumMine.DisplayName} Banner"
@@ -711,17 +673,114 @@ Mods: {
 		}
 
 		Projectiles: {
-			IntergelacticMinionOrbitingRocks.DisplayName: Asteroid Barrier
-			AsteroidBusterProj.DisplayName: Asteroid Buster
-			AsteroidBusterExplosion.DisplayName: Asteroid Buster
-			NebulaSpear.DisplayName: Hyperspace Lance
-			Astralpod.DisplayName: Astralpod
-			AstralpodBullet.DisplayName: Cosmic Radiation
-			PlayerNebula.DisplayName: Nebula Assault
+			// Enemies
 			AstrageldonStar.DisplayName: Blighted Star
 			AstrageldonStar2.DisplayName: Blighted Star
 			AstrageldonStar3.DisplayName: Blighted Star
 			AstrageldonStar4.DisplayName: Blighted Star
+			NebulaSphere.DisplayName: Hypernova Smog
+			WulfrumMineExplosion.DisplayName: Wulfrum Explosion
+			// Mage
+			IntergelacticLaser.DisplayName: Intergelactic Laser
+			IntergelacticStar.DisplayName: Intergelactic Star
+			NebulaHitbox.DisplayName: Nebula Hitbox
+			NebulaSpear.DisplayName: Hyperspace Lance
+			// Melee
+			AsteroidBusterProj.DisplayName: Asteroid Buster
+			AstrageldonPet.DisplayName: Astrageldon Pet
+			// Ranger - Flamethrowers
+			AstragelgunFlamethrower.DisplayName: Astragelgun Flamethrower
+			AstragelgunProj.DisplayName: Astragelgun Proj
+			BreathofGlaciesFlamethrower.DisplayName: Glacial Flames
+			BreathofGlaciesIceShards.DisplayName: Ice Shard
+			BreathofGlaciesProj.DisplayName: Breath of Glacies
+			BreathofGlaciesRunes.DisplayName: Glacier Runes
+			DesertScorcherDrop.DisplayName: Scorching Shot
+			DesertScorcherEnemySplash.DisplayName: Scorching Water Splash
+			DesertScorcherProj.DisplayName: Desert Scorcher
+			DesertScorcherSpray.DisplayName: Scorching Water
+			DesertScorcherTileSplash.DisplayName: Scorching Water Splash
+			IchorthrowerBubbleM.DisplayName: Ichorthrower Bubble
+			IchorthrowerBubbleS.DisplayName: Ichorthrower Bubble
+			IchorthrowerFlame.DisplayName: Ignited Ichor
+			IchorthrowerProj.DisplayName: Ichorthrower
+			IchorthrowerSplashM.DisplayName: Ichorthrower Splash M
+			IchorthrowerSplashS.DisplayName: Ichorthrower Splash S
+			NovaBeam.DisplayName: Nova Beam
+			NovaFlame.DisplayName: Nova Flame
+			NovaGlobe.DisplayName: Nova Globe
+			PlasmilegionCalamityLaser.DisplayName: Plasmilegion Beam
+			PlasmilegionFireball.DisplayName: Plasma Blast
+			PlasmilegionFlamethrower.DisplayName: Plasmilegion
+			PlasmilegionProj.DisplayName: Plasmilegion
+			RepentanceCircle.DisplayName: Repentance
+			RepentanceFlamethrower.DisplayName: Repentance
+			RepentanceForwardFireball.DisplayName: Repentance
+			RepentanceProj.DisplayName: Repentance
+			RookOfVengeanceMFireball.DisplayName: Rook of Anarchy
+			RookOfVengeanceMFireballBlast.DisplayName: Rook of Anarchy
+			RookOfVengeanceMFireballSpin.DisplayName: Rook of Anarchy
+			RookOfVengeanceProj.DisplayName: Rook Of Vengeance
+			StaticInfernoFlamethrower.DisplayName: Static Inferno Flamethrower
+			StaticInfernoFlamethrowerOrb.DisplayName: Static Inferno Flamethrower Orb
+			StaticInfernoProj.DisplayName: Voltaic Firestorm
+			// Ranger - Others
+			MiniStar.DisplayName: Mini Star
+			StarSpawner.DisplayName: Star Spawner
+			// Rogue
+			AstralRocksRogueShot.DisplayName: Astral Rocks Rogue Shot
+			InterstellarVolutionProj.DisplayName: Interstellar Volution Proj
+			InterstellarVolutionSlimer.DisplayName: Interstellar Volution Slimer
+			InterstellarVolutionSlimerBullet.DisplayName: Interstellar Volution Slimer Bullet
+			WulfrumMineExplosionNobreak.DisplayName: Wulfrum Explosion
+			WulfrumSatchelChargeProj.DisplayName: Wulfrum Satchel Charge Proj
+			// Summon - Whips
+			CatharsisProjectile.DisplayName: Catharsis
+			CatharsisSplash.DisplayName: Catharsis Splash
+			HighCatharsis.DisplayName: Catharsis
+			HighCatharsisDown.DisplayName: High Catharsis Down
+			HighCatharsisUp.DisplayName: High Catharsis Up
+			BlossomBuffLeaf.DisplayName: Blessed Blossom
+			BlossomsBlessingProjectile.DisplayName: Blossom's Blessing
+			BlossomDriftingLeaf.DisplayName: Drifting Blossom
+			CongeledCorruptProjectile.DisplayName: Congealed Duo-Whip
+			CongeledCrimsonProjectile.DisplayName: Congealed Duo-Whip
+			CoralCrusherProjectile.DisplayName: Coral Crusher
+			CoralCrusherShard.DisplayName: Coral Crusher
+			CuteSandstoneShark.DisplayName: Ökenhaj
+			DuoWhipSpawner.DisplayName: Duo Whip Spawner
+			PrismBreakProjectile.DisplayName: Prism Break
+			PrismBreakHoming.DisplayName: PrismBreakHoming
+			PrismBreakShard.DisplayName: PrismBreakShard
+			ResonantStrikerOrb.DisplayName: Resonant Striker Orb
+			ResonantStrikerProjectile.DisplayName: Resonant Striker
+			SandstoneReignsProjectile.DisplayName: Sandstone Reins
+			SharkSandSplash.DisplayName: Shark Sploosh
+			UnderbiteProjectile.DisplayName: Underbite
+			UnderbiteSkull.DisplayName: Underbite Skull
+			UnrelentingTormentHands.DisplayName: Torturous Hand
+			UnrelentingTormentProjectile.DisplayName: Unrelenting Torment
+			UnrelentingTormentSoul.DisplayName: Undying Soul
+			UnrelentingTormentSpawner.DisplayName: Unrelenting Torment Spawner
+			// Summon - Others
+			AstralpodBullet.DisplayName: Cosmic Radiation
+			AstralpodLaser.DisplayName: Quasar Ray
+			AstralpodMinion.DisplayName: Astralpod Minion
+			IntergelacticMinionOrbitingRocks.DisplayName: Asteroid Barrier
+			IntergelacticMinionRockShot.DisplayName: Intergelactic Minion Rock Shot
+			// Typeless
+			AstralLashProj.DisplayName: Astral Lash
+			AstralRocksProj.DisplayName: Astral Rocks
+			FlashlightConeFriendly.DisplayName: Flashlight Cone Friendly
+			FlashlightProj.DisplayName: Flashlight
+			GelSpray.DisplayName: Gel Spray
+			GoozmaBall.DisplayName: Goozma Ball
+			PlayerNebula.DisplayName: Nebula Assault
+			ScytheoftheAbandonedGod.DisplayName: Scythe of the Abandoned God
+			ScytheoftheAbandonedGodShot.DisplayName: Scytheofthe Abandoned God Shot
+			// Unsorted
+			AstraBlade.DisplayName: Blighted Obelisk
+			AstrageldonLaser.DisplayName: Blighted Beam
 			AstraRock.DisplayName: Blighted Stone
 			HostileAsteroid.DisplayName: Blighted Asteroid
 			NebulaResidue.DisplayName: Blighted Residue
@@ -729,103 +788,11 @@ Mods: {
 			SlimerSpear.DisplayName: Nova Lance
 			SpiralLaser.DisplayName: Blighted Vortex
 			StarLaser.DisplayName: Blighted Flare
-			AstraBlade.DisplayName: Blighted Obelisk
-			AstrageldonLaser.DisplayName: Blighted Beam
-			AstrageldonFlamethrower.DisplayName: Blighted Flames
-			BreathofGlaciesFlamethrower.DisplayName: Glacial Flames
-			DesertScorcherDrop.DisplayName: Scorching Shot
-			IchorthrowerFlame.DisplayName: Ignited Ichor
-			IchorthrowerBubbleM.DisplayName: Ichorthrower Bubble
-			IchorthrowerBubbleS.DisplayName: Ichorthrower Bubble
-			NovaBeam.DisplayName: Nova Beam
-			NovaFlame.DisplayName: Nova Flame
-			NovaGlobe.DisplayName: Nova Globe
-			PlasmilegionFireball.DisplayName: Plasma Blast
-			PlasmilegionFlamethrower.DisplayName: Plasmilegion
-			PlasmilegionCalamityLaser.DisplayName: Plasmilegion Beam
-			RepentanceFlamethrower.DisplayName: Repentance
-			RepentanceForwardFireball.DisplayName: Repentance
-			RepentanceCircle.DisplayName: Repentance
-			RookOfVengeanceMFireball.DisplayName: Rook of Anarchy
-			RookOfVengeanceMFireballSpin.DisplayName: Rook of Anarchy
-			RookOfVengeanceMFireballBlast.DisplayName: Rook of Anarchy
-			CuteSandstoneShark.DisplayName: Ökenhaj
-			BlossomDriftingLeaf.DisplayName: Drifting Blossom
-			BlossomBuffLeaf.DisplayName: Blessed Blossom
-			BlossomsBlessingProjectile.DisplayName: Blossom's Blessing
-			CatharsisProjectile.DisplayName: Catharsis
-			HighCatharsis.DisplayName: Catharsis
-			CoralCrusherProjectile.DisplayName: Coral Crusher
-			CoralCrusherShard.DisplayName: Coral Crusher
-			CongeledCrimsonProjectile.DisplayName: Congealed Duo-Whip
-			CongeledCorruptProjectile.DisplayName: Congealed Duo-Whip
-			PrismBreakProjectile.DisplayName: Prism Break
-			ResonantStrikerProjectile.DisplayName: Resonant Striker
-			SandstoneReignsProjectile.DisplayName: Sandstone Reins
-			SharkSandSplash.DisplayName: Shark Sploosh
-			UnderbiteProjectile.DisplayName: Underbite
-			UnderbiteSkull.DisplayName: Underbite Skull
-			UnrelentingTormentProjectile.DisplayName: Unrelenting Torment
-			UnrelentingTormentHands.DisplayName: Torturous Hand
-			UnrelentingTormentSoul.DisplayName: Undying Soul
 			ElectricStomp.DisplayName: Electric Stomp
-			AsteroidBuster.DisplayName: Mods.CatalystMod.ProjectileName.AsteroidBuster
 			AstrageldonSpawner.DisplayName: Astrageldon Spawner
-			NebulaSphere.DisplayName: Hypernova Smog
-			WulfrumMineExplosion.DisplayName: Wulfrum Explosion
-			IntergelacticLaser.DisplayName: Intergelactic Laser
-			IntergelacticStar.DisplayName: Intergelactic Star
-			NebulaHitbox.DisplayName: Nebula Hitbox
+			AsteroidBusterExplosion.DisplayName: Asteroid Buster Explosion
 			AsteroidBusterProjS.DisplayName: Asteroid Buster Proj S
-			AstrageldonPet.DisplayName: Astrageldon Pet
-			AstragelgunFlamethrower.DisplayName: Astragelgun Flamethrower
-			AstragelgunProj.DisplayName: Astragelgun Proj
-			BreathofGlaciesIceShards.DisplayName: Ice Shard
-			BreathofGlaciesProj.DisplayName: Breathof Glacies Proj
-			BreathofGlaciesRunes.DisplayName: Breathof Glacies Runes
-			DesertScorcherEnemySplash.DisplayName: Desert Scorcher Enemy Splash
-			DesertScorcherProj.DisplayName: Desert Scorcher Proj
-			DesertScorcherSpray.DisplayName: Desert Scorcher Spray
-			DesertScorcherTileSplash.DisplayName: Desert Scorcher Tile Splash
-			IchorthrowerProj.DisplayName: Ichorthrower Proj
-			IchorthrowerSplashM.DisplayName: Ichorthrower Splash M
-			IchorthrowerSplashS.DisplayName: Ichorthrower Splash S
-			PlasmilegionProj.DisplayName: Plasmilegion Proj
-			RepentanceProj.DisplayName: Repentance Proj
-			RookOfVengeanceProj.DisplayName: Rook Of Vengeance Proj
-			StaticInfernoFlamethrower.DisplayName: Static Inferno Flamethrower
-			StaticInfernoFlamethrowerOrb.DisplayName: Static Inferno Flamethrower Orb
-			StaticInfernoProj.DisplayName: Static Inferno Proj
-			MiniStar.DisplayName: Mini Star
-			StarSpawner.DisplayName: Star Spawner
-			AstralRocksRogueShot.DisplayName: Astral Rocks Rogue Shot
-			InterstellarVolutionProj.DisplayName: Interstellar Volution Proj
-			InterstellarVolutionSlimer.DisplayName: Interstellar Volution Slimer
-			InterstellarVolutionSlimerBullet.DisplayName: Interstellar Volution Slimer Bullet
-			WulfrumMineExplosionNobreak.DisplayName: Wulfrum Explosion
-			WulfrumSatchelChargeProj.DisplayName: Wulfrum Satchel Charge Proj
-			AstralpodLaser.DisplayName: Quasar Ray
-			AstralpodMinion.DisplayName: Astralpod Minion
-			IntergelacticMinionRockShot.DisplayName: Intergelactic Minion Rock Shot
 			CatharsisSpawner.DisplayName: Catharsis Spawner
-			CatharsisSplash.DisplayName: Catharsis Splash
-			HighCatharsisDown.DisplayName: High Catharsis Down
-			HighCatharsisUp.DisplayName: High Catharsis Up
-			DevouringBlackhole.DisplayName: Devouring Blackhole
-			DuoWhipSpawner.DisplayName: Duo Whip Spawner
-			PrismBreakHoming.DisplayName: PrismBreakHoming
-			PrismBreakShard.DisplayName: PrismBreakShard
-			ResonantStrikerOrb.DisplayName: Resonant Striker Orb
-			SerpentsTongueProjectile.DisplayName: Serpents Tongue Projectile
-			UnrelentingTormentSpawner.DisplayName: Unrelenting Torment Spawner
-			AstralRocksProj.DisplayName: Astral Rocks Proj
-			FlashlightConeFriendly.DisplayName: Flashlight Cone Friendly
-			FlashlightProj.DisplayName: Flashlight Proj
-			GelSpray.DisplayName: Gel Spray
-			GoozmaBall.DisplayName: Goozma Ball
-			AstralLashProj.DisplayName: Astral Lash Proj
-			ScytheoftheAbandonedGod.DisplayName: Scytheofthe Abandoned God
-			ScytheoftheAbandonedGodShot.DisplayName: Scytheofthe Abandoned God Shot
 		}
 
 		AuricTeslaPlusSet: {
@@ -986,12 +953,6 @@ Mods: {
 			}
 		}
 
-		CommonTooltip: {
-			HeatProtect: Provides heat protection in Death Mode
-			ColdProtect: Provides cold protection in Death Mode
-			HeatandColdProtect: Provides heat and cold protection in Death Mode
-		}
-
 		Tooltips: {
 			FlawlessDrop: - Flawless Drop -
 			NotConsumable: Not consumable
@@ -999,7 +960,6 @@ Mods: {
 			WhipTooltip: Your summons will focus struck enemies
 			Flamethrower: Consumes gel
 			LensTooltip: Changes the color of your flashlight
-			LegendaryChallengeDrop: Mods.CatalystMod.Tooltips.LegendaryChallengeDrop
 		}
 
 		Announcement: {
@@ -1015,34 +975,8 @@ Mods: {
 		}
 
 		WorldGen: {
-			AstralSpread: Increasing Astral Infection...
-			AstralTreasures: Generating Metanova Ore...
-		}
-
-		ClientConfig: {
-			Name: Client Options
-			VisualsHeader: Visual Effects
-			MiscHeader: Misc
-			SulphurousSeaCustomBG: Custom Sulphurous Sea Background
-			SulphurousSeaCustomBGTooltip: Whether or not to have a custom background for the sulphurous sea biome
-			TextSparkles: Text Sparkles
-			TextSparklesTooltip:
-				'''
-				Whether or not some special rarities have sparkles.
-				This may make text hard to read when enabled.
-				'''
-			CatharsisBarX: Catharsis Meter X Position
-			CatharsisBarY: Catharsis Meter Y Position
-			CatharsisXTooltip: The X position of the Catharsis Blood Charge meter, measured as a % of your screen width.
-			CatharsisYTooltip: The Y position of the Catharsis Blood Charge meter, measured as a % of your screen height.
-			discordRichPresence: Mods.CatalystMod.ClientConfig.discordRichPresence
-			discordRichPresenceTooltip: Mods.CatalystMod.ClientConfig.discordRichPresenceTooltip
-			ExtraFlashyExpertText: Mods.CatalystMod.ClientConfig.ExtraFlashyExpertText
-			ExtraFlashyExpertTextTooltip: Mods.CatalystMod.ClientConfig.ExtraFlashyExpertTextTooltip
-			TextSparklesLabel: "[i:3459] Text Sparkles"
-			SulphurousSeaCustomBGLabel: "[i:6738] Custom Sulphurous Sea Background"
-			CatharsisBarXLabel: "[i:7637] Catharsis Meter X Position"
-			CatharsisBarYLabel: "[i:7637] Catharsis Meter Y Position"
+			AstralSpread: Increasing Astral Infection
+			AstralTreasures: Generating Metanova Ore
 		}
 
 		TitleIcon: {
@@ -1101,19 +1035,8 @@ Mods: {
 			'''
 
 		Keybinds: {
-			InfluxCluster: CatalystMod: Influx Cluster
-			ToggleVisibility: CatalystMod: Toggle Intergelactic Setbonus Visibility
-			"Influx Cluster.DisplayName": Influx  Cluster
-			"Toggle Intergelactic Setbonus Visibility.DisplayName": Toggle  Intergelactic  Setbonus  Visibility
-		}
-
-		+ItemTooltip.IntergelacticHornedHelmet: Mods.CatalystMod.+ItemTooltip.IntergelacticHornedHelmet
-
-		Error: {
-			BossChecklist: Mods.CatalystMod.Error.BossChecklist
-			DiscordRichPresence: Mods.CatalystMod.Error.DiscordRichPresence
-			Mysterious: Mods.CatalystMod.Error.Mysterious
-			ReportBugs: Mods.CatalystMod.Error.ReportBugs
+			InfluxCluster.DisplayName: Influx Cluster
+			ToggleIntergelacticSetbonusVisibility.DisplayName: Toggle Intergelactic Setbonus Visibility
 		}
 
 		Biomes: {
@@ -1125,21 +1048,28 @@ Mods: {
 
 		Configs: {
 			CatalystClientConfig: {
-				DisplayName: "{$Mods.CatalystMod.ClientConfig.Name}"
+				DisplayName: Client Options
+				VisualsHeader: Visual Effects
 
-				textSparkles: {
-					Label: "{$Mods.CatalystMod.ClientConfig.TextSparklesLabel}"
-					Tooltip: "{$Mods.CatalystMod.ClientConfig.TextSparklesTooltip}"
+				TextSparkles: {
+					Label: "[i:3459] Text Sparkles"
+					Tooltip:
+						'''
+						Whether or not some special rarities have sparkles.
+						This may make text hard to read when enabled.
+						'''
 				}
 
+				MiscHeader: Miscellaneous
+
 				CatharsisBarX: {
-					Label: "{$Mods.CatalystMod.ClientConfig.CatharsisBarX}"
-					Tooltip: "{$Mods.CatalystMod.ClientConfig.CatharsisXTooltip}"
+					Label: "[i:CatalystMod/Catharsis] Catharsis Meter X Position"
+					Tooltip: The X position of the Catharsis Blood Charge meter, measured as a % of your screen width.
 				}
 
 				CatharsisBarY: {
-					Label: "{$Mods.CatalystMod.ClientConfig.CatharsisBarY}"
-					Tooltip: "{$Mods.CatalystMod.ClientConfig.CatharsisYTooltip}"
+					Label: "[i:CatalystMod/Catharsis] Catharsis Meter Y Position"
+					Tooltip: The Y position of the Catharsis Blood Charge meter, measured as a % of your screen height.
 				}
 			}
 		}
