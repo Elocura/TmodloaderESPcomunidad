@@ -315,7 +315,7 @@ Items: {
 		}
 
 		ProphetLore: {
-			DisplayName: Prophet
+			DisplayName: Profeta
 			Tooltip: ""
 			Lore: "{$loreProphet}"
 		}
@@ -587,7 +587,7 @@ Items: {
 		Tooltip:
 			'''
 			Entrelaza las cartas místicas de la baraja del Oráculo
-            Mantén pulsada la tecla MAYÚS para leer el hilo...
+			Mantén pulsada la tecla MAYÚS para leer el hilo...
 			'''
 		HoldShiftForDetails:
 			'''
@@ -599,7 +599,7 @@ Items: {
 			[i:CalamityEntropy/WisdomCard]Sabiduría: En poder del guardían maldito de la mazmorra...
 			[i:CalamityEntropy/RadianceCard]Esplendor: Requiere la magia de un orbe sagrado...
 			[i:CalamityEntropy/TemperanceCard]Templanza: Utilizada como ancla espiritual para una monstruosidad mecánica...
-			[i:CalamityEntropy/EnduranceCard]Resistencia:Puesta a prueba en esa parte del mar donde la luz nunca llega...
+			[i:CalamityEntropy/EnduranceCard]Resistencia: Puesta a prueba en esa parte del mar donde la luz nunca llega...
 			'''
 	}
 
@@ -734,12 +734,12 @@ Items: {
 	}
 
 	VoidFaquirCuises: {
-		DisplayName: Muslos del Faquir entrópico
+		DisplayName: Grebas del Faquir entrópico
 		Tooltip:
 			'''
 			Aumenta un 10% el daño de ataque
-            Aumenta un 10% la probabilidad de golpe crítico
-            Aumenta un 20% de la velocidad de movimiento
+			Aumenta un 10% la probabilidad de golpe crítico
+			Aumenta un 20% de la velocidad de movimiento
 			'''
 	}
 
@@ -957,8 +957,8 @@ Items: {
 		Tooltip:
 			'''
 			Lanza una lluvia de espadas para atacar a los enemigos cercanos e infligir [cbuff:CalamityMod/Nightwither]
-            [c/d9bd1b:La potencia de esta arma aumenta a medida que avanza el juego]
-            [c/d9bd1b:Se ve afectada por las bonificaciones de daño de todas las clases]
+			[c/d9bd1b:La potencia de esta arma aumenta a medida que avanza el juego]
+			[c/d9bd1b:Se ve afectada por las bonificaciones de daño de todas las clases]
 			'''
 	}
 
@@ -1109,7 +1109,7 @@ Items: {
 		Tooltip:
 			'''
 			Los ataques lanzan brasas oscuras que se dirigen hacia el objetivo
-            "A veces, destruir no es la mejor forma de transmitir un mensaje..."
+			"A veces, destruir no es la mejor forma de transmitir un mensaje..."
 			'''
 	}
 
@@ -1118,7 +1118,7 @@ Items: {
 		Tooltip:
 			'''
 			Tus proyectiles rogue se dirigen hacia los enemigos
-            Tus ataques lanzan brasas oscuras autoguiadas, infligen [cebuff:CalamityEntropy/VoidTouch] e infligen [cebuff:CalamityEntropy/Deceive]
+			Tus ataques lanzan brasas oscuras autoguiadas, infligen [cebuff:CalamityEntropy/VoidTouch] e infligen [cebuff:CalamityEntropy/Deceive]
 			Aumenta el daño un 3% por cada espacio de súbditos
 			Aumenta el daño un +30%
 			Aumenta la velocidad de ataque un 20%
@@ -1311,7 +1311,7 @@ Items: {
 		Tooltip:
 			'''
 			Muestra una diana sobre todos los enemigos a los que puedas disparar, lo que aumenta el daño hasta un 200%
-            Si aciertas en el centro de la diana, se garantiza un golpe crítico, se curan 16 puntos de vida al usuario y se infligen tanto [cebuff:CalamityEntropy/VoidVirus] como [cebuff:CalamityEntropy/VoidTouch]
+			Si aciertas en el centro de la diana, se garantiza un golpe crítico, se curan 16 puntos de vida al usuario y se infligen tanto [cebuff:CalamityEntropy/VoidVirus] como [cebuff:CalamityEntropy/VoidTouch]
 			'''
 	}
 
@@ -1626,7 +1626,7 @@ Items: {
 		Tooltip:
 			'''
 			Los impactos del enemigo tienen una probabilidad de provocar una explosión del vacío
-            Los ataques infligen [cebuff:CalamityEntropy/VoidTouch]
+			Los ataques infligen [cebuff:CalamityEntropy/VoidTouch]
 			'''
 	}
 
@@ -1640,7 +1640,7 @@ Items: {
 		Tooltip:
 			'''
 			Los impactos del enemigo tienen una probabilidad de invocar un Alma de origen.
-            Las Almas de origen se alojan en ti, te curan y te proporcionan un aumento temporal de la defensa
+			Las Almas de origen se alojan en ti, te curan y te proporcionan un aumento temporal de la defensa
 			'''
 	}
 
@@ -1692,7 +1692,7 @@ Items: {
 		Tooltip:
 			'''
 			Al impactar contra un enemigo, esparce agua radiante
-			Esta agua inflige [cebuff:Mojado]
+			Esta agua inflige [cebuff:Wet]
 			'''
 	}
 
@@ -2454,7 +2454,7 @@ Items: {
 			Purificación: Se encuentra en cofres vivos impregnados de energía sagrada...
 			Oscuridad: Sumergido en los fluidos de dioses muertos...
 			Rencor: Extraído del ectoplasma de una docena de espíritus mediante un líquido transmutador...
-			Índigo:Oculto en lagos sostenidos por las nubes...
+			Índigo: Oculto en lagos sostenidos por las nubes...
 			Luto: Un código moral del protector de una civilización selvática perdida...
 			Aflicción: Alimenta a las bestias de una tierra tan asolada...
 			Desgarro del alma: Se encuentra carcomiendo la armadura sagrada de un defensor de mazmorras...
@@ -2616,7 +2616,7 @@ Items: {
 		Tooltip:
 			'''
 			Restaura un tercio de la vida máxima y reinicia la duración del vuelo
-            No es un objeto consumible
+			No es un objeto consumible
 			'''
 	}
 
@@ -2644,9 +2644,9 @@ Items: {
 		Tooltip:
 			'''
 			Aumenta un [A]% el daño rogue
-            Aumenta un [B]% la velocidad de movimiento
-            Aumenta un [C]% la regeneración de sigilo
-            Aumenta un [D]% la reducción de daño si tu sigilo es superior al 80% del sigilo máximo
+			Aumenta un [B]% la velocidad de movimiento
+			Aumenta un [C]% la regeneración de sigilo
+			Aumenta un [D]% la reducción de daño si tu sigilo es superior al 80% del sigilo máximo
 			'''
 	}
 
@@ -2656,9 +2656,9 @@ Items: {
 			'''
 			Aumenta un [A]% el daño rogue
 			Aumenta un [B]% la velocidad de movimiento
-            Aumenta un [C]% la regeneración de sigilo
-            El sigilo del rogue puede sobrellenarse hasta duplicar el sigilo máximo
-            El sigilo sobrellenado no aumentará el daño del pícaro
+			Aumenta un [C]% la regeneración de sigilo
+			El sigilo del rogue puede sobrellenarse hasta duplicar el sigilo máximo
+			El sigilo sobrellenado no aumentará el daño del pícaro
 			'''
 	}
 
@@ -2686,10 +2686,10 @@ Items: {
 		Tooltip:
 			'''
 			Aumenta un [A]% el daño rogue
-            Sustituye el sigilo de rogue por el medidor de sombra
-            El medidor de sombra se llena a un ritmo fijo
-            Cuando está lleno, tu siguiente ataque con un arma rogue lo consume para lanzar un orbe de sombra autoguiado
-            Al impactar, el orbe genera múltiples dagas de sombra que atacan al enemigo alcanzado
+			Sustituye el sigilo de rogue por el medidor de sombra
+			El medidor de sombra se llena a un ritmo fijo
+			Cuando está lleno, tu siguiente ataque con un arma rogue lo consume para lanzar un orbe de sombra autoguiado
+			Al impactar, el orbe genera múltiples dagas de sombra que atacan al enemigo alcanzado
 			'''
 	}
 
@@ -3589,7 +3589,7 @@ Items: {
 		Tooltip: "Se ven claramente carbonizados y desprenden un olor persistente a ceniza..."
 	}
 
-	FrailMissle: {
+	FrailMissile: {
 		DisplayName: Fragilidad devastadora
 		Tooltip:
 			'''
@@ -3803,8 +3803,8 @@ Items: {
 		Tooltip:
 			'''
 			Aumenta el daño de invocación en un 8%
-			Aumenta un 8% el daño de las invocaciones
-            Otorga +0,5 PV/s de regeneración de vida por cada ranura de súbdito que tengas, con un máximo de 3 PV/s
+			Aumenta un 8% el daño de las invocacione
+			Otorga +0,5 PV/s de regeneración de vida por cada ranura de súbdito que tengas, con un máximo de 3 PV/s
 			'''
 	}
 
@@ -4093,9 +4093,9 @@ Neltharion: {
 	SmolderingHelmet: {
 		DisplayName: Caso ardiente
 		Tooltip:
-			'''
+			''
 			Aumenta el daño un 8%
-            Aumenta la probabilidad de golpe crítico del 5%
+			Aumenta la probabilidad de golpe crítico del 5%
 			'''
 	}
 
@@ -4218,8 +4218,8 @@ Neltharion: {
 		DisplayName: Ba Xing Chong
 		Tooltip:
 			'''
-			Lanza una salva de misiles autoguiados
-            [c/ff7f50:"¿El antiguo dueño de esta arma? ¿Te refieres a ese tipo que está cubierto de ciberimplantes, excepto el cerebro?"]
+			Lanza una salva de misiles autoguiado
+			[c/ff7f50:"¿El antiguo dueño de esta arma? ¿Te refieres a ese tipo que está cubierto de ciberimplantes, excepto el cerebro?"]
 			'''
 	}
 
