@@ -154,7 +154,7 @@ Mods: {
 				Tooltip:
 					'''
 					Dispara una bomba supernova que explota al contactar 
-					Click Derecho para disparar un triangulo de plasma por 200% de daño 
+					Click Derecho para disparar una bola de plasma que inflige un 200% de daño
 					{$Mods.CatalystMod.Tooltips.Flamethrower}
 					75% probalidad de no gastar gel
 					'''
@@ -173,7 +173,7 @@ Mods: {
 				DisplayName: Horizonte exaltado
 				Tooltip:
 					'''
-					Emite una lanza astral que acumula corrupción en los enemigos 
+					Emite una lanza astral que acumula corrupción en los enemigos
 					A las 5 acumulaciones el enemigo explotará violentamente haciendo daño extremo
 					'''
 			}
@@ -187,7 +187,7 @@ Mods: {
 				DisplayName: Guadaña del Dios olvidado
 				Tooltip:
 					'''
-					Gira, invocando varias bolas de gel teledirigido y desacelera para desatar una tormenta de truenos 
+					Gira, invocando varias bolas de gel teledirigido y desacelera para desatar una tormenta de truenos
 					Click Derecho para lanzarte hacia el cursor
 					{$Mods.CatalystMod.Tooltips.FlawlessDrop}
 					'''
@@ -721,8 +721,8 @@ Mods: {
 			RookOfVengeanceMFireballBlast.DisplayName: Torre de la anarquía
 			RookOfVengeanceMFireballSpin.DisplayName: Torre de la anarquía
 			RookOfVengeanceProj.DisplayName: Torre de la venganza
-			StaticInfernoFlamethrower.DisplayName: Llamas tormenta voltaica
-			StaticInfernoFlamethrowerOrb.DisplayName: Orbe llamas tormenta voltaica
+			StaticInfernoFlamethrower.DisplayName: Lanzallamas de infierno estático
+			StaticInfernoFlamethrowerOrb.DisplayName: Orbe lanzallamas de infierno estático
 			StaticInfernoProj.DisplayName: Tormenta de fuego voltaica
 			// Ranger - Others
 			MiniStar.DisplayName: Mini estrella
