@@ -40,15 +40,15 @@ Items: {
 	}
 
 	WulfrumMothershipRelic: {
-		DisplayName: Reliquia de la Nave Nodriza de Wulfrum
+		DisplayName: Reliquia de la Nave nodriza de Wulfrum
 		Tooltip: ""
 	}
 
 	WulfrumHeart: {
 		Tooltip:
 			'''
-			Invoca la Nave Nodriza de Wulfrum
-			No consumible
+			Invoca la Nave nodriza de Wulfrum
+			No se consume
 			'''
 		DisplayName: Corazón de Wulfrum
 	}
@@ -60,7 +60,7 @@ Items: {
 
 	Lore: {
 		LoreWulfrumMothership: {
-			DisplayName: Historia (Nave Nodriza de Wulfrum)
+			DisplayName: Historia (Nave nodriza de Wulfrum)
 			Tooltip:
 				'''
 				Durante la guerra, estas majestuosas máquinas estaban en su máximo esplendor,
@@ -78,7 +78,7 @@ Items: {
 				pero ya que estás leyendo esto, parece que repeliste su ataque.
 				Sin embargo, aún quedan muchas máquinas de Wulfrum; probablemente volverás a encontrarte con ellas...
 				'''
-			DisplayName: Historia de la Invasión de Wulfrum
+			DisplayName: Historia de la invasión de Wulfrum
 		}
 	}
 
@@ -120,7 +120,7 @@ Items: {
 
 	WulfrumMothershipTrophy: {
 		Tooltip: ""
-		DisplayName: Trofeo de la Nave Nodriza de Wulfrum
+		DisplayName: Trofeo de la Nave nodriza de Wulfrum
 	}
 
 	UnstableBattery: {
@@ -130,7 +130,7 @@ Items: {
 			Colócala en el señuelo de Wulfrum
 			[c/83B87E:Una batería interesante...]
 			'''
-		DisplayName: Batería Inestable
+		DisplayName: Batería inestable
 	}
 
 	Weapons: {
@@ -183,13 +183,13 @@ Items: {
 	}
 
 	WulfrumInvasionMusicBox: {
-		DisplayName: Invasión de Wulfrum (Caja de Música)
+		DisplayName: Invasión de Wulfrum (Caja de música)
 		Tooltip: Por - Spozmotosm
 	}
 
 	MechanismWarfareMusicBox: {
 		Tooltip: Por - Digidonix
-		DisplayName: Guerra Mecánica (Caja de Música)
+		DisplayName: Guerra Mecánica (Caja de música)
 	}
 }
 
@@ -209,13 +209,13 @@ NPCs: {
 	WulfrumWormTail.DisplayName: Excavador de Wulfrum
 
 	WulfrumMothership: {
-		DisplayName: Nave Nodriza de Wulfrum
+		DisplayName: Nave nodriza de Wulfrum
 		Bestiary: Una enorme nave nodriza que coordina las acciones de las máquinas de Wulfrum. Armada con misiles guiados y una mini fábrica, también puede recargar otras máquinas de Wulfrum.
 		SpawnInfo: Usa un [i:CalamityAddon/WulfrumHeart] durante el día en la superficie.
-		DespawnMessage: La Nave Nodriza de Wulfrum se ha retirado...
+		DespawnMessage: La Nave nodriza de Wulfrum se ha retirado...
 	}
 
-	WulfrumShield.DisplayName: Nave Nodriza de Wulfrum
+	WulfrumShield.DisplayName: Nave nodriza de Wulfrum
 
 	WulfrumBomber: {
 		DisplayName: Bombardero de Wulfrum
