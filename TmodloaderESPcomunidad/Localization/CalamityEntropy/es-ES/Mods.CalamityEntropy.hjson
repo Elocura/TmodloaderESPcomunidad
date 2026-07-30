@@ -455,7 +455,7 @@ Items: {
 
 	WingsOfHush: {
 		DisplayName: Alas del silencio
-		Tooltip: [c/9387ff: Dispara un potente láser del vacío y 4 rayos del vacío]
+		Tooltip: "[c/9387ff: Dispara un potente láser del vacío y 4 rayos del vacío]"
 	}
 
 	SoyMilk: {
@@ -1414,6 +1414,7 @@ Items: {
 			'''
 			Inflige [cebuff:CalamityEntropy/LifeOppress] y acumula energía al impactar
 			Cuando tu barra de energía esté llena, puedes hacer clic derecho para lanzar un tajo hacia delante, dejando tras de ti una grieta abisal
+			'''
 	}
 
 	AbyssalAltar: {
@@ -2327,6 +2328,7 @@ Items: {
 			Las plumas infernales también volverán al jugador al impactar, restaurándole entre 10 y 14 de vida
             Cada séptimo golpe, en cambio, invoca una espada gigante que inflige [cebuff:BetsysCurse]
             Al mantener pulsado clic derecho la espada se cargará; al soltar clic derecho cuando está completamente cargada, se desata un torrente de cortes de fuego
+			'''
 	}
 
 	LashingBramblerod: {
@@ -5296,6 +5298,7 @@ Buffs: {
 			Se reduce el daño por contacto
 			Los proyectiles disparados serán más lentos
 			Los proyectiles infligen menos daño
+			'''
 	}
 
 	SpiritGathering: {
@@ -5325,6 +5328,7 @@ Buffs: {
 			'''
 			~0,06% del DPS máximo de vida - Sin tipo
 			Ralentiza a los enemigo
+			'''
 	}
 
 	GuardiansBuff: {
