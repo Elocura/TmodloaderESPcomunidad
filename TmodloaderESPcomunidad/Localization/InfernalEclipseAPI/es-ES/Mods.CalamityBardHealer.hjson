@@ -86,7 +86,7 @@ Items: {
 		Aumenta un 5% la probabilidad de golpe crítico radiante
 		Los hechizos de curación curarán 2 puntos de vida adicionales
 		Potencia ciertos ataques radiantes con energía elemental
-		Aumenta la intensidad de los efectos de daño prolongado en un 66%
+		Aumenta la intensidad de los efectos de daño prolongado en un 200%
 		"Cuando la luz y la oscuridad chocan, se armonizan para adoptar una forma definitiva"
 		'''
 	SymphonicFabrications.Tooltip:
@@ -99,9 +99,12 @@ Items: {
 		'''
 }
 
-ItemDescriptions.DemonshadeGreaves:
-	'''
-	Aumenta tus puntos máximos de técnica en 2, tu inspiración máxima en 15 y tu bonificación de curación en 10 puntos de vida
-	Aumenta la velocidad y el alcance de los instrumentos de viento en un 60%, y los instrumentos de cuerda rebotan seis veces más
-	Duplica el radio de efecto de tus potenciadores y amplía su duración en 6 segundos
-	'''
+ItemDescriptions: {
+	DemonshadeGreaves:
+		'''
+		Aumenta tus puntos máximos de técnica en 2, tu inspiración máxima en 15 y tu bonificación de curación en 10 puntos de vida
+		Aumenta la velocidad y el alcance de los instrumentos de viento en un 60%, y los instrumentos de cuerda rebotan seis veces más
+		Duplica el radio de efecto de tus potenciadores y amplía su duración en 6 segundos
+		'''
+	ChampionWing: ""
+}
