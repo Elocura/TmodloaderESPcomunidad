@@ -3,7 +3,7 @@ MoltenPiercer: {
 	Tooltip:
 		'''
 		Lanza dagas llameantes
-		Las dagas crean fragmentos de obsidiana llameantes durante un ataque sigiloso
+		Las dagas generan fragmentos de obsidiana en llamas mientras vuelan en un ataque sigiloso
 		'''
 }
 
@@ -25,10 +25,9 @@ ExoBall: {
 	DisplayName: Exo esfera
 	Tooltip:
 		'''
-		Lanza hasta 10 esferas espinosas rápidas que siguen a su objetivo
-		Se adhiere a los enemigos y convoca una tormenta localizada de exo rayos 
-		Al hacer ataques sigilosos, llegan a su objetivo más rápido y los rayos aparecen a mayor velocidad
-		Presiona <right> para eliminar todas las esferas puntiagudas existentes
+		Lanza esferas con púas que se dirigen hacia los enemigos y se adhieren a ellos
+		Las esferas con púas adheridas invocan una tormenta localizada de exo esferas con cada impacto
+		Los ataques sigilosos llegan a su objetivo más rápido y tienen una cadencia de disparo mayor
 		'''
 }
 
@@ -37,7 +36,7 @@ AuricKunai: {
 	Tooltip:
 		'''
 		Dispara una ráfaga rápida de kunais de corto alcance
-		Los ataques sigilosos generan y lanza 5 Rayos contra el enemigo más cercano
+		Los ataques sigilosos lanzan 5 rayos contra el enemigo más cercano
 		'''
 }
 
@@ -45,8 +44,9 @@ StarfishFromTheDepth: {
 	DisplayName: Estrella de mar de las profundidades
 	Tooltip:
 		'''
-		Las estrellas de mar se dirigen al objetivo más cercano, impactando hasta 5 veces
-		Los ataques sigilosos crean tres estrellas de mar a la vez
+		Las estrellas de mar se dirigen hacia los objetivos más cercanos y pueden infligir hasta 5 impactos antes de regresar
+		Haz clic derecho o deja de sujetar esta arma para que las estrellas de mar activas regresen hacia ti
+		Los ataques sigilosos lanzan tres estrellas de mar al mismo tiempo
 		'''
 }
 
