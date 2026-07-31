@@ -7,8 +7,8 @@ Mods: {
 				Label: Modificador de daño de látigo
 				Tooltip:
 					'''
-					Modifica el daño de todos los látigos de este mod según el número elegido.
-					Úsalo para potenciar o debilitar el mod según lo desees.
+					Modifica el daño de todos los látigos de este mod según el número elegido
+					Úsalo para potenciar o debilitar el mod según lo desees
 					'''
 			}
 		}
@@ -27,7 +27,7 @@ Mods: {
 				Tooltip:
 					'''
 					Un látigo de corto alcance y velocidad relámpago
-					Infunde a los enemigos con electricidad estática, que tus esbirros pueden descargar para liberar chispas
+					Infunde a los enemigos con electricidad estática, que tus súbditos pueden descargar para liberar chispas
 					'''
 				DisplayName: Azote estático
 			}
@@ -36,7 +36,7 @@ Mods: {
 				Tooltip:
 					'''
 					4 de daño de etiqueta de invocación
-					Tus esbirros invocarán hongos teledirigidos al golpear que te curan
+					Tus súbditos invocarán hongos teledirigidos al golpear que te curan
 					'No es comestible'
 					'''
 				DisplayName: Maza fúngica
@@ -46,7 +46,7 @@ Mods: {
 				Tooltip:
 					'''
 					5 de daño de etiqueta de invocación
-					Otorga a tus látigos la habilidad de restaurar tiempo de vuelo.
+					Otorga a tus látigos la habilidad de restaurar tiempo de vuelo
 					'Ligero como una pluma'
 					'''
 				DisplayName: Partidor del cielo
@@ -63,7 +63,7 @@ Mods: {
 			}
 
 			SulphuricScourge: {
-				Tooltip: Tus esbirros liberarán nubes tóxicas en el aire
+				Tooltip: Tus súbditos liberarán nubes tóxicas en el aire
 				DisplayName: Azote sulfúrico
 			}
 
@@ -71,16 +71,16 @@ Mods: {
 				Tooltip:
 					'''
 					11 de daño de etiqueta de invocación
-					Invoca bolas de nieve flotantes al marcar que se dividen en fragmentos de hielo.
+					Invoca bolas de nieve flotantes al marcar que se dividen en fragmentos de hielo
 					'Imbuido con el poder de Cryogen'
 					'''
-				DisplayName: Látigo de Dédalo
+				DisplayName: Látigo de dédalo
 			}
 
 			PrismBreak: {
 				Tooltip:
 					'''
-					Tus esbirros liberarán una lluvia de fragmentos de cristal.
+					Tus súbditos liberarán una lluvia de fragmentos de cristal
 					-Ítem diseñado por la comunidad-
 					Diseño de 'reldandle'
 					'''
@@ -91,7 +91,7 @@ Mods: {
 				Tooltip:
 					'''
 					Inflige Llama de azufre
-					Tus esbirros liberarán una explosión de azufre al golpear.
+					Tus súbditos liberarán una explosión de azufre al golpear
 					'Languidece en las llamas de Gehenna'
 					'''
 				DisplayName: Látigo de azufre
@@ -100,8 +100,8 @@ Mods: {
 			StellarWindItem: {
 				Tooltip:
 					'''
-					Inflige Infección astral.
-					Tus esbirros invocarán estrellas astrales al golpear.
+					Inflige Infección astral
+					Tus súbditos invocarán estrellas astrales al golpear
 					'''
 				DisplayName: Viento estelar
 			}
@@ -109,7 +109,7 @@ Mods: {
 			SandstoneReigns: {
 				Tooltip:
 					'''
-					Tus esbirros invocarán un feroz tiburón de arena como compañero de ataque.
+					Tus súbditos invocarán un feroz tiburón de arena como compañero de ataque
 					'Hazles saber lo que viste hoy'
 					'''
 				DisplayName: Depredador olvidado
@@ -118,8 +118,8 @@ Mods: {
 			RightousDawn: {
 				Tooltip:
 					'''
-					Tus esbirros liberarán calamares de polvo estelar que se dividen al golpear.
-					'Apunta a la luna, y aterrizarás entre las estrellas'
+					Algo no me cuadra...
+					Quizás no deberías usar esto...
 					'''
 				DisplayName: Desgarrador estelar
 			}
@@ -133,7 +133,7 @@ Mods: {
 				Tooltip:
 					'''
 					Inflige Llamas sagradas
-					Si estás cerca del objetivo, tus esbirros te curarán y te otorgarán mayor resistencia
+					Si estás cerca del objetivo, tus súbditos te curarán y te otorgarán mayor resistencia
 					'Un verdadero rey lidera a sus tropas en batalla'
 					'''
 				DisplayName: Amanecer justo
@@ -143,7 +143,7 @@ Mods: {
 				Tooltip:
 					'''
 					Libera un tormento de garras fantasmas
-					Tus esbirros invocarán garras desencarnadas desde el más allá
+					Tus súbditos invocarán garras desencarnadas desde el más allá
 					'''
 				DisplayName: Tormento Implacable
 			}
@@ -235,7 +235,7 @@ Mods: {
 			CoralCrusherItem: {
 				Tooltip:
 					'''
-					Tus esbirros invocan fragmentos de coral
+					Tus súbditos invocan fragmentos de coral
 					6 de daño con etiqueta de invocación
 					Tus invocaciones atacarán a los enemigos golpeados
 					'''
@@ -256,12 +256,12 @@ Mods: {
 			SirensSerenityItem: {
 				Tooltip:
 					'''
-					La unión entre Leviatán y Anahita te inspira a ti y a tus esbirros
+					La unión entre Leviatán y Anahita te inspira a ti y a tus súbditos
 					18 de daño con etiqueta de invocación
 					Tus invocaciones atacarán a los enemigos golpeados
-					Tus esbirros soltarán orbes que curan y otorgan una mejora al recogerse
+					Tus súbditos soltarán orbes que curan y otorgan una mejora al recogerse
 					-Objeto Diseñado por la Comunidad-
-					Diseñado por 'CharlieTheFatCat'
+					Diseñado por 'BrodstyToasty'
 					'''
 				DisplayName: Serenidad de la Sirena
 			}
@@ -279,6 +279,11 @@ Mods: {
 			HealingOrb: {
 				DisplayName: Orbe de curación
 				Tooltip: ""
+			}
+
+			TrueStarScraper: {
+				DisplayName: Rascador de estrellas verdadero
+				Tooltip: Estaba un poco malhumorado, pero ya está mejor.
 			}
 		}
 
@@ -430,47 +435,49 @@ Mods: {
 		}
 
 		Projectiles: {
-			BoulderProj.DisplayName: Roca
+			BoulderProj.DisplayName: roca
 			BoulderProj1.DisplayName: Roca
 			BoulderProj2.DisplayName: Roca
-			OrbitLeaf.DisplayName: Hoja
-			BrimstoneLashProjectile.DisplayName: Látigo de azufre
+			OrbitLeaf.DisplayName: Hoja orbital
+			BrimstoneLashProjectile.DisplayName: Proyectil de Látigo de azufre
 			DaedalusWhipProj.DisplayName: Látigo de Dédalo
 			IceShard.DisplayName: Fragmento de hielo
 			SnowBall.DisplayName: Bola de nieve
-			PrismBreakProjectile.DisplayName: Ruptura prismática
-			SandstoneReignsProjectile.DisplayName: Reinado de piedra arenisca
+			PrismBreakProjectile.DisplayName: Proyectil de Ruptura prismática
+			SandstoneReignsProjectile.DisplayName: Proyectil de Reinado de piedra arenisca
 			SandstoneShark.DisplayName: Tiburón de piedra arenisca
-			SirensSerenityProj.DisplayName: Serenidad de la Sirena
+			SirensSerenityProj.DisplayName: Proyectil de Serenidad de la Sirena
 			StardustSquid.DisplayName: Calamar de polvo estelar
-			StarScraperProj.DisplayName: Raspador estelar
-			StarScrapperDisjoint.DisplayName: Guadaña raspadora estelar
-			StellarWindProj.DisplayName: Viento estelar
-			SulphuricScourgeProjectile.DisplayName: Azote sulfúrico
-			BlossomsBlessingProj.DisplayName: Bendición de la floración
-			CentauriProj.DisplayName: Centauro
+			StarScraperProj.DisplayName: Proyectil de Raspador estelar
+			StarScrapperDisjoint.DisplayName: Raspadora estelar desconectada
+			StellarWindProj.DisplayName: Proyectil de Viento estelar
+			SulphuricScourgeProjectile.DisplayName: Proyectil de Azote sulfúrico
+			BlossomsBlessingProj.DisplayName: Proyectil de Bendición de la floración
+			CentauriProj.DisplayName: Proyectil de Centauro
 			jupiter.DisplayName: Júpiter
 			Mercury.DisplayName: Mercurio
-			Neptune.DisplayName: Neptuno
+			Neptune.DisplayName: Typhoon
 			Saturn.DisplayName: Saturno
 			Uranus.DisplayName: Urano
 			Venus.DisplayName: Venus
-			DevourersMawProjectile.DisplayName: Fauce del Devorador
-			ResonateStrikerProjectile.DisplayName: Impacto resonante
-			RighteousDawnProjectile.DisplayName: Amanecer justo
-			GhastlyHandProjectile.DisplayName: Mano fantasmal
-			UnrelentingTormentProjectile.DisplayName: Tormento incesante
-			CongeledCorruptProjectile.DisplayName: Corrupción congelada
-			CongeledCrimsonProjectile.DisplayName: Carmesí congelado
-			SludgeJudgeProj.DisplayName: Juez de lodo
-			SludgeJudgeProj1.DisplayName: Juez de lodo
-			CoralCrusherProj.DisplayName: Aplastacorales
-			CoralProj.DisplayName: Aplastacorales
-			CoralProj2.DisplayName: Aplastacorales
-			FungalFlailProj.DisplayName: Maza fúngica
-			SkySplitterProj.DisplayName: Rompecielos
-			StaticScourgeProjectile.DisplayName: Azote estático
-			WulfrumChainProjectile.DisplayName: Cadena de Wulfrum
+			DevourersMawProjectile.DisplayName: Proyectil de Fauce del Devorador
+			ResonateStrikerProjectile.DisplayName: Proyectil de Impacto resonante
+			RighteousDawnProjectile.DisplayName: Proyectil de Amanecer justo
+			GhastlyHandProjectile.DisplayName: Proyectil de Mano fantasmal
+			UnrelentingTormentProjectile.DisplayName: Proyectil de Tormento incesante
+			CongeledCorruptProjectile.DisplayName: Proyectil de Corrupción congelada
+			CongeledCrimsonProjectile.DisplayName: Proyectil de Carmesí congelado
+			SludgeJudgeProj.DisplayName: Proyectil de Juez de lodo
+			SludgeJudgeProj1.DisplayName: Proyectil de Juez de lodo
+			CoralCrusherProj.DisplayName: Proyectil de Aplastacorales
+			CoralProj.DisplayName: Proyectil de Aplastacorales
+			CoralProj2.DisplayName: Proyectil de Aplastacorales
+			FungalFlailProj.DisplayName: Proyectil de Maza fúngica
+			SkySplitterProj.DisplayName: Proyectil de Rompecielos
+			StaticScourgeProjectile.DisplayName: Proyectil de Azote estático
+			WulfrumChainProjectile.DisplayName: Proyectil de Cadena de Wulfrum
+			StardustSquidHostile.DisplayName: Calamar de polvo estelar hostil
+			EutrophicSpark.DisplayName: Chispa eutrófica
 		}
 
 		Configs: {
@@ -482,8 +489,8 @@ Mods: {
 					Label: Modificador de daño de látigo
 					Tooltip:
 						'''
-						Modifica el daño de todos los látigos en este mod con el valor seleccionado.
-						Úsalo para potenciar o debilitar el mod según tu preferencia.
+						Modifica el daño de todos los látigos en este mod con el valor seleccionado
+						Úsalo para potenciar o debilitar el mod según tu preferencia
 						'''
 				}
 
@@ -492,7 +499,7 @@ Mods: {
 					Tooltip:
 						'''
 						Agrega estadísticas adicionales de látigo a algunas armaduras de Calamity mientras esté activado,
-						para mejorar la viabilidad de los látigos.
+						para mejorar la viabilidad de los látigos
 						'''
 				}
 
@@ -500,7 +507,7 @@ Mods: {
 					Label: Habilitar Acumulación de marcas
 					Tooltip:
 						'''
-						Permite que los látigos en este mod acumulen sus efectos de marca.
+						Permite que los látigos en este mod acumulen sus efectos de marca
 						Si está desactivado, cada nueva marca reemplazará a la anterior
 						'''
 				}
@@ -510,6 +517,18 @@ Mods: {
 					Tooltip: Desactívalo para eliminar el aviso de promoción del mod Catalyst
 				}
 			}
+		}
+
+		NPCs: {
+			ScraperOfStarsBody.DisplayName: Raspador de estrellas
+
+			ScraperOfStarsHead: {
+				DisplayName: Raspador de estrellas
+				BossFightName: Raspador de estrellas
+			}
+
+			ScraperOfStarsTail.DisplayName: Raspador de estrellas
+			ScraperOfStarsDisjoint.DisplayName: Media luna estrellada
 		}
 	}
 }
