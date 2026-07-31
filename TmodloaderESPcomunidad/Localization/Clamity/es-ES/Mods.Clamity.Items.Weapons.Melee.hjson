@@ -31,12 +31,7 @@ Disease: {
 
 WulfrumLeechDagger: {
 	DisplayName: Daga sanguijuela de wulfrum
-	Tooltip:
-		'''
-		Drena un pequeño porcentaje de vida del enemigo al impactar
-		No puede infligir golpes críticos
-		Hace que sea inconsumible durante un segundo al hacer un ataque corto
-		'''
+	Tooltip: Al impactar, suelta un trozo de chatarra de metal wulfrum
 }
 
 FrozenVolcano: {
@@ -47,5 +42,10 @@ FrozenVolcano: {
 Everest: {
 	DisplayName: Everest
 	Tooltip: Lanza una serie de bolas de fuego volcánicas
+}
+
+Hyperion: {
+	DisplayName: Hyperion
+	Tooltip: ""
 }
 
