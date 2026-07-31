@@ -8,3 +8,14 @@ TheWOBbler: {
 	DisplayName: El WOBbler
 }
 
+RealityRelocator: {
+	DisplayName: Reubicador de realidades
+	Tooltip:
+		'''
+		Pulsa [KEY] para teletransportarte a la posición del cursor
+		La velocidad de caída se duplica durante 30 fotogramas tras el teletransporte
+		Funciona desde el inventario
+		"Estaré allí en un abrir y cerrar de ojos"
+		'''
+}
+
