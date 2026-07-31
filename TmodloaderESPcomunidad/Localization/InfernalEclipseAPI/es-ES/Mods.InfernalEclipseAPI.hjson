@@ -53,6 +53,46 @@ UI: {
 		Puedes desactivar esta ventana emergente en la configuración de Homeward, dentro de la configuración de Infernal Eclipse of Ragnarok.
 		'''
 	DevNoticeCampsiteFix: Se ha aplicado la corrección del fallo del mástil de la bandera
+
+	WarningHelheim:
+		'''
+		AVISO: ¡Se ha detectado que tienes activado el mod Thorium!
+		¡Te recomendamos encarecidamente que instales el mod Thorium Helheim para disfrutar de la IA de Thorium tal y como está prevista antes de continuar!
+		Puedes desactivar esta ventana emergente en la configuración de Infernal Eclipse of Ragnarok.
+		'''
+	WarningRagnarok:
+		'''
+		AVISO: ¡Se ha detectado que tienes activado el mod Thorium!
+		¡Te recomendamos encarecidamente que instales el mod Ragnarok para garantizar la compatibilidad entre ambos mods antes de continuar!
+		Puedes desactivar esta ventana emergente en la configuración de Infernal Eclipse of Ragnarok
+		'''
+	WarningOverhaul:
+		'''
+		ADVERTENCIA: ¡Se ha detectado que tienes activado el mod Calamity Overhaul!
+		Este mod tiene muchos errores y provocará numerosos problemas. Te recomendamos encarecidamente que lo desactives.
+		'''
+	WarningRemnants:
+		'''
+		ADVERTENCIA: ¡Se ha detectado que tienes activado el mod Remnants!
+		Este mod NO es compatible con Infernum ni con muchos otros mods del paquete de mods.
+		Si este mundo se generó con este mod, por favor, vuelve a generarlo con este mod desactivado
+		'''
+	NoticeMasterPatch:
+		'''
+		AVISO: ¡Se ha detectado que tienes activado el mod Infernum Master Patch!
+		Este mod es redundante con el mod Ragnarok y puedes desactivarlo
+		'''
+	NoticeCalMinus:
+		'''
+		AVISO: ¡Se ha detectado que tienes activado el mod Calamity Minus!
+		Este mod es innecesario si tienes activada la configuración Cambios en las recetas de Calamity y puedes desactivarlo.
+		'''
+	NoticeCalBalance:
+		'''
+		AVISO: ¡Se ha detectado que tienes activado el mod Calamity Balance Changes!
+		Este mod añade una serie de cambios no indicados que podrían hacer que tu experiencia de juego fuera peor de lo previsto
+		Te recomendamos encarecidamente que desactives este mod.
+		'''
 }
 
 DifficultyUI: {
@@ -77,9 +117,6 @@ DifficultyUI: {
 WelcomeMessage: {
 	Welcome: ¡Bienvenidos al paquete de mods Infernal Eclipse of Ragnarok!
 	TBRNotice: AVISO: ¡Se ha detectado que tienes activado Thorium Helheim! Asegúrate de que los multiplicadores de salud, daño y velocidad estén ajustados a 1 en la configuración de compatibilidad (a menos que quieras una experiencia más difícil), ya que este mod ajusta automáticamente a los jefes de Thorium en función de la dificultad actual.
-	TBRWarning: ADVERTENCIA: ¡Se ha detectado que no tienes activado Thorium Helheim! Se recomienda encarecidamente este mod, ya que reequilibra a los jefes de Thorium para que sus mecánicas se ajusten mejor al modo Infernum y a Calamity en general.
-	RagWarning: ADVERTENCIA: ¡Se ha detectado que no tienes activado Ragnarok! Sin este mod, es posible que Thorium y Calamity no funcionen bien juntos. Se recomienda encarecidamente que actives este mod para disfrutar de una experiencia más completa y equilibrada.
-	EventTrophyNotice: AVISO: ¡Se ha detectado que no tienes activado el mod More Trophies and Relics! Sin este mod, es posible que los jefes que no pertenezcan a Vanilla, Calamity o Infernum no cuenten con el lore de Calamity ni con las introducciones de Infernum. Se recomienda encarecidamente que actives este mod para disfrutar de una experiencia más completa y equilibrada.
 	SoulsWarning:
 		'''
 		WARNING: ¡El mod Fargo's Souls NO es compatible con «Infernal Eclipse of Ragnarok! 
@@ -114,6 +151,27 @@ BossCheesePrevention: {
 	TheDestroyer: No voy a dejar que destruyas mi máquina tan fácilmente.
 	Plantera: Unas fuerzas ancestrales te impiden utilizar este objeto en este momento..
 	Yharon: Unas fuerzas ancestrales te impiden utilizar este objeto en este momento..
+}
+
+ItemBalance: {
+	Modified: Modificado por Infernal Eclipse of Ragnarok
+	Modified2: Mantén pulsado {0} para ver las modificaciones
+	DamageUpGeneric: "    daño aumentado en un [c/00A36C:{0}%]"
+	DamageDownGeneric: "    daño disminuido en un [c/FF0000:{0}%]"
+	ShootSpeedUpGeneric: "    Velocidad de disparo reducida en un [c/FF0000:{0}%]"
+	ShootSpeedDownGeneric: "    Velocidad de disparo aumentada en un [c/00A36C:{0}%]"
+	UseTimeUpGeneric: "    Tiempo de uso reducido en un [c/00A36C:{0}%]"
+	UseTimeDownGeneric: "    tiempo de uso aumentado en un [c/FF0000:{0}%]"
+	UseAnimationUpGeneric: "    animación de uso reducido en un [c/00A36C:{0}%]"
+	UseAnimationDownGeneric: "    animación de uso aumentado en un [c/FF0000:{0}%]"
+	UseSpeedUpGeneric: "     velocidad de uso aumentado en un [c/00A36C:{0}%]"
+	UseSpeedDownGeneric: "    velocidad de uso disminuido en un [c/FF0000:{0}%]"
+	PickUpGeneric: "     potencia del pico aumentada en un [c/FF0000:{0}%]"
+	PickDownGeneric: "    potencia del pico reducida en un [c/FF0000:{0}%]"
+	CritUpGeneric: "     probabilidad de golpe crítico aumentado en un [c/00A36C:{0}%]"
+	CritDownGeneric: "    probabilidad de golpe crítico reducido en un [c/FF0000:{0}%]"
+	DefenseUpGeneric: "    Defensa aumentada en {0}"
+	DefenseDownGeneric: "    Defensa reducida en {0}"
 }
 
 ItemTooltip: {
@@ -477,6 +535,7 @@ ItemTooltip: {
 	DoesNotStack: No se acumula al disminuir de nivel
 	NoBoss: No funciona mientras el jefe esté vivo
 	Disabled: "[DESACTIVADO]"
+	DisabledTooltip: Este objeto está desactivado actualmente y no está pensado para utilizarse en la versión actual de Infernal Eclipse of Ragnarok.
 	DauntlessBuff: +2% de daño radiante
 	DedTo: - Dedicado a {0} -
 
@@ -1473,7 +1532,7 @@ Items: {
 	}
 
 	SuspiciousLookingPumpkin: {
-		DisplayName: Calabaza de aspecto sospechoso
+		DisplayName: CValabaza de Halloween maldita
 		Tooltip:
 			'''
 			Al utilizarlo sobre la filacteria antigua, invoca al Lich
@@ -2023,6 +2082,17 @@ Items: {
 		Major: Mayor
 	}
 
+AuricBratwurst: {
+		DisplayName: Salchicha bratwurst áurica
+		Tooltip: ""
+		DynamicTooltip:
+			'''
+			{0}{1} mejoras en todas las estadísticas
+			'No hagas caso a lo que dicen de que es carne de cerdo... está hecha con nuggets de pollo'
+			'''
+		VoidTooltip: Cura 75 de vacío
+	}
+
 	SingularityCore: {
 		DisplayName: Núcleo de singularidad
 		Tooltip:
@@ -2075,18 +2145,14 @@ Items: {
 	}
 
 	TyrantYharimsUltisword: {
-		DisplayName: Penetrador del Tirano
+		DisplayName: Deicidio
 		Tooltip:
 			'''
-			Lanza una gran espada áurica que empala, incinera y ralentiza a los enemigos
-			Hasta cinco espadas pueden empalar a un enemigo a la vez; los golpes posteriores lanzan por los aires las espadas que lo tenían empalado
-			Pulsa <right> para adoptar una postura en la que puedes usar <left> para realizar un tajo colosal y devastador
-			Mientras estás en esa postura, recuperas vida y tiempo de vuelo, y tus carreras tienen un tiempo de recarga más corto
-			El tajo devastador debe recargarse tras ser utilizado.
-			Golpear a un enemigo empalado con el tajo devastador lanza todas las espadas y prepara otro tajo.
-			Al último enemigo golpeado con un tajo devastador se le aplica una marca de muerte.
-			Al salir de la postura, la marca de muerte explota infligiendo un daño enorme.
-			"La recompensa de convertirse en un buscador de dioses..."
+			Blande una espada lenta y pesada con un potente efecto de retroceso que lanza espadas llameantes, hiperveloces y de luz solar
+			Si mantienes pulsado <right>, comenzarás a cargar un golpe potenciado
+			Si sueltas <right> cuando la carga esté completa, desatarás un tajo devastador que siempre causa un golpe crítico
+			Al golpear a un enemigo, se inflige [cbuff:CalamityMod/AuricRebuke]
+			"Que la fortuna te acompañe. Porque nada más lo hará."
 			'''
 	}
 
@@ -2340,6 +2406,35 @@ Items: {
 			No se consume
 			'''
 		Name: Construcción del caos
+	}
+
+	BloodHeart: {
+		DisplayName: Corazón de sangre
+		Tooltip:
+			'''
+			Invoca al Vizconde al utilizarlo en el Altar de sangre
+			No se consume
+			'''
+	}
+
+	EldritchBattleHorn: {
+		DisplayName: Cuerno de batalla sobrenatural
+		Tooltip:
+			'''
+			Al invocarlo en las Profundidades Acuáticas, invoca al Olvidado
+			No se consume
+			'''
+	}
+
+	InfernalArsenalPainting: {
+		DisplayName: Pintura del Arsenal Infernal
+		Tooltip:
+			'''
+			¡Enhorabuena a todos los que han superado el «low%» o el Boss Rush!
+			El espacio de esta ilustración no es suficiente para incluir a todos los vencedores
+			Los vencedores aparecen en el orden en que superaron dicho desafío
+			Mantén pulsada la tecla SHIFT para ver la lista completa de créditos
+			'''
 	}
 }
 
@@ -2730,6 +2825,11 @@ Configs: {
 		CnidrionMusic: {
 			Label: Música del Cnidrion
 			Tooltip: Activa o desactiva la reproducción de "Seahorse Scrutiny (Rebirth)", de Brimston Premium, mientras un Cnidrion esté vivo.
+		}
+
+		DisableUnnecessaryContent: {
+			Label: Desactivar el contenido innecesario
+			Tooltip: ""
 		}
 	}
 
