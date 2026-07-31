@@ -5,25 +5,25 @@ DepthsEchoRifle: {
 
 Obsidigun: {
 	DisplayName: Obsidigun
-	Tooltip: Converts musket balls into fast-moving obsidian bullets that break into a lot of shards on hit
+	Tooltip: Converts musket balls into fast-moving obsidian bullets that break into many shards on hit
 }
 
 RoseBow: {
 	DisplayName: Rose Bow
 	Tooltip:
 		'''
-		'Even if you can't see me, even if you can't hear me, I'll be by your side'
 		Shoots a spread of arrows and homing petals
+		'Even if you can't see me, even if you can't hear me, I'll be by your side'
 		'''
 }
 
 WitheredBoneBow: {
-	DisplayName: Wither Bane
+	DisplayName: Wither Stormbow
 	Tooltip:
 		'''
-		Converts wooden arrow to withered bone bolts
+		Converts wooden arrows to withered bone bolts
 		Bolts creates a copy behind player on hit up to two times
-		Bolts inflict Withered and has 15 armor penetration
+		Bolts inflict [cbuff:CalamityMod/WitherDebuff] and have 15 armor penetration
 		'Did I hear someone say taco?'
 		'''
 }

@@ -1,0 +1,59 @@
+AMS: {
+	DisplayName: AMS
+	Tooltip:
+		'''
+		Create a bomb by using mana
+		Right Click to increase explosion radius (up to 5 power)
+		'''
+}
+
+TrashOfMagnus: {
+	DisplayName: Trash of Magnus
+	Tooltip:
+		'''
+		Fires plague bolts that inflict [cbuff:CalamityMod/Plague]
+		This weapon scales with the average of all your damage stats
+		[c/9ABA4A:'An attempt of Magnus' to expand into biological terrorism.]
+		[c/9ABA4A:Despite his efforts, it was deemed a failure and discarded.']
+		'''
+}
+
+EyeOfNova: {
+	DisplayName: Eye of Nova
+	Tooltip:
+		'''
+		Fires seeking exo masses that restore health and mana on hit
+		Explodes into a nebula cloud which greatly reduces enemy protection, and slow them down
+		This weapon scales with the average of all your damage stats
+		'''
+	HoldShiftTooltip:
+		'''
+		  Apply [cbuff:CalamityMod/MarkedforDeath], [cbuff:CalamityMod/Vaporfied], 
+		  [cbuff:CalamityMod/MiracleBlight], [cbuff:Ichor] on hit
+		'''
+}
+
+Celesticus: {
+	DisplayName: Celesticus
+	Tooltip:
+		'''
+		Fires crystals that explode and slow enemies down
+		This weapon scales with the average of all your damage stats
+		'''
+}
+
+GoldenGun: {
+	DisplayName: Golden Gun
+	Tooltip: Shoots a straight line of pure ichor
+}
+
+WitherOnAStick: {
+	DisplayName: Wither On A Stick
+	Tooltip:
+		'''
+		Congratulation! Developers kill a my belowed Alicorn on a Stick
+		Now he looks sucks for me (I talking about Coldheart Icicle)
+		And i made new stick
+		- WitherTaco, Very Clamitous owner
+		'''
+}

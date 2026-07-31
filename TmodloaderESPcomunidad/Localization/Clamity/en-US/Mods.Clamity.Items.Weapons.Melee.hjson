@@ -31,20 +31,20 @@ Disease: {
 
 WulfrumLeechDagger: {
 	DisplayName: Wulfrum Leech Dagger
-	Tooltip:
-		'''
-		Drains a low percentage of enemy health on hit
-		Cannot inflict critical hits
-		Make unconsumable for second on shortstrike
-		'''
+	Tooltip: Releases a wulfrum metal scrap on hit
 }
 
 FrozenVolcano: {
 	DisplayName: Frozen Volcano
-	Tooltip: Launches a flames
+	Tooltip: Launches flames
 }
 
 Everest: {
 	DisplayName: Everest
 	Tooltip: Fires a spread of volcanic fireballs
+}
+
+Hyperion: {
+	DisplayName: Hyperion
+	Tooltip: ""
 }

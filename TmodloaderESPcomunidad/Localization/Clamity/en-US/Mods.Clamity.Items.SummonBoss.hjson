@@ -21,8 +21,8 @@ PyroKey: {
 	Tooltip:
 		'''
 		Summons Pyrogen when used in the desert
-		Right Click to summon without summon animation
-		Enrages boss outside the desert
+		Right Click to summon without a summon animation
+		Pyrogen will enrage outside the desert
 		Not consumable
 		'A key for a furnace cube.'
 		'''
@@ -32,18 +32,16 @@ AncientConsole: {
 	DisplayName: Ancient Console
 	Tooltip:
 		'''
-		Summon a Wall of Bronze on right click on tile
-		Work in Underworld
-		Wall of Bronze despawn when you left from Underworld
-		WARNING: If you in multiplayer, use summoning item instead of this tile (he crafted from tile version NOW)
+		When placed in Hell, right click to summon the Wall of Bronze
+		Wall of Bronze will despawn if you leave Hell
+		WARNING: If in multiplayer, use summoning item instead of this tile (crafted from this item)
 		'''
 }
 
 WoBSummonItem: {
 	Tooltip:
 		'''
-		DEBUG
-		Summon a Wall of Bronze in Underworld
+		Summons a Wall of Bronze in Hell
 		Non consumable
 		'''
 	DisplayName: Technical Alternative Bronze Machine

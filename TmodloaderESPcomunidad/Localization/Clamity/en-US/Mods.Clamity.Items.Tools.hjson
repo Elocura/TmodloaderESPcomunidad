@@ -7,3 +7,14 @@ TheWOBbler: {
 	Tooltip: Right Click to shoot a lot of ice fragments
 	DisplayName: The WOBbler
 }
+
+RealityRelocator: {
+	DisplayName: Reality Relocator
+	Tooltip:
+		'''
+		Press [KEY] to teleport to the position of the mouse
+		Fall speed is doubled for 30 frames after teleporting
+		Works while in the inventory
+		'I'll be there in the blink of an eye'
+		'''
+}

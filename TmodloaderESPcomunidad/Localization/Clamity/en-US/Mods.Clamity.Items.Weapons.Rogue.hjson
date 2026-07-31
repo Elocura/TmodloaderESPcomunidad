@@ -3,7 +3,7 @@ MoltenPiercer: {
 	Tooltip:
 		'''
 		Throws a flaming daggers
-		Daggers create a flaming obsidian shards in flight on stealth strike
+		Daggers create a flaming obsidian shards during flight on a stealth strike
 		'''
 }
 
@@ -17,7 +17,7 @@ FrozenStarShuriken: {
 	Tooltip:
 		'''
 		Cheates a homing mist bolts on hit
-		On stealth strike creates more bolts
+		Stealth strikes creates more bolts
 		'''
 }
 
@@ -25,10 +25,9 @@ ExoBall: {
 	DisplayName: Exo Ball
 	Tooltip:
 		'''
-		Hurls up to 10 speedy homing spiky balls
-		Attaches to enemies and summons a localized storm of exo beams
-		Stealth strikes home in faster and summon beams at a faster rate
-		Press <right> to delete all existing spiky balls
+		Hurls homing spiky balls which attach to enemies
+		Attached spiky balls summon a localized storm of exo balts on each hit
+		Stealth strikes home in faster and hit at a faster rate
 		'''
 }
 
@@ -37,7 +36,7 @@ AuricKunai: {
 	Tooltip:
 		'''
 		Fires a rapid stream of short-range kunai
-		Stealth strikes spawn 5 Lightnings to nearest enemy
+		Stealth strikes spawn 5 bolts of lightning on the nearest enemy
 		'''
 }
 
@@ -45,7 +44,8 @@ StarfishFromTheDepth: {
 	DisplayName: Starfish from the Depth
 	Tooltip:
 		'''
-		Starfish homes to nearest target up to 5 hits
-		Stealth strikes creates a three starfishes at same time
+		Starfish home onto the nearest targets for up to 5 hits before returning
+		Right click or stop holding this weapon to make active starfish return to you
+		Stealth strikes throw three starfish at the same time
 		'''
 }
