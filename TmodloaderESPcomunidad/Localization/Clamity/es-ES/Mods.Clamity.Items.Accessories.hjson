@@ -1,3 +1,20 @@
+Wings: {
+	MetalWings: {
+		DisplayName: Alas de metal
+		Tooltip:
+			'''
+			Velocidad horizontal: 10,50
+			Multiplicador de aceleración: 2,8
+			Excelente velocidad vertical
+			Tiempo de vuelo: 280
+			La defensa de todos los jugadores de tu equipo aumenta en 20 mientras llevas puesta la Armadura helada
+            Recupera parte del tiempo de vuelo al recibir daño
+			'''
+		HoldShiftTooltip: "La cantidad de tiempo de vuelo recuperado es igual a la relación entre el daño recibido y la vida máxima, dividida por 2"
+	}
+}
+
+
 SoulOfPyrogen: {
 	DisplayName: Alma de Pirógeno
 	Tooltip:
@@ -12,8 +29,12 @@ DraculasCharm: {
 	Tooltip:
 		'''
 		Aumenta un 15% el daño rogue y aumenta en 10 el sigilo máximo
-		Los ataques sigilosos inflingen un 8% más de daño, e invoca un enjambre de murciélagos vampiros que roban vida y causan desmoronamiento
-		Los proyectiles de rogue roban vida con los golpes críticos y explotan en almas teledirigidas
+		Los golpes críticos rogue roban vida al enemigo
+		Los golpes en sigilo otorgan un 15% de probabilidad de golpe crítico y un aumento del robo de vida a los golpes que no sean en sigilo durante 10 segundos
+		Estos infligen Hemorragia grave y Aplastamiento de armadura, e infligen un 8% más de daño
+		también invocan un enjambre de murciélagos vampiros que roban vida
+		Los proyectiles rogue explotan en almas autoguiadas
+		"Poseer el talismán te hace ansiar sangre y almas»
 		'''
 }
 
@@ -21,7 +42,7 @@ PyroStone: {
 	DisplayName: Piedra pirotécnica
 	Tooltip:
 		'''
-		Multiplica por 1,5 todo el daño de los debuffos basados en el calor
+		Aumenta un 50% el daño de la desventaja Calor
 		Crea un escudo de fuego que gira a tu alrededor, dañando en incendiando a los enemigos al tocarlo
 		'Una de las reliquias antiguas'
 		'''
@@ -31,11 +52,11 @@ HellFlare: {
 	DisplayName: Llama infernal
 	Tooltip:
 		'''
-		Todos los ataques y proyectiles inflingen Fuego infernal
-		Inmunidad a En llamas! y Fuego infernal
-		Estar por encima del 75% de vida otorga un 10% más de probabilidad de crítico
-		Estar por debajo del 25% de vida otorga un 10% de reducción de daño
-		Proporciona resistencia contra los ataques helados
+		Todos los ataques y proyectiles infligen [cbuff:OnFire3]
+		Otorga inmunidad a [cbuff:OnFire] y [cbuff:OnFire3]
+		Si tienes más del 50% de vida, aumenta la probabilidad de crítico en un 10%
+		Si tienes menos del 50% de vida, aumenta la reducción de daño en un 10%
+		Otorga resistencia contra los ataques de frío
 		'''
 }
 
@@ -43,17 +64,16 @@ SupremeBarrier: {
 	DisplayName: Barrera suprema
 	Tooltip:
 		'''
-		Permite realizar una embestida, potenciada con Infierno de los dioses
-		Puedes atravesar a los enemigos sin recibir daño
-		Garantiza inmunidad al retroceso y a los bloques ardientes
-		Garantiza inmunidad a la mayoría de debuffos, inlcuido Infierno de los dioses
-		Tras recibir daño, caerán estrellas y aumentará el tiempo de invencibilidad
-		Otorga fotogramas de invencibilidad adicionales en función de la vida que te falte
-		Este efecto escala de 10 fotogramas con la salud al máximo a 40 fotogramas con un 25% o menos de vida
-		Recibir más de 200 puntos de daño otorga 30 fotogramas adicionales de invencibilidad
-		Crea un escudo alrededor del propietario cuando su vida es inferior al 50%, lo que reduce el daño recibido
-		Absorbe el 25% del daño infligido a los jugadores de tu equipo cuando tienen más del 25% de vida
+		{$Mods.CalamityMod.Common.KnockbackImmunity}
+		Permite realizar un dash, potenciado por un infierno cósmico
+		Este dash permite arrollar a los enemigos sin sufrir daño
+		Lanza una ráfaga de abejas estelares autoguiadas [TOGGLE] y te cubre de [cbuff:Honey] tras recibir daño
+		Aumenta la duración de la invencibilidad, que se incrementa aún más cuando tienes poca vida o recibes ataques que infligen mucho daño
+		Reduce el daño recibido en un 25% cuando tienes menos del 50% de vida
+		Absorbe el 25% del daño infligido a los jugadores de tu equipo cuando tienes más del 25% de vida
+		[c/aaaaaa:Pulsa Mayús + <right> sobre este objeto en tu inventario para activarlo o desactivarlo] [i:PanicNecklace] [c/aaaaaa:Efecto del Collar del Pánico]
 		'''
+		ToggleEffect: ", aumenta la velocidad de movimiento,"
 }
 
 IcicleRing: {
@@ -79,42 +99,33 @@ EidolonAmulet: {
 	DisplayName: Amuleto de Eidolón
 	Tooltip:
 		'''
-		Garantiza inmunidad a los debuffos Propulsión acuática, Profundidad aplastante e Irradiado
-		Todos los ataques infligen el debuff Profundidad aplastante y provocan que caigan gotas de ácido del cielo
-		Aumenta un 15% la velocidad de minería y un 10% el daño mientras se está mojado
-		Aumenta un 25% de la vida máxima mientras se está en el Abismo
-		Recuperas oxígeno mientras permaneces inmóvil bajo el agua
-		Este efecto no funciona en el Abismo
-		Proporciona una cantidad moderada de luz en el Abismo
+		<Se puede modificar tras la revisión de los accesorios>
+		Aumenta un 60% el daño de la desventaja de Agua
+		Acumula lentamente hasta tres espíritus abisales diferentes
+		Haz una embestida para dispersar a los espíritus y hacer que ataquen a los enemigos
+		Cuando se dispersan [c/CB7AD7:por debajo del 50% de vida], los espíritus te apoyan en su lugar
+		Los espíritus aparecen en orden y tienen efectos diferentes según su color:
+        [c/3CB371: Explota al impactar e inflige Profundidad aplastante] / [c/CB7AD7: Cura 8 puntos de vida]
+        [c/FF4500: Atraviesa a los enemigos e inflige Fuego infernal] / [c/CB7AD7: Aumenta la defensa en 10 temporalmente]
+		[c/1E90FF: Golpea varias veces e inflige Presión hadopelágica] / [c/CB7AD7: Cura el 5 % de los PV máximos]
+        Los espíritus son transparentes y silenciosos cuando la visibilidad está desactivada
 		'''
 }
 
-Wings: {
-	MetalWings: {
-		DisplayName: Alas metálicas
-		Tooltip:
-			'''
-			Velocidad horizontal: 10.50
-			Multiplicador de aceleración: 2.8
-			Excelente velocidad vertical
-			Tiempo de vuelo: 280
-			Restaura tiempo de vuelo a recibir un golpe
-			La cantidad de tiempo de vuelo restaurado es igual a la relación entre el daño recibido y la vida máxima dividida por 2
-			La defensa de todos los jugadores de tu equipo aumenta en 20 mientras lleven puesta la Armadura congelada
-			'''
-	}
-}
-
-PearlOfFishCalamity: {
-	DisplayName: Perla de la calamidad marina
+reasureOfClamity: {
+	DisplayName: El tesoro de Clamity
 	Tooltip:
 		'''
-		Incrementa la capacidad de pesca en 50
-		Aumenta la probabilidad de conseguir cajas
-		Aumenta considerablemente la probabilidad de capturar peces que sirvan como ingrediente para pociones
-		Se aumenta el rendimiento de los peces como ingrediente de poción
-		Invoca a una elemental de agua que te protegerá
-		La elemental permanece sobre ti, lanzando lanzas de agua, niebla helada y claves de sol a los enemigos cercanos
+		Aumenta la habilidad de pesca en 25
+		Aumenta el rendimiento de los peces que sirven como ingredientes para pociones
+		Aumenta en un 15 % la probabilidad de pescar cajas y peces que contienen botín
+		Las capturas de cajas tienen un 25 % más de probabilidades de ser de mayor calidad y de ir acompañadas de perlas visuales[ACTIVAR/DESACTIVAR]
+		[c/aaaaaa:Pulsa Mayús + <right> sobre este objeto en tu inventario para activarlo o desactivarlo] [i:CalamityMod/PearlofEnthrallment] [c/aaaaaa:Invocación de la Perla del encanto]
+		'''
+	ToggleEffect:
+		'''
+
+		Invoca a un elemental de agua para que proteja
 		'''
 }
 
@@ -129,7 +140,7 @@ TheSubcommunity: {
 		'''
 		[STATS]
 		'La parte de La comunidad (de la calamidad)'
-		'Tiene su propia especialización.'
+		'Cuenta con su propia especialización.'
 		[c/B00BA5:¡Gracias a todos mis seguidores que hicieron posible este addon!]
 		'''
 	StatsList:
@@ -165,7 +176,7 @@ BlightedSpyglass: {
 	Tooltip:
 		'''
 		+1 de capacidad de centinelas
-		Los centinelas infligen el debufo Llamas de azufre
+		Los centinelas infligen [cbuff:CalamityMod/BrimstoneFlames]
 		'''
 }
 
@@ -174,7 +185,12 @@ CyanPearl: {
 	Tooltip:
 		'''
 		+7% de daño de invocación
-		Los centinelas harán la mitad de daño de invocación
+		Reduce a la mitad la penalización de daño de invocación de las centinelas
+		'''
+	HoldShiftTooltip:
+		'''
+		Cuando se empuñen armas que no sean de invocación ni de tipo estándar, los centinelas infligirán 0,875 veces el daño en lugar de 0,75 veces
+		Además, no se aplicará penalización si se empuñan armas sin clase o si está activo el Ejército de los Antiguos
 		'''
 }
 
@@ -182,11 +198,16 @@ SkullOfTheBloodGod: {
 	DisplayName: Cráneo del Dios de la sangre
 	Tooltip:
 		'''
-		Obtienes un 20% más de daño y un 13% más de probabilidad crítico
-		Los golpes críticos explotan, provocando que los enemigos cercanos se incendien con Llamas de azufre
-		Reduce a la mitad el daño por contacto de los enemigos con un enfriamiento de 20 segundos
-		Tras recibir un impacto, lloverá fuego de azufre
-		Reduce considerablemente el daño recibido por el debufo Llamas de azufre
+		Aumenta el daño un 15% y la probabilidad de golpe crítico mágico un 7
+		Aumenta el maná máximo en 20
+		Invoca una efigie sobre tu cabeza que almacena maná a medida que lo utilizas, hasta un máximo de 600 de maná
+		La efigie emite pulsos ocasionalmente, restaurando 25 de maná, y los pulsos aparecen con mayor frecuencia cuanto más maná se almacena
+		Al recibir un golpe, la efigie libera todo el maná almacenado en forma de almas vengativas que persiguen a tus enemigos
+		La efigie es transparente y silenciosa si la visibilidad está desactivada
+		Los golpes críticos maldicen a los enemigos con [cbuff:CalamityMod/Bane], cuyo efecto aumenta considerablemente en función de tu probabilidad de golpe crítico
+		Al recibir un golpe crítico, los enemigos transmiten a los enemigos cercanos todas las desventajas que padecen y que sean más débiles que tu [cbuff:CalamityMod/Bane]
+		Los golpes críticos infligen un 3% de daño adicional por cada desventaja que tenga el enemigo
 		'''
+	ToggleEffect: Llamas calamitosas llueven mientras se es invencible.
 }
 
