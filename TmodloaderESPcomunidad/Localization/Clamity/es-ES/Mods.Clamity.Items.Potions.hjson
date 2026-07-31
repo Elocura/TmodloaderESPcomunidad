@@ -3,8 +3,12 @@ Foods: {
 		DisplayName: Manzana áurica
 		Tooltip:
 			'''
-			Mejoras menores en todas las estadísticas durante una hora completa
-			'Sí, mi cerebro se está pudriendo desde hoy, leí "Auric Soul" como "Auric Fruit"' - YuH
+			Tendrás {$CommonItemTooltip.MinorStats} durante una hora entera
+			[c/FFBA3A:"]
+			[c/FFBA3A:sí, se me está pudriendo el cerebro desde hoy,]
+			[c/FFBA3A:he leído "Alma Áurica" en lugar de "Fruta Áurica"]
+                                              "
+                         [c/FFBA3A:- YuH, desarrollador de Calamity Community Remix]
 			'''
 	}
 
@@ -12,41 +16,36 @@ Foods: {
 		DisplayName: Exo Baguette
 		Tooltip:
 			'''
-			Grandes mejoras en todas las estadísticas
-			El vino tinto cura 250 puntos de vida, pero reduce la regeneración de vida en 2 puntos por segundo
-			Permite beber una copa más antes de que tu hígado se intoxique
+			{$CommonItemTooltip.MajorStats}
+			Aumenta en 1 el umbral de {$CalamityMod.Buffs.AlcoholPoisoning.DisplayName}
 			'''
 	}
 
 	SoulBaguette: {
 		DisplayName: Baguette del alma
-		Tooltip:
-			'''
-			Mejoras menores en todas las estadísticas
-			El vino tinto cura 250 puntos de vida, pero reduce la regeneración de vida en 2 puntos por segundo
-			'''
+		Tooltip: "{$CommonItemTooltip.MediumStats}"
 	}
 
 	Eldercherry: {
 		DisplayName: Cereza anciana
-		Tooltip: Mejoras menores en todas las estadísticas
+		Tooltip:"{$CommonItemTooltip.MediumStats}"
 	}
 
 	EldercherryJuice: {
 		DisplayName: Jugo de cereza anciana
-		Tooltip: Grandes mejoras en todas las estadísticas
+		Tooltip: "{$CommonItemTooltip.MajorStats}"
 	}
 
 	SlagspitterPauldron: {
 		DisplayName: Espaldares rompeescorias
-		Tooltip: Grandes mejoras en todas las estadísticas
+		Tooltip: "{$CommonItemTooltip.MajorStats}"
 	}
 
 	ClamChowder: {
 		DisplayName: Sopa de almejas
 		Tooltip:
 			'''
-			Mejoras menores en todas las estadísticas
+			"{$CommonItemTooltip.MediumStats}"
 			'Es el nuevo estilo de Ilmeris'
 			'''
 	}
@@ -67,7 +66,7 @@ Foods: {
 		DisplayName: Té de la calamidad
 		Tooltip:
 			'''
-			Grandes mejoras en todas las estadísticas
+			"{$CommonItemTooltip.MajorStats}"
 			'Menuda calamidad'
 			'''
 	}
