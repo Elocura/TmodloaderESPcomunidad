@@ -12,18 +12,18 @@ RoseBow: {
 	DisplayName: Arco de la rosa
 	Tooltip:
 		'''
-		'Aunque no puedas verme, aunque no puedas oírme, estaré a tu lado'
 		Dispara una lluvia de flechas y pétalos teledirigidos
+		'Aunque no puedas verme, aunque no puedas oírme, estaré a tu lado'
 		'''
 }
 
 WitheredBoneBow: {
-	DisplayName: Tormento marchito
+	DisplayName: Arco tormentoso marchito
 	Tooltip:
 		'''
 		Convierte flechas de madera en proyectiles de hueso marchito
 		Los proyectiles crean una copia detrás del jugador al golpear hasta dos veces
-		Inflinje Marchito, aplicando 15 de penetración de armadura
+		Los rayos infligen [cbuff:CalamityMod/WitherDebuff] y tienen 15 de penetración de armadura
 		'¿He oído a alguien decir "taco"?'
 		'''
 }
