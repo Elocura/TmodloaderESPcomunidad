@@ -22,7 +22,7 @@ PyroKey: {
 		'''
 		Invoca a Pirógeno cuando se usa en el desierto
 		Haz clic derecho para invocarlo sin la animación de invocación
-		Se enfurecerá al salir del desierto
+		Pirógeno se enfurecerá al salir del desierto
 		No se consume al usarlo
 		'Una llave para un horno cúbico.'
 		'''
@@ -32,18 +32,16 @@ AncientConsole: {
 	DisplayName: Consola antigua
 	Tooltip:
 		'''
-		Invoca al Muro de bronce al colocar este ítem y al hacer clic derecho 
-		Funciona en el inframundo
-		El muro de bronce desaparecerá si te vas del inframundo
-		ADVERTENCIA: Si estás en modo multijugador, utiliza el otro objeto de invocación en lugar de este (se craftea con la Consola antigua sin necesidad de nada más)
+		Cuando estés en el Infierno, haz clic derecho para invocar el Muro de Bronce
+		El Muro de Bronce desaparecerá si sales del Infierno
+		ADVERTENCIA: Si estás en modo multijugador, utiliza el objeto de invocación en lugar de ítem (que se fabrica a partir de este objeto).
 		'''
 }
 
 WoBSummonItem: {
 	Tooltip:
 		'''
-		DEBUG
-		Invoca al Muro de bronce en el inframundo
+		Invoca al Muro de bronce 
 		No se consume al usarlo
 		'''
 	DisplayName: Máquina de bronce técnica alternativa
