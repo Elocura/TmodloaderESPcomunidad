@@ -207,7 +207,9 @@ SkullOfTheBloodGod: {
 		Los golpes críticos maldicen a los enemigos con [cbuff:CalamityMod/Bane], cuyo efecto aumenta considerablemente en función de tu probabilidad de golpe crítico
 		Al recibir un golpe crítico, los enemigos transmiten a los enemigos cercanos todas las desventajas que padecen y que sean más débiles que tu [cbuff:CalamityMod/Bane]
 		Los golpes críticos infligen un 3% de daño adicional por cada desventaja que tenga el enemigo
+		[ACTIVAR/DESACTIVAR]
+		[c/aaaaaa: Mantén pulsada la tecla Mayús y desplaza este objeto hacia la derecha en tu inventario para activarlo o desactivarlo] [i:CalamityMod/VoidofCalamity] [c/aaaaaa: Efecto de lluvia de Vacío de la calamidad]
 		'''
-	ToggleEffect: Llamas calamitosas llueven mientras se es invencible.
+	ToggleEffect: Llamas calamitosas llueven mientras eres invencible
 }
 
