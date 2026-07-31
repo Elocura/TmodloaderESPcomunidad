@@ -1,33 +1,68 @@
 Items: {
 	Mounts: {
 		FlameCube: {
-			DisplayName: Cubo de llama
+			DisplayName: Exo caja (Edición Calamity)
 			Tooltip:
 				'''
-				Materializa un trono volador de Calamitas bastante acogedor y extremadamente ágil
+				Crea un trono exo volador al estilo Calamitas, muy acogedor y extremadamente ágil
 				Presiona [KEY] mientras estás sentado en el trono para moverte con más lentitud y precisión
-				'Un jugador cómodo es un jugador muy peligroso'
+				"Un jugador enfadado es un jugador muy peligroso"
+                "Nota al margen: lleva equipo de protección contra el fuego, por si se te había olvidado"
 				'''
 		}
 
 		PlagueStation: {
-			DisplayName: Estación de la plaga
+			DisplayName: Exo caja (Edición Plaga)
 			Tooltip:
 				'''
-				Materializa un trono de la Plaga bastante acogedor y un poco ágil
+				Crea un trono exo volador al estilo de la plaga, muy acogedor y extremadamente ágil.
 				Presiona [KEY] mientras estás sentado en el trono para moverte con más lentitud y precisión
 				'Un jugador radical es un jugador vírico'
 				'''
 		}
 	}
 
-	Weapons: {
-		Typeless: {
-			GoldenGun: {
-				Tooltip: ""
-				DisplayName: Arma dorada
-			}
-		}
+	BaseBook1: {
+		DisplayName: Papel de impresora
+		ObtainmentHint: "[c/F79BC6:Este libro lo vende el comerciante habitual]"
+		Tooltip: Solo una hoja de papel normal y corriente y en blanco
+	}
+
+	BaseBook2: {
+		DisplayName: Folleto común
+		ObtainmentHint: "[c/F79BC6:Este libro lo vende alguien que está maldito]"
+		Tooltip:
+			'''
+			Es solo un folleto cualquiera, en el que te recomienda viajar a distintos lugares
+			Está lleno de anuncios, como siempre
+			'''
+	}
+
+	BaseBook3: {
+		DisplayName: Libro básico
+		ObtainmentHint: "[c/F79BC6:Este libro lo vende un archimago]"
+		Tooltip: Es solo un libro cualquiera, no tiene nada de especial
+	}
+
+	BaseBook4: {
+		DisplayName: Libro común
+		ObtainmentHint: "[c/F79BC6:Este libro lo vende un mago al que le gusta vivir en la Bendición]"
+		Tooltip:
+			'''
+			Está escrito en un idioma que sí entiendes
+			Sin embargo, este tomo no sirve para nada...
+			'''
+	}
+
+	HowToClamity: {
+		DisplayName: Cómo hacer una "Clamidad"
+		ObtainmentHint: "[c/F79BC6:Una almeja que se refugia en el Azafure tiene este libro en su poder]"
+		Tooltip:
+			'''
+			Un manual sobre cómo provocar un suceso clamitoso
+			A medida que lo lees, empiezas a sentir que tu mente se te escapa...
+			Cerraste el libro antes de que fuera demasiado tarde, pero aún puedes oír el chasquido de las almejas en tu mente
+			'''
 	}
 }
 
@@ -39,7 +74,7 @@ Misc: {
 
 	None: ""
 	DefeatedWoB: Después de derrotar al Muro de bronce
-	FrozenHellMessege: Puedes sentir una brisa fría proveniente del centro del Infierno
+	FrozenHellMessege: Puedes sentir una brisa fría proveniente del centro del Infierno...
 	GeneratedFrozenHell: Si no se ha generado un infierno congelado o no hay una configuración especial activa
 }
 
@@ -58,12 +93,12 @@ Biomes: {
 InfernumIntro: {
 	Pyrogen:
 		'''
-		Horno áurico
+		Horno de Azafure
 		Pirógeno
 		'''
 	WoB:
 		'''
-		Máquina ancestral
+		Máquina antigua de la Era de los Dragones
 		Muro de bronce
 		'''
 	Clamitas:
@@ -75,80 +110,27 @@ InfernumIntro: {
 
 Configs: {
 	ClamityConfig: {
-		DisplayName: Configuración de Clamitas
+		DisplayName: Configuración de Clamity
 
 		UsesEnchantedMetalInShadowspecBarRecipe: {
-			Label: Usa metal encantado en la receta de la barra de Shadowspec
-			Tooltip: ""
+			Label: Receta del Metal encantado el lingote de sobre demoníaca
+			Tooltip: Activa o desactiva la inclusión de Metal encantado en la receta del lingote de sobre demoníaca
 		}
 
 		ChangesCalamityRecipes: {
-			Label: Cambios en las recetas de Calamity
-			Tooltip: ""
+			Label: Ajustes en las recetas de Calamity
+			Tooltip: Modifica algunas de las recetas de Calamity para que utilicen materiales de este mod
 		}
 
 		UsesClamityWeaponsInCalamityRecipes: {
-			Label: Usa las armas de Clamity en las recetas de Calamity
-			Tooltip: ""
+			Label: Armas de Clamity en las recetas de Calamity
+			Tooltip: Añade armas de este mod a algunas recetas de Calamity
 		}
 
 		PermafrostSoldEnchantedMetal: {
-			Label: Permafrost vende metal encantado
-			Tooltip: Hace que Permafrost venda Metal Encantado ignorando la existencia del Infierno Congelado
+			Label: Permafrost vende Metal encantado
+			Tooltip: Makes Permafrost sell Enchanted Metal ignoring existence of Frozen Hell
 		}
 	}
 }
 
-Dialogues: {
-	Yharim: {
-		Intro: {
-			Text1: Hola, Terrariano... 
-			Text2: Aquí se cruzan nuestros caminos
-			Text3: Veo que has purificado este mundo
-			Text4: Veo que has derrotado a dioses, incluso a un dragón
-			Text5: Y caminas hacia mí, hacia este lugar...
-			Text6: A la Aeria del Dragón...
-			Text7: ¡Demuéstra cuán fuerte eres!
-			Text8: ¡Demuestra que mereces ganar al villano principal!
-		}
-
-		PlayerKilled: {
-			Text1: Débil...
-			Text2: No tienes suficiente poder...
-			Text3: ¡No eres digno!
-		}
-
-		Defeated: {
-			Text1: Agh!
-			Text2: Oh...
-			Text3: El último asesino de dioses ha caído
-			Text4: No soy poderoso. Cometí muchos errores...
-			Text5: Este lugar es mi batalla final. Pero no la guerra
-			Text6: Oh... Tienes que continuar mi misión
-		}
-	}
-
-	Architect: {
-		Abyss: {
-			Text1: La mayor creación...
-			Text2: Quiere descubrir los secretos
-			Text3: Él cae a las profundidades del mundo para descubrir nuevas preguntas
-			Text4: Pero ahora no es el momento de dar respuestas
-		}
-
-		PostWoB: {
-			Text1: La gran máquina ha caído. Muy interesante...
-			Text2: Quizás tengas muchas preguntas sobre tu camino
-			Text3: ¿Qué eres tú? ¿Cual es tu destino? ¿Cómo naciste? ¿Y de qué?
-			Text4: Si quieres aprender los secretos de este mundo, abriré un portal a las profundidades de él
-		}
-	}
-
-	Noxus: {
-		KilledYharim: {
-			Text1: Mmm... El recipiente perfecto...
-			Text2: Criatura perfecta del caos
-			Text3: Un obstáculo menos para la Entropía
-		}
-	}
-}
