@@ -249,10 +249,10 @@ ItemDescriptions: {
 		'''
 	DemonBloodRipper:
 		'''
-		Rapidly spins a demon-fueled scythe around you
-		Gaining soul essence with this weapon causes your next five swings to summon homing blood hearts
-		Dealing damage will grant you a blood charge
-		At maximum charges, your next attack will deal 2x damage and heal you for 20% of the damage dealt
+		Hace girar rápidamente a tu alrededor una guadaña alimentada por demonios
+		Al obtener esencia de alma con esta arma, tus siguientes cinco golpes invocarán corazones de sangre que te seguirán
+		Infligir daño te otorgará una carga de sangre
+		Cuando alcances el máximo de cargas, tu próximo ataque infligirá el doble de daño y te curará un 20% del daño infligido
 		'''
 	DemonBloodSpear:
 		'''
@@ -852,7 +852,7 @@ Items: {
 	}
 
 	HelheimSoul: {
-		DisplayName: Soul of Helheim
+		DisplayName: Alma de Helheim
 		Tooltip:
 			'''
 			Otorga inmunidad a [i:ThoriumRework/QueenJellyPin]Burbulas, [i:ThoriumRework/VampireCape]Sangrado, [i:ThoriumRework/VampireCape]Maldición del vampiro y [i:ThoriumRework/DeepDarkShellShield]retroceso
