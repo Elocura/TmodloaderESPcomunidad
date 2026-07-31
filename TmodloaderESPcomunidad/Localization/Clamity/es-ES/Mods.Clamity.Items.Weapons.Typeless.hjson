@@ -1,0 +1,59 @@
+AMS: {
+	DisplayName: AMS
+	Tooltip:
+		'''
+		Crea una bomba utilizando maná
+		Haz clic derecho para aumentar el radio de la explosión (hasta 5 de potencia)
+		'''
+}
+
+TrashOfMagnus: {
+	DisplayName: Basura de Magnus
+	Tooltip:
+		'''
+		Los rayos de fuego infligen [cbuff:CalamityMod/Plague]
+		Esta arma se adapta a todas tus estadísticas de daño
+		[c/9ABA4A:"Un intento de Magnus de expandirse hacia el terrorismo biológico"].
+		[c/9ABA4A:"A pesar de sus esfuerzos, se consideró un fracaso y se descartó".]
+		'''
+}
+
+EyeOfNova: {
+	DisplayName: Ojo de Nova
+	Tooltip:
+		'''
+		Los disparos restauran salud y maná al impactar
+		Explotan formando una nube de nebulosa que reduce considerablemente la protección del enemigo y lo ralentiza
+		Esta arma se adapta a todas tus estadísticas de daño
+		'''
+	HoldShiftTooltip:
+		'''
+		Aplica [cbuff:CalamityMod/MarkedforDeath], [cbuff:CalamityMod/Vaporfied],
+		[cbuff:CalamityMod/MiracleBlight] y [cbuff:Ichor] al impactar
+		'''
+}
+
+Celesticus: {
+	DisplayName: Celesticus
+	Tooltip:
+		'''
+		Dispara cristales que explotan y ralentizan a los enemigos
+		Esta arma se adapta a todas tus estadísticas de daño
+		'''
+}
+
+GoldenGun: {
+	DisplayName: Pistola dorada
+	Tooltip: Lanza una línea recta de icor puro
+}
+
+WitherOnAStick: {
+	DisplayName: Marchitación en un palo
+	Tooltip:
+		'''
+		Enhorabuena! Los desarrolladores han acabado con mi querido Alicornio en un palo.
+		Ahora me parece un asco (me refiero al Carámbano corazón gélido)
+		Así que me hice un nuevo palo
+		- WitherTaco, propietario de Very Clamitous
+		'''
+}
