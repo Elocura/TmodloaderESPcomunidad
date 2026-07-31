@@ -41,8 +41,7 @@ Mods: {
 					'''
 					Multiplica un 1,08 el daño de etiqueta de invocador
 
-					Al atacar con este látigo se ignora la armadura
-					La reducción de daño no se puede ignorar
+					Ignora parte de la armadura de los enemigos
 					'''
 			}
 
@@ -52,8 +51,7 @@ Mods: {
 					'''
 					Multiplica un 1,08 el daño de etiqueta de invocador
 
-					Al atacar con este látigo se ignora la armadura
-					La reducción de daño no se puede ignorar
+					Ignora parte de la armadura de los enemigos
 					'''
 			}
 
@@ -63,8 +61,7 @@ Mods: {
 					'''
 					Multiplica un 1,08 el daño de etiqueta de invocador
 
-					Al atacar con este látigo se ignora la armadura
-					La reducción de daño no se puede ignorar
+					Ignora parte de la armadura de los enemigos
 					'''
 			}
 
@@ -74,8 +71,7 @@ Mods: {
 					'''
 					Multiplica un 1,08 el daño de etiqueta de invocador
 
-					Al atacar con este látigo se ignora la armadura
-					La reducción de daño no se puede ignorar
+					Ignora parte de la armadura de los enemigos
 					'''
 			}
 
@@ -85,8 +81,7 @@ Mods: {
 					'''
 					Multiplica un 1,08 el daño de etiqueta de invocador
 
-					Al atacar con este látigo se ignora la armadura
-					La reducción de daño no se puede ignorar
+					Ignora parte de la armadura de los enemigos
 					'''
 			}
 
@@ -96,8 +91,7 @@ Mods: {
 					'''
 					Multiplica un 1,08 el daño de etiqueta de invocador
 
-					Al atacar con este látigo se ignora la armadura
-					La reducción de daño no se puede ignorar
+					Ignora parte de la armadura de los enemigos
 					'''
 			}
 
@@ -107,8 +101,7 @@ Mods: {
 					'''
 					Multiplica un 1,08 el daño de etiqueta de invocador
 
-					Al atacar con este látigo se ignora la armadura
-					La reducción de daño no se puede ignorar
+					Ignora parte de la armadura de los enemigos
 					'''
 			}
 
@@ -118,8 +111,7 @@ Mods: {
 					'''
 					Multiplica un 1,09 el daño de etiqueta de invocador
 
-					Al atacar con este látigo se ignora la armadura
-					La reducción de daño no se puede ignorar
+					Ignora parte de la armadura de los enemigos
 					'''
 			}
 
@@ -129,8 +121,7 @@ Mods: {
 					'''
 					Multiplica un 1,09 el daño de etiqueta de invocador
 
-					Al atacar con este látigo se ignora la armadura
-					La reducción de daño no se puede ignorar
+					Ignora parte de la armadura de los enemigos
 					'''
 			}
 
@@ -140,8 +131,7 @@ Mods: {
 					'''
 					Multiplica un 1,09 el daño de etiqueta de invocador
 
-					Al atacar con este látigo se ignora la armadura
-					La reducción de daño no se puede ignorar
+					Ignora parte de la armadura de los enemigos
 					'''
 			}
 
@@ -151,8 +141,7 @@ Mods: {
 					'''
 					Multiplica un 1,09 el daño de etiqueta de invocador
 
-					Al atacar con este látigo se ignora la armadura
-					La reducción de daño no se puede ignorar
+					Ignora parte de la armadura de los enemigos
 					'''
 			}
 
@@ -162,8 +151,7 @@ Mods: {
 					'''
 					Multiplica un 1,09 el daño de etiqueta de invocador
 
-					Al atacar con este látigo se ignora la armadura
-					La reducción de daño no se puede ignorar
+					Ignora parte de la armadura de los enemigos
 					'''
 			}
 
@@ -173,8 +161,7 @@ Mods: {
 					'''
 					Multiplica un 1,09 el daño de etiqueta de invocador
 
-					Al atacar con este látigo se ignora la armadura
-					La reducción de daño no se puede ignorar
+					Ignora parte de la armadura de los enemigos
 					'''
 			}
 
@@ -184,8 +171,7 @@ Mods: {
 					'''
 					Multiplica un 1,09 el daño de etiqueta de invocador
 
-					Al atacar con este látigo se ignora la armadura
-					La reducción de daño no se puede ignorar
+					Ignora parte de la armadura de los enemigos
 					'''
 			}
 
@@ -193,11 +179,8 @@ Mods: {
 				DisplayName: Miseria brillante
 				Tooltip:
 					'''
-					10% de probabilidad de crítico de etiqueta de invocador.
-					Todos los enemigos golpeados por este látigo
-					hacen que el siguiente ataque del esbirro
-					libere dos fragmentos de cristal rastreadores
-					que infligen un 20% de daño
+					10% de probabilidad de crítico de etiqueta de invocador
+					Los enemigos alcanzados por este látigo hacen que el siguiente ataque de un esbirro lance fragmentos de cristal que siguen al objetivo.
 					'''
 			}
 
@@ -220,13 +203,8 @@ Mods: {
 				DisplayName: Cadena de destrucción
 				Tooltip:
 					'''
-					Todos los enemigos golpeados por este látigo:
-					provoca que el siguiente ataque de súbdito
-					desencadene una explosión
-					que inflige un 100% de daño.
-					Los enemigos muertos por esta explosión
-					desencadenan otra explosión,
-					que puede continuar encadenándose
+					Los enemigos alcanzados por este látigop hacen que el siguiente ataque de un súbdito provoque una explosión
+					Los enemigos que mueren a causa de esta explosión provocan otra explosión adicional, que puede seguir encadenándose
 					'''
 			}
 
@@ -235,23 +213,13 @@ Mods: {
 				Tooltip:
 					'''
 					Multiplica un 1,1 el daño de etiqueta de invocador
-					Hay una probabilidad del 10% de hacer un daño crítico de etiqueta de invocador
-
-					Todos los enemigos golpeados por este látigo:
-
-					Reciben 1,25 veces más daño del siguiente ataque de súbdito y explota,
-					inflingiendo un 10% de daño a los enemigos cercanos
+					Los enemigos alcanzados por este látigo reciben 1,25 veces más daño del siguiente ataque de un esbirro y explotan.
 					'''
 			}
 
 			Satellite: {
 				DisplayName: Satélite
-				Tooltip:
-					'''
-					Todos los enemigos golpeados por este látigo:
-
-					Reciben un golpe crítico garantizado de un súbdito
-					'''
+				Tooltip: Los enemigos alcanzados por este látigo reciben un golpe crítico garantizado de un súbdito
 			}
 
 			EntwinedBranches: {
@@ -269,15 +237,9 @@ Mods: {
 				Tooltip:
 					'''
 					Multiplica un 1,12 el daño de etiqueta de invocador
-					Hay una probabilidad del 12% de hacer un daño crítico de etiqueta de invocador
-					
-					Todos los enemigos golpeados por este látigo:
+					Los enemigos alcanzados por este látigo reciben 1,25 veces más daño del siguiente ataque de un súbdito y explotan
 
-					Reciben 1,50 veces más daño del siguiente ataque de súbdito y explota,
-					inflingiendo un 20% de daño a los enemigos cercanos,
-
-					Al atacar con este látigo se ignora la armadura
-					La reducción de daño no se puede ignorar
+					Ignora parte de la armadura de los enemigos
 					'''
 			}
 
@@ -285,11 +247,8 @@ Mods: {
 				DisplayName: Bobina quebrantanubes
 				Tooltip:
 					'''
-					Todos los enemigos golpeados por este látigo:
-
-					Reciben 1,25 veces más daño del siguiente ataque de súbdito y desata una descarga eléctrica,
-					atacando rápidamente a los enemigos cercanos durante un breve periodo de tiempo, ignorando la armadura
-					La reducción de daño no se puede ignorar
+					Todos los enemigos alcanzados por este látigo reciben 1,30 veces más daño del siguiente ataque de un súbdito y desatan una descarga eléctrica
+					La descarga electrocuta rápidamente a los enemigos cercanos durante un breve periodo de tiempo y penetra la armadura
 					'''
 			}
 
@@ -298,11 +257,9 @@ Mods: {
 				Tooltip:
 					'''
 					+10 de daño de etiqueta de invocación por acumulación
-					Todos los enemigos alcanzados por este látigo: 
-					reciben un golpe crítico garantizado de un súbdito que inflige 4 veces más de daño
-					Las acumulaciones de este látigo se suman entre sí.
-					Las acumulaciones más antiguas se eliminan primero.
-					Un número de cometas igual al de acumulaciones orbita alrededor del enemigo
+					Los enemigos alcanzados por este látigo reciben un golpe crítico garantizado de un súbdito que inflige 4 veces dicho daño
+					El efecto de este látigo se acumula consigo mismo
+					Un número de cometas igual al de las acumulaciones orbita alrededor del enemigo
 					'''
 			}
 
@@ -321,12 +278,8 @@ Mods: {
 					'''
 					Multiplica un 1,07 el daño de etiqueta de invocador
 					Hay una probabilidad del 7% de hacer un daño crítico de etiqueta de invocador
-					Todos los enemigos golpeados por este látigo:
-
-					Son alcanzados por un láser cuando los súbditos los golpean,
-					infligiendo un 50% del daño que inflinjas
-					Este láser ignora la armadura
-					La reducción de daño no puese ser ingnorada
+					Los enemigos alcanzados por este látigo reciben un disparo láser en el siguiente ataque de súbdito
+					Ignora parte de la armadura de los enemigos.
 					'''
 			}
 
@@ -334,11 +287,9 @@ Mods: {
 				DisplayName: Lazos ancestrales
 				Tooltip:
 					'''
-					Todos los enemigos golpeados por este látigo:
-
-					Son empalados por una espada espectral cuando los súbditos los golpean,
-					recibiendo un 20% del daño del súbdito 3 veces seguidas
-					El daño por empalamiento perfora 5 puntos de armadura
+					Los enemigos alcanzados por este látigo son atravesados por una espada espectral en el siguiente ataque del súbdito
+					La espada espectral inflige el 20% del daño del súbdito tres veces seguidas
+					El daño por atravesamiento tiene 5 de penetración de armadura.
 					'''
 			}
 
@@ -346,11 +297,9 @@ Mods: {
 				DisplayName: Lazos primarios
 				Tooltip:
 					'''
-					Todos los enemigos golpeados por este látigo:
-
-					Son empalados por una espada espectral cuando los súbditos los golpean,
-					recibiendo un 20% del daño del súbdito 5 veces seguidas,
-					El daño por empalamiento perfora 10 puntos de armadura
+					Los enemigos alcanzados por este látigo son atravesados por una espada espectral en el siguiente ataque del súbdito
+					La espada espectral inflige el 20% del daño del súbdito 5 veces seguidas.
+					El daño de atravesamiento tiene 10 de penetración de armadura.
 					'''
 			}
 
@@ -358,11 +307,9 @@ Mods: {
 				DisplayName: Lazos existenciales
 				Tooltip:
 					'''
-					Todos los enemigos golpeados por este látigo:
-
-					Son empalados por una espada espectral cuando los súbditos los golpean,
-					recibiendo un 20% del daño del súbdito 5 veces seguidas,
-					El daño por empalamiento perfora 15 puntos de armadura
+					Los enemigos alcanzados por este látigo son atravesados por una espada espectral en el siguiente ataque del súbdito
+					La espada espectral inflige el 20 % del daño del súbdito 6 veces seguidas
+					El daño por atravesamiento tiene una penetración de armadura de 15.
 					'''
 			}
 
@@ -370,11 +317,9 @@ Mods: {
 				DisplayName: Lágrimas de sirenas
 				Tooltip:
 					'''
-					Todos los enemigos golpeados por este látigo:
-
-					Son empalados por un tridente espectral cuando los súbditos los golpean,
-					recibiendo un 25% del daño del súbdito 8 veces seguidas,
-					El daño por empalamiento perfora 50 puntos de armadura
+					Los enemigos alcanzados por este látigo son atravesados por una espada espectral en el siguiente ataque del súbdito
+					La espada espectral inflige el 25% del daño del súbdito 8 veces seguidas
+					El daño de atravesamiento tiene una penetración de armadura del 50%
 					'''
 			}
 
@@ -383,10 +328,9 @@ Mods: {
 				Tooltip:
 					'''
 					1 daño de etiqueta de invocador
-					Todos los enemigos golpeados por este látigo
-					hacen que el siguiente ataque del súbdito lance una esfera de arena
-					que cae por la gravedad e inflige un 40% de daño
-					Explota al impactar contra un bloque, dañando a los enemigos cercanos
+					Los enemigos alcanzados por este látigo hacen que el siguiente ataque del súbdito lance una bola de arena
+					La bola de arena se ve afectada por la gravedad e inflige el 40% del daño del súbdito
+					La bola de arena explota al chocar contra un obstáculo, dañando a los enemigos cercanos
 					'''
 			}
 
@@ -395,10 +339,9 @@ Mods: {
 				Tooltip:
 					'''
 					2 daño de etiqueta de invocador
-					Todos los enemigos golpeados por este látigo
-					hacen que el siguiente ataque del súbdito lance una esfera de arena
-					que cae por la gravedad e inflige un 40% de daño
-					Explota al impactar contra un bloque, dañando a los enemigos cercanos
+					Los enemigos alcanzados por este látigo hacen que el siguiente ataque del súbdito lance una bola de arena
+					La bola de arena se ve afectada por la gravedad e inflige el 40 % del daño del súbdito
+					La bola de arena explota al chocar contra un obstáculo, dañando a los enemigos cercanos
 					'''
 			}
 
@@ -407,33 +350,28 @@ Mods: {
 				Tooltip:
 					'''
 					2 daño de etiqueta de invocador
-					Cambia automáticamente entre dos modos.
+					Cambia automáticamente entre dos modos:
 					'''
 				HoldShiftTooltip:
 					'''
 					-----------------------------
 					Modo Defensa:
-					Al golpear a un enemigo con el látigo,
-					los ataques de los súbditos liberan fragmentos de escudo azul
+					Al golpear a un enemigo con el látigo, los ataques de los súbditos liberan fragmentos de escudo azul
 					durante un breve periodo de tiempo.
 					Al recoger los fragmentos, se acumula cargas de escudo.
 					Con 50 cargas, se obtiene un escudo de 50 puntos de vida
 					-----------------------------
 					Modo Ataque:
-					Al golpear a un enemigo con el látigo,
-					los ataques de los súbditoss liberan fragmentos de escudo rojos durante un breve periodo de tiempo.
+					Al golpear a un enemigo con el látigo, los ataques de los súbditoss liberan fragmentos de escudo rojos 
+					durante un breve periodo de tiempo
 					Los fragmentos rojos se dirigen hacia los enemigos,
 					infligiendo un 10% del daño de los súbditos +3 de daño fijo
 					-----------------------------
 					La liberación de fragmentos de escudo tiene un tiempo de enfriamiento muy corto.
-					Cuando el escudo recibe daño, entra en un enfriamiento
-					que dura entre 5 y 50 segundos, dependiendo del escudo restante.
-					Si el escudo se rompe por completo,
-					el tiempo de recarga pasa a ser de 60 segundos.
-					Durante el tiempo de recarga, cambia al modo de ataque.
-					Cuando finaliza el tiempo de recarga, cambia al modo de defensa.
-					Si queda algo de escudo, al recoger fragmentos
-					se restaurará la durabilidad del escudo
+					Cuando el escudo recibe daño, entra en un enfriamiento que dura entre 5 y 50 segundos, dependiendo del escudo restante.
+					Si el escudo se rompe por completo, el tiempo de recarga pasa a ser de 60 segundos.
+					Durante el tiempo de recarga, cambia al modo de ataque. Cuando finaliza el tiempo de recarga, cambia al modo de defensa.
+					Si queda algo de escudo, al recoger fragmentos se restaurará la durabilidad del escudo
 					'''
 			}
 
@@ -442,33 +380,24 @@ Mods: {
 				Tooltip:
 					'''
 					4 daño de etiqueta de invocador
-					Cambia automáticamente entre dos modos.
+					Cambia automáticamente entre dos modos:
 					'''
 				HoldShiftTooltip:
 					'''
 					-----------------------------
 					Modo Defensa:
-					Al golpear a un enemigo con el látigo,
-					los ataques de los súbditos liberan fragmentos de escudo azul
-					durante un breve periodo de tiempo.
-					Al recoger los fragmentos, se acumula cargas de escudo.
+					Al golpear a un enemigo con el látigo, los ataques de los súbditos liberan fragmentos de escudo azul
+					durante un breve periodo de tiempo. Al recoger los fragmentos, se acumula cargas de escudo.
 					Con 100 cargas, se obtiene un escudo de 100 puntos de vida
 					-----------------------------
 					Modo Ataque:
-					Al golpear a un enemigo con el látigo,
-					los ataques de los súbditoss liberan fragmentos de escudo rojos durante un breve periodo de tiempo.
-					Los fragmentos rojos se dirigen hacia los enemigos,
-					infligiendo un 10% del daño de los súbditos +5 de daño fijo
+					Al golpear a un enemigo con el látigo, los ataques de los súbditoss liberan fragmentos de escudo rojos durante un breve periodo de tiempo.
+					Los fragmentos rojos se dirigen hacia los enemigos, infligiendo un 10% del daño de los súbditos +5 de daño fijo
 					-----------------------------
-					La liberación de fragmentos de escudo tiene un tiempo de enfriamiento muy corto.
-					Cuando el escudo recibe daño, entra en un enfriamiento
-					que dura entre 5 y 50 segundos, dependiendo del escudo restante.
-					Si el escudo se rompe por completo,
-					el tiempo de recarga pasa a ser de 60 segundos.
-					Durante el tiempo de recarga, cambia al modo de ataque.
-					Cuando finaliza el tiempo de recarga, cambia al modo de defensa.
-					Si queda algo de escudo, al recoger fragmentos
-					se restaura la durabilidad del escudo
+					La liberación de fragmentos de escudo tiene un tiempo de enfriamiento muy corto. Cuando el escudo recibe daño, entra en un enfriamiento
+					que dura entre 5 y 50 segundos, dependiendo del escudo restante. Si el escudo se rompe por completo, el tiempo de recarga pasa a ser de 60 segundos.
+					Durante el tiempo de recarga, cambia al modo de ataque. Cuando finaliza el tiempo de recarga, cambia al modo de defensa.
+					Si queda algo de escudo, al recoger fragmentos se restaura la durabilidad del escudo
 					'''
 			}
 
@@ -477,33 +406,25 @@ Mods: {
 				Tooltip:
 					'''
 					7 daño de etiqueta de invocador
-					Cambia automáticamente entre dos modos.
+					Cambia automáticamente entre dos modos:
 					'''
 				HoldShiftTooltip:
 					'''
 					-----------------------------
 					Modo Defensa:
-					Al golpear a un enemigo con el látigo,
-					los ataques de los súbditos liberan fragmentos de escudo azul
-					durante un breve periodo de tiempo.
-					Al recoger los fragmentos, se acumula cargas de escudo.
+					Al golpear a un enemigo con el látigo, los ataques de los súbditos liberan fragmentos de escudo azul
+					durante un breve periodo de tiempo. Al recoger los fragmentos, se acumula cargas de escudo.
 					Con 150 cargas, se obtiene un escudo de 150 puntos de vida
 					-----------------------------
 					Modo Ataque:
-					Al golpear a un enemigo con el látigo,
-					los ataques de los súbditoss liberan fragmentos de escudo rojos durante un breve periodo de tiempo.
-					Los fragmentos rojos se dirigen hacia los enemigos,
-					infligiendo un 10% del daño de los súbditos +25 de daño fijo
+					Al golpear a un enemigo con el látigo, los ataques de los súbditoss liberan fragmentos de escudo rojos durante un breve periodo de tiempo.
+					Los fragmentos rojos se dirigen hacia los enemigos, infligiendo un 10% del daño de los súbditos +25 de daño fijo
 					-----------------------------
 					La liberación de fragmentos de escudo tiene un tiempo de enfriamiento muy corto.
-					Cuando el escudo recibe daño, entra en un enfriamiento
-					que dura entre 5 y 50 segundos, dependiendo del escudo restante.
-					Si el escudo se rompe por completo,
-					el tiempo de recarga pasa a ser de 60 segundos.
-					Durante el tiempo de recarga, cambia al modo de ataque.
-					Cuando finaliza el tiempo de recarga, cambia al modo de defensa.
-					Si queda algo de escudo, al recoger fragmentos
-					se restaura la durabilidad del escudo
+					Cuando el escudo recibe daño, entra en un enfriamiento que dura entre 5 y 50 segundos, dependiendo del escudo restante.
+					Si el escudo se rompe por completo, el tiempo de recarga pasa a ser de 60 segundos.
+					Durante el tiempo de recarga, cambia al modo de ataque. Cuando finaliza el tiempo de recarga, cambia al modo de defensa.
+					Si queda algo de escudo, al recoger fragmentos se restaura la durabilidad del escudo
 					'''
 			}
 
@@ -512,33 +433,24 @@ Mods: {
 				Tooltip:
 					'''
 					12 daño de etiqueta de invocador
-					Cambia automáticamente entre dos modos.
+					Cambia automáticamente entre dos modos:
 					'''
 				HoldShiftTooltip:
 					'''
 					-----------------------------
 					Modo Defensa:
-					Al golpear a un enemigo con el látigo,
-					los ataques de los súbditos liberan fragmentos de escudo azul
-					durante un breve periodo de tiempo.
-					Al recoger los fragmentos, se acumula cargas de escudo.
+					Al golpear a un enemigo con el látigo, los ataques de los súbditos liberan fragmentos de escudo azul
+					durante un breve periodo de tiempo. Al recoger los fragmentos, se acumula cargas de escudo.
 					Con 200 cargas, se obtiene un escudo de 200 puntos de vida
 					-----------------------------
 					Modo Ataque:
-					Al golpear a un enemigo con el látigo,
-					los ataques de los súbditoss liberan fragmentos de escudo rojos durante un breve periodo de tiempo.
-					Los fragmentos rojos se dirigen hacia los enemigos,
-					infligiendo un 10% del daño de los súbditos +50 de daño fijo
+					Al golpear a un enemigo con el látigo, los ataques de los súbditoss liberan fragmentos de escudo rojos durante un breve periodo de tiempo.
+					Los fragmentos rojos se dirigen hacia los enemigos, infligiendo un 10% del daño de los súbditos +50 de daño fijo
 					-----------------------------
-					La liberación de fragmentos de escudo tiene un tiempo de enfriamiento muy corto.
-					Cuando el escudo recibe daño, entra en un enfriamiento
-					que dura entre 5 y 50 segundos, dependiendo del escudo restante.
-					Si el escudo se rompe por completo,
-					el tiempo de recarga pasa a ser de 60 segundos.
-					Durante el tiempo de recarga, cambia al modo de ataque.
-					Cuando finaliza el tiempo de recarga, cambia al modo de defensa.
-					Si queda algo de escudo, al recoger fragmentos
-					se restaura la durabilidad del escudo
+					La liberación de fragmentos de escudo tiene un tiempo de enfriamiento muy corto. Cuando el escudo recibe daño, entra en un enfriamiento
+					que dura entre 5 y 50 segundos, dependiendo del escudo restante. Si el escudo se rompe por completo,el tiempo de recarga pasa a ser de 60 segundos.
+					Durante el tiempo de recarga, cambia al modo de ataque. Cuando finaliza el tiempo de recarga, cambia al modo de defensa.
+					Si queda algo de escudo, al recoger fragmentos se restaura la durabilidad del escudo
 					'''
 			}
 
@@ -547,33 +459,24 @@ Mods: {
 				Tooltip:
 					'''
 					20 daño de etiqueta de invocador
-					Cambia automáticamente entre dos modos.
+					Cambia automáticamente entre dos modos:
 					'''
 				HoldShiftTooltip:
 					'''
 					-----------------------------
 					Modo Defensa:
-					Al golpear a un enemigo con el látigo,
-					los ataques de los súbditos liberan fragmentos de escudo azul
-					durante un breve periodo de tiempo.
-					Al recoger los fragmentos, se acumula cargas de escudo.
-					Con 250 cargas, se obtiene un escudo de 250 puntos de vida
+					Al golpear a un enemigo con el látigo, los ataques de los súbditos liberan fragmentos de escudo azul durante un breve periodo de tiempo.
+					Al recoger los fragmentos, se acumula cargas de escudo. Con 250 cargas, se obtiene un escudo de 250 puntos de vida
 					-----------------------------
 					Modo Ataque:
-					Al golpear a un enemigo con el látigo,
-					los ataques de los súbditoss liberan fragmentos de escudo rojos durante un breve periodo de tiempo.
-					Los fragmentos rojos se dirigen hacia los enemigos,
-					infligiendo un 10% del daño de los súbditos +150 de daño fijo
+					Al golpear a un enemigo con el látigo, los ataques de los súbditoss liberan fragmentos de escudo rojos durante un breve periodo de tiempo.
+					Los fragmentos rojos se dirigen hacia los enemigos, infligiendo un 10% del daño de los súbditos +150 de daño fijo
 					-----------------------------
-					La liberación de fragmentos de escudo tiene un tiempo de enfriamiento muy corto.
-					Cuando el escudo recibe daño, entra en un enfriamiento
+					La liberación de fragmentos de escudo tiene un tiempo de enfriamiento muy corto. Cuando el escudo recibe daño, entra en un enfriamiento
 					que dura entre 5 y 50 segundos, dependiendo del escudo restante.
-					Si el escudo se rompe por completo,
-					el tiempo de recarga pasa a ser de 60 segundos.
-					Durante el tiempo de recarga, cambia al modo de ataque.
-					Cuando finaliza el tiempo de recarga, cambia al modo de defensa.
-					Si queda algo de escudo, al recoger fragmentos
-					se restaura la durabilidad del escudo
+					Si el escudo se rompe por completo, el tiempo de recarga pasa a ser de 60 segundos.
+					Durante el tiempo de recarga, cambia al modo de ataque. Cuando finaliza el tiempo de recarga, cambia al modo de defensa.
+					Si queda algo de escudo, al recoger fragmentos se restaura la durabilidad del escudo
 					'''
 			}
 
@@ -582,8 +485,7 @@ Mods: {
 				Tooltip:
 					'''
 					+1 de daño de etiqueta de invocación por acumulación
-					El daño de marca de este látigo se acumula consigo mismo.
-					Las acumulaciones más antiguas se eliminan primero
+					El daño de este látigo se acumula consigo mismo, y las acumulaciones más antiguas se agotan primero
 					'''
 			}
 
@@ -592,9 +494,8 @@ Mods: {
 				Tooltip:
 					'''
 					+2 de daño de etiqueta de invocación por acumulación
-					El daño de marca de este látigo se acumula consigo mismo.
-					Las acumulaciones más antiguas se eliminan primero
-					Se adhieren al enemigo tantas polillas como acumulaciones halla
+					El daño de este látigo se acumula consigo mismo, y las acumulaciones más antiguas desaparecen primero
+					Se adhieren al enemigo tantas polillas como el número de acumulaciones
 					'''
 			}
 
@@ -603,9 +504,8 @@ Mods: {
 				Tooltip:
 					'''
 					+3 de daño de etiqueta de invocación por acumulación
-					El daño de marca de este látigo se acumula consigo mismo.
-					Las acumulaciones más antiguas se eliminan primero
-					Se adhieren al enemigo tantas polillas como acumulaciones halla
+					El daño de este látigo se acumula consigo mismo, y las acumulaciones más antiguas desaparecen primero
+					Se adhieren al enemigo tantas polillas como el número de acumulaciones
 					'''
 			}
 
@@ -614,9 +514,8 @@ Mods: {
 				Tooltip:
 					'''
 					+6 de daño de etiqueta de invocación por acumulación
-					El daño de marca de este látigo se acumula consigo mismo.
-					Las acumulaciones más antiguas se eliminan primero
-					Se adhieren al enemigo tantas polillas como acumulaciones halla
+					El daño de este látigo se acumula consigo mismo, y las acumulaciones más antiguas desaparecen primero
+					Se adhieren al enemigo tantas polillas como el número de acumulaciones
 					'''
 			}
 
@@ -625,9 +524,8 @@ Mods: {
 				Tooltip:
 					'''
 					+10 de daño de etiqueta de invocación por acumulación
-					El daño de marca de este látigo se acumula consigo mismo.
-					Las acumulaciones más antiguas se eliminan primero
-					Se adhieren al enemigo tantas polillas como acumulaciones halla
+					El daño de este látigo se acumula consigo mismo, y las acumulaciones más antiguas desaparecen primero
+					Se adhieren al enemigo tantas polillas como el número de acumulaciones
 					'''
 			}
 
@@ -667,6 +565,8 @@ Mods: {
 					Mientras empuñas este látigo, una gema te sigue
 					y ataca cada vez que tus esbirros infligen daño a un enemigo marcado por el látigo
 					El ataque de la gema inflige el 50% del daño del golpe que lo ha activado
+					La gema se carga al instante antes de disparar,
+					añadiendo a su ataque un 5% del daño infligido durante la carga
 					'''
 			}
 
@@ -679,6 +579,8 @@ Mods: {
 					Mientras empuñas este látigo, una gema te sigue
 					y ataca cada vez que tus esbirros infligen daño a un enemigo marcado por el látigo
 					El ataque de la gema inflige el 100% del daño del golpe que lo ha activado
+					La gema se carga al instante antes de disparar,
+					añadiendo a su ataque un 5% del daño infligido durante la carga
 					'''
 			}
 
@@ -692,7 +594,83 @@ Mods: {
 					y ataca cada vez que tus esbirros infligen daño a un enemigo marcado por el látigo
 					El ataque de la gema inflige el 100% del daño del golpe que lo ha activado
 					La gema se carga antes de disparar,
-					añadiendo a su ataque el 15% del daño infligido durante la carga
+					añadiendo a su ataque el 20% del daño infligido durante la carga
+					'''
+			}
+
+			Rubellus: {
+				DisplayName: Rubello
+				Tooltip:
+					'''
+					8 de daño de la etiqueta de invocación
+					8% de probabilidad de golpe crítico de la etiqueta de invocación
+					Mientras empuñas este látigo, una gema te sigue
+					y ataca cada vez que tus súbditos infligen daño a un enemigo marcado por el látigo
+					El ataque de la gema inflige el 100% del daño del golpe que lo ha activado
+					La gema se carga al instante antes de disparar,
+					añadiendo a su ataque el 40% del daño infligido durante la carga
+					El ataque de la gema desencadena una reacción en cadena, dirigiéndose contra los enemigos marcados
+					'''
+			}
+
+			WulfrumArm: {
+				DisplayName: Brazo de wulfrum
+				Tooltip:
+					'''
+					4 de daño de etiqueta de invocación
+					Los enemigos alcanzados por esta descarga del brazo cuando son golpeados por un súbdito,
+					reciben el 60% del daño del golpe que la ha activado y propagan
+					la cadena a los enemigos marcados con la misma etiqueta
+					La marca se consume cuando la activa un súbdito o por  un daño en cadena
+					La punta puede agarrar y atraer objetos
+					'''
+			}
+
+			MechanicalArm: {
+				DisplayName: Brazo mecánico
+				Tooltip:
+					'''
+					15 de daño de la etiqueta de invocación
+					Los enemigos afectados por esta descarga del brazo cuando son golpeados por un súbdito,
+					reciben el 100% del daño del golpe que la ha activado y propagan
+					la cadena a los enemigos marcados con la misma etiqueta
+					La etiqueta se consume cuando la activa un esbirro o por un daño en cadena
+					La punta puede agarrar y atraer objetos
+					'''
+			}
+
+			MassofWailing: {
+				DisplayName: Misa de los lamentos
+				Tooltip:
+					'''
+					Aumenta un 5% la probabilidad de golpe crítico de la etiqueta de invocación
+					Los enemigos marcados por este látigo liberan gotas equivalentes al 15% del
+					daño infligido por los súbditos. Las gotas se acumulan sobre el portador
+					y se separan para buscar enemigos cuando están completamente cargadas
+					'''
+			}
+
+			ChorusofExecration: {
+				DisplayName: Coro de maldiciones
+				Tooltip:
+					'''
+					Aumenta un 30% la probabilidad de golpe crítico de la marca de invocación
+					Los enemigos marcados por este látigo liberan gotas equivalentes al 25% del
+					daño infligido por los súbditos. Las gotas se acumulan sobre el portador
+					y se separan para buscar enemigos cuando están completamente cargadas
+					'''
+			}
+
+			OpaqueOnyx: {
+				DisplayName: Ónix opaco
+				Tooltip:
+					'''
+					3 de daño de la etiqueta de invocación
+                   	Aumenta un 5% de probabilidad de golpe crítico de la etiqueta de invocación
+                    Mientras empuñas este látigo, una gema te sigue
+                    y ataca cada vez que tus súbditos infligen daño a un enemigo marcado por el látigo
+					El ataque de la gema inflige el 75% del daño del golpe que lo ha activado
+                    La gema se carga al instante antes de disparar, añadiendo a su ataque el 10% del daño infligido durante la carga
 					'''
 			}
 
@@ -789,7 +767,7 @@ Mods: {
 					'''
 					Aumenta el alcance de los látigos en un 10%
 					Multiplica un 1,05 el daño de etiqueta de invocador
-					Solo se puede equipar una empuñadura a la vez
+					Solo se puede equipar un accesorio de agarre a la vez
 					'''
 			}
 
@@ -799,7 +777,7 @@ Mods: {
 					'''
 					Aumenta el alcance del látigo en un 10%
 					Hay una probabilidad del 5% de hacer un daño crítico de etiqueta de invocador
-					Solo se puede equipar una empuñadura a la vez
+					Solo se puede equipar un accesorio de agarre a la vez
 					'''
 			}
 
@@ -808,9 +786,8 @@ Mods: {
 				Tooltip:
 					'''
 					Aumenta el alcance de los látigos en un 15%
-					Multiplica un 1,03 el daño de etiqueta de invocador
-					y hay una probabilidad del 3% de hacer un daño crítico de etiqueta de invocador
-					Solo se puede equipar una empuñadura a la vez
+					Multiplica un 1,03 el daño de etiqueta de invocador y hay una probabilidad del 3% de hacer un daño crítico de etiqueta de invocador
+					Solo se puede equipar un accesorio de agarre a la vez
 					'''
 			}
 
@@ -819,11 +796,10 @@ Mods: {
 				Tooltip:
 					'''
 					Aumenta el número máximo de súbditos en 1
-					Aumenta el alcance de los látigos en un 15%
-					Multiplica un 1,05 el daño de etiqueta de invocador
-					y hay una probabilidad del 5% de hacer un daño crítico de etiqueta de invocador
+					Aumenta el alcance de los látigos en un 15% y Mmltiplica un 1,05 el daño de etiqueta de invocador
+					Hay una probabilidad del 5% de hacer un daño crítico de etiqueta de invocador
 					Permite a los látigos golpear a los enemigos a través de bloques
-					Solo se puede equipar una empuñadura a la vez
+					Solo se puede equipar un accesorio de agarre a la vez
 					'''
 			}
 
@@ -832,11 +808,10 @@ Mods: {
 				Tooltip:
 					'''
 					Aumenta el número máximo de súbditos en 2
-					Aumenta el alcance de los látigos en un 30%
-					Multiplica un 1,07 el daño de etiqueta de invocador
-					y hay una probabilidad del 7% de hacer un daño crítico de etiqueta de invocador
+					Aumenta el alcance de los látigos en un 30% y multiplica un 1,07 el daño de etiqueta de invocador
+					Hay una probabilidad del 7% de hacer un daño crítico de etiqueta de invocador
 					Permite a los látigos golpear a los enemigos a través de bloques
-					Solo se puede equipar una empuñadura a la vez
+					Solo se puede equipar un accesorio de agarre a la vez
 					'''
 			}
 
@@ -845,7 +820,7 @@ Mods: {
 				Tooltip:
 					'''
 					Permite a los látigos golpear a los enemigos a través de bloques
-					Solo se puede equipar una empuñadura a la vez
+					Solo se puede equipar un accesorio de agarre a la vez
 					'''
 			}
 
@@ -855,7 +830,7 @@ Mods: {
 					'''
 					Disminuye el alcance de los látigos en un 15%
 					Permite a los látigos golpear a los enemigos a través de bloques
-					Solo se puede equipar una empuñadura a la vez
+					Solo se puede equipar un accesorio de agarre a la vez
 					'''
 			}
 
@@ -865,6 +840,7 @@ Mods: {
 					'''
 					Los proyectiles de tus súbditos se dirigirán hacia los enemigos
 					golpeados por tu látigo durante un breve periodo de tiempo
+					Solo se puede equipar un accesorio de agarre a la vez
 					'''
 			}
 
@@ -875,6 +851,7 @@ Mods: {
 					Disminuye el alcance de los látigos en un 15%
 					Los proyectiles de tus súbditos se dirigirán hacia los enemigos
 					golpeados por tu látigo durante un breve periodo de tiempo
+					Solo se puede equipar un accesorio de agarre a la vez
 					'''
 			}
 
@@ -901,6 +878,15 @@ Mods: {
 					Aumenta el alcance del latigo en un 10%
 					Aumenta el daño de invocación en un 1% por cada ranura de súbdito sin usar
 					'¡Muere, monstruo!'
+					'''
+			}
+
+			WulfrumWhipMagnet: {
+				DisplayName: Látigo magnético de wulfrum
+				Tooltip:
+					'''
+					Aumenta el alcance del látigo en un 10%
+					Los látigos recogen cualquier objeto con el que se golpeen
 					'''
 			}
 
@@ -1027,6 +1013,11 @@ Mods: {
 			InvisibleMilkyway: {
 				DisplayName: Invisible Milkyway
 				Tooltip: ""
+			}
+
+			TestWhip: {
+				Tooltip: ""
+				DisplayName: Látigo de prueba
 			}
 
 			InvisibleNecromanticGrip: {
@@ -1470,9 +1461,48 @@ Mods: {
 				Description: Mods.CalamitySimpleWhipAddon.Buffs.SimpleWhipDebuffEx17.Description
 				DisplayName: Simple Whip Debuff Ex17
 			}
+			SimpleWhipDebuffEx18: {
+				Description: Mods.CalamitySimpleWhipAddon.Buffs.SimpleWhipDebuffEx18.Description
+				DisplayName: Simple Whip Debuff Ex18
+			}
+
+			SimpleWhipDebuffEx19: {
+				Description: Mods.CalamitySimpleWhipAddon.Buffs.SimpleWhipDebuffEx19.Description
+				DisplayName: Simple Whip Debuff Ex19
+			}
+
+			SimpleWhipDebuffEx20: {
+				DisplayName: Simple Whip Debuff Ex20
+				Description: Mods.CalamitySimpleWhipAddon.Buffs.SimpleWhipDebuffEx20.Description
+			}
+
+			SimpleWhipDebuffEx21: {
+				Description: Mods.CalamitySimpleWhipAddon.Buffs.SimpleWhipDebuffEx21.Description
+				DisplayName: Simple Whip Debuff Ex21
+			}
+
+			SimpleWhipDebuffEx22: {
+				DisplayName: Simple Whip Debuff Ex22
+				Description: Mods.CalamitySimpleWhipAddon.Buffs.SimpleWhipDebuffEx22.Description
+			}
+
+			SimpleWhipDebuffEx23: {
+				Description: Mods.CalamitySimpleWhipAddon.Buffs.SimpleWhipDebuffEx23.Description
+				DisplayName: Simple Whip Debuff Ex23
+			}
+
+			BuddyEmblemSoloHalfBuff: {
+				DisplayName: Buddy Emblem Solo Half Buff
+				Description: Mods.CalamitySimpleWhipAddon.Buffs.BuddyEmblemSoloHalfBuff.Description
+			}
 		}
 
-		DamageClasses.PseudoSummonDamageClass.DisplayName: Pseudo daño de la clase de invocador
+		DamageClasses: {
+			PseudoSummonDamageClass.DisplayName: Clase de daño de pseudoinvocación
+			PseudoSummonDamageClass2.DisplayName: Clase de daño de pseudoinvocación2
+		}
+
+		NPCs.WhipDebuffNPC.DisplayName: Descentaja látigo N P C
 	}
 }
 
