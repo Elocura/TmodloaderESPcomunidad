@@ -1,7 +1,7 @@
 SolynIntroduction: {
 	Start: Yo... ^he fallado...
 	Talk1: Yo...
-	Question1: ¿Estás bien???
+	Question1: ¿¿¿Estás bien???
 	Talk2: ¡Oh! Hola. Yo... ^no te vi ahí.
 	Talk3: Supongo que sí... ¿quizás?
 	Question2: ¿Quién eres?
@@ -39,7 +39,7 @@ SolynDawnDialogue: {
 	Dream2_Response1: Soñé con un paisaje hecho de papel plegado, bajo la luz vacía de un brillante cielo sepia.
 	Dream2_Response2: Caminé durante lo que pareció una eternidad, viendo todo tipo de extrañas plantas y estructuras de origami por todo el lugar.
 	Dream2_Response3: De pronto, me agaché y barrí con la mano, revelando una profundidad indefinida bajo el papel por donde caminaba.
-	Dream2_Response4: Me quedé mirando fijamente el abismo que había creado por accidente, fascinado por lo ocurrido.
+	Dream2_Response4: Me quedé mirando fijamente el abismo que había creado por accidente, fascinada por lo ocurrido.
 	Dream2_Response5: De repente, un ojo fractal se abrió lentamente, devolviéndome la mirada.
 	Dream2_Response6: Y entonces, desperté.
 	Dream3_Response1: Durante todo el sueño caía una llovizna mientras me rodeaban los bosques que consideraba mi hogar.
@@ -96,11 +96,11 @@ SolynBloodMoonDialogue: {
 }
 
 SolynSlimeRainDialogue: {
-	Start: ¡Qué raro!^ ¡Babas cayendo del cielo como si fuera lluvia!^ Es tan extraño... ¡pero fascinante!
+	Start: ¡Qué raro!^ ¡Slime cayendo del cielo como si fuera lluvia!^ Es tan extraño... ¡pero fascinante!
 	Solyn1: ¿Cómo funciona esto?^ ¡Tengo que saberlo!
 	Player1: Yo... en realidad no tengo ni idea.
 	Solyn2: ¡Ja! Lo imaginaba.
-	Solyn3: Me encantaría maravillarme con la escena, pero claramente estas babas no son muy amigables.
+	Solyn3: Me encantaría maravillarme con la escena, pero claramente estos slime no son muy amigables.
 	Solyn4: Mantente alerta, no querrás acabar medio digerido.
 }
 
@@ -142,7 +142,7 @@ SolynOneRedeemedBookDialogue: {
 	Solyn1: El paisaje aquí es hermoso, pero no creo poder quedarme viéndolo todo el día.
 }
 
- SolynInscrutableTextsBookDialogue: {
+SolynInscrutableTextsBookDialogue: {
 	Start: Cierto libro que agregaste a mi estantería llamó mi atención.^ ¿'Textos Inescrutables', creo que se llamaba?
 	Solyn1: Debo decir que es un título bastante acertado.^ Extremadamente denso y formal.^ No está dispuesto en lo más mínimo a guiar al lector en trivialidades.
 	Solyn2: Aun así, logré obtener conocimientos útiles de él.^ Bastantes hechizos que ni siquiera había oído antes.
@@ -165,13 +165,8 @@ SolynCompleteBookshelfDialogue: {
 	Solyn2: Ah, hablando del Génesis, he estado pensando...^ cuando lo terminemos, me gustaría hacer una biblioteca de verdad aquí.^ Con tu ayuda, por supuesto.
 }
 
-SolynNearbyLunarPillarDialogue: {
-	Start: ¡M-mi campamento está siendo invadido por alienígenas!
-}
-
-SolynLategameDialogue: {
-	Start: Hemos hecho grandes progresos con el Génesis, pero no podemos bajar la guardia ahora.^ Aún queda trabajo por hacer.
-}
+SolynNearbyLunarPillarDialogue.Start: ¡M-mi campamento está siendo invadido por alienígenas!
+SolynLategameDialogue.Start: Hemos hecho grandes progresos con el Génesis, pero no podemos bajar la guardia ahora.^ Aún queda trabajo por hacer.
 
 SolynRiftBlizzardDialogue: {
 	Start: No llevo mucho tiempo aquí, pero debo admitir que ya extraño la ocasional llovizna agradable.
@@ -179,7 +174,6 @@ SolynRiftBlizzardDialogue: {
 	Solyn2: ...
 	Solyn3: Perdón, solo estaba...^ pensando en voz alta.
 }
-
 
 SolynWantingToGoHomeDialogue: {
 	Start: A veces desearía poder simplemente...^ volver a casa.
@@ -216,12 +210,13 @@ SolynMirrorwalkerDialogue: {
 	Start: &...!
 	Solyn1: &Hay... algo allá afuera.
 }
+
 SolynWindyDayTalk: {
-	# If es un día ventoso, Solyn sostiene una cometa.
+	# If its a Windy Day, Solyn is seen holding a kite.
 	WindyStart: ¡Has vuelto! ¡Hola!
 	WindyQuestion1: Bastante viento, ¿no?
-	WindyResponse1: ¡Sí que lo hay! Hace un momento vi a un grupo de babas levantadas por la brisa.
-	WindyResponse2: Es algo gracioso ver a las babas de este mundo volando con sus globos adorables. ¡Ya me ha pasado varias veces que casi se enganchan a mi cometa, jaja!
+	WindyResponse1: ¡Sí que lo hay! Hace un momento vi a un grupo de slime levantados por la brisa.
+	WindyResponse2: Es algo gracioso ver a los slimes de este mundo volando con sus globos adorables. ¡Ya me ha pasado varias veces que casi se enganchan a mi cometa, jaja!
 	WindyQuestion2: Dime, ¿y esa cometa? Se ve genial.
 	WindyResponse3: ¿Esto viejo? Es algo que me gusta usar en los días ventosos, ver la cometa elevarse en el cielo.
 	WindyResponse4: A veces es muy liberador sentarse y dejar que la naturaleza nos guíe.
@@ -234,7 +229,7 @@ SolynWindyDayTalk: {
 }
 
 SolynPartyTalk: {
-	# Si hay una fiesta en curso, Solyn hace un truco de teletransporte con confeti.
+	# If a party is ongoing, Solyn does a neat confetti teleport magic trick.
 	PartyStart: ¡Hey! ¡Esperaba que vinieras!
 	PartyResponse1: Debo admitir... normalmente no soy de fiestas. ¡Pero no pude evitar pasar a saludar!
 	PartyResponse2: ¡Al fin y al cabo, todos parecen estar pasándola genial!
@@ -293,7 +288,6 @@ DormantKeyDiscussion: {
 	Conversation7: Aquí. Marcaré su ubicación en tu mapa.
 	Conversation8: Estaré allí cuando estés listo, y luego podremos explorar un poco.
 }
-
 
 PermafrostKeepDiscussion_BeforeOpening.Start: ¡Usa la llave en la puerta, y se abrirá!
 
