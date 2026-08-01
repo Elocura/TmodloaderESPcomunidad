@@ -1,8 +1,8 @@
-DisplayName: Configuración Principal
+DisplayName: Configuración principal
 
 DisplayConfigMessage: {
-	Label: Mostrar Mensaje de Configuración
-	Tooltip: Activa o desactiva el mensaje superpuesto que le indica al jugador mirar la interfaz.
+	Label: Mostrar mensaje de configuración
+	Tooltip: Activa/desactiva el mensaje superpuesto que le indica al jugador mirar la interfaz.
 	WarningText:
 		'''	
 		¡Hola! Probablemente lo primero que pienses al leer esto sea algo como: "¿Cómo quito este texto? Es molesto".
@@ -14,16 +14,24 @@ DisplayConfigMessage: {
 }
 
 PhotosensitivityMode: {
-	Label: Modo de Fotosensibilidad
-	Tooltip: Activa o desactiva los efectos que dependen de animaciones repentinas y parpadeantes. Esto afecta otras opciones de configuración relacionadas, aunque se pueden ajustar manualmente si se desea.
+	Label: Modo de fotosensibilidad
+	Tooltip:
+		'''
+		Activa/desactiva los efectos que dependen de animaciones repentinas y parpadeantes.
+		Esto afecta otras opciones de configuración relacionadas, aunque se pueden ajustar manualmente si se desea.
+		'''
 }
 
 ScreenShatterEffects: {
-	Label: Efectos de Pantalla Fragmentada
-	Tooltip: Activa o desactiva los efectos de ruptura de pantalla. Desactívalos si resultan demasiado molestos para la vista.
+	Label: Efectos de pantalla fragmentada
+	Tooltip:
+		'''
+		Activa/desactiva los efectos de ruptura de pantalla.
+		Desactívalos si resultan demasiado molestos para la vista.
+		'''
 }
 
 VisualOverlayIntensity: {
-	Label: Intensidad de Superposición Visual,
+	Label: Intensidad de superposición visual
 	Tooltip: Modifica la intensidad de superposiciones visuales como el desenfoque o la aberración cromática.
 }
