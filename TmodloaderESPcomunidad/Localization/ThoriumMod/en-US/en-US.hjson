@@ -779,11 +779,6 @@ Mods: {
 				Description: Defense and movement speed decreased
 			}
 
-			MagickStaffDebuff: {
-				DisplayName: Elemental Decay
-				Description: Sundered by the lesser elements of Terraria
-			}
-
 			MasterMarksmansScouterDebuff: {
 				DisplayName: Omni Vision
 				Description: This enemy is within an assassin's sight
@@ -1646,7 +1641,22 @@ Mods: {
 
 			HarpyStaffBuff: {
 				DisplayName: Harpy Staff Buff
-				Description: Mods.ThoriumMod.Buffs.HarpyStaffBuff.Description
+				Description: NULL
+			}
+
+			SnarkyGunFireDebuff: {
+				DisplayName: Snarky Gun - Fire
+				Description: Building up a nasty burn
+			}
+
+			SnarkyGunIceDebuff: {
+				DisplayName: Snarky Gun - Ice
+				Description: NULL
+			}
+
+			MagickStaffDebuff: {
+				DisplayName: Elemental Decay
+				Description: Sundered by the lesser elements of Terraria
 			}
 		}
 
@@ -2148,6 +2158,12 @@ Mods: {
 			ColdlingBanner.DisplayName: Coldling Banner
 			CoolmeraBanner.DisplayName: Coolmera Banner
 			CrownofThornsBanner.DisplayName: Crown of Thorns Banner
+
+			Crow: {
+				DisplayName: Crow
+				Tooltip: ""
+			}
+
 			DarksteelKnightBanner.DisplayName: Darksteel Knight Banner
 			DissonanceSeerBanner.DisplayName: Dissonance Seer Banner
 			EarthenBatBanner.DisplayName: Earthen Bat Banner
@@ -3833,7 +3849,11 @@ Mods: {
 
 			BoreanFangStaff: {
 				DisplayName: Borean Fang Staff
-				Tooltip: Releases a volley of freezing fangs
+				Tooltip:
+					'''
+					Damage enemies to generate icy shards
+					Right click to send all stored icy shards at the enemy under your cursor
+					'''
 			}
 
 			BoreanStriderMask: {
@@ -3964,7 +3984,11 @@ Mods: {
 
 			GorgonsEye: {
 				DisplayName: Gorgon's Eye
-				Tooltip: Briefly petrifies hit enemies
+				Tooltip:
+					'''
+					Damage petrifies hit enemies and starts encasing the yoyo in stone
+					When fully encased, throwing the yoyo downwards releases the boulder
+					'''
 			}
 
 			ArcanePotion: {
@@ -7306,8 +7330,8 @@ Mods: {
 				Tooltip:
 					'''
 					'It's too big to be a sword, it's more like a heap of iron'
-					Left Click - Releases a barrage of empowered shockwaves
-					Right Click - Thrusts the sword with immense force
+					Left Click to release a barrage of shockwaves
+					Right Click to thrust the sword with immense force
 					'''
 			}
 
@@ -7566,7 +7590,7 @@ Mods: {
 
 			MagickStaff: {
 				DisplayName: Magick Staff
-				Tooltip: Creates a bolt of fluctuating elements
+				Tooltip: Rapidly casts bolts of fluctuating magic
 			}
 
 			ManaBauble: {
@@ -7580,7 +7604,7 @@ Mods: {
 
 			Pierce: {
 				DisplayName: Pierce
-				Tooltip: Creates a bolt of heavy, piercing magic
+				Tooltip: Creates a bolt of enemy-piercing magic
 			}
 
 			Poison: {
@@ -9110,7 +9134,7 @@ Mods: {
 				Tooltip:
 					'''
 					Surrounds an ally with a short lived barrier of feathers
-					Right click to surround yourself with the barrier
+					Right click to surround yourself with the barrier instead
 					'''
 			}
 
@@ -10651,9 +10675,9 @@ Mods: {
 				Tooltip: ""
 			}
 
-			LodeStoneQuickDraw: {
-				DisplayName: Lodestone Quick Draw
-				Tooltip: Damage will sunder enemies, increasing the damage they take by 10%
+			LodestoneSlugger: {
+				DisplayName: Lodestone Slugger
+				Tooltip: Fires shrapnel that sunder enemies, increasing the damage they take by 10%
 			}
 
 			LodeStoneShinGuards: {
@@ -11035,11 +11059,6 @@ Mods: {
 					'''
 			}
 
-			Nocturnal: {
-				DisplayName: Nocturnal
-				Tooltip: Upon hitting an enemy, homing 'black light' might be released
-			}
-
 			PinkPhaseblade: {
 				DisplayName: Pink Phaseblade
 				Tooltip: ""
@@ -11048,11 +11067,6 @@ Mods: {
 			PinkPhasesaber: {
 				DisplayName: Pink Phasesaber
 				Tooltip: ""
-			}
-
-			Sanguine: {
-				DisplayName: Sanguine
-				Tooltip: Upon hitting an enemy, homing 'life light' might be released
 			}
 
 			SolScorchedSlab: {
@@ -15440,8 +15454,8 @@ Mods: {
 				Tooltip: Turns wooden arrows into a spread of flames
 			}
 
-			CobaltPopper: {
-				DisplayName: Cobalt Popper
+			CobaltRevolver: {
+				DisplayName: Cobalt Revolver
 				Tooltip: ""
 			}
 
@@ -15493,9 +15507,13 @@ Mods: {
 					'''
 			}
 
-			MyceliumGattlingGun: {
-				DisplayName: Mycelium Gatling Gun
-				Tooltip: "{$CommonItemTooltip.PercentChanceToSaveAmmo}"
+			ShroomachineGun: {
+				DisplayName: Shroomachine Gun
+				Tooltip:
+					'''
+					Converts musket balls into nano bullets
+					{$CommonItemTooltip.PercentChanceToSaveAmmo}
+					'''
 			}
 
 			MythrilPelter: {
@@ -15503,13 +15521,13 @@ Mods: {
 				Tooltip: ""
 			}
 
-			OrichalcumPelter: {
-				DisplayName: Orichalcum Pelter
+			OrichalcumPopper: {
+				DisplayName: Orichalcum Popper
 				Tooltip: ""
 			}
 
-			PalladiumSubmachineGun: {
-				DisplayName: Palladium Sub-machine Gun
+			PalladiumSMG: {
+				DisplayName: Palladium SMG
 				Tooltip: ""
 			}
 
@@ -17889,8 +17907,8 @@ Mods: {
 				Tooltip: "'From another plane of existence'"
 			}
 
-			ValadiumFoeBlaster: {
-				DisplayName: Valadium Foe Blaster
+			ValadiumBlaster: {
+				DisplayName: Valadium Blaster
 				Tooltip: Damage burns enemies with interdimensional energy over time
 			}
 
@@ -19085,7 +19103,7 @@ Mods: {
 				DisplayName: Snarky Gun
 				Tooltip:
 					'''
-					Turns musket balls into a variety of different eggs
+					Turns fired bullets into a variety of different eggs
 					Right click to swap between egg types
 					'''
 			}
@@ -19518,6 +19536,191 @@ Mods: {
 			StoneColumnWall: {
 				DisplayName: Stone Column Wall
 				Tooltip: ""
+			}
+
+			DumboOctopusStatue: {
+				DisplayName: Dumbo Octopus Statue
+				Tooltip: ""
+			}
+
+			LobsterStatue: {
+				DisplayName: Lobster Statue
+				Tooltip: ""
+			}
+
+			HeadSpinner: {
+				DisplayName: Head Spinner
+				Tooltip: Every five hits releases a spread of ichor
+			}
+
+			AlchemistBlock: {
+				DisplayName: Alchemist Block
+				Tooltip: ""
+			}
+
+			AlchemistPlatform: {
+				DisplayName: Alchemist Platform
+				Tooltip: ""
+			}
+
+			AlchemistWall: {
+				DisplayName: Alchemist Wall
+				Tooltip: ""
+			}
+
+			AlchemistBathtub: {
+				DisplayName: Alchemist Bathtub
+				Tooltip: ""
+			}
+
+			AlchemistBed: {
+				DisplayName: Alchemist Bed
+				Tooltip: ""
+			}
+
+			AlchemistBookcase: {
+				DisplayName: Alchemist Bookcase
+				Tooltip: ""
+			}
+
+			AlchemistCandelabra: {
+				DisplayName: Alchemist Candelabra
+				Tooltip: ""
+			}
+
+			AlchemistCandle: {
+				DisplayName: Alchemist Candle
+				Tooltip: ""
+			}
+
+			AlchemistChair: {
+				DisplayName: Alchemist Chair
+				Tooltip: ""
+			}
+
+			AlchemistChandelier: {
+				DisplayName: Alchemist Chandelier
+				Tooltip: ""
+			}
+
+			AlchemistClock: {
+				DisplayName: Alchemist Clock
+				Tooltip: ""
+			}
+
+			AlchemistCup: {
+				DisplayName: Alchemist Cup
+				Tooltip: ""
+			}
+
+			AlchemistDoor: {
+				DisplayName: Alchemist Door
+				Tooltip: ""
+			}
+
+			AlchemistDresser: {
+				DisplayName: Alchemist Dresser
+				Tooltip: ""
+			}
+
+			AlchemistLamp: {
+				DisplayName: Alchemist Lamp
+				Tooltip: ""
+			}
+
+			AlchemistLantern: {
+				DisplayName: Alchemist Lantern
+				Tooltip: ""
+			}
+
+			AlchemistPiano: {
+				DisplayName: Alchemist Piano
+				Tooltip: ""
+			}
+
+			AlchemistSink: {
+				DisplayName: Alchemist Sink
+				Tooltip: ""
+			}
+
+			AlchemistSofa: {
+				DisplayName: Alchemist Sofa
+				Tooltip: ""
+			}
+
+			AlchemistTable: {
+				DisplayName: Alchemist Table
+				Tooltip: ""
+			}
+
+			AlchemistToilet: {
+				DisplayName: Alchemist Toilet
+				Tooltip: ""
+			}
+
+			AlchemistWorkbench: {
+				DisplayName: Alchemist Workbench
+				Tooltip: ""
+			}
+
+			AlchemistChest: {
+				DisplayName: Alchemist Chest
+				Tooltip: ""
+			}
+
+			CrowCage: {
+				DisplayName: Crow Cage
+				Tooltip: ""
+			}
+
+			CrowStatue: {
+				DisplayName: Crow Statue
+				Tooltip: ""
+			}
+
+			Salivation: {
+				DisplayName: Salivation
+				Tooltip: Every five hits releases a spread of cursed flame
+			}
+
+			LodeStoneQuickDraw: {
+				DisplayName: Lodestone Quick Draw
+				Tooltip: Damage will sunder enemies, increasing the damage they take by 10%
+			}
+
+			Nocturnal: {
+				DisplayName: Nocturnal
+				Tooltip: Upon hitting an enemy, homing 'black light' might be released
+			}
+
+			Sanguine: {
+				DisplayName: Sanguine
+				Tooltip: Upon hitting an enemy, homing 'life light' might be released
+			}
+
+			CobaltPopper: {
+				DisplayName: Cobalt Popper
+				Tooltip: ""
+			}
+
+			MyceliumGattlingGun: {
+				DisplayName: Mycelium Gatling Gun
+				Tooltip: "{0}% chance to save ammo"
+			}
+
+			OrichalcumPelter: {
+				DisplayName: Orichalcum Pelter
+				Tooltip: ""
+			}
+
+			PalladiumSubmachineGun: {
+				DisplayName: Palladium Sub-machine Gun
+				Tooltip: ""
+			}
+
+			ValadiumFoeBlaster: {
+				DisplayName: Valadium Foe Blaster
+				Tooltip: Damage burns enemies with interdimensional energy over time
 			}
 		}
 
@@ -20075,6 +20278,11 @@ Mods: {
 			CrownofThorns: {
 				DisplayName: Crown of Thorns
 				BestiaryFlavorText: Residing on the floors of the depths, a single sting from one of these starfish can spell doom to many.
+			}
+
+			Crow: {
+				DisplayName: Crow
+				BestiaryFlavorText: Despite its gloomy surroundings, this bird is simply looking for food.
 			}
 
 			DumboOctopus: {
@@ -21236,7 +21444,9 @@ Mods: {
 			BoomCorrosive.DisplayName: Corrosion
 			BoomNitrogen.DisplayName: Nitrogen
 			BoomPlasma.DisplayName: Plasma
-			BoreanFangStaffPro.DisplayName: Borean Fang Staff Pro
+			BoreanFangStaffPro.DisplayName: "{$Items.BoreanFangStaff.DisplayName}"
+			BoreanFangStaffPro2.DisplayName: "{$Items.BoreanFangStaff.DisplayName}"
+			BoreanFangStaffPro3.DisplayName: "{$Items.BoreanFangStaff.DisplayName}"
 			AbyssalStrike.DisplayName: Abyssal Strike
 			AbyssalStrike2.DisplayName: Abyssal Strike2
 			ForgottenOneSpit.DisplayName: Forgotten One's Spit
@@ -21390,7 +21600,6 @@ Mods: {
 			CharonsBeaconPro.DisplayName: Charons Beacon Pro
 			ChlorophyteBolt.DisplayName: Chlorophyte Bolt
 			ChlorophyteCloud.DisplayName: Chlorophyte Cloud
-			CinderShot.DisplayName: Cinder Shot
 			ClimbersIceAxePro.DisplayName: Climber's Ice Axe
 			ClimbersIceAxePro2.DisplayName: Climber's Ice Axe
 			ClockWorkBombPro.DisplayName: Clock Work Bomb Pro
@@ -21414,7 +21623,6 @@ Mods: {
 			CoralPolearmPro3.DisplayName: Coral Polearm Pro3
 			CoralSlasherPro.DisplayName: Coral Slasher Pro
 			CorrosionBeakerPro.DisplayName: Corrosion Beaker Pro
-			CorruptionSpark.DisplayName: Corruption Spark
 			CrashSurge.DisplayName: Crash Surge
 			CryoFangProQuick.DisplayName: Cryo-Fang
 			Crystal.DisplayName: Crystal
@@ -21617,7 +21825,8 @@ Mods: {
 			GoldenLocksPro4.DisplayName: Golden Locks
 			GolemsGazePro.DisplayName: Golems Gaze Pro
 			GolemsGazePro2.DisplayName: Golems Gaze Pro2
-			GorgonsEyePro.DisplayName: Gorgons Eye Pro
+			GorgonsEyePro.DisplayName: "{$Items.GorgonsEye.DisplayName}"
+			GorgonsEyePro2.DisplayName: "{$Items.GorgonsEye.DisplayName}"
 			GraniteArrowPro.DisplayName: Granite Arrow Pro
 			GraniteBarrier.DisplayName: Granite Barrier
 			GraniteControlRodBobber.DisplayName: Granite Control Rod Bobber
@@ -21892,7 +22101,6 @@ Mods: {
 			LegacyPro.DisplayName: Legacy Pro
 			LegionOrnamentPro.DisplayName: Legion Ornament
 			LegionOrnamentShard.DisplayName: Legion Ornament Shard
-			LifeLight.DisplayName: Life Light
 			LightBolt.DisplayName: Light Bolt
 			Lightning.DisplayName: Lightning
 			LightStrike.DisplayName: Light Strike
@@ -21916,7 +22124,6 @@ Mods: {
 			LootRangPro.DisplayName: Loot-a-Rang
 			LovegunPro.DisplayName: Lovegun Pro
 			MageHandPro.DisplayName: Mage Hand Pro
-			MagickStaffPro.DisplayName: Magick Staff Pro
 			MagicThorHammerPro.DisplayName: Magic Thor Hammer Pro
 			MantisPunchPro.DisplayName: Mantis Shrimp Punch
 			MantisPunchPro2.DisplayName: Mantis Shrimp Punch
@@ -22101,7 +22308,6 @@ Mods: {
 			NightStarTrue2.DisplayName: Night Star True2
 			NightStarTrueImpact.DisplayName: Night Star True Impact
 			NitrogenVialPro.DisplayName: Nitrogen Vial Pro
-			NocturnalPro.DisplayName: Nocturnal Pro
 			NorthernLightPro0.DisplayName: Northern Light Pro0
 			NorthernLightPro1.DisplayName: Northern Light Pro1
 			NovaRiflePro.DisplayName: Nova Rifle Pro
@@ -22117,14 +22323,9 @@ Mods: {
 			OldGodsVisionPro.DisplayName: Old God's Vision
 			OldGodsVisionPro2.DisplayName: Old God's Vision
 			OmegaBeam.DisplayName: Omega Beam
-			OmegaBlast.DisplayName: Omega Blast
-			OmegaBoom.DisplayName: Omega Boom
 			OmniArrow.DisplayName: Omnicide Arrow
 			OmniArrow2.DisplayName: Omnicide Arrow
 			OmniArrow3.DisplayName: Omnicide Arrow
-			OmniBoom.DisplayName: Omni Boom
-			OmniBurst.DisplayName: Omni Burst
-			OmniBurstDamage.DisplayName: Omni Burst Damage
 			AssassinArmorSetPro.DisplayName: Assassin Armor Set Pro
 			OpalHookPro.DisplayName: Opal Hook Pro
 			OpalStaffPro.DisplayName: Opal Staff Pro
@@ -22191,8 +22392,6 @@ Mods: {
 			PhantomCameraPro2.DisplayName: Phantom Camera Pro2
 			PhaseDartPro.DisplayName: Phase Dart Pro
 			PiercePro.DisplayName: Pierce Pro
-			PlasmaBlast.DisplayName: Plasma Blast
-			PlasmaShot.DisplayName: Plasma Shot
 			PlasmaStaffPro.DisplayName: Plasma Staff Pro
 			PlasmaStaffPro2.DisplayName: Plasma Staff Pro2
 			PlasmaStaffPro3.DisplayName: Plasma Staff Pro3
@@ -22244,7 +22443,6 @@ Mods: {
 			SandStoneSpearPro.DisplayName: Sand Stone Spear Pro
 			SandStorm.DisplayName: Sand Storm
 			SandweaversTiaraPro.DisplayName: Sandweavers Tiara Pro
-			SanguinePro.DisplayName: Sanguine Pro
 			ScalperDagger.DisplayName: Scalper Dagger
 			SchmelzePro.DisplayName: Schmelze Pro
 			ScorpainPro.DisplayName: Scorpain Pro
@@ -22297,7 +22495,6 @@ Mods: {
 			ShockRiflePro.DisplayName: Shock Rifle Pro
 			ShockRiflePro2.DisplayName: Shock Rifle Pro2
 			ShockRiflePro3.DisplayName: Shock Rifle Pro3
-			Shockwave.DisplayName: Shockwave
 			ShootingStarDrillPro.DisplayName: Shooting Star Drill
 			ShroomBolt.DisplayName: Shroom Bolt
 			ShroomiteRocketDrillPro.DisplayName: Shroomite Rocket-Drill
@@ -22627,7 +22824,8 @@ Mods: {
 			WondrousWandPro5.DisplayName: Wondrous Wand Pro5
 			WrithingSheathPro.DisplayName: Void Blade
 			WyrmDecimatorPro.DisplayName: Wyrm Decimator Pro
-			WyvernSlayerPro.DisplayName: Wyvern Slayer Pro
+			WyvernSlayerPro.DisplayName: "{$Items.WyvernSlayer.DisplayName}"
+			WyvernSlayerPro2.DisplayName: "{$Items.WyvernSlayer.DisplayName}"
 			YakaArrowPro.DisplayName: Yaka Arrow Pro
 			YewVisual.DisplayName: Yew Visual
 			YewWoodShrapnelPro.DisplayName: Yew Wood Shrapnel
@@ -22637,6 +22835,7 @@ Mods: {
 			OmegaBlasterPro3.DisplayName: Omega Blaster Pro3
 			OmegaBlasterPro2.DisplayName: Omega Blaster Pro2
 			OmegaBlasterPro.DisplayName: Omega Blaster Pro
+			OmegaBlast.DisplayName: Omega Blast
 			InfernoLordsFocusPro.DisplayName: Inferno Lords Focus Pro
 			ThunderstruckPro2.DisplayName: Thunderstruck
 			ThunderstruckPro.DisplayName: Thunderstruck
@@ -22725,6 +22924,31 @@ Mods: {
 			WallChickenPro.DisplayName: Wall Chicken
 			ParticleWhipPro2.DisplayName: "{$Items.ParticleWhip.DisplayName}"
 			FrostPlagueStaffPro.DisplayName: "{$Items.FrostPlagueStaff.DisplayName}"
+			HeadSpinnerPro.DisplayName: "{$Items.HeadSpinner.DisplayName}"
+			HeadSpinnerPro2.DisplayName: "{$Items.HeadSpinner.DisplayName}"
+			LucidCutterPro.DisplayName: Lucid Cutter
+			SalivationPro.DisplayName: "{$Items.Salivation.DisplayName}"
+			SalivationPro2.DisplayName: "{$Items.Salivation.DisplayName}"
+			CinderStringPro.DisplayName: "{$Items.CinderString.DisplayName}"
+			OmniCannonPro.DisplayName: "{$Items.OmniCannon.DisplayName}"
+			OmniCannonPro2.DisplayName: "{$Items.OmniCannon.DisplayName}"
+			OmniCannonPro3.DisplayName: "{$Items.OmniCannon.DisplayName}"
+			OmniCannonPro4.DisplayName: "{$Items.OmniCannon.DisplayName}"
+			OmegaPro2.DisplayName: Omega Pro2
+			LodestoneSluggerPro.DisplayName: Lodestone Slugger
+			CinderShot.DisplayName: Cinder Shot
+			CorruptionSpark.DisplayName: Corruption Spark
+			LifeLight.DisplayName: Life Light
+			MagickStaffPro.DisplayName: Magick Staff Pro
+			NocturnalPro.DisplayName: Nocturnal Pro
+			OmegaBoom.DisplayName: Omega Boom
+			OmniBoom.DisplayName: Omni Boom
+			OmniBurst.DisplayName: Omni Burst
+			OmniBurstDamage.DisplayName: Omni Burst Damage
+			PlasmaBlast.DisplayName: Plasma Blast
+			PlasmaShot.DisplayName: Plasma Shot
+			SanguinePro.DisplayName: Sanguine Pro
+			Shockwave.DisplayName: Shockwave
 		}
 
 		Tiles: {
@@ -23344,6 +23568,7 @@ Mods: {
 
 			ExhaustionBar.Exhausted: Some throwing items are now much weaker
 			HellfireMinigunGauge.Overloaded: Too hot!
+			Tracker.ContractCompletedNotification: Tracker contract completed: {0}
 
 			InformationalIcons: {
 				Endurance: {
