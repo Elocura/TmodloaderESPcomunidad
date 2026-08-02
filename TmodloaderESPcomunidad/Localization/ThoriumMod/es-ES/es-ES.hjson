@@ -214,8 +214,8 @@ Mods: {
 			}
 
 			ShockAbsorberBuff: {
-				DisplayName: Absorción de Golpes
-				Description: Todo el daño se incrementa un 15%
+				DisplayName: Absorción de Impacto
+				Description: Todo el daño aumentado un {0}%
 			}
 
 			SoloistsHatSetBuff: {
@@ -235,7 +235,7 @@ Mods: {
 
 			BeetleCarapace: {
 				DisplayName: Caparazón de Escarabajo
-				Description: Reducción de daño aumentada y daño reflejado
+				Description: "{0}% de reducción de daño e inversión de daño aumentadas"
 			}
 
 			BlightFever: {
@@ -435,7 +435,7 @@ Mods: {
 
 			AuraDamageReduction: {
 				DisplayName: Aura: Reducción de Daño
-				Description: Tu aliado aumenta tu reducción de daño en un 12%
+				Description: Tu aliado te está otorgando un +{0}% de reducción de daño
 			}
 
 			BloodBoost: {
@@ -475,12 +475,12 @@ Mods: {
 
 			CosmicFluxStaffHealBuff: {
 				DisplayName: Nova Curativa
-				Description: Tus hechizos curativos restauran 2 puntos de vida adicionales
+				Description: Los hechizos de curación curarán {0} de vida adicional
 			}
 
 			CrystalWishBuff: {
 				DisplayName: Deseo de Cristal
-				Description: Tu aliado ha aumentado tu reducción de daño en un 10%
+				Description: Tu aliado te ha otorgado un {0}% de reducción de daño aumentada
 			}
 
 			Cured: {
@@ -510,7 +510,7 @@ Mods: {
 
 			DragonHeartWandBuff: {
 				DisplayName: Corazón de Dragón
-				Description: El daño se incrementa en un 15%
+				Description: Daño aumentado un {0}%
 			}
 
 			DreamCatcherBuff: {
@@ -554,18 +554,18 @@ Mods: {
 			}
 
 			Enfeeble: {
-				DisplayName: Debilitado
-				Description: Recibes 10 de daño adicional por ataques radiantes
+				DisplayName: Debilidad
+				Description: Recibes {0} de daño adicional de ataques radiantes
 			}
 
 			ForgottenCrossNecklaceBuff: {
 				DisplayName: Defensa Sagrada
-				Description: Tu defensa ha aumentado en 14 puntos
+				Description: Tu defensa ha aumentado en {0}
 			}
 
 			GlowingPotionBuff: {
 				DisplayName: Energía Ilustre
-				Description: El daño radiante se incrementa un 10%
+				Description: Daño radiante aumentado un {0}%
 			}
 
 			HolyGlare: {
@@ -575,7 +575,7 @@ Mods: {
 
 			HolyPotionBuff: {
 				DisplayName: Poder Sagrado
-				Description: Tus hechizos curativos restauran vida adicional
+				Description: Los hechizos de curación curarán {0} de vida adicional
 			}
 
 			KarmicHolderBuff: {
@@ -589,8 +589,8 @@ Mods: {
 			}
 
 			LifeBinderSetBuff: {
-				DisplayName: Muralla de Niebla Vital
-				Description: Tu vida máxima ha aumentado en 50 puntos
+				DisplayName: Baluarte Alimentado por Niebla
+				Description: Tu vida máxima ha aumentado en {0}
 			}
 
 			LifeQuartzShieldBuff: {
@@ -624,8 +624,8 @@ Mods: {
 			}
 
 			MarrowScepterBuff: {
-				DisplayName: Armadura Ósea
-				Description: La reducción de daño aumenta un 15%
+				DisplayName: Armadura de Hueso
+				Description: "{0}% de reducción de daño aumentada"
 			}
 
 			Mortality: {
@@ -635,12 +635,12 @@ Mods: {
 
 			NullZoneBuff: {
 				DisplayName: Zona Nula
-				Description: El daño recibido por proyectiles se reduce un 20%
+				Description: Daño de proyectiles recibido reducido un {0}%
 			}
 
 			OutofTouch: {
-				DisplayName: Desconectado
-				Description: Tu curación adicional solo es un 33% efectiva
+				DisplayName: Fuera de Contacto
+				Description: Tu curación adicional solo es un {0}% de efectiva
 			}
 
 			PhoenixStaffBuff: {
@@ -655,12 +655,12 @@ Mods: {
 
 			QuickRecovery: {
 				DisplayName: Recuperación Rápida
-				Description: La velocidad de recuperación de vida aumenta un 20%
+				Description: Tasa de recuperación de vida aumentada un {0}%
 			}
 
 			SerpentsBubbleWandBuff: {
-				DisplayName: Burbuja de la Serpiente
-				Description: Aumenta la regeneración de vida y la reducción de daño en un 10%
+				DisplayName: Burbuja de Serpiente
+				Description: Recuperación de vida aumentada y +{0}% de reducción de daño
 			}
 
 			ShieldDroneBeaconBuff: {
@@ -686,7 +686,7 @@ Mods: {
 
 			SpiritualistProtectionBuff: {
 				DisplayName: Guardián: Protección
-				Description: La reducción de daño ha aumentado un 30%
+				Description: "{0}% de reducción de daño aumentada"
 			}
 
 			SpiritualistRecoveryBuff: {
@@ -696,7 +696,7 @@ Mods: {
 
 			SpiritualistRevengeBuff: {
 				DisplayName: Guardián: Venganza
-				Description: El daño ha aumentado un 15%
+				Description: Daño aumentado un {0}%
 			}
 
 			TemplarSetBuff: {
@@ -779,11 +779,6 @@ Mods: {
 				Description: Defensa y velocidad de movimiento reducidas
 			}
 
-			MagickStaffDebuff: {
-				DisplayName: Decadencia Elemental
-				Description: Aplastado por los elementos menores de Terraria
-			}
-
 			MasterMarksmansScouterDebuff: {
 				DisplayName: Visión Ómnica
 				Description: Este enemigo está en la mira de un asesino
@@ -796,7 +791,7 @@ Mods: {
 
 			MirroroftheBeholderDebuff: {
 				DisplayName: Revelado
-				Description: Este enemigo revelado recibe un 15% más de daño
+				Description: Este enemigo revelado recibe un {0}% más de daño
 			}
 
 			MistletoeBuff: {
@@ -1204,8 +1199,8 @@ Mods: {
 			}
 
 			PhylacteryBuff: {
-				DisplayName: Respaldo del Liche
-				Description: Al recibir daño fatal, revives con un 25% de vida
+				DisplayName: Respaldo de Lich
+				Description: Recibir daño fatal en su lugar te devolverá al {0}% de vida
 			}
 
 			PotentExtractBuff: {
@@ -1225,7 +1220,7 @@ Mods: {
 
 			RapierBuff: {
 				DisplayName: Postura de Parada
-				Description: El daño recibido se reduce en un 10%
+				Description: "{0}% de reducción de daño aumentada"
 			}
 
 			RealityBearer: {
@@ -1534,8 +1529,8 @@ Mods: {
 			}
 
 			Tuned: {
-				DisplayName: Afinado
-				Description: Recibiendo un 10% más de daño de todas las fuentes
+				DisplayName: Sintonizado
+				Description: Recibes un {0}% más de daño de todas las fuentes
 			}
 
 			ValadiumSetBuff: {
@@ -1605,7 +1600,7 @@ Mods: {
 
 			BannerDamage: {
 				DisplayName: Estandarte de Batalla
-				Description: Los esbirros infligen 5 de daño adicional
+				Description: Recibes un {0}% más de daño de esbirros y centinelas
 			}
 
 			BannerBounty: {
@@ -1620,12 +1615,12 @@ Mods: {
 
 			BannerPrecision: {
 				DisplayName: Estandarte de Precisión
-				Description: Los esbirros cercanos tienen un 5% de probabilidad de golpe crítico
+				Description: Probabilidad de recibir un golpe crítico por daño de esbirros y centinelas
 			}
 
 			BannerPower: {
 				DisplayName: Estandarte de Poder
-				Description: Una de tus centinelas ha sido potenciada
+				Description: Recibes un {0}% más de daño de látigos
 			}
 
 			ThrombosisBuff: {
@@ -1646,7 +1641,22 @@ Mods: {
 
 			HarpyStaffBuff: {
 				DisplayName: Mejora de Bastón de Arpía
-				Description: Mods.ThoriumMod.Buffs.HarpyStaffBuff.Description
+				Description: NULL
+			}
+
+			SnarkyGunFireDebuff: {
+				DisplayName: Pistola Sarcástica - Fuego
+				Description: Acumulando una quemadura desagradable
+			}
+
+			SnarkyGunIceDebuff: {
+				DisplayName: Snarky Gun - Ice
+				Description: NULL
+			}
+
+			MagickStaffDebuff: {
+				DisplayName: Elemental Decay
+				Description: Sundered by the lesser elements of Terraria
 			}
 		}
 
@@ -1821,7 +1831,7 @@ Mods: {
 					Al presionar la tecla 'Encerrar', te colocarás dentro de un caparazón impenetrable
 					Mientras estás encerrado, no puedes usar objetos ni pociones de salud, la regeneración de vida se reduce drásticamente y el daño recibido casi se anula
 					Al salir del caparazón, tu velocidad, reducción de daño y daño se verán muy reducidos temporalmente
-					Al salir del caparazón, no podrás volver a usarlo durante 20 segundos
+					Al salir del caparazón, no podrás volver a usarlo durante {0} segundos
 					'''
 			}
 
@@ -1882,11 +1892,11 @@ Mods: {
 				Tooltip:
 					'''
 					Corrompe tus poderes radiantes
-					25% menos de daño no radiante
-					25% más de daño radiante
-					12% más de probabilidad crítica con daño radiante
-					La maná máxima aumenta en 40
-					Tus hechizos curativos curan 1 de vida adicional
+					{0}% menos de daño no radiante
+					{1}% más de daño radiante
+					{2}% más de probabilidad crítica con daño radiante
+					La maná máxima aumenta en {3}
+					Tus hechizos curativos curan {4} de vida adicional
 					'''
 
 				SetBonusQuotes: {
@@ -1938,11 +1948,11 @@ Mods: {
 				DisplayName: Calzas Susurrantes
 				Tooltip:
 					'''
-					25% menos de daño no radiante
-					25% más de daño radiante
-					6% más de probabilidad crítica radiante
-					15% menos de consumo de maná
-					Tus hechizos curativos curan 1 de vida adicional
+					{0}% menos de daño no radiante
+					{1}% más de daño radiante
+					{2}% más de probabilidad crítica radiante
+					{3}% menos de consumo de maná
+					Tus hechizos curativos curan {4} de vida adicional
 					'''
 			}
 
@@ -1950,10 +1960,10 @@ Mods: {
 				DisplayName: Tabardo Susurrante
 				Tooltip:
 					'''
-					35% menos de daño no radiante
-					35% más de daño radiante
-					8% más de probabilidad crítica radiante
-					Tus hechizos curativos curan 2 de vida adicional
+					{0}% menos de daño no radiante
+					{1}% más de daño radiante
+					{2}8% más de probabilidad crítica radiante
+					Tus hechizos curativos curan {3} de vida adicional
 					'''
 			}
 
@@ -1983,7 +1993,7 @@ Mods: {
 
 			BloomingShield: {
 				DisplayName: Escudo Floreciente
-				Tooltip: Al estar fuera de combate, tu recuperación de vida aumentará hasta 5 con el tiempo
+				Tooltip: Al estar fuera de combate, tu recuperación de vida aumentará hasta {0} con el tiempo
 			}
 
 			BloomingStaff: {
@@ -2039,7 +2049,7 @@ Mods: {
 
 			GoblinWarshield: {
 				DisplayName: Escudo de Guerra Goblin
-				Tooltip: Al estar quieto, ganas 5 de defensa, 2 de recuperación de vida y eres inmune al retroceso
+				Tooltip: Al estar quieto, ganas {0} de defensa, {1} de recuperación de vida y eres inmune al retroceso
 			}
 
 			GoblinWarSpear: {
@@ -2080,7 +2090,7 @@ Mods: {
 				DisplayName: Anillo de Pulgar
 				Tooltip:
 					'''
-					Aumenta el daño de flechas en 5%
+					Aumenta el daño de flechas en {0}%
 					Los golpes críticos con flechas aplican llama sombría brevemente a los enemigos
 					'''
 			}
@@ -2097,7 +2107,7 @@ Mods: {
 
 			YewWoodBreastguard: {
 				DisplayName: Coraza de Madera de Tejo
-				Tooltip: Velocidad de disparo aumentada en 2.5%
+				Tooltip: Velocidad de disparo aumentada en {0}%
 			}
 
 			YewWoodFlintlock: {
@@ -2117,7 +2127,7 @@ Mods: {
 
 			YewWoodLeggings: {
 				DisplayName: Grebas de Madera de Tejo
-				Tooltip: Velocidad de disparo aumentada en 2.5%
+				Tooltip: Velocidad de disparo aumentada en {0}%
 			}
 
 			AbominationBanner.DisplayName: Estandarte de Abominación
@@ -2148,6 +2158,12 @@ Mods: {
 			ColdlingBanner.DisplayName: Estandarte de Fríaling
 			CoolmeraBanner.DisplayName: Estandarte de Coolmera
 			CrownofThornsBanner.DisplayName: Estandarte de Corona de Espinas
+
+			Crow: {
+				DisplayName: Cuervo
+				Tooltip: ""
+			}
+
 			DarksteelKnightBanner.DisplayName: Estandarte de Caballero de Acero Oscuro
 			DissonanceSeerBanner.DisplayName: Estandarte del Vidente de Disonancia
 			EarthenBatBanner.DisplayName: Estandarte de Murciélago Terráneo
@@ -2258,9 +2274,9 @@ Mods: {
 				DisplayName: Afinador Automático
 				Tooltip:
 					'''
-					Aumenta la inspiración máxima en 2
-					El daño sinfónico tiene un 10% de probabilidad de aumentar el nivel de una de tus potenciaciones activas
-					Este efecto solo puede activarse cada 2.5 segundos
+					Aumenta la inspiración máxima en {0}
+					El daño sinfónico tiene un {1}% de probabilidad de aumentar el nivel de una de tus potenciaciones activas
+					Este efecto solo puede activarse cada {2} segundos
 					'''
 			}
 
@@ -2278,15 +2294,15 @@ Mods: {
 				DisplayName: Kit de Banda
 				Tooltip:
 					'''
-					Aumenta el daño sinfónico en un 8%
-					Aumenta la velocidad de ejecución sinfónica en un 8%
-					Aumenta la velocidad de regeneración de inspiración en un 8%
+					Aumenta el daño sinfónico en un {0}%
+					Aumenta la velocidad de ejecución sinfónica en un {1}%
+					Aumenta la velocidad de regeneración de inspiración en un {2}%
 					'''
 			}
 
 			BardEmblem: {
 				DisplayName: Emblema de Bardo
-				Tooltip: Aumenta en un 15% el daño sinfónico
+				Tooltip: Aumenta en un {0}% el daño sinfónico
 			}
 
 			Bassoon: {
@@ -2331,8 +2347,8 @@ Mods: {
 				DisplayName: Gorro de Latón
 				Tooltip:
 					'''
-					Los instrumentos de latón tienen un 15% de probabilidad de afinar enemigos
-					Los enemigos afinados reciben un 10% más de daño
+					Los instrumentos de latón tienen un {0}% de probabilidad de afinar enemigos
+					Los enemigos afinados reciben un {1}% más de daño
 					'''
 			}
 
@@ -2379,8 +2395,8 @@ Mods: {
 				DisplayName: Entradas de Concierto
 				Tooltip:
 					'''
-					Aumenta la inspiración máxima en 2
-					Cada aliado cercano aumenta tu regeneración de inspiración en 2%
+					Aumenta la inspiración máxima en {0}
+					Cada aliado cercano aumenta tu regeneración de inspiración en {1}%
 					'''
 			}
 
@@ -2388,9 +2404,9 @@ Mods: {
 				DisplayName: Batuta del Director
 				Tooltip:
 					'''
-					Aumenta la tasa de regeneración de inspiración en un 5%
-					Cuando tú y un aliado cercano atacan al mismo enemigo, este recibe instantáneamente el 20% del daño combinado
-					Este efecto solo puede activarse cada 2 segundos sobre el mismo objetivo
+					Aumenta la tasa de regeneración de inspiración en un {0}%
+					Cuando tú y un aliado cercano atacan al mismo enemigo, este recibe instantáneamente el {1}% del daño combinado
+					Este efecto solo puede activarse cada {2} {^2:segundo;segundos} sobre el mismo objetivo
 					'''
 			}
 
@@ -2401,7 +2417,7 @@ Mods: {
 
 			CorkGrease: {
 				DisplayName: Grasa de Corcho
-				Tooltip: Aumenta la velocidad de ejecución sinfónica en un 8%
+				Tooltip: Aumenta la velocidad de ejecución sinfónica en un {0}%
 			}
 
 			CreativityPotion: {
@@ -2411,27 +2427,27 @@ Mods: {
 
 			CriersCap: {
 				DisplayName: Gorro del Pregonero
-				Tooltip: Aumenta la tasa de regeneración de inspiración en un 4%
+				Tooltip: Aumenta la tasa de regeneración de inspiración en un {0}%
 				SetBonus: Tus potenciaciones sinfónicas durarán {0} {^0:segundo;segundos} adicionales
 			}
 
 			CriersLeggings: {
 				DisplayName: Leotardos del Pregonero
-				Tooltip: Aumenta la tasa de regeneración de inspiración en un 4%
+				Tooltip: Aumenta la tasa de regeneración de inspiración en un {0}%
 			}
 
 			CriersSash: {
 				DisplayName: Fajín del Pregonero
-				Tooltip: Aumenta la tasa de regeneración de inspiración en un 7%
+				Tooltip: Aumenta la tasa de regeneración de inspiración en un {0}%
 			}
 
 			CyberPunkHeadset: {
 				DisplayName: Audífonos Cyber Punk
 				Tooltip:
 					'''
-					Incrementa el daño sinfónico en un 5%
-					Aumenta la probabilidad de golpe crítico sinfónico en un 4%
-					Aumenta la tasa de regeneración de inspiración en un 10%
+					Incrementa el daño sinfónico en un {0}%
+					Aumenta la probabilidad de golpe crítico sinfónico en un {1}%
+					Aumenta la tasa de regeneración de inspiración en un {2}%
 					'''
 				SetBonus:
 					'''
@@ -2447,9 +2463,9 @@ Mods: {
 				DisplayName: Leotardos Cyber Punk
 				Tooltip:
 					'''
-					6% más de daño sinfónico
-					6% más de probabilidad de crítico sinfónico
-					12% más de velocidad de movimiento
+					{0}% más de daño sinfónico
+					{1}% más de probabilidad de crítico sinfónico
+					{2}% más de velocidad de movimiento
 					'''
 			}
 
@@ -2457,9 +2473,9 @@ Mods: {
 				DisplayName: Traje Cyber Punk
 				Tooltip:
 					'''
-					7% más de daño sinfónico
-					Aumenta en un 10% la probabilidad de que caigan notas de inspiración
-					Aumenta en 2 segundos la duración de tus potenciaciones sinfónicas
+					{0}% más de daño sinfónico
+					Aumenta en un {1}% la probabilidad de que caigan notas de inspiración
+					Aumenta en {2} {^2:segundo;segundos} la duración de tus potenciaciones sinfónicas
 					'''
 			}
 
@@ -2476,9 +2492,9 @@ Mods: {
 				DisplayName: Sintonizador Digital
 				Tooltip:
 					'''
-					10% más de daño sinfónico
-					6% más de probabilidad de crítico sinfónico
-					Los críticos de percusión infligen 10% más de daño
+					{0}% más de daño sinfónico
+					{1}% más de probabilidad de crítico sinfónico
+					Los críticos de percusión infligen {0}% más de daño
 					Los críticos de percusión aturden brevemente a los enemigos
 					'''
 			}
@@ -2487,7 +2503,7 @@ Mods: {
 				DisplayName: Tema de Disputa
 				Tooltip:
 					'''
-					Aumenta la regeneración de inspiración en un 10%
+					Aumenta la regeneración de inspiración en un {0}%
 					Tu daño sinfónico quemará a los enemigos con llama sombría
 					Los críticos sinfónicos causan una gran erupción de notas musicales oscuras
 					'''
@@ -2548,7 +2564,7 @@ Mods: {
 				Tooltip:
 					'''
 					Matar enemigos o dañar jefes continuamente con un instrumento de viento generará un huevo de energía
-					Los jugadores que toquen el huevo restaurarán el 15% de su recurso primario perdido
+					Los jugadores que toquen el huevo restaurarán el {0}% de su recurso primario perdido
 					'''
 			}
 
@@ -2557,7 +2573,7 @@ Mods: {
 				Tooltip:
 					'''
 					'Llena de cumplidos invasivos... pero sorprendentemente inspiradora'
-					Aumenta la inspiración máxima en 3
+					Aumenta la inspiración máxima en {0}
 					'''
 			}
 
@@ -2603,7 +2619,7 @@ Mods: {
 				DisplayName: Partitura Completa
 				Tooltip:
 					'''
-					Aumenta la duración de tus potenciaciones sinfónicas en 3 segundos
+					Aumenta la duración de tus potenciaciones sinfónicas en {0} segundos
 					Matar a un enemigo con daño sinfónico genera una serie de aplausos que dañan a los enemigos
 					'''
 			}
@@ -2650,8 +2666,8 @@ Mods: {
 				DisplayName: Púa de Guitarra
 				Tooltip:
 					'''
-					5% más de velocidad al tocar sinfónicamente
-					Los proyectiles de armas de cuerdas pueden rebotar 2 veces adicionales
+					{0}% más de velocidad al tocar sinfónicamente
+					Los proyectiles de armas de cuerdas pueden rebotar {1} veces adicionales
 					'''
 			}
 
@@ -2659,9 +2675,9 @@ Mods: {
 				DisplayName: Garra de Púa de Guitarra
 				Tooltip:
 					'''
-					10% más de daño sinfónico
-					5% más de velocidad al tocar sinfónicamente
-					Los proyectiles de armas de cuerdas pueden rebotar 3 veces adicionales
+					{0}% más de daño sinfónico
+					{1}% más de velocidad al tocar sinfónicamente
+					Los proyectiles de armas de cuerdas pueden rebotar {2} veces adicionales
 					'''
 			}
 
@@ -2688,8 +2704,8 @@ Mods: {
 				DisplayName: Auriculares
 				Tooltip:
 					'''
-					Aumenta la inspiración máxima en 2
-					Cada potenciación única que tengas aumenta tu velocidad de movimiento en 2% y la velocidad al tocar en 1%
+					Aumenta la inspiración máxima en {0}
+					Cada potenciación única que tengas aumenta tu velocidad de movimiento en {1}% y la velocidad al tocar en {2}%
 					'''
 			}
 
@@ -2704,7 +2720,7 @@ Mods: {
 
 			HighQualityReed: {
 				DisplayName: Caña de Alta Calidad
-				Tooltip: Aumenta el daño sinfónico en 6%
+				Tooltip: Aumenta el daño sinfónico en {0}%
 			}
 
 			HoneyRecorder: {
@@ -2768,14 +2784,14 @@ Mods: {
 
 			JestersLeggings: {
 				DisplayName: Calzas del Bufón
-				Tooltip: Aumenta la tasa de regeneración de inspiración en 5%
+				Tooltip: Aumenta la tasa de regeneración de inspiración en {0}%
 			}
 
 			JestersLeggings2.DisplayName: Calzas del Bufón
 
 			JestersMask: {
 				DisplayName: Máscara del Bufón
-				Tooltip: Aumenta el índice de golpe crítico sinfónico en 11%
+				Tooltip: Aumenta el índice de golpe crítico sinfónico en {0}%
 				SetBonus: Los golpes críticos sinfónicos hacen sonar una campana sobre tu cabeza, ralentizando brevemente a los enemigos cercanos
 			}
 
@@ -2783,12 +2799,12 @@ Mods: {
 
 			JestersShirt: {
 				DisplayName: Camisa del Bufón
-				Tooltip: El daño sinfónico tiene un 20% de probabilidad de otorgar regeneración de vida adicional a los jugadores
+				Tooltip: El daño sinfónico tiene un {0}% de probabilidad de otorgar regeneración de vida adicional a los jugadores
 			}
 
 			JestersShirt2: {
 				DisplayName: Camisa del Bufón
-				Tooltip: El daño sinfónico tiene un 20% de probabilidad de otorgar daño fijo adicional a los jugadores
+				Tooltip: El daño sinfónico tiene un {0}% de probabilidad de otorgar daño fijo adicional a los jugadores
 			}
 
 			JingleBells: {
@@ -2809,7 +2825,7 @@ Mods: {
 				DisplayName: Pétalo Patada
 				Tooltip:
 					'''
-					El daño de percusión tiene un 25% de probabilidad de activar un 'pétalo de pánico' que orbita al jugador
+					El daño de percusión tiene un {0}% de probabilidad de activar un 'pétalo de pánico' que orbita al jugador
 					Aliados que toquen un pétalo activado ganan un gran aumento de velocidad
 					Enemigos que toquen un pétalo activado reciben daño
 					'''
@@ -2824,9 +2840,9 @@ Mods: {
 				DisplayName: Calzas del Maestro
 				Tooltip:
 					'''
-					Aumenta el daño sinfónico en 10%
-					Aumenta el índice de golpe crítico sinfónico en 4%
-					Aumenta la velocidad de movimiento en 15%
+					Aumenta el daño sinfónico en {0}%
+					Aumenta el índice de golpe crítico sinfónico en {1}%
+					Aumenta la velocidad de movimiento en {2}%
 					'''
 			}
 
@@ -2834,10 +2850,10 @@ Mods: {
 				DisplayName: Traje del Maestro
 				Tooltip:
 					'''
-					Aumenta el daño sinfónico en 14%
-					Aumenta el índice de golpe crítico sinfónico en 4%
-					Aumenta en 10% la probabilidad de caída de notas de inspiración
-					Aumenta en 3 segundos la duración de tus potenciaciones sinfónicas
+					Aumenta el daño sinfónico en {0}%
+					Aumenta el índice de golpe crítico sinfónico en {1}%
+					Aumenta en {2}% la probabilidad de caída de notas de inspiración
+					Aumenta en {3} {^3:segundo;segundos} la duración de tus potenciaciones sinfónicas
 					'''
 			}
 
@@ -2845,9 +2861,9 @@ Mods: {
 				DisplayName: Peluca del Maestro
 				Tooltip:
 					'''
-					Aumenta la velocidad de ejecución sinfónica en 5%
-					Aumenta el índice de golpe crítico sinfónico en 4%
-					Aumenta la tasa de regeneración de inspiración en 15%
+					Aumenta la velocidad de ejecución sinfónica en {0}%
+					Aumenta el índice de golpe crítico sinfónico en {1}%
+					Aumenta la tasa de regeneración de inspiración en {2}%
 					'''
 				SetBonus:
 					'''
@@ -2860,8 +2876,8 @@ Mods: {
 				DisplayName: Morrión de la Banda de Marcha
 				Tooltip:
 					'''
-					2% de aumento en golpe crítico sinfónico
-					Aumenta la regeneración de inspiración en 10%
+					{0}% de aumento en golpe crítico sinfónico
+					Aumenta la regeneración de inspiración en {1}%
 					'''
 				SetBonus: Mientras estás en combate, un arcoíris de símbolos sinfónicos dañinos seguirá tu movimiento y aturdirá a los enemigos
 			}
@@ -2870,8 +2886,8 @@ Mods: {
 				DisplayName: Calzas de la Banda de Marcha
 				Tooltip:
 					'''
-					3% de aumento en golpe crítico sinfónico
-					10% de aumento en velocidad de movimiento
+					{0}% de aumento en golpe crítico sinfónico
+					{1}% de aumento en velocidad de movimiento
 					'''
 			}
 
@@ -2879,8 +2895,8 @@ Mods: {
 				DisplayName: Uniforme de la Banda de Marcha
 				Tooltip:
 					'''
-					3% de aumento en golpe crítico sinfónico
-					16% de aumento en daño sinfónico
+					{0}% de aumento en golpe crítico sinfónico
+					{1}% de aumento en daño sinfónico
 					'''
 			}
 
@@ -2966,8 +2982,8 @@ Mods: {
 				DisplayName: Sombrero del Noble
 				Tooltip:
 					'''
-					Aumenta la probabilidad de que caigan notas de inspiración en un 4%
-					Aumenta la tasa de regeneración de inspiración en un 5%
+					Aumenta la probabilidad de que caigan notas de inspiración en un {0}%
+					Aumenta la tasa de regeneración de inspiración en un {1}%
 					'''
 				SetBonus: Las notas de inspiración que caen son el doble de potentes y aumentan tu daño sinfónico brevemente
 			}
@@ -2976,8 +2992,8 @@ Mods: {
 				DisplayName: Jubón del Noble
 				Tooltip:
 					'''
-					Aumenta el daño sinfónico en un 10%
-					Aumenta la probabilidad de que caigan notas de inspiración en un 6%
+					Aumenta el daño sinfónico en un {0}%
+					Aumenta la probabilidad de que caigan notas de inspiración en un {1}%
 					'''
 			}
 
@@ -2985,8 +3001,8 @@ Mods: {
 				DisplayName: Calzas del Noble
 				Tooltip:
 					'''
-					Aumenta la probabilidad de que caigan notas de inspiración en un 5%
-					Aumenta la velocidad de movimiento en un 8%
+					Aumenta la probabilidad de que caigan notas de inspiración en un {0}%
+					Aumenta la velocidad de movimiento en un {1}%
 					'''
 			}
 
@@ -3019,9 +3035,9 @@ Mods: {
 				DisplayName: Sombrero Ornamentado
 				Tooltip:
 					'''
-					5% de aumento en velocidad de ejecución sinfónica
-					8% de aumento en probabilidad de golpe crítico sinfónico
-					Aumenta la regeneración de inspiración en un 15%
+					{0}% de aumento en velocidad de ejecución sinfónica
+					{1}% de aumento en probabilidad de golpe crítico sinfónico
+					Aumenta la regeneración de inspiración en un {2}%
 					'''
 				SetBonus:
 					'''
@@ -3034,9 +3050,9 @@ Mods: {
 				DisplayName: Jubón Ornamentado
 				Tooltip:
 					'''
-					12% de aumento en daño sinfónico
-					Aumenta la probabilidad de que caigan notas de inspiración en un 10%
-					Aumenta la duración de tus potenciaciones sinfónicas en 3 segundos
+					{0}% de aumento en daño sinfónico
+					Aumenta la probabilidad de que caigan notas de inspiración en un {1}%
+					Aumenta la duración de tus potenciaciones sinfónicas en {2} {^0:segundo;segundos}
 					'''
 			}
 
@@ -3044,15 +3060,15 @@ Mods: {
 				DisplayName: Calzas Ornamentadas
 				Tooltip:
 					'''
-					8% de aumento en daño sinfónico
-					8% de aumento en probabilidad de golpe crítico sinfónico
-					15% de aumento en velocidad de movimiento
+					{0}% de aumento en daño sinfónico
+					{1}% de aumento en probabilidad de golpe crítico sinfónico
+					{2}% de aumento en velocidad de movimiento
 					'''
 			}
 
 			PadOPaper: {
 				DisplayName: Bloc de Notas
-				Tooltip: Aumenta la regeneración de inspiración en un 10%
+				Tooltip: Aumenta la regeneración de inspiración en un {0}%
 			}
 
 			Panflute: {
@@ -3150,9 +3166,9 @@ Mods: {
 				DisplayName: Botas de Estrella Fugaz
 				Tooltip:
 					'''
-					12% más de daño sinfónico
-					6% más de probabilidad de golpe crítico sinfónico
-					15% más de velocidad de movimiento
+					{0}% más de daño sinfónico
+					{1}% más de probabilidad de golpe crítico sinfónico
+					{2}% más de velocidad de movimiento
 					'''
 			}
 
@@ -3170,9 +3186,9 @@ Mods: {
 				DisplayName: Gorro de Estrella Fugaz
 				Tooltip:
 					'''
-					10% más de velocidad de interpretación sinfónica
-					6% más de probabilidad de golpe crítico sinfónico
-					Aumenta la velocidad de regeneración de inspiración en un 20%
+					{0}% más de velocidad de interpretación sinfónica
+					{1}% más de probabilidad de golpe crítico sinfónico
+					Aumenta la velocidad de regeneración de inspiración en un {2}%
 					'''
 				SetBonus:
 					'''
@@ -3267,8 +3283,8 @@ Mods: {
 				DisplayName: Silenciador Recto
 				Tooltip:
 					'''
-					10% más de daño sinfónico
-					6% más de probabilidad de crítico sinfónico
+					{0}% más de daño sinfónico
+					{1}% más de probabilidad de crítico sinfónico
 					Los golpes críticos de instrumentos de metal liberan una ráfaga de energía perforante
 					'''
 			}
@@ -3277,7 +3293,7 @@ Mods: {
 				DisplayName: Subwoofer
 				Tooltip:
 					'''
-					Tú y los aliados cercanos obtienen +2 de penetración de armadura
+					Tú y los aliados cercanos obtienen {0} de penetración de armadura
 					Duplica el radio de efecto de tus potenciaciones
 					'''
 			}
@@ -3306,7 +3322,7 @@ Mods: {
 				DisplayName: Sonido Envolvente del Terrario
 				Tooltip:
 					'''
-					Aumenta el daño sinfónico en un 10%
+					Aumenta el daño sinfónico en un {0}%
 					Tú y los aliados cercanos tienen la posibilidad de infligir represalia elemental al atacar
 					Duplica el radio de efecto de tus potenciaciones
 					'''
@@ -3351,7 +3367,7 @@ Mods: {
 
 			TuningFork: {
 				DisplayName: Diapasón de Bronce
-				Tooltip: Afina a los enemigos, haciendo que reciban un 10% más de daño
+				Tooltip: Afina a los enemigos, haciendo que reciban un {0}% más de daño
 			}
 
 			Turntable: {
@@ -3377,8 +3393,8 @@ Mods: {
 				DisplayName: Sintonizador de Vibración
 				Tooltip:
 					'''
-					6% más de probabilidad de crítico sinfónico
-					Los críticos con percusión infligen 5% más de daño
+					{0}% más de probabilidad de crítico sinfónico
+					Los críticos con percusión infligen {1}% más de daño
 					Los críticos con percusión aturden brevemente a los enemigos
 					'''
 			}
@@ -3437,7 +3453,7 @@ Mods: {
 				DisplayName: Resina Cerosa
 				Tooltip:
 					'''
-					Los ataques perforantes de instrumentos de cuerda pierden 15% menos daño por golpe
+					Los ataques perforantes de instrumentos de cuerda pierden {0}% menos daño por golpe
 					Los ataques perforantes de instrumentos de cuerda aumentan su velocidad con cada impacto
 					'''
 			}
@@ -3475,7 +3491,7 @@ Mods: {
 				DisplayName: Caminadores Aéreos
 				Tooltip:
 					'''
-					5% más de velocidad de movimiento
+					{0}% más de velocidad de movimiento
 					Permite caminar y saltar brevemente sobre el aire después de dejar el suelo
 					'''
 			}
@@ -3500,7 +3516,7 @@ Mods: {
 				Tooltip:
 					'''
 					Mantener presionada la tecla '{$Keybinds.AccessoryAbility.DisplayName}' canaliza energía del artífice
-					Cada segundo canalizado aumenta el próximo daño en 20 hasta un máximo de 100
+					Cada segundo canalizado aumenta el próximo daño en {0} hasta un máximo de {1}
 					'''
 			}
 
@@ -3514,8 +3530,8 @@ Mods: {
 				Tooltip:
 					'''
 					Reduce el retroceso que recibes al ser golpeado
-					Otorga 2 de defensa por cada 20 de energía del artífice que tengas
-					Recibir daño consume 20 de energía del artífice
+					Otorga {0} de defensa por cada {1} de energía del artífice que tengas
+					Recibir daño consume {2} de energía del artífice
 					'''
 			}
 
@@ -3530,19 +3546,15 @@ Mods: {
 			}
 
 			CopperBuckler: {
-				DisplayName: Rodela de Cobre
-				Tooltip:
-					'''
-					Defensa aumentada en 1
-					Generas constantemente un escudo de 8 de vida
-					'''
+				DisplayName: Broquel de Cobre
+				Tooltip: Generas constantemente un escudo de {0} de vida
 			}
 
 			CrashBoots: {
 				DisplayName: Botas de Choque
 				Tooltip:
 					'''
-					8% más de velocidad de movimiento y aceleración al correr
+					{0}% más de velocidad de movimiento y aceleración al correr
 					Correr acumula impulso y aumenta tu velocidad
 					Chocar contra un enemigo libera todo el impulso acumulado, catapultando al enemigo
 					'''
@@ -3571,7 +3583,7 @@ Mods: {
 				DisplayName: Botas de Deriva
 				Tooltip:
 					'''
-					5% más de velocidad de movimiento
+					{0}% más de velocidad de movimiento
 					Reduce tu velocidad de caída al descender
 					'''
 			}
@@ -3585,18 +3597,14 @@ Mods: {
 				DisplayName: Instigador del Miedo
 				Tooltip:
 					'''
-					6% menos de daño recibido
+					{0}% menos de daño recibido
 					Los enemigos tienen menos probabilidades de atacarte
 					'''
 			}
 
 			GoldAegis: {
-				DisplayName: Égida Dorada
-				Tooltip:
-					'''
-					Defensa aumentada en 2
-					Generas constantemente un escudo de 14 de vida
-					'''
+				DisplayName: Égida de Oro
+				Tooltip: Generas constantemente un escudo de {0} de vida
 			}
 
 			GreedyGoblet: {
@@ -3614,7 +3622,7 @@ Mods: {
 				DisplayName: Botas Saludables
 				Tooltip:
 					'''
-					5% más de velocidad de movimiento
+					{0}% más de velocidad de movimiento
 					Al correr, tu regeneración de vida aumenta
 					'''
 			}
@@ -3623,10 +3631,9 @@ Mods: {
 				DisplayName: Égida Sagrada
 				Tooltip:
 					'''
-					La vida máxima aumenta en 20
-					Absorbe el 25% del daño recibido por jugadores cercanos de tu equipo cuando tienes más del 25% de vida
-					Aumenta la duración de la invencibilidad tras recibir daño
-					Otorga inmunidad al retroceso
+					Vida máxima aumentada en {0}
+					Absorbe el {1}% del daño infligido a los jugadores cercanos de tu equipo mientras estés por encima del {1}% de vida
+					Aumenta la duración de la invencibilidad tras recibir daño y otorga inmunidad al retroceso
 					'''
 			}
 
@@ -3634,7 +3641,7 @@ Mods: {
 				DisplayName: Botas Flotantes
 				Tooltip:
 					'''
-					5% más de velocidad de movimiento
+					{0}% más de velocidad de movimiento
 					Permite flotar brevemente después de dejar el suelo
 					'''
 			}
@@ -3646,11 +3653,7 @@ Mods: {
 
 			IronShield: {
 				DisplayName: Escudo de Hierro
-				Tooltip:
-					'''
-					Defensa aumentada en 1
-					Generas constantemente un escudo de 10 de vida
-					'''
+				Tooltip: Generas constantemente un escudo de {0} de vida
 			}
 
 			KineticBattery: {
@@ -3666,11 +3669,7 @@ Mods: {
 
 			LeadShield: {
 				DisplayName: Escudo de Plomo
-				Tooltip:
-					'''
-					Defensa aumentada en 1
-					Generas constantemente un escudo de 11 de vida
-					'''
+				Tooltip: Generas constantemente un escudo de {0} de vida
 			}
 
 			LeatherGlove: {
@@ -3682,7 +3681,7 @@ Mods: {
 				DisplayName: Botas de Marcha
 				Tooltip:
 					'''
-					5% más de velocidad de movimiento
+					{0}% más de velocidad de movimiento
 					Al correr, tu regeneración de inspiración aumenta
 					'''
 			}
@@ -3691,7 +3690,7 @@ Mods: {
 				DisplayName: Máscara del Ojo de Cristal
 				Tooltip:
 					'''
-					8% más de probabilidad de golpe crítico
+					{0}% más de probabilidad de golpe crítico
 					Los golpes críticos infligen 12% más de daño
 					'''
 			}
@@ -3723,11 +3722,7 @@ Mods: {
 
 			PlatinumAegis: {
 				DisplayName: Égida de Platino
-				Tooltip:
-					'''
-					Defensa aumentada en 2
-					Generas constantemente un escudo de 15 de vida
-					'''
+				Tooltip: Generas constantemente un escudo de {0} de vida
 			}
 
 			RubyRing: {
@@ -3742,11 +3737,7 @@ Mods: {
 
 			SilverBulwark: {
 				DisplayName: Baluarte de Plata
-				Tooltip:
-					'''
-					Defensa aumentada en 2
-					Generas constantemente un escudo de 12 de vida
-					'''
+				Tooltip: Generas constantemente un escudo de {0} de vida
 			}
 
 			SilverSpearTip: {
@@ -3765,14 +3756,14 @@ Mods: {
 
 			SpikedBracer: {
 				DisplayName: Brazalete con Pinchos
-				Tooltip: El 50% del daño recibido se devuelve al atacante
+				Tooltip: El {0}% del daño recibido se devuelve al atacante
 			}
 
 			SteelToedBoots: {
 				DisplayName: Botas con Punta de Acero
 				Tooltip:
 					'''
-					5% más de velocidad de movimiento
+					{0}% más de velocidad de movimiento
 					Aumenta moderadamente la velocidad de caída
 					'''
 			}
@@ -3781,7 +3772,7 @@ Mods: {
 				DisplayName: Botas del Superviviente
 				Tooltip:
 					'''
-					8% más de velocidad de movimiento
+					{0}% más de velocidad de movimiento
 					Al moverte, tu regeneración de vida, maná e inspiración aumenta
 					'''
 			}
@@ -3798,11 +3789,7 @@ Mods: {
 
 			TinBuckler: {
 				DisplayName: Broquel de Estaño
-				Tooltip:
-					'''
-					Defensa aumentada en 1
-					Generas constantemente un escudo de 9 de vida
-					'''
+				Tooltip: Generas constantemente un escudo de {0} de vida
 			}
 
 			TopazRing: {
@@ -3814,18 +3801,14 @@ Mods: {
 				DisplayName: Botas del Viajero
 				Tooltip:
 					'''
-					5% más de velocidad de movimiento
+					{0}% más de velocidad de movimiento
 					Tu deslizamiento alcanza su velocidad máxima más rápido
 					'''
 			}
 
 			TungstenBulwark: {
 				DisplayName: Baluarte de Tungsteno
-				Tooltip:
-					'''
-					Defensa aumentada en 2
-					Generas constantemente un escudo de 13 de vida
-					'''
+				Tooltip: Generas constantemente un escudo de {0} de vida
 			}
 
 			TurboBoots: {
@@ -3842,7 +3825,7 @@ Mods: {
 				Tooltip:
 					'''
 					Las armas de maza pueden liberar una bola vil con pinchos al golpear
-					La bola aplica ichor a los enemigos dañados
+					La bola aplica icor a los enemigos dañados
 					'''
 			}
 
@@ -3865,8 +3848,12 @@ Mods: {
 			}
 
 			BoreanFangStaff: {
-				DisplayName: Bastón de Colmillos Boreales
-				Tooltip: Lanza una andanada de colmillos congelantes
+				DisplayName: Báculo de Colmillo Boreal
+				Tooltip:
+					'''
+					Dañas a los enemigos para generar fragmentos helados
+					Haz clic derecho para lanzar todos los fragmentos helados almacenados al enemigo bajo tu cursor
+					'''
 			}
 
 			BoreanStriderMask: {
@@ -3894,12 +3881,8 @@ Mods: {
 			}
 
 			GlacialSting: {
-				DisplayName: Aguijón Glacial
-				Tooltip:
-					'''
-					Convierte flechas de madera en flechas glaciales
-					Las flechas glaciales pueden dificultar significativamente el movimiento enemigo
-					'''
+				DisplayName: Picadura Glacial
+				Tooltip: Convierte las flechas de madera en flechas glaciales, que ralentizan enormemente a los enemigos
 			}
 
 			Glacier: {
@@ -3912,7 +3895,7 @@ Mods: {
 				Tooltip:
 					'''
 					'Pocas cosas sobreviven al corazón de una ventisca terrariana'
-					El daño contra objetivos ralentizados aumenta en un 15%
+					El daño contra objetivos ralentizados aumenta en un {0}%
 					El daño contra objetivos ralentizados puede curarte levemente
 					'''
 			}
@@ -4001,7 +3984,11 @@ Mods: {
 
 			GorgonsEye: {
 				DisplayName: Ojo de Gorgona
-				Tooltip: Petrifica brevemente a los enemigos golpeados
+				Tooltip:
+					'''
+					El daño petrifica a los enemigos golpeados y empieza a cubrir el yoyó de piedra
+					Cuando esté completamente cubierto, lanzar el yoyó hacia abajo libera la roca
+					'''
 			}
 
 			ArcanePotion: {
@@ -4020,7 +4007,11 @@ Mods: {
 
 			ArtilleryPotion: {
 				DisplayName: Poción de Artillería
-				Tooltip: Aumenta tu cantidad máxima de centinelas
+				Tooltip:
+					'''
+					Aumenta tu número máximo de centinelas en 1
+					No se acumula con '{$ItemName.SummoningPotion}'
+					'''
 			}
 
 			BatRepellent: {
@@ -4429,9 +4420,8 @@ Mods: {
 				DisplayName: Peto de Coral
 				Tooltip:
 					'''
-					Disminuye el daño no radiante en 11%
-					Aumenta el daño radiante en 1
-					Los hechizos curativos curan 1 de vida adicional
+					{0}% de daño no radiante reducido
+					Los hechizos curativos curarán {1} de vida adicional
 					'''
 			}
 
@@ -4449,14 +4439,13 @@ Mods: {
 				DisplayName: Grebas de Coral
 				Tooltip:
 					'''
-					Disminuye el daño no radiante en 11%
-					Aumenta el daño radiante en 1
-					Los hechizos curativos curan 1 de vida adicional
+					{0}% de daño no radiante reducido
+					Los hechizos curativos curarán {1} de vida adicional
 					'''
 			}
 
 			CoralHamaxe: {
-				DisplayName: Martillo-Hacha de Coral
+				DisplayName: Hacha-Martillo de Coral
 				Tooltip: ""
 			}
 
@@ -4464,14 +4453,14 @@ Mods: {
 				DisplayName: Casco de Coral
 				Tooltip:
 					'''
-					Disminuye el daño no radiante en 11%
-					Aumenta el daño radiante en 1
-					Aumenta tu oxígeno en 50%
+					{0}% de daño no radiante reducido
+					Aumenta tu respiración un {1}%
 					'''
 				SetBonus:
 					'''
-					El daño radiante acumula hasta {0} de escudo de vida y el escudo de vida ya no se disipa
-					Curar a un aliado transfiere el escudo de vida a él
+					Aumenta el daño radiante en {0}
+					El daño radiante acumula hasta {1} de escudo de vida y la protección de vida ya no se degrada en ti
+					Curar a un aliado le transfiere el escudo de vida
 					'''
 			}
 
@@ -4539,8 +4528,8 @@ Mods: {
 				Tooltip:
 					'''
 					'Ligera pero duradera'
-					Aumenta la velocidad de movimiento en 10%
-					Aumenta la penetración de armadura en 2
+					Aumenta la velocidad de movimiento en {0}%
+					Aumenta la penetración de armadura en {1}
 					'''
 			}
 
@@ -4549,8 +4538,8 @@ Mods: {
 				Tooltip:
 					'''
 					'Ligera pero duradera'
-					Aumenta la velocidad de movimiento en 10%
-					Aumenta la penetración de armadura en 1
+					Aumenta la velocidad de movimiento en {0}%
+					Aumenta la penetración de armadura en {1}
 					'''
 				SetBonus: ¡Nada detendrá tu movimiento! ¡Presiona dos veces para arremeter!
 			}
@@ -4560,8 +4549,8 @@ Mods: {
 				Tooltip:
 					'''
 					'Ligera pero duradera'
-					Aumenta la velocidad de movimiento en 10%
-					Aumenta la penetración de armadura en 2
+					Aumenta la velocidad de movimiento en {0}%
+					Aumenta la penetración de armadura en {1}
 					'''
 			}
 
@@ -4609,7 +4598,7 @@ Mods: {
 				DisplayName: Sandalias de Ogro
 				Tooltip:
 					'''
-					Aumenta la velocidad de movimiento en 10%
+					Aumenta la velocidad de movimiento en {0}%
 					Al aterrizar, libera una poderosa onda de choque
 					El daño, retroceso y alcance de la onda aumentan según la distancia de caída
 					'''
@@ -4649,7 +4638,7 @@ Mods: {
 					'''
 					'Infundida con sangre eterna'
 					Los enemigos tienen más probabilidades de atacarte
-					20% de probabilidad de neutralizar completamente el daño recibido
+					{0}% de probabilidad de neutralizar completamente el daño recibido
 					'''
 			}
 
@@ -4677,7 +4666,7 @@ Mods: {
 				Tooltip:
 					'''
 					'Infundida con sangre eterna'
-					Aumenta la velocidad de movimiento en 15%
+					Aumenta la velocidad de movimiento en {0}%
 					'''
 			}
 
@@ -4691,7 +4680,7 @@ Mods: {
 				Tooltip:
 					'''
 					'Infundida con sangre eterna'
-					Aumenta la reducción de daño en un 10%
+					Aumenta la reducción de daño en un {0}%
 					'''
 				SetBonus: Vida Máxima aumentada en {0}
 			}
@@ -4987,7 +4976,7 @@ Mods: {
 				Tooltip:
 					'''
 					'Atuendo de los primeros hechiceros acuáticos'
-					Maná máximo aumentado en 60
+					Maná máximo aumentado en {0}
 					Permite respirar bajo el agua
 					'''
 				SetBonus: Cada {0} de maná gastado aumentará significativamente tu daño mágico y velocidad de lanzamiento brevemente
@@ -4998,7 +4987,7 @@ Mods: {
 				Tooltip:
 					'''
 					'Atuendo de los primeros hechiceros acuáticos'
-					Daño mágico aumentado en 10%
+					Daño mágico aumentado en {0}%
 					Regeneración de maná incrementada
 					'''
 			}
@@ -5008,13 +4997,13 @@ Mods: {
 				Tooltip:
 					'''
 					'Atuendo de los primeros hechiceros acuáticos'
-					Daño mágico aumentado en 8%
+					Daño mágico aumentado en {0}%
 					Te mueves mucho más rápido mientras estás mojado
 					'''
 			}
 
 			NanoClamCane: {
-				DisplayName: Bastón de Almeja Nano
+				DisplayName: Bastón de Nano Almeja
 				Tooltip: Invoca una bebé mega-almeja que escupe perlas a los enemigos
 			}
 
@@ -5022,10 +5011,9 @@ Mods: {
 				DisplayName: Represalia del Océano
 				Tooltip:
 					'''
-					Defensa aumentada en 4
-					El 50% del daño recibido también se inflige al atacante
-					Recibir daño libera una mota que puedes recoger para recuperar el 25% del daño recibido
-					Recibir daño también libera espinas que infligen veneno
+					El {0}% del daño que recibes también se le inflige al atacante
+					Recibir daño libera una mota que se puede tocar y recupera el {1}% del daño recibido
+					Recibir daño libera una ráfaga de espinas que infligen veneno
 					'''
 			}
 
@@ -5060,11 +5048,7 @@ Mods: {
 
 			SeaTurtlesBulwark: {
 				DisplayName: Baluarte de Tortuga Marina
-				Tooltip:
-					'''
-					Defensa aumentada en 2
-					Recibir daño libera una mota que puedes recoger para recuperar el 25% del daño recibido
-					'''
+				Tooltip: Recibir daño libera una mota que se puede tocar y recupera el {0}% del daño recibido
 			}
 
 			SharkStorm: {
@@ -5087,7 +5071,7 @@ Mods: {
 				Tooltip:
 					'''
 					'No solo sirve para cazar peces'
-					4% más probabilidad de golpe crítico a distancia
+					{0}% más probabilidad de golpe crítico a distancia
 					Permite respirar bajo el agua
 					'''
 				SetBonus: Los golpes críticos a distancia liberan una ráfaga de espuma, ralentizando a los enemigos cercanos
@@ -5098,7 +5082,7 @@ Mods: {
 				Tooltip:
 					'''
 					'No solo sirve para cazar peces'
-					Daño a distancia aumentado en 10%
+					Daño a distancia aumentado en {0}%
 					'''
 			}
 
@@ -5107,7 +5091,7 @@ Mods: {
 				Tooltip:
 					'''
 					'No solo sirve para cazar peces'
-					10% más probabilidad de golpe crítico a distancia
+					{0}% más probabilidad de golpe crítico a distancia
 					'''
 			}
 
@@ -5115,9 +5099,9 @@ Mods: {
 				DisplayName: Glándula Vampírica
 				Tooltip:
 					'''
-					Tu daño tendrá un 10% de probabilidad de causar una erupción de sangre
-					Los jugadores pueden recoger esta sangre para curarse un 15% del daño que infligiste
-					La curación no puede superar los 15 puntos de vida y recoger sangre causa hemorragia durante 5 segundos
+					Tu daño tendrá un {0}% de probabilidad de causar una erupción de sangre
+					Los jugadores pueden recoger esta sangre para curarse un {1}% del daño que infligiste
+					La curación no puede superar los {2} puntos de vida y recoger sangre causa hemorragia durante {3} segundos
 					'''
 			}
 
@@ -5144,9 +5128,9 @@ Mods: {
 			GhastlyGarment.DisplayName: Vestimenta Espectral
 			GhastlyHood.DisplayName: Capucha Espectral
 			GhastlyLeggings.DisplayName: Polainas Espectrales
-			GrandThoriumBreastPlate.DisplayName: Coraza de Gran Torio
-			GrandThoriumGreaves.DisplayName: Grebas de Gran Torio
-			GrandThoriumHelmet.DisplayName: Casco de Gran Torio
+			GrandThoriumBreastPlate.DisplayName: Coraza de Gran Thorium
+			GrandThoriumGreaves.DisplayName: Grebas de Gran Thorium
+			GrandThoriumHelmet.DisplayName: Casco de Gran Thorium
 			HalcandranHood.DisplayName: Capucha Halcandran
 			HalcandranPants.DisplayName: Pantalones Halcandran
 			HalcandranTabard.DisplayName: Tabardo Halcandran
@@ -5263,8 +5247,8 @@ Mods: {
 				DisplayName: Ametralladora Escarabajo
 				Tooltip:
 					'''
-					Aumenta la reducción de daño en un 10% mientras disparas
-					Reduce la velocidad de movimiento en un 50% mientras disparas
+					Aumenta la reducción de daño en un {0}% mientras disparas
+					Reduce la velocidad de movimiento en un {1}% mientras disparas
 					{$CommonItemTooltip.PercentChanceToSaveAmmo}
 					'''
 			}
@@ -5286,15 +5270,16 @@ Mods: {
 			BirdFeeder: {
 				CommonTooltip:
 					'''
-					Coloca semillas o una fruta en el comedero para eventualmente atraer la atención de un ave
+					Coloca semillas o una fruta dentro del comedero para llamar la atención de una ave
 					Las aves dejan frutas o pociones aleatorias según lo que coloques en el comedero
 					Tenerlo colocado o en el inventario permite recolectar semillas
+					La recolección de semillas se puede activar o desactivar en la esquina superior izquierda del inventario una vez colocado
 					Solo se puede colocar en la superficie
 					'''
 				ConvertTooltip: Clic derecho para cambiar el estilo o volver a fabricarlo para convertirlo en una variante {0}
 				Grounded: en el suelo
 				Hanging: colgante
-				PylonRestriction: Solo puedes colocar {0} Comederos de Aves por cada Pylón colocado en el mundo (límite actual: {1})
+				PylonRestriction: Solo puedes colocar {0} Comederos de Aves por cada Pilón colocado en el mundo (límite actual: {1})
 				SeedTooltipReplacement: Para usar con cerbatanas y comederos de aves
 				SeedTooltipFallback: Para usar con comederos de aves
 				TileMouseover: Revisa más tarde...
@@ -5316,9 +5301,9 @@ Mods: {
 				DisplayName: Escudo Explosivo
 				Tooltip:
 					'''
-					El daño recibido se reduce en un 10%
+					El daño recibido se reduce en un {0}%
 					Inmune al retroceso enemigo y los enemigos son más propensos a atacarte
-					Cada 3 segundos, recibir daño desatará una explosión volátil a tu alrededor
+					Cada {1} {^1:segundo;segundos}, recibir daño desatará una explosión volátil a tu alrededor
 					El daño de la explosión escala con tu defensa
 					'''
 			}
@@ -5333,8 +5318,8 @@ Mods: {
 				Tooltip:
 					'''
 					Tu daño con yoyos inflige congelamiento y puede congelar enemigos
-					Dañar a un enemigo con un yoyo te otorga 10% de reducción de daño hasta que recibas daño
-					Este efecto se recarga durante 15 segundos tras protegerte
+					Dañar a un enemigo con un yoyo te otorga {0}% de reducción de daño hasta que recibas daño
+					Este efecto se recarga durante {0} segundos tras protegerte
 					'''
 			}
 
@@ -5358,7 +5343,7 @@ Mods: {
 				DisplayName: Bebedor de Sangre
 				Tooltip:
 					'''
-					Golpes cuerpo a cuerpo acumulan hasta 10 esencias de sangre
+					Golpes cuerpo a cuerpo acumulan hasta {0} esencias de sangre
 					Clic derecho usa la esencia para lanzar un chorro dañino que cura a ti y a tus aliados
 					'''
 			}
@@ -5442,9 +5427,9 @@ Mods: {
 				Tooltip:
 					'''
 					'El mismo tejido de esta capa ha sido diseñado para guiarte en los días más duros'
-					Ganas rápidamente hasta 20% de reducción de daño con el tiempo
-					Recibir daño reduce brevemente este bono a -10% de reducción de daño
-					Mientras el bono esté por encima de 0%, recuperas hasta 2 de vida y bloqueas ataques de 1 de daño
+					Ganas rápidamente hasta {0}% de reducción de daño con el tiempo
+					Recibir daño reduce brevemente este bono a {1}% de reducción de daño
+					Mientras el bono esté por encima de {2}%, recuperas hasta {3} de vida y bloqueas ataques de {4} de daño
 					'''
 			}
 
@@ -5515,11 +5500,7 @@ Mods: {
 
 			ChiLantern: {
 				DisplayName: Linterna de Chi
-				Tooltip:
-					'''
-					Libera tres oleadas de energía curativa con retraso
-					Las oleadas curan a todos los aliados cercanos
-					'''
+				Tooltip: Libera tres ondas de energía curativa con retraso que curan a todos los aliados cercanos
 			}
 
 			ChristmasCenter: {
@@ -5550,8 +5531,8 @@ Mods: {
 				DisplayName: Ojiva Conmocionante
 				Tooltip:
 					'''
-					Aumenta el daño de cohetes en 100% y el daño a distancia aturde brevemente a los enemigos
-					Reduce la velocidad de disparo en 50%
+					Aumenta el daño de cohetes en {0}% y el daño a distancia aturde brevemente a los enemigos
+					Reduce la velocidad de disparo en {1}%
 					'''
 			}
 
@@ -5837,7 +5818,7 @@ Mods: {
 					'''
 					'Échalo directamente en el yoyó para mejores resultados'
 					El daño con yoyó inflige congelación brevemente a los enemigos golpeados
-					Este efecto se recarga cada 5 segundos
+					Este efecto se recarga cada {0} segundos
 					'''
 			}
 
@@ -5890,7 +5871,7 @@ Mods: {
 				Tooltip:
 					'''
 					'Estás en completo control de tu espíritu...'
-					Recibir daño letal te teletransporta a casa instantáneamente cada dos minutos
+					Recibir daño letal te teletransporta a casa instantáneamente cada {0} minutos
 					'''
 			}
 
@@ -6015,8 +5996,8 @@ Mods: {
 				DisplayName: Guante del Destripador
 				Tooltip:
 					'''
-					Aumenta el daño que recibes en un 25%
-					Con menos del 50% de vida, infliges 10% más de daño y obtienes 1% de robo de vida
+					Aumenta el daño que recibes en un {0}%
+					Con menos del {1}% de vida, infliges {2}% más de daño y obtienes {3}% de robo de vida
 					'''
 			}
 
@@ -6043,11 +6024,7 @@ Mods: {
 
 			HappyHomeToken: {
 				DisplayName: Ficha de Hogar Feliz
-				Tooltip:
-					'''
-					Coloca una ficha invisible en la pared
-					Cuenta como una silla, mesa y fuente de luz
-					'''
+				Tooltip: Coloca una ficha invisible de pared que cuenta como silla, mesa y fuente de luz
 			}
 
 			HeartOfStone: {
@@ -6075,7 +6052,7 @@ Mods: {
 				Tooltip:
 					'''
 					Propulsa rápidamente una tormenta de armas celestiales que otorgan 'Mirada Sagrada'
-					El daño contra enemigos con Mirada Sagrada aumenta un 15%
+					El daño contra enemigos con Mirada Sagrada aumenta un {0}%
 					'''
 			}
 
@@ -6129,9 +6106,9 @@ Mods: {
 				DisplayName: Flor Hambrienta
 				Tooltip:
 					'''
-					Al perder el 80% de tu maná máximo, recuperas instantáneamente el 50% y obtienes 10 cargas de 'energía volátil'
-					La energía volátil aumenta tu velocidad de ataque un 0.2%, te daña lentamente y se reduce cada segundo
-					Al alcanzar 100 cargas de energía volátil mueres instantáneamente
+					Al perder el {0}% de tu maná máximo, recuperas instantáneamente el {1}% y obtienes {2} cargas de 'energía volátil'
+					La energía volátil aumenta tu velocidad de ataque un {3}%, te daña lentamente y se reduce cada segundo
+					Al alcanzar {4} cargas de energía volátil mueres instantáneamente
 					'''
 			}
 
@@ -6215,11 +6192,10 @@ Mods: {
 				DisplayName: Escudo de Cuarzo Vital
 				Tooltip:
 					'''
-					Aumenta la velocidad de regeneración de vida
-					Recibir daño por debajo del 25% de vida te rodea con una burbuja protectora
-					Mientras estás dentro, regeneras vida igual a tu bonificación de curación por segundo
-					Además, el daño recibido se reduce un 10%
-					Este efecto se recarga en 30 segundos
+					Aumenta la velocidad a la que regeneras vida
+					Recibir daño por debajo del {0}% de vida te rodea de una burbuja protectora
+					Mientras estés en la burbuja, obtienes recuperación de vida igual a tu curación adicional y {1}% de resistencia al daño
+					Este efecto solo se puede activar cada {2} segundos
 					'''
 			}
 
@@ -6300,10 +6276,9 @@ Mods: {
 				DisplayName: Manto del Protector
 				Tooltip:
 					'''
-					'Honor, Humildad y Voluntad... esos son los verdaderos escudos'
-					Aumenta la defensa en 6
-					Aumenta el tiempo de invulnerabilidad tras recibir daño
-					Disipa hasta un desventaja dañina cada 6 segundos
+					'Honor, humildad y voluntad... Esos son los verdaderos escudos'
+					Aumenta la duración de la invulnerabilidad tras recibir daño
+					Te purga hasta una penalización dañina cada {0} segundos
 					'''
 			}
 
@@ -6346,9 +6321,8 @@ Mods: {
 				Tooltip:
 					'''
 					'Perfecto para la dieta de un dragón en crecimiento... ¿creo?'
-					Invoca un Bebé Dragón montable
-					Mientras estás montado, el dragón escupirá bolas de fuego a los enemigos cercanos
-					Las bolas de fuego causan el mismo tipo de daño que tu arma equipada
+					Invoca un Dragón Bebé montable
+					Mientras estés montado, el dragón escupirá fuego a los enemigos que tenga delante
 					'''
 			}
 
@@ -6356,7 +6330,7 @@ Mods: {
 				DisplayName: Pastillas Metabólicas
 				Tooltip:
 					'''
-					La duración del estado 'lleno' tras comer comida cocida se reduce en un 20%
+					La duración del estado 'lleno' tras comer comida cocida se reduce en un {0}%
 					Mientras estás 'lleno', tu recuperación de vida aumenta
 					'''
 			}
@@ -6597,8 +6571,8 @@ Mods: {
 				Tooltip:
 					'''
 					Genera una barrera ígnea que quema proyectiles hostiles entrantes
-					Después de quemar un proyectil, el escudo debe regenerarse durante 10 segundos
-					Cuando estás por debajo del 25% de vida, el escudo se regenera el doble de rápido
+					Después de quemar un proyectil, el escudo debe regenerarse durante {0} segundos
+					Cuando estás por debajo del {1}% de vida, el escudo se regenera el doble de rápido
 					'''
 			}
 
@@ -6617,7 +6591,7 @@ Mods: {
 				Tooltip:
 					'''
 					'Expulsa demasiada materia'
-					Una nebulosa se genera lentamente a tu alrededor, otorgándote hasta 6 de defensa a medida que crece
+					Una nebulosa se genera lentamente a tu alrededor, otorgándote hasta {0} de defensa a medida que crece
 					Al presionar la tecla '{$Keybinds.AccessoryAbility.DisplayName}', colapsa en una estrella que ataca a los enemigos
 					'''
 			}
@@ -6657,7 +6631,7 @@ Mods: {
 					'Uno debe cuidarse de su codicia interior'
 					Todos los ataques hacen que los enemigos suelten más oro
 					Golpear enemigos hace que caigan monedas adicionales
-					El daño recibido aumenta en un 10%
+					El daño recibido aumenta en un {0}%
 					'''
 			}
 
@@ -6761,7 +6735,7 @@ Mods: {
 				DisplayName: Lanza-Rifle
 				Tooltip:
 					'''
-					Clic izquierdo para apuñalar y ganar hasta 10 esencias de sangre
+					Clic izquierdo para apuñalar y ganar hasta {0} esencias de sangre
 					Clic derecho consume la esencia para lanzar una ráfaga de proyectiles sangrientos
 					'''
 			}
@@ -6821,8 +6795,8 @@ Mods: {
 				DisplayName: Bolsa de Velo Arenoso
 				Tooltip:
 					'''
-					Causar daño con un yoyó otorga 10% de reducción de daño hasta que recibas daño
-					Este efecto necesita 15 segundos para recargarse
+					Causar daño con un yoyó otorga {0}% de reducción de daño hasta que recibas daño
+					Este efecto necesita {1} segundos para recargarse
 					'''
 			}
 
@@ -6886,7 +6860,7 @@ Mods: {
 				DisplayName: Escudo de la Serpiente
 				Tooltip:
 					'''
-					Hasta dos víboras vivas se aferran a enemigos cercanos
+					Hasta {0} víboras vivas se aferran a enemigos cercanos
 					Los enemigos aferrados reciben daño continuo y son envenenados
 					'''
 			}
@@ -6898,13 +6872,8 @@ Mods: {
 
 			ShadowOrbStaff: {
 				DisplayName: Báculo de Orbe Sombrío
-				Tooltip:
-					'''
-					Invoca un orbe de pura sombra en la posición objetivo
-					Haz clic derecho para lanzar todos los orbes hacia el cursor
-					Puedes invocar tantos orbes como ranuras de esbirros tengas
-					'''
-				SpecialTooltip: Invoca hasta [c/{0}:{1}] esferas sombrías en la ubicación seleccionada
+				Tooltip: Clic derecho para lanzar todas las orbes invocadas hacia la posición del cursor
+				SpecialTooltip: Invoca hasta [c/{0}:{1}] orbes sombrías en la ubicación objetivo
 			}
 
 			ShinobiSigil: {
@@ -6990,7 +6959,7 @@ Mods: {
 					'''
 					'Te lo advirtió...'
 					Clic izquierdo para lanzar ecos del segador que se clavan en los enemigos
-					Clic derecho para apuñalar con el segador y robar vida según la cantidad de ecos incrustados
+					Clic derecho para apuñalar con el segador y robar {0} de vida según la cantidad de ecos incrustados
 					'''
 			}
 
@@ -7379,8 +7348,8 @@ Mods: {
 				DisplayName: Colgante de Yuma
 				Tooltip:
 					'''
-					+10% de daño con invocaciones
-					Aumenta tu número máximo de esbirros en 1
+					{0}% de daño con invocaciones
+					Aumenta tu número máximo de esbirros en {1}
 					Recibir daño libera a un protector fantasmal
 					'''
 			}
@@ -7400,7 +7369,7 @@ Mods: {
 				Tooltip:
 					'''
 					'Hecha con escamas míticas'
-					+10% de daño
+					{0}% de daño
 					'''
 			}
 
@@ -7419,7 +7388,7 @@ Mods: {
 				Tooltip:
 					'''
 					'Hechas con escamas míticas'
-					+12% de velocidad de movimiento
+					{0}% de velocidad de movimiento
 					'''
 			}
 
@@ -7428,7 +7397,7 @@ Mods: {
 				Tooltip:
 					'''
 					'Hecha con escamas míticas'
-					+7% de probabilidad de golpe crítico
+					{0}% de probabilidad de golpe crítico
 					'''
 				SetBonus: Los ataques tienen una probabilidad de desatar una explosión de llamas de dragón
 			}
@@ -7506,8 +7475,8 @@ Mods: {
 				Tooltip:
 					'''
 					'Infundida con las almas de los condenados'
-					+20% de daño cuerpo a cuerpo
-					+10% de velocidad cuerpo a cuerpo
+					{0}% de daño cuerpo a cuerpo
+					{1}% de velocidad cuerpo a cuerpo
 					'''
 			}
 
@@ -7526,8 +7495,8 @@ Mods: {
 				Tooltip:
 					'''
 					'Infundidas con las almas de los condenados'
-					+20% de velocidad de movimiento
-					+10% de velocidad cuerpo a cuerpo
+					{0}% de velocidad de movimiento
+					{1}% de velocidad cuerpo a cuerpo
 					'''
 			}
 
@@ -7565,8 +7534,8 @@ Mods: {
 				Tooltip:
 					'''
 					'Infundida con las almas de los condenados'
-					+10% de probabilidad de crítico cuerpo a cuerpo
-					+10% de velocidad cuerpo a cuerpo
+					{0}% de probabilidad de crítico cuerpo a cuerpo
+					{1}% de velocidad cuerpo a cuerpo
 					'''
 				SetBonus:
 					'''
@@ -7629,7 +7598,7 @@ Mods: {
 				Tooltip:
 					'''
 					'Un orbe de energía mágica concentrada'
-					Aumenta el maná máximo en 10
+					Aumenta el maná máximo en {0}
 					'''
 			}
 
@@ -7647,7 +7616,7 @@ Mods: {
 				DisplayName: Sombrero de Seda
 				Tooltip:
 					'''
-					Aumenta el maná máximo en 20
+					Aumenta el maná máximo en {0}
 					Aumenta ligeramente la regeneración de maná
 					'''
 				SetBonus: "{0}% de daño mágico aumentado mientras estés por encima del {1}% del maná máximo"
@@ -7657,7 +7626,7 @@ Mods: {
 				DisplayName: Leotardos de Seda
 				Tooltip:
 					'''
-					Aumenta el maná máximo en 20
+					Aumenta el maná máximo en {0}
 					Aumenta ligeramente la regeneración de maná
 					'''
 			}
@@ -7666,7 +7635,7 @@ Mods: {
 				DisplayName: Túnica de Seda
 				Tooltip:
 					'''
-					Aumenta el maná máximo en 20
+					Aumenta el maná máximo en {0}
 					Aumenta ligeramente la regeneración de maná
 					'''
 			}
@@ -7815,10 +7784,10 @@ Mods: {
 					'''
 					'Atrapa a los enemigos del futuro en agonía temporal'
 					Corrompe tus poderes radiantes
-					-45% de daño no-radiante
-					+45% de daño radiante
-					+16% de probabilidad de crítico radiante
-					Aumenta el maná máximo en 20
+					{0}% de daño no-radiante
+					{1}% de daño radiante
+					{2}% de probabilidad de crítico radiante
+					Aumenta el maná máximo en {3}
 					'''
 				SetBonus:
 					'''
@@ -7833,11 +7802,11 @@ Mods: {
 				Tooltip:
 					'''
 					'Manifiesta tus sueños más profundos a través de tus aliados'
-					-25% de daño no-radiante
-					-35% de coste de maná
+					{0}% de daño no-radiante
+					{1}% de coste de maná
 					Aumenta enormemente la regeneración de maná
-					+60 de maná máximo
-					Los hechizos curativos sanan 6 puntos de vida extra
+					{2} de maná máximo
+					Los hechizos curativos sanan {3} puntos de vida extra
 					'''
 				SetBonus:
 					'''
@@ -7850,11 +7819,11 @@ Mods: {
 				DisplayName: Túnica del Tejedor de Sueños
 				Tooltip:
 					'''
-					-25% de daño no-radiante
-					+25% de daño radiante
-					-20% de coste de maná
+					{0}% de daño no-radiante
+					{1}% de daño radiante
+					{2}% de coste de maná
 					Aumenta enormemente la regeneración de maná
-					Los hechizos curativos sanan 2 puntos de vida extra
+					Los hechizos curativos sanan {3} puntos de vida extra
 					'''
 			}
 
@@ -7862,12 +7831,12 @@ Mods: {
 				DisplayName: Botas del Tejedor de Sueños
 				Tooltip:
 					'''
-					-20% de daño no-radiante
-					+20% de daño radiante
-					-20% de coste de maná
+					{0}% de daño no-radiante
+					{1}% de daño radiante
+					{2}% de coste de maná
 					Aumenta enormemente la regeneración de maná
-					Los hechizos curativos sanan 2 puntos de vida extra
-					+20% de velocidad de movimiento
+					Los hechizos curativos sanan {3} puntos de vida extra
+					{4}% de velocidad de movimiento
 					'''
 			}
 
@@ -7916,10 +7885,10 @@ Mods: {
 				DisplayName: Guardia del Asesino
 				Tooltip:
 					'''
-					+16% de daño a distancia
-					+20% de velocidad de disparo
-					+15% de probabilidad de crítico a distancia
-					-25% de probabilidad de consumir munición
+					{0}% de daño a distancia
+					{1}% de velocidad de disparo
+					{2}% de probabilidad de crítico a distancia
+					{3}% de probabilidad de consumir munición
 					'''
 			}
 
@@ -7927,9 +7896,9 @@ Mods: {
 				DisplayName: Botas del Asesino
 				Tooltip:
 					'''
-					+15% de daño a distancia
-					+10% de probabilidad de crítico a distancia
-					+25% de velocidad de movimiento
+					{0}% de daño a distancia
+					{1}% de probabilidad de crítico a distancia
+					{2}% de velocidad de movimiento
 					'''
 			}
 
@@ -7943,8 +7912,8 @@ Mods: {
 				Tooltip:
 					'''
 					'Ennegrece el cielo con tu tormenta de proyectiles'
-					+12% de daño con flechas
-					+12% de daño a distancia con armas especiales
+					{0}% de daño con flechas
+					{1}% de daño a distancia con armas especiales
 					(Ej: lanzadores, pistolas de dardos o cualquier cosa que no dispare flechas/balas)
 					Los críticos con flechas se transforman en flechas de muerte y rebotan
 					Tu daño a distancia aplica "ícor" a los enemigos alcanzados
@@ -7957,8 +7926,8 @@ Mods: {
 				Tooltip:
 					'''
 					'La pólvora eliminará a los débiles'
-					+24% de daño con flechas y balas
-					El enemigo más cercano es marcado y recibe +10% de daño de todas las fuentes
+					{0}% de daño con flechas y balas
+					El enemigo más cercano es marcado y recibe {1}% de daño de todas las fuentes
 					Tu daño a distancia aplica llamas malditas a los enemigos
 					'''
 				SetBonus:
@@ -8040,11 +8009,11 @@ Mods: {
 				Tooltip:
 					'''
 					'Haz que tu canción inspire a un ejército'
-					Aumenta en 25% la velocidad de regeneración de inspiración
-					Los críticos de percusión hacen +15% de daño
-					Aumenta en 5 la inspiración máxima
+					Aumenta en{0}% la velocidad de regeneración de inspiración
+					Los críticos de percusión hacen {1}% de daño
+					Aumenta en {2} la inspiración máxima
 					Las notas de inspiración que caen serán más potentes
-					También otorgan un nivel 1 de potenciación aleatoria a aliados cercanos
+					También otorgan un nivel {3} de potenciación aleatoria a aliados cercanos
 					'''
 				SetBonus:
 					'''
@@ -8057,21 +8026,21 @@ Mods: {
 				DisplayName: Botas del Rapsoda
 				Tooltip:
 					'''
-					+3 de inspiración máxima
-					+12% de daño sinfónico
-					+10% de probabilidad de crítico sinfónico
-					+20% de velocidad de movimiento
+					{0} de inspiración máxima
+					{1}% de daño sinfónico
+					{2}% de probabilidad de crítico sinfónico
+					{3}% de velocidad de movimiento
 					'''
 			}
 
 			RhapsodistChestWoofer: {
-				DisplayName: Pechera del Rapsoda
+				DisplayName: Pechera-Subwoofer del Rapsoda
 				Tooltip:
 					'''
-					+18% de daño sinfónico
-					+6% de probabilidad de crítico sinfónico
-					+15% de probabilidad de que caigan notas de inspiración
-					+5 segundos a la duración de tus potenciaciones sinfónicas
+					{0}% de daño sinfónico aumentado
+					{1}% de probabilidad de golpe crítico sinfónico aumentada
+					Aumenta la probabilidad de que caigan notas de inspiración un {2}%
+					Aumenta la duración de tus potenciaciones sinfónicas en {3} {^3:segundo;segundos}
 					'''
 			}
 
@@ -8084,7 +8053,7 @@ Mods: {
 					{1}% más probabilidad de golpe crítico sinfónico
 					Aumenta la tasa de regeneración de inspiración en {2}%
 					Aumenta la velocidad de rastreo de instrumentos de viento en {3}%
-					Los proyectiles de instrumentos de cuerda pueden rebotar una vez más
+					Los proyectiles de los instrumentos de cuerda pueden rebotar {4} {^4:vez;veces} adicional
 					'''
 				SetBonus:
 					'''
@@ -8099,7 +8068,7 @@ Mods: {
 					'''
 					'La vibrante destrucción silencia el ruido del odio...'
 					Desata un hiper rayo vibrante que afina a los enemigos
-					Los enemigos afinados reciben un 10% más de daño
+					Los enemigos afinados reciben un {0}% más de daño
 					'''
 			}
 
@@ -8107,10 +8076,9 @@ Mods: {
 				DisplayName: La Batería
 				Tooltip:
 					'''
-					'El ritmo se siente en todas las cosas...'
-					Te permite golpear rítmicamente un set de batería
-					Cada golpe cronometrado aumenta el daño del set en un 4% hasta un máximo de 120%
-					Cada golpe cronometrado por encima del 80% de daño adicional libera estallidos de sonido extra
+					'El ritmo se puede sentir en todas las cosas...'
+					Te permite tocar rítmicamente una batería
+					Acertar el ritmo aumentará progresivamente su daño, nivel de potenciación y cantidad de proyectiles
 					{$Common.Tooltips.BigInstrument}
 					'''
 			}
@@ -8153,9 +8121,9 @@ Mods: {
 				Tooltip:
 					'''
 					'Comanda un ejército reforzado con magma'
-					Aumenta en 50% el daño de invocación
-					Aumenta tu número máximo de esbirros en 6
-					Aumenta tu número máximo de centinelas en 2
+					Aumenta en {0}% el daño de invocación
+					Aumenta tu número máximo de esbirros en {1}
+					Aumenta tu número máximo de centinelas en {2}
 					Aumenta el retroceso de tus esbirros
 					'''
 				SetBonus: Todo daño de invocación deja una quemadura persistente que inflige gran daño con el tiempo
@@ -8175,10 +8143,10 @@ Mods: {
 				Tooltip:
 					'''
 					'Tus ojos fundidos deberían causar temor'
-					+20% de daño mágico
-					La maná máxima aumenta en 60 y la regeneración de maná se incrementa enormemente
-					Cada enemigo cercano que esté ardiendo aumenta tu daño mágico en 0.5%
-					Este efecto es 10 veces más efectivo contra jefes
+					{0}% de daño mágico
+					La maná máxima aumenta en {1} y la regeneración de maná se incrementa enormemente
+					Cada enemigo cercano que esté ardiendo aumenta tu daño mágico en {2}%
+					Este efecto es {3} veces más efectivo contra jefes
 					Tus ataques mágicos chamuscan e incendian a los enemigos
 					'''
 				SetBonus: Tu daño mágico quemará severamente y dañará a todos los enemigos adyacentes
@@ -8189,9 +8157,9 @@ Mods: {
 				Tooltip:
 					'''
 					'Estás consumido por una furia fundida'
-					+14% de daño mágico y de invocación
-					La maná máxima aumenta en 20
-					+15% de velocidad de movimiento
+					{0}% de daño mágico y de invocación
+					La maná máxima aumenta en {1}
+					{2}% de velocidad de movimiento
 					'''
 			}
 
@@ -8200,9 +8168,9 @@ Mods: {
 				Tooltip:
 					'''
 					'Estás consumido por una furia fundida'
-					+18% de daño mágico y de invocación
-					La maná máxima aumenta en 20
-					+16% de probabilidad de golpe crítico mágico
+					{0}% de daño mágico y de invocación
+					La maná máxima aumenta en {1}
+					{2}% de probabilidad de golpe crítico mágico
 					'''
 			}
 
@@ -8268,10 +8236,10 @@ Mods: {
 				DisplayName: Amortiguador de Impacto
 				Tooltip:
 					'''
-					Aumenta la tasa de regeneración de inspiración en un 10%
-					El daño sinfónico que infliges se acumula hasta un máximo de 1000
-					Al presionar la tecla '{$Keybinds.AccessoryAbility.DisplayName}', aumentas el daño de los aliados cercanos en un 15%
-					La duración de este efecto se incrementa en 3 segundos por cada 100 de daño almacenado
+					Aumenta la tasa de regeneración de inspiración en un {0}%
+					El daño sinfónico que infliges se acumula hasta un máximo de {1}
+					Al presionar la tecla '{$Keybinds.AccessoryAbility.DisplayName}', aumentas el daño de los aliados cercanos en un {2}%
+					La duración de este efecto se incrementa en {3} segundos por cada {4} de daño almacenado
 					'''
 			}
 
@@ -8338,7 +8306,7 @@ Mods: {
 					'''
 					'La belleza es subjetiva después de todo'
 					Obtienes visión de la posición actual de tu cursor
-					Los enemigos cercanos al cursor son revelados brevemente y reciben un 15% más de daño de todas las fuentes
+					Los enemigos cercanos al cursor son revelados brevemente y reciben un {0}% más de daño de todas las fuentes
 					'''
 			}
 
@@ -8605,22 +8573,21 @@ Mods: {
 
 			AloeLeaf: {
 				DisplayName: Hoja de Aloe
-				Tooltip: Al curar a un aliado, le otorgas 2 de recuperación de vida durante 10 segundos
+				Tooltip: Al curar a un aliado, le otorgas {0} de recuperación de vida durante {1} segundos
 			}
 
 			AncientAegis: {
 				DisplayName: Égida Antigua
-				Tooltip: Los aliados cercanos reciben un 5% menos de daño
+				Tooltip: Los aliados cercanos reciben un {0}% menos de daño
 			}
 
 			Revivify: {
 				DisplayName: Revivificar
 				Tooltip:
 					'''
-					Te permite revivir jugadores que murieron recientemente
-					Si está en tu inventario, los jugadores cercanos que mueren dejan un espíritu persistente
-					Canalizar sobre el espíritu durante {0} {^0:segundo;segundos} los resucitará con {1}% de vida
-					Los jugadores revividos estarán 'agotados' por {2} {^2:segundo;segundos} después de revivir
+					'Te permite revivir a jugadores caídos recientemente'
+					Mientras esté en tu inventario, los jugadores cercanos que mueran dejarán un espíritu persistente
+					Los jugadores resucitados quedarán 'debilitados' durante el tiempo restante de su contador de muerte tras ser revividos
 					'''
 				ChannelTime: Canalizar sobre el espíritu durante [c/{0}:{1}] segundos lo resucitará con el [c/{2}:{3}%] de vida
 			}
@@ -8634,10 +8601,9 @@ Mods: {
 				DisplayName: Corazón del Arcángel
 				Tooltip:
 					'''
-					La vida máxima aumenta en 20
-					La maná máxima aumenta en 20
-					+15% de velocidad de curación
-					Los hechizos de curación restauran 2 puntos de vida adicionales
+					Vida y maná máximos aumentados en {0}
+					{1}% de velocidad de curación aumentada
+					Los hechizos de curación curarán {2} de vida adicional
 					'''
 			}
 
@@ -8646,10 +8612,10 @@ Mods: {
 				Tooltip:
 					'''
 					Potencia ciertos ataques radiantes con energía oscura
-					La vida máxima aumenta en 20
-					+10% de velocidad de lanzamiento radiante
-					+20% de daño radiante
-					+12% de probabilidad de golpe crítico radiante
+					La vida máxima aumenta en {0}
+					{1}% de velocidad de lanzamiento radiante
+					{2}% de daño radiante
+					{3}% de probabilidad de golpe crítico radiante
 					'''
 			}
 
@@ -8685,11 +8651,11 @@ Mods: {
 				DisplayName: Túnica Biotecnológica
 				Tooltip:
 					'''
-					-25% de daño no radiante
-					+15% de daño radiante
+					{0}% de daño no radiante
+					{1}% de daño radiante
 					Aumenta la regeneración de maná
-					-10% de coste de maná
-					Los hechizos de curación restauran 3 puntos de vida adicionales
+					{2}% de coste de maná
+					Los hechizos de curación restauran {3} puntos de vida adicionales
 					'''
 			}
 
@@ -8697,12 +8663,12 @@ Mods: {
 				DisplayName: Capucha Biotecnológica
 				Tooltip:
 					'''
-					-15% de daño no radiante
-					+10% de daño radiante
-					-12% de coste de maná
+					{0}% de daño no radiante
+					{1}% de daño radiante
+					{2}% de coste de maná
 					Aumenta la regeneración de maná
-					La maná máxima aumenta en 20
-					Los hechizos de curación restauran 1 punto de vida adicional
+					La maná máxima aumenta en {3}
+					Los hechizos de curación restauran {4} punto de vida adicional
 					'''
 				SetBonus:
 					'''
@@ -8715,11 +8681,11 @@ Mods: {
 				DisplayName: Leotardos Biotecnológicos
 				Tooltip:
 					'''
-					-15% de daño no radiante
-					+15% de daño radiante
+					{0}% de daño no radiante
+					{1}% de daño radiante
 					Aumenta la regeneración de maná
-					-8% de coste de maná
-					Los hechizos de curación restauran 2 puntos de vida adicionales
+					{2}% de coste de maná
+					Los hechizos de curación restauran {3} puntos de vida adicionales
 					'''
 			}
 
@@ -8750,10 +8716,10 @@ Mods: {
 				DisplayName: Corona de Floración
 				Tooltip:
 					'''
-					-10% de daño no radiante
-					+5% de daño radiante
+					{0}% de daño no radiante
+					{1}% de daño radiante
 					Regeneración de maná moderadamente aumentada
-					Los hechizos de curación restauran 1 punto de vida adicional
+					Los hechizos de curación restauran {2} punto de vida adicional
 					'''
 				SetBonus: Tus hechizos de curación aumentan la recuperación y la tasa de recuperación de vida del objetivo curado
 			}
@@ -8762,10 +8728,10 @@ Mods: {
 				DisplayName: Leotardos de Floración
 				Tooltip:
 					'''
-					-10% de daño no radiante
-					+5% de daño radiante
+					{0}% de daño no radiante
+					{1}% de daño radiante
 					Regeneración de maná moderadamente aumentada
-					Los hechizos de curación restauran 1 punto de vida adicional
+					Los hechizos de curación restauran {2} punto de vida adicional
 					'''
 			}
 
@@ -8773,10 +8739,10 @@ Mods: {
 				DisplayName: Túnica de Floración
 				Tooltip:
 					'''
-					-10% de daño no radiante
-					+5% de daño radiante
+					{0}% de daño no radiante
+					{1}% de daño radiante
 					Regeneración de maná moderadamente aumentada
-					Los hechizos de curación restauran 1 punto de vida adicional
+					Los hechizos de curación restauran {2} punto de vida adicional
 					'''
 			}
 
@@ -8832,12 +8798,12 @@ Mods: {
 				DisplayName: Corona Celestial
 				Tooltip:
 					'''
-					-20% de daño no radiante
-					+10% de daño radiante
-					-20% de coste de maná
+					{0}% de daño no radiante
+					{1}% de daño radiante
+					{2}% de coste de maná
 					Regeneración de maná muy aumentada
-					La maná máxima aumenta en 60
-					Los hechizos de curación restauran 2 puntos de vida adicionales
+					La maná máxima aumenta en {3}
+					Los hechizos de curación restauran {4} puntos de vida adicionales
 					'''
 				SetBonus:
 					'''
@@ -8861,11 +8827,11 @@ Mods: {
 				DisplayName: Leotardos Celestiales
 				Tooltip:
 					'''
-					-20% de daño no radiante
-					+20% de daño radiante
-					-25% de coste de maná
+					{0}% de daño no radiante
+					{1}% de daño radiante
+					{2}% de coste de maná
 					Regeneración de maná muy aumentada
-					Los hechizos de curación restauran 2 puntos de vida adicionales
+					Los hechizos de curación restauran {3} puntos de vida adicionales
 					+20% de velocidad de movimiento
 					'''
 			}
@@ -8874,11 +8840,11 @@ Mods: {
 				DisplayName: Vestidura Celestial
 				Tooltip:
 					'''
-					-25% de daño no radiante
-					+25% de daño radiante
-					-25% de coste de maná
+					{0}% de daño no radiante
+					{1}% de daño radiante
+					{2}% de coste de maná
 					Regeneración de maná muy aumentada
-					Los hechizos de curación restauran 4 puntos de vida adicionales
+					Los hechizos de curación restauran {3} puntos de vida adicionales
 					'''
 			}
 
@@ -8898,19 +8864,15 @@ Mods: {
 
 			CleansingWaterPouch: {
 				DisplayName: Bolsa de Agua Purificadora
-				Tooltip:
-					'''
-					Invoca una glóbulo de agua imbuida y controlable
-					El glóbulo recupera periódicamente su capacidad de curar, consumiendo 8 de maná
-					'''
-				ScalingTooltip: El glóbulo repone periódicamente su capacidad de curar, consumiendo {0} de maná
+				Tooltip: Genera una glóbulo de agua impregnada totalmente controlable
+				ScalingTooltip: El glóbulo reabastece periódicamente su capacidad de curación, consumiendo {0} de maná
 			}
 
 			ClericEmblem: {
 				DisplayName: Emblema del Clérigo
 				Tooltip:
 					'''
-					+12% de daño radiante
+					{0}% de daño radiante
 					Los hechizos de curación restauran 1 punto de vida adicional
 					'''
 			}
@@ -8938,9 +8900,8 @@ Mods: {
 				DisplayName: Arcanita Cristalina
 				Tooltip:
 					'''
-					La vida máxima aumenta en 20
-					La maná máxima aumenta en 20
-					Los hechizos de curación restauran 1 punto de vida adicional
+					Vida y maná máximos aumentados en {0}
+					Los hechizos de curación curarán {1} de vida adicional
 					'''
 			}
 
@@ -8949,9 +8910,9 @@ Mods: {
 				Tooltip:
 					'''
 					'Las extrañas propiedades de la miel no se extraen fácilmente'
-					La vida máxima aumenta en 20
-					+10% de daño radiante
-					+5% de probabilidad de crítico radiante
+					La vida máxima aumenta en {0}
+					{1}% de daño radiante
+					{2}% de probabilidad de crítico radiante
 					'''
 			}
 
@@ -8978,7 +8939,7 @@ Mods: {
 				Tooltip:
 					'''
 					Potencia ciertos ataques radiantes con energía oscura
-					+15% de daño radiante
+					{0}% de daño radiante
 					Los enemigos afectados por llama sombría o maldición de luz aumentan tu regeneración de vida
 					'''
 			}
@@ -8989,15 +8950,15 @@ Mods: {
 					'''
 					'Endiabladamente dulce'
 					Potencia ciertos ataques radiantes con energía oscura
-					La vida máxima aumenta en 20
-					+15% de daño radiante
-					+10% de probabilidad de crítico radiante
+					La vida máxima aumenta en {0}
+					{1}% de daño radiante
+					{2}% de probabilidad de crítico radiante
 					'''
 			}
 
 			DarkHeart: {
 				DisplayName: Corazón Oscuro
-				Tooltip: Cada 40 de vida curada a aliados libera un rayo de energía radiante dañina
+				Tooltip: Cada {0} de vida curada a aliados libera un rayo de energía radiante dañina
 			}
 
 			DarkIntent: {
@@ -9005,9 +8966,9 @@ Mods: {
 				Tooltip:
 					'''
 					Potencia ciertos ataques radiantes con energía oscura
-					+10% de daño radiante
-					Tu bonificación de curación se reduce en 1
-					Los enemigos que golpeas reciben 100% más daño por efectos de llama sombría y maldición de luz en el tiempo
+					{0}% de daño radiante
+					Tu bonificación de curación se reduce en {1}
+					Los enemigos que golpeas reciben {2}% más daño por efectos de llama sombría y maldición de luz en el tiempo
 					'''
 			}
 
@@ -9040,8 +9001,8 @@ Mods: {
 				Tooltip:
 					'''
 					Potencia ciertos ataques radiantes con energía oscura
-					+12% de daño radiante
-					Reduce a la mitad el coste de vida radiante, pero no su efecto de transferencia de vida
+					{0}% de daño radiante aumentado
+					Reduce a la mitad los costes de vida radiante, pero no su efecto de transferencia de vida
 					'''
 			}
 
@@ -9070,7 +9031,7 @@ Mods: {
 				Tooltip:
 					'''
 					Invoca una zona de furia en la posición de tu cursor
-					Los jugadores dentro de la zona infligen +15% de daño
+					Los jugadores dentro de la zona infligen {0}% de daño
 					'''
 			}
 
@@ -9083,11 +9044,10 @@ Mods: {
 				DisplayName: Capa Ébano
 				Tooltip:
 					'''
-					-10% de daño no radiante
-					+8% de daño radiante
-					+2% de probabilidad de crítico radiante
-					La maná máxima aumenta en 5
-					Los hechizos de curación restauran 1 punto de vida adicional
+					{0}% de daño no radiante reducido
+					Aumenta el daño radiante en {1}
+					Maná máximo aumentado en {2}
+					Los hechizos de curación curarán {3} de vida adicional
 					'''
 			}
 
@@ -9095,10 +9055,9 @@ Mods: {
 				DisplayName: Capucha Ébano
 				Tooltip:
 					'''
-					-10% de daño no radiante
-					+5% de daño radiante
-					+2% de probabilidad de crítico radiante
-					La maná máxima aumenta en 10
+					{0}% de daño no radiante reducido
+					Aumenta el daño radiante en {1}
+					Maná máximo aumentado en {2}
 					'''
 				SetBonus: Potencia ciertos ataques radiantes con energía oscura, dándoles forma oscura y efectos adicionales
 			}
@@ -9107,10 +9066,9 @@ Mods: {
 				DisplayName: Leotardos Ébano
 				Tooltip:
 					'''
-					-10% de daño no radiante
-					+7% de daño radiante
-					+2% de probabilidad de crítico radiante
-					La maná máxima aumenta en 5
+					{0}% de daño no radiante reducido
+					Aumenta el daño radiante en {1}
+					Maná máximo aumentado en {2}
 					'''
 			}
 
@@ -9118,9 +9076,10 @@ Mods: {
 				DisplayName: Ecualizador
 				Tooltip:
 					'''
-					Los hechizos de curación restauran 1 punto de vida adicional
-					Curar aliados con menos vida que tú aumenta su regeneración
-					Curar aliados con más vida que tú aumenta tu regeneración
+					Los hechizos de curación curarán {0} de vida adicional
+					Curar a un aliado le otorga brevemente {1} de recuperación de vida
+					Curar a aliados con menos salud que tú les otorga brevemente {2} de recuperación de vida
+					Curar a aliados con más salud que tú te otorga brevemente {3} de recuperación de vida
 					'''
 			}
 
@@ -9128,11 +9087,11 @@ Mods: {
 				DisplayName: Coraza del Paladín Caído
 				Tooltip:
 					'''
-					-30% de daño no radiante
-					+30% de daño radiante
-					+8% de probabilidad de crítico radiante
-					+15% de reducción de daño
-					Los hechizos de curación restauran 2 puntos de vida adicionales
+					{0}% de daño no radiante reducido
+					{1}% de daño radiante aumentado
+					{2}% de probabilidad de golpe crítico radiante aumentada
+					{3}% de reducción de daño aumentada
+					Los hechizos de curación curarán {4} de vida adicional
 					'''
 			}
 
@@ -9140,9 +9099,9 @@ Mods: {
 				DisplayName: Máscara del Paladín Caído
 				Tooltip:
 					'''
-					-20% de daño no radiante
-					+20% de daño radiante
-					+3% de probabilidad de crítico radiante
+					{0}% de daño no radiante
+					{1}% de daño radiante
+					{2}% de probabilidad de crítico radiante
 					Aumenta la tasa de regeneración de vida
 					'''
 				SetBonus: Al recibir daño, curas a los aliados cercanos un {0}% del daño recibido
@@ -9152,12 +9111,12 @@ Mods: {
 				DisplayName: Grebas del Paladín Caído
 				Tooltip:
 					'''
-					-25% de daño no radiante
-					+25% de daño radiante
-					+4% de probabilidad de crítico radiante
-					-15% de coste de maná
-					+20% de velocidad de movimiento
-					Los hechizos de curación restauran 1 punto de vida adicional
+					{0}% de daño no radiante
+					{1}% de daño radiante
+					{2}% de probabilidad de crítico radiante
+					{3}% de coste de maná
+					{4}% de velocidad de movimiento
+					Los hechizos de curación restauran {5} punto de vida adicional
 					'''
 			}
 
@@ -9183,9 +9142,8 @@ Mods: {
 				DisplayName: Collar de Cruz Olvidada
 				Tooltip:
 					'''
-					'Te recuerda a un viejo amigo...'
-					Los hechizos de curación aumentan la defensa del objetivo en 14 durante 15 segundos
-					Aumenta el tiempo de invulnerabilidad tras recibir daño
+					Los hechizos de curación aumentarán la defensa de los objetivos curados en {0} durante {1} segundos
+					Aumenta la duración de la invencibilidad tras recibir daño
 					'''
 				FluffTooltip: "'Te recuerda a un viejo amigo...'"
 			}
@@ -9206,12 +9164,8 @@ Mods: {
 			}
 
 			GraniteIonStaff: {
-				DisplayName: Bastón Iónico de Granito
-				Tooltip:
-					'''
-					Carga una ráfaga ionizada de energía de granito
-					Cargar la ráfaga multiplica su potencia hasta 3 veces
-					'''
+				DisplayName: Báculo de Iones de Granito
+				Tooltip: Carga energía de granito ionizado, multiplicando la potencia de su escudo hasta 3 veces
 			}
 
 			GraveGoods: {
@@ -9219,7 +9173,7 @@ Mods: {
 				Tooltip:
 					'''
 					Los aliados cercanos que mueren dejan un alma de energía espiritual
-					Los jugadores que tocan el alma recuperan vida igual al 15% de la vida máxima del aliado
+					Los jugadores que tocan el alma recuperan vida igual al {0}% de la vida máxima del aliado
 					'''
 			}
 
@@ -9227,8 +9181,8 @@ Mods: {
 				DisplayName: Bendición Sagrada
 				Tooltip:
 					'''
-					Dispara un pulso de luz que bendice a los enemigos con ‘Mirada Sagrada’
-					Todo el daño infligido a enemigos con Mirada Sagrada aumenta en un 15%
+					Dispara un pulso de luz que bendice a los enemigos con 'Mirada Sagrada'
+					Todo el daño infligido a enemigos con Mirada Sagrada aumenta en un {0}%
 					'''
 			}
 
@@ -9241,7 +9195,7 @@ Mods: {
 				DisplayName: Espejo de Cabeza
 				Tooltip:
 					'''
-					Los hechizos de curación restauran 1 punto de vida adicional
+					Los hechizos de curación restauran {0} punto de vida adicional
 					Te apunta hacia el aliado con menos vida
 					'''
 			}
@@ -9321,19 +9275,19 @@ Mods: {
 				DisplayName: Grebas Iridiscentes
 				Tooltip:
 					'''
-					+10% de daño radiante
-					+8% de velocidad de movimiento
-					Los hechizos de curación restauran 1 punto de vida adicional
+					{0}% de daño radiante aumentado
+					{1}% de velocidad de movimiento aumentada
+					Los hechizos de curación curarán {2} de vida adicional
 					'''
 			}
 
 			IridescentHelmet: {
-				DisplayName: Casco Iridiscente
-				Tooltip: +16% de daño radiante
+				DisplayName: Iridescent Helmet
+				Tooltip: "{0}% de daño radiante aumentado"
 				SetBonus:
 					'''
-					Tu daño radiante tiene un {0}% de probabilidad de liberar un destello cegador de luz
-					El destello cura a los aliados cercanos según tu bonificación de curación y confunde a los enemigos
+					Tu suerte aumenta ligeramente
+					El daño radiante tiene un {0}% de probabilidad de destellar, curando a los aliados cercanos {1} de vida y confundiendo a los enemigos
 					'''
 			}
 
@@ -9341,9 +9295,9 @@ Mods: {
 				DisplayName: Coraza Iridiscente
 				Tooltip:
 					'''
-					+12% de daño radiante
-					+8% de probabilidad de golpe crítico radiante
-					Los hechizos de curación restauran 1 punto de vida adicional
+					{0}% de daño radiante
+					{1}% de probabilidad de golpe crítico radiante
+					Los hechizos de curación restauran {2} punto de vida adicional
 					'''
 			}
 
@@ -9360,8 +9314,8 @@ Mods: {
 				DisplayName: Portador Kármico
 				Tooltip:
 					'''
-					Tu racha de curación alimenta un antiguo crisol cada 100 puntos de vida, hasta un total de 500
-					El crisol incrementa tu daño radiante en 8% por cada 100 puntos de vida almacenados
+					Tu racha de curación alimenta un antiguo crisol cada {0} puntos de vida, hasta un total de {1}
+					El crisol incrementa tu daño radiante en {2}% por cada {3} puntos de vida almacenados
 					'''
 			}
 
@@ -9402,11 +9356,11 @@ Mods: {
 				DisplayName: Coraza del Vínculo Vital
 				Tooltip:
 					'''
-					-25% de daño no radiante
-					+15% de daño radiante
+					{0}% de daño no radiante
+					{1}% de daño radiante
 					Aumenta la regeneración de maná
-					-12% de coste de maná
-					Los hechizos de curación restauran 4 puntos de vida adicionales
+					{2}% de coste de maná
+					Los hechizos de curación restauran {3} puntos de vida adicionales
 					'''
 			}
 
@@ -9414,12 +9368,12 @@ Mods: {
 				DisplayName: Grebas del Vínculo Vital
 				Tooltip:
 					'''
-					-20% de daño no radiante
-					+15% de daño radiante
+					{0}% de daño no radiante
+					{1}% de daño radiante
 					Aumenta la regeneración de maná
-					-10% de coste de maná
-					+15% de velocidad de movimiento
-					Los hechizos de curación restauran 1 punto de vida adicional
+					{2}% de coste de maná
+					{3}% de velocidad de movimiento
+					Los hechizos de curación restauran {4} punto de vida adicional
 					'''
 			}
 
@@ -9427,12 +9381,12 @@ Mods: {
 				DisplayName: Máscara del Vínculo Vital
 				Tooltip:
 					'''
-					-15% de daño no radiante
-					+10% de daño radiante
-					-18% de coste de maná
+					{0}% de daño no radiante
+					{1}% de daño radiante
+					{2}% de coste de maná
 					Aumenta la regeneración de maná
-					La maná máxima aumenta en 40
-					Los hechizos de curación restauran 2 puntos de vida adicionales
+					La maná máxima aumenta en {3}
+					Los hechizos de curación restauran {4} puntos de vida adicionales
 					'''
 				SetBonus: Los hechizos de curación aumentan temporalmente la vida máxima del jugador curado en {0}
 			}
@@ -9455,8 +9409,8 @@ Mods: {
 				DisplayName: Gema de Vida
 				Tooltip:
 					'''
-					La vida máxima aumenta en 20
-					Los hechizos de curación restauran 1 punto de vida adicional
+					La vida máxima aumenta en {0}
+					Los hechizos de curación restauran {1} punto de vida adicional
 					'''
 			}
 
@@ -9510,7 +9464,7 @@ Mods: {
 
 			LightsLament: {
 				DisplayName: Lamento de la Luz
-				Tooltip: Debilita a los enemigos golpeados, haciéndolos recibir 10 de daño adicional de todos los ataques radiantes
+				Tooltip: Debilita a los enemigos golpeados, haciéndolos recibir {0} de daño adicional de todos los ataques radiantes
 			}
 
 			LilCherubsWand: {
@@ -9545,8 +9499,8 @@ Mods: {
 				Tooltip:
 					'''
 					Lanza huesos mágicos que rodean y protegen a los aliados
-					Al recibir daño, se pierde un hueso pero el daño se reduce en un 15%
-					Puedes tener hasta cuatro huesos alrededor de un aliado, los cuales se descomponen cada 10 segundos
+					Al recibir daño, se pierde un hueso pero el daño se reduce en un {0}%
+					Puedes tener hasta {1} huesos alrededor de un aliado, los cuales se descomponen cada {2} {^2:segundo;segundos}
 					'''
 			}
 
@@ -9561,9 +9515,9 @@ Mods: {
 				DisplayName: Bolsa Médica
 				Tooltip:
 					'''
-					Los hechizos de curación restauran 1 punto de vida adicional
+					Los hechizos de curación restauran {0} punto de vida adicional
 					Te apunta hacia el aliado con menos vida
-					Curar a aliados en combate les otorga 2 de recuperación de vida durante 5 segundos
+					Curar a aliados en combate les otorga {1} de recuperación de vida durante {2} {^2:segundo;segundos}
 					'''
 			}
 
@@ -9605,9 +9559,8 @@ Mods: {
 				DisplayName: Bastón de Luz Lunar
 				Tooltip:
 					'''
-					Cura la vida del aliado en un 5% de su vida máxima
-					Canaliza una luna en fase sobre la cabeza del lanzador
-					Cuando la luna está llena, lanza una onda curativa a costa de 15 de maná
+					Cura a los aliados un equivalente al 5% de su vida máxima
+					Canaliza una luna cambiante sobre la cabeza del invocador, la cual libera periódicamente una onda curativa
 					'''
 			}
 
@@ -9634,7 +9587,7 @@ Mods: {
 				DisplayName: Estatuilla del Nirvana
 				Tooltip:
 					'''
-					Los hechizos de curación restauran 1 punto de vida adicional
+					Los hechizos de curación restauran {0} punto de vida adicional
 					Al recibir daño letal, liberas tu espíritu interior y reapareces el doble de rápido
 					Tu espíritu interior lanza constantemente rayos de energía curativa hacia tu cursor
 					'''
@@ -9644,11 +9597,11 @@ Mods: {
 				DisplayName: Capucha del Clérigo Novato
 				Tooltip:
 					'''
-					-10% de daño no radiante
-					+3% de daño radiante
+					{0}% de daño no radiante
+					{1}% de daño radiante
 					Aumento mínimo de regeneración de maná
-					La maná máxima aumenta en 5
-					Los hechizos de curación restauran 1 punto de vida adicional
+					La maná máxima aumenta en {2}
+					Los hechizos de curación restauran {3} punto de vida adicional
 					'''
 				SetBonus:
 					'''
@@ -9661,11 +9614,11 @@ Mods: {
 				DisplayName: Pantalones del Clérigo Novato
 				Tooltip:
 					'''
-					-10% de daño no radiante
-					+3% de daño radiante
+					{0}% de daño no radiante
+					{1}% de daño radiante
 					Aumento mínimo de regeneración de maná
-					La maná máxima aumenta en 5
-					Los hechizos de curación restauran 1 punto de vida adicional
+					La maná máxima aumenta en {2}
+					Los hechizos de curación restauran {3} punto de vida adicional
 					'''
 			}
 
@@ -9673,11 +9626,11 @@ Mods: {
 				DisplayName: Túnica del Clérigo Novato
 				Tooltip:
 					'''
-					-10% de daño no radiante
-					+4% de daño radiante
+					{0}% de daño no radiante
+					{1}% de daño radiante
 					Aumento mínimo de regeneración de maná
-					La maná máxima aumenta en 10
-					Los hechizos de curación restauran 2 puntos de vida adicionales
+					La maná máxima aumenta en {2}
+					Los hechizos de curación restauran {3} puntos de vida adicionales
 					'''
 			}
 
@@ -9686,7 +9639,7 @@ Mods: {
 				Tooltip:
 					'''
 					Invoca una gran zona nula en la ubicación del cursor
-					Los jugadores dentro de la zona reciben un 20% menos de daño por proyectiles
+					Los jugadores dentro de la zona reciben un {0}% menos de daño por proyectiles
 					'''
 			}
 
@@ -9694,7 +9647,7 @@ Mods: {
 				DisplayName: Bolsa de la Enfermera
 				Tooltip:
 					'''
-					Los hechizos de curación restauran 1 punto de vida adicional
+					Los hechizos de curación restauran {0} punto de vida adicional
 					Tus rachas de curación generan dinero al completarse
 					'''
 			}
@@ -9710,7 +9663,7 @@ Mods: {
 
 			PacifistNecklace: {
 				DisplayName: Collar del Pacifista
-				Tooltip: Cuando estás fuera de combate, los hechizos de curación restauran 2 puntos de vida adicionales
+				Tooltip: Cuando estás fuera de combate, los hechizos de curación restauran {0} puntos de vida adicionales
 			}
 
 			PaganGrasp: {
@@ -9780,9 +9733,8 @@ Mods: {
 				DisplayName: Prydwen
 				Tooltip:
 					'''
-					Aumenta la defensa en 2
-					Reduce el retroceso recibido al ser golpeado
-					Curar exitosamente a un aliado con un hechizo recupera 4 puntos de vida
+					Reduce el empuje que recibes al sufrir daño
+					Curar con éxito a un aliado con un hechizo de curación reabastecerá {0} de vida
 					'''
 			}
 
@@ -9828,10 +9780,8 @@ Mods: {
 				DisplayName: Bastón del Redentor
 				Tooltip:
 					'''
-					Te permite devolver a los jugadores recientemente reaparecidos a su lugar de muerte
-					Si está en tu inventario, los jugadores cercanos que mueren dejan un espíritu persistente
-					Canalizar sobre el espíritu durante 5 segundos los devolverá a ese lugar
-					Los jugadores devueltos estarán agotados por 10 segundos al llegar
+					'Te permite devolver a los jugadores reaparecidos recientemente a la ubicación de su muerte'
+					Mientras esté en tu inventario, los jugadores cercanos que mueran dejarán un espíritu persistente
 					'''
 				ChannelTime: Canalizar sobre el espíritu durante [c/{0}:{1}] segundos lo devolverá a la ubicación del espíritu cuando reaparezca
 			}
@@ -9877,11 +9827,11 @@ Mods: {
 				DisplayName: Coraza Sagrada
 				Tooltip:
 					'''
-					-20% de daño no radiante
-					+15% de daño radiante
+					{0}% de daño no radiante
+					{1}% de daño radiante
 					Aumenta la regeneración de maná
-					-14% de coste de maná
-					Los hechizos de curación restauran 2 puntos de vida adicionales
+					{2}% de coste de maná
+					Los hechizos de curación restauran {3} puntos de vida adicionales
 					'''
 			}
 
@@ -9898,11 +9848,11 @@ Mods: {
 				DisplayName: Casco Sagrado
 				Tooltip:
 					'''
-					-15% de daño no radiante
-					+10% de daño radiante
+					{0}% de daño no radiante
+					{1}% de daño radiante
 					Aumenta la regeneración de maná
-					-7% de coste de maná
-					Los hechizos de curación restauran 1 punto de vida adicional
+					{2}% de coste de maná
+					Los hechizos de curación restauran {3} punto de vida adicional
 					'''
 				SetBonus: Los hechizos de curación restauran {0} puntos de vida adicionales
 			}
@@ -9911,11 +9861,11 @@ Mods: {
 				DisplayName: Leotardos Sagrados
 				Tooltip:
 					'''
-					-15% de daño no radiante
-					+10% de daño radiante
+					{0}% de daño no radiante
+					{1}% de daño radiante
 					Aumenta la regeneración de maná
-					-9% de coste de maná
-					Los hechizos de curación restauran 1 punto de vida adicional
+					{2}% de coste de maná
+					Los hechizos de curación restauran {3} punto de vida adicional
 					'''
 			}
 
@@ -9934,10 +9884,8 @@ Mods: {
 				DisplayName: Gracia Salvadora
 				Tooltip:
 					'''
-					+5% de velocidad de curación
-					Curar a un aliado incrementa enormemente su regeneración de vida
-					Los hechizos de curación aumentan la defensa del objetivo curado en 14 durante 15 segundos
-					Aumenta la duración de la invulnerabilidad tras recibir daño
+					{$Items.VerdantOrnament.Tooltip}
+					{$Items.ForgottenCrossNecklace.Tooltip@1}
 					'''
 			}
 
@@ -9948,7 +9896,7 @@ Mods: {
 
 			SeraphimIdol: {
 				DisplayName: Ídolo del Serafín
-				Tooltip: +18% de velocidad de curación
+				Tooltip: {0}% de velocidad de curación
 			}
 
 			SerpentsBubbleWand: {
@@ -9995,9 +9943,9 @@ Mods: {
 				Tooltip:
 					'''
 					Los enemigos son menos propensos a atacarte
-					Tú y los aliados cercanos reciben 5% menos de daño
+					Tú y los aliados cercanos reciben {0}% menos de daño
 					Los aliados cercanos que mueren dejan un alma de energía espiritual
-					Los jugadores que tocan el alma recuperan vida igual al 15% de la vida máxima del aliado
+					Los jugadores que tocan el alma recuperan vida igual al {1}% de la vida máxima del aliado
 					'''
 			}
 
@@ -10047,10 +9995,10 @@ Mods: {
 				DisplayName: Diadema del Templario
 				Tooltip:
 					'''
-					-10% de daño no radiante
-					+5% de daño radiante
-					La maná máxima aumenta en 40
-					Los hechizos de curación restauran 1 punto de vida adicional
+					{0}% de daño no radiante
+					{1}% de daño radiante
+					La maná máxima aumenta en {2}
+					Los hechizos de curación restauran {3} punto de vida adicional
 					'''
 				SetBonus: Si un aliado tiene menos de la mitad de vida, tus habilidades de curación aumentan
 			}
@@ -10068,10 +10016,10 @@ Mods: {
 				DisplayName: Leotardos del Templario
 				Tooltip:
 					'''
-					-10% de daño no radiante
-					+10% de daño radiante
-					+8% de velocidad de movimiento
-					Los hechizos de curación restauran 1 punto de vida adicional
+					{0}% de daño no radiante
+					{1}% de daño radiante
+					{2}% de velocidad de movimiento
+					Los hechizos de curación restauran {3} punto de vida adicional
 					'''
 			}
 
@@ -10079,9 +10027,9 @@ Mods: {
 				DisplayName: Túnica del Templario
 				Tooltip:
 					'''
-					-15% de daño no radiante
-					+10% de daño radiante
-					Los hechizos de curación restauran 3 puntos de vida adicionales
+					{0}% de daño no radiante
+					{1}% de daño radiante
+					Los hechizos de curación restauran {2} puntos de vida adicionales
 					'''
 			}
 
@@ -10161,7 +10109,7 @@ Mods: {
 				DisplayName: Rechazar a los No Muertos
 				Tooltip:
 					'''
-					Tú y los aliados cercanos reciben 5% menos de daño
+					Tú y los aliados cercanos reciben {0}% menos de daño
 					Los enemigos son menos propensos a atacarte
 					'''
 			}
@@ -10180,9 +10128,8 @@ Mods: {
 				DisplayName: Centelleo
 				Tooltip:
 					'''
-					Invoca un espíritu compuesto de estrellas distantes  
-					El espíritu generará energía curativa que los jugadores podrán recoger si estás herido  
-					Se gasta 10 de maná al generar energía curativa
+					Invoca un espíritu compuesto de estrellas lejanas
+					El espíritu generará energía de curación que los jugadores pueden recoger si estás herido
 					'''
 				ScalingTooltip:
 					'''
@@ -10200,7 +10147,7 @@ Mods: {
 				DisplayName: Adorno Verdeante
 				Tooltip:
 					'''
-					+8% de velocidad de curación
+					{0}% de velocidad de curación
 					Curar a un aliado incrementa enormemente su regeneración de vida
 					'''
 			}
@@ -10209,8 +10156,8 @@ Mods: {
 				DisplayName: Forjaguerras
 				Tooltip:
 					'''
-					Clic derecho: genera un yunque mágico en la posición del cursor  
-					Golpear el yunque crea un campo de metal protector para aliados
+					Haz clic derecho para generar un yunque en la posición del cursor, golpea el yunque para crear un campo de metal protector
+					No consume maná cuando estás fuera de combate
 					'''
 			}
 
@@ -10218,10 +10165,10 @@ Mods: {
 				DisplayName: Túnica del Hechicero
 				Tooltip:
 					'''
-					-25% de daño no radiante  
-					+25% de daño radiante  
-					+7% de probabilidad de crítico radiante  
-					Los hechizos de curación restauran 2 puntos de vida adicionales
+					{0}% de daño no radiante  
+					{1}% de daño radiante  
+					{2}% de probabilidad de crítico radiante  
+					Los hechizos de curación restauran {3} puntos de vida adicionales
 					'''
 			}
 
@@ -10230,11 +10177,11 @@ Mods: {
 				Tooltip:
 					'''
 					Refuerza ciertos ataques radiantes con energía oscura
-					-10% de daño no radiante
-					+10% de daño radiante
-					+12% de probabilidad de crítico radiante
-					La maná máxima aumenta en 20
-					Los hechizos de curación restauran 1 punto de vida adicional
+					{0}% de daño no radiante
+					{1}% de daño radiante
+					{2}% de probabilidad de crítico radiante
+					La maná máxima aumenta en {3}
+					Los hechizos de curación restauran {4} punto de vida adicional
 					'''
 				SetBonus:
 					'''
@@ -10247,11 +10194,11 @@ Mods: {
 				DisplayName: Leotardos del Hechicero
 				Tooltip:
 					'''
-					-12% de daño no radiante
-					+12% de daño radiante
-					+5% de probabilidad de crítico radiante
-					-15% de coste de maná
-					Los hechizos de curación restauran 1 punto de vida adicional
+					{0}% de daño no radiante
+					{1}% de daño radiante
+					{2}% de probabilidad de crítico radiante
+					{3}% de coste de maná
+					Los hechizos de curación restauran {4} punto de vida adicional
 					'''
 			}
 
@@ -10322,7 +10269,7 @@ Mods: {
 				Tooltip:
 					'''
 					El doble del daño que recibes se almacena en tu siguiente ataque
-					Este efecto puede alcanzar un máximo de 300 puntos de daño adicional
+					Este efecto puede alcanzar un máximo de {0} puntos de daño adicional
 					'''
 			}
 
@@ -10461,8 +10408,8 @@ Mods: {
 				DisplayName: Coraza de Illumita
 				Tooltip:
 					'''
-					+10% de daño a distancia
-					+15% de velocidad de disparo
+					{1}% de daño a distancia
+					{2}% de velocidad de disparo
 					{$CommonItemTooltip.PercentChanceToSaveAmmo}
 					'''
 			}
@@ -10481,9 +10428,9 @@ Mods: {
 				DisplayName: Grebas de Illumita
 				Tooltip:
 					'''
-					+8% de daño a distancia
-					+6% de probabilidad de golpe crítico a distancia
-					+15% de velocidad de movimiento
+					{0}% de daño a distancia
+					{1}% de probabilidad de golpe crítico a distancia
+					{2}% de velocidad de movimiento
 					'''
 			}
 
@@ -10506,8 +10453,8 @@ Mods: {
 				DisplayName: Máscara de Illumita
 				Tooltip:
 					'''
-					+5% de daño a distancia
-					+10% de probabilidad de crítico a distancia
+					{0}% de daño a distancia
+					{1}% de probabilidad de crítico a distancia
 					'''
 				SetBonus: Tus arcos, armas de fuego y lanzadores disparan proyectiles adicionales periódicamente
 			}
@@ -10654,33 +10601,32 @@ Mods: {
 			}
 
 			LodeStoneBow: {
-				DisplayName: Arco de Piedra Imán
+				DisplayName: Arco de Magnetita
 				Tooltip: El daño quebranta a los enemigos, aumentando en 10% el daño que reciben
 			}
 
 			LodeStoneBreaker: {
-				DisplayName: Rompedor de Piedra Imán
+				DisplayName: Rompedor de Magnetita
 				Tooltip: El daño quebranta a los enemigos, aumentando en 10% el daño que reciben
 			}
 
 			LodeStoneChestGuard: {
-				DisplayName: Guarda Pecho de Piedra Imán
+				DisplayName: Guarda Pecho de Magnetita
 				Tooltip:
 					'''
-					Los enemigos tienen más probabilidad de atacarte
-					+4% de probabilidad de crítico cuerpo a cuerpo
-					+8% de daño cuerpo a cuerpo
-					+5% de velocidad cuerpo a cuerpo
+					+{0}% de probabilidad de golpe crítico cuerpo a cuerpo
+					+{1}% de daño cuerpo a cuerpo
+					+{2}% de velocidad cuerpo a cuerpo
 					'''
 			}
 
 			LodeStoneChunk: {
-				DisplayName: Fragmento de Piedra Imán
+				DisplayName: Fragmento de Magnetita
 				Tooltip: "'Reforzado por el núcleo de tu mundo Terrariano'"
 			}
 
 			LodeStoneClaymore: {
-				DisplayName: Mandoble de Piedra Imán
+				DisplayName: Mandoble de Magnetita
 				Tooltip:
 					'''
 					Clic derecho para crear una erupción de tierra
@@ -10689,62 +10635,63 @@ Mods: {
 			}
 
 			LodeStoneFaceGuard: {
-				DisplayName: Protección Facial de Piedra Imán
+				DisplayName: Protección Facial de Magnetita
 				Tooltip:
 					'''
-					+2% de probabilidad de crítico cuerpo a cuerpo
-					+4% de daño cuerpo a cuerpo
-					+10% de velocidad cuerpo a cuerpo
+					+{0}% de probabilidad de crítico cuerpo a cuerpo
+					+{1}% de daño cuerpo a cuerpo
+					+{2}% de velocidad cuerpo a cuerpo
 					'''
 				SetBonus:
 					'''
-					La reducción de daño aumenta en {0}% por cada {1}% de vida perdida
-					La reducción máxima se alcanza con {2}% mientras estás por debajo de {1}% de vida
+					Es más probable que los enemigos te fijen como objetivo
+					{0}% de reducción de daño aumentada por cada {1}% de vida perdida
+					El aumento de reducción de daño alcanza un máximo del {2}% estando por debajo del {1}% de vida
 					'''
 			}
 
 			LodeStoneGreatAxe: {
-				DisplayName: Gran Hacha de Piedra Imán
+				DisplayName: Gran Hacha de Magnetita
 				Tooltip: ""
 			}
 
 			LodeStoneHammer: {
-				DisplayName: Martillo de Piedra Imán
+				DisplayName: Martillo de Magnetita
 				Tooltip: ""
 			}
 
 			LodeStoneIngot: {
-				DisplayName: Lingote de Piedra Imán
+				DisplayName: Lingote de Magnetita
 				Tooltip: "'¡Por más que lo intentes, este material se ha vuelto irrompible!'"
 			}
 
 			LodestoneJavelin: {
-				DisplayName: Jabalina de Piedra Imán
+				DisplayName: Jabalina de Magnetita
 				Tooltip: Cada tercera jabalina clavada en un enemigo lo quebranta, aumentando en 10% el daño que recibe
 			}
 
 			LodeStonePickaxe: {
-				DisplayName: Pico de Piedra Imán
+				DisplayName: Pico de Magnetita
 				Tooltip: ""
 			}
 
 			LodeStoneQuickDraw: {
-				DisplayName: Disparo Rápido de Piedra Imán
+				DisplayName: Disparo Rápido de Magnetita
 				Tooltip: El daño quebranta a los enemigos, aumentando en 10% el daño que reciben
 			}
 
 			LodeStoneShinGuards: {
-				DisplayName: Cañeras de Piedra Imán
+				DisplayName: Cañeras de Magnetita
 				Tooltip:
 					'''
-					+3% de probabilidad de crítico cuerpo a cuerpo
-					+6% de daño cuerpo a cuerpo
-					+12% de velocidad de movimiento
+					{0}% de probabilidad de crítico cuerpo a cuerpo
+					{1}% de daño cuerpo a cuerpo
+					{2}% de velocidad de movimiento
 					'''
 			}
 
 			LodeStoneStaff: {
-				DisplayName: Bastón de Piedra Imán
+				DisplayName: Bastón de Magnetita
 				Tooltip:
 					'''
 					Carga una enorme liberación sísmica de tierra
@@ -10776,9 +10723,9 @@ Mods: {
 				DisplayName: Corona del Criomante
 				Tooltip:
 					'''
-					+10% de daño mágico
-					-15% de coste de maná
-					+60 de maná máximo
+					{0}% de daño mágico
+					{1}% de coste de maná
+					{2} de maná máximo
 					'''
 				SetBonus: Tu daño mágico congelará a los enemigos durante dos segundos
 			}
@@ -10787,8 +10734,8 @@ Mods: {
 				DisplayName: Leotardos del Criomante
 				Tooltip:
 					'''
-					+10% de daño mágico
-					+15% de velocidad de movimiento
+					{0}% de daño mágico
+					{1}% de velocidad de movimiento
 					'''
 			}
 
@@ -10796,8 +10743,8 @@ Mods: {
 				DisplayName: Túnica del Criomante
 				Tooltip:
 					'''
-					+15% de daño mágico
-					+10% de probabilidad de crítico mágico
+					{0}% de daño mágico
+					{1}% de probabilidad de crítico mágico
 					Aumenta enormemente la regeneración de maná
 					'''
 			}
@@ -10856,7 +10803,7 @@ Mods: {
 				DisplayName: Catalizador Turbio
 				Tooltip:
 					'''
-					La maná máxima aumenta en 20  
+					La maná máxima aumenta en {0}
 					Cada sexto hechizo es gratuito y te devuelve el coste de maná
 					'''
 			}
@@ -10904,8 +10851,8 @@ Mods: {
 				DisplayName: Piedra de la Marea
 				Tooltip:
 					'''
-					La maná máxima aumenta en 20  
-					Mientras sostienes un arma mágica, recuperas el 3% de tu maná máximo por segundo
+					La maná máxima aumenta en {0}
+					Mientras sostienes un arma mágica, recuperas el {1}% de tu maná máximo por segundo
 					'''
 			}
 
@@ -10932,8 +10879,8 @@ Mods: {
 				DisplayName: Leotardos del Caballero Blanco
 				Tooltip:
 					'''
-					+10% de daño mágico  
-					+8% de velocidad de movimiento
+					{0}% de daño mágico  
+					{1}% de velocidad de movimiento
 					'''
 			}
 
@@ -10941,8 +10888,8 @@ Mods: {
 				DisplayName: Máscara del Caballero Blanco
 				Tooltip:
 					'''
-					+5% de daño mágico  
-					+5% de probabilidad de crítico mágico
+					{0}% de daño mágico  
+					{1}% de probabilidad de crítico mágico
 					'''
 				SetBonus:
 					'''
@@ -10955,8 +10902,8 @@ Mods: {
 				DisplayName: Túnica del Caballero Blanco
 				Tooltip:
 					'''
-					+5% de daño mágico  
-					+6% de probabilidad de crítico mágico
+					{0}% de daño mágico  
+					{1}% de probabilidad de crítico mágico
 					'''
 			}
 
@@ -11112,11 +11059,6 @@ Mods: {
 					'''
 			}
 
-			Nocturnal: {
-				DisplayName: Nocturno
-				Tooltip: Al golpear a un enemigo, puede liberarse una 'luz negra' teledirigida
-			}
-
 			PinkPhaseblade: {
 				DisplayName: Sable de Fase Rosado
 				Tooltip: ""
@@ -11125,11 +11067,6 @@ Mods: {
 			PinkPhasesaber: {
 				DisplayName: Sable de Fase Rosado (Mejorado)
 				Tooltip: ""
-			}
-
-			Sanguine: {
-				DisplayName: Sanguíneo
-				Tooltip: Al golpear a un enemigo, puede liberarse una 'luz vital' teledirigida
 			}
 
 			SolScorchedSlab: {
@@ -11384,9 +11321,9 @@ Mods: {
 				DisplayName: Casco de Conducto
 				Tooltip:
 					'''
-					+12% de daño con armas marcianas  
-					+5% de reducción de daño  
-					+10% de probabilidad de golpe crítico
+					{0}% de daño con armas marcianas  
+					{1}% de reducción de daño  
+					{2}% de probabilidad de golpe crítico
 					'''
 				SetBonus:
 					'''
@@ -11399,9 +11336,9 @@ Mods: {
 				DisplayName: Leotardos de Conducto
 				Tooltip:
 					'''
-					+16% de daño con armas marcianas  
-					+5% de reducción de daño  
-					+20% de velocidad de movimiento
+					{0}% de daño con armas marcianas  
+					{1}% de reducción de daño  
+					{2}% de velocidad de movimiento
 					'''
 			}
 
@@ -11409,9 +11346,9 @@ Mods: {
 				DisplayName: Traje Conductivo
 				Tooltip:
 					'''
-					+22% de daño con armas marcianas  
-					+8% de reducción de daño  
-					Aumenta el daño en 1 por cada enemigo cercano
+					{0}% de daño con armas marcianas  
+					{1}% de reducción de daño  
+					Aumenta el daño en {2} por cada enemigo cercano
 					'''
 			}
 
@@ -11482,8 +11419,8 @@ Mods: {
 				DisplayName: Sombrero Sagrado
 				Tooltip:
 					'''
-					+10% de velocidad de regeneración de inspiración  
-					+8% de daño sinfónico y velocidad de ejecución
+					{0}% de velocidad de regeneración de inspiración  
+					{1}% de daño sinfónico y velocidad de ejecución
 					'''
 				SetBonus:
 					'''
@@ -11521,7 +11458,7 @@ Mods: {
 				Tooltip:
 					'''
 					'Consume a tus enemigos desde dentro hacia afuera'  
-					Los enemigos golpeados reciben +50% de daño por efectos de daño en el tiempo
+					Los enemigos golpeados reciben {0}% de daño por efectos de daño en el tiempo
 					'''
 			}
 
@@ -11596,7 +11533,7 @@ Mods: {
 				Tooltip:
 					'''
 					'Parece hecho de un material familiar'  
-					Los enemigos que golpees reciben 50% más de daño de efectos de quemadura prolongados
+					Los enemigos que golpees reciben {0}% más de daño de efectos de quemadura prolongados
 					'''
 			}
 
@@ -11685,7 +11622,7 @@ Mods: {
 			}
 
 			ReflectiveThoriumDye: {
-				DisplayName: Tinte Reflectante de Torio
+				DisplayName: Tinte Reflectante de Thorium
 				Tooltip: ""
 			}
 
@@ -11693,8 +11630,8 @@ Mods: {
 				DisplayName: Anillo de Unidad
 				Tooltip:
 					'''
-					Aumenta el daño en 1  
-					Aumenta el daño en 1 adicional por cada jugador cercano que también lo tenga equipado
+					Aumenta el daño en {0}
+					Aumenta el daño en {1} adicional por cada jugador cercano que también lo tenga equipado
 					'''
 			}
 
@@ -11762,7 +11699,7 @@ Mods: {
 				Tooltip:
 					'''
 					'No dejes que te derrumbe...'
-					Reapareces un 33% más rápido y con 15% más de vida  
+					Reapareces un {0}% más rápido y con {1}% más de vida  
 					También obtienes más tiempo de invulnerabilidad y velocidad de movimiento al reaparecer
 					'''
 			}
@@ -11849,8 +11786,8 @@ Mods: {
 				DisplayName: Caparazón de Escarabajo Astral
 				Tooltip:
 					'''
-					El daño recibido se reduce en un 5%  
-					Generas constantemente un escudo de 20 de vida
+					El daño recibido se reduce en un {0}%
+					Generas constantemente un escudo de {1} de vida
 					'''
 			}
 
@@ -11858,7 +11795,7 @@ Mods: {
 				DisplayName: Apuñalador
 				Tooltip:
 					'''
-					Golpear la espalda de un enemigo siempre resulta en un golpe crítico con 400% de daño  
+					Golpear la espalda de un enemigo siempre resulta en un golpe crítico con 400% de daño
 					Mientras sostienes esta arma, los enemigos tienen mucha menos probabilidad de atacarte
 					'''
 			}
@@ -11867,9 +11804,9 @@ Mods: {
 				DisplayName: Bola y Cadena
 				Tooltip:
 					'''
-					'Esta cosa pesa bastante'  
-					Reduce el daño recibido en 10%  
-					Disminuye ligeramente la velocidad de movimiento y la altura del salto  
+					'Esta cosa pesa bastante'
+					Reduce el daño recibido en {0}%
+					Disminuye ligeramente la velocidad de movimiento y la altura del salto
 					Otorga inmunidad a las bolas con cadena de los tambaleantes
 					'''
 			}
@@ -11939,15 +11876,15 @@ Mods: {
 			}
 
 			CrawdadClaw: {
-				DisplayName: Garra de Cangrejo de Río
-				Tooltip: Mientras estés en combate, tu daño aumenta con el tiempo hasta un máximo de 2
+				DisplayName: Pinza de Cangrejo de Río
+				Tooltip: Durante el combate, tu penetración de armadura aumenta en {0} con el tiempo hasta un máximo de {1}
 			}
 
 			DeathGazersGlass: {
 				DisplayName: Cristal del Miramuerte
 				Tooltip:
 					'''
-					'Aquellos que observan su muerte demasiado, pronto enloquecen...'  
+					'Aquellos que observan su muerte demasiado, pronto enloquecen...'
 					Te teletransporta a tu última ubicación de muerte
 					'''
 			}
@@ -12023,12 +11960,8 @@ Mods: {
 			}
 
 			Executioner: {
-				DisplayName: Verdugo
-				Tooltip:
-					'''
-					Golpes continuos aumentan la velocidad y el daño  
-					Los ataques cargados al máximo reducen la defensa del enemigo
-					'''
+				DisplayName: Ejecutor
+				Tooltip: Los golpes continuos aumentan la velocidad y el daño, reduciendo luego la defensa enemiga a máxima potencia
 			}
 
 			ExileGarb: {
@@ -12041,10 +11974,10 @@ Mods: {
 				Tooltip:
 					'''
 					'Cuando le dieron la espalda a Terraria, él les dio la espalda a ellos...'  
-					-8% de daño recibido  
-					+12% de daño  
-					+6% de probabilidad de crítico  
-					Tu Demonio Contratado inflige 50% más de daño y aplica llama sombría a los enemigos golpeados
+					{0}% de daño recibido
+					{1}% de daño
+					{2}% de probabilidad de crítico
+					Tu Demonio Contratado inflige {3}% más de daño y aplica llama sombría a los enemigos golpeados
 					'''
 			}
 
@@ -12080,7 +12013,7 @@ Mods: {
 
 			GiantShellSpine: {
 				DisplayName: Espina de Caparazón Gigante
-				Tooltip: Mientras estás en combate, tu defensa aumenta en 1 con el tiempo hasta 5
+				Tooltip: Mientras estás en combate, tu defensa aumenta en {0} con el tiempo hasta {1}
 			}
 
 			GraveBuster: {
@@ -12191,13 +12124,8 @@ Mods: {
 
 			NecromancersHeart: {
 				DisplayName: Corazón del Nigromante
-				Tooltip:
-					'''
-					'Un líquido oscuro permanece dentro del corazón'  
-					Aumenta tu número máximo de torretas en 1  
-					Disminuye tu regeneración de vida en un 20%
-					'''
-				SpecialTooltip: Los enemigos golpeados por las puntas de los látigos de invocador reciben un {0}% de daño adicional y generan hasta [c/{1}:{2}] moscas
+				Tooltip: <Clic derecho> con un látigo para lanzar las moscas hacia tu cursor, dañando a los enemigos cercanos
+				SpecialTooltip: Los enemigos alcanzados por las puntas de los látigos de invocador reciben un {0}% de daño adicional y generan hasta [c/{1}:{2}] moscas
 			}
 
 			NightShadeFlower: {
@@ -12217,7 +12145,7 @@ Mods: {
 
 			PotionChaser: {
 				DisplayName: Perseguidor de Pociones
-				Tooltip: Beber una poción cura 25 puntos de vida adicionales
+				Tooltip: Beber una poción cura {0} puntos de vida adicionales
 			}
 
 			PrismStaff: {
@@ -12242,7 +12170,7 @@ Mods: {
 
 			SalamanderEye: {
 				DisplayName: Ojo de Salamandra
-				Tooltip: Mientras estás en combate, tu regeneración de vida aumenta en 1 con el tiempo hasta 2
+				Tooltip: Mientras estás en combate, tu regeneración de vida aumenta en {0} con el tiempo hasta {1}
 			}
 
 			Scalper: {
@@ -12337,7 +12265,7 @@ Mods: {
 			}
 
 			ThoriumCube: {
-				DisplayName: Cubo de Torio
+				DisplayName: Cubo de Thorium
 				Tooltip: "'Apriétate este mineral en la cara, y actúa con estilo...'"
 			}
 
@@ -12350,8 +12278,8 @@ Mods: {
 				DisplayName: Desintegrador Vega
 				Tooltip:
 					'''
-					Convierte balas de mosquete en una dispersión de golpes energéticos  
-					Tiene una probabilidad de descargar un rayo inestable
+					Convierte las balas de mosquete en una ráfaga de ataques de energía
+					Cada {0} disparos descarga un rayo perforante
 					'''
 			}
 
@@ -12436,7 +12364,7 @@ Mods: {
 					'''
 					'D. Man'  
 					'Esta pintura conmemora a los valientes terrarianos que dieron  
-					su vida para proteger este mundo de la Amenaza del Torio  
+					su vida para proteger este mundo de la Amenaza del Thorium  
 					Que no los olvidemos...'
 					'''
 			}
@@ -14978,127 +14906,127 @@ Mods: {
 			SunkenPalaceMusicBox.SunkenPalace: Palacio Hundido
 
 			ThoriumBathtub: {
-				DisplayName: Bañera de Torio
+				DisplayName: Bañera de Thorium
 				Tooltip: ""
 			}
 
 			ThoriumBed: {
-				DisplayName: Cama de Torio
+				DisplayName: Cama de Thorium
 				Tooltip: ""
 			}
 
 			ThoriumBlockWall: {
-				DisplayName: Pared de Bloque de Torio
+				DisplayName: Pared de Bloque de Thorium
 				Tooltip: ""
 			}
 
 			ThoriumBookcase: {
-				DisplayName: Librero de Torio
+				DisplayName: Librería de Thorium
 				Tooltip: ""
 			}
 
 			ThoriumBlock: {
-				DisplayName: Bloque de Torio
+				DisplayName: Bloque de Thorium
 				Tooltip: ""
 			}
 
 			ThoriumBrickNew: {
-				DisplayName: Ladrillo de Torio
+				DisplayName: Ladrillo de Thorium
 				Tooltip: ""
 			}
 
 			ThoriumBrickWall: {
-				DisplayName: Pared de Ladrillo de Torio
+				DisplayName: Pared de Ladrillo de Thorium
 				Tooltip: ""
 			}
 
 			ThoriumCandelabra: {
-				DisplayName: Candelabro de Torio
+				DisplayName: Candelabro de Thorium
 				Tooltip: ""
 			}
 
 			ThoriumCandle: {
-				DisplayName: Vela de Torio
+				DisplayName: Vela de Thorium
 				Tooltip: ""
 			}
 
 			ThoriumChair: {
-				DisplayName: Silla de Torio
+				DisplayName: Silla de Thorium
 				Tooltip: ""
 			}
 
 			ThoriumChandelier: {
-				DisplayName: Lámpara de Araña de Torio
+				DisplayName: Lámpara de Araña de Thorium
 				Tooltip: ""
 			}
 
 			ThoriumChest: {
-				DisplayName: Cofre de Torio
+				DisplayName: Cofre de Thorium
 				Tooltip: ""
 			}
 
 			ThoriumClock: {
-				DisplayName: Reloj de Torio
+				DisplayName: Reloj de Thorium
 				Tooltip: ""
 			}
 
 			ThoriumCup: {
-				DisplayName: Copa de Torio
+				DisplayName: Copa de Thorium
 				Tooltip: ""
 			}
 
 			ThoriumDoor: {
-				DisplayName: Puerta de Torio
+				DisplayName: Puerta de Thorium
 				Tooltip: ""
 			}
 
 			ThoriumDresser: {
-				DisplayName: Tocador de Torio
+				DisplayName: Aparador de Thorium
 				Tooltip: ""
 			}
 
 			ThoriumLamp: {
-				DisplayName: Lámpara de Torio
+				DisplayName: Lámpara de Thorium
 				Tooltip: ""
 			}
 
 			ThoriumLantern: {
-				DisplayName: Linterna de Torio
+				DisplayName: Linterna de Thorium
 				Tooltip: ""
 			}
 
 			ThoriumPiano: {
-				DisplayName: Piano de Torio
+				DisplayName: Piano de Thorium
 				Tooltip: ""
 			}
 
 			ThoriumPlatform: {
-				DisplayName: Plataforma de Bloque de Torio
+				DisplayName: Plataforma de Bloque de Thorium
 				Tooltip: ""
 			}
 
 			ThoriumSink: {
-				DisplayName: Lavabo de Torio
+				DisplayName: Lavabo de Thorium
 				Tooltip: ""
 			}
 
 			ThoriumSofa: {
-				DisplayName: Sofá de Torio
+				DisplayName: Sofá de Thorium
 				Tooltip: ""
 			}
 
 			ThoriumTable: {
-				DisplayName: Mesa de Torio
+				DisplayName: Mesa de Thorium
 				Tooltip: ""
 			}
 
 			ThoriumToilet: {
-				DisplayName: Inodoro de Torio
+				DisplayName: Retrete de Thorium
 				Tooltip: ""
 			}
 
 			ThoriumWorkbench: {
-				DisplayName: Banco de Trabajo de Torio
+				DisplayName: Banco de Trabajo de Thorium
 				Tooltip: ""
 			}
 
@@ -15505,9 +15433,9 @@ Mods: {
 				DisplayName: Colgante de Brisa Marina
 				Tooltip:
 					'''
-					'Quienes porten este colgante no temerán las profundidades...'  
-					Aumenta tu capacidad de respiración en un 50% y te otorga la habilidad de nadar  
-					Aumenta tu daño en un 10% cuando estás mojado
+					'Quienes porten este colgante no temerán las profundidades...'
+					Aumenta tu capacidad de respiración en un {0}% y te otorga la habilidad de nadar  
+					Aumenta tu daño en un {1}% cuando estás mojado
 					'''
 			}
 
@@ -15540,7 +15468,7 @@ Mods: {
 				DisplayName: Bolsa de Dardos
 				Tooltip:
 					'''
-					+10% de daño con armas de dardos  
+					{0}% de daño con armas de dardos
 					La mayoría de los dardos tienen una probabilidad de ser recuperables tras el impacto
 					'''
 			}
@@ -15579,13 +15507,17 @@ Mods: {
 					'''
 			}
 
-			MyceliumGattlingGun: {
-				DisplayName: Ametralladora de Micelio
-				Tooltip: "{$CommonItemTooltip.PercentChanceToSaveAmmo}"
+			ShroomachineGun: {
+				DisplayName: Shroomachine Gun
+				Tooltip:
+					'''
+					Convierte las balas de mosquete en nanobalas
+					{$CommonItemTooltip.PercentChanceToSaveAmmo}
+					'''
 			}
 
 			MythrilPelter: {
-				DisplayName: Lanzador de Mythril
+				DisplayName: Lanzador de Mithril
 				Tooltip: ""
 			}
 
@@ -15832,8 +15764,8 @@ Mods: {
 				DisplayName: Coraza de Duracero
 				Tooltip:
 					'''
-					'Forjada magistralmente por el Herrero'  
-					+8% de daño
+					'Forjada magistralmente por el Herrero'
+					{0}% de daño
 					'''
 			}
 
@@ -15846,8 +15778,8 @@ Mods: {
 				DisplayName: Grebas de Duracero
 				Tooltip:
 					'''
-					'Forjadas magistralmente por el Herrero'  
-					+8% de velocidad de movimiento
+					'Forjadas magistralmente por el Herrero'
+					{0}% de velocidad de movimiento
 					'''
 			}
 
@@ -15855,8 +15787,8 @@ Mods: {
 				DisplayName: Casco de Duracero
 				Tooltip:
 					'''
-					'Forjado magistralmente por el Herrero'  
-					+5% de probabilidad de golpe crítico
+					'Forjado magistralmente por el Herrero'
+					{0}% de probabilidad de golpe crítico
 					'''
 				SetBonus: Daño recibido reducido en {0}%
 			}
@@ -15939,12 +15871,12 @@ Mods: {
 
 			AstroBoots: {
 				DisplayName: Botas Astrales
-				Tooltip: Aumenta el daño de invocación en 1
+				Tooltip: Aumenta el daño de invocación en {0}
 			}
 
 			AstroHelmet: {
 				DisplayName: Casco Astral
-				Tooltip: Aumenta el daño de invocación en 1
+				Tooltip: Aumenta el daño de invocación en {0}
 				SetBonus: El daño de invocación tiene una probabilidad de liberar una ráfaga de plasma dañino al golpear
 			}
 
@@ -15952,8 +15884,8 @@ Mods: {
 				DisplayName: Traje Astral
 				Tooltip:
 					'''
-					Aumenta tu número máximo de centinelas en 1  
-					Aumenta tu número máximo de esbirros en 1
+					Aumenta tu número máximo de centinelas en {0}
+					Aumenta tu número máximo de esbirros en {1}
 					'''
 			}
 
@@ -15973,64 +15905,44 @@ Mods: {
 
 			BattleBanner: {
 				DisplayName: Estandarte de Batalla
-				Tooltip:
-					'''
-					{$Common.Tooltips.BannerPlacement}  
-					Mientras estés cerca, el daño de invocación del usuario aumenta en 5
-					'''
+				Tooltip: Invoca un estandarte que aumenta el daño de súbditos y centinelas que reciben los enemigos cercanos en un {0}%
 			}
 
 			BountyBanner: {
 				DisplayName: Estandarte de Recompensa
-				Tooltip:
-					'''
-					{$Common.Tooltips.BannerPlacement}  
-					Mientras estés cerca, el daño de invocación generará algunas monedas
-					'''
+				Tooltip: Invoca un estandarte que hace que los enemigos cercanos generen monedas al ser golpeados por daño de invocación
 			}
 
 			CombatBanner: {
 				DisplayName: Estandarte de Combate
-				Tooltip:
-					'''
-					{$Common.Tooltips.BannerPlacement}  
-					Cuando estás cerca, tu reducción de daño aumenta un 3% por cada espacio máximo de súbdito
-					'''
+				Tooltip: Invoca un estandarte que ralentiza periódicamente a los enemigos dentro de su radio
 			}
 
 			MoraleBanner: {
 				DisplayName: Estandarte de Moral
 				Tooltip:
 					'''
-					{$Common.Tooltips.BannerPlacement}  
-					Mientras estés cerca, el daño de invocación del usuario tiene una pequeña probabilidad de curar
+					Invoca un estandarte que genera lentamente un único corazón que cura {0} de vida
+					Solo el invocador del estandarte puede recogerlo
 					'''
 			}
 
 			PiousBanner: {
 				DisplayName: Estandarte Piadoso
-				Tooltip:
-					'''
-					{$Common.Tooltips.BannerPlacement}  
-					Mientras estés cerca, ...
-					'''
+				Tooltip: Invoca un estandarte que aturde rápidamente a los enemigos dentro de su radio
 			}
 
 			PowerBanner: {
 				DisplayName: Estandarte de Poder
-				Tooltip:
-					'''
-					{$Common.Tooltips.BannerPlacement}  
-					Mientras estés cerca, la torreta más cercana del usuario inflige 100% más de daño
-					'''
+				Tooltip: Invoca un estandarte que aumenta el daño de látigo que reciben los enemigos cercanos en un {0}%
 			}
 
 			PrecisionBanner: {
 				DisplayName: Estandarte de Precisión
 				Tooltip:
 					'''
-					{$Common.Tooltips.BannerPlacement}  
-					Mientras estés cerca, el daño de invocación del usuario tiene un 5% de probabilidad de golpe crítico
+					Invoca un estandarte que vuelve vulnerables a los enemigos cercanos
+					Los enemigos vulnerables tienen un {0}% de probabilidad de recibir golpes críticos por daño de súbditos y centinelas
 					'''
 			}
 
@@ -16063,8 +15975,8 @@ Mods: {
 				Tooltip:
 					'''
 					'Aun atrapado en cristal, su aguijón conserva poder letal'  
-					Los ataques de súbditos tienen 15% de probabilidad de generar un escorpión de cristal  
-					Los ataques de súbditos infligen 3 de daño adicional mientras haya un escorpión activo
+					Los ataques de súbditos tienen {0}% de probabilidad de generar un escorpión de cristal
+					Los ataques de súbditos infligen {1} de daño adicional mientras haya un escorpión activo
 					'''
 			}
 
@@ -16091,8 +16003,8 @@ Mods: {
 				DisplayName: Huevo Incubado
 				Tooltip:
 					'''
-					'Una incubación espeluznante ha ocurrido'  
-					Los ataques de súbditos y torretas tienen 10% de probabilidad de generar una horda de arañas
+					'Una incubación espeluznante ha ocurrido'
+					Los ataques de súbditos y torretas tienen {0}% de probabilidad de generar una horda de arañas
 					'''
 			}
 
@@ -16100,10 +16012,10 @@ Mods: {
 				DisplayName: Leotardos de Flor de Vida
 				Tooltip:
 					'''
-					'Eres uno con la naturaleza'  
-					Aumenta tu número máximo de súbditos  
-					+8% de daño de invocación  
-					+15% de velocidad de movimiento
+					'Eres uno con la naturaleza'
+					Aumenta tu número máximo de súbditos
+					{0}% de daño de invocación
+					{0}% de velocidad de movimiento
 					'''
 			}
 
@@ -16111,9 +16023,9 @@ Mods: {
 				DisplayName: Túnica de Flor de Vida
 				Tooltip:
 					'''
-					'Eres uno con la naturaleza'  
-					Aumenta tu número máximo de súbditos  
-					+10% de daño de invocación  
+					'Eres uno con la naturaleza'
+					Aumenta tu número máximo de súbditos
+					{0}% de daño de invocación
 					Aumenta el retroceso de los súbditos
 					'''
 			}
@@ -16124,7 +16036,7 @@ Mods: {
 					'''
 					'Eres uno con la naturaleza'  
 					Aumenta tu número máximo de súbditos  
-					+8% de daño de invocación
+					{0}% de daño de invocación
 					'''
 				SetBonus:
 					'''
@@ -16159,12 +16071,12 @@ Mods: {
 
 			LivingWoodBoots: {
 				DisplayName: Botas de Madera Viva
-				Tooltip: Aumenta el daño de invocación en 1
+				Tooltip: Aumenta el daño de invocación en {0}
 			}
 
 			LivingWoodChestguard: {
 				DisplayName: Peto de Madera Viva
-				Tooltip: Aumenta el daño de invocación en 1
+				Tooltip: Aumenta el daño de invocación en {0}
 			}
 
 			LivingWoodMask: {
@@ -16177,7 +16089,7 @@ Mods: {
 				DisplayName: Savia de Madera Viva
 				Tooltip:
 					'''
-					Aumenta el daño de invocación en 1  
+					Aumenta el daño de invocación en {0}
 					Aumenta el retroceso de los esbirros
 					'''
 			}
@@ -16196,10 +16108,9 @@ Mods: {
 				DisplayName: Cráneo Necrótico
 				Tooltip:
 					'''
-					+10% de daño de invocación  
-					Aumenta tu número máximo de esbirros  
-					Aumenta tu número máximo de torretas
-					Los ataques de esbirros y torretas infligen 2 de daño adicional tras matar a un enemigo
+					Aumenta tu número máximo de súbditos en {0}
+					<Clic derecho> con un látigo para lanzar los fuegos fatuos hacia tu cursor, dañando a los enemigos cercanos
+					Matar enemigos maldecidos o dañar continuamente a jefes libera un fantasma explosivo que inflige {1} de daño, el cual también puede maldecir a los enemigos
 					'''
 				SpecialTooltip: Los enemigos golpeados por las puntas de los látigos de invocador reciben un {0}% de daño adicional, son maldecidos y generan hasta [c/{1}:{2}] fuegos fatuos
 				NoStacking: El efecto no se acumula con {$ItemName.PygmyNecklace}
@@ -16209,9 +16120,9 @@ Mods: {
 				DisplayName: Filacteria
 				Tooltip:
 					'''
-					'La muerte no es el final para ti...'  
-					Recibir daño letal te devolverá al 25% de vida cada cuatro minutos  
-					La recuperación de vida aumenta mientras la filacteria no esté en enfriamiento
+					'La muerte no es el final para ti...'
+					Recibir daño letal te devolverá al {0}% de vida cada {1} minutos
+					La recuperación de vida aumenta en {2} mientras la filacteria no esté en enfriamiento
 					'''
 			}
 
@@ -16220,8 +16131,8 @@ Mods: {
 				Tooltip:
 					'''
 					'Fósil de una época donde los arácnidos eran reyes'  
-					Los ataques de los esbirros tienen un 10% de probabilidad de generar una araña ámbar  
-					Los ataques de los esbirros infligen 2 de daño adicional mientras haya una araña ámbar activa
+					Los ataques de los esbirros tienen un {0}% de probabilidad de generar una araña ámbar  
+					Los ataques de los esbirros infligen {1} de daño adicional mientras haya una araña ámbar activa
 					'''
 			}
 
@@ -16238,29 +16149,28 @@ Mods: {
 				DisplayName: Piedra del Alma
 				Tooltip:
 					'''
-					'La piedra se alimenta lentamente de tu alma'  
-					+10% de daño de invocación  
-					Reduce tu vida máxima en 20
+					Los enemigos alcanzados por las puntas de los látigos de invocador reciben un {0}% de daño adicional y son maldecidos
+					Matar enemigos maldecidos o dañar continuamente a jefes libera un fantasma explosivo, el cual también puede maldecir a los enemigos
 					'''
 			}
 
 			SpiritTrapperCuirass: {
 				DisplayName: Coraza del Cazador de Espíritus
-				Tooltip: Aumenta el daño de invocación en 10%
+				Tooltip: Aumenta el daño de invocación en {0}%
 			}
 
 			SpiritTrapperGreaves: {
 				DisplayName: Grebas del Cazador de Espíritus
-				Tooltip: Aumenta el daño de invocación en 5%
+				Tooltip: Aumenta el daño de invocación en {0}%
 			}
 
 			SpiritTrapperCowl: {
 				DisplayName: Capucha del Cazador de Espíritus
-				Tooltip: Aumenta tu número máximo de esbirros en 1
+				Tooltip: Aumenta tu número máximo de esbirros en {0}
 				SetBonus:
 					'''
-					Aumenta tu número máximo de esbirros en {0}  
-					Matar enemigos o dañar jefes continuamente genera esencias espirituales  
+					Aumenta tu número máximo de esbirros en {0}
+					Matar enemigos o dañar jefes continuamente genera esencias espirituales
 					Tras generar {1} esencias, se consumen al instante para curarte {2} de vida
 					'''
 			}
@@ -16329,7 +16239,7 @@ Mods: {
 					'''
 					'Todos caerán ante tu poder...'  
 					La vida máxima aumenta en {0} y la regeneración de vida en {1}  
-					Daño aumentado en {2}%  
+					Daño aumentado en {2}%
 					Probabilidad de crítico aumentada en {3}%
 					'''
 			}
@@ -16348,11 +16258,11 @@ Mods: {
 				DisplayName: Defensor de Terrario
 				Tooltip:
 					'''
-					La vida máxima aumenta en 20  
+					La vida máxima aumenta en {0}
 					Prolonga la invulnerabilidad tras ser golpeado  
 					Otorga inmunidad a la mayoría de estados alterados, retroceso y bloques ardientes  
-					Cuando tienes más del 25% de vida, absorbes el 25% del daño infligido a jugadores cercanos de tu equipo  
-					Cuando tienes menos del 25% de vida, regeneras rápidamente vida y obtienes defensa aumentada
+					Cuando tienes más del {1}% de vida, absorbes el {1}% del daño infligido a jugadores cercanos de tu equipo  
+					Cuando tienes menos del {1}% de vida, regeneras rápidamente vida y obtienes defensa aumentada
 					'''
 			}
 
@@ -16453,10 +16363,9 @@ Mods: {
 				DisplayName: Propulsores de Partículas de Terrarium
 				Tooltip:
 					'''
-					Permite volar, correr a gran velocidad y mejora la movilidad sobre hielo  
-					+12% de velocidad de movimiento  
-					Puedes caminar sobre agua, miel y lava  
-					Otorga inmunidad a bloques ardientes y a la lava
+					Permite correr a hipervelocidad, volar y movilidad adicional sobre el hielo
+					Otorga la capacidad de caminar sobre el agua, la miel y la lava
+					Otorga inmunidad a los bloques de fuego y a la lava
 					'''
 			}
 
@@ -16519,7 +16428,7 @@ Mods: {
 			}
 
 			ConcentratedThorium: {
-				DisplayName: Torio Concentrado
+				DisplayName: Thorium Concentrado
 				Tooltip: "'Mucho más poderoso que una simple barra'"
 			}
 
@@ -16558,94 +16467,94 @@ Mods: {
 			}
 
 			ThoriumAnvil: {
-				DisplayName: Yunque de Torio
-				Tooltip: Usado para crafteo básico, de barras metálicas y de torio
+				DisplayName: Yunque de Thorium
+				Tooltip:
+					'''
+					Se usa para la elaboración con lingotes de metal y lingotes de thorium
+					También funciona como banco de trabajo
+					'''
 			}
 
 			ThoriumBar: {
-				DisplayName: Barra de Torio
+				DisplayName: Lingote de Thorium
 				Tooltip: "'Emite pulsos de energía'"
 			}
 
 			ThoriumBlade: {
-				DisplayName: Espada de Torio
+				DisplayName: Espada de Thorium
 				Tooltip: ""
 			}
 
 			ThoriumBoomerang: {
-				DisplayName: Búmeran de Torio
+				DisplayName: Búmeran de Thorium
 				Tooltip: ""
 			}
 
 			ThoriumBow: {
-				DisplayName: Arco de Torio
+				DisplayName: Arco de Thorium
 				Tooltip: ""
 			}
 
 			ThoriumDagger: {
-				DisplayName: Daga de Torio
+				DisplayName: Daga de Thorium
 				Tooltip: ""
 			}
 
 			ThoriumGreaves: {
-				DisplayName: Grebas de Torio
+				DisplayName: Grebas de Thorium
 				Tooltip:
 					'''
 					'Late con energía'  
-					+2% de probabilidad de golpe crítico
+					{0}% de probabilidad de golpe crítico
 					'''
 			}
 
 			ThoriumHelmet: {
-				DisplayName: Casco de Torio
+				DisplayName: Casco de Thorium
 				Tooltip:
 					'''
 					'Late con energía'  
-					+2% de probabilidad de golpe crítico
+					{0}% de probabilidad de golpe crítico
 					'''
 				SetBonus: El daño infligido aumenta en {0}%
 			}
 
 			ThoriumMail: {
-				DisplayName: Cota de Torio
+				DisplayName: Cota de Thorium
 				Tooltip:
 					'''
 					'Late con energía'  
-					+2% de probabilidad de golpe crítico
+					{0}% de probabilidad de golpe crítico
 					'''
 			}
 
 			ThoriumOre: {
-				DisplayName: Mineral de Torio
+				DisplayName: Mineral de Thorium
 				Tooltip: "'Este mineral es realmente antinatural'"
 			}
 
 			ThoriumPax: {
-				DisplayName: Pico-Hacha de Torio
+				DisplayName: Pico-Hacha de Thorium
 				Tooltip: ""
 			}
 
 			ThoriumRevolver: {
-				DisplayName: Revólver de Torio
+				DisplayName: Revólver de Thorium
 				Tooltip: ""
 			}
 
 			ThoriumShield: {
-				DisplayName: Escudo de Torio
-				Tooltip:
-					'''
-					La defensa aumenta en 3  
-					Generas constantemente un escudo de 16 puntos de vida
-					'''
+				DisplayName: Escudo de Thorium
+				Tooltip: Generas constantemente un escudo de {0} de vida
 			}
 
 			ThoriumSpear: {
-				DisplayName: Lanza de Torio
+				DisplayName: Lanza de Thorium
 				Tooltip: ""
 			}
 
 			ThoriumStaff: {
-				DisplayName: Bastón de Torio
+				DisplayName: Bastón de Thorium
 				Tooltip: Dispara un rayo mágico que lanza chispas adicionales a enemigos cercanos
 			}
 
@@ -17545,7 +17454,7 @@ Mods: {
 				DisplayName: Bumerán Titánico
 				Tooltip:
 					'''
-					Puedes lanzar hasta tres bumeranes a la vez  
+					Puedes lanzar hasta tres bumeranes a la vez
 					Los golpes críticos infligen daño adicional
 					'''
 			}
@@ -17559,8 +17468,8 @@ Mods: {
 				DisplayName: Coraza Titánica
 				Tooltip:
 					'''
-					'Infundida con energía primordial'  
-					+8% de probabilidad de golpe crítico
+					'Infundida con energía primordial'
+					{0}% de probabilidad de golpe crítico
 					'''
 			}
 
@@ -17569,7 +17478,7 @@ Mods: {
 				Tooltip:
 					'''
 					'Infundidas con energía primordial'  
-					+15% de velocidad de movimiento
+					+{0}% de velocidad de movimiento
 					'''
 			}
 
@@ -17582,10 +17491,10 @@ Mods: {
 				DisplayName: Casco de Hechicero Titánico
 				Tooltip:
 					'''
-					'Infundido con energía primordial'  
-					Aumenta la maná máxima en 80  
-					Reduce el consumo de maná en un 15%  
-					Lanzar hechizos con menos de 75 de maná actual inflige más daño
+					'Infundido con energía primordial'
+					Aumenta la maná máxima en {0}
+					Reduce el consumo de maná en un {1}
+					Lanzar hechizos con menos de {2} de maná actual inflige más daño
 					'''
 				SetBonus: El daño infligido aumenta en {0}%
 			}
@@ -17594,9 +17503,9 @@ Mods: {
 				DisplayName: Yelmo Titánico
 				Tooltip:
 					'''
-					'Infundido con energía primordial'  
-					+12% de velocidad de ataque cuerpo a cuerpo  
-					Aumenta el tiempo de invulnerabilidad tras recibir daño  
+					'Infundido con energía primordial'
+					{0}% de velocidad de ataque cuerpo a cuerpo
+					Aumenta el tiempo de invulnerabilidad tras recibir daño
 					Otorga inmunidad al retroceso
 					'''
 				SetBonus: El daño infligido aumenta en {0}%
@@ -17620,9 +17529,9 @@ Mods: {
 				DisplayName: Máscara Titánica
 				Tooltip:
 					'''
-					'Infundida con energía primordial'  
-					Tus ataques a distancia están encantados  
-					Reduce en un 25% la probabilidad de consumir munición  
+					'Infundida con energía primordial'
+					Tus ataques a distancia están encantados
+					Reduce en un {0}% la probabilidad de consumir munición
 					Otorga visión de las posiciones enemigas
 					'''
 				SetBonus: El daño infligido aumenta en {0}%
@@ -17688,10 +17597,10 @@ Mods: {
 				DisplayName: Crisálida Impecable
 				Tooltip:
 					'''
-					Al presionar la tecla 'Encapsular', te colocarás dentro de un frágil capullo  
-					Dentro del capullo, tu regeneración de vida aumenta considerablemente, pero tu reducción de daño disminuye mucho  
-					Si sobrevives, tu daño y velocidad de ataque aumentan un 30% por un corto tiempo  
-					El capullo puede activarse una vez por minuto
+					Presionar la tecla 'Envolver' te colocará dentro de un capullo frágil durante {3} segundos, impidiendo el uso de objetos
+					Aumenta el daño recibido en un {0}%, pero aumenta la recuperación de vida en {1} mientras estés dentro del capullo
+					Aumenta el daño y la velocidad de ataque en un {2}% durante {3} segundos tras eclosionar
+					El capullo debe recargarse durante {4} minutos después de usarse
 					'''
 			}
 
@@ -18007,9 +17916,9 @@ Mods: {
 				DisplayName: Grebas de Valadium
 				Tooltip:
 					'''
-					+2% de probabilidad de crítico a distancia  
-					+5% de daño a distancia  
-					+7% de velocidad de movimiento
+					{0}% de probabilidad de crítico a distancia  
+					{1}% de daño a distancia  
+					{2}% de velocidad de movimiento
 					'''
 			}
 
@@ -18022,8 +17931,8 @@ Mods: {
 				DisplayName: Casco de Valadium
 				Tooltip:
 					'''
-					+6% de probabilidad de crítico a distancia  
-					+5% de daño a distancia
+					{0}% de probabilidad de crítico a distancia  
+					{1}% de daño a distancia
 					'''
 				SetBonus: Invierte la gravedad al presionar ARRIBA. Mientras estés invertido, el daño a distancia aumenta en {0}%
 			}
@@ -18797,8 +18706,9 @@ Mods: {
 			RemovedItems: {
 				Tooltip:
 					'''
-					'Un objeto de una era muy lejana...'  
-					Este objeto ya no existe en el juego. Si otro mod lo usa de alguna forma, contacta al desarrollador de ese mod
+					'Un objeto de una época muy lejana...'
+					Este objeto ya no existe en el juego
+					Si otro mod lo usa de alguna forma, contacta con el desarrollador de dicho mod
 					'''
 				DarksteelMace.DisplayName: Maza de Acero Oscuro
 				Firestormboots.DisplayName: Botas Tormenta Ígnea
@@ -19627,6 +19537,191 @@ Mods: {
 				DisplayName: Pared de Columna de Piedra
 				Tooltip: ""
 			}
+
+			DumboOctopusStatue: {
+				DisplayName: Estatua de Pulpo Dumbo
+				Tooltip: ""
+			}
+
+			LobsterStatue: {
+				DisplayName: Estatua de Langosta
+				Tooltip: ""
+			}
+
+			HeadSpinner: {
+				DisplayName: Giracabezas
+				Tooltip: Cada cinco golpes libera una ráfaga de icor
+			}
+
+			AlchemistBlock: {
+				DisplayName: Bloque de Alquimista
+				Tooltip: ""
+			}
+
+			AlchemistPlatform: {
+				DisplayName: Plataforma de Alquimista
+				Tooltip: ""
+			}
+
+			AlchemistWall: {
+				DisplayName: Pared de Alquimista
+				Tooltip: ""
+			}
+
+			AlchemistBathtub: {
+				DisplayName: Bañera de Alquimista
+				Tooltip: ""
+			}
+
+			AlchemistBed: {
+				DisplayName: Cama de Alquimista
+				Tooltip: ""
+			}
+
+			AlchemistBookcase: {
+				DisplayName: Librería de Alquimista
+				Tooltip: ""
+			}
+
+			AlchemistCandelabra: {
+				DisplayName: Candelabro de Alquimista
+				Tooltip: ""
+			}
+
+			AlchemistCandle: {
+				DisplayName: Vela de Alquimista
+				Tooltip: ""
+			}
+
+			AlchemistChair: {
+				DisplayName: Silla de Alquimista
+				Tooltip: ""
+			}
+
+			AlchemistChandelier: {
+				DisplayName: Lámpara de Araña de Alquimista
+				Tooltip: ""
+			}
+
+			AlchemistClock: {
+				DisplayName: Reloj de Alquimista
+				Tooltip: ""
+			}
+
+			AlchemistCup: {
+				DisplayName: Taza de Alquimista
+				Tooltip: ""
+			}
+
+			AlchemistDoor: {
+				DisplayName: Puerta de Alquimista
+				Tooltip: ""
+			}
+
+			AlchemistDresser: {
+				DisplayName: Aparador de Alquimista
+				Tooltip: ""
+			}
+
+			AlchemistLamp: {
+				DisplayName: Lámpara de Alquimista
+				Tooltip: ""
+			}
+
+			AlchemistLantern: {
+				DisplayName: Farol de Alquimista
+				Tooltip: ""
+			}
+
+			AlchemistPiano: {
+				DisplayName: Piano de Alquimista
+				Tooltip: ""
+			}
+
+			AlchemistSink: {
+				DisplayName: Fregadero de Alquimista
+				Tooltip: ""
+			}
+
+			AlchemistSofa: {
+				DisplayName: Sofá de Alquimista
+				Tooltip: ""
+			}
+
+			AlchemistTable: {
+				DisplayName: Mesa de Alquimista
+				Tooltip: ""
+			}
+
+			AlchemistToilet: {
+				DisplayName: Retrete de Alquimista
+				Tooltip: ""
+			}
+
+			AlchemistWorkbench: {
+				DisplayName: Banco de Trabajo de Alquimista
+				Tooltip: ""
+			}
+
+			AlchemistChest: {
+				DisplayName: Cofre de Alquimista
+				Tooltip: ""
+			}
+
+			CrowCage: {
+				DisplayName: Jaula de Cuervo
+				Tooltip: ""
+			}
+
+			CrowStatue: {
+				DisplayName: Estatua de Cuervo
+				Tooltip: ""
+			}
+
+			Salivation: {
+				DisplayName: Salivación
+				Tooltip: Cada cinco golpes libera una ráfaga de llama maldita
+			}
+
+			LodeStoneQuickDraw: {
+				DisplayName: Desenfundado Rápido de Magnetita
+				Tooltip: El daño despedazará a los enemigos, aumentando el daño que reciben en un 10%
+			}
+
+			Nocturnal: {
+				DisplayName: Nocturno
+				Tooltip: Al golpear a un enemigo, puede liberarse una 'luz negra' teledirigida
+			}
+
+			Sanguine: {
+				DisplayName: Sanguíneo
+				Tooltip: Al golpear a un enemigo, puede liberarse una 'luz vital' teledirigida
+			}
+
+			CobaltPopper: {
+				DisplayName: Estallador de Cobalto
+				Tooltip: ""
+			}
+
+			MyceliumGattlingGun: {
+				DisplayName: Ametralladora de Micelio
+				Tooltip: "{0}% de probabilidad de no gastar munición"
+			}
+
+			OrichalcumPelter: {
+				DisplayName: Lanzador de Oricalco
+				Tooltip: ""
+			}
+
+			PalladiumSubmachineGun: {
+				DisplayName: Subfusil de Paladio
+				Tooltip: ""
+			}
+
+			ValadiumFoeBlaster: {
+				DisplayName: Detonador de Enemigos de Valadio
+				Tooltip: El daño quema a los enemigos con energía interdimensional con el tiempo
+			}
 		}
 
 		NPCs: {
@@ -20182,7 +20277,12 @@ Mods: {
 
 			CrownofThorns: {
 				DisplayName: Corona de Espinas
-				BestiaryFlavorText: Vive en los suelos de las profundidades. Una sola picadura de esta estrella de mar puede significar la perdición.
+				BestiaryFlavorText: Habitan en los fondos de las profundidades; una sola picadura de una de estas estrellas de mar puede significar la perdición para muchos.
+			}
+
+			Crow: {
+				DisplayName: Crow
+				BestiaryFlavorText: Despite its gloomy surroundings, this bird is simply looking for food.
 			}
 
 			DumboOctopus: {
@@ -21062,7 +21162,7 @@ Mods: {
 
 			WindElemental: {
 				DisplayName: Elemental de Viento
-				BestiaryFlavorText: Magias sueltas que flotan alto en el cielo ocasionalmente se manifiestan en estos seres agitados. Pueden dar un buen calambre a terrarianos desprevenidos.
+				BestiaryFlavorText: Magias sueltas que se elevan en el aire a veces se manifiestan en estos seres agitados. Pueden dar una descarga bastante desagradable a los Terrarianos desprevenidos.
 			}
 		}
 
@@ -21344,7 +21444,9 @@ Mods: {
 			BoomCorrosive.DisplayName: Corrosión
 			BoomNitrogen.DisplayName: Nitrógeno
 			BoomPlasma.DisplayName: Plasma
-			BoreanFangStaffPro.DisplayName: Bastón Colmillo Boreal Pro
+			BoreanFangStaffPro.DisplayName: "{$Items.BoreanFangStaff.DisplayName}"
+			BoreanFangStaffPro2.DisplayName: "{$Items.BoreanFangStaff.DisplayName}"
+			BoreanFangStaffPro3.DisplayName: "{$Items.BoreanFangStaff.DisplayName}"
 			AbyssalStrike.DisplayName: Golpe Abismal
 			AbyssalStrike2.DisplayName: Golpe Abismal2
 			ForgottenOneSpit.DisplayName: Escupitajo del Olvidado
@@ -21498,7 +21600,6 @@ Mods: {
 			CharonsBeaconPro.DisplayName: Faro de Caronte Pro
 			ChlorophyteBolt.DisplayName: Proyectil de Clorofita
 			ChlorophyteCloud.DisplayName: Nube de Clorofita
-			CinderShot.DisplayName: Disparo de Ceniza
 			ClimbersIceAxePro.DisplayName: Piolet del Escalador
 			ClimbersIceAxePro2.DisplayName: Piolet del Escalador 2
 			ClockWorkBombPro.DisplayName: Bomba Mecánica Pro
@@ -21522,7 +21623,6 @@ Mods: {
 			CoralPolearmPro3.DisplayName: Arma Larga de Coral Pro 3
 			CoralSlasherPro.DisplayName: Tajador de Coral Pro
 			CorrosionBeakerPro.DisplayName: Matraz de Corrosión Pro
-			CorruptionSpark.DisplayName: Chispa de Corrupción
 			CrashSurge.DisplayName: Oleada de Choque
 			CryoFangProQuick.DisplayName: Colmillo Gélido
 			Crystal.DisplayName: Cristal
@@ -21725,7 +21825,8 @@ Mods: {
 			GoldenLocksPro4.DisplayName: Rizos Dorados
 			GolemsGazePro.DisplayName: Mirada del Gólem Pro
 			GolemsGazePro2.DisplayName: Mirada del Gólem Pro2
-			GorgonsEyePro.DisplayName: Ojo de la Gorgona Pro
+			GorgonsEyePro.DisplayName: "{$Items.GorgonsEye.DisplayName}"
+			GorgonsEyePro2.DisplayName: "{$Items.GorgonsEye.DisplayName}"
 			GraniteArrowPro.DisplayName: Flecha Granítica Pro
 			GraniteBarrier.DisplayName: Barrera Granítica
 			GraniteControlRodBobber.DisplayName: Controlador Granítico (Pesca)
@@ -22024,7 +22125,6 @@ Mods: {
 			LootRangPro.DisplayName: Lanzador de Botín
 			LovegunPro.DisplayName: Pistola del Amor Pro
 			MageHandPro.DisplayName: Mano Mágica Pro
-			MagickStaffPro.DisplayName: Bastón Mágico Pro
 			MagicThorHammerPro.DisplayName: Martillo Mágico de Thor Pro
 			MantisPunchPro.DisplayName: Puño de Camarón Mantis
 			MantisPunchPro2.DisplayName: Puño de Camarón Mantis
@@ -22209,7 +22309,6 @@ Mods: {
 			NightStarTrue2.DisplayName: Estrella Nocturna Verdadera2
 			NightStarTrueImpact.DisplayName: Impacto Estrella Nocturna Verdadera
 			NitrogenVialPro.DisplayName: Vial de Nitrógeno Pro
-			NocturnalPro.DisplayName: Nocturno Pro
 			NorthernLightPro0.DisplayName: Aurora Pro0
 			NorthernLightPro1.DisplayName: Aurora Pro1
 			NovaRiflePro.DisplayName: Rifle Nova Pro
@@ -22225,14 +22324,9 @@ Mods: {
 			OldGodsVisionPro.DisplayName: Visión del Dios Antiguo
 			OldGodsVisionPro2.DisplayName: Visión del Dios Antiguo
 			OmegaBeam.DisplayName: Rayo Omega
-			OmegaBlast.DisplayName: Explosión Omega
-			OmegaBoom.DisplayName: Estallido Omega
 			OmniArrow.DisplayName: Flecha Omnicida
 			OmniArrow2.DisplayName: Flecha Omnicida
 			OmniArrow3.DisplayName: Flecha Omnicida
-			OmniBoom.DisplayName: Omni Boom
-			OmniBurst.DisplayName: Ráfaga Omni
-			OmniBurstDamage.DisplayName: Daño Ráfaga Omni
 			AssassinArmorSetPro.DisplayName: Armadura de Asesino Pro
 			OpalHookPro.DisplayName: Garfio de Ópalo Pro
 			OpalStaffPro.DisplayName: Bastón de Ópalo Pro
@@ -22299,8 +22393,6 @@ Mods: {
 			PhantomCameraPro2.DisplayName: Cámara Fantasma Pro2
 			PhaseDartPro.DisplayName: Dardo de Fase Pro
 			PiercePro.DisplayName: Perforador Pro
-			PlasmaBlast.DisplayName: Explosión de Plasma
-			PlasmaShot.DisplayName: Disparo de Plasma
 			PlasmaStaffPro.DisplayName: Bastón de Plasma Pro
 			PlasmaStaffPro2.DisplayName: Bastón de Plasma Pro2
 			PlasmaStaffPro3.DisplayName: Bastón de Plasma Pro3
@@ -22352,7 +22444,6 @@ Mods: {
 			SandStoneSpearPro.DisplayName: Lanza de Piedra Arenisca Pro
 			SandStorm.DisplayName: Tormenta de Arena
 			SandweaversTiaraPro.DisplayName: Tiara de Tejedores de Arena Pro
-			SanguinePro.DisplayName: Sanguinario Pro
 			ScalperDagger.DisplayName: Daga Scalper
 			SchmelzePro.DisplayName: Schmelze Pro
 			ScorpainPro.DisplayName: Escorpión Doloroso Pro
@@ -22405,8 +22496,8 @@ Mods: {
 			ShockRiflePro.DisplayName: Rifle de Descarga Pro
 			ShockRiflePro2.DisplayName: Rifle de Descarga Pro2
 			ShockRiflePro3.DisplayName: Rifle de Descarga Pro3
-			Shockwave.DisplayName: Onda de Choque
 			ShootingStarDrillPro.DisplayName: Taladro Estrella Fugaz
+			Shockwave.DisplayName: Onda de Choque
 			ShroomBolt.DisplayName: Rayo de Hongo
 			ShroomiteRocketDrillPro.DisplayName: Taladro Cohete de Shroomita
 			ShroomiteRocketDrillPro2.DisplayName: Taladro Cohete de Shroomita
@@ -22522,11 +22613,11 @@ Mods: {
 			TheWhirlpoolPro.DisplayName: El Remolino Pro
 			TheZapperPro.DisplayName: El Electrocutador Pro
 			ThorBoom.DisplayName: Explosión de Thor
-			ThoriumBolt.DisplayName: Rayo de Torio
-			ThoriumBoomerangPro.DisplayName: Bumerán de Torio Pro
-			ThoriumCrit.DisplayName: Crítico de Torio
-			ThoriumSpark.DisplayName: Chispa de Torio
-			ThoriumSpearPro.DisplayName: Lanza de Torio Pro
+			ThoriumBolt.DisplayName: Rayo de Thorium
+			ThoriumBoomerangPro.DisplayName: Bumerán de Thorium Pro
+			ThoriumCrit.DisplayName: Crítico de Thorium
+			ThoriumSpark.DisplayName: Chispa de Thorium
+			ThoriumSpearPro.DisplayName: Lanza de Thorium Pro
 			AbsoluteZeroPro.DisplayName: Cero Absoluto Pro
 			AdamantiteGlaivePro.DisplayName: Guja de Adamantita Pro
 			AngelsEndPro.DisplayName: Fin de los Ángeles Pro
@@ -22652,7 +22743,7 @@ Mods: {
 			TerraKnifePro.DisplayName: Cuchillo Terral Pro
 			TerraKnifePro2.DisplayName: Cuchillo Terral Pro2
 			TerraKnifePro3.DisplayName: Cuchillo Terral Pro3
-			ThoriumDaggerPro.DisplayName: Daga de Torio Pro
+			ThoriumDaggerPro.DisplayName: Daga de Thorium Pro
 			ThrowerDecoyLog.DisplayName: Tronco Señuelo del Lanzador
 			ThrowingDartPro.DisplayName: Dardo Arrojadizo Pro
 			ThrowingGuideFollowup.DisplayName: Seguimiento del Guía de Lanzamiento
@@ -22735,7 +22826,8 @@ Mods: {
 			WondrousWandPro5.DisplayName: Varita Maravillosa Pro5
 			WrithingSheathPro.DisplayName: Hoja del Vacío
 			WyrmDecimatorPro.DisplayName: Decimador de Wyrm Pro
-			WyvernSlayerPro.DisplayName: Asesino de Guivernos Pro
+			WyvernSlayerPro.DisplayName: "{$Items.WyvernSlayer.DisplayName}"
+			WyvernSlayerPro2.DisplayName: "{$Items.WyvernSlayer.DisplayName}"
 			YakaArrowPro.DisplayName: Flecha Yaka Pro
 			YewVisual.DisplayName: Visual de Tejo
 			YewWoodShrapnelPro.DisplayName: Esquirla de Madera de Tejo
@@ -22745,6 +22837,7 @@ Mods: {
 			OmegaBlasterPro3.DisplayName: Megacañón Omega Pro3
 			OmegaBlasterPro2.DisplayName: Megacañón Omega Pro2
 			OmegaBlasterPro.DisplayName: Megacañón Omega Pro
+			OmegaBlast.DisplayName: Explosión Omega
 			InfernoLordsFocusPro.DisplayName: Foco del Señor del Infierno Pro
 			ThunderstruckPro2.DisplayName: Impacto de Trueno
 			ThunderstruckPro.DisplayName: Impacto de Trueno
@@ -22833,6 +22926,31 @@ Mods: {
 			WallChickenPro.DisplayName: Pared de Pollo
 			ParticleWhipPro2.DisplayName: "{$Items.ParticleWhip.DisplayName}"
 			FrostPlagueStaffPro.DisplayName: "{$Items.FrostPlagueStaff.DisplayName}"
+			HeadSpinnerPro.DisplayName: "{$Items.HeadSpinner.DisplayName}"
+			HeadSpinnerPro2.DisplayName: "{$Items.HeadSpinner.DisplayName}"
+			LucidCutterPro.DisplayName: Cortador Lúcido
+			SalivationPro.DisplayName: "{$Items.Salivation.DisplayName}"
+			SalivationPro2.DisplayName: "{$Items.Salivation.DisplayName}"
+			CinderStringPro.DisplayName: "{$Items.CinderString.DisplayName}"
+			OmniCannonPro.DisplayName: "{$Items.OmniCannon.DisplayName}"
+			OmniCannonPro2.DisplayName: "{$Items.OmniCannon.DisplayName}"
+			OmniCannonPro3.DisplayName: "{$Items.OmniCannon.DisplayName}"
+			OmniCannonPro4.DisplayName: "{$Items.OmniCannon.DisplayName}"
+			OmegaPro2.DisplayName: Omega Pro2
+			LodestoneSluggerPro.DisplayName: Bateador de Magnetita
+			CinderShot.DisplayName: Disparo de Ceniza
+			CorruptionSpark.DisplayName: Chispa de Corrupción
+			LifeLight.DisplayName: Luz Vital
+			MagickStaffPro.DisplayName: Bastón Mágico Pro
+			NocturnalPro.DisplayName: Nocturno Pro
+			OmegaBoom.DisplayName: Estallido Omega
+			OmniBoom.DisplayName: Omni Estallido
+			OmniBurst.DisplayName: Ráfaga Omni
+			OmniBurstDamage.DisplayName: Daño de Ráfaga Omni
+			PlasmaBlast.DisplayName: Explosión de Plasma
+			PlasmaShot.DisplayName: Disparo de Plasma
+			SanguinePro.DisplayName: Sanguinario Pro
+			Shockwave.DisplayName: Onda de Choque
 		}
 
 		Tiles: {
@@ -22851,7 +22969,7 @@ Mods: {
 			MarkedGraveTile.MapEntry: Tumba Marcada
 			MarkedGraveTileTrue.MapEntry: "{$Tiles.MarkedGraveTile.MapEntry}"
 			OceanCrystal.MapEntry: Cristal Acuático
-			ThoriumOre.MapEntry: Torio
+			ThoriumOre.MapEntry: Thorium
 			AquaticDepthsBiomeChest.MapEntry_Locked: Cofre de las Profundidades Acuáticas Bloqueado
 			DesertBiomeChest.MapEntry_Locked: Cofre del Bioma del Desierto Bloqueado
 			UnderworldChest.MapEntry_Locked: Cofre del Inframundo Bloqueado
@@ -23452,6 +23570,7 @@ Mods: {
 
 			ExhaustionBar.Exhausted: Algunos objetos arrojadizos ahora son mucho más débiles
 			HellfireMinigunGauge.Overloaded: ¡Demasiado caliente!
+			Tracker.ContractCompletedNotification: Contrato de rastreo completado: {0}
 
 			InformationalIcons: {
 				Endurance: {
