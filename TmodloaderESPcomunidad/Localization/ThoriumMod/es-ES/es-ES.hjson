@@ -160,7 +160,7 @@ Mods: {
 
 			ArtilleryBuff: {
 				DisplayName: Artillería
-				Description: Aumenta tu número máximo de torretas
+				Description: Aumenta tu número máximo de centinelas
 			}
 
 			AssassinPotionBuff: {
@@ -1600,12 +1600,12 @@ Mods: {
 
 			BannerDamage: {
 				DisplayName: Estandarte de Batalla
-				Description: Recibes un {0}% más de daño de esbirros y centinelas
+				Description: Recibes un {0}% más de daño de súbditos y centinelas
 			}
 
 			BannerBounty: {
 				DisplayName: Estandarte de Recompensa
-				Description: Los esbirros cercanos generan monedas al dañar enemigos
+				Description: Los súbditos cercanos generan monedas al dañar enemigos
 			}
 
 			Slowed: {
@@ -1615,7 +1615,7 @@ Mods: {
 
 			BannerPrecision: {
 				DisplayName: Estandarte de Precisión
-				Description: Probabilidad de recibir un golpe crítico por daño de esbirros y centinelas
+				Description: Probabilidad de recibir un golpe crítico por daño de súbditos y centinelas
 			}
 
 			BannerPower: {
@@ -4140,7 +4140,7 @@ Mods: {
 				Tooltip:
 					'''
 					'Un poco de calor y grasa hacen maravillas'
-					Aumenta la capacidad de esbirros y mejora levemente todas las estadísticas
+					Aumenta la capacidad de súbditos y mejora levemente todas las estadísticas
 					'''
 			}
 
@@ -5371,7 +5371,7 @@ Mods: {
 				Tooltip:
 					'''
 					Invoca una cara maliciosa que se enfurece cuando estás gravemente herido
-					Ocupa dos espacios de esbirros
+					Ocupa dos espacios de súbditos
 					'''
 			}
 
@@ -7349,7 +7349,7 @@ Mods: {
 				Tooltip:
 					'''
 					{0}% de daño con invocaciones
-					Aumenta tu número máximo de esbirros en {1}
+					Aumenta tu número máximo de súbditos en {1}
 					Recibir daño libera a un protector fantasmal
 					'''
 			}
@@ -8122,9 +8122,9 @@ Mods: {
 					'''
 					'Comanda un ejército reforzado con magma'
 					Aumenta en {0}% el daño de invocación
-					Aumenta tu número máximo de esbirros en {1}
+					Aumenta tu número máximo de súbditos en {1}
 					Aumenta tu número máximo de centinelas en {2}
-					Aumenta el retroceso de tus esbirros
+					Aumenta el retroceso de tus súbditos
 					'''
 				SetBonus: Todo daño de invocación deja una quemadura persistente que inflige gran daño con el tiempo
 			}
@@ -15885,7 +15885,7 @@ Mods: {
 				Tooltip:
 					'''
 					Aumenta tu número máximo de centinelas en {0}
-					Aumenta tu número máximo de esbirros en {1}
+					Aumenta tu número máximo de súbditos en {1}
 					'''
 			}
 
@@ -16004,7 +16004,7 @@ Mods: {
 				Tooltip:
 					'''
 					'Una incubación espeluznante ha ocurrido'
-					Los ataques de súbditos y torretas tienen {0}% de probabilidad de generar una horda de arañas
+					Los ataques de súbditos y centinelas tienen {0}% de probabilidad de generar una horda de arañas
 					'''
 			}
 
@@ -16040,7 +16040,7 @@ Mods: {
 					'''
 				SetBonus:
 					'''
-					Los ataques de súbditos y torretas tienen {0}% de probabilidad de curarte al golpear  
+					Los ataques de súbditos y centinelas tienen {0}% de probabilidad de curarte al golpear  
 					No puedes recuperar más de {1} de vida cada {2} {^2:segundo;segundos}
 					'''
 			}
@@ -16090,7 +16090,7 @@ Mods: {
 				Tooltip:
 					'''
 					Aumenta el daño de invocación en {0}
-					Aumenta el retroceso de los esbirros
+					Aumenta el retroceso de los súbditos
 					'''
 			}
 
@@ -16131,8 +16131,8 @@ Mods: {
 				Tooltip:
 					'''
 					'Fósil de una época donde los arácnidos eran reyes'  
-					Los ataques de los esbirros tienen un {0}% de probabilidad de generar una araña ámbar  
-					Los ataques de los esbirros infligen {1} de daño adicional mientras haya una araña ámbar activa
+					Los ataques de los súbditos tienen un {0}% de probabilidad de generar una araña ámbar  
+					Los ataques de los súbditos infligen {1} de daño adicional mientras haya una araña ámbar activa
 					'''
 			}
 
@@ -16140,7 +16140,7 @@ Mods: {
 				DisplayName: Cristal de Adivinación
 				Tooltip:
 					'''
-					Aumenta tu número máximo de torretas  
+					Aumenta tu número máximo de centinelas  
 					Al presionar la tecla '{$Keybinds.AccessoryAbility.DisplayName}', se activa una mayor distancia de visión
 					'''
 			}
@@ -16166,10 +16166,10 @@ Mods: {
 
 			SpiritTrapperCowl: {
 				DisplayName: Capucha del Cazador de Espíritus
-				Tooltip: Aumenta tu número máximo de esbirros en {0}
+				Tooltip: Aumenta tu número máximo de súbditos en {0}
 				SetBonus:
 					'''
-					Aumenta tu número máximo de esbirros en {0}
+					Aumenta tu número máximo de súbditos en {0}
 					Matar enemigos o dañar jefes continuamente genera esencias espirituales
 					Tras generar {1} esencias, se consumen al instante para curarte {2} de vida
 					'''
