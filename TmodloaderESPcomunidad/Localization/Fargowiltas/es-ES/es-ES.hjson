@@ -272,7 +272,7 @@ Mods: {
 
 				AnimatedRecipeGroups: {
 					Label: "[i:9] Grupos de recetas animadas"
-					Tooltip: Si los iconos de los grupos de recetas deben mostrarse alternando entre los objetos viables del grupo de recetas.
+					Tooltip: Los iconos de los grupos de recetas deben mostrarse alternando entre los objetos viables del grupo de recetas.
 				}
 
 				HideUnlimitedBuffs: {
@@ -296,7 +296,7 @@ Mods: {
 				}
 
 				DebuffFaderRatio: {
-					Label: "[i:1612] Intensidad del desvanecimiento por duración de la desventajas"
+					Label: "[i:1612] Intensidad del desvanecimiento por duración de las desventajas"
 					Tooltip: ""
 				}
 
@@ -958,7 +958,7 @@ Mods: {
 				Tooltip:
 					'''
 					Genera un súper muñeco en el cursor
-					Igual que el muñeco de pruebas normal, pero los proyectiles y esbirros lo detectan y lo siguen
+					Igual que el muñeco de pruebas normal, pero los proyectiles y súbditos lo detectan y lo siguen
 					También se activan efectos al golpearlo
 					Clic derecho para eliminar todos los súper muñecos generados
 					Se pueden generar hasta 50 súper muñecos a la vez
@@ -1806,13 +1806,13 @@ Mods: {
 					Al usarlo, se consumirán todas las invocaciones del conjunto, hasta un máximo de 10
 					Cuantas más se consuman, más fuerte será el jefe
 					Si se consumen más de 5, el jefe será más rápido
-					Caerán 5 Bolsas de Botín por cada objeto consumido
+					Caerán 5 Bolsas del tesoro por cada objeto consumido
 					Un Trofeo caerá por cada 3 objetos consumidos
 					Un Energizador caerá por cada 10 objetos consumidos
 					'''
 			}
 
-			OverloaderRewards: El jefe soltará {0} bolsas de tesoro, {1} trofeos y {2} energizantes al ser derrotado (las recompensas aumentan con el tamaño del stack).
+			OverloaderRewards: El jefe soltará {0} bolsas del tesoro, {1} trofeos y {2} energizantes al ser derrotado (las recompensas aumentan con el tamaño del stack).
 
 			OverloadEye: {
 				DisplayName: Ojamalgama
@@ -2188,7 +2188,7 @@ Mods: {
 
 			Angler: {
 				DisplayName: Pescador
-				Tooltip: "'¡Serías un gran ayudante esbirro!'"
+				Tooltip: "'¡Serías un gran ayudante esclavo!'"
 			}
 
 			ArmsDealer: {
@@ -2665,7 +2665,7 @@ Mods: {
 					Fishron: ¿Ya venciste al pez-cerdo-dragón? Reduce tu vida máxima con cada golpe. También puede romper defensas de un solo ataque. Una pena que no tengas una placa reforzada para evitarlo, ¿verdad?
 					Betsy: ¡Es un buen momento para ir por Betsy! Tranquilo. Si llegas a la última oleada y pierdes, no tendrás que repetir todo el evento para enfrentarla de nuevo. ¡No te descuides y ten cuidado con sus desventajas!
 					Golem: ¿Ese templo? ¡Llega al altar para recuperar el control de los cables! El gólem se enfurece si te vas, así que lo mejor es pelear dentro. Las plataformas no funcionan, pero una Bomba Instactuadora de Lihzahrd puede despejar espacio.
-					Plantera: Esa planta crecida inflige un veneno especial que la enfurece si te golpea varias veces seguidas. También tiene un anillo de hojas cristalinas, ¡pero los esbirros lo atraviesan!
+					Plantera: Esa planta crecida inflige un veneno especial que la enfurece si te golpea varias veces seguidas. También tiene un anillo de hojas cristalinas, ¡pero los súbditos lo atraviesan!
 					Destroyer: Ese gusano metálico tiene algunas mejoras, pero sus sondas fueron debilitadas. Empieza a disparar estrellas oscuras teledirigidas y volar. ¡Si se enrolla a tu alrededor, no intentes escapar!
 					Twins: Vi ese ojo metálico girando y disparando un láser enorme el otro día. Además, aunque mates a uno, ¡no morirán hasta que ambos caigan!
 					Prime: Concéntrate en destruir ese cráneo metálico, no sus extremidades. ¡No intentes huir de sus extremidades giratorias! Mantén los ojos abiertos y aprende a distinguir qué hace cada parte.

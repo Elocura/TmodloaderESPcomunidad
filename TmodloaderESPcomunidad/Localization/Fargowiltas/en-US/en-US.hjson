@@ -98,6 +98,21 @@ Mods: {
 					Tooltip: ""
 				}
 
+				NoTrapsWorld: {
+					Label: "[i:510] No Traps World"
+					Tooltip: ""
+				}
+
+				RemixWorld: {
+					Label: "[i:4711] Remix World"
+					Tooltip: ""
+				}
+
+				ZenithWorld: {
+					Label: "[i:4956] Zenith World"
+					Tooltip: ""
+				}
+
 				UnlimitedAmmo: {
 					Label: "[i:771] Unlimited Ammo at 3996+ in Hardmode"
 					Tooltip: ""
@@ -255,6 +270,11 @@ Mods: {
 					Tooltip: Item speed is listed in use time, meaning bigger number = slower.
 				}
 
+				AnimatedRecipeGroups: {
+					Label: "[i:9] Animated Recipe Groups"
+					Tooltip: Whether recipe group sprites should flip through the viable items in the recipe group when displayed.
+				}
+
 				HideUnlimitedBuffs: {
 					Label: "[i:292] Hide unlimited buffs in tray"
 					Tooltip: ""
@@ -293,9 +313,21 @@ Mods: {
 
 			SeasonSelections: {
 				Tooltip: ""
-				Normal.Label: Normal
-				AlwaysOn.Label: Always On
-				AlwaysOff.Label: Always Off
+
+				Normal: {
+					Label: Normal
+					Tooltip: ""
+				}
+
+				AlwaysOn: {
+					Label: Always On
+					Tooltip: ""
+				}
+
+				AlwaysOff: {
+					Label: Always Off
+					Tooltip: ""
+				}
 			}
 
 			Common.CanSpawn: Can Spawn
@@ -310,6 +342,19 @@ Mods: {
 			FoodT2: Plenty Satisfying Food
 			FoodT3: Exquisitively Stuffing Food
 			GemRobe: Gem Robe
+			WoodenCrate: Wooden Crate
+			IronCrate: Iron Crate
+			GoldenCrate: Golden Crate
+			JungleCrate: Jungle Crate
+			SkyCrate: Sky Crate
+			CorruptCrate: Corrupt Crate
+			CrimsonCrate: Crimson Crate
+			// HallowedCrate: Hallowed Crate
+			DungeonCrate: Dungeon Crate
+			FrozenCrate: Frozen Crate
+			SandCrate: Oasis Crate
+			LavaCrate: Obsidian Crate
+			OceanCrate: Ocean Crate
 			Or: Or
 		}
 
@@ -1766,6 +1811,8 @@ Mods: {
 					An Energizer will drop for every 10 consumed items
 					'''
 			}
+
+			OverloaderRewards: The boss will drop {0} treasure bags, {1} trophies, and {2} energizers when defeated (rewards increase with stack size)
 
 			OverloadEye: {
 				DisplayName: Eyemalgamation

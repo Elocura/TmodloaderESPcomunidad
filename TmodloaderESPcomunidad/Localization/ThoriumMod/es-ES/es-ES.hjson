@@ -11813,7 +11813,7 @@ Mods: {
 
 			BentZombieArm: {
 				DisplayName: Brazo Doblado de Zombi
-				Tooltip: "'El brazo favorito del zombi confundido... Su izquierdo'"
+				Tooltip: "'El brazo favorito del Zombi confundido... Su izquierdo'"
 			}
 
 			BlacksmithApron: {
@@ -19148,7 +19148,7 @@ Mods: {
 			}
 
 			HemogoblinSharkToothNecklace: {
-				DisplayName: Collar de Dientes de Tiburón Hemogoblin
+				DisplayName: Collar de dientes de Tiburón hemoduende
 				Tooltip: Aumenta la penetración de armadura en {0}
 			}
 
@@ -19952,7 +19952,7 @@ Mods: {
 			PatchWerk: {
 				DisplayName: Patch Werk
 				BestiaryFlavorText: Una criatura horrenda formada con los restos infestados de larvas de terrarianos caídos. Grita a quien quiera oírlo, rogando que lo destruyan.
-				BossChecklistIntegration.SpawnInfo: Aparece aleatoriamente durante la Luna Sangrienta. Puede invocarse nuevamente con un [i:ThoriumMod/FreshBrain] comprado al Zombi Confundido. Inicia la Luna Sangrienta con un [i:BloodMoonStarter].
+				BossChecklistIntegration.SpawnInfo: Aparece aleatoriamente durante la Luna Sangrienta. Puede invocarse nuevamente con un [i:ThoriumMod/FreshBrain] comprado al Zombi confundido. Inicia la Luna Sangrienta con un [i:BloodMoonStarter].
 			}
 
 			SeveredLegs: {
@@ -19968,7 +19968,7 @@ Mods: {
 			CorpseBloom: {
 				DisplayName: Flor de Cadáver
 				BestiaryFlavorText: No está claro si esta flor mutante obtuvo su nombre por su olor fétido o por el estado en que suele dejar a los terrarianos.
-				BossChecklistIntegration.SpawnInfo: Aparece aleatoriamente en la Jungla Subterránea tras derrotar al Devorador de Mundos / Cerebro de Cthulhu. Puede invocarse nuevamente con una [i:ThoriumMod/RottingSpore] comprada al Zombi Confundido.
+				BossChecklistIntegration.SpawnInfo: Aparece aleatoriamente en la Jungla Subterránea tras derrotar al Devoramundos / Cerebro de Cthulhu. Puede invocarse nuevamente con una [i:ThoriumMod/RottingSpore] comprada al Zombi confundido.
 			}
 
 			CorpsePetal.DisplayName: Flor de Cadáver
@@ -20094,8 +20094,8 @@ Mods: {
 			}
 
 			ConfusedZombie: {
-				DisplayName: Zombi Confundido
-				BestiaryFlavorText: El Zombi Confundido es un químico convertido en zombi. Aunque ha logrado conservar la mayor parte de su mente, sigue siendo un poco... raro.
+				DisplayName: Zombi confundido
+				BestiaryFlavorText: El Zombi confundido es un químico convertido en zombi. Aunque ha logrado conservar la mayor parte de su mente, sigue siendo un poco... raro.
 
 				TownNPCMood: {
 					Content: Estoy bien y animado, gracias.
@@ -20649,7 +20649,7 @@ Mods: {
 
 			GraniteEnergyStorm: {
 				DisplayName: Tormenta de Energía Granítica
-				BestiaryFlavorText: El epicentro incontrolable de una oleada energética dentro de las cavernas de granito. Se activa al disipar la maldición de Skeletron.
+				BestiaryFlavorText: El epicentro incontrolable de una oleada energética dentro de las cavernas de granito. Se activa al disipar la maldición de Esqueletrón.
 				BossChecklistIntegration.SpawnInfo: Usa un [i:ThoriumMod/UnstableCore] en lo profundo de una Cámara Granítica o encuentra y derrota una {$NPCs.UnstableEnergyAnomaly.DisplayName}.
 			}
 
@@ -20695,7 +20695,7 @@ Mods: {
 			Illusionist: {
 				DisplayName: Ilusionista
 				BestiaryFlavorText: Un embaucador que existe desde antes de la Mazmorra. Usando visiones falsas, llevó a un antiguo déspota a arruinar su reino con una terrible maldición.
-				BossChecklistIntegration.SpawnInfo: Aparece aleatoriamente en la Mazmorra. Puede ser invocado nuevamente con un [i:ThoriumMod/IllusionaryGlass] comprado al Zombi Confundido.
+				BossChecklistIntegration.SpawnInfo: Aparece aleatoriamente en la Mazmorra. Puede ser invocado nuevamente con un [i:ThoriumMod/IllusionaryGlass] comprado al Zombi confundido.
 			}
 
 			IllusionistMirror.DisplayName: Espejo de Ilusionista
@@ -23090,7 +23090,7 @@ Mods: {
 
 			RuneContract: {
 				Title: Runa Podrida
-				Description: Las energías liberadas por la derrota del Muro de Carne han empoderado a algunos tipos indeseables. Un esqueleto rebelde ahora aterroriza los subterráneos como Mago Rúnico. Su poder es volátil. ¡No podemos permitir que viva!
+				Description: Las energías liberadas por la derrota del Muro carnoso han empoderado a algunos tipos indeseables. Un esqueleto rebelde ahora aterroriza los subterráneos como Mago Rúnico. Su poder es volátil. ¡No podemos permitir que viva!
 			}
 
 			SandContract: {
