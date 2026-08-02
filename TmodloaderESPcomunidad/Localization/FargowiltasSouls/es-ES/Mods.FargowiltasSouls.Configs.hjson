@@ -32,12 +32,12 @@ ClientConfig: {
 	}
 
 	OncomingMutantX: {
-		Label: Posición X del ícono del inventario del Modo Eternidad
+		Label: Posición X del ícono del inventario del Modo eternidad
 		Tooltip: ""
 	}
 
 	OncomingMutantY: {
-		Label: Posición Y del ícono del inventario del Modo Eternidad
+		Label: Posición Y del ícono del inventario del Modo eternidad
 		Tooltip: ""
 	}
 
@@ -73,10 +73,10 @@ ClientConfig: {
 }
 
 SoulConfig: {
-	DisplayName: Configuración de las Almas
+	DisplayName: Configuración de las almas
 
 	Headers: {
-		Maso: Modo Eternidad
+		Maso: Modo eternidad
 		Patreon: "[i:FargowiltasSouls/RoombaPet] [c/ffffff:Objetos de Patreon]"
 	}
 
@@ -181,7 +181,7 @@ SoulConfig: {
 	}
 
 	PerformanceMode: {
-		Label: Modo de Rendimiento
+		Label: Modo de rendimiento
 		Tooltip: Desactiva los efectos visuales más exigentes. Actualmente desactiva las estelas del ataque ocular del Mutante.
 	}
 
@@ -191,14 +191,14 @@ SoulConfig: {
 	}
 
 	MultiplayerRespawnPrevention: {
-		Label: Prevención de Reaparición en Multijugador
+		Label: Prevención de reaparición en multijugador
 		Tooltip: Selecciona en qué modo se debe impedir reaparecer múltiples veces durante una pelea contra jefes en multijugador.
 	}
 }
 
 RespawnPreventionSetting: {
 	Tooltip: ""
-	Eternity.Label: Modo Eternidad
-	Masochist.Label: Modo Masoquista
+	Eternity.Label: Modo eternidad
+	Masochist.Label: Modo masoquista
 	Disabled.Label: Desactivado
 }

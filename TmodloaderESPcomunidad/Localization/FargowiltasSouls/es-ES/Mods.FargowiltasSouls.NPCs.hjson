@@ -11,139 +11,139 @@ AbomBoss: {
 	}
 }
 
-AbomSaucer.DisplayName: Platillo Miniatura
+AbomSaucer.DisplayName: Platillo miniatura
 
 TrojanSquirrel: {
-	DisplayName: Ardilla Troyana
+	DisplayName: Ardilla troyana
 
 	BossChecklistIntegration: {
 		EntryName: "{$Mods.FargowiltasSouls.NPCs.TrojanSquirrel.DisplayName}"
 		SpawnInfo: Se invoca usando [i:FargowiltasSouls/SquirrelCoatofArms]
-		DespawnMessage: La Ardilla Troyana regresa a su clan de ardillas...
+		DespawnMessage: La Ardilla troyana regresa a su clan de ardillas...
 	}
 }
 
-TrojanSquirrelArms.DisplayName: Ardilla Troyana
-TrojanSquirrelHead.DisplayName: Ardilla Troyana
+TrojanSquirrelArms.DisplayName: Ardilla troyana
+TrojanSquirrelHead.DisplayName: Ardilla troyana
 
 CosmosChampion: {
-	DisplayName: Eridanus, Campeón del Cosmos
+	DisplayName: Eridanus, Campeón del cosmos
 
 	BossChecklistIntegration: {
 		EntryName: "{$Mods.FargowiltasSouls.NPCs.CosmosChampion.DisplayName}"
 		SpawnInfo: Se invoca usando [i:FargowiltasSouls/SigilOfChampions] en el espacio.
-		DespawnMessage: Eridanus, Campeón del Cosmos, regresa a las estrellas...
-		KilledAllMessage: Eridanus, Campeón del Cosmos, ha derrotado a todos los enemigos.
+		DespawnMessage: Eridanus, Campeón del cosmos, regresa a las estrellas...
+		KilledAllMessage: Eridanus, Campeón del cosmos, ha derrotado a todos los enemigos.
 	}
 }
 
 EarthChampion: {
-	DisplayName: Campeón de la Tierra
+	DisplayName: Campeón de la tierra
 
 	BossChecklistIntegration: {
 		EntryName: "{$Mods.FargowiltasSouls.NPCs.EarthChampion.DisplayName}"
 		SpawnInfo: Se invoca usando [i:FargowiltasSouls/SigilOfChampions] en el Inframundo.
-		DespawnMessage: El Campeón de la Tierra desaparece bajo la magma...
+		DespawnMessage: El Campeón de la tierra desaparece bajo la magma...
 	}
 }
 
-EarthChampionHand.DisplayName: Campeón de la Tierra
-LesserFairy.DisplayName: Hada Menor
-LesserSquirrel.DisplayName: Ardilla Menor
+EarthChampionHand.DisplayName: Campeón de la tierra
+LesserFairy.DisplayName: Hada menor
+LesserSquirrel.DisplayName: Ardilla menor
 
 LifeChampion: {
-	DisplayName: Campeón de la Vida
+	DisplayName: Campeón de la vida
 
 	BossChecklistIntegration: {
 		EntryName: "{$Mods.FargowiltasSouls.NPCs.LifeChampion.DisplayName}"
 		SpawnInfo: Se invoca usando [i:FargowiltasSouls/SigilOfChampions] en el Sagrado durante el día.
-		DespawnMessage: El Campeón de la Vida se desvanece...
+		DespawnMessage: El Campeón de la vida se desvanece...
 	}
 }
 
 NatureChampion: {
-	DisplayName: Campeón de la Naturaleza
+	DisplayName: Campeón de la naturaleza
 
 	BossChecklistIntegration: {
 		EntryName: "{$Mods.FargowiltasSouls.NPCs.NatureChampion.DisplayName}"
 		SpawnInfo: Se invoca usando [i:FargowiltasSouls/SigilOfChampions] en la nieve subterránea.
-		DespawnMessage: El Campeón de la Naturaleza regresa a su letargo...
+		DespawnMessage: El Campeón de la naturaleza regresa a su letargo...
 	}
 }
 
-NatureChampionHead.DisplayName: Campeón de la Naturaleza
+NatureChampionHead.DisplayName: Campeón de la naturaleza
 
 ShadowChampion: {
-	DisplayName: Campeón de la Muerte
+	DisplayName: Campeón de la muerte
 
 	BossChecklistIntegration: {
 		EntryName: "{$Mods.FargowiltasSouls.NPCs.ShadowChampion.DisplayName}"
 		SpawnInfo: Se invoca usando [i:FargowiltasSouls/SigilOfChampions] en la Corrupción o Carmesí de noche.
-		DespawnMessage: El Campeón de la Muerte se desvanece...
+		DespawnMessage: El Campeón de la muerte se desvanece...
 	}
 }
 
-ShadowOrb.DisplayName: Orbe de la Sombra
+ShadowOrb.DisplayName: Orbe de la sombra
 
 SpiritChampion: {
-	DisplayName: Campeón del Espíritu
+	DisplayName: Campeón del espíritu
 
 	BossChecklistIntegration: {
 		EntryName: "{$Mods.FargowiltasSouls.NPCs.SpiritChampion.DisplayName}"
 		SpawnInfo: Se invoca usando [i:FargowiltasSouls/SigilOfChampions] en el desierto subterráneo.
-		DespawnMessage: El Campeón del Espíritu desaparece en el desierto...
+		DespawnMessage: El Campeón del espíritu desaparece en el desierto...
 	}
 }
 
-SpiritChampionHand.DisplayName: Campeón del Espíritu
+SpiritChampionHand.DisplayName: Campeón del espíritu
 
 TerraChampion: {
-	DisplayName: Campeón de Terra
+	DisplayName: Campeón de terra
 
 	BossChecklistIntegration: {
 		EntryName: "{$Mods.FargowiltasSouls.NPCs.TerraChampion.DisplayName}"
 		SpawnInfo: Se invoca usando [i:FargowiltasSouls/SigilOfChampions] bajo tierra.
-		DespawnMessage: El Campeón de Terra se desvanece en las cavernas...
+		DespawnMessage: El Campeón de terra se desvanece en las cavernas...
 	}
 }
 
-TerraChampionBody.DisplayName: Campeón de Terra
-TerraChampionTail.DisplayName: Campeón de Terra
+TerraChampionBody.DisplayName: Campeón de terra
+TerraChampionTail.DisplayName: Campeón de terra
 
 TimberChampion: {
-	DisplayName: Campeón de la Madera
+	DisplayName: Campeón de la madera
 
 	BossChecklistIntegration: {
 		EntryName: "{$Mods.FargowiltasSouls.NPCs.TimberChampion.DisplayName}"
 		SpawnInfo: Se invoca usando [i:FargowiltasSouls/SigilOfChampions] en la superficie durante el día.
-		DespawnMessage: El Campeón de la Madera regresa a su clan de ardillas...
+		DespawnMessage: El Campeón de la madera regresa a su clan de ardillas...
 	}
 }
 
-TimberChampionHead.DisplayName: Campeón de la Madera
+TimberChampionHead.DisplayName: Campeón de la madera
 
 WillChampion: {
-	DisplayName: Campeón de la Voluntad
+	DisplayName: Campeón de la voluntad
 
 	BossChecklistIntegration: {
 		EntryName: "{$Mods.FargowiltasSouls.NPCs.WillChampion.DisplayName}"
 		SpawnInfo: Se invoca usando [i:FargowiltasSouls/SigilOfChampions] en el océano.
-		DespawnMessage: El Campeón de la Voluntad regresa a las profundidades...
+		DespawnMessage: El Campeón de la voluntad regresa a las profundidades...
 	}
 }
 
-TophatSquirrelCritter.DisplayName: Ardilla con Sombrero de Copa
+TophatSquirrelCritter.DisplayName: Ardilla con sombrero de copa
 BrainClone.DisplayName: Cerebro de Cthulhu
 BrainIllusion.DisplayName: Cerebro de Cthulhu
 BrainIllusion2.DisplayName: Cerebro de Cthulhu
 BrainIllusionAttack.DisplayName: Cerebro de Cthulhu
-CreeperGutted.DisplayName: Parásito Destripado
-CrystalLeaf.DisplayName: Hoja de Cristal
-DetonatingBubble.DisplayName: Burbuja Detonante
-DetonatingBubbleEX.DisplayName: Burbuja Detonante
-GelatinSlime.DisplayName: Slime de Cristal
-GelatinSubject.DisplayName: Sujeto de Gelatina
-RoyalSubject.DisplayName: Sujeto Real
+CreeperGutted.DisplayName: Parásito destripado
+CrystalLeaf.DisplayName: Hoja de cristal
+DetonatingBubble.DisplayName: Burbuja detonante
+DetonatingBubbleEX.DisplayName: Burbuja detonante
+GelatinSlime.DisplayName: Slime de cristal
+GelatinSubject.DisplayName: Sujeto de gelatina
+RoyalSubject.DisplayName: Sujeto real
 MutantBoss_April.DisplayName: Asesino de Dioses Yharim
 
 MutantBoss: {
@@ -294,48 +294,48 @@ DeviBoss: {
 	}
 }
 
-ShadowOrbNPC.DisplayName: Orbe Sombrío
+ShadowOrbNPC.DisplayName: Orbe sombrío
 
 LifeChallenger: {
-	DisplayName: Luz de Vida
+	DisplayName: Luz de vida
 
 	BossChecklistIntegration: {
 		EntryName: "{$Mods.FargowiltasSouls.NPCs.LifeChallenger.DisplayName}"
 		SpawnInfo: Invocado usando [i:FargowiltasSouls/FragilePixieLamp] en el Sagrado durante el día.
-		DespawnMessage: Luz de Vida se desvanece...
+		DespawnMessage: Luz de vida se desvanece...
 	}
 
 	FatherOfLies: Fue un error venir aquí.
 }
 
 BanishedBaron: {
-	DisplayName: Barón Desterrado
+	DisplayName: Barón desterrado
 
 	BossChecklistIntegration: {
 		EntryName: "{$Mods.FargowiltasSouls.NPCs.BanishedBaron.DisplayName}"
 		SpawnInfo: Aparece al usar [i:FargowiltasSouls/MechLure] bajo el agua en el Océano.
-		DespawnMessage: El Barón Desterrado se sumerge más profundo en el océano...
+		DespawnMessage: El Barón desterrado se sumerge más profundo en el océano...
 	}
 
 	Slurp: glup
 }
 
 CursedCoffin: {
-	DisplayName: Ataúd Maldito
+	DisplayName: Ataúd maldito
 
 	BossChecklistIntegration: {
 		EntryName: "{$Mods.FargowiltasSouls.NPCs.CursedCoffin.DisplayName}"
 		SpawnInfo: Despierta al usar [i:FargowiltasSouls/CoffinSummon] en una cámara especial dentro de la Pirámide.
-		DespawnMessage: El Ataúd Maldito se entierra nuevamente en las profundidades arenosas...
+		DespawnMessage: El Ataúd maldito se entierra nuevamente en las profundidades arenosas...
 	}
 }
 
-CursedSpirit.DisplayName: Espíritu Maldito
-DetonatingBubbleNPC.DisplayName: Burbuja Detonante
-StardustMinion.DisplayName: Esbirro de Polvo Estelar
-StardustDragon.DisplayName: Dragón de Polvo Estelar
-SlimeSwarm.DisplayName: Enjambre de Slimes
-Magmaw.DisplayName: Mandíbula de Magma
+CursedSpirit.DisplayName: Espíritu maldito
+DetonatingBubbleNPC.DisplayName: Burbuja detonante
+StardustMinion.DisplayName: Súbdito de polvo estelar
+StardustDragon.DisplayName: Dragón de polvo estelar
+SlimeSwarm.DisplayName: Enjambre de slimes
+Magmaw.DisplayName: Mandíbula de magma
 DukeFishronEX.DisplayName: Duque Fishron EX
 
 EMode: {
@@ -374,10 +374,10 @@ EMode: {
 	QueenBeeEnrage: ¡{$NPCName.QueenBee} se ha enfurecido fuera de la selva subterránea!
 }
 
-RoyalSubjectVertical.DisplayName: Sujeto Real
-GelatinBouncer.DisplayName: Slime Rebotador
-GelatinFlyer.DisplayName: Slime Celestial
-CursedCoffinInactive.DisplayName: Ataúd Misterioso
+RoyalSubjectVertical.DisplayName: Sujeto real
+GelatinBouncer.DisplayName: Slime rebotador
+GelatinFlyer.DisplayName: Slime celestial
+CursedCoffinInactive.DisplayName: Ataúd misterioso
 
 UnconsciousDeviantt: {
 	DisplayName: ???

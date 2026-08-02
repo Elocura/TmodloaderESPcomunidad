@@ -4,22 +4,22 @@ TrojanSquirrelMountBuff: {
 }
 
 AccursedSarcophagusBuff: {
-	DisplayName: Sarcófago Maldito
+	DisplayName: Sarcófago maldito
 	Description: Se mantendrá alejado de ti
 }
 
 BabyAbomBuff: {
-	DisplayName: Abom Bebé
+	DisplayName: Abom bebé
 	Description: Hace trucos con una guadaña
 }
 
 BabySilhouetteBuff: {
-	DisplayName: Silueta Bebé
+	DisplayName: Silueta bebé
 	Description: No verá la luz hasta que crezca
 }
 
 BiteSizeBaronBuff: {
-	DisplayName: Barón Miniatura
+	DisplayName: Barón miniatura
 	Description: Forma EX no incluida
 }
 
@@ -34,7 +34,7 @@ MutantSpawnBuff: {
 }
 
 SeekerOfTreasuresBuff: {
-	DisplayName: Buscador de Tesoros
+	DisplayName: Buscador de tesoros
 	Description: Dale unos cuantos miles de años para crecer
 }
 
@@ -49,17 +49,17 @@ MonkBuff: {
 }
 
 ObsidianLavaWetBuff: {
-	DisplayName: Empapado de Lava
+	DisplayName: Empapado de lava
 	Description: Estás goteando lava
 }
 
 TitaniumDRBuff: {
-	DisplayName: Escudo de Titanio
+	DisplayName: Escudo de titanio
 	Description: Tienes reducción de daño extra y resistes la mayoría de perjuicios
 }
 
 KingSlimeMinionBuff: {
-	DisplayName: Mini Rey Slime
+	DisplayName: Mini Rey slime
 	Description: Este Mini Rey Slime te protegerá
 }
 
@@ -94,7 +94,7 @@ FishMinionBuff: {
 }
 
 CrimetroidBuff: {
-	DisplayName: Crimetroid Bebé
+	DisplayName: Crimetroid bebé
 	Description: El bebé te está siguiendo
 }
 
@@ -114,27 +114,27 @@ BetsyDashBuff: {
 }
 
 AbomFangBuff: {
-	DisplayName: Colmillo Abominable
+	DisplayName: Colmillo abominable
 	Description: El poder del Modo Eternidad te impulsa
 }
 
 AbomPresenceBuff: {
-	DisplayName: Presencia Abominable
+	DisplayName: Presencia abominable
 	Description: Defensa, reducción de daño y regeneración reducidas; efecto Sanguijuela Lunar
 }
 
 BaronsBurdenBuff: {
 	DisplayName: Carga del Barón
-	/* Description:
+	Description:
 		'''
-		Gravity heavily increased outside water
-		Breathe water but cannot breathe air
-		Improved underwater movement
-		''' */
+		La gravedad aumentó considerablemente fuera del agua
+		Solo puedes respirar bajo el agua
+		Movimiento subacuático mejorado
+		'''
 }
 
 DeviPresenceBuff: {
-	DisplayName: Presencia Desviada
+	DisplayName: Presencia desviada
 	Description: Los NPC amistosos reciben muchísimo más daño
 }
 
@@ -154,12 +154,12 @@ MutantPresenceBuff: {
 }
 
 HellFireBuff: {
-	DisplayName: Fuego Infernal
+	DisplayName: Fuego infernal
 	Description: Mods.FargowiltasSouls.BuffDescription.HellFireBuff
 }
 
 MagicalCleanseCDBuff: {
-	DisplayName: Reutilización de Limpieza Mágica
+	DisplayName: Reutilización de Limpieza mágica
 	Description: Aún no puedes purificar los perjuicios
 }
 
@@ -169,7 +169,7 @@ AbomCooldownBuff: {
 }
 
 AbomRebirthBuff: {
-	DisplayName: Renacer Abominable
+	DisplayName: Renacer abominable
 	Description: No puedes morir a menos que seas golpeado
 }
 
@@ -194,22 +194,22 @@ BerserkedBuff: {
 }
 
 BloodDrinkerBuff: {
-	DisplayName: Bebedor de Sangre
+	DisplayName: Bebedor de sangre
 	Description: 30% más de daño
 }
 
 BloodthirstyBuff: {
-	DisplayName: Sed de Sangre
+	DisplayName: Sed de sangre
 	Description: Tasa de aparición de enemigos enormemente aumentada
 }
 
 BrainOfConfusionBuff: {
-	DisplayName: Ruptura Cerebral
+	DisplayName: Ruptura cerebral
 	Description: 30% menos de daño infligido
 }
 
 ClippedWingsBuff: {
-	DisplayName: Alas Cortadas
+	DisplayName: Alas cortadas
 	Description: No puedes volar ni usar botas propulsoras
 }
 
@@ -219,7 +219,7 @@ CrippledBuff: {
 }
 
 CurseoftheMoonBuff: {
-	DisplayName: Maldición de la Luna
+	DisplayName: Maldición de la luna
 	Description: La ira de la luna te consume
 }
 
@@ -229,7 +229,7 @@ DefenselessBuff: {
 }
 
 FlamesoftheUniverseBuff: {
-	DisplayName: Llamas del Cosmos
+	DisplayName: Llamas del cosmos
 	Description: Los cielos mismos te han juzgado
 }
 
@@ -240,20 +240,20 @@ FlippedBuff: {
 
 HallowIlluminatedBuff: {
 	DisplayName: Iluminado
-	/* Description:
+	Description:
 		'''
-		Increased brightness and spawn rate
-		Damage taken and dealt increased in bright areas
-		''' */
+		Mayor brillo y tasa de aparición
+		Los daños sufridos y causados ​​aumentaron en las zonas iluminadas
+		'''
 }
 
 FusedBuff: {
 	DisplayName: Encendido
-	/* Description:
+	Description:
 		'''
-		You're going out with a bang
-		Stand still for a second to defuse yourself
-		''' */
+		Te vas a ir a lo grande
+		Quédate quieto un segundo para calmarte
+		'''
 }
 
 GodEaterBuff: {
@@ -272,7 +272,7 @@ HexedBuff: {
 }
 
 HolyPriceBuff: {
-	DisplayName: Precio Sagrado
+	DisplayName: Precio sagrado
 	Description: 30% menos velocidad de ataque
 }
 
@@ -287,9 +287,9 @@ InfestedBuff: {
 }
 
 IvyVenomBuff: {
-	DisplayName: Veneno de Hiedra
+	DisplayName: Veneno de hiedra
 	Description: Pierdes vida; se transformará en Neurotoxina a los 20 segundos
-	Transform: ¡Tu Veneno de Hiedra se ha convertido en Neurotoxina!
+	Transform: ¡Tu Veneno de hiedra se ha convertido en Neurotoxina!
 }
 
 JammedBuff: {
@@ -319,12 +319,12 @@ LihzahrdCurseBuff: {
 }
 
 LivingWastelandBuff: {
-	DisplayName: Páramo Viviente
+	DisplayName: Páramo viviente
 	Description: Todos a tu alrededor se pudren
 }
 
 LoosePocketsBuff: {
-	DisplayName: Bolsillos Flojos
+	DisplayName: Bolsillos flojos
 	Description: Puede que pierdas un objeto
 }
 
@@ -334,17 +334,17 @@ LovestruckBuff: {
 }
 
 LowGroundBuff: {
-	DisplayName: Terreno Bajo
+	DisplayName: Terreno bajo
 	Description: No puedes usar ganchos ni pararte en plataformas o líquidos
 }
 
 LowGroundEridanusBuff: {
-	DisplayName: Terreno Bajo
+	DisplayName: Terreno bajo
 	Description: No puedes pararte en plataformas
 }
 
 MarkedforDeathBuff: {
-	DisplayName: Marcado para Morir
+	DisplayName: Marcado para morir
 	Description: Solo no recibas daño
 }
 
@@ -369,19 +369,19 @@ NeurotoxinBuff: {
 }
 
 NullificationCurseBuff: {
-	DisplayName: Maldición de Anulación
+	DisplayName: Maldición de anulación
 	Description: ¡El Señor de la Luna cambia sus resistencias constantemente!
 }
 
 OceanicMaulBuff: {
-	DisplayName: Garra Oceánica
+	DisplayName: Garra oceánica
 	Description: Tus estadísticas defensivas y vida máxima están hechas trizas
 	LifeUp: +5 de vida máxima
 	LifeDown: -5 de vida máxima
 }
 
 OceanicSealBuff: {
-	DisplayName: Sello Oceánico
+	DisplayName: Sello oceánico
 	Description: Sin esquivas, sin robo de vida, sin supersónico, sin escape
 }
 
@@ -391,7 +391,7 @@ OiledBuff: {
 }
 
 PungentGazeBuff: {
-	DisplayName: Mirada Punzante
+	DisplayName: Mirada punzante
 	Description: Mods.FargowiltasSouls.BuffDescription.PungentGazeBuff
 }
 
@@ -411,7 +411,7 @@ RefreshedBuff: {
 }
 
 ReverseManaFlowBuff: {
-	DisplayName: Flujo de Maná Invertido
+	DisplayName: Flujo de maná invertido
 	Description: Tus armas mágicas bloquean el maná por un tiempo
 }
 
@@ -421,7 +421,7 @@ RottingBuff: {
 }
 
 RushJobBuff: {
-	DisplayName: Trabajo Urgente
+	DisplayName: Trabajo urgente
 	Description: La Enfermera aún no puede curarte
 	NurseChat: ¿Con ESA cosa monstruosa persiguiéndote? ¡Ve y mátala primero!
 }
@@ -432,7 +432,7 @@ SadismBuff: {
 }
 
 ShadowflameBuff: {
-	DisplayName: Llama Sombría
+	DisplayName: Llama sombría
 	Description: Estás perdiendo vida
 }
 
@@ -442,7 +442,7 @@ SmiteBuff: {
 }
 
 SqueakyToyBuff: {
-	DisplayName: Juguete Chirriante
+	DisplayName: Juguete chirriante
 	Description: ¡Tus ataques son juguetes que hacen chirridos!
 }
 
@@ -457,12 +457,12 @@ SwarmingBuff: {
 }
 
 ThiefCDBuff: {
-	DisplayName: Enfriamiento de Ladrón
+	DisplayName: Enfriamiento de ladrón
 	Description: Aún no pueden robarte de nuevo
 }
 
 UnluckyBuff: {
-	DisplayName: Mala Suerte
+	DisplayName: Mala suerte
 	Description: Te sientes bastante desafortunado
 }
 
@@ -472,7 +472,7 @@ UnstableBuff: {
 }
 
 BigBrainMinionBuff: {
-	DisplayName: Gran Cerebro de Cthulhu
+	DisplayName: Gran cerebro de Cthulhu
 	Description: El Cerebro de Cthulhu luchará por ti
 }
 
@@ -482,18 +482,18 @@ BrainMinionBuff: {
 }
 
 CrystalSkullBuff: {
-	DisplayName: Cráneo de Cristal
+	DisplayName: Cráneo de cristal
 	Description: El cráneo de cristal te protegerá
 }
 
 EaterMinionBuff: {
-	DisplayName: Devorador de Mundos
+	DisplayName: Devorador de mundos
 	Description: El mini Devorador de Mundos luchará por ti
 }
 
 LunarCultistBuff: {
-	DisplayName: Cultista Lunar
-	Description: El Cultista Lunar te protegerá
+	DisplayName: Cultista lunar
+	Description: El Cultista lunar te protegerá
 }
 
 MutantPowerBuff: {
@@ -512,17 +512,17 @@ ProbesBuff: {
 }
 
 PungentEyeballBuff: {
-	DisplayName: Globo Ocular Punzante
+	DisplayName: Globo ocular punzante
 	Description: El globo ocular punzante te protegerá
 }
 
 RainbowSlimeBuff: {
-	DisplayName: Slime Arcoíris
-	Description: El Slime Arcoíris te protegerá
+	DisplayName: Slime arcoíris
+	Description: El Slime arcoíris te protegerá
 }
 
 SaucerMinionBuff: {
-	DisplayName: Platillo Volador Mini
+	DisplayName: Platillo volador mini
 	Description: El platillo mini te protegerá
 }
 
@@ -532,12 +532,12 @@ SkeletronArmsBuff: {
 }
 
 SouloftheMasochistBuff: {
-	DisplayName: Alma del Maestro
+	DisplayName: Alma del maestro
 	Description: El poder del Modo Eternidad está contigo
 }
 
 TrueEyesBuff: {
-	DisplayName: Ojos Verdaderos de Cthulhu
+	DisplayName: Ojos verdaderos de Cthulhu
 	Description: Los ojos de Cthulhu te protegerán
 }
 
@@ -552,22 +552,22 @@ MutantRebirthBuff: {
 }
 
 BabyLifelightBuff: {
-	DisplayName: Luz de Vida
+	DisplayName: Luz de vida
 	Description: Contempla la luz de un ángel
 }
 
 BrokenShellBuff: {
-	DisplayName: Caparazón Roto
+	DisplayName: Caparazón roto
 	Description: Aún no puedes entrar en tu caparazón
 }
 
 CrimsonRegenBuff: {
-	DisplayName: Curación Carmesí
+	DisplayName: Curación carmesí
 	Description: Tu fuerza vital está aumentando
 }
 
 FirstStrikeBuff: {
-	DisplayName: Primer Golpe
+	DisplayName: Primer golpe
 	Description: Tu próximo ataque estará potenciado
 }
 
@@ -582,22 +582,22 @@ FrozenBuff: {
 }
 
 GoldenStasisBuff: {
-	DisplayName: Estasis Dorada
+	DisplayName: Estasis dorada
 	Description: Eres inmune a todo daño, pero no puedes moverte
 }
 
 GoldenStasisCDBuff: {
-	DisplayName: Enfriamiento de Estasis Dorada
+	DisplayName: Enfriamiento de Estasis dorada
 	Description: Aún no puedes convertirte en oro
 }
 
 HallowCooldownBuff: {
-	DisplayName: Enfriamiento de Espada Sagrada
+	DisplayName: Enfriamiento de Espada sagrada
 	Description: Tu espada aún no puede reflejar proyectiles
 }
 
 HuntressBleedBuff: {
-	DisplayName: Sangrado de Cazadora
+	DisplayName: Sangrado de cazadora
 	Description: Mods.FargowiltasSouls.BuffDescription.HuntressBleedBuff
 }
 
@@ -607,37 +607,37 @@ HuntressCDBuff: {
 }
 
 LeadPoisonBuff: {
-	DisplayName: Envenenamiento por Plomo
+	DisplayName: Envenenamiento por plomo
 	Description: Mods.FargowiltasSouls.BuffDescription.LeadPoisonBuff
 }
 
 MoltenAmplifyBuff: {
-	DisplayName: Amplificación Ígnea
+	DisplayName: Amplificación ígnea
 	Description: Mods.FargowiltasSouls.BuffDescription.MoltenAmplifyBuff
 }
 
 OriPoisonBuff: {
-	DisplayName: Envenenamiento de Oricalco
+	DisplayName: Envenenamiento de oricalco
 	Description: Mods.FargowiltasSouls.BuffDescription.OriPoisonBuff
 }
 
 ShellHideBuff: {
-	DisplayName: Oculto en Caparazón
+	DisplayName: Oculto en caparazón
 	Description: Los proyectiles están siendo bloqueados
 }
 
 SnowstormCDBuff: {
-	DisplayName: Enfriamiento de Tormenta de Nieve
+	DisplayName: Enfriamiento de Tormenta de nieve
 	Description: Aún no puedes enfriar nada
 }
 
 SolarFlareBuff: {
-	DisplayName: Llamarada Solar
+	DisplayName: Llamarada solar
 	Description: Mods.FargowiltasSouls.BuffDescription.SolarFlareBuff
 }
 
 SuperBleedBuff: {
-	DisplayName: Géiser de Sangre
+	DisplayName: Géiser de sangre
 	Description: Mods.FargowiltasSouls.BuffDescription.SuperBleedBuff
 }
 
@@ -647,18 +647,18 @@ CorruptingBuff: {
 }
 
 TimeFrozenBuff: {
-	DisplayName: Tiempo Congelado
+	DisplayName: Tiempo congelado
 	Description: Estás detenido en el tiempo
 }
 
 TimeStopCDBuff: {
-	DisplayName: Enfriamiento de Detención del Tiempo
+	DisplayName: Enfriamiento de Detención del tiempo
 	Description: Aún no puedes detener el tiempo
 }
 
 TitaniumCDBuff: {
-	DisplayName: Enfriamiento de Escudo de Titanio
-	Description: Estás cargando el Escudo de Titanio
+	DisplayName: Enfriamiento de Escudo de titanio
+	Description: Estás cargando el Escudo de titanio
 }
 
 VortexCDBuff: {
@@ -672,22 +672,22 @@ SuperchargedBuff: {
 }
 
 MoonBowBuff: {
-	DisplayName: Sonrisa Lunar
+	DisplayName: Sonrisa lunar
 	Description: Tu arco está imbuido de magia lunar
 }
 
 TribalCharmClickBuff: {
-	DisplayName: Amuleto Tribal
+	DisplayName: Amuleto tribal
 	Description: Ganas un instante de daño aumentado al atacar con clic
 }
 
 TwinsInstallBuff: {
 	DisplayName: Instalación de los Gemelos
-	Description: Efectos de Infierno Maldito e Icor
+	Description: Efectos de Infierno maldito e Icor
 }
 
 WretchedHexBuff: {
-	DisplayName: Maldición Atroz
+	DisplayName: Maldición atroz
 	Description: Tentáculos de llama oscura y daño extremadamente alto, pero velocidad y defensa muy reducidas
 }
 
@@ -697,13 +697,13 @@ CorruptedBuff: {
 }
 
 CorruptedBuffForce: {
-	DisplayName: Marchito (Fuerza)
+	DisplayName: Marchito (fuerza)
 	Description: Te has marchitado
 }
 
 JungleMimicSummonBuff: {
-	DisplayName: Mímico de la Jungla
-	Description: El Mímico de la Jungla luchará por ti
+	DisplayName: Cofre falso de la selva
+	Description: El cofre falso de la selva luchará por ti
 }
 
 GladiatorBuff: {
@@ -734,22 +734,22 @@ SublimationBuff: {
 }
 
 CoffinTossBuff: {
-	DisplayName: Buff de Ataque con Ataúd
+	DisplayName: Buff de Ataque con ataúd
 	Description: ""
 }
 
 HellFireMarkedBuff: {
-	DisplayName: Marca de Fuego Infernal
+	DisplayName: Marca de fuego infernal
 	Description: Mods.FargowiltasSouls.Buffs.HellFireMarked.Description
 }
 
 MagicalCurseBuff: {
-	DisplayName: Maldición Mágica
+	DisplayName: Maldición mágica
 	Description: Mods.FargowiltasSouls.Buffs.MagicalCurseBuff.Description
 }
 
 MoonFangBuff: {
-	DisplayName: Colmillo Lunar
+	DisplayName: Colmillo lunar
 	Description: No puedes regenerar vida
 }
 
@@ -759,12 +759,12 @@ WitheredForceBuff: {
 }
 
 TimberBleedBuff: {
-	DisplayName: Sangrado de Madera
+	DisplayName: Sangrado de madera
 	Description: Mods.FargowiltasSouls.Buffs.TimberBleedBuff.Description
 }
 
 EarthPoison: {
-	DisplayName: Veneno Terrestre
+	DisplayName: Veneno terrestre
 	Description: Mods.FargowiltasSouls.Buffs.EarthPoison.Description
 }
 
@@ -774,32 +774,32 @@ WitheredBuff: {
 }
 
 WitheredWizardBuff: {
-	DisplayName: Mago Marchito
+	DisplayName: Mago marchito
 	Description: Mods.FargowiltasSouls.Buffs.WitheredWizardBuff.Description
 }
 
 MushroomPowerBuff: {
-	DisplayName: Poder de Hongo
+	DisplayName: Poder de hongo
 	Description: Daño aumentado y mayor probabilidad de golpe crítico
 }
 
 SolarBuff: {
-	DisplayName: Bendición Solar
+	DisplayName: Bendición solar
 	Description: Aumenta la reducción de daño
 }
 
 VortexBuff: {
-	DisplayName: Bendición de Vórtice
+	DisplayName: Bendición de vórtice
 	Description: Aumenta la probabilidad de golpe crítico
 }
 
 NebulaBuff: {
-	DisplayName: Bendición de Nébula
+	DisplayName: Bendición de nébula
 	Description: Aumenta la regeneración de vida
 }
 
 StardustBuff: {
-	DisplayName: Bendición de Polvo Estelar
+	DisplayName: Bendición de polvo estelar
 	Description: Aumenta el daño
 }
 
@@ -809,11 +809,11 @@ AmbrosiaBuff: {
 }
 
 MutantDesperationBuff: {
-	DisplayName: Furia Fantasmal
+	DisplayName: Furia fantasmal
 	Description: Su último aliento. ¡Recibes el doble de daño!
 }
 
 TouhouHoardBuff: {
-	DisplayName: Horda Mística
+	DisplayName: Horda mística
 	Description: Seres míticos lucharán por ti
 }

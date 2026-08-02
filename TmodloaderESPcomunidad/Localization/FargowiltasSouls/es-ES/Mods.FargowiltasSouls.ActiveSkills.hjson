@@ -6,12 +6,12 @@ Unbound: ¡No asignado!
 BoundTo: ¡Asignado a {0}!
 
 SpecialDashEffect: {
-	DisplayName: Embestida de Abeja
+	DisplayName: Embestida de abeja
 	Tooltip: Realiza una corta y rápida embestida de abeja hacia el cursor
 }
 
 BetsyDashEffect: {
-	DisplayName: Embestida de Bola de Fuego
+	DisplayName: Embestida de bola de fuego
 	Tooltip:
 		'''
 		Realiza una corta embestida de bola de fuego invencible hacia el cursor
@@ -20,7 +20,7 @@ BetsyDashEffect: {
 }
 
 DiveEffect: {
-	DisplayName: Zambullida Rápida
+	DisplayName: Zambullida rápida
 	Tooltip:
 		'''
 		Actívala en el aire para caer rápidamente
@@ -29,7 +29,7 @@ DiveEffect: {
 }
 
 GoldKeyEffect: {
-	DisplayName: Caparazón Dorado
+	DisplayName: Caparazón dorado
 	Tooltip:
 		'''
 		Envuélvete en un caparazón dorado
@@ -39,7 +39,7 @@ GoldKeyEffect: {
 }
 
 ParryEffect: {
-	DisplayName: Parada Defensiva
+	DisplayName: Parada defensiva
 	Tooltip:
 		'''
 		Mantén presionado para defender
@@ -49,7 +49,7 @@ ParryEffect: {
 }
 
 StardustEffect: {
-	DisplayName: Estasis de Polvo Estelar
+	DisplayName: Estasis de polvo estelar
 	Tooltip:
 		'''
 		Congela el tiempo por unos segundos
@@ -58,21 +58,21 @@ StardustEffect: {
 }
 
 DebuffInstallKeyEffect: {
-	DisplayName: Instalación de Perjuicio
+	DisplayName: Instalación de perjuicio
 	Tooltip: Te instalas perjuicios que otorgan efectos distintos según el accesorio
 }
 
 FrigidGemstoneKeyEffect: {
-	DisplayName: Hechizo Gélido
+	DisplayName: Hechizo gélido
 	Tooltip:
 		'''
 		Invoca un bloque de hielo en tu cursor
-		Inflige Quemadura de Escarcha en Modo Difícil
+		Inflige Quemadura de escarcha en Modo Difícil
 		'''
 }
 
 BombKeyEffect: {
-	DisplayName: Bomba de Rozamiento
+	DisplayName: Bomba de rozamiento
 	Tooltip:
 		'''
 		Requiere estar cargada rozando ataques enemigos
@@ -91,7 +91,7 @@ BulbKeyEffect: {
 }
 
 AmmoCycleEffect: {
-	DisplayName: Ciclar Munición
+	DisplayName: Cambiar munición
 	Tooltip: Cambia entre tus municiones (funciona desde inventario y vanidad)
 }
 
@@ -111,7 +111,7 @@ PalmwoodEffect: {
 }
 
 ForbiddenEffect: {
-	DisplayName: Tormenta Prohibida
+	DisplayName: Tormenta prohibida
 	Tooltip:
 		'''
 		Llama una tormenta ancestral al cursor que inflige daño mágico e invocador
@@ -122,7 +122,7 @@ ForbiddenEffect: {
 }
 
 SpiritTornadoEffect: {
-	DisplayName: Tornado Espiritual
+	DisplayName: Tornado espiritual
 	Tooltip:
 		'''
 		Llama un tornado ancestral que inflige daño mágico e invocador
