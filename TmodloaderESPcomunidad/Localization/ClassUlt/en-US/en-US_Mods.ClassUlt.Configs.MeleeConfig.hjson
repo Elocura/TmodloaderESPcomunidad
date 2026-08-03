@@ -1,0 +1,64 @@
+Headers: {
+	Ultimate: Bloodbath
+	BleedMechanic: Hemorrhage Mechanic
+	PulseMechanic: Blood Pulse Mechanic
+}
+
+UltimateDuration: {
+	Label: Bloodbath duration (seconds)
+	Tooltip: How long the Bloodbath ultimate buff lasts.
+}
+
+DischargeDamageMultiplier: {
+	Label: Dagger damage (%)
+	Tooltip:
+		'''
+		Damage multiplier for the discharge daggers, based on your last used melee weapon's damage.
+		Example: 60 = 60% of weapon damage per dagger.
+		'''
+}
+
+DischargeDaggerLimit: {
+	Label: Discharge dagger limit
+	Tooltip:
+		'''
+		The maximum number of daggers that can be spawned when discharging the ultimate.
+		Set to 0 for no limit.
+		'''
+}
+
+BleedDamagePerSecond: {
+	Label: Hemorrhage damage per second
+	Tooltip: The amount of flat damage per second dealt by the Hemorrhage debuff.
+}
+
+PulseCooldownInSeconds: {
+	Label: Pulse cooldown (seconds)
+	Tooltip: The minimum time between using the Blood Pulse ability.
+}
+
+PulseDamagePercentOfWeapon: {
+	Label: Pulse damage (% of weapon)
+	Tooltip: The damage of the Blood Pulse, calculated as a percentage of your last used melee weapon's damage.
+}
+
+PulseTargetLimit: {
+	Label: Pulse target limit
+	Tooltip:
+		'''
+		The maximum number of enemies the Blood Pulse can hit in a single use.
+		Set to 0 for no limit.
+		'''
+}
+
+PulseBaseHealPercentOfDamageDealt: {
+	Label: Pulse base heal (% of damage)
+	Tooltip: The percentage of damage dealt by the Pulse that is returned to you as health.
+}
+
+PulseBonusHealPercentOnBleed: {
+	Label: Pulse bonus heal on bleed (% of damage)
+	Tooltip: An additional percentage of damage returned as health if the hit target is suffering from Hemorrhage.
+}
+
+Tooltip: ""

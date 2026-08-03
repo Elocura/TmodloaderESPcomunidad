@@ -1,0 +1,30 @@
+Mods: {
+	ClassUlt: {
+		Keybinds: {
+			ClassUltKey.DisplayName: Class Ultimate
+			ClickerDataStreamKey.DisplayName: Context Action Key
+		}
+
+		Tooltips: {
+			RequiredHits: Required hits for Ultimate: {0}
+			EtherealSpiritDamage: Ethereal Spirit base damage: {0}
+		}
+
+		Configs: {
+			RangedUltimateType.Tooltip: ""
+
+			Shared: {
+				UltimateCooldownInSeconds: {
+					Label: Ultimate cooldown (seconds)
+					Tooltip:
+						'''
+						The duration in seconds after using this 
+						class's ultimate before it can be activated again.
+						'''
+				}
+			}
+
+			CounterDisplayMode.Tooltip: ""
+		}
+	}
+}

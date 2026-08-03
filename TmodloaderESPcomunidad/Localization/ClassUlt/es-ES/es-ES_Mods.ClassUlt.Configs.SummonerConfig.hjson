@@ -1,0 +1,75 @@
+Headers: {
+	Ultimate: Necrotic Swarm
+	SpiritMechanics: Ethereal Spirit Mechanics
+	FocusLaunchMechanics: Focus Launch
+	UltimateEnhancements: Swarm Enhancements
+}
+
+UltimateDuration: {
+	Label: Necrotic Swarm duration (seconds)
+	Tooltip: How long the Necrotic Swarm ultimate lasts, allowing Ethereal Spirits to be summoned.
+}
+
+MaxEtherealSpirits: {
+	Label: Max Ethereal Spirits
+	Tooltip: The maximum number of temporary Ethereal Spirits you can have active at once.
+}
+
+SpiritDamageMultiplier: {
+	Label: Spirit base damage (%)
+	Tooltip: The damage of an Ethereal Spirit's regular attack, as a percentage of your last used whip's damage.
+}
+
+SpiritsAreTiedToUltimate: {
+	Label: Spirits are tied to Ultimate
+	Tooltip:
+		'''
+		If enabled, all Ethereal Spirits will die instantly when the Necrotic Swarm ultimate ends (unless The Harvest has been triggered).
+		If disabled, each spirit will live out its own personal timer, defined by "Ethereal Spirit Lifespan".
+		'''
+}
+
+EtherealSpiritDuration: {
+	Label: Ethereal Spirit lifespan (seconds)
+	Tooltip:
+		'''
+		The personal lifespan of each Ethereal Spirit.
+		Only used if "Spirits are Tied to Ultimate" is disabled.
+		'''
+}
+
+HarvestExplosionRadius: {
+	Label: Harvest explosion radius
+	Tooltip: The area of effect for the explosion when a spirit dies during The Harvest finale.
+}
+
+HarvestDamageMultiplier: {
+	Label: Harvest damage (%)
+	Tooltip: The damage of The Harvest explosion, as a percentage of your last used whip's damage.
+}
+
+FocusLaunchDamageMultiplier: {
+	Label: Focus Launch damage (%)
+	Tooltip: The damage of the explosion when a launched spirit hits an enemy, as a percentage of your last used whip's damage.
+}
+
+FocusLaunchExplosionRadius: {
+	Label: Focus Launch explosion radius
+	Tooltip: The area of effect for the explosion when a launched spirit hits an enemy.
+}
+
+MinionAttackSpeedBonus: {
+	Label: Minion attack speed bonus (%)
+	Tooltip: The percentage increase in attack speed for all your minions during Necrotic Swarm.
+}
+
+MinionSpiritSpawnCooldown: {
+	Label: Spirit spawn cooldown (ticks)
+	Tooltip:
+		'''
+		The cooldown in game ticks (60 ticks = 1 second) for a single minion to spawn a new Ethereal Spirit after hitting an enemy.
+		This cooldown is per-minion, not global.
+		'''
+}
+
+Tooltip: ""

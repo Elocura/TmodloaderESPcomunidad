@@ -1,0 +1,23 @@
+ClickEffect: {
+	WildMagicNew: {
+		Name: "{$Mods.ClickerClass.ClickEffect.WildMagic.Name}"
+		Description: "{$Mods.ClickerClass.ClickEffect.WildMagic.Description}"
+	}
+
+	ManiaNew: {
+		Name: "{$Mods.ClickerClass.ClickEffect.Mania.Name}"
+		Description: "{$Mods.ClickerClass.ClickEffect.Mania.Description}"
+	}
+}
+
+Configs: {
+	ClickerAPIConfig: {
+		DisplayName: Clicker Extra API Config
+		Headers.Debug: Debug Config
+
+		OneClickClickerEffect: {
+			Label: One-Click Clicker Effect trigger
+			Tooltip: Allow to trigger clicker effect every click
+		}
+	}
+}

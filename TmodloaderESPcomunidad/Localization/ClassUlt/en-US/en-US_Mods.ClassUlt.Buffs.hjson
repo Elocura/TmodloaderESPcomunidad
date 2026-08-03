@@ -1,0 +1,158 @@
+AegisDischargeBuff: {
+	DisplayName: Aegis Discharge
+	Description: Aegis Shield segments are seeking targets.
+}
+
+AegisShieldBuff: {
+	DisplayName: Aegis Shield
+	Description:
+		'''
+		A protective shield orbits you, destroying hostile projectiles.
+		Hold your ultimate key to teleport to your cursor.
+		Tap your ultimate key to discharge the shield in a powerful explosion.
+		'''
+}
+
+AegisTeleportCooldownDebuff: {
+	DisplayName: Aegis Teleport Cooldown
+	Description: Teleport is on cooldown.
+}
+
+ArcaneOverloadBuff: {
+	DisplayName: Arcane Overload
+	Description:
+		'''
+		Mana cost is zero and magic projectiles are empowered.
+		Tap your ultimate key to discharge the remaining energy for a powerful blast.
+		'''
+}
+
+BloodbathBuff: {
+	DisplayName: Bloodbath
+	Description:
+		'''
+		Melee hits inflict Hemorrhage.
+		Hold your ultimate key to unleash a Blood Pulse that damages foes and heals you.
+		Tap your ultimate key to end the ultimate and summon daggers. The number of daggers is based on the enemies you inflicted Hemorrhage upon.
+		'''
+}
+
+HemorrhageDebuff: {
+	DisplayName: Hemorrhage
+	Description: Losing lifeblood.
+}
+
+HunterMarkDebuff: {
+	DisplayName: Hunter's Mark
+	Description: Marked for death. The next hit will consume the mark for bonus damage.
+}
+
+MagicExhaustionDebuff: {
+	DisplayName: Arcane Exhaustion
+	Description: Cannot activate Arcane Overload while exhausted.
+}
+
+MeleeExhaustionDebuff: {
+	DisplayName: Melee Exhaustion
+	Description: Cannot activate Bloodbath while exhausted.
+}
+
+MysteriousStrangerBuff: {
+	DisplayName: Mysterious Stranger
+	Description:
+		'''
+		A mysterious stranger assists you in combat. Your ranged weapons fire faster and consume no ammo.
+		Hold your ultimate key to relocate the stranger.
+		Tap your ultimate key to discharge the ultimate, causing the stranger to explode into a barrage of projectiles.
+		'''
+}
+
+NecroticHarvestBuff: {
+	DisplayName: The Harvest
+	Description: Your spirits are seeking a final, explosive end.
+}
+
+NecroticSwarmBuff: {
+	DisplayName: Necrotic Swarm
+	Description:
+		'''
+		Your minions attack faster. Hits from whips and minions can summon temporary Ethereal Spirits.
+		Hold your ultimate key to gather spirits and launch them at your cursor.
+		Tap your ultimate key to begin The Harvest, causing all spirits to seek out foes and explode.
+		'''
+}
+
+PulseCooldownDebuff: {
+	DisplayName: Pulse Cooldown
+	Description: Your blood needs time to settle before the next pulse.
+}
+
+RangedExhaustionDebuff: {
+	DisplayName: Ranger Exhaustion
+	Description: Cannot call upon your ultimate while exhausted.
+}
+
+SummonerExhaustionDebuff: {
+	DisplayName: Summoner Exhaustion
+	Description: Cannot summon the Necrotic Swarm while exhausted.
+}
+
+GravityWellCooldownDebuff: {
+	DisplayName: Gravity Well Cooldown
+	Description: Cannot create another Gravity Well yet.
+}
+
+OverdriveExhaustionDebuff: {
+	DisplayName: Overdrive Exhaustion
+	Description: Your focus is depleted. Cannot activate Overdrive.
+}
+
+OverdriveBuff: {
+	DisplayName: Overdrive
+	Description:
+		'''
+		Clicker abilities are automated and enhanced.
+		Hold your ultimate key to draw a lethal Data Stream at your cursor.
+		Tap your ultimate key to trigger a Binary Deluge, ending the ultimate with an explosive field.
+		'''
+}
+
+BardExhaustionDebuff: {
+	DisplayName: Creative Block
+	Description: Cannot play the Grand Metronome while exhausted.
+}
+
+GrandMetronomeBuff: {
+	DisplayName: The Grand Metronome
+	Description:
+		'''
+		The cosmic rhythm is active. Time in the music zones grants stacking buffs to allies.
+		Tap the Context Key (X) to trigger the current zone's pulse.
+		Tap the Ultimate Key (Q) to end the performance early.
+		'''
+}
+
+BardBrassBuff: {
+	DisplayName: Brass Amplification
+	Description: Increases all damage dealt. Stacks up to the configured maximum.
+}
+
+BardWindBuff: {
+	DisplayName: Wind Precision
+	Description: Increases critical strike chance and armor penetration. Stacks up to the configured maximum.
+}
+
+BardStringBuff: {
+	DisplayName: String Harmony
+	Description: Increases life regeneration and damage reduction. Stacks up to the configured maximum.
+}
+
+BardPercussionBuff: {
+	DisplayName: Percussion Tempo
+	Description: Increases movement speed, acceleration, and attack speed. Stacks up to the configured maximum.
+}
+
+BardFullBlastCooldownDebuff: {
+	DisplayName: Creative Crescendo Cooldown
+	Description: Cannot trigger the Full Blast pulse again yet.
+}

@@ -1,0 +1,21 @@
+Headers.ChargeMechanics: Charge Mechanics
+
+MaxCharge: {
+	Label: Hits to charge
+	Tooltip: The number of successful hits required to fully charge the ultimate ability.
+}
+
+DecayGracePeriodInSeconds: {
+	Label: Charge decay grace period (seconds)
+	Tooltip: How many seconds to wait after the last hit before the charge starts to decay.
+}
+
+DecayRateInSeconds: {
+	Label: Charge decay rate (seconds per point)
+	Tooltip: How many seconds it takes for a single point of charge to decay.
+}
+
+NoDecayAtMaxCharge: {
+	Label: No decay at max charge
+	Tooltip: If enabled, a fully charged ultimate ability will not decay over time.
+}

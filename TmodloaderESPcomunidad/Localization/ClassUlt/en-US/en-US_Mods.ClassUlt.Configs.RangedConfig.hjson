@@ -1,0 +1,150 @@
+// en-US_Mods.ClassUlt.Configs.RangedConfig.hjson
+
+Headers: {
+	UltimateChoice: Ultimate Choice
+	Shared: General Ranged Settings
+}
+
+UltimateChoice: {
+	Label: Ultimate Choice
+	Tooltip: Choose which ultimate ability the Ranged class will use.
+
+	UseMysteriousStranger: {
+		Label: Use "Mysterious Stranger"
+		Tooltip: Enables the ultimate ability where a clone assists you in combat.
+	}
+
+	UseAegisShield: {
+		Label: Use "Aegis Shield"
+		Tooltip: Enables the ultimate ability where a protective shield orbits you.
+	}
+}
+
+UltimateCooldownInSeconds: {
+	Label: Ultimate cooldown (seconds)
+	Tooltip: The duration in seconds after using this class's ultimate before it can be activated again.
+}
+
+// ИСПРАВЛЕНО: Теперь у нас есть ВЛОЖЕННЫЙ блок для MysteriousStranger, как и в C#
+MysteriousStranger: {
+	Label: '''"Mysterious Stranger" Settings'''
+	Tooltip: Configure the "Mysterious Stranger" ultimate ability.
+
+	Duration: {
+		Label: Duration (s)
+		Tooltip: How long the Mysterious Stranger remains active.
+	}
+
+	ProjectileSpeedIncreasePercent: {
+		Label: Projectile speed bonus (%)
+		Tooltip: Increases the speed of your ranged projectiles while Mysterious Stranger is active.
+	}
+
+	CloneShotDamageMultiplier: {
+		Label: Clone shot damage (%)
+		Tooltip: The damage of the clone's regular shots, as a percentage of your full weapon damage.
+	}
+
+	BarrageProjectileCount: {
+		Label: Barrage projectile count
+		Tooltip: The number of projectiles released when the ultimate is discharged.
+	}
+
+	BarrageDamageMultiplier: {
+		Label: Barrage damage (%)
+		Tooltip: The damage multiplier for barrage projectiles, based on your full weapon damage. 75 = 75% of your weapon's damage.
+	}
+
+	MarkBonusDamageInPercent: {
+		Label: Hunter's Mark damage bonus (%)
+		Tooltip: Percentage of bonus damage dealt to enemies afflicted with Hunter's Mark.
+	}
+}
+
+// ИСПРАВЛЕНО: И такой же ВЛОЖЕННЫЙ блок для AegisShield
+AegisShield: {
+	Label: '''"Aegis Shield" Settings'''
+	Tooltip: Configure the "Aegis Shield" ultimate ability.
+
+	Duration: {
+		Label: Shield duration (s)
+		Tooltip: How long the Aegis Shield remains active.
+	}
+
+	MaxShieldCount: {
+		Label: Max shield segments
+		Tooltip: The number of individual shield segments that form the Aegis.
+	}
+
+	Radius: {
+		Label: Shield orbit radius (pixels)
+		Tooltip: The distance from the center at which the shield segments will orbit.
+	}
+
+	IsShieldTiedToPlayer: {
+		Label: Shield follows player
+		Tooltip:
+			'''
+			If enabled, the shield's center will always be your character.
+			If disabled, it stays where it was summoned, and you can teleport to it.
+			'''
+	}
+
+	EnablePerfectAccuracy: {
+		Label: Enable Perfect Accuracy
+		Tooltip:
+			'''
+			If enabled, ranged projectiles fly perfectly towards the cursor,
+			ignoring weapon spread, while the Aegis Shield ultimate is active.
+			'''
+	}
+
+	TeleportCooldown: {
+		Label: Teleport cooldown (s)
+		Tooltip: The cooldown in seconds before you can teleport again while the shield is active.
+	}
+
+	AttackSpeedIncreasePercent: {
+		Label: Attack speed bonus (%)
+		Tooltip: Increases the firing speed of your ranged weapons while Aegis Shield is active.
+	}
+
+	ExplosionDamagePercent: {
+		Label: Explosion damage (%)
+		Tooltip: The damage of the shield's explosion, as a percentage of your weapon's damage. 150 = 150% weapon damage.
+	}
+
+	ExplosionRadius: {
+		Label: Explosion Radius
+		Tooltip: The radius of the discharge explosion, in pixels.
+	}
+
+	ExplosionKnockback: {
+		Label: Explosion knockback
+		Tooltip: The knockback strength of the shield's explosion.
+	}
+
+	Penetration: {
+		Label: Shield penetration
+		Tooltip: How many normal enemies a single shield segment can hit before being destroyed.
+	}
+
+	KnockbackOnTouch: {
+		Label: Contact knockback
+		Tooltip: The knockback strength applied to normal enemies upon contact with the shield.
+	}
+
+	ShieldRegenCount: {
+		Label: Shield segments regenerated on kill
+		Tooltip: The number of shield segments restored each time you kill an enemy.
+	}
+
+	ContactKnockback: {
+		Tooltip: ""
+		Label: Knockback On Touch
+	}
+
+	ShieldPenetrationCount.Label: Penetration
+}
+
+Tooltip: ""

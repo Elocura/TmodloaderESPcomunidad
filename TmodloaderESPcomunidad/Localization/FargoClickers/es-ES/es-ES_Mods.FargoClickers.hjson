@@ -1,0 +1,207 @@
+Items: {
+	Weapons: {
+		Clicker: {
+			AcornClicker.DisplayName: Acorn Clicker
+			BaronClicker.DisplayName: Baron's Clicker
+			CursedClicker.DisplayName: Cursed Clicker
+			LightClicker.DisplayName: Light Clicker
+			MagickaClicker.DisplayName: Magicka Clicker
+		}
+	}
+
+	GamerEssence: {
+		DisplayName: Gamer's Essence
+		Tooltip:
+			'''
+			18% increased click damage
+			10% increased clicker radius
+			8% increased click critical strike chance
+			'This is only the beginning...'
+			'''
+	}
+
+	MasterPlayerSoul: {
+		DisplayName: Master Player's Soul
+		Tooltip:
+			'''
+			22% increased click damage
+			10% increased click critical strike chance
+			75% increased clicker radius
+			20% decreased the amount of clicks required for a click effect
+			{0}
+			'I am ready for cybersport'
+			'''
+		NormalAccessories: Effects of Gamer Crate, Chocolate Milk n' Cookies, Aimbot Module, Regal Clicking Glove and S Medal
+		CalamityAccessories: Effects of D.o.G., Bloody Choc n' Cookies, Cosmic Clicking Glove, SS Medal
+	}
+
+	ForceOfMatrix: {
+		DisplayName: Force Of Matrix
+		Tooltip:
+			'''
+			[i:FargoClickers/MotherboardEnchantment] Clicker attacts over 6 cps increase damage by 3% up to 200% bonus
+			[i:FargoClickers/RGBEnchantment] Every 75 hits done propels a chromatic burst on target position
+			[i:FargoClickers/MiceEnchantment] Getting hit after teleport within 1 second grants:
+			* [i:FargoClickers/RGBEnchantment] propels a chromatic burst
+			* [i:FargoClickers/OverclockEnchantment] doubled attack speed for 15 seconds
+			* [i:FargoClickers/MiceEnchantment] invincibility for 3 second, increased movement speed and acceleration by 15% for 15 seconds
+			[i:FargoClickers/PrecursorEnchantment] Summon damaging trail for cursor
+			Effect of Master Keychain, Big Red Button and Bottomless Box of Paperclips
+			'All world is game?'
+			'''
+	}
+
+	MotherboardEnchantment: {
+		DisplayName: Motherboard Enchantment
+		Tooltip:
+			'''
+			Clickers attacks with more than 6 click per second increase damage over time 
+			by 1% each cps above 6 up to 100% bonus
+			'The higher the frequency, the better'
+			'''
+	}
+
+	RGBEnchantment: {
+		DisplayName: RGB Enchantment
+		Tooltip:
+			'''
+			Every 100 hits done propels a chromatic burst on target position
+			Effect of {$Mods.ClickerClass.Items.BigRedButton.DisplayName}
+			'Wow rainbow keyboard'
+			'''
+	}
+
+	PrecursorEnchantment: {
+		DisplayName: Precursor Enchantment
+		Tooltip:
+			'''
+			Summon a 5 cursors to follow you cursor after each other
+			Effect of {$Mods.ClickerClass.Items.MasterKeychain.DisplayName}
+			'You know that this fuction is real'
+			'''
+	}
+
+	OverclockEnchantment: {
+		DisplayName: Overclock Enchantment
+		Tooltip:
+			'''
+			Every 10000 damage done grant the Overclock debuff for 5 seconds
+			Overclock buff provides 1.5x attack speed
+			There is a 60 second cooldown for this effect
+			Effect of {$Mods.ClickerClass.Items.BottomlessBoxofPaperclips.DisplayName}
+			'You are ready for overclock the processor?'
+			'''
+	}
+
+	MiceEnchantment: {
+		DisplayName: Mice Enchantment
+		Tooltip:
+			'''
+			Teleport has a 10 second cooldown 
+			Taking damage in short time after teleport
+			grants invincibility for 2 seconds, increased movement speed, acceleration and attack speed by 10% for 10 seconds
+			and increased cooldown to 30 seconds
+			'Normality Relocator reference'
+			'''
+	}
+
+	MiceBooster: {
+		DisplayName: Mice Booster
+		Tooltip: ""
+		Activate: +{0} defence
+		Deactivate: -{0} defence
+	}
+}
+
+ClickEffect: {
+	Acorn: {
+		Name: Acorn
+		Description: Creates a single acorn to nearest enemy
+	}
+
+	Sandwave: {
+		Name: Sandwave
+		Description: Creates single sandwave to nearest enemy
+	}
+
+	BanishedMine: {
+		Name: Banished Mine
+		Description: Place a mine that explodes to shrapnel
+	}
+
+	Lightbomb: {
+		Name: Lightbomb
+		Description: Spread an light bombs that slowdown and creates damagable aura
+	}
+
+	MagickaEnchantment: {
+		Name: Magicka Enchantment
+		Description: Grants extra damage hitbox
+	}
+
+	MagickaPower: {
+		Name: Magicka Power
+		Description: Your clicks now has extra damage hitbox
+	}
+}
+
+Projectiles: {
+	PrecursorProjectile.DisplayName: Precursors
+
+	Clicker: {
+		CursedClickerProjectile.DisplayName: Sandwave
+		LightClickerProjectile.DisplayName: Light Bomb
+		LightClickerProjectile2.DisplayName: Light Explosion
+		BaronClickerProj.DisplayName: Banished Mine
+		BaronClickerProj2.DisplayName: Banished Shrapnel
+	}
+}
+
+Toggler: {
+	MatrixHeader: Force of Matrix
+	MotherboardEffect: Processor Frequency
+	RGBEffect: Chromatic Burst
+	RGBBigRedButtonEffect: "{$Mods.ClickerClass.Items.BigRedButton.DisplayName}"
+	OverclockEffect: Overclock
+	OverclockBottomlessBoxofPaperclipsEffect: "{$Mods.ClickerClass.Items.BottomlessBoxofPaperclips.DisplayName}"
+	PrecursorEffect: Cursor Trail
+	PrecursorMasterKeychainEffect: "{$Mods.ClickerClass.Items.MasterKeychain.DisplayName}"
+	MiceEffect: Mice Teleport
+}
+
+WizardEffect: {
+	Motherboard: Increased damage to 2% by each cps
+	RGB: Reduce requared hits for chromatic burst to 75
+	Precursor: Trail deal increased damage and has double lenght
+	Overclock: Attack speed increased to 2x and buff time increased to 10 seconds
+	Mice: Invincibility time increased to 3 seconds and speed buff time increased to 15 seconds
+}
+
+ActiveSkills: {
+	MiceKeyEffect: {
+		DisplayName: Mice Teleport
+		Tooltip:
+			'''
+			Teleports you on mouse position
+			Getting hit within 1 second grants buff
+			'''
+	}
+}
+
+ExpandedTooltips: {
+	ClickerRadius: 100% increased clicker radius
+	ClickerEffect: 20% decreased the amount of clicks required for a click effect
+	MatrixForce: "[i:FargoClickers/ForceOfMatrix] Taking damage after Mice Teleport grant burst of projectiles and extra speed-based stats"
+}
+
+Buffs: {
+	MagickaClickerBuff: {
+		DisplayName: Magicka Enchantment
+		Description: Your clicks now has extra damage hitbox
+	}
+
+	MiceBoosterBuff: {
+		DisplayName: Mice Buff
+		Description: Increased defence
+	}
+}

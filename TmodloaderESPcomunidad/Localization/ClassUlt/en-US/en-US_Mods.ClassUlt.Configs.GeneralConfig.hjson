@@ -1,0 +1,137 @@
+Headers: {
+	Gameplay: Gameplay
+	ChargeMechanics: Global Charge Settings
+	DynamicChargeScaling: Dynamic Charge Scaling
+	UI: User Interface
+}
+
+ResetChargeOnHurt: {
+	Label: Reset charge on taking damage
+	Tooltip: If enabled, any accumulated ultimate charge will be completely reset to zero when you are hurt.
+}
+
+OverrideMaxCharge: {
+	Label: Override individual max charge
+	Tooltip: If enabled, all classes will use the "Global Max Charge" value below, ignoring their individual settings.
+}
+
+GlobalMaxCharge: {
+	Label: Global max charge
+	Tooltip: The number of hits required to charge the ultimate for all classes, if the override is enabled.
+}
+
+ScaleChargeWithUseTime: {
+	Label: Enable dynamic charge scaling
+	Tooltip:
+		'''
+		If enabled, faster weapons will require more hits to charge the ultimate.
+		This helps normalize the time-to-charge across different weapons.
+		'''
+}
+
+CloseRangeChargeBonusPercent: {
+	Label: Close-range charge bonus (%)
+	Tooltip:
+		'''
+		Reduces the number of required hits for Melee and Summoner (whip) attacks to reward close-range combat.
+		30 = 30% fewer hits required.
+		'''
+}
+
+SpammyProjectileICDInTicks: {
+	Label: Special projectile ICD (ticks)
+	Tooltip:
+		'''
+		Internal Cooldown for specific, problematic multi-hit projectiles (like Starlight).
+		Prevents them from charging the ultimate instantly.
+		'''
+}
+
+BaseUseTimeForScaling: {
+	Label: Baseline weapon speed (useAnimation)
+	Tooltip:
+		'''
+		This is the 'ideal' weapon speed (in ticks) that will require the standard number of hits.
+		Weapons faster than this will require more hits.
+		'''
+}
+
+MaxHitCountMultiplier: {
+	Label: Max hit requirement multiplier
+	Tooltip:
+		'''
+		The maximum multiplier applied to the hit requirement for the fastest weapons.
+		Prevents extremely high hit counts. (e.g., 6 = fastest weapons require at most 6x the base number of hits).
+		'''
+}
+
+CounterPosition: {
+	Label: Counter position
+	Tooltip: Where to display the ultimate charge counter on the screen.
+}
+
+PlayChargeCompleteSound: {
+	Label: Play "Ultimate Ready" sound
+	Tooltip: If enabled, a sound effect will play when the ultimate ability is fully charged.
+}
+
+EnableScreenShake: {
+	Label: Enable screen shake
+	Tooltip: If enabled, powerful abilities like the Melee ultimate's landing and the Ranged ultimate's teleport will shake the screen.
+}
+
+HideCounterAtMaxCharge: {
+	Label: Hide counter at max charge
+	Tooltip: If enabled, the charge counter will disappear from the screen once the ultimate is fully charged.
+}
+
+ShowChargeTooltip: {
+	Label: Show required hits tooltip
+	Tooltip: If enabled, weapons will show a tooltip indicating how many hits are needed for an Ultimate.
+}
+
+ShowSummonerWhipTooltip: {
+	Label: Show Ethereal Spirit damage tooltip
+	Tooltip: If enabled, whips will show a tooltip with the calculated base damage of an Ethereal Spirit.
+}
+
+ChargeTooltipColor: {
+	Label: Required hits tooltip color
+	Tooltip: The color of the "Required Hits for Ultimate" tooltip on weapons.
+}
+
+Tooltip: ""
+
+CounterDisplayMode: {
+	Tooltip: Choose where to display the ultimate charge counter on the screen.
+
+	AboveHead: {
+		$parentVal: Above Head
+		Tooltip: Displays the charge counter above the player's head.
+		Label: Above Head
+	}
+
+	LeftOfHealth: {
+		$parentVal: Left Of Health
+		Tooltip: Displays the charge counter to the left of the health bar.
+		Label: Left Of Health
+	}
+}
+
+EnableMultiClassCharges: {
+	Label: Enable Multi-Class Charges
+	Tooltip:
+		'''
+		If enabled, charges for different classes are stored independently and won't reset when switching weapons.
+		Attacking with any weapon refreshes the decay timer for all stored charges.
+		'''
+}
+
+GlobalUltimateCooldown: {
+	Label: Global Ultimate Cooldown
+	Tooltip:
+		'''
+		If enabled, using an Ultimate ability for one class will prevent the use of ALL other Ultimate abilities
+		until the exhaustion debuff expires.
+		'''
+}

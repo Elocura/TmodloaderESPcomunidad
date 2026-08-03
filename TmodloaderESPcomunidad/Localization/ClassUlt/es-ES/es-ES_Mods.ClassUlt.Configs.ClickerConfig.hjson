@@ -1,0 +1,88 @@
+Headers: {
+	Ultimate: Overdrive
+	OverdriveMechanics: Overdrive Mechanics
+	DataStream: Data Stream
+	BinaryDeluge: Binary Deluge
+}
+
+UltimateDuration: {
+	Label: Overdrive duration (seconds)
+	Tooltip: How long the Overdrive ultimate lasts, granting automatic clicks and enabling drawing.
+}
+
+ChargeMultiplier: {
+	Label: Click requirement multiplier
+	Tooltip: Multiplies the base hits required to activate the ultimate. (Base 12 * 3 = 36 clicks).
+}
+
+RadiusMultiplier: {
+	Label: Interaction radius bonus (%)
+	Tooltip: Increases the effective radius of your clicker abilities while Overdrive is active.
+}
+
+PhantomClickDamagePercent: {
+	Label: Phantom click damage (%)
+	Tooltip: The damage dealt by automatic clicks, as a percentage of your weapon's damage.
+}
+
+GlobalClickRate: {
+	Label: Global click rate (ticks)
+	Tooltip: How often automatic clicks occur. 10 ticks = 6 clicks per second.
+}
+
+AutoClickTargetLimit: {
+	Label: Auto click target limit
+	Tooltip: Maximum number of targets hit by phantom clicks per cycle.
+}
+
+StreamDamageMultiplier: {
+	Label: Data Stream damage (%)
+	Tooltip: The damage of the segments drawn by the Data Stream.
+}
+
+StreamImmunityTime: {
+	Label: Data Stream immunity (ticks)
+	Tooltip: Internal cooldown for enemies to be hit by the same Data Stream segment.
+}
+
+StreamDrawingMaxLength: {
+	Label: Max drawing length (pixels)
+	Tooltip: The maximum distance you can draw a single Data Stream line (Fruit Ninja style).
+}
+
+StreamDrawingCooldown: {
+	Label: Drawing cooldown (ticks)
+	Tooltip: The time between finishing one line and being able to start another.
+}
+
+StreamProjectileLifespan: {
+	Label: Segment lifespan (ticks)
+	Tooltip: How long the drawn line segments remain on the screen.
+}
+
+DelugeDamageMultiplier: {
+	Label: Binary Deluge damage (%)
+	Tooltip: The damage of the Binary Deluge field explosions.
+}
+
+DelugeDuration: {
+	Label: Binary Deluge duration (ticks)
+	Tooltip: How long the Binary Deluge field remains active.
+}
+
+DelugeHitInterval: {
+	Label: Hit interval (ticks)
+	Tooltip: How frequently the Binary Deluge field hits enemies.
+}
+
+DelugeRadius: {
+	Label: Field radius (pixels)
+	Tooltip: The size of the Binary Deluge explosion field.
+}
+
+Tooltip: ""
+
+StreamEffectCooldown: {
+	Label: Stream Effect Cooldown (ticks)
+	Tooltip: The internal cooldown preventing the Data Stream from triggering clicker effects too often.
+}

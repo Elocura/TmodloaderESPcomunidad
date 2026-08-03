@@ -1,0 +1,1001 @@
+ClickEffect: {
+	#Pre-Hardmode
+	BasicAutoclicker: {
+		Name: Basic Autoclicker
+		Description: Allow auto-clicking with 7.5 clicks per second. Right Click to toggle this on or off
+	}
+
+	Sandstorm: {
+		Name: Sandstorm
+		Description: Creates a sandstorm explosion
+	}
+
+	SeaBubble: {
+		Name: Sea Bubble
+		Description: Creates a slowly damaging bubble that floats away
+	}
+
+	Mushy: {
+		Name: Mushy
+		Description: Grants the Mushy buff, which increases defense and life regen
+	}
+
+	SulphurousBubbles: {
+		Name: Sulphurous Bubbles
+		Description: Creates 4-5 bubbles that can be clicked on to create a damaging area that inflicts Irradiated
+	}
+
+	BloodyExplosion: {
+		Name: Bloody Splash
+		Description: Creates a splash explosion that inflicts Burning Blood
+	}
+
+	BrainExplosion: {
+		Name: Brain Explosion
+		Description: Creates an explosion of rotten brain matter that inflicts Brain Rot
+	}
+
+	FeatherRain: {
+		Name: Feather Rain
+		Description: Rains down explosive feathers
+	}
+
+	ReelIn: {
+		Name: Reel In
+		Description: Summons a clickerfin. Killing it gives increases click damage by 25% for 10 seconds
+	}
+
+	SlimePuppet: {
+		Name: Slime Puppet
+		Description: Creates a slime ball which will make a short dash towards the cursor after a short period of time
+	}
+
+	# Hardmode
+	GaussFlux: {
+		Name: Gauss Flux
+		Description: Creates a turbulent magnetic force
+	}
+
+	BrimstoneInferno: {
+		Name: Brimstone Inferno
+		Description: Creates an explosion in the form of a satanic sigil that inflicts Brimstone Flames
+	}
+
+	CryoBomb: {
+		Name: Cryo Bomb
+		Description: Creates a cryobomb near the cursor that can be clicked on to release icy shards
+	}
+
+	DaedalusCrystals: {
+		Name: Daedalus Crystals
+		Description: Creates several homing daedalus bolts
+	}
+
+	Crunch: {
+		Name: Crunch
+		Description: Inflicts Armor Crunch for 3 seconds on the nearest enemies
+	}
+
+	ChaosFlame: {
+		Name: Chaos Flame
+		Description: Create small portal-like flame that inflicts Brimstone Flames
+	}
+
+	#Post-Plantera
+	TerraAura: {
+		Name: Terra Aura
+		Description: Creates a edenic damaging aura that lasts 3 seconds
+	}
+
+	GreenInfection: {
+		Name: Green Infection
+		Description: Creates {0} burning green ichor streams that home in on enemies
+	}
+
+	AnahitasVoice: {
+		Name: Anahita's Voice
+		Description: Creates a circle of damaging musical notes
+	}
+
+	CoolFlake: {
+		Name: Cool Flake
+		Description: Creates a snowflake minion. If there is already a snowflake minion, refresh its lifetime
+	}
+
+	AureusBlast: {
+		Name: Auroradical Blast
+		Description: Shoots laser-fast aureus blasts for every nearby enemy around the cursor's position
+	}
+
+	StellarScythe: {
+		Name: Stellar Scythe
+		Description: Creates a piercing scythe that flies towards the cursor after a short period of time
+	}
+
+	# Post-Golem
+	PlagueBees: {
+		Name: Plague Bees
+		Description: Summons a lot of plague seekers that inflict the Plague
+	}
+
+	Eruption: {
+		Name: Eruption
+		Description: Creates a large scorching explosion
+	}
+
+	StarRain: {
+		Name: Star Rain
+		Description: Rains down piercing astral stars
+	}
+
+	Stardust: {
+		Name: Stardust
+		Description: Creates a stardust explosion
+	}
+
+	Entropy: {
+		Name: Head Death
+		Description: Creates a large meld energy explosion
+	}
+
+	BloodBlasts: {
+		Name: Blood Blasts
+		Description: Shoots 8 blood shots diagonally towards the cursor
+	}
+
+	TaurusFang: {
+		Name: Taurus' Fang
+		Description: Creates 13 homing Arid Fangs that impale enemies
+	}
+
+	# Post-Moonlord
+	# Early Stage
+	
+	ElementalAura: {
+		Name: Elemental Aura
+		Description: Creates a damaging elemental aura that lasts 2 seconds and inflicts Elemental Mix
+	}
+
+	PlagueBees2: {
+		Name: "{$Mods.CalamityClickers.ClickEffect.PlagueBees.Name}"
+		Description: "{$Mods.CalamityClickers.ClickEffect.PlagueBees.Description}"
+	}
+
+	RedLightning: {
+		Name: Red Lightning
+		Description: Causes 4 lightning bolts to rain down from the sky
+	}
+
+	#Post-Providence
+	ProfanedInferno: {
+		Name: Profaned Inferno
+		Description: Release a profaned energy. Inflicts Holy Flames for 3 seconds
+	}
+
+	TarragonThorns: {
+		Name: Tarragon Thorns
+		Description: Creates 8 thorns which grow outward
+	}
+
+	Judgement: {
+		Name: Judgement
+		Description: Calls forth a righteous column of light that smites and delivers judgement upon those who are foolish enough to oppose you
+	}
+
+	NovaSlimer: {
+		Name: Nova Slimer
+		Description: Summons a homing Novaslime
+	}
+
+	# Post-Polterghast
+	GhastlyPortal: {
+		Name: Call to the Beyond
+		Description: Summons a Ghastly Portal which spews forth homing souls in response to your clicks
+	}
+
+	StratusMoon: {
+		Name: Stratus Moon
+		Description: Creates a circle of moons that fly towards your cursor after a while
+	}
+
+	Constellation: {
+		Name: Constellation
+		Description: Every 10th click spawns constellation star. Right Click to detonate it and applies Voidfrost
+	}
+
+	Lifestealing: {
+		Name: Lifestealing
+		Description: Heals you by 2 hp if the target is Marked for Death
+	}
+
+	BloodyKnives: {
+		Name: Bloody Knives
+		Description: Creates knives that impale enemies and inflict Burning Blood and Marked for Death
+	}
+
+	PhantasmalReach: {
+		Name: Phantasmal Reach
+		Description: Deals damage in accordance with the distance from the player; can go as low as 0.75x and up to 1.75x damage at max range
+	}
+
+	# Post-DoG
+	NebulaStars: {
+		Name: Nebula Stars
+		Description: Summons a circle of stars that home in on enemies after a short period
+	}
+
+	Distort: {
+		Name: Distort
+		Description: Summons a flurry of piercing knives that move in reaction to your clicks
+	}
+
+	NightmareMagic: {
+		Name: Nightmare Magic
+		Description: Randomly acts as any possible click effect
+	}
+
+	Totality2: {
+		Name: Super Totality
+		Description: Creates a miniature darksun that repeatedly fires various homing projectiles
+	}
+
+	NuclearExplosion: {
+		Name: Nuclear Explosion
+		Description: BOOM!
+	}
+
+	# Post-Yharon
+	PhoenixWrath: {
+		Name: Phoenix Wrath
+		Description: Calls in dragons to scorch the area with Dragonfire inflicting flames
+	}
+
+	MiceCatalyst: {
+		Name: Mice Catalyst
+		Description: Summons a catalyst cloud that creates homing nebula projectiles
+	}
+
+	Popstar: {
+		Name: Popstar
+		Description: Drops a large omega star that splits into three rings of smaller stars that start homing after a while
+	}
+
+	# Pre-Endgame Bosses
+	MiniExoTwins: {
+		Name: Olympic Call
+		Description: Summons mini Artemis and Mini Apollo to attack the cursor
+	}
+
+	Exomination: {
+		Name: Exomination
+		Description: Creates a large exo energy explosion
+	}
+
+	LecherousOrb: {
+		Name: Lecherous Orb
+		Description: Creates Lecherous Orbs that accumulate life hearts and can be clicked to pop them open. This effect costs 20 hp
+	}
+
+	# Endgame
+	ItzClick: {
+		Name: Itz Click
+		Description: Inflicts a very powerful damage over time debuff
+	}
+
+	Mischief: {
+		Name: Mischief
+		Description: Summons a mini rat clicker that can trigger clicker effects of nearby clickers in the inventory (except Mischief)
+	}
+
+	# Equip
+	DaedalusLightning: {
+		Name: Daedalus Lightning
+		Description: Attracts the power of Daedalus from the sky
+	}
+
+	BurnOrBliss: {
+		Name: Burn or Bliss
+		Description: Releases a burst of damaging normal, spicy and white chocolates
+	}
+
+	# Draedon
+	ScrapMissile: {
+		Name: Scrap Missile
+		Description: Shoots a missle from above towards the target that shatters on impact
+	}
+
+	DrillShot: {
+		Name: Drill Shot
+		Description: Shoots a Drill that latches onto enemies.
+	}
+
+	Electrofield: {
+		Name: Electrofield
+		Description: Summons a lingering electromagnetic field that extends on hit.
+	}
+
+	VitalInfusion: {
+		Name: Vital Infusion
+		Description: Charges a green BioNeedle next to player. Right Click to heal 25 health at the cost of one needle.
+	}
+
+	CurrentStrike: {
+		Name: Current Strike
+		Description: Fires a powerful current of ionized particles that arcs through enemies.
+	}
+
+	DoubleClick: {
+		Name: Double Click
+		Description: $Mods.ClickerClass.Common.Unknown
+	}
+}
+
+Items: {
+	Armor: {
+		Capsuit: {
+			VictideCapsuit: {
+				DisplayName: Victide Anemonous Mask
+				Tooltip: 5% increased click damage
+				SetBonus:
+					'''
+					10% increased click radius
+					+1.5 HP/s life regen and 10% increased click damage while submerged in liquid
+					'''
+			}
+
+			AerospecCapsuit: {
+				DisplayName: Aerospec Capsuit
+				Tooltip:
+					'''
+					8% increased click damage
+					15% increased click radius
+					'''
+				SetBonus:
+					'''
+					Taking over 25 damage in one hit will cause a spread of homing feathers to fall
+					Allows you to fall more quickly and disables fall damage
+					5% increased clicker critical strike chance
+					'''
+			}
+
+			StatigelCapsuit: {
+				DisplayName: Statigel Headband
+				Tooltip:
+					'''
+					10% increased click damage
+					7% increased click critical strike chance
+					25% increased click radius
+					'''
+				SetBonus:
+					'''
+					When you take over 100 damage in one hit you become immune to damage for an extended period of time
+					Grants an extra jump and increased jump height
+					12% increased jump speed
+					'''
+			}
+
+			DaedalusCapsuit: {
+				DisplayName: Daedalus Visor
+				Tooltip:
+					'''
+					8% increased click damage
+					7% increased click critical strike chance
+					25% increased click radius
+					'''
+				SetBonus:
+					'''
+					Every 15 clicks you call down lightning from the sky
+					5% increased click damage
+					'''
+			}
+
+			HydrothermicCapsuit: {
+				DisplayName: Hydrothermic Headsets
+				Tooltip:
+					'''
+					12% increased click damage
+					10% increased click critical strike chance
+					25% increased click radius
+					'''
+				SetBonus:
+					'''
+					You emit a blazing explosion when you are hit
+					Inflict a [cbuff:CalamityClickers/HydrothermicCapsuitDebuff] on hits from clicker weapons
+					Hitting with clicker weapons increases the debuffs' dps by 5 and extends its time by 0.1 seconds
+					up to 500 dps and 20 seconds
+					{$Mods.CalamityMod.Items.Armor.Hardmode.HydrothermicArmor.CommonSetBonus}
+					'''
+			}
+
+			IntergelacticCapsuit: {
+				DisplayName: Intergelactic Scouter Mask
+				Tooltip:
+					'''
+					15% increased click damage and critical strike chance
+					30% increased click radius
+					'''
+				SetBonus:
+					'''
+					Surrounds you with two rings of asteroids whose damages scale with your stats
+					Press '{Mods.CatalystMod.Keybinds.ToggleVisibility}' to make the asteroids more transparent
+					Using a clicker weapon launches the asteroids.
+					Asteroids can regenerate over time or by using clicker weapons
+					'''
+			}
+
+			TarragonCapsuit: {
+				DisplayName: Tarragon Biomask
+				Tooltip:
+					'''
+					10% increased click damage
+					5% increased clicker critical strike chance
+					25% increased click radius
+					'''
+				SetBonus:
+					'''
+					Increased heart pickup range
+					Enemies have a chance to drop extra hearts on death
+					Hitting enemies with clicker weapons gives you a buff that increases your defense and damage reduction
+					More hits will increase this buff's defence by 1, damage reduction by 0.2% and buff time by 1 second
+					up to 50 defence, 10% damage reduction and 20 seconds of time
+					Getting hit resets the buff with a 10 second cooldown and creates damaging roots
+					'''
+			}
+
+			BloodflareCrimeraCapsuit: {
+				DisplayName: Bloodflare Clickmera Skull
+				Tooltip:
+					'''
+					10% increased click damage and clicker critical strike chance
+					35% increased click radius
+					'''
+				SetBonus:
+					'''
+					Greatly increased life regen, equivalent to Crimson armor
+					Enemies below 50% life drop a heart when struck
+					This effect has a 5 second cooldown
+					Reduces the amount of clicks required for a click effect based on your current life
+					Up to 20% reduced at max hp.
+					Hitting enemies with a clicker weapon increases life regen.
+					'''
+			}
+
+			GodSlayerCapsuit: {
+				DisplayName: God Slayer Cloaker Hood
+				Tooltip:
+					'''
+					14% increased click damage and critical strike chance
+					45% increased click radius
+					10% reduced amount of clicks required for a click effect 
+					'''
+				SetBonus:
+					'''
+					Increases click critical chance by 1% by each consecutive non-critical hit
+					Bonus resets after dealing a critical hit
+					After dealing 50 clicker critical hits, you gain a buff that guarantees critical hits
+					'Ultraboost' has 30 second of cooldown
+					{$Mods.CalamityMod.Items.Armor.PostMoonLord.GodSlayerChestplate.CommonSetBonus}
+					'''
+			}
+
+			AuricTeslaRadarCapsuit: {
+				DisplayName: Auric Tesla Gamer Mask
+				Tooltip:
+					'''
+					30% increased click damage and critical strike chance
+					100% increased click radius
+					10% reduced the amount of clicks required for a click effect 
+					'''
+				SetBonus: Clicker Tarragon, Bloodflare and God Slayer effects
+			}
+
+			AuricTeslaPlusRadarCapsuit: {
+				DisplayName: "{$Mods.CalamityClickers.Items.Armor.Capsuit.AuricTeslaRadarCapsuit.DisplayName}"
+				Tooltip: "{$Mods.CalamityClickers.Items.Armor.Capsuit.AuricTeslaRadarCapsuit.Tooltip}"
+				SetBonus:
+					'''
+					Clicker Intergelactic, Bloodflare and God Slayer armor effects
+					Press `{Mods.CatalystMod.Keybinds.ToggleVisibility}` to make the asteroids more transparent
+					'''
+			}
+		}
+
+		Vanity: {
+			ReaverCapsuit: {
+				DisplayName: Reaver Capsuit
+				Tooltip: ""
+			}
+
+			SilvaCapsuit: {
+				DisplayName: Silva Capsuit
+				Tooltip: ""
+			}
+		}
+	}
+
+	Weapons: {
+		Clicker: {
+			#Pre-hardmode
+			WulfrumClicker: {
+				DisplayName: Wulfrum Pressing Device
+				DisplayNameLegecy: Wulfrum Clicker
+			}
+
+			ScourgeClicker: {
+				DisplayName: Deserted Mandible
+				DisplayNameLegecy: Scourge Clicker
+			}
+
+			SeaRemainClicker: {
+				DisplayName: Pearl Clutcher
+				DisplayNameLegecy: Sea Remain Clicker
+			}
+
+			MushyClicker: {
+				DisplayName: Fungal Clasp
+				DisplayNameLegecy: Mushy Clicker
+			}
+
+			BubbleClicker.DisplayName: Bubble Poker
+
+			RottenClicker: {
+				DisplayName: Jet Black
+				DisplayNameLegecy: Rotten Clicker
+			}
+
+			FleshyClicker: {
+				DisplayName: Metacarpal
+				DisplayNameLegecy: Fleshy Clicker
+			}
+
+			AeroClicker: {
+				DisplayName: Skypoint
+				DisplayNameLegecy: Aero Clicker
+			}
+
+			GooClicker: {
+				DisplayName: Blob Commander
+				DisplayNameLegecy: Gooclicker
+			}
+
+			Clickerfin.DisplayName: Clickerfin
+
+			# Hardmode
+			CryoClicker: {
+				DisplayName: Boreal Grasp
+				DisplayNameLegecy: Cryo Clicker
+			}
+
+			AquaticClicker: {
+				DisplayName: Bleached Mandible
+				DisplayNameLegecy: Aquatic Clicker
+			}
+
+			EarthenClicker: {
+				DisplayName: Ore Press
+				DisplayNameLegecy: Earthen Clicker
+			}
+
+			BrimstoneClicker: {
+				DisplayName: Ignic Clicker
+				DisplayNameLegecy: Brimstone Clicker
+			}
+
+			DaedalusClicker: {
+				DisplayName: Starspark Pointer
+				DisplayNameLegecy: Daedalus Clicker
+			}
+
+			ClickerOfCalamity: {
+				DisplayName: Wretched Fervor
+				DisplayNameLegecy: Clicker of Calamity
+			}
+
+			#Post-Plantera
+			FeralClicker: {
+				DisplayName: Feral Poiner
+				DisplayNameLegecy: Feral Clicker
+			}
+
+			FloraClicker: {
+				DisplayName: Edenic Petal
+				DisplayNameLegecy: Flora Clicker
+			}
+
+			AnahitasClicker: {
+				DisplayName: Distant Melody
+				DisplayNameLegecy: Anahita's Clicker
+			}
+
+			AureusClicker.DisplayName: Aureus Clicker
+			StellarClicker.DisplayName: Stellar Clicker
+			FrostysClicker.DisplayName: Frosty's Clicker
+			# Post-Golem
+			ScoriaClicker.DisplayName: Scoria Clicker
+
+			BloodGodsClicker: {
+				DisplayName: Hecatomb
+				DisplayNameLegecy: Blood God's Clicker
+			}
+
+			PlagueClicker: {
+				DisplayName: Plagued Clicker
+				DisplayNameLegecy: Plague Clicker
+			}
+
+			MeldClicker: {
+				DisplayName: Dark Spot
+				DisplayNameLegecy: Meld Clicker
+			}
+
+			CosmicStarClicker.DisplayName: Cosmic Star Clicker
+			StarblightClicker.DisplayName: Starblight Clicker
+			GeleomegeddonClicker.DisplayName: Gelactic Novapoint
+
+			# Post-Moonlord
+			
+			ElementalClicker: {
+				DisplayName: Verandia Elementulip
+				DisplayNameLegecy: Elemental Clicker
+			}
+
+			InfestedBeeClicker.DisplayName: Infested Bee Clicker
+
+			RedLightningClicker: {
+				DisplayName: Stormstruck Talon
+				DisplayNameLegecy: Red Lightning Clicker
+			}
+
+			# Post-Providence
+			ProfanedClicker: {
+				DisplayName: Profaned Rapturer
+				DisplayNameLegecy: Profaned Clicker
+			}
+
+			BloomClicker: {
+				DisplayName: Twisted Duality
+				DisplayNameLegecy: Bloom Clicker
+			}
+
+			BloodstoneClicker: {
+				DisplayName: Hemophilic Dagger
+				DisplayNameLegecy: Bloodstone Clicker
+			}
+
+			HolyGoldenClicker.DisplayName: Holy Golden Clicker
+
+			# Post-Polterghast
+			RuinousClicker: {
+				DisplayName: Ghastly Glicker
+				DisplayNameLegecy: Ruinous Clicker
+			}
+
+			PolterplasmClicker: {
+				DisplayName: Beyonder's Grasp
+				DisplayNameLegecy: Polterplasm Clicker
+			}
+
+			StratusClicker: {
+				DisplayName: Bellatrix
+				DisplayNameLegecy: Stratus Clicker
+			}
+
+			# Post-DoG
+			ClickerOfGods.DisplayName: Clicker of Gods
+
+			CosmiliteClicker: {
+				DisplayName: Dimension Ripper
+				DisplayNameLegecy: Cosmilite Clicker
+			}
+
+			NightmareClicker.DisplayName: Nightmare Clicker
+			DarksunClicker.DisplayName: Darksun Clicker
+			#
+			# Post-Yharon
+			PhoenixClicker.DisplayName: Phoenix Clicker
+			MiceCatalystClicker.DisplayName: Mice Catalyst Clicker
+			ClickerNova.DisplayName: Clicker Nova
+
+			ExoClicker: {
+				DisplayName: Resonant Power Plug
+				DisplayNameLegecy: Exo Clicker
+			}
+
+			MiracleClicker.DisplayName: Relish
+			CruelClicker.DisplayName: Cruel Clicker
+			#
+			# Endgame
+			ItsClicker.DisplayName: Its Clicker
+			MarkOfRatKing.DisplayName: Mark of Rat King
+			#
+			# Draedon
+			GaussClicker.DisplayName: Gauss Clicker
+			NuclearClicker.DisplayName: Nuclear Clicker
+			ScrapPresser.DisplayName: Scrap Presser
+			HandheldClickerDrill.DisplayName: Handheld ClickerDrill
+			FieldPolorizer.DisplayName: Field Polorizer
+			Bioinjector.DisplayName: Bioinjector
+			FusionPointer.DisplayName: Fusion Pointer
+			BereftVassalsClicker.DisplayName: Taurus' Fang
+			MonolithClicker.DisplayName: Monolith Clicker
+		}
+	}
+
+	Accessories: {
+		DOG: {
+			Tooltip:
+				'''
+				30% increased click damage
+				50% increased click radius
+				20% reduced amount of clicks required for a click effect
+				Pressing the 'Clicker Accessory' key will toggle auto click on all Clickers
+				While auto click is enabled, click rates are slightly decreased
+				Pressing the 'Clicker Aim Assist' key will toggle aimbot, targeting nearby enemies automatically. 
+				If the target dies or is lost, a new nearby target will be selected if possible.
+				'Devourer of Games'
+				'''
+			DisplayName: D.o.G.
+		}
+
+		FingerOfBloodGod: {
+			Tooltip:
+				'''
+				Your first click when out of combat will automatically trigger its clicker effect.
+				Triggers an extra clicker effect while you are not on cooldown
+				After triggering, there is a 10-second cooldown.
+				'''
+			DisplayName: Finger Of Blood God
+		}
+
+		BeetleClickingGlove: {
+			DisplayName: Beetle Clicking Glove
+			Tooltip:
+				'''
+				{$Mods.ClickerClass.Items.RegalClickingGlove.Tooltip}
+				25% increased click damage when under 20% life
+				Inflicts a debuff with power based on how fast you click
+				'''
+		}
+
+		BloodyChocCookies: {
+			DisplayName: Bloody Choc n' Cookies
+			Tooltip:
+				'''
+				While equipped, cookies will periodically spawn within your clicker radius
+				Click the cookie to gain bonus clicker damage, radius, and life regeneration
+				Has chance to replace cookies with bloody cookies that increase click damage, crit, and rage regeneration instead
+				Gain up to 15% clicker damage based on your amount of clicks within a second
+				Every 15 clicks releases a burst of damaging normal, spicy or white chocolates
+				Spicy chocolate iinflicts Brimstone Flames and deal more damage than other types
+				White chocolate homes towards the player in and heals 4 health on contact
+				'''
+		}
+
+		SSMedal: {
+			DisplayName: SS Medal
+			Tooltip:
+				'''
+				While equipped, empowering circles will rotate around you
+				Keeping your cursor within the circles will build up clicker critical strikes, clicker radius, and clicker effects
+				Keeping your cursor within the center circle will build up all stats listed above at the same time.
+				Right Clicking on the fully charged center circle will release energy but will consume all the circle boosts
+				'''
+		}
+
+		LihzahrdParticleAccelerator: {
+			DisplayName: Lihzahrd Particle Accelerator
+			Tooltip:
+				'''
+				Clickers within the inner 50% of your clicker radius deal 10 more damage
+				5% increased click critical chance
+				Clicker critical hits have a 20% chance to supercrit with 3x damage instead of 2x
+				'''
+		}
+
+		LunarClickingGlove: {
+			DisplayName: Lunar Clicking Glove
+			Tooltip:
+				'''
+				{$Mods.ClickerClass.Items.RegalClickingGlove.Tooltip}
+				Clickers within the inner 50% of your clicker radius deal 25 more damage
+				10% increased click critical chance
+				Clicker critical have a 20% chance to supercrit with 3x damage instead of 2x
+				'''
+		}
+
+		CosmicClickingGlove: {
+			DisplayName: Cosmic Clicking Glove
+			Tooltip:
+				'''
+				{$Mods.ClickerClass.Items.RegalClickingGlove.Tooltip}
+				Clickers within the inner 50% of your clicker radius deal 100 more damage
+				15% increased click critical chance
+				Clicker critical have a 20% chance to supercrit with 3x damage instead of 2x
+				{$Mods.CalamityClickers.Items.Accessories.FingerOfBloodGod.Tooltip}
+				'''
+		}
+	}
+
+	SFXButtonCalamity.DisplayName: SFX Button - Calamity
+	SFXButtonAstral.DisplayName: SFX Button - Astral
+	SFXButtonAuric.DisplayName: SFX Button - Auric
+	SFXButtonExhume.DisplayName: SFX Button - Exhume
+
+	Potions: {
+		GCharge: {
+			DisplayName: G-Charge
+			Tooltip:
+				'''
+				Increase click damage by 2% per click per second
+				10% increased amount of clicks required for a click effect
+				{$Mods.CalamityMod.Common.AlcoholWarning}
+				'''
+		}
+	}
+}
+
+Projectiles: {
+	Clicker: {
+		SeaRemainClickerProjectile.DisplayName: Sea Bubble
+		ScourgeClickerProjectile.DisplayName: Sand Explosion
+		FleshyClickerProjectile.DisplayName: Bloody Explosion
+		RottenClickerProjectile.DisplayName: Brain Explosion
+		GooClickerProjectile.DisplayName: Slime Puppet
+		GaussClickerProjectile.DisplayName: Gauss Flux
+		BrimstoneClickerProjectile.DisplayName: Brimstone Sigil
+		CryoClickerProjectile.DisplayName: Cryo Bomb
+		MusicalClickerProjectile.DisplayName: Musical Note
+		EarthenClickerProjectile.DisplayName: Crunch
+		FloraClickerProjectile.DisplayName: Flora Aura
+		ElementalClickerProjectile.DisplayName: Elemental Aura
+		FeralClickerProjectile.DisplayName: Burning Green Ichor
+		ProfanedClickerProjectile.DisplayName: Profaned Explosion
+		ClickerOfCalamityProjectile.DisplayName: Chaos Flame
+		BloodGodsClickerProjectile.DisplayName: Blood God's Blast
+		AureusClickerProjectile.DisplayName: Aureus Blast
+		RuinousClickerProjectile.DisplayName: Ruinous Portal
+		RuinousClickerProjectileSoul.DisplayName: Ruinous Soul
+		DaedalusClickerProjectile.DisplayName: Daedalus Crystals
+		StratusClickerProjectileOld.DisplayName: Stratus Moon
+		StratusClickerProjectile.DisplayName: Constellation Star
+		StratusClickerProjectileExplosion.DisplayName: Constellation Star Supernova
+		DarksunClickerProjectile.DisplayName: Dark Sun
+		ClickerOfGodsProjectile.DisplayName: Nebula Star
+		StarblightClickerProjectile.DisplayName: Astral Dust
+		MiceCatalystClickerProjectile.DisplayName: Mice Catalyst Nebula
+		MiracleClickerProjectile.DisplayName: Exo Explosion
+		PhoenixClickerProjectile.DisplayName: Phoenix
+		PhoenixClickerProjectile2.DisplayName: Phoenix Breath
+		StellarClickerProjectile.DisplayName: Stellar Scythe
+		NuclearClickerBoom.DisplayName: Nuclear Explosion
+		PlagueClickerProjectile.DisplayName: Plague Bee
+		CosmiliteClickerProjectile.DisplayName: Cosmic Knive
+		CruelClickerProjectile.DisplayName: Lecherous Orb
+		BloodstoneClickerProjectile.DisplayName: Bloodstone Knife
+		ExoClickerProjectile.DisplayName: Exo Clicker Projectile
+		BloodyChocCookiesProjectileCookie.DisplayName: Bloody Cookie
+		BloodyChocCookiesProjectileChocolate.DisplayName: Chocolate Chip
+		DaedalusCapsuitProjectile.DisplayName: Daedalus Lightning
+		AstralRocksProjectile.DisplayName: Astral Rocks
+		AstralRocksProjectileFly.DisplayName: Astral Rock
+		SSMedalProjectile.DisplayName: SS Medal
+		MarkOfRatKingProjectile.DisplayName: Mini Rat Clicker
+		GeleomegeddonClickerProjectile.DisplayName: Nova Slime
+		BubbleClickerProjectile.DisplayName: Acid Bubble
+		BubbleClickerProjectile2.DisplayName: Irradiated Aura
+		SSMedalProjectileExplosion.DisplayName: Electric Explosion
+		HolyGoldenClickerProjectile.DisplayName: Holy Deathray
+		ClickerNovaProjectile.DisplayName: Omega Star
+		ClickerNovaProjectileSmall.DisplayName: Small Star
+		ScrapPresserPro.DisplayName: Scrap Missle
+		HandheldClickerDrillPro.DisplayName: ClickerDrill
+		FieldPolorizerPro.DisplayName: Electromagnetic Field
+		BioinjectorPro.DisplayName: BioNeedle
+		FusionPointerPro.DisplayName: Ionized Particles
+		BereftVassalsClickerPro.DisplayName: Arid Fangs
+		MonolithClickerProjectile.DisplayName: Monolith Clicker Projectile
+	}
+
+	Summon.SarosMicrosun.DisplayName: Saros Microsun
+}
+
+Buffs: {
+	GodSlayerOverclockBuff: {
+		DisplayName: God Slayer Overclock
+		Description: You trigger your click effects every click at a reduced amount of damage.
+	}
+
+	WulfrumClickerBuff: {
+		DisplayName: Wulfrum Clicker Mode Visualization
+		Description: You are now autoclicking
+	}
+
+	ItsClickerDebuff: {
+		DisplayName: True Wither
+		Description: You think this debuff has a tooltip. NO!
+	}
+
+	BeetleClickingGloveDebuff: {
+		DisplayName: Beetle Clicking Glove Power
+		Description: You think this debuff has a tooltip. NO!
+	}
+
+	BloodyChocCookiesBuff: {
+		DisplayName: Bloody Cookie
+		Description: Increases your click damage, crit and rage regeneration
+	}
+
+	GodSlayerCapsuitBuff: {
+		DisplayName: Hyperboost
+		Description: Clickers now always critically hit
+	}
+
+	HydrothermicCapsuitDebuff: {
+		DisplayName: Hydrothermic Boil
+		Description: You don't know description
+		ItemTooltipEnemy: Heat - 50 DPS + 5 per stack (Max 500 DPS)
+	}
+
+	ClickerfinBuff: {
+		DisplayName: Clickerfin Wrath
+		Description: Increased click damage by 25%
+	}
+
+	GChargeBuff: {
+		DisplayName: G-Charge
+		Description: Click damage increased based on CPS, but clicker effects less often appears
+	}
+}
+
+UI: {
+	Cooldowns: {
+		GodSlayerOverclockCooldown: God Slayer Overclock Cooldown
+		FingerOfBloodGodCooldown: Finger of Blood God Cooldown
+		TarragonClickerCooldown: Tarragon Clicker Defence Cooldown
+		UltraboostCooldown: Ultraboost Cooldown
+	}
+
+	Enchantments: {
+		Lecherous: {
+			DisplayName: Lecherous
+			Description: Spawns a resilient brimstone monster that spinning around the cursor that interferes with your homing weapons. It releases a bunch of hearts on death.
+		}
+
+		Lecherous2: {
+			DisplayName: Lecherous
+			Description: Spawns a resilient brimstone monster that spinning around the cursor that interferes with your homing weapons. It releases a bunch of hearts on death.
+		}
+	}
+}
+
+NPCs: {
+	LecherousOrbClicker.DisplayName: Lecherous Orb Clicker
+	ClickerfinNPC.DisplayName: Clickerfin
+
+	ClickerfinNormalNPC: {
+		DisplayName: Clickerfin
+		Bestiary: Thanks to its sharp nose, clickerfin can rummage through the local gravel, finding various living creatures, such as worms. It is also a defense method that can make a deep wound in the predator's body.
+	}
+}
+
+Misc: {
+	RecipeGroup.AnyNormalSFXButton: Any Normal SFX Button
+
+	Death: {
+		BloodyClicker0: "{0} ate more cookies than they can digest"
+		BloodyClicker1: "{0} died of diabetes"
+	}
+}
+
+Configs: {
+	CalamityClickersConfig: {
+		DisplayName: Calamity Clickers Config
+
+		LegecyClickerTextures: {
+			Label: Legecy Clicker Textures
+			Tooltip: ""
+		}
+	}
+}
+
+Condition.PostPlant: After defeating Plantera

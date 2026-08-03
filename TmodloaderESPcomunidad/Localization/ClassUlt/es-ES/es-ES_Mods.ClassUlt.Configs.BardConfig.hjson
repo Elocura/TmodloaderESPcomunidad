@@ -1,0 +1,182 @@
+Tooltip: ""
+
+Headers: {
+	Ultimate: The Grand Metronome
+	BrassZone: Brass Zone (Damage)
+	PercussionZone: Percussion Zone (Movement)
+	StringZone: String Zone (Survival)
+	WindZone: Wind Zone (Critical)
+	RadiusSettings: Zone Radii
+	AdvancedMechanics: Advanced Mechanics
+}
+
+BPM: {
+	Label: Metronome Speed (BPM)
+	Tooltip: The speed at which the metronome marker moves across the four zones.
+}
+
+UltimateDuration: {
+	Label: Ultimate Duration (seconds)
+	Tooltip: How long the Grand Metronome buff lasts.
+}
+
+BrassMaxStacks: {
+	Label: Max Brass Stacks
+	Tooltip: The maximum number of stacks players can accumulate from the Brass Zone Pulse.
+}
+
+BrassPulseBaseDamagePercent: {
+	Label: Brass Pulse Base Damage (%)
+	Tooltip: The damage dealt by the Brass Pulse, as a percentage of your weapon's damage, before stacking bonus.
+}
+
+BrassPulseBonusPerStackPercent: {
+	Label: Brass Pulse Stack Bonus Damage (%)
+	Tooltip: Additional damage dealt by the Brass Pulse per accumulated stack.
+}
+
+BrassDamageBonusPerStack: {
+	Label: Damage Bonus Per Brass Stack (%)
+	Tooltip: The percentage increase to all damage types per accumulated Brass stack.
+}
+
+BrassBuffDuration: {
+	Label: Brass Buff Duration (seconds)
+	Tooltip: How long the Brass buff lasts before expiring.
+}
+
+PercussionMaxStacks: {
+	Label: Max Percussion Stacks
+	Tooltip: The maximum number of stacks players can accumulate from the Percussion Zone Pulse.
+}
+
+PercussionMaxSpeedBonusPerStack: {
+	Label: Max Speed Bonus Per Percussion Stack (%)
+	Tooltip: Percentage increase to maximum run speed per stack.
+}
+
+PercussionAccelerationBonusPerStack: {
+	Label: Acceleration Bonus Per Percussion Stack (%)
+	Tooltip: Percentage increase to acceleration per stack.
+}
+
+PercussionBrakeBonusPerStack: {
+	Label: Braking Bonus Per Percussion Stack (%)
+	Tooltip: Percentage increase to run slowdown/braking speed per stack.
+}
+
+PercussionAttackSpeedBonusPerStack: {
+	Label: Attack Speed Bonus Per Percussion Stack (%)
+	Tooltip: Percentage increase to attack speed per stack.
+}
+
+PercussionBuffDuration: {
+	Label: Percussion Buff Duration (seconds)
+	Tooltip: How long the Percussion buff lasts before expiring.
+}
+
+StringMaxStacks: {
+	Label: Max String Stacks
+	Tooltip: The maximum number of stacks players can accumulate from the String Zone Pulse.
+}
+
+StringLifeRegenBonusPerStack: {
+	Label: Life Regen Bonus Per String Stack
+	Tooltip: Flat increase to life regeneration per stack.
+}
+
+StringInstantHealPerStack: {
+	Label: Instant Heal Per String Stack
+	Tooltip: Flat amount healed instantly upon activating the String Zone Pulse, per stack.
+}
+
+StringEnduranceBonusPerStack: {
+	Label: Damage Reduction Bonus Per String Stack (%)
+	Tooltip: Percentage increase to damage reduction (Endurance) per stack.
+}
+
+StringBuffDuration: {
+	Label: String Buff Duration (seconds)
+	Tooltip: How long the String buff lasts before expiring.
+}
+
+WindMaxStacks: {
+	Label: Max Wind Stacks
+	Tooltip: The maximum number of stacks players can accumulate from the Wind Zone Pulse.
+}
+
+WindCritBonusPerStack: {
+	Label: Critical Chance Bonus Per Wind Stack (%)
+	Tooltip: Percentage increase to critical strike chance per stack.
+}
+
+WindArmorPenBonusPerStack: {
+	Label: Armor Penetration Bonus Per Wind Stack
+	Tooltip: Flat increase to armor penetration per stack.
+}
+
+WindBuffDuration: {
+	Label: Wind Buff Duration (seconds)
+	Tooltip: How long the Wind buff lasts before expiring.
+}
+
+BrassRadius: {
+	Label: Brass Zone Radius (pixels)
+	Tooltip: The area in which allies receive the Brass Buff upon pulse activation.
+}
+
+PercussionRadius: {
+	Label: Percussion Zone Radius (pixels)
+	Tooltip: The area in which allies receive the Percussion Buff upon pulse activation.
+}
+
+StringRadius: {
+	Label: String Zone Radius (pixels)
+	Tooltip: The area in which allies receive the String Buff upon pulse activation and instant healing.
+}
+
+WindRadius: {
+	Label: Wind Zone Radius (pixels)
+	Tooltip: The area in which allies receive the Wind Buff upon pulse activation.
+}
+
+FullBlastRadius: {
+	Label: Full Blast Radius (pixels)
+	Tooltip: The radius of the detonation caused by the Full Blast (Crescendo/Finale).
+}
+
+ZoneCooldown: {
+	Label: Zone Pulse Cooldown (ticks)
+	Tooltip: The time in ticks (60 ticks = 1 second) before a zone pulse can be triggered again.
+}
+
+FullBlastCooldown: {
+	Label: Full Blast Cooldown (ticks)
+	Tooltip: The time in ticks before the Full Blast ability can be used again.
+}
+
+FinalePulseCount: {
+	Label: Finale Pulse Count
+	Tooltip: The number of successive detonations that occur after the ultimate duration expires.
+}
+
+FinalePulseInterval: {
+	Label: Finale Pulse Interval (ticks)
+	Tooltip: The delay in ticks between each detonation during the Finale.
+}
+
+UseUniqueMetronomeSounds: {
+	Label: Use Unique Zone Tick Sounds
+	Tooltip:
+		'''
+		If enabled, the metronome pointer will play a unique, thematic sound when entering each zone 
+		(Brass, Percussion, String, Wind). If disabled, it uses the standard Menu Tick sound.
+		'''
+}
+
+UltimateCooldownInSeconds.Tooltip: ""
+
+LimitContextPressesPerCycle: {
+	Label: Limit Context Presses Per Cycle
+	Tooltip: If enabled, limits the number of times you can press 'X' (Context Action) to 4 per metronome cycle.
+}

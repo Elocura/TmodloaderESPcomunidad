@@ -1,0 +1,109 @@
+Headers: {
+	Ultimate: Arcane Overload
+	DischargeMechanic: Arcane Discharge
+	GravityWell: Gravity Well
+}
+
+UltimateDuration: {
+	Label: Arcane Overload duration (seconds)
+	Tooltip: How long the Arcane Overload ultimate lasts, granting zero mana cost and bouncing projectiles.
+}
+
+BounceCount: {
+	Label: Projectile bounces
+	Tooltip: The maximum number of times a magic projectile can bounce to another enemy.
+}
+
+DamagePenaltyPerBounce: {
+	Label: Damage penalty per bounce (%)
+	Tooltip:
+		'''
+		The percentage of damage lost for each subsequent bounce.
+		E.g., 25 means 25% less damage per bounce.
+		'''
+}
+
+ProjectileSpeedMultiplier: {
+	Label: Projectile speed bonus (%)
+	Tooltip: The percentage increase in speed for magic projectiles during Arcane Overload. 150 = 50% faster.
+}
+
+DischargeDamageMultiplier: {
+	Label: Discharge damage (%)
+	Tooltip: The damage multiplier for the projectile created when discharging the ultimate.
+}
+
+EnableGravityWell: {
+	Label: Enable Gravity Well
+	Tooltip:
+		'''
+		Allows you to create a Gravity Well by holding the ultimate key
+		while Arcane Overload is active.
+		'''
+}
+
+GravityWellCooldown: {
+	Label: Cooldown (seconds)
+	Tooltip:
+		'''
+		The cooldown in seconds before you can create
+		another Gravity Well.
+		'''
+}
+
+GravityWellRadius: {
+	Label: Radius (pixels)
+	Tooltip:
+		'''
+		The radius of the vortex, measured in pixels.
+		Determines how far away enemies and projectiles are pulled from.
+		'''
+}
+
+GravityWellDuration: {
+	Label: Duration (seconds)
+	Tooltip:
+		'''
+		How long the Gravity Well remains active after being created,
+		measured in seconds.
+		'''
+}
+
+GravityWellPullStrength: {
+	Label: Pull strength
+	Tooltip:
+		'''
+		The strength of the inward pull towards the center.
+		Higher values will pull enemies and projectiles faster.
+		'''
+}
+
+GravityWellOrbitStrength: {
+	Label: Orbit strength
+	Tooltip:
+		'''
+		The strength of the rotational force that makes entities orbit.
+		Higher values create a wider, more noticeable orbit around the center.
+		'''
+}
+
+GravityWellMaxOrbitSpeed: {
+	Label: Max orbit speed
+	Tooltip:
+		'''
+		The maximum speed that enemies and projectiles can reach while orbiting.
+		This prevents them from accelerating uncontrollably.
+		Note: This value is divided by 10 in-game (e.g., a value of 40 equals 4.0).
+		'''
+}
+
+GravityWellHPThreshold: {
+	Label: HP threshold
+	Tooltip:
+		'''
+		The Gravity Well will not affect enemies with maximum health
+		greater than this value. Set to 0 to disable this limit.
+		'''
+}
+
+Tooltip: ""
