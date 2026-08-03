@@ -1,0 +1,743 @@
+Items: {
+	ArchmageMutagen: {
+		DisplayName: Archmage Mutagen
+		Tooltip:
+			'''
+			Increases magic damage by 25% 
+			Increases magic critical strike chance by 15%
+			'''
+	}
+
+	AssassinsMutagen: {
+		DisplayName: Assassins Mutagen
+		Tooltip:
+			'''
+			Increases throwing damage by 25%
+			Increases throwing critical strike chance by 15%
+			Increases maximum technique points by 1
+			'''
+	}
+
+	BullseyeMutagen: {
+		DisplayName: Bullseye Mutagen
+		Tooltip:
+			'''
+			Increases ranged damage by 25%
+			Increases ranged critical strike chance by 15%
+			'''
+	}
+
+	CounsellorMutagen: {
+		DisplayName: Counsellor Mutagen
+		Tooltip:
+			'''
+			Increases summon damage by 25%
+			Increased whip range by 15%
+			Minions gain a base 7% critical strike chance
+			'''
+	}
+
+	MaestroMutagen: {
+		DisplayName: Maestro Mutagen
+		Tooltip:
+			'''
+			Increases symphonic damage by 25%
+			Increases symphonic critical strike chance by 15%
+			Increases maximum inspiration by 5
+			'''
+	}
+
+	PriestsMutagen: {
+		DisplayName: Priests Mutagen
+		Tooltip:
+			'''
+			Increases radiant damage by 25%
+			Increases radiant critical strike chance by 15%
+			Healing spells will heal an additional 5 life
+			'''
+	}
+
+	SwordmasterMutagen: {
+		DisplayName: Swordmaster Mutagen
+		Tooltip:
+			'''
+			Increases melee damage by 25% 
+			Increases melee critical strike chance by 15%
+			'''
+	}
+
+	AkkaRelic: {
+		DisplayName: Infernal Akka Relic
+		Tooltip: Inbued with the infernal flames of a defeated foe
+	}
+
+	BasanRelic: {
+		DisplayName: Infernal Basan Relic
+		Tooltip: Inbued with the infernal flames of a defeated foe
+	}
+
+	CalaviaRelic: {
+		DisplayName: Infernal Calavia Relic
+		Tooltip: Inbued with the infernal flames of a defeated foe
+	}
+
+	CockatriceRelic: {
+		DisplayName: Infernal Cockatrice Relic
+		Tooltip: Inbued with the infernal flames of a defeated foe
+	}
+
+	EaglecrestGolemRelic: {
+		DisplayName: Infernal Eaglecrest Golem Relic
+		Tooltip: Inbued with the infernal flames of a defeated foe
+	}
+
+	ErhanRelic: {
+		DisplayName: Infernal Erhan Relic
+		Tooltip: Inbued with the infernal flames of a defeated foe
+	}
+
+	FowlEmperorRelic: {
+		DisplayName: Infernal Fowl Emperor Relic
+		Tooltip: Inbued with the infernal flames of a defeated foe
+	}
+
+	KeeperRelic: {
+		DisplayName: Infernal Keeper Relic
+		Tooltip: Inbued with the infernal flames of a defeated foe
+	}
+
+	KingSlayerIIIRelic: {
+		DisplayName: Infernal King Slayer III Relic
+		Tooltip: Inbued with the infernal flames of a defeated foe
+	}
+
+	NebuleusRelic: {
+		DisplayName: Infernal Nebuleus Relic
+		Tooltip: Inbued with the infernal flames of a defeated foe
+	}
+
+	OmegaCleaverRelic: {
+		DisplayName: Infernal Omega Cleaver Relic
+		Tooltip: Inbued with the infernal flames of a defeated foe
+	}
+
+	OmegaGigaporaRelic: {
+		DisplayName: Infernal Omega Gigapora Relic
+		Tooltip: Inbued with the infernal flames of a defeated foe
+	}
+
+	OmegaObliteratorRelic: {
+		DisplayName: Infernal Omega Obliterator Relic
+		Tooltip: Inbued with the infernal flames of a defeated foe
+	}
+
+	PatientZeroRelic: {
+		DisplayName: Infernal Patient Zero Relic
+		Tooltip: Inbued with the infernal flames of a defeated foe
+	}
+
+	SeedofInfectionRelic: {
+		DisplayName: Infernal Seed of Infection Relic
+		Tooltip: Inbued with the infernal flames of a defeated foe
+	}
+
+	SkullDiggerRelic: {
+		DisplayName: Infernal Skull Digger Relic
+		Tooltip: Inbued with the infernal flames of a defeated foe
+	}
+
+	ThornRelic: {
+		DisplayName: Infernal Thorn Relic
+		Tooltip: Inbued with the infernal flames of a defeated foe
+	}
+
+	UkkoRelic: {
+		DisplayName: Infernal Ukko Relic
+		Tooltip: Inbued with the infernal flames of a defeated foe
+	}
+
+	BurningGrace: {
+		DisplayName: Burning Grace
+		Tooltip:
+			'''
+			8% increased healing speed
+			12% increased Holy elemental damage and resistance
+			6% increased Holy and Fire elemental critical strike chance
+			Stacks if both elements are present
+			Healing an ally increases their life regeneration and regeneration rate
+			Healing spells will increase the healed targets defense by 14 for 20 seconds
+			Critical strikes with a Holy elemental weapon or using healing tools has a chance to release homing lightmass
+			An aura of holy flames surrounds you while holding a Fire or Holy elemental weapon
+			Aura is empowered while holding a Healer tool
+			Increases length of invincibility after taking damage
+			'''
+	}
+
+	AmbrosialAmpoule.ExtraTooltip:
+		'''
+		Friendly blue flies will occasionally appear to protect you
+		Any flies that target you will transform into blue flies
+		Critters are attracted to you and shy critters won't fear you
+		Bees and Spider Swarmers become passive
+		Grants immunity to Webbed
+		'''
+
+	NanoCore: {
+		DisplayName: Nano Core
+		Tooltip:
+			'''
+			Creates a nanoshield around the wearer:
+			Increases max movement speed and acceleration while underwater
+			Grants the ability to swim, extends underwater breathing, emits light underwater, and improves mobility on ice
+			Provides a moderate amount of light, reduces breath loss, and reduces damage caused by drowning in the abyss
+			Abyss creatures are less likely to see you, mitigates the abyss' defense reduction, and lets you sink faster in liquids
+			Grants immunity to the Abandoned Lab, Wasteland and Sulfurous water
+			Grants immunity to [cbuff:CalamityMod/CrushDepth] , [cbuff:Redemption/RadioactiveFalloutDebuff] and all infection debuffs
+			Grants resistance to the increased breath loss caused by [cbuff:CalamityMod/HadopelagicPressure]
+			Grants protection against up radiation protection
+			'''
+	}
+
+	GirusDecoder: {
+		DisplayName: Girus Decoder
+		Tooltip:
+			'''
+			Can be placed on the Codebreaker
+			Allows you to decrypt the Omega Data Tablet
+			Doing so allows you to learn how to craft new things
+			'''
+	}
+
+	Omega1DataTablet: {
+		DisplayName: Omega Data Tablet I
+		Tooltip: Requires a Codebreaker with a Girus Decoder to decrypt
+		Decrypted: already decrypted
+		UnlockedRecipes: unlocked recipes
+
+		Weapon: {
+			TinyCleaver: Tiny Cleaver
+			PulseBlade: Pulse Blade
+			CorruptedDoubleRifle: Corrupted Double Rifle
+			CorruptedSentryBase: Omega Sentry Stand
+		}
+	}
+
+	Omega2DataTablet: {
+		DisplayName: Omega Data Tablet II
+		Tooltip: Requires a Codebreaker with a Girus Decoder to decrypt
+		Decrypted: already decrypted
+		UnlockedRecipes: unlocked recipes
+
+		Weapon: {
+			CorruptedDAN: Corrupted D.A.N
+			DrillRevolver: Drill Revolver
+			GigapeiliContactor: Gigapeili Contactor
+			OmegaPickaxe: Omega Pickaxe
+			OversizedScrewdriver: Oversized Screwdriver
+			Shockriken: Shockriken
+			VlitchSynthesizer: Vlitch Synthesizer
+			KillswitchEngineer: Killswitch Engineer
+		}
+	}
+
+	Omega3DataTablet: {
+		DisplayName: Omega Data Tablet III
+		Tooltip: Requires a Codebreaker with a Girus Decoder to decrypt
+		Decrypted: already decrypted
+		UnlockedRecipes: unlocked recipes
+
+		Weapon: {
+			SunInThePalm: Sun In The Palm
+			OOFingergun: Omega Finger Gun
+			BlastBattery: Blast Battery
+			ScorchingScalpel: Scorching Scalpel
+			Oboeterator: Oboeterator
+			OmegaDefibrillator: Omega Defibrillator
+		}
+	}
+
+	Lore: {
+		FowlEmperorLore: {
+			DisplayName: Fowl Emperor
+			Tooltip: ""
+			Lore:
+				'''
+				I have traveled far in my conquest against the gods who call this world home.
+				I have faced down both tricksters and murderers alike, from self-appointed righteous heroes to openly sadistic tyrants.
+				Through this, I have faced warriors, beasts, demons, and all sorts. There is very little I haven’t experienced in this life.
+				All of this is to say…
+				WHAT!?
+				'''
+		}
+
+		ErhanLore: {
+			DisplayName: Erhan
+			Tooltip: ""
+			Lore:
+				'''
+				A local priest, I assume? ‘Repent’, ‘heresy’, ‘judgement’... I’ve heard it all before.
+				You hopefully don’t need me to tell you what happened to the various churches that once lined the surface.
+				However, my reach doesn’t extend very far into those portals.
+				The knowledge to make those portals is obscure, to say the least, and you’d be hard pressed to fit an army through the few that do exist.
+				Further explanation is beyond our current perview, but I have no doubt whatever group this preacher hails from is on the other side. 
+				Certainly explains why ‘his lands’ aren’t underground
+				'''
+		}
+
+		ThornLore: {
+			DisplayName: Thorn
+			Tooltip: ""
+			Lore:
+				'''
+				I was wondering when someone would put this warden down.
+				Alder was the name I heard some of the “treefolk” refer to him as.
+				He, like those druids, is not native to this land, emerging from that portal on the surface.
+				It’s connected to a forested area called fairwood, and in recent years has been subject to a mass exodus in order to escape a growing blight. 
+				The rest weren’t much better, but this blighted freak is probably the worst of them, actively spreading whatever curse dwelled there. 
+				I don’t believe those refugees have any idea what they’ve walked right into…
+				'''
+		}
+
+		TheKeeperLore: {
+			Tooltip: ""
+			DisplayName: The Keeper
+			Lore:
+				'''
+				Undead are commonplace no matter what part of the world you stand in.
+				The way they are raised, however, can vary greatly. 
+				In my brief studies through the portal, a common undead type occurs when a soul attempts to fuse with a vessel that isn’t its own.
+				Usually, this creates a skeleton, which you’ve seen plenty of.
+				If the soul is strong enough, pale brown flesh will form around the bone, creating what’s referred to as a fallen. 
+				That’s certainly what this is… but I’ve never seen a fallen this feral before.
+				And the way her body is mutated so severely, likely from whatever magic permeates her body… I’m genuinely curious.
+				Actually, I still have those old scout reports documenting several different fallen, including info on the lives of a few.
+				I’m certain she would’ve been noticed. Let’s see here…
+				'''
+		}
+
+		SkullDiggerLore: {
+			Tooltip: ""
+			DisplayName: Skull Digger
+			Lore:
+				'''
+				Another undead, with the same necromantic magic coursing through its body.
+				I’m guessing Octavia used her magic to revive him, though at this point his body has started to fade away.
+				…Ah, right. I’ve found those old fallen reports. I… believe I should read this section for you.
+
+				Subject: Octavia Von Gailon
+
+				Place of residence: Ricusa City, Ricusa - Lo Anglon
+
+				Lifespan: Approx. 26 years
+
+				Occupation: Musician - Violin
+
+				Circumstances surrounding death: Recently confirmed pregnancy. Subject had purchased a teddy bear intended for the child the previous day.
+
+				Cause of death: Found stabbed in an alleyway. Perpetrator unknown.
+
+				…I suppose both of our worlds have a cruel sense of humor. If you could return that teddy bear back to her, I… I would appreciate that.
+				I believe she would as well.
+				'''
+		}
+
+		SeedofInfectionLore: {
+			Tooltip: ""
+			DisplayName: Seed of Infection
+			Lore:
+				'''
+				Liden was another world with minor connections to ours. Quite frankly, I’ve had less reason to look into it than Epidotra. 
+				The whole place is a frozen, radioactive wasteland, the likes of which . 
+				I'm led to believe its current state stems from a lab overrun by a viscous infection: Xenomite.
+				While this infected pocket wasn’t much of a threat, it wasn’t supposed to be.
+				It has already done its job of spreading the infection in that area. 
+				The only thing holding it back is the requirement of radiation in order to accelerate its growth.
+				Unless you’re planning on setting off a nuke, the symptoms should be minor to non-existent.
+				…Unless it somehow seeped into the sulphurous seas. Then it might be a problem.
+				Damn it, Draedon.
+				'''
+		}
+
+		EaglecrestGolemLore: {
+			Tooltip: ""
+			DisplayName: Eaglecrest Golem
+			Lore:
+				'''
+				A peace offering from Gathuram to Ithon, as I understand it.
+				Somehow, the fact it was built with inhabited stones escaped the notice of its makers before it was shipped off.
+				Especially odd given the amount of constructs they’ve made from infusing stone with human souls.
+				All magic uses the soul over there, even magical artifacts use a piece of the maker’s soul for casting. 
+				Compared to our methods, theirs is far more complex to master, so understanding is typically limited to a select few with rudimentary skills. 
+				Whatever soul is kept in this golem’s eye must be mighty to act on its own like this, more than a century after creation.
+				'''
+		}
+
+		CalaviaLore: {
+			Tooltip: ""
+			DisplayName: Calavia
+			Lore:
+				'''
+				You don’t speak gathic? Seems this could have been easily avoided, but regardless. 
+				Due to the difficulty of travel between different planes, attempts at expansion across realms are often more trouble than they’re worth. 
+				As such, my expeditions into this space were more focused on avoiding conflict and gathering knowledge.
+				I had the benefit of being mostly unknown to its people, unlike here.
+				I grew a cordial relationship with a few organizations, including the Barons of Arum, which gave me access to transfers with unique expertise on soul-based magic. 
+				I immediately put it to use when I looked to power my newest soldiers.
+				Their kingdoms weren’t happy to hear what their warriors’ souls were included in… but I got what I wanted.
+				'''
+		}
+
+		AbandonedLaboratoryLore: {
+			DisplayName: Abandoned Laboratory
+			Tooltip: ""
+			Lore:
+				'''
+				I had no interest in the apocalyptic Liden, that radioactive graveyard was no place for living beings.
+				Draedon, however, was more than willing to probe at his own discretion. 
+				I thought little of it since his output was untouched, then he showed interest in that lab.
+				He quickly penetrated the cyber security and monitored a handful of T-bots on the inside… that’s what he told me. 
+				The fact his comms were briefly active during this mission gives me reason to believe he made contact with someone through its system.
+				I never found out who or about what, the logs were never on record and Draedon has been cagey about it ever since. 
+				He would leave my service soon after, for unrelated reasons, and the thread was cut before I could look into it. 
+				It seems now, that thread is in your hands.
+				'''
+		}
+
+		AncientDeityDuoLore: {
+			DisplayName: Ancient Deity Duo
+			Tooltip: ""
+			Lore:
+				'''
+				So, Epidotra had gods after all. 
+				One sealed in stone, the other in deep sleep.
+				Granted, I highly doubt these two stole their power like our gods,
+				as the auric souls of life and storms were already claimed.
+				Might not be gods as you and I know them, but merely magically adept.
+				I assume so, but I know nothing of who these two were in the past.
+				I could guess… but I’d prefer to know.
+				What I know is what I see: 
+				Two dead lovers.
+				'''
+		}
+
+		KingSlayerIIILore: {
+			DisplayName: King Slayer III
+			Tooltip: ""
+			Lore:
+				'''
+				An armored… human? Automaton? I’ve heard an obscene number of descriptors given to him, all with equal evidence.
+				His reputation is palpable, but word of mouth and misinformation have done a great disservice to him.
+				Some is malicious gossip, some is genuine confusion. 
+				I’ll admit, I’ve been quite unsure of this warrior ever since I first heard of him. 
+				Even more confusingly, I’ve seen ancient statues that bear his exact visage, and there are things he is reported to have said that have… existential implications.
+				Only he’d be able to clear that up, but you’d likely have to earn his favor first.
+				After an encounter like that? 
+				From personal experience, good luck.
+				'''
+		}
+
+		ndOmegaPrototypeLore: {
+			DisplayName: 2nd Omega Prototype
+			Tooltip: ""
+			Lore:
+				'''
+				That confirms it.
+				I don’t know how acquainted the two are, but Draedon must’ve had input here.
+				This tunneler is modified in exactly the way he would’ve done it. I’m sure of it.
+				Not to undermine the efforts of your benefactor, of course, who clearly led its creation.
+				The armaments here are quite novel compared to my knights’. Excessive, perhaps.
+				Knowing Draedon, he likely agreed to assist for the sake of research. How much, I’m not sure.
+				No doubt he’ll look to optimize the sorry shield technology on display for himself.
+				The other one, however… I know nothing about her.
+				Expect anything.
+				'''
+		}
+
+		NebuleusLore: {
+			DisplayName: Nebuleus
+			Tooltip: ""
+			Lore:
+				'''
+				...She approached me a few nights after you first arrived.
+				I don’t know how, but she found her way into the Dragon Aerie.
+				Despite our attempts at remaining polite, we got into an argument. 
+				I called her naive. She called me a tyrant.
+				I called her a coward. She called me conceited.
+				…She left without a fight. 
+				Truthfully, I don’t think she came here expecting to win one.
+				She left with one last word…
+				‘You saw a forest of predators and parasites.
+				The trees called for your help, so you felled the ones who pruned the vines.
+				You have none left, because their homes were lost while you weren’t looking.
+				All that are left are the beasts you claimed to be culling.’
+				…I feel like she premeditated that. Could’ve worked on it more.
+				Doesn’t make it less true.
+				'''
+		}
+
+		PatientZeroLore: {
+			DisplayName: Patient Zero
+			Tooltip: ""
+			Lore:
+				'''
+				Kari Johanson. Original creator of the T-bots. What’s left of him, anyway.
+				...Disgusting.
+				I knew Liden pursued xenomite as a potent energy source.
+				I also saw what became of that world, and knew not to follow.
+				Those alien crystals were the source of this horrific mutation, the first of the lot,
+				and 50 years later, the entire lab is a breeding ground while the surface suffered a nuclear apocalypse.
+				I’d say it has more in common with the astral infection than any disease you or I know.
+				Killing him likely slowed down its spread... for all the good that did.
+				A whole planet, wiped away because of financial interest…
+				I hope that isn’t in our future.
+				'''
+		}
+
+		rdOmegaPrototypeLore: {
+			DisplayName: 3rd Omega Prototype
+			Tooltip: ""
+			Lore:
+				'''
+				And here, the difference in personality is on full display.
+				No, I’m not referring to the machine’s actual personality.
+				My soldiers were weapons of war, first and foremost.
+				Frontline, backline, assault, support. There was a purpose to each.
+				This machine is a weapon and nothing else. 
+				It’s a blunt instrument built to cause as much damage as possible.
+				There’s a place for that, but not in conquest.
+				Now, I see the other end of the deal.
+				These aren’t tools built for tactical purposes, it was rage that made this.
+				Pure rage.
+				I fear an already capable mind like that picking at Draedon’s intellect.
+				'''
+		}
+
+		stOmegaPrototypeLore: {
+			DisplayName: 1st Omega Prototype
+			Tooltip: ""
+			Lore:
+				'''
+				It seems whoever was at the lab has made herself known.
+				This is quite an entrance for a burgeoning inventor, albeit an impractical device. 
+				It's easy to understand why Teochrome went defunct in hindsight.
+				Sure, xenomite seems like a fine source of energy… until you notice the many caveats.
+				The fact this managed to perform on my soldiers’ level at all is praiseworthy,
+				if this prototype really was a proof of concept lying around. 
+				I might've sought out that prowess all those years back.
+				'''
+		}
+	}
+
+	Omega3DataBrokenTablet: {
+		Tooltip: ""
+		DisplayName: Broken Omega Data Tablet III
+	}
+
+	Omega2DataBrokenTablet: {
+		Tooltip: ""
+		DisplayName: Broken Omega Data Tablet II
+	}
+
+	Omega1DataBrokenTablet: {
+		Tooltip: ""
+		DisplayName: Broken Omega Data Tablet I
+	}
+}
+
+UI.Cost: Cost:
+
+Buffs: {
+	BurningGraceDefenseBuff: {
+		DisplayName: Burning Grace Defense Buff
+		Description: Increase defense
+	}
+
+	BurningGraceRegenBuff: {
+		DisplayName: Burning Grace Regen Buff
+		Description: Increase regeneration
+	}
+}
+
+Tiles.GirusDecoderTile.MapEntry: Girus Decoder Tile
+
+Conditions: {
+	OmegaLocked: {
+		Tier1:
+			'''
+			You don't have sufficient knowledge to create this yet
+			Omega Data Tablet I must be deciphered first
+			'''
+		Tier2:
+			'''
+			You don't have sufficient knowledge to create this yet
+			Omega Data Tablet II must be deciphered first
+			'''
+		Tier3:
+			'''
+			You don't have sufficient knowledge to create this yet
+			Omega Data Tablet III must be deciphered first
+			'''
+	}
+
+	OmegaTier2Decrypted: Mods.RagnarokOfRedemptionAPI.Conditions.OmegaTier2Decrypted
+	OmegaTier1Decrypted: Mods.RagnarokOfRedemptionAPI.Conditions.OmegaTier1Decrypted
+	OmegaTier3Decrypted: Mods.RagnarokOfRedemptionAPI.Conditions.OmegaTier3Decrypted
+}
+
+Messages: {
+	OmegaTier1Decrypted: Omega Data Tablet I decrypted!
+	OmegaTier2Decrypted: Omega Data Tablet II decrypted!
+	OmegaTier3Decrypted: Omega Data Tablet III decrypted!
+}
+
+Mods: {
+	RagnarokOfRedemptionAPI: {
+		TitleScreen: {
+			SoI.Text:
+				'''
+				An Infectious Growth
+				Seed of Infection
+				'''
+			FowlEmperor.Text:
+				'''
+				Pompous Rooster
+				Fowl Emperor
+				'''
+			Thorn.Text:
+				'''
+				Bane of the Forest
+				Thorn
+				'''
+			Erhan.Text:
+				'''
+				Anglonic High Priest
+				Erhan
+				'''
+			ErhanSpirit.Text:
+				'''
+				Dead Anglonic High Priest
+				Erhan Spirit
+				'''
+			Keeper.Text:
+				'''
+				Octavia von Gailon
+				Keeper
+				'''
+			KeeperSpirit.Text:
+				'''
+				Lingering Essence
+				Keeper Spirit
+				'''
+			SkullDigger.Text:
+				'''
+				Keeper's First Creation
+				Skull Digger
+				'''
+			EaglecrestGolem.Text:
+				'''
+				Guardian of Eaglecrest Meadows
+				Eaglecrest Golem
+				'''
+			Calavia.Text:
+				'''
+				Warrior of the Iron Realm
+				Calavia
+				'''
+			JanitorBot.Text:
+				'''
+				A Janitor
+				Janitor
+				'''
+			IrradiatedBehemoth.Text:
+				'''
+				An Unfortunate Scientist
+				Irradiated Behemoth
+				'''
+			BlisteredFish.Text:
+				'''
+				An Unfortunate Goldfish
+				Blisterface
+				'''
+			KS3_Clone.Text:
+				'''
+				Hologram
+				King Slayer III
+				'''
+			KS3.Text:
+				'''
+				Prototype Multium
+				King Slayer III
+				'''
+			OmegaCleaver.Text:
+				'''
+				1st Omega Prototype
+				Omega Cleaver
+				'''
+			Gigapora.Text:
+				'''
+				2nd Omega Prototype
+				Omega Gigapora
+				'''
+			ProtectorVolt.Text:
+				'''
+				Omega Division Commander
+				Protector Volt
+				'''
+			MACEProject.Text:
+				'''
+				Incomplete War Machine
+				MACE Project
+				'''
+			OO.Text:
+				'''
+				3rd Omega Prototype
+				Omega Obliterator
+				'''
+			PZ.Text:
+				'''
+				Patient Zero
+				Kari Johansson
+				'''
+			Ukko.Text:
+				'''
+				Ancient God of Weather
+				Ukko
+				'''
+			Akka.Text:
+				'''
+				Ancient Goddess of Nature
+				Akka
+				'''
+			Nebuleus.Text:
+				'''
+				Angel of the Cosmos
+				Nebuleus
+				'''
+			Nebuleus_Clone.Text:
+				'''
+				Echo of the Angel of the Cosmos
+				Nebuleus
+				'''
+			Nebuleus2.Text:
+				'''
+				Ultimate Form
+				Nebuleus
+				'''
+			Nebuleus2_Clone.Text:
+				'''
+				Echo of the Ultimate Form
+				Nebuleus
+				'''
+			Stage3Scientist.Text:
+				'''
+				Crystal Horror
+				Stage 3 Infected Scientist
+				'''
+			EaglecrestGolem2.Text:
+				'''
+				Guardian of Eaglecrest Meadows
+				Eaglecrest Golem
+				'''
+		}
+	}
+}

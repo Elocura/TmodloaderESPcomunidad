@@ -1,0 +1,1282 @@
+UI.Cooldowns.ImagiknightHeraldryBuff: Imagiknight Strength
+
+Items: {
+	TwoPaths: {
+		DisplayName: Two Paths
+		Tooltip:
+			'''
+			Grants 4 soul essence on direct hit
+			<left> to deal full damage in a larger radius
+			<right> to consume mana and summon white scythes that slash the enemy
+			'''
+	}
+
+	TheParallel: {
+		Tooltip:
+			'''
+			Summons a barrage of cosmic knives from another dimension
+			Cosmic knives will enter the ambush state on bounce
+			Knives in the ambush state will charge for some time
+			When fully charged they will attack the first enemy that comes close for triple damage
+			Only 27 knives can be in the ambush state at any given time
+			Cosmic knives that bounce past the 27 allowed will simply homing to the nearest target instead
+			'''
+		DisplayName: The Parallel
+	}
+
+	SuperShotgun: {
+		Tooltip:
+			'''
+			<right> stabs with the shotgun's blade, dealing melee damage
+			'What? Never seen a blade on a shotgun before?'
+			'''
+		DisplayName: Triggerblade
+	}
+
+	BellBallad: {
+		DisplayName: Ballad of Bells
+		Tooltip: ""
+	}
+
+	BirbSaxophone: {
+		DisplayName: Birb Call
+		Tooltip: "'Call upon the Bumblebirb's power!'"
+	}
+
+	DeepSeaDrawl: {
+		DisplayName: Deep Sea Drawl
+		Tooltip:
+			'''
+			'A husk of it's former strength, it's parts scattered throughout the world'
+			[c/010057:For just a moment, you swear you see a glimmer in the acidic bubbles that surround you]
+			'''
+	}
+
+	DeathsWhisper: {
+		DisplayName: Death's Whisper
+		Tooltip:
+			'''
+			Releases faith devouring flames that inflict [cbuff:CalamityMod/MarkedforDeath] and [cbuff:CalamityMod/GodSlayerInferno]
+			For every 5 flames that damage an enemy, release an inferno of homing flames
+			'''
+	}
+
+	BrimstoneHarp: {
+		DisplayName: Brimstone Harp
+		Tooltip:
+			'''
+			Fires a fan of 3 piercing brimstone skulls
+			Skulls on bounce split into 3 brimstone petals that fire at the closest enemy
+			'''
+	}
+
+	NecroticChorus: {
+		DisplayName: Necrotic Chorus
+		Tooltip:
+			'''
+			Summons up to 10 wisps that home onto foes
+			<right> for an alternate blood spit attack 
+			Blood spit inflicts [cbuff:CalamityMod/ArmorCrunch] and [cbuff:CalamityMod/BurningBlood]
+			'''
+	}
+
+	DeusFlute: {
+		DisplayName: Starwind Flute
+		Tooltip: ""
+	}
+
+	CorrodedCane: {
+		DisplayName: Corroded Cane
+		Tooltip: ""
+	}
+
+	Weapons: {
+		Rogue: {
+			OcramKnife: {
+				Tooltip: Stealth strikes summon extra demon scythes that home on foes as they speed up
+				DisplayName: Dagger of the Forgotten
+			}
+
+			MothwingDagger: {
+				DisplayName: Mothwing Dagger
+				Tooltip:
+					'''
+					Throws a lightly homing winged dagger
+					Stealth strikes create homing illuminant bolts as they travel and on hit
+					'''
+			}
+		}
+	}
+
+	TheBlight: {
+		DisplayName: The Blight
+		Tooltip: ""
+	}
+
+	GrandThunderWhip: {
+		Tooltip:
+			'''
+			3 summon tag damage
+			Inflicts [rbuff:Electrified] on hit
+			'''
+		DisplayName: Grand Thunder Whip
+	}
+
+	DukeSynth: {
+		DisplayName: Viral Wisdom
+		Tooltip: "'It is finally here!'"
+	}
+
+	SearingSpearTip: {
+		Tooltip: Spear weapons will release hydrogen sulfide that burns foes on contact
+		DisplayName: Searing Spear Tip
+	}
+
+	ArcticSpearTip: {
+		DisplayName: Arctic Spear Tip
+		Tooltip: Spear weapons will release a cryonic spear tip that is unaffected by gravity and pierces 5 times
+	}
+
+	DeepSeaDrawlShard1: {
+		DisplayName: Mouthpiece Shard
+		Tooltip:
+			'''
+			'The mouthpiece of the Restored Deep Sea Drawl'
+			[c/010057:Permafrost once told stories of his encounters with the Lizhard tribe]
+			[c/010057:Perhaps he may know something...]
+			'''
+	}
+
+	DeepSeaDrawlShard2: {
+		DisplayName: Bell Shard
+		Tooltip:
+			'''
+			'The bell of the Restored Deep Sea Drawl'
+			[c/010057:In an attempt to keep others from this power, the mouthpiece was sealed in the dungeon]
+			[c/010057:It is heard that the key was tossed to the blue depths below]
+			'''
+	}
+
+	DeepSeaDrawlShard3: {
+		DisplayName: Body Shard
+		Tooltip:
+			'''
+			'The body of the Restored Deep Sea Drawl'
+			[c/010057:A grand forge of soul will be the finishing touch to restore it's power]
+			[c/010057:Make haste, the waves will soon crash at your call]
+			'''
+	}
+
+	Legacy: {
+		DisplayName: Ocram's Roar
+		Tooltip: ""
+	}
+
+	RestoredDeepSeaDrawl: {
+		DisplayName: Restored Deep Sea Drawl
+		Tooltip:
+			'''
+			Summons a sharknado that throws aquatic debris at foes
+			You can only have one sharknado active at a time
+			<right> for an alternate typhoon attack that uses 2 inspiration
+			'''
+	}
+
+	SulphuricShanty: {
+		DisplayName: Sulphuric Shanty
+		Tooltip: ""
+	}
+
+	ExecutionersSword: {
+		DisplayName: Exorcist's Greatblade
+		Tooltip:
+			'''
+			<left> to swing the sword, restoring 5 life on hit
+			<right> to throw the sword, embedding itself into the hit enemy
+			When the sword is embedded it will release light and dark energy
+			Light energy will home onto nearby allies and heal life equal to bonus healing
+			Dark energy will home onto nearby enemies, dealing damage
+			Only one sword can be thrown at a time
+			'''
+	}
+
+	ButchersBloodmaker: {
+		DisplayName: Butcher's Bloodmaker
+		Tooltip:
+			'''
+			Fires a spread of bullets and a bolt of lightly homing blood
+			<right> to consume 50 life, entering a Blood Rage for 10 seconds
+			Blood Rage increases the Bloodmaker's damage by 50% and causes blood bolts to inflict [cbuff:CalamityMod/BurningBlood] on hit
+			'''
+	}
+
+	NukeWhistle: {
+		Tooltip: "'Legalise nuclear songs'"
+		DisplayName: Intercontinental Ballistic Whistle
+	}
+
+	ListoftheDamned: {
+		DisplayName: List of the Damned
+		Tooltip: Fires a spread of 6 souls that burst forward after some time, dealing double damage
+	}
+
+	AirPodShawty: {
+		DisplayName: AirPod Shawty
+		Tooltip:
+			'''
+			Can fire 2 shots quickly before needing to reload
+			<left> to consume inspiration and fire an AirPod that bursts into sound on hit
+			AirPod damage is increased with the ammo consumed
+			<right> to fire a buckshot of bullets from your ammo, not granting empowerments
+			These bullets will scale off of bard reforges and ranged boosts
+			"Airpod shawty ima catch a body lookin real sussy"
+			'''
+	}
+
+	AcidBelcher: {
+		DisplayName: Sulphur Spitter
+		Tooltip: ""
+	}
+
+	ForeverHungry: {
+		DisplayName: Forever Hungry
+		Tooltip: Hungries make splashes of blood on bounce
+	}
+
+	BottleOfSouls: {
+		DisplayName: Bottle of Souls
+		Tooltip:
+			'''
+			Releases souls of night and light from the jar
+			Souls of night home into enemies and deal damage, inflicting [rbuff:ShadowFlame]
+			Souls of light home in and heal teammates equal to bonus healing
+			'''
+	}
+
+	SandSlasher: {
+		DisplayName: Shanty of the Former Seas
+		Tooltip: Creates small sandnados on bounce
+	}
+
+	DeepseaTrident: {
+		DisplayName: Serpentine Fork
+		Tooltip: ""
+	}
+
+	Stick: {
+		DisplayName: The Ultimate Stick of Supreme Power and Infinite Destruction
+		Tooltip:
+			'''
+			Sharpness V
+			Breach IV
+			Fire Aspect II
+			Unbreaking III
+			Mending
+			'This enchanted stick is totally legit'
+			'''
+	}
+
+	NeonRipper: {
+		DisplayName: C-PMA Ripper
+		Tooltip:
+			'''
+			Grants 3 soul essence on direct hit
+			Hitting enemies will generate electrifying nanobots
+			<right> to throw the scythe, which will curve on it's way back
+			The scythe deals 30% more damage when thrown
+			'''
+	}
+
+	PlasmaOcarina: {
+		Tooltip:
+			'''
+			Shoots a spread of 3 plasma beams 
+			Hold <right> to charge a large damaging sound wave
+			[c/1FFBFF:'I once tried creating instruments that had to power to deal damage.]
+			[c/1FFBFF:This happens to be one of them, however these weapons were never mass produced]
+			[c/1FFBFF:because the Tyrant's army couldn't play them']
+			'''
+		DisplayName: I-PLS Ocarina
+	}
+
+	Infrariff: {
+		DisplayName: I-LSR Infrariff
+		Tooltip:
+			'''
+			Creates a lightshow of infared waves that will damage enemies on contact
+			'The microwave lightshow guitar, you know the one'
+			'''
+	}
+
+	Defibrillanator: {
+		DisplayName: C-TSL Defibrillator
+		Tooltip:
+			'''
+			Uses consume health to generate static, reaching full charge at 5 uses
+			<left>ing with full charge will fire a burst of damaging homing lightning
+			<right>ing instead fires a burst of healing lightning
+			'Clear!'
+			'''
+	}
+
+	ArckaneStaff: {
+		DisplayName: Arckane Staff
+		Tooltip:
+			'''
+			Creates an overloaded bolt of fluctuating elements
+			Steals 5 life and Inflicts the following debuffs:
+			[iabuff:Ichor], [iabuff:Confused], [iabuff:OnFire], [iabuff:Frostburn],
+			[iabuff:Poisoned], [iabuff:ShadowFlame], [iabuff:CursedInferno],
+			[iabuff:CalamityMod/Crumbling], [iabuff:CalamityMod/CrushDepth], [iabuff:CalamityMod/AstralInfectionDebuff],
+			[iabuff:CalamityMod/Plague], [iabuff:CalamityMod/BrimstoneFlames], [iabuff:ThoriumMod/MagickStaffDebuff],
+			[iabuff:ThoriumMod/Stunned] and [iabuff:ThoriumMod/Charmed]
+			'''
+	}
+
+	MystickStaff: {
+		DisplayName: Mystick Staff
+		Tooltip:
+			'''
+			Creates an supercharged bolt of every known element
+			Steals 10 life and Inflicts the following debuffs:
+			[iabuff:CalamityMod/Voidfrost], [iabuff:CalamityMod/Dragonfire], [iabuff:CalamityMod/GodSlayerInferno],
+			[iabuff:CalamityMod/HolyFlames], [iabuff:CalamityMod/ElementalMix], [iabuff:CalamityMod/Laceration],
+			[iabuff:CalamityMod/MarkedforDeath], [iabuff:CalamityMod/WhisperingDeath], [iabuff:CalamityMod/VulnerabilityHex],
+			[iabuff:CalamityMod/MiracleBlight], [iabuff:Confused], [iabuff:OnFire], [iabuff:Frostburn],
+			[iabuff:Poisoned], [iabuff:ShadowFlame], [iabuff:CursedInferno],
+			[iabuff:CalamityMod/Crumbling], [iabuff:CalamityMod/CrushDepth], [iabuff:CalamityMod/AstralInfectionDebuff],
+			[iabuff:CalamityMod/Plague], [iabuff:CalamityMod/BrimstoneFlames], [iabuff:ThoriumMod/MagickStaffDebuff],
+			[iabuff:Ichor], [iabuff:ThoriumMod/Stunned] and [iabuff:ThoriumMod/Charmed]
+			'How much more do you need!?'
+			'''
+	}
+
+	GloomSwitch: {
+		DisplayName: Gloom Switch
+		Tooltip:
+			'''
+			A rapid fire SMG with a wide shot spread that fires a bouncing ball that inflicts [rbuff:CursedInferno] every 20 shots
+			Firing with more than 10 mana will consume it, granting an additional 1/3rd second of Dark Rush and firing a more precise shot
+			Dark Rush increases movement speed by 25% while Gloom Switch is held
+			This weapons damage is also reduced by Mana Sickness
+			'''
+	}
+
+	AuricBrimfireCrosier: {
+		Tooltip:
+			'''
+			Shoots balls of brimstone magic in a star pattern
+			'You think the witch is the only one who can cast those spells?'
+			'''
+		DisplayName: Auric Brimfire Crosier
+	}
+
+	CataclysmicGauntletVoid: {
+		DisplayName: Cataclysmic Gauntlet
+		Tooltip:
+			'''
+			Empowers you punches with brimstone energy for short-range high-damage barrages
+			Has a special effect when the Catastrophic Longblade is in the next slot next to this item
+			"'Cataclysm!'"
+			'''
+	}
+
+	CataclysmicGauntlet: {
+		DisplayName: Cataclysmic Gauntlet
+		Tooltip:
+			'''
+			Empowers you punches with brimstone energy for short-range high-damage barrages
+			Has a special effect when the Catastrophic Longblade is in the next slot next to this item
+			"'Cataclysm!'"
+			'''
+	}
+
+	CatastrophicLongbladeVoid: {
+		DisplayName: Catastrophic Longblade
+		Tooltip:
+			'''
+			Shoots a catastrophic brimstone energy beam forward
+			Has a special effect when the Cataclysmic Gauntlet is in the next slot next to this item
+			'''
+	}
+
+	CatastrophicLongblade: {
+		DisplayName: Catastrophic Longblade
+		Tooltip:
+			'''
+			Shoots a catastrophic brimstone energy beam forward
+			Has a special effect when the Cataclysmic Gauntlet is in the next slot next to this item
+			'''
+	}
+
+	BarrenGarden: {
+		DisplayName: Barren Garden
+		Tooltip:
+			'''
+			<left> to fire a spread of homing, piercing and healing petals
+			<right> to summon a large frozen lotus that will fire alternating damaging and healing energies
+			Only one frozen lotus may be active at a time and they last for 30 seconds
+			'It's so cold it feels like my lungs are bursting'
+			'''
+	}
+
+	FroststeelGong: {
+		DisplayName: Froststeel Gong
+		Tooltip:
+			'''
+			Allows you to rythmically bang the gong
+			Successfully timing 3 hits will also release a burst of 8 freezing vibrations outwards
+			Successfully timing hits will steadily increase its damage and empowerment level
+			Mistiming these hits will decrease these bonuses greatly and cost 10 inspiration
+			These bonuses will stay between weapon swaps, but gradually fade when not your active weapon
+			'''
+	}
+
+	EclipseBreastplate: {
+		DisplayName: Eclipse Breastplate
+		Tooltip:
+			'''
+			12% increased magic and radiant damage
+			8% increased magic and radiant critical strike chance
+			5% increased magic, healing, and radiant cast speed
+			15% increased damage reduction
+			Healing spells will heal an additional 3 life
+			'''
+	}
+
+	EclipseGreaves: {
+		DisplayName: Eclipse Greaves
+		Tooltip:
+			'''
+			8% increased magic and radiant damage
+			4% increased magic and radiant critical strike chance
+			Increases void gain by 1 and max void by 50
+			15% decreased mana cost
+			25% increased movement speed
+			'''
+	}
+
+	EclipseHelm: {
+		DisplayName: Eclipse Helm
+		Tooltip:
+			'''
+			8% increased magic, radiant, and void damage
+			Increases void gain by 2 and max void by 50
+			Life regeneration begins faster
+			'''
+		SetBonus:
+			'''
+			Calls forth a condensed eclipse
+			The eclipse will release pulses of alternating light and dark energy
+			Pulses of light will heal nearby allies for the players bonus healing
+			Pulses of Darkness will deal true damage to enemies
+			'''
+		SetBonusExtra: Immunity to Broken Oath
+	}
+
+	NecrosingerAnkles: {
+		DisplayName: Necrosinger Ankles
+		Tooltip:
+			'''
+			20% increased summon damage, whip range, and movement speed
+			20% increased symphonic critical strike chance
+			Increases void gain by 3 and max void by 100
+			Increases max sentries by 3
+			'''
+	}
+
+	NecrosingerRibs: {
+		DisplayName: Necrosinger Ribs
+		Tooltip:
+			'''
+			20% increased summon and symphonic damage
+			+2.5 HP/s life regen
+			Increases the chance for inspiration notes to drop by 10%
+			Increases the duration of your symphonic empowerments by 3 seconds
+			'''
+	}
+
+	NecrosingerSkull: {
+		DisplayName: Necrosinger Skull
+		Tooltip:
+			'''
+			20% increased summon, symphonic, and void damage
+			10% increased whip speed & symphonic playing speed
+			Increases void gain by 4 and max void by 125
+			Increased inspiration regeneration rate by 15%
+			Increases max minions by 3
+			'''
+		SetBonus:
+			'''
+			Summons 3 phantom notes to circle you
+			These notes can deal summon damage inflicting [iabuff:Tuned] or block an incoming projectile
+			This effect has a 5 second cooldown
+			'''
+		SetBonusExtra: Using a non-bard weapon will retain empowerments
+	}
+
+	SuperCellCirclet: {
+		DisplayName: Garuda Circlet
+		Tooltip:
+			'''
+			25% increased ranged and rogue damage
+			15% increased void damage
+			Increases your maximum technique points by 2
+			Increases void gain by 4 and max void by 75
+			'''
+		SetBonus:
+			'''
+			+115 maximum rogue stealth
+			Not moving puts you ranged stealth,
+			increasing ranged ability and reducing chance for enemies to target you
+			Grants rudimentary flight if not wearing any wings
+			'''
+	}
+
+	SuperCellGuard: {
+		DisplayName: Garuda Guard
+		Tooltip:
+			'''
+			30% increased ranged and rogue velocity
+			When consuming stealth, 15% of the stealth consumed is converted into void
+			Increases wing flight time by 15%
+			Increases void gain by 3 and max void by 75
+			'''
+	}
+
+	SuperCellSabatons: {
+		DisplayName: Garuda Sabatons
+		Tooltip:
+			'''
+			25% increased ranged and rogue critical strike chance
+			Increases void critical strike chance by 15% and movement speed by 30%
+			Increases void gain by 3 and max void by 75
+			'''
+	}
+
+	ShadowflameAxe: {
+		DisplayName: Shadowflame Reaper
+		Tooltip: Releases homing shadowflame projectiles every three swings
+	}
+
+	TetherBlade: {
+		DisplayName: Tetherblade
+		Tooltip:
+			'''
+			Throw the blade towards the cursor by <right>ing
+			The blade will linger for a few seconds after throwing it
+			<right> again to teleport to the blade before the blade disapears
+			After teleporting the blade will stab at all nearby enemies, dealing triple damage
+			'''
+	}
+
+	LightChain: {
+		DisplayName: Luminant Tether
+		Tooltip:
+			'''
+			Clicking an enemy links it to a player
+			The chains deal damage once every second
+			If you move to far away from the target you are chained to, the chain will break
+			Up to 3 enemies can be chained to you
+			'''
+	}
+
+	StormCrossbow: {
+		DisplayName: Stormbreaker Crossbow
+		Tooltip: Turns wooden arrows into storm bolts that will bounce towards nearby enemies
+	}
+
+	ObsidianSickle: {
+		DisplayName: Obsidian Sickle
+		Tooltip:
+			'''
+			Shoots a dark sickle
+			'Not an artificial intelligence, but an actual idiot.'
+			'''
+	}
+
+	StarScepter: {
+		DisplayName: Star Scepter
+		Tooltip:
+			'''
+			Summons up to 5 orbiting stars around the player
+			Each star will continously attack the nearest enemy, with bosses being priortized
+			'''
+	}
+
+	IlluminantCross: {
+		DisplayName: Illuminant Cross
+		Tooltip:
+			'''
+			Charges a burst of illuminant light on the cursor
+			Charging the burst increases the size and damage greatly
+			Bursts released at full charge will release 3 illuminant bolts and heal allies
+			'''
+	}
+
+	GlowstringBiwa: {
+		DisplayName: Glowstring Biwa
+		Tooltip: Fires 2 illuminant orbs connected together by a string of light
+	}
+
+	StormCarver: {
+		DisplayName: Storm Carver
+		Tooltip:
+			'''
+			This scythe is swung directionally instead of spun
+			Carves out storm gusts from hit tiles
+			'Strike the Earth!'
+			'''
+	}
+
+	GrandAmplifier: {
+		DisplayName: Grand Amplifier
+		Tooltip:
+			'''
+			<left> to fire a small thunderbolt that inflicts [rbuff:Electrified]
+			<right> to summon lightning above all nearby enemies with the [rbuff:Electrified] debuff
+			This lightning will remove the [rbuff:Electrified] debuff but deal a burst of high damage
+			'''
+	}
+
+	PocketConcert: {
+		DisplayName: I-PMA Mechamatone
+		Tooltip:
+			'''
+			Releases music notes of varying colors
+			Music notes will inflict a variety of debuffs based on the notes color
+			Releases an additional music note to a cap of 5 for each unique empowerment you have at level 2 or higher
+			[c/1FFBFF:'Once I was dispatched to find that 'order of warriors' that call themselves trackers. When I did,]
+			[c/1FFBFF:one of the things they showed me an unique instrument shaped like a music note, but with a mouth.]
+			[c/1FFBFF:While odd, I was able to turn it into a weapon that is stronger based on number of the users]
+			[c/1FFBFF:other enhancements, however, it required me to make it much bigger than the original instrument.']
+			'''
+	}
+
+	GammaKnife: {
+		DisplayName: C-GSS Gamma Knife
+		Tooltip:
+			'''
+			Ignores 15 points of defence
+			<left> to swing the knife directionally, firing a high intensity slash of gamma radiation
+			The slash will deal heavy damage at close range but dissipate as it travels
+			<right> to throw the knife, which will explode and return on collision with an enemy or tile
+			The knife cannot be used while thrown
+			'''
+	}
+
+	MiniaturizedRequiemEngine: {
+		DisplayName: Miniaturized Requiem Engine
+		Tooltip: Has three modes of fire that can be cycled between on <right>
+	}
+
+	MagicPurpleBouncyBalls: {
+		DisplayName: 27 Magic Purple Bouncy Balls
+		Tooltip: "'The purple energy hums with the power of 27 simultaneous mistakes'"
+	}
+
+	GarudaWings: {
+		DisplayName: Garuda Wings
+		Tooltip: "'Wings of the divine mount'"
+	}
+
+	ThunderboltActionSniperVoid: {
+		DisplayName: Thunderbolt Action Sniper Rifle
+		Tooltip:
+			'''
+			Shoots a powerful, high velocity bullet
+			Also fires a lightning bolt imbued with void energy
+			<right> to zoom out
+			'''
+	}
+
+	ThunderboltActionSniper: {
+		DisplayName: Thunderbolt-Action Sniper Rifle
+		Tooltip:
+			'''
+			Shoots a powerful, high velocity bullet
+			Also fires a lightning bolt imbued with void energy
+			<right> to zoom out
+			'''
+	}
+
+	AllSeersGlass: {
+		DisplayName: All Seer's Glass
+		Tooltip:
+			'''
+			10% increased critical strike chance
+			Increases critical strike damage
+			Increases your max number of sentries by 2
+			Grants a greater zoom passively
+			Zoom effect can disabled with accessory visability
+			Pressing the '{$Keybinds.AccessoryAbility.DisplayName}' key will freeze the camera in place
+			'I see a unbreakable fortress in your future'
+			'''
+	}
+
+	SwordofaThousandTruths: {
+		DisplayName: Sword of a Thousand Truths
+		Tooltip:
+			'''
+			<left> to swing the sword, restoring 7 life on hit
+			Hold <right> to charge and throw the sword, embedding itself into the hit enemy
+			When the sword is embedded it will release light and dark energy
+			Light energy will home onto nearby allies and heal life equal to bonus healing
+			Dark energy will home onto nearby enemies, dealing damage
+			If the user's bonus healing is 5 or more, the enemy will also be inflicted with a variety of debillitating debuffs
+			Only one sword can be thrown at a time
+			'Sorry piggies but that's a necessary sacrifice'
+			'''
+	}
+
+	AbsoluteTVRemote: {
+		DisplayName: Absolute TV Remote
+		Tooltip:
+			'''
+			<left> to generate an aura around you that slows down projectiles in radius on a 2 minute cooldown
+			<right> to generate an aura that instead speeds up projectiles in radius, also on a 2 minute cooldown
+			Pressing {0} will fire a projectile that pauses enemies in their tracks, usable on a 5 minute cooldown
+			'TV NEVER DIES!'
+			'''
+	}
+
+	PlanetShaper: {
+		DisplayName: Planet Shaper
+		Tooltip:
+			'''
+			This scythe is swung directionally instead of spun
+			Has a three-swing combo:
+			    Every first swing, the scythe shoots one homing fireball and 2 cosmic beams
+			    Every second swing, the scythe shoots one cosmic beam and two homing fireballs
+			    Every third swing, the scythe is spun around
+			    While spun, emits up to six homing fireballs and cosmic beams
+			The scythe and fireballs ignore 125 points of defense and inflict [iabuff:CalamityMod/Dragonfire]
+			The cosmic beams ignore 75 points of defense and inflict both [iabuff:CalamityMod/ElementalMix] and [iabuff:CatalystMod/AstralBlight]
+			'LADIES AND GENTLEMAN... LET IT ROCK LET IT ROCK LET IT ROCK!!!'
+			'''
+	}
+
+	GodsPitch: {
+		DisplayName: God's Pitch
+		Tooltip:
+			'''
+			Increases maximum inspiration by 5
+			15% increased symphonic damage
+			Increases the duration of your symphonic empowerments by 3 seconds
+			Increases the level of empowerments you apply to yourself and others by 2
+			Increases empowerment range
+			Instrument attacks launch pipes upward that eventually fall down
+			[c/FF232C:The pipes sound effects are loud and may be startling or otherwise bad for some]
+			'Your ears are not worthy to hear this...'
+			'''
+	}
+
+	GauntletofAnnihilationVoid: {
+		DisplayName: Gauntlet of Annihilation
+		Tooltip:
+			'''
+			<left> will unlease a flurry of 4 cosmic gauntlets that inflict [cbuff:CalamityMod/GodSlayerInferno]
+			<right> will release rapid cosmic punches and lunge you in the direction of the mouse
+			Lunging only consumes half the void cost and on collision during the lunge, you are knocked back
+			Pressing <left> 3 frames after being knocked back will release a God Slaying Gauntlet
+			The God Slaying Gauntlet always crits and also inflicts [cbuff:CalamityMod/WhisperingDeath]
+			Provides a light source while favorited in the inventory
+			'''
+	}
+
+	GauntletofAnnihilation: {
+		DisplayName: Gauntlet of Annihilation
+		Tooltip:
+			'''
+			<left> will unlease a flurry of 4 cosmic gauntlets that inflict [cbuff:CalamityMod/GodSlayerInferno]
+			<right> will release rapid cosmic punches and lunge you in the direction of the mouse
+			On collision during the lunge, you are knocked back
+			Pressing <left> 3 frames after being knocked back will release a God Slaying Gauntlet
+			The God Slaying Gauntlet always crits and also inflicts [cbuff:CalamityMod/WhisperingDeath]
+			Provides a light source while favorited in the inventory
+			'''
+	}
+
+	BlightedBadge: {
+		DisplayName: Blighted Badge
+		Tooltip:
+			'''
+			True melee strikes drops astral stars from the sky
+			Attackers are shocked, dealing immense damage
+			Taking damage will massively increase melee speed and critical strike chance briefly
+			Also releases an explosion and temporarily increases true melee damage by 30% when damaged
+			Boost duration scales with the amount of damage you took, up to 10 seconds
+			Nullifies the Astral Infection debuff
+			'''
+	}
+
+	ImagiknightHeraldry: {
+		DisplayName: Imagiknight Heraldry
+		Tooltip:
+			'''
+			Multiplies all damage based on how close you are to teammates, with a maximum damage boost of 20%
+			Emit a blazing aura that also boosts the damage of teammates
+			Teammates gain increasing multiplicative damage the closer they are to you
+			These multipliers do not stack with the [i:CalamityMod/WarbanneroftheRighteous] Warbanner of the Righteous multiplier, and the higher bonus of the two will be used
+			Effects are transparent and silent if visibility is disabled
+			Gives all teammates +{0} HP/s life regen, +{1}% max life, {2}% damage reduction, {3} defense and {4}% increased damage
+			'An idea is a mere particle, one that exponentially accelerates the more minds it travels through. 
+			When you put enough minds together, they can make said idea truly unstoppable.' -Imagiknight_Girus
+			'''
+	}
+
+	VibrantShield: {
+		DisplayName: Vibrant Shield
+		Tooltip:
+			'''
+			Increases max void by 25
+			You constantly generate a 15 life shield
+			'''
+	}
+
+	DivineAxe: {
+		DisplayName: Divine Axe
+		Tooltip:
+			'''
+			Swings a slow and heavy axe that is infused with [cbuff:CalamityMod/HolyFlames]
+			On a direct hit with the axe, it summons a star shaped explosion which inflicts [cbuff:Daybreak]
+			<right>ing summons a sun above you and while holding <right> you will stab at it, causing it to release large explosions
+			These explosions inflict [cbuff:Daybreak]
+			'''
+	}
+
+	AncientSteelShield: {
+		DisplayName: Ancient Steel Shield
+		Tooltip:
+			'''
+			You constantly generate a 20 life shield
+			Attackers have a chance to be afflicted with a stacking, permanent bleed for 5 damage per second
+			This chance increases with your critical strike chance
+			'''
+	}
+
+	DoubleFlail: {
+		DisplayName: Double Flail-Core
+		Tooltip:
+			'''
+			75% basic damage
+			Flail weapons on first hit and for a chance every further hit create either a brimstone or blizzard spike ball
+			The Brimstone spike ball applies [cbuff:CalamityMod/BrimstoneFlames] to enemies and rarely grants the [iabuff:InfernalEclipseWeaponsDLC/HotFlailDmg] buff
+			The Blizzard spike ball applies [iabuff:Frostburn2] to enemies and rarely grants the [iabuff:InfernalEclipseWeaponsDLC/ColdFlailDefense] buff
+			'''
+	}
+
+	PerfectPurple: {
+		DisplayName: Cosmic Perfection Flail-Core
+		Tooltip:
+			'''
+			100% basic damage
+			Flail weapons on first hit create a perfect spike ball
+			Further flail hits have a chance to create more perfect spike balls
+			Perfect spike balls inflict [cbuff:CalamityMod/GodSlayerInferno] and rarely grant the [iabuff:InfernalEclipseWeaponsDLC/PerfectFlailBuff] buff
+			'''
+	}
+
+	BlackHoleFlail: {
+		DisplayName: Black Hole Flail-Core
+		Tooltip:
+			'''
+			300% basic damage
+			Flail weapon hits have a chance to create blackholes which home onto enemies, pulls enemies towards itself, and rarely inflicts [cbuff:CalamityMod/WitherDebuff]
+			'This shouldn't work you know? A blackhole this size can absolutely destory the planet... I guess we shouldn't question it'
+			'''
+	}
+
+	PerennialShield: {
+		DisplayName: Perennial Shield
+		Tooltip:
+			'''
+			You constantly generate a 50 life shield
+			Gains extra effects depending on what Reaver Armor set bonus you have
+			    [i:CalamityMod/ReaverHeadTank]: Increases max life by 15 and reduces damage taken by 10%
+			    [i:CalamityMod/ReaverHeadMobility]: 10% increased movement speed and allows the ability to ram dash
+			    [i:CalamityMod/ReaverHeadExplore]: 20% increased jump speed and grants fall damage immunity
+			'''
+	}
+
+	HolyFlail: {
+		DisplayName: Profaned Flail-Core
+		Tooltip:
+			'''
+			100% basic damage
+			Flail weapons on first hit create a profaned spike ball
+			Further flail hits have a chance to create more profaned spike balls
+			Profaned spike balls inflict [cbuff:CalamityMod/HolyFlames] and sometimes start holy fires on hit
+			'''
+	}
+
+	TerraSheath: {
+		DisplayName: Terra Sheath
+		Tooltip:
+			'''
+			Sword strikes release {0} terra orbs that home into nearby enemies if held and not used for {1} {^1:second;seconds}
+			These terra orbs recover 3% of you missing health upon hitting an enemy
+			'''
+	}
+
+	BlazeScourgeBag: {
+		DisplayName: Blaze Scourge Bag
+		Tooltip:
+			'''
+			Gives the user master yoyo skills
+			Secondary yoyos will do 50% less damage
+			Your yoyo damage inflicts [cbuff:CalamityMod/HolyFlames] and has a chance to inflict [iabuff:InfernalEclipseWeaponsDLC/LimbBurn] on enemies
+			Damaging an enemy with a yoyo will grant you 10% damage reduction until you take damage
+			This effect must recharge for 15 seconds after protecting you
+			'''
+	}
+}
+
+ItemTooltip: {
+	DuesFluteLore: They had found the source of the Astral Infection, and in a attempt to destroy it they used the Starcore on the infected altar.
+	DuesFluteLore2: However, the altar had an unexpected reaction... two lights had started bouncing off each other heading the direction of the sky, opening a rift above it
+	DuesFluteLore3: What came out of it was truly something out of this world, but they appreciation had to be cut short as the servant of the stars rushed towards them.
+	UniversalLore1: Kos had made his final stand. Used all of his tricks up his sleeve. He had lost to them. However, it doesn't mean Eclipse had lost.
+	UniversalLore2: Using every inch of power he had remaining in his soul, he summoned the true god slayer: The Devourer of Gods.
+	ParallelLore1: To his expectation, they had slew the Storm Weaver. But Kos had another trick up his sleeve.
+	ParallelLore2: Suddenly, with no warning, Kos had transported everyone to the mirror realm and called upon his second servant: Signus.
+	TwoSideLore1: They overcame Ragnarok. They dismantled Eclipse. They survived the Slime Monsoon.
+	TwoSideLore2: They stood at the brink of infinity, which only then Ren asked them "which path will you choose?"
+	NeonRipperLore1: After the defeat of the Goliath, Erelian decided to repurpose some of the armor plating it wore.
+	NeonRipperLore2: In doing so he created two weapons: the first of which being a scythe that could absorb aura, much like Kami's ability.
+	PBGBardALore2: In doing so he created two weapons: the second of which being a guitar that shot colorful microwaves.
+	DoubleFlailLore:
+		'''
+		Calamitas and Permafrost always had great teamwork as student and teacher when she was still a child
+		These two Flails could be applying the same techniques to combine ice and fire in disasterous ways for your foes
+		'''
+	PerfectPurpleLore:
+		'''
+		Yet, it wasn't perfect.
+		Teamwork can only take one so far. After all, you are your own best friend.
+		Two of one, could do so much more because...
+		You are perfect with yourself.
+		'''
+	SearingSpearTip: 150% basic damage
+	ArcticSpearTip: 115% basic damage
+	VerveineItem: "'An item from the orchid's blessing...'"
+	EngineGatling:
+		'''
+		Gatling mode:
+		Holding fire will gradually reduce weapon spread and increase fire rate to a cap
+		Shots can pierce up to four times
+		'''
+	EngineGatlingMode: GATLING
+	EngineLaser:
+		'''
+		Laser mode:
+		Fires an infinitely piercing laser that leaves behind a trail of lingering damage
+		The laser can bounce off tiles up to 3 times
+		'''
+	EngineLaserMode: LASER
+	EngineTheBigOne:
+		'''
+		'The Big One' mode:
+		Fires a massive orb of condensed energy that will detonate after some time
+		The detonation will do more damage to foes closer to it's centre
+		Only one 'Big One' can exist at a time
+		'''
+	EngineTheBigOneMode: THE BIG ONE
+	Playtester: - Playtester Item -
+	Contributor: - Contributor Item -
+	Donor: - Donor Item -
+	DedTo: - Dedicated to {0} -
+
+	Dedicated: {
+		Akira: Akira
+		WH: WardrobeHummus
+		Advantaje: Advantaje
+		Tyr: Tyr
+		Soltan: Soltan
+		bryce: bryce27
+		eviil81: evil81
+		rose: ros�
+		Jill: JillyFish
+		Eduarrdo: Eduarrdo
+		Mae: ma3allim
+		Yob: Yob
+		Pudding: Pudd1ng
+		Ropro: Ropro0923
+		cheese: cheesenuggets
+		Puzzles: Mr. Puzzles
+		cat: StarlightCat
+		Goldsock: Goldsockz2
+		paradox: Imagiknight_Parad0xical
+		Arkangel: Arkangel
+	}
+
+	Cooldowns: {
+		Pause: TV Remote Pause is on cooldown!
+		FastForward: TV Remote Fast Forward is on cooldown!
+		Slowdown: TV Remote Rewind is on cooldown!
+	}
+}
+
+Projectiles: {
+	TwoPathsPro.DisplayName: Two Paths
+	BlackExplosion.DisplayName: Black Explosion
+
+	Magic: {
+		WhiteScythe.DisplayName: White Scythe
+		HealingLightningArc.DisplayName: Lightning Arc
+		DamagingLightningArc.DisplayName: Lightning Arc
+	}
+
+	TwoPathsPro2.DisplayName: Two Paths
+	TheParallellPro.DisplayName: The Parallell
+	BellBalladEleum.DisplayName: Eleum Bell
+	BellBalladHavoc.DisplayName: Havoc Bell
+	BellBalladSunlight.DisplayName: Sunlight Bell
+	BellBalladSunlightLaser.DisplayName: Ballad Laser
+	BellBalladEleumBolt.DisplayName: Ballad Frost Bolt
+	BellBalladHavocSlash.DisplayName: Ballad Brimstone Slash
+	SulfurSpirit.DisplayName: Sulfur Spirit
+	DeepSeaDrawlPro.DisplayName: Deep Sea Drawl
+	HomingPlankton.DisplayName: Homing Plankton
+	DeathsWhisperPro.DisplayName: Death's Whisper
+	BrimstoneHarpPro.DisplayName: Brimstone Harp Skull
+	BirbSaxophonePro.DisplayName: Red Lightning Feather
+	NecroticChorusPro.DisplayName: Necrotic Chorus
+	NecroticChorusWisp.DisplayName: Chorus Wisp
+	DeusFlutePro.DisplayName: Deus Flute
+	DeusFluteStar.DisplayName: Deus Flute Star
+	CorrodedCanePro.DisplayName: Corroded Cane
+	CorrodedCaneShark.DisplayName: Sulphurous Sharkron
+	OcramKnifeProSickle.DisplayName: Ocram Knife Sickle
+	OcramKnifeProBolt.DisplayName: Ocram Knife Bolt
+	OcramKnifePro.DisplayName: Ocram Knife
+	TheBlightProSickle.DisplayName: Blight Sickle
+	TheBlightProServantLaser.DisplayName: Blight Servant Laser
+	TheBlightProServant.DisplayName: Blight Servant
+	TheBlightProScythe.DisplayName: The Blight
+	GrandThunderWhipProjectile.DisplayName: Grand Thunder Whip
+	SulfurExplosionPro.DisplayName: Sulfur Explosion
+	HydrogenSulfideProj.DisplayName: Hydrogen Sulfide
+	LegacyProBolt.DisplayName: Legacy Bolt
+	LegacyProSickle.DisplayName: Legacy Sickle
+	MiniScourge.DisplayName: Mini Scourge
+	DrawlEel.DisplayName: Eel
+	DrawlIsopod.DisplayName: Isopod
+	DrawlStarfish.DisplayName: Starfish
+	DrawlStarfishShard.DisplayName: Starfish Shard
+	OurSharknado.DisplayName: Sharknado
+	DarkEnergyProj.DisplayName: Dark Energy
+	ExecutionersSwordPro.DisplayName: Executioners Sword
+	LightEnergyProj.DisplayName: Light Energy
+	LightSlashPro.DisplayName: Light Slash
+	CryonicSpearTip.DisplayName: Cryonic Spear Tip
+	SuperShotgunStab.DisplayName: Super Shotgun Stab
+	ExecutionersSwordSlashPro.DisplayName: Executioners Sword
+	ExecutionersSwordLightEnergy.DisplayName: Light Energy
+	ExecutionersSwordDarkEnergy.DisplayName: Dark Energy
+	BloodShotFriendly.DisplayName: Blood Shot
+	NukePro.DisplayName: Nuke
+	NukeMissile.DisplayName: Nuke Missile
+	ListoftheDamnedSoul_Orange.DisplayName: Damned Soul
+	ListoftheDamnedSoul_Cyan.DisplayName: Damned Soul
+	AirPod.DisplayName: AirPod
+	AirPodNote.DisplayName: AirPod Note
+	BouncingHungry.DisplayName: Bouncing Hungry
+	HealingSoul.DisplayName: Healing Soul
+	DamagingSoul.DisplayName: Damaging Soul
+	ForeverHungryBlood.DisplayName: Blood
+	AcidBelcherPro.DisplayName: Acid Belcher
+	SandSlasherSandnado.DisplayName: Sandnado
+	SandSlasher_Projectile.DisplayName: Sand Slasher
+	DeepseaTrident_Projectile.DisplayName: Deepsea Trident
+	Nanodroid.DisplayName: Nanodroid
+	NeonRipperPro.DisplayName: Neon Ripper
+	InfrariffProjectile.DisplayName: Infrariff
+	InfrariffLaser.DisplayName: Infrariff Laser
+	ColoredExplosion.DisplayName: Explosion
+	Misc.BardPulseRiffleShot.DisplayName: Pulse Riffle Shot
+	Staff_Projectile.DisplayName: Staff_ Projectile
+	ArckaneStaffPro.DisplayName: Arckane Bolt
+	MystickStaffPro.DisplayName: Mystick Energy
+	HealerBrimstoneBarrage.DisplayName: Brimstone Barrage
+	SupremeCataclysmFist.DisplayName: Supreme Cataclysm Fist
+	SupremeCatastropheSlash.DisplayName: Supreme Catastrophe Slash
+	SharknadoBolt.DisplayName: Sharknado
+	BarrenGardenHealingPro.DisplayName: Barren Garden
+	BarrenGardenLotus.DisplayName: Garden Lotus
+	BarrenGardenPro.DisplayName: Barren Garden
+	BarrenGardenProHoming.DisplayName: Barren Garden
+	MothwingDaggerPro.DisplayName: Mothwing Dagger
+	IlluminantBolt.DisplayName: Illuminant Bolt
+	FroststeelPulse.DisplayName: Froststeel Pulse
+	LightChainProjectile.DisplayName: Light Chain
+	StarScepterBolt.DisplayName: Scepter Bolt
+	StarScepterStar.DisplayName: Scepter Star
+	ObsidianSickleProjectile.DisplayName: Obsidian Sickle
+	ShadowflameAxeBolt.DisplayName: Shadowflame Axe Bolt
+	ShadowflameAxeProjectile.DisplayName: Shadowflame Axe
+	TetherBladeProjectile.DisplayName: Tether Blade
+	TetherBladeProjectileBlink.DisplayName: Blink
+	StormCrossbowArrow.DisplayName: Storm Arrow
+	IlluminantCrossPro.DisplayName: Illuminant Cross
+	GlowstringBiwaPro.DisplayName: Glowstring Biwa
+	GlowstringBeam.DisplayName: Glowstring Beam
+	StormTalonPro.DisplayName: Storm Talon
+	StormCarverPro.DisplayName: Storm Carver
+	GrandAmplifierPro.DisplayName: Amplifier
+	GrandAmplifierPro2.DisplayName: Amplifier
+	MusicalNoteProjectile.DisplayName: Musical Note
+	GammaExplosionProjectile.DisplayName: Gamma Explosion
+	GammaKnifeProjectile.DisplayName: Gamma Knife
+	GammaKnifeThrownProjectile.DisplayName: Gamma Knife
+	GammaSlashProjectile.DisplayName: Gamma Slash
+	GrandAmplifierLightning.DisplayName: Lightning
+	MiniaturizedRequiemEngineGatlingPro.DisplayName: Engiine Gatliing laster
+	MiniaturizedRequiemEngineLaserPro.DisplayName: Engine Laser
+	MiniaturizedRequiemEngineTheBigOnePro.DisplayName: The Big One
+	MiniaturizedRequiemEngineLaserPro2.DisplayName: Engine Laser
+	MiniaturizedRequiemEngineTheBigOnePro2.DisplayName: The Big One
+	MiniaturizedRequiemEngineTheBigOnePro3.DisplayName: The Big One
+	NecrosingerNote.DisplayName: Necrosinger Note
+	MagicPurpleBouncyBall.DisplayName: Magic Purple Bouncy Ball
+	EclipseEclipse.DisplayName: Eclipse
+	CatastrophicLongbladeHoldout.DisplayName: Catastrophic Longblade
+	CatastrophicLongbladeHoldoutVoid.DisplayName: Catastrophic Longblade
+	VoidBolt.DisplayName: Void Bolt
+	EclipsePulseDark.DisplayName: Dark Pulse
+	EclipsePulseLight.DisplayName: Holy Pulse
+	BardPulseRiffleBoom.DisplayName: Pulse Riffle Boom
+	BrimstonePetalPro.DisplayName: Brimstone Petal
+	SwordofaThousandTruthsSlashPro.DisplayName: Sword of a Thousand Truths
+	SwordofaThousandTruthsHoldPro.DisplayName: Sword of a Thousand Truths
+	SwordofaThousandTruthsPro.DisplayName: Sword of a Thousand Truths
+	AbsoluteTVRemotePausePro.DisplayName: Pause
+	PlanetShaperFireball.DisplayName: Planet Shaper Fireball
+	PlanetShaperPro.DisplayName: Planet Shaper
+	PlanetShaperStar.DisplayName: Planet Shaper Star
+	MetalPipe.DisplayName: Auric Pipe
+	AbsoluteTVRemoteFastForwardPro.DisplayName: Fast Forward Aura
+	AbsoluteTVRemoteRewindPro.DisplayName: Rewind Aura
+	CosmicPunch.DisplayName: Cosmic Gauntlet
+	Melee.GauntletofAnnihilationPunches.DisplayName: Cosmic Punches
+	DivineAxeHoldout.DisplayName: Divine Axe
+	DivineExplosion.DisplayName: Divine Explosion
+	DivineSunAura.DisplayName: Divine Aura
+	DivineAxeSunAura.DisplayName: Divine Axe Sun Aura
+	ColdFlailCorePro.DisplayName: Cold Flail Core
+	HotFlailCorePro.DisplayName: Hot Flail Core
+	PerfectFlailCorePro.DisplayName: Perfect Flail Core
+	BlackHoleFlailCorePro.DisplayName: Black Hole Flail Core
+	HolyFlailCorePro.DisplayName: Holy Flail Core
+	HolyFlailFire.DisplayName: Holy Fire
+	TerraOrb.DisplayName: Terra Orb
+}
+
+Buffs: {
+	DefaultSummonTag: {
+		DisplayName: Default Summon Tag
+		Description: Mods.InfernalEclipseWeaponsDLC.Buffs.DefaultSummonTag.Description
+	}
+
+	SwordStuckBuff: {
+		DisplayName: Sword Stuck
+		Description: Mods.InfernalEclipseWeaponsDLC.Buffs.SwordStuckBuff.Description
+	}
+
+	BloodRageBuff: {
+		DisplayName: Blood Rage
+		Description: Increases bloodmaker damage by 25% and couses blood bolts to inflict burning blood on hit
+	}
+
+	TVRemotePaused: {
+		DisplayName: Paused
+		Description: Frozen in time!
+	}
+
+	TVRemotePlayerPaused: {
+		DisplayName: Paused
+		Description: Frozen in time!
+	}
+
+	ColdFlailDefense: {
+		Description: You're nullified by the freezing blue
+		DisplayName: Nullification Blue
+		ItemTooltip: Increased damage resistance by 10%
+	}
+
+	HotFlailDmg: {
+		Description: You're amplified by the burning red
+		DisplayName: Amplification Red
+		ItemTooltip: Increased damage by 10%
+	}
+
+	PerfectFlailBuff: {
+		DisplayName: Perfect Purple
+		Description: You are Perfect.
+		ItemTooltip: Increased damage, damage resistance and movement speed by 15%
+	}
+
+	GrandThunderWhipTag: {
+		DisplayName: Grand Thunder Whip Tag
+		Description: Mods.InfernalEclipseWeaponsDLC.Buffs.GrandThunderWhipTag.Description
+	}
+
+	LimbBurn: {
+		DisplayName: Limb Burn
+		Description: Your Muscles are deteriorating
+		ItemTooltip:
+			'''
+			Heat - 50 DPS
+			Lowers Enemy Speed by 7.5%
+			'''
+	}
+}
+
+Configs: {
+	WeaponConfig: {
+		DisplayName: Weapon Config
+
+		Headers: {
+			VerveineWeapons: Verveine Weapons
+			General: General
+			SoltansCut: Soltan's Cut
+		}
+
+		AIGenedWeapons: {
+			Label: AI Generated Weapon Concepts
+			Tooltip: Toggles whether if the AI Generated weapon concepts from Verveine's 'Which AI Makes the Best Terraria Weapons?' are loaded
+		}
+
+		GitGudWeapon: {
+			Label: GitGudWO Weapon Concept
+			Tooltip: Toggles whether if the weapon concept made by GitGudWO from Verveine's 'Which AI Makes the Best Terraria Weapons?' is loaded
+		}
+
+		EnableScreenEffects: {
+			Label: Enable Screen Effects
+			Tooltip: ""
+		}
+
+		UnfinishedContent: {
+			Label: Unfinished Content
+			Tooltip: ""
+		}
+
+		LifeShields: {
+			Label: Life Shields
+			Tooltip: ""
+		}
+
+		FlailCores: {
+			Label: Flail Cores
+			Tooltip: ""
+		}
+
+		YoyoPouches: {
+			Label: Yoyo Pouches
+			Tooltip: ""
+		}
+	}
+}
+
+"Keybinds.Absolute TV Remote Pause.DisplayName": Absolute TV Remote Pause

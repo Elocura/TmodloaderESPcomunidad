@@ -1,0 +1,1110 @@
+Items: {
+	ClericBadge: {
+		DisplayName: Cleric Badge
+		Tooltip:
+			'''
+			20% increased radiant damage
+			5% increased radiant critical strike chance
+			'''
+	}
+
+	BardBadge: {
+		DisplayName: Bard Badge
+		Tooltip:
+			'''
+			20% increased symphonic damage
+			5% increased symphonic critical strike chance
+			'''
+	}
+
+	WhaleTooth: {
+		DisplayName: Whale Tooth
+		Tooltip:
+			'''
+			Summons Worlds End Everlasting Falling Whale
+			Can be used in any biome
+			'''
+	}
+
+	YggdrasilTree: {
+		DisplayName: Yggdrasil Tree
+		Tooltip:
+			'''
+			Summons The Lifebringer
+			Can be used in any biome
+			'''
+	}
+
+	RogueBadge: {
+		DisplayName: Rogue Badge
+		Tooltip:
+			'''
+			20% increased rogue damage
+			5% increased rogue critical strike chance
+			'''
+	}
+
+	BrokenChest: {
+		DisplayName: Broken Chest
+		Tooltip:
+			'''
+			Summons The Materealizer
+			Can be used in any biome
+			'''
+	}
+
+	EternalClock: {
+		DisplayName: Eternal Clock
+		Tooltip:
+			'''
+			Summons The Overwatcher
+			Can be used in any biome
+			'''
+	}
+
+	ScarabIdol: {
+		DisplayName: Scarab Idol
+		Tooltip:
+			'''
+			Summons Scarab Belief
+			Can be used in any biome
+			'''
+	}
+
+	HerbalistPouch: {
+		DisplayName: Herbalist Pouch
+		Tooltip:
+			'''
+			While equipped, your yoyo damage inflict [cbuff:Frostburn] and [cbuff:Venom] and has a chance to freeze enemies
+			Damaging an enemy with a yoyo will grant you 10% damage reduction until you take damage
+			This effect must recharge for 15 seconds after protecting you
+			Hitting enemies with yoyos charge a leaf shield
+			The shield is fully charged in 10 hits
+			The shield decreases up to 21% of the next damage you take
+			The shield is launched when retrieving the yoyo
+			'''
+	}
+
+	EvilFlask: {
+		DisplayName: Evil Flask
+		Tooltip:
+			'''
+			20% chance to not consume ammo when using a flamethrower
+			Allows you to customize the projectile of your flamethrower
+			Your flamethrower inflict [cbuff:CalamityMod/BrainRot] debuff
+			When equipped, show items that can be inserted
+			You can insert 2 ingredients at most
+			'''
+	}
+
+	TimelessFountain: {
+		DisplayName: Timeless Fountain
+		Tooltip: Counts as a Fountain of Life, Fountain of Matter, Fountain of Time
+	}
+
+	NegablastShield: {
+		DisplayName: Negablast Shield
+		Tooltip:
+			'''
+			50 base damage
+			Slightly increases length of invincibility after taking damage
+			Increases the knockback you receive
+			Release an explosion when damaged
+			Immune to enemy knockback & enemies are more likely to target you
+			Damage taken reduced by 10%
+			Every 3 seconds, taking damage will unleash a volatile explosion all around you
+			Explosion damage scales with your defense
+			'''
+	}
+
+	BabyOil: {
+		DisplayName: Baby Oil
+		Tooltip:
+			'''
+			When damaged cause 3-5 droplets of oil to drop out from you
+			Droplets do damage to enemies
+			'''
+		Contributor: - Contributor Item -
+	}
+
+	TheBibleOfTheThrowerVol4: {
+		DisplayName: The Bible of the Thrower: Volume IV
+		Tooltip:
+			'''
+			20% increased thrower damage
+			50% increased consumable thrower weapon velocity
+			Swing a bat at close range when using consumable weapons
+			Three rings will boost the projectiles you throw
+			Decrease use time of consumable thrower weapons by 20%
+			When holding a thrower weapon, increase acceleration by 75%
+			17.5% of your thrower damage is duplicated
+			'''
+		NoExhaustion: Removes all Exhaustion when equipped
+	}
+
+	DeluxeDewCollector: {
+		DisplayName: Deluxe Dew Collector
+		Tooltip:
+			'''
+			Healing an ally grants them 2 life recovery and generates dew
+			Picking up dew increases your own life recovery by 4
+			Healing spells will heal an additional 6 life
+			'''
+	}
+
+	PriestessRodRelic: {
+		Tooltip: Imbued with the infernal flames of a defeated foe
+		DisplayName: Infernal Priestess Rod Relic
+	}
+
+	ChariotRelic: {
+		Tooltip: Imbued with the infernal flames of a defeated foe
+		DisplayName: Infernal Chariot Relic
+	}
+
+	MarquisMoonsquidRelic: {
+		Tooltip: Imbued with the infernal flames of a defeated foe
+		DisplayName: Infernal Marquis Moonsquid Relic
+	}
+
+	BigDipperRelic: {
+		Tooltip: Imbued with the infernal flames of a defeated foe
+		DisplayName: Infernal Big Dipper Relic
+	}
+
+	PuppetRelic: {
+		DisplayName: Infernal Puppet Relic
+		Tooltip: Imbued with the infernal flames of a defeated foe
+	}
+
+	TheMotherbrainRelic: {
+		Tooltip: Imbued with the infernal flames of a defeated foe
+		DisplayName: Infernal The Motherbrain Relic
+	}
+
+	DiverRelic: {
+		Tooltip: Imbued with the infernal flames of a defeated foe
+		DisplayName: Infernal Diver Relic
+	}
+
+	SolarRelic: {
+		DisplayName: Infernal Solar Relic
+		Tooltip: Imbued with the infernal flames of a defeated foe
+	}
+
+	TheOverwatcherRelic: {
+		DisplayName: Infernal The Overwatcher Relic
+		Tooltip: Imbued with the infernal flames of a defeated foe
+	}
+
+	WallofShadowRelic: {
+		DisplayName: Infernal Wall of Shadow Relic
+		Tooltip: Imbued with the infernal flames of a defeated foe
+	}
+
+	TheMaterealizerRelic: {
+		Tooltip: Imbued with the infernal flames of a defeated foe
+		DisplayName: Infernal The Materealizer Relic
+	}
+
+	TheLifebringerRelic: {
+		Tooltip: Imbued with the infernal flames of a defeated foe
+		DisplayName: Infernal The Lifebringer Relic
+	}
+
+	ScarabBeliefRelic: {
+		Tooltip: Imbued with the infernal flames of a defeated foe
+		DisplayName: Infernal Scarab Belief Relic
+	}
+
+	TheSonRelic: {
+		DisplayName: Infernal The Son Relic
+		Tooltip: Imbued with the infernal flames of a defeated foe
+	}
+
+	WhaleRelic: {
+		DisplayName: Infernal World's End Everlasting Falling Whale Relic
+		Tooltip: Imbued with the infernal flames of a defeated foe
+	}
+
+	CampfireOfTheWildheart: {
+		DisplayName: Campfire Of The Wildheart
+		Tooltip: "'Makes you feel like you can take on multiverse'"
+	}
+
+	RiftGenerator: {
+		DisplayName: Rift Generator
+		Tooltip:
+			'''
+			Increases max minions and sentries by 1
+			Generate 4 platforms to the left and right of you
+			You can right click to drag the platforms, but they will always remain symmetrical
+			Sentries can be summoned on top of the platforms
+			Minions and sentry attacks briefly deal 2 more damage after killing an enemy
+			Summons Devour Lamprey behind you
+			'''
+	}
+
+	Lore: {
+		LoreBigDipper: {
+			DisplayName: Big Dipper
+			Tooltip: ""
+			Lore:
+				'''
+				My head scientist told me of his past only once. How he woke up in a laboratory, 
+				surrounded by advanced technology, eventually joining my cause to build machines of war, all in the name of progress. 
+				I bring this up because Draedon has explicitly told me that this satellite is not one of his. 
+				As far as we could tell, this was a communications satellite that could relay positions on a detailed map of the land. 
+				Unfortunately, the map itself only shows locations already mapped centuries ago. 
+				Draedon has already analyzed everything he could about this satellite, even making more robust models for himself.
+				While possessing little value in of itself, it's a stark reminder that, 
+				if someone built Draedon through great effort, who's to say there couldn't be other, equally advanced creations?
+				'''
+		}
+
+		LoreDiver: {
+			DisplayName: Diver
+			Tooltip: ""
+			Lore:
+				'''
+				A trans-dimensional gateway keyed to the heart of an alternate universe... it is no wonder what brought ruin to this place. 
+				Many institutions were erected for the purpose of reaching and studying whatever alternate dimensions they happened to come across,
+				especially when rumors around the devourer started spreading. 
+				None of these organizations still exist. 
+				This abomination is a perfect example of what the endpoint of interdimensional research looks like: 
+				to be noticed by a greater darkness, bringing madness and death for everyone involved.
+				The best one can hope from peering sideways in reality is a place populated exclusively by simple beings, 
+				like a world of sapient birds riding giant crabs. 
+				...Don't ask why I know that. Cosmology can be a very strange field.
+				'''
+		}
+
+		LoreTrench: {
+			DisplayName: The Trench
+			Tooltip: ""
+			Lore:
+				'''
+				Another stain on the coastline, untouched by the gods. 
+				One would assume its distance from the sulphurous seas and lack of viable entrances would render it untouchable to the outside world.
+				This is what the settlers of this trench thought, using an obscure form of hydromancy to create a dry pocket within. 
+				Cut off from the surface, they had all of the time they would ever need to themselves. 
+				All I knew was the primary development here was in demonology, 
+				the storied practice of enslaving demons to one's will, and oddly enough, cosmology.
+				I was always skeptical of how a subterranean institution could know so much about the greater universe, 
+				but by the time Draedon had probed it, the abyssal city was long since flooded and abandoned. 
+				Judging by the various horrors that now inhabit this place, 
+				I have a reasonable enough answer for my questions about both the nature and fate of these people.
+				'''
+		}
+
+		LoreGoblinChariot: {
+			DisplayName: Goblin Chariot
+			Tooltip: ""
+			Lore:
+				'''
+				Goblins as a race are actually fairly young in the grand scheme of Terraria. 
+				Even their oldest settlements are still young enough to be built with relatively modern infrastructure. 
+				Not much more can be said about their reputation as raiders that hasn't already been said or made obvious, 
+				especially by their common targets.
+				You'd be surprised to learn that, during the first year of my conquest, a Goblin clan was amongst the first true factions to join my side. 
+				Their ingenuity led to my first real vehicle support, 
+				which gave them my favor until a new addition to my army replaced every single one of their sciences with his own. 
+				Current times must be dire to rely on such outdated machinery.
+				'''
+		}
+
+		LoreMarquisMoonsquid: {
+			DisplayName: Marquis Moonsquid
+			Tooltip: ""
+			Lore:
+				'''
+				One of countless ocean predators dwelling deep beneath the waves, though this one appears to have grown to an unusual size. 
+				Moonsquids only live in the deepest parts of the ocean, 
+				far away from the fishrons they compete with, using bioluminescence to communicate with one another in total darkness. 
+				These factors make this beast's appearance on the surface an oddity. 
+				What a curious set of changes... what must have occurred in that abyss to mutate this poor creature and push it towards the surface?
+				'''
+		}
+
+		LoreOverwatcher: {
+			DisplayName: The Overwatcher
+			Tooltip: ""
+			Lore:
+				'''
+				The god of time was reclusive. 
+				When one can view past and future as if they were left and right, it gives a far, far greater range of places to seclude oneself. 
+				So much so that I am still unsure how he gathered his disciples. 
+				My only method of reaching him was finding one such disciple, beating them within an inch of their life so they would lead me to their idol. 
+				Once it was in my sight-
+				(The whispers become briefly muffled. Is part of the story missing?)
+				-Leaving me stranded in the desert. For all of my effort, the only things I gained were such nonsensical wording. What a waste of my time…
+				'''
+		}
+
+		LorePriestessRod: {
+			DisplayName: Priestess Rod
+			Tooltip: ""
+			Lore:
+				'''
+				While this is definitely one of the strangest body plans of all, 
+				the propeller-like wings of Sky Rods allow them to blitz across the sky faster than any other flier, 
+				or at least those who are native to our world. 
+				The most frightful aspect of Sky Rods is their method of feeding. 
+				This species does not subsist on any solid foods, instead having the unique ability to devour souls directly. 
+				This also means they can feed on souls within machines, much to Draedon's chagrin. 
+				Turns out, soldiers of steel powered by souls are more filling than most things that live in the atmosphere. 
+				I've had to derive countermeasures against this unexpected foe more times than I'd like to admit. 
+				Some have even grown much larger from the sheer volume of souls, 
+				which in turn makes a single Priestess Rod a threat to anything my soldiers would have already threatened.
+				'''
+		}
+
+		LorePuppetOpera: {
+			DisplayName: Puppet Opera
+			Tooltip: ""
+			Lore:
+				'''
+				It feels surreal to see what became of this theatre, having visited it during its prime. 
+				I could barely even see what you were fighting through that darkness.
+				This wooden maze was once a place of bustling culture, protected from attackers by its ever-shifting walls. 
+				The theatre was its heart, most known for holding the most extravagant puppet shows the land had to offer, 
+				something my archmage was known to frequent. 
+				As my crusade faded, I turned a blind eye to this place. I expected it to be abandoned at most, but this... 
+				This was once a place of reprieve. Now, it seems to be a magnet for the horrors of the world. 
+				I can only imagine what happened to its former citizens... if they yet live.
+				'''
+		}
+
+		LoreScarabBelief: {
+			DisplayName: Scarab Belief
+			Tooltip: ""
+			Lore:
+				'''
+				The god of myth was confusing. 
+				Contradictory histories plague even the oldest libraries in Terraria, based entirely on the word of its followers. 
+				To call those followers overzealous would be an understatement, what they worshiped was the idea of worshipping itself. 
+				Every worshipper has their own version of Scarab they claim to see clearly and no two were ever the same, 
+				varying wildly even within the same group. The entire image of Scarab Belief is composed of lies and misconceptions, 
+				including nonsensical rituals where-
+				(The whispers become briefly muffled. Is part of the story missing?)
+				-bare concept of a solid form than anything else, existing as merely an idea which inhabits the minds of its followers.
+				How sickening. Even Providence never crossed that boundary. Hopefully, this perversion of faith will stay eternally forgotten.
+				'''
+		}
+
+		LoreSlimeGod: {
+			DisplayName: Slime of Divinity
+			Tooltip: ""
+			Lore:
+				'''
+				The god of slimes was separated. 
+				You might be familiar with the entity I previously referred to as the 'Slime God'. 
+				That title isn't inaccurate... though it is quite misleading. 
+				Although a god in its own right, all slimes are theorized to have originally spawned from a singular, 'true' slime god, 
+				and will eventually return to him upon death. 
+				Information about this entity is obscure beyond his place of residence, existing either within, 
+				or potentially as, the primordial light itself. 
+				How much him and Zeratros's sun are the same being is a debate best saved for scholars, but I can tell you-
+				(You can barely hear the whispers through a loud static. Is someone interfering?)
+				-can't imagine the amount of power if he reabsorbed all slimes into himself without restraint.
+				Then, you might not have stood a chance.
+				'''
+		}
+
+		LoreTheLifebringer: {
+			DisplayName: The Lifebringer
+			Tooltip: ""
+			Lore:
+				'''
+				The god of life was broad. 
+				Too broad for any one auric soul to hold complete dominion over. 
+				Silva herself only held dominion over a portion of life's concepts, as nature was far too diverse for her to control. 
+				The Lifebringer appears to hold a more ‘complete’ power over the throes of nature, not just evolution or survival.
+				Her greatest difference from Silva was- 
+				(The whispers become briefly muffled. Is part of the story missing?) 
+				-cause she wasn't worshiped in the conventional way, there were no temples, statues, or even writing that regarded her. 
+				I had no trail to follow, and I couldn't justify an aimless hunt, so I postponed until I had a better method. 
+				Needless to say, I never found one.
+				'''
+		}
+
+		LoreTheMaterealizer: {
+			DisplayName: The Materealizer
+			Tooltip: ""
+			Lore:
+				'''
+				The god of matter was dutiful. 
+				As the current retainer of our world’s material laws, functionally its building blocks, 
+				he is every bit as cold and calculating as is required of him. Given a task, he will perform it to the most precise detail. 
+				The same goes for his followers, who have acted as hired builders for various factions. 
+				Pay their price, and you will not have a finer monument, from towering statues in ilmeris, to that very temple Providence calls home. 
+				Their neutrality made it easy for me to approach under the pretense of a commission, where I was led to a spiral-
+				(Loud static fills your ears, The whispers are inaudible, but continue uninterrupted. Is someone interfering?)
+				-took me an embarrassingly long amount of time to find the exit. Afterwards, I simply returned home and… pondered.
+				'''
+		}
+
+		LoreTheMotherbrain: {
+			DisplayName: The Motherbrain
+			Tooltip: ""
+			Lore:
+				'''
+				I had forgotten about this machine's existence for some time. 
+				Draedon was commissioned to create this shell by the dragon cult, 
+				built to occupy the jobs of the jailors whose souls were used in its creation. 
+				Having much higher intelligence, it also served as an experiment in psionic tech,
+				being able to lock any unruly prisoners in a virtual world designed to confuse and torment. 
+				The request called for a warden, what they got was a torture device.
+				When the souls within the dungeon grew restless, Draedon was forced to abandon it within those cursed walls. 
+				I could tell he was annoyed by that, but he never complained much, already moving on to his next project. 
+				With everything else falling apart around me, a lost machine, 
+				unaware that my crusade had already come to a close, became a footnote in my terrible, blood-stained history.
+				'''
+		}
+
+		LoreTheSon: {
+			DisplayName: The Son
+			Tooltip: ""
+			Lore:
+				'''
+				As the gods staked their claim in this world,
+				their actions caused stirring amongst the primordial forces that dwell far above.
+				There was one who claimed to be a direct descendant of our universe's highest authority, 
+				chastising their crimes against Terraria. 
+				The power wielded by this half-mortal, a facsimile of the truly divine, was remarkable, 
+				tempered by a philosophical mind that positioned him at the forefront of a crusade that predated my birth.
+				Sadly, right as he began his movement... Noxus had gotten involved.
+				Everything around that name is distorted in of itself,
+				but I can reasonably confirm he played a key role in getting the Son crucified.
+				Perhaps whatever plan he had was directly threatened by the Son's existence.
+				I only learned all of this when I activated that same structure you unknowingly activated to-
+				(Outside influence muffles the whispers… then you hear a rumbling.)
+				I think that’s enough.
+				'''
+		}
+
+		LoreWallofShadow: {
+			DisplayName: Wall of Shadow
+			Tooltip: ""
+			Lore:
+				'''
+				Alternating patterns of shadow and sinew, limbs outstretched to feed its hungry eyes, 
+				the stench of death hanging in the air... I'd recognize this brand of magic anywhere. 
+				This is unquestionably, uncannily, the same kind of behemoth as the one I used to bind the gods' essences. 
+				I highly doubt its makers were even aware of me, merely converging on this solution to contain otherworlders who emerge from their portals. 
+				Their plan’s failure was simple: the makers did not account for when their prison inevitably became full. 
+				By the time primordial shadows were leaking out of the brickwork, it was already too late. 
+				It became a ticking time bomb of essences from countless dimensions studied over the city's life. 
+				With the explosion of color you've forced upon this world, it will not be long until the gods take notice of your presence. 
+				Once they choose to act, you will know what to do.
+				'''
+		}
+
+		LoreWhale: {
+			DisplayName: World's End Everlasting Falling Whale
+			Tooltip: ""
+			Lore:
+				'''
+				The god of death was ironic. 
+				Of everything that could have taken the role of reaper, 
+				of every horror that could have used the power to enforce death, potentially even on the traitor almighty… 
+				that title fell to the whale. Though not unintelligent, it is much closer to an actual animal in behavior, 
+				acting with an innocence which belies its truly terrifying power. 
+				The legend of the Everlasting Whale survived by being mostly passed around by sailors, 
+				attracting foolhardy parties to try, and ultimately fail, to claim its power. 
+				I deliberated on following these unconfirmed testimonies, eventually settling on-
+				(The whispers become briefly muffled. Is part of the story missing?) 
+				-For what it's worth, I recognize the whale as a product of circumstance and nothing more. 
+				I could never condone its worship, but there are far worse crimes than wanting to be left alone.
+				'''
+		}
+	}
+
+	ThreeThousandWorldsRelic: {
+		DisplayName: Infernal Three Thousand Worlds Relic
+		Tooltip: Imbued with the infernal flames of a defeated foe
+	}
+
+	TheHolyRelic: {
+		DisplayName: Infernal The Holy Relic
+		Tooltip: Imbued with the infernal flames of a defeated foe
+	}
+
+	SpiralStairsRelic: {
+		DisplayName: Infernal Spiral Stairs Relic
+		Tooltip: Imbued with the infernal flames of a defeated foe
+	}
+
+	RisingWorldRelic: {
+		DisplayName: Infernal Rising World Relic
+		Tooltip: Imbued with the infernal flames of a defeated foe
+	}
+
+	OozysseyRelic: {
+		DisplayName: Infernal Oozyssey Relic
+		Tooltip: Imbued with the infernal flames of a defeated foe
+	}
+
+	LunarRelic: {
+		DisplayName: Infernal Lunar Relic
+		Tooltip: Imbued with the infernal flames of a defeated foe
+	}
+
+	KhronoTriggerRelic: {
+		DisplayName: Infernal Khrono Trigger Relic
+		Tooltip: Imbued with the infernal flames of a defeated foe
+	}
+
+	EtzHaChayimRelic: {
+		DisplayName: Infernal Etz Ha Chayim Relic
+		Tooltip: Imbued with the infernal flames of a defeated foe
+	}
+}
+
+Tiles: {
+	TimelessFountainTile.MapEntry: Timeless Fountain Tile
+	CampfireOfTheWildheartTile.MapEntry: Campfire Of The Wildheart Tile
+}
+
+Projectiles: {
+	BabyOilDroplet.DisplayName: Baby Oil Droplet
+	DevourScarf.DisplayName: Devour Scarf
+	EurekaPortal.DisplayName: Eureka Portal
+}
+
+Buffs: {
+	BubbleShield: {
+		DisplayName: Bubble Shield
+		Description: Reduces next damage by 10%
+	}
+
+	HeartOfThoriumBuff: {
+		DisplayName: Heart Of Thorium
+		Description: Max inspiration increased by 5
+	}
+
+	HeartOfLifeQuartzBuff: {
+		DisplayName: Heart Of Life Quartz
+		Description: Bonus healing increased by 2
+	}
+
+	HeartOfAqualiteBuff: {
+		DisplayName: Heart Of Aquaite
+		Description: Movement Speed increased by 5%
+	}
+
+	HeartOfSmoothCoalBuff: {
+		DisplayName: Heart Of Smooth Coal
+		Description: Negates fall damage
+	}
+
+	HeartOfLodestoneBuff: {
+		DisplayName: Heart Of Lodestone
+		Description: Critical chance increased by 5%
+	}
+
+	HeartOfValadiumBuff: {
+		DisplayName: Heart Of Valadium
+		Description: Critical chance increased by 5%
+	}
+
+	HeartOfIllumiteBuff: {
+		DisplayName: Heart Of Illumite
+		Description: Defense increased by 10%
+	}
+
+	WhaleBoneRecovery: {
+		DisplayName: Skeletal reconstruction
+		Description: Whale will heal you by {0}
+	}
+}
+
+Mods: {
+	HomewardRagnarok: {
+		CoJIntro: {
+			GoblinChariot:
+				'''
+				The reckless war-engine
+				Goblin Chariot
+				'''
+			PuppetOpera:
+				'''
+				The strings of fate
+				Puppet Opera
+				'''
+			BigDipper:
+				'''
+				The wandering starborn
+				Big Dipper
+				'''
+			MarquisMoonsquid:
+				'''
+				The abyssal tyrant
+				Marquis Moonsquid
+				'''
+			PriestessRod:
+				'''
+				The blessed harbinger
+				Priestess Rod
+				'''
+			Diver:
+				'''
+				Warden of the deep
+				Diver
+				'''
+			TheMotherbrain:
+				'''
+				Master of machinations
+				The Motherbrain
+				'''
+			WallofShadow:
+				'''
+				Creation of darkness
+				Wall of Shadow
+				'''
+			SlimeGod:
+				'''
+				Primordial Slime
+				Slime God: Rematch
+				'''
+			TheOverwatcher:
+				'''
+				Watcher of Reality
+				The Overwatcher
+				'''
+			TheLifebringerHead:
+				'''
+				Bloom of divinity
+				The Lifebringer
+				'''
+			TheMaterealizer:
+				'''
+				Architect of realities
+				The Materealizer
+				'''
+			ScarabBelief:
+				'''
+				Ancient devotion
+				Scarab Belief
+				'''
+			WorldsEndEverlastingFallingWhale:
+				'''
+				The crushing abyss
+				World's End Everlasting Falling Whale
+				'''
+			TheSon:
+				'''
+				Holy Christ
+				The Son
+				'''
+		}
+	}
+}
+
+FlamethrowerEx.HomewardRagnarok.SulphuricScaleEffect: Flames inflict Irradiated for 6 seconds
+
+Configs: {
+	ServerConfig: {
+		DisplayName: Server Config
+
+		Headers: {
+			MainCategory: Main
+			WeaponChanges: Weapon Changes
+			ArmorChanges: Armor Changes
+			ModChanges: Mod Changes
+			AccessoryChanges: Accessory Changes
+		}
+
+		EnableBossScaling: {
+			Label: "[i:ContinentOfJourney/SolarFlareScoria] Boss Stats Scaling"
+			Tooltip: If enabled, HWJ boss stats will scale based on installed mods.
+		}
+
+		HWJRecipes: {
+			Label: "[i:ContinentOfJourney/FinalBar] HWJ Recipe Tweaks"
+			Tooltip: If enabled, Balance HWJ recipes to fit other mods progression.
+		}
+
+		PermanentToAccessories: {
+			Label: "[i:ContinentOfJourney/TheSwitch] The Switch Rework"
+			Tooltip: If enabled, The Switch will be converted to accessory.
+		}
+
+		EnableBookmarks: {
+			Label: "[i:ContinentOfJourney/EruditeBookmark] Enable Bookmarks"
+			Tooltip: If enabled, Modded mage weapons will work with Spell Pages.
+		}
+
+		EnableTickets: {
+			Label: "[i:ContinentOfJourney/LegacyTicket] Ticket Balancing"
+			Tooltip: If enabled, Thrower luck tickets will be rebalanced according to other mods
+		}
+
+		CustomContent: {
+			Label: "[i:HomewardRagnarok/RogueBadge] Custom Mod Content"
+			Tooltip: If enabled, Add new content which fill gaps in progression.
+		}
+
+		BloodOrbPotions: {
+			Label: "[i:CalamityMod/BloodOrb] Potion Blood Orb Duplication"
+			Tooltip: If enabled, HWJ potions can be duplicated with calamity blood.
+		}
+
+		CustomStealthStrikes: {
+			Label: "[i:ContinentOfJourney/RisingAction] HWJ Stealth Strikes"
+			Tooltip: If enabled, Some HWJ weapons will have stealth strikes
+		}
+
+		EnableRogueClassChanges: {
+			Label: "[i:ContinentOfJourney/Fission] Merge Thrower Class"
+			Tooltip: If enabled, HWJ throwable weapons will be converted to thrower class.
+		}
+
+		EnableMeleeClassChanges: {
+			Label: "[i:ContinentOfJourney/Shoreline] Merge Melee Class"
+			Tooltip: If enabled, some HWJ weapons will become a melee weapon.
+		}
+
+		EnableHealerClassChanges: {
+			Label: "[i:ContinentOfJourney/DaCapo] Merge Healer Class"
+			Tooltip: If enabled, HWJ Scythes will use Thorium Healer class.
+		}
+
+		WeaponBalancing: {
+			Label: "[i:ContinentOfJourney/StarEaterStaff] Weapon Balancing"
+			Tooltip: If enabled, HWJ weapons will be rebalanced according to other mods.
+		}
+
+		ArmorBalancing: {
+			Label: "[i:ContinentOfJourney/WatchmanHat] Armor Balancing"
+			Tooltip: If enabled, HWJ armor will be rebalanced according to other mods.
+		}
+
+		ArmorCraft: {
+			Label: "[i:ContinentOfJourney/EquilibriumBreastplate] Armor Recipes"
+			Tooltip: If enabled, HWJ armor recipes will be merged with other mods.
+		}
+
+		CalamityBalance: {
+			Label: Calamity Support
+			Tooltip: If enabled, Merge Calamity accessories, weapons and recipes with Homeward Journey.
+		}
+
+		ClamityBalance: {
+			Label: Clamity Support
+			Tooltip: If enabled, Adjusts some Clamity accesories and weapons according to Homeward Journey.
+		}
+
+		ThoriumBalance: {
+			Label: Thorium Support
+			Tooltip: If enabled, Merge some Thorium healer accesories and recipes with Homeward Journey, also support Thorium Add-ons.
+		}
+
+		SOTSBalance: {
+			Label: SOTS Support
+			Tooltip: If enabled, Adjust SOTS and Unofficial SOTS Bard,Thrower and Healer recipes.
+		}
+
+		ConsolariaBalance: {
+			Label: Consolaria Support
+			Tooltip: If enabled, Merge soul of blight with Consolaria.
+		}
+	}
+}
+
+ModCompat.BossChecklist.SlimeGod: Slime of Divinity
+
+ItemTooltips: {
+	OmniShield: -Omni Shield-
+	ImmunityVulnerable: Grants immunity to Vulnerable
+	CommemorativeCoin: Damage taken by debuffs decreased by 35%
+	TransactionCertificate: Keep your HP at 1 upon receiving a fatal hit, 10 minutes cooldown
+	SteamkeeperWatch: Your sentries last forever and gain up to 15% damage over the course of 2 minutes
+	HungeringBlossom: Grants the effects of the Hungering Blossom when visibility is off
+	ConstructionPDA: Increases your max number of sentries by 1
+	DivineNecklace: Your minion will let your enemies bask in a Gods′ grace
+	ToggleWings: Shift-Right Click this item in your inventory to toggle the [i:493] wings
+	AbyssCore: Emits light on your cursorˊs position
+	GrandSpectral:
+		'''
+		Summon spectrals when damaged
+		Summon spectrals when hitting enemy
+		'''
+	LampreyScarf:
+		'''
+		Summons Lamprey Scarf
+		Increase whip range by 10%
+		Increases your max number of sentries by 2
+		'''
+	TrinketOfChi:
+		'''
+		Increases damage reduction by 8% if you avoid taking damage for 10 seconds
+		This buff expires on hit
+		+1 HP/s life regen for you and your teammates
+		'''
+	DeificAmulet:
+		'''
+		Releases a burst of homing star-bees, increases movement speed, and drenches you in [cbuff:Honey] after taking damage
+		Increases the length of invincibility, with it increasing even more when at low health
+		'''
+	ArmillarySphere: Your sentries form a constellation that hurts for 50% of your held weapon's damage
+	"Remove'Range'": Range
+	"Remove'range'": range
+	SpikyCoverRework: Whip tips deal 1.5x damage and cause bleeding
+	ColdBloodRework: Decreases debuff time and damage by 25%
+	WhaleBoneCharmRework:
+		'''
+		Gives 20% damage reduction
+		If a attack does more than 1/4th of your health, you get a buff that heals you depending of the damage you took.
+		'''
+	StarQuiver:
+		'''
+		Increase the damage of arrows by 15%
+		Turn wooden arrows into holy arrows
+		Enemies are less likely to target you
+		'''
+	CrossbowScopeSOTS:
+		'''
+		Grants a 20% chance not to consume ammo
+		Striking enemies has a chance to refund ammo
+		Landing the killing blow on enemies may also refund ammo
+		If accessory visablity is on, you consume void instead of ammunition
+		'''
+
+	EtherealTalisman: {
+		OrigTooltip1: +150 max mana and 10% decreased mana usage
+		Replace1: +230 max mana and 12% decreased mana usage
+	}
+
+	AncientBlessing: {
+		Remove: Increases length of invincibility,
+		Remove1: Minor increase to all stats
+		Remove2: Provides adaption to nights and liquid
+		AlchemistsCharm:
+			'''
+			Increases healing and mana received from potions by 100
+			Increases buff duration by 67%
+			'''
+	}
+
+	Negatama: Releases dark energy, the lower mana you have, the more damage it deals
+	DivineTouch: Causes melee attacks to inflict the [cbuff:ContinentOfJourney/DivineFireBuff]
+	StarQuiverEffect: Cause ranger attacks to inflict [cbuff:CalamityMod/HolyFlames]
+	PoisonEffect: Inflict [cbuff:Poisoned]
+	HolyFlamesEffect: Inflict [cbuff:CalamityMod/HolyFlames]
+	VaporfiedEffect: Inflict [cbuff:CalamityMod/Vaporfied]
+
+	ThrowerTickets: {
+		Orig: Enables charge shot for consumable ranged weapons
+		Replace: Improve your Stealth strikes ability
+	}
+
+	TheSwitch: {
+		HoldShift: Shift-Right Click this item in your inventory to change mode
+		ColdBlood: Decrease debuff time and damage by 40%
+		WhaleBoneCharm:
+			'''
+			Gives 30% damage reduction
+			If a attack does more than 1/4th of your health, you get a buff that heals you depending of the damage you took.
+			'''
+	}
+
+	Horizon: {
+		Remove: "'The air lifts you upward'"
+		HoldShift: Hold Shift for more
+		DefaultStats:
+			'''
+			Flight Time: 3.75 seconds
+			Max horizontal speed: 52 mph
+			Max vertical speed: 100 mph
+			'''
+		HidedStats:
+			'''
+			Horizontal acceleration: 61.32 mph/s
+			Vertical Acceleration:
+			42.98 mph/s
+			89.21 mph/s if ascending slower than 41 mph
+			326.38 mph/s if ascending while falling
+			'''
+		RunningAccel: 44% increased running acceleration
+	}
+
+	CommandersGaunlet: {
+		OrigTooltip: melee speed
+		Replace: whip speed
+	}
+
+	Edgewalker: {
+		EdgeCrit: 6% increased critical strike chance
+		EdgeRocket: Perfect your ability to use explosive launchers
+	}
+
+	VanguardBreastpiece: {
+		Remove1: Grants immunity to Knockback
+		Remove2: Slightly increase your invis time
+		OrigTooltip1: Grants immunity to Burning and most debuffs
+		Replace1: Grants immunity to most status debuffs, knockback, and fire blocks
+		Sots1: Surrounds you with 4 orbital projectiles
+		Sots2: Launches attackers away from you with javelins
+		Sots3: Increases void gain by 2 and life regeneration by 1
+		Sots4: Reduces damage taken by 7% and increases critical strike chance by 4%
+		Sots5: Projectiles disabled when hidden
+		Thorium1: When above 25% life, absorbs 25% of damage done to nearby players on your team
+		Thorium2: When below 25% life, you will rapidly regenerate life and gain increased defense
+	}
+
+	HolyTrinity: {
+		OrigTrinityClass: Consumable ranged
+		RepTrinityClass: Thrower
+	}
+
+	GrayRook: {
+		"Remove'UseTime'": -item use time decreased by 35%
+		OrigTooltip1: Increase your melee speed by 2% and
+		Replace1: Increase your
+		OrigTooltip2: -whip range increased by 35%
+		Replace2: -whip range increased by 25%
+		MeleeRebalance: -melee size increased by 25%
+		RogueRebalance: -rogue attack speed is increased by 10%
+		HealerRebalance: -healing bonus is increased by 1
+		BardRebalance: -max inspiration is increased by 2
+	}
+
+	BatNecklace: {
+		OrigTooltip1: Increase your minion slot by 2
+		Replace1: Increases your max number of minions by 2, and summon damage by 12%
+		StatisBlessing: Increased minion knockback
+		ThoriumBuffs:
+			'''
+			Minion attacks have a 15% chance to produce a crystal scorpion
+			Minion attacks deal 3 more damage while a crystal scorpion is active
+			Minion and sentry attacks briefly deal 2 more damage after killing an enemy 
+			Increases max sentries by 2
+			'''
+	}
+
+	GrayRookBuff: {
+		OrigTooltip1: whip range increased by 30%
+		Replace1: whip range increased by 25%
+		OrigTooltip2: item use time decreased by 35%
+		Replace2: thrower attack speed is increased by 10%
+		MeleeRebalance:
+			'''
+
+			melee size increased by 25%
+			'''
+		HealerRebalance:
+			'''
+
+			healing bonus is increased by 1
+			'''
+		BardRebalance:
+			'''
+
+			max inspiration is increased by 5
+			'''
+	}
+
+	OrichalcumCross:
+		'''
+		+4% increased radiant damage
+		Heals the most damaged teammate by 4
+		upon every 9 radiant attacks
+		'''
+	CrossOfTheFlamingSwords:
+		'''
+		+3% increased radiant damage
+		Heals the most damaged teammate by 5
+		upon every 10 radiant attacks
+		'''
+	SilverCross:
+		'''
+		+2% increased radiant damage
+		Heals the most damaged teammate by 3
+		upon every 7 radiant attacks
+		'''
+	WoodenCross:
+		'''
+		+2% increased radiant damage
+		Heals the most damaged teammate by 2
+		upon every 8 radiant attacks
+		'''
+	AlloyCross:
+		'''
+		+8% increased radiant damage
+		Heals the most damaged teammate by 5
+		upon every 10 radiant attacks
+		'''
+	MythrilCross:
+		'''
+		+4% increased radiant damage
+		Heals the most damaged teammate by 4
+		upon every 9 radiant attacks
+		'''
+	TungstenCross:
+		'''
+		+2% increased radiant damage
+		Heals the most damaged teammate by 3
+		upon every 7 radiant attacks
+		'''
+	RejuvenatedCross:
+		'''
+		+5% increased radiant damage
+		Grants regeneration to the most damaged teammate
+		upon every 10 radiant attacks
+		'''
+	UndyingCross:
+		'''
+		+8% increased radiant damage
+		Heals the most damaged teammate by 5
+		upon every 5 radiant attacks
+		Immunity to Divine Fire
+		'''
+	BiomatterCross:
+		'''
+		+5% increased radiant damage
+		Heals the most damaged teammate by 5
+		upon every 10 radiant attacks
+		'''
+	SaviorsHeart: Heals you by 20 health for every 100 mana consumed
+	MoonwalkEffect:
+		'''
+		Grants the effects of featherfall
+		Increases jump height by 5% for each minion you've summoned
+		Damage dealt by minions charge up the power meter
+		When the meter is full, double tap UP to grant you and your team following buffs:
+		- 1.5x move speed and 1.2x summon damage
+		- Makes you "moonwalk" 
+		- Teammates receive 1.25x speed boost
+		These effect last for 12 seconds
+		'Hee-hee!'
+		'''
+
+	MushroomAccessory: {
+		OrigTooltip: Increase healing amount
+		Replace: Increase bonus healing by {0}
+	}
+
+	SunsHeart: {
+		OrigTooltip: Enables wings slot
+		Replace: Permanently increases wing flight time by 20%
+	}
+
+	EurekaEffect: {
+		OrigTooltip1: Teleport to your cursor's location
+		OrigTooltip2: This item has a 6s cooldown
+		Replace2:
+			'''
+			Summons a temporary gateway between 2 chosen spots
+			Left and Right click to choose spots
+			Right click the portal to teleport with 10s cooldown
+			'''
+		ThoriumHeal: Heal by 40 when teleported
+	}
+
+	FlasksTooltip: {
+		ItemOrigTooltip: Melee and Whip attacks
+		BuffOrigTooltip: Melee attacks
+		Replace: Melee, Whip and Thrower attacks
+	}
+}

@@ -1,0 +1,970 @@
+ModNotInstalled: The corresponding mod is currently not installed!
+
+Modes: {
+	Revengeance: "[Revengeance]"
+	Death: "[Death]"
+	Eternity: "[Eternity]"
+	EterniDeath: "[Eternity+Death]"
+}
+
+SupportedMods: {
+	Tooltip:
+		'''
+		Note: Press {0} or {1} to select a boss
+		Press {2} to view their AI changes
+
+		Supported Bosses:
+		'''
+	Consolaria:
+		'''
+		-<Lepus>{$Mods.Consolaria.NPCs.Lepus.DisplayName}
+		-<Turkor>{$Mods.Consolaria.NPCs.TurkortheUngrateful.DisplayName}
+		-<Ocram>{$Mods.Consolaria.NPCs.Ocram.DisplayName}
+		'''
+	ContinentOfJourney:
+		'''
+		-<BigDipper>{$Mods.ContinentOfJourney.NPCs.BigDipper.DisplayName}
+		-<GoblinChariot>{$Mods.ContinentOfJourney.NPCs.GoblinChariot.DisplayName}
+		-<Motherbrain>{$Mods.ContinentOfJourney.NPCs.TheMotherbrain.DisplayName}
+		-<ScarabBelief>{$Mods.ContinentOfJourney.NPCs.ScarabBelief.DisplayName}
+		'''
+	Redemption:
+		'''
+		-<Thorn>{$Mods.Redemption.NPCs.Thorn.DisplayName}
+		-<Erhan>{$Mods.Redemption.NPCs.Erhan.DisplayName}
+		-<Keeper>{$Mods.Redemption.NPCs.Keeper.DisplayName}
+		-<SeedofInfection>{$Mods.Redemption.NPCs.SoI.DisplayName}
+		-<KingSlayer>{$Mods.Redemption.NPCs.KS3.DisplayName}
+		-<Gigapora>{$Mods.Redemption.NPCs.Gigapora.DisplayName}
+		-<OmegaObliterator>{$Mods.Redemption.NPCs.OO.DisplayName}
+		-<PatientZero>{$Mods.Redemption.NPCs.PZ.DisplayName}
+		-<Nebuleus>{$Mods.Redemption.NPCs.Nebuleus.DisplayName}
+		'''
+	SOTS:
+		'''
+		-<Glowmoth>{$Mods.SOTS.NPCs.Glowmoth.DisplayName}
+		-<PutridPinky>{$Mods.SOTS.NPCs.PutridPinkyPhase2.DisplayName}
+		-<PharaohsCurse>{$Mods.SOTS.NPCs.PharaohsCurse.DisplayName}
+		-<Advisor>{$Mods.SOTS.NPCs.TheAdvisorHead.DisplayName}
+		-<Polaris>{$Mods.SOTS.NPCs.NewPolaris.DisplayName}
+		-<Lux>{$Mods.SOTS.NPCs.Lux.DisplayName}
+		-<SubspaceSerpent>{$Mods.SOTS.NPCs.SubspaceSerpentHead.DisplayName}
+		'''
+	Spooky:
+		'''
+		-<RotGourd>{$Mods.Spooky.NPCs.RotGourd.DisplayName}
+		-<SpookySpirit>{$Mods.Spooky.NPCs.SpookySpirit.DisplayName}
+		-<Moco>{$Mods.Spooky.NPCs.Moco.DisplayName}
+		-<Daffodil>{$Mods.Spooky.NPCs.DaffodilEye.DisplayName}
+		-<OrroBoro>{$Mods.Spooky.NPCs.OrroHead.DisplayName} & {$Mods.Spooky.NPCs.BoroHead.DisplayName}
+		-<BigBone>{$Mods.Spooky.NPCs.BigBone.DisplayName}
+		'''
+	Split:
+		'''
+		-<Spirit>{$Mods.Split.NPCs.TheSpirit.DisplayName}
+		-<OneShot>{$Mods.Split.NPCs.OneShot.DisplayName}
+		-<Paraffin>{$Mods.Split.NPCs.Paraffin.DisplayName}
+		-<Insurgent>{$Mods.Split.NPCs.Insurgent.DisplayName}
+		-<Seth>{$Mods.Split.NPCs.Seth.DisplayName}
+		'''
+}
+
+AIChanges: {
+	Lepus:
+		'''
+		{$Mods.RevengeancePlus.Modes.Revengeance}
+		-Diseaster bunnies move much faster
+		-Small eggs hatch faster
+
+		{$Mods.RevengeancePlus.Modes.Death}
+		-Small eggs cannot be destroyed
+		-Small eggs hatch even faster
+		-Large eggs hatch faster
+
+		{$Mods.RevengeancePlus.Modes.Eternity}
+		-Calamity changes are disabled
+		-Creates 2 falling knives when fast falling
+		-Creates 4 falling knives on weak jumps
+		-Shoots exploding eggs while charging up
+		-Occasionally stops and vomits
+		-Diseaster bunnies inflict guilty on hit
+		-Most attacks inflict either stunned, rotting or defenseless
+
+		{$Mods.RevengeancePlus.Modes.EterniDeath}
+		-Calamity changes are reenabled
+		-Increased falling knives to 4 on fast fall
+		-Increased falling knives to 5 on weak jumps
+		-Shoots explosive eggs much faster
+		'''
+	Turkor:
+		'''
+		{$Mods.RevengeancePlus.Modes.Revengeance}
+		-Both dash and projectile attacks have alternate variants
+		-Knives travel further
+
+		{$Mods.RevengeancePlus.Modes.Death}
+		-Sometimes uses both melee and ranged attacks at once
+		-Knives travel even further
+
+		{$Mods.RevengeancePlus.Modes.Eternity}
+		-Calamity changes are disabled
+		-Body creates a spiral of knives every now and then
+		-Most attacks inflict either guilty, rotting, or stunned
+
+		{$Mods.RevengeancePlus.Modes.EterniDeath}
+		-Calamity changes are reenabled
+		-Knife spiral only happens below 75% health
+		'''
+	Ocram:
+		'''
+		{$Mods.RevengeancePlus.Modes.Revengeance}
+		-Increased dash displacement
+		-Increased dash displacement further in phase 2
+		-Cannot take damage when transitioning phases
+		-Shoots skulls after phase 1 laser barrage
+		-Shoots skulls during phase 2 laser barrage
+		-Most attacks inflict burning blood or brain rot
+
+		{$Mods.RevengeancePlus.Modes.Death}
+		-Increased dash displacement even further overall
+		-Phase 1 burst lasers shoots 3 lines instead of 1
+		-Shoots a lot more skulls
+
+		{$Mods.RevengeancePlus.Modes.Eternity}
+		-Calamity changes are disabled
+		-Servants can shoot homing spectral flames
+		-Dashes curve a bit and leave a trail of scythes
+		-Has a third phase with new attacks
+		-Most attacks inflict a variety of debuffs
+
+		{$Mods.RevengeancePlus.Modes.EterniDeath}
+		-Calamity changes are reenabled
+		-Increased scythes in phase 3
+		-Phase 3 laser sweeps faster
+		'''
+	Thorn:
+		'''
+		{$Mods.RevengeancePlus.Modes.Revengeance}
+		-Splinter balls are accompanied by a barrage of splinters
+		-Leeching vines spawn faster
+
+		{$Mods.RevengeancePlus.Modes.Death}
+		-Splinter balls explode into more splinters
+		-Leeching vines spawn even faster
+
+		{$Mods.RevengeancePlus.Modes.Eternity}
+		-Calamity changes are disabled
+		-Splinter balls follow the the player for a short duration
+		-Most attacks inflict infested and rotting
+
+		{$Mods.RevengeancePlus.Modes.EterniDeath}
+		-Calamity changes are reenabled
+		'''
+	Erhan:
+		'''
+		{$Mods.RevengeancePlus.Modes.Revengeance}
+		-Shoots homing light during laser beam rain in phase 1
+		-Spawns twice the amount of light swords in phase 1
+		-Throws spears while the Bible is attacking in phase 2
+
+		{$Mods.RevengeancePlus.Modes.Death}
+		-Erhan does not get tired
+		-Enters later phases sooner
+		-Throws spears while the Bible is attacking in phase 1
+
+		{$Mods.RevengeancePlus.Modes.Eternity}
+		-Calamity changes are disabled
+		-Most attacks inflict smite
+
+		{$Mods.RevengeancePlus.Modes.EterniDeath}
+		-Calamity changes are reenabled
+		'''
+	Keeper:
+		'''
+		{$Mods.RevengeancePlus.Modes.Revengeance}
+		-Most attacks inflict burning blood
+		-Blood waves move faster
+
+		{$Mods.RevengeancePlus.Modes.Death}
+		-Skulls are shot together with some attacks in phase 2
+
+		{$Mods.RevengeancePlus.Modes.Eternity}
+		-Calamity changes are disabled
+		-Dashes are followed up by a barrage of blood waves in phase 1
+		-Dashes leave behind a trail of accelerating claws in phase 2
+		-Most attacks inflict rotting, lethargic, berserked or shadowflame
+
+		{$Mods.RevengeancePlus.Modes.EterniDeath}
+		-Calamity changes are reenabled
+		'''
+	SeedofInfection:
+		'''
+		{$Mods.RevengeancePlus.Modes.Revengeance}
+		-Shards move faster
+		-Dashes faster
+
+		{$Mods.RevengeancePlus.Modes.Death}
+		-Most attacks inflict irradiated
+		-Dashes even faster
+
+		{$Mods.RevengeancePlus.Modes.Eternity}
+		-Leaves a trail of infectious scythes when dashing
+		-Phase 2 laser creates a wall of projectiles when shot
+		-Calamity changes are disabled
+
+		{$Mods.RevengeancePlus.Modes.EterniDeath}
+		-Calamity changes are reenabled
+		'''
+	KingSlayer:
+		'''
+		{$Mods.RevengeancePlus.Modes.Revengeance}
+		-Missile drones shoot faster
+
+		{$Mods.RevengeancePlus.Modes.Death}
+		-Missile drones shoot even faster
+
+		{$Mods.RevengeancePlus.Modes.Eternity}
+		-Most attacks inflict lightning rod and nano injection
+		-Flash Grenades can stun players
+		-Calamity changes are disabled
+
+		{$Mods.RevengeancePlus.Modes.EterniDeath}
+		-Calamity changes are reenabled
+		'''
+	Gigapora:
+		'''
+		{$Mods.RevengeancePlus.Modes.Revengeance}
+		-Gigabeam fires a wall of lasers similarly to Thanatos
+
+		{$Mods.RevengeancePlus.Modes.Revengeance}
+		-Shield core bolts predict player movement
+		-Gigapora lasers are aimed at the player when far
+
+		{$Mods.RevengeancePlus.Modes.Eternity}
+		-Calamity changes are disabled
+		-All attacks inflict lightning rod and nano injection
+
+		{$Mods.RevengeancePlus.Modes.EterniDeath}
+		-Calamity changes are reenabled
+		-Reduced the predictiveness of shield core bolts
+		'''
+	OmegaObliterator:
+		'''
+		{$Mods.RevengeancePlus.Modes.Eternity}
+		-All attacks inflict lightning rod and nano injection
+		-Stun Beam can stun players
+		'''
+	PatientZero:
+		'''
+		{$Mods.RevengeancePlus.Modes.Death}
+		-Most attacks inflict irradiated
+
+		{$Mods.RevengeancePlus.Modes.Eternity}
+		-Most attacks inflict rotting
+		'''
+	Nebuleus:
+		'''
+		{$Mods.RevengeancePlus.Modes.Revengeance}
+		-Some Piercing Nebulae attacks are duplicated
+
+		{$Mods.RevengeancePlus.Modes.Death}
+		-Piercing Nebulae are duplicated even more
+		-Chains of the Cosmos attack is skipped
+
+		{$Mods.RevengeancePlus.Modes.Eternity}
+		-Calamity changes are disabled
+		-Chains of the Cosmos is now replaced by a star barrage
+		-Most attacks inflict smite and purified
+
+		{$Mods.RevengeancePlus.Modes.EterniDeath}
+		-Calamity changes are reenabled (except for disabling Chains of the Cosmos)
+		'''
+	Glowmoth:
+		'''
+		{$Mods.RevengeancePlus.Modes.Revengeance}
+		-Glow bombs' cascade effect travel further
+		-Spends less time chasing the player
+
+		{$Mods.RevengeancePlus.Modes.Death}
+		-Shoots 16 balls after dashing instead of 8
+
+		{$Mods.RevengeancePlus.Modes.Eternity}
+		-Calamity changes are disabled
+		-Phase 1 has a new attack where it stands still and shoots homing sparkles
+		-Phase 2 has a new attack where it circles the player and shoots sparkles
+
+		{$Mods.RevengeancePlus.Modes.EterniDeath}
+		-Calamity changes are reenabled
+		-Increased projectiles for circle and glow spiral attack
+		'''
+	PutridPinky:
+		'''
+		{$Mods.RevengeancePlus.Modes.Revengeance}
+		-Burst laser interval reduced
+		-Laser beam attack is followed up by a dual helix attack
+		-Dashes a bunch of times after invisibility attack
+		-Shoots a homing projectile during spinning hooks attack
+
+		{$Mods.RevengeancePlus.Modes.Death}
+		-Attacks faster overall
+		-Burst laser interval further reduced
+		-Dash displacement greatly increased
+
+		{$Mods.RevengeancePlus.Modes.Eternity}
+		-Calamity changes are disabled
+		-Phase 1 has an entire moveset which is meant to be a weaker version of phase 2
+		-Shoots a giant blob that splits into 6 smaller blobs before firing a laser
+		-Hovers besides the player then shoots homing blobs along with singlular helices after invisibility attack
+		-Most attacks inflict lethargic
+
+		{$Mods.RevengeancePlus.Modes.EterniDeath}
+		-Calamity changes are reenabled (except for faster overall attack speed)
+		-Giant blobs have slight homing and split into 8 instead of 6
+		-Dash attack happens after single helix attack instead of invisibility
+		-Dual helices wave out much further
+		'''
+	PharaohsCurse:
+		'''
+		{$Mods.RevengeancePlus.Modes.Revengeance}
+		-Fires projectiles during tentacle attack in phase 1
+		-Spins around the player and shoots them after the spiral attack
+		-Shoots a barrage of red projectiles after arms attack
+		-Most attacks inflict cursed
+
+		{$Mods.RevengeancePlus.Modes.Death}
+		-Fires more projectiles during phase 1 tentacle attack
+		-Shoots the six curse projectile before dashing as well
+
+		{$Mods.RevengeancePlus.Modes.Eternity}
+		-Calamity changes are disabled (except for projectiles inflicting cursed)
+		-Inherits some attacks from Cursed Coffin (shockwave and crossbones)
+		-Most attacks inflict rotting or cursed
+
+		{$Mods.RevengeancePlus.Modes.EterniDeath}
+		-Calamity changes are reenabled
+		-Nerfed the barrage attack (because it happens alongside the crossbones)
+		-Cursed arms heal the boss by a small amount just like Champion of Spirit
+		'''
+	Advisor:
+		'''
+		{$Mods.RevengeancePlus.Modes.Revengeance}
+		-Missiles travel faster and take less time to turn
+		-Takes reduced damage when hovering right above the player
+
+		{$Mods.RevengeancePlus.Modes.Death}
+		-Lightning projectiles are faster but lasts shorter
+		-Purple balls split into 16 projectiles instead of 8
+
+		{$Mods.RevengeancePlus.Modes.Eternity}
+		-Calamity changes are disabled
+		-Shoots more spiral beams but they last shorter
+		-Shoots a few lightning balls before spiral beam
+		-Most attacks inflict either smite or lightning rod
+
+		{$Mods.RevengeancePlus.Modes.EterniDeath}
+		-Calamity changes are reenabled
+		-Shoots more lightning balls before spiral beam
+
+		'''
+	Excavator:
+		'''
+		{$Mods.RevengeancePlus.Modes.Eternity}
+		-Most attacks inflict fused, lightning rod, or defenseless
+		'''
+	Polaris:
+		'''
+		{$Mods.RevengeancePlus.Modes.Eternity}
+		-Most attacks inflict lethargic or defenseless
+		-Laser beams inflict smite and defenseless
+		'''
+	Lux:
+		'''
+		{$Mods.RevengeancePlus.Modes.Revengeance}
+		-Increased projectiles shot during cross lasers attack
+
+		{$Mods.RevengeancePlus.Modes.Death}
+		-Further increased projectiles shot during cross lasers attack
+		-Increased projectiles during teleporting balls attack
+
+		{$Mods.RevengeancePlus.Modes.Eternity}
+		-Calamity changes are disabled
+		-Inherits some attacks from Lieflight (light field)
+		-A second wall of projectiles spawn during laser walls
+		-Most attacks inflict either smite or purified
+
+		{$Mods.RevengeancePlus.Modes.EterniDeath}
+		-Calamity changes are reenabled
+		'''
+	SubspaceSerpent:
+		'''
+		{$Mods.RevengeancePlus.Modes.Revengeance}
+		-Shoots red and green pellets during circle attack
+		-Shoots delayed barrage of red pellets every dash
+		-Shoots red pellets during phase 2 laser wall chase
+		-Red pellets and phase 2 fireballs inflict brimstone flames
+
+		{$Mods.RevengeancePlus.Modes.Death}
+		-Shoots red pellets more frequently in circle attack
+		-Shoots green pellets in phase 1 snake chase
+		-Red pellet barrage happens with less delay
+
+		{$Mods.RevengeancePlus.Modes.Eternity}
+		-Calamity changes are disabled
+		-A fireball ring attack happens before the phase 2 fire rain dashes
+		-Performs a sweeping flamethrower attack after every fire rain dash
+		-Most attacks inflict either smite, lightning rod or fused
+
+		{$Mods.RevengeancePlus.Modes.EterniDeath}
+		-Calamity changes are reenabled
+		'''
+	RotGourd:
+		'''
+		{$Mods.RevengeancePlus.Modes.Revengeance}
+		-Releases spores after landing from a high jump
+
+		{$Mods.RevengeancePlus.Modes.Death}
+		-Releases spores when being carried by flies
+
+		{$Mods.RevengeancePlus.Modes.Eternity}
+		-Calamity changes are disabled
+		-Creates a shockwave on slam
+		-Most attacks inflict either rotting, infested or dazed
+
+		{$Mods.RevengeancePlus.Modes.EterniDeath}
+		-Calamity changes are reenabled
+		'''
+	SpookySpirit:
+		'''
+		{$Mods.RevengeancePlus.Modes.Revengeance}
+		-Dashes 1 extra time
+		-Dash interval reduced
+		-Teleports faster
+		-Eye beam inflicts irradiated
+
+		{$Mods.RevengeancePlus.Modes.Death}
+		-Dashes 2 extra times instead of 1
+		-Dash interval further reduced
+		-Teleports even faster
+		-Increased yellow eye bolts count
+		-Attacks faster overall
+
+		{$Mods.RevengeancePlus.Modes.Eternity}
+		-Calamity changes are disabled
+		-Eye beam inflicts smite
+		-Still fires eye bolts during eye beam
+		-Shoots a barrage of scythes when dashing
+		-Shoots aimed scythes when raining skulls
+		-Emits flames while chasing the player in phase 2
+
+		{$Mods.RevengeancePlus.Modes.EterniDeath}
+		-Calamity changes are reenabled
+		-Increased projectiles for eternity mode attacks
+		'''
+	Moco:
+		'''
+		{$Mods.RevengeancePlus.Modes.Revengeance}
+		-Oozed debuff lasts longer
+		-Increased dash displacement
+		-Dashes one extra time
+		-Fires giant booger twice
+
+		{$Mods.RevengeancePlus.Modes.Death}
+		-Oozed debuff lasts even longer
+		-Further increased dash displacement
+		-Dashes 2 extra times instead of 1
+		-Fires giant booger thrice
+		-Attacks faster overall
+
+		{$Mods.RevengeancePlus.Modes.Eternity}
+		-Calamity changes are disabled
+		-Leaves a trail of falling snot while dashing
+		-All snots inflict lethargic and infested
+		-Giant snots inflict defenseless
+
+		{$Mods.RevengeancePlus.Modes.EterniDeath}
+		-Calamity changes are reenabled
+		'''
+	Daffodil:
+		'''
+		{$Mods.RevengeancePlus.Modes.Eternity}
+		-All thorn attacks inflict infested
+		-Flowers inflict infested
+		-Flies inflict rotting
+		-Sweeping laser inflicts fused
+		'''
+	OrroBoro:
+		'''
+		{$Mods.RevengeancePlus.Modes.Revengeance}
+		-Both spits in a spread pattern before long-dashing
+		-All spit attacks and Orro's clot balls inflict brain rot
+		-Flesh pillars and Boro's clot balls inflict burning blood
+		-Boro spits a barrage of 3 while dashing when enraged
+		-Orro spawns bombs shortly after dashing when enraged
+
+		{$Mods.RevengeancePlus.Modes.Death}
+		-Spit projectiles shot before long-dash are much faster
+
+		{$Mods.RevengeancePlus.Modes.Eternity}
+		-Calamity changes are disabled
+		-Eye spits inflict lethargic and defenseless
+		-Clots and flesh pillars inflict rotting
+		-Boro leaves a trail of leeches while long-dashing
+		-Orro creates a wall of tapeworms while long-dashing
+		-Boro releases homing teeth during tongue attack
+
+		{$Mods.RevengeancePlus.Modes.EterniDeath}
+		-Calamity changes are reenabled
+		'''
+	BigBone:
+		'''
+		{$Mods.RevengeancePlus.Modes.Revengeance}
+		-Shoots homing flowers while growing bouncy ones
+
+		{$Mods.RevengeancePlus.Modes.Death}
+		-Shoots flowers a lot faster and more frequently
+
+		{$Mods.RevengeancePlus.Modes.Eternity}
+		-Calamity changes are disabled
+		-Fire attacks inflict fused
+		-Thorn and spore attacks inflict infested
+		-Flower and bone attacks inflict rotting
+		-Razor attacks inflict infested and defenseless
+
+		{$Mods.RevengeancePlus.Modes.EterniDeath}
+		-Calamity changes are reenabled
+		'''
+	BigDipper:
+		'''
+		{$Mods.RevengeancePlus.Modes.Revengeance}
+		-Increased dash displacement
+
+		{$Mods.RevengeancePlus.Modes.Death}
+		-Increased dash displacement further
+
+		{$Mods.RevengeancePlus.Modes.Eternity}
+		-Calamity changes are disabled
+		-Shoots a ring of projectiles while single laser beam is active
+		-Shoots a spread of projectiles while dual laser beam is active
+		-Most attacks inflict smite and lightning rod
+
+		{$Mods.RevengeancePlus.Modes.EterniDeath}
+		-Increased projectile count for projectile ring
+		-Calamity changes are reenabled
+		'''
+	GoblinChariot:
+		'''
+		{$Mods.RevengeancePlus.Modes.Revengeance}
+		-Increased projectile count on cannonball rain
+
+		{$Mods.RevengeancePlus.Modes.Death}
+		-Giant ball attack happens immediately if the boss is directly above the player
+		-Increased projectile count on cannonball rain even further
+
+		{$Mods.RevengeancePlus.Modes.Eternity}
+		-Calamity changes are disabled
+		-Most attacks inflict defenseless, stunned and fused
+
+		{$Mods.RevengeancePlus.Modes.EterniDeath}
+		-Calamity changes are reenabled
+		'''
+	Motherbrain:
+		'''
+		{$Mods.RevengeancePlus.Modes.Revengeance}
+		-Creeper grid attack is used twice
+		-Creeper spiral is used one more time
+
+		{$Mods.RevengeancePlus.Modes.Death}
+		-Creeper spiral is used two more times instead of one
+
+		{$Mods.RevengeancePlus.Modes.Eternity}
+		-Calamity changes are disabled
+		-Creepers inflict lightning rod and defenseless
+		-Linka hologram forms inherit the mimicked entity's Eternity mode debuffs
+
+		{$Mods.RevengeancePlus.Modes.EterniDeath}
+		-Calamity changes are reenabled
+		'''
+	ScarabBelief:
+		'''
+		{$Mods.RevengeancePlus.Modes.Revengeance}
+		-Beam attack is accompanied by light beams that fire in random directions
+
+		{$Mods.RevengeancePlus.Modes.Death}
+		-Light beams that fire in random directions are now shot in spreads of 3
+
+		{$Mods.RevengeancePlus.Modes.Eternity}
+		-Calamity changes are disabled
+		-All attacks inflict smite and purified
+
+		{$Mods.RevengeancePlus.Modes.EterniDeath}
+		-Calamity changes are reenabled
+		'''
+	Spirit:
+		'''
+		{$Mods.RevengeancePlus.Modes.Revengeance}
+		-All spirit ball attack projectiles no longer fall
+
+		{$Mods.RevengeancePlus.Modes.Death}
+		-Spirit balls are faster
+		-All spirit ball attack projectiles are shot faster
+		'''
+	OneShot:
+		'''
+		{$Mods.RevengeancePlus.Modes.Revengeance}
+		-Teleportation is faster
+		-Snow cloud has a much shorter wind-up
+
+		{$Mods.RevengeancePlus.Modes.Death}
+		-Regular bullets travel faster
+		-Bombs fall faster
+		'''
+	Paraffin:
+		'''
+		{$Mods.RevengeancePlus.Modes.Revengeance}
+		-Recovers from dizziness much sooner
+		-Fists have slight homing
+		-Fire notes and homing bolts inflict brimstone flames
+
+		{$Mods.RevengeancePlus.Modes.Death}
+		-No longer gets dizzy
+		-Projectiles are faster
+		'''
+	Insurgent:
+		'''
+		{$Mods.RevengeancePlus.Modes.Revengeance}
+		-Uses phase 2 attacks much sooner
+		-Green wave attack now always shoots a total of 4 projectiles
+		-Bones, green waves and contact damage inflict the plague
+
+		{$Mods.RevengeancePlus.Modes.Death}
+		-Increased aggression below 33% health
+		-Bone explosion and green waves have shorter wind-ups
+		-Projectiles are faster
+		'''
+	Seth:
+		'''
+		{$Mods.RevengeancePlus.Modes.Revengeance}
+		-Heat snap attack rotates faster
+		-Heat snap now has a minimum rotation speed cap
+		-Heat snap inflicts dragon fire if the player somehow survives it
+		-Sword spin attack inflicts brimstone flames
+
+		{$Mods.RevengeancePlus.Modes.Death}
+		-Heat snap attack rotates even faster
+		-Heat snap is no longer consistent and the initial direction is always random
+		'''
+}
+
+InfernumTitle: {
+	Lepus:
+		'''
+		Disaster Bunny
+		Lepus
+		'''
+	TurkortheUngrateful:
+		'''
+		The Ungrateful One
+		Turkor
+		'''
+	Ocram:
+		'''
+		Timelost Vessel
+		Ocram
+		'''
+	Glowmoth:
+		'''
+		Luminescent Flyer
+		Glowmoth
+		'''
+	PutridPinkyPhase2:
+		'''
+		Peanut-Piping Prick
+		Putrid Pinky
+		'''
+	PharaohsCurse:
+		'''
+		The Curse of Ra
+		Pharaoh's Curse
+		'''
+	TheAdvisorHead:
+		'''
+		Otherworldly Spirit
+		The Advisor
+		'''
+	Excavator:
+		'''
+		World Digger
+		Excavator
+		'''
+	Polaris:
+		'''
+		The North Star
+		Polaris
+		'''
+	Lux:
+		'''
+		Spirit of Chaos
+		Lux
+		'''
+	SubspaceSerpentHead:
+		'''
+		The Serpent of Sages
+		Subspace Serpent
+		'''
+	RotGourd:
+		'''
+		Rotting Guardian
+		Rot Gourd
+		'''
+	SpookySpirit:
+		'''
+		The Party Crasher
+		Spooky Spirit
+		'''
+	Moco:
+		'''
+		Allergic to Everything
+		Moco
+		'''
+	DaffodilEye:
+		'''
+		Flowery Protector
+		Daffodil
+		'''
+	OrroHeadP1:
+		'''
+		Twins of Gluttony
+		Orro & Boro
+		'''
+	BigBone:
+		'''
+		Sealed in the Catacombs
+		Big Bone
+		'''
+	BigDipper:
+		'''
+		Herald of the North Star
+		Big Dipper
+		'''
+	GoblinChariot:
+		'''
+		Unstoppable Contraption
+		Goblin Chariot
+		'''
+	PupperOpera:
+		'''
+		The Other Puppet
+		Phantom of the Opera
+		'''
+	TheMotherbrain:
+		'''
+		Long Lost Warmind
+		The Motherbrain
+		'''
+	WallofShadow:
+		'''
+		Ancient Spirit of Darkness
+		Wall of Shadows
+		'''
+	ScarabBelief:
+		'''
+		Ancient Spirit of Light
+		Scarab Belief
+		'''
+	TheLifebringerHead:
+		'''
+		Deity of Life
+		The Lifebringer
+		'''
+	TheMaterealizer:
+		'''
+		Deity of Creation
+		The Materializer
+		'''
+	TheOverwatcher:
+		'''
+		Deity of Time
+		The Overwatcher
+		'''
+	SlimeGod:
+		'''
+		Mindless Sun Deity
+		Slime God
+		'''
+	WorldsEndEverlastingFallingWhale:
+		'''
+		World's End
+		Everlasting Falling Whale
+		'''
+	TheSpirit:
+		'''
+		              
+		The Spirit
+		'''
+	Menace:
+		'''
+		Possessed Astrologist
+		The Menace
+		'''
+	OneShot:
+		'''
+		Rogue Space Pirate
+		Oscar Loneshot
+		'''
+	Paraffin:
+		'''
+		The (Not So) Great
+		Paraffin
+		'''
+	Insurgent:
+		'''
+		Spirit of Captivity
+		The Insurgent
+		'''
+	Mirage:
+		'''
+		The Wanderer in the Desert
+		Mirage
+		'''
+	CommandoBoss:
+		'''
+		Martian Leader
+		The Commando
+		'''
+	Seth:
+		'''
+		The Roaring Sunstorm
+		Seth
+		'''
+}
+
+Projectiles: {
+	AchingTooth.DisplayName: Aching Tooth
+	BossRushTeleporter.DisplayName: Boss Rush Teleporter
+	CurseCrossbone.DisplayName: Curse Crossbone
+	CurseShockwave.DisplayName: Curse Shockwave
+	ExplosiveEasterEgg.DisplayName: Explosive Easter Egg
+	FallingPetal.DisplayName: Falling Petal
+	FakeLux.DisplayName: Chaos Illusion
+	GourdSlam.DisplayName: Rotting Slam
+	InfectiousScythe.DisplayName: Infectious Scythe
+	InfectiousShard.DisplayName: Infectious Shard
+	KeeperClaw.DisplayName: Keeper's Claw
+	Leech.DisplayName: Leech
+	LesserPhaseBolt.DisplayName: Lesser Phase Bolt
+	ManaDrain.DisplayName: Mana Drain
+	NullPointer.DisplayName: Null Pointer
+	OcramBeam.DisplayName: Ocram Beam
+	OcramBeamTelegraph.DisplayName: Ocram Beam
+	OcramRay.DisplayName: Death Stare
+	PinkBomb.DisplayName: Pink Bomb
+	PinkHelix.DisplayName: Pink Helix
+	PinkPellet.DisplayName: Pink Pellet
+	PinkSplat.DisplayName: Pink Splat
+	ScarabBeam.DisplayName: Scarab Beam
+	Sceyethe.DisplayName: Sc-Eye-the
+	SeventhSeraphStar.DisplayName: Seventh Seraph Star
+	SpookyFlames.DisplayName: Spooky Flames
+	SubspaceFireBreath.DisplayName: Subspace Fire Breath
+	Tapeworm.DisplayName: Tapeworm
+}
+
+Configs: {
+	DebugConfig: {
+		DisplayName: Debug Config
+
+		calamityDifficulty: {
+			Label: Calamity Difficulty Tester
+			Tooltip:
+				'''
+				Tricks the game into thinking a Calamity difficulty is enabled
+				Does not work if Calamity itself is enabled
+				0 - None
+				1 - Revengeance
+				2 - Death
+				3 - Malice or Boss Rush
+				'''
+		}
+
+		eternityMode: {
+			Label: Eternity Mode Tester
+			Tooltip:
+				'''
+				Tricks the game into thinking Eternity mode is enabled
+				Does not work if Fargo's Souls itself is enabled
+				'''
+		}
+
+		forceHJAltSprites: {
+			Label: Force Homeward Journey Alternate Sprites
+			Tooltip:
+				'''
+				Some bosses in Homeward Journey have alternate sprites
+				This force enables it to test if it breaks something
+				'''
+		}
+	}
+
+	SupportedModsConfig: {
+		DisplayName: Supported Mods Config
+
+		Calamity: {
+			Label: "[i/s1:1281] Revengeance AIs"
+			Tooltip: Revengeance mode AI for other mods
+		}
+
+		Eternity: {
+			Label: "[i/s1:3577] Eternity AIs"
+			Tooltip: Eternity mode AI for other mods
+		}
+
+		Infernum: {
+			Label: "[i/s1:2701] Infernum counts as Eternity"
+			Tooltip: Infernum mode counts as Malice + Eternity mode for supported (other) mods' bosses
+		}
+
+		BossRush: {
+			Label: "[i/s1:43] Boss Rush support"
+			Tooltip:
+				'''
+				Adds supported mods' bosses to boss rush
+				NOTE: These mods' corresponding support toggle must be enabled!
+				'''
+		}
+
+		DefenseDamage: {
+			Label: "[i/s1:442] Defense Damage Support"
+			Tooltip: Allows defense damage integration for supported mods
+		}
+
+		Consolaria: {
+			Label: "[g:2] Consolaria"
+			Tooltip: <Revengeance+>Consolaria
+		}
+
+		Homeward: {
+			Label: "[i/s1:4765] Homeward Journey"
+			Tooltip: <Revengeance+>ContinentOfJourney
+		}
+
+		Redemption: {
+			Label: "[i/s1:554] Redemption"
+			Tooltip: <Revengeance+>Redemption
+		}
+
+		SOTS: {
+			Label: "[i/s1:3581] Secret of the Shadows"
+			Tooltip: <Revengeance+>SOTS
+		}
+
+		Spooky: {
+			Label: "[i/s1:1725] Spooky"
+			Tooltip: <Revengeance+>Spooky
+		}
+
+		Split: {
+			Label: "[i/s1:121] Split"
+			Tooltip: <Revengeance+>Split
+		}
+	}
+}
