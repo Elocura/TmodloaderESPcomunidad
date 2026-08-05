@@ -9,7 +9,7 @@ Toggler: {
 	DevastationForceHeader: Devastation Force
 	ExaltationForceHeader: Exaltation Force
 	RadianceEffect: Radiance
-	GravistarSabatonEffect: Gravistar Sabaton
+	GravistarSabatonEffect: Interstellar Stompers
 	UrsaSergeantEffect: Ursa Sergeant
 	AstralStarsEffect: Astral Stars
 	AtaxiaEffects: Hydrothermic Effects
@@ -19,8 +19,14 @@ Toggler: {
 	FungalSymbioteEffects: Fungal Symbiote
 	ShellfishMinionEffect: Shellfish Minion
 	GiantPearlEffect: Giant Pearl
+	MolluskEffect: Mollusk Effects
+	PrismaticEffects: Prismatic Effects
+	DesertProwlerEffects: Desert Prowler Effects
+	TitanHeartEffects: Titan Heart Effects
+	LunicCorpsEffects: Lunic Corps Effects
 	AquaticEmblemEffect: Aquatic Emblem
 	DaedalusEffects: Daedalus Effects
+	PlagueBringerEffects: Plaguebringer Effects
 	DaedalusMinionEffect: Daedalus Crystal
 	GoldiePetEffect: Goldie Pet
 	OmegaBlueTentaclesEffect: Omega Blue Tentacles
@@ -33,7 +39,7 @@ Toggler: {
 	PlagueFuelPackEffects: Plagued Fuel Pack
 	TheCamperEffects: The Camper
 	TarragonEffects: Tarragon Effects
-	BloodflareEffects: Bloodflare "Effects"
+	BloodflareEffects: Bloodflare Effects
 	IntergelacticOrbit: Intergelactic Effects
 	InfluxClusterEffects: Influx Cluster
 	PolterMinesEffect: Polter Mines
@@ -43,7 +49,7 @@ Toggler: {
 	SilvaEffects: Silva Effects
 	SilvaMinionEffects: Silva Minion
 	AmalgamEffects: The Amalgam
-	AuricSoulArtifactEffects: Auric Soul Artifact
+	AuricSoulArtifactEffects: Faded Idolatry
 	YharimsGiftEffect: Yharims Gift
 	AuricEffects: Auric Effects
 	HeartOfTheElementsEffects: Heart Of The Elements
@@ -61,6 +67,7 @@ Toggler: {
 	MarchingBandEffect: Marching Band Effects
 	TideGlobules: Tide Turner Crown Effects
 	ValadiumEffects: Valadium Effects
+	GemTechEffects: Gem Tech Effects
 	AlfheimForceHeader: Alfheim Force
 	AsgardForceHeader: Asgard Force
 	HelheimForceHeader: Helheim Force
@@ -87,7 +94,6 @@ Toggler: {
 	IridescentEffects: Iridescent Effects
 	EqualizerEffects: Equalizer
 	LifeQuartzShieldEffects: Life Quartz Shield
-	AloeLeafEffects: Dew Collector
 	NirvanaStatuetteEffects: Nirvana Statuette
 	MaskOfTheCrystalEyeEffects: Mask of the Crystal Eye
 	FlawlessChrysalisEffects: Flawless Chrysalis
@@ -112,6 +118,11 @@ Toggler: {
 	TerrariumEffects: Terrarium Effects
 	TerrariumSurroundSoundEffects: Terrarium Surround Sound
 	VanaheimForceHeader: Vanaheim Force
+	CorruptionForceHeader: Corruption Force
+	ElementsForceHeader: Elements Force
+	FrostForceHeader: Frost Force
+	MachineForceHeader: Machine Force
+	VoidForceHeader: Void Force
 	ShadeMasterEffect: Shade Master Effects
 	ShinobiSigilEffect: Shinobi Sigil
 	IllumiteEffects: Illumite Effects
@@ -182,7 +193,7 @@ Toggler: {
 	PlagueLordFlaskEffects: Plague Lord Flask
 	DissTrackEffect: Diss Track Effects
 	AngelicAllianceEffect: Angelic Alliance
-	VoidOfExtinctionEffects: Void of Extinction
+	VoidOfExtinctionEffects: Apollyon
 	FrostFlareEffect: Frost Flare
 	TheAbsorberEffects: The Absorber
 	AfflictionEffects: Affliction
@@ -199,11 +210,11 @@ Toggler: {
 	LeviathanAmbergrisEffects: Leviathan Ambergris
 	HideOfAstrumDeusEffect: Hide of Astrum Deus
 	PhantomicArtifactEffects: Phantom Artifact
-	RegenatorEffects: Regenator
+	RegenatorEffects: Regenerator
 	DaawnlightSpiritOriginEffects: Daawnlight Spirit Origin
 	OldDukeScalesEffect: Old Duke Scales
 	DeepDiverEffect: Deep Diver
-	AlchemicalFlaskEffects: Alchemical Flask
+	AlchemicalFlaskEffects: Alchemical Decanter
 	DragonScalesEffects: Dragon Scales
 	VenetratedLocketEffects: Venetrated Locket
 	FleshTotemEffects: Flesh Totem
@@ -212,7 +223,7 @@ Toggler: {
 	TheBeeEffects: The Bee
 	HowlsHeartEffect: Howls Heart
 	WulfrumAcrobaticsEffect: Wulfrum Acrobatics Pack
-	RustyMedallionEffects: Rusty Medallion
+	RustyMedallionEffects: Scions Curio
 	ShieldOfTheHighRulerEffects: Shield of the High Ruler
 	ShieldOfTheOceanEffects: Shield of the Ocean
 	SlagslitterPauldronEffects: Slagsplitter Pauldron
@@ -238,6 +249,9 @@ Toggler: {
 	HungeringBlossomEffects: Hungering Blossom
 	ProofOfAraviceEffects: Proof of Avarice
 	ProofOfAvariceEffects: Proof of Avarice
+	SunnyMinion: Sunny Pet
+	PurpleBalloonMinion: Purple Balloon Minion
+	DrillArm: Drill Arm
 }
 
 Items: {
@@ -251,7 +265,7 @@ Items: {
 		DisplayName: Annihilation Force
 	}
 
-	WulfrumEnchantment: {
+	WulfrumEnchant: {
 		Tooltip:
 			'''
 			Not to be confused with Tungsten Enchantment…'
@@ -261,7 +275,7 @@ Items: {
 		DisplayName: Wulfrum Enchantment
 	}
 
-	VictideEnchantment: {
+	VictideEnchant: {
 		Tooltip:
 			'''
 			The former seas have energized you…
@@ -273,7 +287,7 @@ Items: {
 		DisplayName: Victide Enchantment
 	}
 
-	UmbraphileEnchantment: {
+	UmbraphileEnchant: {
 		Tooltip:
 			'''
 			+110 maximum stealth
@@ -284,50 +298,48 @@ Items: {
 		DisplayName: Umbraphile Enchantment
 	}
 
-	TarragonEnchantment: {
+	TarragonEnchant: {
 		Tooltip: ""
 		DisplayName: Tarragon Enchantment
 	}
 
-	SulphurousEnchantment: {
+	SulphurousEnchant: {
 		Tooltip: ""
 		DisplayName: Sulphurous Enchantment
 	}
 
-	StatigelEnchantment: {
+	StatigelEnchant: {
 		Tooltip: ""
 		DisplayName: Statigel Enchantment
 	}
 
-	SnowRuffianEnchantment: {
+	SnowRuffianEnchant: {
 		Tooltip:
 			'''
 			You can glide to negate fall damage
+			Rogue critical strikes inflic frostburn for 3 seconds
 			Effects of Scuttler's Jewel
 			'''
 		DisplayName: Snow Ruffian Enchantment
 	}
 
-	SilvaEnchantment: {
+	SilvaEnchant: {
 		Tooltip: ""
 		DisplayName: Silva Enchantment
 	}
 
-	ReaverEnchantment: {
+	ReaverEnchant: {
 		Tooltip:
 			'''
-			A thorny death awaits your enemies...
+			A quick death awaits your enemies...
 			Reduces the life regen lost from damage over time debuffs by 20%
-			All attacks steal life and speed up the rate of life regen
 			30% decreased movement speed and flight time
-			Enemy damage is reflected and summons a thorn spike
 			Reaver Rage activates when you are damaged
 			Grants immunity to fall damage and allows constant jumping
 			Reduces the cooldown of dashes
 			Highlights all treasure nearby
 			Increased item grab range and block placement range
-			Mining tiles restores breath while underwater
-			Summons a reaver orb to light up the area around you
+			You can now breathe underwater
 			Reduces enemy aggression, even in the abyss
 			Provides a small amount of light in the abyss
 			Effects of Bloom Stone and Necklace of Vexation
@@ -336,22 +348,22 @@ Items: {
 		DisplayName: Reaver Enchantment
 	}
 
-	PlagueReaperEnchantment: {
+	PlagueReaperEnchant: {
 		Tooltip: ""
 		DisplayName: Plague Reaper Enchantment
 	}
 
-	OmegaBlueEnchantment: {
+	OmegaBlueEnchant: {
 		Tooltip: ""
 		DisplayName: Omega Blue Enchantment
 	}
 
-	MolluskEnchantment: {
+	MolluskEnchant: {
 		Tooltip:
 			'''
 			The world is your oyster
 			Two shellfishes aid you in combat
-			10% increased damage
+			10% increased damage reduction
 			Your horizontal movement is slowed
 			Effects of Giant Pearl, Shield of the Ocean, and Aquatic Emblem 
 			Effects of Ocean's Crest, Deep Diver and Luxor's Gift
@@ -359,78 +371,77 @@ Items: {
 		DisplayName: Mollusk Enchantment
 	}
 
-	GodSlayerEnchantment: {
+	GodSlayerEnchant: {
 		Tooltip: ""
 		DisplayName: God Slayer Enchantment
 	}
 
-	FearmongerEnchantment: {
+	FearmongerEnchant: {
 		Tooltip: ""
 		DisplayName: Fearmonger Enchantment
 	}
 
-	FathomSwarmerEnchantment: {
+	FathomSwarmerEnchant: {
 		Tooltip: ""
 		DisplayName: Fathom Swarmer Enchantment
 	}
 
-	EmpyreanEnchantment: {
+	EmpyreanEnchant: {
 		Tooltip: ""
 		DisplayName: Empyrean Enchantment
 	}
 
-	DemonShadeEnchantment: {
+	DemonShadeEnchant: {
 		Tooltip:
 			'''
 			Demonic power emanates from you…
 			100% increased summon damage and +10 max minions
 			Shadowbeams and demon scythes will fire down when you are hit
-			A friendly red devil follows you around
 			Press Y to enrage nearby enemies with a dark magic spell for 10 seconds
-			This makes them take 2.25x total damage, but they will deal 1.25x damage to you
+			This makes them take 1.5x total damage, but they will deal 1.25x damage to you
 			Effects of Profaned Soul Crystal, Shattered Community, Cirrus Dress, and Angelic Alliance
 			'''
 		DisplayName: Demonshade Enchantment
 	}
 
-	DaedalusEnchantment: {
+	DaedalusEnchant: {
 		Tooltip: ""
 		DisplayName: Daedalus Enchantment
 	}
 
-	BrimflameEnchantment: {
+	BrimflameEnchant: {
 		Tooltip:
 			'''
 			Press Y to trigger a brimflame frenzy effect
 			While under this effect, you get an additional 40% increase to magic damage
 			However, this comes at the cost of rapid life loss and no mana regeneration
 			This can be toggled off, however, a brimflame frenzy has a 30 second cooldown
-			Effects of Void of Extinction, Void of Calamity, Slagsplitter Pauldron, Flame-Licked Shell, and Chaos Stone
+			Effects of Apollyon, Void of Calamity, Slagsplitter Pauldron, Flame-Licked Shell, and Chaos Stone
 			'''
 		DisplayName: Brimflame Enchantment
 	}
 
-	BloodflareEnchantment: {
+	BloodflareEnchant: {
 		Tooltip: ""
 		DisplayName: Bloodflare Enchantment
 	}
 
-	AuricEnchantment: {
+	AuricEnchant: {
 		Tooltip: ""
 		DisplayName: Auric Enchantment
 	}
 
-	AtaxiaEnchantment: {
+	AtaxiaEnchant: {
 		Tooltip: ""
 		DisplayName: Hydrothermic Enchantment
 	}
 
-	AstralEnchantment: {
+	AstralEnchant: {
 		Tooltip: ""
 		DisplayName: Astral Enchantment
 	}
 
-	AerospecEnchantment: {
+	AerospecEnchant: {
 		Tooltip:
 			'''
 			The sky comes to your aid…
@@ -480,7 +491,7 @@ Items: {
 			'''
 	}
 
-	AssassinEnchantment: {
+	AssassinEnchant: {
 		DisplayName: Assassin Enchantment
 		Tooltip:
 			'''
@@ -492,7 +503,7 @@ Items: {
 			'''
 	}
 
-	NoviceClericEnchantment: {
+	NoviceClericEnchant: {
 		DisplayName: Novice Cleric Enchantment
 		Tooltip:
 			'''
@@ -503,7 +514,7 @@ Items: {
 			'''
 	}
 
-	SacredEnchantment: {
+	SacredEnchant: {
 		DisplayName: Sacred Enchantment
 		Tooltip:
 			'''
@@ -515,7 +526,7 @@ Items: {
 			'''
 	}
 
-	TemplarEnchantment: {
+	TemplarEnchant: {
 		DisplayName: Templar Enchantment
 		Tooltip:
 			'''
@@ -524,7 +535,7 @@ Items: {
 			'''
 	}
 
-	BiotechEnchantment: {
+	BiotechEnchant: {
 		DisplayName: Biotech Enchantment
 		Tooltip:
 			'''
@@ -535,7 +546,7 @@ Items: {
 			'''
 	}
 
-	EbonEnchantment: {
+	EbonEnchant: {
 		DisplayName: Ebon Enchantment
 		Tooltip:
 			'''
@@ -545,7 +556,7 @@ Items: {
 			'''
 	}
 
-	WarlockEnchantment: {
+	WarlockEnchant: {
 		DisplayName: Warlock Enchantment
 		Tooltip:
 			'''
@@ -557,7 +568,7 @@ Items: {
 			'''
 	}
 
-	FallenPaladinEnchantment: {
+	FallenPaladinEnchant: {
 		DisplayName: Fallen Paladin Enchantment
 		Tooltip:
 			'''
@@ -569,7 +580,7 @@ Items: {
 			'''
 	}
 
-	IridescentEnchantment: {
+	IridescentEnchant: {
 		DisplayName: Iridescent Enchantment
 		Tooltip:
 			'''
@@ -580,7 +591,7 @@ Items: {
 			'''
 	}
 
-	LifeBinderEnchantment: {
+	LifeBinderEnchant: {
 		DisplayName: Life Binder Enchantment
 		Tooltip:
 			'''
@@ -588,7 +599,7 @@ Items: {
 			Healing spells will shortly increase the healed player's maximum life by 50
 			Your radiant damage has a 15% chance to release a blinding flash of light
 			The flash heals nearby allies equal to your bonus healing and confuses enemies
-			Effects of Dew Collector, Flawless Chrysalis, Equalizer, Spirit's Grace, and Life Quartz Shield
+			Effects of Flawless Chrysalis, Equalizer, Spirit's Grace, and Life Quartz Shield
 			'''
 	}
 
@@ -599,13 +610,13 @@ Items: {
 			Elven mysteries unfold before you...
 			All armor bonuses from Novice Cleric, Sacred, Warlock, and Biotech
 			All armor bonuses from Iridescent, Life Binder, Templar, and Fallen Paladin
-			Effects of Demon Tongue, Dark Effigy, Flawless Chrysalis, Dew Collector, Equalizer, and Life Quartz Shield
+			Effects of Demon Tongue, Dark Effigy, Flawless Chrysalis, Equalizer, and Life Quartz Shield
 			Effects of Dark Heart, Karmic Holder, Nurse Purse, Sandweaver's Tiara, Prydwen, Blast Shield, and Nirvana Statuette
 			Effects of Mantle of the Protector, High-tech Sonar Device, Spirit's Grace, and Yuma's Pendant
 			'''
 	}
 
-	CrierEnchantment: {
+	CrierEnchant: {
 		DisplayName: Crier Enchantment
 		Tooltip:
 			'''
@@ -615,7 +626,7 @@ Items: {
 			'''
 	}
 
-	NobleEnchantment: {
+	NobleEnchant: {
 		DisplayName: Noble Enchantment
 		Tooltip:
 			'''
@@ -625,7 +636,7 @@ Items: {
 			'''
 	}
 
-	MaestroEnchantment: {
+	MaestroEnchant: {
 		DisplayName: Maestro Enchantment
 		Tooltip:
 			'''
@@ -636,7 +647,7 @@ Items: {
 			'''
 	}
 
-	MarchingBandEnchantment: {
+	MarchingBandEnchant: {
 		DisplayName: Marching Band Enchantment
 		Tooltip:
 			'''
@@ -646,7 +657,7 @@ Items: {
 			'''
 	}
 
-	CyberPunkEnchantment: {
+	CyberPunkEnchant: {
 		DisplayName: Cyber Punk Enchantment
 		Tooltip:
 			'''
@@ -657,7 +668,7 @@ Items: {
 			'''
 	}
 
-	OrnateEnchantment: {
+	OrnateEnchant: {
 		DisplayName: Ornate Enchantment
 		Tooltip:
 			'''
@@ -680,7 +691,7 @@ Items: {
 			'''
 	}
 
-	ShootingStarEnchantment: {
+	ShootingStarEnchant: {
 		DisplayName: Shooting Star Enchantment
 		Tooltip:
 			'''
@@ -691,7 +702,7 @@ Items: {
 			'''
 	}
 
-	LichEnchantment: {
+	LichEnchant: {
 		DisplayName: Lich Enchantment
 		Tooltip:
 			'''
@@ -704,7 +715,7 @@ Items: {
 			'''
 	}
 
-	PlagueDoctorEnchantment: {
+	PlagueDoctorEnchant: {
 		DisplayName: Plague Doctor Enchantment
 		Tooltip:
 			'''
@@ -714,7 +725,7 @@ Items: {
 			'''
 	}
 
-	CelestialEnchantment: {
+	CelestialEnchant: {
 		DisplayName: Celestial Enchantment
 		Tooltip:
 			'''
@@ -724,7 +735,7 @@ Items: {
 			'''
 	}
 
-	WhiteDwarfEnchantment: {
+	WhiteDwarfEnchant: {
 		DisplayName: White Dwarf Enchantment
 		Tooltip:
 			'''
@@ -747,7 +758,7 @@ Items: {
 			'''
 	}
 
-	LivingWoodEnchantment: {
+	LivingWoodEnchant: {
 		DisplayName: Living Wood Enchantment
 		Tooltip:
 			'''
@@ -758,7 +769,7 @@ Items: {
 			'''
 	}
 
-	BulbEnchantment: {
+	BulbEnchant: {
 		DisplayName: Bulb Enchantment
 		Tooltip:
 			'''
@@ -768,7 +779,7 @@ Items: {
 			'''
 	}
 
-	LifeBloomEnchantment: {
+	LifeBloomEnchant: {
 		DisplayName: Life Bloom Enchantment
 		Tooltip:
 			'''
@@ -781,7 +792,7 @@ Items: {
 			'''
 	}
 
-	FlightEnchantment: {
+	FlightEnchant: {
 		DisplayName: Flight Enchantment
 		Tooltip:
 			'''
@@ -791,7 +802,7 @@ Items: {
 			'''
 	}
 
-	FungusEnchantment: {
+	FungusEnchant: {
 		DisplayName: Fungus Enchantment
 		Tooltip:
 			'''
@@ -801,7 +812,7 @@ Items: {
 			'''
 	}
 
-	DangerEnchantment: {
+	DangerEnchant: {
 		DisplayName: Danger Enchantment
 		Tooltip:
 			'''
@@ -811,7 +822,7 @@ Items: {
 			'''
 	}
 
-	SandstoneEnchantment: {
+	SandstoneEnchant: {
 		DisplayName: Sandstone Enchantment
 		Tooltip:
 			'''
@@ -853,7 +864,7 @@ Items: {
 			'''
 	}
 
-	DarksteelEnchantment: {
+	DarksteelEnchant: {
 		DisplayName: Darksteel Enchantment
 		Tooltip:
 			'''
@@ -866,7 +877,7 @@ Items: {
 			'''
 	}
 
-	SteelEnchantment: {
+	SteelEnchant: {
 		DisplayName: Steel Enchantment
 		Tooltip:
 			'''
@@ -876,7 +887,7 @@ Items: {
 			'''
 	}
 
-	ConduitEnchantment: {
+	ConduitEnchant: {
 		DisplayName: Conduit Enchantment
 		Tooltip:
 			'''
@@ -888,7 +899,7 @@ Items: {
 			'''
 	}
 
-	DurasteelEnchantment: {
+	DurasteelEnchant: {
 		DisplayName: Durasteel Enchantment
 		Tooltip:
 			'''
@@ -899,7 +910,7 @@ Items: {
 			'''
 	}
 
-	BronzeEnchantment: {
+	BronzeEnchant: {
 		DisplayName: Bronze Enchantment
 		Tooltip:
 			'''
@@ -909,7 +920,7 @@ Items: {
 			'''
 	}
 
-	GraniteEnchantment: {
+	GraniteEnchant: {
 		DisplayName: Granite Enchantment
 		Tooltip:
 			'''
@@ -919,7 +930,7 @@ Items: {
 			'''
 	}
 
-	TitanEnchantment: {
+	TitanEnchant: {
 		DisplayName: Titan Enchantment
 		Tooltip:
 			'''
@@ -942,7 +953,7 @@ Items: {
 			'''
 	}
 
-	JesterEnchantment: {
+	JesterEnchant: {
 		DisplayName: Jester Enchantment
 		Tooltip:
 			'''
@@ -952,7 +963,7 @@ Items: {
 			'''
 	}
 
-	TerrariumEnchantment: {
+	TerrariumEnchant: {
 		DisplayName: Terrarium Enchantment
 		Tooltip:
 			'''
@@ -1008,7 +1019,7 @@ Items: {
 		}
 	}
 
-	ThoriumEnchantment: {
+	ThoriumEnchant: {
 		DisplayName: Thorium Enchantment
 		Tooltip:
 			'''
@@ -1019,7 +1030,7 @@ Items: {
 			'''
 	}
 
-	ValadiumEnchantment: {
+	ValadiumEnchant: {
 		DisplayName: Valadium Enchantment
 		Tooltip:
 			'''
@@ -1030,7 +1041,7 @@ Items: {
 			'''
 	}
 
-	ShadeMasterEnchantment: {
+	ShadeMasterEnchant: {
 		DisplayName: Shade Master Enchantment
 		Tooltip:
 			'''
@@ -1040,7 +1051,7 @@ Items: {
 			'''
 	}
 
-	GeodeEnchantment: {
+	GeodeEnchant: {
 		DisplayName: Geode Enchantment
 		Tooltip:
 			'''
@@ -1052,7 +1063,7 @@ Items: {
 			'''
 	}
 
-	LodestoneEnchantment: {
+	LodestoneEnchant: {
 		DisplayName: Lodestone Enchantment
 		Tooltip:
 			'''
@@ -1063,7 +1074,7 @@ Items: {
 			'''
 	}
 
-	IllumiteEnchantment: {
+	IllumiteEnchant: {
 		DisplayName: Illumite Enchantment
 		Tooltip:
 			'''
@@ -1092,7 +1103,7 @@ Items: {
 			'''
 	}
 
-	YewWoodEnchantment: {
+	YewWoodEnchant: {
 		DisplayName: Yew Wood Enchantment
 		Tooltip:
 			'''
@@ -1102,7 +1113,7 @@ Items: {
 			'''
 	}
 
-	TideHunterEnchantment: {
+	TideHunterEnchant: {
 		DisplayName: Tide Hunter Enchantment
 		Tooltip:
 			'''
@@ -1113,7 +1124,7 @@ Items: {
 			'''
 	}
 
-	WhisperingEnchantment: {
+	WhisperingEnchant: {
 		DisplayName: Whispering Enchantment
 		Tooltip:
 			'''
@@ -1124,7 +1135,7 @@ Items: {
 			'''
 	}
 
-	DepthDiverEnchantment: {
+	DepthDiverEnchant: {
 		DisplayName: Depth Diver Enchantment
 		Tooltip:
 			'''
@@ -1137,7 +1148,7 @@ Items: {
 			'''
 	}
 
-	OceanEnchantment: {
+	OceanEnchant: {
 		DisplayName: Ocean Enchantment
 		Tooltip:
 			'''
@@ -1148,7 +1159,7 @@ Items: {
 			'''
 	}
 
-	CryomancerEnchantment: {
+	CryomancerEnchant: {
 		DisplayName: Cryomancer Enchantment
 		Tooltip:
 			'''
@@ -1160,7 +1171,7 @@ Items: {
 			'''
 	}
 
-	IcyEnchantment: {
+	IcyEnchant: {
 		DisplayName: Icy Enchantment
 		Tooltip:
 			'''
@@ -1169,7 +1180,7 @@ Items: {
 			'''
 	}
 
-	NagaSkinEnchantment: {
+	NagaSkinEnchant: {
 		DisplayName: Naga-Skin Enchantment
 		Tooltip:
 			'''
@@ -1196,7 +1207,7 @@ Items: {
 			'''
 	}
 
-	DragonEnchantment: {
+	DragonEnchant: {
 		DisplayName: Dragon Enchantment
 		Tooltip:
 			'''
@@ -1206,7 +1217,7 @@ Items: {
 			'''
 	}
 
-	DreadEnchantment: {
+	DreadEnchant: {
 		DisplayName: Dread Enchantment
 		Tooltip:
 			'''
@@ -1218,7 +1229,7 @@ Items: {
 			'''
 	}
 
-	MalignantEnchantment: {
+	MalignantEnchant: {
 		DisplayName: Malignant Enchantment
 		Tooltip:
 			'''
@@ -1228,7 +1239,7 @@ Items: {
 			'''
 	}
 
-	SilkEnchantment: {
+	SilkEnchant: {
 		DisplayName: Silk Enchantment
 		Tooltip:
 			'''
@@ -1237,7 +1248,7 @@ Items: {
 			'''
 	}
 
-	SpiritTrapperEnchantment: {
+	SpiritTrapperEnchant: {
 		DisplayName: Spirit Trapper Enchantment
 		Tooltip:
 			'''
@@ -1249,7 +1260,7 @@ Items: {
 			'''
 	}
 
-	DemonBloodEnchantment: {
+	DemonBloodEnchant: {
 		DisplayName: Demon Blood Enchantment
 		Tooltip:
 			'''
@@ -1261,7 +1272,7 @@ Items: {
 			'''
 	}
 
-	FleshEnchantment: {
+	FleshEnchant: {
 		DisplayName: Flesh Enchantment
 		Tooltip:
 			'''
@@ -1272,7 +1283,7 @@ Items: {
 			'''
 	}
 
-	WhiteKnightEnchantment: {
+	WhiteKnightEnchant: {
 		DisplayName: White Knight Enchantment
 		Tooltip:
 			'''
@@ -1284,7 +1295,7 @@ Items: {
 			'''
 	}
 
-	HarbingerEnchantment: {
+	HarbingerEnchant: {
 		DisplayName: Harbinger Enchantment
 		Tooltip:
 			'''
@@ -1322,7 +1333,7 @@ Items: {
 		Tooltip: A piece of what used to be...
 	}
 
-	MagmaEnchantment: {
+	MagmaEnchant: {
 		DisplayName: Magma Enchantment
 		Tooltip:
 			'''
@@ -1333,7 +1344,7 @@ Items: {
 			'''
 	}
 
-	BerserkerEnchantment: {
+	BerserkerEnchant: {
 		DisplayName: Berserker Enchantment
 		Tooltip:
 			'''
@@ -1397,7 +1408,7 @@ Items: {
 		Tooltip: A piece of what used to be...
 	}
 
-	DreamWeaverEnchantment: {
+	DreamWeaverEnchant: {
 		DisplayName: Dream Weaver Enchantment
 		Tooltip:
 			'''
@@ -1410,7 +1421,7 @@ Items: {
 			'''
 	}
 
-	TideTurnerEnchantment: {
+	TideTurnerEnchant: {
 		DisplayName: Tide Turner Enchantment
 		Tooltip:
 			'''
@@ -1425,7 +1436,7 @@ Items: {
 			'''
 	}
 
-	PyromancerEnchantment: {
+	PyromancerEnchant: {
 		DisplayName: Pyromancer Enchantment
 		Tooltip:
 			'''
@@ -1436,7 +1447,7 @@ Items: {
 			'''
 	}
 
-	RhapsodistEnchantment: {
+	RhapsodistEnchant: {
 		DisplayName: Rhapsodist Enchantment
 		Tooltip:
 			'''
@@ -1824,12 +1835,12 @@ Items: {
 			'''
 	}
 
-	PrairieEnchantment: {
+	PrairieEnchant: {
 		DisplayName: Prairie Enchantment
 		Tooltip: ""
 	}
 
-	FrozenEnchantment: {
+	FrozenEnchant: {
 		DisplayName: Frozen Enchantment
 		Tooltip:
 			'''
@@ -1841,7 +1852,7 @@ Items: {
 			'''
 	}
 
-	IntergelacticEnchantment: {
+	IntergelacticEnchant: {
 		DisplayName: Intergelactic Enchantment
 		Tooltip:
 			'''
@@ -1856,7 +1867,7 @@ Items: {
 			'''
 	}
 
-	ShogunEnchantment: {
+	ShogunEnchant: {
 		DisplayName: Shogun Enchantment
 		Tooltip:
 			'''
@@ -1869,7 +1880,7 @@ Items: {
 			'''
 	}
 
-	VoidFaquirEnchantment: {
+	VoidFaquirEnchant: {
 		DisplayName: Void Faquir Enchantment
 		Tooltip:
 			'''
@@ -1896,7 +1907,7 @@ Items: {
 			'''
 	}
 
-	PhantasmalEnchantment: {
+	PhantasmalEnchant: {
 		DisplayName: Phantasmal Enchantment
 		Tooltip:
 			'''
@@ -1905,14 +1916,351 @@ Items: {
 			'''
 	}
 
-	DragonEnchantmentConsolaria: {
+	ConsolariaDragonEnchant: {
 		DisplayName: Dragon Enchantment
 		Tooltip: Creates a burst of flames after taking damage
 	}
 
-	TitanEnchantmentConsolaria: {
+	ConsolariaTitanEnchant: {
 		DisplayName: Titan Enchantment
 		Tooltip: Using ranged weapons triggers a recoil blast
+	}
+
+	GemTechEnchant: {
+		Tooltip: ""
+		DisplayName: Gem Tech Enchantment
+	}
+
+	PlaguebringerEnchant: {
+		DisplayName: Plaguebringer Enchantment
+		Tooltip: ""
+	}
+
+	DesertProwlerEnchant: {
+		DisplayName: Desert Prowler Enchantment
+		Tooltip:
+			'''
+			Ranged attacks deal an extra 1 flat damage
+			Sandsmoke Bomb - Double tap DOWN to shroud yourself in a small cloud of sand
+			While the sand cloud is active, gain increased mobility but heavily reduced defense
+			Using a ranged weapon instantly dispels the sand cloak, but guarantees a supercrit for 200% damage
+			The super crit applies only as long as the resulting hit wouldn't exceed 100 damage
+			Landing the killing blow on an enemy with this shot shortens the ability's cooldown to 1.5 seconds
+			'''
+	}
+
+	LunicCorpsEnchant: {
+		DisplayName: Lunic Corps Enchantment
+		Tooltip:
+			'''
+			Projects a bubble shield that absorbs up to 50 damage
+			The shield starts recharging 5 seconds after being hit
+			Recharging from zero to full charge takes 2 seconds
+			Being hit again while recharging restarts the charge timer
+			20% increased jump speed
+			'Finish the Fight'
+			'''
+	}
+
+	PrismaticEnchant: {
+		DisplayName: Prismatic Enchantment
+		Tooltip:
+			'''
+			Increased mana regeneration rate
+			Press Armor Set Bonus to unleash a barrage of death lasers at the cursor for the next 5 seconds
+			This has a 30 second cooldown
+			'''
+	}
+
+	TitanHeartEnchant: {
+		DisplayName: Titan Heart Enchantment
+		Tooltip:
+			'''
+			5% increased rogue knockback
+			+100 maximum stealth
+			Stealth strikes deal double knockback and cause an astral explosion
+			Grants immunity to knockback
+			'''
+	}
+
+	VesperaEnchant: {
+		DisplayName: Vespera Enchant
+		Tooltip:
+			'''
+			Increases max void by 25 and void gain by 50%
+			Effects of Granite Protector
+			'''
+	}
+
+	CursedEnchant: {
+		DisplayName: Cursed Enchant
+		Tooltip:
+			'''
+			Press Armor Set to change the Ruby Monolith into an offensive stance
+			While in offensive stance, decreases the cooldown of Curse Flaring by 80%
+			However, increases void drain by 6 instead of increasing void regeneration speed by 10%
+			Effects of Heart in a Jar
+			Summons a Lucky Purple Balloon pet
+			'''
+	}
+
+	VibrantEnchant: {
+		DisplayName: Vibrant Enchant
+		Tooltip:
+			'''
+			Increases void gain by 2
+			Vibrant Pistol fires three shots at once at the cost of accuracy
+			Effects of Harvester's Scythe
+			'''
+	}
+
+	WormwoodEnchant: {
+		DisplayName: Wormwood Enchant
+		Tooltip:
+			'''
+			Summons three Blooming Hooks to assist in comba
+			Effects of Prickly Pear Shield
+			'''
+	}
+
+	FrigidEnchantSOTS: {
+		DisplayName: Frigid Enchant
+		Tooltip:
+			'''
+			Frigid Javelin no longer costs void
+			Decreases void damage by 15%
+					Increases life regeneration by 2
+			Immunity to Chilled, Frozen, and Frostburn
+					
+			'''
+	}
+
+	TwilightAssassinEnchant: {
+		DisplayName: Twilight Assassin Enchant
+		Tooltip:
+			'''
+			The Holo Eye now automatically attacks for you
+			Automatic attacks have a 25% chance to destabilize enemies, but the chance of applying it gets lower with each level already applied
+			Effects of Calculator
+			'''
+	}
+
+	VoidForce: {
+		DisplayName: Void Force
+		Tooltip:
+			'''
+			All armor bonuses from Vespera and Vibrant
+			All armor bonuses from Cursed and Twilight Assassin
+			Effects of Prickly Pear Shield, Granite Protector, and Harvester's Scythe
+			Effects of Heart in a Jar and Calculator
+			Summons a Lucky Purpe Balloon pet
+			'''
+	}
+
+	EarthenEnchant: {
+		DisplayName: Earthen Enchant
+		Tooltip:
+			'''
+			Melee strikes have a chance to apply a stacking, permanent shred on enemies, making them take additional damage from all attacks
+			Increases attack speed by 20%
+			Effects of Lockpick and Elemental Amulet
+			'''
+	}
+
+	ElementalEnchant: {
+		DisplayName: Elemental Enchant
+		Tooltip:
+			'''
+			Enemies hit by the teleport will be frozen in time temporarily
+			Decreases cooldown on the teleport to 6 seconds and increases the range enemies will take damage from the teleport by 50%
+			Increases teleport damage based on void damage modifiers
+			Effecs of Bag of Chams and Ultimate Polarizer
+			'''
+	}
+
+	ElementsForce: {
+		DisplayName: Elements Force
+		Tooltip:
+			'''
+			All armor bonuses from Frigid and Wormwood
+			All armor bonuses from Earthen and Elemental
+			Effects of Lockpick and Elemental Amulet
+			Effects of Bag of Charms, Ultimate Polarizer, and Wormwood
+			'''
+	}
+
+	DrillforgeEnchant: {
+		DisplayName: Drillforge Enchant
+		Tooltip:
+			'''
+			Increases Missile Launcher Tail attack speed by 50%
+			Increases void regeneration speed by 30%
+			Effects of Drill Arm
+			'''
+	}
+
+	FrostArtifactEnchant: {
+		DisplayName: Frost Artifact Enchant
+		Tooltip:
+			'''
+			Most melee and ranged attacks summon a handful of Polar Cannons that each deal 25% damage
+			Effects of Shard Guard
+			'''
+	}
+
+	PatchLeatherEnchant: {
+		DisplayName: Patch Leather Enchant
+		Tooltip: Summons a flock of flying snakes to assist in combat
+	}
+
+	VoidspaceRangerEnchant: {
+		DisplayName: Voidspace Ranger Enchant
+		Tooltip:
+			'''
+			Attacks permanently inflict the Subspace Flames debuff, which deals 10 damage per second
+			When an enemy with Subspace Flames is killed, they deal damage to all other enemies equal to the cumulative damage they took from Subspace Flames
+			Enemies that take damage this way will also be inflicted with Subspace Flames
+			Effects of Supspace Locket, Voidspace Emblem, and Focus Reticle
+			'''
+	}
+
+	MachineForce: {
+		DisplayName: Machine Force
+		Tooltip:
+			'''
+			All armor bonuses from Drillforge and Frost Artifact
+			All armor bonuses from Patch Leather and Voidspace Ranger
+			Effects of Drill Arm and Shard Guard
+			Effects of Supspace Locket, Voidspace Emblem, and Focus Reticle
+			'''
+	}
+
+	PossessedEnchant: {
+		DisplayName: Possessed Enchant
+		Tooltip:
+			'''
+			Health regeneration is increased when Ethereal Bond is active 
+			Double tap W to transform into a dashing skull
+			'''
+	}
+
+	JellyEnchant: {
+		Tooltip:
+			'''
+			Double tap W to summon Gellita Jr. to hold out the area for you!
+			Double tap W to recall Gellita Jr.
+			'''
+		DisplayName: Jelly Enchant
+	}
+
+	GravekeeperEnchant: {
+		Tooltip:
+			'''
+			Increases your max number of minions 
+			Double tap UP to transform into Ethereal Moth
+			Recharges with minion damage dealt and over time
+			Effects of Voodoo Heart
+			'''
+		DisplayName: Gravekeeper Enchant
+	}
+
+	CrabEnchant: {
+		Tooltip: Blocks melee attacks and reduces projectile damage from behind
+		DisplayName: Crab Enchant
+	}
+
+	TectonicEnchant: {
+		DisplayName: Tectonic Enchant
+		Tooltip:
+			'''
+			Drop exploding Cinnabar Bombs on kill
+			Effects of Matchbook and Painmaker
+			Summons a pet Sunny
+			'''
+	}
+
+	WarlochEnchant: {
+		DisplayName: Warloch Enchant
+		Tooltip:
+			'''
+			You can reel in and devour aquatic creatures using your whip
+			Devouring grants damage and defensive buffs
+			Your prey is hightlighted in red
+			Effects of Purple Tearstone Ring
+			'''
+	}
+
+	CorruptionForce: {
+		DisplayName: Corruption Force
+		Tooltip:
+			'''
+			All armor bonuses from Possessed, Gravekeeper, and Warloch
+			All armor bonuses from Tectonic, Jelly, and Crab
+			Effects of Voodoo Heart and Matchbook
+			Effects of Painmaker and Purple Tearstone Ring
+
+			'''
+	}
+
+	FrostForce: {
+		Tooltip:
+			'''
+			All armor bonuses from Rimebreaker, Star Ranger, and Stargazer
+			All armor bonuses from Frostbite and Contraptionist
+			Effects of Mystic Pack, The Iceberg, and Malachite Box
+			Effects of Chilling Catalyst and Mycelium Fortress
+			'''
+		DisplayName: Frost Force
+	}
+
+	StarRangerEnchant: {
+		Tooltip:
+			'''
+			Gradually restore the Shattered Star by dealing damage with ranged weapons 
+			When fully restored, use a magic weapon to become Galactically Awesome!
+			Effects of Mystic Pack
+			'''
+		DisplayName: Star Ranger Enchant
+	}
+
+	StargazerEnchant: {
+		Tooltip:
+			'''
+			Your graceful movements emit magnificent stardust to dazzle nearby enemies 
+			During Mana Overload, your projectiles will emit it too
+			'''
+		DisplayName: Stargazer Enchant
+	}
+
+	RimebreakerEnchant: {
+		Tooltip:
+			'''
+			Summons a Glacial Echo to drive his cool sword into enemies while
+			Each time he deals damage to enemies, you obtain a stack of Icebreak 
+			Effects of The Iceberg and Malachite Box
+			'''
+		DisplayName: Rimebreaker Enchant
+	}
+
+	FrostbiteEnchant: {
+		Tooltip:
+			'''
+			Grants immunity to cold debuffs
+			Effects of Chilling Catalyst
+			'''
+		DisplayName: Frostbite Enchant
+	}
+
+	ContraptionistEnchant: {
+		Tooltip:
+			'''
+			Increases your max number of minions by I 
+			Summons a Helical Contraption turret to mow down focused enemies 
+			Killing enemies and damaging bosses drops ammunition 
+			Double tap UP to toggle the turret
+			Effects of Mycelium Fortress
+			'''
+		DisplayName: Contraptionist Enchant
 	}
 }
 
@@ -1936,6 +2284,31 @@ Configs: {
 		DisableEnchantmentPets: {
 			Label: Disable Enchantment Pets
 			Tooltip: ""
+		}
+
+		DisableOfficialFargoDLCEnchantments: {
+			Label: Disable Official Fargo D L C Enchantments
+			Tooltip: ""
+		}
+	}
+}
+
+NPCs: {
+	Echdeath.DisplayName: Echdeath
+	SquirrelChatHandler.DisplayName: Squirrel Chat Handler
+
+	SquirrelChatBridge: {
+		DisplayName: Squirrel Chat Bridge
+
+		TownNPCMood: {
+			Content: I am content.
+			NoHome: I hate not having a home.
+			FarFromHome: I am too far from home.
+			LoveSpace: I love having so much space.
+			DislikeCrowded: I dislike how crowded I am.
+			HateCrowded: I hate how crowded I am.
+			LikeNPC_Princess: I like {NPCName}.
+			Princess_LovesNPC: I like {NPCName}.
 		}
 	}
 }
