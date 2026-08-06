@@ -20,16 +20,16 @@ Toggler: {
 	ShellfishMinionEffect: Súbdito molusco
 	GiantPearlEffect: Perla gigante
 	MolluskEffect: Efecto de Moluscos
-	PrismaticEffects: Prismatic Effects
-	DesertProwlerEffects: Desert Prowler Effects
-	TitanHeartEffects: Titan Heart Effects
-	LunicCorpsEffects: Lunic Corps Effects
+	PrismaticEffects: Efectos Prismáticos
+	DesertProwlerEffects: Efectos del Acechador del desierto
+	TitanHeartEffects: Efectos del Corazón de Titán
+	LunicCorpsEffects: Efectos del Cuerpo Lúnico
 	AquaticEmblemEffect: Emblema acuático
 	DaedalusEffects: Efectos de Dédalo
-	PlagueBringerEffects: Plaguebringer Effects
+	PlagueBringerEffects: Efectos del Portador de plagas
 	DaedalusMinionEffect: Cristal de dédalo
 	GoldiePetEffect: Mascota Goldie
-	OmegaBlueTentaclesEffect: Tentáculos de Omega azul
+	OmegaBlueTentaclesEffect: Tentáculos de azul Omega
 	AbyssalDivingSuitEffect: Traje de buceo abisal
 	RedDevilMinionEffect: Súbdito diablo rojo
 	ProfanedSoulCrystalEffect: Cristal de alma profanada
@@ -39,7 +39,7 @@ Toggler: {
 	PlagueFuelPackEffects: Mochila de combustible infectado
 	TheCamperEffects: El campista
 	TarragonEffects: Efectos de Tarragon
-	BloodflareEffects: Efectos de Bloodflare
+	BloodflareEffects: Efectos de Llamas de sangre
 	IntergelacticOrbit: Efectos intergalácticos
 	InfluxClusterEffects: Clúster de afluencia
 	PolterMinesEffect: Minas fantasma
@@ -67,7 +67,7 @@ Toggler: {
 	MarchingBandEffect: Efectos de Banda de guerra
 	TideGlobules: Efectos de la Corona del rompetormentas
 	ValadiumEffects: Efectos de Valadium
-	GemTechEffects: Gem Tech Effects
+	GemTechEffects: Efectos de Tecnología de gemas
 	AlfheimForceHeader: Fuerza de Alfheim
 	AsgardForceHeader: Fuerza de Asgard
 	HelheimForceHeader: Fuerza de Helheim
@@ -198,7 +198,7 @@ Toggler: {
 	TheAbsorberEffects: El absorbedor
 	AfflictionEffects: Aflicción
 	AmadiasPendantEffects: Colgante de Amadia
-	BloodflareCoreEffects: Núcleo Bloodflare
+	BloodflareCoreEffects: Núcleo llama de sangre
 	BloomStoneEffects: Piedra floreciente
 	BlunderBoostEffect: Impulsor de torpeza
 	DynamoStemCellsEffect: Células madre dinamo
@@ -213,7 +213,7 @@ Toggler: {
 	RegenatorEffects: Regenerador
 	DaawnlightSpiritOriginEffects: Origen del espíritu de la luz del Alba
 	OldDukeScalesEffect: Escamas del Viejo Duque
-	DeepDiverEffect: Buceador profundo
+	DeepDiverEffect: Buzo profundo
 	AlchemicalFlaskEffects: Decantador alquímico
 	DragonScalesEffects: Escamas de dragón
 	VenetratedLocketEffects: Relicario venerado
@@ -229,8 +229,8 @@ Toggler: {
 	SlagslitterPauldronEffects: Espaldar de Cortaescombro
 	EtherealExtorterEffects: Extorsionador etéreo
 	AquaticHeartEffects: Corazón acuático
-	BloodflareRitualistEffects: Efectos del Ritualista Bloodflare
-	SnowRuffianEffect: Efecto del Rufián de nieve
+	BloodflareRitualistEffects: Efectos del Ritualista llama de sangre
+	SnowRuffianEffect: Efecto del Rufián la de nieve
 	LizhardTailEffect: Cola de Lizhard
 	SerpentShieldEffect: Escudo de la serpiente
 	AirWalkersEffect: Caminantes del aire
@@ -295,7 +295,7 @@ Items: {
 			Los ataques sigilosos siempre crean una explosión
 			Otorga los efectos de la Moneda del ladrón, el Talismán vampírico y la Bufanda de evasión
 			'''
-		DisplayName: Encantamiento de Umbraphile
+		DisplayName: Encantamiento de Umbráfilas
 	}
 
 	TarragonEnchant: {
@@ -320,7 +320,7 @@ Items: {
 			Los golpes críticos de Rogue infligen Quemadura de hielo durante 3 segundos
 			Otorga los efectos de la Joya del escurridizo
 			'''
-		DisplayName: Encantamiento del Rufián de nieve
+		DisplayName: Encantamiento del Rufián la de nieve
 	}
 
 	SilvaEnchant: {
@@ -355,7 +355,7 @@ Items: {
 
 	OmegaBlueEnchant: {
 		Tooltip: ""
-		DisplayName: Encantamiento de Omega azul
+		DisplayName: Encantamiento de Azul Omega
 	}
 
 	MolluskEnchant: {
@@ -365,8 +365,8 @@ Items: {
 			Dos moluscos te ayudan en combate
 			10% más de reducción de daños
 			Tu movimiento horizontal se ralentiza
-			Otorga los efectos de la Perla Gigante, Escudo del océano y Emblema acuático
-			También otorga los efectos de la Cresta oceánica, el Buceador profundo y el Regalo de Luxor
+			Otorga los efectos de la Perla gigante, Escudo del océano y Emblema acuático
+			También otorga los efectos de la Cresta oceánica, Buzo profundo y el Regalo de Luxor
 			'''
 		DisplayName: Encantamiento de Molusco
 	}
@@ -397,7 +397,7 @@ Items: {
 			Un poder demoníaco emana de ti…
 			Daño de invocación aumentado en 100% y +10 súbditos máximos
 			Rayos sombríos y guadañas demoníacas caen al ser golpeado
-			Pulsa Y para enfurecer a los enemigos cercanos con magia oscura durante 10 segundos
+			Pulsa 'Y' para enfurecer a los enemigos cercanos con magia oscura durante 10 segundos
 			Durante ese tiempo, reciben 1.5x daño total, pero infligen 1.25x daño a ti
 			Otorga los efectos del Cristal de alma profanada, Comunidad rota, Vestido de Cirrus y Alianza angélica
 			'''
@@ -412,18 +412,18 @@ Items: {
 	BrimflameEnchant: {
 		Tooltip:
 			'''
-			Pulsa Y para activar un frenesí de llamas abisales
+			Pulsa 'Y' para activar un frenesí de Llama de azufre
 			Durante este efecto, obtienes un aumento adicional del 40% al daño mágico
 			Sin embargo, esto provoca una rápida pérdida de vida y anula la regeneración de maná
 			Puede desactivarse, pero el frenesí tiene un tiempo de reutilización de 30 segundos
 			Otorga los efectos de Apolión, Vacío de la Calamidad, Espaldar de Cortaescombro, Concha lamida por llamas y Piedra del caos
 			'''
-		DisplayName: Encantamiento de Llama abisal
+		DisplayName: Encantamiento de Llama de azufre
 	}
 
 	BloodflareEnchant: {
 		Tooltip: ""
-		DisplayName: Encantamiento de Bloodflare
+		DisplayName: Encantamiento de Llama de sangre
 	}
 
 	AuricEnchant: {
@@ -454,12 +454,12 @@ Items: {
 	}
 
 	DevastationForce: {
-		DisplayName: Fuerza de devastación
+		DisplayName: Fuerza de Devastación
 		Tooltip: ""
 	}
 
 	ExaltationForce: {
-		DisplayName: Fuerza de exaltación
+		DisplayName: Fuerza de Exaltación
 		Tooltip: ""
 	}
 
@@ -1935,58 +1935,58 @@ Items: {
 
 	GemTechEnchant: {
 		Tooltip: ""
-		DisplayName: Gem Tech Enchantment
+		DisplayName: Encantamiento de tecnología de gema
 	}
 
 	PlaguebringerEnchant: {
-		DisplayName: Plaguebringer Enchantment
+		DisplayName: Encantamiento Portador de plagas
 		Tooltip: ""
 	}
 
 	DesertProwlerEnchant: {
-		DisplayName: Desert Prowler Enchantment
+		DisplayName: Encantamiento del Acechador del desierto
 		Tooltip:
 			'''
-			Ranged attacks deal an extra 1 flat damage
-			Sandsmoke Bomb - Double tap DOWN to shroud yourself in a small cloud of sand
-			While the sand cloud is active, gain increased mobility but heavily reduced defense
-			Using a ranged weapon instantly dispels the sand cloak, but guarantees a supercrit for 200% damage
-			The super crit applies only as long as the resulting hit wouldn't exceed 100 damage
-			Landing the killing blow on an enemy with this shot shortens the ability's cooldown to 1.5 seconds
+			Los ataques a distancia infligen 1 punto de daño fijo adicional
+			Bomba de humo de arena: pulsa dos veces 'ABAJO' para envolverte en una pequeña nube de arena
+			Mientras la nube de arena esté activa, obtendrás una mayor movilidad, pero tu defensa será muy reducida
+			Usar un arma a distancia disipa instantáneamente la capa de arena, pero garantiza un supercrítico con un 200% de daño
+			El supercrítico se aplica solo mientras el golpe resultante no supere los 100 puntos de daño
+			Si este disparo aciertas el golpe final a un enemigo, el tiempo de reutilización de la habilidad se reduce a 1,5 segundos
 			'''
 	}
 
 	LunicCorpsEnchant: {
-		DisplayName: Lunic Corps Enchantment
+		DisplayName: Encantamiento del Cuerpo lúnico
 		Tooltip:
 			'''
-			Projects a bubble shield that absorbs up to 50 damage
-			The shield starts recharging 5 seconds after being hit
-			Recharging from zero to full charge takes 2 seconds
-			Being hit again while recharging restarts the charge timer
-			20% increased jump speed
-			'Finish the Fight'
+			Proyecta un escudo de burbujas que absorbe hasta 50 puntos de daño
+			El escudo comienza a recargarse 5 segundos después de ser golpeado
+			La recarga completa, desde cero hasta la carga total, tarda 2 segundos
+			Si se recibe otro impacto durante la recarga, el temporizador de carga se reiniciará
+			+20% de velocidad de salto
+			'Termina la pelea'
 			'''
 	}
 
 	PrismaticEnchant: {
-		DisplayName: Prismatic Enchantment
+		DisplayName: Encantamiento Prismático
 		Tooltip:
 			'''
-			Increased mana regeneration rate
-			Press Armor Set Bonus to unleash a barrage of death lasers at the cursor for the next 5 seconds
-			This has a 30 second cooldown
+			Mayor tasa de regeneración de maná
+			Pulsa 'Bonificación de conjunto de armadura' para lanzar una ráfaga de láseres mortales al cursor durante los próximos 5 segundos
+			Tiene un tiempo de reutilización de 30 segundos
 			'''
 	}
 
 	TitanHeartEnchant: {
-		DisplayName: Titan Heart Enchantment
+		DisplayName: Encantamiento del Corazón de Titán
 		Tooltip:
 			'''
-			5% increased rogue knockback
-			+100 maximum stealth
-			Stealth strikes deal double knockback and cause an astral explosion
-			Grants immunity to knockback
+			+5% retroceso de pícaro
+			+100 sigilo máximo
+			Los ataques sigilosos infligen el doble de retroceso y provocan una Explosión astral
+			Otorga inmunidad al retroceso
 			'''
 	}
 
