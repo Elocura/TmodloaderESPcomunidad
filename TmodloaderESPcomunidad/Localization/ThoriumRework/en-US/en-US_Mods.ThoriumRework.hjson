@@ -129,12 +129,6 @@ ItemDescriptions: {
 		Creates light slashes on a nearby enemy
 		Hit enemies will be illuminated and take 10% more damage
 		'''
-	CobaltPopper: Increases defense over time while being used
-	PalladiumSubmachineGun: Increases life regeneration over time while being used
-	MythrilPelter: Eventually doubles in attack speed while being used
-	OrichalcumPelter: Gradually increases attack speed over time while being used
-	AdamantiteCarbine: Increases crit chance over time while being used
-	TitaniumRifle: Increases armor penetration over time while being used
 	PyroclastStaff:
 		'''
 		Shoots a pattern of 1 to 5 pyroclastic fireballs
@@ -173,17 +167,12 @@ ItemDescriptions: {
 		Damage will sunder enemies, increasing the damage they take by 10%
 		Every third attack shoots magnetic payloads that home into sundered enemies
 		'''
-	LodeStoneQuickDraw:
-		'''
-		Damage will sunder enemies, increasing the damage they take by 10%
-		Every third attack shoots magnetic payloads that home into sundered enemies
-		'''
 	ValadiumBow:
 		'''
 		Damage will blast enemies with interdimensional energy
 		Every third attack smites the closest light accursed enemy with void light
 		'''
-	ValadiumFoeBlaster:
+	ValadiumBlaster:
 		'''
 		Damage will blast enemies with interdimensional energy
 		Every third attack smites the closest light accursed enemy with void light
@@ -460,15 +449,19 @@ Projectiles: {
 	BlackHole.DisplayName: Black Hole
 	BubbleBomb.DisplayName: Big Bubble Bomb
 	BubbleColumn.DisplayName: Bubble Column
+	BubbleColumnOptimized.DisplayName: Bubble Column
+	BuriedArrowE.DisplayName: Arrow
 	ChampionBomber.DisplayName: Magical Burst
 	ChampionBomberF.DisplayName: Magical Burst
 	ChampionShield.DisplayName: Champion's Rebuttal
 	ChampionSlash.DisplayName: Champion's Swift Blade
 	ChampionSlice.DisplayName: Buried Shock
 	ChampionSliceF.DisplayName: Buried Shock
+	ChampionsDagger.DisplayName: Buried Dagger
 	ChampionsRebuttal.DisplayName: Champion's Rebuttal
 	ChampionsSwiftBlade.DisplayName: Champion's Swift Blade
 	ChampionsSwiftBladeClone.DisplayName: Champion's Swift Blade
+	ChampionsSwiftBladeCloneH.DisplayName: Champion's Swift Blade
 	ChampionsTrifectaShot.DisplayName: Champion's Trifecta Shot
 	ChampionWarHorn.DisplayName: Champion's Warhorn
 	ChironsCure.DisplayName: Chiron's Cure
@@ -496,6 +489,7 @@ Projectiles: {
 	EradicationRay.DisplayName: Eradication Ray
 	EraserLaser.DisplayName: Eraser Laser
 	ExtinctionRay.DisplayName: Extinction Ray
+	FallingSand.DisplayName: Falling Piece of Fulgurite
 	FalseBeholder.DisplayName: False Beholder
 	FalseSun.DisplayName: False Sun
 	FlareSlash.DisplayName: Flare Slash
@@ -616,7 +610,6 @@ Projectiles: {
 	VoidEyeF.DisplayName: Will of Coznix
 	ZephyrFeather.DisplayName: Zephyr's Feather
 	ZephyrsRuin.DisplayName: Zephyr's Ruin
-	FallingSand.DisplayName: Falling Sand
 }
 
 Items: {
@@ -699,6 +692,15 @@ Items: {
 			'''
 			Throws tiny soul eaters that enrages after some distance
 			While enraged, they pierce indefinitely and can hit the same target multple times
+			'''
+	}
+
+	DuelistSheath: {
+		DisplayName: Duelist Sheath
+		Tooltip:
+			'''
+			Swords strike critically for {0}% if held and not used for {1} seconds
+			Getting hit or landing a critical strike increases melee attack speed and critical strike chance for {1} seconds
 			'''
 	}
 
@@ -1453,8 +1455,12 @@ Configs: {
 				'''
 				Multiplies the movement speed of Thorium's bosses by this amount
 				Limited to 2x speed as any higher breaks bosses
-				1.35x is recommended for Infernum
 				'''
+		}
+
+		sheathFix: {
+			Label: Sheath Fixes and Improvements
+			Tooltip: Fixes some sheath-related inconsistencies and allows them to work on more swords
 		}
 
 		terraItemsFix: {
@@ -1501,6 +1507,11 @@ Configs: {
 				(Recommended!)
 				Thorium's bosses will have exclusive weapons dropped in master, revengeance or eternity mode
 				'''
+		}
+
+		masterDropRate: {
+			Label: Master Mode Drops Drop Rate in %
+			Tooltip: NOTE: This is overriden in eternity mode if "eternity mode only" setting is enabled to match the drop rates of other eternity boss drops
 		}
 
 		masterDropsAreNonExclusive: {
@@ -1552,6 +1563,11 @@ Configs: {
 			Tooltip: Thorium Bosses spawn in Calamity Boss Rush, ordered according to appropriate tier of progression
 		}
 
+		auricBar: {
+			Label: Auric Bar uses Thorium materials
+			Tooltip: Auric bars require all three primordial essences to craft
+		}
+
 		defenseDamage: {
 			Label: Defense Damage Support
 			Tooltip: Allows some of Thorium's boss attacks to inflict defense damage if Calamity mod is enabled
@@ -1589,6 +1605,17 @@ Configs: {
 		jelly: {
 			Label: "[i:ThoriumMod/QueenJellyfishMask]Queen Jellyfish"
 			Tooltip: Queen Jellyfish rework
+		}
+
+		qjLagReduction: {
+			Label: "[i:ThoriumMod/QueenJellyfishMask]Bubble Column Lag Reduction Mode"
+			Tooltip:
+				'''
+				Exists for people suffering performance issues with Queen Jellyfish's bubble column attack
+				0 - Disabled (if your device does not lag, keep it at this setting)
+				1 - Singleplayer only
+				2 - Always Enabled (WARNING: this optimization might not work correctly in multiplayer!)
+				'''
 		}
 
 		bat: {
@@ -1672,6 +1699,11 @@ Configs: {
 				'''
 		}
 
+		oldContract: {
+			Label: Old Executioner's/Sealed Contract Behavior
+			Tooltip: Enables the old functionality of executioner/sealed contract
+		}
+
 		ThoriumArmor: {
 			Label: "[i:ThoriumMod/ThoriumMail]Thorium Armor"
 			Tooltip: Note: The set bonus is what's reworked, not the armor itself
@@ -1732,36 +1764,6 @@ Configs: {
 			Tooltip: ""
 		}
 
-		CobaltPopper: {
-			Label: "[i:ThoriumMod/CobaltPopper]Cobalt Popper"
-			Tooltip: ""
-		}
-
-		PalladiumSubmachineGun: {
-			Label: "[i:ThoriumMod/PalladiumSubmachineGun]Palladium Submachine Gun"
-			Tooltip: ""
-		}
-
-		MythrilPelter: {
-			Label: "[i:ThoriumMod/MythrilPelter]Mythril Pelter"
-			Tooltip: ""
-		}
-
-		OrichalcumPelter: {
-			Label: "[i:ThoriumMod/OrichalcumPelter]Orichalcum Pelter"
-			Tooltip: ""
-		}
-
-		AdamantiteCarbine: {
-			Label: "[i:ThoriumMod/AdamantiteCarbine]Adamantite Carbine"
-			Tooltip: ""
-		}
-
-		TitaniumRifle: {
-			Label: "[i:ThoriumMod/TitaniumRifle]Titanium Rifle"
-			Tooltip: ""
-		}
-
 		HellishHalberd: {
 			Label: "[i:ThoriumMod/HellishHalberd]Hellish Halberd"
 			Tooltip: ""
@@ -1792,11 +1794,6 @@ Configs: {
 			Tooltip: ""
 		}
 
-		LodeStoneQuickDraw: {
-			Label: "[i:ThoriumMod/LodeStoneQuickDraw]Lodestone Quickdraw"
-			Tooltip: ""
-		}
-
 		LodeStoneClaymore: {
 			Label: "[i:ThoriumMod/LodeStoneClaymore]Lodestone Claymore"
 			Tooltip: ""
@@ -1807,8 +1804,8 @@ Configs: {
 			Tooltip: ""
 		}
 
-		ValadiumFoeBlaster: {
-			Label: "[i:ThoriumMod/ValadiumFoeBlaster]Valadium Foe Blaster"
+		ValadiumBlaster: {
+			Label: "[i:ThoriumMod/ValadiumBlaster]Valadium Blaster"
 			Tooltip: ""
 		}
 
@@ -1934,11 +1931,6 @@ Configs: {
 		IllumiteScythe: {
 			Label: "[i:ThoriumMod/IllumiteScythe]Illumite Scythe"
 			Tooltip: ""
-		}
-
-		FallenPaladinArmor: {
-			Label: "[i:ThoriumMod/FallenPaladinCuirass]Fallen Paladin Armor"
-			Tooltip: This is a nerf, this armor set is stupid broken
 		}
 
 		TerrariumHolyScythe: {
@@ -2122,13 +2114,18 @@ Configs: {
 		}
 
 		PearlPike: {
-			Label: "[i:ThoriumMod/PearlPike]PearlPike"
+			Label: "[i:ThoriumMod/PearlPike]Pearl Pike"
 			Tooltip: ""
 		}
 
 		IncandescentAlacrity: {
 			Label: "[i:ThoriumMod/IncandescentAlacrity]Incandescent Alacrity"
 			Tooltip: Doesn't rework this item at all, it just lets it work with {$ItemName.EmpressFlightBooster}
+		}
+
+		WrithingSheath: {
+			Label: "[i:ThoriumMod/WrithingSheath]Writhing Sheath"
+			Tooltip: ""
 		}
 	}
 }
