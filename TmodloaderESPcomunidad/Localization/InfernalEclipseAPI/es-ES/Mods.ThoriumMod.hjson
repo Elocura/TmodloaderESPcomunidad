@@ -92,6 +92,11 @@ Items: {
 		Tooltip: Roba 3 puntos de vida
 	}
 
+	ShroomachineGun: {
+		DisplayName: Ametralladora de setas
+		Tooltip: "{$CommonItemTooltip.PercentChanceToSaveAmmo}"
+	}
+
 	CrystalHoney: {
 		DisplayName: Miel cristalina
 		Tooltip:
@@ -386,42 +391,6 @@ Items: {
 			Reduce un 12% el daño no radiante
 			Aumenta el daño radiante en un 12%
 			Se reduce el coste de maná en un 15%
-			Los hechizos de curación curarán 1 punto de vida adicional
-			'''
-	}
-
-	FallenPaladinFaceguard: {
-		DisplayName: Guarda-cara del paladín caído
-		Tooltip:
-			'''
-			Reduce un 10% el daño no radiante
-			Aumenta el daño radiante en un 10%
-			Aumenta la probabilidad de golpe crítico radiante en un 3%
-			Aumenta la regeneración de vida
-			'''
-	}
-
-	FallenPaladinCuirass: {
-		DisplayName: Coraza del paladín caído
-		Tooltip:
-			'''
-			Reduce un 20% el daño no radiante
-			Aumenta el daño radiante en un 20%
-			Aumenta la probabilidad de golpe crítico radiante en un 8%
-			Aumenta un 15% la reducción de daño
-			Los hechizos de curación curarán 2 puntos de vida adicionales
-			'''
-	}
-
-	FallenPaladinGreaves: {
-		DisplayName: Grebas del paladín caído
-		Tooltip:
-			'''
-			Reduce un 15% el daño no radiante
-			Aumenta el daño radiante en un 15%
-			Aumenta la probabilidad de golpe crítico radiante en un 4%
-			Se reduce el coste de maná en un 15%
-			Aumenta un 20% la velocidad de movimiento
 			Los hechizos de curación curarán 1 punto de vida adicional
 			'''
 	}
