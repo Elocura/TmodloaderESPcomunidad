@@ -26,7 +26,7 @@ Items: {
 				Tooltip: 
 					'''
 					Lanza un [ceeffect/cruiser:void-chained frisbee] que, tras un breve tiempo se acerca de nuevo a los enemigos al impactar y explota al chocar con ellos]
-                    Los ataques sigilosos hacen que el frisbee se adhiera al enemigo alcanzado una vez encadenado, creando un [ceeffect/cruiser:void vortex] que inflige daño rápidamente en una amplia zona]
+					Los ataques sigilosos hacen que el frisbee se adhiera al enemigo alcanzado una vez encadenado, creando un [ceeffect/cruiser:void vortex] que inflige daño rápidamente en una amplia zona]
 					'''
 			}
 
@@ -280,7 +280,7 @@ Items: {
 			BlazingSwirlblade: {
 				DisplayName: Hoja giratoria incandescente
 				Tooltip:
-					''
+					'''
 					Lanza una hoja serrada que, al impactar o tras un tiempo, se detiene en el aire y libera una ola de calor sagrada antes de empezar a girar
 					La hoja serrada inflige daño en un área amplia mientras gira y regresa tras un tiempo
 					Los ataques sigilosos salen disparados más rápido y generan un giro mucho mayor y una ola de calor sagrada que dura más tiempo
@@ -463,6 +463,7 @@ Items: {
 				aún pueden reiniciarse utilizando el calor ambiental.
 				'''
 			Tooltip: ""
+		}
 	}
 
 	BrokenChainsaw: {
@@ -713,7 +714,7 @@ Items: {
 		Tooltip:
 			'''
 			Entrelaza las cartas místicas de la [i:CalamityEntropy/OracleDeck][c/87CEFA:Baraja del Oráculo]
-            [c/87CEFA:Mantén pulsada la tecla SHIFT para leer el hilo...]
+			[c/87CEFA:Mantén pulsada la tecla SHIFT para leer el hilo...]
 			'''
 		HoldShiftForDetails:
 			'''
@@ -743,9 +744,9 @@ Items: {
 		Tooltip:
 			'''
 			El arma se carga brevemente antes de realizar un barrido describiendo un amplio arco
-            Si impacta en un enemigo, la espada retrocede antes de girar rápidamente a tu alrededor
-            Si el barrido inicial falla, el siguiente golpe apuntará al cursor y lanzará un pulso rúnico
-            Todos los ataques infligen [cebuff:CalamityEntropy/SoulDisorder].
+			Si impacta en un enemigo, la espada retrocede antes de girar rápidamente a tu alrededor
+			Si el barrido inicial falla, el siguiente golpe apuntará al cursor y lanzará un pulso rúnico
+			Todos los ataques infligen [cebuff:CalamityEntropy/SoulDisorder].
 			'''
 	}
 
@@ -2590,10 +2591,9 @@ Items: {
 		Tooltip:
 			'''
 			Se utiliza para entrelazar el [i:CalamityEntropy/SoulDeck][c/ADFF2F:Baraja del alma]
-            [c/ADFF2F:Mantén pulsada la tecla SHIFT para leer el hilo...]
+			[c/ADFF2F:Mantén pulsada la tecla SHIFT para leer el hilo...]
 			'''
-
-		HoldShiftForDetails
+		HoldShiftForDetails:
 			'''
 			Se utiliza para entrelazar la Baraja del Alma
 			Requiere de los siguientes materiales:
@@ -4397,7 +4397,7 @@ Neltharion: {
 		Tooltip:
 			'''
 			Haz clic izquierdo sobre los componentes industriales del infierno [i:CalamityEntropy/HellIndustrialComponents] de tu inventario para cargar munición [AMMOMAX]
-            Dispara una ráfaga constante de balas de corto alcance que infligen [cebuff:CalamityEntropy/MechanicalTrauma]
+			Dispara una ráfaga constante de balas de corto alcance que infligen [cebuff:CalamityEntropy/MechanicalTrauma]
 			'''
 	}
 
