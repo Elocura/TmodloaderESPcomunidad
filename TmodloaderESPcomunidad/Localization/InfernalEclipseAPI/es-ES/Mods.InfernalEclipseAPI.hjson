@@ -177,6 +177,7 @@ ItemBalance: {
 ItemTooltip: {
 	BasicDamage: daño básico
 	OmniShield: -Omni escudo-
+	Donor: - Objeto de donador -
 	Playtester: - Objeto de pruebas-
 	Contributor: - Objeto de colaborador -
 	NamelessDowned: Debes pasar la prueba
@@ -558,6 +559,7 @@ ItemTooltip: {
 		Puzzles: Mr. Puzzles
 		cat: StarlightCat
 		Arkangel: Arkangel
+		Minesky: Mineskye
 	}
 
 	MergedCraftingTreeTooltip: {
@@ -2436,6 +2438,49 @@ AuricBratwurst: {
 			Mantén pulsada la tecla SHIFT para ver la lista completa de créditos
 			'''
 	}
+
+	BlixerCore: {
+		DisplayName: Núcleo de Blixer
+		Tooltip:
+			'''
+			Invoca armas Blixer para protegerte
+			Ocupa 4 espacios de súbditos y solo puede haber un conjunto
+            Tiene dos modos que se pueden activar con <right>
+			'''
+		DefaultMode:
+			'''
+			Modo predeterminado:
+			Se equiparán en tus brazos un par de manos y dos cañones
+			Las manos atacan automáticamente a los enemigos cercanos que se encuentren dentro de su alcance
+			Los cañones dispararán hacia el cursor mientras se utilice cualquier objeto
+			'''
+		LaserMode:
+			'''
+			Modo láser:
+            Se acoplará un conjunto de cuatro cañones a tus brazos
+            Los cañones dispararán rayos láser precisos hacia el cursor mientras se utilice cualquier objeto
+			'''
+	}
+
+	InterludeFourMusicBox: {
+		DisplayName: Caja de música (Interludio 4)
+		Tooltip: Reproduce "Calamity before the cynosure", de theforge129
+	}
+
+	LastBattleMusicBox: {
+		DisplayName: Caja de música (Devorador de dioses - Fase final)
+		Tooltip: Reproduce "Last Battle (Ballos Mix)" de DM DOKURO
+	}
+
+	PlanteraMusicBox: {
+		DisplayName: Caja de música (Plantera - Modo Infernum)
+		Tooltip: Reproduce "Floral Animosity" de PinpinNeon
+	}
+
+	QueenSlimeMusicBox: {
+		DisplayName: Caja de música (Reina slime - Modo Infernum)
+		Tooltip: Reproduce "Crowned Before One's End", de PinpinNeon
+	}
 }
 
 Projectiles: {
@@ -2486,6 +2531,9 @@ Projectiles: {
 	SplitFirebrandProjectile.DisplayName: Split Firebrand Projectile
 	SplitFirebrandFlailProjectile.DisplayName: Split Firebrand Flail Projectile
 	SplitFirebrandExplosion.DisplayName: Split Firebrand Explosion
+	BlixerArm.DisplayName: Blixer Arm
+	BlixerHand.DisplayName: Blixer Hand
+	BlixerCannonPro.DisplayName: Blixer Bullet
 }
 
 DiaryTooltip:
@@ -2830,6 +2878,15 @@ Configs: {
 		DisableUnnecessaryContent: {
 			Label: Desactivar el contenido innecesario
 			Tooltip: ""
+		}
+
+		EnableCodebreakerInterlude: {
+			Label: Interludio: Descifrador de códigos
+			Tooltip:
+				'''
+				Activa el tema del interludio de "Codebreaker".
+                Este interludio se reproducirá en cuanto coloques el último componente del Descifrador de códigos por primera vez
+				'''
 		}
 	}
 
@@ -3343,6 +3400,10 @@ Tiles: {
 	ProphecyMusicBoxTile.MapEntry: Caja de música
 	MenuMusicBoxTile.MapEntry: Caja de música
 	FinalFractalMusicBoxTile.MapEntry: Caja de música
+	InterludeFourMusicBoxTile.MapEntry: Caja de música
+	LastBattleMusicBoxTile.MapEntry: Caja de música
+	PlanteraMusicBoxTile.MapEntry: Caja de música
+	QueenSlimeMusicBoxTile.MapEntry: Caja de música
 }
 
 NPCs: {
@@ -3399,6 +3460,7 @@ BossName: {
 	LittleCat: Próximamente... - ???
 	ProvidenceNight: Unholy Finality - Providencia (Noche)
 	Seahorse: Seahorse Scrutiny (Rebirth) - Cnidrion
+	Arsenal: Arsenal - Codebreaker Interlude
 }
 
 PetDialog.DoGDSPTip: ¡La rejilla láser aparece al mismo tiempo que él daseha! Céntrate primero en embestir al Devorador y luego retírate a un lugar seguro, ¡pero no te olvides de esas bolas de fuego!
