@@ -129,12 +129,6 @@ ItemDescriptions: {
 		Provoca ligeros cortes en un enemigo cercano
 		Los enemigos alcanzados se iluminarán y recibirán un 10% más de daño
 		'''
-	CobaltPopper: Aumenta la defensa progresivamente mientras se utiliza
-	PalladiumSubmachineGun: Aumenta la regeneración de vida progresivamente mientras se utiliza
-	MythrilPelter: Acaba duplicando la velocidad de ataque mientras se utiliza
-	OrichalcumPelter: Aumenta gradualmente la velocidad de ataque mientras se utiliza
-	AdamantiteCarbine: Aumenta la probabilidad de golpe crítico progresivamente mientras se utiliza
-	TitaniumRifle: Aumenta la penetración de armadura progresivamente mientras se utiliza
 	PyroclastStaff:
 		'''
 		Lanza una ráfaga de entre 1 y 5 esferas de fuego piroclásticas
@@ -173,17 +167,12 @@ ItemDescriptions: {
 		El daño desintegrará a los enemigos, aumentando el daño que reciben en un 10%
 		Cada tercer ataque dispara cargas magnéticas que se dirigen hacia los enemigos desintegrados
 		'''
-	LodeStoneQuickDraw:
-		'''
-		El daño infligido desintegrará a los enemigos, lo que aumentará el daño que reciben en un 10%
-        Cada tercer ataque lanza proyectiles magnéticos que se dirigen hacia los enemigos desintegrados
-		'''
 	ValadiumBow:
 		'''
 		Al prococar daño a los enemigos, lanzará una ráfaga de energía interdimensional
 		Cada tercer ataque lanza proyectiles magnéticos que se dirigen hacia los enemigos desintegrados
 		'''
-	ValadiumFoeBlaster:
+	ValadiumBlaster:
 		'''
 		Al prococar daño a los enemigos, lanzará una ráfaga de energía interdimensional
 		Cada tercer ataque lanza proyectiles magnéticos que se dirigen hacia los enemigos desintegrados
@@ -460,15 +449,19 @@ Projectiles: {
 	BlackHole.DisplayName: Black Hole
 	BubbleBomb.DisplayName: Big Bubble Bomb
 	BubbleColumn.DisplayName: Bubble Column
+	BubbleColumnOptimized.DisplayName: Bubble Column
+	BuriedArrowE.DisplayName: Arrow
 	ChampionBomber.DisplayName: Magical Burst
 	ChampionBomberF.DisplayName: Magical Burst
 	ChampionShield.DisplayName: Champion's Rebuttal
 	ChampionSlash.DisplayName: Champion's Swift Blade
 	ChampionSlice.DisplayName: Buried Shock
+	ChampionsDagger.DisplayName: Buried Dagger
 	ChampionSliceF.DisplayName: Buried Shock
 	ChampionsRebuttal.DisplayName: Champion's Rebuttal
 	ChampionsSwiftBlade.DisplayName: Champion's Swift Blade
 	ChampionsSwiftBladeClone.DisplayName: Champion's Swift Blade
+	ChampionsSwiftBladeCloneH.DisplayName: Champion's Swift Blade
 	ChampionsTrifectaShot.DisplayName: Champion's Trifecta Shot
 	ChampionWarHorn.DisplayName: Champion's Warhorn
 	ChironsCure.DisplayName: Chiron's Cure
@@ -496,6 +489,7 @@ Projectiles: {
 	EradicationRay.DisplayName: Eradication Ray
 	EraserLaser.DisplayName: Eraser Laser
 	ExtinctionRay.DisplayName: Extinction Ray
+	FallingSand.DisplayName: Falling Piece of Fulgurite
 	FalseBeholder.DisplayName: False Beholder
 	FalseSun.DisplayName: False Sun
 	FlareSlash.DisplayName: Flare Slash
@@ -616,7 +610,6 @@ Projectiles: {
 	VoidEyeF.DisplayName: Will of Coznix
 	ZephyrFeather.DisplayName: Zephyr's Feather
 	ZephyrsRuin.DisplayName: Zephyr's Ruin
-	FallingSand.DisplayName: Falling Sand
 }
 
 Items: {
@@ -699,6 +692,15 @@ Items: {
 			'''
 			Lanza pequeños devoradores de almas que se enfurecen tras recorrer cierta distancia
 			Mientras están enfurecidos, atraviesan al objetivo de forma indefinida y pueden golpear al mismo objetivo varias veces
+			'''
+	}
+
+	DuelistSheath: {
+		DisplayName: Funda de duelista
+		Tooltip:
+			'''
+			Las espadas infligen un golpe crítico del {0}% si se mantienen empuñadas y no se utilizan durante {1} segundos
+			Recibir un golpe o asestar un golpe crítico aumenta la velocidad de ataque cuerpo a cuerpo y la probabilidad de golpe crítico durante {1} segundos
 			'''
 	}
 
@@ -1453,9 +1455,14 @@ Configs: {
 				'''
 				Multiplica la velocidad de movimiento de los jefes de Thorium por este valor
 				Se ha limitado a 2 veces la velocidad, ya que un valor superior hace que los jefes dejen de funcionar
-				Se recomienda 1,35 veces para Infernum
 				'''
 		}
+
+		sheathFix: {
+			Label: Soluciones y mejoras para las fundas
+			Tooltip: Corrige algunas incoherencias relacionadas con las fundas y permite que funcionen con más espadas
+		}
+
 
 		terraItemsFix: {
 			Label: Recetas de paridad de los objetos terra de Thorium
@@ -1501,6 +1508,11 @@ Configs: {
 				(¡Recomendado!)
 				Los jefes de Thorium soltarán armas exclusivas en los modos Maestro, Venganza o Eternidad
 				'''
+		}
+
+		masterDropRate: {
+			Label: Modo Maestro: Porcentaje de aparición de los botines
+			Tooltip: NOTA: Esta configuración queda anulada en el modo Eternidad si se activa la opción solo en modo Eternidad para que coincida con las tasas de aparición de los botines de otros jefes de Eternidad
 		}
 
 		masterDropsAreNonExclusive: {
@@ -1552,6 +1564,11 @@ Configs: {
 			Tooltip: Los jefes de Thorium aparecen en el Boss Rush de Calamity, ordenados según el nivel correspondiente de progresión
 		}
 
+		auricBar: {
+			Label: Los lingotes áuricos utilizna materiales de Thorium
+			Tooltip: Para fabricar los lingotes áuricos se necesitan las tres esencias primordiales
+		}
+
 		defenseDamage: {
 			Label: Defensa, Daño y Apoyo
 			Tooltip: Permite que algunos de los ataques de los jefes de Thorium inflijan daño a la defensa si el mod Calamity está activado
@@ -1589,6 +1606,17 @@ Configs: {
 		jelly: {
 			Label: "[i:ThoriumMod/QueenJellyfishMask]Medusa reina"
 			Tooltip: Reworkde la Medusa reina
+		}
+
+		qjLagReduction: {
+			Label: "[i:ThoriumMod/QueenJellyfishMask]Modo de reducción de lag en la columna de burbujas"
+			Tooltip:
+				'''
+				Está pensado para quienes sufren problemas de rendimiento con el ataque de columna de burbujas de la Reina medusa.
+				0 - Desactivado (si tu dispositivo no presenta lag, mantén esta configuración)
+				1 - Solo para un jugador
+				2 - Siempre activado (ADVERTENCIA: ¡es posible que esta optimización no funcione correctamente en el modo multijugador!)
+				'''
 		}
 
 		bat: {
@@ -1672,6 +1700,11 @@ Configs: {
 				'''
 		}
 
+		oldContract: {
+			Label: Comportamiento del Viejo Verdugo y del Contrato sellado
+			Tooltip: Habilita la antigua funcionalidad del verdugo/contrato sellado
+		}
+
 		ThoriumArmor: {
 			Label: "[i:ThoriumMod/ThoriumMail]Armadura de torio"
 			Tooltip: Nota: Lo que se ha rediseñado es la bonificación de conjunto, no la armadura en sí
@@ -1732,36 +1765,6 @@ Configs: {
 			Tooltip: ""
 		}
 
-		CobaltPopper: {
-			Label: "[i:ThoriumMod/CobaltPopper]Reventador de cobalto"
-			Tooltip: ""
-		}
-
-		PalladiumSubmachineGun: {
-			Label: "[i:ThoriumMod/PalladiumSubmachineGun]Subfusil de paladio"
-			Tooltip: ""
-		}
-
-		MythrilPelter: {
-			Label: "[i:ThoriumMod/MythrilPelter]Lanzador de mythrilr"
-			Tooltip: ""
-		}
-
-		OrichalcumPelter: {
-			Label: "[i:ThoriumMod/OrichalcumPelter]Lanzador de oricalco"
-			Tooltip: ""
-		}
-
-		AdamantiteCarbine: {
-			Label: "[i:ThoriumMod/AdamantiteCarbine]Carabina de adamantita"
-			Tooltip: ""
-		}
-
-		TitaniumRifle: {
-			Label: "[i:ThoriumMod/TitaniumRifle]Rifle de titanio"
-			Tooltip: ""
-		}
-
 		HellishHalberd: {
 			Label: "[i:ThoriumMod/HellishHalberd]Alabarda infernal"
 			Tooltip: ""
@@ -1807,7 +1810,7 @@ Configs: {
 			Tooltip: ""
 		}
 
-		ValadiumFoeBlaster: {
+		ValadiumBlaster: {
 			Label: "[i:ThoriumMod/ValadiumFoeBlaster]Cañón de valadium"
 			Tooltip: ""
 		}
@@ -1934,11 +1937,6 @@ Configs: {
 		IllumiteScythe: {
 			Label: "[i:ThoriumMod/IllumiteScythe]Guadaña de illumita"
 			Tooltip: ""
-		}
-
-		FallenPaladinArmor: {
-			Label: "[i:ThoriumMod/FallenPaladinCuirass]Armadura del paladín caído"
-			Tooltip: Esto es un nerf, este conjunto de armadura está totalmente roto
 		}
 
 		TerrariumHolyScythe: {
@@ -2129,6 +2127,11 @@ Configs: {
 		IncandescentAlacrity: {
 			Label: "[i:ThoriumMod/IncandescentAlacrity]Alacridad incandescente"
 			Tooltip: No modifica este objeto en absoluto, simplemente permite que funcione con {$ItemName.EmpressFlightBooster}
+		}
+
+		WrithingSheath: {
+			Label: "[i:ThoriumMod/WrithingSheath]Funda retorcida"
+			Tooltip: ""
 		}
 	}
 }
