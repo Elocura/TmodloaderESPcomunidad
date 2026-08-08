@@ -12,9 +12,12 @@ Items: {
 				DisplayName: Revelación
 				Tooltip:
 					'''
-					Lanza una hoz que regresa y dispara mini-hozas fusionadas
-					Las mini-hozas fusionadas duran poco tiempo y se dirigen hacia los objetivos
-					Los ataques sigilosos lanzan un abanico de tres hozas explosivas autoguiadas, junto con un potente tajo
+					Lanza una guadaña giratoria que se ralentiza rápidamente en el aire,
+					para luego explotar y disparar dos rayos Revelación autoguiados antes de volver al jugador
+					Al regresar, vuelve a infligir daño si impacta contra un enemigo
+					El ataque sigiloso lanza tres guadañas que se dirigen hacia el enemigo más cercano;
+					al impactar, se fusionan en una guadaña gigante que golpea a ese enemigo varias veces
+					Cada impacto de la guadaña gigante provoca una gran explosión
 					'''
 			}
 
@@ -22,12 +25,8 @@ Items: {
 				DisplayName: Silencio
 				Tooltip: 
 					'''
-					[c/9387ff:Lanza un frisbee]
-					[c/9387ff:Tras golpear a un enemigo,]
-					[c/9387ff:utilizará una Cadena del Vacío para atraerte hacia ese enemigo tras una breve demora,]
-					[c/9387ff:y explotará al entrar en contacto con él]
-					[c/9387ff:Los ataques sigilosos hacen que el frisbee se adhiera al enemigo alcanzado]
-					[c/9387ff:y genere un vórtice de gran área, que inflige daño continuo a los objetivos que se encuentren dentro de su radio de acción]
+					Lanza un [ceeffect/cruiser:void-chained frisbee] que, tras un breve tiempo se acerca de nuevo a los enemigos al impactar y explota al chocar con ellos]
+                    Los ataques sigilosos hacen que el frisbee se adhiera al enemigo alcanzado una vez encadenado, creando un [ceeffect/cruiser:void vortex] que inflige daño rápidamente en una amplia zona]
 					'''
 			}
 
@@ -45,8 +44,8 @@ Items: {
 				DisplayName: Fragmento acuático
 				Tooltip:
 					'''
-					Lanza una jabalina frágil que se hace añicos en cristales más pequeños al impactar contra un enemigo
-					Los ataques sigilosos atraviesan al enemigo, liberan cristales autoguiados mientras vuelan y hacen que la jabalina se fracture al impactar
+					Lanza una jabalina que genera balas de agua al impactar
+					Los ataques sigilosos son penetrantes, lanzan cristales autoguiados mientras vuelan y generan más balas de agua autoguiadas al impactar
 					'''	
 			}
 
@@ -122,8 +121,8 @@ Items: {
 				DisplayName: Dagas proféticas
 				Tooltip:
 					'''
-					Lanza varias dagas autoguiadas que infligen [cebuff:CalamityEntropy/SoulDisorder]
-					Los ataques sigilosos lanzan un único cuchillo que genera 6 runas colapsantes al impactar
+					Lanza 4 dagas en un arco aleatorio que vuelan hacia los enemigos tras permanecer un instante en el aire
+					Los ataques sigilosos lanzan una ráfaga de 3 cuchillos más grandes que generan 6 runas que se desmoronan al impactar e infligen [cebuff:CalamityEntropy/SoulDisorder]
 					'''
 			}
 
@@ -208,6 +207,121 @@ Items: {
 					Ignora 8 puntos de defensa
 					'''
 			}
+
+			MewMewBomb: {
+				DisplayName: Bomba miau miau
+				Tooltip:
+					'''
+					[c/FF69B4:Lanza una bomba que rebota en los bloques]
+					[c/FF69B4:Tras impactar en un objetivo, rebota hasta una posición desde la que pueda alcanzar al mayor número posible de objetivos y explota en forma de cruz]
+					[c/FF69B4:Los ataques sigilosos aumentan el radio de la explosión y pueden causar daño a los jugadores]
+					[c/FF69B4:Los jugadores que sean alcanzados por la explosión obtendrán 2,5 segundos de invencibilidad]
+					[c/FF69B4:"Un detonador con orejas de gato que, por alguna razón, emite maullidos de gato"]
+					'''
+			}
+
+			BrillianceSwirlblade: {
+				DisplayName: Hoja giratoria brillante
+				Tooltip:
+					'''
+					Lanza una hoja serrada que, al impactar o tras un tiempo, se detiene en el aire y empieza a girar
+					La hoja serrada inflige daño en un área amplia mientras gira y regresa tras un tiempo
+					Los ataques sigilosos salen disparados más rápido y generan un giro más amplio que dura más tiempo
+					'''
+			}
+
+			FlamingSwirlblade: {
+				DisplayName: Hoja giratoria llameante
+				Tooltip:
+					'''
+					Lanza una hoja serrada que, al impactar o tras un tiempo, se detiene en el aire y lanza un rayo de fuego autoguiado antes de empezar a girar
+					La hoja serrada inflige daño en un área amplia mientras gira y regresa tras un tiempo
+					Los ataques sigilosos salen disparados más rápido y generan un giro más amplio que dura más tiempo, lanzando una lluvia de rayos de fuego autoguiados
+					Los ataques infligen [cbuff:OnFire3] al impactar
+					'''
+			}
+
+			AzafureSwirlblade: {
+				DisplayName: Hoja giratoria de Azafure
+				Tooltip:
+					'''
+					Lanza una hoja serrada que, al impactar o tras un tiempo, se detiene en el aire y lanza un par de misiles autoguiados antes de empezar a girar
+					La hoja  serrada inflige daño en un área amplia mientras gira y regresa tras un tiempo
+					Los ataques sigilosos salen disparados más rápido y generan un giro más amplio que dura más tiempo, lanzando un enjambre de 8 misiles
+					Los ataques sigilosos, al regresar, también dispararán la hoja giratoria contra el enemigo más cercano
+					Los ataques infligen [cebuff:CalamityEntropy/MechanicalTrauma] al impactar
+					'''
+			}
+
+			GlacierSwirlblade: {
+				DisplayName: Hoja giratoria glaciar
+				Tooltip:
+					'''
+					Lanza una hoja serrada que, al impactar o tras un tiempo, se detiene en el aire y libera un par de cuchillas autoguiadas antes de empezar a girar
+					La hoja serrada inflige daño en un área amplia mientras gira y regresa tras un tiempo
+					Los ataques sigilosos salen disparados más rápido, generan un giro más amplio que dura más tiempo y se dirigen hacia los enemigos
+					Los ataques sigilosos, al regresar, también lanzarán 4 cuchillas giratorias contra el enemigo más cercano
+					Los ataques infligen [cebuff:CalamityEntropy/Deceive] al impactar
+					'''
+			}
+
+			RunicSwirlblade: {
+				DisplayName: Hoja giratoria rúnica
+				Tooltip:
+					'''
+					Lanza una hoja serrada que, al impactar o tras un tiempo, se detiene en el aire y libera un par de cuchillas autoguiadas antes de empezar a girar
+					La hoja serrada inflige daño en un área amplia mientras gira y regresa tras un tiempo
+					Los ataques sigilosos salen disparados más rápido y generan un giro mucho mayor que dura más tiempo
+					Además, lanzarán una lluvia de rayos rúnicos autoguiados más potentes contra el enemigo más cercano
+					Los ataques infligen [cebuff:CalamityEntropy/SoulDisorder] al impactar
+					'''
+			}
+
+			BlazingSwirlblade: {
+				DisplayName: Hoja giratoria incandescente
+				Tooltip:
+					''
+					Lanza una hoja serrada que, al impactar o tras un tiempo, se detiene en el aire y libera una ola de calor sagrada antes de empezar a girar
+					La hoja serrada inflige daño en un área amplia mientras gira y regresa tras un tiempo
+					Los ataques sigilosos salen disparados más rápido y generan un giro mucho mayor y una ola de calor sagrada que dura más tiempo
+					Los ataques infligen [cbuff:CalamityMod/HolyFlames] al impactar
+					'''
+			}
+
+			SawofMacrocosm: {
+				DisplayName: Sierra del macrocosmos
+				Tooltip:
+					'''
+					Lanza una hoja serrada que, al impactar o tras un tiempo, se detiene en el aire y libera 4 hojas más pequeñas antes de empezar a girar
+					Las hojas serradas infligen daño en una amplia zona mientras giran y regresan tras un tiempo
+					Al regresar, las hojas más pequeñas lanzan rayos cósmicos autoguiados contra el enemigo más cercano.
+					Los ataques sigilosos salen disparados más rápido y lanzan las hojas más pequeñas a mayor distancia, convergiendo de nuevo hacia la hoja más grande tras un tiempo
+					Al converger, la hoja de sierra vuela hacia el enemigo más cercano para infligir mayor daño
+					Los ataques infligen [cbuff:CalamityMod/GodSlayerInferno] al impactar
+					'''
+			}
+
+			ExergySwirlblade: {
+				DisplayName: Sierra giratoria de EXergía
+				Tooltip:
+					'''
+					Vuela durante un rato o impacta contra un enemigo, y luego despliega una hoja serrada que realiza mçultiples que impactos que se va reduciendo con el tiempo
+					Si se despliega al entrar en contacto con un enemigo, la hoja anular se adhiere a ese enemigo
+					A medida que la hoja serrada se reduce, dispara hojas de sierra autoguiadas más pequeñas que dejan de seguir al objetivo tras un impacto
+					El ataque sigiloso aumenta el alcance y la duración del despliegue, y dispara una hoja serradaa autoguiada más grande y persistente al final
+					'''
+			}
+
+			Apeirokyklos: {
+				DisplayName: Apeirokyklos
+				Tooltip:
+					'''
+					Lanza una hoja serrada de múltiples impactos cuando vuela durante un rato o golpea a un enemigo
+					Cada impacto de la hoja serrada invoca una Púa del abismo desde abajo para atravesar al objetivo
+					El ataque sigiloso inflige gran daño y repele al objetivo al impactar;
+					a continuación, carga y dispara numerosas púas para atravesar a los objetivos
+					'''
+			}
 		}
 	}
 
@@ -225,7 +339,7 @@ Items: {
 		DisplayName: Kinanición
 		Tooltip:
 			'''
-			[c/ce97fa:Lanza una serie de flechas de rayo autoguiadas]
+			[c/ce97fa:Lanza una serie de flechas de rayo que, al impactar, se convierten en descargas de energía autoguiadas]
 			[c/ce97fa:Estas flechas conservan el efecto original de tu munición]
 			[c/0078b9:Haz clic derecho para lanzar un rayo autoguiado que estalla en un rayo al impactar]
 			'''
@@ -235,14 +349,13 @@ Items: {
 		DisplayName: Reliquias del vacío
 		Tooltip:
 			'''
-			[c/9387ff:Invoca un Ojo de la mirada del cacío y crea un conjunto de runas a tu alrededor]
-			[c/9387ff:Las runas lanzan automáticamente Pernos de vacío autoguiados contra los enemigos cercanos]
-			[c/9387ff:y también infligen daño a los enemigos con los que entran en contacto]
-			[c/9387ff:Al mantener pulsado atacar, se acumulan runas delante de ti]
-			[c/9387ff:para luego disprarse rápidamente un gran número de Pernos de vacío hacia el cursor]
-			[c/9387ff:Si dejas de usarla o la utilizas durante más de 6 segundos, las runas se reajustan]
-			[c/9387ff:y se aplica un tiempo de enfriamiento de hasta 36 segundos en función del tiempo de uso]
-			[c/9387ff:Durante el tiempo de enfriamiento, las runas obtienen un aumento del 15% de velocidad de ataque]
+			Invoca un [ceeffect/cruiser:Ojo del vacío] y una serie de [ceeffect/cruiser:Runas del vacío] a tu alrededor
+			Las runas disparan automáticamente [ceeffect/cruiser:Dardos de vacío] autoguiados contra los enemigos cercanos y también infligen daño a los enemigos con los que entran en contacto, aplicando [cebuff:CalamityEntropy/VoidTouch]
+			Haz clic izquierdo mientras el ojo y las runas están invocados para reunir las runas frente a ti y disparar rápidamente [ceeffect/cruiser:Dardos de vacío] hacia el cursor
+			Al soltar el clic izquierdo o mantenerlo pulsado durante más de 6 segundos, las runas vuelven a su estado pasivo
+			Las runas se pueden reunir para realizar un ataque concentrado con un tiempo de enfriamiento de hasta 36 segundos, en función del tiempo que se haya mantenido pulsado el botón
+			Durante el enfriamiento, las runas obtienen un aumento del 15% de velocidad de ataque
+			Solo puede haber un conjunto de reliquias del vacío a la vez
 			'''
 	}
 
@@ -337,6 +450,19 @@ Items: {
 				Al final, el intento solo tuvo un éxito parcial, dejando a la extraña criatura atrapada en su angustioso estado. Ya era hora de que alguien la liberara del error de los hombres.
 				'''
 		}
+
+		LoreAcropolis: {
+			DisplayName: Acropolis Machines
+			Lore:
+				'''
+				Estas máquinas fueron construidas por Azafure como guardianes armados de la ciudad;
+				sus caparazones metálicos especiales les permitieron sobrevivir a aquella batalla.
+				Aunque han pasado muchos años, siguen ejecutando el programa establecido desde su creación: 
+				eliminar a todos los visitantes no deseados.
+				El paso del tiempo las ha desgastado, pero gracias a su refinada precisión de alta tecnología,
+				aún pueden reiniciarse utilizando el calor ambiental.
+				'''
+			Tooltip: ""
 	}
 
 	BrokenChainsaw: {
@@ -407,7 +533,7 @@ Items: {
 		DisplayName: Símbolo de la teocracia
 		Tooltip:
 			'''
-			invoca un círculo de hasta 6 cañones divinos que disparan rayos láser al activarse
+			Invoca un círculo de hasta 6 [ceeffect/cruiser:Cañones divinos] que disparan rayos láser al activarse
 			Inflige [cebuff:CalamityEntropy/VoidTouch]
 			"El vacío es un elemento de gran poder; solo se necesitan unas pocas gotas para lograr la aniquilación total"
 			'''
@@ -455,7 +581,7 @@ Items: {
 
 	WingsOfHush: {
 		DisplayName: Alas del silencio
-		Tooltip: "[c/9387ff: Dispara un potente láser del vacío y 4 rayos del vacío]"
+		Tooltip: Dispara un láser de vacío penetrante junto con cuatro [ceeffect/cruiser:Rayos de vacío] más pequeños que infligen [cebuff:CalamityEntropy/VoidTouch]
 	}
 
 	SoyMilk: {
@@ -586,20 +712,29 @@ Items: {
 		DisplayName: Hilo del destino
 		Tooltip:
 			'''
-			Entrelaza las cartas místicas de la baraja del Oráculo
-			Mantén pulsada la tecla MAYÚS para leer el hilo...
+			Entrelaza las cartas místicas de la [i:CalamityEntropy/OracleDeck][c/87CEFA:Baraja del Oráculo]
+            [c/87CEFA:Mantén pulsada la tecla SHIFT para leer el hilo...]
 			'''
 		HoldShiftForDetails:
 			'''
-			[i:CalamityEntropy/AuraCard]Aura: Repartidos entre cabañas ocultas y cajas sumergidas...
-			[i:CalamityEntropy/BrillianceCard]Brillante: Vendida por un comerciante excéntrico y misterioso...
-			[i:CalamityEntropy/EntityCard]Entidad: Ofrecida a una vidente de piel nacarada del mar hundido...
-			[i:CalamityEntropy/InspirationCard]Inspiración: Abandonada a pudrirse en las arenas movedizas...
-			[i:CalamityEntropy/MetropolisCard]Metrópolis: Transcrita de muchos libros comunes...
-			[i:CalamityEntropy/WisdomCard]Sabiduría: En poder del guardían maldito de la mazmorra...
-			[i:CalamityEntropy/RadianceCard]Esplendor: Requiere la magia de un orbe sagrado...
-			[i:CalamityEntropy/TemperanceCard]Templanza: Utilizada como ancla espiritual para una monstruosidad mecánica...
-			[i:CalamityEntropy/EnduranceCard]Resistencia: Puesta a prueba en esa parte del mar donde la luz nunca llega...
+			[i:CalamityEntropy/AuraCard]Aura: 
+			Repartidos entre cabañas ocultas y cajas sumergidas...
+			[i:CalamityEntropy/BrillianceCard]Brillante: 
+			Vendida por un comerciante excéntrico y misterioso...
+			[i:CalamityEntropy/EntityCard]Entidad: 
+			Ofrecida a una vidente de piel nacarada del mar hundido...
+			[i:CalamityEntropy/InspirationCard]Inspiración: 
+			Abandonada a pudrirse en las arenas movedizas...
+			[i:CalamityEntropy/MetropolisCard]Metrópolis: 
+			Transcrita de muchos libros comunes...
+			[i:CalamityEntropy/WisdomCard]Sabiduría: 
+			En poder del guardían maldito de la mazmorra...
+			[i:CalamityEntropy/RadianceCard]Esplendor: 
+			Requiere la magia de un orbe sagrado...
+			[i:CalamityEntropy/TemperanceCard]Templanza: 
+			Utilizada como ancla espiritual para una monstruosidad mecánica...
+			[i:CalamityEntropy/EnduranceCard]Resistencia: 
+			Puesta a prueba en esa parte del mar donde la luz nunca llega...
 			'''
 	}
 
@@ -607,11 +742,10 @@ Items: {
 		DisplayName: Canto arcáico
 		Tooltip:
 			'''
-			Al cargar el arma brevemente, realiza un barrido en un amplio arco
-			Si impacta en un enemigo, la hoja retrocede
-			y luego realiza una serie de cortes múltiples más amplios
-			Si falla, la espada apunta hacia el cursor, y dispara un Pulso rúnico
-			Inflige [cebuff:CalamityEntropy/SoulDisorder]
+			El arma se carga brevemente antes de realizar un barrido describiendo un amplio arco
+            Si impacta en un enemigo, la espada retrocede antes de girar rápidamente a tu alrededor
+            Si el barrido inicial falla, el siguiente golpe apuntará al cursor y lanzará un pulso rúnico
+            Todos los ataques infligen [cebuff:CalamityEntropy/SoulDisorder].
 			'''
 	}
 
@@ -628,12 +762,12 @@ Items: {
 		DisplayName: Órbita nihilista
 		Tooltip:
 			'''
-			[c/9387ff:Haz clic izquierdo o mantén pulsado clic derecho para lanzar unos cuchillos]
-			[c/9387ff:Al impactar contra un objetivo, rebotarán y quedarán flotando en el aire]
-			[c/9387ff:Mantén pulsado clic izquierdo para acumular impulso]
-			[c/9387ff:Cuando esté completamente cargado,]
-			[c/9387ff:al soltarlo, lanzarás un cuchillo potenciado que causará el triple de daño]
-			[c/9387ff:Potenciar los cuchillos hará que todos los cuchillos que flotan alcancen al objetivo]
+			Haz clic con el botón izquierdo o mantén pulsado el clic derecho para lanzar unos [ceeffect/cruiser:Cuchillos orbitales]
+			Al impactar contra un objetivo, rebotarán y quedarán flotando en el aire
+			Mantén pulsado clic izquierdo para acumular impulso
+			Cuando esté completamente cargado,
+			al soltarlo, lanzarás un cuchillo potenciado que causará el triple de daño
+			Potenciar los cuchillos hará que todos los cuchillos que flotan alcancen al objetivo
 			'''
 	}
 
@@ -644,11 +778,7 @@ Items: {
 
 	DustyStar: {
 		DisplayName: Estrella polvorienta
-		Tooltip:
-			'''
-			Concede la apariencia del desarrollador principal
-			¡No te olvides de dejar un "Me gusta"!
-			'''
+		Tooltip: Concede la apariencia del desarrollador principal
 	}
 
 	SoulCandle: {
@@ -847,8 +977,8 @@ Items: {
 		DisplayName: Carcelero corrupto
 		Tooltip:
 			'''
-			Los súbditos obtienen un aumento del 2% de probabilidad de golpe crítico
 			{$CommonItemTooltip.SummonTagDamage}
+			Los súbditos obtienen un aumento del 2% de probabilidad de golpe crítico
 			{$CommonItemTooltip.Whips}
 			Inflige [cbuff:CalamityMod/BurningBlood] y [cebuff:CalamityEntropy/FlamingBlood], lo que hace que los enemigos exploten al morir
 			'''
@@ -1050,7 +1180,7 @@ Items: {
 		DisplayName: Carta fantasmal 『Confusión』
 		Tooltip:
 			'''
-			Los ataques infligen [cebuff:CalamityEntropy/Deceive], lo que reduce la velocidad de movimiento del enemigo
+			Los ataques infligen [cebuff:CalamityEntropy/Deceive]
 			"La confusión aprisiona y agota la mente, privándola de todo motivo..."
 			'''
 	}
@@ -1133,19 +1263,32 @@ Items: {
 		DisplayName: Hilo del abismo
 		Tooltip:
 			'''
+			Entrelaza las cartas místicas de la [i:CalamityEntropy/TaintedDeck][c/FF6347:Baraja contaminada]
+			[c/FF6347:Mantén pulsada la tecla SHIFT para leer el hilo...]
+			'''
+		HoldShiftForDetails:
+			'''
 			Reúne las cartas perdidas de la Baraja contaminada
 			Requiere de los siguientes materiales:
-			Perplejidad: Encontrado en una monstruosidad mecánica que viene por parejas...
-			Deslustre: Utilizado por los hechiceros de una tribu de duentes...
-			Confusión: En poder de la última dríada...
-			Desolación: Robado de una cámara acorazada por un ladrón conocido...
-			Idiota: En poder de eruditos sobrenaturales en el Abismo...
-			Sacrificio: Forjado con núcleos de caos y lingotes perennes...
-			Avaricia: Perdido en las aguas de la Infección Astral...
-			Frágil: Lastra el equilibrio gelatinoso del dominio de los crimulanos y los ebonianos...
-			Vacío: Devorado por el depredador alfa del Abismo...
+			[i:CalamityEntropy/Perplexed][c/FF6347: Perplejidad]
+			Hallado en una monstruosidad mecánica que aparece en parejas...
+			[i:CalamityEntropy/Tarnish][c/FF6347: Deslustre]
+			Utilizado por los hechiceros de una tribu de goblins...
+			[i:CalamityEntropy/Confuse][c/FF6347: Confusión]
+			En poder de la última de su especie, las dríadas...
+			[i:CalamityEntropy/Barren][c/FF6347: Desolación]
+			Robado de una cámara acorazada por un ladrón conocido...
+			[i:CalamityEntropy/Fool][c/FF6347: Idiota]
+			En poder de eruditos sobrenaturales del Abismo...
+			[i:CalamityEntropy/Sacrifice][c/FF6347: Sacrificio]
+			Forjada con núcleos de caos y lingotes perennes...
+			[i:CalamityEntropy/GreedCard][c/FF6347: Avaricia]
+			Perdida en las aguas de la Infección astral...
+			[i:CalamityEntropy/Fragilidad][c/FF6347: Frágil]
+			Lastra el equilibrio gelatinoso del dominio crimulano y eboniano...
+			[i:CalamityEntropy/Nada][c/FF6347: Vacío]
+			Devorado por el depredador alfa del Abismo...
 			'''
-		HoldShiftForDetails: ""
 	}
 
 	VoidCandle: {
@@ -1367,9 +1510,9 @@ Items: {
 		DisplayName: Pluma vital
 		Tooltip:
 			'''
-			A los enemigos alcanzados se les aplica [cbuff:CalamityMod/Dragonfire] y, al impactar contra un súbdito, este lanza llamas que siguen al objetivo
 			{$CommonItemTooltip.SummonTagDamage}
 			{$CommonItemTooltip.Whips}
+			A los enemigos alcanzados se les aplica [cbuff:CalamityMod/Dragonfire] y, al impactar contra un súbdito, este lanza llamas que siguen al objetivo
 			'''
 	}
 
@@ -1377,10 +1520,10 @@ Items: {
 		DisplayName: Viento del sepulturero
 		Tooltip:
 			'''
-			Lanza dos mitades que chocan en el punto donde se encuentra el cursor e infligen [cbuff:CalamityMod/MarkedforDeath]
-			Del punto de colisión salen estrellas autoguiadas
 			{$CommonItemTooltip.SummonTagDamage}
 			{$CommonItemTooltip.Whips}
+			Lanza dos mitades que chocan en el punto donde se encuentra el cursor e infligen [cbuff:CalamityMod/MarkedforDeath]
+			Del punto de colisión salen estrellas autoguiadas
 			'''
 	}
 
@@ -1430,10 +1573,10 @@ Items: {
 		DisplayName: Ystralyn
 		Tooltip:
 			'''
-			Invoca una Sierpe primordial fantasma que inflige [cebuff:CalamityMod/MarkedforDeath] y [cebuff:CalamityEntropy/LifeOppress] al impactar.
-			Los súbditos obtienen un aumento del 12% de probabilidad de golpe crítico
 			{$CommonItemTooltip.SummonTagDamage}
+			Los súbditos obtienen un aumento del 12% de probabilidad de golpe crítico
 			{$CommonItemTooltip.Whips}
+			Invoca una Sierpe primordial fantasma que inflige [cebuff:CalamityMod/MarkedforDeath] y [cebuff:CalamityEntropy/LifeOppress] al impactar.
 			'''
 	}
 
@@ -1894,11 +2037,11 @@ Items: {
 		DisplayName: Filo cristalino
 		Tooltip:
 			'''
-			Lanza una ráfaga de golpes, seguida de un golpe mucho más potente
 			{$CommonItemTooltip.SummonTagDamage}
 			3% de probabilidad de golpe crítico de la etiqueta de invocación
-			Los golpes críticos invocan cristales flotantes divididos
 			{$CommonItemTooltip.Whips}
+			Lanza una ráfaga de golpes, seguida de un golpe mucho más potente
+			Los golpes críticos invocan cristales flotantes divididos
 			'''
 	}
 
@@ -1920,9 +2063,9 @@ Items: {
 		DisplayName: Látigo de tendón
 		Tooltip:
 			'''
-			Se lanza hacia delante y luego se retrae, arrasando con los enemigos a su paso e infligiendo [cbuff:CalamityMod/BurningBlood]
 			{$CommonItemTooltip.SummonTagDamage}
 			{$CommonItemTooltip.Whips}
+			Se lanza hacia delante y luego se retrae, arrasando con los enemigos a su paso e infligiendo [cbuff:CalamityMod/BurningBlood]
 			Los súbditos arrancan trozos de carne a los enemigos al atacar
 			'''
 	}
@@ -1940,9 +2083,9 @@ Items: {
 		DisplayName: Corruptor de mentes
 		Tooltip:
 			'''
-			Lanza un golpe de largo alcance que se clava en el primer enemigo al que impacta antes de ser arrancado, infligiendo [cbuff:CalamityMod/BrainRot]
 			{$CommonItemTooltip.SummonTagDamage}
 			{$CommonItemTooltip.Whips}
+			Lanza un golpe de largo alcance que se clava en el primer enemigo al que impacta antes de ser arrancado, infligiendo [cbuff:CalamityMod/BrainRot]
 			Los ataques de los súbditos invocan una ráfaga de cortes de sombra al impactar
 			'''
 	}
@@ -2214,7 +2357,6 @@ Items: {
 			'''
 			Lanza plumas desde arriba y desde abajo hacia el cursor
 			Cada tercer golpe genera 3 estrellas autoguiadas
-			Los ataques infligen [cbuff:CalamityMod/WindChilled]
 			'[c/d4fff8:Has canalizado las nubes hacia el diseño...]'
 			'''
 	}
@@ -2304,7 +2446,7 @@ Items: {
 	}
 
 	ProphecyMasterpiece: {
-		DisplayName: Todo lo que será
+		DisplayName: Obra maestra de la profecía
 		Tooltip: Canaliza una bola de cristal en un rayo de energía del alma, lo que inflige [cebuff:CalamityEntropy/SoulDisorder]
 	}
 
@@ -2313,8 +2455,8 @@ Items: {
 		Tooltip:
 			'''
 			{$CommonItemTooltip.Whips}
-			{$CommonItemTooltip.SummonTagDamage}
 			10% de probabilidad de golpe crítico de la etiqueta de invocación
+			{$CommonItemTooltip.SummonTagDamage}
 			Los enemigos marcados reciben un 5% más de daño de todas las fuentes
 			Los golpes críticos de los súbditos provocarán daño en cadena a un máximo de 5 enemigos cercanos
 			'''
@@ -2336,8 +2478,8 @@ Items: {
 		Tooltip:
 			'''
 			{$CommonItemTooltip.Whips}
-			{$CommonItemTooltip.SummonTagDamage}
 			[1]% de probabilidad de golpe crítico de la etiqueta de invocación
+			{$CommonItemTooltip.SummonTagDamage}
 			Los golpes críticos de los súbditos hacen que broten espinas a tu alrededor, lo que te otorga una reducción de daño única del [2]%
 			Si ya hay espinas, florecerá una flor; cada flor proporciona una reducción de daño adicional del [3]% y [4] PV/s de regeneración de vida por segundo
 			Pueden florecer hasta [5] flores a la vez
@@ -2447,19 +2589,33 @@ Items: {
 		DisplayName: Hilo maldito
 		Tooltip:
 			'''
+			Se utiliza para entrelazar el [i:CalamityEntropy/SoulDeck][c/ADFF2F:Baraja del alma]
+            [c/ADFF2F:Mantén pulsada la tecla SHIFT para leer el hilo...]
+			'''
+
+		HoldShiftForDetails
+			'''
 			Se utiliza para entrelazar la Baraja del Alma
 			Requiere de los siguientes materiales:
-			Réquiem: Notas de los espíritus liberados tras la muerte de Plantera
-			Susurro: Ecos de chasquidos y crujidos en la cúspide de la simbiosis...
-			Purificación: Se encuentra en cofres vivos impregnados de energía sagrada...
-			Oscuridad: Sumergido en los fluidos de dioses muertos...
-			Rencor: Extraído del ectoplasma de una docena de espíritus mediante un líquido transmutador...
-			Índigo: Oculto en lagos sostenidos por las nubes...
-			Luto: Un código moral del protector de una civilización selvática perdida...
-			Aflicción: Alimenta a las bestias de una tierra tan asolada...
-			Desgarro del alma: Se encuentra carcomiendo la armadura sagrada de un defensor de mazmorras...
+			[i:CalamityEntropy/RequiemCard][c/ADFF2F: Réquiem]
+			Notas de los espíritus liberados tras la muerte de Plantera...
+			[i:CalamityEntropy/WisperCard][c/ADFF2F: Susurro]
+			Ecos de chasquidos y crujidos en la cúspide de la simbiosis...
+			[i:CalamityEntropy/PurificationCard][c/ADFF2F: Purificación]
+			Halladas en cofres vivientes impregnados de energía sagrada...
+			[i:CalamityEntropy/ObscureCard][c/ADFF2F: Oscuridad]
+			Sumergidas en los fluidos de dioses muertos...
+			[i:CalamityEntropy/GrudgeCard][c/ADFF2F: Rencor]
+			Extraída del ectoplasma de una docena de espíritus mediante un líquido transmutador...
+			[i:CalamityEntropy/IndigoCard][c/ADFF2F: Índigo]
+			Oculto en lagos sostenidos por las nubes...
+			[i:CalamityEntropy/MourningCard][c/ADFF2F: Luto]
+			Un código moral del protector de una civilización selvática perdida...
+			[i:CalamityEntropy/BitternessCard][c/ADFF2F: Aflicción]
+			Alimenta a las bestias de una tierra tan asolada...
+			[i:CalamityEntropy/DevouringCard][c/ADFF2F: Desgarro del alma]
+			Encontrado devorando la sagrada armadura de un defensor de la mazmorra...
 			'''
-		HoldShiftForDetails: ""
 	}
 
 	SoulDeck: {
@@ -2880,7 +3036,7 @@ Items: {
 	}
 
 	BLUE: {
-		DisplayName: A Z U L
+		DisplayName: AZUL
 		Tooltip: ""
 	}
 
@@ -3300,7 +3456,12 @@ Items: {
 	}
 	StarBreaker: {
 		DisplayName: Quebrantaestrellas
-		Tooltip: Apuñala rápidamente a los enemigos con una lanza que inflige [cbuff:CalamityMod/MarkedforDeath]
+		Tooltip:
+			'''
+			Apuñala rápidamente a los enemigos con una lanza que inflige [cbuff:CalamityMod/MarkedforDeath]
+			Mantén pulsado clic derecho para realizar un movimiento ascendente y descendente, seguido de un dash hacia delante,
+			durante la cual eres invulnerable
+			'''
 	}
 
 	Gungnir: {
@@ -3309,7 +3470,6 @@ Items: {
 			'''
 			Lanza una lanza que invoca estrellas y rayos astrales al impactar
 			Los ataques infligen [cbuff:CalamityMod/AstralInfectionDebuff] y [cbuff:CalamityMod/StaticDischarge]
-			"Al impactar, caen rayos y estrellas fugaces"
 			'''
 	}
 
@@ -3902,8 +4062,6 @@ Items: {
 			10% de aumento de daño
 			5% de aumento de reducción de daño
 			Actual: [A]
-			"¿De verdad estoy dispuesto a comprar un juego en Steam para averiguar si esto funciona?"
-			"...Ni hablar"
 			'''
 	}
 
@@ -4218,7 +4376,7 @@ Neltharion: {
 		DisplayName: Ba Xing Chong
 		Tooltip:
 			'''
-			Lanza una salva de misiles autoguiado
+			Lanza dos salvas de misiles autoguiados que explotan al impactar, lo que inflige [cbuff:CalamityMod/MiracleBlight], [cbuff:CalamityMod/TrueVulnerabilityHex] y [cbuff:OnFire3]
 			[c/ff7f50:"¿El antiguo dueño de esta arma? ¿Te refieres a ese tipo que está cubierto de ciberimplantes, excepto el cerebro?"]
 			'''
 	}
@@ -4228,10 +4386,9 @@ Neltharion: {
 		Tooltip:
 			'''
 			Lanza un boomerang de retazos
-			Haz clic derecho para lanzarte hacia delante; no recibirás daño durante el dash
-			Si impactas en cualquier objetivo durante el dash, realizarás una voltereta hacia atrás y lanzarás un tajo en forma de X en el aire
-			El impacto del tajo en forma de X provoca una explosión retardada y recarga el arma
-			Potencia los siguientes 10 ataques normales
+			Haz clic derecho para lanzarte hacia delante y obtener invulnerabilidad temporal con un tiempo de enfriamienti de 30 segundos
+			Al golpear a cualquier objetivo con la embestida, se activa una voltereta hacia atrás que otorga más invulnerabilidad antes de lanzar un tajo en forma de X de amplio alcance contra el objetivo alcanzado
+			El daño del tajo provoca una explosión retardada y potencia el bumerán durante los siguientes 10 lanzamientos
 			'''
 	}
 
@@ -4239,19 +4396,19 @@ Neltharion: {
 		DisplayName: Ametralladora de la Guardia imperial de Azafure
 		Tooltip:
 			'''
-			Utiliza los componentes industriales del infierno[i:CalamityEntropy/HellIndustrialComponents] para cargar munición [AMMOMAX]
-			Dispara ráfagas rápidas de escopeta a corta distancia
+			Haz clic izquierdo sobre los componentes industriales del infierno [i:CalamityEntropy/HellIndustrialComponents] de tu inventario para cargar munición [AMMOMAX]
+            Dispara una ráfaga constante de balas de corto alcance que infligen [cebuff:CalamityEntropy/MechanicalTrauma]
 			'''
 	}
 
 	AzafureExhaustGasInjector: {
 		DisplayName: Inyector de gases de escape Azafure
-		Tooltip: Chorro de gases de escape corrosivos
+		Tooltip: Emite un flujo constante de gases de escape corrosivos
 	}
 
 	AzafureStandardShotgun: {
 		DisplayName: Escopeta estándar de Azafure
-		Tooltip: Dispara unos perdigones de escopeta dispersos
+		Tooltip: Dispara una ráfaga de balas de escopeta que infligen [cebuff:CalamityEntropy/MechanicalTrauma]
 	}
 
 	ThalassianGleam: {
@@ -4270,7 +4427,11 @@ Neltharion: {
 
 	Erebodrepanon: {
 		DisplayName: Erebodrepanón
-		Tooltip: Empuña una guadaña gigante y haz pedazos a tus enemigos
+		Tooltip:
+			'''
+			Empuña una guadaña gigante que inflige [cebuff:CalamityEntropy/LifeOppress] y hace pedazos a tus enemigos
+			Cada tercer golpe tendrá un alcance mayor y convocará una espiral de energía draconiana que se abalanzará sobre los enemigos alcanzados
+			'''
 	}
 
 	FlowerHeadband: {
@@ -4292,7 +4453,7 @@ Neltharion: {
 		DisplayName: La capucha de Tsumugi
 		Tooltip:
 			'''
-			Mantén pulsada la tecla Mayús y clic derecho en el inventario para activar o desactivar el aspecto de la capucha
+			Pulsa Mayús + clic derecho sobre este objeto de tu inventario para activar o desactivar el aspecto de la capucha
 			[c/e9afc0:Actual - [D]]
 			'''
 		Show: Show
@@ -4316,6 +4477,220 @@ Neltharion: {
 
 	TectonicChainBlade: {
 		DisplayName: Hoja de cadena tectónica
+		Tooltip:
+			'''
+			{$CommonItemTooltip.SummonTagDamage}
+			{$CommonItemTooltip.Whips}
+			Inflige [cbuff:OnFire3] y tus súbditos obtienen un 20% de probabilidad de generar un fragmento tectónico al golpear
+			El fragmento tectónico se dirige hacia los enemigos e inflige el 70% del daño de los súbditos
+			'''
+	}
+
+	OathBanner: {
+		DisplayName: Estandarte del juramento
+		Tooltip:
+			'''
+			Obtienes un [DR]% de reducción de daño adicional
+			Otorga +[REG] HP/s de regeneración de vida
+			Obtienes [MSD]% de reducción de velocidad de movimiento
+			Los compañeros de equipo en un radio de 625 bloques obtienen lo siguiente:
+			Un aumento del daño del [DMG]% 
+			Un aumento del [CRIT]% de probabilidad de golpe crítico
+			Un aumento del [MSA]% de velocidad de movimiento
+			'''
+	}
+
+	ReapersButterfly: {
+		DisplayName: Mariposas segadoras
+		Tooltip: ""
+	}
+
+	BottleofCrystal: {
+		DisplayName: Botella de cristal
+		Tooltip: ""
+	}
+
+	BlackSkirt: {
+		DisplayName: Falda negra
+		Tooltip: ""
+	}
+
+	CantaloupeSmoothie: {
+		DisplayName: Batido de melón
+		Tooltip: ""
+	}
+
+	BellwayBell: {
+		DisplayName: Campana del campanario
+		Tooltip: ""
+	}
+
+	FlowerWithFace: {
+		DisplayName: Flor con cara
+		Tooltip:
+			'''
+			Invoca a Flowery para que te siga
+			Flowery utilizará Jarona contra los enemigos cercanos
+			'''
+	}
+
+	AntlionShell: {
+		DisplayName: Caparazón de hormiga león
+		Tooltip:
+			'''
+			{$BaitCommonTooltip1}
+			{$BaitCommonTooltip2}
+			Guía a la Molestia del desierto para que muerda al objetivo
+			'''
+	}
+
+	AzafureMicroBeacon: {
+		DisplayName: Microbaliza de Azafure
+		Tooltip:
+			'''
+			{$BaitCommonTooltip1}
+			{$BaitCommonTooltip2}
+			Llama a un enjambre de drones de ataque para bombardear al objetivo
+			'''
+	}
+
+	DeliciousAcorn: {
+		DisplayName: Bellota deliciosa
+		Tooltip:
+			'''
+			{$BaitCommonTooltip1}
+			{$BaitCommonTooltip2}
+			Convoca al Escuadrón de las ardillas para que lancen piedras al objetivo
+			'''
+	}
+
+	MoltenAnchor: {
+		DisplayName: Ancla fundida
+		Tooltip:
+			'''
+			{$BaitCommonTooltip1}
+			{$BaitCommonTooltip2}
+			Invoca una serpiente ósea para que incinere a todos los objetivos con los que se encuentre
+			'''
+	}
+
+	MoonlightCore: {
+		DisplayName: Núcleo de luz lunar
+		Tooltip:
+			'''
+			{$BaitCommonTooltip1}
+			{$BaitCommonTooltip2}
+			Invoca ojos fantasmas para atacar al objetivo
+			'''
+	}
+
+	MutantBulb: {
+		DisplayName: Bulbo mutante
+		Tooltip:
+			'''
+			{$BaitCommonTooltip1}
+			{$BaitCommonTooltip2}
+			Invoca enredaderas para destrozar al objetivo
+			'''
+	}
+
+	MechanicalTransmitter: {
+		DisplayName: Transmisor mecánico
+		Tooltip:
+			'''
+			{$BaitCommonTooltip1}
+			{$BaitCommonTooltip2}
+			Invoca una especie de detector que dispara rayos láser hacia el objetivo
+			'''
+	}
+
+	MagicHat: {
+		DisplayName: Sombrero mágico
+		Tooltip:
+			'''
+			{$BaitCommonTooltip1}
+			{$BaitCommonTooltip2}
+			Invoca a tres palomas para que ataquen al objetivo
+			'''
+	}
+
+	KamishiroKou: {
+		DisplayName: Gafas rotas de Kamishiro Kou
+		Tooltip:
+			'''
+			"Si el hecho de haber sido elegidos es una mentira absoluta, destinada únicamente a encasillarnos y convertirnos en meros elementos de la evolución...
+            Aferrándonos la divinidad con su puerta trasera, en esta trampa que es como un Myanmar digital, ¿adónde podemos ir?"
+			'''
+	}
+
+	FrostboundCage: {
+		DisplayName: Jaula helada
+		Tooltip:
+			'''
+			{$BaitCommonTooltip1}
+			{$BaitCommonTooltip2}
+			Libera a los espíritus aprisionados y estos atacarán a sus objetivos con balas de hielo que siguen a su objetivo
+			'''
+	}
+
+	BlueFlatTopMushroom: {
+		DisplayName: Seta azul de cabeza plana
+		Tooltip:
+			'''
+			{$BaitCommonTooltip1}
+			{$BaitCommonTooltip2}
+			Summon a blue fox
+			El zorro robará la seta y liberará una nube de esporas
+			'''
+	}
+
+	SacredStone: {
+		DisplayName: Piedra sagrada
+		Tooltip:
+			'''
+			{$BaitCommonTooltip1}
+			{$BaitCommonTooltip2}
+			Tras impactar, se recargará durante dos segundos y luego rebotará en el objetivo,
+			para a continuación lanzar llamas sagradas que quemarán al objetivo
+			'''
+	}
+
+	BottledFissure: {
+		DisplayName: Fisura embotellada
+		Tooltip:
+			'''
+			{$BaitCommonTooltip1}
+			{$BaitCommonTooltip2}
+			Invoca a la [ceeffect/cruiser:Bala devoradora del vacío] para que persiga al objetivo
+			'''
+	}
+
+	AzafureWarSatelliteAuthorizationKey: {
+		DisplayName: Clave de autorización del satélite de guerra de Azafure
+		Tooltip:
+			'''
+			{$BaitCommonTooltip1}
+			{$BaitCommonTooltip2}
+			Llama al Satélite de guerra de Azafure para que ataque el objetivo
+			'''
+	}
+
+	Fooveria: {
+		DisplayName: Fooveria
+		Tooltip:
+			'''
+			"Las armas, forjadas por la voluntad del mundo y la matanza, acuden a ayudarte a purificar este mundo"
+			Aumentasu poder a medida que avanzas: [L] / 15
+			'''
+	}
+
+	AzafureTwinSaw: {
+		DisplayName: Sierra doble de Azafure
+		Tooltip: Mueve las sierras de arriba abajo, para luego juntarlas y lanzar chispas hacia delante
+	}
+
+	AstralSample: {
+		DisplayName: Muestra astral
 		Tooltip: ""
 	}
 }
@@ -4405,8 +4780,6 @@ MissileLauncherMaxStickTooltip: Se pueden alojar hasta {0} en el mismo enemigo
 Projectiles: {
 	VoidBladeProj.DisplayName: Void Blade
 	VoidBladeHit.DisplayName: Void Blade Hit
-	RevelationThrow.DisplayName: Revelation Throw
-	RevelationMelee.DisplayName: Revelation Melee
 	Rvshoot.DisplayName: Rvshoot
 	PrisonOfPermafrostCircle.DisplayName: Prison Of Permafrost
 	IceSpike.DisplayName: Ice Spike
@@ -5067,6 +5440,79 @@ Projectiles: {
 	ErebodrepanonMark.DisplayName: Erebodrepanon Mark
 	SilentpeakSword.DisplayName: Silentpeak Sword
 	TectonicChainBladeWhip.DisplayName: Tectonic Chain Blade Whip
+	BrillianceSwirlbladeProj.DisplayName: Brilliance Swirlblade Proj
+	FlamingSwirlbladeFlame.DisplayName: Flaming Swirlblade Flame
+	FlamingSwirlbladeProj.DisplayName: Flaming Swirlblade Proj
+	AzafureSwirlbladeProj.DisplayName: Azafure Swirlblade Proj
+	AzafureSwirlbladeSaw.DisplayName: Azafure Swirlblade Saw
+	AzafureSwirlbladeMissile.DisplayName: Azafure Swirlblade Missile
+	GlacierSwirlbladeProj.DisplayName: Glacier Swirlblade Proj
+	GlacierSwirlbladeSaw.DisplayName: Glacier Swirlblade Saw
+	RunicSwirlbladeBullet.DisplayName: Runic Swirlblade Bullet
+	RunicSwirlbladeProj.DisplayName: Runic Swirlblade Proj
+	BlazingSwirlbladeFlame.DisplayName: Blazing Swirlblade Flame
+	BlazingSwirlbladeProj.DisplayName: Blazing Swirlblade Proj
+	SawofMacrocosmProj.DisplayName: Sawof Macrocosm Proj
+	MacrocosmSawDash.DisplayName: Macrocosm Saw Dash
+	MacrocosmVoidBolt.DisplayName: Rift Beam
+	SawofMacrocosmSplit.DisplayName: Sawof Macrocosm Split
+	RevelationExplode.DisplayName: Revelation Explode
+	RevelationThrown.DisplayName: Revelation Thrown
+	RevelationBolt.DisplayName: Revelation Bolt
+	RevelationStealth.DisplayName: Revelation Stealth
+	ExergySwirlbladeProj.DisplayName: Exergy Swirlblade Proj
+	ExergySwirlbladeSaw.DisplayName: Exergy Swirlblade Saw
+	ApeirokyklosProj.DisplayName: Apeirokyklos Proj
+	ApeirokyklosSpike.DisplayName: Apeirokyklos Spike
+	Bellbeast.DisplayName: Bellbeast
+	Flowery.DisplayName: Flowery
+	AquaShardWaterBullet.DisplayName: Aqua Shard Water Bullet
+	WaterBulletSpawner.DisplayName: Water Bullet Spawner
+	AntlionShellProjectile.DisplayName: Antlion Shell Projectile
+	DesertNuisanceFriendly.DisplayName: Desert Nuisance Friendly
+	AzafureAssaultDrone.DisplayName: Azafure Assault Drone
+	AzafureMicroBeaconProjectile.DisplayName: Azafure Micro Beacon Projectile
+	BeaconDroneShoot.DisplayName: Beacon Drone Shoot
+	DeliciousAcornProjectile.DisplayName: Delicious Acorn Projectile
+	SquirrerMinion.DisplayName: Squirrer Minion
+	SquirrelStone.DisplayName: Squirrel Stone
+	BoneSerpentFriendly.DisplayName: Bone Serpent Friendly
+	MoltenAnchorProjectile.DisplayName: Molten Anchor Projectile
+	MoonlightBeam.DisplayName: Moonlight Beam
+	MoonlightCoreProjectile.DisplayName: Moonlight Core Projectile
+	MoonlightLaser.DisplayName: Moonlight Laser
+	TrueEye.DisplayName: Phantom Eye
+	MutantBulbProjectile.DisplayName: Mutant Bulb Projectile
+	MutantVine.DisplayName: Mutant Vine
+	DetectorMinion.DisplayName: Detector Minion
+	DetectorMinionLaser.DisplayName: Detector Minion Laser
+	MechanicalTransmitterProjectile.DisplayName: Mechanical Transmitter Projectile
+	BaitHeldEffect.DisplayName: Bait Held Effect
+	MagicHatProjectile.DisplayName: Magic Hat Projectile
+	PigeonMinion.DisplayName: Pigeon Minion
+	FrostboundCageProjectile.DisplayName: Frostbound Cage Projectile
+	FrostboundSpirit.DisplayName: Frostbound Spirit
+	FrostShoot.DisplayName: Frost Shoot
+	BlueFlatTopMushroomProjectile.DisplayName: Blue Flat Top Mushroom Projectile
+	BlueFox.DisplayName: Blue Fox
+	BlueSporeCloud.DisplayName: Blue Spore Cloud
+	SacredShoot.DisplayName: Sacred Shoot
+	SacredStoneProjectile.DisplayName: Sacred Stone Projectile
+	SacredStoneSummon.DisplayName: Sacred Stone Summon
+	BottledFissureProjectile.DisplayName: Bottled Fissure Projectile
+	VoidEater.DisplayName: Void Eater
+	AzafureWarSatelliteAuthorizationKeyProjectile.DisplayName: Azafure War Satellite Authorization Key Projectile
+	SateliteLaser.DisplayName: Satelite Laser
+	WarSatellite.DisplayName: War Satellite
+	ArbitratorStealthImpact.DisplayName: Arbitrator Stealth Impact
+	ArbitratorStealthImpactSpawner.DisplayName: Arbitrator Stealth Impact Spawner
+	TheDeadCutSlash.DisplayName: The Dead Cut Slash
+	FooveriaHeld.DisplayName: Fooveria Held
+	FooveriaIceShard.DisplayName: Fooveria Ice Shard
+	AzafureTwinSawHeld.DisplayName: Azafure Twin Saw Held
+	AzafureSawSpark.DisplayName: Azafure Saw Spark
+	VFChargeFXProj.DisplayName: V F Charge F X Proj
+	VoidFaquirEnergyBallMelee.DisplayName: Void Faquir Energy Ball Melee
 }
 
 LegendTooltip: - Legendario -
@@ -5202,6 +5648,7 @@ Buffs: {
 	Deceive: {
 		DisplayName: Engañar
 		Description: Reduce la velocidad
+		ItemTooltip: Ralentiza a los enemigos
 	}
 
 	VoidCandleBuff: {
@@ -5496,37 +5943,37 @@ Buffs: {
 
 	CrystedgeWhipDebuff: {
 		DisplayName: Efecto negativo del Filo cristalino
-		Description: Mods.CalamityEntropy.Buffs.CrystedgeWhipDebuff.Description
+		Description: ""
 	}
 
 	DaylightWhipDebuff: {
 		DisplayName: Efecto negativo dela Luz del día
-		Description: Mods.CalamityEntropy.Buffs.DaylightWhipDebuff.Description
+		Description: ""
 	}
 
 	ForeseeWhipDebuff: {
 		DisplayName: Efecto nevativo del Látigo vaticinador
-		Description: Mods.CalamityEntropy.Buffs.ForeseeWhipDebuff.Description
+		Description: ""
 	}
 
 	LashingBramblerodWhipDebuff: {
 		DisplayName: Efecto negativo del Azote de zarzas
-		Description: Mods.CalamityEntropy.Buffs.LashingBramblerodWhipDebuff.Description
+		Description: ""
 	}
 
 	MindCorruptorWhipDebuff: {
 		DisplayName: Efecto negativo del Corruptor de menes
-		Description: Mods.CalamityEntropy.Buffs.MindCorruptorWhipDebuff.Description
+		Description: ""
 	}
 
 	SinewLashWhipDebuff: {
 		DisplayName: Efecto negativo del Látigo de tendón
-		Description: Mods.CalamityEntropy.Buffs.SinewLashWhipDebuff.Description
+		Description: ""
 	}
 
 	WhipOfEvilKingWhipDebuff: {
 		DisplayName: Efecto negativo del Látigo del Rey maligno
-		Description: Mods.CalamityEntropy.Buffs.WhipOfEvilKingWhipDebuff.Description
+		Description: ""
 	}
 
 	SilentpeakBuff: {
@@ -5536,7 +5983,22 @@ Buffs: {
 
 	TectonicChainBladeWhipDebuff: {
 		DisplayName: Efecto negativo del látigo de cuchillas de cadena tectónica
-		Description: Mods.CalamityEntropy.Buffs.TectonicChainBladeWhipDebuff.Description
+		Description: ""
+	}
+
+	OathofCommand: {
+		DisplayName: Juramento de mando
+		Description: Tienes la sensación de que la moral está alta
+	}
+
+	BellbeastBuff: {
+		DisplayName: Mejora de la Bestia de la campana
+		Description: ""
+	}
+
+	FloweryBuff: {
+		DisplayName: Mejora de Flowery
+		Description: ¡Pega!
 	}
 }
 
@@ -5572,10 +6034,11 @@ NPCs: {
 			HateCrowded: Aquí hay demasiada gente...
 			LikeNPC_Princess: Me gusta {NPCName}.
 			Princess_LovesNPC: Me encanta {NPCName}.
+			MonumentNearby: ¿De dónde ha salido ese monumento tan feo? No quiero volver a verlo.
 		}
 
-		DisplayName: Gusano primordial
-		Census.SpawnCondition: Condiciones desconocidas
+		DisplayName: Primordial-chan
+		Census.SpawnCondition: Tras derrotar a la sierpe primordial
 	}
 
 	NihilityActeriophage: {
@@ -5666,9 +6129,6 @@ WyrmChatBloodMoon2: Quizás deberías irte a la cama.
 WyrmChatRain1: Está lloviendo, es realmente refrescante. Nunca había sentido esto antes.
 WyrmChatRain2: El agua de lluvia que cae sobre mí resulta muy agradable. No es comparable con la presión del agua en el abismo
 WyrmChatRain3: El aire es muy fresco, ¿verdad?
-WyrmChatCOHalibut1: ¿Me has traído marisco? Un momento...
-WyrmChatCOHalibut2: ¿Puedo probarlo? ¿Qué, no se puede hacer...?
-WyrmChatCOHalibut3: ¿Qué es eso? Tiene buena pinta, jeje...
 loreCruiser: La entropía, por definición, es el concepto de que todo acaba volviendo a la nada. Para dar caza a alguien que ha abrazado este concepto, debes demostrar que tú también crees en él. Romper esa botella debió de ser suficiente para llamar su atención. ¿Es solo un instinto de supervivencia dar caza a aquellos con energías similares? ¿O se trata de algo egoísta, más parecido a un objetivo o a un deporte? En cualquier caso, según mi experiencia, es mejor dejar en paz a entidades como estas. 
 loreLuminaris: Un desarrollo previsible: el único organismo que evolucionó junto con la infección astral. Muchos han sido devastados por ella, pero los rápidos ciclos generacionales traen consigo la evolución. Hoy en día, se la considera una encarnación de la belleza, con su esbelta forma bailando entre las constelaciones. Han surgido nuevas leyendas a partir de las alas resplandecientes de la polilla nacida de las estrellas. Sin embargo, las diversas ofrendas la han vuelto impredecible para quienes las realizan, y se sabe que ataca a quienes le ofrecen lo que ella considera ofensivo. ¿Se le ha subido el poder a la cabeza? ¿O simplemente se ha acostumbrado a lo que le han entregado? Ya sea por naturaleza o de forma intencionada, nunca lo sabremos; simplemente tened cuidado de dónde dirigís vuestro poder, pues los inocentes no tienen nada que ver con nuestra búsqueda.
 UseToggle: Utiliza este ítem para activar o desactivar los siguientes efectos:
@@ -5689,7 +6149,7 @@ Keybinds: {
 	RuneDash.DisplayName: Embestida de Runa de vuelo
 	CommandMinions.DisplayName: Dirigir súbditos
 	NihilityAndChaoticArmorConnectKey.DisplayName: Nihilidad y conexión de la armadura caótica 
-	AcropolisMechTransformation.DisplayName: Mods.CalamityEntropy.Keybinds.AcropolisMechTransformation.DisplayName
+	AcropolisMechTransformation.DisplayName: Transformación del mecha Acrópolis
 }
 
 ProphetLoreEffect:
@@ -5800,6 +6260,11 @@ Configs: {
 		EnableRetroLighting: {
 			Label: Permitir iluminación retro y calidad de las oleadas baja
 			Tooltip: Si deseas utilizar el modo de luz retro, activa esta opción. Asegúrate de activar el efecto píxel para que se muestre el UI correctamente
+		}
+
+		CalamityTextEffectCompatibilityFix: {
+			Label: Corrección de compatibilidad del efecto de texto de Calamity
+			Tooltip: ""
 		}
 	}
 
@@ -6183,6 +6648,7 @@ BloodBoiling: Sangre hirviendo
 BloodBoilingDescr: El uso continuo de objetos aumenta la velocidad de ataque, pero te causará daño continuo a ti mismo
 PrefixHeavyDesc: +10% de aumento de la velocidad de caída
 DamageReduceCD: Tiempo de recarga de la reducción de daño
+DeltaruneCH5ShadowCrystal:  Consigue el cristal de las sombras en el capítulo 5 de Deltarune
 
 InfernumIntros: {
 	NihilityTwin:
@@ -6520,6 +6986,17 @@ AzafureEnhances: {
 		'''
 	AzafureSupportRemote: Aumenta la velocidad de ataque
 	MottledSpear: Aumenta la velocidad del gancho
+	AzafureImperialGuardMachineGun: Aumentr el alcance y la precisión de los proyectiles
+	AzafureExhaustGasInjector: Aumenta la frecuencia en el que se hace daño
+	AzafureStandardShotgun: Aumenta el número de balas
+	AzafureSwirlblade:
+		'''
+		Aumentar el alcance y la duración de la sierra
+		Aumentar la cantidad de misiles
+		'''
+	AzafureMicroBeacon: Aumenta el número de drones
+	AzafureWarSatelliteAuthorizationKey: Aumenta la duración del láser
+	AzafureTwinSaw: Aumenta el alcance de la chispa
 }
 
 Menu: {
@@ -6547,7 +7024,7 @@ MinionAccDescCrownFangs: Al equiparlo con [ITEM]: +1 de espacio de súbditos
 NonZenithWorld: No en el mundo Cénit
 ZenithWorld: En un mundo cénit
 RatizelShield: Escudo de Ratizel
-PrefixEnchantedDesc: Mods.CalamityEntropy.PrefixEnchantedDesc
+PrefixEnchantedDesc: Aumenta un 4% el maná mejorado
 NoAmmo: ¡Me he quedado sin munición!
 VoidDeath0: "{0} se esfumó sin dejar rastro"
 VoidDeath1: "{0} se ha descompuesto en átomos"
