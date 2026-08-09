@@ -25,8 +25,8 @@ Items: {
 				DisplayName: Silencio
 				Tooltip: 
 					'''
-					Lanza un [ceeffect/cruiser:void-chained frisbee] que, tras un breve tiempo se acerca de nuevo a los enemigos al impactar y explota al chocar con ellos]
-					Los ataques sigilosos hacen que el frisbee se adhiera al enemigo alcanzado una vez encadenado, creando un [ceeffect/cruiser:void vortex] que inflige daño rápidamente en una amplia zona]
+					Lanza un [ceeffect/cruiser:Frisbee con cadena vacías] que, tras un breve tiempo se acerca de nuevo a los enemigos al impactar y explota al chocar con ellos
+					Los ataques sigilosos hacen que el frisbee se adhiera al enemigo alcanzado una vez encadenado, creando un [ceeffect/cruiser:Vórtice de vacío] que inflige daño rápidamente en una amplia zona
 					'''
 			}
 
@@ -302,7 +302,7 @@ Items: {
 			}
 
 			ExergySwirlblade: {
-				DisplayName: Sierra giratoria de EXergía
+				DisplayName: Hoja giratoria de EXergía
 				Tooltip:
 					'''
 					Vuela durante un rato o impacta contra un enemigo, y luego despliega una hoja serrada que realiza mçultiples que impactos que se va reduciendo con el tiempo
@@ -422,7 +422,7 @@ Items: {
 		}
 
 		NihilityTwinLore: {
-			DisplayName: Nihility Twin
+			DisplayName: Gemelos de la Nihilidad
 			Tooltip: ""
 			Lore: "{$loreNihTwin}"
 		}
@@ -472,8 +472,8 @@ Items: {
 	}
 
 	MechanicalChainsaw: {
-		DisplayName: Esta arma se sobrecalienta, lo que impide su uso durante un rato
-		Tooltip: ""
+		DisplayName: Motosierra mecánica
+		Tooltip: Esta arma se sobrecalienta, lo que impide su uso durante un rato
 	}
 
 	EnslavedStar: {
@@ -1285,9 +1285,9 @@ Items: {
 			Forjada con núcleos de caos y lingotes perennes...
 			[i:CalamityEntropy/GreedCard][c/FF6347: Avaricia]
 			Perdida en las aguas de la Infección astral...
-			[i:CalamityEntropy/Fragilidad][c/FF6347: Frágil]
+			[i:CalamityEntropy/Frail][c/FF6347: Frágil]
 			Lastra el equilibrio gelatinoso del dominio crimulano y eboniano...
-			[i:CalamityEntropy/Nada][c/FF6347: Vacío]
+			[i:CalamityEntropy/Nothing][c/FF6347: Vacío]
 			Devorado por el depredador alfa del Abismo...
 			'''
 	}
@@ -2205,7 +2205,7 @@ Items: {
 	}
 
 	BlessingLastStand: {
-		DisplayName: Bendición - Determination
+		DisplayName: Bendición - Determinación
 		Tooltip: ""
 	}
 
@@ -2328,7 +2328,7 @@ Items: {
 		Tooltip:
 			'''
 			'[c/ff5300:Una espada que en su día fue venerada, ahora está abandonada por el paso del tiempo]'
-            '[c/ff5300:Quizás algún día puedas restaurar su envoltura a tu gusto...]'
+			'[c/ff5300:Quizás algún día puedas restaurar su envoltura a tu gusto...]'
 			'''
 	}
 
@@ -2469,8 +2469,8 @@ Items: {
 			'''
 			Invoca una tormenta de plumas infernales que infligen [cebuff:CalamityEntropy/LifeOppress] y [cebuff:CalamityMod/Dragonfire]
 			Las plumas infernales también volverán al jugador al impactar, restaurándole entre 10 y 14 de vida
-            Cada séptimo golpe, en cambio, invoca una espada gigante que inflige [cebuff:BetsysCurse]
-            Al mantener pulsado clic derecho la espada se cargará; al soltar clic derecho cuando está completamente cargada, se desata un torrente de cortes de fuego
+			Cada séptimo golpe, en cambio, invoca una espada gigante que inflige [cebuff:BetsysCurse]
+			Al mantener pulsado clic derecho la espada se cargará; al soltar clic derecho cuando está completamente cargada, se desata un torrente de cortes de fuego
 			'''
 	}
 
@@ -2517,7 +2517,8 @@ Items: {
 		DisplayName: Carta del alma 『Rencor』
 		Tooltip:
 			'''
-			Al golpear a los enemigos, existe la posibilidad de que se liberen almas que vuelan hacia ti, curándote 2 puntos de vida, más 1 punto adicional por cada 160 de vida máxima, restaurándote 10 de maná y otorgándote 6 de defensa temporal
+			Al golpear a los enemigos, existe la posibilidad de que se liberen almas que vuelan hacia ti, curándote 2 puntos de vida, más 1 punto adicional por cada 160 de vida máxima, 
+			restaurándote 10 de maná y otorgándote 6 de defensa temporal
 			"El odio persistente puede ser el combustible definitivo para quien desea derramar sangre..."
 			'''
 	}
@@ -2928,7 +2929,7 @@ Items: {
 	}
 
 	HellIndustrialComponents: {
-		DisplayName: Componentes industriales dde azufre
+		DisplayName: Componentes industriales de azufre
 		Tooltip: De diseño complejo, pero de uso intuitivo...
 	}
 
@@ -3445,7 +3446,7 @@ Items: {
 		Tooltip:
 			'''
 			Blande rápidamente una espada láser holográfica.
-			Al impactar, inflige [cebuff:Electrified], [cebuff:CalamityEntropy/MechanicalTrauma], [cebuff:CalamityMod/Crumbling] y [cebuff:CalamidadMod/GalvanicCorrosion]
+			Al impactar, inflige [cebuff:Electrified], [cebuff:CalamityEntropy/MechanicalTrauma], [cebuff:CalamityMod/Crumbling] y [cebuff:CalamityMod/GalvanicCorrosion]
 			'''
 	}
 
@@ -3667,11 +3668,11 @@ Items: {
 		Tooltip:
 			'''
 			Obtienes una barrera con [S] de salud
-            La barrera se regenerará 20 segundos después de recibir un impacto, y tardará 5 segundos en regenerarse por completo
-            Recibir un impacto reinicia el temporizador
-            Obtienes un medidor de energía que se va llenando con el tiempo
-            A cambio de una pequeña fracción de energía, puedes realizar un dash
-            Esta carrera rápida te permite embestir a los enemigos sin sufrir daño
+			La barrera se regenerará 20 segundos después de recibir un impacto, y tardará 5 segundos en regenerarse por completo
+			Recibir un impacto reinicia el temporizador
+			Obtienes un medidor de energía que se va llenando con el tiempo
+			A cambio de una pequeña fracción de energía, puedes realizar un dash
+			Esta carrera rápida te permite embestir a los enemigos sin sufrir daño
 			'''
 	}
 
@@ -3846,9 +3847,9 @@ Items: {
 		Tooltip:
 			'''
 			Obtienes una escudo con [S] de salud
-            El escudo se regenerará 20 segundos después de recibir un impacto, y tardará 5 segundos en regenerarse por completo
-            Otorga una dash que permite atravesar a los enemigos sin sufrir daño
-            Aumenta un [C]% la probabilidad de golpe crítico
+			El escudo se regenerará 20 segundos después de recibir un impacto, y tardará 5 segundos en regenerarse por completo
+			Otorga una dash que permite atravesar a los enemigos sin sufrir daño
+			Aumenta un [C]% la probabilidad de golpe crítico
 			'''
 	}
 
@@ -3942,8 +3943,8 @@ Items: {
 			{$CommonItemTooltip.SummonTagDamage}
 			{$CommonItemTooltip.Whips}
 			Los golpes tienen la posibilidad de invocar un Sol diurno.
-            Los ataques de los súbditos hacen que el Sol diurno lance rayos de sol contra el enemigo alcanzado
-            Los ataques con el látigo y los rayos de sol infligen [cbuff:OnFire3].
+			Los ataques de los súbditos hacen que el Sol diurno lance rayos de sol contra el enemigo alcanzado
+			Los ataques con el látigo y los rayos de sol infligen [cbuff:OnFire3].
 			'''
 	}
 
@@ -4395,7 +4396,7 @@ Neltharion: {
 		DisplayName: Ametralladora de la Guardia imperial de Azafure
 		Tooltip:
 			'''
-			Haz clic izquierdo sobre los componentes industriales del infierno [i:CalamityEntropy/HellIndustrialComponents] de tu inventario para cargar munición [AMMOMAX]
+			Haz clic izquierdo sobre los componentes industriales de Azafure [i:CalamityEntropy/HellIndustrialComponents] de tu inventario para cargar munición [AMMOMAX]
 			Dispara una ráfaga constante de balas de corto alcance que infligen [cebuff:CalamityEntropy/MechanicalTrauma]
 			'''
 	}
@@ -4697,8 +4698,8 @@ Neltharion: {
 SmolderingSetBonus:
 	'''
 	Consigues una cola demoníaca que ataca a los enemigos cercanos y les inflige [cbuff:OnFire3]
-    Aumenta en 1 tu número máximo de súbditos
-    +80 al nivel máximo de sigilo
+	Aumenta en 1 tu número máximo de súbditos
+	+80 al nivel máximo de sigilo
 	'''
 ChaoticSetBonus:
 	'''
@@ -6385,7 +6386,7 @@ ArmorPrefixGreatName: Venerado
 ArmorPrefixGreatDescription:
 	'''
 	Aumenta un 8% la defensa
-    Aumenta un 2% el daño
+	Aumenta un 2% el daño
 	'''
 ArmorPrefixMassiveName: Voluminoso
 ArmorPrefixMassiveDescription:
