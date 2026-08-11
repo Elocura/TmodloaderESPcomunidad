@@ -1449,7 +1449,7 @@ Mods: {
 			}
 
 			TabooWandBuff: {
-				DisplayName: Resucitado oocuro
+				DisplayName: Resucitado oscuro
 				Description: ¡Está listo para comenzar una fiesta esquelética!
 			}
 
@@ -2453,7 +2453,7 @@ Mods: {
 					'''
 					Al presionar la tecla '{$Keybinds.ArmorAbility.DisplayName}', alternarás entre cuatro estados:
 					Rojo - Tú y los aliados cercanos recibís un daño fijo de {0} y un daño de {0}
-					Verde -Tú y los aliados cercanos obtenéis una velocidad de movimiento de {0} y un tiempo de vuelo de {0}
+					Verde - Tú y los aliados cercanos obtenéis una velocidad de movimiento de {0} y un tiempo de vuelo de {0}
 					Púrpura - Tú y tus aliados cercanos obtenéis {0} de recurso máximo y {0} de regeneración de recursos
 					Azul - Tú y tus aliados cercanos obtenéis un aumento de defensa de {0} una reducción de daño de {0}
 					'''
@@ -2753,12 +2753,12 @@ Mods: {
 					Aumenta permanentemente la probabilidad de que caigan notas de inspiración en {2}%
 					Aumenta permanentemente la duración de potenciaciones de 'uso máximo de inspiración' en {3}%
 					'''
-				InspirationRequirement: Requiere al menos {0} de Inspiración
+				InspirationRequirement: Requiere al menos {0} de inspiración
 			}
 
-			InspirationCrystalNew.DisplayName: Cristal de Inspiración
-			InspirationFragment.DisplayName: Fragmento de Inspiración
-			InspirationShard.DisplayName: Esquirla de Inspiración
+			InspirationCrystalNew.DisplayName: Cristal de inspiración
+			InspirationFragment.DisplayName: Fragmento de inspiración
+			InspirationShard.DisplayName: Esquirla de inspiración
 
 			InspirationGem: {
 				DisplayName: Gema de inspiración
@@ -2766,11 +2766,11 @@ Mods: {
 			}
 
 			InspirationHairDye: {
-				DisplayName: Tinte para el cabello inspirador
+				DisplayName: Tinte de pelo inspirador
 				Tooltip: ""
 			}
 
-			InspirationNote.DisplayName: Nota de Inspiración
+			InspirationNote.DisplayName: Nota de inspiración
 
 			InspirationReachPotion: {
 				DisplayName: Poción de alcance inspirador
@@ -3101,7 +3101,7 @@ Mods: {
 			}
 
 			RiffWeaver: {
-				DisplayName: Tejedor de riffs 
+				DisplayName: Tejedor de riffs
 				Tooltip: Lanza una oleada sonora entretejida que deja una glóbulo pegajoso en cada rebote
 			}
 
@@ -3551,7 +3551,7 @@ Mods: {
 			}
 
 			CrashBoots: {
-				DisplayName: Botas decChoque
+				DisplayName: Botas de choque
 				Tooltip:
 					'''
 					{0}% más de velocidad de movimiento y aceleración al correr
@@ -6723,7 +6723,7 @@ Mods: {
 			}
 
 			RichLeaf: {
-				DisplayName: Hoja Rica
+				DisplayName: Hoja rica
 				Tooltip:
 					'''
 					'Llena de poder... y también de sabor'
@@ -8790,12 +8790,12 @@ Mods: {
 			}
 
 			CelestialCarrier: {
-				DisplayName: Transportador Celestial
+				DisplayName: Transportador celestial
 				Tooltip: Permite volar y caer lentamente
 			}
 
 			CelestialCrown: {
-				DisplayName: Corona Celestial
+				DisplayName: Corona celestial
 				Tooltip:
 					'''
 					{0}% de daño no radiante
@@ -8814,17 +8814,17 @@ Mods: {
 			}
 
 			CelestialDye: {
-				DisplayName: Tinte Celestial
+				DisplayName: Tinte celestial
 				Tooltip: ""
 			}
 
 			CelestialFragment: {
-				DisplayName: Fragmento Celestial
+				DisplayName: Fragmento celestial
 				Tooltip: "'Una energía armoniosa brilla alrededor de este fragmento'"
 			}
 
 			CelestialLeggings: {
-				DisplayName: Leotardos Celestiales
+				DisplayName: Leotardos celestiales
 				Tooltip:
 					'''
 					{0}% de daño no radiante
@@ -8837,7 +8837,7 @@ Mods: {
 			}
 
 			CelestialVestment: {
-				DisplayName: Vestidura Celestial
+				DisplayName: Vestidura celestial
 				Tooltip:
 					'''
 					{0}% de daño no radiante
@@ -8849,7 +8849,7 @@ Mods: {
 			}
 
 			CelestialWand: {
-				DisplayName: Vara Celestial
+				DisplayName: Vara celestial
 				Tooltip: Lanza múltiples corrientes de luz que buscan aliados, aumentando su recuperación de vida y su velocidad de recuperación
 			}
 
@@ -9084,7 +9084,7 @@ Mods: {
 			}
 
 			FallenPaladinCuirass: {
-				DisplayName: Coraza del Paladín Caído
+				DisplayName: Coraza del Paladín caído
 				Tooltip:
 					'''
 					{0}% de daño no radiante reducido
@@ -9096,7 +9096,7 @@ Mods: {
 			}
 
 			FallenPaladinFaceguard: {
-				DisplayName: Máscara del Paladín Caído
+				DisplayName: Máscara del Paladín caído
 				Tooltip:
 					'''
 					{0}% de daño no radiante
@@ -9108,7 +9108,7 @@ Mods: {
 			}
 
 			FallenPaladinGreaves: {
-				DisplayName: Grebas del Paladín Caído
+				DisplayName: Grebas del Paladín caído
 				Tooltip:
 					'''
 					{0}% de daño no radiante
@@ -11388,7 +11388,7 @@ Mods: {
 			}
 
 			GlitchDye: {
-				DisplayName: Tinte Glitcheado
+				DisplayName: Tinte glitcheado
 				Tooltip: ""
 			}
 
@@ -11597,7 +11597,7 @@ Mods: {
 			}
 
 			PixelDye: {
-				DisplayName: Tinte Pixelado
+				DisplayName: Tinte pixelado
 				Tooltip: ""
 			}
 
@@ -11612,17 +11612,17 @@ Mods: {
 			}
 
 			ReflectiveAquaiteDye: {
-				DisplayName: Tinte Reflectante de Aquaíta
+				DisplayName: Tinte de aquaíta reflectante
 				Tooltip: ""
 			}
 
 			ReflectiveMagmaDye: {
-				DisplayName: Tinte Reflectante de Magma
+				DisplayName: Tinte de magma reflectante
 				Tooltip: ""
 			}
 
 			ReflectiveThoriumDye: {
-				DisplayName: Tinte Reflectante de Thorium
+				DisplayName: Tinte de Thorium reflectante
 				Tooltip: ""
 			}
 
@@ -11636,7 +11636,7 @@ Mods: {
 			}
 
 			RippleDye: {
-				DisplayName: Tinte Ondulante
+				DisplayName: Tinte ondulante
 				Tooltip: ""
 			}
 
@@ -11739,23 +11739,23 @@ Mods: {
 			}
 
 			WhiteDwarfDrill: {
-				DisplayName: Taladro de Enano Blanco
+				DisplayName: Taladro de enana blanca
 				Tooltip: ""
 			}
 
 			WhiteDwarfHamaxe: {
-				DisplayName: Hacha-Maza de Enano Blanco
+				DisplayName: Hacha-Maza de enana blanca
 				Tooltip: ""
 			}
 
 			WhiteDwarfPickaxe: {
-				DisplayName: Pico de Enano Blanco
+				DisplayName: Pico de enana blanca
 				Tooltip: ""
 			}
 
 			WorldEngine: {
-				DisplayName: Motor del Mundo
-				Tooltip: Te permite cambiar la dificultad del mundo a cambio de Estrellas Caídas
+				DisplayName: Motor del mundo
+				Tooltip: Te permite cambiar la dificultad del mundo a cambio de Estrellas caídas
 			}
 
 			Altar: {
@@ -13444,7 +13444,7 @@ Mods: {
 			}
 
 			HangingLivingLeafBush: {
-				DisplayName: Arbusto de Hoja Viva Colgante
+				DisplayName: Arbusto de Hoja viviente Colgante
 				Tooltip: ""
 			}
 
@@ -15156,117 +15156,117 @@ Mods: {
 			}
 
 			WhiteDwarfBathtub: {
-				DisplayName: Bañera de Enano Blanco
+				DisplayName: Bañera de enana blanca
 				Tooltip: ""
 			}
 
 			WhiteDwarfBed: {
-				DisplayName: Cama de Enano Blanco
+				DisplayName: Cama de enana blanca
 				Tooltip: ""
 			}
 
 			WhiteDwarfBookcase: {
-				DisplayName: Librero de Enano Blanco
+				DisplayName: Librero de enana blanca
 				Tooltip: ""
 			}
 
 			WhiteDwarfBrick: {
-				DisplayName: Ladrillo de Enano Blanco
+				DisplayName: Ladrillo de enana blanca
 				Tooltip: ""
 			}
 
 			WhiteDwarfBrickWall: {
-				DisplayName: Pared de Ladrillo de Enano Blanco
+				DisplayName: Pared de Ladrillo de enana blanca
 				Tooltip: ""
 			}
 
 			WhiteDwarfCandelabra: {
-				DisplayName: Candelabro de Enana Blanca
+				DisplayName: Candelabro de Enana blanca
 				Tooltip: ""
 			}
 
 			WhiteDwarfCandle: {
-				DisplayName: Vela de Enana Blanca
+				DisplayName: Vela de Enana blanca
 				Tooltip: ""
 			}
 
 			WhiteDwarfChair: {
-				DisplayName: Silla de Enana Blanca
+				DisplayName: Silla de Enana blanca
 				Tooltip: ""
 			}
 
 			WhiteDwarfChandelier: {
-				DisplayName: Lámpara de Araña de Enana Blanca
+				DisplayName: Lámpara de Araña de Enana blanca
 				Tooltip: ""
 			}
 
 			WhiteDwarfChest: {
-				DisplayName: Cofre de Enana Blanca
+				DisplayName: Cofre de Enana blanca
 				Tooltip: ""
 			}
 
 			WhiteDwarfClock: {
-				DisplayName: Reloj de Enana Blanca
+				DisplayName: Reloj de Enana blanca
 				Tooltip: ""
 			}
 
 			WhiteDwarfDoor: {
-				DisplayName: Puerta de Enana Blanca
+				DisplayName: Puerta de Enana blanca
 				Tooltip: ""
 			}
 
 			WhiteDwarfDresser: {
-				DisplayName: Tocador de Enana Blanca
+				DisplayName: Tocador de Enana blanca
 				Tooltip: ""
 			}
 
 			WhiteDwarfFragmentBlock: {
-				DisplayName: Bloque de Fragmento de Enana Blanca
+				DisplayName: Bloque de Fragmento de Enana blanca
 				Tooltip: ""
 			}
 
 			WhiteDwarfLamp: {
-				DisplayName: Lámpara de Enana Blanca
+				DisplayName: Lámpara de Enana blanca
 				Tooltip: ""
 			}
 
 			WhiteDwarfLantern: {
-				DisplayName: Linterna de Enana Blanca
+				DisplayName: Linterna de Enana blanca
 				Tooltip: ""
 			}
 
 			WhiteDwarfPiano: {
-				DisplayName: Piano de Enana Blanca
+				DisplayName: Piano de Enana blanca
 				Tooltip: ""
 			}
 
 			WhiteDwarfPlatform: {
-				DisplayName: Plataforma de Enana Blanca
+				DisplayName: Plataforma de Enana blanca
 				Tooltip: ""
 			}
 
 			WhiteDwarfSink: {
-				DisplayName: Lavabo de Enana Blanca
+				DisplayName: Lavabo de Enana blanca
 				Tooltip: ""
 			}
 
 			WhiteDwarfSofa: {
-				DisplayName: Sofá de Enana Blanca
+				DisplayName: Sofá de Enana blanca
 				Tooltip: ""
 			}
 
 			WhiteDwarfTable: {
-				DisplayName: Mesa de Enana Blanca
+				DisplayName: Mesa de Enana blanca
 				Tooltip: ""
 			}
 
 			WhiteDwarfToilet: {
-				DisplayName: Inodoro de Enana Blanca
+				DisplayName: Inodoro de Enana blanca
 				Tooltip: ""
 			}
 
 			WhiteDwarfWorkbench: {
-				DisplayName: Banco de Trabajo de Enana Blanca
+				DisplayName: Banco de Trabajo de Enana blanca
 				Tooltip: ""
 			}
 
@@ -16046,12 +16046,12 @@ Mods: {
 			}
 
 			LivingLeaf: {
-				DisplayName: Hoja Viviente
+				DisplayName: Hoja viviente
 				Tooltip: ""
 			}
 
 			LivingWoodAcorn: {
-				DisplayName: Bellota de Madera Viva
+				DisplayName: Bellota de Madera viviente
 				Tooltip:
 					'''
 					Invoca un brote de árbol viviente como tu familiar  
@@ -16070,23 +16070,23 @@ Mods: {
 			}
 
 			LivingWoodBoots: {
-				DisplayName: Botas de Madera Viva
+				DisplayName: Botas de Madera viviente
 				Tooltip: Aumenta el daño de invocación en {0}
 			}
 
 			LivingWoodChestguard: {
-				DisplayName: Peto de Madera Viva
+				DisplayName: Peto de Madera viviente
 				Tooltip: Aumenta el daño de invocación en {0}
 			}
 
 			LivingWoodMask: {
-				DisplayName: Máscara de Madera Viva
+				DisplayName: Máscara de Madera viviente
 				Tooltip: Aumenta el retroceso de los súbditos
-				SetBonus: El ataque automático del brote de Madera Viva se dirige hacia los enemigos
+				SetBonus: El ataque automático del brote de Madera viviente se dirige hacia los enemigos
 			}
 
 			LivingWoodSap: {
-				DisplayName: Savia de Madera Viva
+				DisplayName: Savia de Madera viviente
 				Tooltip:
 					'''
 					Aumenta el daño de invocación en {0}
@@ -17315,17 +17315,17 @@ Mods: {
 			}
 
 			WhiteDwarfDye: {
-				DisplayName: Tinte de Enano Blanco
+				DisplayName: Tinte de enana blanca
 				Tooltip: ""
 			}
 
 			WhiteDwarfFragment: {
-				DisplayName: Fragmento de Enano Blanco
+				DisplayName: Fragmento de enana blanca
 				Tooltip: "'La fuerza aplastante de un gigante dormido reposa en este fragmento'"
 			}
 
 			WhiteDwarfGreaves: {
-				DisplayName: Grebas de Enano Blanco
+				DisplayName: Grebas de enana blanca
 				Tooltip:
 					'''
 					+20% de daño con armas arrojadizas  
@@ -17335,7 +17335,7 @@ Mods: {
 			}
 
 			WhiteDwarfGuard: {
-				DisplayName: Guardia de Enano Blanco
+				DisplayName: Guardia de enana blanca
 				Tooltip:
 					'''
 					+15% de daño con armas arrojadizas  
@@ -17345,7 +17345,7 @@ Mods: {
 			}
 
 			WhiteDwarfKunai: {
-				DisplayName: Cortador de Enano Blanco
+				DisplayName: Cortador de enana blanca
 				Tooltip:
 					'''
 					Lanza una andanada de dagas con carga celestial  
@@ -17354,7 +17354,7 @@ Mods: {
 			}
 
 			WhiteDwarfMask: {
-				DisplayName: Máscara de Enano Blanco
+				DisplayName: Máscara de enana blanca
 				Tooltip:
 					'''
 					+25% de daño con armas arrojadizas  
@@ -17364,7 +17364,7 @@ Mods: {
 			}
 
 			WhiteDwarfThrusters: {
-				DisplayName: Propulsores de Enano Blanco
+				DisplayName: Propulsores de enana blanca
 				Tooltip: Permite volar y caer lentamente
 			}
 
@@ -18307,7 +18307,7 @@ Mods: {
 			}
 
 			SpaceDwarfBeard: {
-				DisplayName: Barba de Enano Espacial
+				DisplayName: Barba de Enana espacial
 				Tooltip:
 					'''
 					'¡Por la barba!'
@@ -18317,17 +18317,17 @@ Mods: {
 			}
 
 			SpaceDwarfBoots: {
-				DisplayName: Botas de Enano Espacial
+				DisplayName: Botas de Enana espacial
 				Tooltip:
 					'''
-					'¡Ningún enano se queda atrás!'
+					'¡Ninguna enana se queda atrás!'
 					¡Ganador del {0}.º Concurso de Aspecto de Thorium!
 					Diseñado por: {1}
 					'''
 			}
 
 			SpaceDwarfHeadset: {
-				DisplayName: Auriculares de Enano Espacial
+				DisplayName: Auriculares de Enana espacial
 				Tooltip:
 					'''
 					'¡Lo mejor de la galaxia!'
@@ -18337,7 +18337,7 @@ Mods: {
 			}
 
 			SpaceDwarfSuit: {
-				DisplayName: Traje de Enano Espacial
+				DisplayName: Traje de Enana espacial
 				Tooltip:
 					'''
 					'¡Roca y piedra!'
@@ -19058,7 +19058,7 @@ Mods: {
 			}
 
 			WhiteDwarfCup: {
-				DisplayName: Taza de Enana Blanca
+				DisplayName: Taza de Enana blanca
 				Tooltip: ""
 			}
 
@@ -22216,7 +22216,7 @@ Mods: {
 			LichSpectreBlast2.DisplayName: Explosión de Espectro del Liche 2
 			LivingWoodAcornPro.DisplayName: Brote de Batalla
 			LivingWoodAcornShotPro.DisplayName: Brote Germinado
-			LivingWoodAcornShotPro2.DisplayName: Disparo de Bellota de Madera Viva Pro2
+			LivingWoodAcornShotPro2.DisplayName: Disparo de Bellota de Madera viviente Pro2
 			LivingWoodAcornShotPro3.DisplayName: Brote de Batalla
 			LivingWoodAcornShotPro4.DisplayName: Brote de Batalla
 			MantisCanePro.DisplayName: Mantis
@@ -22759,8 +22759,8 @@ Mods: {
 			VenomKunaiPro.DisplayName: Kunai Venenoso Pro
 			VoltHatchetPro.DisplayName: Hachuela Eléctrica
 			WackWrenchPro.DisplayName: Llave Chiflada Pro
-			WhiteDwarfKunaiPro.DisplayName: Kunai de Enano Blanco Pro
-			WhiteDwarfKunaiPro2.DisplayName: Kunai de Enano Blanco Pro2
+			WhiteDwarfKunaiPro.DisplayName: Kunai de enana blanca Pro
+			WhiteDwarfKunaiPro2.DisplayName: Kunai de enana blanca Pro2
 			WhiteFlare.DisplayName: Bengala Blanca
 			WitchbladePro.DisplayName: Hoja de Bruja Pro
 			TestNeedlePro.DisplayName: Aguja de Prueba Pro
@@ -22815,7 +22815,7 @@ Mods: {
 			WebGunPro2.DisplayName: Telaraña
 			WhipPro.DisplayName: Látigo Pro
 			WhirlBlast.DisplayName: Explosión Giratoria
-			WhiteDwarfDrillPro.DisplayName: Taladro de Enano Blanco
+			WhiteDwarfDrillPro.DisplayName: Taladro de enana blanca
 			WitherPro.DisplayName: Marchitar Pro
 			WitherPro2.DisplayName: Marchitar Pro2
 			WondrousWandPro.DisplayName: Vara Maravillosa Pro
@@ -22964,7 +22964,7 @@ Mods: {
 			IllumiteChunk.MapEntry: Illumita
 			JungleFlower.MapEntry: Flor de la Jungla
 			LargeCoral.MapEntry: Coral
-			LivingLeafBush.MapEntry: Arbusto de Hoja Viva
+			LivingLeafBush.MapEntry: Arbusto de hoja viviente
 			LodeStone.MapEntry: Piedra Magnética
 			MarkedGraveTile.MapEntry: Tumba Marcada
 			MarkedGraveTileTrue.MapEntry: "{$Tiles.MarkedGraveTile.MapEntry}"
@@ -23136,16 +23136,16 @@ Mods: {
 
 				Bard: {
 					InstrumentTag: -{0} Instrumento-
-					ClassTag: -Clase Bardo-
+					ClassTag: -Clase bardo-
 					InspirationCost: Usa {0} de inspiración
 				}
 
 				SummoningPotionArtilleryPotionStacking: No se acumula con {$Items.ArtilleryPotion.DisplayName}
 			}
 
-			TreasureBag: Bolsa del Tesoro ({0})
+			TreasureBag: Bolsa del tesoro ({0})
 			ThePrimordials: Los Primordiales
-			MusicBox: Caja de Música ({0})
+			MusicBox: Caja de música ({0})
 			TrappedChest: Trampa {0}
 		}
 
