@@ -12,13 +12,20 @@ Toggler: {
 	GravistarSabatonEffect: Pisotones interestelares
 	UrsaSergeantEffect: Sargento ursa
 	AstralStarsEffect: Estrellas astrales
+	ArcFlashRingEffects: Arc Flash Ring
+	EvasionScarfEffects: Evasion Scarf
 	AtaxiaEffects: Efectos Hidrotérmicos
 	HallowedRuneEffects: Runa sagrada
 	AtaxariaVentSpirit: Espíritu del caos
 	EmpyreanEffects: Efectos Empíreos
 	FungalSymbioteEffects: Simbionte fúngico
+	GreedyGobletEffects: Cáliz avaro
+	PiratesPurseEffects: Bolsa del pirata
+	InfernoLordsFocusEffects: Núcleo del Señor ígneo
 	ShellfishMinionEffect: Súbdito molusco
 	GiantPearlEffect: Perla gigante
+	ManaPolarizerEffects: Mana Polarizer
+	MoonstoneCrownEffects: Moonstone Crown
 	MolluskEffect: Efecto de Moluscos
 	PrismaticEffects: Efectos Prismáticos
 	DesertProwlerEffects: Efectos del Acechador del desierto
@@ -29,6 +36,7 @@ Toggler: {
 	PlagueBringerEffects: Efectos del Portador de plagas
 	DaedalusMinionEffect: Cristal de dédalo
 	GoldiePetEffect: Mascota Goldie
+	FrozenCubeEffect: Frozen Cube
 	OmegaBlueTentaclesEffect: Tentáculos de azul Omega
 	AbyssalDivingSuitEffect: Traje de buceo abisal
 	RedDevilMinionEffect: Súbdito diablo rojo
@@ -53,18 +61,18 @@ Toggler: {
 	YharimsGiftEffect: Regalo de Yharim
 	AuricEffects: Efectos Áuricos
 	HeartOfTheElementsEffects: Corazón de los elementos
-	BerserkerEffect: Efecto de Berserker
+	BerserkerEffect: Efecto del Berserker
 	BiotechEffect: Sonda biotecnológica
 	ConduitShield: Escudo de conducción
-	CyberPunkEffect: Efecto cyberpunk
+	CyberPunkEffect: Efecto Cyber Punk
 	BeeBootiesEffect: Botines de abeja
-	DreadEffect: Efecto de pavor
+	DreadEffect: Efecto de Pavor
 	CrystalScorpionEffect: Escorpión de cristal
 	LodestoneEffect: Efectos de Magnetita
 	MetronomeEffect: Metrónomo
 	SpringStepsEffect: Pasos de resorte
 	SlagStompersEffect: Aplastadores de escoria
-	MarchingBandEffect: Efectos de Banda de guerra
+	MarchingBandEffect: Efectos de Banda de marcha
 	TideGlobules: Efectos de la Corona del rompetormentas
 	ValadiumEffects: Efectos de Valadium
 	GemTechEffects: Efectos de Tecnología de gemas
@@ -118,12 +126,12 @@ Toggler: {
 	TerrariumEffects: Efectos de Terrario
 	TerrariumSurroundSoundEffects: Sonido envolvente del Terrario
 	VanaheimForceHeader: Fuerza de Vanaheim
-	CorruptionForceHeader: Corruption Force
-	ElementsForceHeader: Elements Force
-	FrostForceHeader: Frost Force
-	MachineForceHeader: Machine Force
-	VoidForceHeader: Void Force
-	ShadeMasterEffect: Efectos del Maestro de las sombras
+	CorruptionForceHeader: Fuerza de Corrupción
+	ElementsForceHeader: Fuerza de los Elementos
+	FrostForceHeader: Fuerza Gélida
+	MachineForceHeader: Fuerza de Máquinas
+	VoidForceHeader: Fuerza del Vacío
+	ShadeMasterEffect: Efectos del Maestro sombrío
 	ShinobiSigilEffect: Sello del Shinobi
 	IllumiteEffects: Efectos de Illumita
 	FungalClumpEffects: Mazacote fúngico
@@ -144,7 +152,7 @@ Toggler: {
 	NightShadeEffect: Flor de sombra nocturna
 	FabergeEggEffect: Huevo Fabergé
 	HeartOfTheJungleEffect: Corazón de la jungla
-	LivingWoodMinion: Subu de Madera viva
+	LivingWoodMinion: Súbdito de madera viviente
 	BloomingShieldEffect: Escudo floreciente
 	FragrantCorsageEffect: Ramillete fragante
 	CoralEffects: Efectos de Coral
@@ -154,12 +162,12 @@ Toggler: {
 	AnglerBowlEffects: Cuenco del Pescador
 	OceanRetalitationEffect: Represalia oceánica
 	NagaSkinEffect: Efectos de la Piel de Naga
-	IcyEffects: Efectos Gélidos
+	IcyEffects: Efectos Helado
 	CryomancerEffect: Efectos del Criomante
 	SnowyOwlPet: Mascota Búho nevado
 	WhisperingEffects: Efectos Susurrantes
 	JotunheimForceHeader: Fuerza de Jotunheim
-	SpiritTrapperEffects: Efectos del Atrapador de espíritus
+	SpiritTrapperEffects: Efectos del Cazador de espíritus
 	InnerFlameEffects: Llama interior
 	ScryingGlassEffects: Cristal de adivinación
 	ArtificersFocusEffects: Concentración del Artificiero
@@ -230,11 +238,11 @@ Toggler: {
 	EtherealExtorterEffects: Extorsionador etéreo
 	AquaticHeartEffects: Corazón acuático
 	BloodflareRitualistEffects: Efectos del Ritualista llama de sangre
-	SnowRuffianEffect: Efecto del Rufián la de nieve
+	SnowRuffianEffect: Efecto del Rufián de la nieve
 	LizhardTailEffect: Cola de Lizhard
 	SerpentShieldEffect: Escudo de la serpiente
 	AirWalkersEffect: Caminantes del aire
-	WeightedWingletsEffect: Alitas lastradas
+	WeightedWingletsEffect: Alas pesadas
 	BeholderGazeEffect: Mirada del Observador
 	TheOmegaCoreEffects: Núcleo Omega
 	YumasPendantEffects: Colgante de Yuma
@@ -251,18 +259,73 @@ Toggler: {
 	ProofOfAvariceEffects: Prueba de la avaricia
 	SunnyMinion: Sunny Pet
 	PurpleBalloonMinion: Purple Balloon Minion
-	DrillArm: Drill Arm
+	DrillArm: Brazo perforador
 }
 
 Items: {
+	DLCItemChangesCalamity: {
+		DisplayName: DLC Item Changes Calamity
+		SoulTooltip1: Effects of Statis' Void Sash
+		SoulTooltip2: Effects of Elemental Gauntlet and Badge of Bravery
+		SoulTooltip3: Effects of Ethereal Talisman
+		SoulTooltip4: Effects of Elemental Quiver and Quiver of Nihility
+		SoulTooltip5: Effects of Nucleogenesis
+		SoulTooltip6: Effects of Abyssal Diving Suit
+		SoulTooltip7: Effects of The Amalgam, Asgardian Aegis, and Rampart of Deities
+		SoulTooltip8: Effects of The Amalgam, Asgardian Aegis, and Rampart of Deities
+		SoulTooltip9: Effects of Abyssal Diving Suit
+		SoulTooltip10: Effects of Statis' Void Sash
+		SoulTooltip11: Effects of Elemental Gauntlet and Badge of Bravery
+		SoulTooltip12: Effects of Ethereal Talisman
+		SoulTooltip13: Effects of Elemental Quiver and Quiver of Nihility
+		SoulTooltip14: Effects of Nucleogenesis
+	}
+
 	DesolationForce: {
-		Tooltip: ""
 		DisplayName: Fuerza de Desolación
+		Tooltip:
+			'''
+			When the world is barren and cold, you will be all that remains
+			All armor bonuses from Daedalus, Snow Ruffian, Umbraphile, Prismatic, and Astral
+			All armor bonuses from Omega Blue, Mollusk, Victide, Fathom Swarmer, and Sulphurous
+			Effects of Scuttler's Jewel, Frozen Cube, and Permafrost Concoction
+			Effects of Cryo Stone, Howls Heart, Frost Barrier, and Frost Flare
+			Effects of Thief's Dime, Vampiric Talisman, Moonstone Crown, and Evasion Scarf
+			'''
+		Tooltip_NoCrossmod: Effects of Radiance, Interstellar Stompers, and Ursa Sergeant
+		Tooltip_Crossmod: Effects of Hide of Asturm Deus, Interstellar Stompers, and Ursa Sergeant
+		Tooltip_NoCrossmod_2: Effects of the Abyssal Diving Suit and Reaper Tooth Necklace
+		Tooltip_Crossmod_2: Effects of Old Duke Scales and Reaper Tooth Necklace
+		Tooltip_2:
+			'''
+			Effects of Aquatic Emblem, Shield of the Ocean, and Giant Pearl
+			Effects of Ocean's Crest, Deep Diver and Luxor's Gift
+			Effects of Corrosive Spine, Diamond of the Deep, Amadias Pendant, and Leviathan Ambergris
+			'''
+		Tooltip_NoCrossmod_3: Effects of Sand Cloak, Old Die, Scions Curio, Aquatic Heart and Alluring Bait
+		Tooltip_Crossmod_3: Effects of Sand Cloak, Old Die, Scions Curio, and Aquatic Heart
 	}
 
 	AnnihilationForce: {
-		Tooltip: ""
 		DisplayName: Fuerza de Aniquilación
+		Tooltip:
+			'''
+			Where once there was life and light, only ruin remains...
+			All armor bonuses from Aerospec, Statigel, and Hydrothermic
+			All armor bonuses from Empyrean, Desert Prowler, and Fearmonger
+			Effects of Gladiator's Locket, Aero Stone and Unstable Granite Core
+			Effects of Fungal Clump, Mana Polarizer and Fungal Symbiote
+			'''
+		Tooltip_NoCrossmod:
+			'''
+			Effects of Hallowed Rune, Ethereal Extorter, Regenator, The Community, and Shield of the High Ruler
+			Effects of Spectral Veil, Occult Skull Crown, The Community, and Statis' Void Sash
+			'''
+		Tooltip_Crossmod:
+			'''
+			Effects of Flesh Totem, Ethereal Extorter, Regenator, The Absorber, and Shield of the High Ruler
+			Effects of Spectral Veil, Occult Skull Crown, The Community, and The Evolution
+			'''
 	}
 
 	WulfrumEnchant: {
@@ -299,33 +362,80 @@ Items: {
 	}
 
 	TarragonEnchant: {
-		Tooltip: ""
 		DisplayName: Encantamiento de Tarragon
+		Tooltip:
+			'''
+			Braelor's undying might flows through you...
+			Increased heart pickup range
+			Taking damage gives the Tarra Life buff, which grants +1.5 HP/s life regen
+			Press Y to cloak yourself in life energy that heavily reduces contact damage for 10 seconds
+			This has a 30 second cooldown
+			Enemies have a chance to drop extra hearts on death
+			Ranged projectiles split into homing life energy and leaves on death
+			On every 5th critical strike you will fire a leaf storm
+			Summons a life aura around you that damages nearby enemies
+			After every 50 rogue critical hits you will gain 2.5 seconds of damage immunity
+			This effect has a cooldown of 25 seconds
+			While under effects of a debuff you gain 10% increased rogue damage
+			'''
+		Tooltip_BardHealer:
+			'''
+			Occasionally emit a healing pulse that heals and shields allies by 8 points
+			You spawn quarter rests around you that heal inspiration upon hitting enemies
+			'''
+		Tooltip_NoCrossmod: Effects of Blazing Core and Dark Sun Ring
+		Tooltip_Crossmod: Effects of Blazing Core, Warbanner of the Righteous, and Dark Sun Ring
 	}
 
 	SulphurousEnchant: {
-		Tooltip: ""
 		DisplayName: Encantamiento sulfuroso
+		Tooltip:
+			'''
+			Attacking and being attacked by enemies inflicts poison
+			Grants an additional jump that summons a sulphurous bubble
+			Attacking and being attacked by enemies inflicts Poisoned for 1 second
+			Reduces the severity of the sulphuric waters
+			'''
+		Tooltip_NoCrossmod: Effects of Sand Cloak, Old Die, Scions Curio, Amadias Pendant, and Alluring Bait
+		Tooltip_Crossmod: Effects of Sand Cloak, Old Die, Scions Curio, and Amadias Pendant
 	}
 
 	StatigelEnchant: {
-		Tooltip: ""
 		DisplayName: Encantamiento de Statigel
+		Tooltip:
+			'''
+			Statis’ mystical power surrounds you…
+			When you take over 100 damage in one hit you become immune to damage for an extended period of time
+			Grants an extra jump and increased jump height
+			Effects of Fungal Clump, Mana Polarizer, and Fungal Symbiote
+			'''
 	}
 
 	SnowRuffianEnchant: {
 		Tooltip:
 			'''
 			Puedes planear para anular el daño por caída
-			Los golpes críticos de Rogue infligen Quemadura de hielo durante 3 segundos
-			Otorga los efectos de la Joya del escurridizo
+			Los golpes críticos de Rogue infligen Quemadura gélida durante 3 segundos
+			Otorga los efectos de la Joya del escurridizo and Frozen Cube
 			'''
-		DisplayName: Encantamiento del Rufián la de nieve
+		DisplayName: Encantamiento del Rufián de la nieve
 	}
 
 	SilvaEnchant: {
-		Tooltip: ""
 		DisplayName: Encantamiento de Silva
+		Tooltip:
+			'''
+			Boundless life energy cascades from you...
+			You gain 3 HP/s life regen
+			Max run speed and acceleration boosted by 5%
+			If you are reduced to 1 HP you will not die from any further damage for 8 seconds
+			This effect has a 5 minute cooldown. The cooldown does not decrement if any bosses or events are active.
+			Magic projectiles which cannot pierce will occasionally set off potent blasts of nature energy
+			Summons an ancient leaf prism to blast your enemies with life energy
+			'''
+		Tooltip_BardHealer: Taking heavy damage in one hit gives players with the lowest health the Guardian Angel buff for 30 seconds
+		Tooltip_NoCrossmod: Effects of The Amalgam, Auric Soul Artifact, and Yharim's Gift
+		Tooltip_Crossmod: Effects of Blunder Booster, Auric Soul Artifact, and Dynamo Stem Cells
 	}
 
 	ReaverEnchant: {
@@ -349,13 +459,33 @@ Items: {
 	}
 
 	PlagueReaperEnchant: {
-		Tooltip: ""
 		DisplayName: Encantamiento del Segador de la plaga
+		Tooltip:
+			'''
+			Effects of Plaguebringer Armor
+			25% reduced ammo usage and 5% increased flight time
+			Enemies receive 10% more damage from ranged projectiles when afflicted by the Plague
+			Press Y to blind yourself for 5 seconds but massively boost your ranged damage
+			This has a 25 second cooldown.
+			'''
+		Tooltip_NoCrossmod: Effects of Plague Hive, Plagued Fuel Pack, and The Camper
+		Tooltip_Crossmod: Effects of Plague Hive, Alchemical Decanter, and The Camper
+		Tooltip_2: Effects of Unholy Tonic and Vicious Tonic
 	}
 
 	OmegaBlueEnchant: {
-		Tooltip: ""
 		DisplayName: Encantamiento de Azul Omega
+		Tooltip:
+			'''
+			The darkness of the Abyss has overwhelmed you...
+			+2 max minions
+			Short-ranged tentacles heal you by sucking enemy life
+			Press Y to activate abyssal madness for 5 seconds
+			Abyssal madness increases damage, critical strike chance, and tentacle aggression/range
+			This effect has a 25 second cooldown
+			'''
+		Tooltip_NoCrossmod: Effects of the Abyssal Diving Suit and Reaper Tooth Necklace
+		Tooltip_Crossmod: Effects of Old Duke Scales and Reaper Tooth Necklace
 	}
 
 	MolluskEnchant: {
@@ -372,23 +502,68 @@ Items: {
 	}
 
 	GodSlayerEnchant: {
-		Tooltip: ""
 		DisplayName: Encantamiento del Asesino de Dioses
+		Tooltip:
+			'''
+			The power to slay gods resides within you...
+			Allows you to dash for an immense distance in 8 directions
+			Press H while holding down the movement keys in the direction you want to dash
+			Enemies you dash through take massive damage
+			During the dash you are immune to most debuffs
+			The dash has a 45 second cooldown
+			Taking over 80 damage in one hit will cause you to release a swarm of high-damage god killer darts
+			You fire a god killer shrapnel round while firing ranged weapons every 2.5 seconds
+			While at full HP all of your rogue stats are boosted by 10%
+			If you take over 80 damage in one hit you will be given extra immunity frames
+			'''
+		Tooltip_BardHealer:
+			'''
+			A calamity bell floats above your head and occasionally rings while attacking
+			When the bell rings, enemies around you take 7500 true damage
+			'''
+		Tooltip_NoCrossmod: Effects of the Nebulous Core, Arc Flash Ring, and Crushing Ego
+		Tooltip_Crossmod: Effects of Crushing Ego, Arc Flash Ring and Venetrated Locket
 	}
 
 	FearmongerEnchant: {
-		Tooltip: ""
 		DisplayName: Encantamiento del Intimidador
+		Tooltip:
+			'''
+			20% increased summon damage and +2 max minions
+			Minions no longer deal less damage while wielding non-summoner weapons
+			Immunity to all forms of frost and flame
+			Minion attacks grant +2.5 HP/s life regen and massively accelerate life regen
+			This extra damage reduction ignores the soft cap
+			'''
+		Tooltip_NoCrossmod: Effects of Spectral Veil, Occult Skull Crown, and Statis' Void Sash
+		Tooltip_Crossmod: Effects of Spectral Veil, Occult Skull Crown, and The Evolution
 	}
 
 	FathomSwarmerEnchant: {
-		Tooltip: ""
 		DisplayName: Encantamiento del Enjambre abisal
+		Tooltip:
+			'''
+			10% increased summon damage and +2 max minions
+			Grants the ability to climb walls
+			20% increased summon damage, +10 defense and +2.5 HP/s life regen while underwater
+			Provides a moderate amount of light and moderately reduces breath loss in the abyss
+			Effects of Corrosive Spine, Diamond of the Deep, and Amadias Pendant
+			'''
+		Tooltip_NoCrossmod: Effects of Sand Cloak, Scions Curio, Alluring Bait, Aquatic Heart, and Leviathan Ambergris
+		Tooltip_Crossmod: Effects of Sand Cloak, Scions Curio, Aquatic Heart, and Leviathan Ambergris
 	}
 
 	EmpyreanEnchant: {
-		Tooltip: ""
 		DisplayName: Encantamiento Empíreo
+		Tooltip:
+			'''
+			The power of an ancient god at your command…
+			9% increased rogue damage and velocity
+			+115 maximum stealth
+			Rogue projectiles have special effects on enemy hits
+			Imbued with cosmic wrath when you are damaged
+			Effects of The Community, The Absorber and Shield of the High Ruler
+			'''
 	}
 
 	DemonShadeEnchant: {
@@ -405,8 +580,25 @@ Items: {
 	}
 
 	DaedalusEnchant: {
-		Tooltip: ""
 		DisplayName: Encantamiento de Dédalo
+		Tooltip:
+			'''
+			Icy magic envelopes you...
+			You reflect projectiles back at enemies
+			Reflected projectiles deal np damage to you
+			This reflect has a 90 second cooldown which is shared with all other dodges and reflects
+			Getting hit causes you to emit a blast of crystal shards
+			You have a 10% chance to absorb physical attacks and projectiles when hit
+			If you absorb an attack you are healed for 1/2 of that attack's damage
+			A Daedalus crystal floats above you to protect you
+			Rogue projectiles throw out crystal shards as they travel
+			'''
+		Tooltip_BardHealer: Symphonic damage inflicts frostburn and frostbite on hit
+		Tooltip_2:
+			'''
+			You can glide to negate fall damage
+			Effects of Scuttler's Jewel, Frozen Cube, Howls Heart, Frost Flare, Cryo Stone, Frost Barrier, and Permafrost's Concoction
+			'''
 	}
 
 	BrimflameEnchant: {
@@ -422,23 +614,104 @@ Items: {
 	}
 
 	BloodflareEnchant: {
-		Tooltip: ""
 		DisplayName: Encantamiento de Llama de sangre
+		Tooltip:
+			'''
+			The souls of the fallen are at your disposal...
+			Greatly increased life regen, equivalent to Crimson armor
+			Enemies below 50% life drop a heart when struck
+			This effect has a 5 second cooldown
+			After striking an enemy 15 times with true melee you will enter a blood frenzy for 5 seconds
+			During this you will gain 25% increased melee damage, critical strike chance, and contact damage is halved
+			This effect has a 30 second cooldown
+			Press Y to unleash the lost souls of Polterghast to destroy your enemies
+			This effect has a 30 second cooldown
+			Ranged weapons fire bloodsplosion orbs every 2.5 seconds
+			Magic weapons fire ghostly bolts every 1.67 seconds
+			Magic critical strikes cause blood explosions every 2 seconds
+			Summons Polterghast mines to circle you
+			At 90% life and above you gain 10% increased summon damage
+			At 50% life and below you gain 20 defense and +1 HP/s life regen
+			Being over 80% life boosts your defense by 30 and rogue crit by 5%
+			Being below 80% life boosts your rogue damage by 10%
+			Rogue critical strikes have a 50% chance to heal you
+			Press Y to trigger a brimflame frenzy effect
+			While under this effect, you get an additional 40% increase to magic damage
+			However, this comes at the cost of rapid life loss and no mana regeneration
+			This can be toggled off, however, a brimflame frenzy has a 30 second cooldown
+			'''
+		Tooltip_BardHealer:
+			'''
+			27% increased radiant damage and 11% increased radiant casting speed
+			Press G to use half your life to summon a ritual
+			The ritual will heal allies for 12 life rapidly
+			Only one ritual can be active at a time
+			+4 max inspiration
+			Press G to gain Alluring Song buff for 5 seconds
+			Alluring song increases regeneration rate and empowerment range by 50% and empowerment duration by 5 seconds
+			Taking damage while Alluring Song is active heals you by a flat 200 life but removes Alluring Song
+			'''
+		Tooltip_NoCrossmod: Effects of the Chalice of the Blood God, Void Of Extinction, Bloodflare Core, Phantomic Artifact, and Fragments Of Another World
+		Tooltip_Crossmod: Effects of Affliction, Apollyon, Bloodflare Core, Phantomic Artifact, and Fragments Of Another World
+		Tooltip_2: Effects of Void of Calamity, Flame-Licked Shell, Slagsplitter Pauldron, and Chaos Stone
 	}
 
 	AuricEnchant: {
-		Tooltip: ""
 		DisplayName: Encantamiento Áurico
+		Tooltip:
+			'''
+			Your strength rivals that of the Jungle Tyrant...
+			+130 maximum stealth
+			28% increased melee speed
+			+6 max minions and 75% increased summon damage
+			'''
+		Tooltip_BardHealer:
+			'''
+			40% increased radiant damage, 20% increased radiant critical strike chance, and 16% increased healing and radiant casting speed
+			Increased empowerment duration by 5 seconds, increases inspiration regeneration rate by 20%, and increases the chance for inspiration notes to drop by 45%
+			'''
+		Tooltip_NoCrossmod: Effects of Heart of the Elements and The Sponge
+		Tooltip_Crossmod: Effects of Daawnlight Spirit Origian, The Transformer, and Dragon Scales
 	}
 
 	AtaxiaEnchant: {
-		Tooltip: ""
 		DisplayName: Encantamiento Hidrotérmico
+		Tooltip:
+			'''
+			Inferno effect when below 50% life
+			You emit a blazing explosion when you are hit
+			Melee attacks and projectiles cause chaos flames to erupt on enemy hits
+			You fire a homing chaos flare when using ranged weapons every 0.33 seconds
+			Magic attacks summon damaging and healing flare orbs on hit
+			Summons a hydrothermic vent to protect you
+			Rogue weapons unleash a volley of homing chaos flames around the player every 2 seconds
+			'''
+		Tooltip_BardHealer:
+			'''
+			Symphonic critical strikes cause targets to erupt in sulfide flames
+			Only one eruption can occur and have a 3 second cooldown per trigger
+			Taking more than 75 damage spawns an oasis that lasts 3 seconds
+			The oasis heals 6 life every 1/3 of a second
+			Only one oasis can be active at a time
+			'''
+		Tooltip_NoCrossmod: Effects of Hallowed Rune, Regenator, and Ethereal Extorter
+		Tooltip_Crossmod: Effects of Flesh Totem, Regenator, and Ethereal Extorter
 	}
 
 	AstralEnchant: {
-		Tooltip: ""
 		DisplayName: Encantamiento Astral
+		Tooltip:
+			'''
+			The Astral Infection has consumed you...
+			Effects of Titan Heart armor
+			+3 max minions
+			10% increased damage and critical strike chance
+			Whenever you crit an enemy, a barrage of stars will rain down
+			Detects nearby creatures, enemy projectiles, danger sources, and treasure
+			This effect has a 1 second cooldown before it can trigger again
+			'''
+		Tooltip_NoCrossmod: Effects of Radiance, Interstellar Stompers, and Ursa Sergeant
+		Tooltip_Crossmod: Effects of Hide of Astrum Deus, Interstellar Stompers, and Ursa Sergeant
 	}
 
 	AerospecEnchant: {
@@ -455,17 +728,138 @@ Items: {
 
 	DevastationForce: {
 		DisplayName: Fuerza de Devastación
-		Tooltip: ""
+		Tooltip:
+			'''
+			Rain hell down on those who resist your power
+			All armor bonuses from Reaver, Lunic Corps, Plague Reaper, Plaguebringer, Gem Tech, and Demonshade
+			+5 defense when below 50% life
+			Effects of Trinket of Chi, Rotten Dogtooth, Wulfrum Acrobatics Pack, and Plague Hive
+			'''
+		Tooltip_NoCrossmod: Effects of Plagued Fuel Pack, The Camper, Draedon's Heart and Profaned Soul Crystal
+		Tooltip_Crossmod: Effects of Alchemical Decanter, The Camper, and Profaned Soul Crystal
+		Tooltip_2:
+			'''
+			Effects of Bloom Stone and Necklace of Vexation
+			Effects of Glove of Recklessness, Glove of Precision, and The Bee
+			Effects of Unholy Tonic and Vicious Tonic
+			Effects of Angelic Alliance, Cirrus Dress, and Shattered Community
+			'''
 	}
 
 	ExaltationForce: {
 		DisplayName: Fuerza de Exaltación
-		Tooltip: ""
+		Tooltip:
+			'''
+			All armor bonuses from Tarragon, Bloodflare, and Brimflame
+			All armor bonuses from God Slayer, Silva, and Auric
+			'''
+		Tooltip_NoCrossmod:
+			'''
+			Effects of Blazing Core, Dark Sun Ring, and Chalice of the Blood God
+			Effects of Nebulous Core and Arc Flash Ring
+			Effects of The Amalgam and Faded Idolatry
+			Effects of Yharim's Gift, Heart of the Elements, and The Sponge
+			Effects of Void Of Extinction, Bloodflare Core, Phantomic Artifact, and Fragments Of Another World
+			Effects of Void of Calamity, Slagsplitter Pauldron, Flame-Licked Shell, and Chaos Stone
+			'''
+		Tooltip_Crossmod:
+			'''
+			Effects of Blazing Core, Dark Sun Ring, Warbanner of the Righteous, and Affliction
+			Effects of Blunder Booster, Arc Flash Ring, and Faded Idolatry
+			Effects of Dynamo Stem Cells, Daawnlight Spirit Origin, and The Transformer
+			Effects of Apollyon, Bloodflare Core, Phantomic Artifact, and Fragments Of Another World
+			Effects of Void of Calamity, Slagsplitter Pauldron, Flame-Licked Shell, and Chaos Stone
+			Effects of Dragon Scales and Crushing Ego
+			'''
 	}
 
 	CalamitySoul: {
 		DisplayName: Alma del Tirano
-		Tooltip: ""
+		Tooltip:
+			'''
+			And the land grew quiet once more...
+			All armor bonuses from Aerospec, Statigel, and Hydrothermic
+			All armor bonuses from Empyrean, Desert Prowler, and Fearmonger
+			All armor bonuses from Daedalus, Snow Ruffian, Umbraphile, and Astral
+			All armor bonuses from Omega Blue, Prismatic, Mollusk, Victide, Fathom Swarmer, and Sulphurous
+			All armor bonuses from Reaver, Plague Reaper, Plaguebringer, Gem Tech, Lunic Corps, and Demonshade
+			All armor bonuses from Tarragon, Bloodflare, and Brimflame
+			All armor bonuses from God Slayer, Silva, and Auric
+			'''
+		Tooltip_AddonsArmor:
+			'''
+			All armor bonuses from Frozen and Intergelactic
+			All armor bonuses from Shogun and Void Faquir
+			'''
+		Tooltip_Shared1:
+			'''
+			+5 defense when below 50% life
+			Effects of Gladiator's Locket, Aero Stone and Unstable Granite Core
+			Effects of Fungal Clump, Mana Polarizer and Fungal Symbiote
+			'''
+		Tooltip_NoCrossmod1:
+			'''
+			Effects of Hallowed Rune, Ethereal Extorter, Regenator, The Community, and Shield of the High Ruler
+			Effects of Spectral Veil, Occult Skull Crown, The Absorber and Statis' Void Sash
+			'''
+		Tooltip_Crossmod1:
+			'''
+			Effects of Flesh Totem, Ethereal Extorter, Regenator, The Absorber, and Shield of the High Ruler
+			Effects of Spectral Veil, Occult Skull Crown, The Community and The Evolution
+			'''
+		Tooltip_Shared2:
+			'''
+			Effects of Scuttler's Jewel, Frozen Cube, Moonstone Crown, and Permafrost Concoction
+			Effects of Cryo Stone, Howls Heart, Frost Barrier, and Frost Flare
+			Effects of Thief's Dime, Vampiric Talisman, and Evasion Scarf
+			'''
+		Tooltip_NoCrossmod2: Effects of Radiance, Interstellar Stompers, and Ursa Sergeant
+		Tooltip_Crossmod2: Effects of Hide of Asturm Deus, Interstellar Stompers, and Ursa Sergeant
+		Tooltip_NoCrossmod3: Effects of the Abyssal Diving Suit and Reaper Tooth Necklace
+		Tooltip_Crossmod3: Effects of Old Duke Scales and Reaper Tooth Necklace
+		Tooltip_Shared3:
+			'''
+			Effects of Aquatic Emblem, Shield of the Ocean and Giant Pearl
+			Effects of Ocean's Crest, Deep Diver, and Luxor's Gift
+			Effects of Corrosive Spine, Diamond of the Deep, and Leviathan Ambergris
+			'''
+		Tooltip_NoCrossmod4: Effects of Sand Cloak, Old Die, Aquatic Heart, Scions Curio, Amadias Pendant, and Alluring Bait
+		Tooltip_Crossmod4: Effects of Sand Cloak, Old Die, Aquatic Heart, Scions Curio, and Amadias Pendant
+		Tooltip_Shared4: Effects of Trinket of Chi, Rotten Dogtooth, Wulfrum Acrobatics Pack, and Plague Hive
+		Tooltip_NoCrossmod5: Effects of Plagued Fuel Pack, The Camper, and Profaned Soul Crystal
+		Tooltip_Crossmod5: Effects of Alchemical Decanter, The Camper, and Profaned Soul Crystal
+		Tooltip_Shared5:
+			'''
+			Effects of Bloom Stone and Necklace of Vexation
+			Effects of Glove of Recklessness, Glove of Precision, and The Bee
+			Effects of Unholy Tonic and Vicious Tonic
+			Effects of Angelic Alliance and Shattered Community
+			All armor bonuses from Tarragon, Bloodflare, and Brimflame
+			All armor bonuses from God Slayer, Silva, and Auric
+			'''
+		Tooltip_NoCrossmod6:
+			'''
+			Effects of Blazing Core, Dark Sun Ring, and Chalice of the Blood God
+			Effects of Nebulous Core, Arc Flash Ring, and Draedon's Heart
+			Effects of The Amalgam and Auric Soul Artifact
+			Effects of Yharim's Gift, Heart of the Elements, and The Sponge
+			Effects of Void Of Extinction, Bloodflare Core, Phantomic Artifact, and Fragments Of Another World
+			Effects of Void of Calamity, Slagsplitter Pauldron, Flame-Licked Shell, and Chaos Stone
+			'''
+		Tooltip_Crossmod6:
+			'''
+			Effects of Blazing Core, Dark Sun Ring, Warbanner of the Righteous, and Affliction
+			Effects of Blunder Booster, Arc Flash Ring, and Faded Idolatry
+			Effects of Dynamo Stem Cells, Daawnlight Spirit Origin, and The Transformer
+			Effects of Apollyon, Bloodflare Core, Phantomic Artifact, and Fragments Of Another World
+			Effects of Void of Calamity, Slagsplitter Pauldron, Flame-Licked Shell, and Chaos Stone
+			Effects of Dragon Scales and Crushing Ego
+			'''
+		Tooltip_AddonsEffects:
+			'''
+			Effects of Influx Cluster and Splendor Jam
+			Effects of Reincarnation Badge and Oracle Deck
+			'''
 	}
 
 	RogueEssence: {
@@ -609,7 +1003,7 @@ Items: {
 			'''
 			Los misterios élficos se revelan ante ti…
 			Otorga todas las bonificaciones de armadura del Clérigo novato, Sagrado, Hechicero y Biotecnológico
-			También otorga las bonificaciones de armadura de Iridiscente, Vínculo Vital, Templario y Paladín Caído
+			También otorga las bonificaciones de armadura de Iridiscente, Vínculo vital, Templario y Paladín caído
 			Otorga los efectos de Lengua demoníaca, Efigie oscura, Crisálida impecable, Ecualizador y Escudo de cuarzo vital
 			También incluye los efectos de Corazón oscuro, Portador Kármico, Bolso de la Enfermera, Tiara del Tejearena, Prydwen, Escudo explosivo y Estatuilla del Nirvana
 			Además, otorga los efectos del Manto del protector, Dispositivo de sonar de alta tecnología, Gracia del Espíritu y el Colgante de Yuma
@@ -617,12 +1011,12 @@ Items: {
 	}
 
 	CrierEnchant: {
-		DisplayName: Encantamiento del Gritón
+		DisplayName: Encantamiento del Pregonero
 		Tooltip:
 			'''
 			Nada de qué llorar
 			Tus potenciadores sinfónicos duran 3 segundos más
-			Otorga los efectos de la Pata de conejo suertuda y las Botas del Viajero
+			Otorga los efectos de la Pata de conejo de la suerte y las Botas del Viajero
 			'''
 	}
 
@@ -632,7 +1026,7 @@ Items: {
 			'''
 			Rico en cultura
 			Las notas de inspiración que caen son el doble de potentes y aumentan temporalmente tu daño sinfónico
-			Otorga los efectos del Anillo de unidad, Gorro de bronce, Cinta de mezclas y Resina cerosa
+			Otorga los efectos del Anillo de unidad, Gorro de latón, Cinta de mezclas y Resina cerosa
 			'''
 	}
 
@@ -658,7 +1052,7 @@ Items: {
 	}
 
 	CyberPunkEnchant: {
-		DisplayName: Encantamiento Ciberpunk
+		DisplayName: Encantamiento Cyber Punk
 		Tooltip:
 			'''
 			¡Rave tecnológica!
@@ -683,9 +1077,9 @@ Items: {
 		Tooltip:
 			'''
 			Un mundo de niebla, un presagio de los muertos...
-			Otorga todas las bonificaciones de armadura del Gritón, Noble, Ciberpunk, Ornamentado y Maestro
+			Otorga todas las bonificaciones de armadura del Gritón, Noble, Cyber Punk, Ornamentado y Maestro
 			Otorga los efectos del Anillo de unidad, Metrónomo, Partitura completa y la Batuta del Director
-			También otorga los efectos del Gorro de bronce, la Pata de Conejo Suertuda, la Cinta de Mezclas y la Resina cerosa
+			También otorga los efectos del Gorro de latón, la Pata de conejo de la suerte, la Cinta de Mezclas y la Resina cerosa
 			Además, incluye los efectos del Afinador automático, Reproductor de música Metal, Diss Track, Botas del Viajero y Entradas de concierto
 			Así como los efectos de la Funda Jetstream, el Reloj del guardian de vapor y el Agarre magneto
 			'''
@@ -711,12 +1105,12 @@ Items: {
 			Tocar un fragmento de alma aumenta brevemente tu velocidad de movimiento y lanzamiento
 			Tu gas de plaga permanece en el aire el doble de tiempo y las reacciones de plaga causan 20% más de daño
 			Otorga los efectos de la Filacteria, la Flor hambrienta, el Amuleto monstruoso y el Cráneo necrótico
-			También otorga los efectos de la Capa del superviviente, el Cáliz avaro, la Bolsa del pirata y la Prueba de avaricia
+			También otorga los efectos de la Capa del superviviente, el Cáliz avaro, Bolsa del pirata y la Prueba de avaricia
 			'''
 	}
 
 	PlagueDoctorEnchant: {
-		DisplayName: Encantamiento del Doctor de la plaga
+		DisplayName: Encantamiento del Doctor de la peste
 		Tooltip:
 			'''
 			¿Qué brebaje tan desagradable estarás preparando?
@@ -751,7 +1145,7 @@ Items: {
 		Tooltip:
 			'''
 			Contiene un atisbo del futuro...
-			Otorga todas las bonificaciones de armadura del Liche, Doctor de la plaga y Enana blanca
+			Otorga todas las bonificaciones de armadura del Liche, Doctor de la peste y Enana blanca
 			También otorga las bonificaciones de armadura de Celestial y Estrella fugaz
 			Otorga los efectos de la Filacteria, Flor hambrienta, Amuleto monstruoso, Guía de Lanzamientos Avanzados: Volumen 3 y Cráneo necrótico
 			También otorga los efectos de la Capa del superviviente, Cáliz avaro, Bolsa del pirata y Prueba de avaricia
@@ -759,11 +1153,11 @@ Items: {
 	}
 
 	LivingWoodEnchant: {
-		DisplayName: Encantamiento de Madera viva
+		DisplayName: Encantamiento de Madera viviente
 		Tooltip:
 			'''
 			Conviértete en uno con la naturaleza
-			Invoca una plántula de Madera viva
+			Invoca una plántula de Madera viviente
 			Los ataques automáticos de tu plántula rastrean a los enemigos
 			Otorga los efectos de la Semilla de la esperanza
 			'''
@@ -785,7 +1179,7 @@ Items: {
 			'''
 			Eres uno con la naturaleza
 			Tus ataques tienen un 33% de probabilidad de curarte ligeramente
-			Invoca una plántula de Madera viva cuyos ataques rastrean a los enemigos
+			Invoca una plántula de Madera viviente cuyos ataques rastrean a los enemigos
 			Tus hechizos de curación aumentan la regeneración y la velocidad de recuperación de vida del objetivo sanado
 			Otorga los efectos del Escudo floreciente, el Patada de pétalo, el Ramillete fragante, los Botines de abeja y el Corazón de la jungla
 			También otorga los efectos de la Funda del Jardinero, la Semilla de la esperanza y la Venganza dulce
@@ -803,10 +1197,10 @@ Items: {
 	}
 
 	FungusEnchant: {
-		DisplayName: Encantamiento de Hongo
+		DisplayName: Encantamiento Fúngico
 		Tooltip:
 			'''
-			Hay un hongo entre nosotros
+			Hay un Fúngico entre nosotros
 			El daño contra enemigos infectados con micelio aumenta en un 10%
 			Causar daño a enemigos infectados incrementa brevemente tu velocidad de lanzamiento en un 10%
 			'''
@@ -856,8 +1250,8 @@ Items: {
 		Tooltip:
 			'''
 			Un calor abrasador, la marca de Surtr...
-			Otorga todas las bonificaciones de armadura de Arenisca, Peligro, Vuelo y Hongo
-			También otorga las bonificaciones de Madera viva, Bulbo y Flor vital
+			Otorga todas las bonificaciones de armadura de Arenisca, Peligro, Vuelo y Fúngico
+			También otorga las bonificaciones de Madera viviente, Bulbo y Flor vital
 			Otorga los efectos del Escudo floreciente, el Patada de pétalo, el Ramillete fragante y el Corazón de la jungla
 			También otorga los efectos del Huevo Fabergé, los Caminantes del aire, los Botines de abeja, la Funda drenadora y la Flor de sombra nocturna
 			Y además: la Funda del Jardinero, la Semilla de la esperanza y la Venganza dulce
@@ -873,7 +1267,7 @@ Items: {
 			Nada detendrá tu movimiento
 			Toca dos veces para desplazarte
 			Otorga inmunidad a las bolas con cadena del Shambler
-			Otorga los efectos del Brazalete con pinchos y las Alitas lastradas
+			Otorga los efectos del Brazalete con pinchos y las Alas pesadas
 			'''
 	}
 
@@ -883,7 +1277,7 @@ Items: {
 			'''
 			Forjado con maestría por el Herrero
 			5% de reducción de daño
-			Otorga los efectos de los Brazaletes con pinchos y las Alitas lastradas
+			Otorga los efectos de los Brazaletes con pinchos y las Alas pesadas
 			'''
 	}
 
@@ -900,13 +1294,13 @@ Items: {
 	}
 
 	DurasteelEnchant: {
-		DisplayName: Encantamiento de Duraacero
+		DisplayName: Encantamiento de Duracero
 		Tooltip:
 			'''
 			Forjado con maestría por el Herrero
 			18% de reducción de daño
 			Otorga inmunidad a las bolas con cadena del Shambler
-			Otorga los efectos de la Punta de lanza de cristal, la Chispa incandescente, las Alitas lastradas y los Brazaletes con pinchos
+			Otorga los efectos de la Punta de lanza de cristal, la Chispa incandescente, las Alas pesadas y los Brazaletes con pinchos
 			'''
 	}
 
@@ -916,7 +1310,7 @@ Items: {
 			'''
 			Tienes el favor de Zeus
 			Tus ataques a distancia tienen 20% de probabilidad de lanzar un rayo perforante
-			Otorga los efectos de la Antorcha olímpica, la Réplica del campeón y las Sandalias espartanas
+			Otorga los efectos de la Antorcha olímpica, la Réplica del campeón y las Sandalias del espartano
 			'''
 	}
 
@@ -946,10 +1340,10 @@ Items: {
 			'''
 			Contempla la artesanía de los Elfos oscuros...
 			Otorga todas las bonificaciones de armadura de Granito, Bronce y Acero oscuro
-			También otorga las bonificaciones de Duraacero, Titán y Conducto
+			También otorga las bonificaciones de Duracero, Titán y Conducto
 			Otorga los efectos del Amortiguador de impactos, la Réplica del campeón, el Reproductor de música Rock y los Brazaletes con pinchos
 			También incluye los efectos de la Punta de lanza de cristal, la Máscara del Ojo de cristal, las Botas propulsoras y la Concha abisal
-			Además, los efectos de la Antorcha olímpica, la Chispa incandescente, las Alitas lastradas y las Sandalias espartanas
+			Además, los efectos de la Antorcha olímpica, la Chispa incandescente, las Alas pesadas y las Sandalias espartanas
 			'''
 	}
 
@@ -959,7 +1353,7 @@ Items: {
 			'''
 			Haciendo payasadas
 			Los golpes críticos sinfónicos hacen sonar una campana sobre tu cabeza, ralentizando brevemente a los enemigos cercanos
-			Otorga los efectos de la Carta de Fan
+			Otorga los efectos de la Carta de fan
 			'''
 	}
 
@@ -972,7 +1366,7 @@ Items: {
 			El daño infligido se incrementa en un 10%
 			Los golpes críticos sinfónicos hacen sonar una campana sobre tu cabeza, ralentizando brevemente a los enemigos cercanos
 			Otorga los efectos de Crietz y la Banda de reposición
-			También otorga los efectos de Sonido Envolvente de Terrario, El anillo y la Carta de Fan
+			También otorga los efectos de Sonido envolvente del Terrario, El anillo y la Carta de fan
 			Y los efectos de los Propulsores de partículas de Terrario y el Defensor del Terrario
 			'''
 
@@ -1026,7 +1420,7 @@ Items: {
 			Pulsa con energía
 			El daño infligido se incrementa en un 10%
 			Los golpes críticos sinfónicos hacen sonar una campana sobre tu cabeza, ralentizando brevemente a los enemigos cercanos
-			Otorga los efectos de Crietz, la Banda de reposición, El anillo y la Carta de Fan
+			Otorga los efectos de Crietz, la Banda de reposición, El anillo y la Carta de fan
 			'''
 	}
 
@@ -1042,7 +1436,7 @@ Items: {
 	}
 
 	ShadeMasterEnchant: {
-		DisplayName: Encantamiento del Maestro de las sombras
+		DisplayName: Encantamiento del Maestro sombrío
 		Tooltip:
 			'''
 			Vive en las sombras y ataca con precisión
@@ -1075,14 +1469,14 @@ Items: {
 	}
 
 	IllumiteEnchant: {
-		DisplayName: Encantamiento de Ilumita
+		DisplayName: Encantamiento de Illumita
 		Tooltip:
 			'''
 			Como si no fueras lo suficientemente rosa
 			La mayoría de tus armas a distancia obtienen propiedades especiales
-			Cada 5 balas disparadas liberan una bala de ilumita de múltiples impactos
-			Cada 4 flechas disparadas lanzan una andanada de energía de ilumita
-			Cada 3 cohetes disparados lanzan un misil de ilumita
+			Cada 5 balas disparadas liberan una bala de Illumita de múltiples impactos
+			Cada 4 flechas disparadas lanzan una andanada de energía de Illumita
+			Cada 3 cohetes disparados lanzan un misil de Illumita
 			Otorga los efectos del Reproductor de Jazz, la Ojiva conmocionante y la Opción nuclear
 			'''
 	}
@@ -1092,9 +1486,9 @@ Items: {
 		Tooltip:
 			'''
 			Contempla el poder de la Humanidad...
-			Otorga todas las bonificaciones de armadura de Magnetita, Valadium, Ilumita y Maestro de las sombras
+			Otorga todas las bonificaciones de armadura de Magnetita, Valadium, Illumita y Maestro sombrío
 			También otorga las bonificaciones de Bufón, Thorium y Terrario
-			Otorga los efectos de Crietz, la Banda de reposición, el Globo subeybaja, El anillo y la Carta de Fan
+			Otorga los efectos de Crietz, la Banda de reposición, el Globo subeybaja, El anillo y la Carta de fan
 			También otorga los efectos del Caparazón de astro-escarabajo, el Corazón de piedra, la Escama de obsidiana y el Espejo del Observador
 			Añade los efectos del Sello del Shinobi, el Escorpión de cristal y Sonido Envolvente de Terrario
 			Además de los efectos del Reproductor de Jazz, la Ojiva conmocionante y la Opción nuclear
@@ -1172,7 +1566,7 @@ Items: {
 	}
 
 	IcyEnchant: {
-		DisplayName: Encantamiento Gélido
+		DisplayName: Encantamiento Helado
 		Tooltip:
 			'''
 			Frío al tacto
@@ -1197,7 +1591,7 @@ Items: {
 			'''
 			Un frío amargo, el poder de los Jotuns...
 			Otorga todas las bonificaciones de armadura del Buzo abisal, Madera de tejo y Cazador de mareas
-			También otorga las bonificaciones de Piel de Naga, Gélido, Criomante y Susurrante
+			También otorga las bonificaciones de Piel de Naga, Helado, Criomante y Susurrante
 			Otorga los efectos del Colgante de la brisa marina, la Represalia del océano, las Botas del superviviente y la Cola de Lizahrd
 			Además incluye el Escudo de la serpiente, la Funda del asesino de titanes, la Cantimplora de sirena y el Imán de burbujas
 			También los efectos del Escudo de guerra Goblin, el Anillo de pulgar y el Doblon ahogado
@@ -1345,7 +1739,7 @@ Items: {
 	}
 
 	BerserkerEnchant: {
-		DisplayName: Encantamiento del Rabioso
+		DisplayName: Encantamiento del Berserker
 		Tooltip:
 			'''
 			Preferiría pelear por mi vida que simplemente vivirla
@@ -1358,7 +1752,7 @@ Items: {
 	}
 
 	BerserkerShard: {
-		DisplayName: Fragmento del rabioso
+		DisplayName: Fragmento del berserker
 		Tooltip: "'Solo sostener esto ya te enfurece'"
 	}
 
@@ -1383,7 +1777,7 @@ Items: {
 			'''
 			Desde los salones de Hel, una visión del fin...
 			Otorga todas las bonificaciones de armadura del Cazador de espíritus, Maligno, Dragón, Pavor, Carne y Sangre demoníaca
-			También otorga las bonificaciones de Magma, Rabioso, Caballero blanco y Heraldo
+			También otorga las bonificaciones de Magma, Berserker, Caballero blanco y Heraldo
 			Otorga los efectos de la Llama interior, el Cristal de adivinación, la Punta de lanza ígnea, las Botas de impacto y el Collar de garra de dragón
 			También los efectos de la Glándula vampírica, la Insignia de estoque, los Pasos de resorte y las Pisadas de escoria
 			Incluye los efectos del Catalizador turbio, el Reproductor de música Disco, el Núcleo de maza maldita y el Núcleo de maza vil
@@ -1394,17 +1788,17 @@ Items: {
 	}
 
 	BerserkerBreastplate: {
-		DisplayName: Coraza del rabioso
+		DisplayName: Coraza del berserker
 		Tooltip: "'Un fragmento de lo que alguna vez fue...'"
 	}
 
 	BerserkerGreaves: {
-		DisplayName: Grebas del rabioso
+		DisplayName: Grebas del berserker
 		Tooltip: "'Un fragmento de lo que alguna vez fue...'"
 	}
 
 	BerserkerMask: {
-		DisplayName: Máscara del rabioso
+		DisplayName: Máscara del berserker
 		Tooltip: "'Un fragmento de lo que alguna vez fue...'"
 	}
 
@@ -1473,7 +1867,53 @@ Items: {
 
 	ThoriumSoul: {
 		DisplayName: Alma de Yggdrasil
-		Tooltip: ""
+		Tooltip:
+			'''
+			The true might of the 9 realms is yours!
+			All armor bonuses from Sandstone, Danger, Flight, and Fungus
+			All armor bonuses from Living Wood, Bulb, and Life Bloom
+			All armor bonuses from Depth Diver, Yew Wood, and Tide Hunter
+			All armor bonuses from Naga Skin, Icy, Cryomancer, and Whispering
+			All armor bonuses from Novice Cleric, Sacred, Warlock, and Biotech
+			All armor bonuses from Iridescent, Life Binder, Templar, and Fallen Paladin
+			All armor bonuses from Crier, Noble, Cyber Punk, Ornate, and Maestro
+			All armor bonuses from Granite, Bronze, and Darksteel
+			All armor bonuses from Durasteel, Titan, and Conduit
+			All armor bonuses from Lich, Plague Doctor, and White Dwarf
+			All armor bonuses from Celestial and Shooting Star
+			All armor bonuses from Lodestone, Valadium, Illumite, and Shade Master
+			All armor bonuses from Jester, Thorium, and Terrarium
+			All armor bonuses from Spirit Trapper, Malignant, Dragon, Dread, Flesh, and Demon Blood
+			All armor bonuses from Magma, Berserker, White Knight, and Harbinger
+			All armor bonuses from Tide Turner, Assassin, and Pyromancer
+			All armor bonuses from Dream Weaver and Rhapsodist
+			Effects of Blooming Shield, Bee Booties, Kick Petal, Fragrant Corsage, and Heart of the Jungle
+			Effects of the Faberge Egg, Gardener's Sheath, Sweet Vengeance, Seed of Hope, Air Walkers, Leeching Sheath, and Nightshade Flower
+			Effects of Sea Breeze Pendant, Ocean's Retaliation, Survivalist's Boots, and Lizahrd's Tail
+			Effects of Serpent's Shield, Titan Slayer Sheath, Mermaid's Canteen, Bubble Magnet, and Goblin War Shield
+			Effects of Agnor's Bowl, Thumb Ring, Drowned Doubloon, Blizzard Pouch, and Ice Bound Strider Hide
+			Effects of Ghastly Carapance, Gut Wrencher's Gauntlet, and Writhing Sheath
+			Effects of Demon Tongue, Dark Effigy, Flawless Chrysalis, High-tech Sonar Device, Dew Collector, Equalizer, Mantle of the Protector, and Life Quartz Shield
+			Effects of Dark Heart, Karmic Holder, Nurse Purse, Sandweaver's Tiara, Spirit's Grace, Prydwen, Blast Shield, Yuma's Pendant, and Nirvana Statuette
+			Effects of Ring of Unity, Metronome, Full Score, and Conductor's Baton
+			Effects of Brass Cap, Mixtape, Lucky Rabbit's Foot, and Waxy Rosin
+			Effects of Auto Tuner, Metal Music Player, Diss Track, Traveler's Boots, and Concert Tickets
+			Effects of Jetstream Sheath, Steamkeeper Watch, and Magneto Grip
+			Effects of Shock Absorber, Champion's Rebuttal, Rock Music Player, and Spiked Bracers
+			Effects of Crystal Spear Tip, Mask of the Crystal Eye, Jet Boots, and Abyssal Shell
+			Effects of Olympic Torch, Incandescent Spark, Weighted Winglets, and Spartan Sandals
+			Effects of Crietz, Band of Replenishment, Up Donw Balloon, The Ring, and Fan Letter
+			Effects of Astro-Beetle Husk, Heart of Stone, Obsidian Scale, and Mirror of the Beholder
+			Effects of Shinobi Sigil, Crystal Scorpion, and Terrarium Surround Sound
+			Effects of Jazz Music Player, Concussive Warhead, Terrarium Particle Sprinters, Terrarium Defender, and The Nuclear Option
+			Effects of Phylactery, Hungering Blossom, Monster Charm, Guide to Expert Throwing : Volume 3, and Necrotic Skull
+			Effects of Cape of the Survivor, Greedy Goblet, Pirate's Purse, and Proof of Avarice
+			Effects of Vampire Gland, Beholder Gaze, Rapier Badge, Metabolic Pills, Spring Steps, and Slag Stompers
+			Effects of Murky Catalyst, Disco Music Player, Cursed-Flaire Core, and Vile-Flail Core
+			Effect of Artificer's Shield, Artificer's Rocketeers, and Artificer's Focus
+			Effects of Plague Lord's Flask, Pocket Fusion Generator, Inferno Lord's Focus, and The Omega Core
+			Summons several pets
+			'''
 	}
 
 	BardEssence: {
@@ -1514,6 +1954,7 @@ Items: {
 			Los proyectiles de armas de cuerda rebotan cinco veces adicionales
 			Los críticos con instrumentos de metal liberan una ráfaga de energía
 			'''
+		Tooltip_BardHealer: Effects of Omni-Speaker
 	}
 
 	GuardianAngelsSoul: {
@@ -1531,6 +1972,7 @@ Items: {
 			Los aliados cercanos reciben 10% menos daño
 			Los aliados cercanos que mueren dejan un fuego fatuo de energía espiritual
 			'''
+		Tooltip_BardHealer: Effects of Elemental Bloom
 	}
 
 	BotanistEnchant: {
@@ -1544,7 +1986,7 @@ Items: {
 	}
 
 	ElderbarkEnchant: {
-		DisplayName: Encantamiento de Corteza ancestral
+		DisplayName: Encantamiento de corteza de saúco
 		Tooltip: Aumenta el daño de todos los objetos en 2
 	}
 
@@ -1581,7 +2023,7 @@ Items: {
 		DisplayName: Encantamiento del Apóstol
 		Tooltip:
 			'''
-			Los Espíritus del Viento te guían, otorgándote doble salto
+			Los Espíritus del viento te guían, otorgándote doble salto
 			Tus ataques mágicos y a distancia ocasionalmente invocan plumas que atacan a los enemigos
 			'''
 	}
@@ -1638,7 +2080,7 @@ Items: {
 		Tooltip:
 			'''
 			Estar cerca de enemigos aumenta tu regeneración de vida, velocidad de ataque cuerpo a cuerpo y reduce el costo de maná en 6% por enemigo cercano
-			Otorga los efectos del Sello Angélico y el Muro del Serafín
+			Otorga los efectos del Sello angélico y el Baluarte de los serafines
 			'''
 	}
 
@@ -1704,7 +2146,7 @@ Items: {
 		Tooltip:
 			'''
 			Presiona dos veces 'abajo' para sacrificar el 8% de tu vida máxima y lanzar un proyectil de Ánima Oscura que causa daño en un área
-			Otorga los efectos de la Lengua macabra y el Amuleto de sangre
+			Otorga los efectos de la Lengua espeluznante y el Pabellón sanguíneo
 			'''
 	}
 
@@ -1712,14 +2154,14 @@ Items: {
 		DisplayName: Encantamiento de Criolita
 		Tooltip:
 			'''
-			Genera un aura gélida que ralentiza a los enemigos cercanos
+			Genera un aura helada que ralentiza a los enemigos cercanos
 			Esta aura se expande gradualmente, pero se reinicia al recibir daño
 			Otorga los efectos del Sombrero invernal y Cuatro iguales
 			'''
 	}
 
 	DuskEnchant: {
-		DisplayName: Encantamiento del Ocaso
+		DisplayName: Encantamiento Crepuscular
 		Tooltip:
 			'''
 			Los ataques mágicos infligen Llama sombría
@@ -1730,12 +2172,12 @@ Items: {
 	}
 
 	FrigidEnchant: {
-		DisplayName: Encantamiento Gélido
+		DisplayName: Encantamiento Frígido
 		Tooltip:
 			'''
 			Presiona dos veces 'abajo' para crear una pared de hielo en la posición del cursor.
 			Tiempo de recarga: 8 segundos
-			Otorga los efectos de las Envolturas heladas
+			Otorga los efectos de las Envolturas gélidas
 			'''
 	}
 
@@ -1804,19 +2246,36 @@ Items: {
 	}
 
 	FrostburnForce: {
-		DisplayName: Fuerza de la Quemadura de escarcha
+		DisplayName: Fuerza de Quemadura gélida
 		Tooltip:
 			'''
-			Otorga todas las bonificaciones de armadura del Tribunal sangriento, Criolita, Ocaso y Gélido
+			Otorga todas las bonificaciones de armadura del Tribunal sangriento, Criolita, Crepuscular y Frígido
 			También otorga las bonificaciones de Tirador, Portador del dolor y Tirano de la escoria
 			Otorga los efectos del Amuleto sangriento, la Lengua macabra, el Sombrero invernal y Cuatro iguales
-			También otorga los efectos de la Guitarra eléctrica, los Guantes gélidos, el Devorador infernal y el Cetro Cimerio
+			También otorga los efectos de la Guitarra eléctrica, los Envolturas gélidas, el Devorador infernal y el Cetro Cimerio
 			'''
 	}
 
 	SpiritSoul: {
 		DisplayName: Alma del fantasma
-		Tooltip: ""
+		Tooltip:
+			'''
+			All armor bonuses from Driftwood, Botanist, and Floran
+			All armor bonuses from Wayfarers and Sunflower
+			All armor bonuses from Rogue, Chitin, Apostle, and Marble Chunk
+			All armor bonuses from Astralite, Seraph, and Runic
+			All armor bonuses from Bismite, Cascade, and Granite Chunk
+			All armor bonuses from Stream Surfer, Spirit, and Primalstone
+			All armor bonuses from Bloodcourt, Cryolite, Dusk, and Frigid
+			All armor bonuses from Marksman, Painmonger, and Slag Tyrant
+			Effects of Metal Band, Explorer Treads, Reach Brooch, and Floran Charm
+			Effects of Rogue Crest, Swift Rune, and High Gravity Boots
+			Effects of Seraphim Bulwark, Fallen Angel, and Rune Wizard Scroll
+			Effects of Bismuth Shield, Pendant Of The Ocean, Tech Boots, and Shrunken Launcher
+			Effects of Flying Fish Fin, Shadow Singe Fang, and Titanbound Bulwark
+			Effects of Bloody Ward, Grisly Tongue, Winter Hat, and Four Of A Kind
+			Effects of Electric Guitar, Frigid Gloves, Hell Eater, and Cimmerian Scepter
+			'''
 	}
 
 	KiSoul: {
@@ -1853,7 +2312,7 @@ Items: {
 			'''
 			+20% de daño cuerpo a cuerpo verdadero
 			No puedes ser congelado
-			Los ataques cuerpo a cuerpo verdadero infligen Quemadura de escarcha
+			Los ataques cuerpo a cuerpo verdadero infligen Quemadura gélida
 			Presiona la tecla de 'habilidad de armadura' para crear un escudo de hielo que bloquea ataques
 			Fallar la parada causará un sobreenfriamiento
 			'''
@@ -1934,13 +2393,35 @@ Items: {
 	}
 
 	GemTechEnchant: {
-		Tooltip: ""
 		DisplayName: Encantamiento de tecnología de gema
+		Tooltip:
+			'''
+			Power Gems - Six gem fragments idly orbit you; one for each class, and a base gem
+			A gem is lost when you take more than 100 damage in a single hit.
+			The type of gem lost is the same as the class of the most recently used weapon
+			If said gem has already been lost, the base gem is lost instead
+			When a gem is lost, it breaks off and homes towards the nearest enemy or boss, if one is present, dealing a base of 40000 damage
+			Gems have a 30 second delay before they appear again
+			The red gem grants 130 maximum stealth, increased rogue stats, and makes stealth only consumable by rogue weapons
+			The yellow gem provides increased melee stats and makes melee attacks release shards on hit with a cooldown. This cooldown is shorter for true melee attacks
+			The green gem provides increased ranged stats and causes flechettes to fly swiftly towards targets when they are damaged by a ranged projectile
+			The blue gem grants 4 extra maximum minions, increased summon damage, and negates the summon damage penalty while wielding non-summoner weapons
+			The violet gem grants 100 extra maximum mana, increased magic stats, and makes mana rapidly regenerate when holding a non-magic weapon
+			The pink base gem grants 75 extra defense, extra damage reduction, increased movement speed, jump speed, and +1.0 HP/s life regen
+			When all gems exist simultaneously, hitting a target with any weapon grants you +1.0 HP/s life regen for 8 seconds
+			This is increased to +1.5 HP/s life regen if a weapon of another class is used during that 8 second period for 2.5 seconds
+			'''
+		Tooltip_NoCrossmod: Effects of Draedon's Heart
 	}
 
 	PlaguebringerEnchant: {
 		DisplayName: Encantamiento Portador de plagas
-		Tooltip: ""
+		Tooltip:
+			'''
+			Grants a plague dash which can slam through enemies without taking damage
+			Summons a lil' plaguebringer which swarms your foes with little bees
+			Effects of Unholy Tonic, Vicious Tonic, and Alchemical Decanter
+			'''
 	}
 
 	DesertProwlerEnchant: {
@@ -1976,6 +2457,7 @@ Items: {
 			Mayor tasa de regeneración de maná
 			Pulsa 'Bonificación de conjunto de armadura' para lanzar una ráfaga de láseres mortales al cursor durante los próximos 5 segundos
 			Tiene un tiempo de reutilización de 30 segundos
+			Effects of Moonstone Crown
 			'''
 	}
 
@@ -1991,283 +2473,342 @@ Items: {
 	}
 
 	VesperaEnchant: {
-		DisplayName: Vespera Enchant
+		DisplayName: Encantamiento de Vespera
 		Tooltip:
 			'''
-			Increases max void by 25 and void gain by 50%
-			Effects of Granite Protector
+			Aumenta el vacío máximo en 25 y la ganancia de vacío en un 50%
+			Efectos de Protector de granito
 			'''
 	}
 
 	CursedEnchant: {
-		DisplayName: Cursed Enchant
+		DisplayName: Encantamiento Maldito
 		Tooltip:
 			'''
-			Press Armor Set to change the Ruby Monolith into an offensive stance
-			While in offensive stance, decreases the cooldown of Curse Flaring by 80%
-			However, increases void drain by 6 instead of increasing void regeneration speed by 10%
-			Effects of Heart in a Jar
-			Summons a Lucky Purple Balloon pet
+			Pulsa el botón de 'Set de armadura' para que el Monolito de rubí adopte una postura ofensiva
+			Mientras se mantiene la postura ofensiva, se reduce el tiempo de recarga de Estallido de maldición en un 80%
+			Sin embargo, aumenta el drenaje del vacío en 6 en lugar de aumentar la velocidad de regeneración del vacío en un 10%
+			Efectos de Corazón en un frasco
+			Invoca un Globo morado de la suerte mascota
 			'''
 	}
 
 	VibrantEnchant: {
-		DisplayName: Vibrant Enchant
+		DisplayName: Encantamiento Vibrante
 		Tooltip:
 			'''
-			Increases void gain by 2
-			Vibrant Pistol fires three shots at once at the cost of accuracy
-			Effects of Harvester's Scythe
+			Aumenta la ganancia de vacío en 2
+			La Pistola vibrante dispara tres tiros a la vez a costa de perder precisión
+			Efectos de Guadaña del segador
 			'''
 	}
 
 	WormwoodEnchant: {
-		DisplayName: Wormwood Enchant
+		DisplayName: Encantamiento de Ajenjo
 		Tooltip:
 			'''
-			Summons three Blooming Hooks to assist in comba
-			Effects of Prickly Pear Shield
+			Invoca tres Ganchos florecientes para que te ayuden en el combate
+			Efectos de Escudo de higo chumbo
 			'''
 	}
 
 	FrigidEnchantSOTS: {
-		DisplayName: Frigid Enchant
+		DisplayName: Encantamiento Glacial
 		Tooltip:
 			'''
-			Frigid Javelin no longer costs void
-			Decreases void damage by 15%
-					Increases life regeneration by 2
-			Immunity to Chilled, Frozen, and Frostburn
-					
+			La Jabalina glacial ya no consume vacío
+			-15% de daño de vacío
+			+2 de regeneración de vida
+			Inmunidad a Helado, Congelado y Quemadura gélida
 			'''
 	}
 
 	TwilightAssassinEnchant: {
-		DisplayName: Twilight Assassin Enchant
+		DisplayName: Encantamiento de Asesino crepuscular
 		Tooltip:
 			'''
-			The Holo Eye now automatically attacks for you
-			Automatic attacks have a 25% chance to destabilize enemies, but the chance of applying it gets lower with each level already applied
-			Effects of Calculator
+			Ahora el Ojo Holo ataca automáticamente por ti
+			Los ataques automáticos tienen un 25% de probabilidad de desestabilizar a los enemigos, pero dicha probabilidad disminuye con cada nivel ya aplicado
+			Efectos de Calculadora
 			'''
 	}
 
 	VoidForce: {
-		DisplayName: Void Force
+		DisplayName: Fuerza del Vacío
 		Tooltip:
 			'''
-			All armor bonuses from Vespera and Vibrant
-			All armor bonuses from Cursed and Twilight Assassin
-			Effects of Prickly Pear Shield, Granite Protector, and Harvester's Scythe
-			Effects of Heart in a Jar and Calculator
-			Summons a Lucky Purpe Balloon pet
+			Todas las bonificaciones de armadura Vespera y Vibrante
+			Todas las bonificaciones de armadura Maldita y Asesino crepuscular
+			Efectos de Escudo de higo chumbo, Protector de granito y Guadaña del segador
+			Efectos de Corazón en un frasco y Calculadora
+			Invoca un Globo morado de la suerte mascota
 			'''
 	}
 
 	EarthenEnchant: {
-		DisplayName: Earthen Enchant
+		DisplayName: Encantamiento Terrestre
 		Tooltip:
 			'''
-			Melee strikes have a chance to apply a stacking, permanent shred on enemies, making them take additional damage from all attacks
-			Increases attack speed by 20%
-			Effects of Lockpick and Elemental Amulet
+			Los golpes cuerpo a cuerpo tienen una probabilidad de aplicar a los enemigos un efecto de desgarro permanente y acumulable, 
+			lo que hace que reciban daño adicional de todos los ataques
+			Aumenta la velocidad de ataque en un 20%
+			Efectos de Ganzúa y Amuleto elemental
 			'''
 	}
 
 	ElementalEnchant: {
-		DisplayName: Elemental Enchant
+		DisplayName: Encantamiento Elemental
 		Tooltip:
 			'''
-			Enemies hit by the teleport will be frozen in time temporarily
-			Decreases cooldown on the teleport to 6 seconds and increases the range enemies will take damage from the teleport by 50%
-			Increases teleport damage based on void damage modifiers
-			Effecs of Bag of Chams and Ultimate Polarizer
+			Los enemigos alcanzados por el teletransporte quedarán paralizados temporalmente
+			Reduce el tiempo de enfriamiento del teletransporte a 6 segundos y aumenta en un 50% el radio en el que los enemigos recibirán daño del teletransporte
+			Aumenta el daño del teletransporte en función de los modificadores de daño del vacío
+			Efectos de Bolsa con amuletos y Polarizador definitivo
 			'''
 	}
 
 	ElementsForce: {
-		DisplayName: Elements Force
+		DisplayName: Fuerza de los Elementos
 		Tooltip:
 			'''
-			All armor bonuses from Frigid and Wormwood
-			All armor bonuses from Earthen and Elemental
-			Effects of Lockpick and Elemental Amulet
-			Effects of Bag of Charms, Ultimate Polarizer, and Wormwood
+			Todas las bonificaciones de armadura Glacial y de Ajenjo
+			Todas las bonificaciones de armadura Terrestre y Elemental
+			Efectos de Ganzúa y Amuleto elemental
+			Efectos de Bolsa con amuletos, Polarizador definitivo y Ajenjo
 			'''
 	}
 
 	DrillforgeEnchant: {
-		DisplayName: Drillforge Enchant
+		DisplayName: Encantamiento de Perforador
 		Tooltip:
 			'''
-			Increases Missile Launcher Tail attack speed by 50%
-			Increases void regeneration speed by 30%
-			Effects of Drill Arm
+			Aumenta la velocidad de ataque de la cola del lanzamisiles en un 50%
+			Aumenta la velocidad de regeneración de vacío en un 30%
+			Efectos de Brazo perforador
 			'''
 	}
 
 	FrostArtifactEnchant: {
-		DisplayName: Frost Artifact Enchant
+		DisplayName: Encantamiento de Artefacto de escarcha
 		Tooltip:
 			'''
-			Most melee and ranged attacks summon a handful of Polar Cannons that each deal 25% damage
-			Effects of Shard Guard
+			La mayoría de los ataques cuerpo a cuerpo y a distancia invocan varios cañones polares que infligen cada uno un 25% de daño
+			Efectos de Protector de fragmentos
 			'''
 	}
 
 	PatchLeatherEnchant: {
-		DisplayName: Patch Leather Enchant
-		Tooltip: Summons a flock of flying snakes to assist in combat
+		DisplayName: Encantamiento de Cuero remendado
+		Tooltip: Invoca a una bandada de serpientes voladoras para que te ayuden en combate
 	}
 
 	VoidspaceRangerEnchant: {
-		DisplayName: Voidspace Ranger Enchant
+		DisplayName: Encantamiento del Explorador del vacío
 		Tooltip:
 			'''
-			Attacks permanently inflict the Subspace Flames debuff, which deals 10 damage per second
-			When an enemy with Subspace Flames is killed, they deal damage to all other enemies equal to the cumulative damage they took from Subspace Flames
-			Enemies that take damage this way will also be inflicted with Subspace Flames
-			Effects of Supspace Locket, Voidspace Emblem, and Focus Reticle
+			Los ataques infligen de forma permanente el efecto negativo Llamas subespaciales, que inflige 10 de daño por segundo
+			Cuando un enemigo afectado por Llamas subespaciales muere, inflige a todos los demás enemigos un daño equivalente al daño acumulado que haya recibido por dicho efecto
+			A los enemigos que reciban daño de esta forma también se les aplicará el efecto Llamas subespaciales
+			Efectos de Medallón subespacial, Emblema del Vacío y Retícula de enfoque
 			'''
 	}
 
 	MachineForce: {
-		DisplayName: Machine Force
+		DisplayName: Fuerza de Máquinas
 		Tooltip:
 			'''
-			All armor bonuses from Drillforge and Frost Artifact
-			All armor bonuses from Patch Leather and Voidspace Ranger
-			Effects of Drill Arm and Shard Guard
-			Effects of Supspace Locket, Voidspace Emblem, and Focus Reticle
+			Todas las bonificaciones de armadura del Perforador y Artefacto de escarcha
+			Todas las bonificaciones de armadura de Cuero remendado y Explorador del vacío
+			Efectos de Brazo perforador y Protector de fragmentos
+			Efectos de Medallón subespacial, Emblema del Vacío y Retícula de enfoque
 			'''
 	}
 
 	PossessedEnchant: {
-		DisplayName: Possessed Enchant
+		DisplayName: Encantamiento Poseído
 		Tooltip:
 			'''
-			Health regeneration is increased when Ethereal Bond is active 
-			Double tap W to transform into a dashing skull
+			La regeneración de vida aumenta cuando el Vínculo etéreo está activo
+			Presiona dos veces W para transformarte en una calavera veloz
 			'''
 	}
 
 	JellyEnchant: {
 		Tooltip:
 			'''
-			Double tap W to summon Gellita Jr. to hold out the area for you!
-			Double tap W to recall Gellita Jr.
+			Presiona dos veces W para invocar a Gellita Jr. para que defienda el área por ti.
+			Presiona dos veces W para retirar a Gellita Jr.
 			'''
-		DisplayName: Jelly Enchant
+		DisplayName: Encantamiento de Gelatina
 	}
 
 	GravekeeperEnchant: {
 		Tooltip:
 			'''
-			Increases your max number of minions 
-			Double tap UP to transform into Ethereal Moth
-			Recharges with minion damage dealt and over time
-			Effects of Voodoo Heart
+			Aumenta tu número máximo de súbditos
+			Presiona dos veces ARRIBA para transformarte en Polilla etérea
+			Se recarga con el tiempo y con el daño infligido por tus súbditos
+			Efectos de Corazón vudú
 			'''
-		DisplayName: Gravekeeper Enchant
+		DisplayName: Encantamiento de Sepulturero
 	}
 
 	CrabEnchant: {
-		Tooltip: Blocks melee attacks and reduces projectile damage from behind
-		DisplayName: Crab Enchant
+		Tooltip: Bloquea ataques cuerpo a cuerpo y reduce el daño de proyectiles por la espalda
+		DisplayName: Encantamiento de Cangrejo
 	}
 
 	TectonicEnchant: {
-		DisplayName: Tectonic Enchant
+		DisplayName: Encantamiento Tectónico
 		Tooltip:
 			'''
-			Drop exploding Cinnabar Bombs on kill
-			Effects of Matchbook and Painmaker
-			Summons a pet Sunny
+			Suelta Bombas de cinabrio explosivas al matar enemigos
+			Efectos de Cartera de cerillas y Hacedor de dolor
+			Invoca al Sr. Soleado mascota
 			'''
 	}
 
 	WarlochEnchant: {
-		DisplayName: Warloch Enchant
+		DisplayName: Encantamiento del Brujo del abismo
 		Tooltip:
 			'''
-			You can reel in and devour aquatic creatures using your whip
-			Devouring grants damage and defensive buffs
-			Your prey is hightlighted in red
-			Effects of Purple Tearstone Ring
+			Puedes atraer y devorar criaturas acuáticas usando tu látigo
+			Devorarlas otorga bonificaciones de daño y defensa
+			Tu presa se resaltará en rojo
+			Efectos de Anillo de lágrima púrpura
 			'''
 	}
 
 	CorruptionForce: {
-		DisplayName: Corruption Force
+		DisplayName: Fuerza de Corrupción
 		Tooltip:
 			'''
-			All armor bonuses from Possessed, Gravekeeper, and Warloch
-			All armor bonuses from Tectonic, Jelly, and Crab
-			Effects of Voodoo Heart and Matchbook
-			Effects of Painmaker and Purple Tearstone Ring
-
+			Todas las bonificaciones la armadura Poseída, Sepulturero y Brujo del abismo
+			Todas las bonificaciones de la armadura Tectónica, Gelatina y Cangrejo
+			Efectos de Corazón vudú y Cartera de cerillas
+			Efectos de Hacedor de dolor y Anillo de lágrima púrpura
 			'''
 	}
 
 	FrostForce: {
 		Tooltip:
 			'''
-			All armor bonuses from Rimebreaker, Star Ranger, and Stargazer
-			All armor bonuses from Frostbite and Contraptionist
-			Effects of Mystic Pack, The Iceberg, and Malachite Box
-			Effects of Chilling Catalyst and Mycelium Fortress
+			Todas las bonificaciones de armadura Rompehielos, Rastreador estelar y Astrónomo
+			Todas las bonificaciones de armadura de Escarcha y Artilugista
+			Efectos de Carcaj místico, El Iceberg y Cofre de malaquita
+			Efectos de Catalizador gélido y Fortaleza de micelio
 			'''
-		DisplayName: Frost Force
+		DisplayName: Fuerza Gélida
 	}
 
 	StarRangerEnchant: {
 		Tooltip:
 			'''
-			Gradually restore the Shattered Star by dealing damage with ranged weapons 
-			When fully restored, use a magic weapon to become Galactically Awesome!
-			Effects of Mystic Pack
+			Restaura gradualmente la Estrella fragmentada al infligir daño con armas a distancia
+			¡Cuando esté restaurada, usa un arma mágica para volverte Galácticamente increíble!
+			Efectos de Carcaj místico
 			'''
-		DisplayName: Star Ranger Enchant
+		DisplayName: Encantamiento del Rastreador estelar
 	}
 
 	StargazerEnchant: {
 		Tooltip:
 			'''
-			Your graceful movements emit magnificent stardust to dazzle nearby enemies 
-			During Mana Overload, your projectiles will emit it too
+			Tus elegantes movimientos emiten magnífico polvo estelar para deslumbrar a los enemigos cercanos
+			Durante el Desbordamiento de maná, tus proyectiles también lo emitirán
 			'''
-		DisplayName: Stargazer Enchant
+		DisplayName: Encantamiento de Astrónomo
 	}
 
 	RimebreakerEnchant: {
 		Tooltip:
 			'''
-			Summons a Glacial Echo to drive his cool sword into enemies while
-			Each time he deals damage to enemies, you obtain a stack of Icebreak 
-			Effects of The Iceberg and Malachite Box
+			¡Invoca un Eco Glacial que clava su espada gélida en los enemigos mientras atacas!
+			Cada vez que daña a un enemigo, obtienes una carga de Rompehielos
+			Efectos de El Iceberg y Cofre de malaquita
 			'''
-		DisplayName: Rimebreaker Enchant
+		DisplayName: Encantamiento Rompehielos
 	}
 
 	FrostbiteEnchant: {
 		Tooltip:
 			'''
-			Grants immunity to cold debuffs
-			Effects of Chilling Catalyst
+			Otorga inmunidad a los estados negativos de frío
+			Efectos de Catalizador gélido
 			'''
-		DisplayName: Frostbite Enchant
+		DisplayName: Encantamiento de Escarcha
 	}
 
 	ContraptionistEnchant: {
 		Tooltip:
 			'''
-			Increases your max number of minions by I 
-			Summons a Helical Contraption turret to mow down focused enemies 
-			Killing enemies and damaging bosses drops ammunition 
-			Double tap UP to toggle the turret
-			Effects of Mycelium Fortress
+			Aumenta tu número máximo de súbditos en 1
+			Invoca una torreta de Artilugio Helicoidal para acribillar a los enemigos enfocados
+			Matar enemigos y dañar jefes suelta munición
+			Presiona dos veces ARRIBA para activar o desactivar la torreta
+			Efectos de Fortaleza de micelio
 			'''
-		DisplayName: Contraptionist Enchant
+		DisplayName: Encantamiento de Artilugista
+	}
+
+	SecretsSoul: {
+		DisplayName: Alma de las Sombras
+		Tooltip:
+			'''
+			Todas las bonificaciones de armadura Glacial y de Ajenjo
+			Todas las bonificaciones de armadura Terrestre y Elemental
+			Todas las bonificaciones de armadura del Perforador y Artefacto de escarcha
+			Todas las bonificaciones de armadura de Cuero remendado y Explorador del vacío
+			Todas las bonificaciones de armadura Vespera y Vibrante
+			Todas las bonificaciones de armadura Maldita y Asesino crepuscular
+			Invoca un Globo morado de la suerte mascota
+			Efectos de Ganzúa y Amuleto elemental
+			Efectos de Bolsa con amuletos, Polarizador definitivo y Ajenjo
+			Efectos de Brazo perforador y Protector de fragmentos
+			Efectos de Medallón subespacial, Emblema del Vacío y Retícula de enfoque
+			Efectos de Escudo de higo chumbo, Protector de granito y Guadaña del segador
+			Efectos de Corazón en un frasco y Calculadora
+			'''
+	}
+
+	SplitSoul: {
+		DisplayName: Alma de Permafrost
+		Tooltip:
+			'''
+			Todas las bonificaciones la armadura Poseída, Sepulturero y Brujo del abismo
+			Todas las bonificaciones de la armadura Tectónica, Gelatina y Cangrejo
+			Todas las bonificaciones de armadura Rompehielos, Rastreador estelar y Astrónomo
+			Todas las bonificaciones de armadura de Escarcha y Artilugista
+			Efectos de Corazón vudú y Cartera de cerillas
+			Efectos de Hacedor de dolor y Anillo de lágrima púrpura
+			Efectos de Carcaj místico, El Iceberg y Cofre de malaquita
+			Efectos de Catalizador gélido y Fortaleza de micelio
+			'''
+	}
+
+	VoidSoul: {
+		DisplayName: Alma Abisal
+		Tooltip:
+			'''
+			+30% de daño de vacío
+			+15% de probabilidad de golpe crítico de vacío
+			-15% en el coste de vacío
+			+8 en ganancia de vacío y vacío máximo en 150
+			Efectos del Sr. McMillen y el Baluarte de los Antiguos
+			Efectos de Hiperpropulsor, Incubadora de Mago del vacío y Collar de cuchillas
+			'''
+	}
+
+	VoidEssence: {
+		DisplayName: Esencia del Vacío
+		Tooltip:
+			'''
+			+18% de daño de vacío
+			+5% de probabilidad de golpe crítico de vacío
+			-8% en el coste de vacío
+			+4 en ganancia de vacío y vacío máximo en 50
+			Efectos de Sr. McMillen
+			'''
 	}
 }
 
@@ -2281,7 +2822,10 @@ Buffs: {
 Configs: {
 	Config: {
 		DisplayName: Configuración
-		Headers.Modes: Modos de encabezado
+		Headers: {
+			Modes: Modos de encabezado
+			ContentMods: Contenido de mods
+		}
 
 		AddFargosDLCRecipeChangesWhenDisabled: {
 			Label: Agregar cambios de receta de 'Fargos DLC' cuando está deshabilitado
@@ -2294,28 +2838,93 @@ Configs: {
 		}
 
 		DisableOfficialFargoDLCEnchantments: {
-			Label: Disable Official Fargo D L C Enchantments
+			Label: Desactivar los encantamientos oficiales de Fargo DLC
 			Tooltip: ""
+		}
+
+		EnableCalamity: {
+			Label: Habilitar contenido de Calamity
+			Tooltip: Habilitar la compatibilidad con contenido cruzado con Calamity
+		}
+
+		EnableThorium: {
+			Label: Habilitar contenido de Thorium
+			Tooltip: Habilitar la compatibilidad con contenido cruzado con Thorium
+		}
+
+		EnableConsolaria: {
+			Label: Habilitar contenido de Consolaria
+			Tooltip: Habilitar la compatibilidad con contenido cruzado con Consolaria
+		}
+
+		EnableDBZ: {
+			Label: Habilitar contenido de DBZ
+			Tooltip: Habilitar la compatibilidad con contenido cruzado con DBZ
+		}
+
+		EnableSpirit: {
+			Label: Habilitar contenido de Spirit
+			Tooltip: Habilitar la compatibilidad con contenido cruzado con Spirit
+		}
+
+		EnableSOTS: {
+			Label: Habilitar contenido de Secrets of the Shadows
+			Tooltip: Habilitar la compatibilidad con contenido cruzado con Secrets of the Shadows
+		}
+
+		EnableSplit: {
+			Label: Habilitar contenido de Split
+			Tooltip: Habilitar la compatibilidad con contenido cruzado con Split
+		}
+
+		EnableClamity: {
+			Label: Habilitar contenido de Clamity
+			Tooltip: Habilitar la compatibilidad con contenido cruzado con Clamity
+		}
+
+		EnableCatalyst: {
+			Label: Habilitar contenido de Catalyst
+			Tooltip: Habilitar la compatibilidad con contenido cruzado con Catalyst
+		}
+
+		EnableCalamityHunt: {
+			Label: Habilitar contenido de Calamity Hunt
+			Tooltip: Habilitar la compatibilidad con contenido cruzado con Calamity Hunt
+		}
+
+		EnableCalamityEntropy: {
+			Label: Habilitar contenido de Calamity Entropy
+			Tooltip: Habilitar la compatibilidad con contenido cruzado con Calamity Entropy
+		}
+
+		EnableCalamityBardHealer: {
+			Label: Habilitar contenido de Calamity Bard Healer
+			Tooltip: Habilitar la compatibilidad con contenido cruzado con Calamity Bard Healer
+		}
+
+		EnableSpiritBardHealer: {
+			Label: Habilitar contenido de Spirit Bard Healer
+			Tooltip: Habilitar la compatibilidad con contenido cruzado con Spirit Bard Healer
 		}
 	}
 }
 
 NPCs: {
 	Echdeath.DisplayName: Echdeath
-	SquirrelChatHandler.DisplayName: Squirrel Chat Handler
+	SquirrelChatHandler.DisplayName: Controlador de chat de la Ardilla
 
 	SquirrelChatBridge: {
-		DisplayName: Squirrel Chat Bridge
+		DisplayName: Puente de charla de la Ardillas
 
 		TownNPCMood: {
-			Content: I am content.
-			NoHome: I hate not having a home.
-			FarFromHome: I am too far from home.
-			LoveSpace: I love having so much space.
-			DislikeCrowded: I dislike how crowded I am.
-			HateCrowded: I hate how crowded I am.
-			LikeNPC_Princess: I like {NPCName}.
-			Princess_LovesNPC: I like {NPCName}.
+			Content: Estoy a gusto.
+			NoHome: Odio no tener un hogar.
+			FarFromHome: Estoy demasiado lejos de casa.
+			LoveSpace: Me encanta tener tanto espacio.
+			DislikeCrowded: No me gusta estar tan rodeado de gente.
+			HateCrowded: Odio que esté tan lleno de gente.
+			LikeNPC_Princess: Me agrada {NPCName}.
+			Princess_LovesNPC: Me encanta {NPCName}.
 		}
 	}
 }

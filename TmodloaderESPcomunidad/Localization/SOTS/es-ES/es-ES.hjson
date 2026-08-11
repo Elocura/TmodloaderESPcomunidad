@@ -2199,7 +2199,7 @@ Mods: {
 			}
 
 			KnucklesMusicBox: {
-				DisplayName: Caja de Música (Knuckles)
+				DisplayName: Caja de música (Knuckles)
 				Tooltip: "'¿Puedo poner mi...'"
 			}
 
@@ -2219,22 +2219,22 @@ Mods: {
 			}
 
 			PutridPinkyMusicBox: {
-				DisplayName: Caja de Música (Pinky pútrido)
+				DisplayName: Caja de música (Pinky pútrido)
 				Tooltip: ""
 			}
 
 			PyramidBattleMusicBox: {
-				DisplayName: Caja de Música (Batalla de pirámide)
+				DisplayName: Caja de música (Batalla de pirámide)
 				Tooltip: ""
 			}
 
 			SubspaceSerpentMusicBox: {
-				DisplayName: Caja de Música (Serpiente subespacial)
+				DisplayName: Caja de música (Serpiente subespacial)
 				Tooltip: ""
 			}
 
 			CurseMusicBox: {
-				DisplayName: Caja de Música (Maldición del Faraón)
+				DisplayName: Caja de música (Maldición del Faraón)
 				Tooltip: ""
 			}
 
@@ -3236,7 +3236,7 @@ Mods: {
 			}
 
 			CursedHood: {
-				DisplayName: Capucha Maldita
+				DisplayName: Capucha maldita
 				Tooltip:
 					'''
 					Aumenta el daño mágico y el daño de vacío en un 8%
@@ -3254,7 +3254,7 @@ Mods: {
 			}
 
 			CursedRobe: {
-				DisplayName: Túnica Maldita
+				DisplayName: Túnica maldita
 				Tooltip:
 					'''
 					Aumenta el maná máximo y el vacío en 80
@@ -3394,7 +3394,8 @@ Mods: {
 
 			PatchLeatherHat: {
 				DisplayName: Sombrero de cuero remendado
-				Tooltip: Aumenta el número máximo de esbirros en 1
+				Tooltip: Aumenta el número máximo de súbditos en 1
+				SetBonus: Invoca a una bandada de serpientes voladoras para que te ayuden en combate
 			}
 
 			PatchLeatherTunic: {
@@ -5308,7 +5309,7 @@ Mods: {
 					'''
 					Aumenta el daño cuerpo a cuerpo, de invocación y de vacío en un 15%
 					Aumenta la obtención de vacío en 3 y el vacío máximo en 100
-					Aumenta el número máximo de esbirros en 2
+					Aumenta el número máximo de súbditos en 2
 					'''
 				SetBonus:
 					'''

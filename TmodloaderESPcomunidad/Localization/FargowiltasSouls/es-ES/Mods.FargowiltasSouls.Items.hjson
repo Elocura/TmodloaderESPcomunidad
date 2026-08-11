@@ -57,7 +57,7 @@ ApprenticeEnchant: {
 }
 
 AshWoodEnchant: {
-	DisplayName: Encantamiento de Madera de ceniza
+	DisplayName: Encantamiento de Madera de fresno
 	Tooltip:
 		'''
 		Los efectos de fuego no te dañan
@@ -184,7 +184,7 @@ DarkArtistEnchant: {
 }
 
 EbonwoodEnchant: {
-	DisplayName: Encantamiento de Madera ébano
+	DisplayName: Encantamiento de Madera de ébano
 	Tooltip:
 		'''
 		Estás rodeado por un aura de corrupción
@@ -214,7 +214,7 @@ FrostEnchant: {
 	DisplayName: Encantamiento de Escarcha
 	Tooltip:
 		'''
-		Tus ataques infligen Quemadura de Escarcha brevemente
+		Tus ataques infligen Quemadura gélida brevemente
 		Aparecen carámbanos a tu alrededor
 		Atacar los lanza hacia el cursor, infligiendo daño mágico
 		Al golpear a un enemigo, le infligen Congelación y lo inmovilizan
@@ -287,7 +287,7 @@ IronEnchant: {
 }
 
 JungleEnchant: {
-	DisplayName: Encantamiento de la Jungla
+	DisplayName: Encantamiento de la Selva
 	Tooltip:
 		'''
 		Otorga un salto doble con esporas
@@ -355,7 +355,7 @@ MonkEnchant: {
 }
 
 MythrilEnchant: {
-	DisplayName: Encantamiento de Mítiril
+	DisplayName: Encantamiento de Mithril
 	Tooltip:
 		'''
 		Aumenta temporalmente la velocidad de ataque tras un tiempo sin atacar
@@ -365,11 +365,11 @@ MythrilEnchant: {
 }
 
 NebulaEnchant: {
-	DisplayName: Encantamiento de Nébula
+	DisplayName: Encantamiento de Nébulosa
 	Tooltip:
 		'''
-		Cada 3 segundos un proyectil se reemplaza con un disparo de nébula que inflige daño mágico
-		Los disparos de nébula persiguen enemigos y generan un potenciador de nébula
+		Cada 3 segundos un proyectil se reemplaza con un disparo de nébulosa que inflige daño mágico
+		Los disparos de nébulosa persiguen enemigos y generan un potenciador de nébulosa
 		Acumulación de potenciadores limitada a 2, no genera potenciadores de maná
 		'Los pilares de la creación han brillado sobre ti'
 		'''
@@ -380,7 +380,7 @@ NecroEnchant: {
 	Tooltip:
 		'''
 		Los enemigos derrotados pueden soltar un montón de huesos
-		Tócalo para invocar un Guardián de Mazmorra aliado
+		Tócalo para invocar un Guardián de mazmorra aliado
 		El daño se basa únicamente en la vida máxima del enemigo derrotado, con un tope de 10000
 		Los jefes sueltan huesos cada 10% de vida perdida
 		'Bienvenido a la zona de huesos'
@@ -432,12 +432,12 @@ PalladiumEnchant: {
 }
 
 PalmWoodEnchant: {
-	DisplayName: Encantamiento de Madera de palma
+	DisplayName: Encantamiento de Madera de palmera
 	Tooltip: "'Alarmantemente tranquilo'"
 }
 
 PearlwoodEnchant: {
-	DisplayName: Encantamiento de Madera de perla
+	DisplayName: Encantamiento de Madera de perlada
 	Tooltip:
 		'''
 		Recoger cualquier objeto lanza una estrella a un enemigo cercano y te potencia por 5 segundos
@@ -508,7 +508,7 @@ RichMahoganyEnchant: {
 }
 
 ShadewoodEnchant: {
-	DisplayName: Encantamiento de Madera carmesí
+	DisplayName: Encantamiento de Madera sombría
 	Tooltip:
 		'''
 		Emites un aura de Sangrado
@@ -528,7 +528,7 @@ ShadowEnchant: {
 }
 
 ShinobiEnchant: {
-	DisplayName: Encantamiento del Infiltrador Shinobi
+	DisplayName: Encantamiento del Infiltrador shinobi
 	Tooltip:
 		'''
 		Te permite hacer embestidas de teletransporte
@@ -543,7 +543,7 @@ ShinobiEnchant: {
 }
 
 ShroomiteEnchant: {
-	DisplayName: Encantamiento de Shroomita
+	DisplayName: Encantamiento de Piñonita
 	Tooltip:
 		'''
 		Los hongos curan 50 PS y al consumirlos obtienes Poder de Hongo por 20 segundos
@@ -568,7 +568,7 @@ SnowEnchant: {
 	DisplayName: Encantamiento de Nieve
 	Tooltip:
 		'''
-		Tus ataques infligen Quemadura de Escarcha brevemente
+		Tus ataques infligen Quemadura gélida brevemente
 		Empiezan a aparecer bolas de nieve a tu alrededor
 		Atacar las lanza hacia el cursor con daño mágico
 		'Está ardientemente frío allá afuera'
@@ -612,7 +612,7 @@ SpiderEnchant: {
 }
 
 SpookyEnchant: {
-	DisplayName: Encantamiento Espeluznante
+	DisplayName: Encantamiento Tétrico
 	Tooltip:
 		'''
 		Todos tus súbditos obtienen un ataque adicional con guadaña
@@ -707,7 +707,7 @@ TurtleEnchant: {
 }
 
 ValhallaKnightEnchant: {
-	DisplayName: Encantamiento del Caballero de Valhalla
+	DisplayName: Encantamiento del Caballero del Valhalla
 	Tooltip:
 		'''
 		Aumenta la aceleración, velocidad máxima y altura de salto mientras montas
@@ -812,7 +812,7 @@ BoxofGizmos: {
 }
 
 UniverseCore: {
-	DisplayName: Núcleo Cósmico
+	DisplayName: Núcleo cósmico
 	Tooltip:
 		'''
 		Tus golpes críticos pueden hacer un súper crítico
@@ -877,7 +877,7 @@ NatureForce: {
 		[i:FargowiltasSouls/ShroomiteEnchant] Las hojas generan una nube de hongos al impactar
 		[i:FargowiltasSouls/ShroomiteEnchant] Los hongos curan 50 HP y otorgan Poder de Hongo por 20 s
 		[i:FargowiltasSouls/ShroomiteEnchant] Poder de Hongo otorga +20% daño, crítico y agranda el aura
-		[i:FargowiltasSouls/FrostEnchant] Tus ataques infligen Quemadura de Escarcha y Congelamiento
+		[i:FargowiltasSouls/FrostEnchant] Tus ataques infligen Quemadura gélida y Congelamiento
 		[i:FargowiltasSouls/RainEnchant] Invoca un paraguas que bloquea hasta 200 de daño desde arriba
 		'Conectado a todos los secretos del bosque'
 		'''
@@ -989,7 +989,7 @@ AeolusBoots: {
 }
 
 AgitatingLens: {
-	DisplayName: Lente Agitante
+	DisplayName: Lente agitante
 	Tooltip:
 		'''
 		Otorga inmunidad a Enfurecido (no auto-infligido)
@@ -1011,10 +1011,10 @@ BetsysHeart: {
 }
 
 BionomicCluster: {
-	DisplayName: Núcleo Bionómico
+	DisplayName: Núcleo bionómico
 	Tooltip:
 		'''
-		Otorga inmunidad a [i:FargowiltasSouls/FrigidGemstone] Quemadura de Escarcha, [i:FargowiltasSouls/WretchedPouch] Llama Sombría, [i:FargowiltasSouls/SqueakyToy] Juguete Chillón, [i:FargowiltasSouls/ConcentratedRainbowMatter] Llamas del Cosmos, 
+		Otorga inmunidad a [i:FargowiltasSouls/FrigidGemstone] Quemadura gélida, [i:FargowiltasSouls/WretchedPouch] Llama Sombría, [i:FargowiltasSouls/SqueakyToy] Juguete Chillón, [i:FargowiltasSouls/ConcentratedRainbowMatter] Llamas del Cosmos, 
 		[i:FargowiltasSouls/WyvernFeather] Alas Cortadas, Lisiado, [i:FargowiltasSouls/TribalCharm] Enredado, Purificado, [i:FargowiltasSouls/NymphsPerfume] Enamorado, Apestoso, Hechizado y [i:FargowiltasSouls/SecurityWallet] Midas
 		[i:FargowiltasSouls/SandsofTime] Úsalo para teletransportarte al último punto de muerte
 		[i:FargowiltasSouls/NymphsPerfume] Tus ataques a veces generan corazones al impactar
@@ -1026,7 +1026,7 @@ BionomicCluster: {
 		[i:FargowiltasSouls/TimsConcoction] Algunos enemigos sueltan pociones al morir
 		[i:FargowiltasSouls/TribalCharm] Al atacar haciendo clic manualmente, aumentas el daño no invocador en 30%
 		[c/00FFFF:Los siguientes efectos también funcionan desde inventario o vanidad (clic derecho para desactivar):]
-		    Inmunidad a [i:FargowiltasSouls/SandsofTime] Viento Fuerte, daño de cactus, [i:FargowiltasSouls/MysticSkull] Sofocación, [i:FargowiltasSouls/FrigidGemstone] Escarcha, [i:FargowiltasSouls/SqueakyToy] y Culpable
+		    Inmunidad a [i:FargowiltasSouls/SandsofTime] Viento Fuerte, daño de cactus, [i:FargowiltasSouls/MysticSkull] Sofocación, [i:FargowiltasSouls/FrigidGemstone] Helado, [i:FargowiltasSouls/SqueakyToy] y Culpable
 		    [i:FargowiltasSouls/WyvernFeather] Estabiliza la gravedad en el espacio y en líquidos, [i:FargowiltasSouls/OrdinaryCarrot] mejora visión nocturna, [i:FargowiltasSouls/SecurityWallet] y reduce el costo de reforjar en 50%
 		    [i:FargowiltasSouls/ConcentratedRainbowMatter] Usa automáticamente pociones de curación y [i:FargowiltasSouls/MysticSkull] maná cuando las necesites, además aumenta el alcance para recoger estrellas de maná
 		    [i:FargowiltasSouls/NymphsPerfume] Revives con más vida, [i:FargowiltasSouls/SandsofTime] y si no hay jefes activos, revives más rápido
@@ -1035,7 +1035,7 @@ BionomicCluster: {
 		'''
 	VanityTooltip:
 		'''
-		Inmunidad a [i:FargowiltasSouls/SandsofTime] Viento Fuerte, daño de cactus, [i:FargowiltasSouls/MysticSkull] Sofocación, [i:FargowiltasSouls/FrigidGemstone] Escarcha, [i:FargowiltasSouls/SqueakyToy] y Culpable
+		Inmunidad a [i:FargowiltasSouls/SandsofTime] Viento Fuerte, daño de cactus, [i:FargowiltasSouls/MysticSkull] Sofocación, [i:FargowiltasSouls/FrigidGemstone] Helado, [i:FargowiltasSouls/SqueakyToy] y Culpable
 		[i:FargowiltasSouls/WyvernFeather] Estabiliza la gravedad en el espacio y en líquidos, [i:FargowiltasSouls/OrdinaryCarrot] mejora visión nocturna, [i:FargowiltasSouls/SecurityWallet] y reduce el costo de reforjar en 50%
 		[i:FargowiltasSouls/ConcentratedRainbowMatter] Usa automáticamente pociones de curación y [i:FargowiltasSouls/MysticSkull] maná cuando las necesites, además aumenta el alcance para recoger estrellas de maná
 		[i:FargowiltasSouls/NymphsPerfume] Revives con más vida, [i:FargowiltasSouls/SandsofTime] y si no hay jefes activos, revives más rápido
@@ -1047,7 +1047,7 @@ BionomicClusterInactive: {
 	DisplayName: Clúster Bionómico (inactivo)
 	Tooltip:
 		'''
-		Otorga inmunidad a [i:FargowiltasSouls/FrigidGemstone] Quemadura de Escarcha, [i:FargowiltasSouls/WretchedPouch] Llama Sombría, [i:FargowiltasSouls/SqueakyToy] Juguete Chillón, [i:FargowiltasSouls/ConcentratedRainbowMatter] Llamas del Cosmos, 
+		Otorga inmunidad a [i:FargowiltasSouls/FrigidGemstone] Quemadura gélida, [i:FargowiltasSouls/WretchedPouch] Llama Sombría, [i:FargowiltasSouls/SqueakyToy] Juguete Chillón, [i:FargowiltasSouls/ConcentratedRainbowMatter] Llamas del Cosmos, 
 		[i:FargowiltasSouls/WyvernFeather] Alas Cortadas, Lisiado, [i:FargowiltasSouls/TribalCharm] Enredado, Purificado, [i:FargowiltasSouls/NymphsPerfume] Enamorado, Apestoso, Hechizado y [i:FargowiltasSouls/SecurityWallet] Toque de Midas
 		[i:FargowiltasSouls/SandsofTime] Úsalo para teletransportarte a tu último punto de muerte
 		[i:FargowiltasSouls/NymphsPerfume] Tus ataques a veces generan corazones al golpear
@@ -1059,7 +1059,7 @@ BionomicClusterInactive: {
 		[i:FargowiltasSouls/TimsConcoction] Algunos enemigos soltarán pociones al morir
 		[i:FargowiltasSouls/TribalCharm] Al atacar haciendo clic manualmente, el daño no invocador aumenta 30%
 		[c/00FFFF:Efectos actualmente desactivados en el inventario (clic derecho para activar):]
-		    Inmunidad a [i:FargowiltasSouls/SandsofTime] Viento Poderoso, daño de cactus, [i:FargowiltasSouls/MysticSkull] Asfixia, [i:FargowiltasSouls/FrigidGemstone] Congelado, [i:FargowiltasSouls/SqueakyToy] y Culpabilidad
+		    Inmunidad a [i:FargowiltasSouls/SandsofTime] Viento Poderoso, daño de cactus, [i:FargowiltasSouls/MysticSkull] Asfixia, [i:FargowiltasSouls/FrigidGemstone] Helado, [i:FargowiltasSouls/SqueakyToy] y Culpabilidad
 		    [i:FargowiltasSouls/WyvernFeather] Estabiliza la gravedad en el espacio y bajo el agua, [i:FargowiltasSouls/OrdinaryCarrot] mejora la visión nocturna, [i:FargowiltasSouls/SecurityWallet] reduce el coste de reforge en 50%
 		    [i:FargowiltasSouls/ConcentratedRainbowMatter] Usa automáticamente pociones de vida y [i:FargowiltasSouls/MysticSkull] de maná, y aumenta el rango de recolección de estrellas de maná
 		    [i:FargowiltasSouls/NymphsPerfume] Resucitas con más vida [i:FargowiltasSouls/SandsofTime] y sin jefes vivos, reapareces más rápido
@@ -1167,10 +1167,10 @@ FrigidGemstone: {
 	DisplayName: Agarre gélido
 	Tooltip:
 		'''
-		Inmunidad a Quemadura de Escarcha y Congelado (funciona desde inventario o vanidad)
+		Inmunidad a Quemadura gélida y Helado (funciona desde inventario o vanidad)
 		'Un miembro arrancado compuesto de hielo ancestral'
 		'''
-	VanityTooltip: Inmunidad a Quemadura de Escarcha y Congelado
+	VanityTooltip: Inmunidad a Quemadura gélida y Helado
 }
 
 FusedLens: {
@@ -1724,9 +1724,9 @@ DimensionSoul: {
 		Alcance casi infinito de colocación y minería, velocidad de minería triplicada
 		Efectos de Brillo, Explorador, Cazador y Sentido del Peligro
 		Pintado automático y efecto de actuadores
-		Otorga la habilidad de activar el Modo Constructor
-		Efectos del Cerebro de la Confusión, Velo Estelar, Collar de Enamorados, Capa de Abeja, Saco de Esporas y Piedra Brillante
-		Efectos del Escudo del Paladín, Caparazón de Tortuga Helada, Equipo de Buceo Ártico, Patas de Rana y Alfombra Voladora
+		Otorga la habilidad de activar el Modo constructor
+		Efectos del Cerebro de la Confusión, Velo Estelar, Collar del cariño, Capa de Abeja, Saco de Esporas y Piedra Brillante
+		Efectos del Escudo del Paladín, Caparazón de Tortuga Helada, Equipo de Buceo Ártico, Patas de Rana y Alfombra voladora
 		Efectos de Zancos de Lava, Bolsa de pesca, Pulverizador de pintura, Colocador de actuadores y Globo gravitacional
 		Efectos del Escudo de Cthulhu y Equipo Ninja Supremo
 		'Las dimensiones de Terraria al alcance de tu mano'
@@ -1737,37 +1737,16 @@ EternitySoul: {
 	DisplayName: Alma de la Eternidad
 	Tooltip:
 		'''
-		'Mortal o inmortal, todas las cosas reconocen tu reclamo a la divinidad'
-		Aumenta drásticamente la regeneración de vida, eleva tu maná máximo a 999, +30 súbditos, +20 torretas, +500% de vida máxima, y +50% de reducción de daño
-		+250% de daño y velocidad de ataque; +100% de velocidad de disparo y retroceso; +50 de penetración de armadura; Los críticos hacen 10x daño y tienes 50% de probabilidad crítica
-		Cada crítico aumenta la probabilidad crítica en 10% (hasta 100%), y cada ataque gana 10% de robo de vida, +10% de daño y +10 defensa; se acumula hasta 200,000 veces hasta que seas golpeado
-		Todos los ataques infligen Llamas del Cosmos, Sadismo, Midas, y reducen la inmunidad al retroceso de los enemigos
-		Invoca estalactitas, un cristal de hojas, espada y escudo sagrados, escarabajos, varias mascotas, bolas de fuego de oricalco y todos los jefes del Modo Masoquista a tu lado
-		Tus ataques pueden generar rayos, pétalos, orbes espectrales, un guardián de mazmorra, bolas de nieve, lanzas o potenciadores
-		Provocan regeneración acelerada, Sombra de evasión, explosiones de fuego y lluvias de meteoros
-		Los proyectiles pueden dividirse o fragmentarse, aumentan de tamaño, generan ataques adicionales y corazones
-		Dejas un rastro de fuego y arcoíris; los enemigos cercanos se incineran y tus súbditos escupen guadañas ocasionalmente
-		Los animales tienen mayor defensa y sus almas te ayudan; los enemigos explotan en agujas; mejora significativamente todas las torretas DD2
-		Toca dos veces ABAJO para invocar una torreta, activar sigilo, abrir un portal, invocar una tormenta antigua y controlar a tu guardián
-		Clic derecho para defenderte; Presiona la Llave Dorada para encerrarte en oro; Presiona la Llave Helada para congelar el tiempo durante 5 segundos
-		El escudo solar permite embestir, al embestir bloques sólidos te teletransportas; lanza una bomba de humo para teletransportarte a ella y obtener el buff de primer golpe
-		Al ser golpeado, reflejas daño, explotas con esporas, causas sangrado extremo, chillidos, y erupciones de efectos
-		Otorga regeneración carmesí, inmunidad al fuego, lava y daño por caída, duplica la cosecha de hierbas
-		50% de invocar abejas gigantes, 15% de críticos de súbditos, 20% de botín extra
-		Inmunidad a la mayoría de estados alterados; vuelo infinito y velocidad supersónica; mejora la pesca y da +10 señuelos a todas las cañas
-		Reapareces 10x más rápido; evita invocación de jefes; aumenta generación de enemigos; reduce hostilidad de esqueletos fuera de la mazmorra y mejora a Cute Fishron
-		Otorga ataque continuo, protección contra modificadores, control de gravedad, caída rápida, inmunidad al retroceso, inmunidad a todos los estados del Modo Masoquista, mejora ganchos y más
-		+50% de velocidad al colocar bloques/muros, alcance casi infinito de colocación/minado, velocidad de minado duplicada
-		Invoca un anillo de la muerte impenetrable; reflejas proyectiles; al morir, explotas y revives con vida completa
-		Efectos del Guantelete de fuego, Bolsa yoyó, Mira de francotirador, Esposas celestiales, Flor de maná, Cerebro de confusión, Velo estelar, Collar del cariño y Capa de abejas
-		Efectos del Saco de esporas, Escudo de paladín, Caparazón de tortuga helado, Equipo ártico, Anca de rana, Alfombra voladora, Botas de lava y Bolsa de aparejos
-		Efectos del Spray de pintura, Pulsificador, Teléfono, Globo gravitacional, Botas florales, Equipo ninja, Anillo codicioso, Caparazón celestial y Piedra brillante
-		Efectos de las pociones de Brillo, Espeleólogo, Cazador y Sentido del peligro; Efectos del Modo Constructor, Reliquia del Infinito y recogida aumentada
+		La probabilidad de golpe crítico está establecida en 50%
+		+10% de crítico
+		Al 100%, cada ataque obtiene un 10% de robo de vida
+		También obtienes +5% de daño y +5 de defensa
+		Esto se acumula hasta 950 veces hasta que te golpeen
 		'''
 
 	Extra: {
 		Additional: También otorga:
-		// Additional effects are automatically pulled from material tooltips
+		// Additional Los efectos se obtienen automáticamente de las descripciones emergentes de los materiales.
 		// Tooltips which start the with the text in filter won't be included in the SoE tooltip, filters are seperated with "|"
 		StartsWithFilter: "'"
 		// Tooltips which contain the text in filter won't be included in the SoE tooltip, filters are seperated with "|"
@@ -1803,7 +1782,7 @@ MasochistSoul: {
 		[i:FargowiltasSouls/SqueakyToy] 5% de chance de recibir solo 1 de daño, [i:FargowiltasSouls/NecromanticBrew] reflejas daño al embestir
 		Tus ataques [i:FargowiltasSouls/NymphsPerfume] generan corazones y aplican perjuicios del Modo Eternidad
 		[c/BC5252:Convierte efectos de súbditos de accesorios y ranuras vacías en +1% de daño cada uno (puede alternarse)]
-		Invoca [i:FargowiltasSouls/NecromanticBrew] brazos de Esqueletrón, [i:FargowiltasSouls/GuttedHeart] creepers, [i:FargowiltasSouls/ConcentratedRainbowMatter] slime arcoíris, [i:FargowiltasSouls/GroundStick] 2 sondas, [i:FargowiltasSouls/SkullCharm] un ojo, [i:FargowiltasSouls/SaucerControlConsole] platillo mini, [i:FargowiltasSouls/MagicalBulb] planta, [i:FargowiltasSouls/CelestialRune] un sectario, [i:FargowiltasSouls/GalacticGlobe] y Ojos Verdaderos de Cthulhu
+		Invoca [i:FargowiltasSouls/NecromanticBrew] brazos de Esqueletrón, [i:FargowiltasSouls/GuttedHeart] creepers, [i:FargowiltasSouls/ConcentratedRainbowMatter] slime arcoíris, [i:FargowiltasSouls/GroundStick] 2 sondas, [i:FargowiltasSouls/SkullCharm] un ojo, [i:FargowiltasSouls/SaucerControlConsole] platillo mini, [i:FargowiltasSouls/MagicalBulb] planta, [i:FargowiltasSouls/CelestialRune] un sectario, [i:FargowiltasSouls/GalacticGlobe] y Ojos verdaderos de Cthulhu
 		[i:FargowiltasSouls/SandsofTime] Úsala para ir a tu último punto de muerte
 		'Acepta la maestría, acepta la eternidad'
 		'''
@@ -1833,8 +1812,8 @@ SupersonicSoul: {
 		Puedes nadar y respirar mucho más tiempo bajo el agua
 		Puedes caminar sobre agua y lava
 		Inmunidad al daño de lava y de caída
-		Efectos de Alfombra Voladora, Escudo de Cthulhu y Equipo Ninja
-		Efectos de Collar del Cariño y Globo de Ámbar con Herradura
+		Efectos de Alfombra voladora, Escudo de Cthulhu y Equipo ninja
+		Efectos de Collar del cariño y Globo de herradura ámbar 
 		'Yo soy la velocidad'
 		'''
 }
@@ -3478,7 +3457,7 @@ RazorContainer: {
 }
 
 NebulaBooster: {
-	DisplayName: Potenciador de Nébula
+	DisplayName: Potenciador de Nébulosa
 	Tooltip: ""
 	Activate: +{0} regeneración de vida
 	Deactivate: -{0} regeneración de vida
