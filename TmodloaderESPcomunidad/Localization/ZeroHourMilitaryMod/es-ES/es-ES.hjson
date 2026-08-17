@@ -1,194 +1,195 @@
-Mods: { 
-	ZeroHourMilitaryMod: { 
-		Buffs: { 
-			CorrosionBuff: { 
-				DisplayName: Corrosión 
-				Description: La vitalidad y la armadura se disuelven bajo los efectos de la corrosión. 
-			} 
- 
-			TotalRotting: { 
+Mods: {
+	ZeroHourMilitaryMod: {
+		Buffs: {
+			CorrosionBuff: {
+				DisplayName: Corrosión
+				Description: La vitalidad y la armadura se disuelven bajo los efectos de la corrosión.
+			}
+
+			TotalRotting: {
 				DisplayName: Putrefacción Total 
-				Description: Decadencia absoluta. 
-			} 
- 
-			Anthrax: { 
-				DisplayName: Ántrax 
-				Description: ¡Estás infectado con ántrax! 
-			} 
- 
-			AnthraxBeta: { 
-				DisplayName: Ántrax Beta 
-				Description: ¡Estás infectado con ántrax beta! 
-			} 
- 
-			AnthraxGamma: { 
-				DisplayName: Ántrax Gamma 
-				Description: ¡Estás infectado con ántrax gamma! 
-			} 
- 
-			Mycoplagueosis: { 
-				DisplayName: Micoplagueosis 
-				Description: EeOneGuy o lo que sea. 
-			} 
- 
-			BlackoutCooldownBuff: { 
-				DisplayName: Enfriamiento de Apagón 
-				Description: La recuperación del fósforo mediante nanomáquinas llevará algún tiempo. 
-			} 
- 
-			TarkhunBuff: { 
-				DisplayName: Líquido Estragón 
-				Description: 
-					''' 
-					Neutralización completa de todas las cepas de ántrax. 
-					El estómago está protegido por una frescura nuclear. 
-					''' 
-			} 
-		} 
- 
-		Items: { 
-			PlagueOperatorHelmet: { 
-				DisplayName: Casco Táctico del Operador de la Plaga 
-				Tooltip: 
-					''' 
-					Aumenta el daño a distancia O de invocador en un 10% y la probabilidad de golpe crítico en un [c/2FFF00:8%] 
-					[c/2FFF00:25%] de probabilidad de no consumir munición 
-					Adaptativo: Otorga mejoras de invocador si no estás sosteniendo un arma a distancia. 
+				Description: Decadencia absoluta.
+			}
+
+			Anthrax: {
+				DisplayName: Ántrax
+				Description: ¡Estás infectado con ántrax!
+			}
+
+			AnthraxBeta: {
+				DisplayName: Ántrax Beta
+				Description: ¡Estás infectado con ántrax beta!
+			}
+
+			AnthraxGamma: {
+				DisplayName: Ántrax Gamma
+				Description: ¡Estás infectado con ántrax gamma!
+			}
+
+			Mycoplagueosis: {
+				DisplayName: Micoplagueosis
+				Description: EeOneGuy o lo que sea.
+			}
+
+			BlackoutCooldownBuff: {
+				DisplayName: Enfriamiento de Apagón
+				Description: La recuperación del fósforo mediante nanomáquinas llevará algún tiempo.
+			}
+
+			TarkhunBuff: {
+				DisplayName: Líquido Estragón
+				Description:
+					'''
+					Neutralización completa de todas las cepas de ántrax.
+					El estómago está protegido por una frescura nuclear.
+					'''
+			}
+		}
+
+		Items: {
+			PlagueOperatorHelmet: {
+				DisplayName: Casco Táctico del Operador de la Plaga
+				Tooltip:
+					'''
+					Aumenta el daño a distancia O de invocador en un 10% y la probabilidad de golpe crítico en un [c/2FFF00:8%]
+					[c/2FFF00:25%] de probabilidad de no consumir munición
+					Adaptativo: Otorga mejoras de invocador si no estás sosteniendo un arma a distancia.
 					[c/FF002F:Luces fuera.] 
-					''' 
-				SetBonusRanged: 
-					''' 
-					Protocolo "Operador de la Plaga": Virili proporciona apoyo de fuego (+15% de daño a distancia). 
-					Los enemigos afectados por la Plaga reciben un 10% más de daño.  
+					'''
+				SetBonusRanged:
+					'''
+					Protocolo "Operador de la Plaga": Virili proporciona apoyo de fuego (+15% de daño a distancia).
+					Los enemigos afectados por la Plaga reciben un 10% más de daño. 
+					+5% de tiempo de vuelo.
+					[Pulsa la tecla de bonificación del conjunto para activar Apagón (+49% de daño y +20% de probabilidad de crítico durante 5 s)]
+					Pulsar dos veces izquierda o derecha produce un desplazamiento rápido como el de Virili.
+					'''
+				SetBonusSummoner:
+					'''
+					Protocolo "Operador de la Plaga": Virili activa el protocolo H.I.V.E. (+2 súbditos adicionales, +15% de daño de invocación).
+					Los enemigos afectados por la Plaga reciben un 10% más de daño. 
 					+5% de tiempo de vuelo. 
-					[Pulsa la tecla de bonificación del conjunto para activar Apagón (+49% de daño y +20% de probabilidad de crítico durante 5 s)] 
-					Pulsar dos veces izquierda o derecha produce un desplazamiento rápido como el de Virili. 
-					''' 
-				SetBonusSummoner: 
-					''' 
-					Protocolo "Operador de la Plaga": Virili activa el protocolo H.I.V.E. (+2 súbditos adicionales, +15% de daño de invocación). 
-					Los enemigos afectados por la Plaga reciben un 10% más de daño.  
-					+5% de tiempo de vuelo. 
-					[Pulsa la tecla de bonificación del conjunto para activar Apagón (+49% de daño y +20% de probabilidad de crítico durante 5 s)] 
-					Pulsar dos veces izquierda o derecha produce un desplazamiento rápido como el de Virili. 
-					''' 
-			} 
- 
-			PlagueOperatorChestplate: { 
-				DisplayName: Portaplacas del Operador de la Plaga 
-				Tooltip: 
-					''' 
-					Aumenta el daño a distancia O de invocador en un [c/2FFF00:16%] 
-					Otorga inmunidad a la [c/2FFF00:Plaga] 
-					Adaptativo: Otorga mejoras de invocador si no estás sosteniendo un arma a distancia 
-					''' 
-			} 
- 
-			PlagueOperatorGreaves: { 
-				DisplayName: Grebas NBC del Operador de la Plaga 
-				Tooltip: 
-					''' 
-					Aumenta la velocidad de movimiento en un [c/2FFF00:15%] 
-					Aumenta la probabilidad de golpe crítico a distancia O de invocador en un [c/2FFF00:8%] 
-					Adaptativo: Otorga mejoras de invocador si no estás sosteniendo un arma a distancia 
-					''' 
-			} 
- 
-			# --- MÓDULOS --- 
-			HeavyBleedingModule: { 
+					[Pulsa la tecla de bonificación del conjunto para activar Apagón (+49% de daño y +20% de probabilidad de crítico durante 5 s)]
+					Pulsar dos veces izquierda o derecha produce un desplazamiento rápido como el de Virili.
+					'''
+			}
+
+			PlagueOperatorChestplate: {
+				DisplayName: Portaplacas del Operador de la Plaga
+				Tooltip:
+					'''
+					Aumenta el daño a distancia O de invocador en un [c/2FFF00:16%]
+					Otorga inmunidad a la [c/2FFF00:Plaga]
+					Adaptativo: Otorga mejoras de invocador si no estás sosteniendo un arma a distancia
+					'''
+			}
+
+			PlagueOperatorGreaves: {
+				DisplayName: Grebas NBC del Operador de la Plaga
+				Tooltip:
+					'''
+					Aumenta la velocidad de movimiento en un [c/2FFF00:15%]
+					Aumenta la probabilidad de golpe crítico a distancia O de invocador en un [c/2FFF00:8%]
+					Adaptativo: Otorga mejoras de invocador si no estás sosteniendo un arma a distancia
+					'''
+			}
+
+			# --- MODULES ---
+			HeavyBleedingModule: {
 				DisplayName: Módulo de Sangrado 
-				Tooltip: Modifica los proyectiles para abrir heridas. Necesita una Estación de Accesorios para instalarse. 
-			} 
- 
-			LacerationModule: { 
-				DisplayName: Módulo "Kiyanat" 
-				Tooltip: Proyectiles dentados avanzados que provocan hemorragias profundas. Necesita una Estación de Accesorios para instalarse. 
-			} 
- 
-			WetModule: { 
+				Tooltip: Modifica los proyectiles para abrir heridas. Necesita una Estación de Accesorios para instalarse.
+			}
+
+			LacerationModule: {
+				DisplayName: Módulo "Kiyanat"
+				Tooltip: Proyectiles dentados avanzados que provocan hemorragias profundas. Necesita una Estación de Accesorios para instalarse.
+			}
+
+			WetModule: {
 				DisplayName: Módulo de Empapamiento 
-				Tooltip: Empapa a los objetivos con agua al impactar. Ideal para provocar cortocircuitos. Necesita una Estación de Accesorios para instalarse. 
-			} 
- 
-			PlagueModule: { 
+				Tooltip: Empapa a los objetivos con agua al impactar. Ideal para provocar cortocircuitos. Necesita una Estación de Accesorios para instalarse.
+			}
+
+			PlagueModule: {
 				DisplayName: Módulo de Plaga 
-				Tooltip: Infunde las balas con el nanovirus de la Plaga. Necesita una Estación de Accesorios para instalarse. 
-			} 
- 
-			RadioactiveModule: { 
-				DisplayName: Módulo "Kurchatov" 
-				Tooltip: Munición con núcleo de uranio que irradia a los objetivos. Combina perfectamente con la Plaga. Necesita una Estación de Accesorios para instalarse. 
-			} 
- 
-			ElectrifiedModule: { 
-				DisplayName: Módulo "Defib" 
-				Tooltip: Canaliza cargas eléctricas de alto voltaje a través de las balas. Necesita una Estación de Accesorios para instalarse. 
-			} 
- 
-			AbsorberAfflictionModule: { 
-				DisplayName: Módulo de Agotamiento 
-				Tooltip: Descompone la vitalidad del enemigo al impactar. Necesita una Estación de Accesorios para instalarse. 
-			} 
- 
-			ArmorCrunchModule: { 
-				DisplayName: Módulo "Topot" 
-				Tooltip: Balas pesadas perforadoras de armadura; reducen la producción de daño del enemigo a 0.85x mientras suprimen la armadura del jugador víctima. Necesita una Estación de Accesorios para instalarse. 
-			} 
- 
-			ConfusedModule: { 
-				DisplayName: Módulo de Confusión 
-				Tooltip: Munición infundida con nanomáquinas que desorienta a los objetivos. Necesita una Estación de Accesorios para instalarse. 
-			} 
- 
-			CursedInfernoModule: { 
-				DisplayName: Módulo de Infierno Maldito 
-				Tooltip: Incendia a los objetivos con llamas corruptas. Necesita una Estación de Accesorios para instalarse. 
-			} 
- 
-			# --- ARMAS --- 
-			CorruptedExterminator: { 
-				DisplayName: Exterminador de la Corrupción 
-				Tooltip: Espera, ¿esto se puede fabricar? 
-			} 
- 
-			Dragoneer: { 
-				DisplayName: Dragoneer 
-				Tooltip: Un arma para auténticos cazadores de dragones. 
-			} 
- 
-			LiquidatorX1: { 
-				DisplayName: Liquidator X1 
-				Tooltip: Un rifle de asalto ágil basado en el HK416. 
-			} 
- 
-			LiquidatorZ1: { 
-				DisplayName: Liquidator Z1 
-				Tooltip: EN DESARROLLO 
-			} 
- 
-			NuclearRifle: { 
-				DisplayName: Rifle Nuclear 
-				Tooltip: EN DESARROLLO 
-			} 
- 
-			PoisonousDigitalSunrise: { 
-				DisplayName: Amanecer Digital Tóxico 
-				Tooltip: Dispara un láser verde de [c/00ff00:Ántrax] concentrado. 
-			} 
- 
-			PresentOfIrradiatedSeas: { 
-				DisplayName: Regalo de los Mares Irradiados 
-				Tooltip: 
-					''' 
-					Los propios mares te recompensaron. ¡Véngalos! 
-					Dispara balas de uranio mientras emite periódicamente disparos gamma. 
-					''' 
-			} 
- 
-			ProjectRedButton: { 
-				DisplayName: Proyecto "Botón Rojo" 
-				Tooltip: EN DESARROLLO 
-			} 
+				Tooltip: Infunde las balas con el nanovirus de la Plaga. Necesita una Estación de Accesorios para instalarse.
+			}
+
+			RadioactiveModule: {
+				DisplayName: Módulo "Kurchatov"
+				Tooltip: Munición con núcleo de uranio que irradia a los objetivos. Combina perfectamente con la Plaga. Necesita una Estación de Accesorios para instalarse.
+			}
+
+			ElectrifiedModule: {
+				DisplayName: Módulo "Defib"
+				Tooltip: Canaliza cargas eléctricas de alto voltaje a través de las balas. Necesita una Estación de Accesorios para instalarse.
+			}
+
+			AbsorberAfflictionModule: {
+				DisplayName: Módulo de Agotamiento
+				Tooltip: Descompone la vitalidad del enemigo al impactar. Necesita una Estación de Accesorios para instalarse.
+			}
+
+			ArmorCrunchModule: {
+				DisplayName: Módulo "Topot"
+				Tooltip: Balas pesadas perforadoras de armadura; reducen la producción de daño del enemigo a 0.85x mientras suprimen la armadura del jugador víctima. Necesita una Estación de Accesorios para instalarse.
+			}
+
+			ConfusedModule: {
+				DisplayName: Módulo de Confusión
+				Tooltip: Munición infundida con nanomáquinas que desorienta a los objetivos. Necesita una Estación de Accesorios para instalarse.
+			}
+
+			CursedInfernoModule: {
+				DisplayName: Módulo de Infierno Maldito
+				Tooltip: Incendia a los objetivos con llamas corruptas. Necesita una Estación de Accesorios para instalarse.
+			}
+
+			# --- WEAPONS ---
+			CorruptedExterminator: {
+				DisplayName: Exterminador de la Corrupción
+				Tooltip: Espera, ¿esto se puede fabricar?
+			}
+
+			Dragoneer: {
+				DisplayName: Dragoneer
+				Tooltip: Un arma para auténticos cazadores de dragones.
+			}
+
+			LiquidatorX1: {
+				DisplayName: Liquidator X1
+				Tooltip: Un rifle de asalto ágil basado en el HK416.
+			}
+
+			LiquidatorZ1: {
+				DisplayName: Liquidator Z1
+				Tooltip: EN DESARROLLO
+			}
+
+			NuclearRifle: {
+				DisplayName: Rifle Nuclear
+				Tooltip: EN DESARROLLO
+			}
+
+			PoisonousDigitalSunrise: {
+				DisplayName: Amanecer Digital Tóxico
+				Tooltip: Dispara un láser verde de [c/00ff00:Ántrax] concentrado.
+			}
+
+			PresentOfIrradiatedSeas: {
+				DisplayName: Regalo de los Mares Irradiados
+				Tooltip:
+					'''
+					Los propios mares te recompensaron. ¡Véngalos!
+					Dispara balas de uranio mientras emite periódicamente disparos gamma.
+					'''
+			}
+
+			ProjectRedButton: {
+				DisplayName: Proyecto "Botón Roj0"
+				Tooltip: EN DESARROLLO
+			}
+
 			AK74SU: {
 				DisplayName: AKS-74U
 				Tooltip: La Isla Vozrozhdeniya no será olvidada.
@@ -280,7 +281,7 @@ Mods: {
 			}
 
 			AMassageOfHelp: {
-				DisplayName: Un Grito de Auxilio
+				DisplayName: Un Grito De Auxilio
 				Tooltip: Aquí no hay nada excepto caricaturas contra el dragonófilo y un ingeniero cuyo nombre empieza con D.
 			}
 
@@ -347,7 +348,7 @@ Mods: {
 			KhantarisRound.DisplayName: Bala de Khantaris
 			Radibullet.DisplayName: Radibala
 			RailgunProj.DisplayName: Proyectil de Railgun
-			ToxoBulletProj.DisplayName: Proyectil de Bala Tóxica
+			ToxoBulletProj.DisplayName: Proyectil de Bala tóxica
 			XT017ScorpionMine.DisplayName: Mina Escorpión XT-017
 			DigitalSunriseLaser.DisplayName: Láser Amanecer Digital
 			VerdictLaser.DisplayName: Láser Veredicto
