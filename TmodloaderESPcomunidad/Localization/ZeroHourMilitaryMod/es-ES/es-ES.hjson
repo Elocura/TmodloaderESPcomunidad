@@ -1,367 +1,366 @@
-Mods: {
-	ZeroHourMilitaryMod: {
-		Buffs: {
-			CorrosionBuff: {
-				DisplayName: Corrosion
-				Description: Vitality and armor dissolve under the effects of corrosion.
-			}
-
-			TotalRotting: {
-				DisplayName: Total Rotting
-				Description: Absolute decay.
-			}
-
-			Anthrax: {
-				DisplayName: Anthrax
-				Description: You are infected with anthrax!
-			}
-
-			AnthraxBeta: {
-				DisplayName: Anthrax Beta
-				Description: You are infected with anthrax beta!
-			}
-
-			AnthraxGamma: {
-				DisplayName: Anthrax Gamma
-				Description: You are infected with anthrax gamma!
-			}
-
-			Mycoplagueosis: {
-				DisplayName: Mycoplagueosis
-				Description: EeOneGuy or whatever.
-			}
-
-			BlackoutCooldownBuff: {
-				DisplayName: Blackout Cooldown
-				Description: Phosphorus recovery by nanites will take some time.
-			}
-
-			TarkhunBuff: {
-				DisplayName: Estragon Liquid
-				Description:
-					'''
-					Complete neutralization of all anthrax strains.
-					The stomach is protected by nuclear freshness.
-					'''
-			}
-		}
-
-		Items: {
-			PlagueOperatorHelmet: {
-				DisplayName: Plague Operator Tactihelmet
-				Tooltip:
-					'''
-					Increases ranged OR summoner damage by 10% and critical strike chance by [c/2FFF00:8%]
-					[c/2FFF00:25%] chance to not consume ammo
-					Adaptive: Grants summoner buffs if not holding a ranged weapon.
-					[c/FF002F:Lights out.]
-					'''
-				SetBonusRanged:
-					'''
-					"Plague Operator" Protocol: Virili provides fire support (+15% ranged damage).
-					Enemies afflicted by Plague take 10% more damage. 
-					+5% flight time.
-					[Press the set bonus key to activate Blackout (+49% damage and +20% crit chance for 5 sec)]
-					Double-pressing left or right results in a dash like Virili.
-					'''
-				SetBonusSummoner:
-					'''
-					"Plague Operator" Protocol: Virili activates H.I.V.E. protocol (+2 extra minions, +15% summon damage).
-					Enemies afflicted by Plague take 10% more damage. 
-					+5% flight time.
-					[Press the set bonus key to activate Blackout (+49% damage and +20% crit chance for 5 sec)]
-					Double-pressing left or right results in a dash like Virili.
-					'''
-			}
-
-			PlagueOperatorChestplate: {
-				DisplayName: Plague Operator Plate Carrier
-				Tooltip:
-					'''
-					Increases ranged OR summoner damage by [c/2FFF00:16%]
-					Grants immunity to [c/2FFF00:Plague]
-					Adaptive: Grants summoner buffs if not holding a ranged weapon
-					'''
-			}
-
-			PlagueOperatorGreaves: {
-				DisplayName: Plague Operator NBC-Greaves
-				Tooltip:
-					'''
-					Increases movement speed by [c/2FFF00:15%]
-					Increases ranged OR summoner critical strike chance by [c/2FFF00:8%]
-					Adaptive: Grants summoner buffs if not holding a ranged weapon
-					'''
-			}
-
-			# --- MODULES ---
-			HeavyBleedingModule: {
-				DisplayName: Bleeding Module
-				Tooltip: Modifies projectiles to tear open wounds. Needs Attachment Station to plug.
-			}
-
-			LacerationModule: {
-				DisplayName: Module "Kiyanat"
-				Tooltip: Advanced jagged projectiles causing deep hemorrhaging. Needs Attachment Station to plug.
-			}
-
-			WetModule: {
-				DisplayName: Drenching Module
-				Tooltip: Drenches targets in water on hit. Ideal for causing short circuits. Needs Attachment Station to plug.
-			}
-
-			PlagueModule: {
-				DisplayName: Plague Module
-				Tooltip: Infuses bullets with the Plague nano-virus. Needs Attachment Station to plug.
-			}
-
-			RadioactiveModule: {
-				DisplayName: Module "Kurchatov"
-				Tooltip: Uranium-core rounds that irradiate targets. Pairs excellently with plague. Needs Attachment Station to plug.
-			}
-
-			ElectrifiedModule: {
-				DisplayName: Module "Defib"
-				Tooltip: Channels high-voltage electrical charges through bullets. Needs Attachment Station to plug.
-			}
-
-			AbsorberAfflictionModule: {
-				DisplayName: Depletion Module
-				Tooltip: Breaks down enemy vitality on hit. Needs Attachment Station to plug.
-			}
-
-			ArmorCrunchModule: {
-				DisplayName: Module "Topot"
-				Tooltip: Heavy armor-piercing bullets; reduces enemy damage output by 0.85x while suppressing victim player armor. Needs Attachment Station to plug.
-			}
-
-			ConfusedModule: {
-				DisplayName: Confusion Module
-				Tooltip: Nanite-infused ammo that disorients targets. Needs Attachment Station to plug.
-			}
-
-			CursedInfernoModule: {
-				DisplayName: Cursed Inferno Module
-				Tooltip: Ignites targets with corrupt flame. Needs Attachment Station to plug.
-			}
-
-			# --- WEAPONS ---
-			CorruptedExterminator: {
-				DisplayName: Corruption Exterminator
-				Tooltip: Wait, this can be crafted?
-			}
-
-			Dragoneer: {
-				DisplayName: Dragoneer
-				Tooltip: A weapon for true dragonslayers.
-			}
-
-			LiquidatorX1: {
-				DisplayName: Liquidator X1
-				Tooltip: A snappy assault rifle based on the HK416.
-			}
-
-			LiquidatorZ1: {
-				DisplayName: Liquidator Z1
-				Tooltip: WIP
-			}
-
-			NuclearRifle: {
-				DisplayName: Nuclear Rifle
-				Tooltip: WIP
-			}
-
-			PoisonousDigitalSunrise: {
-				DisplayName: Toxic Digital Sunrise
-				Tooltip: It fires a green laser of concentrated [c/00ff00:Anthrax].
-			}
-
-			PresentOfIrradiatedSeas: {
-				DisplayName: Gift of Irradiated Seas
-				Tooltip:
-					'''
-					The seas themselves rewarded you. Avenge them!
-					Shoots with uranium bullets while periodically emitting gamma-shot.
-					'''
-			}
-
-			ProjectRedButton: {
-				DisplayName: Project "Red Button"
-				Tooltip: WIP
-			}
-
+Mods: { 
+	ZeroHourMilitaryMod: { 
+		Buffs: { 
+			CorrosionBuff: { 
+				DisplayName: Corrosión 
+				Description: La vitalidad y la armadura se disuelven bajo los efectos de la corrosión. 
+			} 
+ 
+			TotalRotting: { 
+				DisplayName: Putrefacción Total 
+				Description: Decadencia absoluta. 
+			} 
+ 
+			Anthrax: { 
+				DisplayName: Ántrax 
+				Description: ¡Estás infectado con ántrax! 
+			} 
+ 
+			AnthraxBeta: { 
+				DisplayName: Ántrax Beta 
+				Description: ¡Estás infectado con ántrax beta! 
+			} 
+ 
+			AnthraxGamma: { 
+				DisplayName: Ántrax Gamma 
+				Description: ¡Estás infectado con ántrax gamma! 
+			} 
+ 
+			Mycoplagueosis: { 
+				DisplayName: Micoplagueosis 
+				Description: EeOneGuy o lo que sea. 
+			} 
+ 
+			BlackoutCooldownBuff: { 
+				DisplayName: Enfriamiento de Apagón 
+				Description: La recuperación del fósforo mediante nanomáquinas llevará algún tiempo. 
+			} 
+ 
+			TarkhunBuff: { 
+				DisplayName: Líquido Estragón 
+				Description: 
+					''' 
+					Neutralización completa de todas las cepas de ántrax. 
+					El estómago está protegido por una frescura nuclear. 
+					''' 
+			} 
+		} 
+ 
+		Items: { 
+			PlagueOperatorHelmet: { 
+				DisplayName: Casco Táctico del Operador de la Plaga 
+				Tooltip: 
+					''' 
+					Aumenta el daño a distancia O de invocador en un 10% y la probabilidad de golpe crítico en un [c/2FFF00:8%] 
+					[c/2FFF00:25%] de probabilidad de no consumir munición 
+					Adaptativo: Otorga mejoras de invocador si no estás sosteniendo un arma a distancia. 
+					[c/FF002F:Luces fuera.] 
+					''' 
+				SetBonusRanged: 
+					''' 
+					Protocolo "Operador de la Plaga": Virili proporciona apoyo de fuego (+15% de daño a distancia). 
+					Los enemigos afectados por la Plaga reciben un 10% más de daño.  
+					+5% de tiempo de vuelo. 
+					[Pulsa la tecla de bonificación del conjunto para activar Apagón (+49% de daño y +20% de probabilidad de crítico durante 5 s)] 
+					Pulsar dos veces izquierda o derecha produce un desplazamiento rápido como el de Virili. 
+					''' 
+				SetBonusSummoner: 
+					''' 
+					Protocolo "Operador de la Plaga": Virili activa el protocolo H.I.V.E. (+2 súbditos adicionales, +15% de daño de invocación). 
+					Los enemigos afectados por la Plaga reciben un 10% más de daño.  
+					+5% de tiempo de vuelo. 
+					[Pulsa la tecla de bonificación del conjunto para activar Apagón (+49% de daño y +20% de probabilidad de crítico durante 5 s)] 
+					Pulsar dos veces izquierda o derecha produce un desplazamiento rápido como el de Virili. 
+					''' 
+			} 
+ 
+			PlagueOperatorChestplate: { 
+				DisplayName: Portaplacas del Operador de la Plaga 
+				Tooltip: 
+					''' 
+					Aumenta el daño a distancia O de invocador en un [c/2FFF00:16%] 
+					Otorga inmunidad a la [c/2FFF00:Plaga] 
+					Adaptativo: Otorga mejoras de invocador si no estás sosteniendo un arma a distancia 
+					''' 
+			} 
+ 
+			PlagueOperatorGreaves: { 
+				DisplayName: Grebas NBC del Operador de la Plaga 
+				Tooltip: 
+					''' 
+					Aumenta la velocidad de movimiento en un [c/2FFF00:15%] 
+					Aumenta la probabilidad de golpe crítico a distancia O de invocador en un [c/2FFF00:8%] 
+					Adaptativo: Otorga mejoras de invocador si no estás sosteniendo un arma a distancia 
+					''' 
+			} 
+ 
+			# --- MÓDULOS --- 
+			HeavyBleedingModule: { 
+				DisplayName: Módulo de Sangrado 
+				Tooltip: Modifica los proyectiles para abrir heridas. Necesita una Estación de Accesorios para instalarse. 
+			} 
+ 
+			LacerationModule: { 
+				DisplayName: Módulo "Kiyanat" 
+				Tooltip: Proyectiles dentados avanzados que provocan hemorragias profundas. Necesita una Estación de Accesorios para instalarse. 
+			} 
+ 
+			WetModule: { 
+				DisplayName: Módulo de Empapamiento 
+				Tooltip: Empapa a los objetivos con agua al impactar. Ideal para provocar cortocircuitos. Necesita una Estación de Accesorios para instalarse. 
+			} 
+ 
+			PlagueModule: { 
+				DisplayName: Módulo de Plaga 
+				Tooltip: Infunde las balas con el nanovirus de la Plaga. Necesita una Estación de Accesorios para instalarse. 
+			} 
+ 
+			RadioactiveModule: { 
+				DisplayName: Módulo "Kurchatov" 
+				Tooltip: Munición con núcleo de uranio que irradia a los objetivos. Combina perfectamente con la Plaga. Necesita una Estación de Accesorios para instalarse. 
+			} 
+ 
+			ElectrifiedModule: { 
+				DisplayName: Módulo "Defib" 
+				Tooltip: Canaliza cargas eléctricas de alto voltaje a través de las balas. Necesita una Estación de Accesorios para instalarse. 
+			} 
+ 
+			AbsorberAfflictionModule: { 
+				DisplayName: Módulo de Agotamiento 
+				Tooltip: Descompone la vitalidad del enemigo al impactar. Necesita una Estación de Accesorios para instalarse. 
+			} 
+ 
+			ArmorCrunchModule: { 
+				DisplayName: Módulo "Topot" 
+				Tooltip: Balas pesadas perforadoras de armadura; reducen la producción de daño del enemigo a 0.85x mientras suprimen la armadura del jugador víctima. Necesita una Estación de Accesorios para instalarse. 
+			} 
+ 
+			ConfusedModule: { 
+				DisplayName: Módulo de Confusión 
+				Tooltip: Munición infundida con nanomáquinas que desorienta a los objetivos. Necesita una Estación de Accesorios para instalarse. 
+			} 
+ 
+			CursedInfernoModule: { 
+				DisplayName: Módulo de Infierno Maldito 
+				Tooltip: Incendia a los objetivos con llamas corruptas. Necesita una Estación de Accesorios para instalarse. 
+			} 
+ 
+			# --- ARMAS --- 
+			CorruptedExterminator: { 
+				DisplayName: Exterminador de la Corrupción 
+				Tooltip: Espera, ¿esto se puede fabricar? 
+			} 
+ 
+			Dragoneer: { 
+				DisplayName: Dragoneer 
+				Tooltip: Un arma para auténticos cazadores de dragones. 
+			} 
+ 
+			LiquidatorX1: { 
+				DisplayName: Liquidator X1 
+				Tooltip: Un rifle de asalto ágil basado en el HK416. 
+			} 
+ 
+			LiquidatorZ1: { 
+				DisplayName: Liquidator Z1 
+				Tooltip: EN DESARROLLO 
+			} 
+ 
+			NuclearRifle: { 
+				DisplayName: Rifle Nuclear 
+				Tooltip: EN DESARROLLO 
+			} 
+ 
+			PoisonousDigitalSunrise: { 
+				DisplayName: Amanecer Digital Tóxico 
+				Tooltip: Dispara un láser verde de [c/00ff00:Ántrax] concentrado. 
+			} 
+ 
+			PresentOfIrradiatedSeas: { 
+				DisplayName: Regalo de los Mares Irradiados 
+				Tooltip: 
+					''' 
+					Los propios mares te recompensaron. ¡Véngalos! 
+					Dispara balas de uranio mientras emite periódicamente disparos gamma. 
+					''' 
+			} 
+ 
+			ProjectRedButton: { 
+				DisplayName: Proyecto "Botón Rojo" 
+				Tooltip: EN DESARROLLO 
+			} 
 			AK74SU: {
 				DisplayName: AKS-74U
-				Tooltip: Vozrozhdeniya Island will not be forgotten.
+				Tooltip: La Isla Vozrozhdeniya no será olvidada.
 			}
 
 			ErlikKhan: {
 				DisplayName: Erlik Khan
-				Tooltip: From somewhere in the east...
+				Tooltip: Desde algún lugar del este...
 			}
 
 			KlyatokatBeta: {
 				DisplayName: Klyatokat Beta
-				Tooltip: Fires a never-ending burst of bubonic bullets whose shrapnel ricochets back at the target for a second hit.
+				Tooltip: Dispara una ráfaga interminable de balas bubónicas cuyos fragmentos rebotan de vuelta hacia el objetivo para un segundo impacto.
 			}
 
 			QBZXT: {
 				DisplayName: QBZ-XT
-				Tooltip: Experimental Chinese prototype. Fires a double shot of [c/0063ff:nanite] bullets.
+				Tooltip: Prototipo chino experimental. Dispara una ráfaga doble de balas de [c/0063ff:nanomáquinas].
 			}
 
 			J1HunterDev: {
-				DisplayName: J1 Hunter (Dev)
-				Tooltip: Developer weapon.
+				DisplayName: J1 Hunter (Desarrollo)
+				Tooltip: Arma de desarrollador.
 			}
 
 			AttachmentStation: {
-				DisplayName: Attachment Station
-				Tooltip: Station for installing modules onto your favorite guns, yo.
+				DisplayName: Estación de Accesorios
+				Tooltip: Estación para instalar módulos en tus armas favoritas, colega.
 			}
 
 			Vertebrator: {
 				DisplayName: Vertebrator
-				Tooltip: An endless barrage of napalm rockets.
+				Tooltip: Un bombardeo interminable de cohetes de napalm.
 			}
 
 			DoubleTaintedPlagueSMGs: {
-				DisplayName: Dual Tainted Plague SMGs
-				Tooltip: One is good — two is better.
+				DisplayName: Subfusiles Dobles de Plaga Contaminada
+				Tooltip: Uno está bien — dos son mejores.
 			}
 
 			XenytiumBar: {
-				DisplayName: Xenytium Bar
-				Tooltip: You won't believe.
+				DisplayName: Lingote de Xenytium
+				Tooltip: No lo vas a creer.
 			}
 
 			PlaguedShroomite: {
-				DisplayName: Plagued Shroomite Bar
-				Tooltip: An unstable material combining the power of nano-plague and shroom mind.
+				DisplayName: Lingote de Shroomite Plagado
+				Tooltip: Un material inestable que combina el poder de la nanoplaga y la mente de las setas.
 			}
 
 			Uranium: {
-				DisplayName: Uranium
-				Tooltip: Pure.
+				DisplayName: Uranio
+				Tooltip: Puro.
 			}
 
 			SintyniumBar: {
-				DisplayName: Sintynium Bar
-				Tooltip: Bulletproof steel. Darkness on the outside, nano-eco-plague system or whatever inside, IDK.
+				DisplayName: Lingote de Sintynium
+				Tooltip: Acero a prueba de balas. Oscuridad por fuera, sistema de nanoeco-plaga o lo que sea por dentro, NO SÉ.
 			}
 
 			RedLazerBlock: {
-				DisplayName: Red Laser Sight
-				Tooltip: Ah, there it is.
+				DisplayName: Mira Láser Roja
+				Tooltip: Ah, ahí está.
 			}
 
 			NekyiniumBar: {
-				DisplayName: Nekyinium Bar
-				Tooltip: A concentrated slice of cake made of souls. Literally cake, it's just as sweet and soft.
+				DisplayName: Lingote de Nekyinium
+				Tooltip: Una porción concentrada de pastel hecha de almas. Literalmente es pastel, igual de dulce y suave.
 			}
 
 			GreenLazerBlock: {
-				DisplayName: Green Laser Sight
-				Tooltip: Why not red?
+				DisplayName: Mira Láser Verde
+				Tooltip: ¿Por qué no roja?
 			}
 
 			EssenceOfIntoxication: {
-				DisplayName: Essence of Intoxication
-				Tooltip: Souls of toxic martyrs. Just don't put it in your mouth!
+				DisplayName: Esencia de Intoxicación
+				Tooltip: Almas de mártires tóxicos. ¡Simplemente no te lo metas en la boca!
 			}
 
 			CarbonPlate: {
-				DisplayName: Carbon Plate
-				Tooltip: May Yharim preserve carbon fiber and polymer.
+				DisplayName: Placa de Carbono
+				Tooltip: Que Yharim preserve la fibra de carbono y el polímero.
 			}
 
 			BullBapParts: {
-				DisplayName: Bullpup Parts
-				Tooltip: Like standard parts, but more ergonomic, probably.
+				DisplayName: Piezas Bullpup
+				Tooltip: Como las piezas estándar, pero probablemente más ergonómicas.
 			}
 
 			AMassageOfHelp: {
-				DisplayName: A Plea for Help
-				Tooltip: Nothing here except caricatures against the dragonphile and an engineer starting with D.
+				DisplayName: Un Grito de Auxilio
+				Tooltip: Aquí no hay nada excepto caricaturas contra el dragonófilo y un ingeniero cuyo nombre empieza con D.
 			}
 
 			IrisBody: {
-				DisplayName: Iris Body
+				DisplayName: Cuerpo de Iris
 				Tooltip: ""
 			}
 
 			HecklerPedant: {
-				DisplayName: Heckler Pedant
-				Tooltip: An SMG pissing toxic bullets like crazy. Right now it's an FPS killer, sorry.
+				DisplayName: Pedante Provocador
+				Tooltip: Un subfusil que escupe balas tóxicas como loco. Ahora mismo es un asesino de FPS, lo siento.
 			}
 
 			ScorpionEvo: {
 				DisplayName: CZ SCORPION EVO III
-				Tooltip: How on earth did you turn a Belgian into a Czech?!
+				Tooltip: ¿¡Cómo demonios convertiste a un belga en un checo?!
 			}
 
 			Verdict: {
-				DisplayName: Verdict
-				Tooltip: A concentrated beam of [c/ff0000:brimstone] energy flying straight into your skull.
+				DisplayName: Veredicto
+				Tooltip: Un rayo concentrado de energía de [c/ff0000:azufre] que vuela directamente hacia tu cráneo.
 			}
 
 			Verdict_XT: {
-				DisplayName: Verdict XT
-				Tooltip: Upgraded version of [c/ff0000:Verdict]. More Damage, Critical Stike Chance and Shooting Speed.
+				DisplayName: Veredicto XT
+				Tooltip: Versión mejorada de [c/ff0000:Veredicto]. Más daño, probabilidad de golpe crítico y velocidad de disparo.
 			}
 
 			Quarantine14: {
-				DisplayName: Mass Quarantine-14
+				DisplayName: Cuarentena Masiva-14
 				Tooltip:
 					'''
-						Epidemics, horrors... wait, [c/0000ff:Mushrooms]? 
-						Shoots with high velocity bullet that inflict [c/0000ff:Mycoplagueosis].
-						[c/0000ff:Mycoplagueosis] can render homing missiles helpless.
+						Epidemias, horrores... espera, ¿[c/0000ff:setas]?
+						Dispara balas de alta velocidad que infligen [c/0000ff:Micoplagueosis].
+						La [c/0000ff:Micoplagueosis] puede dejar indefensos a los misiles teledirigidos.
 					'''
 			}
 
 			SHAK: {
-				DisplayName: Nuclear ShAK
-				Tooltip: A damn large-caliber assault rifle firing doublets. [c/ff0000:Warning!] Overheats rapidly.
+				DisplayName: ShAK Nuclear
+				Tooltip: Un maldito rifle de asalto de gran calibre que dispara pares de proyectiles. [c/ff0000:¡Advertencia!] Se sobrecalienta rápidamente.
 			}
 
 			ScorpionScrap: {
-				DisplayName: Scorpion Scrap
+				DisplayName: Chatarra de Escorpión
 				Tooltip: ""
 			}
 
 			ScorpionTestSummon: {
-				DisplayName: The "Scorpion" Strain
-				Tooltip: "[c/ff0000:Ooh! A red button]."
+				DisplayName: La Cepa "Escorpión"
+				Tooltip: "[c/ff0000:¡Oh! Un botón rojo]."
 			}
 
 			Tarkhun: {
 				DisplayName: Tarkhuna
-				Tooltip: The winner's drink.
+				Tooltip: La bebida del ganador.
 			}
 		}
 
 		Projectiles: {
-			ThrownSHAKProj.DisplayName: Thrown SHAK
-			BetaRound.DisplayName: Beta Round
-			DragoneerRound.DisplayName: Dragoneer Round
-			KhantarisRound.DisplayName: Khantaris Round
-			Radibullet.DisplayName: Radibullet
-			RailgunProj.DisplayName: Railgun Proj
-			ToxoBulletProj.DisplayName: Toxo Bullet Proj
-			XT017ScorpionMine.DisplayName: XT-017 Scorpion Mine
-			DigitalSunriseLaser.DisplayName: Digital Sunrise Laser
-			VerdictLaser.DisplayName: Verdict Laser
+			ThrownSHAKProj.DisplayName: ShAK Lanzada
+			BetaRound.DisplayName: Bala Beta
+			DragoneerRound.DisplayName: Bala de Dragoneer
+			KhantarisRound.DisplayName: Bala de Khantaris
+			Radibullet.DisplayName: Radibala
+			RailgunProj.DisplayName: Proyectil de Railgun
+			ToxoBulletProj.DisplayName: Proyectil de Bala Tóxica
+			XT017ScorpionMine.DisplayName: Mina Escorpión XT-017
+			DigitalSunriseLaser.DisplayName: Láser Amanecer Digital
+			VerdictLaser.DisplayName: Láser Veredicto
 		}
 
-		"Keybinds.Phosphor Blackout.DisplayName": Phosphor  Blackout
-		BossChecklist.XT017Scorpion.DespawnMessage: "[XT-017 «Scorpion»]: Target destroyed. Reporting."
+		"Keybinds.Phosphor Blackout.DisplayName": Apagón de Fósforo
+		BossChecklist.XT017Scorpion.DespawnMessage: "[XT-017 «Escorpión»]: Objetivo destruido. Informando."
 
 		NPCs: {
 			XT017Scorpion: {
-				FireSupportAlert: FIRE SUPPORT REQUIRED.
-				Bestiary: Draedon heavy twin-rotor assault helicopter, based on blueprints from HAZARDICATE INC. It is equipped with heavy armor, mine-laying systems, and a direct data link to "Raptor" support jet-fighters. Straight from the Mainland.
-				DisplayName: XT-017 «Scorpion»
+				FireSupportAlert: SE REQUIERE APOYO DE FUEGO.
+				Bestiary: Helicóptero de asalto pesado de doble rotor Draedon, basado en planos de HAZARDICATE INC. Está equipado con blindaje pesado, sistemas de colocación de minas y un enlace de datos directo con los cazas de apoyo "Raptor". Directamente desde el Continente.
+				DisplayName: XT-017 «Escorpión»
 			}
 		}
 	}
