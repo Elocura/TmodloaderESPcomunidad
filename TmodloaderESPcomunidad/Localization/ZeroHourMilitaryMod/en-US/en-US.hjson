@@ -267,7 +267,11 @@ Mods: {
 
 			EssenceOfIntoxication: {
 				DisplayName: Essence of Intoxication
-				Tooltip: Souls of toxic martyrs. Just don't put it in your mouth!
+				Tooltip:
+					'''
+					Souls of toxic martyrs. Just don't put it in your mouth!
+					[c/00ff00:See? you can tell they are hmm! Just right, when the flesh falls off the bones]
+					'''
 			}
 
 			CarbonPlate: {
@@ -332,12 +336,30 @@ Mods: {
 
 			ScorpionTestSummon: {
 				DisplayName: The "Scorpion" Strain
-				Tooltip: "[c/ff0000:Ooh! A red button]."
+				Tooltip: "[c/ff0000:Ooh! A red button]. Sorry, but this boss is not true-melee friendly for now."
+				SulphurousSeaWarning: "[c/00ff00: The signal is being jammed... XT-017 can only be intercepted near the Sulfur Sea!]"
 			}
 
 			Tarkhun: {
 				DisplayName: Tarkhuna
 				Tooltip: The winner's drink.
+			}
+
+			Grenada: {
+				Tooltip:
+					'''
+					Four-shot grenade launcher with a reloading system. 40x46mm caliber.
+					The grenades do not bounce and detonate upon any contact with a surface.
+					Inflicts the [c/800044:Anthrax Gamma] strain.
+					Right-click to RELOAD.
+					For true sea cucumbers only.
+					'''
+				DisplayName: Grenada
+			}
+
+			PlagueSample: {
+				DisplayName: Plague Sample
+				Tooltip: ""
 			}
 		}
 
@@ -352,6 +374,10 @@ Mods: {
 			XT017ScorpionMine.DisplayName: XT-017 Scorpion Mine
 			DigitalSunriseLaser.DisplayName: Digital Sunrise Laser
 			VerdictLaser.DisplayName: Verdict Laser
+			GrenadaProjectile.DisplayName: Grenada Projectile
+			RotorSmokeProj.DisplayName: Rotor Smoke Proj
+			AirDistortionProj.DisplayName: Air Distortion Proj
+			ScorpionTracer.DisplayName: Scorpion Tracer
 		}
 
 		"Keybinds.Phosphor Blackout.DisplayName": Phosphor  Blackout
