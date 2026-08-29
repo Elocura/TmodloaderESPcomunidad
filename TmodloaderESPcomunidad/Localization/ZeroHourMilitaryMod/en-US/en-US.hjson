@@ -361,6 +361,18 @@ Mods: {
 				DisplayName: Plague Sample
 				Tooltip: ""
 			}
+
+			RayOfDiseases: {
+				DisplayName: Ray Of Diseases
+				Tooltip:
+					'''
+					A tool for intercepting [c/ff1155:Raptor] radio commands.
+					Aim the green beam at the location where you want to call in a strafing run.
+					The strafing run will afflict enemies with the [c/00ff00:Anthrax] and [c/00ff00:Plague] strains.
+					Allows you to designate a specific enemy as the target for other summoned creatures.
+					[c/ff1111:Tired of Sea Scourges? This is your solution!]
+					'''
+			}
 		}
 
 		Projectiles: {
@@ -378,6 +390,9 @@ Mods: {
 			RotorSmokeProj.DisplayName: Rotor Smoke Proj
 			AirDistortionProj.DisplayName: Air Distortion Proj
 			ScorpionTracer.DisplayName: Scorpion Tracer
+			DiseaseAirstrike.DisplayName: Disease Airstrike
+			DiseaseStrafingBullet.DisplayName: Disease Strafing Bullet
+			RayOfDiseasesLaser.DisplayName: Ray Of Diseases Laser
 		}
 
 		"Keybinds.Phosphor Blackout.DisplayName": Phosphor  Blackout
@@ -388,6 +403,20 @@ Mods: {
 				FireSupportAlert: FIRE SUPPORT REQUIRED.
 				Bestiary: Draedon heavy twin-rotor assault helicopter, based on blueprints from HAZARDICATE INC. It is equipped with heavy armor, mine-laying systems, and a direct data link to "Raptor" support jet-fighters. Straight from the Mainland.
 				DisplayName: XT-017 «Scorpion»
+				RaptorQuote1: Let's take this one.
+				RaptorQuote2: He's mine.
+				RaptorQuote3: I see.
+				RaptorQuote4: Under control.
+				RaptorQuote5: Making a pass!
+				RaptorQuote6: Got it.
+				RaptorQuote7: Copy that.
+				RaptorQuote8: Roger that.
+				RaptorQuote9: Raptor here.
+				RaptorQuote10: What do you got?
+				IntroTitle: CONTAGIOUS DREADNOUGHT
+				IntroName: XT-017 SCORPION
+				IntroTrack: FOREVER
+				IntroComposer: ~ Brandon McKagan
 			}
 		}
 	}
