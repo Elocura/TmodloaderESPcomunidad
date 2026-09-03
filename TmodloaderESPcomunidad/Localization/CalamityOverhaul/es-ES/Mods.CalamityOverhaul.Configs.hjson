@@ -1,185 +1,20 @@
 CWRServerConfig: {
 	DisplayName: Configuración de contenido
-
-	WeaponOverhaul: {
-		Label: Revisión de armas
-		Tooltip:
-			'''
-			Al habilitarlo, se modificarán la mayoría de las armas.
-			[c/FF0000:Si quieres disfrutar al máximo de Calamity Overhaul, ¡actívalo!]
-			'''
-	}
-
-	ScreenVibration: {
-		Label: Vibración al usar algunas armas
-		Tooltip: Si se activa, la pantalla vibrará durante algunos ataques,así que golpes se sentirán más intensos
-	}
-
-	MurasamaSpaceFragmentationBool: {
-		Label: Efecto de rotura de pantalla en el remate de la Murasama
-		Tooltip:
-			'''
-			Activado por defecto. Cuando Murasama ejecuta su movimiento final, crea un efecto de rotura de pantalla para realzar el impacto.
-			Si se desactiva, estos efectos se eliminarán.
-			'''
-	}
-
-	HalibutDomainConciseDisplay: {
-		Label: Visualización mínima del domicio oceánico de Halibut
-		Tooltip: Desactivado por defecto. Cuando se activa, la mayoría de los efectos visuales estarán ocultos.
-	}
-
-	Headers: {
-		CWRSystem: Configuración del sistema
-		CWRWeapon: Configuración de las armas
-		CWRUI: Configuración de la inferfaz de usuario
-		CWRWorldGen: Configuraciones generales mundiales
-	}
-
-	LensEasing: {
-		Label: Suavizado de cámara
-		Tooltip: Cuando está activada, el desplazamiento rápido a larga distancia ralentizará la cámara, lo que evita la sensación de moverse demasiado rápido
-	}
-
-	WeaponHandheldDisplay: {
-		Label: Mostrar armas en la mano
-		Tooltip:
-			'''
-			Cuando se activan, la mayoría de las armas cuentan con animaciones al usarlas y acciones de uso especial
-			Este efecto tiene una prioridad muy alta y anulará la mayoría de las animaciones de este estilo de los mods de terceros
-			Está activada por defecto y, por motivos estéticos, los autores no recomiendan desactivarla
-			Si modificas esta configuración durante la partida, será necesario volver a cargar algunos efectos de los archivos del mod antes de que se puedan modificar
-			'''
-	}
-
-	BowArrowDraw: {
-		Label: Tensa el arco y dispara la flecha
-		Tooltip:
-			'''
-			Cuando el jugador utilice la clase de arquero para atacar, se mostrará la animación correspondiente de la flecha en tiempo real
-			Está activada por defecto y se puede configurar según las preferencias personales
-			'''
-	}
-
-	EnableCasingsEntity: {
-		Label: Habilitar casquillos
-		Tooltip: Si te parece que los casquillos que se quedan por ahí son antiestéticos, es recomendable desactivar esta opción
-	}
-
-	WeaponLazyRotationAngle: {
-		Label: Actualización del ángulo de rotación por inercia del arma
-		Tooltip:
-			'''
-			Si se activa, hace que la animación de uso de las armas en mano se parezca más a la del Terrarria vanilla,
-			en el que la orientación cambia solo una vez al disparar.
-			'''
-	}
-
-
-	WeaponHandheldDisplay: {
-		Label: Pantalla portátil para armas
-		Tooltip:
-			'''
-			Cuando está activado, la mayoría de las armas tienen animaciones manuales y acciones de uso especial.
-			Este efecto tiene una prioridad muy alta y anulará la mayoría de las animaciones manuales de mods de terceros.
-			Está activado por defecto y, por razones visuales, los autores no recomiendan desactivarlo.
-			Si cambias esta configuración durante el juego, algunos efectos necesitarán recargar el mod para actualizarse
-			'''
-	}
-
-
-	BowArrowDraw: {
-		Label: Tensar la cuerda del arco
-		Tooltip:
-			'''
-			Cuando el jugador utiliza un arco para atacar, la animación correspondiente de la flecha se dibujará en tiempo real.
-			Está habilitada por defecto y se puede configurar según tus preferencias
-			'''
-	}
-
-	EnableCasingsEntity: {
-		Label: Habilitar casquillos
-		Tooltip: Si te molesta ver los casquillos rodando por ahí, es buena idea desactivar esta opción.
-	}
-
-	WeaponLazyRotationAngle: {
-		Label: Actualización del ángulo de rotación de la inercia del arma
-		Tooltip:
-			'''
-			Si está habilitado, hace que la animación de uso de las armas que sostienes se parezca más a vanilla,
-			en el que la orientación de esta cambia solo una vez al disparar.
-			'''
-	}
-
-	BiologyOverhaul: {
-		Label: Revisión de biología [c/06e33f:(Experimental)]
-		Tooltip:
-			'''
-			[c/c20909:Sin terminar]
-			Habilitado por defecto, esto modificará el comportamiento de la IA de ciertas criaturas, como la IA de los jefes en el modo Muerte.
-			Esto podría aumentar significativamente la dificultad del juego, por lo que puedes optar por desactivarlo según tus preferencias personales.
-			'''
-	}
-
-	EnableSwordLight: {
-		Label: Habilitar luz de las espadas
-		Tooltip:
-			'''
-			Activado por defecto, muchas armas blancas tendrán un deslumbrante y brillante destello.
-			En la gran mayoría de los casos, esto hace que el juego sea más atractivo.
-			'''
-	}
-
-	MuraUIStyleType: {
-		Label: Estilo de la interfaz de la Murasama
-		Tooltip:
-			'''
-			Estilo 1: Refinado - Flotando sobre la cabeza
-			Estilo 2: Refinado - Compacto
-			Estilo 3: Clásico - Flotando sobre la cabeza
-			Estilo 4: Clásico - Compacto
-			Estilo 5: Ocultar
-			'''
-	}
-
-	MuraPosStyleType: {
-		Label: Posición de la interfaz de la Murasama
-		Tooltip:
-			'''
-			Preajuste 1: Abajo a la derecha
-			Preajuste 2: Abajo a la izquierda
-			Preajuste 3: Centro superior
-			'''
-	}
-
-	QuestLog: {
-		Label: Guía del registro de misiones
-		Tooltip:
-			'''
-			Cuando está habilitado, el registro de misiones te guiará a través del progreso del juego.
-			Puedes acceder a la interfaz de misiones a través del objeto Libro de misiones, la interfaz del inventario o una tecla de acceso rápido para ver las misiones actuales.
-			Habilitado por defecto. Al deshabilitarlo, se eliminan todas las guías de misiones.
-			'''
-	}
-
-	DialogueBox_Scale_Value: {
-		Label: Escala de los cuadros de diálogos
-		Tooltip: Ajusta el tamaño general de los cuadros de diálogos.
-	}
+	Headers.CWRWorldGen: Configuraciones de generación del mundo
 
 	GenWindGrivenGenerator: {
 		Label: Generar generador eólico
-		Tooltip: Coloca estructuras de generadores eólicos en todo el mundo.
+		Tooltip: Coloca Generadores eólicos por todo el mundo.
 	}
 
 	GenWGGCollector: {
-		Label: Generar base de recolectores
-		Tooltip: Genera aleatoriamente estructuras recolectoras hostiles por todo el mundo. Esta configuración solo tiene efecto en mundos legendarios.
+		Label: Generar puestos avanzados de chatarreros
+		Tooltip: Genera aleatoriamente estructuras hostiles de chatarreros por todo el mundo. Esta configuración solo surte efecto en mundos legendarios.
 	}
 
 	GenJunkmanBase: {
-		Label: Generar base de recicladores
-		Tooltip: Genera una base fortaleza recolectores en terrenos baldíos o bajo tierra.
+		Label: Generar base de chatarreros
+		Tooltip: Genera una base fortificada de chatarreros en páramos o bajo tierra
 	}
 
 	GenRocketHut: {
@@ -189,10 +24,39 @@ CWRServerConfig: {
 
 	GenSylvanOutpost: {
 		Label: Generar puesto avanzado silvano
-		Tooltip: Genera puestos avanzados de elfos de la madera o guardianes del bosque en lo profundo del bosque.
+		Tooltip: Genera puestos avanzados de madera de los elfos o de los guardianes del bosque en lo más profundo del bosque.
 	}
 
-	ConfigChangePrefix: User
-	ConfigChangeSuffix: modificó la configuración del servidor
+	GenSHPCCradle: {
+		Label: Generar isla de la cuna del SHPC
+		Tooltip: Genera una planetoide con una nave estrellada sobre el punto de spawn, con el SHPC sellado en su interior. Cuando está desactivada, el arma solo se puede encontrar en el laboratorio de Calamity.
+	}
+
+	ConfigChangePrefix: Usuario
+	ConfigChangeSuffix: se ha modificado la configuración del servidor
 }
 
+CWRClientConfig: {
+	DisplayName: Configuración del cliente
+	Headers.CWRWeapon: Configuraciones de armas
+
+	ScreenVibration: {
+		Label: Vibración de la pantalla al usar armas
+		Tooltip: Si se activa, la pantalla vibrará durante algunos ataques, lo que puede hacer que el impacto se perciba con mayor intensidad
+	}
+
+	DomainConciseDisplay: {
+		Label: Visualización mínima de dominios
+		Tooltip: Desactivado por defecto. Cuando está activado, solo se reducen los efectos visuales de los dominios de tipo Ciberespacio y Dominio marino. El dominio Oni de Onikiri no se ve afectado, al igual que los efectos visuales de armas y ciberimplantes, como Desmembrar, Omokage y Modo hackeo.
+	}
+
+	LensEasing: {
+		Label: Suavizado de la cámara
+		Tooltip: Cuando está activado, los desplazamientos rápidos a larga distancia ralentizarán la cámara, lo que evita la sensación de moverse demasiado rápido
+	}
+
+	AmbienceDensity: {
+		Label: Densidad ambiental
+		Tooltip: Solo ajusta la densidad de las partículas ambientales decorativas; las señales de advertencia y los peligros nunca se reducen.
+	}
+}
