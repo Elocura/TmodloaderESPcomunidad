@@ -717,10 +717,12 @@ NeutronWand: {
 	DisplayName: Luz de la tumba estelar
 	Tooltip:
 		'''
-		Dispara cuatro poderosas estrellas gravitatorias.
-		Clic derecho para lanzar magia gravitatoria al cursor.
-		"Cuenta la leyenda que, en la antigüedad, un poderoso psíquico utilizó esta varita para comprimir estrellas y convertirlas en agujeros negros,
-		pero esta historia se ha perdido en el tiempo y ahora solo es un fragmento de una canción que cantan los nómadas interestelares"
+		Al hacer clic izquierdo, se lanza un pulso hacia el cursor; este frena hasta detenerse y gira cada vez más rápido
+		Sus dos haces magnéticos barren el campo mientras gira, y pueden coexistir tres a la vez
+		Mantén pulsado clic derecho para aplicar un frenado magnético, lo que canaliza la energía del giro hacia la corteza
+		Suéltalo para provocar un terremoto estelar: la corteza se parte, la magnetosfera se reconecta y los supervivientes se aceleran
+		"El psíquico pretendía aplastar estrellas para convertirlas en agujeros negros, pero solo consiguió crear restos
+		congelados en materia degenerada. Los nómadas llaman a ese tramo de cielo la Tumba Estelar".
 		'''
 }
 
@@ -784,6 +786,8 @@ JusticeUnveiled: {
 
 WeaverGrievances: {
 	DisplayName: Quejas de los tejedores
+	RitualInteractHint: "[Clic derecho] Saca la cuchilla"
+	RitualInventoryFullHint: Tu inventario está lleno. Haz espacio antes de sacar la hoja.
 	Tooltip:
 		'''
 		Desata una gran cantidad de garras de espíritus malignos y consigue efectos especiales en entornos infernales y mazmorras.
@@ -936,6 +940,16 @@ HandmadeDoll: {
 		'''
 }
 
+ScapegoatDoll: {
+	DisplayName: Muñeca de chivo expiatorio
+	Tooltip:
+		'''
+		Mientras esté en tu inventario, te protege de la muerte en tu lugar
+		La muñeca se hace añicos y se pierde tras recibir el golpe fatal
+		'''
+	ShatterText: La muñeca que hacía las veces de chivo expiatorio se hizo añicos
+}
+
 Snowblindness: {
 	DisplayName: Ceguera por nieve
 	Tooltip:
@@ -961,8 +975,8 @@ FocusingGrimoire: {
 	DisplayName: Grimorio de concentración
 	Tooltip:
 		'''
-		Clic izquierdo para disparar anillos térmicos autoguiados.
-		Clic derecho para disparar rápidamente rayos mortales.
+		Al hacer clic izquierdo se lanzan anillos térmicos autoguiados que marcan a los enemigos al impactar
+		Al hacer clic derecho se disparan rápidamente rayos mortales, que infligen daño adicional y siempre causan un golpe crítico contra los enemigos marcados
 		"Mejor que seis libros juntos".
 		'''
 }
@@ -991,7 +1005,8 @@ HyperionBarrage: {
 	DisplayName: Torreta automática Hiperión
 	Tooltip:
 		'''
-		Lanza misiles térmicos de crucero.
+		Lanza misiles de crucero térmicos que detonan al impactar y prenden fuego a los enemigos
+		Cada cuatro veces que se aprieta el gatillo, se lanza verticalmente una salva de tres misiles que se lanzan en picado hacia tu punto de mira
 		"Aprovecha todo al máximo".
 		'''
 }
@@ -1061,6 +1076,54 @@ StaffoftheDestroyer: {
 		'''
 }
 
+EyekiteStaff: {
+	DisplayName: Cometa de la mirada atada
+	Tooltip:
+		'''
+		Invoca un pequeño Ojo de Cthulhu atado a ti mediante un cordón de tendón rojo y blanco
+		Flota como una cometa, esforzándose por escapar antes de que la cuerda lo arrastre de vuelta
+		Se abalanza con fuerza sobre los enemigos cercanos y, a continuación, la cuerda lo arrastra de vuelta como golpe final
+		Se pueden invocar varios ojos a la vez
+		'''
+}
+
+BloodshotBomb: {
+	DisplayName: Bomba sangrienta
+	Tooltip:
+		'''
+		Su mecha se enciende en cuanto lo agarras; la mecha se consume en tres fases, de aproximadamente dos segundos cada una
+		Cuanto más corta sea la mecha, más rojo será el ojo, más intensa será la explosión y más carne lanzará por los aires
+		Lánzalo en cualquier momento con clic izquierdo; estalla al entrar en contacto, y al clavarse en la carne hace que salgan volando trozos de esta
+		Si la mecha se consume mientras aún lo sostienes, explota en tu mano
+		"No soporta la idea de dejarte"
+		'''
+	SelfBoom: "{0} echó una mirada de más"
+}
+
+Eyetooth: {
+	DisplayName: Diente de ojo
+	Tooltip:
+		'''
+		Lanza a tus enemigos un colmillo arrancado del Ojo de Cthulhu
+		Al morder a un enemigo, el colmillo se eleva por encima de su cabeza, apunta y luego se lanza en picado para asestar un segundo mordisco
+		Inflige un 150% de daño rogue, y las heridas causadas por el colmillo siguen sangrando
+		'''
+}
+
+Shatterfang: {
+	DisplayName: Colmillo rompedor
+	Tooltip:
+		'''
+		Encadena tres golpes para realizar un tajo devastador que desgasta enormemente la hoja
+		El tajo que agota la hoja la hace añicos de golpe, lanzando un enorme fragmento de diente desprendido
+		Los golpes normales lanzan de forma intermitente pequeños fragmentos de diente sujetos a la gravedad
+		La espada de media hoja se balancea más rápido, pero golpea con menos fuerza y ya no lanza fragmentos.
+		Los ataques continuados también desestabilizan la hoja hasta que se desmorona silenciosamente.
+		Haz clic derecho para dedicar un momento a reparar la hoja; también se va reparando lentamente mientras descansas, y emite un tintineo cuando queda intacta
+		"Un colmillo roto de las fauces rechinantes, que aún ansía morder".
+		'''
+}
+
 CommandersClaw: {
 	DisplayName: Garra del comandante
 	Tooltip:
@@ -1075,7 +1138,7 @@ CommandersStaffEX: {
 	DisplayName: Bastón del comandante EX
 	Tooltip:
 		'''
-		Dispara múltiples rayos térmicos expansivos.
+		Dispara cinco rayos sobrecargados que giran en espiral y convergen como un taladro cortante
 		"Adecuado para cortar metal"
 		'''
 }
@@ -1116,7 +1179,11 @@ DestroyersBladeEX: {
 	DisplayName: Hoja del destructor EX
 	Tooltip:
 		'''
-		Dispara barreras térmicas.
+		Los golpes contundentes desatan cortes de color negro-carmesí, rayos de energía y descargas de sombra
+        Envainar la espada activa momentáneamente el Protocolo de acecho: aumenta la velocidad de movimiento
+        Mientras acechas, haz clic derecho para convertirte en las fauces del Destructor y morder a tu presa; si no hay ningún objetivo, se abalanzará hacia el cursor
+		Una mordedura acertada inflige un daño enorme y activa el Protocolo de aniquilación:
+        todos los proyectiles adquieren capacidad de seguimiento, y los golpes finales lanzan cabezas del Destructor
 		"Siempre es más fácil destruir que construir"
 		'''
 }
@@ -1127,6 +1194,100 @@ ThermalGenerator: {
 		'''
 		Pon combustible para generar energía.
 		Clic derecho sobre el bloque para insentar comustible rápidamente,y clic derecho presionando MAYUS para quitar el combustible
+		'''
+}
+
+FluidPipeline: {
+	DisplayName: Tubería de fluidos
+	Tooltip:
+		'''
+		Transporta agua, lava, miel o fulgor
+		Cada tubería transporta solo un fluido a la vez; debe vaciarse por completo antes de cambiar a otra
+		Haz clic derecho para retirarla rápidamente
+		'''
+}
+
+FluidPump: {
+	DisplayName: Bomba de líquidos
+	Tooltip:
+		'''
+		Mientras está encendida, aspira el líquido del entorno situado debajo de la máquina hacia su depósito interno
+		Cuesta 2 UE por casilla de líquido drenado; el fluido se transporta a través de tuberías hasta los depósitos y las máquinas
+		'''
+}
+
+FluidTank: {
+	DisplayName: Depósito de fluidos
+	Tooltip:
+		'''
+		Almacena hasta 32 bloques de líquido; la ventana muestra el nivel de llenado
+		Se conecta a bombas y máquinas a través de tuberías de fluidos
+		Si se rompe el depósito, se vacía su contenido
+		'''
+}
+
+LargeFluidTank: {
+	DisplayName: Depósito de fluidos de gran capacidad
+	Tooltip:
+		'''
+		Almacena hasta 128 bloques de líquido; la ventana muestra el nivel de llenado
+		Se conecta a bombas y máquinas a través de tuberías de líquido
+		Si se rompe el depósito, se vacía su contenido
+		'''
+}
+
+CircuitBoard: {
+	DisplayName: Placa de circuito impreso
+	Tooltip: Componente electrónico básico de las máquinas industriales
+}
+
+FluidInjector: {
+	DisplayName: Inyector de fluidos
+	Tooltip:
+		'''
+		Consume líquido almacenado para verterlo en el lugar situado debajo de la máquina
+		Cuesta 2 UE por bloque de líquido vertido
+		Ten cuidado por donde pisas al verter lava
+		'''
+}
+
+BottlingMachine: {
+	DisplayName: Máquina embotelladora
+	Tooltip:
+		'''
+		Llena botellas y cubos vacíos con el líquido almacenado, o vacía los recipientes llenos de nuevo en el depósito
+		Cada tarea cuesta 5 UE; los productos se envían a la ranura de salida
+		Ambas ranuras están conectadas a conductos de objetos para su transferencia automática
+		'''
+}
+
+MagmaThermalGenerator: {
+	DisplayName: Generador térmico de magma
+	Tooltip:
+		'''
+		Genera un poco de energía al entrar en contacto con la lava, y su energía estará al máximo mientras su depósito contenga magma
+		Aliméntalo a través de tuberías de fluidos o haz clic derecho con un cubo de lava para verterla directamente
+		La primera fuente de energía fundamental para una fábrica infernal
+		'''
+}
+
+FluidText: {
+	WaterName: Agua
+	LavaName: Lava
+	HoneyName: Miel
+	ShimmerName: Fulgor
+	EmptyName: Vacío
+	BarFormat: "{0} {1}/{2}"
+}
+
+ShimmerTransmuter: {
+	DisplayName: Transmutador de fulgor
+	Tooltip:
+		'''
+		Inserta un objeto y gasta fulgor para transformarlo; los resultados se colocan en las ranuras de salida
+		Cada conversión cuesta 10 UE y 64 unidades de fulgor, que se bombean desde el estanque de fulgor a través de tuberías
+		Admite transformaciones y desmontaje de objetos; se rechazan las monedas y los objetos que liberan criaturas
+		Las ranuras de entrada y salida se conectan a tuberías de objetos para una carga automática
 		'''
 }
 
@@ -1181,6 +1342,84 @@ TeslaElectromagneticTower: {
 		'''
 }
 
+FlameTurret: {
+	TurretOnText: Torreta lanzallamas activada
+	TurretOffText: Torreta lanzallama desactivada
+	NoEnergyText: ¡Energía insuficiente!
+	FuelLoadText: Gel cargado x{0}
+	FuelTakeText: Gel extraído x{0}
+	DisplayName: Torreta lanzallama
+	Tooltip:
+		'''
+		Necesita energía eléctrica para funcionar
+		Lanza llamas de forma continua contra los enemigos que se acercan; el fuego atraviesa a las multitudes y aplican Fuego infernal
+		Haz clic derecho en la torreta mientras sostienes gel para cargar combustible; el gel en llamas hace que las llamas tengan más fuerza
+		Pulsa Mayús + clic derecho para recuperar el gel; los conductos de objetos también pueden introducir gel en la ranura de combustible
+		Haz clic derecho con la mano vacía, o envía una señal por cable, para activar o desactivar la torreta
+		"Huele a gel asado"
+		'''
+}
+
+CryoTurret: {
+	TurretOnText: Torreta criogénica activada
+	TurretOffText: Torreta criogénica desactivada
+	NoEnergyText: ¡Energía insuficiente!
+	DisplayName: Torreta criogénica
+	Tooltip:
+		'''
+		Necesita energía eléctrica para funcionar
+		Esparce escarcha de forma continua sobre todos los enemigos que se encuentren dentro de su alcance, congelándolos y ralentizándolos
+		Un enemigo que permanezca cubierto de escarcha durante unos dos segundos queda congelado momentáneamente
+		Su función es ralentizar y congelar; el daño que inflige es solo una leve quemadura por escarcha
+		Haz clic derecho o envía una señal por cable para activar o desactivar la torreta
+		"Tranquilo"
+		'''
+}
+
+LaserTurret: {
+	TurretOnText: Torreta láser activada
+	TurretOffText: Torreta láser desactivada
+	NoEnergyText: ¡Energía insuficiente!
+	DisplayName: Torreta láser
+	Tooltip:
+		'''
+		Necesita energía eléctrica para funcionar
+		Dispara rayos de gran daño a los enemigos que se encuentran en su línea de visión; tiene un alcance muy largo y una cadencia de fuego lenta
+		No se fija en objetivos bloqueados por el terreno; da prioridad a los jefes
+		Haz clic derecho o envía una señal por cable para activar o desactivar la torreta
+		"Un disparo, un enemigo abatido"
+		'''
+}
+
+ShieldGenerator: {
+	FieldOnText: Campo de escudo activado
+	FieldOffText: Campo de escudo desactivado
+	NoEnergyText: ¡Energía insuficiente!
+	DisplayName: Generador de escudo
+	Tooltip:
+		'''
+		Necesita energía eléctrica para funcionar
+		Mientras esté activado, los jugadores que se encuentren dentro de su radio de acción obtienen un escudo de energía
+		El escudo se recarga lentamente, absorbe parte del daño recibido y desaparece al salir del radio de acción
+		Cuantos más jugadores proteja, más rápido se agota su energía
+		Haz clic derecho o envía una señal por cable para activar o desactivar el campo
+		'''
+}
+
+HealStation: {
+	FieldOnText: Aura curativa activada
+	FieldOffText: Aura curativa desactivada
+	NoEnergyText: ¡Energía insuficiente!
+	DisplayName: Estación de curación
+	Tooltip:
+		'''
+		Necesita energía eléctrica para funcionar
+		Mientras está encendido, regenera lentamente la salud de todos los jugadores que se encuentren dentro de su radio de acción
+		Haz clic derecho o envía una señal por cable para activar o desactivar el aura
+		"¿Accidentes laborales? Nunca he oído hablar de eso"
+		'''
+}
+
 EmblemOfDread: {
 	DisplayName: Emblema del terror
 	Tooltip:
@@ -1213,6 +1452,75 @@ ElectricMinRocket: {
 		'''
 }
 
+TeleportStation: {
+	NoEnergyText: ¡Energía insuficiente!
+	TargetNoEnergyText: ¡La estación de destino no tiene electricidad!
+	UnnamedText: Estación sin nombre ({0}, {1})
+	DisplayName: Estación de teletransporte
+	Tooltip:
+		'''
+		Crea una red de teletransporte con todas las demás estaciones del mundo
+		Haz clic  derecho para abrir el panel y, a continuación, haz clic en un destino para viajar
+		El teletransporte consume energía en función de la distancia; además, el destino necesita un poco de energía en modo de espera
+		Se puede asignar un nombre a las estaciones para que sean fáciles de encontrar en la lista.
+		'''
+}
+
+ElectricSundial: {
+	NoEnergyText: ¡Energía insuficiente!
+	BusyText: ¡El tiempo ya está avanzando a toda prisa!
+	SkipBroadcast: "{0} activó el reloj de sol eléctrico; el tiempo vuela hasta el amanecer"
+	DisplayName: Reloj de sol eléctrico
+	Tooltip:
+		'''
+		Almacena 1000 de energía y, a continuación, haz clic derecho para avanzar rápidamente en el tiempo hasta el amanecer
+		Funciona con su propia fuente de energía, sin tener en cuenta el tiempo de recarga de 7 días del Reloj de sol encantado
+		Notifica a todo el servidor cuando se utiliza
+		'''
+}
+
+WeatherController: {
+	NoEnergyText: ¡Energía insuficiente!
+	RainBroadcast: "{0} activó el controlador de climas; las nubes de lluvia se están reuniendo"
+	ClearBroadcast: "{0} activó el controlador de climas; escamparon las nubes"
+	DisplayName: Controlador de climas
+	Tooltip:
+		'''
+		Haz clic derecho para gastar 500 puntos de poder y provocar una lluvia, o para detenerla mientras llueve
+		Solo controla la lluvia; el viento no te hará caso
+		Al usarla, se envía una notificación a todo el servidor
+		'''
+}
+
+SolarPanel: {
+	DisplayName: Panel solar
+	Tooltip:
+		'''
+		Genera energía durante el día, alcanzando su máximo al mediodía
+		Su producción se reduce considerablemente cuando llueve y deja de funcionar por completo durante los eclipses
+		Deja de funcionar cuando hay bloques sólidos que lo cubren desde arriba.
+		'''
+}
+
+SolarPanelMK2: {
+	DisplayName: Panel solar MK2
+	Tooltip:
+		'''
+		Genera energía durante el día, alcanzando su máximo a mediodía, y es tres veces más eficiente que el original
+		Su rendimiento se reduce considerablemente con la lluvia y deja de funcionar por completo durante los eclipses
+		Deja de funcionar cuando hay bloques sólidos que lo cubren desde arriba.
+		'''
+}
+
+CapacitorMatrix: {
+	DisplayName: Matriz de condensadores
+	Tooltip:
+		'''
+		Un gran acumulador de energía con una capacidad de hasta 40.000 de potencia
+		Tiene un rendimiento de carga y descarga mucho mayor que el de la batería térmica, el volante de inercia de cualquier red eléctrica de gran tamaño.
+		'''
+}
+
 UEPipeline: {
 	DisplayName: Tubería de energía
 	Tooltip:
@@ -1220,6 +1528,66 @@ UEPipeline: {
 		Se utiliza para transmitir energía eléctrica
 		Clic derecho para desmontar rápidamente y recuperar la tubería en la posición del cursor
 		Se conecta a generadores y otras fuentes de energía para transferir energía a baterías o dispositivos eléctricos
+		'''
+}
+
+WireInterface: {
+	ModeBridgeText: Solo puente: una señal por cable activa o desactiva las máquinas adyacentes
+	ModeFullText: Aviso de lleno: emite una señal por cable cuando las máquinas adyacentes están completamente cargadas
+	ModeEmptyText: Aviso de vacío: emite una señal por cable cuando las máquinas adyacentes se quedan sin combustible
+	MachineOffText: En espera
+	MachineOnText: Activo
+	DisplayName: Interfaz de cables
+	Tooltip:
+		'''
+		Un adaptador bidireccional entre los cables mecánicos y la red eléctrica
+		Al recibir una señal por cable, alterna entre el estado activo y el de espera las máquinas situadas junto a él
+		Haz clic derecho para activar el modo de informe cíclico: emite una señal por cable cuando las máquinas adyacentes se llenan o se vacían
+		Colócalo junto a la máquina que quieras controlar y, a continuación, conecta un cable a él
+		'''
+}
+
+Sensor: {
+	TitleText: Sensor multimodo
+	ConditionLabelText: Condición de disparo
+	ModeOffText: Apagado
+	ModeChargeAboveText: Carga por encima del umbral
+	ModeChargeBelowText: Carga por debajo del umbral
+	ModeEnemyText: Alerta de enemigos
+	ModeBloodMoonText: Luna de Sangre
+	ModeEclipseText: Eclipse solar
+	ModeSlimeRainText: Lluvia de slimes
+	ModeInvasionText: Invasión
+	ThresholdLabelText: Umbral de disparo
+	RangeLabelText: Radio de alerta
+	EventHintText: Lee eventos del mundo, no necesita parámetros
+	OutputLabelText: Modo de salida
+	OutputLevelText: Nivel continuo
+	OutputPulseText: Pulso único
+	StatusActiveText: Condición cumplida
+	StatusIdleText: En espera
+	StatusNoPowerText: Sin electricidad
+	StatusOffText: Apagado
+	EnergyLabelText: Electricidad
+	DisplayName: Sensor multimodo
+	Tooltip:
+		'''
+		Es el ojo electrónico de la red; haz clic derecho para abrir el panel de configuración
+		Vigila los umbrales de carga adyacentes, los enemigos cercanos o las lunas de sangre, los eclipses, la lluvia de slimes y las invasiones
+		Emite una señal a lo largo de su cableado cuando se cumple la condición, con salida de nivel continuo o de pulso único
+		Consume 0,1 de energía por tick en modo de espera; las evaluaciones se detienen cuando se queda sin energía
+		'''
+}
+
+GridSwitch: {
+	OpenText: Abierto
+	CloseText: Cerrado
+	DisplayName: Conmutador de red
+	Tooltip:
+		'''
+		Interruptor de corriente integrado en el trazado de la tubería
+		Se activa haciendo clic derecho o mediante una señal por cableado; no pasa corriente mientras está abierto
+		Colócalo entre dos segmentos de tubería para poner en marcha y detener secciones de la red
 		'''
 }
 
@@ -1259,6 +1627,389 @@ MiningMachine: {
 		Se pueden extraer minerales especiales en entornos especiales
 		'''
 	DontWork: Debe colocarse sobre una superficie firme para poder llevar a cabo las operaciones mineras.
+}
+
+ExcavationBoosterModule: {
+	DisplayName: Módulo de refuerzo de excavación
+	Tooltip:
+		'''
+		Instálalo en una máquina minera para acortar su ciclo de trabajo un 30%
+		Los engranajes cuentan ahora con un juego de dientes más resistentes
+		'''
+}
+
+PickPowerBoosterModule: {
+	DisplayName: Módulo de refuerzo de potencia de pico
+	Tooltip:
+		'''
+		Instálalo en una máquina minera para aumentar su potencia de excavación en un 60%
+		Permite que una máquina chapada en estaño devore el mitril
+		'''
+}
+
+ChlorophyteDrillModule: {
+	DisplayName: Módulo de perforación de clorofita
+	Tooltip: La broca en sí está fundida en clorofita — un mineral que extrae otros minerales
+}
+
+EfficiencyModule: {
+	DisplayName: Módulo de eficiencia
+	Tooltip:
+		'''
+		Instálalo en una máquina minera para reducir el coste energético de cada ciclo en un 60%
+		Las bobinas por fin dejaron de calentarse
+		'''
+}
+
+YieldBoosterModule: {
+	DisplayName: Módulo de mejora de rendimiento
+	Tooltip:
+		'''
+		Instálalo en una máquina minera para aumentar en un 3 % la probabilidad de obtener lingotes
+		El tamiz tiene un grado de finura más fino.
+		'''
+}
+
+ProspectorModule: {
+	DisplayName: Módulo prospector
+	Tooltip:
+		'''
+		Instálalo en una máquina minera para triplicar el peso de los subproductos raros: gemas, fósiles, meteoritos y chatarra
+		Bajo la lupa, hasta la arena tiene una jerarquía
+		'''
+}
+
+SurveyArrayModule: {
+	DisplayName: Módulo de matriz de exploración
+	Tooltip:
+		'''
+		Instálalo en una máquina de extracción para ampliar y profundizar su alcance de exploración en un 50%
+		El eco llega antes que la broca
+		'''
+}
+
+VeinFocusModule: {
+	DisplayName: Módulo de enfoque en vetas
+	Tooltip:
+		'''
+		Instálalo en una máquina minera para aumentar en un 60% la influencia de las vetas reales en la producción
+		Sigue la veta; no te pelees con la roca
+		'''
+}
+
+DoubleLoadModule: {
+	DisplayName: Módulo de doble carga
+	Tooltip:
+		'''
+		Instálalo en una máquina minera para que cada producción tenga un 25% de probabilidades de duplicarse
+		La tolva se ha ampliado un tamaño.
+		'''
+}
+
+OverdriveCoreModule: {
+	DisplayName: Módulo de núcleo de sobremarcha
+	Tooltip:
+		'''
+		Instálalo en una máquina minera para acortar su ciclo de trabajo en un 45%, con un coste energético un 60% mayor
+		No hay planes de detenerla hasta que los cojinetes se calienten.
+		'''
+}
+
+ThrottleValveModule: {
+	DisplayName: Módulo de válvula de mariposa
+	Tooltip:
+		'''
+		Instálalo en una máquina de minera para alargar su ciclo de trabajo en un 50% y reducir el coste energético en un 45%
+		Es lento, pero toda la noche es suya
+		'''
+}
+
+ChestLinkModule: {
+	DisplayName: Módulo de conexión torácica
+	Tooltip:
+		'''
+		Instálalo en una máquina minera para que deposite los recursos directamente en los cofres cercanos, y solo los suelte cuando estén llenos
+		Así te ahorras tener que agacharte
+		'''
+}
+
+SmelterModule: {
+	DisplayName: Módulo de fundición de campo
+	Tooltip:
+		'''
+		Instálalo en una máquina minera para fundir minerales y convertirlos en lingotes según las proporciones del horno antes de la producción, con un coste energético un 40% mayor
+		Lingotes directamente desde la boca del pozo.
+		'''
+}
+
+MachineModuleText: {
+	TagText: Módulo de mejora de máquina
+	TargetsLine: Compatible con: {0}
+	HowToText: Haz clic derecho en una máquina compatible e insértalo en su panel
+	SocketOnly: ¡Esta máquina no admite ese módulo!
+	SocketDuplicate: ¡Ya hay un módulo de este tipo instalado!
+	SocketEmptyHint:  Inserta un módulo de mejora
+	SlotLabel: Modules
+	 NameMining: Máquina minera
+	NameThermal: Generador térmico
+    NameWind: Turbina eólica
+    NameHydro: Generador hidráulico
+    NameIncinerator: Incineradora
+    NameCrusher: Trituradora de mineral
+    NameRecycler: Reciclador
+    NameMagma: Generador térmico de magma
+    NameBiomass: Generador de biomasa
+    NameTurret: Torreta defensiva
+    NameSolar: Panel solar
+}
+
+InsulationLiningModule: {
+	DisplayName: Módulo de revestimiento aislante
+	Tooltip:
+		'''
+		Instálalo en un generador térmico para reducir la disipación de calor en un 55%
+		Tres capas de amianto: el calor nunca sale de ahí
+		'''
+}
+
+ForcedDraftModule: {
+	DisplayName: Módulo de ventilación forzada
+	Tooltip:
+		'''
+		Instálalo en un generador térmico para que arda un 45% más rápido y a mayor temperatura
+		Con solo una bombeada del fuelle, las brasas se enderezan
+		'''
+}
+
+SlowBurnValveModule: {
+	DisplayName: Módulo de válvula de combustión lenta
+	Tooltip:
+		'''
+		Instálalo en un generador térmico para reducir la combustión al 60% y así aprovechar al máximo cada trozo de combustible
+		Reduce la llama al mínimo y un trozo de carbón te durará media noche
+		'''
+}
+
+HeatRecoveryModule: {
+	DisplayName: Módulo de recuperación de calor
+	Tooltip:
+		'''
+		Instálalo en un generador térmico para aumentar el rendimiento calorífico por unidad de combustible en un 25%
+		Dos codos adicionales en el conducto de humos recogen el calor que se escapa
+		'''
+}
+
+AutoFeedHopperModule: {
+	DisplayName: Tolva de alimentación automática
+	Tooltip:
+		'''
+		Instálalo en un generador térmico, un incinerador o un generador de biomasa para extraer la materia prima del almacén cercano
+		La tolva solo responde cuando hay una ranura vacía.
+		'''
+}
+
+ExtendedBladesModule: {
+	DisplayName: Módulo de palas extendidas
+	Tooltip:
+		'''
+		Instálalo en un aerogenerador para aumentar la producción en un 30%
+		Cada pulgada más allá de la punta de la pala antigua es viento libre
+		'''
+}
+
+LowWindGearboxModule: {
+	DisplayName: Módulo para de vientos flojos
+	Tooltip:
+		'''
+		Instálalo en un aerogenerador para aumentar el factor de viento mínimo de 0,8 a 1,3
+		El engranaje de corte fino aprovecha hasta la más mínima brisa.
+		'''
+}
+
+TallTowerModule: {
+	DisplayName: Módulo de torre alta
+	Tooltip:
+		'''
+		Se instala en un aerogenerador para aumentar la producción en un 15%; se puede combinar con el Módulo de palas extendidas
+		Diez metros más alto, con un poco más de viento
+		'''
+}
+
+FlowShroudModule: {
+	DisplayName: Módulo de protección del flujo
+	Tooltip:
+		'''
+		Instálalo en un generador hidráulico para aumentar la producción en un 30%
+		La boca acampanada recoge el agua dispersa en un solo chorro
+		'''
+}
+
+QuickSpinModule: {
+	DisplayName: Módulo de giro rápido
+	Tooltip:
+		'''
+		Instálalo en un generador hidráulico para triplicar la velocidad de aceleración
+		Bobinado apretado; alcanza la velocidad de funcionamiento en cuanto entra en contacto con el agua
+		'''
+}
+
+DeepBearingModule: {
+	DisplayName: Módulo de cojinetes para aguas profundas
+	Tooltip:
+		'''
+		Instálalo en un generador hidráulico para aumentar la potencia en un 15%; se puede combinar con el Módulo de protección del flujo
+		El eje no desperdicia nada; la rueda lo aprovecha todo
+		'''
+}
+
+HighTempElectrodeModule: {
+	DisplayName: Módulo de electrodos para altas temperaturas
+	Tooltip:
+		'''
+		Instálalo en un incinerador para fundir un 45% más rápido
+		Apunta las agujas una hacia la otra y el arco extinguirá el fuego en ese punto
+		'''
+}
+
+EconomizerCoilModule: {
+	DisplayName: Módulo de bobina económica
+	Tooltip:
+		'''
+		Instálalo en un incinerador para reducir el coste energético de la fundición en un 60%
+		Se ha rebobinado con alambre esmaltado fino; ahora el contador gira con suavidad
+		'''
+}
+
+TwinCrucibleModule: {
+	DisplayName: Módulo de crisol doble
+	Tooltip:
+		'''
+		Instálalo en un incinerador para tener un 25% de probabilidades de duplicar la producción por lote
+		Un fuego, dos tazas
+		'''
+}
+
+AutoEjectChuteModule: {
+	DisplayName: Tolva de expulsión automática
+	Tooltip:
+		'''
+		Instálalo en un incinerador para enviar los productos directamente al almacén cercano
+		Conecta la rampa y el horno se encargará de llenar las estanterías por sí solo
+		'''
+}
+
+CapacityCellModule: {
+	DisplayName: Módulo de celdas de capacidad
+	Tooltip:
+		'''
+		Instálala en cualquier máquina para aumentar la capacidad energética en un 50%
+		Todas las tomas de corriente del taller admiten estas placas
+		'''
+}
+
+TurretRangefinderModule: {
+	DisplayName: Módulo de telémetro para torreta
+	Tooltip:
+		'''
+		Instálalo en una torreta defensiva para ampliar la puntería en un 25%
+		Las torres de escudo y de curación amplían su aura en su lugar
+		La lente detecta al enemigo antes que el cañón.
+		'''
+}
+
+TurretAutoloaderModule: {
+	DisplayName: Módulo de carga automática de torreta
+	Tooltip:
+		'''
+		Instálalo en una torreta defensiva para disparar un 30% más rápido
+		Las torretas de aura no tienen ritmo de disparo, por lo que no tiene ningún efecto en ellas
+		La siguiente bala se carga antes de que la anterior impacte
+		'''
+}
+
+TurretPowerSaverModule: {
+	DisplayName: Módulo de ahorro de energía para torreta
+	Tooltip:
+		'''
+		Instálalo en una torreta defensiva para reducir su consumo de energía al 75%
+		Aplica tanto al consumo por disparo como al consumo continuo
+		El medidor por fin se ralentiza durante un asedio
+		'''
+}
+
+CopperTinDrill: {
+	DisplayName: Broca de cobre/estaño
+	Tooltip: La primera pieza que puliste hasta dejarla reluciente
+}
+
+IronLeadDrill: {
+	DisplayName: Broca de hierro/plomo
+	Tooltip: La broca dura más que el mineral; eso es todo lo que necesita
+}
+
+SilverTungstenDrill: {
+	DisplayName: Broca de plata/tungsteno
+	Tooltip: Su filo está recubierto de una dignidad que se niega a oxidarse
+}
+
+GoldPlatinumDrill: {
+	DisplayName: Broca de oro/platino
+	Tooltip: Me ha entrado el gusto por el metal suave
+}
+
+EvilOreDrill: {
+	DisplayName: Broca para mineral maligno
+	Tooltip: Sumergido en ambos males; cada bando lo reclama
+}
+
+MeteoriteDrill: {
+	DisplayName: Broca de meteorito
+	Tooltip: Lo que cae del cielo se enfrenta al acero forjado en el cielo
+}
+
+ObsidianDrill: {
+	DisplayName: Broca de obsidiana
+	Tooltip: Un lugar donde el agua se encuentra con el fuego
+}
+
+HellstoneDrill: {
+	DisplayName: Broca de piedra infernal
+	Tooltip: El mango todavía está caliente
+}
+
+FossilDrill: {
+	DisplayName: Broca de fósiles
+	Tooltip: Los pinceles iban demasiado lentos
+}
+
+CoalDrill: {
+	DisplayName: Broca para vetas de carbón
+	Tooltip: En la sala de calderas la piden por su nombre
+}
+
+GemClusterDrill: {
+	DisplayName: Broca para racimos de gemas
+	Tooltip: Una mandíbula de diamante que solo muerde lo que brilla
+}
+
+CobaltPalladiumDrill: {
+	DisplayName: Broca de cobalto/paladio
+	Tooltip: Aún tiene fragmentos del altar entre los dientes
+}
+
+MythrilOrichalcumDrill: {
+	DisplayName: Broca de mithril/oricalco
+	Tooltip: Gira con un zumbido que tiene un aire ligeramente sagrado
+}
+
+AdamantiteTitaniumDrill: {
+	DisplayName: Broca de adamantita/titanio
+	Tooltip: Los huesos duros de las profundidades son asunto suyo
+}
+
+LuminiteDrillModule: {
+	DisplayName: Módulo de perforación de luminita
+	Tooltip: Los restos lunares se extraen igual que cualquier otra cosa
 }
 
 HoChaMeditatorItem: {
@@ -1332,10 +2083,13 @@ ItemFilter: {
 	DisplayName: Tablero filtrador de objetos
 	Tooltip:
 		'''
-		Úsalo para abrir el panel filtrador.
-		Clic derecho en una máquina compatible para aplicarlo.
-		Clic izquierdo en un cofre para copiar su contenido como reglas de filtro
+		Úsalo para abrir el editor de listas; haz clic en el panel con un objeto sobre el cursor para registrarlo
+		Úsalo mientras apuntas a un colector para copiar su lista, o a un cofre para copiar su contenido
+		Haz clic derecho sobre un colector, una línea de transporte de objetos u otra máquina mientras mantienes pulsado para instalar la lista
 		'''
+	StateFormat: "{0} · {1} entradas registradas"
+	CopiedFromChest: Contenido del cofre copiado
+	CopiedFromCollector: Lista del recolector copiada
 }
 
 SporeBubbleBlaster: {
@@ -1468,9 +2222,16 @@ Heartcarver: {
 	DisplayName: Arrancacorazones
 	Tooltip:
 		'''
-		Genera tres dagas rituales adicionales que giran alrededor del jugador.
-		Al terminar de cargar el arma, vuelan hacia el objetivo.
-		Haz clic derecho para realizar un empuje de corto alcance
+		Cada puñalada lanza una daga de sangre giratoria que se guía por el olor de las heridas
+		Haz clic derecho para realizar una estocada corta en forma de arco
+		Los corazones absorbidos otorgan una breve aumento de la velocidad de ataque y se condensan en cuchillas de sangre que giran en órbita
+		Las cuchillas de sangre se lanzan contra la herida de tu próximo Golpe cortante
+		'''
+	CarveTip:
+		'''
+		Mientras la sostienes, la hoja late al ritmo de tu corazón
+		Los golpes que impactan en el intervalo entre dos latidos se convierten en Golpes talladores
+		Termina el combo con un Golpe tallador para arrancar el corazón de una pieza.
 		'''
 }
 
@@ -1478,8 +2239,13 @@ OniMachete: {
 	DisplayName: Machete Oni
 	Tooltip:
 		'''
-		Cuando se sostiene, se generarán seis manos de oni que te ayudarán en combate.
-		Los ataques cuerpo a cuerpo verdaderos liberarán llamas fantasmales.
+		Realiza una combinación de tres golpes, que culmina con un tajo fulminante que se mantiene en el aire un instante antes de caer
+		Mientras se mantiene activada, se invocan seis manos de oni para que luchen a tu lado.
+		'''
+	SuppressTip:
+		'''
+		Los golpes y las embestidas avivan la supresión del azufre; cada golpe que asestan las seis manos de los oni quema al enemigo hasta hacerlo desaparecer
+		Cuando la llama se apaga, las manos se inquietan: luchan con más fuerza y pueden volverse para estrangularte.
 		'''
 }
 
@@ -1489,9 +2255,55 @@ Pandemonium: {
 		'''
 		Haz clic izquierdo para cargar el arma y liberar Magia trascendental
 		Haz clic derecho para lanzar una Runa de azufre en el cursor
-		Presiona [PandemoniumQSkill] para desatar el Jucio de azufre
-		Presiona [PandemoniumRSkill] realizar el Fin de todos los demonios
+		Mientras se mantiene pulsado, se iluminan dos botones de habilidades en la parte inferior izquierda de la pantalla
+		Haz clic en ellos para desatar "El juicio del azufre" o "El fin de todos los demonios"
 		'''
+	SkillLeftName: Juicio de azufre
+	SkillLeftDesc: Invoca un campo de columnas de fuego de azufre alrededor del cursor
+	SkillRightName: El fin de todos los demonios
+	SkillRightDesc: Despliega un círculo mágico gigante centrado en ti, que golpea a los enemigos que se encuentran en su interior con rayos y fuego
+}
+
+Elysium: {
+	DisplayName: Elíseo
+	Tooltip:
+		'''
+		Mantén pulsado clic izquierdo para canalizar el Rito de la Serpiente.
+		Suéltalo para lanzar una oleada de luz sagrada que convertirá a los enemigos menores que toque en serpientes sagradas que te perseguirán
+		Haz clic derecho para exaltar a un habitante cercano de la ciudad, llamándolo a tu lado como discípulo
+		Los discípulos te rodean, cada uno desempeñando su propio cargo, y te otorgan bendiciones sagradas
+		El daño infligido por los jefes consume a un discípulo, aplicando un punto de Poder del martirio
+		Con once puntos de Poder del martirio y si Juan aún en su cargo, el botón de habilidad desata la Revelación
+		Una vez que desciende la Revelación, al hacer clic derecho se invocan los Cuatro Jinetes
+		Las teclas de habilidad se convierten entonces en "Meteoro celestial" y "El Juicio de los últimos sellos".
+		Con los doce asientos ocupados, la bendición alcanza su punto álgido, pero cuantos estes apunto de morir te enfrentarás a la espada de Judas
+		Mantén pulsada la tecla Mayús para abrir el Rosetón; arrastra los asientos para reasignar los cargos sagrados
+		Mientras lo mantienes pulsado, se iluminan dos botones de habilidad en la parte inferior izquierda de la pantalla
+		'''
+	SkillLeftName: Trueno sagrado
+	SkillLeftDesc: Hace caer un rayo santo sobre el enemigo junto al punto de mira
+	SkillRightName: Juicio de los tres últimos sellos
+	SkillRightDesc: El quinto, el sexto y el séptimo sello se abren uno tras otro; el juicio final barre los cuatro puntos y el Apocalipsis se cierra
+	SkillRightLockedDesc: Solo puedes romper los sellos tras el Apocalipsis
+	SkillOpenName: Abrir el Apocalipsis
+	SkillOpenDesc: Juan se eleva en martirio y el dominio del cielo desciende
+	SkillMeteorName: Meteoro celestial
+	SkillMeteorDesc: Hace caer un cuerpo celeste desde la bóveda hacia donde apunta el cursor
+	NoConvertTargetText: No hay habitantes cerca que se puedan sublimar
+	SeatsFullText: Las doce sillas santas están ocupadas
+	JudasDeathReasonText: "{0} fue vendido por Judas por treinta monedas de plata"
+	DiscipleName_0: Pedro
+	DiscipleName_1: Andrés
+	DiscipleName_2: Santiago
+	DiscipleName_3: Juan
+	DiscipleName_4: Felipe
+	DiscipleName_5: Bartolomé
+	DiscipleName_6: Tomás
+	DiscipleName_7: Mateo
+	DiscipleName_8: Santiago el Menor
+	DiscipleName_9: Tadeo
+	DiscipleName_10: Simón el Zelote
+	DiscipleName_11: Judas
 }
 
 Proverbs: {
@@ -1611,11 +2423,15 @@ AriaofTheCosmos: {
 	DisplayName: Aria del cosmos
 	Tooltip:
 		'''
-		Mantén presionado el clic izquierdo para cargar un cuásar poderoso, que causará un daño devastador al liberarlo.
-		Haz clic derecho para liberar un mini agujero negro que dispara una lluvia de rayos gamma una vez formado.
-		Presiona [AriaofTheCosmosQSkill] para invocar a un Guardián del anillo estelar
-		Presiona [AriaofTheCosmosRSkill] para provocar una explosión de rayos gamma
+		Mantén presionado el clic izquierdo para cargar un cuásar poderoso, que causará un daño devastador al liberarlo
+		Haz clic derecho para liberar un mini agujero negro que dispara una lluvia de rayos gamma una vez formado
+		Mientras se mantiene pulsado, se iluminan dos botones de habilidad en la parte inferior izquierda de la pantalla
+		Pulsa sobre ellos para invocar a un Guardián del anillo estelar o activar una ráfaga de rayos gamma
 		'''
+	SkillLeftName: Guardián del anillo estelar
+	SkillLeftDesc: Invoca un anillo estelar en órbita cuyos nodos lanzan una lluvia de polvo estelar contra los enemigos cercanos
+	SkillRightName: Explosión de rayos gamma
+	SkillRightDesc: Tras una breve recarga, lanza nueve rayos gamma en forma de abanico hacia el cursor
 }
 
 Oceanfragments: {
@@ -1665,9 +2481,8 @@ MiningMachineMk2: {
 	DisplayName: Máquina minera Mk2
 	Tooltip:
 		'''
-		Consume energía eléctrica para perforar minerales
-		Debe colocarse en un lugar adecuado para que funcione correctamente
-		Se pueden extraer minerales especiales en entornos especiales
+		Los taladros para mineral funcionan con energía eléctrica; exploran zonas más amplias y profundas que los originales
+		Haz clic derecho para abrir la terminal de prospección, comprueba las probabilidades de rendimiento e instala los módulos de mejora
 		'''
 }
 
@@ -1738,6 +2553,102 @@ Incinerator: {
 		'''
 }
 
+Crusher: {
+	DisplayName: Trituradora de mineral
+	Tooltip:
+		'''
+		Consume energía para triturar mineral: se introducen dos unidades de mineral y se obtienen tres del mismo tipo.
+		Haz clic derecho para abrir el panel de control.
+		Haz Mayús + clic derecho para depositar rápidamente el mineral o recoger el resultado de la trituración
+		Si introduces el resultado en un incinerador, el mismo mineral te dará la mitad más de lingotes
+		'''
+}
+
+CrusherUI: {
+	TitleText: Trituradora de mineral
+	InputLabel: Mineral
+	OutputLabel: Producto
+	ProgressLabel: Triturado
+	PowerLabel: Electricidad
+	CrushingText: Triturando
+	IdleText: En espera
+	NoPowerText: Sin electricidad
+	InputHint: Introduce mineral: dos porciones salen como tres
+	OutputHint: Pulsa para extraer el triturado
+	PowerUnit: UE
+}
+
+Recycler: {
+	DisplayName: Reciclador
+	Tooltip:
+		'''
+		Consume energía para descomponer armas, armaduras y accesorios en lingotes según su rareza
+		No permite revertir la receta, y el valor obtenido es muy inferior al del propio objeto
+		Haz clic derecho para abrir el panel de control
+		Presiona Mayús + clic derecho para depositar rápidamente el equipo o recuperar lingotes
+		'''
+}
+
+RecyclerUI: {
+	TitleText: Reciclador
+	InputLabel: Equipo
+	OutputLabel: Lingotes
+	ProgressLabel: Desmontaje
+	PowerLabel: Electricidad
+	WorkingText: Desmontando
+	IdleText: En espera
+	NoPowerText: Sin electricidad
+	InputHint: Introduce un arma, una armadura o un accesorio
+	OutputHint: Pulsa para extraer lingotes
+	EstimateLabel: Producto estimado:
+	PowerUnit: UE
+}
+
+AutoCrafter: {
+	DisplayName: Mesa de trabajo automática
+	Tooltip:
+		'''
+		Haz clic  derecho para abrir el panel, inserta una muestra y fija una de sus recetas
+		Recoge los ingredientes de los cofres y máquinas cercanos y, a continuación, los elabora automáticamente
+		Las estaciones de elaboración que requiera la receta deben colocarse cerca de la máquina
+		Los productos se envían primero al almacén más cercano o permanecen en la ranura de salida
+		'''
+}
+
+AutoCrafterUI: {
+	TitleText: Mesa de crafteo automática
+	SampleLabel: Muestra
+	OutputLabel: Producto
+	ListLabel: Lista de recetas
+	PowerLabel: Electricidad
+	StatusIdle: En espera
+	StatusNoPin: Ninguna receta fijada
+	StatusPinMissing: La receta ya no es válida; fíjala de nuevo
+	StatusNoPower: Sin electricidad
+	StatusNoStation: Falta una estación de crafteo cerca
+	StatusNoCondition: No se cumplen las condiciones
+	StatusNoMaterial: Faltan materiales:
+	StatusOutputFull: La ranura de producto está llena
+	StatusWorking: Ensamblando
+	SampleHint: Introduce un objeto de muestra para listar sus recetas
+	ListEmptyText: La muestra no tiene recetas
+	PinHint: Pulsa para fijar esta receta
+	UnpinHint: Pulsa de nuevo para dejar de fijarla
+	ConditionLockText: Condiciones no cumplidas
+	PinnedTag: Fijada
+	PowerUnit: UE
+}
+
+ProcessingFeedHopper: {
+	DisplayName: Tolva de alimentación para procesamiento
+	Tooltip: Instalada en una trituradora o un reciclador, la máquina recoge por sí sola el material de un almacén cercano
+}
+
+ProcessingEjectChute: {
+	DisplayName: Tolva de expulsión del proceso
+	Tooltip: Una vez instalado en una trituradora o un reciclador, los productos pasan directamente al almacén cercano
+}
+
 ItemPipeline: {
 	DisplayName: Canalizador de ítems
 	Tooltip:
@@ -1758,6 +2669,114 @@ Thrower: {
 	Tooltip:
 		'''
 		Consume energía para lanzar objetos
+		Haz clic derecho para abrir el panel de control
+		'''
+}
+
+PlayerLauncher: {
+	NoEnergyText: ¡Energia insuficiente!
+	DisplayName: Plataforma de lanzamiento
+	Tooltip:
+		'''
+		Consume energía para lanzar a los jugadores que se encuentren sobre ella en la dirección configurada
+		Otorga una breve inmunidad al daño por caída tras el lanzamiento
+		Haz clic derecho para abrir el panel de control
+		'''
+}
+
+PacifierTower: {
+	FieldOnText: Campo de fuerza activado
+	FieldOffText: Campo de fuerza desactivado
+	NoEnergyText: ¡Energía insuficiente!
+	DisplayName: Generador de campo de calma
+	Tooltip:
+		'''
+		Suprime la aparición de enemigos naturales en las inmediaciones mientras está activado
+		Haz clic derecho o conecta una señal para activar o desactivar el campo
+		'''
+}
+
+PotionBeacon: {
+	NoEnergyText: ¡Energia insuficiente!
+	DisplayName: Baliza difusora de pociones
+	Tooltip:
+		'''
+		Almacena pociones de mejora y difunde continuamente sus efectos a los jugadores cercanos
+		Una poción proporciona el doble de su duración original
+		Haz clic derecho para abrir el panel de control
+		'''
+}
+
+HerbFarmer: {
+	NoEnergyText: ¡Energia insuficiente!
+	DisplayName: Cultivador de hierbas
+	Tooltip:
+		'''
+		Consume semillas y energía para plantar automáticamente hierbas en suelos aptos cercanos
+		Cosecha plantas en flor, lo que proporciona hierbas y semillas
+		Haz clic derecho para abrir el panel de control
+		'''
+}
+
+MushroomFarmer: {
+	NoEnergyText: ¡Energia insuficiente!
+	FullText: ¡El almacén de producto está lleno!
+	DisplayName: Cultivadora de champiñones
+	Tooltip:
+		'''
+		Consume energía para cultivar champiñones en la hierba cercana y champiñones brillantes en la hierba de champiñon
+		Las recolecta automáticamente, lo que en ocasiones proporciona semillas de hierba de champiñon
+		Haz clic derecho para abrir el panel de control
+		'''
+}
+
+Apiary: {
+	NoEnergyText: ¡Energia insuficiente!
+	NoBottleText: ¡No quedan botellas!
+	FullText: ¡El almacén de producto está lleno!
+	DisplayName: Colmenar
+	Tooltip:
+		'''
+		Coloca botellas vacías y las abejas elaborarán miel embotellada utilizando energía
+		Las abejas trabajan más rápido cerca de la miel o en la selva
+		Haz clic derecho para abrir el panel de control
+		'''
+}
+
+SlimeVat: {
+	NoEnergyText: ¡Energia insuficiente!
+	NoWaterText: ¡No hay suficiente agua!
+    FullText: ¡El almacén de productos está lleno!
+    PourText: +{0} de agua
+	DisplayName: Cuba de cultivo de slimes
+	Tooltip:
+		'''
+		Consume agua y electricidad para cultivar gel periódicamente
+		Se abastece de masas de agua cercanas o se le puede echar agua a mano con cubos
+		Haz clic derecho para abrir el panel de control
+		'''
+}
+
+BiomassGenerator: {
+	DisplayName: Generador de biomasa
+	Tooltip:
+		'''
+		Quema semillas, hierbas, champiñones, pescado y otros excedentes agrícolas para generar energía de forma constante
+		La producción se sitúa entre la eólica y la térmica, y se combina con la maquinaria agrícola para crear un ciclo cerrado
+		Haz clic derecho mientras tienes biomasa en la mano para cargar combustible, o haz clic derecho para abrir el panel
+		'''
+}
+
+AutoFisher: {
+	NoEnergyText: ¡Energia insuficiente!
+	NoBaitText: ¡No hay cebo!
+	NoWaterText: ¡No hay aguas aptas para la pesca cerca!
+	FullText: ¡El almacén de capturas está lleno!
+	DisplayName: Pescador automático
+	Tooltip:
+		'''
+		Consume cebo y energía para pescar automáticamente en las aguas situadas abajo
+		Cuanto más grandes sean las masas de agua y mejor sea el cebo, más abundantes serán las capturas
 		Haz clic derecho para abrir el panel de control
 		'''
 }
@@ -1814,17 +2833,18 @@ OmniElectricFoot: {
 	Tooltip:
 		'''
 		Es una locomotora cibernética de gran potencia que combina el retroceso electromagnético con un gel de propulsión denso.
-		Permite realizar un doble salto en el aire, lo que te permite impulsarte de nuevo tras despegar del suelo.
-		Mantén pulsada la opción "Salto cargado" en el menú radial de ciberimplantes para cargarla y, a continuación, suéltala para lanzarte.
-		Un salto completamente cargado puede alcanzar más del doble de altura que un salto normal.
+		Permite realizar un doble salto en el aire; mantén pulsada la tecla de salto tras impulsarte para llegar más lejos
+		Mantén pulsada la tecla de habilidad para cargar energía en tus pies y, a continuación, suéltala para impulsarte: una carga completa te permite alcanzar una altura tres veces superior a la de un salto normal.
+		El gel propulsor absorbe sus propios impulsos; esos descensos no causan daño por caída
+		Al cargar, se bloquean tu velocidad de carrera y tu salto, y al despegar del suelo se interrumpe la energía.
 		'''
-	SkillHint: Mantente en el aire, carga y salta sobre el cradial {0} para cargar
+	SkillHint: Mantén pulsado {0} para cargar y suéltalo para dar el saque inicial
 	SkillName: Salto cargado
 	SkillDesc:
 		'''
 		Salto impulsado por propulsión electromagnética.
-		Debes estar de pie en el suelo; la duración del salto es igual al tiempo de carga.
-		Suelta el botón para lanzarte a una altura de hasta 2,5 veces la de un salto normal cuando esté completamente cargado.
+		Hay que permanecer de pie en el suelo; al mantener pulsada la tecla de habilidad, esta se carga hasta su máximo en 60 ticks.
+		Al soltarla, te impulsará hasta una altura tres veces superior a la de un salto normal, con un control más preciso en el aire durante el periodo de propulsión
 		'''
 }
 
@@ -1843,8 +2863,8 @@ PlowSteelClampArm: {
 	SkillDesc:
 		'''
 		Lanza un hilo monomolecular a alta temperatura desde la palma de la mano. Los enemigos que se encuentran en su trayectoria quedan abrasados continuamente.
-		[c/8AC4E8:Tap] —— Tiende un cable corto de unas 12 casillas hacia el cursor; dura 2 segundos; no requiere anclaje.
-		[c/F5C56A:Hold] —— Una vez cargado por completo, se fija a una bloque sólido cercano al cursor durante 5 segundos; si no encuentra ningún punto de anclaje, vuelve a su posición inicial con un cable corto.
+		[c/8AC4E8:Tap]: Tiende un cable corto de unas 12 casillas hacia el cursor; dura 2 segundos; no requiere anclaje.
+		[c/F5C56A:Hold]: Una vez cargado por completo, se fija a una bloque sólido cercano al cursor durante 5 segundos; si no encuentra ningún punto de anclaje, vuelve a su posición inicial con un cable corto.
 		El daño varía en función de los multiplicadores de daño generales del jugador.
 		'''
 }
@@ -1902,6 +2922,303 @@ RamRecoveryUpgradeChip: {
 	Tooltip: Aumenta de forma permanente la velocidad base de recuperación de la RAM en 0,05 por segundo
 }
 
+MeltdownChip: {
+	DisplayName: Chip de protocolo de fusión
+	Tooltip: ""
+}
+
+ProjectileHijackChip: {
+	DisplayName: Chip de toma de proyectiles
+	Tooltip: ""
+}
+
+ProjectileFreezeChip: {
+	DisplayName: Chip de congelación de proyectiles
+	Tooltip: ""
+}
+
+DataPurgeChip: {
+	DisplayName: Chip de purga de datos
+	Tooltip: ""
+}
+
+BallisticOverclockChip: {
+	DisplayName: Chip de sobreclock balístico
+	Tooltip: ""
+}
+
+ElectrolysisChip: {
+	DisplayName: Chip de electrólisis de aguas
+	Tooltip: ""
+}
+
+CryostasisChip: {
+	DisplayName: Chip de solidificación criogénica
+	Tooltip: ""
+}
+
+LiquidPurgeChip: {
+	DisplayName: Chip de drenaje de líquidos
+	Tooltip: ""
+}
+
+ItemRecallChip: {
+	DisplayName: Chip de recuperación a distancia
+	Tooltip: ""
+}
+
+ReappraiseChip: {
+	DisplayName: Chip de relanzamiento de calidad
+	Tooltip: ""
+}
+
+ArmorParseChip: {
+	DisplayName: Chip de análisis de armadura
+	Tooltip: ""
+}
+
+ExorciseChip: {
+	DisplayName: Chip de cierre forzado de sesión
+	Tooltip: ""
+}
+
+DataLeechChip: {
+	DisplayName: Chip de extracción de datos
+	Tooltip: ""
+}
+
+SwarmLinkChip: {
+	DisplayName: Chip de enlace de enjambre
+	Tooltip: ""
+}
+
+TurretHijackChip: {
+	DisplayName: Chip de secuestro de torretas
+	Tooltip: ""
+}
+
+MachineOverclockChip: {
+	DisplayName: Chip de sobreclock de máquinas
+	Tooltip: ""
+}
+
+GridBlackoutChip: {
+	DisplayName: Chip de apagón de la red
+	Tooltip: ""
+}
+
+PowerTransmuteChip: {
+	DisplayName: Chip de conversión de electricidad
+	Tooltip: ""
+}
+
+NeuralOverclockChip: {
+	DisplayName: Chip de sobreclock neural
+	Tooltip: ""
+}
+
+WraithForceDriveChip: {
+	DisplayName: Chip de impulso forzado de espectros sirvientes
+	Tooltip: ""
+}
+
+IndexPrereadChip: {
+	DisplayName: Chip de prelectura de índice
+	Tooltip: ""
+}
+
+LockBurnChip: {
+	DisplayName: Chip de quemado de cerradura
+	Tooltip: ""
+}
+
+DielSkipChip: {
+	DisplayName: Chip de salto día-noche
+	Tooltip: ""
+}
+
+StormInjectChip: {
+	DisplayName: Chip de inyección de tormenta
+	Tooltip: ""
+}
+
+GravityInvertChip: {
+	DisplayName: Chip de inversión de gravedad
+	Tooltip: ""
+}
+
+SegmentDelinkChip: {
+	DisplayName: Chip de desconexión de segmentos
+	Tooltip: ""
+}
+
+LimbSeizureChip: {
+	DisplayName: Chip de requisición de extremidades
+	Tooltip: ""
+}
+
+CommandLinkCutChip: {
+	DisplayName: Chip de corte de enlace táctico
+	Tooltip: ""
+}
+
+MunitionSwapChip: {
+	DisplayName: Chip de intercambio de munición
+	Tooltip: ""
+}
+
+TurretMeshChip: {
+	DisplayName: Chip de red de torretas
+	Tooltip: ""
+}
+
+BeaconForgeChip: {
+	DisplayName: Chip de falsificación de balizas
+	Tooltip: ""
+}
+
+PrivilegeEscalateChip: {
+	DisplayName: Chip de escalada de privilegios
+	Tooltip: ""
+}
+
+ItemSalvageChip: {
+	DisplayName: Chip de desmontaje
+	Tooltip: ""
+}
+
+DataBrandChip: {
+	DisplayName: Chip de marca de datos
+	Tooltip: ""
+}
+
+EntityMasqueradeChip: {
+	DisplayName: Chip de disfraz de identidad
+	Tooltip: ""
+}
+
+TileConscriptChip: {
+	DisplayName: Chip de requisición de bloques
+	Tooltip: ""
+}
+
+VeinResonanceChip: {
+	DisplayName: Chip de resonancia de vetas
+	Tooltip: ""
+}
+
+StressInvertChip: {
+	DisplayName: Chip de inversión de tensión
+	Tooltip: ""
+}
+
+PressureSurgeChip: {
+	DisplayName: Chip de sobrepresión de aguas
+	Tooltip: ""
+}
+
+MirrorSurfaceChip: {
+	DisplayName: Chip de superficie espejo
+	Tooltip: ""
+}
+
+DelayFuseChip: {
+	DisplayName: Chip de espoleta retardada
+	Tooltip: ""
+}
+
+ProjectileTitheChip: {
+	DisplayName: Chip de diezmo de proyectiles
+	Tooltip: ""
+}
+
+ProjectileSampleChip: {
+	DisplayName: Chip de muestreo de proyectiles
+	Tooltip: ""
+}
+
+CompensationProtocolChip: {
+	DisplayName: Chip de protocolo de compensación
+	Tooltip: ""
+}
+
+PayloadRewriteChip: {
+	DisplayName: Chip de reescritura de carga
+	Tooltip: ""
+}
+
+PhaseDesyncChip: {
+	DisplayName: Chip de desfase
+	Tooltip: ""
+}
+
+LiveCellTapChip: {
+	DisplayName: Chip de fuente viva
+	Tooltip: ""
+}
+
+FirmwareRollbackChip: {
+	DisplayName: Chip de reversión de firmware
+	Tooltip: ""
+}
+
+ShellRequisitionChip: {
+	DisplayName: Chip de requisición de caparazón
+	Tooltip: ""
+}
+
+MemoryScorchChip: {
+	DisplayName: Chip de ablación de memoria
+	Tooltip: ""
+}
+
+BuffSiphonChip: {
+	DisplayName: Chip de extracción de beneficios
+	Tooltip: ""
+}
+
+CombatSiphonChip: {
+	DisplayName: Chip de extracción táctica
+	Tooltip: ""
+}
+
+BallisticTurncoatChip: {
+	DisplayName: Chip de traición balística
+	Tooltip: ""
+}
+
+MeltdownBrandChip: {
+	DisplayName: Chip de marca de fusión
+	Tooltip: ""
+}
+
+MapBlackoutChip: {
+	DisplayName: Chip de apagado del mapa
+	Tooltip: ""
+}
+
+ChannelScrambleChip: {
+	DisplayName: Chip de interferencia de canal
+	Tooltip: ""
+}
+
+StealthStripChip: {
+	DisplayName: Chip de despojo de sigilo
+	Tooltip: ""
+}
+
+CooldownInjectChip: {
+	DisplayName: Chip de inyección de enfriamiento
+	Tooltip: ""
+}
+
+CyberwareOfflineChip: {
+	DisplayName: Chip de desconexión de ciberimplantes
+	Tooltip: ""
+}
+
+
+
 Mewtwo: {
 	DisplayName: Chip Supersueño
 	Tooltip: "Úsalo para entrar al Supersueño"
@@ -1909,7 +3226,12 @@ Mewtwo: {
 
 RapidBarrelModule: {
 	DisplayName: Cañón rápido
-	Tooltip: El resorte de retroceso hiper-extendido genera impulsos intensos a costa de la estabilidad y la potencia por disparo
+	Tooltip:
+		'''
+		El fuego sostenido aumenta la temperatura del cañón: cuanto más caliente está, más rápido dispara, lanzando rayos al rojo vivo hasta alcanzar una incandescencia blanca que desprende cenizas fundidas
+        Al llegar al límite del indicador, se activa una válvula de sobrecalentamiento durante varios segundos: aplica una cadencia de fuego máxima sin coste de maná, con vapor saliendo a borbotones por la boca del cañón bajo el sonido de una alarma estridente
+		A continuación se produce un enfriamiento forzado con una cadencia de disparo muy reducida; el calor se disipa lentamente mientras se mantiene el fuego: controla el calor, mantente en el límite.
+		'''
 }
 
 FocusBarrelModule: {
@@ -1922,7 +3244,7 @@ PrecisionOpticModule: {
 	Tooltip:
 		'''
 		Juicio calibrado: elimina toda la dispersión; los impactos consecutivos sin fallos aumentan la calibración
-		Al alcanzar diez acumulaciones, dispara un rayo de juicio perforante con crítico garantizado; si falla un rayo, se reinicia la calibración
+		Al alcanzar 15 acumulaciones, dispara un rayo de juicio perforante con crítico garantizado; si falla un rayo, se reinicia la calibración
 		'''
 }
 
@@ -1937,7 +3259,12 @@ OverloadCoreModule: {
 
 SteadyStockModule: {
 	DisplayName: Culata estable
-	Tooltip: La culata compuesta de alta resistencia absorbe el retroceso, a cambio de sacrificar algo de cadencia de tiro a cambio de un mayor daño por disparo
+	Tooltip:
+		'''
+		Las pausas entre disparos cargan un condensador de voltaje, que se muestra en un indicador situado sobre tu cabeza; al disparar, este se descarga para potenciar toda la ráfaga
+		Una descarga completa añade perforación y filigrana de voltaje, pero la carga completa solo se mantiene durante un breve lapso antes de descarizarse por completo: los disparos deliberados y mesurados son los mejores, mientras que mantener apretado el gatillo apenas carga nada
+		En modo láser, al activar el rayo se descarga la carga almacenada, lo que provoca una breve oleada de daño de eco
+		'''
 }
 
 HarmonyGripModule: {
@@ -1951,7 +3278,13 @@ HarmonyGripModule: {
 
 ResonanceFrameModule: {
 	DisplayName: Marco de resonancia
-	Tooltip: El marco con armazón armónico superpuesto emite un rayo adicional, lo que intensifica la ráfaga
+	Tooltip:
+		'''
+		Metrónomo de onda estacionaria: cuenta tus disparos; cada cuarto disparo se convierte en un rayo rítmico resonante —más denso, más potente y capaz de atravesar un objetivo adicional—.
+		Al impactar, el rayo rítmico genera una onda oscilatoria en forma de anillo que inflige daño de área y empuja suavemente a los enemigos hacia fuera.
+		Mantener el ritmo acumula tempo para potenciar los siguientes golpes; si se hace una pausa demasiado larga, el tempo se reinicia
+		En modo láser, la columna pulsa a un ritmo fijo; los golpes que impactan dentro de la ventana rítmica también desatan la onda
+		'''
 }
 
 AdaptiveOpticModule: {
@@ -1983,7 +3316,12 @@ BalancedGripModule: {
 
 CapacitorBankModule: {
 	DisplayName: Banco de condensadores
-	Tooltip: Una densa pila de condensadores completa el orbe en un ciclo mucho más corto, pero reduce su energía de lanzamiento
+	Tooltip:
+		'''
+		La carga ilumina una rejilla de seis celdas de condensador situada en lo alto, una a una, a medida que se va llenando el orbe
+		Una vez que el orbe sale disparado, la rejilla se queda atrás y se descarga celda a celda, lanzando arcos de alimentación hacia el orbe en vuelo
+		Cada arco que impacta aporta daño adicional y aumenta el radio de explosión del orbe: cuanto más lejos vuela, más fuerte es el impacto
+		'''
 }
 
 CrystalGripModule: {
@@ -1993,12 +3331,22 @@ CrystalGripModule: {
 
 EfficientGripModule: {
 	DisplayName: Agarre eficaz
-	Tooltip: El agarre ergonómico de calidad industrial optimiza tanto el consumo de energía como la cadencia de disparo
+	Tooltip:
+		'''
+		Protocolo Bucle sin pérdidas: los impactos de los rayos y el láser recuperan energía del coste de maná de cada disparo, condensando las células de reciclaje que orbitan a tu alrededor.
+        Cuando alcances las ocho células, tu próximo clic izquierdo se convertirá en un "Tiro sin pérdidas": se te reembolsará todo el maná y cada célula inundará la boca del cañón para potenciar esa ráfaga
+        En modo láser, el "Tiro sin pérdidas" descarga todas las células en tu cursor, detonando la energía recuperada
+		'''
 }
 
 HeavyBarrelModule: {
 	DisplayName: Cañón pesado
-	Tooltip: El estriado reforzado potencia la dispersión y la cadencia, convirtiendo cada disparo en un golpe contundente
+	Tooltip:
+		'''
+		El estriado reforzado aplasta la dispersión y la cadencia; cada disparo impacta como una profunda hendidura
+		Los impactos del rayo y del láser en el mismo objetivo tallan muescas; la cuarta muesca asesta un mazazo demoledor
+		El mazazo inflige un golpe crítico garantizado, cuya intensidad se calcula en función de tu hendidura más profunda, y rompe temporalmente la armadura del objetivo (la ruptura solo beneficia a tus propios impactos)
+		'''
 }
 
 HighVoltageCoreModule: {
@@ -2048,7 +3396,11 @@ LightStockModule: {
 
 MultiCellFrameModule: {
 	DisplayName: Marco multicelular
-	Tooltip: Las celdas de enfriamiento paralelas emiten dos rayos a la vez, lo que amplía la cobertura a costa de la potencia de daño por rayo
+	Tooltip:
+		'''
+		Protocolo de alimentación de la matriz: despliega una matriz energética de seis celdas a tu alrededor; cada ráfaga que impacta carga una celda, mientras que el láser de prisma se carga más lentamente
+        Una vez que las seis celdas están iluminadas, la matriz se activa y dispara una salva de seis rayos autoguiados contra el objetivo desde las posiciones de las celdas; a continuación, se vacía y se bloquea brevemente para enfriarse
+		'''
 }
 
 PlasmaInjectorModule: {
@@ -2071,17 +3423,36 @@ QuantumFrameModule: {
 
 ScattershotBarrelModule: {
 	DisplayName: Cañón de dispersión
-	Tooltip: El cañón fracturado divide cada disparo en una ráfaga de rayos, lo que amplía considerablemente el alcance pero reduce drásticamente el daño por rayo
+	Tooltip:
+		'''
+		El cañón fracturado divide cada disparo en una ráfaga de rayos de corto alcance; 
+		al impactar por primera vez o al final de su trayectoria, cada rayo se fragmenta en un cono de fragmentos de luz cristalina
+		Los fragmentos nunca alcanzan su objetivo y su daño disminuye drásticamente con la distancia: una ráfaga a quemarropa clava todo el grupo en un solo objetivo, 
+		mientras que los disparos lejanos solo rozan
+		La detonación del orbe de carga también provoca una explosión de fragmentos de gran tamaño a lo largo de su trayectoria de vuelo
+		'''
 }
 
 ThermalOpticModule: {
 	DisplayName: Visor térmico
-	Tooltip: El bloqueo por infrarrojos hace que los rayos se adhieran a su objetivo, lo que potencia tanto la precisión como las bonificaciones por golpes críticos
+	Tooltip: 
+		'''
+		Proporciona marcas térmicas a los objetivos, calcinando a la presa hasta que pasa de un rojo hierro a la incandescencia en la visión térmica; 
+		a máxima potencia, se activa el bloqueo al rojo vivo,  y los rayos se clavan con fuerza en ese objetivo con un bonus de crítico y un efecto abrasador sostenido
+		'''
 }
 
 VolatileFrameModule: {
 	DisplayName: Marco volátil
-	Tooltip: La rejilla de refrigeración overclockeada aporta un rayo adicional y un aumento de la probabilidad de crítico, mientras que la regeneración de maná y el alcance se disparan
+	Tooltip:
+		'''
+		El campo de contención del armazón se desestabiliza: cada rayo nace con una mutación caótica aleatoria, 
+		marcada por un efecto de interferencia superpuesto en su color de mutación
+		Fisión (cian) se bifurca en pleno vuelo; Sobrecarga (rojo) duplica el daño con una trayectoria frenética; 
+		Inestable (naranja) detona al primer impacto; Aberrante (morado) se desvía hacia el enemigo más cercano
+		En modo láser, el campo se intensifica periódicamente: las intensificaciones de Sobrecarga provocan daño adicional, 
+		mientras que las de Inestable detonan tras acumular varios impactos
+		'''
 }
 
 NovaBarrelModule: {
@@ -2209,7 +3580,15 @@ ScrambleFieldModule: {
 
 BraceStockModule: {
 	DisplayName: Culata de soporte
-	Tooltip: Una robusta abrazadera estabilizadora elimina por completo la dispersión y amplía el alcance del haz, a cambio de sacrificar ligeramente la cadencia de tiro a cambio de una precisión milimétrica
+	Tooltip:
+		'''
+		Si te quedas quieto sobre terreno firme durante aproximadamente un segundo, se despliega automáticamente un trípode hidráulico que te fija en modo torreta
+		Mientras está desplegado: los rayos no se dispersan, su alcance y velocidad aumentan considerablemente, obtienen penetración adicional 
+		y estabilización balística, además de un +8% de probabilidad de golpe crítico
+		Si te mueves o te alejas del suelo, el equipo se pliega al instante; volver a desplegarlo en un plazo de 8 segundos mantiene el sistema hidráulico en funcionamiento 
+		y es mucho más rápido
+		Llevarlo equipado de serie otorga una dispersión del -20% y una velocidad de ataque del -5%
+		'''
 }
 
 LaunchStockModule: {
@@ -2306,9 +3685,10 @@ SniperOpticModule: {
 	DisplayName: Visor de francotirador
 	Tooltip:
 		'''
-		Los colimadores magnéticos aumentan considerablemente la velocidad, el alcance y el daño por impacto de los proyectiles
-		A cambio de una cadencia de disparo muy reducida y una capacidad de seguimiento prácticamente nula
-		Se recomienda combinarlos con el Cañón hipersónico para ataques a muy larga distancia
+		Si mantienes el disparo con el punto de mira fijo, se activa el bloqueo; una línea guía de francotirador aparece gradualmente desde la boca del cañón
+		Una vez cargado, tu siguiente disparo se convierte en un "Rayo perforador del cielo": provoca daño masivo, perforación total, e impacto instantáneo
+		Disparar restablece el bloqueo; mover bruscamente la mira agota el progreso, aunque moverse con libertad no lo hace
+		La velocidad y alcance del rayo es mejorado, a cambio de una cadencia de disparo más lenta y una capacidad de seguimiento reducida a cero
 		'''
 }
 
@@ -2342,7 +3722,15 @@ DarkMatterCoreModule: {
 
 ErgonomicStockModule: {
 	DisplayName: Culata ergonómica
-	Tooltip: Su diseño ergonómico de precisión reduce considerablemente el consumo de maná, con ligeras mejoras en la cadencia de disparo y la precisión
+	Tooltip:
+		'''
+		La culata se adapta a tus manos: el fuego sostenido sobre un objetivo (o más o menos en la misma dirección) desarrolla la memoria muscular
+		Los niveles de destreza desbloquean beneficios crecientes: una dispersión menor, luego una cadencia de tiro más rápida y, 
+		finalmente, la Unión Arma-Cuerpo con la barra al máximo.
+		En el nivel de Unión, los impactos en el objetivo memorizado te devuelven un poco de maná, los rayos obtienen una corrección de puntería adicional 
+		y unas imágenes residuales rítmicas te siguen a ti y al arma
+		Cambiar de objetivo o dejar de disparar hace que la memoria se desvanezca rápidamente.
+		'''
 }
 
 ExtenderStockModule: {
@@ -2350,7 +3738,10 @@ ExtenderStockModule: {
 	Tooltip:
 		'''
 		Un riel ampliado proporciona a los rayos mayor alcance y velocidad de vuelo con un coste de daño mínimo
-		Combínalo con el Visor de francotirador para obtener una cobertura de largo alcance extrema
+		Corte terminal: una vez que el rayo ha recorrido una distancia suficiente, su energía residual se despliega lateralmente en el mismo sitio, 
+		formando una hoja de luz perpendicular a su trayectoria, que barre un área en forma de abanico para infligir daño final
+		Los rayos que se extinguen prematuramente por agotamiento de la penetración se convierten en una hoja más pequeña, cuyo tamaño varía en función de la distancia recorrida; las muertes a quemarropa no activan nada.
+		En modo láser, mantén pulsado el rayo brevemente y, a continuación, suelta la tecla de ataque para realizar un corte transversal en el punto del cursor sobre la columna
 		'''
 }
 
@@ -2358,8 +3749,9 @@ StormStockModule: {
 	DisplayName: Culata tormentosa
 	Tooltip:
 		'''
-		Los resortes de retroceso de alta densidad llevan la cadencia de tiro y el número de disparos al límite, a costa del daño por impacto
-		Combínalo con el Cañón de dispersión para lograr una cobertura total del terreno
+		El fuego continuo crea un campo de tormenta arremolinado a tu alrededor que se disipa cuando dejas de disparar
+		Los proyectiles hostiles que se encuentran dentro del campo son desviados por el ciclón, describiendo una trayectoria curva a tu alrededor
+		Cuando se llena el medidor de tormenta, un rayo cae desde arriba sobre los enemigos que se encuentran dentro del campo
 		'''
 }
 
@@ -2669,7 +4061,8 @@ ArchiveFrameModule: {
 CWRItem: {
 	TemperatureText: Temperatura de combustión
 	InternalStoredEnergy: Energía alamacenada
-	DeathModeItemText: Modo muerte
+	BrutalWorldItemText: Exclusivo del Mundo Cruel
+	BrutalRelicSeriesText: Reliquia cruel · exclusivo del Mundo Cruel
 	LegendItemUpgradeDisable:
 		'''
 		Esta arma legendaria no se puede mejorar en el mundo actual.
@@ -2680,7 +4073,8 @@ CWRItem: {
 	CWRItem: {
 		TemperatureText: Temperatura de combustión
 		InternalStoredEnergy:Energía alamacenada
-		DeathModeItemText: Modo muerte
+		BrutalWorldItemText: Exclusivo del Mundo Cruel
+		BrutalRelicSeriesText: Reliquia cruel · exclusivo del Mundo Cruel
 		LegendItemUpgradeDisable:
 			'''
 			Esta arma legendaria no se puede mejorar en el mundo actual.
@@ -2704,8 +4098,8 @@ GraniteTome: {
 	DisplayName: Libro de granito
 	Tooltip:
 		'''
-		Conjura un orbe de energía granítica que se desplaza lentamente y se dirige hacia su objetivo
-		Al impactar, se fragmenta en cristales que persiguen a su objetivo
+		Recita un conjuro para reunir tres partículas de carga y, a continuación, lanza un abanico de tres orbes de energía de granito que se dirigen lentamente hacia el objetivo
+		Al impactar, los orbes se hacen añicos y se convierten en fragmentos de cristal que persiguen al objetivo.
 		'''
 }
 
@@ -2713,8 +4107,9 @@ GraniteFlower: {
 	DisplayName: Floración de granito
 	Tooltip:
 		'''
-		Lanza una semilla de cristal que florece convertida en una flor de energía persistente
-		La flor palpita varias veces, esparciendo pétalos de cristal por todas partes
+		Lanza una semilla de cristal que florece y se convierte en una flor de energía persistente allí donde cae
+		La flor late tres veces, lanzando pétalos de cristal al enemigo más cercano
+		Se marchita al romperse todos sus pétalos, lanzando fragmentos de cristal en todas direcciones
 		'''
 }
 
@@ -2722,8 +4117,9 @@ GraniteThrowingKnife: {
 	DisplayName: Cuchillo arrojadizo de granito
 	Tooltip:
 		'''
-		Lanza un cuchillo perforador que deja tras de sí una estela de energía cristalina
-		Se hace añicos en fragmentos de cristal al impactar por última vez o contra el terreno
+		Lanza un cuchillo perforante que traza un arco azul tan afilado como una navaja
+		Al impactar en un enemigo, se propaga una cadena de rayos en miniatura hacia otro enemigo cercano
+		Se hace añicos en fragmentos de cristal al realizar su último impacto o al chocar contra el terreno
 		'''
 }
 
@@ -2732,7 +4128,8 @@ GraniteWalkingBoots: {
 	Tooltip:
 		'''
 		Aumenta considerablemente la velocidad al correr y la aceleración
-		Emites chispas azules a toda velocidad
+		Las plantas de los pies se llenan de electricidad en el instante en que alcanzas la velocidad máxima
+		A toda velocidad, las chispas crepitan bajo tus pies y unas estelas azules se prolongan tras de ti
 		'''
 }
 
@@ -2740,9 +4137,10 @@ MarbleClub: {
 	DisplayName: Garrote de mármol
 	Tooltip:
 		'''
-		Hace un golpe lento y contundente con un fuerte empuje hacia atrás
-		Puede petrificar a los enemigos, ralentizándolos momentáneamente
-		El primer impacto de cada golpe desata una onda de choque de mármol
+		Hace un golpe descendente lento y aplastante con un enorme empuje hacia atrás
+		Los impactos siempre petrifican brevemente a los enemigos, dejándolos inmovilizados y lentos
+		Al golpear el suelo, se desata una onda de choque de mármol a plena potencia y una oleada de polvo
+		Los golpes en el aire solo provocan una onda de choque más débil
 		'''
 }
 
@@ -2750,8 +4148,8 @@ MarbleHuntingKnife: {
 	DisplayName: Cuchillo arrojadizo de mármol
 	Tooltip:
 		'''
-		Hace lolpes cortantes y rápidos
-		Cada tercer golpe provoca un remate más amplio que lanza fragmentos de mármol
+		Hace tajos rápidos alternos
+		Cada tercer golpe hace remate más amplio, lanzándose hacia delante y esparciendo fragmentos de mármol
 		'''
 }
 
@@ -2760,7 +4158,8 @@ MarbleDisc: {
 	Tooltip:
 		'''
 		Lanza un disco giratorio que rebota entre los enemigos y las paredes
-		y luego vuelve volando a tu mano; pueden volar hasta dos a la vez
+		Cada rebote contra un nuevo objetivo dora el disco, lo que aumenta su daño en un 10%, hasta un máximo del 30%
+		Una vez agotados los rebotes, vuelve volando a tu mano; pueden volar hasta dos a la vez
 		'''
 }
 
@@ -2768,9 +4167,9 @@ MarblePebble: {
 	DisplayName: Guijarro de mármol
 	Tooltip:
 		'''
-		Lanza una piedra de honda que no se detiene, es rápida y tiene una tendencia a infligir golpes críticos
-		Inflige un daño mucho mayor a los enemigos con mucha vida
-		Rebota una vez en el suelo
+		Lanza una piedra con una velocidad infinita que rebota una vez en el suelo
+		Inflige un daño mucho mayor a los enemigos con mucha vida máxima
+		Al impactar contra un enemigo colosal, estalla en una luz dorada y produce un estruendo capaz de hacer vibrar las rocas
 		'''
 }
 
@@ -2778,29 +4177,1182 @@ MarbleShield: {
 	DisplayName: Égida de mármol
 	Tooltip:
 		'''
-		Aumenta la defensa y la resistencia al empuje
-		Mantiene un escudo de piedra regenerativo que absorbe los golpes recibidos y se hace añicos
-		haz un bloqueo perfecto para devuelver los proyectiles
+		Aumenta ligeramente el empuje hacia atrás en los ataques cuerpo a cuerpo
+		Tres fragmentos de mármol que giran en órbita forman una guardia de piedra, que absorbe un golpe entrante y se hace añicos cuando está lista
+		Pulsa [KEY] para levantar la guardia: un bloqueo perfecto anula el golpe, aplasta los proyectiles cercanos y lanza de vuelta las cuchillas de piedra
+		Un bloqueo perfecto otorga un aumento del 10% en el daño cuerpo a cuerpo durante 5 segundos
 		'''
 }
 
 MarbleBalloon: {
 	DisplayName: Globo de mármol
-	Tooltip: Otorga un segundo salto potente
+	Tooltip:
+		'''
+		Pulsa Abajo mientras estás en el aire para realizar un aterrizaje en picado; cuanto más larga sea la caída, 
+		más fuerte y amplia será la onda de choque del aterrizaje
+		Anula el daño por caída
+		'''
 }
 
 MarbleinaBottle: {
 	DisplayName: Nube de mármol en una botella
-	Tooltip:
-		'''
-		Permite realizar un segundo salto potente
-		Pulsa "Abajo" mientras estás en el aire para realizar un salto con impacto, lo que genera una onda de choque al aterrizar
-		Anula el daño por caída
-		'''
+	Tooltip: Otorga un segundo salto potente y enérgico; mantén pulsado Saltar para elevarte más alto
 }
 
 TestItem: {
 	DisplayName: Ítem de pruebas
 	Tooltip: ""
+}
+
+OniMeiRubbingHigekiri: {
+	DisplayName: Higekiri
+	Tooltip: Wounded foes take far more, and a personal kill refunds stance; weapon damage -2%
+	Origin: The night of the clan's test cut, this blade took the head and the beard beneath the chin in one stroke — the whiskers were found still clinging to the edge. The old name Higekiri, the Beard-Cutter, was earned that night
+	Power:
+		'''
+		Beard-Cutter: once a foe drops below 35% life, hits from the blade itself start scaling with the wound
+		The thinner its life, the bigger the bonus: up to +60% on regular foes, up to +45% on bosses
+		Finishing it yourself also refunds 8 stance, once per action
+		'''
+	Burden: Weapon damage -2%. While a foe is still healthy, this edge is duller than the original name
+}
+
+OniKeikoRune: {
+	DisplayName: Keiko Rune
+	Tooltip:
+		'''
+		Use it to open the Onikiri lesson from the beginning, or use it again mid-lesson to put the lesson away
+		Left with you when the opening lesson is declined; the rune is not consumed and may be used again
+		'''
+	NeedBlade: Onikiri is not in your bag, so the rune has no lesson to open
+	Closed: The lesson is put away; use the rune again to reopen
+	NotNow: Something else holds the stage right now
+}
+
+OniMeiRubbingOnikiri: {
+	DisplayName: Onikiri
+	Tooltip: The original inscription. Nothing granted, nothing charged
+	Origin: Watanabe no Tsuna carried it at the bridge of Ichijo-Modoribashi and cut an oni's arm clean off; the demon fled and never dared return for it. A blade that had cut an oni was named Onikiri for the feat, and the name has stayed nailed to the tang ever since
+	Power: The original inscription. Everything this blade already has stays exactly as it is
+	Burden: None
+}
+
+OniMeiRubbingShishinoko: {
+	DisplayName: Shishi-no-ko
+	Tooltip: Land all five beats and the fifth adds two crossing waves; beat interval +2%
+	Origin: One night, left by its master's pillow, the blade roared on its own — a lion's cry, heard through the whole house. The master renamed it Shishi-no-ko, the Lion's Cub, and set the name in gold inlay to give that one roar its due
+	Power:
+		'''
+		Lion's Roar: run all five combo beats through without a dash or a big art cutting in, and the fifth beat closes like a lion's jaws
+		Two waves cross out of it, each for 22% of a blade hit
+		'''
+	Burden: Combo beat interval +2%. A roar has to be drawn in first, so the blade runs a touch slower
+}
+
+OniMeiRubbingTomokiri: {
+	DisplayName: Tomokiri
+	Tooltip: Dash-cancelling a combo leaves a Guilt slash behind; damage taken +6% while held
+	Origin: Two treasured blades of the clan were tested edge against edge, and this one cut its companion clean in two. The fault was chiseled in as its name — Tomokiri, the Friend-Cutter — and its temper has run violent ever since
+	Power:
+		'''
+		Guilt-Echo: when a Kamui flash step cuts your combo short, the interrupted swing stays behind
+		It bites down on its own a moment later for 35% of a blade hit
+		'''
+	Burden:
+		'''
+		While you hold this blade, damage you take is +6%
+		Every echo adds one layer of Guilt, up to three, and each layer makes your next dash cost 4 more vigor
+		Land the Zanshin strike after a dash and the whole debt is paid off at once
+		'''
+}
+
+OniMeiRubbingKazehi: {
+	DisplayName: Kaze-hi
+	Tooltip: Dashes cost 15% less vigor and Sakura Flight 20% less; ink brand damage -20%
+	Origin: The edge-setter cut this groove long and straight, calling it a lane left open for the wind. Swing, and the wind arrives first — by the time you hear it, the blade is already back
+	Power: Wind-Rider: Kamui flash step vigor cost -15%, Sakura Flight drain -20%
+	Burden: Ink brands left by dashes deal -20% damage. This groove was cut for lightness, not for slaughter
+}
+
+OniMeiRubbingChihi: {
+	DisplayName: Chi-hi
+	Tooltip: Landing hits gives vigor back; natural regen -35%
+	Origin: Other grooves are opened to lighten the blade; not this one. The edge-setter was blunt when he handed the sword over: this channel is for blood — the faster it runs, the faster your breath comes back
+	Power:
+		'''
+		Bloodletting: the first hit of each combo beat returns 1 extra vigor
+		Every Zanshin strike after a dash returns 4 extra
+		'''
+	Burden: Natural regen -35%, and you wait 0.3s longer before it starts back up after spending. No blood on the edge, little breath returned
+}
+
+OniMeiRubbingFudo: {
+	DisplayName: Fudo
+	Tooltip: Take a hit mid-art and spend stance to soften it; stance gain -15%
+	Origin: The carver followed the brushwork of the seed syllable Kan and brought the Immovable One, flames at his back, onto the side of the blade. This deity's whole office is steadiness: whatever comes, he sits unmoved
+	Power:
+		'''
+		Immovable: get hit during a Zanshin strike, Annihilating Flash, or Finale Slash, the arts you cannot pull out of, and the Immovable One takes it for you
+		It spends 20 stance, leaves that hit at 65% damage and 25% knockback, then rests 2.5s
+		'''
+	Burden: Everyday stance gain -15%, since the guarding strength is skimmed off your build-up. Dismemberment backlash is never shielded
+}
+
+OniMeiRubbingKurikara: {
+	DisplayName: Kurikara
+	Tooltip: An execution banks three dragonfire layers, one spent per full combo; vigor cap -10%
+	Origin: Carved on the blade is Kurikara the dragon king: a black dragon coiled around a sword, jaws open to swallow the point. It is an old subject of blade carving, with gold still set in the seams of the scales
+	Power:
+		'''
+		Dragon-Coil: after an execution the blade lights three layers of dragonfire, good for ten seconds
+		Every time you finish a full five-beat combo, the fifth beat burns one layer into a coiling slash for 50% of a blade hit
+		'''
+	Burden: Vigor cap -10%. Where the dragon coils, the breath runs narrow
+}
+
+OniMeiRubbingTessetsu: {
+	DisplayName: Tessetsu
+	Tooltip: First hit of each beat deals +25% to steel and machines; weapon damage -10%
+	Origin: Someone inspected the blade and sneered: big name, edge like a length of raw iron. The smith took no offense and chiseled the heckle into the tang as it was — raw iron, then; iron against iron shows the true work
+	Power: Iron-Cut: the first hit of each combo beat deals +25% damage to steel and machine foes, the ones that throw sparks when you cut them
+	Burden: Weapon damage -10%. On flesh it really does feel like a length of dull iron
+}
+
+OniMeiRubbingKyushu: {
+	DisplayName: Kyushu
+	Tooltip: Heads only, and wounded heads harder than Higekiri manages; weapon damage -3%
+	Origin: Some blades take a new name for every fine head they cut, and enjoy the parade each time. This inscription's bearer wanted none of it: heads fall as before, the name stays as before — a blade that cuts clean needs no new name to frighten anyone
+	Power:
+		'''
+		Head-Hunt: the bonus only counts heads, or foes that have no separate segments to begin with
+		Once it drops below 35% life your hits start scaling with the wound, and the thinner its life the bigger the bonus
+		Up to +85% on regular foes, up to +60% on bosses
+		'''
+	Burden: Weapon damage -3%. Bodies, tails, and other segments do not count as a head
+}
+
+OniMeiRubbingIkiai: {
+	DisplayName: Ikiai
+	Tooltip: A full combo's fifth beat throws a sword arc along your aim; beat interval +4%
+	Origin: Old swordsmen say that in a long standoff the two sides' breathing locks together, and whoever closes that breath first lands first. This inscription records the craft: hold it in, match the beat, drop the blade
+	Power: Breath-Wave: finish a full five-beat combo and the fifth beat throws a curved sword arc along your aim for 55% of a blade hit, cutting up to three foes before it breaks up
+	Burden: Combo beat interval +4%
+}
+
+OniMeiRubbingKyoko: {
+	DisplayName: Kyoko
+	Tooltip: Back off to bank a cut, then close in and it lands harder; hammering up close blurs your focus
+	Origin: A blade tester roared into an empty valley and no echo came back — with no one around, the whole breath pressed itself back into the blade. This carving records that pent-up cry
+	Power:
+		'''
+		Hollow-Roar: keep 16 tiles clear of enemies for 1.5s and the blade banks a cut for you
+		Your next hit within 16 tiles deals +25%; hits landed further out do not spend it, so the banked cut keeps
+		When the blade idles it rings on its own: 1.5s without landing a hit, or with nothing near you, it slows foes within 20 tiles for 0.4s every 1.5s
+		'''
+	Burden: Four close-range hits inside 0.6s blur your focus for 0.4s, and close-range damage drops 5% for that window
+}
+
+OniMeiRubbingKarikiri: {
+	DisplayName: Karikiri
+	Tooltip: A dash leaves a decoy that eats one hit for you; 4s before you get another
+	Origin: A student copied his master's stance ten parts in ten, and the master gave one verdict: too alike — alike enough to read false at a glance. This inscription records that false body: however well it stands, it is only a shadow that takes the blade in your stead
+	Power:
+		'''
+		False Body: starting a Kamui flash step leaves a frozen-pose decoy standing for 1.5s
+		Anything that comes at you in that window, foe or projectile, is taken by the decoy instead
+		Once it has spent itself, you wait 4s before you can leave another
+		'''
+	Burden:
+		'''
+		While the decoy stands, damage taken and dash cost are both +12%
+		For 1s after it shatters, damage taken is +18%
+		A decoy that simply runs out of time does not count as shattered
+		'''
+}
+
+OniMeiRubbingMokukiri: {
+	DisplayName: Mokukiri
+	Tooltip: Finish a paid normal dash and the next cut deals +35%; a whiff spends it too
+	Origin: The instant a flash step runs its course, everything around falls quiet. Old swordsmen know the next cut out of that silence is the heaviest. The name says it plainly: the silent cut
+	Power: Silent-Kill: for 0.75s after a paid normal flash step runs its course, your next combo swing or Zanshin strike deals +35%
+	Burden: A whiff spends it just the same, and dashing again clears it. Free execution dashes never bank it
+}
+
+OniMeiRubbingKumokiri: {
+	DisplayName: Kumo-kiri
+	Tooltip: Three cuts pin a web; closing it cuts everything inside; regen -25% while anchors stand
+	Origin: Minamoto no Raiko lay sick in bed when a tsuchigumo, disguised as a priest, came to bind him in silk. He snatched up the blade, cut the threads and wounded the beast, and the next day followed the blood trail and destroyed its nest. The blade has been called Kumo-kiri, the Spider-Cutter, ever since
+	Power:
+		'''
+		Ink-Silk: when the blade itself lands a hit, it pins a silk anchor at the cut point for 4s
+		Spread them out: the same foe gives no second anchor within 0.4s, and two anchors need roughly six tiles between them
+		The third anchor strings an ink-silk triangle that sags, then snaps toward its centre, cutting every foe it sweeps for 90% of a blade hit and binding them 1s
+		After it closes, 1.5s pass before you can weave again
+		'''
+	Burden: While any anchor still stands, natural regen -25%. An anchor left to expire wastes the cut that set it
+	DeedHint: Slay thirty arachnids — spiders, blood crawlers, sand scorpions, any eight-legged wall-crawler counts. Cut down enough and the blade learns that stench by itself
+}
+
+OniMeiRubbingOnimaru: {
+	DisplayName: Oni-maru
+	Tooltip: Stand still and the blade flies off to cut on its own; you have no blade while it is out
+	Origin: Onimaru Kunitsuna, of the Five Great Swords. Its master was tormented night after night by a small oni in his dreams, until one night the blade toppled from its stand on its own and severed the oni head carved on the brazier's leg — the nightmares ended on the spot. The man does not move; the blade moves by itself
+	Power:
+		'''
+		Self-Cut: stand nearly still for 1s and the blade goes on standby
+		From then on it spends 10 of your vigor every 1.5s to fly at a foe within 40 tiles, cut for 140% of a blade hit, and return to the sheath
+		'''
+	Burden: The blade is out of your hands for the whole flight, so no combo, no flash step, no Sakura Flight. With nothing nearby it will not launch
+	DeedHint: Hold the blade and stand dead still for ten seconds, without stepping away even when a hit lands — hold your ground, and the blade moves for you that once
+}
+
+OniMeiRubbingRaikiri: {
+	DisplayName: Rai-kiri
+	Tooltip: The fifth beat and the big arts call lightning under open sky; beat interval +6%, nothing indoors
+	Origin: Tachibana Dosetsu was sheltering under a tree when a bolt of lightning came down on his head; he drew and cut back at it, and lived. The blade has been called Raikiri, the Thunder-Cutter, ever since
+	Power:
+		'''
+		Thunder-Call: when the fifth beat, a Zanshin strike, Annihilating Flash, or Finale Slash lands and there is open sky overhead, a bolt drops from the top of the world
+		The bolt deals 70% of a blade hit, and in a thunderstorm one strike can call up to three
+		'''
+	Burden: Combo beat interval +6%, sunny days included, because the wind-up is paid either way. Blocked overhead or underground, no bolt falls
+	DeedHint: Slay a boss-tier foe in a storm under open sky, and the edge learns the bolt
+}
+
+OniMeiRubbingNuekiri: {
+	DisplayName: Nue-kiri
+	Tooltip: Finish a combo airborne and the fifth beat becomes a ground slam; no dashing for 0.7s after landing
+	Origin: A nue coiled over the palace roof at night, and Minamoto no Yorimasa's arrow brought it down out of the clouds. The finishing cut, dealt the instant it hit the ground, drove straight down along the fall — and that plunge is what this inscription remembers
+	Power:
+		'''
+		Nue-Dive: finish a full combo at least three tiles off the ground and the fifth beat stops swinging sideways, diving at the floor instead
+		The landing opens a shock ring about 12 tiles across for 120% of a blade hit, and drags nearby foes toward the impact
+		'''
+	Burden: No flash steps for about 0.7s after you land. Fought close to the ground, the fifth beat stays an ordinary fifth beat
+	DeedHint: At night, rise thirty tiles above the ground and slay a flying foe, and the blade learns that plunge
+}
+
+OniMeiRubbingKamihi: {
+	DisplayName: Kami-hi
+	Tooltip: Dashing through a foe drops a paper cutout; cutting the paper hits the foe; dashes cost more while paper stands
+	Origin: A master paper-mounter's cut leaves paper as paper and shadow as shadow. This groove studied that hand: passing through a foe, it trims their silhouette off and leaves it standing where it was — while the paper stands, the account can be settled against it
+	Power:
+		'''
+		Paper-Effigy: dashing through a foe leaves a paper cutout of it where you land, good for 7s, two on the field at most
+		Cutting that paper deals 80% of a blade hit straight to the foe itself
+		It also opens a wound on the foe for 1.5s, and your hits land 12% harder while that wound is open
+		'''
+	Burden: Dash vigor cost +12% while any effigy stands
+	DeedHint: Sever twenty omokage paper silhouettes in the Ura world, and the hand learns how paper is cut
+}
+
+OniMeiRubbingSorahi: {
+	DisplayName: Sora-hi
+	Tooltip: One extra dash off the ground and double regen; the first 0.75s after landing gives nothing back
+	Origin: The master who opened this groove kept an odd theory: breath is like people — the moment its feet touch the ground, it turns lazy. So he cut the blade featherlight, to keep you in the air a little longer; while you float, the breath comes looking for you
+	Power:
+		'''
+		Air-Groove: natural regen doubles while both feet are off the ground, and you get one extra dash
+		An air dash that runs out leaves you hovering at its endpoint for half a second
+		'''
+	Burden: Natural regen drops to zero for 0.75s after you land, and dashing on the ground costs 10% more vigor
+	DeedHint: Stay off the ground for fifteen straight seconds and land at least five blade hits meanwhile, and the groove learns to float
+}
+
+OniMeiRubbingKagamihi: {
+	DisplayName: Kagami-hi
+	Tooltip: A dash endpoint stands a paper mirror that copies your next cut; weapon damage -5%
+	Origin: Mirror polishers all know it: the figure in the glass looks synchronized, but always runs half a beat behind. The one who opened this groove wanted exactly that half beat — let the one in the mirror deal your follow-up cut. Late, but it arrives
+	Power:
+		'''
+		Mirror-Echo: the endpoint of a Kamui flash step stands a paper mirror for 2s
+		The next time you cut, the figure in the mirror repeats that same cut for 45% of a blade hit, then shatters
+		'''
+	Burden: Weapon damage -5%. The copy swings from wherever the mirror stands, so whether it connects is on you
+	DeedHint: Finish a mimic with the Zanshin strike — Calamity's counterfeit counts among the imitators too
+}
+
+OniMeiRubbingAmahi: {
+	DisplayName: Ama-hi
+	Tooltip: Sakura Flight drips ink that pools and binds where it lands; Sakura drain +15%
+	Origin: The gutter under the eaves is also called an amahi, a rain channel. The edge-setter cut this groove with the eaves in mind: rain you catch should not run off for nothing — fly on, and let it drip onto whoever waits under the blade
+	Power:
+		'''
+		Ink-Rain: while cruising in Sakura Flight, a bead of ink drops every 0.1s for 12% of a blade hit
+		Beads spread into puddles where they land, and foes that step in are bound for half a second
+		'''
+	Burden: Sakura Flight drain +15%. Carrying rain the whole way costs
+	DeedHint: Fly Sakura Flight through the rain for ten straight seconds; petals must soak through before water will stay
+}
+
+OniMeiRubbingTsuzurihi: {
+	DisplayName: Tsuzuri-hi
+	Tooltip: Ink brands from one dash cut lines between each other; a lone brand deals -30%
+	Origin: Tsuzuri is the bookbinder's stitch: one needle, one hole, and when the thread pulls tight the loose pages become a book. The one who opened this groove uses ink brands for stitch holes: string the marks together, and they close into a line
+	Power: Mark-Stitch: ink brands from the same dash all go off together and cut lines between one another, each line for 35% of a blade hit
+	Burden: A lone ink brand deals -30%. Catch only one foe per dash and this groove is a pure loss
+	DeedHint: Pierce six different foes in one dash, and the marks stitch
+}
+
+OniMeiRubbingBonsho: {
+	DisplayName: Bonsho
+	Tooltip: Hold full stance without a Finale and the blade tolls itself; half your stance buys a ring of control
+	Origin: A temple bell waits for someone to strike it; the one carved on this blade does not. The carver put it plainly: build your stance full and sit on it, and the bell will let it go for you
+	Power:
+		'''
+		Bell-Toll: hold full stance for 3s without releasing Finale Slash and the blade tolls on its own
+		Foes within 30 tiles each take 60% of a blade hit and are bound 1.5s, and your stance drops to 50
+		'''
+	Burden: Once the bell rings, that Finale is gone. Full stance forces you to pick one
+	DeedHint: Bring a boss down without using Annihilating Flash or Finale Slash the whole fight — knock the bell down just like that
+}
+
+OniMeiRubbingHannya: {
+	DisplayName: Hannya
+	Tooltip: Drop low and the mask turns demon: heavier hits and lifesteal; frail while it is out, duller before it turns
+	Origin: The hannya mask of Noh plays the instant a woman's grudge turns her face into a demon's. The carver set that mask into the steel: push a person to the very edge, and the face turns over on its own
+	Power:
+		'''
+		Mask-Shift: below 35% of your own life the mask turns demon, blade damage +20%, and every hit restores 0.5% of your max life
+		While the demon face is out, every third hit brings up a mask that bites for 50% of a blade hit
+		'''
+	Burden: Damage taken +15% while the demon face is out. In maiden form, weapon damage -4%
+	DeedHint: Slay a boss while your own life sits below one tenth, and the mask can turn
+}
+
+OniMeiRubbingKaresansui: {
+	DisplayName: Karesansui
+	Tooltip: Plant your feet to rake a sand garden that stays put, cutting and feeding stance
+	Origin: A garden master raises mountains and seas with nothing but sand and stone — not one drop of water. The carver cut that raked pattern into the blade, saying that a swordsman who stands firm enough can rake a sand garden underfoot with his blade's edge
+	Power:
+		'''
+		Sand-Garden: stand nearly still for 1.5s and a sand field about 20 tiles across is raked at your feet, lasting 5s
+		The field cuts every half second for 18% of a blade hit
+		While you stand inside your own field, stance gain +30%
+		'''
+	Burden: You have to plant first, and moving clears what you have built up
+	DeedHint: Hold one spot for thirty seconds of combat without taking a hit, and the sand can be raked
+}
+
+OniMeiRubbingSenju: {
+	DisplayName: Senju
+	Tooltip: Six ghost arms join the Finale Slash freeze; afterwards vigor zeroes and dashing is locked 3s
+	Origin: The Thousand-Armed Kannon offers one hand to each soul it ferries. The carver cut the thousand hands into the blade and set its rule: every one the Finale sends off must have a hand there to receive them
+	Power: Thousand-Arms: during the Finale Slash freeze, six sword-bearing ghost arms rise behind you and cut with it, each for 30% of a blade hit
+	Burden: After the Finale your vigor drops to zero and you cannot flash step for 3s
+	DeedHint: Send off eight different bosses with the Finale Slash, one hand for each name
+}
+
+OniMeiRubbingKogehi: {
+	DisplayName: Koge-hi
+	Tooltip: Dashes leave up to five burns along the whole path; weapon damage -4%
+	Origin: The master who opened this groove lived by the lava shallows and had seen too many people who never watch their feet. This groove, he said, is cut for stepping clear of the heat: you run through, and the burn stays on the ground behind you — for whoever gives chase
+	Power:
+		'''
+		Scorch-Trail: a Kamui flash step leaves up to five burns spread along its full path, each burning 1.5s
+		A foe standing in one is scorched every half second for 14% of a blade hit
+		A new burn dropped within two tiles of an old one just refreshes it
+		'''
+	Burden: Weapon damage -4%; make the difference back with the burns your footwork lays down
+}
+
+OniMeiRubbingKanhi: {
+	DisplayName: Kan-hi
+	Tooltip: Let the blade go cold and natural regen runs 2.25x; dash and Sakura costs +8%
+	Origin: A long bench sits by the sword shop's door, and the master rests there listening to the street once the work is done. People must learn to rest, he says: quiet the ears, and the breath returns quicker. This groove is that bench
+	Power: Quiet-Breath: after two seconds without cutting anything, natural regen runs at 2.25x
+	Burden: Dash and Sakura Flight costs +8%. Breath earned in the quiet is repaid in motion
+}
+
+OniMeiRubbingTodohi: {
+	DisplayName: Todo-hi
+	Tooltip: Hits glue foes down for 0.6s; dashes take 0.1s longer to come back
+	Origin: This groove came out of a strange quench: the edge drags sticky through flesh, and whatever takes the cut stalls a step. The edge-setter never called it a flaw — it is the other one that sticks, not you
+	Power: Ink-Bound: a hit from the blade itself glues the foe down for 0.6s, dropping regular movement to 88% and boss movement to 96%
+	Burden: Dashes take 0.1s longer to come back around. Ink-Bound and Numbed do not stack on the same foe, only the stronger one applies
+}
+
+OniMeiRubbingShiorihi: {
+	DisplayName: Shiori-hi
+	Tooltip: Finish one foe and the edge prunes the most wounded one nearby; natural regen -10%
+	Origin: A gardener prunes by one rule: once the shears are out, take the wilted stems in the same pass and spare yourself a second trip. The one who opened this groove used to be a gardener
+	Power:
+		'''
+		Petal-Prune: when your blade finishes a foe, it looks 15 tiles out from where that foe fell
+		It picks another foe under half life, chases it down, and prunes for 25% of a blade hit
+		Finding nobody starts no cooldown; a successful prune rests 0.75s
+		'''
+	Burden: Natural regen -10%. A Zanshin strike that hits nothing costs 2 extra vigor. Kills made by the pruning blade never set off another
+}
+
+OniMeiRubbingShiohi: {
+	DisplayName: Shio-hi
+	Tooltip: Swing on the tide for vigor and a heavier Zanshin; off-beat combos come out dull
+	Origin: The edge-setter grew up by the sea and whets blades to the rhythm of the tide. The tide rises and falls, he says, and so does a man's breath: a cut made on the rising tide, the sea repays
+	Power:
+		'''
+		Tide-Beat: a tide head runs under the vigor stroke on a 0.8s cycle, and the 0.2s at its crest is the on-tide window
+		Combos started on the tide return 3 vigor on their first hit, and an on-tide Zanshin strike deals +8%
+		'''
+	Burden: Off-tide combos deal -3%. The tide is read the moment you press, so catching it on the hit does not count
+}
+
+OniMeiRubbingShibori: {
+	DisplayName: Shibori
+	Tooltip: Dashing through a foe or eating a hit mid-art numbs whatever touched you; stance gain -15%
+	Origin: A numbed hand must not let go of the grip — that is the first year of sword school. The master who cut this carving turned the lesson around: numb me by one measure, and whatever touched me goes numb by ten
+	Power:
+		'''
+		Numb-Counter: dashing through a foe numbs it outright
+		Take contact damage during an art you cannot pull out of and you may spend 15 stance to leave that hit at 85% and numb whatever landed it, then rest 1.5s
+		A numbed foe moves slower for 0.75s, down to 90% for regular foes and 98% for bosses, and its contact damage drops 10%
+		'''
+	Burden: Everyday stance gain -15%
+}
+
+OniMeiRubbingChinmei: {
+	DisplayName: Chinmei
+	Tooltip: Hostile projectile damage -12% and knockback -65%; stance gain -15%
+	Origin: Arrows and stones fill a battlefield, and one ringing of the ears is enough to panic a man. The old soldier who cut this inscription left a single line: steady yourself first, stand firm, then move — what flies at you will hurt less
+	Power: Quell: hostile projectiles that hit you deal -12% damage, and their knockback is left at 35%
+	Burden: Stance gain -15%. In a pure melee scrap this carving mostly sits idle
+}
+
+OniMeiRubbingAshidome: {
+	DisplayName: Ashidome
+	Tooltip: Plant for 0.75s and your next big art or fifth beat deals +25%
+	Origin: Every fencing master opens the first lesson the same way: stop swaying on your feet. Planted feet hold strength, and held strength gives the strike its weight. This inscription keeps that first lesson for you
+	Power: Planted-Step: stand nearly still for 0.75s to bank a cut, and your next fifth beat, Zanshin strike, Annihilating Flash, or Finale Slash deals +25%
+	Burden: The bank is spent the moment the art starts, whiff included. Moving clears it
+}
+
+OniMeiRubbingYoen: {
+	DisplayName: Yoen
+	Tooltip: Executions leave one patch of embers on the ground, never more than one; vigor cap -5%
+	Origin: After a forge is banked for the night, the warmth in the chamber keeps till morning. The edge-setter borrowed that rule for the blade: the fire is out, the heat is not
+	Power:
+		'''
+		Ember-Field: an execution leaves a field of embers at the focus, burning 3s
+		The same foe is scorched every 0.75s for 16% of a blade hit
+		There is only ever one field; another execution moves it somewhere new
+		'''
+	Burden: Vigor cap -5%. While the embers are still burning, dashes cost 10% more vigor
+}
+
+ScrapBeacon: {
+	DisplayName: Scrap Beacon
+	Tooltip:
+		'''
+		Summons the Scrap Commander at night
+		"Scrap always answers to its foreman"
+		'''
+}
+
+GaolCellKey: {
+	DisplayName: Deep Gaol Cell Key
+	Tooltip:
+		'''
+		Builds the Deep Gaol cell on the spot and seats a dormant skull on the altar (test item)
+		Approach the altar to wake it; during the fight both doorways are sealed by pale-pink energy bars
+		Defeat the Deep Gaol Wraith to snuff the cell for good; a wraith that escapes goes dormant again after a few seconds
+		"One turn of the key, and the walls remember their shape"
+		'''
+	BuiltHint: The cell has been raised. The dormant skull on the altar is waiting for you to come closer.
+}
+
+RustedGaolIrons: {
+	DisplayName: Rusted Gaol Irons
+	Tooltip:
+		'''
+		3 defense and immunity to knockback
+		Briefly boosts movement speed after taking damage
+		"The cell number inside the cuff has been worn smooth"
+		'''
+}
+
+UndrownedShackleCharm: {
+	DisplayName: Sunken Shackle Band
+	Tooltip:
+		'''
+		Water no longer slows you down; grants the ability to swim
+		Greatly extends underwater breathing time
+		"The anchor sank. The man kept breathing"
+		'''
+}
+
+GaolAnchorWeapon: {
+	DisplayName: Gaol Anchor
+	Tooltip:
+		'''
+		Hurls a great anchor; while pinned into a wall, its chain becomes a damaging line
+		"Execution tools do not retire"
+		'''
+}
+
+SumpPearl: {
+	DisplayName: Sump Pearl
+	Tooltip:
+		'''
+		A matte pearl curdled from gaol water in a convict's bones
+		The undead market accepts these
+		'''
+}
+
+FloodGalleryKey: {
+	DisplayName: Flood Gallery Key
+	Tooltip:
+		'''
+		Builds the flood gallery on the spot and seats the anchored convict (test item)
+		"The depth scale on the wall is his heartbeat chart"
+		'''
+	Placed: The Flood Gallery has been raised on the spot. To wake him, stand on the valve dais to the left and hold your ground.
+}
+
+ProofSealCharm: {
+	DisplayName: Proofing Seal
+	Tooltip:
+		'''
+		Trap projectiles deal 25% less damage and have a 15% chance to misfire
+		"Stamped goods pass every mechanism unharassed"
+		'''
+	Misfire: Misfire
+}
+
+OverseerLogger: {
+	DisplayName: Overseer's Logbook
+	Tooltip:
+		'''
+		Grants danger sense; nearby traps and mechanisms are laid bare
+		"It keeps the duty roster of every dart port"
+		'''
+}
+
+ProofingHallKey: {
+	DisplayName: Proofing Hall Key
+	Tooltip:
+		'''
+		Builds the proofing hall on the spot and hangs the dust-caked rig (test item)
+		"The inspection bell still rings"
+		'''
+	Placed: The Proofing Hall has been raised on the spot. To start the inspection, stand on the check-in dais to the left and hold still until the shift bell finishes counting.
+}
+
+WheezingWyrm: {
+	DisplayName: Wheezing Wyrm
+	Tooltip:
+		'''
+		Hold to breathe a stream of dragonfire
+		The old head has seen better days, and needs a few smoky coughs before it catches
+		Sustained breathing stokes the throat ever hotter, from dull red all the way to searing blue
+		Brighter flame burns hotter; blue flame deals the highest damage and ignites hellfire
+		"Not quite dead, just an old smoker clearing its throat"
+		'''
+}
+
+Abyssrend: {
+	DisplayName: Abyssrend
+	Tooltip:
+		'''
+		Left-click alternates tip thrusts and side cuts; each strike tears off a homing ocean undercurrent
+		Right-click stirs an abyssal undertow that drags foes ahead of you onto the pincer, then slams them into the nearby ground, detonating a cavitation burst
+		Foes caught by the slam or the burst sink into abyssal pressure, severely slowing them
+		"It remembers the sound the deep makes when it breaks things"
+		'''
+}
+
+SneezingWyrm: {
+	DisplayName: Sneezing Wyrm
+	Tooltip:
+		'''
+		Rapidly fires searing wyrmstrike rounds
+		Sustained fire stokes the barrel hotter, pushing the tracers from orange toward blue-white
+		With every gathered breath, the wyrm huffs a weaving, seeking bolt of dragonbreath down the line of fire
+		Smoke tickles the old snout into intermittent sneezes that vent thick fumes to the side
+		"Don't stand on its sneezing side"
+		'''
+}
+
+TiroFinale: {
+	DisplayName: Tiro Finale
+	Tooltip:
+		'''
+		Benefits from both ranged and magic damage bonuses
+		Firing consumes ammo and mana, weaving a golden phantom musket into the formation orbiting you with every shot
+		While you hold fire, the formation takes turns aiming at your cursor, each musket ringing once before dissolving into light
+		Right click to condense at least four phantom muskets into a great cannon and play the finale
+		"Mind your manners, and make the curtain call magnificent"
+		'''
+}
+
+Everdeep: {
+	DisplayName: Everdeep
+	Tooltip:
+		'''
+		Fires a ring of pressurized abyssal water
+		The ring pierces through foes, coasts a short way, then curls back to strike again
+		Hits build abyssal resonance, counted by the droplets orbiting the tome
+		At full resonance, a giant maelstrom erupts from the ground beneath the victim
+		"The deep does not part for you; it closes behind you"
+		'''
+}
+
+Deepclaw: {
+	DisplayName: Deepclaw
+	Tooltip:
+		'''
+		Summons an abyssal lobster to fight for you
+		The lobster lunges at enemies with snapping pincer strikes
+		Every third pincer hit, it rears back and detonates a cavitation snap
+		The snap deals area damage and drags enemies toward its center
+		"What lives below never loosens its grip"
+		'''
+}
+
+Undertow: {
+	DisplayName: Undertow
+	Tooltip:
+		'''
+		Turns any arrow into an abyssal spine
+		When a spine strikes an enemy, its wake collapses into a small cavitation bubble that bursts again
+		Hold right click to charge; release at full draw to loose a depth-pressure spine at 3x damage
+		The heavy spine pierces everything and drags enemies toward its path
+		When it finally stops, it detonates a cavitation implosion
+		"The sea does not push you away; it takes you in"
+		'''
+}
+
+TideReaper: {
+	DisplayName: Tide Reaper
+	Tooltip:
+		'''
+		Hurls a spinning abyssal scythe that boomerangs back to you
+		In flight it flings tide crescents that hunt nearby enemies
+		Right click to throw a vortex anchor: the scythe pins ahead and spins into a maelstrom
+		The maelstrom drags enemies inward and flings crescents faster before returning
+		"When the tide goes out, only bones are left on the shore"
+		'''
+}
+
+SeaShrimpShell: {
+	DisplayName: Crystal Shrimp Shell
+	Tooltip:
+		'''
+		A hardened carapace shed by the Abyssal Crystal Shrimp
+		Essential crafting material for the abyssal weapon series
+		"Hold it to your ear, and the trench still murmurs"
+		'''
+}
+
+DeepcrystalWarhelm: {
+	DisplayName: Deepcrystal Warhelm
+	Tooltip:
+		'''
+		18% increased melee damage and 10% melee critical strike chance
+		18% increased melee speed
+		"The shell's weight grew into your bones"
+		'''
+	SetBonus:
+		'''
+		18% increased melee damage, but damage taken is deepened by 10%
+		Striking foes condenses orbiting bubbles; at five they all collapse, detonating a heavy cavitation burst on the target
+		Getting hit shatters your condensed bubbles and answers with a cavitation counter-burst (short cooldown)
+		While wet, bubbles condense faster and detonate harder
+		'''
+}
+
+DeepcrystalVisor: {
+	DisplayName: Deepcrystal Visor
+	Tooltip:
+		'''
+		18% increased ranged damage and 10% ranged critical strike chance
+		30% chance to not consume ammo
+		"Through the crystal lens, the trench shines like day"
+		'''
+	SetBonus:
+		'''
+		18% increased ranged damage, but damage taken is deepened by 10%
+		Striking foes condenses orbiting bubbles; at five they all collapse into a piercing water jet toward the target
+		Getting hit shatters your condensed bubbles and answers with a cavitation counter-burst (short cooldown)
+		While wet, bubbles condense faster and detonate harder
+		'''
+}
+
+DeepcrystalCrown: {
+	DisplayName: Deepcrystal Crown
+	Tooltip:
+		'''
+		18% increased magic damage and 10% magic critical strike chance
+		Reduces mana cost by 18%
+		"A murmur of the sea is sealed in the crystals"
+		'''
+	SetBonus:
+		'''
+		18% increased magic damage, but damage taken is deepened by 10%
+		Striking foes condenses orbiting bubbles; at five they all collapse, launching three guided water bolts at the target
+		Getting hit shatters your condensed bubbles and answers with a cavitation counter-burst (short cooldown)
+		While wet, bubbles condense faster and detonate harder
+		'''
+}
+
+DeepcrystalFeelers: {
+	DisplayName: Deepcrystal Feelers
+	Tooltip:
+		'''
+		18% increased summon damage
+		Increases max minions by 2
+		"The feelers know where prey hides before you do"
+		'''
+	SetBonus:
+		'''
+		18% increased summon damage, but damage taken is deepened by 10%
+		Striking foes condenses orbiting bubbles; at five they all collapse, releasing four seeking bubbles to hunt the target
+		Getting hit shatters your condensed bubbles and answers with a cavitation counter-burst (short cooldown)
+		While wet, bubbles condense faster and detonate harder
+		'''
+}
+
+DeepcrystalBreastplate: {
+	DisplayName: Deepcrystal Breastplate
+	Tooltip:
+		'''
+		10% increased damage and 6% critical strike chance
+		"Shell traded for blade, blood traded for tide"
+		'''
+}
+
+DeepcrystalGreaves: {
+	DisplayName: Deepcrystal Greaves
+	Tooltip:
+		'''
+		15% increased movement speed, further increased while wet
+		Move freely through water
+		"Tread the waves like solid ground"
+		'''
+}
+
+SeaShrimpRelic: {
+	DisplayName: Abyssal Crystal Shrimp Relic
+	Tooltip: ""
+}
+
+FallenKingsCrown: {
+	DisplayName: Fallen King's Crown
+	Tooltip:
+		'''
+		Immunity to fall damage
+		Hold DOWN in midair to become a crown dive and plummet
+		Falling more than 25 tiles naturally also triggers the dive
+		Enemies struck mid-dive are crushed by the crown
+		Landing unleashes a gel shockwave; deeper falls hit harder, maxing out at 40 tiles
+		The shockwave fires at most once every 1.5 seconds; the crown dims while it recharges
+		The impact leaves a gel field that slows enemies inside and drains their health
+		Grappling, mounting or entering liquid cancels the dive
+		"The day the throne fell, weight itself became the verdict"
+		'''
+}
+
+BloodfogIris: {
+	DisplayName: Bloodfog Iris
+	Tooltip:
+		'''
+		8% increased critical strike chance
+		Double tap LEFT, RIGHT or UP to surge that way as blood fog, briefly invulnerable at the start
+		Surges have a 1.25 second cooldown; the pupil glow dims while it recharges
+		A surge ends in a 1.5 second ambush state: you sink into the fog and draw less attention
+		Your next strike during an ambush is a guaranteed critical hit
+		Lethal damage dissolves you into blood fog; you reform toward your cursor, briefly invulnerable and already in ambush
+		The fog rebirth can occur once every 60 seconds; for 3 seconds after reforming you take 15% more damage
+		"The fog has not settled, and the pupil has not closed"
+		'''
+}
+
+WorldEatersMaw: {
+	DisplayName: World-Eater's Maw
+	Tooltip:
+		'''
+		All your attacks add a stack of Corrosion, up to 10 stacks; lasts 6 seconds and refreshes on every hit
+		At full stacks, Corrosion strips 15 defense and sears for 20 acid damage per second
+		When a corroded enemy dies, a devouring wormling bursts from its corpse to fight for you, at most one every 2 seconds
+		Wormlings burrow and ambush nearby foes, biting for 2 stacks and splashing Corrosion around each breach
+		Up to 3 wormlings at once, each living for 7 seconds
+		"Every edge of the world is a tooth mark it left behind"
+		'''
+}
+
+MirrorheartParadox: {
+	DisplayName: Mirrorheart Paradox
+	Tooltip:
+		'''
+		A mirrored heart drifts at your side
+		While the mirrorheart is solid, the moment you take damage you swap places with it, dodging the hit with brief invulnerability
+		Heartbeat pulses burst at both swap positions, dealing 90 base damage and confusing enemies for 2.5 seconds
+		For 5 seconds after a swap, projectiles you fire are echoed by the mirrorheart at 50% damage
+		Summons, held weapons and explosives are not echoed
+		Paradox backlash: the next hit you take within 3 seconds of a swap deals 25% more damage
+		Swaps occur at most once every 25 seconds; the mirrorheart stays translucent while recharging, with an audible cue when it turns solid again
+		"In the mirror, it breaks a heartbeat before you do"
+		'''
+}
+
+SwarmVortexBeacon: {
+	DisplayName: Swarm Vortex Beacon
+	Tooltip:
+		'''
+		Hitting enemies stacks Bee Marks; at 8 stacks the target is caught in a swarm vortex
+		The vortex grinds its victim for 5 seconds, stinging 4 times per second for 18 base damage each
+		Trapped enemies are heavily slowed; bosses are only slightly slowed
+		Landing more hits on the victim extends the grip, up to 8 seconds
+		Only one vortex is kept at a time; when a new prey's marks fill up, the swarm moves over to it
+		When the victim dies, the vortex also transfers to a nearby enemy
+		Vortex stings deal 25% more damage while you carry a Hive Pack
+		Stand still and the swarm returns to you, crystallizing into a wax ward over your skin
+		The wax ward absorbs up to 30 damage and lingers for 5 seconds once you start moving
+		A shattered ward takes 3 seconds to crystallize again
+		"The Queen's beacon does not summon the swarm - it marks the next prey"
+		'''
+}
+
+SoulbindingArm: {
+	DisplayName: Soulbinding Arm
+	Tooltip:
+		'''
+		Projects a curse domain around you; enemies inside take 8% increased damage from you
+		Killing an enemy inside the domain harvests a soul, storing up to 8
+		Souls orbit you; each one blocks an enemy projectile in your place, then expires
+		Blocked projectiles turn into curseflame orbs hurled back at nearby enemies, dealing 60 base damage
+		After each block, the soul ring takes 1 second to reload
+		Once the ring is full it gathers briefly, then a spectral hand lunges at the strongest enemy nearby
+		The hand deals 300 base damage ignoring defense, scaling with your damage bonuses
+		Seized enemies take 20% increased damage from all sources for 5 seconds; regular enemies are also pinned for 1 second
+		"The severed arm still harvests souls; its five fingers have never let go"
+		'''
+}
+
+WhiteoutStormCore: {
+	DisplayName: Whiteout Storm Core
+	Tooltip:
+		'''
+		5% damage reduction; immune to Chilled, Frozen, Frostburn and Frostbite
+		Taking damage automatically detonates a whiteout storm; lasts 6 seconds, 20 second cooldown
+		The storm deals 120 base damage to nearby enemies, confusing them for 3 seconds and whiteblinding them for 6
+		Whiteblinded enemies are heavily slowed and take 10 frostbite damage per second
+		During the storm you gain an extra 30% damage reduction and knockback immunity, and the snow veil never blocks your sight
+		Boss-class enemies cannot be confused and take a greatly reduced slow
+		While running on the ground, heaves a row of ice spikes from the earth ahead every second
+		Each spike deals 45 base damage and briefly chills enemies
+		"Within the whiteout, the blizzard parts only for you"
+		'''
+}
+
+GluttonousThroat: {
+	DisplayName: Gluttonous Throat
+	Tooltip:
+		'''
+		8% of all damage you deal flows back to you as blood beads
+		Blood beads skip potion sickness, but restore at most 2% of your max life per second
+		Overflow blood splatters onto the ground; Moon Bite seals the throat, and every bead falls astray
+		Every 9 seconds a tongue of flesh seizes the farthest enemy within 68 tiles and drags it before you
+		Bitten enemies suffer Rotsaw for 5 seconds: 40 life torn per second
+		For 2.5 seconds after an enemy is dragged to you, your next strike against it deals double damage
+		The executing strike also detonates any remaining Rotsaw as a burst of bonus damage
+		Bosses cannot be dragged, but are still bitten, sawed and marked for execution
+		"The far end of the throat has no bottom"
+		'''
+}
+
+RefractionWaltz: {
+	DisplayName: Refraction Waltz
+	Tooltip:
+		'''
+		Greatly boosts aerial acceleration and turning
+		Cresting a jump, double-jumping, reversing or dashing midair condenses a refraction crystal behind you
+		Up to 6 crystals may exist at once; the oldest shatters to make room
+		Crystals link up with prism beams in the order they were danced out, closing the loop at six
+		Beam, crystal and shard damage all scale with your damage bonuses
+		Each beam slices the same enemy up to 4 times per second for 35 base damage
+		Enemies shattering a crystal take 70 base damage and are struck by shards dealing 40 each
+		Hits inflict Refraction: the target slows and your crit chance against it rises by 8%
+		"When the light-web takes shape, the one dancing to the music owns the ballroom"
+		'''
+}
+
+TwinPupilTether: {
+	DisplayName: Twin-Pupil Tether
+	Tooltip:
+		'''
+		Summons Vision and Pyrepupil, a pair of orbiting mini mechanical eyes; their damage scales with your damage bonuses
+		Vision snipes mid-range enemies with lasers: 140 base damage per shot, about one shot every 0.7 seconds
+		Pyrepupil breathes cursed flames at nearby enemies: 40 base damage per gout, five gouts per second
+		A cutting tether is always strung between the eyes, slicing the same enemy up to 4 times per second for 80 base damage
+		Cut enemies are torn open for 3 seconds, taking 25% more damage from the pair
+		The faster you move, the wider the eyes spread and the longer the tether stretches
+		Double tap Down to order a cross charge: the eyes flank your cursor, dash through each other, and detonate at the crossing point
+		The charge impact deals 380 and the crossing detonation 1100 base damage, with a 9 second cooldown
+		"A stitched gaze, and the thread that cuts everything"
+		'''
+}
+
+ProbeMatrixCore: {
+	DisplayName: Probe Matrix Core
+	Tooltip:
+		'''
+		Deploys five Destroyer probes as an escort formation that seeks enemies and fires homing lasers
+		Lasers deal 55 base damage; hits on the same target build designation, and 8 stacks call an orbital strike
+		The strike drops a piercing deathray from the sky, dealing 900 base damage per tick
+		Targets caught in the column take at most two ticks per strike, up to 1800 base damage total
+		Designation resets after each strike with a 3 second cooldown, and the impact site lingers with searing heat
+		Probes shot down by enemies rebuild after about 2.5 seconds; the formation uses no minion slots
+		"The iron serpent has fallen, yet its eyes still patrol the sky for you"
+		'''
+}
+
+OverloadCommandCore: {
+	DisplayName: Overload Command Core
+	Tooltip:
+		'''
+		Striking enemies builds ion charge: +4 per hit, Ion Overload triggers at 100
+		Stop attacking for over a second and the charge slowly drains
+		Ion Overload lasts 5 seconds, increasing attack speed by 30%
+		While overloaded, your hits arc chain lightning between nearby enemies, jumping up to 3 times
+		Each arc deals 40% of the triggering hit's damage, decaying per jump
+		Four phantom mechanical arms unfold behind you, striking in sync with your attacks
+		With a melee weapon the arms sweep, each blow dealing 24% weapon damage
+		With any other weapon the arms fire ion bolts, each dealing 20% weapon damage
+		When the overload ends, the core overheats for 3 seconds: 8% reduced attack speed and no charge gain
+		"Command authority transferred. Four arms at your service, until meltdown"
+		'''
+}
+
+BloomNovaBulb: {
+	DisplayName: Bloom Nova Bulb
+	Tooltip:
+		'''
+		+30 max life and +4 life regeneration
+		When struck, lashes thorn vines at your attacker or toward the incoming threat, at most once every 1.5 seconds
+		Vines deal 220 to 330 base damage depending on Growth, scaling with your damage bonuses
+		Snared enemies are slowed and torn for 80 damage per second; bosses are only slightly slowed
+		Snared enemies that hit you suffer thorn backlash: the full damage dealt plus 120 base damage
+		Thorn backlash triggers at most once per half second on each enemy
+		Fighting builds Growth: more vines that snare longer
+		Below 35% life, a Bloom Nova erupts: a petal shockwave of 1200 base damage sweeps and snares nearby enemies
+		The bloom instantly restores 25% of your life, greatly boosts regeneration for 6 seconds, and consumes all Growth
+		Spore fog follows you for 6 seconds afterward; enemies in the fog miss 25% of their attacks
+		Bloom Nova occurs at most once every 60 seconds
+		"Every wound waters the next bloom"
+		'''
+}
+
+SolarCoreFist: {
+	DisplayName: Solar Core Fist
+	Tooltip:
+		'''
+		Stand still for half a second to enter Stone Guard stance
+		While in stance, damage taken is reduced by 50% and you are immune to knockback
+		Each hit taken in stance grants 1 stack of Solar Charge, plus 1 extra per 100 raw damage of the blow
+		Charge caps at 24 stacks; the shell veins brighten one tier per 8 stacks
+		Holding the stance for 5 seconds forces a 2 second overheat: no damage reduction, no charge, no re-entering stance
+		Hold DOWN for half a second in stance to hurl a full-power fist toward your cursor with a larger solar nova
+		Moving also breaks the stance and throws the fist, but at 25% reduced damage
+		Throwing the fist ends the stance without overheating
+		The fist deals 500 base damage, +12.5% per stack, 2000 at full charge, scaling with your damage bonuses
+		The first enemy struck erupts in a solar nova, chaining six lava bursts to both sides
+		At 8 or more stacks, the stance radiates a scorching aura that scales with your damage bonuses
+		"The temple's sun gem still beats; the stone shell is merely its gauntlet"
+		'''
+}
+
+TidalFin: {
+	DisplayName: Tidal Fin
+	Tooltip:
+		'''
+		Press [KEY] to dash toward the cursor; press again shortly after to chain, up to two dashes
+		Every dash can be re-aimed, and you are fully invincible while dashing
+		Each dash raises a lingering tsunami wall along its path, dealing 140 base damage per hit
+		Multiple walls do not stack their hits on the same target
+		The wall shoves away and slows small hostile projectiles
+		The final dash raises a stationary tidal tornado at its endpoint, grinding for 200 base damage per hit
+		Wall and tornado damage scales with your damage bonuses
+		While it rains or you are submerged, the chain gains a third dash and all damage is boosted by 50%
+		The full chain has a 12 second cooldown
+		[c/2696A0:"The tide has not forgotten its duke"]
+		'''
+}
+
+RiteRing: {
+	DisplayName: Rite Ring
+	Tooltip:
+		'''
+		8% increased damage, +40 maximum mana, and each lit rune grants 1% more damage
+		Attacking or casting lights runes around you; at 8 runes the current rite fires automatically
+		Rites rotate in order: Mirror Rite, Moonflame Laser, Star Rite
+		Mirror Rite: conjures 3 pale mirror bodies, each firing 3 volleys of your held weapon's shots at 40% damage
+		Summon, held-style and explosive weapons cannot be mirrored; mirrors fire rune bolts instead
+		Moonflame Laser: a moon eye opens overhead and sweeps the field with a death ray
+		Star Rite: a tiny planetary ring collapses, calling down 16 falling stars upon your foes
+		Double tap Left or Right to spend 3 runes, tearing the veil for a short blink in that direction
+		"The rite began long ago, and you are standing at the circle's heart"
+		'''
+}
+
+WingsOfInterference: {
+	DisplayName: Wings of Interference
+	Tooltip:
+		'''
+		Become the wings of the Empress of Light: 3.5s of flight time by day and 4.5s by night, hold DOWN while flying to hover
+		Day form: your attack projectiles trace interference light-paths as they fly
+		When two light-paths cross, the intersection detonates a prism burst dealing 200 base damage
+		Night form: noticeably increased movement speed and longer flight time
+		At night, automatically dodge one hit, once every 48 seconds
+		At night, hostile projectiles closing in on you drag auroral trails, exposing their paths early
+		The instant dawn or dusk arrives, a screen-wide interference burst deals 1100 base damage and clears hostile projectiles
+		"Day and night interfere at the wingtip; light collapses where paths cross"
+		'''
+	FormDay: It is day now: the interference weave is deployed
+	FormNight: It is night now: swift auroral flight is engaged
+}
+
+BlackFlashSigil: {
+	DisplayName: Black Flash Sigil
+	Tooltip:
+		'''
+		Attacking awakens the sigil; a black flash tempo ring lights up on your chest
+		The instant the ring contracts to its smallest, the judgment window opens with a sharp chime
+		Hits landed within the window trigger a Black Flash: that strike deals 3x damage and always crits
+		Each Black Flash adds 1 Flash Chain stack; every stack adds another 0.25x, capped at 6 stacks for 4.5x
+		Higher chains quicken the tempo; the next window comes ever sooner
+		Letting a window pass empty, or landing hits outside it, clears every stack
+		At 4 stacks you enter Domain Sense; projectiles around you seem to slow
+		Minions act on their own; they neither follow the tempo nor break the chain
+		"When the flash turns black, the instant reigns over eternity"
+		'''
+}
+
+FrogsparkBoots: {
+	DisplayName: Frogspark Boots
+	Tooltip:
+		'''
+		Allows flight, super fast running, and steady ice skating that won't break thin ice
+		Walk on water, honey and lava, and gain immunity to the Burning debuff
+		Grants 7 seconds of lava immunity, greatly reducing lava damage afterwards
+		Increases jump speed by 48%, enables auto-jump, and greatly increases fall resistance
+		"One frog kick, and flames clear the way"
+		'''
+}
+
+CthulsparkBoots: {
+	DisplayName: Cthulspark Boots
+	Tooltip:
+		'''
+		Grants all the powers of the Frogspark Boots
+		Gain cloud, blizzard and sandstorm extra jumps, increased jump height, and immunity to fall damage
+		Double tap a direction to charge alongside the great eye, ramming foes out of the way
+		"It floats overhead, watching every step for you"
+		'''
+}
+
+NinjaCthulsparkBoots: {
+	DisplayName: Ninja Cthulspark Boots
+	Tooltip:
+		'''
+		Grants all the powers of the Cthulspark Boots
+		Grants a 10% chance to dodge attacks, and the ability to climb and slide down walls
+		Double tap a direction to perform a crimson shadow dash, faster and farther, trailing scarlet afterimages
+		The charge bashes enemies aside like the Shield of Cthulhu, granting a moment of immunity on impact
+		"The eye tied on its headband and swore never to blink again"
+		'''
+}
+
+SeaShrimpSummonItem: {
+	DisplayName: Crystallized Shrimp Bait
+	Tooltip:
+		'''
+		Summons the Abyssal Crystal Shrimp when used at the ocean
+		"Bait that sinks never comes back. Something else does."
+		'''
+}
+
+SeaShrimpTreasureBag: {
+	DisplayName: Treasure Bag (Abyssal Crystal Shrimp)
+	Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
+}
+
+SeaShrimpTestItem: {
+	DisplayName: Shrimp Observation Cage
+	Tooltip: Dev testing: summons the Abyssal Crystal Shrimp anywhere
+}
+
+BssBloomBud: {
+	DisplayName: Thorned Bloombud
+	Tooltip:
+		'''
+		Summons the Bloomsand Serpent when used on the desert surface
+		"The root of the dunes grows hungry when it blooms"
+		'''
+}
+
+FssFesterBud: {
+	DisplayName: Festered Bloombud
+	Tooltip:
+		'''
+		Summons the Festersand Serpent when used on the desert surface
+		"The bud never died. It learned to fester"
+		'''
+}
+
+BudPiercer: {
+	DisplayName: Budpiercer
+	Tooltip:
+		'''
+		Flies straight for a moment, then dips
+		Striking an enemy plants a bud that soon blooms into a ring of petals
+		Multiple daggers can stack buds on the same target
+		Sticking into the ground blooms on the spot, spraying three needles upward
+		"Under the serpent's scales, every one of them wants to bloom"
+		'''
+}
+
+Thornstring: {
+	DisplayName: Thornstring
+	Tooltip:
+		'''
+		Turns any arrow into a thorn arrow
+		Thorn arrows burst into short needles on both sides when they strike
+		Hold right click to draw fully, then release a piercing heavy thorn arrow at 2.5x damage
+		The heavy arrow blooms a ring of petals on every strike and where it lands
+		"The string is a vine, the arrow a thorn, the bow a flower that refuses to wither"
+		'''
+}
+
+BloomCaller: {
+	DisplayName: Bloomcaller
+	Tooltip:
+		'''
+		Sounds the horn to call a wildbloom sprout to fight beside you
+		The sprout hurls sinking thorns at enemies
+		After every two throws, the third attack becomes a body slam that spins into a ring of petals
+		"The horn does not command. It waters"
+		'''
+}
+
+Budcrown: {
+	DisplayName: Budcrown
+	Tooltip:
+		'''
+		Hold the attack key to whirl the head around you, release to hurl it at your cursor
+		The head sheds needles when it strikes enemies
+		Every third strike bursts into full bloom, blasting a ring of petals with heavy knockback
+		"The heaviest bud blooms the loudest"
+		'''
+}
+
+BloomTome: {
+	DisplayName: Bloomtome
+	Tooltip:
+		'''
+		Fires a budding bolt
+		The bolt blooms into a ring of petals when it strikes an enemy or the ground
+		Every fourth cast becomes a full bloom with more petals, bursting two needles upward
+		"Whichever page you open, that page blooms"
+		'''
 }
 
