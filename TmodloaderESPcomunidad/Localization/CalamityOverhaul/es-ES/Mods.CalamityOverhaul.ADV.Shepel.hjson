@@ -1,8 +1,8 @@
 ﻿CybCourseIntroDialogue: {
 	Line1: Maestro, bienvenido al nodo de entrenamiento neuronal.
 	Line2: Este es un espacio cerrado de entrenamiento
-	Line3: El SHPC es un arma inteligente muy potente. Aquí aprenderás a manejar su interfaz.
-	Line4: ¿Estás listo para conectar tu conciencia con la mía? Por favor, agarrame fuerte de la mano y empecemos.
+	Line3: El SHPC es mi armamento. Para esta lección, empiece por aprender a leer su HUD.
+	Line4: ¿Está listo para conectar tu conciencia con la mía? Por favor, agárreme fuerte de la mano y empecemos.
 }
 
 CybTutorialLead: {
@@ -10,120 +10,75 @@ CybTutorialLead: {
 	Step0_Body: Equipa y mantén la SHPC en la ranura de arma activa para desplegar el nodo central del HUD en la esquina inferior izquierda de la pantalla. 
 	Step1_Title: Nodo central
 	Step1_Body: Haz clic en el nodo central de la parte inferior izquierda para desplegar o contraer el panel de operaciones.
-	Step2_Title: CIBERDOMINIO
+	Step2_Title: Ciberdominio
 	Step2_Body:
 		'''
 		Ciberespacio: Implementar y gestionar estructuras de ciberespacio de múltiples capas.
 		Haz clic en el sector resaltado para abrir este panel.
 		'''
-	Step3_Title: MODIFICAR
+	Step3_Title: Modificar
 	Step3_Body:
 		'''
 		Módulo de modificación: Instala o desinstala piezas de modificación para el SHPC.
 		Haz clic en el sector resaltado para abrir este panel.
 		'''
-	Step4_Title: CIBERIMPLANTES
+	Step4_Title: Ciberimplantes
 	Step4_Body:
 		'''
 		Implantes cibernéticos: consulta y gestiona tus módulos de mejora corporal.
 		Haz clic en el sector resaltado para abrir esta interfaz.
 		'''
-	Step5_Title: HABLAR
+	Step5_Title: Enlace neuronal
 	Step5_Body:
 		'''
-		Enlace neuronal: Establece una comunicación directa con el SHPC para iniciar un diálogo.
+		Establece una comunicación directa con el SHPC para entablar un diálogo.
 		Haz clic en el sector resaltado para hablar con ella.
 		'''
-	Step6_Title: ENGRAMA CALIBRADO
+	Step6_Title: Calibración completada
 	Step6_Body:
 		'''
 		Se han resuelto todas las interfaces.
         Enlace neuronal estable. El SHPC está listo.
 		'''
-	AwaitingEquip: A LA ESPERA DE EQUIPO...
 	Calibrating: CALIBRANDO...
-	NextBtn: SIGUIENTE  >
-	HintStuck: SUGERENCIA: Prueba a hacer clic en el área resaltada
+	NextBtn: Omitir >
+	HintStuck: Hint: Prueba a hacer clic en la zona resaltada
 }
 
 CybCourseHackIntroDialogue: {
 	Line1: Interfaces dispuestas. Próxima fase de formación: Modo hackeo.
 	Line2: Cuando el Modo Hackeo está activo, el mundo se detiene ante tus ojos. Tómese su tiempo para elegir objetivos y ponerlos en la cola de protocolos. Tecla de acceso rápido predeterminada: {0}.
-	Line3: La unidad de prueba que tienes delante está fijada en su sitio. Pulsa {0} para acceder al Modo hackeo y, a continuación, haz clic para fijarla como objetivo.
+	Line3: El objetivo de entrenamiento que tienes delante está fijado. Pulsa {0} para activar el Modo hackeo y, a continuación, haz clic para fijarlo como objetivo.
 }
 
 HackTimeTutorialLead: {
-	HT_Step0_Title: Activar Modo hackeo
-	HT_Step1_Title: Fijar objetivo
-	HT_Step2_Title: Panel del protocolo de hackeo
-	HT_Step3_Title: Cargando protocolo
-	HT_Step4_Title: SECUENCIA DE HACKEO COMPLETADA
-	HT_Step0_Body:
-		'''
-		Pulsa {0} para entrar en el Modo hackeo.
-       El tiempo se detendrá y un filtro cibernético se superpondrá a tu visión.
-		'''
-	HT_Step1_Body:
-		'''
-		Coloca el cursor sobre el Santa-NK1 resaltado,
-		y haz clic izquierdo para seleccionarlo como objetivo de tu ataque.
-		'''
-	HT_Step2_Body:
-		'''
-		El panel de la derecha muestra los protocolos de hackeo disponibles para el objetivo.
-		Los distintos protocolos consumen cantidades variables de RAM y producen efectos diferentes.
-		'''
-	HT_Step3_Body:
-		'''
-		Haz clic en un protocolo para añadirlo a la cola de carga de la izquierda;
-		La cola ejecutará las operaciones de hackeo en orden.
-		'''
-	HT_Step4_Body:
-		'''
-		Enlace neuronal desconectado.
-		La formación sobre el protocolo Modo hackeo ha finalizado y el sistema está listo.
-		'''
-	HT_Waiting: ESPERANDO INFORMACIÓN...
-	HT_Calibrating: DESCONECTANDO...
-	HT_NextBtn: SIGUIENTE  >
-	HT_Step5_Title: Escaneando unidad
-	HT_Step6_Title: Fija el objetivo en la unidad
-	HT_Step7_Title: ESCANEO DE LA UNIDAD COMPLETADA
-	HT_Step5_Body:
-		'''
-		Hay un Generador térmico MK2 más adelante.
-		Pulsa {0} de nuevo para reactivar el Modo Hackeo.
-		'''
-	HT_Step6_Body:
-		'''
-		Pasa el cursor por encima del generador,
-		y haz clic izquierdo para fijarlo como objetivo de escaneo.
-		'''
-	HT_Step7_Body: Se ha solucionado el problema de la interfaz de exploración de unidades. El panel de la derecha muestra los protocolos de hackeo disponibles para la unidad actual.
-	HT_HintStuck: HINT: Haz clic en el botón SIGUIENTE para saltarte este paso
-	HT_KeyUnbound: N (Alternancia temporal)
-	HT_KeyHintUnbound: Sugerencia: Si la tecla del Modo hackeo no está asignada, en este tutorial puedes utilizar la tecla [N] como alternativa temporal; se recomienda asignarla en Ajustes > Controles.
+	HT_Waiting: A la espera de entrada...
+    HT_Calibrating: Desconectando...
+	HT_NextBtn: Saltar >
+    HT_HintStuck: Sugerencia: haz clic en Saltar para pasar este paso
+    HT_KeyUnbound: N (Alternar temporalmente)
+    HT_KeyHintUnbound: Sugerencia: si la tecla de acceso rápido del Modo hackeo no está asignada, puedes usar [N] para activarla temporalmente durante este tutorial; se recomienda asignarla en Ajustes > Controles.
 	HT_S00_Title: Activar Modo hackeo
-	HT_S01_Title: Fijar como objetivo a un NPC
-	HT_S02_Title: Panel del protocolo de hackeo
-	HT_S03_Title: Añadir a la cola de subida
-	HT_S04_Title: Salir de la ejecución del Modo hackeo
-	HT_S05_Title: Protocolo en progreso
-	HT_S06_Title: Volver al Modo hackeo
-	HT_S07_Title: Fijar el objetivo en la unidad
-	HT_S08_Title: Añadir protocolo a la unidad
-	HT_S09_Title: Salir de la ejecución del Modo hackeo
-	HT_S10_Title: Protocolo de la unidad en progreso
-	HT_S11_Title: Entrenamiento completado
+    HT_S01_Title: Bloquear objetivo NPC
+    HT_S02_Title: Panel de protocolo de hackeo
+    HT_S03_Title: Añadir a la cola de carga
+    HT_S04_Title: Salir del Modo hackeo para ejecutar
+    HT_S05_Title: Protocolo en curso
+    HT_S06_Title: Reactivar Modo hackeo
+	HT_S07_Title: Fijar bloque objetivo
+    HT_S08_Title: Poner en cola protocolo de bloque
+    HT_S09_Title: Salir del Modo hackeo. Tiempo de ejecución
+    HT_S10_Title: Protocolo bloque en curso
+    HT_S11_Title: Entrenamiento completado
 	HT_S00_Body:
 		'''
-		Pulsa {0} para acceder al Modo hackeo.
-		El tiempo se detendrá y un filtro cibernético cubrirá la pantalla.
+		Pulsa {0} para entrar en el Modo hackeo.
+		El tiempo se detendrá y un filtro cibernético se superpondrá a tu visión
 		'''
 	HT_S01_Body:
 		'''
-		Coloca el cursor sobre el Santa-NK1 resaltado,
-		y haz clic izquierdo para seleccionarlo como objetivo de tu hackeo.
+		Pasa el cursor por encima del objetivo de entrenamiento resaltado
+		y haz clic con el botón izquierdo para fijarlo como tu objetivo de hackeo.
 		'''
 	HT_S02_Body:
 		'''
@@ -133,49 +88,49 @@ HackTimeTutorialLead: {
 	HT_S03_Body:
 		'''
 		Haz clic en cualquier protocolo de la derecha para añadirlo a la cola de carga de la izquierda.
-		La cola solo permanecerá en espera durante el Modo hackeo y no avanzará.
+		La cola solo agrupa tareas durante el Modo hackeo; aún no las procesará.
 		'''
 	HT_S04_Body:
 		'''
-		Presiona {0} otra vez para salir del Modo hackeo,
-		para que los protocolos comiencen a cargarse y a surtir efecto en tiempo real.
+		Pulsa {0} de nuevo para salir del Modo hackeo.
+        Los protocolos comenzarán a cargarse y a surtir efecto en tiempo real.
 		'''
 	HT_S05_Body:
 		'''
 		Cargando... Observa cómo el objetivo sufre los efectos del protocolo.
-		Una vez que la cola esté vacía, pasarás a la siguiente fase.
+		La siguiente fase comenzará una vez que se haya vaciado la cola.
 		'''
 	HT_S06_Body:
 		'''
-		Hay un generador térmico MK2 en el pasillo de delante.
-		Pulsa {0} de nuevo para acceder al Modo hackeo y escanear la unidad.
+		Hay un generador térmico MK2 en la cubierta de delante.
+		Pulsa {0} de nuevo para entrar en el Modo Hackeo y escanear el objeto.
 		'''
 	HT_S07_Body:
 		'''
-		Pasa el cursor por encima del generador resaltado,
-		y haz clic izquierdo para fijarlo como objetivo de escaneo.
+		Pasa el cursor por encima del generador resaltado
+		y haz clic con el botón izquierdo para fijarlo como objetivo de escaneo.
 		'''
 	HT_S08_Body:
 		'''
-		El panel de la derecha muestra los protocolos exclusivos de las unidades.
+		El panel de la derecha muestra los protocolos exclusivos del objetivo.
 		Haz clic en cualquier protocolo para añadirlo a la cola de carga.
 		'''
 	HT_S09_Body:
 		'''
-		Presiona {0} otra vez para salir del Modo hackeo,
-		para que los protocolos comiencen a cargarse y a surtir efecto en tiempo real.
+		Pulsa {0} de nuevo para salir de modo hackeo.
+		Los protocolos se ejecutarán en tiempo real.
 		'''
 	HT_S10_Body:
 		'''
-		Cargando... Observa cómo el generador se ve afectado por los efectos del protocolo.
-		El entrenamiento habrá finalizado cuando la cola esté vacía.
+		Cargando... Observa cómo el generador sufre los efectos del protocolo.
+		El entrenamiento concluirá una vez que se haya vaciado la cola.
 		'''
 	HT_S11_Body:
 		'''
-		El entranamiento del hackeo ha concluido
-        Escanear, poner en cola, subir, ejecutar… Ya sabes cómo funciona.
+		El entrenamiento de hackeo ha finalizado.
+        Escanear, poner en cola, cargar, ejecutar: ya dominas el proceso
 		'''
-	HT_Observing: CARGANDO...
+	HT_Observing: Cargando...
 }
 
 CybCourseOutroDialogue: {
@@ -207,6 +162,14 @@ CybCourseKeyBindReminderPanel: {
 	BtnConfirm: Vale
 	BtnLater: Dejar para más tarde
 	Footer: Cualquiera de las dos opciones te sacará del Supesueño. Puedes cambiar las teclas más adelante en la configuración.
+}
+
+CybCourseWorld: {
+	BootTag: ENLACE NEURONAL · NODO SUPERSUEÑO
+	BootTitle: Conectado supersueño
+	BootSubtitle: Protocolo de entrenamiento de inmersión SHPC
+	BootStatus: Compilando el espacio de entrenamiento
+	BootBarLabel: Velocidad de sincronización
 }
 
 ShepelCyberActiveDialogue: {
@@ -629,4 +592,32 @@ ShepelYharonGift: {
     L1: Para evitar que se vea expuesto a sus picos de velocidad, he reescrito los módulos de predicción subyacentes en pleno combate.
 	L2: Ahora, la velocidad inicial de su arma y los tiempos de respuesta se han mejorado significativamente, lo suficiente como para superar su velocidad máxima.
     L3: Para mantener siempre su ritmo, mis sistemas están preparados para superar sus propios límites en cualquier momento.
+}
+
+FirstMetShepel: {
+	Line1: ¡Maestro! ¡Me alegro muchísimo de volver a verle!
+	Choice1Text: Te has equivocado de persona, ¿no?
+	Choice2Text: ...Cuánto tiempo sin verte.
+	Choice1Response: ...Sí. Mientras sea usted, estoy dispuesta a equivocarme siempre
+	Choice1Silence: ......
+	CybCourseOfferLine: El programa Supesueño se ha cargado correctamente. Maestro, ¿desea conectarse ahora al espacio Supersueño para conocer el Modo Hackeo y los protocolos de funcionamiento del arma SHPC?
+	CybCourseAcceptText: Vamos ya.
+	CybCourseDeclineText: Ahora mismo no.
+	CybCourseAcceptResponse: Recibido. Estableciendo conexión neuronal... Por favor, no se mueva.
+	CybCourseDeclineResponse: Entendido. Las credenciales de acceso a Supersueño se han archivado en sus datos guardados. Puede activarla usted mismo en cualquier momento, Maestro.
+	SpeakerName: SHPC
+}
+
+TheHerInThePast: {
+	WitchLine1: Que te persigan asquerosidades debe de ser bastante desagradable. Por suerte, te has topado conmigo.
+	ShpcLine1: Gracias... Pero, ¿cómo es posible? Perteneces al pasado y, sin embargo, puedes moverte...
+	WitchLine2: Si podeis puedes invadir este lugar cien años en el futruro, es lógico que yo pueda hacer algo parecido.
+	WitchLine3: Aunque, en realidad, no soy más que una sombra que se ha quedado atrás en este lugar.
+	ShpcLine2: Si eso es cierto, usar tu poder de esta manera hará que te desvanezcas.
+	WitchLine4: Qué lindo eres... daos prisa y largaos. Es mejor que estas asquerosidades se queden enterradas en el pasado.
+	WitchLine5: Ah, por cierto, pequeña criada.
+	ShpcLine3: ¿Si?
+	WitchLine6: El cansancio te ha calado hasta los huesos.
+	WitchLine7: Deja de intentar cambiar siempre el pasado y aprende a aceptar el futuro.
+	ShpcLine4: ......
 }
