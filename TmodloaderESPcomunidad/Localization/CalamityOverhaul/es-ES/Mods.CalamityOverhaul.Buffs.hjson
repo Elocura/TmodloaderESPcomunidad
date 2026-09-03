@@ -3,9 +3,54 @@ SoulBurning: {
 	Description: Fuego del infierno
 }
 
+RevelationMarkDebuff: {
+	DisplayName: La marca del Apocalipsis
+	Description: Bajo la mirada de John, todo el daño recibido aumenta
+}
+
+TruthRevealDebuff: {
+	DisplayName: La verdad al descubierto
+	Description: Sin armadura, sin ningún sitio donde esconderse
+}
+
+WealthBlessingDebuff: {
+	DisplayName: Bendición de la riqueza
+	Description: Al morir, se desata una lluvia dorada y devota
+}
+
+VerificationBuff: {
+	DisplayName: El ojo de la verificación
+	Description: Thomas lo ha comprobado: tus golpes seguro que serán críticos.
+}
+
+ZealotFervorBuff: {
+	DisplayName: Fervor
+	Description: El fuego sagrado del fanático arde en su interior; tu velocidad de ataque y de movimiento se disparan
+}
+
+PlagueMarkDebuff: {
+	DisplayName: La marca de la plaga
+	Description: La pestilencia sagrada del Jinete de la plaga está carcomiendo la vida
+}
+
 HellburnBuff: {
 	DisplayName: Explosión de fuego infernal
 	Description: Fuego del infierno
+}
+
+KikasaWispBurn: {
+	DisplayName: Brizna de fuego
+	Description: Las llamas doradas que se alzan del lago se aferran y arden
+}
+
+KikasaInkTag: {
+	DisplayName: Sello de tinta
+	Description: Marcadas con la tinta de Kikasa, las invocaciones infligen daño adicional a este objetivo.
+}
+
+DivineSourceChargeBuff: {
+	DisplayName: Oleada áurica
+	Description: La Espada de la fuente divina funciona a plena potencia, el daño se dispara y llueven los rayos
 }
 
 VoidErosion: {
@@ -16,6 +61,36 @@ VoidErosion: {
 DestroyerSummonBuff: {
 	DisplayName: Mejora de invocación de destructor
 	Description: El Mini Destructor te seguirá a la batalla
+}
+
+DestroyerStalkBuff: {
+	DisplayName: Protocolo acechador
+	Description: Aumenta la velocidad de movimiento. Acércate y haz clic  derecho para lanzar la mordedura del Destructor
+}
+
+DestroyerFrenzyBuff: {
+	DisplayName: Protocolo de aniquilación
+	Description: La espada se sobrecarga: aumenta el daño, los proyectiles se dirigen hacia el enemigo y los golpes finales lanzan cabezas de Destructor
+}
+
+EyekiteBuff: {
+	DisplayName: Mirada cautiva
+	Description: Un pequeño Ojo de Cthulhu está atado a ti mediante un cordón empapado en sangre
+}
+
+DeepclawBuff: {
+	DisplayName: Langosta profunda
+	Description: Una langosta abisal merodea a tu lado, con las pinzas listas para atacar
+}
+
+BloomCallerBuff: {
+	DisplayName: Empresa Floración silvestre
+	Description: Un brote de flor silvestre se balancea a tu lado, con las espinas listas para atacar
+}
+
+EyetoothWound: {
+	DisplayName: Herida por mordedura
+	Description: La mordedura sigue sangrando
 }
 
 FrenziedMachineSoul: {
@@ -33,6 +108,11 @@ HyperDisintegration: {
 	Description: Dejemos que el objetivo se desintegre desde dentro
 }
 
+FocusMark: {
+	DisplayName: Marca de enfoque
+	Description: Los rayos mortales infligen daño adicional a esta marca
+}
+
 TemporalStasis: {
 	DisplayName: Estasis temporal
 	Description: El tiempo se detiene a su alrededor
@@ -41,5 +121,135 @@ TemporalStasis: {
 GravitationalCollapse: {
 	DisplayName: Colapso gravitacional
 	Description: Arrastrado al abismo por su propio peso...
+}
+
+MarbleRiposteBuff: {
+	DisplayName: Réplica de mármol
+	Description: El daño cuerpo a cuerpo aumenta un 10%
+}
+
+MarblePetrify: {
+	DisplayName: Petrificación de mármol
+	Description: La carne se convierte en mármol, no puedes moverte
+}
+
+PallbearerShrouded: {
+	DisplayName: Marcado para recogida
+	Description: El aliento del ataúd se aferra a él; el ataúd sabe a quién debe recoger
+}
+
+PallbearerSealed: {
+	DisplayName: En el ataúd
+	Description: El peso del ataúd persiste; el daño recibido aumenta
+}
+
+OniNeckGripDebuff: {
+	DisplayName: Llave de estrangulamiento Oni
+	Description: Una mano de oni te aprieta la garganta; tus movimientos se vuelven más pesados
+}
+
+OniBindDebuff: {
+	DisplayName: Atado a la tinta
+	Description: La tinta se adhiere a la superficie; el movimiento se vuelve lento
+}
+
+OniNumbDebuff: {
+	DisplayName: Entumecido
+	Description: Las extremidades se han entumecido: se mueven más lentamente y golpean con menos fuerza
+}
+
+ScapeAfterburn: {
+	DisplayName: Chivo expiatorio: Rescoldo
+	Description: Tienes fuertes réplicas tras haber evitado la muerte; velocidad de movimiento reducida en un 28%
+}
+
+GhostGripDebuff: {
+	DisplayName: Agarre marchito
+	Description: Estas atrapado por la mano carbonizada… no hay forma de moverse
+}
+
+OniPaperBrandDebuff: {
+	DisplayName: Herida de efigie
+	Description: Recibe un contragolpe al golpear la efigie de papel; sufres más daño por los cortes de Onikiri
+}
+
+FuHongBlessBuff: {
+	DisplayName: La gracia del Puente del arco iris
+	Description: Bajo el puente del arcoíris: +10% de velocidad de movimiento, +10% de daño de invocación
+}
+
+IndustrialShieldBuff: {
+	DisplayName: Escudo energético
+	Description: El escudo sigue recargándose y absorbe parte del daño recibido
+}
+
+IndustrialRegenBuff: {
+	DisplayName: Aura curativa
+	Description: Una estación de curación te está devolviendo la salud
+}
+
+RotsawRendDebuff: {
+	DisplayName: Sierra podrida
+	Description: La carne se desgarra por una sierra y pierdes 40 puntos de vida por segundo
+}
+
+WaxWardBuff: {
+	DisplayName: Protección de cera
+	Description: La protección de cera del enjambre está absorbiendo el daño en tu lugar
+}
+
+SwarmVortexDebuff: {
+	DisplayName: Vórtice del enjambre
+	Description: Eres desgarado por el vórtice del enjambre, así que tus movimientos se ralentizaron
+}
+
+MawCorrosionBuff: {
+	DisplayName: Corrosión ácida
+	Description: El ácido está corroyendo tu armadura
+}
+
+WhiteoutStormBuff: {
+	DisplayName: Tormenta de nieve
+	Description: Tienes una reducción de daño adicional del 30% e inmunidad al empuje; el velo de nieve no te impide ver
+}
+
+WhiteblindDebuff: {
+	DisplayName: Ceguera blanca
+	Description: Estás cegado por la ventisca, tus movimientos se han ralentizado, tienes 10 de daño por congelación por segundo
+}
+
+BloomSnaredDebuff: {
+	DisplayName: Trampa de espinas
+	Description: Enredado entre las zarzas, atado y desgarrado por las espinas
+}
+
+SoulbindCurseDebuff: {
+	DisplayName: Maldición del vínculo del alma
+	Description: Atrapado en el dominio de la maldición, recibe más daño por parte de su dueño
+}
+
+SoulGripLockDebuff: {
+	DisplayName: Agarre del alma
+	Description: Atrapado en el agarre de aquella mano fantasmal, incapaz de moverme
+}
+
+SoulbindOverwhelmDebuff: {
+	DisplayName: Destrozo el alma
+	Description: Las llamas malditas se abaten sobre ti; todo el daño recibido aumenta un 20%
+}
+
+RefractionTag: {
+	DisplayName: Refracción
+	Description: Ralentizado; quien lleve el Vals de la Refracción obtiene un 8% más de probabilidad de crítico
+}
+
+AbyssalPressure: {
+	DisplayName: Presión abisal
+	Description: Bajo la aplastante presión de las profundidades marinas, el movimiento se ve gravemente limitado
+}
+
+BlessErosionBuff: {
+	DisplayName: Erosión
+	Description: El Anillo de la podredumbre corroe la armadura, reduciendo la defensa en 10
 }
 
