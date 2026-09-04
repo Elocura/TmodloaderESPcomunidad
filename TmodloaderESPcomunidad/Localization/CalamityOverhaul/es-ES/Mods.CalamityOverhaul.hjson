@@ -468,9 +468,8 @@ HackTargetType: {
 	TurretTargetType.DisplayName: Torreta objetivo
 	WaterTargetType.DisplayName: Líquido objetivo
 	WraithTargetType.DisplayName: Espectro objetivo
-}
 
-BossPartTargetType: {
+	BossPartTargetType: {
 		DisplayName: Objetivo: parte
 		AnchorLabel: Cuerpo principal
 		RoleLabel: Rol de la parte
@@ -540,6 +539,7 @@ BossPartTargetType: {
 		BiomeOcean: Océano
 		BiomeUnderworld: Inframundo
 	}
+}
 
 HackCircuit: {
 	CircuitNodeSpawner: {
@@ -701,7 +701,6 @@ TileNameFallback: {
 
 OniRainWorld: {
 	OniRainWorldSystem: {
-		OniRainWorldSystem: {
 		InteractHint: "[Clic derecho] Entra en la lluvia con el paraguas"
 		DescendHint: "[Clic derecho] Entra en la lluvia profunda con el paraguas"
 		GrabHint: "[Clic derecho] Agarra el paraguas"
@@ -847,7 +846,7 @@ GodSmithGunsHard: {
 		Desc:
 			'''
 			Reforja: haz clic derecho para cambiar de empuñadura
-            El modo En jarras dispara un 30% más rápido con un patrón disperso; el modo Ráfaga dispara ráfagas de tres balas muy precisas que dan de lleno en el blanco
+			El modo En jarras dispara un 30% más rápido con un patrón disperso; el modo Ráfaga dispara ráfagas de tres balas muy precisas que dan de lleno en el blanco
 			Cada cuarta bala (la que cierra la ráfaga) se conviernte en un trazador ámbar: los impactos del trazador iluminan el objetivo, 
 			y las balas de tu Uzi penetran un 10% más profundamente en los objetivos iluminados
 			'''
@@ -881,8 +880,8 @@ GodSmithGunsHard: {
 		Desc:
 			'''
 			Reforja: haz clic derecho para cambiar de burbuja
-            Racimo hace estallar cinco burbujas que convergen y estallan en un fuego cruzado sobre el cursor
-            Drenar hace flotar una gran burbuja hasta el cursor, la retiene y luego dispara las cinco municiones a la vez
+			Racimo hace estallar cinco burbujas que convergen y estallan en un fuego cruzado sobre el cursor
+			Drenar hace flotar una gran burbuja hasta el cursor, la retiene y luego dispara las cinco municiones a la vez
 			'''
 		ModeCluster: Racimo
 		ModeVacuum: Drenar
@@ -895,7 +894,7 @@ GodSmithGunsHard: {
 
 GodSmithLaunchers: {
 	GsElectrosphereLauncher: {
-		Desc: Reforja: Si hay dos o más esferas, se unen mediante arcos tesla (hasta 3) ; al hacer clic derecho, se sobrecargarán:  aplicando un 40% más de radio. Se descargan en 2 segundos
+		Desc: Reforja: Si hay dos o más esferas, se unen mediante arcos tesla (hasta 3) ; al hacer clic derecho, se sobrecargarán: aplicando un 40% más de radio. Se descargan en 2 segundos
 		TipOverload: ¡Sobrecarga!
 	}
 
@@ -992,7 +991,7 @@ GodSmithMagicMorph: {
 	GsFlamelash.Desc:
 		'''
 		Reforja: el vuelo autoguiado es un 25% más rápido
-        Mantén pulsado clic derecho para cargar; al soltarlo, lanzarás una serpiente de fuego cuyas espiras siguen tu trayectoria y prenden fuego a los enemigos
+		Mantén pulsado clic derecho para cargar; al soltarlo, lanzarás una serpiente de fuego cuyas espiras siguen tu trayectoria y prenden fuego a los enemigos
 		'''
 	GsMagicMissile.Desc:
 		'''
@@ -1037,12 +1036,12 @@ GodSmithSummonWhips: {
 		Reforja: los saltos de energía oscura se propagan a los enemigos cercanos por cada cicatriz de cosecha que tenga la víctima; 4 cicatrices sellan la marca, 
 		y el siguiente golpe al compás cosecha su alma, segando instantáneamente a todos los enemigos marcados en el campo de batalla
 		'''
-    GsDurendal.Desc: 
+	GsDurendal.Desc: 
 		'''
 		Reforja: tras una cadena de golpes al compás, cada golpe posterior al compás lanza una onda de espada dorada desde la punta del látigo; 
 		5 cicatrices sellan la marca, y el siguiente golpe al compás invoca una espada del veredicto sagrado.
 		'''
-    GsFirecracker.Desc: 
+	GsFirecracker.Desc: 
 		'''
 		Reforja: mantienne la detoanción normal de los súbditos; los latigazos al compás cargan mechas en el objetivo, 
 		y al alcanzar 3 mechas, la siguiente explosión desencadena 3 explosiones adicionales escalonadas.

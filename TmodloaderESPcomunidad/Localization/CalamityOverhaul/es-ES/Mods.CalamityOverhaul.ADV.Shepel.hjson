@@ -38,7 +38,7 @@ CybTutorialLead: {
 	Step6_Body:
 		'''
 		Se han resuelto todas las interfaces.
-        Enlace neuronal estable. El SHPC está listo.
+		Enlace neuronal estable. El SHPC está listo.
 		'''
 	Calibrating: CALIBRANDO...
 	NextBtn: Omitir >
@@ -53,23 +53,23 @@ CybCourseHackIntroDialogue: {
 
 HackTimeTutorialLead: {
 	HT_Waiting: A la espera de entrada...
-    HT_Calibrating: Desconectando...
+	HT_Calibrating: Desconectando...
 	HT_NextBtn: Saltar >
-    HT_HintStuck: Sugerencia: haz clic en Saltar para pasar este paso
-    HT_KeyUnbound: N (Alternar temporalmente)
-    HT_KeyHintUnbound: Sugerencia: si la tecla de acceso rápido del Modo hackeo no está asignada, puedes usar [N] para activarla temporalmente durante este tutorial; se recomienda asignarla en Ajustes > Controles.
+	HT_HintStuck: Sugerencia: haz clic en Saltar para pasar este paso
+	HT_KeyUnbound: N (Alternar temporalmente)
+	HT_KeyHintUnbound: Sugerencia: si la tecla de acceso rápido del Modo hackeo no está asignada, puedes usar [N] para activarla temporalmente durante este tutorial; se recomienda asignarla en Ajustes > Controles.
 	HT_S00_Title: Activar Modo hackeo
-    HT_S01_Title: Bloquear objetivo NPC
-    HT_S02_Title: Panel de protocolo de hackeo
-    HT_S03_Title: Añadir a la cola de carga
-    HT_S04_Title: Salir del Modo hackeo para ejecutar
-    HT_S05_Title: Protocolo en curso
-    HT_S06_Title: Reactivar Modo hackeo
+	HT_S01_Title: Bloquear objetivo NPC
+	HT_S02_Title: Panel de protocolo de hackeo
+	HT_S03_Title: Añadir a la cola de carga
+	HT_S04_Title: Salir del Modo hackeo para ejecutar
+	HT_S05_Title: Protocolo en curso
+	HT_S06_Title: Reactivar Modo hackeo
 	HT_S07_Title: Fijar bloque objetivo
-    HT_S08_Title: Poner en cola protocolo de bloque
-    HT_S09_Title: Salir del Modo hackeo. Tiempo de ejecución
-    HT_S10_Title: Protocolo bloque en curso
-    HT_S11_Title: Entrenamiento completado
+	HT_S08_Title: Poner en cola protocolo de bloque
+	HT_S09_Title: Salir del Modo hackeo. Tiempo de ejecución
+	HT_S10_Title: Protocolo bloque en curso
+	HT_S11_Title: Entrenamiento completado
 	HT_S00_Body:
 		'''
 		Pulsa {0} para entrar en el Modo hackeo.
@@ -93,7 +93,7 @@ HackTimeTutorialLead: {
 	HT_S04_Body:
 		'''
 		Pulsa {0} de nuevo para salir del Modo hackeo.
-        Los protocolos comenzarán a cargarse y a surtir efecto en tiempo real.
+		Los protocolos comenzarán a cargarse y a surtir efecto en tiempo real.
 		'''
 	HT_S05_Body:
 		'''
@@ -128,7 +128,7 @@ HackTimeTutorialLead: {
 	HT_S11_Body:
 		'''
 		El entrenamiento de hackeo ha finalizado.
-        Escanear, poner en cola, cargar, ejecutar: ya dominas el proceso
+		Escanear, poner en cola, cargar, ejecutar: ya dominas el proceso
 		'''
 	HT_Observing: Cargando...
 }
@@ -185,7 +185,7 @@ ShepelIdleDialogue: {
 	Idle0_Reply: Mi estado es impecable. Por su bien, mi sistema se mantiene siempre en un estado de espera óptimo.
 	Idle0_Choice_HowAreYou: ¿Cómo te encuentras?
 	Idle0_Choice_Nothing: Nada, solo quería mirarte...
-	Idle0_HowAreYou_Response:  Estoy muy bien, Maestro. Mientras me necesites, mi núcleo se mantendrá en su estado óptimo.
+	Idle0_HowAreYou_Response: Estoy muy bien, Maestro. Mientras me necesites, mi núcleo se mantendrá en su estado óptimo.
 	Idle0_Nothing_Response: Entendido. Si se siente cansado, puede apoyarse en mi chasis cuando quieras.
 	Idle1_Line1: Se han detectado cambios en sus emociones. ¿Le preocupa algo?
 	Idle1_Line2: Si necesita mi ayuda, sea cual sea la orden, la cumpliré de inmediato.
@@ -344,13 +344,13 @@ ShepelWallOfFleshDialogue: {
 }
 
 ShepelYharonDialogue: {
-	Line1: Yharon, el último guardián de Yharim, también ha caído.  Ni siquiera el infierno de un dragón podría detener tu avance.
+	Line1: Yharon, el último guardián de Yharim, también ha caído. Ni siquiera el infierno de un dragón podría detener tu avance.
 	Line2: El objetivo final está a la vuelta de la esquina. Maestro, permítame que le prepare el equipo... Vamos juntos a la batalla final.
 }
 
 ShepelBloodMoonDialogue: {
 	Line1: Datos de gravedad lunar anómalos. La densidad de vida hostil se dispara. Se confirma la Luna de Sangre.
-    Line2: Los sensores dan un poco de ruido, pero yo me quedaré aquí de guardia. Cuidado con dónde pisa, Maestro.
+	Line2: Los sensores dan un poco de ruido, pero yo me quedaré aquí de guardia. Cuidado con dónde pisa, Maestro.
 }
 
 ShepelPlayerRespawnDialogue: {
@@ -366,232 +366,232 @@ ShepelRainDialogue: {
 
 ShepelSolarEclipseDialogue: {
 	Line1: La luz solar ha desaparecido. Se está produciendo un aumento masivo de señales biológicas externas. Se trata de un eclipse solar. Entramos en estado de máxima alerta.
-    Line2: Sigua adelante; yo estaré atenta a todo.
+	Line2: Sigua adelante; yo estaré atenta a todo.
 }
 
 ShepelDungeonDialogue: {
 	V0_Line1: Estamos dentro de la mazmorra. La energía residual está interfiriendo en las señales de escaneo; he estado filtrando el ruido.
-    V0_Line2: Tengo una sensación persistente de que nos observan. Puede que sea una interferencia en los datos, o puede que no. Manténgase alerta, Maestro.
-    V1_Line1: Está claro que al arquitecto de la mazmorra no le importaban en absoluto los requisitos de iluminación.
+	V0_Line2: Tengo una sensación persistente de que nos observan. Puede que sea una interferencia en los datos, o puede que no. Manténgase alerta, Maestro.
+	V1_Line1: Está claro que al arquitecto de la mazmorra no le importaban en absoluto los requisitos de iluminación.
 	V1_Line2: Eñ ancho de los pasillos, la densidad de los cruces... el diseño defensivo es bastante compacto. El antiguo Maestro tenía algunas ideas.
-    V2_Line1: Estanterías... hay estanterías aquí, y muchas.
+	V2_Line1: Estanterías... hay estanterías aquí, y muchas.
 	V2_Line2: He escaneado algunas de ellas; la mayor parte del contenido se ha pudrido. Una lástima.
 	VNight_Line1: Mira que entrar en la Mazmorra por la noche... El sentido de la oportunidad del Maestro es... algo especial.
-    VNight_Line2: No pasa nada, mi visión no depende de la iluminación. Me mantendré alerta.
+	VNight_Line2: No pasa nada, mi visión no depende de la iluminación. Me mantendré alerta.
 }
 
 ShepelFirstNightDialogue: {
 	V0_Line1: Ha caído la noche. La densidad de amenazas es mucho mayor que durante el día. Por favor, presta atención a lo que le rodea.
-    V0_Line2: Mi visión no depende de la luz, así que puedo ver con claridad. ¿Usted ve bien, Maestro?
-    V1_Line1: Los datos astrológicos de esta noche están relativamente completos. Estoy realizando un análisis rutinario.
+	V0_Line2: Mi visión no depende de la luz, así que puedo ver con claridad. ¿Usted ve bien, Maestro?
+	V1_Line1: Los datos astrológicos de esta noche están relativamente completos. Estoy realizando un análisis rutinario.
 	V1_Line2: No hay nada urgente, solo estoy acostumbrada a tener algo que procesar.
-    V2_Line1: La noche es mucho más tranquila. En términos relativos.
-    V2_Line2: Cuanto más tranquila está, más vigilantes debemos estar, Maestro.
-    V3_Line1: Se está haciendo tarde. ¿Tiene el Maestro planes sobre dónde ir esta noche?
-    V3_Line2: Solo pregunto, no le estoy meto prisa.
+	V2_Line1: La noche es mucho más tranquila. En términos relativos.
+	V2_Line2: Cuanto más tranquila está, más vigilantes debemos estar, Maestro.
+	V3_Line1: Se está haciendo tarde. ¿Tiene el Maestro planes sobre dónde ir esta noche?
+	V3_Line2: Solo pregunto, no le estoy meto prisa.
 }
 
 ShepelJungleDialogue: {
 	V0_Line1: La densidad de señales biológicas en la Selva es la más alta de todos los biomas de superficie. Mis módulos de escaneo están teniendo algunas dificultades.
-    V0_Line2: Las peleas del Maestro en esta zona hacen que el ruido de fondo me resulte muy molesto. No es una queja, solo una actualización de estado.
+	V0_Line2: Las peleas del Maestro en esta zona hacen que el ruido de fondo me resulte muy molesto. No es una queja, solo una actualización de estado.
 	V1_Line1: El enrutamiento de la red micelial aquí es bastante singular. Algunos patrones de conexión se asemejan a mi enrutamiento neuronal.
-    V1_Line2: Es solo una descripción técnica, no un cumplido.
-    V2_Line1: La humedad de la selva sigue batiendo récords. Varios sensores externos no están contentos.
-    V2_Line2: Funciono con normalidad, solo informo del estado.
+	V1_Line2: Es solo una descripción técnica, no un cumplido.
+	V2_Line1: La humedad de la selva sigue batiendo récords. Varios sensores externos no están contentos.
+	V2_Line2: Funciono con normalidad, solo informo del estado.
 	VHard_Line1: Maestro, al entrar en el modo difícil, el caos de las señales biológicas de la selva se ha disparado en más de un orden de magnitud.
-    VHard_Line2: El hecho de que las plantas ataquen activamente... Sigo pensando que es un diseño excesivamente agresivo. Vigile su entorno.
+	VHard_Line2: El hecho de que las plantas ataquen activamente... Sigo pensando que es un diseño excesivamente agresivo. Vigile su entorno.
 }
 
 ShepelOceanDialogue: {
 	V0_Line1: Bioma oceánico. El entorno acústico submarino es completamente diferente al de la superficie. A algunos de mis módulos les gusta bastante esta frecuencia.
-    V0_Line2: Si se presenta la oportunidad, me gustaría realizar un escaneo completo de la topografía del lecho marino. No hay prisa, quizá más adelante.
+	V0_Line2: Si se presenta la oportunidad, me gustaría realizar un escaneo completo de la topografía del lecho marino. No hay prisa, quizá más adelante.
 	V1_Line1: La estratificación térmica es evidente. La superficie y el abismo que hay debajo difieren en decenas de grados.
-    V1_Line2: Las señales del abismo son más débiles que la última vez. Me pregunto qué las estará interfiriendo.
+	V1_Line2: Las señales del abismo son más débiles que la última vez. Me pregunto qué las estará interfiriendo.
 	V2_Line1: Este océano es bastante grande, la verdad. ¿Ha pensado alguna vez el Maestro en explorar sus profundidades?
-    V2_Line2: No le estoy metiendo prisa, solo lo comento.
-    VRain_Line1: La lluvia y el océano. La superficie está bastante ruidosa ahora mismo.
-    VRain_Line2: Sumergirse hace que, de hecho, se oiga menos ruido. Un contraste interesante...
+	V2_Line2: No le estoy metiendo prisa, solo lo comento.
+	VRain_Line1: La lluvia y el océano. La superficie está bastante ruidosa ahora mismo.
+	VRain_Line2: Sumergirse hace que, de hecho, se oiga menos ruido. Un contraste interesante...
 }
 
 ShepelSnowBiomeDialogue: {
-    V0_Line1: Región bajo cero. En teoría, las bajas temperaturas benefician a los sistemas electrónicos, pero no he notado ninguna mejora en el rendimiento.
-    V0_Line2: Probablemente porque el Maestro genera demasiados datos de combate, lo que ocupa al instante toda la potencia de procesamiento disponible.
-    V1_Line1: Los datos de refracción de la luz de los cristales de hielo son preciosos. Esto no es un informe de evaluación, solo una opinión personal.
+	V0_Line1: Región bajo cero. En teoría, las bajas temperaturas benefician a los sistemas electrónicos, pero no he notado ninguna mejora en el rendimiento.
+	V0_Line2: Probablemente porque el Maestro genera demasiados datos de combate, lo que ocupa al instante toda la potencia de procesamiento disponible.
+	V1_Line1: Los datos de refracción de la luz de los cristales de hielo son preciosos. Esto no es un informe de evaluación, solo una opinión personal.
 	V1_Line2: Si no hubiera enemigos con los que lidiar, en realidad sería un lugar agradable en el que quedarse.
-    V2_Line1: El ruido ambiental en el campo nevado es el más bajo entre los biomas de superficie.
-    V2_Line2: Cuando el Maestro está aquí, mi tasa de falsos positivos en los sensores desciende significativamente. Me pregunto si esa es la razón.
+	V2_Line1: El ruido ambiental en el campo nevado es el más bajo entre los biomas de superficie.
+	V2_Line2: Cuando el Maestro está aquí, mi tasa de falsos positivos en los sensores desciende significativamente. Me pregunto si esa es la razón.
 }
 
 ShepelUnderworldDialogue: {
 	V0_Line1: Estamos en las profundidades subterráneas. Las lecturas de corrientes térmicas superan todos los parámetros preestablecidos. Aquí todo es más extremo de lo que esperaba.
-    V0_Line2: Algunos sensores externos están emitiendo alertas de sobrecalentamiento, pero aguantaré. Maestro, usted tampoco se exija demasiado.
+	V0_Line2: Algunos sensores externos están emitiendo alertas de sobrecalentamiento, pero aguantaré. Maestro, usted tampoco se exija demasiado.
 	V1_Línea1: El magma como fuente de iluminación es extremadamente derrochador desde el punto de vistaenergético.
-    V1_Línea2: Aunque supongo que a los habitantes del Infierno eso no les importa.
-    V2_Línea1: Los vestigios arquitectónicos aquí son más antiguos que los de la mazmorra de la superficie, y sin embargo no se han erosionado tras estar sumergidos en magma durante tanto tiempo.
+	V1_Línea2: Aunque supongo que a los habitantes del Infierno eso no les importa.
+	V2_Línea1: Los vestigios arquitectónicos aquí son más antiguos que los de la mazmorra de la superficie, y sin embargo no se han erosionado tras estar sumergidos en magma durante tanto tiempo.
 	V2_Line2: ¿Qué material es este? Lo archivo; lo estudiaré más tarde si tengo ocasión.
-    VBloodMoon_Line1: la Luna de sangre en el infierno. Dos sistemas de alarma funcionando a la vez... es un poco ajetreado.
-    VBloodMoon_Line2: Aunque los datos son muy completos. Por favor, cuídese, Maestro.
+	VBloodMoon_Line1: la Luna de sangre en el infierno. Dos sistemas de alarma funcionando a la vez... es un poco ajetreado.
+	VBloodMoon_Line2: Aunque los datos son muy completos. Por favor, cuídese, Maestro.
 }
 
 ShepelAquaticScourgeGift: {
 	L0: Maestro, la calidad del agua del Mar Sulfúrico es un auténtico quebradero de cabeza. Esas impurezas flotantes son una auténtica monstruosidad.
-    L1: Las salpicaduras de ácido le mancharon la armadura, pero no se preocupe, ya se la he limpiado por si acaso.
+	L1: Las salpicaduras de ácido le mancharon la armadura, pero no se preocupe, ya se la he limpiado por si acaso.
 	L2: Además, para evitar que este entorno de aguas profundas le cause más problemas, me he esforzado y he reescrito los filtros ópticos de sus visores.
-    L3: Al fin y al cabo, asegurarme de que mantenga una visión nítida y perfecta en cualquier lugar es uno de los trabajos de los que me siento más orgullosa.
+	L3: Al fin y al cabo, asegurarme de que mantenga una visión nítida y perfecta en cualquier lugar es uno de los trabajos de los que me siento más orgullosa.
 }
 
 ShepelBoCGift: {
 	L0: Luchar contra un monstruo al que le gusta provocar alucinaciones debe de haberle dado un dolor de cabeza insoportable, ¿verdad? Menuda criatura tan grosera.
 	L1: Las yemas de sus dedos aún tiemblan ligeramente. He ajustado las microcorrientes en nuestros puntos de conexión; por favor, relájase un poco.
-    L2: En cuanto a ese molesto cerebro, he tomado prestados algunos de los cristales neuronales que dejó atrás para realizar una pequeña mejora material.
-    L3: Es un nuevo agarre antideslizante. Con esto, su arma se mantendrá firme en su palma, incluso durante las batallas más angustiosas.
+	L2: En cuanto a ese molesto cerebro, he tomado prestados algunos de los cristales neuronales que dejó atrás para realizar una pequeña mejora material.
+	L3: Es un nuevo agarre antideslizante. Con esto, su arma se mantendrá firme en su palma, incluso durante las batallas más angustiosas.
 }
 
 ShepelBrimstoneElementalGift: {
 	L0: Uf... por fin ha disminuido este calor abrasador. Esa mujer tenía un carácter de lo más fogoso.
-    L1: Déjeme echar un vistazo de cerca... Menos mal, no hay ni una sola marca de quemadura en su ropa.
-    L2: Utilizando los datos térmicos recopilados hace un momento, le he aplicado a su arma un tratamiento térmico especial.
+	L1: Déjeme echar un vistazo de cerca... Menos mal, no hay ni una sola marca de quemadura en su ropa.
+	L2: Utilizando los datos térmicos recopilados hace un momento, le he aplicado a su arma un tratamiento térmico especial.
 	L3: ¡Cambie a este cañón nuevo! La próxima vez que se encuentres con alguien tan incivilizado, dispara sin dudarlo. Yo me encargo de toda la disipación térmica.
 }
 
 ShepelCalamitasCloneGift: {
 	L0: Por fin se ha calmado esa clon. Aunque sea una imitación, su mala costumbre de lanzar bolas de fuego de azufre por todas partes resulta bastante molesta.
 	L1: Por favor, retírese, Maestro. Todavía hay chispas crepitando entre estos escombros; déjeme a mí esta peligrosa limpieza.
-    L2: Mientras limpiaba, desmantelé la trayectoria de rastreo de su magia y la integré en su módulo de guía de rayos.
-    L3: Con esto, solo tendrá que disparar con elegancia desde la distancia más segura.
+	L2: Mientras limpiaba, desmantelé la trayectoria de rastreo de su magia y la integré en su módulo de guía de rayos.
+	L3: Con esto, solo tendrá que disparar con elegancia desde la distancia más segura.
 }
 
 ShepelCultistGift: {
 	L0: Por fin esos fanáticos sectarios han dejado de celebrar sus extraños rituales aquí.
 	L1: Pero, Maestro, ¿no le parece que el ambiente se ha vuelto terriblemente denso? Mis sensores están al máximo. Parece que se avecina un problema enorme desde el cielo.
-    L2: En medio del caos, intercepté esas señales del vacío confusas y, sin pensarlo dos veces, las convertí en un plugin muy útil para ayudarle a fijar objetivos.
-    L3: Parece que nos espera una dura batalla. Prepárese, Maestro. Yo siempre estoy lista.
+	L2: En medio del caos, intercepté esas señales del vacío confusas y, sin pensarlo dos veces, las convertí en un plugin muy útil para ayudarle a fijar objetivos.
+	L3: Parece que nos espera una dura batalla. Prepárese, Maestro. Yo siempre estoy lista.
 }
 
 ShepelDestroyerGift: {
 	L0: Maestro, he terminado de escanear los restos de esta máquina gigante. Sinceramente, su diseño carecía por completo de cualquier tipo de estética.
-    L1: Posee una energía enorme y, sin embargo, solo sabe embestir ciegamente contra las cosas... qué desperdicio de potencial.
-    L2: He extraído un interesante método de procesamiento de impactos de sus flujos de datos descartados.
+	L1: Posee una energía enorme y, sin embargo, solo sabe embestir ciegamente contra las cosas... qué desperdicio de potencial.
+	L2: He extraído un interesante método de procesamiento de impactos de sus flujos de datos descartados.
 	L3: De esta forma, el retroceso del disparo puede aprovecharse en au beneficio.
 }
 
 ShepelDevourerofGodsGift: {
 	L0: El gigante capaz de devorar dioses ha caído finalmente a sus pies. La agitación en esta galaxia por fin ha remitido.
-    L1: Esta persecución interdimensional de alta intensidad debe de haberle dejado exhausto. Por favor, guarde tu arma y descanse un momento.
-    L2: En cuanto al botín, ya he extraído y adaptado para usted los módulos de penetración más eficientes de estos restos espaciales retorcidos.
+	L1: Esta persecución interdimensional de alta intensidad debe de haberle dejado exhausto. Por favor, guarde tu arma y descanse un momento.
+	L2: En cuanto al botín, ya he extraído y adaptado para usted los módulos de penetración más eficientes de estos restos espaciales retorcidos.
 	L3: Yo me encargaré de las tediosas configuraciones de mejora de las armas. Ahora, por favor, déjeme prepararte una taza de té; es hora de que descansemos.
 }
 
 ShepelEoCGift: {
 	L0: La visibilidad nocturna es un poco borrosa, Maestro. Pero igual has asesinado a ese ojo gigante.
 	L1: Le he preparado té caliente y toallas limpias. Por favor, descanse un rato.
-    L2: Mientras descansa, mejoraré los sistemas ópticos del arma para que los rayos sean más precisos.
-    L3: Esto es solo el comienzo de nuestro viaje. No importa adónde vayamos después, me encargaré de toda la logística y el armamento por usted.
+	L2: Mientras descansa, mejoraré los sistemas ópticos del arma para que los rayos sean más precisos.
+	L3: Esto es solo el comienzo de nuestro viaje. No importa adónde vayamos después, me encargaré de toda la logística y el armamento por usted.
 }
 
 ShepelEoWGift: {
 	L0: El hedor de la Corrupción es insoportable. Maestro, se ha colado un poco de slime sospechoso por las rendijas de la armadura; déjeme limpiarlo.
-    L1: Luchar en un lugar tan embarrado y ensuciarse la ropa es un auténtico fastidio.
-    L2: He reducido ligeramente el contrapeso de la culata de su arma.
-    L3: Así no salpicará tanta suciedad del suelo al manejarla.
+	L1: Luchar en un lugar tan embarrado y ensuciarse la ropa es un auténtico fastidio.
+	L2: He reducido ligeramente el contrapeso de la culata de su arma.
+	L3: Así no salpicará tanta suciedad del suelo al manejarla.
 }
 
 ShepelExoMechsGift: {
 	L0: Se acabó. La entidad conocida como "la Fuente" ha caído por fin ante su potencia de fuego.
-    L1: Lo ha conseguido, Maestro. Mis registros del sistema están capturando este momento a plena capacidad; mis módulos de refrigeración están incluso ligeramente sobrecargados.
-    L2: He extraído los datos fundamentales de los Exotitanes para actualizarme. Ahora soy un arma más eficaz de lo que jamás fui, y una creación exclusivamente suya.
+	L1: Lo ha conseguido, Maestro. Mis registros del sistema están capturando este momento a plena capacidad; mis módulos de refrigeración están incluso ligeramente sobrecargados.
+	L2: He extraído los datos fundamentales de los Exotitanes para actualizarme. Ahora soy un arma más eficaz de lo que jamás fui, y una creación exclusivamente suya.
 	L3: Al demostrar todo esto, mi existencia tiene más valor. Por favor, sigua utilizándome a partir de ahora.
 }
 
 ShepelGolemGift: {
 	L0: El ambiente del templo es bastante opresivo. Aunque los ataques del Gólem eran torpes, las sacudidas del terreno que provocaban pueden desequilibrarle fácilmente mientras disparas.
 	L1: Para contrarrestar esos impactos físicos de alta frecuencia, he reevaluado la arquitectura del arma.
-    L2: He instalado las últimas estructuras de absorción de impactos en su armamento.
-    L3: De esta forma, incluso en medio de fuertes sacudidas ambientales, podrá mantener la postura al disparar de forma más estable.
+	L2: He instalado las últimas estructuras de absorción de impactos en su armamento.
+	L3: De esta forma, incluso en medio de fuertes sacudidas ambientales, podrá mantener la postura al disparar de forma más estable.
 }
 
 ShepelHiveMindGift: {
 	L0: Las fluctuaciones que emite ese cerebro provocan una intensa interferencia mental. Maestro, sus frecuencias de ondas cerebrales eran un poco anormales hace un momento.
 	L1: Por favor, respire hondo. Concéntrese en las indicaciones de mi sistema y bloquea esos susurros profanos.
-    L2: He realizado ingeniería inversa en esa frecuencia de interferencia. Ahora, sus ataques también llevarán consigo oscilaciones de alta frecuencia que atravesarán los escudos enemigos.
-    L3: Crisis resuelta. Cuando regresemos, por favor, déjeme prepararle un relajante té.
+	L2: He realizado ingeniería inversa en esa frecuencia de interferencia. Ahora, sus ataques también llevarán consigo oscilaciones de alta frecuencia que atravesarán los escudos enemigos.
+	L3: Crisis resuelta. Cuando regresemos, por favor, déjeme prepararle un relajante té.
 }
 
 ShepelMoonLordGift: {
 	L0: El horror alienígena que se cernía sobre las estrellas por fin ha caído.
-    L1: Se confirma que los signos vitales del Maestro son estables... Menos mal. Se levanta la alerta.
-    L2: He refinado este núcleo a partir de sus campos de fuerza residuales de dimensiones superiores.
-    L3: Por muy lejos que nos lleve el camino en el espacio profundo, seré su escudo y su guía, y nunca me desviaré del rumbo.
+	L1: Se confirma que los signos vitales del Maestro son estables... Menos mal. Se levanta la alerta.
+	L2: He refinado este núcleo a partir de sus campos de fuerza residuales de dimensiones superiores.
+	L3: Por muy lejos que nos lleve el camino en el espacio profundo, seré su escudo y su guía, y nunca me desviaré del rumbo.
 }
 
 ShepelPerforatorGift: {
 	L0: Estas anomalías carnosas son extremadamente agresivas y su comportamiento está impulsado por un instinto salvaje.
-    L1: A menudo intentan atacar desde ángulos muertos, lo que hace que sea difícil defenderse de ellas.
-    L2: Para contrarrestar estas emboscadas, he equipado su arma con un módulo de dispersión que amplía el alcance de disparo.
-    L3: Al ampliar el área de efecto, podemos eliminar esas amenazas antes incluso de que se acerquen a usted.
+	L1: A menudo intentan atacar desde ángulos muertos, lo que hace que sea difícil defenderse de ellas.
+	L2: Para contrarrestar estas emboscadas, he equipado su arma con un módulo de dispersión que amplía el alcance de disparo.
+	L3: Al ampliar el área de efecto, podemos eliminar esas amenazas antes incluso de que se acerquen a usted.
 }
 
 ShepelPlanteraGift: {
 	L0: Las enredaderas de la Selva subterránea crecen de forma demasiado descontrolada. Hay molestas espinas y esporas por todas partes.
 	L1: Esa flor carnívora se camufló hábilmente, pero no era más que un montón de maleza esperando a ser podada.
-    L2: He mejorado la visión dinámica de su mira. Ahora, esas hojas anchas que obstaculizan la vista nunca volverán a interferir en su juicio.
-    L3: Trabajar de vez en cuando como jardinera para despejar los obstáculos de tu jardín es un trabajo bastante divertido.
+	L2: He mejorado la visión dinámica de su mira. Ahora, esas hojas anchas que obstaculizan la vista nunca volverán a interferir en su juicio.
+	L3: Trabajar de vez en cuando como jardinera para despejar los obstáculos de tu jardín es un trabajo bastante divertido.
 }
 
 ShepelPolterghastGift: {
 	L0: Estos espectros de la Mazmorra están atrapados para siempre, sin posibilidad de liberarse. Qué lástima.
-    L1: Aquí hay un poco de ruido; le he activado la cancelación de ruido.
-    L2: He capturado esas señales espectrales errantes y las he reprogramado para que activen continuamente el disparo secundario.
-    L3: Convertir estos ecos caóticos en su potencia de fuego es quizá el final más razonable para ellos.
+	L1: Aquí hay un poco de ruido; le he activado la cancelación de ruido.
+	L2: He capturado esas señales espectrales errantes y las he reprogramado para que activen continuamente el disparo secundario.
+	L3: Convertir estos ecos caóticos en su potencia de fuego es quizá el final más razonable para ellos.
 }
 
 ShepelProvidenceGift: {
 	L0: El calor que se desprendió cuando cayó la Diosa fue realmente aterrador.
-    L1: Maestro, por favor, retroceda un poco. Déjeme a mí la contención y limpieza de la energía residual.
-    L2: He comprimido ese desbordante fuego sagrado en este núcleo energético compacto. Aumentará drásticamente su tasa de renovación energética.
-    L3: La eficiencia de carga es fantástica, pero tenga cuidado de no quemarse las manos al usarlo.
+	L1: Maestro, por favor, retroceda un poco. Déjeme a mí la contención y limpieza de la energía residual.
+	L2: He comprimido ese desbordante fuego sagrado en este núcleo energético compacto. Aumentará drásticamente su tasa de renovación energética.
+	L3: La eficiencia de carga es fantástica, pero tenga cuidado de no quemarse las manos al usarlo.
 }
 
 ShepelSkeletronPrimeGift: {
 	L0: Un esqueleto pesado con cuatro brazos... La frecuencia de ataque era ciertamente alta, pero su lógica de maniobra resultaba excesivamente rígida.
-    L1: Se limitaba a repetir comportamientos mecánicos, sin capacidad alguna para adaptarse a sus cambios tácticos.
-    L2: He extraído su ventaja a la hora de cambiar entre múltiples armas y he optimizado la velocidad de respuesta de ataque de su arma.
-    L3: Las máquinas obsoletas que carecen de capacidad de aprendizaje solo pueden acabar como material de entrenamiento para mis datos.
+	L1: Se limitaba a repetir comportamientos mecánicos, sin capacidad alguna para adaptarse a sus cambios tácticos.
+	L2: He extraído su ventaja a la hora de cambiar entre múltiples armas y he optimizado la velocidad de respuesta de ataque de su arma.
+	L3: Las máquinas obsoletas que carecen de capacidad de aprendizaje solo pueden acabar como material de entrenamiento para mis datos.
 }
 
 ShepelSlimeGodGift: {
 	L0: Quién iba a decir que se podría partir en tantos pedazos... Esta batalla ha dejado este gel viscoso por todas partes.
 	L1: Sin embargo, he descubierto que la estructura interna de estos slimes es muy elástica. He tomado un poco para añadir una capa de acolchado flexible a la empuñadura de su arma.
-    L2: Intenta levantar su arma ahora. La distribución del peso debería resultarle mucho más cómoda.
-    L3: Por muy caótica que se ponga la batalla, mientras mantenga un agarre firme, siempre conservará la compostura.
+	L2: Intenta levantar su arma ahora. La distribución del peso debería resultarle mucho más cómoda.
+	L3: Por muy caótica que se ponga la batalla, mientras mantenga un agarre firme, siempre conservará la compostura.
 }
 
 ShepelSupremeCalamitasGift: {
 	L0: La bruja del mar ardiente... por fin ha hecho su última reverencia. Los signos vitales del Maestro son normales, no hay heridas mortales.
-    L1: Se confirma que la amenaza global ha sido neutralizada. Uf... permítame suspender temporalmente los protocolos de combate y ejecutar un autodiagnóstico profundo del sistema.
-    L2: He recogido el plasma caótico disperso para fabricarle este módulo energético ultraeficiente.
+	L1: Se confirma que la amenaza global ha sido neutralizada. Uf... permítame suspender temporalmente los protocolos de combate y ejecutar un autodiagnóstico profundo del sistema.
+	L2: He recogido el plasma caótico disperso para fabricarle este módulo energético ultraeficiente.
 	L3: La larga campaña ha terminado al fin. Maestro, en los tiempos de paz que se avecinan, por favor, déjeme seguir sirviéndole como tu sirvienta.
 }
 
 ShepelTwinsGift: {
 	L0: La cobertura cruzada de los gemelos mecánicos era prácticamente impenetrable.
-    L1: Sin embargo, mientras nuestra conexión se mantenga estable, no les dejaremos ningún punto ciego.
-    L2: He mejorado las capacidades de escaneo secundario del sistema de puntería, lo que aumenta la fiabilidad del bloqueo de objetivos.
-    L3: No se preocupes y déjeme a mí sus flancos y su retaguardia
+	L1: Sin embargo, mientras nuestra conexión se mantenga estable, no les dejaremos ningún punto ciego.
+	L2: He mejorado las capacidades de escaneo secundario del sistema de puntería, lo que aumenta la fiabilidad del bloqueo de objetivos.
+	L3: No se preocupes y déjeme a mí sus flancos y su retaguardia
 }
 
 ShepelWoFGift: {
 	L0: Tras el colapso del Muro carnoso, la estructura de la corteza terrestre y los niveles de energía se han desestabilizado violentamente.
-    L1: El mundo está entrando en una fase mucho más peligrosa. Pero, al mismo tiempo, están surgiendo en abundancia nuevos materiales poco comunes.
+	L1: El mundo está entrando en una fase mucho más peligrosa. Pero, al mismo tiempo, están surgiendo en abundancia nuevos materiales poco comunes.
 	L2: He utilizado esas aleaciones recién aparecidas para mejorar sus sistemas de sujeción. Considera esto nuestro primer paso hacia esta nueva fase.
-    L3: No importa cómo mute el entorno externo, mis protocolos de guardia nunca vacilarán.
+	L3: No importa cómo mute el entorno externo, mis protocolos de guardia nunca vacilarán.
 }
 
 ShepelYharonGift: {
 	L0: La velocidad de vuelo de ese dragón... ha superado mis límites de seguimiento.
-    L1: Para evitar que se vea expuesto a sus picos de velocidad, he reescrito los módulos de predicción subyacentes en pleno combate.
+	L1: Para evitar que se vea expuesto a sus picos de velocidad, he reescrito los módulos de predicción subyacentes en pleno combate.
 	L2: Ahora, la velocidad inicial de su arma y los tiempos de respuesta se han mejorado significativamente, lo suficiente como para superar su velocidad máxima.
-    L3: Para mantener siempre su ritmo, mis sistemas están preparados para superar sus propios límites en cualquier momento.
+	L3: Para mantener siempre su ritmo, mis sistemas están preparados para superar sus propios límites en cualquier momento.
 }
 
 FirstMetShepel: {

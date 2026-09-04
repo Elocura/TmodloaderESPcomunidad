@@ -38,7 +38,11 @@ CWRServerConfig: {
 
 CWRClientConfig: {
 	DisplayName: Configuración del cliente
-	Headers.CWRWeapon: Configuraciones de armas
+
+	Headers: {
+		CWRWeapon: Configuraciones de armas
+		CWRDisplay: Display Configs
+	}
 
 	ScreenVibration: {
 		Label: Vibración de la pantalla al usar armas
@@ -58,5 +62,10 @@ CWRClientConfig: {
 	AmbienceDensity: {
 		Label: Densidad ambiental
 		Tooltip: Solo ajusta la densidad de las partículas ambientales decorativas; las señales de advertencia y los peligros nunca se reducen.
+	}
+
+	RarityTextEffects: {
+		Label: Rarity Name Effects
+		Tooltip: Animated item-name effects for this mod's rarities (Lapis, Jade, Copper, Gilt, Starsilver and the four Legends). When disabled, names are drawn in plain color.
 	}
 }

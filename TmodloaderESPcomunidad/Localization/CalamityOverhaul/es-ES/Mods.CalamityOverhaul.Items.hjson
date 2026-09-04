@@ -22,7 +22,6 @@ ElementWhip: {
 		Incendia a los enemigos con fuego elemental
 		"La esencia primordial de Terra impregna el mundo junto con los elementos del cosmos"
 		'''
-
 }
 
 AzureDragonRage: {
@@ -104,7 +103,6 @@ Cloudwalking: {
 		'''
 }
 
-
 AnnihilatingUniverse: {
 	DisplayName: Aniquilador universal
 	Tooltip:
@@ -129,7 +127,7 @@ DawnshatterAzure: {
 	Tooltip:
 		'''
 		Mantén pulsado clic izquierdo para encadenar un combo de cinco golpes; el giro final provocará una corona de luz
-        Haz clic derecho para cargar y, a continuación, lánzate hacia el cursor
+		Haz clic derecho para cargar y, a continuación, lánzate hacia el cursor
 		"Deja que las llamas purifiquen tu alma y saqueen por completo a tus enemigos"
 		'''
 }
@@ -139,8 +137,8 @@ Flawless: {
 	Tooltip:
 		'''
 		Hace una combinación de cuatro golpes: barrido, estocada, barrido hacia atrás y estocada final, cada uno más contundente que el anterior
-        Los golpes de estocada utilizan la punta del arma para ganar alcance, esparciendo cristales de hielo al impactar
-        "Cambió la punta siete veces. El objetivo tiene un solo agujero"
+		Los golpes de estocada utilizan la punta del arma para ganar alcance, esparciendo cristales de hielo al impactar
+		"Cambió la punta siete veces. El objetivo tiene un solo agujero"
 		'''
 }
 
@@ -154,16 +152,16 @@ StormGoddessSpear: {
 		'''
 	Legend:
 		'''
-		Alina fue en su día la guerrera más hábil de Terra, y empuñaba una espada de trueno que atravesaba la oscuridad, 
-		con una fe inquebrantable y absoluta. Pero la fe no pudo protegerla de la indiferencia de los dioses.  
-		Cuando la Deidad Suprema dictó sentencia, sus compañeros, familiares, juramentos y gloria quedaron reducidos a cenizas. 
-		Ella fue testigo de cómo la "justicia" lo pisoteaba todo hasta convertirlo en polvo, de cómo el orden no era más que un velo para ocultar la más cruel de las destrucciones.  
+		Alina fue en su día la guerrera más hábil de Terra, y empuñaba una espada de trueno que atravesaba la oscuridad,
+		con una fe inquebrantable y absoluta. Pero la fe no pudo protegerla de la indiferencia de los dioses.
+		Cuando la Deidad Suprema dictó sentencia, sus compañeros, familiares, juramentos y gloria quedaron reducidos a cenizas.
+		Ella fue testigo de cómo la "justicia" lo pisoteaba todo hasta convertirlo en polvo, de cómo el orden no era más que un velo para ocultar la más cruel de las destrucciones.
 		Ya no buscaba la luz, sino que se reforjó a sí misma en el abismo. Un poder antiguo y 
-		prohibido consumió su alma, otorgándole una fuerza más allá de la comprensión mortal.  
-		Su armadura se convirtió en escombros forjados en las profundidades, sus ojos ardían con los restos del trueno y la oscuridad entrelazados. 
-		Ya no era la guardiana de Terra, sino la tormenta misma: una venganza que no podía detenerse.  
-		Su furia arrasó el campo de batalla como una tempestad rugiente, su trueno destrozó tronos y templos. 
-		Ella no luchó por la justicia, ni por Terra, ni por los dioses.  
+		prohibido consumió su alma, otorgándole una fuerza más allá de la comprensión mortal.
+		Su armadura se convirtió en escombros forjados en las profundidades, sus ojos ardían con los restos del trueno y la oscuridad entrelazados.
+		Ya no era la guardiana de Terra, sino la tormenta misma: una venganza que no podía detenerse.
+		Su furia arrasó el campo de batalla como una tempestad rugiente, su trueno destrozó tronos y templos.
+		Ella no luchó por la justicia, ni por Terra, ni por los dioses.
 		Luchó por la venganza, por la aniquilación, para que aquellos que se consideraban justos comprendieran el verdadero significado del miedo.
 		'''
 }
@@ -220,7 +218,7 @@ BloodAltar: {
 	Tooltip:
 		'''
 		Clic derecho sobre el altar con una lágrima de sangre para invocar a la Luna de sangre
-		Recoge automáticamente  lás lágrimas de sangre los orbes de sangre caídos por todo el mundo y las almacena en el almacenamieto más cercano.
+		Recoge automáticamente lás lágrimas de sangre los orbes de sangre caídos por todo el mundo y las almacena en el almacenamieto más cercano.
 		"Deja que el mundo se tiña de carmesí."
 		'''
 }
@@ -281,12 +279,12 @@ EyeOfSingularity: {
 		Establece el multiplicador de daño crítico para todas las armas a distancia en un 500%
 		Tus proyectiles a distancia atraviesan el espacio, creando pequeños agujeros negros al impactar que arrastran y aplastan a los enemigos
 		Mientras permaneces quieto, entras en el estado 'Horizonte de sucesos':
-			- Otorga invisibilidad e inmunidad a todo el daño por contacto.
-			- Los ataques liberan ráfagas de rayos gamma adicionales que rastrean a los enemigos.
+		  - Otorga invisibilidad e inmunidad a todo el daño por contacto.
+		  - Los ataques liberan ráfagas de rayos gamma adicionales que rastrean a los enemigos.
 		Otorga la habilidad de Salto cuántico; pulsa [KEY] para teletransportarte al cursor, borrando los proyectiles enemigos a lo largo del camino
 		Haz clic con el botón derecho para activar el 'Protocolo de colapso':
-			- Consume todo el maná para hacer que todos los ataques a distancia ignoren los marcos de inmunidad y forcen golpes críticos durante 10 segundos
-			- 60 segundos de enfriamiento.
+		  - Consume todo el maná para hacer que todos los ataques a distancia ignoren los marcos de inmunidad y forcen golpes críticos durante 10 segundos
+		  - 60 segundos de enfriamiento.
 		Si recibes daño fatal, te conviertes en una supernova, infligiendo daño extremo en el área, y te reformas en un lugar seguro después de 3 segundos.
 		Este efecto tiene un enfriamiento de 60 segundos.
 		[c/33ff33:"El Dios dragón dormido se conecta a tus nervios, descomponiendo la lógica basal del espíritu máquina"]
@@ -359,9 +357,9 @@ HalibutPilotChart: {
 		Se queda contigo si rechazas la guía de inicio; la guía no se consume y se puede volver a utilizar
 		'''
 	NeedFish: Halibut no está en tu bolsa, por lo que la carta no sirve para orientarse
-    HoldFish: La carta está desplegada; coge el Halibut y comienza la guía
-    Closed: La guía está guardada; vuelve a usar la carta para reabrirla
-    NotNow: En este momento hay otra cosa ocupando el lugar
+	HoldFish: La carta está desplegada; coge el Halibut y comienza la guía
+	Closed: La guía está guardada; vuelve a usar la carta para reabrirla
+	NotNow: En este momento hay otra cosa ocupando el lugar
 }
 
 OnikiriItem: {
@@ -795,25 +793,24 @@ WeaverGrievances: {
 		Haz clic derecho y rueda en la dirección del cursor transformándote en una rueda de almas vengativas. Si golpeas a un enemigo durante el giro, obtendrás un fotograma de invencibilidad
 		El esquive será perfecto si te lanzas en el momento justo.
 		[legend]
-			
 		'''
 	Legend:
 		'''
-		La eterna mazmorra se extiende por toda la tierra, con sus paredes grabadas con inscripciones y gritos de antiguos guerreros. 
-		Cada piedra está saturada de malicia persistente, como cadenas de los condenados, atándola a la oscuridad infinita al final del tiempo.  
+		La eterna mazmorra se extiende por toda la tierra, con sus paredes grabadas con inscripciones y gritos de antiguos guerreros.
+		Cada piedra está saturada de malicia persistente, como cadenas de los condenados, atándola a la oscuridad infinita al final del tiempo.
 		Estos guerreros fueron en su día las espadas de su rey, librando guerras por todos los reinos, 
-		sus espadas habían iluminado innumerables campos de batalla, y su sangre forjó el imponente imperio. 
-		Su lealtad era tan duradera como las estrellas, y su convicción era tan inquebrantable como el hierro. 
-		Sin embargo, cuando cesaron las guerras y las banderas del Señor de los demonios fueron destrozadas a los pies del rey, 
+		sus espadas habían iluminado innumerables campos de batalla, y su sangre forjó el imponente imperio.
+		Su lealtad era tan duradera como las estrellas, y su convicción era tan inquebrantable como el hierro.
+		Sin embargo, cuando cesaron las guerras y las banderas del Señor de los demonios fueron destrozadas a los pies del rey,
 		en el momento en que descendió la paz, el rey decretó su envío al abismo. 
 		"¡Nosotros nunca cometimos traición, pero el rey nos ha traicionado!". Los angustiados lamentos de los condenados rasgaron el vacío, rompiendo el silencio de la eternidad.
-		Sus nobles espíritus no volvieron al polvo, sino que quedaron aprisionados en el abismo del vacío, condenados a ser testigos de la noche eterna.  
-		Los incesantes lamentos se transformaron en una acusación silenciosa, que llegó hasta los confines más lejanos de las estrellas.  
+		Sus nobles espíritus no volvieron al polvo, sino que quedaron aprisionados en el abismo del vacío, condenados a ser testigos de la noche eterna.
+		Los incesantes lamentos se transformaron en una acusación silenciosa, que llegó hasta los confines más lejanos de las estrellas.
 		Se dice que el rey, temeroso de su inquebrantable lealtad y del infierno de su ira, 
 		hizo caso a los susurros de los hechiceros del Señor de los demonios, y optó por relegar a estos guerreros a las sombras de la historia.
-		Pero la malicia, como una marea, ha distorsionado la realidad de la mazmorra. Su sufrimiento ha sacudido las barreras del tiempo y el espacio, tejiendo una profecía de venganza:  
-		"¡El Señor de los demonios regresará; el vacío se desgarrará y nuestra ira lo consumirá todo!".  
-		Cuando Terra se enfrente una vez a la aniquilación, estos muertos inquietos se levantarán de las tinieblas. 
+		Pero la malicia, como una marea, ha distorsionado la realidad de la mazmorra. Su sufrimiento ha sacudido las barreras del tiempo y el espacio, tejiendo una profecía de venganza:
+		"¡El Señor de los demonios regresará; el vacío se desgarrará y nuestra ira lo consumirá todo!".
+		Cuando Terra se enfrente una vez a la aniquilación, estos muertos inquietos se levantarán de las tinieblas.
 		Sus espadas ya no lucharán por la gloria de un imperio, sino por el juicio del traidor.
 		La gloria y la lealtad hace tiempo que se han desvanecido; solo quedan las llamas de la venganza, destinadas a consumirlo todo.
 		'''
@@ -892,7 +889,6 @@ DuneStalker: {
 		El gancho atraviesa a los enemigos a su paso y, a continuación, se recoge automáticamente al impactar o al alcanzar su alcance máximo
 		'''
 }
-
 
 SeasonalKunai: {
 	DisplayName: Kunai estacional
@@ -1180,10 +1176,10 @@ DestroyersBladeEX: {
 	Tooltip:
 		'''
 		Los golpes contundentes desatan cortes de color negro-carmesí, rayos de energía y descargas de sombra
-        Envainar la espada activa momentáneamente el Protocolo de acecho: aumenta la velocidad de movimiento
-        Mientras acechas, haz clic derecho para convertirte en las fauces del Destructor y morder a tu presa; si no hay ningún objetivo, se abalanzará hacia el cursor
+		Envainar la espada activa momentáneamente el Protocolo de acecho: aumenta la velocidad de movimiento
+		Mientras acechas, haz clic derecho para convertirte en las fauces del Destructor y morder a tu presa; si no hay ningún objetivo, se abalanzará hacia el cursor
 		Una mordedura acertada inflige un daño enorme y activa el Protocolo de aniquilación:
-        todos los proyectiles adquieren capacidad de seguimiento, y los golpes finales lanzan cabezas del Destructor
+		todos los proyectiles adquieren capacidad de seguimiento, y los golpes finales lanzan cabezas del Destructor
 		"Siempre es más fácil destruir que construir"
 		'''
 }
@@ -1460,7 +1456,7 @@ TeleportStation: {
 	Tooltip:
 		'''
 		Crea una red de teletransporte con todas las demás estaciones del mundo
-		Haz clic  derecho para abrir el panel y, a continuación, haz clic en un destino para viajar
+		Haz clic derecho para abrir el panel y, a continuación, haz clic en un destino para viajar
 		El teletransporte consume energía en función de la distancia; además, el destino necesita un poco de energía en modo de espera
 		Se puede asignar un nombre a las estaciones para que sean fáciles de encontrar en la lista.
 		'''
@@ -1748,19 +1744,19 @@ MachineModuleText: {
 	HowToText: Haz clic derecho en una máquina compatible e insértalo en su panel
 	SocketOnly: ¡Esta máquina no admite ese módulo!
 	SocketDuplicate: ¡Ya hay un módulo de este tipo instalado!
-	SocketEmptyHint:  Inserta un módulo de mejora
+	SocketEmptyHint: Inserta un módulo de mejora
 	SlotLabel: Modules
-	 NameMining: Máquina minera
+	NameMining: Máquina minera
 	NameThermal: Generador térmico
-    NameWind: Turbina eólica
-    NameHydro: Generador hidráulico
-    NameIncinerator: Incineradora
-    NameCrusher: Trituradora de mineral
-    NameRecycler: Reciclador
-    NameMagma: Generador térmico de magma
-    NameBiomass: Generador de biomasa
-    NameTurret: Torreta defensiva
-    NameSolar: Panel solar
+	NameWind: Turbina eólica
+	NameHydro: Generador hidráulico
+	NameIncinerator: Incineradora
+	NameCrusher: Trituradora de mineral
+	NameRecycler: Reciclador
+	NameMagma: Generador térmico de magma
+	NameBiomass: Generador de biomasa
+	NameTurret: Torreta defensiva
+	NameSolar: Panel solar
 }
 
 InsulationLiningModule: {
@@ -2345,15 +2341,15 @@ AncientStormGoddessSpear: {
 	Legend:
 		'''
 		Alina fue en su día la guerrera más hábil de Terra, y empuñaba una espada de trueno que atravesaba la oscuridad, 
-		con una fe inquebrantable y absoluta. Pero la fe no pudo protegerla de la indiferencia de los dioses.  
+		con una fe inquebrantable y absoluta. Pero la fe no pudo protegerla de la indiferencia de los dioses.
 		Cuando la Deidad Suprema dictó sentencia, sus compañeros, familiares, juramentos y gloria quedaron reducidos a cenizas. 
-		Ella fue testigo de cómo la "justicia" lo pisoteaba todo hasta convertirlo en polvo, de cómo el orden no era más que un velo para ocultar la más cruel de las destrucciones.  
+		Ella fue testigo de cómo la "justicia" lo pisoteaba todo hasta convertirlo en polvo, de cómo el orden no era más que un velo para ocultar la más cruel de las destrucciones.
 		Ya no buscaba la luz, sino que se reforjó a sí misma en el abismo. Un poder antiguo y 
-		prohibido consumió su alma, otorgándole una fuerza más allá de la comprensión mortal.  
+		prohibido consumió su alma, otorgándole una fuerza más allá de la comprensión mortal.
 		Su armadura se convirtió en escombros forjados en las profundidades, sus ojos ardían con los restos del trueno y la oscuridad entrelazados. 
-		Ya no era la guardiana de Terra, sino la tormenta misma: una venganza que no podía detenerse.  
+		Ya no era la guardiana de Terra, sino la tormenta misma: una venganza que no podía detenerse.
 		Su furia arrasó el campo de batalla como una tempestad rugiente, su trueno destrozó tronos y templos. 
-		Ella no luchó por la justicia, ni por Terra, ni por los dioses.  
+		Ella no luchó por la justicia, ni por Terra, ni por los dioses.
 		Luchó por la venganza, por la aniquilación, para que aquellos que se consideraban justos comprendieran el verdadero significado del miedo.
 		'''
 }
@@ -2487,15 +2483,15 @@ MiningMachineMk2: {
 }
 
 UniversalFrost: {
-	 DisplayName: Helada universal
-	 Tooltip:
+	DisplayName: Helada universal
+	Tooltip:
 		'''
 		Usa bolas de nieve como munición
 		Al hacer clic izquierdo se disparan rápidamente destellos de escarcha; cada disparo carga la cúpula de escarcha
 		Una vez cargada por completo, al hacer clic derecho se despliega una cortina de aurora sobre el cursor
 		La cortina lanza una lluvia de lanzas de escarcha sobre los enemigos que se encuentran debajo
 		"Cuando toda la creación se queda en silencio, solo la aurora sigue fluyendo por el cielo"
-		''' 
+		'''
 }
 
 GodslayerScabbard: {
@@ -2608,7 +2604,7 @@ AutoCrafter: {
 	DisplayName: Mesa de trabajo automática
 	Tooltip:
 		'''
-		Haz clic  derecho para abrir el panel, inserta una muestra y fija una de sus recetas
+		Haz clic derecho para abrir el panel, inserta una muestra y fija una de sus recetas
 		Recoge los ingredientes de los cofres y máquinas cercanos y, a continuación, los elabora automáticamente
 		Las estaciones de elaboración que requiera la receta deben colocarse cerca de la máquina
 		Los productos se envían primero al almacén más cercano o permanecen en la ranura de salida
@@ -2746,8 +2742,8 @@ Apiary: {
 SlimeVat: {
 	NoEnergyText: ¡Energia insuficiente!
 	NoWaterText: ¡No hay suficiente agua!
-    FullText: ¡El almacén de productos está lleno!
-    PourText: +{0} de agua
+	FullText: ¡El almacén de productos está lleno!
+	PourText: +{0} de agua
 	DisplayName: Cuba de cultivo de slimes
 	Tooltip:
 		'''
@@ -2799,13 +2795,13 @@ Sandevistan: {
 MimicPerchedAuxBrain: {
 	DisplayName: Cerebro auxiliar mímico en reposo
 	Tooltip:
-			'''
-			Divide al anfitrión en cuatro ilusiones que flotan alrededor del cuerpo principal.
-			Cuando recibe un golpe, el yo real, oculto entre las ilusiones, provocará el caos y obtendrá inmunidad, 
-			sin sufrir daño alguno por el ataque.
-			Mientras tanto, las ilusiones se lanzarán contra el atacante y detonarán, 
-			infligiendo daño proporcional a la potencia de ataque bruta del enemigo.
-			'''
+		'''
+		Divide al anfitrión en cuatro ilusiones que flotan alrededor del cuerpo principal.
+		Cuando recibe un golpe, el yo real, oculto entre las ilusiones, provocará el caos y obtendrá inmunidad, 
+		sin sufrir daño alguno por el ataque.
+		Mientras tanto, las ilusiones se lanzarán contra el atacante y detonarán, 
+		infligiendo daño proporcional a la potencia de ataque bruta del enemigo.
+		'''
 }
 
 CstmVisualEye: {
@@ -3217,8 +3213,6 @@ CyberwareOfflineChip: {
 	Tooltip: ""
 }
 
-
-
 Mewtwo: {
 	DisplayName: Chip Supersueño
 	Tooltip: "Úsalo para entrar al Supersueño"
@@ -3229,7 +3223,7 @@ RapidBarrelModule: {
 	Tooltip:
 		'''
 		El fuego sostenido aumenta la temperatura del cañón: cuanto más caliente está, más rápido dispara, lanzando rayos al rojo vivo hasta alcanzar una incandescencia blanca que desprende cenizas fundidas
-        Al llegar al límite del indicador, se activa una válvula de sobrecalentamiento durante varios segundos: aplica una cadencia de fuego máxima sin coste de maná, con vapor saliendo a borbotones por la boca del cañón bajo el sonido de una alarma estridente
+		Al llegar al límite del indicador, se activa una válvula de sobrecalentamiento durante varios segundos: aplica una cadencia de fuego máxima sin coste de maná, con vapor saliendo a borbotones por la boca del cañón bajo el sonido de una alarma estridente
 		A continuación se produce un enfriamiento forzado con una cadencia de disparo muy reducida; el calor se disipa lentamente mientras se mantiene el fuego: controla el calor, mantente en el límite.
 		'''
 }
@@ -3334,8 +3328,8 @@ EfficientGripModule: {
 	Tooltip:
 		'''
 		Protocolo Bucle sin pérdidas: los impactos de los rayos y el láser recuperan energía del coste de maná de cada disparo, condensando las células de reciclaje que orbitan a tu alrededor.
-        Cuando alcances las ocho células, tu próximo clic izquierdo se convertirá en un "Tiro sin pérdidas": se te reembolsará todo el maná y cada célula inundará la boca del cañón para potenciar esa ráfaga
-        En modo láser, el "Tiro sin pérdidas" descarga todas las células en tu cursor, detonando la energía recuperada
+		Cuando alcances las ocho células, tu próximo clic izquierdo se convertirá en un "Tiro sin pérdidas": se te reembolsará todo el maná y cada célula inundará la boca del cañón para potenciar esa ráfaga
+		En modo láser, el "Tiro sin pérdidas" descarga todas las células en tu cursor, detonando la energía recuperada
 		'''
 }
 
@@ -3389,7 +3383,7 @@ LightStockModule: {
 	DisplayName: Culata ligera
 	Tooltip:
 		'''
-		El armazón ligero segmentado aumenta la cadencia de disparo y convierte cada rayo principal en una cadena de luz que se arrastra: 
+		El armazón ligero segmentado aumenta la cadencia de disparo y convierte cada rayo principal en una cadena de luz que se arrastra:
 		dos segmentos de la cadena se deslizan a lo largo de la trayectoria del rayo, cada uno de los cuales inflige su propio daño
 		'''
 }
@@ -3399,7 +3393,7 @@ MultiCellFrameModule: {
 	Tooltip:
 		'''
 		Protocolo de alimentación de la matriz: despliega una matriz energética de seis celdas a tu alrededor; cada ráfaga que impacta carga una celda, mientras que el láser de prisma se carga más lentamente
-        Una vez que las seis celdas están iluminadas, la matriz se activa y dispara una salva de seis rayos autoguiados contra el objetivo desde las posiciones de las celdas; a continuación, se vacía y se bloquea brevemente para enfriarse
+		Una vez que las seis celdas están iluminadas, la matriz se activa y dispara una salva de seis rayos autoguiados contra el objetivo desde las posiciones de las celdas; a continuación, se vacía y se bloquea brevemente para enfriarse
 		'''
 }
 
@@ -3427,7 +3421,7 @@ ScattershotBarrelModule: {
 		'''
 		El cañón fracturado divide cada disparo en una ráfaga de rayos de corto alcance; 
 		al impactar por primera vez o al final de su trayectoria, cada rayo se fragmenta en un cono de fragmentos de luz cristalina
-		Los fragmentos nunca alcanzan su objetivo y su daño disminuye drásticamente con la distancia: una ráfaga a quemarropa clava todo el grupo en un solo objetivo, 
+		Los fragmentos nunca alcanzan su objetivo y su daño disminuye drásticamente con la distancia: una ráfaga a quemarropa clava todo el grupo en un solo objetivo,
 		mientras que los disparos lejanos solo rozan
 		La detonación del orbe de carga también provoca una explosión de fragmentos de gran tamaño a lo largo de su trayectoria de vuelo
 		'''
@@ -3435,10 +3429,10 @@ ScattershotBarrelModule: {
 
 ThermalOpticModule: {
 	DisplayName: Visor térmico
-	Tooltip: 
+	Tooltip:
 		'''
-		Proporciona marcas térmicas a los objetivos, calcinando a la presa hasta que pasa de un rojo hierro a la incandescencia en la visión térmica; 
-		a máxima potencia, se activa el bloqueo al rojo vivo,  y los rayos se clavan con fuerza en ese objetivo con un bonus de crítico y un efecto abrasador sostenido
+		Proporciona marcas térmicas a los objetivos, calcinando a la presa hasta que pasa de un rojo hierro a la incandescencia en la visión térmica;
+		a máxima potencia, se activa el bloqueo al rojo vivo, y los rayos se clavan con fuerza en ese objetivo con un bonus de crítico y un efecto abrasador sostenido
 		'''
 }
 
@@ -3446,11 +3440,11 @@ VolatileFrameModule: {
 	DisplayName: Marco volátil
 	Tooltip:
 		'''
-		El campo de contención del armazón se desestabiliza: cada rayo nace con una mutación caótica aleatoria, 
+		El campo de contención del armazón se desestabiliza: cada rayo nace con una mutación caótica aleatoria,
 		marcada por un efecto de interferencia superpuesto en su color de mutación
-		Fisión (cian) se bifurca en pleno vuelo; Sobrecarga (rojo) duplica el daño con una trayectoria frenética; 
+		Fisión (cian) se bifurca en pleno vuelo; Sobrecarga (rojo) duplica el daño con una trayectoria frenética;
 		Inestable (naranja) detona al primer impacto; Aberrante (morado) se desvía hacia el enemigo más cercano
-		En modo láser, el campo se intensifica periódicamente: las intensificaciones de Sobrecarga provocan daño adicional, 
+		En modo láser, el campo se intensifica periódicamente: las intensificaciones de Sobrecarga provocan daño adicional,
 		mientras que las de Inestable detonan tras acumular varios impactos
 		'''
 }
@@ -3585,7 +3579,7 @@ BraceStockModule: {
 		Si te quedas quieto sobre terreno firme durante aproximadamente un segundo, se despliega automáticamente un trípode hidráulico que te fija en modo torreta
 		Mientras está desplegado: los rayos no se dispersan, su alcance y velocidad aumentan considerablemente, obtienen penetración adicional 
 		y estabilización balística, además de un +8% de probabilidad de golpe crítico
-		Si te mueves o te alejas del suelo, el equipo se pliega al instante; volver a desplegarlo en un plazo de 8 segundos mantiene el sistema hidráulico en funcionamiento 
+		Si te mueves o te alejas del suelo, el equipo se pliega al instante; volver a desplegarlo en un plazo de 8 segundos mantiene el sistema hidráulico en funcionamiento
 		y es mucho más rápido
 		Llevarlo equipado de serie otorga una dispersión del -20% y una velocidad de ataque del -5%
 		'''
@@ -3727,7 +3721,7 @@ ErgonomicStockModule: {
 		La culata se adapta a tus manos: el fuego sostenido sobre un objetivo (o más o menos en la misma dirección) desarrolla la memoria muscular
 		Los niveles de destreza desbloquean beneficios crecientes: una dispersión menor, luego una cadencia de tiro más rápida y, 
 		finalmente, la Unión Arma-Cuerpo con la barra al máximo.
-		En el nivel de Unión, los impactos en el objetivo memorizado te devuelven un poco de maná, los rayos obtienen una corrección de puntería adicional 
+		En el nivel de Unión, los impactos en el objetivo memorizado te devuelven un poco de maná, los rayos obtienen una corrección de puntería adicional
 		y unas imágenes residuales rítmicas te siguen a ti y al arma
 		Cambiar de objetivo o dejar de disparar hace que la memoria se desvanezca rápidamente.
 		'''
@@ -3738,7 +3732,7 @@ ExtenderStockModule: {
 	Tooltip:
 		'''
 		Un riel ampliado proporciona a los rayos mayor alcance y velocidad de vuelo con un coste de daño mínimo
-		Corte terminal: una vez que el rayo ha recorrido una distancia suficiente, su energía residual se despliega lateralmente en el mismo sitio, 
+		Corte terminal: una vez que el rayo ha recorrido una distancia suficiente, su energía residual se despliega lateralmente en el mismo sitio,
 		formando una hoja de luz perpendicular a su trayectoria, que barre un área en forma de abanico para infligir daño final
 		Los rayos que se extinguen prematuramente por agotamiento de la penetración se convierten en una hoja más pequeña, cuyo tamaño varía en función de la distancia recorrida; las muertes a quemarropa no activan nada.
 		En modo láser, mantén pulsado el rayo brevemente y, a continuación, suelta la tecla de ataque para realizar un corte transversal en el punto del cursor sobre la columna
@@ -4080,7 +4074,7 @@ CWRItem: {
 			Esta arma legendaria no se puede mejorar en el mundo actual.
 			Vuelve a entrar en el mundo para eliminar esta restricción.
 			'''
-		ItemLegendOnMouseLang:  Presiona 'Shift' para escuchar su historia...
+		ItemLegendOnMouseLang: Presiona 'Shift' para escuchar su historia...
 	}
 }
 
@@ -5355,4 +5349,3 @@ BloomTome: {
 		"Whichever page you open, that page blooms"
 		'''
 }
-
