@@ -2,6 +2,7 @@ QuestLog_Key.DisplayName: Registro de misiones: Mostrar/ocultar la interfaz prin
 QuestManager_Key.DisplayName: Gestor de misiones: Abrir/cerrar el panel de administración
 Legend_UIControl.DisplayName: Arma legendaria: Activar/desactivar la interfaz
 Legend_Domain.DisplayName: Ampliación de dominio
+RadialWheel_Key.DisplayName: Ruedas radiales: Mantén pulsado para abrir
 Legend_Teleport.DisplayName: Teletransporte de dominio
 Legend_Restart.DisplayName: Reinicio automático
 HackTime_Toggle.DisplayName: Modo hackeo
@@ -12,10 +13,16 @@ CyberwareRadial_Key.DisplayName: Ciberimplante: Abre el menú radial
 VoidTimeShift_Key.DisplayName: Desplazamiento temporal del vacío
 Halibut_Clone.DisplayName: Halibut: Invasión del yo pasado
 Halibut_Superposition.DisplayName: Halibut: Superposición
-Halibut_SkillWheel.DisplayName: Halibut: Mantén pulsado para abrir el menú de habilidades
-Murasama_TriggerKey.DisplayName: Murasama: Tecla de activación
-Murasama_DownKey.DisplayName: Murasama: Golpe descendente
-WeponSkill_Q.DisplayName: Arma: Tecla de habilidad izquierda
-WeponSkill_R.DisplayName: Arma: Tecla de habilidad derecha
+Onikiri_FlashStep.DisplayName: Onikiri: Empuje de Kamui
+Onikiri_Execute.DisplayName: Onikiri: Ejecutar
+Onikiri_SakuraFlight.DisplayName: Onikiri: Vuelo Sakura
+Onikiri_DomainFlip.DisplayName: Onikiri: Dar la vuelta al dominio (Omote/Ura)
+Kikasa_Sink.DisplayName: Kikasa: Echar el objeto al lago
+Kikasa_DomainMutate.DisplayName: Kikasa: Dar la vuelta al lago
+Kikasa_TideControl.DisplayName: Kikasa: Dominio de marea
 Accessory_Skills.DisplayName: Habilidad de accesorio
-CWRKeySystem.Notbound: "[Tecla sin asignar]"
+CWRKeySystem: {
+	Notbound: "[Tecla sin asignar]"
+	RightClickFallback: Clic derecho
+}
+Blessing_Key.DisplayName: Rueda del renacimiento: Mantén pulsado para abrir
