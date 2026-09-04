@@ -6,7 +6,7 @@ HalibutOverride: {
 		'''
 	FishOnStudied:
 		'''
-		[i::CalamityOverhaul/HalibutItem]:
+		[i:CalamityOverhaul/HalibutItem]:
 		Este pez se ha investigado
 		'''
 	DisplayName: Halibut
@@ -90,7 +90,7 @@ HalibutText: {
 		EquipWaiting: Investigando... La habilidad se añadirá a tu equipamiento cuando hayas terminado.
 		WheelTitle: Rueda de habilidades
 		WheelBody: Tras equipar habilidades, puedes cambiar al instante la que usas en combate. Si hay varios menús radiales a la vez, el cursor se queda con el más cercano
-		WheelPrompt:  Mantén pulsado {0} para abrir el menú de habilidades; pruébalo.
+		WheelPrompt: Mantén pulsado {0} para abrir el menú de habilidades; pruébalo.
 		SkipBtn: Saltar
 	}
 
@@ -129,7 +129,7 @@ HalibutText: {
 		EyeDesc4:
 			'''
 			Cuatro ojos se dividen en dos pares, cubriendo los tuyos. Las proyecciones abisales, antes separadas, comienzan a superponerse y a fusionarse.
-            El mundo que ves ya no es el mismo; la estructura de la materia se desmonta y se reorganiza en las turbias aguas del mar.
+			El mundo que ves ya no es el mismo; la estructura de la materia se desmonta y se reorganiza en las turbias aguas del mar.
 			[Line]
 			Presiona [Halibut_Domain] para abrir o cerrar el dominio.
 			Presiona [Halibut_Teleport] teletransportarse dentro del dominio.
@@ -138,8 +138,8 @@ HalibutText: {
 		EyeDesc5:
 			'''
 			Tu piel se vuelve pálida e hinchada, como la de un cadáver sumergido desde hace tiempo.
-            Innumerables ojos inquietos nadan y se agitan bajo tu piel como peces, hasta que finalmente convergen en tu frente, abriendo un único y espantoso ojo.
-            Los cinco niveles del dominio se fusionan por completo, otorgándote la capacidad de alterar la causalidad dentro del espacio distorsionado.
+			Innumerables ojos inquietos nadan y se agitan bajo tu piel como peces, hasta que finalmente convergen en tu frente, abriendo un único y espantoso ojo.
+			Los cinco niveles del dominio se fusionan por completo, otorgándote la capacidad de alterar la causalidad dentro del espacio distorsionado.
 			[Line]
 			Presiona [Halibut_Domain] para abrir o cerrar el dominio.
 			Presiona [Halibut_Teleport] teletransportarse dentro del dominio.
@@ -150,7 +150,7 @@ HalibutText: {
 			'''
 			El sexto ojo se abre en tu corazón.
 			Ya no bombea sangre caliente, sino un agua negra y siniestra, fétida y fría, como aguas residuales empapadas de cadáveres en descomposición.
-            Con cada latido, agita unas venas azul oscuro visibles en el mar.
+			Con cada latido, agita unas venas azul oscuro visibles en el mar.
 			[Line]
 			Presiona [Halibut_Domain] para abrir o cerrar el dominio.
 			Presiona [Halibut_Teleport] teletransportarse dentro del dominio.
@@ -160,7 +160,7 @@ HalibutText: {
 		EyeDesc7:
 			'''
 			Siete ojos se disponen en una extraña formación sobre tu frente, desbordándose de luz al compás del tiempo.
-            El dominio inicia una frenética erosión de la realidad. Allá donde llegan sus fronteras, la materia se disuelve como arena y las mareas reescriben las leyes.
+			El dominio inicia una frenética erosión de la realidad. Allá donde llegan sus fronteras, la materia se disuelve como arena y las mareas reescriben las leyes.
 			[Line]
 			Presiona [Halibut_Domain] para abrir o cerrar el dominio.
 			Presiona [Halibut_Teleport] teletransportarse dentro del dominio.
@@ -171,7 +171,7 @@ HalibutText: {
 		EyeDesc8:
 			'''
 			El octavo ojo se materializa como un vórtice silencioso en la palma de tu mano.
-            La presión del agua dentro de ese espacio se vuelve casi palpable; aquí la luz se curva y el sonido se apaga.
+			La presión del agua dentro de ese espacio se vuelve casi palpable; aquí la luz se curva y el sonido se apaga.
 			[Line]
 			Presiona [Halibut_Domain] para abrir o cerrar el dominio.
 			Presiona [Halibut_Teleport] teletransportarse dentro del dominio.
@@ -181,28 +181,28 @@ HalibutText: {
 			'''
 		EyeDesc9:
 			'''
-				El nueve es el número absoluto. Nueve ojos forman un anillo ilusorio del abismo sobre tu cabeza.
-				El último vestigio de humanidad ha sido arrastrado por el agua del mar. Lo que ahora se alza aquí es un caparazón que alberga un mar infinito de cadáveres.
-				[Line]
-				Presiona [Halibut_Domain] para abrir o cerrar el dominio.
-				Presiona [Halibut_Teleport] teletransportarse dentro del dominio.
-				Presiona [Halibut_Clone] hacer que el pasado invada el presente.
-				Presiona [Halibut_Restart] para reiniciarte
-				Presiona [Halibut_Superposition] para usar un golpe superpuesto.
+			El nueve es el número absoluto. Nueve ojos forman un anillo ilusorio del abismo sobre tu cabeza.
+			El último vestigio de humanidad ha sido arrastrado por el agua del mar. Lo que ahora se alza aquí es un caparazón que alberga un mar infinito de cadáveres.
+			[Line]
+			Presiona [Halibut_Domain] para abrir o cerrar el dominio.
+			Presiona [Halibut_Teleport] teletransportarse dentro del dominio.
+			Presiona [Halibut_Clone] hacer que el pasado invada el presente.
+			Presiona [Halibut_Restart] para reiniciarte
+			Presiona [Halibut_Superposition] para usar un golpe superpuesto.
 			'''
 		EyeDesc10:
 			'''
-				Los niveles pierden su significado; uno es el infinito.
-				Te has convertido en el abismo, y el abismo eres tú.
-				Allí donde se posa tu mirada hay un nuevo Génesis.
-				Has llegado al final de esta orilla y te has convertido en la deidad de la otra.
-				[Line]
-				Presiona [Halibut_Domain] para abrir o cerrar el dominio.
-				Presiona [Halibut_Teleport] teletransportarse dentro del dominio.
-				Presiona [Halibut_Clone] hacer que el pasado invada el presente.
-				Presiona [Halibut_Restart] para reiniciarte
-				Presiona [Halibut_Superposition] para usar un golpe superpuesto
-				Mantén pulsado clic izquierdo para iniciar la superposición infinita y los reinicios infinitos.
+			Los niveles pierden su significado; uno es el infinito.
+			Te has convertido en el abismo, y el abismo eres tú.
+			Allí donde se posa tu mirada hay un nuevo Génesis.
+			Has llegado al final de esta orilla y te has convertido en la deidad de la otra.
+			[Line]
+			Presiona [Halibut_Domain] para abrir o cerrar el dominio.
+			Presiona [Halibut_Teleport] teletransportarse dentro del dominio.
+			Presiona [Halibut_Clone] hacer que el pasado invada el presente.
+			Presiona [Halibut_Restart] para reiniciarte
+			Presiona [Halibut_Superposition] para usar un golpe superpuesto
+			Mantén pulsado clic izquierdo para iniciar la superposición infinita y los reinicios infinitos.
 			'''
 		LayerTitleFormat: Nivel {0}
 	}
@@ -307,39 +307,39 @@ HalibutTrialQuestLine: {
 	TextDictionary_Content_6:
 		'''
 		Me encantan las excavaciones arqueológicas. La última vez que estaba paseando por la selva, vi unas ruinas enormes.
-        Ahora deberíamos tener la llave para abrir la puerta de esas ruinas. Vamos a echar un vistazo.
-        Dentro hay una máquina antigua esperando a que la encendamos, como si fuera el mando a distancia de un aire acondicionado.
+		Ahora deberíamos tener la llave para abrir la puerta de esas ruinas. Vamos a echar un vistazo.
+		Dentro hay una máquina antigua esperando a que la encendamos, como si fuera el mando a distancia de un aire acondicionado.
 		'''
 	TextDictionary_Content_7:
 		'''
 		¿Conoces el secreto que se esconde en la cara oculta de la Luna? Hay un pulpo gigante, una esponja y una estrella de mar...
-        Ah, quiero decir que se avecina la crisis lunar.
+		Ah, quiero decir que se avecina la crisis lunar.
 		'''
 	TextDictionary_Content_8:
 		'''
 		Ahora llega la crisis solar. Un poderoso ser energético se ha escapado de la cara oculta del Sol y se ha adentrado en el núcleo del planeta.
-        Tenemos que bajar hasta allí y darle una buena ducha de agua fría
+		Tenemos que bajar hasta allí y darle una buena ducha de agua fría
 		'''
 	TextDictionary_Content_9:
 		'''
 		Innumerables almas indomables provenientes de antiguos campos de batalla se han reunido, ocultas en lo más profundo de la mazmorra, y están empezando a inquietarse.
-        Podemos bajar allí y acabar con algunos de esos espíritus errantes. Puede que esto provoque una pequeña tormenta en el Subespacio, pero también servirá para atraerlos hacia fuera.
+		Podemos bajar allí y acabar con algunos de esos espíritus errantes. Puede que esto provoque una pequeña tormenta en el Subespacio, pero también servirá para atraerlos hacia fuera.
 		'''
 	TextDictionary_Content_10:
 		'''
 		Hay una especie que nace y crece en el espacio, capaz de soportar la intensa radiación cósmica y la energía de escala celestial.
-        Nos topamos con uno hace mucho tiempo, pero ahora nos enfrentamos al campeón de entre ellos: un ser que afirma haber devorado a los dioses..
+			Nos topamos con uno hace mucho tiempo, pero ahora nos enfrentamos al campeón de entre ellos: un ser que afirma haber devorado a los dioses..
 		'''
-	TextDictionary_Content_11:  Últimamente ha subido la temperatura en la selva; creo que ese poderoso dragón ha vuelto
+	TextDictionary_Content_11: Últimamente ha subido la temperatura en la selva; creo que ese poderoso dragón ha vuelto
 	TextDictionary_Content_12:
 		'''
 		Estamos a punto de enfrentarnos a la cumbre de las creaciones inorgánicas, con una potencia de fuego y una defensa sin igual.
-        Además, el Altar del fuego sulfúrico parece capaz de invocar algo.
+		Además, el Altar del fuego sulfúrico parece capaz de invocar algo.
 		'''
 	TextDictionary_Content_13:
 		'''
 		En el Abismo hay una piedra especial: úsala para enfrentarte a la batalla final.
-        También hay una poderosa criatura marina que destruyó mi máquina; vamos a vengarnos.
+		También hay una poderosa criatura marina que destruyó mi máquina; vamos a vengarnos.
 		'''
 	TextDictionary_Content_14: Sinceramente, siento que...
 }
@@ -373,112 +373,112 @@ SHPCTrialQuestLine: {
 	TrialSummary_0:
 		'''
 		Maestro, el primer objetivo de la prueba es ese ojo gigante que flota en el aire.
-        Por favor, derrótalo. Necesito recopilar datos completos sobre sus mecanismos antigravitatorios.
+		Por favor, derrótalo. Necesito recopilar datos completos sobre sus mecanismos antigravitatorios.
 		'''
 	TrialSummary_1:
 		'''
 		Los gusanos gigantes que habitan en la tierra contaminada y los cerebros carnosos son muestras biológicas de gran calidad.
-        Maestro, por favor, extraiga sus tejidos centrales. Debo analizar el mecanismo de propagación de esta erosión ecológica.
+		Maestro, por favor, extraiga sus tejidos centrales. Debo analizar el mecanismo de propagación de esta erosión ecológica.
 		'''
 	TrialSummary_2:
 		'''
 		El cerebro de la corrupción y el conjunto carnoso son fuentes infecciosas dotadas de una mente colectiva.
-        Maestro, por favor, elimínalos. Sus patrones parasitarios coordinados se han añadido a la lista de objetivos.
+		Maestro, por favor, elimínalos. Sus patrones parasitarios coordinados se han añadido a la lista de objetivos.
 		'''
 	TrialSummary_3:
 		'''
 		El agregado gelatinoso: un objetivo de nivel divino sin sistema nervioso central ni forma definida.
-        Maestro, por favor, destruye su núcleo. Yo me encargaré de registrar debidamente esta arquitectura caótica.
+		Maestro, por favor, destruye su núcleo. Yo me encargaré de registrar debidamente esta arquitectura caótica.
 		'''
 	TrialSummary_4:
 		'''
 		Un muro de carne se extiende por las profundidades del inframundo; es un sello de una época pasada.
-        Maestro, por favor, derríbalos. Es un avance necesario hacia una nueva era.
+		Maestro, por favor, derríbalos. Es un avance necesario hacia una nueva era.
 		'''
 	TrialSummary_5:
 		'''
 		La serpiente del desierto se ha infectado y ha dado lugar a una nueva cepa; su pus, según los análisis, está cargado de icor
-        Maestro, por favor, recoja el tejido enfermo. Necesito averiguar cómo se propaga esta mutación
+		Maestro, por favor, recoja el tejido enfermo. Necesito averiguar cómo se propaga esta mutación
 		'''
 	TrialSummary_6:
 		'''
 		La emisaria de azufre, en las profundidades de la lava, está provocando una reacción de alta temperatura.
-        Maestro, por favor, apaga su llama central. Yo, por mi parte, registraré simultáneamente su eficiencia en la conversión de energía.
+		Maestro, por favor, apaga su llama central. Yo, por mi parte, registraré simultáneamente su eficiencia en la conversión de energía.
 		'''
 	TrialSummary_7:
 		'''
 		El primer objetivo mecánico es un gusano gigante de acero.
-        Maestro, por favor, córtalo en trozos reciclables. Intenta mantener intacta la estructura motriz.
+		Maestro, por favor, córtalo en trozos reciclables. Intenta mantener intacta la estructura motriz.
 		'''
 	TrialSummary_8:
 		'''
 		El segundo objetivo mecánico es ese par de globos oculares con espejos. Su principal característica es el combate coordinado.
-        Maestro, desmantela sus módulos de armas uno por uno y ten en cuenta el radio de alcance del láser..
+		Maestro, desmantela sus módulos de armas uno por uno y ten en cuenta el radio de alcance del láser..
 		'''
 	TrialSummary_9:
 		'''
 		El objetivo mecánico final lleva el cráneo de un antiguo rey.
-        Maestro, por favor, destrúyelo. Una vez que se haya desactivado este protocolo de invasión mecánica, llevaré a cabo un análisis final.
+		Maestro, por favor, destrúyelo. Una vez que se haya desactivado este protocolo de invasión mecánica, llevaré a cabo un análisis final.
 		'''
 	TrialSummary_10:
 		'''
 		El clon de esa bruja anda suelto. Aunque solo sea una réplica de la nigromancia,
-        basta para calibrar mi modelo de reacción ante una catástrofe. Maestro, por favor, destrúyelo.
+		basta para calibrar mi modelo de reacción ante una catástrofe. Maestro, por favor, destrúyelo.
 		'''
 	TrialSummary_11:
 		'''
 		En la selva han florecido bajo tierra varios bulbos grandes y atractivos.
-        Maestro, por favor, acompáñeme a verlos. Necesito recopilar algunos datos para el experimento.
+		Maestro, por favor, acompáñeme a verlos. Necesito recopilar algunos datos para el experimento.
 		'''
 	TrialSummary_12:
 		'''
 		El antiguo autómata, en lo más profundo del templo, espera a que se inicie la secuencia de encendido para activarse.
-        Maestro, por favor, llévame a verlo. La ingeniería inversa de la tecnología antigua podría resultarnos útil.
+		Maestro, por favor, llévame a verlo. La ingeniería inversa de la tecnología antigua podría resultarnos útil.
 		'''
 	TrialSummary_13:
 		'''
 		Ese grupo de fanáticos que hay a la entrada de la mazmorra está llevando a cabo un ritual ancestral, con el que pretenden bloquear la información procedente de los cielos.
-        Maestro, por favor, interrumpe su ritual. Necesito esas coordenadas interestelares ocultas.
+		Maestro, por favor, interrumpe su ritual. Necesito esas coordenadas interestelares ocultas.
 		'''
 	TrialSummary_14:
 		'''
 		Descubriremos los secretos del lado oscuro de la Luna.
-        Maestro, esto podría volver a encarrilar ciertas cosas.
+		Maestro, esto podría volver a encarrilar ciertas cosas.
 		'''
 	TrialSummary_15:
 		'''
 		La deidad que habita en el núcleo del planeta nos ha detectado.
-        Maestro, por favor, ve al Inframundo y echa un vistazo. Vale la pena tomar nota de su método para aprovechar la energía térmica.
+		Maestro, por favor, ve al Inframundo y echa un vistazo. Vale la pena tomar nota de su método para aprovechar la energía térmica.
 		'''
 	TrialSummary_16:
 		'''
 		Los espectros de la mazmorra se están fusionando en un simbionte gigantesco.
-        Maestro, la conciencia colectiva de esta estructura ectoplásmica es algo muy poco común. Por favor, llévame a observarla.
+		Maestro, la conciencia colectiva de esta estructura ectoplásmica es algo muy poco común. Por favor, llévame a observarla.
 		'''
 	TrialSummary_17:
 		'''
 		No es una forma de vida basada en el carbono; es capaz de rasgar la membrana dimensional solo con su cuerpo físico.
-        Devora a los dioses, pero nosotros no somos dioses. Derrotadlo y que quede constancia de ello en los registros.
+		Devora a los dioses, pero nosotros no somos dioses. Derrotadlo y que quede constancia de ello en los registros.
 		'''
 	TrialSummary_18:
 		'''
 		El único descendiente de los dragones que queda en el mundo; su mera existencia es un milagro.
-        Maestro, por favor, llévame a verlo. Necesito recoger una muestra de sus plumas.
+		Maestro, por favor, llévame a verlo. Necesito recoger una muestra de sus plumas.
 		'''
 	TrialSummary_19:
 		'''
 		Es hora de conocer a mi antiguo creador.
-        Maestro, por favor, recupera el núcleo de control de los Exo Mecánicos.
+		Maestro, por favor, recupera el núcleo de control de los Exo Mecánicos.
 		'''
 	TrialSummary_20:
 		'''
 		Esa bruja ha estado llevando a cabo experimentos caóticos. Tenemos datos suficientes.
-        Maestro, por favor, pon fin a sus actividades. Esta farsa debe acabar.
+		Maestro, por favor, pon fin a sus actividades. Esta farsa debe acabar.
 		'''
 	TrialSummary_21:
 		'''
 		Maestro, los enemigos a los que derrotaste anteriormente han formado una alianza y están preparando un asalto final.
-        Por favor, mantente alerta. Estaré vigilando el campo de batalla en todo momento y te ayudaré a zanjar esto de una vez por todas.
+		Por favor, mantente alerta. Estaré vigilando el campo de batalla en todo momento y te ayudaré a zanjar esto de una vez por todas.
 		'''
 	TrackerBrief: Objetivo de caza：{0}
 	BossRushTargetName: Batalla de Terminus
@@ -566,7 +566,7 @@ OnikiriText: {
 	}
 
 	OniSigilUI: {
-		TitleText: DISCO  DE  SELLOS
+		TitleText: DISCO DE SELLOS
 		StatusFormat: Sellos {0} / {1} · Erosión {2}%
 		CostFormat: Por invocación: Resurgimiento +{0}% · Erosión +{1}%
 		SlotEmptyHint: Pulsa el anillo exterior para tomar un sello de espectro sirviente, luego pulsa un asiento vacío para colocarlo. Un asiento vacío no activa nada
@@ -587,7 +587,7 @@ OnikiriText: {
 	}
 
 	OniMeiUI: {
-		TitleText: SOPORTE DE  INSCRIPCIONES
+		TitleText: SOPORTE DE INSCRIPCIONES
 		CloseTagText: ENFUNDAR
 		CloseHintFormat: ESC · {0} · clic fuera del soporte para guardarlo
 		StatusFormat: Inscripciones {0} · Nombre actual "{1}"
@@ -656,7 +656,7 @@ OnikiriText: {
 		DeclineBtn: Ahora no
 		DeclineNotice: La Runa de Keiko se ha quedado contigo; úsalo para abrir la lección cuando quieras
 		HudTitle: Vigor y Postura
-		HudBody:  Mientras empuñas el Onikiri, la pantalla de información (HUD) de la esquina inferior izquierda muestra dos indicadores de solo lectura. El Vigor alimenta los Empujes y el Vuelo Sakura, y se recarga automáticamente; la Postura se va acumulando a medida que conectas tus golpes, desbloqueando un nivel de ejecución cuando llega a la mitad y otro cuando está completo. Consulta aquí los valores de los indicadores; el repertorio completo de movimientos está escrito en la propia arma.
+		HudBody: Mientras empuñas el Onikiri, la pantalla de información (HUD) de la esquina inferior izquierda muestra dos indicadores de solo lectura. El Vigor alimenta los Empujes y el Vuelo Sakura, y se recarga automáticamente; la Postura se va acumulando a medida que conectas tus golpes, desbloqueando un nivel de ejecución cuando llega a la mitad y otro cuando está completo. Consulta aquí los valores de los indicadores; el repertorio completo de movimientos está escrito en la propia arma.
 		HudPrompt: Apréndete estas indicaciones; el Talismán de sellado el único acceso HUD a los paneles
 		SigilTitle: Disco de sellos
 		SigilBody: En la placa Rueda del Sello, situada a la izquierda del Soporte deinscripción, cuelga una miniatura de la rueda. Seis espectros ocupan el anillo exterior, pero el triángulo interior solo tiene tres asientos: elige uno y, a continuación, haz clic en un asiento vacío para vincularlo. Los espectros que comparten la rueda se despiertan unos a otros, por lo que su resurgimiento aumenta de forma conjunta. El Registro de fantasmas se encuentra en la ranura situada bajo la base de la rueda; sácalo para leerlo, pero nunca para vincularlo.
@@ -709,7 +709,7 @@ OnikiriText: {
 	}
 
 	OniMeiCodexUI: {
-		TitleText: SOPORTE DE  INSCRIPCIONES
+		TitleText: SOPORTE DE INSCRIPCIONES
 		CloseTagText: Cerrar
 		CloseHintFormat: ESC · {0} · clic fuera del cuaderno para volver al soporte
 		TabAll: Todo
@@ -739,7 +739,7 @@ OnikiriOverride: {
 	Tooltip:
 		'''
 		Mantén pulsado el clic izquierdo para ejecutar el combo Desgarro carmesí de cinco golpes; cada golpe acertado aumenta la Postura.
-        El Vigor alimenta del Empuje y el Vuelo Sakura; la Postur» a la mitad y al máximo desbloquean, respectivamente, un nivel de ejecución.
+		El Vigor alimenta del Empuje y el Vuelo Sakura; la Postur» a la mitad y al máximo desbloquean, respectivamente, un nivel de ejecución.
 		'''
 	KeyLabelFlashStep: Empuje Kamui
 	KeyLabelSakura: Vuelo Sakura
@@ -904,8 +904,8 @@ OnikiriTrialQuestLine: {
 	TrialSummary_20:
 		'''
 		El aire por allí se está volviendo denso y viciado, como una puerta que no deja entrar el aire
-        Ve y acaba con eso. No te quedes paralizado en el umbral respirando eso
-        Cuando vuelvas, te diré cómo despejar la mente
+		Ve y acaba con eso. No te quedes paralizado en el umbral respirando eso
+		Cuando vuelvas, te diré cómo despejar la mente
 		'''
 	TrialSummary_21:
 		'''
@@ -920,8 +920,8 @@ KikasaOverride: {
 	Tooltip:
 		'''
 		Mantén pulsado clic izquierdo para hacer flotar el paraguas sobre tu cabeza y lanzar una lluvia de tinta autoguiada al ritmo de un compás constante.
-        Mantén pulsado clic derecho para cargar tinta boca abajo; suéltalo para verter un torrente de tinta.
-        La lluvia y los torrentes que controlas con la mano provocan un Sello de tinta; tus invocaciones infligen daño adicional a los objetivos sellados.
+		Mantén pulsado clic derecho para cargar tinta boca abajo; suéltalo para verter un torrente de tinta.
+		La lluvia y los torrentes que controlas con la mano provocan un Sello de tinta; tus invocaciones infligen daño adicional a los objetivos sellados.
 		'''
 	GhostCountLine: Espacios de invocación {0} · {1}
 	TierName0: Llovizna
@@ -948,27 +948,27 @@ KikasaTrialQuestLine: {
 	Trial_0: Primer plato suave
 	Trial_1: Ojo que mira en la noche
 	Trial_2: Trozos de tierra podrida
-    Trial_3: Profundidades purulentas
+	Trial_3: Profundidades purulentas
 	Trial_4: Néctar dulce y pezuñas obstinadas
-    Trial_5: Huesos viejos en la puerta
-    Trial_6: Gel divino abigarrado
-    Trial_7: Carne en el camino
-    Trial_8: Gel rosa alado
-    Trial_9: Babeo dorado en arena podrida
-    Trial_10: Tres sabores de hierro
+	Trial_5: Huesos viejos en la puerta
+	Trial_6: Gel divino abigarrado
+	Trial_7: Carne en el camino
+	Trial_8: Gel rosa alado
+	Trial_9: Babeo dorado en arena podrida
+	Trial_10: Tres sabores de hierro
 	Trial_11: Flor carmesí de la selva
-    Trial_12: Bocado de caparazón cristalino
-    Trial_13: Roca del templo
-    Trial_14: Jabalí alado que agita las olas
-    Trial_15: Resplandor nocturno
-    Trial_16: Cánticos en el portal
-    Trial_17: Reflejo de lomo lunar
+	Trial_12: Bocado de caparazón cristalino
+	Trial_13: Roca del templo
+	Trial_14: Jabalí alado que agita las olas
+	Trial_15: Resplandor nocturno
+	Trial_16: Cánticos en el portal
+	Trial_17: Reflejo de lomo lunar
 	Trial_18: Parientes alrededor de la mesa
-    Trial_19: Antiguo bañista ácido
-    Trial_20: La serpiente del vacío más allá
-    Trial_21: Pluma llameante inextinguible
-    Trial_22: Cima de hierro y cima de llama
-    Trial_23: El banquete con la mesa llena
+	Trial_19: Antiguo bañista ácido
+	Trial_20: La serpiente del vacío más allá
+	Trial_21: Pluma llameante inextinguible
+	Trial_22: Cima de hierro y cima de llama
+	Trial_23: El banquete con la mesa llena
 	TrialSummary_0:
 		'''
 		Algo blando se balancea al pie de las colinas, azules e infinitas
@@ -1154,12 +1154,12 @@ KikasaText: {
 		StateHeld: Guardado
 		StateAwait: Espera el lago
 		LakeNotReadyLine: El lago no está abierto. Aparecerá en cuanto lo eleves
-        WispRainBlock: La lluvia fantasmal apaga cualquier chispa
-        NeedSettleLine: El lago aún no se ha asentado
+		WispRainBlock: La lluvia fantasmal apaga cualquier chispa
+		NeedSettleLine: El lago aún no se ha asentado
 	}
 
 	KikasaHud: {
-		ScrollName: Corazón  del  lago
+		ScrollName: Corazón del lago
 		OpenTag: Clic para abrir
 		TipWaterFormat: Nivel {0}%
 		TipTideHintFormat: Mantén pulsado {0} y el nivel sigue al cursor
@@ -1204,7 +1204,7 @@ KikasaText: {
 	}
 
 	KikasaPanoramaUI: {
-		Title: Corazón  del  lago
+		Title: Corazón del lago
 		HoundTitle: Sabueso · Sueño espectral
 		WispTitle: Llama dorada · Fuego fatuo
 		ReflectAwake: El reflejo ya despertó
@@ -1246,7 +1246,7 @@ KikasaText: {
 		NoteNotCollected: Aún no lo has hundido en el lago
 		NotePickFirst: Elige primero una del registro de abajo
 		NoteArmsNoStock: En el tesoro del lago no está el original de esta arma, la Sombra del lago no puede tomar forma
-		TalisTitle: Cuerda  de  la  lluvia
+		TalisTitle: Cuerda de la lluvia
 		TalisEmptyLine: Nudo vacío; clic para abrir el estuche y elegir un talismán
 		TalisNoneOwned: El estuche aún está vacío; fabrica primero un talismán en un banco junto al agua
 		TalisNeedUmbrella: Sostén a Kikasa en la mano; el talismán solo reconoce a su dueño
@@ -1258,9 +1258,9 @@ KikasaText: {
 		TalisStackRule: Todos los talismanes colgados siguen activos, aunque su tinta quede tapada; cada gota de tinta pertenece a un solo talismán, el de más a la izquierda primero, y el color y el efecto propio van con él
 		TalisDragSwapHint: Suelta para intercambiarlos
 		TalisDragMoveHint: Suelta para colgarlo aquí
-		NoteFuHungFormat: "{0}" ha subido a la cuerda de la lluvia
-		NoteFuTakenFormat: "{0}" ha vuelto al estuche
-		VaultTitle: Tesoro  del  lago
+		NoteFuHungFormat: 「{0}」ha subido a la cuerda de la lluvia
+		NoteFuTakenFormat: 「{0}」ha vuelto al estuche
+		VaultTitle: Tesoro del lago
 		VaultCountFormat: "{0} / {1}"
 		VaultEmptyHint: Aquí aún está vacío
 		VaultExtractHint: Clic para recuperar

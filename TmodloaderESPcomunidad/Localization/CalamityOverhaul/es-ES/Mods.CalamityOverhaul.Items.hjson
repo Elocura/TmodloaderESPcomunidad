@@ -4488,7 +4488,7 @@ OniMeiRubbingOnimaru: {
 	Power:
 		'''
 		Autoataque: si te quedas casi inmóvil durante 1 s, el cuchillo pasa a modo de espera.
-        A partir de ese momento, gasta 10 de tu vigor cada 1,5s para lanzarse contra un enemigo situado a una distancia dde hasta 40 bloques, 
+		A partir de ese momento, gasta 10 de tu vigor cada 1,5s para lanzarse contra un enemigo situado a una distancia dde hasta 40 bloques,
 		e inflige un daño equivalente al 140% del de un golpe con la espada, para luego volver a la funda.
 		'''
 	Burden: Todo el tiempo que el cuchillo está fuera no está en tu mano: un combo, el empuje y el vuelo de sakura no se pueden usar. Si no hay objetivo cerca, no vuela
@@ -4546,8 +4546,8 @@ OniMeiRubbingKamihi: {
 		'''
 		Efigie de papel: al atravesar a un enemigo, dejas una silueta de papel del mismo en el lugar donde aterrizas;
 		dura 7 s y solo pueden haber dos en el campo de batalla como máximo.
-        Al cortar ese papel, se inflige al enemigo el 80% del daño de un golpe con espada
-        Además, le abre una herida que dura 1,5s, y tus golpes causan un 12% más de daño mientras la herida esté abierta
+		Al cortar ese papel, se inflige al enemigo el 80% del daño de un golpe con espada
+		Además, le abre una herida que dura 1,5s, y tus golpes causan un 12% más de daño mientras la herida esté abierta
 		'''
 	Burden: Mientras haya un papel en el campo, el gasto de vigor del empuje aumenta un +12%
 	DeedHint: En el mundo interior, corta veinte recortes de papel de efigie; solo entonces la mano sabe cómo se recorta el papel
@@ -4626,7 +4626,7 @@ OniMeiRubbingBonsho: {
 	Power:
 		'''
 		Repique de campana: mantén la postura completa durante 3s sin soltar "Corte final" y la espada resonará por sí sola
-        Los enemigos situados en un radio de 30 bloques recibirán cada uno el 60% del daño de un golpe de espada,
+		Los enemigos situados en un radio de 30 bloques recibirán cada uno el 60% del daño de un golpe de espada,
 		quedarán inmovilizados durante 1,5s, y tu postura bajará al 50%
 		'''
 	Burden: En cuanto suena la campana, esa "Finale" se pierde. Con el ímpetu lleno, tienes que elegir una de las dos
@@ -4753,7 +4753,7 @@ OniMeiRubbingShiohi: {
 	Power:
 		'''
 		Tide-Beat: una ola de marea recorre el golpe de vigor en un ciclo de 0,8s, y los 0,2 s en su cresta constituyen la ventana de marea alta
-        Las combinaciones que comienzan con el retorno de la marea infligen 3 de vigor en su primer golpe, y un golpe Zanshin en marea alta inflige un +8%
+		Las combinaciones que comienzan con el retorno de la marea infligen 3 de vigor en su primer golpe, y un golpe Zanshin en marea alta inflige un +8%
 		'''
 	Burden: El combo fuera de pulso, -3% de daño. Si coincidiste o no se decide en el instante en que pulsas el golpe; acertar después ya no cuenta
 }
@@ -4769,7 +4769,7 @@ OniMeiRubbingShibori: {
 	Power:
 		'''
 		Numb-Counter: atravesar a un enemigo con una embestida lo aturde al instante
-        Si recibes daño por contacto durante una técnica de la que no puedes salir, puedes gastar 15 de postura para dejar ese golpe al 85%
+		Si recibes daño por contacto durante una técnica de la que no puedes salir, puedes gastar 15 de postura para dejar ese golpe al 85%
 		y aturdir a quien lo haya asestado; a continuación, descansas 1,5s
 		Un enemigo aturdido se mueve más lento durante 0,75s, reduciéndose su velocidad al 90% en el caso de los enemigos normales
 		y al 98% en el de los jefes, y su daño por contacto se reduce un 10%
@@ -4782,7 +4782,7 @@ OniMeiRubbingChinmei: {
 	Tooltip: Daño por proyectiles hostiles: -12%; retroceso: -65%; ganancia de postura: -15%
 	Origin:
 		'''
-		Las flechas y las piedras inundan el campo de batalla, y basta con un solo estruendo en los oídos para que un hombre entre en pánico. 
+		Las flechas y las piedras inundan el campo de batalla, y basta con un solo estruendo en los oídos para que un hombre entre en pánico.
 		El viejo soldado que talló esta inscripción dejó una única frase: primero, mantén la calma; mantente firme; 
 		luego, muévete: lo que te alcance te hará menos daño.
 		'''
@@ -4824,7 +4824,7 @@ ScrapBeacon: {
 	Tooltip:
 		'''
 		Invoca al comandante de la chatarra por la noche
-        "La chatarra siempre obedece a su capataz"
+		"La chatarra siempre obedece a su capataz"
 		'''
 }
 
@@ -4936,7 +4936,7 @@ Abyssrend: {
 		'''
 		El clic izquierdo alterna embestidas con la punta y cortes laterales; cada golpe desata una corriente submarina que se dirige hacia su objetivo
 		El clic derecho agita una resaca abisal que arrastra a los enemigos que tienes delante hacia la pinza y, a continuación, 
-		los estrella contra el suelo cercano, provocando una explosión de cavitación. Los enemigos atrapados por el golpe o la explosión 
+		los estrella contra el suelo cercano, provocando una explosión de cavitación. Los enemigos atrapados por el golpe o la explosión
 		se hunden bajo la presión abisal, lo que los ralentiza considerablemente.
 		"Recuerda el sonido que hace el abismo cuando rompe cosas".
 		'''
@@ -4950,7 +4950,7 @@ SneezingWyrm: {
 		El fuego sostenido calienta aún más el cañón, haciendo que los trazadores pasen de un color naranja a uno azul-blanco
 		Con cada respiración que toma, el dragón exhala un rayo sinuoso y certero de aliento de dragón a lo largo de la línea de fuego
 		El humo le hace cosquillas en el viejo hocico, provocándole estornudos intermitentes que expulsan densos vapores hacia un lado
-        "No te quedes en el lado por donde estornuda"
+		"No te quedes en el lado por donde estornuda"
 		'''
 }
 
@@ -5030,8 +5030,8 @@ DeepcrystalWarhelm: {
 	Tooltip:
 		'''
 		Aumenta un 18% al daño cuerpo a cuerpo un 10% la probabilidad de golpe crítico cuerpo a cuerpo
-        Aumenta un 18% la velocidad de ataque cuerpo a cuerpo
-        "El peso del caparazón se te clavó en los huesos"
+		Aumenta un 18% la velocidad de ataque cuerpo a cuerpo
+		"El peso del caparazón se te clavó en los huesos"
 		'''
 	SetBonus:
 		'''
@@ -5047,7 +5047,7 @@ DeepcrystalVisor: {
 	DisplayName: Visera de cristal abisal
 	Tooltip:
 		'''
-		Aumenta un 18% el daño a distancia y un 10%  la probabilidad de golpe crítico a distancia
+		Aumenta un 18% el daño a distancia y un 10% la probabilidad de golpe crítico a distancia
 		Hay un 30% de probabilidad de no consumir munición
 		"A través de la lente de cristal, la trinchera brilla como si fuera de día"
 		'''
@@ -5098,7 +5098,7 @@ DeepcrystalBreastplate: {
 	DisplayName: Coraza de cristal abisal
 	Tooltip:
 		'''
-		Aumenta dun 10%  el daño y un 6% la probabilidad de golpe crítico
+		Aumenta dun 10% el daño y un 6% la probabilidad de golpe crítico
 		"La concha se cambió por la espada, la sangre se cambió por la marea"
 		'''
 }
@@ -5108,8 +5108,8 @@ DeepcrystalGreaves: {
 	Tooltip:
 		'''
 		Aumenta un 15% la velocidad de movimiento, que se incrementa aún más cuando estás mojado
-        Te mueves con total libertad por el agua
-        "Camina sobre las olas como si fueran tierra firme"
+		Te mueves con total libertad por el agua
+		"Camina sobre las olas como si fueran tierra firme"
 		'''
 }
 
@@ -5138,7 +5138,7 @@ BloodfogIris: {
 	DisplayName: Iris de niebla sangrienta
 	Tooltip:
 		'''
-		Aumenta dun 8%  la probabilidad de golpe crítico
+		Aumenta dun 8% la probabilidad de golpe crítico
 		Pulsa dos veces IZQUIERDA, DERECHA o ARRIBA para lanzarte en esa dirección en forma de niebla de sangre; serás invulnerable durante un breve instante al inicio
 		Las embestidas tienen un tiempo de recarga de 1,25 segundos; el resplandor de la pupila se atenúa mientras se recarga
 		Una embestida termina en un estado de emboscada de 1,5 segundos: te sumerges en la niebla y llamas menos la atención
@@ -5158,7 +5158,7 @@ WorldEatersMaw: {
 		Cuando muere un enemigo corroído, un gusano devorador surge de su cadáver para luchar a tu lado, con un máximo de uno cada 2 segundos
 		Los gusanos se entierran y tienden emboscadas a los enemigos cercanos, mordiendo para aplicar 2 acumulaciones y salpicando Corrosión alrededor de cada brecha
 		Puede haber hasta 3 gusanos a la vez, cada uno con una duración de 7 segundos
-        "Cada rincón del mundo es una marca de diente que dejó atrás"
+		"Cada rincón del mundo es una marca de diente que dejó atrás"
 		'''
 }
 
@@ -5173,7 +5173,7 @@ MirrorheartParadox: {
 		Las invocaciones, las armas empuñadas y los explosivos no se repiten.
 		Repercusión paradójica: el siguiente golpe que recibas en los 3 segundos siguientes a un intercambio inflige un 25% más de daño
 		Los intercambios se producen como máximo una vez cada 25 segundos; el corazón especular permanece translúcido mientras se recarga, con una señal sonora cuando vuelve a volverse sólido
-        "En el espejo, se rompe un latido antes que tú"
+		"En el espejo, se rompe un latido antes que tú"
 		'''
 }
 
@@ -5232,14 +5232,14 @@ GluttonousThroat: {
 	Tooltip:
 		'''
 		El 8% de todo el daño que infliges vuelve a tí en forma de gotas de sangre
-        Las gotas de sangre no provocan el efecto Enfermedad de poción, pero restauran como máximo un 2% de tu vida máxima por segundo
-        El exceso de sangre salpica el suelo; Mordisco lunar sella la garganta y todas las gotas se pierden
-        Cada 9 segundos, una lengua de carne atrapa al enemigo más lejano dentro de un radio de 68 bloques y lo arrastra hasta ti
+		Las gotas de sangre no provocan el efecto Enfermedad de poción, pero restauran como máximo un 2% de tu vida máxima por segundo
+		El exceso de sangre salpica el suelo; Mordisco lunar sella la garganta y todas las gotas se pierden
+		Cada 9 segundos, una lengua de carne atrapa al enemigo más lejano dentro de un radio de 68 bloques y lo arrastra hasta ti
 		Los enemigos mordidos sufren Sierra de la podredumbre durante 5 segundos, que arranca 40 de vida por segundo
-        Durante 2,5 segundos después de que un enemigo sea arrastrado hasta ti, tu siguiente golpe contra él inflige el doble de daño
-        El golpe ejecutor también detona cualquier Sierra de la podredumbre restante como una ráfaga de daño adicional
-        Los jefes no pueden ser arrastrados, pero pueden ser mordidos, aserrados y marcados para su ejecución
-        "El extremo más alejado de la garganta no tiene fondo".
+		Durante 2,5 segundos después de que un enemigo sea arrastrado hasta ti, tu siguiente golpe contra él inflige el doble de daño
+		El golpe ejecutor también detona cualquier Sierra de la podredumbre restante como una ráfaga de daño adicional
+		Los jefes no pueden ser arrastrados, pero pueden ser mordidos, aserrados y marcados para su ejecución
+		"El extremo más alejado de la garganta no tiene fondo".
 		'''
 }
 
@@ -5321,7 +5321,7 @@ BloomNovaBulb: {
 		La floración restaura al instante el 25% de tu vida, aumenta considerablemente la regeneración durante 6 segundos y consume todo el Crecimiento
 		A continuación, una Niebla de esporas te sigue durante 6 segundos; los enemigos que se encuentren en la niebla fallan el 25% de sus ataques
 		La Nova florida se produce como máximo una vez cada 60 segundos
-        "Cada herida riega la siguiente floración"
+		"Cada herida riega la siguiente floración"
 		'''
 }
 
@@ -5381,7 +5381,7 @@ WingsOfInterference: {
 	DisplayName: Alas de interferencia
 	Tooltip:
 		'''
-		Conviértete en las alas de la Emperatriz de la Luz: 3, s de tiempo de vuelo durante el día y 4,5 s durante la noche; 
+		Conviértete en las alas de la Emperatriz de la Luz: 3, s de tiempo de vuelo durante el día y 4,5 s durante la noche;
 		mantén pulsado el botón D mientras vuelas para quedarte suspendido en el aire
 		Forma diurna: tus proyectiles trazan trayectorias de luz entrecruzadas mientras vuelan
 		Cuando dos trayectorias de luz se cruzan, la intersección detona una explosión prismática que inflige 200 de daño base
@@ -5470,7 +5470,7 @@ BssBloomBud: {
 	Tooltip:
 		'''
 		Al usarla en la superficie del desierto, invoca a la Serpiente de arena floreciente
-        "La raíz de las dunas se vuelve voraz cuando florece"
+		"La raíz de las dunas se vuelve voraz cuando florece"
 		'''
 }
 
