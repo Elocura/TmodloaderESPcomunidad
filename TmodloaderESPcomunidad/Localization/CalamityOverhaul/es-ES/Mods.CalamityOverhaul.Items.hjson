@@ -367,7 +367,7 @@ OnikiriItem: {
 	Tooltip:
 		'''
 		Mantén pulsado clic izquierdo para ejecutar el combo Desgarro carmesí de cinco golpes; cada golpe acertado aumenta la "Postura"
-		Pulsa [DASH] para gastar "Vigor" en un "Paso relámpago de Kamui"
+		Pulsa [DASH] para gastar "Vigor" en un "Empuje de Kamui"
 		La tecla de expansión del dominio despliega o pliega el dominio Oni; la tecla de cambio de dominio alterna entre Omote y Ura
 		En Omote, mantén pulsado [SAKURA] para desplazarte como pétalos de sakura (también se puede encadenar con una carrera); suelta el botón o agota la energía para reaparecer en el mismo lugar
 		En Ura, apunta a un enemigo y haz clic izquierdo para desmembrar su cuerpo verdadero; el portador sufrirá entonces un contragolpe del 25% de su vida máxima
@@ -3932,7 +3932,7 @@ CoralReefBarrelModule: {
 }
 
 HiveBarrelModule: {
-	DisplayName: Cñaon colmena
+	DisplayName: Cañon colmena
 	Tooltip:
 		'''
 		Al hacer clic izquierdo se rocía a los enemigos con feromonas; a continuación, la detonación de los orbes lanza abejas cibernéticas contra los objetivos marcados
@@ -4228,437 +4228,595 @@ TestItem: {
 
 OniMeiRubbingHigekiri: {
 	DisplayName: Higekiri
-	Tooltip: Wounded foes take far more, and a personal kill refunds stance; weapon damage -2%
-	Origin: The night of the clan's test cut, this blade took the head and the beard beneath the chin in one stroke — the whiskers were found still clinging to the edge. The old name Higekiri, the Beard-Cutter, was earned that night
+	Tooltip: Los enemigos heridos reciben mucho más daño, y cada muerte que consigas te devuelve postura; el daño del arma se reduce un 2%
+	Origin:
+		'''
+		Una noche, en la prueba de corte del clan, esta espada cortó la cabeza y la barba por debajo de la barbilla de un solo tajo;
+		se encontraron los pelos de la barba aún adheridos al filo. El antiguo nombre de Higekiri, el Cortabarbas, se ganó aquella noche
+		'''
 	Power:
 		'''
-		Beard-Cutter: once a foe drops below 35% life, hits from the blade itself start scaling with the wound
-		The thinner its life, the bigger the bonus: up to +60% on regular foes, up to +45% on bosses
-		Finishing it yourself also refunds 8 stance, once per action
+		Cortabarbas: cuando la vida de un enemigo cae por debajo del 35%, los golpes de la propia hoja comienzan a aumentar proporcionalmente al daño
+		Cuanto menos vida le quede, mayor será la bonificación: hasta un +60% con enemigos normales y hasta un +45% con jefes
+		Si lo acabas tú mismo, también recuperas 8 puntos de postura, una vez por acción
 		'''
-	Burden: Weapon damage -2%. While a foe is still healthy, this edge is duller than the original name
+	Burden: Daño del arma: -2%. Mientras el enemigo siga con vida, esta ventaja resulta menos eficaz de lo que sugiere su nombre original.
 }
 
 OniKeikoRune: {
-	DisplayName: Keiko Rune
+	DisplayName: Runa de Keiko
 	Tooltip:
 		'''
-		Use it to open the Onikiri lesson from the beginning, or use it again mid-lesson to put the lesson away
-		Left with you when the opening lesson is declined; the rune is not consumed and may be used again
+		Úsala para abrir la lección de Onikiri desde el comienzo, o vuelve a usarla a mitad de la lección para cerrarla
+		Se te queda cuando rechazas la lección inicial; la runa no se consume y se puede volver a usar.
 		'''
-	NeedBlade: Onikiri is not in your bag, so the rune has no lesson to open
-	Closed: The lesson is put away; use the rune again to reopen
-	NotNow: Something else holds the stage right now
+	NeedBlade: Onikiri no está en tu inventario, por lo que la runa no tiene ninguna lección que impartir.
+	Closed: La lección está guardada; vuelve a usar la runa para volver a abrirla
+	NotNow: En este momento hay otra cosa ocupando el escenario
 }
 
 OniMeiRubbingOnikiri: {
 	DisplayName: Onikiri
-	Tooltip: The original inscription. Nothing granted, nothing charged
-	Origin: Watanabe no Tsuna carried it at the bridge of Ichijo-Modoribashi and cut an oni's arm clean off; the demon fled and never dared return for it. A blade that had cut an oni was named Onikiri for the feat, and the name has stayed nailed to the tang ever since
-	Power: The original inscription. Everything this blade already has stays exactly as it is
-	Burden: None
+	Tooltip: Inscripción original. No se te enseña ni te cobra nada
+	Origin:
+		'''
+		Watanabe no Tsuna la empuñó en el puente de Ichijo-Modoribashi y le cortó de cuajo el brazo a un oni; el demonio huyó y nunca se atrevió a volver a por él.
+		A la espada que cortó al oni se la bautizó como Onikiri, y el nombre ha permanecido grabado en la espiga desde entonces
+		'''
+	Power: Inscripción original. Todo lo que ya tiene esta hoja no se perderá
+	Burden: Ninguno
 }
 
 OniMeiRubbingShishinoko: {
 	DisplayName: Shishi-no-ko
-	Tooltip: Land all five beats and the fifth adds two crossing waves; beat interval +2%
-	Origin: One night, left by its master's pillow, the blade roared on its own — a lion's cry, heard through the whole house. The master renamed it Shishi-no-ko, the Lion's Cub, and set the name in gold inlay to give that one roar its due
+	Tooltip: Si aciertas los cinco golpes, el quinto añade dos ondas cruzadas; intervalo entre compases +2%
+	Origin:
+		'''
+		Una noche, junto a la almohada de su dueño, la espada rugió por sí sola: un rugido de león que se oyó por toda la casa.
+		El dueño la rebautizó como Shishi-no-ko, "el cachorro de león", y grabó el nombre con incrustaciones de oro para rendir homenaje a aquel rugido
+		'''
 	Power:
 		'''
-		Lion's Roar: run all five combo beats through without a dash or a big art cutting in, and the fifth beat closes like a lion's jaws
-		Two waves cross out of it, each for 22% of a blade hit
+		Rugido del león: ejecuta los cinco golpes del combo sin que se interponga ninguún empuje ni ningún ataque especial, y el quinto golpe se cierra como las fauces de un león
+		De él salen dos ondas, cada una con un 22% del daño del golpe de la espada
 		'''
-	Burden: Combo beat interval +2%. A roar has to be drawn in first, so the blade runs a touch slower
+	Burden: Intervalo entre golpes del combo +2%. Primero hay que hacer un rugido, por lo que la cuchilla gira un poco más despacio
 }
 
 OniMeiRubbingTomokiri: {
 	DisplayName: Tomokiri
-	Tooltip: Dash-cancelling a combo leaves a Guilt slash behind; damage taken +6% while held
-	Origin: Two treasured blades of the clan were tested edge against edge, and this one cut its companion clean in two. The fault was chiseled in as its name — Tomokiri, the Friend-Cutter — and its temper has run violent ever since
+	Tooltip: Al cancelar un combo al hacer un empuje, defarás trás de ti un "Corte culpable". El daño recibido aumenta un 6% mientras se mantenga.
+	Origin:
+		'''
+		Dos preciadas espadas del clan se enfrentaron y esta partió a su compañera en dos de un solo tajo.
+		La imperfección quedó grabada en su nombre Tomokiri, la "Cortadora de Amigos" y, desde entonces, su temperamento se ha violentado
+		'''
 	Power:
 		'''
-		Guilt-Echo: when a Kamui flash step cuts your combo short, the interrupted swing stays behind
-		It bites down on its own a moment later for 35% of a blade hit
+		Eco de culpa: cuando un empuje de Kamui interrumpe tu combo, el golpe interrumpido se queda atrás
+		Un momento después, ataca por sí solo infligiendo el 35% del daño de un golpe de la espada
 		'''
 	Burden:
 		'''
-		While you hold this blade, damage you take is +6%
-		Every echo adds one layer of Guilt, up to three, and each layer makes your next dash cost 4 more vigor
-		Land the Zanshin strike after a dash and the whole debt is paid off at once
+		Mientras sostengas esta espada, el daño que recibas aumentará un 6%
+		Cada eco añade una capa de "Culpa", hasta un máximo de tres, y cada capa hace que tu própximo empuje te cueste 4 puntos de vigor más
+		Si conectas el golpe "Zanshin" tras un empuje, la deuda se salda por completo.
 		'''
 }
 
 OniMeiRubbingKazehi: {
 	DisplayName: Kaze-hi
-	Tooltip: Dashes cost 15% less vigor and Sakura Flight 20% less; ink brand damage -20%
-	Origin: The edge-setter cut this groove long and straight, calling it a lane left open for the wind. Swing, and the wind arrives first — by the time you hear it, the blade is already back
-	Power: Wind-Rider: Kamui flash step vigor cost -15%, Sakura Flight drain -20%
-	Burden: Ink brands left by dashes deal -20% damage. This groove was cut for lightness, not for slaughter
+	Tooltip: Los empujes cuestan un 15% menos de vigor y el Vuelo de Sakura costará un 20 % menos; el daño de la marca de tinta se reduce en un 20%
+	Origin: El hacedor de filos talló esta ranura larga y recta, y la llamó "un carril abierto al viento". Da un golpe, y el viento llega primero: para cuando lo oyes, el filo ya ha vuelto.
+	Power: Jinete del viento: coste de vigor del empuje de Kamui: reducida un -15%; consumo de «Vuelo de Sakura» reducido un -20%
+	Burden: Las marcas de tinta infligen un -20% de daño. Esto se talló para aligerar el peso, no para matar
 }
 
 OniMeiRubbingChihi: {
 	DisplayName: Chi-hi
-	Tooltip: Landing hits gives vigor back; natural regen -35%
-	Origin: Other grooves are opened to lighten the blade; not this one. The edge-setter was blunt when he handed the sword over: this channel is for blood — the faster it runs, the faster your breath comes back
+	Tooltip: Acertar golpes devuelve vigor; la regeneración natural se reduce un 35%
+	Origin:
+		'''
+		En otras espadas se tallan ranuras para aligerar la hoja; pero no en esta. El afilador tenía la hoja sin afilar cuando me entregó la espada:
+		este es para la sangre; cuanto más rápido fluye, más rápido recuperas el aliento
+		'''
 	Power:
 		'''
-		Bloodletting: the first hit of each combo beat returns 1 extra vigor
-		Every Zanshin strike after a dash returns 4 extra
+		Sangría: el primer golpe de cada serie de golpes devuelve 1 punto de vigor adicional
+		Cada golpe de Zanshin tras un empuje devuelve 4 puntos adicionales
 		'''
-	Burden: Natural regen -35%, and you wait 0.3s longer before it starts back up after spending. No blood on the edge, little breath returned
+	Burden: Recuperación natural de vigor -35%; tras atacar hay que esperar 0.3 segundos más para empezar a recuperar. Si el cuchillo no toca sangre, el vigor tarda más en volver
 }
 
 OniMeiRubbingFudo: {
 	DisplayName: Fudo
-	Tooltip: Take a hit mid-art and spend stance to soften it; stance gain -15%
-	Origin: The carver followed the brushwork of the seed syllable Kan and brought the Immovable One, flames at his back, onto the side of the blade. This deity's whole office is steadiness: whatever comes, he sits unmoved
+	Tooltip: Si recibes un golpe mientras estás realizando un movimiento artístico, ganas puntos postura, pero su regenración se reduce un 15%
+	Origin:
+		'''
+		El tallador siguió los trazos de la sílaba "semilla Kan" y plasmó al "Inamovible", cubierto de llamas, en el costado de la hoja.
+		La esencia misma de esta deidad es la firmeza: pase lo que pase, permanece impasible.
+		'''
 	Power:
 		'''
-		Immovable: get hit during a Zanshin strike, Annihilating Flash, or Finale Slash, the arts you cannot pull out of, and the Immovable One takes it for you
-		It spends 20 stance, leaves that hit at 65% damage and 25% knockback, then rests 2.5s
+		Inamovible: si recibes un golpe durante un ataque Zanshi», un Destello Aniquilador o un Tajo Final —técnicas de las que no puedes salir—, 
+		el Inamovible lo recibe por ti.
+		Consume 20 de postura, reduce el daño de ese golpe al 65% y el retroceso al 25%, y luego tiene un tiempo de recarga de 2,5 s
 		'''
-	Burden: Everyday stance gain -15%, since the guarding strength is skimmed off your build-up. Dismemberment backlash is never shielded
+	Burden: Ganancia habitual de postura -15%; la fuerza de la guarda se resta de lo acumulado. El contragolpe de Desmembrar no entra en la protección
 }
 
 OniMeiRubbingKurikara: {
 	DisplayName: Kurikara
-	Tooltip: An execution banks three dragonfire layers, one spent per full combo; vigor cap -10%
-	Origin: Carved on the blade is Kurikara the dragon king: a black dragon coiled around a sword, jaws open to swallow the point. It is an old subject of blade carving, with gold still set in the seams of the scales
+	Tooltip: Una ejecución acumula tres capas de fuego de dragón, de las que se gasta una por cada combo completo; límite de vigor: -10%
+	Origin:
+		'''
+		En la hoja está tallado Kurikara, el rey de los dragones: un dragón negro enroscado alrededor de una espada, con las fauces abiertas para devorar la punta
+		Se trata de un motivo tradicional en el tallado de hojas, con oro aún incrustado en las uniones de las escamas
+		'''
 	Power:
 		'''
-		Dragon-Coil: after an execution the blade lights three layers of dragonfire, good for ten seconds
-		Every time you finish a full five-beat combo, the fifth beat burns one layer into a coiling slash for 50% of a blade hit
+		Espiral del Dragón: tras una ejecución, la espada enciende tres capas de fuego de dragón, con una duración de 10 segundos
+		Cada vez que completes un combo completo de cinco golpes, el quinto golpe quema una capa y se convierte en un tajo en espiral que inflige el 50% del daño
 		'''
-	Burden: Vigor cap -10%. Where the dragon coils, the breath runs narrow
+	Burden: Límite de vigor -10%. En el tramo donde se enrosca el dragón, el vigor se va agotando
 }
 
 OniMeiRubbingTessetsu: {
 	DisplayName: Tessetsu
-	Tooltip: First hit of each beat deals +25% to steel and machines; weapon damage -10%
-	Origin: Someone inspected the blade and sneered: big name, edge like a length of raw iron. The smith took no offense and chiseled the heckle into the tang as it was — raw iron, then; iron against iron shows the true work
-	Power: Iron-Cut: the first hit of each combo beat deals +25% damage to steel and machine foes, the ones that throw sparks when you cut them
-	Burden: Weapon damage -10%. On flesh it really does feel like a length of dull iron
+	Tooltip: El primer golpe de cada tiempo inflige un +25% de daño al acero y máquinas; el daño del arma se reduce un 10%
+	Origin:
+		'''
+		Alguien examinó la hoja y comentó con desdén: "Gran nombre, pero el filo parece un trozo de hierro en bruto". El herrero no se ofendió y
+		grabó el motivo decorativo: hierro en bruto, pues; el hierro contra el hierro revela la verdadera calidad del trabajo
+		'''
+	Power: Corte de hierro: el primer golpe de cada combo inflige un +25% de daño a los enemigos de acero y máquinas.
+	Burden: Daño base -10%. Contra carne, se parece más a un trozo de hierro romo
 }
 
 OniMeiRubbingKyushu: {
 	DisplayName: Kyushu
-	Tooltip: Heads only, and wounded heads harder than Higekiri manages; weapon damage -3%
-	Origin: Some blades take a new name for every fine head they cut, and enjoy the parade each time. This inscription's bearer wanted none of it: heads fall as before, the name stays as before — a blade that cuts clean needs no new name to frighten anyone
+	Tooltip: Solo le interesa las cabezas, por lo que los golpes en la cabeza son más fuertes que los de Higekiri; daño del arma: -3 %
+	Origin:
+		'''
+		Algunas espadas adoptan un nuevo nombre por cada cabeza noble que cortan y disfrutan del espectáculo cada vez que lo hacen.
+		El portador de esta inscripción no quería saber nada: las cabezas caen como antes, el nombre sigue siendo el mismo.
+		Una espada que corta con precisión no necesita un nuevo nombre para asustar.
+		'''
 	Power:
 		'''
-		Head-Hunt: the bonus only counts heads, or foes that have no separate segments to begin with
-		Once it drops below 35% life your hits start scaling with the wound, and the thinner its life the bigger the bonus
-		Up to +85% on regular foes, up to +60% on bosses
+		Caza-cabezas: Esta bonificación solo reconoce la cabeza, o a los enemigos que no tienen segmentos
+		En cuanto su vida baje del 35%, tus golpes empiezan a escalar en función de la herida, y cuanto menos vida le quede, más escala
+		Hasta un +85% en enemigos normales, hasta un +60% en jefes
 		'''
-	Burden: Weapon damage -3%. Bodies, tails, and other segments do not count as a head
+	Burden: Daño base -3%. El tronco, la cola y el resto de segmentos no cuentan como tomar la cabeza
 }
 
 OniMeiRubbingIkiai: {
 	DisplayName: Ikiai
-	Tooltip: A full combo's fifth beat throws a sword arc along your aim; beat interval +4%
-	Origin: Old swordsmen say that in a long standoff the two sides' breathing locks together, and whoever closes that breath first lands first. This inscription records the craft: hold it in, match the beat, drop the blade
-	Power: Breath-Wave: finish a full five-beat combo and the fifth beat throws a curved sword arc along your aim for 55% of a blade hit, cutting up to three foes before it breaks up
-	Burden: Combo beat interval +4%
+	Tooltip: En el quinto compás de un combo completo, se lanza un arco de espada en la dirección a la que apuntas; intervalo entre compases +4%
+	Origin:
+		'''
+		Los espadachines veteranos dicen que, en un largo enfrentamiento, la respiración de ambos bandos se sincroniza,
+		y quien rompa esa sincronía primero será el primero en asestar el golpe. Esta inscripción acoge este arte: aguanta la respiración,
+		sigue el ritmo y asesta el golpe.
+		'''
+	Power: Onda de respiración: si completas un combo completo, lanzarás un arco con la espada, con un 55% de probabilidad de impacto, que cortará hasta tres enemigos antes de desvanecerse.
+	Burden: Intervalo entre golpes del combo +4%
 }
 
 OniMeiRubbingKyoko: {
 	DisplayName: Kyoko
-	Tooltip: Back off to bank a cut, then close in and it lands harder; hammering up close blurs your focus
-	Origin: A blade tester roared into an empty valley and no echo came back — with no one around, the whole breath pressed itself back into the blade. This carving records that pent-up cry
+	Tooltip: Retrocede para hacer un giro, luego te acarcarás y el golpe será más fuerte; golpear desde muy cerca te hace perder la concentración.
+	Origin:
+		'''
+		Un probador de espadas irrumpió rugiendo en un valle desierto y no se oyó ningún eco:
+		al no haber nadie alrededor, todo el aliento se comprimió de nuevo en la espada. Esta talla plasma ese grito reprimido.
+		'''
 	Power:
 		'''
-		Hollow-Roar: keep 16 tiles clear of enemies for 1.5s and the blade banks a cut for you
-		Your next hit within 16 tiles deals +25%; hits landed further out do not spend it, so the banked cut keeps
-		When the blade idles it rings on its own: 1.5s without landing a hit, or with nothing near you, it slows foes within 20 tiles for 0.4s every 1.5s
+		Rugido hueco: Si en 16 bloques a tu alrededor no hay enemigos durante 1.5 segundos, el cuchillo te guarda un golpe
+		El primer golpe que aciertes dentro de 16 bloques, aplica +25% de daño; si aciertas más lejos, no lo gasta y se guarda
+		El cuchillo, en reposo, suena solo: si 1.5 segundos no golpeas a nadie o no hay enemigos cerca, cada 1.5 segundos ralentiza 0.4 segundos a los enemigos en 20 bloques
 		'''
-	Burden: Four close-range hits inside 0.6s blur your focus for 0.4s, and close-range damage drops 5% for that window
+	Burden: Si en 0.6 segundos das cuatro tajos a quemarropa, pierdes el foco 0.4 segundos; en ese rato el daño a quemarropa -5%
 }
 
 OniMeiRubbingKarikiri: {
 	DisplayName: Karikiri
-	Tooltip: A dash leaves a decoy that eats one hit for you; 4s before you get another
-	Origin: A student copied his master's stance ten parts in ten, and the master gave one verdict: too alike — alike enough to read false at a glance. This inscription records that false body: however well it stands, it is only a shadow that takes the blade in your stead
+	Tooltip: Al ahcer un empuje, dejas un señuelo que absorbe un golpe por ti; tardas 4 segundos en tener otro.
+	Origin:
+		'''
+		Un alumno imitó la postura de su maestro al cien por cien, y el maestro dictó un veredicto: demasiado parecida, tan parecida que a simple vista parecía falsa
+		Esta inscripción recoge esa postura falsa: por muy bien que se mantenga, no es más que una sombra que empuña la espada en tu lugar
+		'''
 	Power:
 		'''
-		False Body: starting a Kamui flash step leaves a frozen-pose decoy standing for 1.5s
-		Anything that comes at you in that window, foe or projectile, is taken by the decoy instead
-		Once it has spent itself, you wait 4s before you can leave another
+		Cuerpo falso: al activar un empuje de Kamui, queda un señuelo inmóvil durante 1,5 s.
+		Cualquier cosa que se te acerque durante ese tiempo, ya sea un enemigo o un proyectil, será interceptada por el señuelo
+		Una vez que haya desaparecido, tendrás que esperar 4 s antes de poder activar otro
 		'''
 	Burden:
 		'''
-		While the decoy stands, damage taken and dash cost are both +12%
-		For 1s after it shatters, damage taken is +18%
-		A decoy that simply runs out of time does not count as shattered
+		Mientras el señuelo permanezca activo, tanto el daño recibido como el coste del empuje aumentan un 12%
+		Durante 1s después de que se rompa, el daño recibido aumenta un 18%
+		Un señuelo al que simplemente se le acaba el tiempo no se considera que esté roto
 		'''
 }
 
 OniMeiRubbingMokukiri: {
 	DisplayName: Mokukiri
-	Tooltip: Finish a paid normal dash and the next cut deals +35%; a whiff spends it too
-	Origin: The instant a flash step runs its course, everything around falls quiet. Old swordsmen know the next cut out of that silence is the heaviest. The name says it plainly: the silent cut
-	Power: Silent-Kill: for 0.75s after a paid normal flash step runs its course, your next combo swing or Zanshin strike deals +35%
-	Burden: A whiff spends it just the same, and dashing again clears it. Free execution dashes never bank it
+	Tooltip: Tras un empuje normal que gasta vigor, el siguiente tajo +35%; fallar también lo gasta
+	Origin:
+		'''
+		En el instante en que un empuje llega a su fin, todo a su alrededor se queda en silencio. Los espadachines veteranos
+		saben que el siguiente tajo que rompe ese silencio es el más contundente. El nombre lo dice claramente: el tajo silencioso.
+		'''
+	Power: Asesinato silencioso: durante 0,75 s después de que finalice un empuje, tu siguiente combo o ataque Zanshin inflige un +35% de daño
+	Burden: Si ese tajo falla, también se gasta; otro empuje a mitad también lo borra. El empuje de ejecución gratuito no da Muerte silenciosa
 }
 
 OniMeiRubbingKumokiri: {
 	DisplayName: Kumo-kiri
-	Tooltip: Three cuts pin a web; closing it cuts everything inside; regen -25% while anchors stand
-	Origin: Minamoto no Raiko lay sick in bed when a tsuchigumo, disguised as a priest, came to bind him in silk. He snatched up the blade, cut the threads and wounded the beast, and the next day followed the blood trail and destroyed its nest. The blade has been called Kumo-kiri, the Spider-Cutter, ever since
+	Tooltip: Tres tajos clavan una red; al recogerla corta a todos los que están dentro; con anclas colgando, recuperación de vigor -25%
+	Origin:
+		'''
+		Minamoto no Raiko yacía enfermo en la cama cuando un tsuchigumo, disfrazado de sacerdote, acudió para atarlo con hilos de seda
+		Él se hizo con su espada, cortó los hilos e hirió a la bestia, y al día siguiente siguió el rastro de sangre y destruyó su nido
+		Desde entonces, a la espada se la conoce como Kumo-kiri, "la que corta arañas".
+		'''
 	Power:
 		'''
-		Ink-Silk: when the blade itself lands a hit, it pins a silk anchor at the cut point for 4s
-		Spread them out: the same foe gives no second anchor within 0.4s, and two anchors need roughly six tiles between them
-		The third anchor strings an ink-silk triangle that sags, then snaps toward its centre, cutting every foe it sweeps for 90% of a blade hit and binding them 1s
-		After it closes, 1.5s pass before you can weave again
+		Tinta y seda: cuando la propia hoja asesta un golpe, fija un ancla de seda en el punto de corte durante 4s
+		Espácialos: un mismo enemigo no genera un segundo ancla en un plazo de 0,4 s, y entre dos anclas debe haber una distancia de 6 bloques
+		El tercer ancla forma un triángulo de seda que se comba y luego se tensa hacia su centro,
+		cortando a todos los enemigos con el 90% del daño de un golpe de espada y inmovilizándolos durante 1s
+		Una vez que se cierra, transcurren 1,5s antes de que puedas volver a tejer
 		'''
-	Burden: While any anchor still stands, natural regen -25%. An anchor left to expire wastes the cut that set it
-	DeedHint: Slay thirty arachnids — spiders, blood crawlers, sand scorpions, any eight-legged wall-crawler counts. Cut down enough and the blade learns that stench by itself
+	Burden: Mientras haya anclas en el campo, la recuperación natural de vigor se reduce un -25%. Si el ancla desaparece, ese golpe se da por perdido
+	DeedHint: Mata treinta criaturas arácnidas: arañas, trepadores de sangre, escorpiones de arena y todo lo que tenga ocho patas. Al cumplir el cupo, el cuchillo reconoce ese olor a sangre
 }
 
 OniMeiRubbingOnimaru: {
 	DisplayName: Oni-maru
-	Tooltip: Stand still and the blade flies off to cut on its own; you have no blade while it is out
-	Origin: Onimaru Kunitsuna, of the Five Great Swords. Its master was tormented night after night by a small oni in his dreams, until one night the blade toppled from its stand on its own and severed the oni head carved on the brazier's leg — the nightmares ended on the spot. The man does not move; the blade moves by itself
+	Tooltip: Si te quedas quieto, la cuchilla sale volando y corta por sí sola; mientras esté en movimiento, no podrás atacar
+	Origin:
+		'''
+		Onimaru Kunitsuna es una de las Cinco Grandes Espadas. Su dueño se veía atormentado noche tras noche por un pequeño oni en sus sueños,
+		hasta que una noche la espada se cayó sola de su soporte y le cortó la cabeza del oni tallado en la pata del brasero;
+		las pesadillas terminaron en ese mismo instante. El hombre no se mueve; la espada se mueve por sí sola.
+		'''
 	Power:
 		'''
-		Self-Cut: stand nearly still for 1s and the blade goes on standby
-		From then on it spends 10 of your vigor every 1.5s to fly at a foe within 40 tiles, cut for 140% of a blade hit, and return to the sheath
+		Autoataque: si te quedas casi inmóvil durante 1 s, el cuchillo pasa a modo de espera.
+        A partir de ese momento, gasta 10 de tu vigor cada 1,5s para lanzarse contra un enemigo situado a una distancia dde hasta 40 bloques, 
+		e inflige un daño equivalente al 140% del de un golpe con la espada, para luego volver a la funda.
 		'''
-	Burden: The blade is out of your hands for the whole flight, so no combo, no flash step, no Sakura Flight. With nothing nearby it will not launch
-	DeedHint: Hold the blade and stand dead still for ten seconds, without stepping away even when a hit lands — hold your ground, and the blade moves for you that once
+	Burden: Todo el tiempo que el cuchillo está fuera no está en tu mano: un combo, el empuje y el vuelo de sakura no se pueden usar. Si no hay objetivo cerca, no vuela
+	DeedHint: Empuña el cuchillo y quédate quieto diez segundos; aunque te golpeen, no des un paso. Si aguantas, el cuchillo se mueve una vez por ti
 }
 
 OniMeiRubbingRaikiri: {
 	DisplayName: Rai-kiri
-	Tooltip: The fifth beat and the big arts call lightning under open sky; beat interval +6%, nothing indoors
-	Origin: Tachibana Dosetsu was sheltering under a tree when a bolt of lightning came down on his head; he drew and cut back at it, and lived. The blade has been called Raikiri, the Thunder-Cutter, ever since
+	Tooltip: El quinto tiempo y los grandes golpes, al aire libre, llaman un rayo que atraviesa al enemigo; intervalo entre tajos +6%; en cuevas no funciona
+	Origin:
+		'''
+		Tachibana Dosetsu se había refugiado bajo un árbol cuando un rayo le cayó de lleno en la cabeza; desenvainó su espada y lo cortó, y sobrevivió
+		Desde entonces, a la espada se la conoce como Raikiri, "la que corta el trueno"
+		'''
 	Power:
 		'''
-		Thunder-Call: when the fifth beat, a Zanshin strike, Annihilating Flash, or Finale Slash lands and there is open sky overhead, a bolt drops from the top of the world
-		The bolt deals 70% of a blade hit, and in a thunderstorm one strike can call up to three
+		Llamada del trueno: cuando impacta el quinto golpe, en un ataque Zanshin, en un Destello aniquilador o en un Tajo final, 
+		y hay cielo abierto por encima, cae un rayo desde lo más alto.
+		El rayo inflige el 70% del daño de un golpe con la espada y, en una tormenta eléctrica, un solo golpe puede invocar hasta tres
 		'''
-	Burden: Combo beat interval +6%, sunny days included, because the wind-up is paid either way. Blocked overhead or underground, no bolt falls
-	DeedHint: Slay a boss-tier foe in a storm under open sky, and the edge learns the bolt
+	Burden: Intervalo entre tajos del combo +6%; también en día despejado va lento: la cuenta del rayo se paga. Si un bloque te tapa la cabeza o estás en una cueva, no cae
+	DeedHint: Derrota a un enemigo de nivel jefe en una tormenta a cielo abierto, y la hoja aprenderá el rayo
 }
 
 OniMeiRubbingNuekiri: {
 	DisplayName: Nue-kiri
-	Tooltip: Finish a combo airborne and the fifth beat becomes a ground slam; no dashing for 0.7s after landing
-	Origin: A nue coiled over the palace roof at night, and Minamoto no Yorimasa's arrow brought it down out of the clouds. The finishing cut, dealt the instant it hit the ground, drove straight down along the fall — and that plunge is what this inscription remembers
+	Tooltip: Si completas un combo en el aire, el quinto golpe se convierte en un golpe contra el suelo; no podrás correr durante 0,7s tras aterrizar
+	Origin:
+		'''
+		Por la noche, un nue se cernía sobre el tejado del palacio, y la flecha de Minamoto no Yorimasa lo derribó de entre las nubes. 
+		El golpe definitivo, asestado en el instante en que tocó el suelo, lo atravesó de arriba abajo a lo largo de su caída,
+		y ese acto es lo que conmemora esta inscripción
+		'''
 	Power:
 		'''
-		Nue-Dive: finish a full combo at least three tiles off the ground and the fifth beat stops swinging sideways, diving at the floor instead
-		The landing opens a shock ring about 12 tiles across for 120% of a blade hit, and drags nearby foes toward the impact
+		Caída de Nue: si completas un combo completo a una distancia mínima de tres bloques del suelo, 
+		el quinto golpe deja moverse lateralmente y, en su lugar, se lanza en picado hacia el suelo
+		El aterrizaje genera un anillo de choque de unos 12 bloques de diámetro que inflige
+		el 120% del daño de un golpe con la espada y arrastra a los enemigos cercanos hacia el punto de impacto
 		'''
-	Burden: No flash steps for about 0.7s after you land. Fought close to the ground, the fifth beat stays an ordinary fifth beat
-	DeedHint: At night, rise thirty tiles above the ground and slay a flying foe, and the blade learns that plunge
+	Burden: Tras aterrizar, durante unos 0.7 segundos no puedes usar el empuje. Si cortas pegado al suelo, nada cambiará
+	DeedHint: De noche, súbete a más de treinta bloques del suelo y mata a un enemigo volador; el cuchillo reconoce ese picado
 }
 
 OniMeiRubbingKamihi: {
 	DisplayName: Kami-hi
-	Tooltip: Dashing through a foe drops a paper cutout; cutting the paper hits the foe; dashes cost more while paper stands
-	Origin: A master paper-mounter's cut leaves paper as paper and shadow as shadow. This groove studied that hand: passing through a foe, it trims their silhouette off and leaves it standing where it was — while the paper stands, the account can be settled against it
+	Tooltip: Si el empuje atraviesa a un enemigo, deja un recorte de papel; cortar el papel es cortar el cuerpo; con un papel en el campo, el empuje gasta más vigor
+	Origin:
+		'''
+		El corte de un maestro del ensamblaje en papel deja que el papel sea papel y la sombra, sombra
+		Este surco estudió esa mano: al atravesar a un enemigo, recorta su silueta y la deja en pie donde estaba;
+		mientras el papel permanezca en pie, la cuenta pendiente se podrá saldar
+		'''
 	Power:
 		'''
-		Paper-Effigy: dashing through a foe leaves a paper cutout of it where you land, good for 7s, two on the field at most
-		Cutting that paper deals 80% of a blade hit straight to the foe itself
-		It also opens a wound on the foe for 1.5s, and your hits land 12% harder while that wound is open
+		Efigie de papel: al atravesar a un enemigo, dejas una silueta de papel del mismo en el lugar donde aterrizas;
+		dura 7 s y solo pueden haber dos en el campo de batalla como máximo.
+        Al cortar ese papel, se inflige al enemigo el 80% del daño de un golpe con espada
+        Además, le abre una herida que dura 1,5s, y tus golpes causan un 12% más de daño mientras la herida esté abierta
 		'''
-	Burden: Dash vigor cost +12% while any effigy stands
-	DeedHint: Sever twenty omokage paper silhouettes in the Ura world, and the hand learns how paper is cut
+	Burden: Mientras haya un papel en el campo, el gasto de vigor del empuje aumenta un +12%
+	DeedHint: En el mundo interior, corta veinte recortes de papel de efigie; solo entonces la mano sabe cómo se recorta el papel
 }
 
 OniMeiRubbingSorahi: {
 	DisplayName: Sora-hi
-	Tooltip: One extra dash off the ground and double regen; the first 0.75s after landing gives nothing back
-	Origin: The master who opened this groove kept an odd theory: breath is like people — the moment its feet touch the ground, it turns lazy. So he cut the blade featherlight, to keep you in the air a little longer; while you float, the breath comes looking for you
+	Tooltip: En el aire, un empuje extra y la recuperación de vigor se duplica; los 0,75 segundos al aterrizar no recuperan nada
+	Origin:
+		'''
+		El maestro que creó este surco tenía una teoría curiosa: el aliento es como las personas, en cuanto sus pies tocan el suelo, se vuelve perezosos
+		Por eso talló la hoja con una ligereza extrema, para que pudieras permanecer en el aire un poco más; mientras flotas, el aliento viene a buscarte
+		'''
 	Power:
 		'''
-		Air-Groove: natural regen doubles while both feet are off the ground, and you get one extra dash
-		An air dash that runs out leaves you hovering at its endpoint for half a second
+		Air-Groove: la regeneración natural se duplica mientras ambos pies están en el aire, y obtienes un empuje extra
+		Cuando se agota un empuje aéreo, te quedas suspendido en el punto final durante medio segundo.
 		'''
-	Burden: Natural regen drops to zero for 0.75s after you land, and dashing on the ground costs 10% more vigor
-	DeedHint: Stay off the ground for fifteen straight seconds and land at least five blade hits meanwhile, and the groove learns to float
+	Burden: Durante 0.75 segundos tras aterrizar, la recuperación natural de vigor baja a cero. Un empuje en el suelo gasta un 10% más de vigor
+	DeedHint: Si pasas 15 segundos seguidos sin tocar el suelo, y en ese rato el filo debe golpear al menos cinco veces; solo entonces el surco reconoce el cuerpo flotante
 }
 
 OniMeiRubbingKagamihi: {
 	DisplayName: Kagami-hi
-	Tooltip: A dash endpoint stands a paper mirror that copies your next cut; weapon damage -5%
-	Origin: Mirror polishers all know it: the figure in the glass looks synchronized, but always runs half a beat behind. The one who opened this groove wanted exactly that half beat — let the one in the mirror deal your follow-up cut. Late, but it arrives
+	Tooltip: El punto final del empuje se vuelve un espejo de papel que reproduce tu próximo corte; daño del arma: -5%
+	Origin:
+		'''
+		Todos los maestros pulidores de espejos lo saben: la figura que se ve en el espejo parece sincronizada, pero siempre va medio tiempo por detrás.
+		Quien inició este surco buscaba precisamente ese medio tiempo: deja que sea la figura del espejo la que te marque el siguiente paso. Llega tarde, pero llega.
+		'''
 	Power:
 		'''
-		Mirror-Echo: the endpoint of a Kamui flash step stands a paper mirror for 2s
-		The next time you cut, the figure in the mirror repeats that same cut for 45% of a blade hit, then shatters
+		Espejo del eco: en el punto de llegada de empuje de Kamui, aparece un espejo de papel durante 2s.
+		La siguiente vez que cortes, la figura del espejo repetirá ese mismo corte con un 45% de daño de la hoja, y luego se hará añicos.
 		'''
-	Burden: Weapon damage -5%. The copy swings from wherever the mirror stands, so whether it connects is on you
-	DeedHint: Finish a mimic with the Zanshin strike — Calamity's counterfeit counts among the imitators too
+	Burden: Daño base -5%. El tgolpe copiado sale desde donde está el espejo; si llega o no, depende de dónde lo coloques
+	DeedHint: Remata a un cofre falso con un tajo de Zanshin; las imitaciones de la Calamidad también cuentan como cosas que copian a la gente
 }
 
 OniMeiRubbingAmahi: {
 	DisplayName: Ama-hi
-	Tooltip: Sakura Flight drips ink that pools and binds where it lands; Sakura drain +15%
-	Origin: The gutter under the eaves is also called an amahi, a rain channel. The edge-setter cut this groove with the eaves in mind: rain you catch should not run off for nothing — fly on, and let it drip onto whoever waits under the blade
+	Tooltip: El vuelo de sakura gotea tinta todo el camino; al caer se extiende en un charco que ata; gasto de vigor del vuelo de sakura aumentado un +15%
+	Origin:
+		'''
+		El canalón situado bajo el alero también se conoce como "amahi", un canal de desagüe.
+		El tallador talló esta ranura pensando en el alero: el agua de lluvia que se recoge no debe desperdiciarse,
+		que siga su curso y caiga sobre quienquiera que espere bajo la hoja.
+		'''
 	Power:
 		'''
-		Ink-Rain: while cruising in Sakura Flight, a bead of ink drops every 0.1s for 12% of a blade hit
-		Beads spread into puddles where they land, and foes that step in are bound for half a second
+		Lluvia de tinta: mientras vuelas en durante un vuelo de Sakura,
+		cae una gota de tinta cada 0,1s por cada 12% de daño infligido con una espada
+		Las gotas se extienden formando charcos donde caen, y los enemigos que pisan en ellos quedan inmovilizados durante medio segundo.
 		'''
-	Burden: Sakura Flight drain +15%. Carrying rain the whole way costs
-	DeedHint: Fly Sakura Flight through the rain for ten straight seconds; petals must soak through before water will stay
+	Burden: Gasto de vigor del vuelo de sakura +15%. Volar en una lluvia sale caro
+	DeedHint: En un día de lluvia, vuela con el vuelo sakura diez segundos seguidos; solo cuando los pétalos están empapados se queda el agua
 }
 
 OniMeiRubbingTsuzurihi: {
 	DisplayName: Tsuzuri-hi
-	Tooltip: Ink brands from one dash cut lines between each other; a lone brand deals -30%
-	Origin: Tsuzuri is the bookbinder's stitch: one needle, one hole, and when the thread pulls tight the loose pages become a book. The one who opened this groove uses ink brands for stitch holes: string the marks together, and they close into a line
-	Power: Mark-Stitch: ink brands from the same dash all go off together and cut lines between one another, each line for 35% of a blade hit
-	Burden: A lone ink brand deals -30%. Catch only one foe per dash and this groove is a pure loss
-	DeedHint: Pierce six different foes in one dash, and the marks stitch
+	Tooltip: Las marcas de tinta de un mismo empuje se unen y cortan; daño de cada marca -30%
+	Origin:
+		'''
+		Tsuzuri es la puntada del encuadernador: una aguja, un agujero, y cuando se tensa el hilo, las páginas sueltas se convierten en un libro
+		Quien abrió este surco utiliza marcas de tinta para los agujeros: al unir las marcas, estas se cierran formando una línea
+		'''
+	Power: Marca suturada: Las marcas de tinta de un mismo empuje detonan a la vez y tienden líneas de corte entre sí; cada tramo inflige el 35% de un tajo
+	Burden: Daño de cada marca de tinta -30%. Si un empuje solo atraviesa a uno, este conducto es pérdida neta
+	DeedHint: Atraviesa a seis enemigos distintos en un solo empuje; solo entonces las marcas se pueden coser
 }
 
 OniMeiRubbingBonsho: {
 	DisplayName: Bonsho
-	Tooltip: Hold full stance without a Finale and the blade tolls itself; half your stance buys a ring of control
-	Origin: A temple bell waits for someone to strike it; the one carved on this blade does not. The carver put it plainly: build your stance full and sit on it, and the bell will let it go for you
+	Tooltip: Mantén la postura completa sin un "Finale" y la espada resonará por sí sola; con la mitad de tu postura obtendrás un anillo controlador
+	Origin: La camnpana del templo espera a que alguien la toque; la que está tallada en esta hoja, no. El tallador lo dejó claro: adopta una postura firme y manténla, y la campana sonará por ti
 	Power:
 		'''
-		Bell-Toll: hold full stance for 3s without releasing Finale Slash and the blade tolls on its own
-		Foes within 30 tiles each take 60% of a blade hit and are bound 1.5s, and your stance drops to 50
+		Repique de campana: mantén la postura completa durante 3s sin soltar "Corte final" y la espada resonará por sí sola
+        Los enemigos situados en un radio de 30 bloques recibirán cada uno el 60% del daño de un golpe de espada,
+		quedarán inmovilizados durante 1,5s, y tu postura bajará al 50%
 		'''
-	Burden: Once the bell rings, that Finale is gone. Full stance forces you to pick one
-	DeedHint: Bring a boss down without using Annihilating Flash or Finale Slash the whole fight — knock the bell down just like that
+	Burden: En cuanto suena la campana, esa "Finale" se pierde. Con el ímpetu lleno, tienes que elegir una de las dos
+	DeedHint: Derriba a un jefe en todo el combate sin usar Destello aniquilador ni Corte final; así, a golpes de campana
 }
 
 OniMeiRubbingHannya: {
 	DisplayName: Hannya
-	Tooltip: Drop low and the mask turns demon: heavier hits and lifesteal; frail while it is out, duller before it turns
-	Origin: The hannya mask of Noh plays the instant a woman's grudge turns her face into a demon's. The carver set that mask into the steel: push a person to the very edge, and the face turns over on its own
+	Tooltip: Con poca vida se voltea la máscara oni: el cuchillo pesa más y roba vida; con la máscara eres más frágil y en reposo, un poco más romo
+	Origin:
+		'''
+		La máscara hannya del teatro Noh representa el instante en que el rencor de una mujer transforma su rostro en el de un demonio.
+		El tallador plasmó esa máscara en el acero: si se lleva a una persona al límite, su rostro se transforma.
+		'''
 	Power:
 		'''
-		Mask-Shift: below 35% of your own life the mask turns demon, blade damage +20%, and every hit restores 0.5% of your max life
-		While the demon face is out, every third hit brings up a mask that bites for 50% of a blade hit
+		Cambio de máscara: cuando tu vida sea inferior al 35%, la máscara se convierte en un demonio,
+		el daño de las espadas aumenta un 2% y cada golpe restaura un 0,5% de tu vida máxima
+		Mientras el rostro del demonio está visible, cada tercer golpe hace que aparezca una máscara
+		que inflige un daño equivalente al 50% del de un golpe con espada.
 		'''
-	Burden: Damage taken +15% while the demon face is out. In maiden form, weapon damage -4%
-	DeedHint: Slay a boss while your own life sits below one tenth, and the mask can turn
+	Burden: Durante la máscara oni, daño recibido aumenta un +15%. Mientras sigue siendo máscara de mujer, daño base -4%
+	DeedHint: Mata a un jefe cuando tu vida haya caído por debajo de una décima; solo entonces la máscara se volterá
 }
 
 OniMeiRubbingKaresansui: {
 	DisplayName: Karesansui
-	Tooltip: Plant your feet to rake a sand garden that stays put, cutting and feeding stance
-	Origin: A garden master raises mountains and seas with nothing but sand and stone — not one drop of water. The carver cut that raked pattern into the blade, saying that a swordsman who stands firm enough can rake a sand garden underfoot with his blade's edge
+	Tooltip: Quédate quieto y rastrilla un campode arena que se queda en el lugar; corta dentro sin cesar para subir la postura
+	Origin:
+		'''
+ 		Un maestro jardinero crea montañas y mares con nada más que arena y piedra, sin una sola gota de agua.
+		El tallador grabó esta runa en forma de rastrillo en la hoja, diciendo que un espadachín que se mantenga
+		lo suficientemente firme puede rastrillar un jardín de arena bajo sus pies con el filo de su espada
+		'''
 	Power:
 		'''
-		Sand-Garden: stand nearly still for 1.5s and a sand field about 20 tiles across is raked at your feet, lasting 5s
-		The field cuts every half second for 18% of a blade hit
-		While you stand inside your own field, stance gain +30%
+		Jardín de arena: si permaneces casi inmóvil durante 1,5s, se forma a tus pies un campo de arena de unos 20 bloques de ancho que dura 5s
+		El campo inflige daño cada medio segundo el equivalente al 18% del daño de un golpe con espada
+		Mientras permanezcas dentro de tu propio campo, la ganancia de postura aumenta un +30%
 		'''
-	Burden: You have to plant first, and moving clears what you have built up
-	DeedHint: Hold one spot for thirty seconds of combat without taking a hit, and the sand can be raked
+	Burden: Hay que quedarse quieto para rastrillar; moverte borra lo acumulado
+	DeedHint: Párate en un sitio treinta segundos sin recibir ni un golpe; solo entonces saldrá la arena
 }
 
 OniMeiRubbingSenju: {
 	DisplayName: Senju
-	Tooltip: Six ghost arms join the Finale Slash freeze; afterwards vigor zeroes and dashing is locked 3s
-	Origin: The Thousand-Armed Kannon offers one hand to each soul it ferries. The carver cut the thousand hands into the blade and set its rule: every one the Finale sends off must have a hand there to receive them
-	Power: Thousand-Arms: during the Finale Slash freeze, six sword-bearing ghost arms rise behind you and cut with it, each for 30% of a blade hit
-	Burden: After the Finale your vigor drops to zero and you cannot flash step for 3s
-	DeedHint: Send off eight different bosses with the Finale Slash, one hand for each name
+	Tooltip: Al congelarse el Corte final, se alzan seis manos fantasmas que cortan; tras el Corte, el vigor se vacía y y no tendrás empuje por 3 segundos
+	Origin:
+		'''
+		El Kannon de las Mil Manos ofrece una mano a cada alma que transporta. El tallador esculpió las mil manos en la hoja
+		y estableció su norma: todos aquellos a quienes el Finale despide deben tener allí una mano que los reciba
+		'''
+	Power: Durante el Corte final, en tu espalda se alzan seis manos fantasmas con cuchillos que cortan a la vez; cada una inflige el 30% de un golpe
+	Burden: Tras el "Finale", tu vigor se reduce a cero y no podrás realizar un empuje durante 3s
+	DeedHint: Acaba con 8 jefes distintos con el Corte final; conseguirás una mano por cada jefe
 }
 
 OniMeiRubbingKogehi: {
 	DisplayName: Koge-hi
-	Tooltip: Dashes leave up to five burns along the whole path; weapon damage -4%
-	Origin: The master who opened this groove lived by the lava shallows and had seen too many people who never watch their feet. This groove, he said, is cut for stepping clear of the heat: you run through, and the burn stays on the ground behind you — for whoever gives chase
+	Tooltip: Los dahses dejan hasta cinco marcas a lo largo de todo el recorrido; daño del arma: -4%
+	Origin:
+		'''
+		El maestro que abrió este surco vivía junto a grandes zonas de lava y había visto a demasiada gente que nunca miraba por dónde pisaba
+		"Este surco" —decía— "está tallado para evitar el calor: corres por él y el calor se queda en el suelo detrás de ti, para quienquiera que te persiga".
+		'''
 	Power:
 		'''
-		Scorch-Trail: a Kamui flash step leaves up to five burns spread along its full path, each burning 1.5s
-		A foe standing in one is scorched every half second for 14% of a blade hit
-		A new burn dropped within two tiles of an old one just refreshes it
+		Sendero chamuscado: un empuje de Kamui deja hasta cinco marcas de quemadura repartidas a lo largo de todo su recorrido, cada una de las cuales dura 1,5s
+		Un enemigo que se encuentre sobre una de ellas sufre quemaduras cada medio segundo, equivalentes al 14% del daño de un golpe con la espada
+		Si se crea una nueva marca de quemadura a menos de dos bloques de una ya existente, esta última simplemente se renueva
 		'''
-	Burden: Weapon damage -4%; make the difference back with the burns your footwork lays down
+	Burden: Daño base -4%; lo que falta hay que recuperarlo con las zonas que siembras al moverte
 }
 
 OniMeiRubbingKanhi: {
 	DisplayName: Kan-hi
-	Tooltip: Let the blade go cold and natural regen runs 2.25x; dash and Sakura costs +8%
-	Origin: A long bench sits by the sword shop's door, and the master rests there listening to the street once the work is done. People must learn to rest, he says: quiet the ears, and the breath returns quicker. This groove is that bench
-	Power: Quiet-Breath: after two seconds without cutting anything, natural regen runs at 2.25x
-	Burden: Dash and Sakura Flight costs +8%. Breath earned in the quiet is repaid in motion
+	Tooltip: Deja que la hoja se enfríe y la regeneración natural se multiplicará por 2,25; el empuje y Sakura cuestan un +8%
+	Origin:
+		'''
+		Junto a la puerta de la tienda de espadas hay un banco largo. El maestro descansa allí escuchando el bullicio de la calle una vez terminada la jornada.
+		"La gente debe aprender a descansar", -dice- "si se aquietan los oídos, la respiración se recupera más rápido. Ese banco es ese rincón".
+		'''
+	Power: Respiración tranquila: tras dos segundos sin cortar nada, la regeneración natural se multiplica por 2,25
+	Burden: Los costes del empuje y Sakura aumentan un 8%. El vigor que se gana en la quietud se recupera en el movimiento
 }
 
 OniMeiRubbingTodohi: {
 	DisplayName: Todo-hi
-	Tooltip: Hits glue foes down for 0.6s; dashes take 0.1s longer to come back
-	Origin: This groove came out of a strange quench: the edge drags sticky through flesh, and whatever takes the cut stalls a step. The edge-setter never called it a flaw — it is the other one that sticks, not you
-	Power: Ink-Bound: a hit from the blade itself glues the foe down for 0.6s, dropping regular movement to 88% and boss movement to 96%
-	Burden: Dashes take 0.1s longer to come back around. Ink-Bound and Numbed do not stack on the same foe, only the stronger one applies
+	Tooltip: Los golpes inmovilizan a los enemigos durante 0,6s; los empujes tardan 0,1s más en recuperarse
+	Origin:
+		'''
+		Esta ranura surgió de un temple extraño: el filo se arrastra con dificultad por la carne,
+		y lo que sea que esté siendo cortado se atasca un instante. El afilador nunca lo calificó de defecto: es el otro el que se atasca, no tú.
+		'''
+	Power: «Ink-Bound»: Tras dos segundos sin que el cuchillo golpee nada, la recuperación natural de vigor pasa a 2,25 veces
+	Burden: El gasto de vigor del empuje y del vuelo de sakura sube un +8%. El vigor que se gana en la quietud se recupera en el movimiento
 }
 
 OniMeiRubbingShiorihi: {
 	DisplayName: Shiori-hi
-	Tooltip: Finish one foe and the edge prunes the most wounded one nearby; natural regen -10%
-	Origin: A gardener prunes by one rule: once the shears are out, take the wilted stems in the same pass and spare yourself a second trip. The one who opened this groove used to be a gardener
+	Tooltip: Acaba con un enemigo y la espada se centrará en el más herido de los que estén cerca; regeneración natural: -10%
+	Origin:
+		'''
+		Un jardinero poda siguiendo una regla: una vez que saca las tijeras, corta los tallos marchitos de una sola pasada
+		y así se ahorra tener que volver a pasar por allí. El que hizo este surco solía ser jardinero
+		'''
 	Power:
 		'''
-		Petal-Prune: when your blade finishes a foe, it looks 15 tiles out from where that foe fell
-		It picks another foe under half life, chases it down, and prunes for 25% of a blade hit
-		Finding nobody starts no cooldown; a successful prune rests 0.75s
+		Poda de pétalos: cuando tu espada acaba con un enemigo, busca en un radio de 15 bloques desde el lugar donde cayó dicho enemigo.
+		Elige a otro enemigo con menos de la mitad de vida, lo persigue y le inflige un daño equivalente al 25% del golpe de la espada
+		Si no encuentra a nadie, no se inicia ningún enfriamiento; si el ataque tiene éxito, el tiempo de recarga es de 0,75s
 		'''
-	Burden: Natural regen -10%. A Zanshin strike that hits nothing costs 2 extra vigor. Kills made by the pruning blade never set off another
+	Burden: Regeneración natural: -10 %. Un golpe de Zanshin que no acierte cuesta 2 puntos de vigor extra. Las muertes causadas por la Hoja podadora nunca provocan otra
 }
 
 OniMeiRubbingShiohi: {
 	DisplayName: Shio-hi
-	Tooltip: Swing on the tide for vigor and a heavier Zanshin; off-beat combos come out dull
-	Origin: The edge-setter grew up by the sea and whets blades to the rhythm of the tide. The tide rises and falls, he says, and so does a man's breath: a cut made on the rising tide, the sea repays
+	Tooltip: Déjate llevar por el ritmo de la marea para ganar vigor y un «zanshin» más intenso; las combinaciones fuera de tiempo resultan aburridas
+	Origin:
+		'''
+		El afilador creció junto al mar y afila las cuchillas al ritmo de la marea. "La marea sube y baja", -dice-,
+		"y lo mismo ocurre con la respiración de un hombre: si se hace un corte con la marea subiendo, el mar te lo devuelve"
+		'''
 	Power:
 		'''
-		Tide-Beat: a tide head runs under the vigor stroke on a 0.8s cycle, and the 0.2s at its crest is the on-tide window
-		Combos started on the tide return 3 vigor on their first hit, and an on-tide Zanshin strike deals +8%
+		Tide-Beat: una ola de marea recorre el golpe de vigor en un ciclo de 0,8s, y los 0,2 s en su cresta constituyen la ventana de marea alta
+        Las combinaciones que comienzan con el retorno de la marea infligen 3 de vigor en su primer golpe, y un golpe Zanshin en marea alta inflige un +8%
 		'''
-	Burden: Off-tide combos deal -3%. The tide is read the moment you press, so catching it on the hit does not count
+	Burden: El combo fuera de pulso, -3% de daño. Si coincidiste o no se decide en el instante en que pulsas el golpe; acertar después ya no cuenta
 }
 
 OniMeiRubbingShibori: {
 	DisplayName: Shibori
-	Tooltip: Dashing through a foe or eating a hit mid-art numbs whatever touched you; stance gain -15%
-	Origin: A numbed hand must not let go of the grip — that is the first year of sword school. The master who cut this carving turned the lesson around: numb me by one measure, and whatever touched me goes numb by ten
+	Tooltip: Atravesar con una embestida o recibir un golpe duro en un gran golpe entumece al que te toca; ganancia de postura -15%
+	Origin:
+		'''
+		Una mano entumecida no debe soltar la empuñadura: eso se aprende en el primer año de la escuela de esgrima
+		El maestro que talló esta obra le dio la vuelta a la lección: si me entumeces un poco, todo lo que me toque se entumecerá diez veces más
+		'''
 	Power:
 		'''
-		Numb-Counter: dashing through a foe numbs it outright
-		Take contact damage during an art you cannot pull out of and you may spend 15 stance to leave that hit at 85% and numb whatever landed it, then rest 1.5s
-		A numbed foe moves slower for 0.75s, down to 90% for regular foes and 98% for bosses, and its contact damage drops 10%
+		Numb-Counter: atravesar a un enemigo con una embestida lo aturde al instante
+        Si recibes daño por contacto durante una técnica de la que no puedes salir, puedes gastar 15 de postura para dejar ese golpe al 85%
+		y aturdir a quien lo haya asestado; a continuación, descansas 1,5s
+		Un enemigo aturdido se mueve más lento durante 0,75s, reduciéndose su velocidad al 90% en el caso de los enemigos normales
+		y al 98% en el de los jefes, y su daño por contacto se reduce un 10%
 		'''
-	Burden: Everyday stance gain -15%
+	Burden: Ganancia habitual de postura -15%
 }
 
 OniMeiRubbingChinmei: {
 	DisplayName: Chinmei
-	Tooltip: Hostile projectile damage -12% and knockback -65%; stance gain -15%
-	Origin: Arrows and stones fill a battlefield, and one ringing of the ears is enough to panic a man. The old soldier who cut this inscription left a single line: steady yourself first, stand firm, then move — what flies at you will hurt less
-	Power: Quell: hostile projectiles that hit you deal -12% damage, and their knockback is left at 35%
-	Burden: Stance gain -15%. In a pure melee scrap this carving mostly sits idle
+	Tooltip: Daño por proyectiles hostiles: -12%; retroceso: -65%; ganancia de postura: -15%
+	Origin:
+		'''
+		Las flechas y las piedras inundan el campo de batalla, y basta con un solo estruendo en los oídos para que un hombre entre en pánico. 
+		El viejo soldado que talló esta inscripción dejó una única frase: primero, mantén la calma; mantente firme; 
+		luego, muévete: lo que te alcance te hará menos daño.
+		'''
+	Power: Fuente: los proyectiles hostiles que te alcancen infligen un -12% de daño, y su efecto de repulsión se mantiene en el 35%
+	Burden: Reducción de la postura: -15 %. En un combate cuerpo a cuerpo puro, esta habilidad suele quedar inactiva
 }
 
 OniMeiRubbingAshidome: {
 	DisplayName: Ashidome
-	Tooltip: Plant for 0.75s and your next big art or fifth beat deals +25%
-	Origin: Every fencing master opens the first lesson the same way: stop swaying on your feet. Planted feet hold strength, and held strength gives the strike its weight. This inscription keeps that first lesson for you
-	Power: Planted-Step: stand nearly still for 0.75s to bank a cut, and your next fifth beat, Zanshin strike, Annihilating Flash, or Finale Slash deals +25%
-	Burden: The bank is spent the moment the art starts, whiff included. Moving clears it
+	Tooltip: Quédate quieto 0,75 segundos y el siguiente gran golpe el quinto tiempo hará un +25% más de daño
+	Origin:
+		'''
+		Todos los maestros de esgrima comienzan la primera clase de la misma manera: deja de mover los pies
+		Unos pies bien plantados aportan fuerza, y esa fuerza es la que da peso al golpe. Esta inscripción te recuerda esa primera lección
+		'''
+	Power: Pie firme: Si te quedas quieto 0,75 segundos, acumulas un golpe; en el siguiente quinto tiempo, Zanshin, Destello aniquilador o Corte final reciben +25% de daño
+	Burden: En cuanto el golpe se aplica, se gasta; fallar no lo devuelve. Moverte borra lo acumulado
 }
 
 OniMeiRubbingYoen: {
 	DisplayName: Yoen
-	Tooltip: Executions leave one patch of embers on the ground, never more than one; vigor cap -5%
-	Origin: After a forge is banked for the night, the warmth in the chamber keeps till morning. The edge-setter borrowed that rule for the blade: the fire is out, the heat is not
+	Tooltip: Las ejecuciones dejan un montón de brasas en el suelo, nunca más de uno; límite de vigor: -5%
+	Origin:
+		'''
+		Una vez que se apaga la forja por la noche, el calor de la cámara se mantiene hasta la mañana siguiente
+		El afilador aplicó esa regla a la hoja: el fuego se ha apagado, pero el calor permanece
+		'''
 	Power:
 		'''
-		Ember-Field: an execution leaves a field of embers at the focus, burning 3s
-		The same foe is scorched every 0.75s for 16% of a blade hit
-		There is only ever one field; another execution moves it somewhere new
+		Campo de brasas: una ejecución deja un campo de brasas en el punto de impacto, que arde durante 3s
+		El mismo enemigo sufre quemaduras cada 0,75s equivalentes al 16% del daño de un golpe con la espada
+		Solo hay un campo en todo momento; otra ejecución lo desplaza a un nuevo lugar
 		'''
-	Burden: Vigor cap -5%. While the embers are still burning, dashes cost 10% more vigor
+	Burden: Límite de vigor de vigor -5%. Mientras el campo de ascuas aún quema, el gasto de vigor del empuje +10%
 }
 
 ScrapBeacon: {
