@@ -414,7 +414,11 @@ KikasaTalismanLin: {
 	DisplayName: Talismán de lluvia fina
 	Tooltip: Los golpes de lluvia se aceleran y se vuelven más densos a medida que la lluvia persiste; cada gota es ligeramente más ligera
 	Origin: El viejo escriba dijo: no hace falta molestar al Rey Dragón para que llueva; basta con un talismán de Lluvia Fina. Las gotas pequeñas están bien, siempre y cuando no dejen de caer nunca
-	Power: "'Lluvia fina': El ritmo de la lluvia de tinta aumenta un 20%; las gotas caen una tras otra; unos diez segundos de lluvia ininterrumpida dan forma a “Lin”: un velo de llovizna cuelga bajo el paraguas y el ritmo se acelera otro 10%; la acumulación se desvanece cuando cesa la lluvia, y al recordar el paraguas, esta se reduce a la mitad de inmediato."
+	Power: 
+		'''
+		"'Lluvia fina': El ritmo de la lluvia de tinta aumenta un 20%; las gotas caen una tras otra; unos diez segundos de lluvia ininterrumpida dan forma a “Lin”: 
+		un velo de llovizna cuelga bajo el paraguas y el ritmo se acelera otro 10%; la acumulación se desvanece cuando cesa la lluvia, y al recordar el paraguas, esta se reduce a la mitad de inmediato."
+		'''
 	Burden: Daño por caída: -6%
 }
 
@@ -422,7 +426,11 @@ KikasaTalismanLao: {
 	DisplayName: Talismán de charco de tinta
 	Tooltip: Toda gota de tinta que toca el suelo forma un charco; el charco bebe la lluvia, sube de nivel y, al llenarse, se desborda; el impacto directo es un poco más leve
 	Origin: Al talismánico le fastidiaba que la lluvia se secara en cuanto caía y se malgastara toda la tinta, así que dibujó este talismán para dejarla en el suelo. Un instante más de inundación ya es ganancia
-	Power: «Charcos» Toda gota de tinta que toca el suelo forma un charco (no hace falta llegar al cuarto umbral «Inclinación del lago»); duración del charco +50%, radio +30%; las gotas que se unen a un charco existente suben el nivel del agua, y la tercera lo desborda: la superficie se ensancha un paso y lanza ondas de desborde a ambos lados (50% del daño del charco cada una)
+	Power: 
+		'''
+		«Charcos» Toda gota de tinta que toca el suelo forma un charco (no hace falta llegar al cuarto umbral «Inclinación del lago»); duración del charco +50%, radio +30%; 
+		las gotas que se unen a un charco existente suben el nivel del agua, y la tercera lo desborda: la superficie se ensancha un paso y lanza ondas de desborde a ambos lados (50% del daño del charco cada una)
+		'''
 	Burden: Daño directo de las gotas de tinta -5%
 }
 
@@ -430,7 +438,11 @@ KikasaTalismanPei: {
 	DisplayName: Talismán de diluvio
 	Tooltip: Al invertir la sombrilla la tinta se acumula más rápido; cuando el cuenco está lleno, verter es abrir la compuerta; la lluvia habitual se vuelve un poco más lenta
 	Origin: Lo peor al pedir lluvia es que no duela. Este talismán solo atiende una cosa: si va a llover, que sea un diluvio
-	Power: «Diluvio» Velocidad de acumulación invertida +35%, daño de los surtidores de tinta +20%; al llenarse, el borde del cuenco rebosa perlas y emite un zumbido grave: verter en ese instante es abrir la compuerta: el origen de la cascada estalla con un impacto (80% del daño de la cascada) y la cascada de tinta se ensancha
+	Power: 
+		'''
+		«Diluvio» Velocidad de acumulación invertida +35%, daño de los surtidores de tinta +20%; al llenarse, el borde del cuenco rebosa perlas y emite un zumbido grave: 
+		verter en ese instante es abrir la compuerta: el origen de la cascada estalla con un impacto (80% del daño de la cascada) y la cascada de tinta se ensancha
+		'''
 	Burden: El ritmo de la lluvia de tinta se ralentiza un 8%
 }
 
@@ -494,7 +506,11 @@ KikasaTalismanTing: {
 	DisplayName: Talismán de surtidor del trueno
 	Tooltip: Los surtidores de tinta se vuelven columnas de agua y trueno que encadenan electricidad a los enemigos cercanos; las cascadas que tocan el suelo a veces levantan un surtidor menor; acumular tinta es un poco más lento
 	Origin: Nada asusta tanto como un lago en una noche de tormenta. El rayo entra en el agua y todo el lago se enciende. El talismánico dibujó este talismán a partir de esa escena
-	Power: «Surtidor del trueno» Altura de la columna del surtidor +50%; al impactar encadena electricidad a hasta dos enemigos cercanos (50% del daño del surtidor cada uno); una cascada de tinta que aún no está llena tiene un 25% de levantar un surtidor menor al tocar el suelo
+	Power: 
+		'''
+		«Surtidor del trueno» Altura de la columna del surtidor +50%; al impactar encadena electricidad a hasta dos enemigos cercanos (50% del daño del surtidor cada uno); 
+		una cascada de tinta que aún no está llena tiene un 25% de levantar un surtidor menor al tocar el suelo
+		'''
 	Burden: Velocidad de acumulación invertida -13%
 }
 
@@ -502,7 +518,11 @@ KikasaTalismanHong: {
 	DisplayName: Talismán de puente iris
 	Tooltip: Al recogerse la cascada de tinta se alza un puente iris: bajo el puente hay beneficios, el arco quema a los enemigos; la cascada es un poco más estrecha
 	Origin: Ver un arcoíris después de la lluvia es buen augurio. El talismánico lo dibujó en el talismán: en cuanto para la lluvia, se tiende el puente, y quien se pone debajo recibe su parte
-	Power: «Puente iris» Al recogerse la cascada de tinta, se alza un puente iris cinco segundos sobre el punto de caída: bajo el puente, velocidad de movimiento +10% y daño de invocación +10%; los enemigos que cruzan el arco reciben 40% del daño de la cascada cada medio segundo
+	Power: 
+		'''
+		«Puente iris» Al recogerse la cascada de tinta, se alza un puente iris cinco segundos sobre el punto de caída: 
+		bajo el puente, velocidad de movimiento +10% y daño de invocación +10%; los enemigos que cruzan el arco reciben 40% del daño de la cascada cada medio segundo
+		'''
 	Burden: Anchura de la cascada de tinta -10%
 }
 
@@ -542,7 +562,11 @@ KikasaTalismanShuang: {
 	DisplayName: Talismán de espejo de escarcha
 	Tooltip: Los charcos se congelan en espejos de escarcha: pisarlos ralentiza, una gota los rompe y estallan; los charcos no pueden renovarse
 	Origin: Tras la escarcha, el agua de los charcos se congela en una noche: parece un espejo, y solo al pisarlo se entiende. Lo que guardó el talismánico fue precisamente esa capa de «parece inofensivo»
-	Power: «Espejo de escarcha» Las gotas grandes se congelan solas en charcos de escarcha (no hace falta llegar al cuarto umbral «Inclinación del lago»); el charco se vuelve espejo: ya no quema, quien lo pisa se ralentiza un 40%; una gota de tinta que golpea el espejo lo rompe al instante, convierte la vida restante del espejo en daño explosivo y alza estalactitas
+	Power: 
+		'''
+		«Espejo de escarcha» Las gotas grandes se congelan solas en charcos de escarcha (no hace falta llegar al cuarto umbral «Inclinación del lago»); el charco se vuelve espejo: ya no quema, 
+		quien lo pisa se ralentiza un 40%; una gota de tinta que golpea el espejo lo rompe al instante, convierte la vida restante del espejo en daño explosivo y alza estalactitas
+		'''
 	Burden: Cada espejo de escarcha existe por separado; los charcos no pueden fusionarse para renovar su duración
 }
 
@@ -622,7 +646,11 @@ KikasaTalismanYu: {
 	DisplayName: Talismán de danza Yu
 	Tooltip: Los impactos acumulan ofrendas; al llenarse se abre el altar y se danza: lluvia densa, gotas feroces, charcos y surtidores a pleno; al terminar, tres surtidores a la vez; fuera del gran rito, todo es un poco más romo
 	Origin: Los antiguos pedían lluvia alzando un altar y danzando, con las ocho músicas completas; a ese rito lo llamaban «danza Yu». El talismánico metió todo el ceremonial en un solo talismán: la sombrilla es la bruja, la lluvia es la respuesta
-	Power: «Gran Yu» Los impactos de la lluvia de tinta acumulan ofrendas; al llenarse se abre el altar y entra «Gran Yu» diez segundos: el intervalo de la lluvia se reduce a la mitad, las gotas se tiñen de tinta iris y su daño +15%, todas dejan charco al caer y los surtidores se abren del todo; al terminar, tres surtidores brotan a la vez bajo la sombrilla
+	Power: 
+		'''
+		«Gran Yu» Los impactos de la lluvia de tinta acumulan ofrendas; al llenarse se abre el altar y entra «Gran Yu» diez segundos: el intervalo de la lluvia se reduce a la mitad, 
+		las gotas se tiñen de tinta iris y su daño +15%, todas dejan charco al caer y los surtidores se abren del todo; al terminar, tres surtidores brotan a la vez bajo la sombrilla
+		'''
 	Burden: Fuera del Gran Yu, el daño de tinta -10%
 }
 
