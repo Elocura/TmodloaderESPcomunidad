@@ -5,13 +5,161 @@ Victor: {
 	Name0: Victor
 
 	TownNPCMood: {
-		Content: Estoy contento.
-		NoHome: Odio no tener un hogar.
-		FarFromHome: Estoy demasiado lejos de casa.
-		LoveSpace: Me encanta tener tanto espacio.
-		DislikeCrowded: No me gusta que haya tanta gente.
-		HateCrowded: No me gusta nada que haya tanta gente.
-		LikeNPC_Princess: Me gusta {NPCName}.
-		Princess_LovesNPC: Me gusta {NPCName}.
+		Content: : Todos los sistemas funcionan correctamente. Como un servo recién calibrado
+		NoHome: Sin consulta, no hay negocio. Mi mesa de operaciones sigue atada a la espalda.
+		FarFromHome: Demasiado lejos de mi consulta. No tengo ninguna de mis herramientas a mano.
+		LoveSpace: Espacioso. Hay sitio para tres mesas de operaciones. Me gusta.
+		DislikeCrowded: Demasiada gente. Olvídate de mantener nada estéril aquí.
+		HateCrowded: P Con tanto gentío, tarde o temprano alguien tirará mi bandeja.
+		LoveBiome: Me encanta el {BiomeName}. Tranquilo, con temperatura estable: perfecto para el trabajo de precisión
+		LikeBiome: "El {BiomeName} está bien. Aquí no se me estropean las existencias".
+		DislikeBiome: La humedad de {BiomeName} se está colando en mis circuitos.Es horrible
+		HateBiome: "¿{BiomeName}? Ese sitio convierte hasta el cromo más fino en óxido. No me hagas hablar."
+		LoveNPC: "{NPCName} entiende de máquinas. Una cualidad poco común hoy en día."
+		LikeNPC: "{NPCName} es un vecino decente y una fuente constante de piezas de recambio."
+		DislikeNPC: "{NPCName} dice que mi cirugía es una porquería. ¡Bah! Los resultados hablan por sí solos."
+		HateNPC: Mantén a {NPCName} lejos de mí. Prefiero no tener que recomponer a víctimas de explosiones cada dos por tres.
+		LikeNPC_Princess:¿Quién podría odiar a la {NPCName}? Además, su estructura ósea tiene un valor considerable para la investigación.
+		Princess_LovesNPC: Me encanta la {NPCName}! ¡Siempre deja a todo el mundo como nuevo!
 	}
 }
+
+TBUG: {
+	DisplayName: Traficante de fallos
+	Bestiary: La noche en que cayó Esqueletrón, el mundo se abrió por una grieta que nunca cerró del todo y la escupió. El aterrizaje fue duro; lo primero que preguntó al levantarse fue a cuánto estaba el cambio de monedas de oro. Ahora lleva una tiendita y vende chips de procedencia… mejor no preguntar.
+	TalkHint: Hablar con TBUG
+	Name0: TBUG
+
+	TownNPCMood: {
+		Content: Ejecución normal. Sin errores, sin avisos. Hasta un poco aburrido
+		NoHome: Sin casa. En sentido estricto, mis coordenadas actuales son un valor ilegal
+		FarFromHome: Demasiado lejos de casa. La señal se atenúa mucho
+		LoveSpace: Con tanto espacio caben tres pantallas. Me gusta
+		DislikeCrowded: Con tanta gente, cualquiera puede mirarme la pantalla. Molesto
+		HateCrowded: Tan apretados, tarde o temprano alguien pisará mis cables
+		LoveBiome: "{BiomeName} es fresco y estable. Huele a sala de servidores"
+		LikeBiome: "{BiomeName} está bien. El frío le sienta bien al hardware"
+		DislikeBiome: La alarma de humedad de {BiomeName} no para
+		HateBiome: ¿{BiomeName}? Mis equipos se mojaron con agua de mar una vez. Todavía guardo esa factura de reparación
+		LoveNPC: "{NPCName} habla de llaves y circuitos con soltura. Con ella no hace falta bajar la frecuencia"
+		LikeNPC: "{NPCName} no pregunta de dónde vengo, solo si compro piezas de segunda. Aprobado"
+		DislikeNPC: "{NPCName} no deja de querer subirme a la mesa y desmontarme. No estoy rota. No me arregles"
+		HateNPC: El libro de cuentas de {NPCName} es más venenoso que cualquier virus. Que se mantenga lejos de mi tienda
+		LikeNPC_Princess: "{NPCName}… está bien. Nadie consigue odiarla, y eso ya es sospechoso"
+		Princess_LovesNPC: ¡{NPCName} es mi favorita! ¡Sabe tantas cosas que nadie más conoce!
+	}
+}
+
+ScrapCommander: {
+	DisplayName: Comandante de la chatarra
+	Bestiary: Tras la caída de los tiranos mecánicos, nadie se llevó los escombros. Una noche, una calavera oxidada se reactivó por sí sola entre la chatarra y se cargó sobre los hombros las cuatro herramientas que aún funcionaban. No repara nada, solo hace inventario: cada trozo de chatarra que hay en el suelo ya figura en su lista.
+}
+
+ScrapLegionProbe.DisplayName: Servidor de chatarra
+
+DeepGaolWraith: {
+	DisplayName: Espectro de la prisión profunda
+	Bestiary: El carcelero murió en su puesto, con la llave oxidada y atascada en la cerradura. El rencor que permanecía allí se transformó en una figura a lo largo de los grilletes, y ahora recorre las celdas arrastrando un par de grilletes vacíos. No comprueba ninguna lista, solo las muñecas. Una muñeca sin grilletes equivale a una fuga.
+}
+
+Undrowned: {
+	DisplayName: El No-ahogado
+	Bestiary: En la galería de inundación, en el fondo de la prisión acuática, retienen a un condenado que se niega a ahogarse. El libro de registro de ejecuciones ocupa toda una pared: anclar, inundar, vaciar, examinar. Cada entrada termina con la misma frase: "El preso sigue respirando". Al final, los guardias dejaron de venir. Solo el agua recuerda su paciencia.
+	GateSealed: Las compuertas de la galería de desagüe se han cerrado herméticamente.
+}
+
+UndrownedThrone.DisplayName: Preso anclado
+
+FoundryOverseer: {
+	DisplayName: Supervisor de la fundición
+	Bestiary: Tantos años como lleva parada la fundición, otros tantos ha corrido turnos vacíos la maquinaria de inspección del riel del techo. No fabrica: solo inspecciona. Estampado, colada, batería de dardos. Lo que pasa, sigue. Lo que falla, vuelve al horno. La pieza que hoy entra en la sala de inspección eres tú.
+	GateSealed: Las compuertas dentadas de la sala de inspección se han cerrado.
+}
+
+OverseerDormantRig.DisplayName: Brazo de grúa polvoriento
+GaolDormantSkull.DisplayName: Cráneo reseco de la prisión honda
+
+LanternWarden: {
+	DisplayName: Centinela de la linterna
+	Bestiary: El último encendedor de lámparas de la prisión. Ya no recuerda qué patrulla; solo la regla de la linterna: lo que toca la luz es un fugitivo, y a un fugitivo hay que anunciarlo con la campana.
+}
+
+LampeaterWisp: {
+	DisplayName: Alma devoralámparas
+	Bestiary: Las lámparas del archivo no se apagan solas. Este hilo de humo recuerda cada llama que se ha tragado. Cuanto más se harta, más brillante arde, hasta convertirse en la lámpara de la lista de buscados.
+}
+
+DrownedTurnkey: {
+	DisplayName: Carcelero de las olas
+	Bestiary: La noche en que abrieron las compuertas de la prisión de agua, él no volvió a subir. Ahora sigue pasando lista bajo la superficie. A quien se le acerca el rizo, le toca volver a la celda.
+}
+
+BoneStitcher: {
+	DisplayName: Costurero de huesos
+	Bestiary: En el osario, a los huesos no se les permite yacer. Clasifica, compara, cose: vuelve a poner en su puesto a los presos desarmados. Las puntadas salen torcidas; el oficio, no.
+}
+
+RestitchedBones.DisplayName: Huesos recosidos
+CybTrainingDummy.DisplayName: Diana de entrenamiento holográfica
+OldNetPatrolICE.DisplayName: ICE de patrulla
+OldNetBlackICE.DisplayName: Cazador Black ICE
+OldNetTurretICE.DisplayName: ICE de torreta centinela
+OldNetSweepEye.DisplayName: Ojo de barrido
+OldNetLurkerICE.DisplayName: ICE de la sombra ahorcada
+OldNetTaggerICE.DisplayName: Marcador polilla
+OldNetTracerICE.DisplayName: Sabueso rastreador
+OldNetWardenICE.DisplayName: Oficial de recuperación
+KiyumeHound.DisplayName: Perro feroz
+
+LanternGuideYokai: {
+	DisplayName: Anciano de la linterna
+	GripDeathReason: "{0} siguió la linterna equivocada"
+}
+
+LanternGuideHungLamp.DisplayName: Linterna colgante
+ScarecrowWatcherYokai.DisplayName: Guardián del campo
+WellHandYokai.DisplayName: Mano del pozo
+FuneralCortegeYokai.DisplayName: Portador del estandarte
+
+FuneralCortegePorter: {
+	DisplayName: Portador del féretro
+	WraithDeathReason: "{0} se interpuso en el camino del cortejo"
+}
+
+FuneralCortegeCoffin.DisplayName: Ataúd viejo
+FacelessOneYokai.DisplayName: El sin rostro
+
+RidgeWalkerYokai: {
+	DisplayName: Caminante de la cresta de niebla
+	RidgeDeathReason: "{0} se adueñó de una cumbrera que no le correspondía"
+}
+
+ShallowHandsYokai.DisplayName: Mano en el agua
+MinoFisherYokai.DisplayName: Anciano del capote de paja
+KiyumeWhiteHound.DisplayName: Perro blanco que mira a casa
+
+SeaShrimpBoss: {
+	DisplayName: Camarón de cristal abisal
+	Bestiary: El tirano acorazado de la fosa más honda. Su pinza gigante golpea más rápido de lo que el sonido corre por el agua; el filo del puñetazo rasga el mar hasta dejarlo en vacío, y el instante en que la burbuja implosiona brilla como el día. Los pescadores dicen que las columnas de agua que estallan de un mar en calma son solo él, entrenando puños allá abajo.
+	ChecklistSpawnInfo: Usa Cebo de camarón cristalizado en el océano
+}
+
+BssHead: {
+	DisplayName: Serpiente floral del desierto
+	Bestiary: Una pitón colosal que recorre el subsuelo de las dunas. Los cactus echan raíz en su caparazón; las flores rojas se hartan de su sangre y abren con un rojo extremo. Dicen que, cuando se levanta una tormenta de arena, es ella dándose la vuelta abajo.
+	ChecklistSpawnInfo: Tras derrotar al Ojo de Cthulhu, usa un Capullo espinoso en la superficie del desierto
+	BossChecklistIntegration.EntryName: Pitón floral del desierto
+}
+
+BssBody.DisplayName: Serpiente floral del desierto
+BssTail.DisplayName: Serpiente floral del desierto
+
+FssHead: {
+	DisplayName: Serpiente pútrida de arena
+	Bestiary: Una mutación de la Pitón floral del desierto. La sombra se filtró en la arena, las flores rojas se pudrieron en llagas, y el icor sustituyó la sangre de sus venas. Es más larga que antes, y más hambrienta. Los charcos dorados del desierto no son agua de lluvia: son su baba.
+	ChecklistSpawnInfo: Usa un Capullo pútrido en la superficie del desierto
+	BossChecklistIntegration.EntryName: Pitón pútrida de arena
+}
+
+FssBody.DisplayName: Serpiente pútrida de arena
+FssTail.DisplayName: Serpiente pútrida de arena
