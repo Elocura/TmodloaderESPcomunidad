@@ -4816,722 +4816,726 @@ OniMeiRubbingYoen: {
 		El mismo enemigo sufre quemaduras cada 0,75s equivalentes al 16% del daño de un golpe con la espada
 		Solo hay un campo en todo momento; otra ejecución lo desplaza a un nuevo lugar
 		'''
-	Burden: Límite de vigor de vigor -5%. Mientras el campo de ascuas aún quema, el gasto de vigor del empuje +10%
+	Burden: Límite de vigor -5%. Mientras el campo de ascuas aún quema, el gasto de vigor del empuje +10%
 }
 
 ScrapBeacon: {
-	DisplayName: Scrap Beacon
+	DisplayName: Baliza de chatarra
 	Tooltip:
 		'''
-		Summons the Scrap Commander at night
-		"Scrap always answers to its foreman"
+		Invoca al comandante de la chatarra por la noche
+        "La chatarra siempre obedece a su capataz"
 		'''
 }
 
 GaolCellKey: {
-	DisplayName: Deep Gaol Cell Key
+	DisplayName: Llave de la celda de la prisión
 	Tooltip:
 		'''
-		Builds the Deep Gaol cell on the spot and seats a dormant skull on the altar (test item)
-		Approach the altar to wake it; during the fight both doorways are sealed by pale-pink energy bars
-		Defeat the Deep Gaol Wraith to snuff the cell for good; a wraith that escapes goes dormant again after a few seconds
-		"One turn of the key, and the walls remember their shape"
+		Construye la celda de la Prisión Profunda en ese mismo lugar y coloca una calavera inactiva en el altar (objeto de prueba)
+		Acércate al altar para despertarla; durante el combate, ambas entradas quedan selladas por barras de energía de color rosa pálido
+		Derrota al espectro de la prisión profunda para acabar con la celda de una vez por todas; 
+		si un espectro logra escapar, volverá a quedar inactivo al cabo de unos segundos
+		"Una vuelta de llave, y las paredes recuperan su forma".
 		'''
-	BuiltHint: The cell has been raised. The dormant skull on the altar is waiting for you to come closer.
+	BuiltHint: La celda se ha activado. El cráneo inerte que yace sobre el altar espera a que te acerques
 }
 
 RustedGaolIrons: {
-	DisplayName: Rusted Gaol Irons
+	DisplayName: Grilletes oxidados
 	Tooltip:
 		'''
-		3 defense and immunity to knockback
-		Briefly boosts movement speed after taking damage
-		"The cell number inside the cuff has been worn smooth"
+		+3 de defensa y adquieres inmunidad al retroceso
+		Aumenta brevemente la velocidad de movimiento tras recibir daño
+		"El número de celda que hay dentro del brazalete se ha desgastado hasta quedar liso"
 		'''
 }
 
 UndrownedShackleCharm: {
-	DisplayName: Sunken Shackle Band
+	DisplayName: Grupo de grilletes oxidados
 	Tooltip:
 		'''
-		Water no longer slows you down; grants the ability to swim
-		Greatly extends underwater breathing time
-		"The anchor sank. The man kept breathing"
+		El agua ya no te frena; te permite nadar
+		Aumenta considerablemente el tiempo de respiración bajo el agua
+		"El ancla se hundió. El hombre siguió respirando"
 		'''
 }
 
 GaolAnchorWeapon: {
-	DisplayName: Gaol Anchor
+	DisplayName: Ancla de prisión
 	Tooltip:
 		'''
-		Hurls a great anchor; while pinned into a wall, its chain becomes a damaging line
-		"Execution tools do not retire"
+		Lanza un gran ancla; mientras permanece clavada en un lugar, su cadena se convierte en un cable que inflige daño
+		"Las herramientas de ejecución no se jubilan"
 		'''
 }
 
 SumpPearl: {
-	DisplayName: Sump Pearl
+	DisplayName: Perla de sumidero
 	Tooltip:
 		'''
-		A matte pearl curdled from gaol water in a convict's bones
-		The undead market accepts these
+		Una perla mate se cuajó a partir del agua de la cárcel en los huesos de un preso
+		El mercado de los no muertos los acepta
 		'''
 }
 
 FloodGalleryKey: {
-	DisplayName: Flood Gallery Key
+	DisplayName: Llave de la galería inundada
 	Tooltip:
 		'''
-		Builds the flood gallery on the spot and seats the anchored convict (test item)
-		"The depth scale on the wall is his heartbeat chart"
+		Construye la galería de inundaciones en el acto y sienta al preso anclado (objeto de prueba)
+		"La escala de profundidad de la pared es el gráfico de sus latidos cardíacos"
 		'''
-	Placed: The Flood Gallery has been raised on the spot. To wake him, stand on the valve dais to the left and hold your ground.
+	Placed: La Galería hiluvio se ha levantado en ese mismo lugar. Para despertarlo, súbete a la plataforma de la válvula que hay a la izquierda y mantente firme
 }
 
 ProofSealCharm: {
-	DisplayName: Proofing Seal
+	DisplayName: Sello de verificación
 	Tooltip:
 		'''
-		Trap projectiles deal 25% less damage and have a 15% chance to misfire
-		"Stamped goods pass every mechanism unharassed"
+		Los proyectiles trampa infligen un 25% menos de daño y tienen un 15% de probabilidad de fallar
+		"Las mercancías selladas pasan por todos los mecanismos sin ser interceptadas"
 		'''
-	Misfire: Misfire
+	Misfire: Disparo fallado
 }
 
 OverseerLogger: {
-	DisplayName: Overseer's Logbook
+	DisplayName: Cuaderno de bitácora del supervisor
 	Tooltip:
 		'''
-		Grants danger sense; nearby traps and mechanisms are laid bare
-		"It keeps the duty roster of every dart port"
+		Otorga Sentido del peligro; las trampas y los mecanismos cercanos quedan al descubierto
+		"Guarda el turno de servicio de cada puerto de dardos"
 		'''
 }
 
 ProofingHallKey: {
-	DisplayName: Proofing Hall Key
+	DisplayName: Llave de la sala de verificación
 	Tooltip:
 		'''
-		Builds the proofing hall on the spot and hangs the dust-caked rig (test item)
-		"The inspection bell still rings"
+		Construye la sala de pruebas allí mismo y cuelga el equipo cubierto de polvo (objeto de prueba)
+		"La campana de inspección sigue sonando"
 		'''
-	Placed: The Proofing Hall has been raised on the spot. To start the inspection, stand on the check-in dais to the left and hold still until the shift bell finishes counting.
+	Placed: La sala de verificación se ha instalado en este mismo lugar. Para comenzar la inspección, colócate en la tarima de registro situada a la izquierda y quédate quieto hasta que la campana termine de contar
 }
 
 WheezingWyrm: {
-	DisplayName: Wheezing Wyrm
+	DisplayName: Dragón jadeante
 	Tooltip:
 		'''
-		Hold to breathe a stream of dragonfire
-		The old head has seen better days, and needs a few smoky coughs before it catches
-		Sustained breathing stokes the throat ever hotter, from dull red all the way to searing blue
-		Brighter flame burns hotter; blue flame deals the highest damage and ignites hellfire
-		"Not quite dead, just an old smoker clearing its throat"
+		Mantén pulsado para lanzar una ráfaga de fuego de dragón
+		La vieja cabeza ha vivido mejores tiempos y necesita toser un par de veces antes de que le salga el humo
+		La respiración prolongada calienta cada vez más la garganta, pasando de un rojo apagado a un azul abrasador
+		Cuanto más brillante es la llama, más calor genera; la llama azul inflige el mayor daño y enciende el fuego del infierno
+		"No estoy del todo muerto, solo soy un viejo fumador que se aclara la garganta"
 		'''
 }
 
 Abyssrend: {
-	DisplayName: Abyssrend
+	DisplayName: Desgarro abisal
 	Tooltip:
 		'''
-		Left-click alternates tip thrusts and side cuts; each strike tears off a homing ocean undercurrent
-		Right-click stirs an abyssal undertow that drags foes ahead of you onto the pincer, then slams them into the nearby ground, detonating a cavitation burst
-		Foes caught by the slam or the burst sink into abyssal pressure, severely slowing them
-		"It remembers the sound the deep makes when it breaks things"
+		El clic izquierdo alterna embestidas con la punta y cortes laterales; cada golpe desata una corriente submarina que se dirige hacia su objetivo
+		El clic derecho agita una resaca abisal que arrastra a los enemigos que tienes delante hacia la pinza y, a continuación, 
+		los estrella contra el suelo cercano, provocando una explosión de cavitación. Los enemigos atrapados por el golpe o la explosión 
+		se hunden bajo la presión abisal, lo que los ralentiza considerablemente.
+		"Recuerda el sonido que hace el abismo cuando rompe cosas".
 		'''
 }
 
 SneezingWyrm: {
-	DisplayName: Sneezing Wyrm
+	DisplayName: Dragón estornudador
 	Tooltip:
 		'''
-		Rapidly fires searing wyrmstrike rounds
-		Sustained fire stokes the barrel hotter, pushing the tracers from orange toward blue-white
-		With every gathered breath, the wyrm huffs a weaving, seeking bolt of dragonbreath down the line of fire
-		Smoke tickles the old snout into intermittent sneezes that vent thick fumes to the side
-		"Don't stand on its sneezing side"
+		Dispara rápidamente proyectiles abrasadores de golpe de dragón
+		El fuego sostenido calienta aún más el cañón, haciendo que los trazadores pasen de un color naranja a uno azul-blanco
+		Con cada respiración que toma, el dragón exhala un rayo sinuoso y certero de aliento de dragón a lo largo de la línea de fuego
+		El humo le hace cosquillas en el viejo hocico, provocándole estornudos intermitentes que expulsan densos vapores hacia un lado
+        "No te quedes en el lado por donde estornuda"
 		'''
 }
 
 TiroFinale: {
-	DisplayName: Tiro Finale
+	DisplayName: Tiro final
 	Tooltip:
 		'''
-		Benefits from both ranged and magic damage bonuses
-		Firing consumes ammo and mana, weaving a golden phantom musket into the formation orbiting you with every shot
-		While you hold fire, the formation takes turns aiming at your cursor, each musket ringing once before dissolving into light
-		Right click to condense at least four phantom muskets into a great cannon and play the finale
-		"Mind your manners, and make the curtain call magnificent"
+		Se beneficia de las bonificaciones tanto de daño a distancia como de daño mágico
+		Disparar consume munición y maná, y con cada disparo se teje un mosquete fantasma dorado en formación que orbita a tu alrededor
+		Mientras no disparas, la formación apunta por turnos hacia tu cursor, y cada mosquete resuena una vez antes de disolverse en luz
+		Haz clic derecho para condensar al menos cuatro mosquetes fantasmas en un gran cañón y poner en marcha el final
+		"Cuida tus modales y haz que la salida a escena sea magnífica"
 		'''
 }
 
 Everdeep: {
-	DisplayName: Everdeep
+	DisplayName: Profundidad insondable
 	Tooltip:
 		'''
-		Fires a ring of pressurized abyssal water
-		The ring pierces through foes, coasts a short way, then curls back to strike again
-		Hits build abyssal resonance, counted by the droplets orbiting the tome
-		At full resonance, a giant maelstrom erupts from the ground beneath the victim
-		"The deep does not part for you; it closes behind you"
+		Lanza un anillo de agua abisal a presión.
+		El anillo atraviesa a los enemigos, recorre una corta distancia y luego vuelve sobre sus pasos para golpear de nuevo
+		Los impactos generan resonancia abisal, que se mide mediante las gotas que orbitan alrededor del tomo
+		Cuando la resonancia alcanza su máximo, una gigantesca vorágine brota del suelo bajo los pies de la víctima
+		"Las profundidades no se abren ante ti; se cierran a tus espaldas"
 		'''
 }
 
 Deepclaw: {
-	DisplayName: Deepclaw
+	DisplayName: Garra profunda
 	Tooltip:
 		'''
-		Summons an abyssal lobster to fight for you
-		The lobster lunges at enemies with snapping pincer strikes
-		Every third pincer hit, it rears back and detonates a cavitation snap
-		The snap deals area damage and drags enemies toward its center
-		"What lives below never loosens its grip"
+		Invoca una langosta abisal para que luche a tu lado
+		La langosta se abalanza sobre los enemigos con golpes secos de sus pinzas
+		Cada tres golpes de pinza, se echa hacia atrás y detona un chasquido por cavitación
+		El chasquido inflige daño de área y arrastra a los enemigos hacia su centro
+		"Lo que vive en las profundidades nunca afloja su agarre"
 		'''
 }
 
 Undertow: {
-	DisplayName: Undertow
+	DisplayName: Resaca
 	Tooltip:
 		'''
-		Turns any arrow into an abyssal spine
-		When a spine strikes an enemy, its wake collapses into a small cavitation bubble that bursts again
-		Hold right click to charge; release at full draw to loose a depth-pressure spine at 3x damage
-		The heavy spine pierces everything and drags enemies toward its path
-		When it finally stops, it detonates a cavitation implosion
-		"The sea does not push you away; it takes you in"
+		Convierte cualquier flecha en una espina abisal
+		Cuando una espina impacta contra un enemigo, su estela se colapsa formando una pequeña burbuja de cavitación que vuelve a estallar
+		Mantén pulsado clic derecho para cargar; suéltalo cuando la flecha esté completamente tensada para lanzar una espina de presión abisal que inflige el triple de daño
+		La espina pesada atraviesa todo y arrastra a los enemigos hacia su trayectoria
+		Cuando finalmente se detiene, detona una implosión por cavitación
+		"El mar no te empuja lejos; te acoge".
 		'''
 }
 
 TideReaper: {
-	DisplayName: Tide Reaper
+	DisplayName: Segador de la marea
 	Tooltip:
 		'''
-		Hurls a spinning abyssal scythe that boomerangs back to you
-		In flight it flings tide crescents that hunt nearby enemies
-		Right click to throw a vortex anchor: the scythe pins ahead and spins into a maelstrom
-		The maelstrom drags enemies inward and flings crescents faster before returning
-		"When the tide goes out, only bones are left on the shore"
+		Lanza una guadaña abisal giratoria que vuelve hacia ti como un bumerán
+		Mientras vuela, lanza medias lunas de marea que persiguen a los enemigos cercanos
+		Haz clic derecho para lanzar un ancla de vórtice: la guadaña se clava delante de ti y gira formando un remolino
+		El remolino arrastra a los enemigos hacia dentro y lanza las medias lunas más rápido antes de regresar
+		"Cuando baja la marea, solo quedan huesos en la orilla"
 		'''
 }
 
 SeaShrimpShell: {
-	DisplayName: Crystal Shrimp Shell
+	DisplayName: Caparzón de camarón cristalino
 	Tooltip:
 		'''
-		A hardened carapace shed by the Abyssal Crystal Shrimp
-		Essential crafting material for the abyssal weapon series
-		"Hold it to your ear, and the trench still murmurs"
+		Un caparazón endurecido que deja atrás el camarón cristalino abisal
+		Es un material esencial para la serie de armas abisales
+		"Acércalo a la oreja y aún se oye el murmullo de la fosa"
 		'''
 }
 
 DeepcrystalWarhelm: {
-	DisplayName: Deepcrystal Warhelm
+	DisplayName: Yelmo bélico de cristal abisal
 	Tooltip:
 		'''
-		18% increased melee damage and 10% melee critical strike chance
-		18% increased melee speed
-		"The shell's weight grew into your bones"
+		Aumenta un 18% al daño cuerpo a cuerpo un 10% la probabilidad de golpe crítico cuerpo a cuerpo
+        Aumenta un 18% la velocidad de ataque cuerpo a cuerpo
+        "El peso del caparazón se te clavó en los huesos"
 		'''
 	SetBonus:
 		'''
-		18% increased melee damage, but damage taken is deepened by 10%
-		Striking foes condenses orbiting bubbles; at five they all collapse, detonating a heavy cavitation burst on the target
-		Getting hit shatters your condensed bubbles and answers with a cavitation counter-burst (short cooldown)
-		While wet, bubbles condense faster and detonate harder
+		Aumenta el daño cuerpo a cuerpo un 18%, pero el daño recibido se incrementa un 10%
+		Al golpear a los enemigos, se condensan las burbujas que orbitan a tu alrededor; cuando llegan a cinco, todas se colapsan 
+		y detonan una potente ráfaga de cavitación sobre el objetivo
+		Al recibir un golpe, tus burbujas condensadas se rompen y respondes con una contraráfaga de cavitación (enfriamiento corto)
+		Mientras estés mojado, las burbujas se condensan más rápido y detonan con mayor fuerza.
 		'''
 }
 
 DeepcrystalVisor: {
-	DisplayName: Deepcrystal Visor
+	DisplayName: Visera de cristal abisal
 	Tooltip:
 		'''
-		18% increased ranged damage and 10% ranged critical strike chance
-		30% chance to not consume ammo
-		"Through the crystal lens, the trench shines like day"
+		Aumenta un 18% el daño a distancia y un 10%  la probabilidad de golpe crítico a distancia
+		Hay un 30% de probabilidad de no consumir munición
+		"A través de la lente de cristal, la trinchera brilla como si fuera de día"
 		'''
 	SetBonus:
 		'''
-		18% increased ranged damage, but damage taken is deepened by 10%
-		Striking foes condenses orbiting bubbles; at five they all collapse into a piercing water jet toward the target
-		Getting hit shatters your condensed bubbles and answers with a cavitation counter-burst (short cooldown)
-		While wet, bubbles condense faster and detonate harder
+		Aumenta el daño a distancia en un 18%, pero el daño recibido se incrementa en un 10%
+		Al golpear a los enemigos, se condensan burbujas que giran en órbita; cuando llegan a cinco, todas se colapsan formando un chorro de agua perforante dirigido hacia el objetivo
+		Al recibir un impacto, tus burbujas condensadas se rompen y responden con una contragolpe de cavitación (enfriamiento corto)
+		Mientras estés mojado, las burbujas se condensan más rápido y detonan con mayor fuerza
 		'''
 }
 
 DeepcrystalCrown: {
-	DisplayName: Deepcrystal Crown
+	DisplayName: Corona de cristal abisal
 	Tooltip:
 		'''
-		18% increased magic damage and 10% magic critical strike chance
-		Reduces mana cost by 18%
-		"A murmur of the sea is sealed in the crystals"
+		Aumenta el daño mágico en un 18% y la probabilidad de golpe crítico mágico en un 10%
+		Reduce el coste de maná en un 18%
+		"El murmullo del mar queda sellado en los cristales"
 		'''
 	SetBonus:
 		'''
-		18% increased magic damage, but damage taken is deepened by 10%
-		Striking foes condenses orbiting bubbles; at five they all collapse, launching three guided water bolts at the target
-		Getting hit shatters your condensed bubbles and answers with a cavitation counter-burst (short cooldown)
-		While wet, bubbles condense faster and detonate harder
+		Aumenta el daño mágico en un 18%, pero el daño recibido se incrementa en un 10%
+		Al golpear a los enemigos, se condensan burbujas que orbitan a tu alrededor; cuando llegan a cinco, todas se colapsan y lanzan tres rayos de agua guiados contra el objetivo
+		Si recibes un golpe, tus burbujas condensadas se rompen y respondes con una contrataque de cavitación (enfriamiento corto)
+		Mientras estés mojado, las burbujas se condensan más rápido y detonan con más fuerza
 		'''
 }
 
 DeepcrystalFeelers: {
-	DisplayName: Deepcrystal Feelers
+	DisplayName: Sensores de cristal abisal
 	Tooltip:
 		'''
-		18% increased summon damage
-		Increases max minions by 2
-		"The feelers know where prey hides before you do"
+		Aumento un 18% al daño de las invocaciones
+		Aumenta el número máximo de súbditos en 2
+		"Las antenas saben dónde se esconde la presa antes que tú"
 		'''
 	SetBonus:
 		'''
-		18% increased summon damage, but damage taken is deepened by 10%
-		Striking foes condenses orbiting bubbles; at five they all collapse, releasing four seeking bubbles to hunt the target
-		Getting hit shatters your condensed bubbles and answers with a cavitation counter-burst (short cooldown)
-		While wet, bubbles condense faster and detonate harder
+		Aumenta el daño de las invocaciones un 18%, pero el daño recibido se incrementa un 10%
+		Al golpear a los enemigos, se condensan las burbujas que orbitan; cuando llegan a cinco, todas se colapsan, liberando cuatro burbujas guiadas que persiguen al objetivo
+		Al recibir un impacto, tus burbujas condensadas se rompen y responden con una contrataque de cavitación (enfriamiento corto)
+		Mientras estés mojado, las burbujas se condensan más rápido y detonan con mayor fuerza
 		'''
 }
 
 DeepcrystalBreastplate: {
-	DisplayName: Deepcrystal Breastplate
+	DisplayName: Coraza de cristal abisal
 	Tooltip:
 		'''
-		10% increased damage and 6% critical strike chance
-		"Shell traded for blade, blood traded for tide"
+		Aumenta dun 10%  el daño y un 6% la probabilidad de golpe crítico
+		"La concha se cambió por la espada, la sangre se cambió por la marea"
 		'''
 }
 
 DeepcrystalGreaves: {
-	DisplayName: Deepcrystal Greaves
+	DisplayName: Grebas de cristal abisal
 	Tooltip:
 		'''
-		15% increased movement speed, further increased while wet
-		Move freely through water
-		"Tread the waves like solid ground"
+		Aumenta un 15% la velocidad de movimiento, que se incrementa aún más cuando estás mojado
+        Te mueves con total libertad por el agua
+        "Camina sobre las olas como si fueran tierra firme"
 		'''
 }
 
 SeaShrimpRelic: {
-	DisplayName: Abyssal Crystal Shrimp Relic
+	DisplayName: Reliquia del Camarón de cristal abisal
 	Tooltip: ""
 }
 
 FallenKingsCrown: {
-	DisplayName: Fallen King's Crown
+	DisplayName: Corona del rey caído
 	Tooltip:
 		'''
-		Immunity to fall damage
-		Hold DOWN in midair to become a crown dive and plummet
-		Falling more than 25 tiles naturally also triggers the dive
-		Enemies struck mid-dive are crushed by the crown
-		Landing unleashes a gel shockwave; deeper falls hit harder, maxing out at 40 tiles
-		The shockwave fires at most once every 1.5 seconds; the crown dims while it recharges
-		The impact leaves a gel field that slows enemies inside and drains their health
-		Grappling, mounting or entering liquid cancels the dive
-		"The day the throne fell, weight itself became the verdict"
+		Otorga inmunidad al daño por caída
+		Mantén pulsado ABAJO en el aire para realizar una zambullida con la corona y caer en picado
+		Una caída de más de 25 bloques también activa automáticamente la zambullida
+		Los enemigos que reciban el impacto durante la zambullida quedan aplastados por la corona
+		Al aterrizar se desata una onda de choque de gel; cuanto más profunda sea la caída, mayor será el impacto, con un máximo de 40 bloques
+		La onda de choque se dispara como máximo una vez cada 1,5 segundos; la corona se atenúa mientras se recarga
+		El impacto deja un campo de gel que ralentiza a los enemigos que se encuentran en su interior y les resta salud
+		Agarrarse, montarse en algo o entrar en un líquido cancela la zambullida
+		"El día en que cayó el trono, el propio peso se convirtió en el veredicto"
 		'''
 }
 
 BloodfogIris: {
-	DisplayName: Bloodfog Iris
+	DisplayName: Iris de niebla sangrienta
 	Tooltip:
 		'''
-		8% increased critical strike chance
-		Double tap LEFT, RIGHT or UP to surge that way as blood fog, briefly invulnerable at the start
-		Surges have a 1.25 second cooldown; the pupil glow dims while it recharges
-		A surge ends in a 1.5 second ambush state: you sink into the fog and draw less attention
-		Your next strike during an ambush is a guaranteed critical hit
-		Lethal damage dissolves you into blood fog; you reform toward your cursor, briefly invulnerable and already in ambush
-		The fog rebirth can occur once every 60 seconds; for 3 seconds after reforming you take 15% more damage
-		"The fog has not settled, and the pupil has not closed"
+		Aumenta dun 8%  la probabilidad de golpe crítico
+		Pulsa dos veces IZQUIERDA, DERECHA o ARRIBA para lanzarte en esa dirección en forma de niebla de sangre; serás invulnerable durante un breve instante al inicio
+		Las embestidas tienen un tiempo de recarga de 1,25 segundos; el resplandor de la pupila se atenúa mientras se recarga
+		Una embestida termina en un estado de emboscada de 1,5 segundos: te sumerges en la niebla y llamas menos la atención
+		Tu siguiente golpe durante una emboscada es un golpe crítico garantizado
+		El daño letal te disuelve en una niebla de sangre; te reformas hacia tu cursor, siendo invulnerable durante un breve instante y ya en estado de emboscada
+		El renacimiento en la niebla puede producirse una vez cada 60 segundos; durante 3 segundos tras la reformación, recibes un 15% más de daño
+		"La niebla no se ha disipado y la pupila no se ha cerrado"
 		'''
 }
 
 WorldEatersMaw: {
-	DisplayName: World-Eater's Maw
+	DisplayName: Fauces del Devoramundos
 	Tooltip:
 		'''
-		All your attacks add a stack of Corrosion, up to 10 stacks; lasts 6 seconds and refreshes on every hit
-		At full stacks, Corrosion strips 15 defense and sears for 20 acid damage per second
-		When a corroded enemy dies, a devouring wormling bursts from its corpse to fight for you, at most one every 2 seconds
-		Wormlings burrow and ambush nearby foes, biting for 2 stacks and splashing Corrosion around each breach
-		Up to 3 wormlings at once, each living for 7 seconds
-		"Every edge of the world is a tooth mark it left behind"
+		Todos tus ataques añaden una acumulación de Corrosión, hasta un máximo de 10; dura 6 segundos y se renueva con cada impacto
+		Cuando se alcanza el máximo de acumulaciones, Corrosión resta 15 de defensa y inflige 20 de daño ácido por segundo
+		Cuando muere un enemigo corroído, un gusano devorador surge de su cadáver para luchar a tu lado, con un máximo de uno cada 2 segundos
+		Los gusanos se entierran y tienden emboscadas a los enemigos cercanos, mordiendo para aplicar 2 acumulaciones y salpicando Corrosión alrededor de cada brecha
+		Puede haber hasta 3 gusanos a la vez, cada uno con una duración de 7 segundos
+        "Cada rincón del mundo es una marca de diente que dejó atrás"
 		'''
 }
 
 MirrorheartParadox: {
-	DisplayName: Mirrorheart Paradox
+	DisplayName: Paradoja del corazón espejo
 	Tooltip:
 		'''
-		A mirrored heart drifts at your side
-		While the mirrorheart is solid, the moment you take damage you swap places with it, dodging the hit with brief invulnerability
-		Heartbeat pulses burst at both swap positions, dealing 90 base damage and confusing enemies for 2.5 seconds
-		For 5 seconds after a swap, projectiles you fire are echoed by the mirrorheart at 50% damage
-		Summons, held weapons and explosives are not echoed
-		Paradox backlash: the next hit you take within 3 seconds of a swap deals 25% more damage
-		Swaps occur at most once every 25 seconds; the mirrorheart stays translucent while recharging, with an audible cue when it turns solid again
-		"In the mirror, it breaks a heartbeat before you do"
+		Un corazón especular flota a tu lado
+		Mientras el corazón especular sea sólido, en el momento en que recibas daño intercambiarás tu posición con él, esquivando el golpe con una breve invulnerabilidad
+		Se producen latidos en ambas posiciones tras el intercambio, que infligen 90 de daño base y confunden a los enemigos durante 2,5 segundos
+		Durante 5 segundos tras un intercambio, los proyectiles que lances serán repetidos por el corazón especular con un 50% del daño
+		Las invocaciones, las armas empuñadas y los explosivos no se repiten.
+		Repercusión paradójica: el siguiente golpe que recibas en los 3 segundos siguientes a un intercambio inflige un 25% más de daño
+		Los intercambios se producen como máximo una vez cada 25 segundos; el corazón especular permanece translúcido mientras se recarga, con una señal sonora cuando vuelve a volverse sólido
+        "En el espejo, se rompe un latido antes que tú"
 		'''
 }
 
 SwarmVortexBeacon: {
-	DisplayName: Swarm Vortex Beacon
+	DisplayName: Baliza vórtice del enjambre
 	Tooltip:
 		'''
-		Hitting enemies stacks Bee Marks; at 8 stacks the target is caught in a swarm vortex
-		The vortex grinds its victim for 5 seconds, stinging 4 times per second for 18 base damage each
-		Trapped enemies are heavily slowed; bosses are only slightly slowed
-		Landing more hits on the victim extends the grip, up to 8 seconds
-		Only one vortex is kept at a time; when a new prey's marks fill up, the swarm moves over to it
-		When the victim dies, the vortex also transfers to a nearby enemy
-		Vortex stings deal 25% more damage while you carry a Hive Pack
-		Stand still and the swarm returns to you, crystallizing into a wax ward over your skin
-		The wax ward absorbs up to 30 damage and lingers for 5 seconds once you start moving
-		A shattered ward takes 3 seconds to crystallize again
-		"The Queen's beacon does not summon the swarm - it marks the next prey"
+		Al golpear a los enemigos se acumulan Marcas de abeja; cuando se alcanzan las 8 acumulaciones, el objetivo queda atrapado en un vórtice del enjambre
+		El vórtice machaca a su víctima durante 5 segundos, picándola 4 veces por segundo con un daño base de 18 cada vez
+		Los enemigos atrapados sufren una ralentización considerable; los jefes solo se ralentizan ligeramente
+		Asestar más golpes a la víctima prolonga el efecto, hasta un máximo de 8 segundos
+		Solo se mantiene un vórtice a la vez; cuando las marcas de una nueva presa se llenan, el enjambre se desplaza hacia ella
+		Cuando la víctima muere, el vórtice también se transfiere a un enemigo cercano
+		Las picaduras del vórtice infligen un 25% más de daño mientras llevas una mochila de la colmena
+		Si te quedas quieto, el enjambre vuelve a ti y se cristaliza en una protección de cera sobre tu piel
+		La protección de cera absorbe hasta 30 de daño y perdura durante 5 segundos una vez que empiezas a moverte
+		Una protección destrozada tarda 3 segundos en cristalizarse de nuevo
+		"La baliza de la Reina no invoca al enjambre, sino que marca a la próxima presa"
 		'''
 }
 
 SoulbindingArm: {
-	DisplayName: Soulbinding Arm
+	DisplayName: Brazo de vínculo espiritual
 	Tooltip:
 		'''
-		Projects a curse domain around you; enemies inside take 8% increased damage from you
-		Killing an enemy inside the domain harvests a soul, storing up to 8
-		Souls orbit you; each one blocks an enemy projectile in your place, then expires
-		Blocked projectiles turn into curseflame orbs hurled back at nearby enemies, dealing 60 base damage
-		After each block, the soul ring takes 1 second to reload
-		Once the ring is full it gathers briefly, then a spectral hand lunges at the strongest enemy nearby
-		The hand deals 300 base damage ignoring defense, scaling with your damage bonuses
-		Seized enemies take 20% increased damage from all sources for 5 seconds; regular enemies are also pinned for 1 second
-		"The severed arm still harvests souls; its five fingers have never let go"
+		Proyecta un ámbito de maldición a tu alrededor; los enemigos que se encuentren dentro reciben un 8 % más de daño
+		Al matar a un enemigo dentro del ámbito, se recoge un alma, pudiendo almacenar hasta 8
+		Las almas orbitan a tu alrededor; cada una bloquea un proyectil enemigo en tu lugar y, a continuación, desaparece
+		Los proyectiles bloqueados se convierten en orbes de llama maldita que se lanzan contra los enemigos cercanos, infligiendo 60 de daño base
+		Tras cada bloqueo, el anillo de almas tarda 1 segundo en recargarse
+		Una vez que el anillo está lleno, se concentra brevemente y, a continuación, una mano espectral se abalanza sobre el enemigo más fuerte cercano.
+		La mano inflige 300 de daño base ignorando la defensa, y se escala según tus bonificaciones de daño
+		Los enemigos capturados reciben un 20% más de daño de todas las fuentes durante 5 segundos; los enemigos normales también quedan inmovilizados durante 1 segundo
+		"El brazo cortado sigue cosechando almas; sus cinco dedos nunca las han soltado"
 		'''
 }
 
 WhiteoutStormCore: {
-	DisplayName: Whiteout Storm Core
+	DisplayName: Núcleo de tormenta de nieve
 	Tooltip:
 		'''
-		5% damage reduction; immune to Chilled, Frozen, Frostburn and Frostbite
-		Taking damage automatically detonates a whiteout storm; lasts 6 seconds, 20 second cooldown
-		The storm deals 120 base damage to nearby enemies, confusing them for 3 seconds and whiteblinding them for 6
-		Whiteblinded enemies are heavily slowed and take 10 frostbite damage per second
-		During the storm you gain an extra 30% damage reduction and knockback immunity, and the snow veil never blocks your sight
-		Boss-class enemies cannot be confused and take a greatly reduced slow
-		While running on the ground, heaves a row of ice spikes from the earth ahead every second
-		Each spike deals 45 base damage and briefly chills enemies
-		"Within the whiteout, the blizzard parts only for you"
+		Reduce el daño en un 5%; Otorga inmunidad a Frío, Congelado, Fuego de escarcha y Congelación
+		Al recibir daño, se desencadena automáticamente una ventisca; dura 6 segundos, con un tiempo de recarga de 20 segundos
+		La tormenta inflige 120 de daño base a los enemigos cercanos, los confunde durante 3 segundos y les provoca ceguera por ventisca durante 6
+		Los enemigos con ceguera por ventisca se ven muy ralentizados y reciben 10 de daño por congelación por segundo
+		Durante la tormenta, obtienes un 30% adicional de reducción de daño e inmunidad al empuje, y el velo de nieve nunca te bloquea la visión
+		Los jefs no pueden ser confundidos y sufren una ralentización muy reducida
+		Mientras corres, lanza cada segundo una fila de púas de hielo desde la tierra que tienes delante
+		Cada púa inflige 45 de daño base y enfría brevemente a los enemigos
+		"Dentro de la tormenta de nieve, la ventisca se abre solo para ti"
 		'''
 }
 
 GluttonousThroat: {
-	DisplayName: Gluttonous Throat
+	DisplayName: Garganta glotona
 	Tooltip:
 		'''
-		8% of all damage you deal flows back to you as blood beads
-		Blood beads skip potion sickness, but restore at most 2% of your max life per second
-		Overflow blood splatters onto the ground; Moon Bite seals the throat, and every bead falls astray
-		Every 9 seconds a tongue of flesh seizes the farthest enemy within 68 tiles and drags it before you
-		Bitten enemies suffer Rotsaw for 5 seconds: 40 life torn per second
-		For 2.5 seconds after an enemy is dragged to you, your next strike against it deals double damage
-		The executing strike also detonates any remaining Rotsaw as a burst of bonus damage
-		Bosses cannot be dragged, but are still bitten, sawed and marked for execution
-		"The far end of the throat has no bottom"
+		El 8% de todo el daño que infliges vuelve a tí en forma de gotas de sangre
+        Las gotas de sangre no provocan el efecto Enfermedad de poción, pero restauran como máximo un 2% de tu vida máxima por segundo
+        El exceso de sangre salpica el suelo; Mordisco lunar sella la garganta y todas las gotas se pierden
+        Cada 9 segundos, una lengua de carne atrapa al enemigo más lejano dentro de un radio de 68 bloques y lo arrastra hasta ti
+		Los enemigos mordidos sufren Sierra de la podredumbre durante 5 segundos, que arranca 40 de vida por segundo
+        Durante 2,5 segundos después de que un enemigo sea arrastrado hasta ti, tu siguiente golpe contra él inflige el doble de daño
+        El golpe ejecutor también detona cualquier Sierra de la podredumbre restante como una ráfaga de daño adicional
+        Los jefes no pueden ser arrastrados, pero pueden ser mordidos, aserrados y marcados para su ejecución
+        "El extremo más alejado de la garganta no tiene fondo".
 		'''
 }
 
 RefractionWaltz: {
-	DisplayName: Refraction Waltz
+	DisplayName: Vals de la refracción
 	Tooltip:
 		'''
-		Greatly boosts aerial acceleration and turning
-		Cresting a jump, double-jumping, reversing or dashing midair condenses a refraction crystal behind you
-		Up to 6 crystals may exist at once; the oldest shatters to make room
-		Crystals link up with prism beams in the order they were danced out, closing the loop at six
-		Beam, crystal and shard damage all scale with your damage bonuses
-		Each beam slices the same enemy up to 4 times per second for 35 base damage
-		Enemies shattering a crystal take 70 base damage and are struck by shards dealing 40 each
-		Hits inflict Refraction: the target slows and your crit chance against it rises by 8%
-		"When the light-web takes shape, the one dancing to the music owns the ballroom"
+		Aumenta considerablemente la aceleración y los giros en el aire
+		Al llegar al punto más alto del salto, realizar un doble salto, dar marcha atrás o empujarte hacia delante, se condensa un cristal de refracción detrás de ti
+		Pueden existir hasta 6 cristales a la vez; el más antiguo se rompe para dejar espacio
+		Los cristales se unen a los rayos prismáticos en el orden en que se han generado, cerrando el ciclo al llegar a seis
+		El daño de los rayos, los cristales y los fragmentos se adapta a tus bonificaciones de daño
+		Cada rayo corta al mismo enemigo hasta 4 veces por segundo, infligiendo 35 de daño base
+		Los enemigos que rompen un cristal reciben 70 de daño base y son golpeados por fragmentos que infligen 40 cada uno
+		Los impactos infligen Refracción: el objetivo se ralentiza y tu probabilidad de crítico contra él aumenta un 8%
+		"Cuando la red de luz toma forma, quien baila al son de la música es el dueño del salón de baile"
 		'''
 }
 
 TwinPupilTether: {
-	DisplayName: Twin-Pupil Tether
+	DisplayName: Cordón de doble pupila
 	Tooltip:
 		'''
-		Summons Vision and Pyrepupil, a pair of orbiting mini mechanical eyes; their damage scales with your damage bonuses
-		Vision snipes mid-range enemies with lasers: 140 base damage per shot, about one shot every 0.7 seconds
-		Pyrepupil breathes cursed flames at nearby enemies: 40 base damage per gout, five gouts per second
-		A cutting tether is always strung between the eyes, slicing the same enemy up to 4 times per second for 80 base damage
-		Cut enemies are torn open for 3 seconds, taking 25% more damage from the pair
-		The faster you move, the wider the eyes spread and the longer the tether stretches
-		Double tap Down to order a cross charge: the eyes flank your cursor, dash through each other, and detonate at the crossing point
-		The charge impact deals 380 and the crossing detonation 1100 base damage, with a 9 second cooldown
-		"A stitched gaze, and the thread that cuts everything"
+		Invoca a Vision y a Pirepupilo, un par de miniojos mecánicos que orbitan; su daño varía en función de tus bonificaciones de daño
+		Vision dispara con láser a enemigos a media distancia: 140 de daño base por disparo, aproximadamente un disparo cada 0,7 segundos
+		Pirepupilo escupe llamas malditas a los enemigos cercanos: 40 de daño base por chorro, cinco chorros por segundo
+		Entre los ojos siempre hay un cable cortante que corta al mismo enemigo hasta 4 veces por segundo, infligiendo 80 de daño base
+		Los enemigos cortados quedan abiertos durante 3 segundos, recibiendo un 25% más de daño de la pareja
+		Cuanto más rápido te muevas, más se separan los ojos y más se estira el cordón
+		Pulsa dos veces abajo para ordenar una carga cruzada: los ojos flanquean tu cursor, se lanzan el uno contra el otro y detonan
+		El impacto de la carga inflige 380 de daño base y la detonación, 1100, con un tiempo de enfriamiento de 9 segundos
+		"Una mirada cosida y el hilo que lo corta todo"
 		'''
 }
 
 ProbeMatrixCore: {
-	DisplayName: Probe Matrix Core
+	DisplayName: Núcleo de la matriz de sondas
 	Tooltip:
 		'''
-		Deploys five Destroyer probes as an escort formation that seeks enemies and fires homing lasers
-		Lasers deal 55 base damage; hits on the same target build designation, and 8 stacks call an orbital strike
-		The strike drops a piercing deathray from the sky, dealing 900 base damage per tick
-		Targets caught in the column take at most two ticks per strike, up to 1800 base damage total
-		Designation resets after each strike with a 3 second cooldown, and the impact site lingers with searing heat
-		Probes shot down by enemies rebuild after about 2.5 seconds; the formation uses no minion slots
-		"The iron serpent has fallen, yet its eyes still patrol the sky for you"
+		Lanza cinco sondas Destructoras en una formación de escolta que busca enemigos y dispara láseres autoguiados
+		Los láseres infligen 55 de daño base; los impactos en el mismo objetivo acumulan designación, y al alcanzar 8 acumulaciones se activa un ataque orbital
+		El ataque lanza desde el cielo un rayo mortal perforante que inflige 900 de daño base por tick
+		Los objetivos atrapados en la columna reciben como máximo dos ticks por ataque, hasta un total de 1800 de daño base
+		La designación se restablece tras cada ataque con un tiempo de enfriamientode 3 segundos, y el lugar del impacto permanece envuelto en un calor abrasador
+		Las sondas derribadas por los enemigos se regeneran tras unos 2,5 segundos; la formación no ocupa ranuras de súbditos
+		"La serpiente de hierro ha caído, pero sus ojos siguen patrullando el cielo en tu busca"
 		'''
 }
 
 OverloadCommandCore: {
-	DisplayName: Overload Command Core
+	DisplayName: Núcleo de comando de sobrecargado
 	Tooltip:
 		'''
-		Striking enemies builds ion charge: +4 per hit, Ion Overload triggers at 100
-		Stop attacking for over a second and the charge slowly drains
-		Ion Overload lasts 5 seconds, increasing attack speed by 30%
-		While overloaded, your hits arc chain lightning between nearby enemies, jumping up to 3 times
-		Each arc deals 40% of the triggering hit's damage, decaying per jump
-		Four phantom mechanical arms unfold behind you, striking in sync with your attacks
-		With a melee weapon the arms sweep, each blow dealing 24% weapon damage
-		With any other weapon the arms fire ion bolts, each dealing 20% weapon damage
-		When the overload ends, the core overheats for 3 seconds: 8% reduced attack speed and no charge gain
-		"Command authority transferred. Four arms at your service, until meltdown"
+		Al golpear a los enemigos se acumula carga iónica: +4 por golpe; la sobrecarga iónica se activa al alcanzar los 100
+		Si dejas de atacar durante más de un segundo, la carga se agota lentamente
+		La sobrecarga iónica dura 5 segundos y aumenta la velocidad de ataque en un 30%
+		Mientras estás sobrecargado, tus golpes generan una cadena de rayos entre los enemigos cercanos, que pueden saltar hasta 3 veces
+		Cada rayo inflige el 40% del daño del golpe que lo ha activado, disminuyendo con cada salto
+		Cuatro brazos mecánicos fantasmales se despliegan detrás de ti, atacando en sincronía con tus golpes
+		Con un arma cuerpo a cuerpo, los brazos realizan un barrido, y cada golpe inflige un 24% del daño del arma
+		Con cualquier otra arma, los brazos disparan rayos iónicos, cada uno de los cuales inflige un 20% del daño del arma
+		Cuando finaliza la sobrecarga, el núcleo se sobrecalienta durante 3 segundos: la velocidad de ataque se reduce un 8% y no se acumula carga
+		"Autoridad de mando transferida. Cuatro brazos a tu servicio, hasta la fusión".
 		'''
 }
 
 BloomNovaBulb: {
-	DisplayName: Bloom Nova Bulb
+	DisplayName: Bulbo nova florido
 	Tooltip:
 		'''
-		+30 max life and +4 life regeneration
-		When struck, lashes thorn vines at your attacker or toward the incoming threat, at most once every 1.5 seconds
-		Vines deal 220 to 330 base damage depending on Growth, scaling with your damage bonuses
-		Snared enemies are slowed and torn for 80 damage per second; bosses are only slightly slowed
-		Snared enemies that hit you suffer thorn backlash: the full damage dealt plus 120 base damage
-		Thorn backlash triggers at most once per half second on each enemy
-		Fighting builds Growth: more vines that snare longer
-		Below 35% life, a Bloom Nova erupts: a petal shockwave of 1200 base damage sweeps and snares nearby enemies
-		The bloom instantly restores 25% of your life, greatly boosts regeneration for 6 seconds, and consumes all Growth
-		Spore fog follows you for 6 seconds afterward; enemies in the fog miss 25% of their attacks
-		Bloom Nova occurs at most once every 60 seconds
-		"Every wound waters the next bloom"
+		+30 de vida máxima y +4 de regeneración de vida
+		Cuando recibes un golpe, lanzas enredaderas espinosas contra tu atacante o hacia la amenaza más ceracana, como máximo una vez cada 1,5 segundos
+		Las enredaderas infligen entre 220 y 330 de daño base, dependiendo de Crecimiento, y se ajustan según tus bonificaciones de daño
+		Los enemigos atrapados se ralentizan y reciben 80 de daño por segundo; los jefes solo se ralentizan ligeramente
+		Los enemigos atrapados que te golpeen sufren un contragolpe de espinas: todo el daño infligido más 120 de daño base
+		El contragolpe de espinas se activa como máximo una vez cada medio segundo por cada enemigo
+		Al luchar se acumula Crecimiento: convoca más enredaderas que atrapan durante más tiempo
+		Por debajo del 35% de vida, estalla una Nova florida: provoca una onda de choque de pétalos de 1200 de daño base que arrasa y atrapa a los enemigos cercanos
+		La floración restaura al instante el 25% de tu vida, aumenta considerablemente la regeneración durante 6 segundos y consume todo el Crecimiento
+		A continuación, una Niebla de esporas te sigue durante 6 segundos; los enemigos que se encuentren en la niebla fallan el 25% de sus ataques
+		La Nova florida se produce como máximo una vez cada 60 segundos
+        "Cada herida riega la siguiente floración"
 		'''
 }
 
 SolarCoreFist: {
-	DisplayName: Solar Core Fist
+	DisplayName: Puño de núcleo solar
 	Tooltip:
 		'''
-		Stand still for half a second to enter Stone Guard stance
-		While in stance, damage taken is reduced by 50% and you are immune to knockback
-		Each hit taken in stance grants 1 stack of Solar Charge, plus 1 extra per 100 raw damage of the blow
-		Charge caps at 24 stacks; the shell veins brighten one tier per 8 stacks
-		Holding the stance for 5 seconds forces a 2 second overheat: no damage reduction, no charge, no re-entering stance
-		Hold DOWN for half a second in stance to hurl a full-power fist toward your cursor with a larger solar nova
-		Moving also breaks the stance and throws the fist, but at 25% reduced damage
-		Throwing the fist ends the stance without overheating
-		The fist deals 500 base damage, +12.5% per stack, 2000 at full charge, scaling with your damage bonuses
-		The first enemy struck erupts in a solar nova, chaining six lava bursts to both sides
-		At 8 or more stacks, the stance radiates a scorching aura that scales with your damage bonuses
-		"The temple's sun gem still beats; the stone shell is merely its gauntlet"
+		Quédate quieto durante medio segundo para activar la postura Guardia de Piedra
+		Mientras estés en esta postura, el daño recibido se reduce en un 50% y eres inmune al empuje
+		Cada golpe recibido en esta postura otorga 1 acumulación de Carga Solar, más 1 adicional por cada 100 de daño bruto del golpe
+		La carga tiene un límite de 24 acumulaciones; las vetas del caparazón se iluminan un nivel por cada 8 acumulaciones
+		Mantener la postura durante 5 segundos provoca un sobrecalentamiento de 2 segundos: sin reducción de daño, sin carga y sin posibilidad de volver a entrar en la postura
+		Mantén pulsado durante medio segundo mientras estás en la postura para lanzar un puñetazo a plena potencia hacia el cursor con una nova solar más grande
+		Moverte también rompe la postura y lanza el puñetazo, pero con un daño reducido en un 25%
+		Lanzar el puñetazo pone fin a la postura sin sobrecalentamiento
+		El puñetazo inflige 500 de daño base, +12,5% por acumulación, 2000 a plena carga, y se adapta a tus bonificaciones de daño
+		El primer enemigo golpeado estalla en una nova solar, encadenando seis ráfagas de lava a ambos lados
+		Con 8 o más acumulaciones, la postura irradia un aura abrasadora que se adapta a tus bonificaciones de daño
+		"La gema solar del templo aún late; la coraza de piedra no es más que su guantelete"
 		'''
 }
 
 TidalFin: {
-	DisplayName: Tidal Fin
+	DisplayName: Aleta de la marea
 	Tooltip:
 		'''
-		Press [KEY] to dash toward the cursor; press again shortly after to chain, up to two dashes
-		Every dash can be re-aimed, and you are fully invincible while dashing
-		Each dash raises a lingering tsunami wall along its path, dealing 140 base damage per hit
-		Multiple walls do not stack their hits on the same target
-		The wall shoves away and slows small hostile projectiles
-		The final dash raises a stationary tidal tornado at its endpoint, grinding for 200 base damage per hit
-		Wall and tornado damage scales with your damage bonuses
-		While it rains or you are submerged, the chain gains a third dash and all damage is boosted by 50%
-		The full chain has a 12 second cooldown
-		[c/2696A0:"The tide has not forgotten its duke"]
+		Pulsa [KEY] para hacer una embestida hacia el cursor; vuelve a pulsarla poco después para encadenar hasta dos embestidas
+		Cada embestida se puede reorientar, y eres totalmente invencible mientras la haces
+		Cada embestida genera un muro tsunami persistente a lo largo de su trayectoria, que inflige 140 de daño base por impacto
+		Los impactos de varios muros no se acumulan sobre el mismo objetivo
+		La pared repele y ralentiza los proyectiles hostiles de pequeño tamaño
+		La última embestida genera un tornado de marea estacionario en su punto final, que inflige 200 de daño base por impacto
+		El daño de la pared y del tornado se escala según tus bonificaciones de daño
+		Mientras llueve o estás sumergido, ganas una tercera embestida y todo el daño se incrementa en un 50%
+		Tiene un tiempo de enfriamiento de 12 segundos
+		[c/2696A0:"La marea no ha olvidado a su duque"]
 		'''
 }
 
 RiteRing: {
-	DisplayName: Rite Ring
+	DisplayName: Anillo ritual
 	Tooltip:
 		'''
-		8% increased damage, +40 maximum mana, and each lit rune grants 1% more damage
-		Attacking or casting lights runes around you; at 8 runes the current rite fires automatically
-		Rites rotate in order: Mirror Rite, Moonflame Laser, Star Rite
-		Mirror Rite: conjures 3 pale mirror bodies, each firing 3 volleys of your held weapon's shots at 40% damage
-		Summon, held-style and explosive weapons cannot be mirrored; mirrors fire rune bolts instead
-		Moonflame Laser: a moon eye opens overhead and sweeps the field with a death ray
-		Star Rite: a tiny planetary ring collapses, calling down 16 falling stars upon your foes
-		Double tap Left or Right to spend 3 runes, tearing the veil for a short blink in that direction
-		"The rite began long ago, and you are standing at the circle's heart"
+		Aumenta el daño un 8%, +40 de maná máximo, y cada runa encendida otorga un 1% más de daño
+		Al atacar invocas runas de luz a tu alrededor; cuando hay 8 runas, el rito actual se activa automáticamente
+		Los ritos se alternan en este orden: Rito del espejo, Láser de Llama Lunar, Rito estelar
+		Rito del espejo: conjura 3 cuerpos especulares pálidos, cada uno de los cuales dispara 3 ráfagas de disparos del arma equipada con un 40% de daño
+		Las armas de invocación, las de empuñe y explosivas no pueden reflejarse; los reflejos disparan rayos rúnicos en su lugar
+		Láser de llama lunar: un ojo lunar se abre sobre tu cabeza y barre el campo de batalla con un rayo mortal
+		Rito estelar: un diminuto anillo planetario se derrumba, haciendo caer 16 estrellas fugaces sobre tus enemigos
+		Pulsa dos veces a la izquierda o a la derecha para gastar 3 runas, rasgando el velo durante un breve instante en esa dirección
+		"El rito comenzó hace mucho tiempo, y tú te encuentras en el corazón del círculo"
 		'''
 }
 
 WingsOfInterference: {
-	DisplayName: Wings of Interference
+	DisplayName: Alas de interferencia
 	Tooltip:
 		'''
-		Become the wings of the Empress of Light: 3.5s of flight time by day and 4.5s by night, hold DOWN while flying to hover
-		Day form: your attack projectiles trace interference light-paths as they fly
-		When two light-paths cross, the intersection detonates a prism burst dealing 200 base damage
-		Night form: noticeably increased movement speed and longer flight time
-		At night, automatically dodge one hit, once every 48 seconds
-		At night, hostile projectiles closing in on you drag auroral trails, exposing their paths early
-		The instant dawn or dusk arrives, a screen-wide interference burst deals 1100 base damage and clears hostile projectiles
-		"Day and night interfere at the wingtip; light collapses where paths cross"
+		Conviértete en las alas de la Emperatriz de la Luz: 3, s de tiempo de vuelo durante el día y 4,5 s durante la noche; 
+		mantén pulsado el botón D mientras vuelas para quedarte suspendido en el aire
+		Forma diurna: tus proyectiles trazan trayectorias de luz entrecruzadas mientras vuelan
+		Cuando dos trayectorias de luz se cruzan, la intersección detona una explosión prismática que inflige 200 de daño base
+		Forma nocturna: velocidad de movimiento notablemente aumentada y mayor tiempo de vuelo
+		Por la noche, esquivas automáticamente un impacto una vez cada 48 segundos
+		Por la noche, los proyectiles enemigos que se acercan a ti dejan estelas aurorales, lo que revela su trayectoria con antelación
+		En el instante en que amanece o anochece, una ráfaga de interferencia que abarca toda la pantalla inflige 1100 de daño base y elimina los proyectiles enemigos
+		"El día y la noche se entrecruzan en la punta del ala; la luz se colapsa donde se cruzan las trayectorias"
 		'''
-	FormDay: It is day now: the interference weave is deployed
-	FormNight: It is night now: swift auroral flight is engaged
+	FormDay: Ahora es de día: la red de interferencia está tendida
+	FormNight: Ahora es de noche: el vuelo de aurora está tendido
 }
 
 BlackFlashSigil: {
-	DisplayName: Black Flash Sigil
+	DisplayName: Sello del destello negro
 	Tooltip:
 		'''
-		Attacking awakens the sigil; a black flash tempo ring lights up on your chest
-		The instant the ring contracts to its smallest, the judgment window opens with a sharp chime
-		Hits landed within the window trigger a Black Flash: that strike deals 3x damage and always crits
-		Each Black Flash adds 1 Flash Chain stack; every stack adds another 0.25x, capped at 6 stacks for 4.5x
-		Higher chains quicken the tempo; the next window comes ever sooner
-		Letting a window pass empty, or landing hits outside it, clears every stack
-		At 4 stacks you enter Domain Sense; projectiles around you seem to slow
-		Minions act on their own; they neither follow the tempo nor break the chain
-		"When the flash turns black, the instant reigns over eternity"
+		Al atacar, se activa el sigilo; un anillo Destello negro se ilumina en tu pecho.
+		En el instante en que el anillo se contrae hasta su tamaño mínimo, se abre la ventana de juicio con un agudo tintineo
+		Los golpes que se asestan dentro de la ventana activan un Destello negro: ese golpe inflige 3 veces el daño y siempre es crítico
+		Cada Destello negro añade 1 acumulación de Cadena de destellos; cada acumulación añade un 0,25x adicional, con un límite de 6 acumulaciones para un total de 4,5x
+		Las cadenas más largas aceleran el ritmo; la siguiente ventana llega cada vez antes
+		Dejar pasar una ventana sin actuar, o asestar golpes fuera de ella, borra todas las acumulaciones
+		Con 4 acumulaciones, entras en Sentido del dominio; los proyectiles a tu alrededor parecen ralentizarse
+		Los súbditos actúan por su cuenta; no siguen el ritmo ni rompen la cadena
+		"Cuando el destello se vuelve negro, el instante reina sobre la eternidad"
 		'''
 }
 
 FrogsparkBoots: {
-	DisplayName: Frogspark Boots
+	DisplayName: Botas anfibias brillantes
 	Tooltip:
 		'''
-		Allows flight, super fast running, and steady ice skating that won't break thin ice
-		Walk on water, honey and lava, and gain immunity to the Burning debuff
-		Grants 7 seconds of lava immunity, greatly reducing lava damage afterwards
-		Increases jump speed by 48%, enables auto-jump, and greatly increases fall resistance
-		"One frog kick, and flames clear the way"
+		Permite volar, correr a gran velocidad y patinar sobre hielo de forma estable sin romper el hielo.
+		Caminarás sobre el agua, la miel y la lava, y obtendrás inmunidad al efecto negativo En llamas.
+		Otorga 7 segundos de inmunidad a la lava, lo que reduce considerablemente el daño de la lava.
+		Aumenta la velocidad de salto en un 48%, permite el salto automático y aumenta considerablemente la resistencia a las caídas
+		"Una patada de rana y las llamas despejan el camino".
 		'''
 }
 
 CthulsparkBoots: {
-	DisplayName: Cthulspark Boots
+	DisplayName: Botas de Cthulhu brillantes
 	Tooltip:
 		'''
-		Grants all the powers of the Frogspark Boots
-		Gain cloud, blizzard and sandstorm extra jumps, increased jump height, and immunity to fall damage
-		Double tap a direction to charge alongside the great eye, ramming foes out of the way
-		"It floats overhead, watching every step for you"
+		Otorga todas las habilidades de las Botas anfibias brillantes
+		Consigue saltos adicionales en nubes, ventiscas y tormentas de arena, mayor altura de salto e inmunidad al daño por caída
+		Pulsa dos veces en una dirección para cargar junto al gran ojo y empujar a los enemigos fuera de tu camino
+		"Flota sobre tu cabeza, vigilando cada uno de tus pasos"
 		'''
 }
 
 NinjaCthulsparkBoots: {
-	DisplayName: Ninja Cthulspark Boots
+	DisplayName: Botas ninja de Cthulhu brillantes
 	Tooltip:
 		'''
-		Grants all the powers of the Cthulspark Boots
-		Grants a 10% chance to dodge attacks, and the ability to climb and slide down walls
-		Double tap a direction to perform a crimson shadow dash, faster and farther, trailing scarlet afterimages
-		The charge bashes enemies aside like the Shield of Cthulhu, granting a moment of immunity on impact
-		"The eye tied on its headband and swore never to blink again"
+		Otorga todos los poderes de las Botas de Cthulhu brillantes
+		Otorga un 10% de probabilidad de esquivar ataques, así como la capacidad de trepar y deslizarse por las paredes
+		Toca dos veces en una dirección para realizar un empuje sombra carmesí, más rápida y de mayor alcance, dejando un rastro de imágenes residuales escarlatas
+		La embestida aparta a los enemigos como el Escudo de Cthulhu, otorgando un momento de inmunidad al impactar
+		"El ojo se ató a la cinta de la cabeza y juró no volver a parpadear jamás"
 		'''
 }
 
 SeaShrimpSummonItem: {
-	DisplayName: Crystallized Shrimp Bait
+	DisplayName: Cebo de gambas cristalizadas
 	Tooltip:
 		'''
-		Summons the Abyssal Crystal Shrimp when used at the ocean
-		"Bait that sinks never comes back. Something else does."
+		Al usarla en el océano, invoca al Camarón de cristal abisal
+		"El cebo que se hunde nunca vuelve. Pero algo más sí lo hace"
 		'''
 }
 
 SeaShrimpTreasureBag: {
-	DisplayName: Treasure Bag (Abyssal Crystal Shrimp)
+	DisplayName: Bolsa del tesoro (Camarón de cristal abisal)
 	Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
 }
 
 SeaShrimpTestItem: {
-	DisplayName: Shrimp Observation Cage
-	Tooltip: Dev testing: summons the Abyssal Crystal Shrimp anywhere
+	DisplayName: Jaula de observación de gambas
+	Tooltip: Ítem de desarrollador: invoca al camarón de cristal abisal en cualquier lugar
 }
 
 BssBloomBud: {
-	DisplayName: Thorned Bloombud
+	DisplayName: Capullo espinoso
 	Tooltip:
 		'''
-		Summons the Bloomsand Serpent when used on the desert surface
-		"The root of the dunes grows hungry when it blooms"
+		Al usarla en la superficie del desierto, invoca a la Serpiente de arena floreciente
+        "La raíz de las dunas se vuelve voraz cuando florece"
 		'''
 }
 
 FssFesterBud: {
-	DisplayName: Festered Bloombud
+	DisplayName: Capullo podrido
 	Tooltip:
 		'''
-		Summons the Festersand Serpent when used on the desert surface
-		"The bud never died. It learned to fester"
+		Al usarla en la superficie del desierto, invoca a la Serpiente de arena podrida
+		"El brote nunca murió. Aprendió a pudrirse"
 		'''
 }
 
 BudPiercer: {
-	DisplayName: Budpiercer
+	DisplayName: Cortabrotes
 	Tooltip:
 		'''
-		Flies straight for a moment, then dips
-		Striking an enemy plants a bud that soon blooms into a ring of petals
-		Multiple daggers can stack buds on the same target
-		Sticking into the ground blooms on the spot, spraying three needles upward
-		"Under the serpent's scales, every one of them wants to bloom"
+		Vuela en línea recta durante un instante y luego desciende en picado
+		Al golpear a un enemigo, planta un brote que pronto florece formando un círculo de pétalos
+		Varias dagas pueden acumular brotes en el mismo objetivo
+		Al clavarse en el suelo, florece en el acto, lanzando tres agujas hacia arriba.
+		"Bajo las escamas de la serpiente, todas y cada una de ellas quieren florecer"
 		'''
 }
 
 Thornstring: {
-	DisplayName: Thornstring
+	DisplayName: Hilo de espinas
 	Tooltip:
 		'''
-		Turns any arrow into a thorn arrow
-		Thorn arrows burst into short needles on both sides when they strike
-		Hold right click to draw fully, then release a piercing heavy thorn arrow at 2.5x damage
-		The heavy arrow blooms a ring of petals on every strike and where it lands
-		"The string is a vine, the arrow a thorn, the bow a flower that refuses to wither"
+		Convierte cualquier flecha en una flecha de espinas
+		Las flechas de espinas se desintegran en pequeñas agujas a ambos lados al impactar
+		Mantén pulsado clic derecho para tensar el arco al máximo y, a continuación, suelta una flecha de espinas pesada y penetrante que inflige 2,5 veces más daño
+		La flecha pesada forma un anillo de pétalos con cada impacto y dondequiera que caiga
+		"La cuerda es una enredadera, la flecha una espina, el arco una flor que se niega a marchitarse"
 		'''
 }
 
 BloomCaller: {
-	DisplayName: Bloomcaller
+	DisplayName: Clamor del florecer
 	Tooltip:
 		'''
-		Sounds the horn to call a wildbloom sprout to fight beside you
-		The sprout hurls sinking thorns at enemies
-		After every two throws, the third attack becomes a body slam that spins into a ring of petals
-		"The horn does not command. It waters"
+		Toca el cuerno para llamar a un brote de flor silvestre para que luche a tu lado
+		El brote lanza espinas punzantes contra los enemigos
+		Cada dos lanzamientos, el tercer ataque se convierte en un golpe corporal que gira formando un círculo de pétalos
+		"El cuerno no da órdenes. Riega"
 		'''
 }
 
 Budcrown: {
-	DisplayName: Budcrown
+	DisplayName: Corona de brotes
 	Tooltip:
 		'''
-		Hold the attack key to whirl the head around you, release to hurl it at your cursor
-		The head sheds needles when it strikes enemies
-		Every third strike bursts into full bloom, blasting a ring of petals with heavy knockback
-		"The heaviest bud blooms the loudest"
+		Mantén pulsada la tecla de ataque para hacer girar la cabeza del arma a tu alrededor; suéltala para lanzarla hacia el cursor
+		La cabeza de arma suelta agujas al golpear a los enemigos
+		Cada tercer golpe estalla en plena floración, lanzando un anillo de pétalos con un fuerte efecto de retroceso
+		"El capullo más pesado es el que florece con más fuerza"
 		'''
 }
 
 BloomTome: {
-	DisplayName: Bloomtome
+	DisplayName: Tomo de brotes
 	Tooltip:
 		'''
-		Fires a budding bolt
-		The bolt blooms into a ring of petals when it strikes an enemy or the ground
-		Every fourth cast becomes a full bloom with more petals, bursting two needles upward
-		"Whichever page you open, that page blooms"
+		Lanza un rayo incipiente
+		El rayo se convierte en un anillo de pétalos al impactar contra un enemigo o contra el suelo
+		Cada cuarto lanzamiento se convierte en una floración completa con más pétalos, de la que brotan dos agujas hacia arriba
+		"Da la vuelta a la página que da la vuelta, esa página florece"
 		'''
 }
