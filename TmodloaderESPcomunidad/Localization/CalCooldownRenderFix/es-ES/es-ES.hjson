@@ -2,120 +2,125 @@ Mods: {
 	CalCooldownRenderFix: {
 		Configs: {
 			CFUConfig: {
-				DisplayName: Config
+				DisplayName: Configuración
 
 				Headers: {
-					CooldownBar: Cooldown Bar
-					RageAdrenalineBar: Rage/Adrenaline Bar
-					CustomBossTitlesIntros: Boss Intro Titles
-					Misc: Miscellaneous
+					CooldownBar: Barra de Enfriamiento
+					RageAdrenalineBar: Barra de Furia/Adrenalina
+					CustomBossTitlesIntros: Títulos de Introducción de Jefes
+					Misc: Miscelánea
 				}
 
 				CooldownBarShader: {
-					Label: "[i:963] Enable"
+					Label: "[i:963] Activar"
 					Tooltip:
 						'''
-						Uses the new shader for [c/aaff33:Cooldown] bar.
-						[c/444444:Works only if Cooldown Rack Display Mode is set to Full.]
+						Usa el nuevo sombreador para la barra de [c/aaff33:Enfriamiento].
+						Compatible con [c/bb3344:Calamity Mod] y [c/ffff00:Calamity Fables].
+						[c/444444:Solo funciona si el Modo de Visualización del Panel de Enfriamiento está en Completo.]
 						'''
 				}
 
 				CooldownStyle: {
-					Label: "[i:1967] Style"
-					Tooltip: Changes the style.
+					Label: "[i:1967] Estilo"
+					Tooltip: Cambia el estilo.
 				}
 
 				CooldownPixelation: {
-					Label: "[i:3753] Pixelation Level"
+					Label: "[i:3753] Nivel de Pixelado"
 					Tooltip:
 						'''
-						[c/ff3333:EXPERIMENTAL OPTION]
-						Pixelates the cooldown bars by set level.
-						The higher, the stronger is the effect.
-						[c/444444:Disabled by default.]
+						[c/ff3333:OPCIÓN EXPERIMENTAL]
+						Pixela las barras de enfriamiento según el nivel establecido.
+						Cuanto más alto, más fuerte es el efecto.
+						[c/444444:Desactivado por defecto.]
 						'''
 				}
 
 				CooldownFablesSupport: {
-					Label: "[i:174] Fables Cooldowns Compatibility"
+					Label: "[i:174] Compatibilidad de Enfriamientos de Fables"
 					Tooltip:
 						'''
-						Adds support for [c/ffff00:Calamity Fables] cooldowns to 
-						be placed next to [c/bb4444:Calamity Mod] counterpart.
+						Añade compatibilidad para que los enfriamientos de [c/ffff00:Calamity Fables]
+						se coloquen junto a su contraparte de [c/bb4444:Calamity Mod].
 						'''
 				}
 
 				RageAdreBarShader: {
-					Label: "[i:CalamityMod/HeartofDarkness] Enable"
-					Tooltip: Overhauls the look of [c/ff4411:Rage]/[c/00bbff:Adrenaline] bars.
+					Label: "[i:CalamityMod/HeartofDarkness] Activar"
+					Tooltip:
+						'''
+						Rediseña el aspecto de las barras de [c/ff4411:Furia]/[c/00bbff:Adrenalina].
+						Compatible con [c/bb3344:Calamity Mod].
+						'''
 				}
 
 				RageAdreStyle: {
-					Label: "[i:1967] Style"
-					Tooltip: Changes the style.
+					Label: "[i:1967] Estilo"
+					Tooltip: Cambia el estilo.
 				}
 
 				DraedonHeartForce: {
-					Label: "[i:CalamityMod/DraedonsHeart] Draedon's Heart overrides the style"
+					Label: "[i:CalamityMod/DraedonsHeart] Corazón de Draedon Anula el Estilo"
 					Tooltip:
 						'''
-						If [c/00ff00:enabled]:
-						  it will replace the mod's [c/00bbff:Adrenaline] bar with vanilla
-						  counterpart as long as [c/887799:Draedon's Heart] is equipped.
+						Si está [c/00ff00:activado]:
+						  reemplazará la barra de [c/00bbff:Adrenalina] del mod con la
+						  contraparte vanilla mientras [c/887799:Corazón de Draedon] esté equipado.
 						'''
 				}
 
 				CustomBossTitlesIntros: {
-					Label: "[i:4798] Enable"
+					Label: "[i:4798] Activar"
 					Tooltip:
 						'''
-						Changes the boss name titles to stylized variants.
-						Supports [c/ffff00:Calamity Fables] and [c/ff77bb:Calamity Infernum Mode].
+						Cambia los títulos de nombres de jefes a variantes estilizadas.
+						Compatible con [c/bb3344:Calamity Mod], [c/ffff00:Calamity Fables] y [c/ff77bb:Calamity Infernum Mode].
 						'''
 				}
 
 				CustomBossTitlesNoInfernumIntros: {
-					Label: "[i:1332] No-Infernum Mode"
+					Label: "[i:1332] Modo Sin Infernum"
 					Tooltip:
 						'''
-						If [c/00ff00:enabled]:
-						  the mod will handle the [c/ff77bb:Infernum] style intros itself.
-						If [c/ff77bb:Calamity Mod Infernum Mode] is on:
-						  this setting bypasses the [c/ffff66:Infernum Mode] requirement for intros to appear.
+						Si está [c/00ff00:activado]:
+						  el mod gestionará las intros al estilo de [c/ff77bb:Infernum] por sí mismo.
+						Si [c/ff77bb:Calamity Mod Infernum Mode] está activo:
+						  esta configuración omite el requisito del [c/ffff66:Modo Infernum] para que aparezcan las intros.
 						'''
 				}
 
 				CustomBossTitlesIntroSize: {
-					Label: "[i:486] Size"
-					Tooltip: Scale multiplier for the text.
+					Label: "[i:486] Tamaño"
+					Tooltip: Multiplicador de escala para el texto.
 				}
 
 				CustomBossTitlesSmoothFablesIntroText: {
-					Label: "[i:3481] Smooth Fables Text Rendering"
-					Tooltip: Makes the font render smoother in [c/ffff00:Calamity Fables] boss intros.
+					Label: "[i:3481] Renderizado Suave de Texto de Fables"
+					Tooltip: Hace que la fuente se renderice más suave en las intros de jefes de [c/ffff00:Calamity Fables].
 				}
 
 				RelicBossTitles: {
-					Label: "[i:4927] Enable Boss Titles for Relics"
-					Tooltip: Causes the relic names to render with unique rarity associated to its boss.
+					Label: "[i:4927] Activar Títulos de Jefes para Reliquias"
+					Tooltip: Hace que los nombres de las reliquias se rendericen con la rareza única asociada a su jefe.
 				}
 
 				BossBarBossTitles: {
-					Label: "[i:5120] Enable Boss Titles on Boss Bar"
+					Label: "[i:5120] Activar Títulos de Jefes en la Barra de Jefes"
 					Tooltip:
 						'''
-						[c/bb4444:Calamity] Boss Bar draws boss title with associated style. 
-						Also applies the effect to the bar itself.
-						Supports [c/ff77bb:Calamity Infernum Mode] Boss Bar Style.
+						La barra de jefes de [c/bb4444:Calamity] dibuja el título del jefe con su estilo asociado.
+						También aplica el efecto a la propia barra.
+						Compatible con el estilo de barra de jefes de [c/ff77bb:Calamity Infernum Mode].
 						'''
 				}
 
 				BossBarCustomFont: {
-					Label: "[i:449] Use Fancy Font on Boss Bar"
+					Label: "[i:449] Usar Fuente Estilizada en la Barra de Jefes"
 					Tooltip:
 						'''
-						Replaces the font for [c/bb4444:Calamity] Boss Bar health progress with the fancy one.
-						Supports [c/ff77bb:Calamity Infernum Mode] Boss Bar Style.
+						Reemplaza la fuente del progreso de salud de la barra de jefes de [c/bb4444:Calamity] por la estilizada.
+						Compatible con el estilo de barra de jefes de [c/ff77bb:Calamity Infernum Mode].
 						'''
 				}
 			}
@@ -124,22 +129,22 @@ Mods: {
 				Tooltip: ""
 
 				Calamity: {
-					Label: Calamity-like
+					Label: Tipo Calamity
 					Tooltip: ""
 				}
 
 				Modern: {
-					Label: Modern
+					Label: Moderno
 					Tooltip: ""
 				}
 
 				Gradient: {
-					Label: Gradient
+					Label: Degradado
 					Tooltip: ""
 				}
 
 				RoundedModern: {
-					Label: Rounded Modern
+					Label: Moderno Redondeado
 					Tooltip: ""
 				}
 			}
@@ -153,7 +158,7 @@ Mods: {
 				}
 
 				Modern: {
-					Label: Modern
+					Label: Moderno
 					Tooltip: ""
 				}
 			}
@@ -162,21 +167,21 @@ Mods: {
 				Tooltip: ""
 
 				None: {
-					Label: None
-					Tooltip: "[c/ffff00:Fables] cooldowns are separate from [c/bb4444:Calamity] cooldowns, they overlay each other"
+					Label: Ninguno
+					Tooltip: "Los enfriamientos de [c/ffff00:Fables] están separados de los de [c/bb4444:Calamity], se superponen entre sí"
 				}
 
 				BeforeCalamity: {
-					Label: Fables and Calamity
-					Tooltip: "[c/ffff00:Fables] and [c/bb4444:Calamity] cooldowns are sorted together"
+					Label: Fables y Calamity
+					Tooltip: "Los enfriamientos de [c/ffff00:Fables] y [c/bb4444:Calamity] se ordenan juntos"
 				}
 
 				Custom: {
-					Label: Fables and Calamity+
+					Label: Fables y Calamity+
 					Tooltip:
 						'''
-						[c/ffff00:Fables] and [c/bb4444:Calamity] cooldowns are sorted together
-						+ Compact style is replaced with the new Cooldown bar shader
+						Los enfriamientos de [c/ffff00:Fables] y [c/bb4444:Calamity] se ordenan juntos
+						+ El estilo compacto se reemplaza con el nuevo sombreador de barra de Enfriamiento
 						'''
 				}
 			}
@@ -185,158 +190,158 @@ Mods: {
 		IntroScreen: {
 			AEWIntroScreen.TextToDisplay:
 				'''
-				Primeval Warden
-				The Eidolon Wyrm
+				Guardian Primigenio
+				El Gusano Eidolon
 				'''
 			AnahitaIntroScreen.TextToDisplay:
 				'''
-				Forgotten Deity
+				Deidad Olvidada
 				Anahita
 				'''
 			AquaticScourgeIntroScreen.TextToDisplay:
 				'''
-				Sulphuric Serpent
-				The Aquatic Scourge
+				Serpiente Sulfurica
+				El Azote Acuático
 				'''
 
 			AresIntroScreen: {
 				TextToDisplay:
 					'''
-					The Ultimate War Machine
+					La Maquina de Guerra Definitiva
 					Ares
 					'''
 				JokeTextToDisplay:
 					'''
-					Prediction Game Master
+					Maestro del Juego de Predicciones
 					Ares
 					'''
 			}
 
 			ArtemisAndApolloIntroScreen.TextToDisplay:
 				'''
-				The Supreme Hunters
-				Artemis and Apollo
+				Los Cazadores Supremos
+				Artemis y Apollo
 				'''
 			AstrumAureusIntroScreen.TextToDisplay:
 				'''
-				The Infected Stomper
+				El Pisoton Infectado
 				Astrum Aureus
 				'''
 			AstrumDeusIntroScreen.TextToDisplay:
 				'''
-				The Star Weaver
+				El Tejedor de Estrellas
 				Astrum Deus
 				'''
 			BereftVassalIntroScreen.TextToDisplay:
 				'''
 				Argus
-				The Bereft Vassal
+				El Vasallo Desolado
 				'''
 			BetsyIntroScreen.TextToDisplay:
 				'''
-				Mother of Wyverns
+				Madre de los Guivernos
 				Betsy
 				'''
 			BrainOfCthulhuIntroScreen.TextToDisplay:
 				'''
-				Eldritch Mind
-				The Brain of Cthulhu
+				Mente Primigenia
+				El Cerebro de Cthulhu
 				'''
 			BrimstoneElementalIntroScreen.TextToDisplay:
 				'''
-				Scarred Numen
-				The Brimstone Elemental
+				Numen Cicatrizado
+				El Elemental de Azufre
 				'''
 			CalamitasShadowIntroScreen.TextToDisplay:
 				'''
-				False Witch
-				Calamitas' Shadow
+				Falsa Bruja
+				Sombra de Calamitas
 				'''
 			CeaselessVoidIntroScreen.TextToDisplay:
 				'''
-				The Never-Ending
-				Ceaseless Void
+				El Interminable
+				Vacio Incesante
 				'''
 			CrabulonIntroScreen.TextToDisplay:
 				'''
-				The Reanimated Carcass
+				El Caparazón Reanimado
 				Crabulon
 				'''
 			CryogenIntroScreen.TextToDisplay:
 				'''
-				The Unstable Prison
-				Cryogen
+				La Prision Inestable
+				Criogen
 				'''
 			CultistIntroScreen.TextToDisplay:
 				'''
-				Ancient Doomsayer
-				The Lunatic Cultist
+				El Agorero Ancestral
+				El Cultista Lunático
 				'''
 			DeerclopsIntroScreen.TextToDisplay:
 				'''
-				Winter Beast
-				The Deerclops
+				Bestia Invernal
+				El Cierviclope
 				'''
 			DesertScourgeIntroScreen.TextToDisplay:
 				'''
-				Dried Glutton
-				The Desert Scourge
+				Gloton Desecado
+				El Azote del Desierto
 				'''
 			DestroyerIntroScreen.TextToDisplay:
 				'''
-				World Excavator
-				The Destroyer
+				Excavador del Mundo
+				El Destructor
 				'''
 			DoGIntroScreen.TextToDisplay:
 				'''
-				The Conceited
-				Devourer of Gods
+				El Engreido
+				Devorador de Dioses
 				'''
 			DraedonIntroScreen.TextToDisplay:
 				'''
-				The Cosmic Engineer
+				El Ingeniero Cosmico
 				Draedon
 				'''
 			DragonfollyIntroScreen.TextToDisplay:
 				'''
-				False Offspring
-				The Dragonfolly
+				Progenie Falsa
+				Dragonfolly
 				'''
 			DreadnautilusIntroScreen.TextToDisplay:
 				'''
-				Nightmare of the Blood Moon
-				Dreadnautilus
+				Pesadilla de la Luna de Sangre
+				Nautilo Terrible
 				'''
 			DukeFishronIntroScreen.TextToDisplay:
 				'''
-				Terror of the Seas
-				Duke Fishron
+				Terror de los Mares
+				Duque Fishron
 				'''
 			EaterOfWorldsIntroScreen.TextToDisplay:
 				'''
-				Terror of the Corruption
-				The Eater of Worlds
+				Terror de la Corrupcion
+				El Devorador de Mundos
 				'''
 			EmpressOfLightIntroScreen.TextToDisplay:
 				'''
-				Prismatic Fae
-				The Empress of Light
+				Hada Prismatica
+				La Emperatriz de la Luz
 				'''
 			EyeOfCthulhuIntroScreen.TextToDisplay:
 				'''
-				Demonic Seer
-				The Eye of Cthulhu
+				Vidente Demoníaco
+				El Ojo de Cthulhu
 				'''
 
 			GolemIntroScreen: {
 				TextToDisplay:
 					'''
-					The Ancient Idol
+					El Idolo Ancestral
 					Golem
 					'''
 				JokeTextToDisplay:
 					'''
-					NUMBER ! SALSMAN
+					NUMERO ! VENDDOR
 					[Circa 1997]
 					'''
 			}
@@ -344,157 +349,157 @@ Mods: {
 			GreatSandSharkIntroScreen.TextToDisplay:
 				'''
 				Taurus
-				The Great Sand Shark
+				El Gran Tiburon de Arena
 				'''
 			HiveMindIntroScreen.TextToDisplay:
 				'''
-				Collective Growth
-				The Hive Mind
+				Crecimiento Colectivo
+				La Mente de la Colmena
 				'''
 			KingSlimeIntroScreen.TextToDisplay:
 				'''
-				Monarch of the Gelatinous
-				King Slime
+				Monarca de lo Gelatinoso
+				Rey Slime
 				'''
 			LeviathanIntroScreen.TextToDisplay:
 				'''
-				Timeworn Beast
-				The Leviathan
+				Bestia Desgastada por el Tiempo
+				El Leviatan
 				'''
 			MoonLordIntroScreen.TextToDisplay:
 				'''
-				Eldritch Remains
-				The Moon Lord
+				Restos Primigenios
+				El Señor de la Luna
 				'''
 
 			OldDukeIntroScreen: {
 				TextToDisplay:
 					'''
-					Sulphuric Terror
-					The Old Duke
+					Terror Sulfurico
+					El Viejo Duque
 					'''
 				JokeTextToDisplay:
 					'''
-					Speed Demon
-					The Old Duke
+					Demonio de la Velocidad
+					El Viejo Duque
 					'''
 			}
 
 			PBGIntroScreen.TextToDisplay:
 				'''
-				Biomechanical Colossus
-				The Plaguebringer Goliath
+				Coloso Biomecanico
+				El Goliath Portador de Plagas
 				'''
 			PerforatorHiveIntroScreen.TextToDisplay:
 				'''
-				Bloodied Parasites
-				The Perforators
+				Parasitos Ensangrentados
+				Los Perforadores
 				'''
 			PlanteraIntroScreen.TextToDisplay:
 				'''
-				The Overgrowth
+				La Maleza
 				Plantera
 				'''
 			PolterghastIntroScreen.TextToDisplay:
 				'''
-				Wrathful Coalescence
-				The Polterghast
+				Coalescencia Iracunda
+				Polterghast
 				'''
 			ProfanedGuardiansIntroScreen.TextToDisplay:
 				'''
-				Disciples of Purity
-				The Profaned Guardians
+				Discipulos de la Pureza
+				Los Guardianes Profanos
 				'''
 			ProfanedTempleIntroScreen.TextToDisplay:
 				'''
-				Cleansed Site
-				The Profaned Garden
+				Lugar Purificado
+				El Jardin Profano
 				'''
 
 			ProvidenceIntroScreen: {
 				TextToDisplay:
 					'''
-					The Blaze of Absolution
-					Providence
+					La Llamarada de la Absolucion
+					Providencia
 					'''
 				EnragedTextToDisplay:
 					'''
-					The Blaze of Purity
-					Providence
+					La Llamarada de la Pureza
+					Providencia
 					'''
 			}
 
 			QueenBeeIntroScreen.TextToDisplay:
 				'''
-				Hive Matriarch
-				Queen Bee
+				Matriarca de la Colmena
+				Abeja Reina
 				'''
 			QueenSlimeIntroScreen.TextToDisplay:
 				'''
-				Hallowed Mass
-				The Queen Slime
+				Masa Bendita
+				La Reina Slime
 				'''
 			RavagerIntroScreen.TextToDisplay:
 				'''
-				The Fortress of Flesh
-				Ravager
+				La Fortaleza de Carne
+				Devastador
 				'''
 			SCalIntroScreen.TextToDisplay:
 				'''
-				The Brimstone Witch
+				La Bruja de Azufre
 				Calamitas
 				'''
 			SignusIntroScreen.TextToDisplay:
 				'''
-				The Fathomless Assassin
+				El Asesino Inconmensurable
 				Signus
 				'''
 			SkeletronIntroScreen.TextToDisplay:
 				'''
-				The Old Man's Curse
-				Skeletron
+				La Maldicion del Anciano
+				Esqueletrón
 				'''
 			SkeletronPrimeIntroScreen.TextToDisplay:
 				'''
-				Contraption of Dread
-				Skeletron Prime
+				Artilugio del Miedo
+				Esqueletron Mayor
 				'''
 			SlimeGodIntroScreen.TextToDisplay:
 				'''
-				Primordial Formation
-				The Slime God
+				Formacion Primordial
+				El Dios Slime
 				'''
 			StormWeaverIntroScreen.TextToDisplay:
 				'''
-				Atmospheric Predator
-				The Storm Weaver
+				Depredador Atmosferico
+				El Teje Tormentas
 				'''
-			TerminusIntroScreen.TextToDisplay: You found the Terminus!
+			TerminusIntroScreen.TextToDisplay: ¡Has encontrado a Terminus!
 			ThanatosIntroScreen.TextToDisplay:
 				'''
-				The Perfect Annihilator
+				El Aniquilador Perfecto
 				Thanatos
 				'''
 			TwinsIntroScreen.TextToDisplay:
 				'''
-				Mechanical Observers
-				The Twins
+				Observadores Mecanicos
+				Los Gemelos
 				'''
 			WoFIntroScreen.TextToDisplay:
 				'''
-				Hungering Conglomeration
-				The Wall of Flesh
+				Conglomerado Hambriento
+				El Muro Carnoso
 				'''
 
 			YharonIntroScreen: {
 				TextToDisplay:
 					'''
-					Unwavering Guardian
+					Guardian Inquebrantable
 					Yharon
 					'''
 				JokeTextToDisplay:
 					'''
-					Grand
+					Gran
 					Yharon
 					'''
 			}

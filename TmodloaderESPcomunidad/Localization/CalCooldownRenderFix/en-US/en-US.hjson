@@ -16,6 +16,7 @@ Mods: {
 					Tooltip:
 						'''
 						Uses the new shader for [c/aaff33:Cooldown] bar.
+						Supports [c/bb3344:Calamity Mod] and [c/ffff00:Calamity Fables].
 						[c/444444:Works only if Cooldown Rack Display Mode is set to Full.]
 						'''
 				}
@@ -47,7 +48,11 @@ Mods: {
 
 				RageAdreBarShader: {
 					Label: "[i:CalamityMod/HeartofDarkness] Enable"
-					Tooltip: Overhauls the look of [c/ff4411:Rage]/[c/00bbff:Adrenaline] bars.
+					Tooltip:
+						'''
+						Overhauls the look of [c/ff4411:Rage]/[c/00bbff:Adrenaline] bars.
+						Supports [c/bb3344:Calamity Mod].
+						'''
 				}
 
 				RageAdreStyle: {
@@ -70,7 +75,7 @@ Mods: {
 					Tooltip:
 						'''
 						Changes the boss name titles to stylized variants.
-						Supports [c/ffff00:Calamity Fables] and [c/ff77bb:Calamity Infernum Mode].
+						Supports [c/bb3344:Calamity Mod], [c/ffff00:Calamity Fables] and [c/ff77bb:Calamity Infernum Mode].
 						'''
 				}
 
