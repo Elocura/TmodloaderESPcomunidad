@@ -1,5 +1,17 @@
 Mods: {
 	ZeroHourMilitaryMod: {
+		Changelog: {
+			Version: v4.11
+			Lines:
+				'''
+				[+] Added a new weapon for the Summoner: Seuche Tether.
+				[+] Discord is now available on Steam Workshop!
+				[+] The interface and feedback with the FPV Drun have been improved. 
+				[*] Changed sounds for FPV Drun (Seuche Tether).
+				[-]
+				'''
+		}
+
 		Buffs: {
 			CorrosionBuff: {
 				DisplayName: Corrosion
@@ -43,6 +55,11 @@ Mods: {
 					Complete neutralization of all anthrax strains.
 					The stomach is protected by nuclear freshness.
 					'''
+			}
+
+			DroneOperatorBuff: {
+				Description: You are controlling a drone. Your defense is increased by 25 and damage resistance by 40%.
+				DisplayName: Controlling the Drone
 			}
 		}
 
@@ -359,7 +376,7 @@ Mods: {
 
 			PlagueSample: {
 				DisplayName: Plague Sample
-				Tooltip: ""
+				Tooltip: Do not touch with bare hands!
 			}
 
 			RayOfDiseases: {
@@ -371,6 +388,18 @@ Mods: {
 					The strafing run will afflict enemies with the [c/00ff00:Anthrax] and [c/00ff00:Plague] strains.
 					Allows you to designate a specific enemy as the target for other summoned creatures.
 					[c/ff1111:Tired of Sea Scourges? This is your solution!]
+					'''
+			}
+
+			SeucheTether: {
+				DisplayName: Seuche Tether
+				Tooltip:
+					'''
+					Launches a guided FPV kamikaze drone that contaminates the area with [c/00ff00:Anthrax] and [c/00ff00:Plague] upon detonation.
+					[W] to accelerate, [A] and [D] for rotation.
+					Use FPV goggles for better control.
+					Uses the same scheme as Kwad Racer Drone.
+					The primary instrument of modern warfare.
 					'''
 			}
 		}
@@ -394,6 +423,8 @@ Mods: {
 			DiseaseStrafingBullet.DisplayName: Disease Strafing Bullet
 			RayOfDiseasesLaser.DisplayName: Ray Of Diseases Laser
 			BombTargetZone.DisplayName: Bomb Target Zone
+			PlagueDrun.DisplayName: Plague Drun
+			PlagueDrunCloud.DisplayName: Plague Drun Cloud
 		}
 
 		"Keybinds.Phosphor Blackout.DisplayName": Phosphor  Blackout
@@ -402,7 +433,7 @@ Mods: {
 		NPCs: {
 			XT017Scorpion: {
 				FireSupportAlert: FIRE SUPPORT REQUIRED.
-				Bestiary: Draedon heavy twin-rotor assault helicopter, based on blueprints from HAZARDICATE INC. It is equipped with heavy armor, mine-laying systems, and a direct data link to "Raptor" support jet-fighters. Straight from the Mainland.
+				Bestiary: Draedon heavy twin-rotor assault helicopter, based on blueprints from HAZARDICATE INC. It is equipped with heavy armor, mine-laying systems, and a direct data link to "Raptor" support jet-fighters. XT-017 is a dreadnought patrolling the shores of the Sulfur Sea to search for and destroy Sea Scourges and Nuclear Terrors.
 				DisplayName: XT-017 «Scorpion»
 				RaptorQuote1: Let's take this one.
 				RaptorQuote2: He's mine.
