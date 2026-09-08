@@ -379,7 +379,18 @@ Mods: {
 					[c/ff1111:¿Cansado de los Azotes Marinos? ¡Esta es tu solución!]
 					'''
 			}
-		}
+		   SeucheTether: {
+               DisplayName: Vínculo de Seuche
+               Tooltip:
+                   '''
+                   Lanza un dron kamikaze FPV guiado que contamina el área con [c/00ff00:Ántrax] y [c/00ff00:Peste] al detonar.
+                   [W] para acelerar, [A] y [D] para girar.
+                   Usa gafas FPV para un mejor control.
+                   Utiliza el mismo esquema que el dron Kwad Racer.
+                   El principal instrumento de la guerra moderna.
+                   '''
+          }
+      }
 
 		Projectiles: {
 			ThrownSHAKProj.DisplayName: SHAK Lanzada
