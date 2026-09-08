@@ -43,8 +43,14 @@ Mods: {
 					Neutralización completa de todas las cepas de ántrax. 
 					El estómago está protegido por una frescura nuclear. 
 					'''
-			}
-		}
+			}  
+
+		   DroneOperatorBuff: {
+               DisplayName: Controlando el dron
+               Description: Estás controlando un dron. Tu defensa aumenta en 25 y tu resistencia al daño aumenta en un 40%.
+
+           }
+       }
  
 		Items: {
 			PlagueOperatorHelmet: {
