@@ -1,7 +1,76 @@
 Mods: {
 	ZeroHourMilitaryMod: {
-		Buffs: {
-			CorrosionBuff: {
+		
+		Configs: { 
+			ClientConfig: { 
+				PlagueIcon: { 
+					Label Icono de Plaga
+					Tooltip Permite seleccionar el antiguo icono clásico del debuff Plaga del Calamity Mod. 
+				} 
+ 
+				IrradiatedIcon: { 
+					Label Icono de Irradiado
+					Tooltip Permite seleccionar el antiguo icono clásico del debuff Irradiado del Calamity Mod. 
+				} 
+ 
+				DisplayName Configuración del cliente
+			} 
+ 
+			PlagueIconStyle: { 
+				CalamityDefault: { 
+					Label Predeterminado (Calamity)
+					Tooltip "" 
+				} 
+ 
+				LegacyV1: { 
+					Label Clásico (1.4.4.001)
+					Tooltip "" 
+				} 
+ 
+				LegacyV2: { 
+					Label Clásico (1.2.2.005)
+					Tooltip "" 
+				} 
+ 
+				LegacyV3: { 
+					Label Clásico (1.1.7.805)
+					Tooltip "" 
+				} 
+ 
+				LegacyV4: { 
+					Label Clásico (1.1.4.44)
+					Tooltip "" 
+				} 
+ 
+				Tooltip "" 
+			} 
+ 
+			IrradiatedIconStyle: { 
+				CalamityDefault: { 
+					Label Predeterminado (Calamity)
+					Tooltip "" 
+				} 
+ 
+				LegacyV1: { 
+					Label Clásico (1.5.0.001)
+					Tooltip "" 
+				} 
+ 
+				LegacyV2: { 
+					Label Clásico (1.3.4.103)
+					Tooltip "" 
+				} 
+ 
+				LegacyV3: { 
+					Label Clásico (1.1.7.911)
+					Tooltip "" 
+				} 
+ 
+				Tooltip "" 
+			} 
+		}
+    Buffs: {
+ 			CorrosionBuff: {
 				DisplayName: Corrosión 
 				Description: La vitalidad y la armadura se disuelven bajo los efectos de la corrosión. 
 			}
@@ -68,7 +137,9 @@ Mods: {
 					Los enemigos afectados por la Plaga reciben un 10% más de daño.
 					+5% de tiempo de vuelo. 
 					[Presiona la tecla del bono de conjunto para activar Apagón (+49% de daño y +20% de probabilidad de golpe crítico durante 5 s)] 
-					Pulsar dos veces a la izquierda o derecha produce un impulso como Virili. 
+					Pulsar dos veces a la izquierda o derecha produce un impulso como Virili.
+                    Permite ver a los enemigos a través de las paredes.
+
 					'''
 				SetBonusSummoner: 
 					'''
@@ -76,7 +147,8 @@ Mods: {
 					Los enemigos afectados por la Plaga reciben un 10% más de daño.
 					+5% de tiempo de vuelo. 
 					[Presiona la tecla del bono de conjunto para activar Apagón (+49% de daño y +20% de probabilidad de golpe crítico durante 5 s)] 
-					Pulsar dos veces a la izquierda o derecha produce un impulso como Virili. 
+					Pulsar dos veces a la izquierda o derecha produce un impulso como Virili.
+                    Permite ver a los enemigos a través de las paredes.
 					'''
 			}
  
@@ -342,7 +414,7 @@ Mods: {
  
 			ScorpionTestSummon: {
 				DisplayName: La Cepa "Escorpión" 
-				Tooltip: "[c/ff0000:¡Oh! Un botón rojo]. Lo siento, pero este jefe no es apto para combate cuerpo a cuerpo puro por ahora." 
+				Tooltip: "[c/ff0000:¡Oh! Un botón rojo]. 
 				SulphurousSeaWarning: "[c/00ff00: La señal está siendo interferida... ¡XT-017 solo puede ser interceptado cerca del Mar Sulfuroso!]" 
 			}
  
@@ -379,18 +451,63 @@ Mods: {
 					[c/ff1111:¿Cansado de los Azotes Marinos? ¡Esta es tu solución!]
 					'''
 			}
-		   SeucheTether: {
-               DisplayName: Vínculo de Seuche
+		  Diagnosis: {
+               DisplayName: Diagnóstico
                Tooltip:
                    '''
                    Lanza un dron kamikaze FPV guiado que contamina el área con [c/00ff00:Ántrax] y [c/00ff00:Peste] al detonar.
                    [W] para acelerar, [A] y [D] para girar.
                    Usa gafas FPV para un mejor control.
                    Utiliza el mismo esquema que el dron Kwad Racer.
+                   Es compatible totalmente con gamepads/controladores.
                    El principal instrumento de la guerra moderna.
                    '''
           }
-      }
+      PlagueMudItem: {
+				DisplayName: Barro Infestado
+				Tooltip: ""
+			}
+
+			PlagueSeedsItem: {
+				DisplayName: Semillas de Plaga
+				Tooltip: ""
+			}
+
+			PlagueMudWallItem: {
+				DisplayName: Pared de Barro Infestado
+				Tooltip: ""
+			}
+
+			Legacy74M: {
+				Tooltip: v2022.0.4 Clásico
+				DisplayName: 74M
+			}
+
+			GrozaLegacy: {
+				Tooltip: v2022.0.4 Clásico
+				DisplayName: Groza
+			}
+
+			QBU88Legacy: {
+				DisplayName: QBU-88
+				Tooltip: v2022.0.4 Clásico
+			}
+
+			QBZLegacy: {
+				DisplayName: QBZ-97
+				Tooltip: v2022.0.4 Clásico
+			}
+
+			SaigaLegacy: {
+				DisplayName: Saiga
+				Tooltip: v2022.0.4 Clásico
+			}
+
+			Vanector: {
+				DisplayName: Vanector
+				Tooltip: Vector de Vane.
+			}
+	 }
 
 		Projectiles: {
 			ThrownSHAKProj.DisplayName: SHAK Lanzada
@@ -419,8 +536,10 @@ Mods: {
 		NPCs: {
 			XT017Scorpion: {
 				FireSupportAlert: SE REQUIERE APOYO DE FUEGO.
-				Bestiary: Helicóptero de asalto pesado de dos rotores de Draedon, basado en planos de HAZARDICATE INC. Está equipado con blindaje pesado, sistemas de colocación de minas y un enlace de datos directo con los cazas de apoyo "Raptor". Directamente desde el Continente.
-				DisplayName: XT-017 «Escorpión»
+				Bestiary: Helicóptero de asalto pesado de dos rotores de Draedon, basado en planos de HAZARDICATE INC.
+Está equipado con blindaje pesado, sistemas de colocación de minas y un enlace de datos directo con los cazas de apoyo "Raptor".
+XT-017 es un acorazado que patrulla las costas del Mar de Azufre para buscar y destruir a los Flagelos Marinos y los Terrores Nucleares.
+El "Escorpión" se alimenta del combustible nuclear de los Terrores Nucleares, lo que le permite experimentar una Desintegración Subatómica.
 				RaptorQuote1: Vamos a por este.
 				RaptorQuote2: Es mío.
 				RaptorQuote3: Entendido.
@@ -436,6 +555,54 @@ Mods: {
 				IntroTrack: FOREVER
 				IntroComposer: ~ Brandon McKagan
 			}
+			PilotVane: {
+				DisplayName: Piloto conmocionado
+
+				Names: {
+					Vane: Vane
+					McKagan: McKagan
+					Hunter: Hunter
+					Sparrow: Sparrow
+					Eagle: Eagle
+					Falcon: Falcon
+				}
+
+				Dialogue: {
+					Line1: Olvidé de nuevo tu regalo, lo siento mucho
+					Line2: ¿Virili? Una maldita palabra familiar. O un nombre. Realmente no lo recuerdo.
+					Line3: Te estoy agradecido por liberarme de las fauces de esta máquina podrida. Pero otra vez, ¿cómo era tu nombre?
+					Line4: Me temo que nunca volveré a subir a ese caza infectado.
+					Line5: ¿Cuántos años tengo? ¿Cuánto tiempo fui un asesino del Mar de Azufre? Ugh... Ni siquiera recuerdo mi segundo nombre...
+					BiomeHint: Si quieres que opere al 100%, consígueme una base en la Jungla o cerca de mi costa tóxica. Solo manténme alejado de los hongos brillantes.
+					MushroomHate: ¿Hablas en serio? Sácame de este basurero de hongos antes de que empiece a lanzar frascos tóxicos contra la pared.
+				}
+
+				TownNPCMood: {
+					Content: *Suspira*, ¡intoxicante!
+					NoHome: Es como... si estuviera helando afuera. Al menos la cabina de mi caza tenía calefacción.
+					FarFromHome: Daría lo que fuera por un café caliente en casa en lugar de lidiar con todo esto.
+					LoveSpace: Por fin, espacio para extender mis alas.
+					DislikeCrowded: Se está poniendo un poco estrecho por aquí, ¿no crees?
+					HateCrowded: Ni siquiera puedo extender mis alas en este diminuto armario.
+					LoveBiome: Aire fresco, humedad y ni un maldito hongo. Me queda perfecto.
+					HateBiome: Estoy a punto de vomitar por todos estos hongos. ¡Sácame de aquí!
+					HateNPC: ¡Mantén a {NPCName} alejado de mí! Ese hongo andante literalmente me enferma.
+					LikeNPC_Princess: "{NPCName} es una auténtica joya."
+					Princess_LovesNPC: "¡{NPCName} tiene un espíritu contagioso!"
+				}
+			}
+		}
+
+		Biomes: {
+			PlagueJungleBiome: {
+				DisplayName: Jungla Infestada
+				TownNPCDialogueName: Jungla Infestada
+			}
+		}
+
+		Conditions: {
+			IsVane: El nombre es Vane
+			IsMcKagan: El nombre es McKagan
 		}
 	}
 }
