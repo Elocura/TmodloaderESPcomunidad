@@ -1,15 +1,94 @@
 Mods: {
 	ZeroHourMilitaryMod: {
 		Changelog: {
-			Version: v4.11
+			Version: v4.13-4.12
 			Lines:
 				'''
-				[+] Added a new weapon for the Summoner: Seuche Tether.
-				[+] Discord is now available on Steam Workshop!
+				[+] Added a new NPC: Shell-shocked Pilot.
+				[+] Restored weapons and the main menu from build v2022.0.4.
+				[+] Added a new weapon for the Ranged: the Vanector (i.e., Vane's Vector).
+				[*] Fixed XT-017 Scorpion bestiary.
+
+				[+] Added a new weapon for the Summoner: Diagnosis.
+				[+] Discord is now available!
+				[+] You can now pat Virili!
 				[+] The interface and feedback with the FPV Drun have been improved. 
-				[*] Changed sounds for FPV Drun (Seuche Tether).
+				[+] Subatomic Decay. 
+				[+] Added the option to change the Plague and Irradiated icon to any of the ones from older Calamity builds.
+				[*] XT-017 Scorpion AI changes + new attacks, phases and recoil.
+				[*] XT-017 Scorpion base movement speed was increased from 20 to 36, but now he's moving freely.
+				[*] Fixed an issue where the ToxicRain.raw shader (green rain) was closed incorrectly, causing the game to crash.
 				[-]
 				'''
+		}
+
+		Configs: {
+			ClientConfig: {
+				PlagueIcon: {
+					Label: Plague Icon
+					Tooltip: Allows you to select the old, classic Plague debuff icon from the Calamity Mod.
+				}
+
+				IrradiatedIcon: {
+					Label: Irradiated Icon
+					Tooltip: Allows you to select the old, classic Irradiated debuff icon from the Calamity Mod.
+				}
+
+				DisplayName: Client Config
+			}
+
+			PlagueIconStyle: {
+				CalamityDefault: {
+					Label: Default (Calamity )
+					Tooltip: ""
+				}
+
+				LegacyV1: {
+					Label: Legacy (1.4.4.001)
+					Tooltip: ""
+				}
+
+				LegacyV2: {
+					Label: Legacy (1.2.2.005)
+					Tooltip: ""
+				}
+
+				LegacyV3: {
+					Label: Legacy (1.1.7.805)
+					Tooltip: ""
+				}
+
+				LegacyV4: {
+					Label: Legacy (1.1.4.44)
+					Tooltip: ""
+				}
+
+				Tooltip: ""
+			}
+
+			IrradiatedIconStyle: {
+				CalamityDefault: {
+					Label: Default (Calamity)
+					Tooltip: ""
+				}
+
+				LegacyV1: {
+					Label: Legacy (1.5.0.001)
+					Tooltip: ""
+				}
+
+				LegacyV2: {
+					Label: Legacy (1.3.4.103)
+					Tooltip: ""
+				}
+
+				LegacyV3: {
+					Label: Legacy (1.1.7.911)
+					Tooltip: ""
+				}
+
+				Tooltip: ""
+			}
 		}
 
 		Buffs: {
@@ -80,6 +159,7 @@ Mods: {
 					+5% flight time.
 					[Press the set bonus key to activate Blackout (+49% damage and +20% crit chance for 5 sec)]
 					Double-pressing left or right results in a dash like Virili.
+					Allows you to see enemies through walls.
 					'''
 				SetBonusSummoner:
 					'''
@@ -88,6 +168,7 @@ Mods: {
 					+5% flight time.
 					[Press the set bonus key to activate Blackout (+49% damage and +20% crit chance for 5 sec)]
 					Double-pressing left or right results in a dash like Virili.
+					Allows you to see enemies through walls.
 					'''
 			}
 
@@ -353,7 +434,7 @@ Mods: {
 
 			ScorpionTestSummon: {
 				DisplayName: The "Scorpion" Strain
-				Tooltip: "[c/ff0000:Ooh! A red button]. Sorry, but this boss is not true-melee friendly for now."
+				Tooltip: "[c/ff0000:Ooh! A red button]."
 				SulphurousSeaWarning: "[c/00ff00: The signal is being jammed... XT-017 can only be intercepted near the Sulfur Sea!]"
 			}
 
@@ -391,16 +472,62 @@ Mods: {
 					'''
 			}
 
-			SeucheTether: {
-				DisplayName: Seuche Tether
+			Diagnosis: {
+				DisplayName: Diagnosis
 				Tooltip:
 					'''
 					Launches a guided FPV kamikaze drone that contaminates the area with [c/00ff00:Anthrax] and [c/00ff00:Plague] upon detonation.
 					[W] to accelerate, [A] and [D] for rotation.
 					Use FPV goggles for better control.
 					Uses the same scheme as Kwad Racer Drone.
+					Fully supports gamepads/controllers.
 					The primary instrument of modern warfare.
 					'''
+			}
+
+			PlagueMudItem: {
+				DisplayName: Plagued Mud
+				Tooltip: ""
+			}
+
+			PlagueSeedsItem: {
+				DisplayName: Plague Seeds
+				Tooltip: ""
+			}
+
+			PlagueMudWallItem: {
+				DisplayName: Plagued Mud Wall
+				Tooltip: ""
+			}
+
+			Legacy74M: {
+				Tooltip: v2022.0.4 Legacy
+				DisplayName: 74M
+			}
+
+			GrozaLegacy: {
+				Tooltip: v2022.0.4 Legacy
+				DisplayName: Groza
+			}
+
+			QBU88Legacy: {
+				DisplayName: QBU-88
+				Tooltip: v2022.0.4 Legacy
+			}
+
+			QBZLegacy: {
+				DisplayName: QBZ-97
+				Tooltip: v2022.0.4 Legacy
+			}
+
+			SaigaLegacy: {
+				DisplayName: Saiga
+				Tooltip: v2022.0.4 Legacy
+			}
+
+			Vanector: {
+				DisplayName: Vanector
+				Tooltip: Vane's Vector.
 			}
 		}
 
@@ -433,7 +560,13 @@ Mods: {
 		NPCs: {
 			XT017Scorpion: {
 				FireSupportAlert: FIRE SUPPORT REQUIRED.
-				Bestiary: Draedon heavy twin-rotor assault helicopter, based on blueprints from HAZARDICATE INC. It is equipped with heavy armor, mine-laying systems, and a direct data link to "Raptor" support jet-fighters. XT-017 is a dreadnought patrolling the shores of the Sulfur Sea to search for and destroy Sea Scourges and Nuclear Terrors.
+				Bestiary:
+					'''
+					Draedon heavy twin-rotor assault helicopter, based on blueprints from HAZARDICATE INC. 
+					It is equipped with heavy armor, mine-laying systems, and a direct data link to "Raptor" support jet-fighters. 
+					XT-017 is a dreadnought patrolling the shores of the Sulfur Sea to search for and destroy Sea Scourges and Nuclear Terrors.
+					The "Scorpion" feeds on nuclear fuel from Nuclear Terrors, allowing it to undergo Subatomic Decay.
+					'''
 				DisplayName: XT-017 «Scorpion»
 				RaptorQuote1: Let's take this one.
 				RaptorQuote2: He's mine.
@@ -450,6 +583,55 @@ Mods: {
 				IntroTrack: FOREVER
 				IntroComposer: ~ Brandon McKagan
 			}
+
+			PilotVane: {
+				DisplayName: Shell-shocked Pilot
+
+				Names: {
+					Vane: Vane
+					McKagan: McKagan
+					Hunter: Hunter
+					Sparrow: Sparrow
+					Eagle: Eagle
+					Falcon: Falcon
+				}
+
+				Dialogue: {
+					Line1: I forgot about your gift again, im so sorry
+					Line2: Virili? A damn familiar word. Or a name. I don't really remember.
+					Line3: I am grateful to you for freeing me from the jaws of this rotten machine. But again, how was your name?
+					Line4: I'm afraid I'll never get into that infectious fighter jet again.
+					Line5: How old am i? How long i was a sulfur sea killer? Ugh... I don't even remember my second name...
+					BiomeHint: If you want me operating at 100%, get me a base in the Jungle or near my toxic coast. Just keep me away from glowing mushrooms.
+					MushroomHate: Are you serious? Get me out of this mushroom dump before I start throwing toxic flasks at the wall.
+				}
+
+				TownNPCMood: {
+					Content: *Sighs*, intoxicating!
+					NoHome: It's like... freezing outside. At least my jet cockpit had heating.
+					FarFromHome: I'd kill for a hot coffee back home instead of dealing with all this.
+					LoveSpace: Finally, room to spread my wings.
+					DislikeCrowded: Getting a bit tight around here, don't ya think?
+					HateCrowded: I can't even spread my wings in this tiny closet.
+					LoveBiome: Fresh air, moisture and no damn shroomies. Fits me just right.
+					HateBiome: I'm about to throw up from all these mushrooms. Get me out of here!
+					HateNPC: Keep {NPCName} away from me! That walking mushroom literally makes me sick.
+					LikeNPC_Princess: "{NPCName} is an absolute gem."
+					Princess_LovesNPC: "{NPCName} has an infectious spirit!"
+				}
+			}
+		}
+
+		Biomes: {
+			PlagueJungleBiome: {
+				DisplayName: Plagued Jungle
+				TownNPCDialogueName: Plagued Jungle
+			}
+		}
+
+		Conditions: {
+			IsVane: Name is Vane
+			IsMcKagan: Name is McKagan
 		}
 	}
 }
