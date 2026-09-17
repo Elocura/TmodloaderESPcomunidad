@@ -1,75 +1,97 @@
 Mods: {
 	ZeroHourMilitaryMod: {
-		
+		Changelog: {
+			Version: v4.13-4.12
+			Lines:
+				'''
+				[+] Added a new NPC: Shell-shocked Pilot.
+				[+] Restored weapons and the main menu from build v2022.0.4.
+				[+] Added a new weapon for the Ranged: the Vanector (i.e., Vane's Vector).
+				[*] Fixed XT-017 Scorpion bestiary.
+
+				[+] Added a new weapon for the Summoner: Diagnosis.
+				[+] Discord is now available!
+				[+] You can now pat Virili!
+				[+] The interface and feedback with the FPV Drun have been improved. 
+				[+] Subatomic Decay. 
+				[+] Added the option to change the Plague and Irradiated icon to any of the ones from older Calamity builds.
+				[*] XT-017 Scorpion AI changes + new attacks, phases and recoil.
+				[*] XT-017 Scorpion base movement speed was increased from 20 to 36, but now he's moving freely.
+				[*] Fixed an issue where the ToxicRain.raw shader (green rain) was closed incorrectly, causing the game to crash.
+				[-]
+				'''
+		}
+
 		Configs: { 
 			ClientConfig: { 
 				PlagueIcon: { 
-					Label Icono de Plaga
-					Tooltip Permite seleccionar el antiguo icono clásico del debuff Plaga del Calamity Mod. 
+					Label: Icono de Plaga
+					Tooltip: Permite seleccionar el antiguo icono clásico del debuff Plaga del Calamity Mod. 
 				} 
  
 				IrradiatedIcon: { 
-					Label Icono de Irradiado
-					Tooltip Permite seleccionar el antiguo icono clásico del debuff Irradiado del Calamity Mod. 
+					Label: Icono de Irradiado
+					Tooltip: Permite seleccionar el antiguo icono clásico del debuff Irradiado del Calamity Mod. 
 				} 
  
-				DisplayName Configuración del cliente
+				DisplayName: Configuración del cliente
 			} 
  
 			PlagueIconStyle: { 
 				CalamityDefault: { 
-					Label Predeterminado (Calamity)
-					Tooltip "" 
+					Label: Predeterminado (Calamity)
+					Tooltip: ""
 				} 
  
 				LegacyV1: { 
-					Label Clásico (1.4.4.001)
-					Tooltip "" 
+					Label: Clásico (1.4.4.001)
+					Tooltip: ""
 				} 
  
 				LegacyV2: { 
-					Label Clásico (1.2.2.005)
-					Tooltip "" 
+					Label: Clásico (1.2.2.005)
+					Tooltip: ""
 				} 
  
 				LegacyV3: { 
-					Label Clásico (1.1.7.805)
-					Tooltip "" 
+					Label: Clásico (1.1.7.805)
+					Tooltip: ""
 				} 
  
 				LegacyV4: { 
-					Label Clásico (1.1.4.44)
-					Tooltip "" 
+					Label: Clásico (1.1.4.44)
+					Tooltip: ""
 				} 
  
-				Tooltip "" 
+				Tooltip: ""
 			} 
  
 			IrradiatedIconStyle: { 
 				CalamityDefault: { 
-					Label Predeterminado (Calamity)
-					Tooltip "" 
+					Label: Predeterminado (Calamity)
+					Tooltip: "" 
 				} 
  
 				LegacyV1: { 
-					Label Clásico (1.5.0.001)
-					Tooltip "" 
+					Label: Clásico (1.5.0.001)
+					Tooltip: "" 
 				} 
  
 				LegacyV2: { 
-					Label Clásico (1.3.4.103)
-					Tooltip "" 
+					Label: Clásico (1.3.4.103)
+					Tooltip: "" 
 				} 
  
 				LegacyV3: { 
-					Label Clásico (1.1.7.911)
-					Tooltip "" 
+					Label: Clásico (1.1.7.911)
+					Tooltip: "" 
 				} 
  
-				Tooltip "" 
+				Tooltip: "" 
 			} 
 		}
-    Buffs: {
+
+		Buffs: {
  			CorrosionBuff: {
 				DisplayName: Corrosión 
 				Description: La vitalidad y la armadura se disuelven bajo los efectos de la corrosión. 
@@ -107,20 +129,19 @@ Mods: {
  
 			TarkhunBuff: {
 				DisplayName: Líquido Estragón 
-				Description: 
+				Description:
 					'''
 					Neutralización completa de todas las cepas de ántrax. 
 					El estómago está protegido por una frescura nuclear. 
 					'''
-			}  
+			}
 
-		   DroneOperatorBuff: {
-               DisplayName: Controlando el dron
-               Description: Estás controlando un dron. Tu defensa aumenta en 25 y tu resistencia al daño aumenta en un 40%.
+			DroneOperatorBuff: {
+				Description: Estás controlando un dron. Tu defensa aumenta en 25 y tu resistencia al daño aumenta en un 40%.
+				DisplayName: Controlando el dron
+			}
+		}
 
-           }
-       }
- 
 		Items: {
 			PlagueOperatorHelmet: {
 				DisplayName: Casco Táctico del Operador de la Plaga 
@@ -414,7 +435,7 @@ Mods: {
  
 			ScorpionTestSummon: {
 				DisplayName: La Cepa "Escorpión" 
-				Tooltip: "[c/ff0000:¡Oh! Un botón rojo]. 
+				Tooltip: "[c/ff0000:¡Oh! Un botón rojo]."
 				SulphurousSeaWarning: "[c/00ff00: La señal está siendo interferida... ¡XT-017 solo puede ser interceptado cerca del Mar Sulfuroso!]" 
 			}
  
@@ -451,19 +472,21 @@ Mods: {
 					[c/ff1111:¿Cansado de los Azotes Marinos? ¡Esta es tu solución!]
 					'''
 			}
-		  Diagnosis: {
-               DisplayName: Diagnóstico
-               Tooltip:
-                   '''
-                   Lanza un dron kamikaze FPV guiado que contamina el área con [c/00ff00:Ántrax] y [c/00ff00:Peste] al detonar.
-                   [W] para acelerar, [A] y [D] para girar.
-                   Usa gafas FPV para un mejor control.
-                   Utiliza el mismo esquema que el dron Kwad Racer.
-                   Es compatible totalmente con gamepads/controladores.
-                   El principal instrumento de la guerra moderna.
-                   '''
-          }
-      PlagueMudItem: {
+
+			Diagnosis: {
+				DisplayName: Diagnóstico
+				Tooltip:
+					'''
+					Lanza un dron kamikaze FPV guiado que contamina el área con [c/00ff00:Ántrax] y [c/00ff00:Peste] al detonar.
+					[W] para acelerar, [A] y [D] para girar.
+					Usa gafas FPV para un mejor control.
+					Utiliza el mismo esquema que el dron Kwad Racer.
+					Es compatible totalmente con gamepads/controladores.
+					El principal instrumento de la guerra moderna.
+					'''
+			}
+
+			PlagueMudItem: {
 				DisplayName: Barro Infestado
 				Tooltip: ""
 			}
@@ -507,7 +530,7 @@ Mods: {
 				DisplayName: Vanector
 				Tooltip: Vector de Vane.
 			}
-	 }
+		}
 
 		Projectiles: {
 			ThrownSHAKProj.DisplayName: SHAK Lanzada
@@ -536,10 +559,13 @@ Mods: {
 		NPCs: {
 			XT017Scorpion: {
 				FireSupportAlert: SE REQUIERE APOYO DE FUEGO.
-				Bestiary: Helicóptero de asalto pesado de dos rotores de Draedon, basado en planos de HAZARDICATE INC.
-Está equipado con blindaje pesado, sistemas de colocación de minas y un enlace de datos directo con los cazas de apoyo "Raptor".
-XT-017 es un acorazado que patrulla las costas del Mar de Azufre para buscar y destruir a los Flagelos Marinos y los Terrores Nucleares.
-El "Escorpión" se alimenta del combustible nuclear de los Terrores Nucleares, lo que le permite experimentar una Desintegración Subatómica.
+				Bestiary:
+					'''
+					Helicóptero de asalto pesado de dos rotores de Draedon, basado en planos de HAZARDICATE INC.
+					Está equipado con blindaje pesado, sistemas de colocación de minas y un enlace de datos directo con los cazas de apoyo "Raptor".
+					XT-017 es un acorazado que patrulla las costas del Mar de Azufre para buscar y destruir a los Flagelos Marinos y los Terrores Nucleares.
+					El "Escorpión" se alimenta del combustible nuclear de los Terrores Nucleares, lo que le permite experimentar una Desintegración Subatómica.
+					'''
 				RaptorQuote1: Vamos a por este.
 				RaptorQuote2: Es mío.
 				RaptorQuote3: Entendido.
@@ -555,6 +581,7 @@ El "Escorpión" se alimenta del combustible nuclear de los Terrores Nucleares, l
 				IntroTrack: FOREVER
 				IntroComposer: ~ Brandon McKagan
 			}
+
 			PilotVane: {
 				DisplayName: Piloto conmocionado
 
