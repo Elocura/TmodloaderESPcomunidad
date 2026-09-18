@@ -7,7 +7,7 @@ GsCopperArmor: {
 	SetBonusLine:
 		'''
 		+2 de defensa extra
-		Cada 6 golpes, lanza una descarga de electricidad estática al enemigo más cercano, 
+		Cada 6 golpes, lanza una descarga de electricidad estática al enemigo más cercano,
 		causándole un daño equivalente al 40% del golpe
 		'''
 }
@@ -66,13 +66,13 @@ GsGoldArmor: {
 	SetBonusLine:
 		'''
 		+4 de defensa extra
-		Cada octavo golpe lanza 3 monedas de oro al objetivo, 
+		Cada octavo golpe lanza 3 monedas de oro al objetivo,
 		cada una de las cuales inflige el 35% del daño del golpe
 		'''
 }
 
 GsPlatinumArmor: {
-	BodyLine:  Velocidad de minería un 15% más rápida
+	BodyLine: Velocidad de minería un 15% más rápida
 	SetBonusLine:
 		'''
 		+4 de defensa extra
@@ -169,7 +169,7 @@ GsAnglerArmor.SetBonusLine:
 GsNinjaArmor.SetBonusLine:
 	'''
 	Aumenta un 20% la velocidad de movimiento
-    Los cuchillos arrojadizos, los shurikens y las bolas con púas no se consumen,
+	Los cuchillos arrojadizos, los shurikens y las bolas con púas no se consumen,
 	se lanzan un 15% más rápido, e infligen 3 puntos de daño adicionales y provocan hemorragia
 	'''
 GsFossilArmor.SetBonusLine:
@@ -182,44 +182,44 @@ GsFossilArmor.SetBonusLine:
 GsShadowArmor.SetBonusLine:
 	'''
 	Aumenta considerablemente la velocidad de empuje y la aceleración
-    Los golpes críticos infligen Llama de las Sombras durante 2 segundos
+	Los golpes críticos infligen Llama de las Sombras durante 2 segundos
 	'''
 GsCrimsonArmor.SetBonusLine:
 	'''
 	La regeneración de vida es considerablemente mayor
-    Si le das a un enemigo y le reduces la vida por debajo de la mitad, hay un 20%
+	Si le das a un enemigo y le reduces la vida por debajo de la mitad, hay un 20%
 	de probabilidades de que se libere una sanguijuela que lo muerda y vuelva
 	volando para curarte 3 puntos de vida
 	'''
 GsMeteorArmor.SetBonusLine:
 	'''
 	La Pistola espacial cuesta 0 de maná
-	Los golpes mágicos tienen un 15% de probabilidad de hacer que caiga un 
+	Los golpes mágicos tienen un 15% de probabilidad de hacer que caiga un
 	meteoro en llamas sobre el objetivo
 	'''
 GsNecroArmor.SetBonusLine:
 	'''
 	Aumenta un 10% la probabilidad de golpe crítico a distancia
-    Los golpes a distancia tienen un 20% de probabilidad de lanzar un hueso perforante;
+	Los golpes a distancia tienen un 20% de probabilidad de lanzar un hueso perforante;
 	al matar a un enemigo, brotan tres huesos del cadáver
 	'''
 GsJungleArmor.SetBonusLine:
 	'''
 	Se reduce el consumo de maná un 16%
-    Los golpes mágicos dejan una nube de esporas que envenena a los enemigos;
+	Los golpes mágicos dejan una nube de esporas que envenena a los enemigos;
 	cada espora que impacta restaura 2 de maná
 	'''
 GsBeeArmor.SetBonusLine:
 	'''
 	Aumenta un 10% el daño de las invocaciones
-    Tres abejas gigantes te rodean y pican a los enemigos cercanos, y todas ellas
+	Tres abejas gigantes te rodean y pican a los enemigos cercanos, y todas ellas
 	se abalanzan sobre quienquiera que te haga daño
 	'''
 GsObsidianArmor.SetBonusLine:
 	'''
 	Aumenta un 15% el daño de las invocaciones, aumenta un 15% la velocidad del látigo,
 	aumenta un 30% el alcance del látigo; te permite caminar sobre piedra infernal y meteoritos
-    Los látigos marcan a los enemigos con una Marca de obsidiana durante 3s;
+	Los látigos marcan a los enemigos con una Marca de obsidiana durante 3s;
 	los súbditos infligen 4 de daño fijo adicional a los enemigos marcados
 	'''
 GsMoltenArmor.SetBonusLine:
@@ -232,7 +232,7 @@ GsMoltenArmor.SetBonusLine:
 GsCobaltArmor.SetBonusLine:
 	'''
 	La bonificación de conjunto de clase de tu casco funciona igual que antes
-    Si pasas 5 segundos sin recibir daño, obtienes Sombra veloz:+ 8% de velocidad de movimiento;
+	Si pasas 5 segundos sin recibir daño, obtienes Sombra veloz:+ 8% de velocidad de movimiento;
 	cada 5 golpes, lanzas una imagen residual en forma de hoja de cobalto
 	'''
 GsPalladiumArmor.SetBonusLine:
@@ -267,7 +267,7 @@ GsAdamantiteArmor.SetBonusLine:
 // Remaining hardmode and endgame sets
 GsSpiderArmor.SetBonusLine:
 	'''
-	Aumenta un 12 % el daño de las invocaciones
+	Aumenta un 12% el daño de las invocaciones
 	Los golpes de los esbirros tienen un 20% de probabilidad de lanzar telarañas que inmovilizan
 	a los enemigos durante 2s; al recibir daño, lanzan 3 telarañas a su vez
 	'''
@@ -282,7 +282,7 @@ GsFrostArmor.SetBonusLine:
 GsCrystalAssassinArmor.SetBonusLine:
 	'''
 	Aumenta dun 10% el daño y la probabilidad de golpe crítico, además te da la capacidad de hacer un
-	empuje. Al lanzarte  contra un enemigo, este expulsa 5 fragmentos de cristal
+	empuje. Al lanzarte contra un enemigo, este expulsa 5 fragmentos de cristal
 	Tus siguientes 3 ataques tras un umpuje serán golpes críticos garantizados
 	'''
 GsHallowedArmor.SetBonusLine:
@@ -301,7 +301,7 @@ GsBeetleScaleArmor.SetBonusLine:
 GsBeetleShellArmor.SetBonusLine:
 	'''
 	Al recibir daño, se obtiene una capa de caparazón de hasta 3 (cada una proporciona 6 de defensa
-	y un 6 % de reducción de daño), que desaparece tras 10 s si no se recibe ningún impacto. Si se recibe daño
+	y un 6% de reducción de daño), que desaparece tras 10 s si no se recibe ningún impacto. Si se recibe daño
 	cuando hay 3 capas, estas se rompen en 5 fragmentos de caparazón que se lanzan contra tu atacante.
 	'''
 GsTurtleArmor.SetBonusLine:
@@ -312,7 +312,7 @@ GsTurtleArmor.SetBonusLine:
 GsTikiArmor.SetBonusLine:
 	'''
 	+1 ranura para súbditos, un 10% más de daño de invocación y un 20% más de alcance del látigo
-    Los golpes de los súbditos y del látigo tienen un 20% de probabilidad de invocar
+	Los golpes de los súbditos y del látigo tienen un 20% de probabilidad de invocar
 	una llama espiritual de tótem que se dirige hacia el objetivo y lo envenena durante 3s
 	'''
 GsSpectreHoodArmor.SetBonusLine:
@@ -324,7 +324,7 @@ GsSpectreHoodArmor.SetBonusLine:
 GsSpectreMaskArmor.SetBonusLine:
 	'''
 	Los golpes mágicos siguen liberando almas perdidas, y el consumo de maná se reduce en un 15%
-	Aumenta dun 10%  el daño mágico y en la probabilidad de golpe crítico
+	Aumenta dun 10% el daño mágico y en la probabilidad de golpe crítico
 	Los golpes críticos mágicos tienen un 30% de probabilidad de lanzar una llama espectral adicional
 	'''
 GsShroomiteArmor.SetBonusLine:
@@ -344,7 +344,7 @@ GsVortexArmor.SetBonusLine:
 	'''
 	El sigilo de vórtice funciona como antes (no se consume munición mientras se está en sigilo;
 	+15% de velocidad de movimiento y +10% de crítico a distancia mientras se está visible).
-    Mientras se está en sigilo, los golpes a distancia tienen un 40% de probabilidad de lanzar
+	Mientras se está en sigilo, los golpes a distancia tienen un 40% de probabilidad de lanzar
 	un rayo de vórtice en cadena contra el enemigo más cercano
 	'''
 GsNebulaArmor.SetBonusLine:

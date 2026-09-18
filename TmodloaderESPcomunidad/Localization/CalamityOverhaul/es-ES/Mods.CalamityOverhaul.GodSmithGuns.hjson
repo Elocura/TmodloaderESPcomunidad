@@ -99,13 +99,13 @@ GsFlareGun.Desc:
 GsFlintlockPistol.Desc:
 	'''
 	Reforja: dos recámaras; el segundo disparo sale un 40% más rápido;
-    La última recámara dispara una doble bala en forma de V a partir de una sola bala, con el efecto de retroceso duplicado
-    Si aciertas en el punto óptimo al recargar, obtendrás un +25% en el siguiente disparo
+	La última recámara dispara una doble bala en forma de V a partir de una sola bala, con el efecto de retroceso duplicado
+	Si aciertas en el punto óptimo al recargar, obtendrás un +25% en el siguiente disparo
 	'''
 GsMusket.Desc:
 	'''
 	Reforja: un auténtica arma de avancarga; cada bala es un proyectil perforador que vuela más rápido y atraviesa a un enemigo más
-    Recarga en tres pasos: verter, apisonar, encender
+	Recarga en tres pasos: verter, apisonar, encender
 	'''
 GsQuadBarrelShotgun.Desc:
 	'''
@@ -117,7 +117,7 @@ GsRevolver.Desc: Reforja: ahora tiene un cilindro de seis recámaras; el último
 
 GsCandyCornRifle: {
 	Desc: Reforja: el clásico chorro ahora cae describiendo un bonito arco
-    ModeCandyRain: Lluvia de caramelos
+	ModeCandyRain: Lluvia de caramelos
 }
 
 GsClockworkAssaultRifle: {
@@ -192,8 +192,7 @@ GsUzi: {
 }
 
 GsVenusMagnum: {
-	Desc: Reforja: Tras un golpe crítico, en la siguiente ronda se atraviesa a un enemigo más 
-	y la línea de puntería se ilumina durante ese intervalo
+	Desc: Reforja: Tras un golpe crítico, en la siguiente ronda se atraviesa a un enemigo más y la línea de puntería se ilumina durante ese intervalo
 	ModeFocus: Foco del estambre
 }
 

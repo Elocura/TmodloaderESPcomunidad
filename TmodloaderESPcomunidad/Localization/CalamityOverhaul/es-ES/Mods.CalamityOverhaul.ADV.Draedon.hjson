@@ -1,50 +1,50 @@
 ExoMechdusaSum: {
 	IntroLine1: Ya sabes... este momento se ha esperado durante mucho tiempo.
-    IntroLine2: Me fascinan todos los aspectos de lo desconocido, pero nada me fascina más que tu propia naturaleza.
-    IntroLine3: Te mostraré mis creaciones, que superan incluso a las de los dioses.
-    IntroLine4: Y tú... tú me mostrarás tu naturaleza en combate.
-    IntroLine5: Ahora. Elige.
+	IntroLine2: Me fascinan todos los aspectos de lo desconocido, pero nada me fascina más que tu propia naturaleza.
+	IntroLine3: Te mostraré mis creaciones, que superan incluso a las de los dioses.
+	IntroLine4: Y tú... tú me mostrarás tu naturaleza en combate.
+	IntroLine5: Ahora. Elige.
 	SelectionPrompt: Elige.
-    BossRushLine: Elige. Tienes 20 segundos.
-    ChoiceAres: Ares
-    ChoiceThanatos: Thanatos
-    ChoiceTwins: Artemis
+	BossRushLine: Elige. Tienes 20 segundos.
+	ChoiceAres: Ares
+	ChoiceThanatos: Thanatos
+	ChoiceTwins: Artemis
 }
 
 ExoMechEndingDialogue: {
 	EEndLine1: Una variable desconocida. Tú... eres una singularidad.
-    EndLine2: Eres un forastero en esta tierra y en su historia, igual que yo.
-    EndLine3: ...Mis disculpas. Pero tras una "demostración" como esa, necesito un momento para ordenar mis pensamientos.
-    EndLine4: La sangre derramada hasta ahora ha dejado este continente estancado y sin vida.
+	EndLine2: Eres un forastero en esta tierra y en su historia, igual que yo.
+	EndLine3: ...Mis disculpas. Pero tras una "demostración" como esa, necesito un momento para ordenar mis pensamientos.
+	EndLine4: La sangre derramada hasta ahora ha dejado este continente estancado y sin vida.
 	EndLine5: Tú has derramado tu propia sangre. Quizá sea suficiente para poner fin a esta era de desesperación... En cualquier caso, es un cambio que deseaba ver.
-    EndLine6: Ahora deseas llegar hasta el tirano. Por desgracia, no puedo ayudarte.
+	EndLine6: Ahora deseas llegar hasta el tirano. Por desgracia, no puedo ayudarte.
 	EndLine7: No es por rencor. Mi único objetivo desde el principio era observar esta batalla.
-    EndLine8: Pero ya lo has conseguido en el pasado. Al final, encontrarás la manera.
-    EndLine9: Debo respetar y reconocer tu victoria. Pero, por ahora, debo volver a centrar mi atención en mis mecanismos.
-    KillAttemptLine: ...Tus acciones son... innecesarias.
+	EndLine8: Pero ya lo has conseguido en el pasado. Al final, encontrarás la manera.
+	EndLine9: Debo respetar y reconocer tu victoria. Pero, por ahora, debo volver a centrar mi atención en mis mecanismos.
+	KillAttemptLine: ...Tus acciones son... innecesarias.
 }
 
 DeploySignaltowerScenario: {
 	IntroLine1: Debo llevar a cabo un experimento crucial, y tú eres la persona más adecuada de las disponibles actualmente para ayudarme.
-    IntroLine2: Hace cien años terrestres, una tormenta energética arrasó la galaxia, destruyendo la mayor parte de mis instalaciones en este planeta.
-    IntroLine3: Todo estaba demasiado lejos. Para cuando me di cuenta de que mi red de vigilancia en Terra había dejado de funcionar, ya había transcurrido un siglo.
+	IntroLine2: Hace cien años terrestres, una tormenta energética arrasó la galaxia, destruyendo la mayor parte de mis instalaciones en este planeta.
+	IntroLine3: Todo estaba demasiado lejos. Para cuando me di cuenta de que mi red de vigilancia en Terra había dejado de funcionar, ya había transcurrido un siglo.
 	IntroLine4: Tras esa tormenta, los viajes interestelares se volvieron extremadamente inestables. Por lo tanto, debo reconstruir mis sistemas fundamentales en la Tierra.
-    IntroLine5: Necesito tu ayuda para desplegar la última matriz de entrelazamiento cuántico.
-    IntroLine6: Esta tecnología supera las limitaciones de la velocidad de la luz, logrando una comunicación instantánea que abarca toda la galaxia.
+	IntroLine5: Necesito tu ayuda para desplegar la última matriz de entrelazamiento cuántico.
+	IntroLine6: Esta tecnología supera las limitaciones de la velocidad de la luz, logrando una comunicación instantánea que abarca toda la galaxia.
 	IntroLine7: Pero antes de que pueda aplicarse, este mundo necesita un número suficiente de nodos de entrelazamiento cuántico.
-    IntroLine8: Esta es la torre de señal cuántica que he diseñado. Su núcleo utiliza estabilizadores de entrelazamiento y amplificadores de energía del punto cero.
-    TechExplainLine1: Cada torre puede establecer un enlace de entrelazamiento cuántico con otros nodos, formando una red de comunicaciones que abarca toda la galaxia.
+	IntroLine8: Esta es la torre de señal cuántica que he diseñado. Su núcleo utiliza estabilizadores de entrelazamiento y amplificadores de energía del punto cero.
+	TechExplainLine1: Cada torre puede establecer un enlace de entrelazamiento cuántico con otros nodos, formando una red de comunicaciones que abarca toda la galaxia.
 	TechExplainLine2: En condiciones teóricas, su latencia de transmisión puede acercarse a cero.
-    TaskLine: Necesito que despliegues estas torres de señal por todo el mundo para establecer la red de entrelazamiento completa.
-    AcceptPrompt: ¿Y bien? ¿Aceptas?
-    ChoiceAccept: Aceptar el encargo
-    ChoiceDecline: Más tarde
+	TaskLine: Necesito que despliegues estas torres de señal por todo el mundo para establecer la red de entrelazamiento completa.
+	AcceptPrompt: ¿Y bien? ¿Aceptas?
+	ChoiceAccept: Aceptar el encargo
+	ChoiceDecline: Más tarde
 
 	Choice_Accept: {
 		AcceptResponse: Excelente. Aquí tienes los esquemas de las torres. Infórmame de tus progresos cuando hayas terminado.
-        L1: Este es el primer lote de materiales. Es limitado. Construye primero la estructura principal de la torre de señales.
+		L1: Este es el primer lote de materiales. Es limitado. Construye primero la estructura principal de la torre de señales.
 		L2: Una vez que el primer nodo esté operativo, el enlace de comunicación comenzará a estabilizarse.
-        L3: En ese momento, podré transportar más recursos de forma continua a través del subespacio para una construcción a mayor escala.
+		L3: En ese momento, podré transportar más recursos de forma continua a través del subespacio para una construcción a mayor escala.
 	}
 
 	Choice_Decline.DeclineResponse: Entendido. Puedes volver a hablar conmigo cuando te prepares.
@@ -52,93 +52,93 @@ DeploySignaltowerScenario: {
 
 FirstTowerBuiltScenario: {
 	Line1: El nuevo nodo de entrelazamiento cuántico funciona sin problemas. La señal es estable.
-    Line2: Bien. Este es el primer paso para la red. Sigue instalando las torres de señal restantes.
-    Line3: Cuando el número de nodos alcance el nivel estándar, podré realizar observaciones precisas en un área mucho más amplia.
-    Line4: Sigue manteniendo tu eficiencia.
+	Line2: Bien. Este es el primer paso para la red. Sigue instalando las torres de señal restantes.
+	Line3: Cuando el número de nodos alcance el nivel estándar, podré realizar observaciones precisas en un área mucho más amplia.
+	Line4: Sigue manteniendo tu eficiencia.
 }
 
 QuestCompleteScenario: {
 	Line1: Todos los nodos cuánticos están conectados. La red funciona a pleno rendimiento.
-    Line2: La latencia en la transmisión de datos se ajusta a los valores teóricos. No se observan desviaciones.
-    Line3: Tu rendimiento ha superado mis previsiones. Es digno de elogio.
-    Line4: Como pago, te concedo acceso a una selección de mi equipamiento y a mis autorizaciones. Puedes utilizarlos como mejor te parezca.
+	Line2: La latencia en la transmisión de datos se ajusta a los valores teóricos. No se observan desviaciones.
+	Line3: Tu rendimiento ha superado mis previsiones. Es digno de elogio.
+	Line4: Como pago, te concedo acceso a una selección de mi equipamiento y a mis autorizaciones. Puedes utilizarlos como mejor te parezca.
 	Line5: Si necesitas ayuda, puedes ponerte en contacto conmigo directamente a través de la red de comunicaciones.
 }
 
 ExoMechHardDefeat: {
 	HardDefeatLine1: Tomas decisiones bajo una presión extrema. Estos son los datos que quería ver.
-    HardDefeatLine2: Tu capacidad para mantener la racionalidad bajo presión es... satisfactoria.
+	HardDefeatLine2: Tu capacidad para mantener la racionalidad bajo presión es... satisfactoria.
 }
 
 ExoMechQuickDefeat: {
 	QuickDefeatLine1: ...Este plazo está muy por debajo de lo que indican mis modelos predictivos.
-    QuickDefeatLine2: Parece que he subestimado tu eficacia actual en combate.
-    QuickDefeatLine3: Quizá sea hora de plantearse... filosofías de diseño... más agresivas.
+	QuickDefeatLine2: Parece que he subestimado tu eficacia actual en combate.
+	QuickDefeatLine3: Quizá sea hora de plantearse... filosofías de diseño... más agresivas.
 }
 
 ExoMechSecondDefeat: {
 	SecondDefeatLine1: Interesante. Tu ritmo de adaptación supera mis previsiones.
-    SecondDefeatLine2: Los datos indican que ya has realizado mejoras específicas desde el último enfrentamiento.
-    SecondDefeatLine3: Parece que debo reevaluar tu curva de aprendizaje.
+	SecondDefeatLine2: Los datos indican que ya has realizado mejoras específicas desde el último enfrentamiento.
+	SecondDefeatLine3: Parece que debo reevaluar tu curva de aprendizaje.
 }
 
 ExoMechThirdDefeat: {
 	ThirdDefeatLine1: Tienes un rendimiento constante. Uno de los elementos de la perfección a la que aspiro.
-    ThirdDefeatLine2: Has demostrado que tus capacidades no son... una anomalía estadística.
+	ThirdDefeatLine2: Has demostrado que tus capacidades no son... una anomalía estadística.
 }
 
 DraedonQuestLine: {
-	Categoría de misión: Draedon
-    Título de la misión: Despliegue de la red de entrelazamiento cuántico
-    Resumen de la misión: Despliega 10 torres de señal en los puntos objetivo repartidos por todo el mundo
-    TrackerNearestTarget: Punto objetivo más cercano
-    TrackerNodeName: Nodo de entrelazamiento n.º [NUM]
-	RastreadorEnAlcance: En alcance
-    RastreadorDistancia: Distancia
-    RastreadorProgresoDespliegue: Progreso del despliegue
-    RastreadorMisiónCompletada: ¡Misión completada!
+	QuestCategory: Draedon
+	DeployTitle: Despliegue de la red de entrelazamiento cuántico
+	DeploySummary: Despliega 10 torres de señal en los puntos objetivo repartidos por todo el mundo
+	TrackerNearestTarget: Punto objetivo más cercano
+	TrackerNodeName: Nodo de entrelazamiento n.º [NUM]
+	TrackerInRange: En alcance
+	TrackerDistance: Distancia
+	TrackerDeployProgress: Progreso del despliegue
+	TrackerQuestComplete: ¡Misión completada!
 }
 
 FirstMetTzeentch: {
 	Rolename: ?????????????????????
 	L1: Shhh... no mires atrás.
-    L2: Te he estado observando mientras construías estos artilugios.
-    L3: Diez nodos cuánticos. Diez vías. Diez futuros posibles.
-    L4: Una red muy mona. ¿Tienes idea de cuántas... *cosas*... atraerá?
-    L5: Ah, claro. Debería presentarme.
+	L2: Te he estado observando mientras construías estos artilugios.
+	L3: Diez nodos cuánticos. Diez vías. Diez futuros posibles.
+	L4: Una red muy mona. ¿Tienes idea de cuántas... *cosas*... atraerá?
+	L5: Ah, claro. Debería presentarme.
 	L6: Algunos me llaman el Oráculo. Otros, la Pluma del Destino...
-    L7: Pero me interesa más saber cómo... *tú*... me llamarías, ahora mismo.
-    L8: Adelante. Dímelo.
-    TextoOpción1: ¿Un... mago...?
-    TextoOpción2: Un mentiroso.
-	TextoOpción3: No. No te conozco.
-    Opción1_R1: ¡Ja! Qué... término tan amable.
-    Opción1_R2: Una lástima. Yo no hago magia. Solo cambio los hechos.
-    Opción1_R3: Bueno. Por ahora usaremos la etiqueta de "Mago"
+	L7: Pero me interesa más saber cómo... *tú*... me llamarías, ahora mismo.
+	L8: Adelante. Dímelo.
+	Choice1Text: ¿Un... mago...?
+	Choice2Text: Un mentiroso.
+	Choice3Text: No. No te conozco.
+	Choice1_R1: ¡Ja! Qué... término tan amable.
+	Choice1_R2: Una lástima. Yo no hago magia. Solo cambio los hechos.
+	Choice1_R3: Bueno. Por ahora usaremos la etiqueta de "Mago"
 	Choice2_R1: Ah.Eres una persona franca, directa y honesta. Qué cualidades tan valiosas.
-    Choice2_R2: Pero me temo que nunca miento.
-    Choice2_R3: Simplemente te digo... lo que está a punto de suceder.
-    Choice2_R4: Lo creas o no... ya ha ocurrido.
-    Choice3_R1: ¿No lo crees? Excelente.
+	Choice2_R2: Pero me temo que nunca miento.
+	Choice2_R3: Simplemente te digo... lo que está a punto de suceder.
+	Choice2_R4: Lo creas o no... ya ha ocurrido.
+	Choice3_R1: ¿No lo crees? Excelente.
 	Choice3_R2: Todas las historias empiezan con esas palabras.
-    Choice3_R3: Es solo que... la mayoría de los finales no son muy agradables.
-    EndLine1: Bueno, pues. Nos volveremos a ver.
-    EndLine2: Pronto.
+	Choice3_R3: Es solo que... la mayoría de los finales no son muy agradables.
+	EndLine1: Bueno, pues. Nos volveremos a ver.
+	EndLine2: Pronto.
 }
 
 GalacticCrisis: {
 	CrisisIntro1: Ahora que la red cuántica se ha restablecido, hay algunas cosas que debes ver con tus propios ojos.
-    CrisisIntro2: Esta es la sombra que actualmente está devorando los brazos espirales de la galaxia.
+	CrisisIntro2: Esta es la sombra que actualmente está devorando los brazos espirales de la galaxia.
 	CrisisIntro3: Estas sombras están formadas por el Enjambre. Antes de esto, desplegué millones de Exo Titánes en un intento por interceptarlos.
-    CrisisIntro4: Los datos indican que se trata de una guerra de desgaste que no podemos ganar. Son infinitos y, tarde o temprano, mis recursos se agotarán.
-    CrisisIntro5: Por lo tanto, he elaborado el único plan con una probabilidad de éxito superior al 0%.
+	CrisisIntro4: Los datos indican que se trata de una guerra de desgaste que no podemos ganar. Son infinitos y, tarde o temprano, mis recursos se agotarán.
+	CrisisIntro5: Por lo tanto, he elaborado el único plan con una probabilidad de éxito superior al 0%.
 	CrisisIntro6: Detonar los núcleos planetarios de todos los mundos, desde el Borde Exterior hasta el Borde Medio de la galaxia.
-    CrisisIntro7: Al convertir decenas de miles de años luz en una zona muerta absoluta, puedo cortar las líneas de suministro del Enjambre, obligándoles a desviarse hacia galaxias vecinas debido al extremo desgaste de la navegación.
+	CrisisIntro7: Al convertir decenas de miles de años luz en una zona muerta absoluta, puedo cortar las líneas de suministro del Enjambre, obligándoles a desviarse hacia galaxias vecinas debido al extremo desgaste de la navegación.
 	CrisisIntro8: El hambre es la fuerza motriz más poderosa del universo, y la más fácil de calcular. Si reduzco los recursos de la galaxia por debajo del umbral crítico, esta galaxia no será más que un ataúd vacío para el Enjambre.
-    CrisisIntro9: Terra también está en la lista de tierra quemada. Pero, como singularidad, tu esencia no debe extinguirse aquí. Te proporcionaré una nave estelar para tu evacuación.
+	CrisisIntro9: Terra también está en la lista de tierra quemada. Pero, como singularidad, tu esencia no debe extinguirse aquí. Te proporcionaré una nave estelar para tu evacuación.
 	ChoiceRefuse: Tiene que haber otra forma.
-    ChoiceSilence: ...... (Permaneces en silencio y empuñas tu arma)
-    RebuttalLine1: ...Exacto.
+	ChoiceSilence: ...... (Permaneces en silencio y empuñas tu arma)
+	RebuttalLine1: ...Exacto.
 	RebuttalLine2: Predije una probabilidad del 99% de que aceptaras la evacuación, pero esperaba con interés ese 1 % de comportamiento irracional.
 	RebuttalLine3: Rechazaste el atajo hacia la supervivencia. Esa es precisamente la naturaleza de la singularidad que he observado.
 	RebuttalLine4: En ese caso, tengo un plan de reserva: una operación que dejé de lado debido a su tasa de éxito excesivamente baja.
@@ -152,38 +152,38 @@ GalacticCrisis: {
 	AndroidReveal3: Poseen una movilidad y unas capacidades de procesamiento lógico que superan con creces a las de los mechas más antiguos, pero perdí sus señales poco después de que aterrizaran en Corto III.
 	AndroidReveal4: Las últimas transmisiones de datos indican que aún presentan signos vitales, pero se encuentran en grave peligro.
 	MissionObjective: Dirígete al sistema Corto y confirma el estado de esas dos unidades. Si aún pueden luchar, haz que te ayuden a completar la misión. Si no pueden...
-	MissionObjectiveDark:  Como mínimo, recupera sus datos fundamentales. No quiero que mis obras maestras se conviertan en errores sin sentido.
+	MissionObjectiveDark: Como mínimo, recupera sus datos fundamentales. No quiero que mis obras maestras se conviertan en errores sin sentido.
 	FinalSendOff: Se han introducido las coordenadas. Adelante, demuéstrame si eres capaz de superar mis cálculos una vez más.
 }
 
 FirstMetApollia: {
 	Line1: ......¿Un humano?
-    Line2: Esa trayectoria de descenso atmosférico era demasiado obvia. Predije la zona de aterrizaje y vine a probar suerte.
-    Line3: Soy Apollia. Más te vale que seas el guía de vanguardia de la Flota Exo, y que estés aquí para decirme que el grueso de las fuerzas viene justo detrás de ti.
-    C1: (Entrega el chip de autorización de Draedon)
+	Line2: Esa trayectoria de descenso atmosférico era demasiado obvia. Predije la zona de aterrizaje y vine a probar suerte.
+	Line3: Soy Apollia. Más te vale que seas el guía de vanguardia de la Flota Exo, y que estés aquí para decirme que el grueso de las fuerzas viene justo detrás de ti.
+	C1: (Entrega el chip de autorización de Draedon)
 	C2: ¿Cómo sé que no eres una trampa mímica del Enjambre?
-    C2_R1: ......Los mímicos no revelan activamente su posición, ni corren hacia una cápsula de descenso.
-    C2_R2: El chip. Muéstrame tu chip de autorización.
-    Line4: ......(Leyendo los datos del chip)
-    Line5: ¡¿Solo tú?! ¡Qué demonios!
+	C2_R1: ......Los mímicos no revelan activamente su posición, ni corren hacia una cápsula de descenso.
+	C2_R2: El chip. Muéstrame tu chip de autorización.
+	Line4: ......(Leyendo los datos del chip)
+	Line5: ¡¿Solo tú?! ¡Qué demonios!
 	Line6: ¡Lo que necesitamos aquí es una Legión de Titánes y un Exterminatus! ¡No solo enviar a otra persona a morir!
-    Line7: (Respira hondo)......Mis disculpas. Ahora estoy al corriente de los planes de la Fuente.
-    Line8: Apollia, anteriormente de la Novena Legión, te ayudará a partir de ahora en todas tus operaciones en este planeta.
+	Line7: (Respira hondo)......Mis disculpas. Ahora estoy al corriente de los planes de la Fuente.
+	Line8: Apollia, anteriormente de la Novena Legión, te ayudará a partir de ahora en todas tus operaciones en este planeta.
 }
 
 GargoyleWarningScenario: {
 	Line1: ......Un grupo de exploradores del enjambre. Es muy probable que el enjambre principal esté justo detrás de ellos.
-    Line2: Sin duda te han visto. Sígueme. Hay una fortaleza abandonada más adelante; podemos usar sus fortificaciones para mantenerlos a raya un rato.
+	Line2: Sin duda te han visto. Sígueme. Hay una fortaleza abandonada más adelante; podemos usar sus fortificaciones para mantenerlos a raya un rato.
 }
 
 DropPodCallScenario: {
 	Line1: Ha ido mejor de lo que esperaba. El tiempo de tránsito fue de -43 minutos.
-    Line2: Tu constitución es excepcionalmente adecuada para la navegación subespacial.
-    Line3: Ahora te encuentras en órbita baja sobre Corto III.
-    Line4: Ten cuidado de esquivar los restos de esos Exo Mechs.
-    Line5: Tras la guerra de la clase Apocalipsis, la masa total de este planeta se duplicó. Por eso ves lo ves.
+	Line2: Tu constitución es excepcionalmente adecuada para la navegación subespacial.
+	Line3: Ahora te encuentras en órbita baja sobre Corto III.
+	Line4: Ten cuidado de esquivar los restos de esos Exo Mechs.
+	Line5: Tras la guerra de la clase Apocalipsis, la masa total de este planeta se duplicó. Por eso ves lo ves.
 	Line6: He grabado los permisos en tu chip. Si te encuentras con alguna unidad superviviente, lo entenderá todo.
 	Line7: Estás a punto de entrar en el campo de protección establecido por el Enjambre. Una vez dentro, se cortará toda comunicación con el exterior.
-    Line8: Si consigues acabar con la criatura nodo apostada en este planeta, el campo debería disiparse. Es probable que se encuentre cerca del núcleo planetario.
-    Line9: Por último, buena suerte.
+	Line8: Si consigues acabar con la criatura nodo apostada en este planeta, el campo debería disiparse. Es probable que se encuentre cerca del núcleo planetario.
+	Line9: Por último, buena suerte.
 }

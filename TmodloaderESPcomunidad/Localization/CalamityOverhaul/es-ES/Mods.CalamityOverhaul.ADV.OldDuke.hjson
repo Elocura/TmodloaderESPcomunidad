@@ -19,6 +19,7 @@ AbyssQuestLine: {
 }
 
 FirstMetOldDuke: {
+	OldDukeName: Viejo Duque
 	L0: ......
 	L1: Contén tu sed de sangre, joven. No hay necesidad de desenvainar las espadas en este momento.
 	L2: Estoy viejo y me he cansado de estos juegos violentos.
@@ -39,7 +40,7 @@ FirstMetOldDuke: {
 }
 
 OldDukeCampsite: {
-	InteractHint: "[Clic derecho] Hablar"
+	OldDukeWanderingActor.InteractHint: "[Clic derecho] Hablar"
 	OldDukeCampsite.TitleText: Campamento del Viejo Duque
 }
 

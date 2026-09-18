@@ -94,7 +94,7 @@ DraedonShopUI: {
 	TitleText: INTERCAMBIO.DRAEDON
 	FundsLabelText: BALANCE
 	BuyActionText: COMPRAR
-	HintText: "[LMB] Comprar · Mantener para repetir ·  [ESC] Cerrar"
+	HintText: "[LMB] Comprar · Mantener para repetir · [ESC] Cerrar"
 	EmptyText: No hay artículos disponibles para cambiar
 }
 
@@ -125,6 +125,7 @@ Generator: {
 		TemperatureUnit: °C
 		PowerUnit: UE
 	}
+
 	GeneratorReadoutUI: {
 		WindLabel: Viento
 		FlowLabel: Caudal
@@ -239,7 +240,6 @@ Apiary: {
 		TakeHint: Clic para retirar
 		PowerUnit: UE
 	}
-}
 }
 
 ChargingStationUI: {
@@ -672,46 +672,46 @@ VictorTalkUI: {
 	Greet10: Las piezas nuevas necesitan un periodo de adaptación. Intenta no exponerte a fuego intenso durante unos días.
 	Greet11: El cuerpo no es más que una herramienta. Parece que el tuyo lleva un tiempo sin recibir mantenimiento.
 	TalkFirstMeet0: Una cara nueva. Déjame adivinar: no has venido a ver a un médico, has venido en busca de un milagro. Siéntate, yo vendo ambas cosas.
-    TalkFirstMeet1: Bienvenido, cliente. Tres normas de la casa: nada de crédito, nada de preguntas sobre tu pasado y nada de criticar mi trabajo.
+	TalkFirstMeet1: Bienvenido, cliente. Tres normas de la casa: nada de crédito, nada de preguntas sobre tu pasado y nada de criticar mi trabajo.
 	TalkPostSurgery0: Las suturas aún están calientes. No bloquees ninguna cuchilla con las piezas nuevas durante veinticuatro horas.
-    TalkPostSurgery1: La operación ha salido a la perfección. Por supuesto, las mías siempre salen así.
-    TalkPostSurgery2: ¿Cómo te sientes? Si notas algún traqueteo, fugas de corriente o dolor fantasma, vuelve enseguida; las reparaciones tienen un coste adicional.
+	TalkPostSurgery1: La operación ha salido a la perfección. Por supuesto, las mías siempre salen así.
+	TalkPostSurgery2: ¿Cómo te sientes? Si notas algún traqueteo, fugas de corriente o dolor fantasma, vuelve enseguida; las reparaciones tienen un coste adicional.
 	TalkMoodHomeless0: Hasta que me preparéis una sala en la clínica, los precios incluyen una tarifa por operar al aire libre.
-    TalkMoodHomeless1: No puedo hacer un trabajo de precisión con la mesa atada a la espalda. Conseguidme una casa y entonces hablaremos de precios.
-    TalkMoodHappy0: Hoy estoy de buen humor, así que he redondeado tu presupuesto a la baja. No se lo digas a nadie.
+	TalkMoodHomeless1: No puedo hacer un trabajo de precisión con la mesa atada a la espalda. Conseguidme una casa y entonces hablaremos de precios.
+	TalkMoodHappy0: Hoy estoy de buen humor, así que he redondeado tu presupuesto a la baja. No se lo digas a nadie.
 	TalkMoodHappy1: Me gusta este sitio. Tanto que incluso te voy a hacer un descuento.
-    TalkMoodGrumpy0: No te quejes de los precios. Llévame a un sitio agradable y bajarán solos.
-    TalkMoodGrumpy1: Mal humor, bisturí tembloroso. El recargo por riesgo está en la factura… y es culpa tuya.
+	TalkMoodGrumpy0: No te quejes de los precios. Llévame a un sitio agradable y bajarán solos.
+	TalkMoodGrumpy1: Mal humor, bisturí tembloroso. El recargo por riesgo está en la factura… y es culpa tuya.
 	TalkNoChrome0: Un cuerpo totalmente original… algo raro. Como una máquina antigua que nunca ha tenido una actualización de firmware.
-    TalkNoChrome1: ¿Ni un solo implante? ¿Has venido a echar un vistazo o a sentir nostalgia?
-    TalkFullChrome0: Tienes más cromo que carne. Incluso tus pasos suenan como mi caja registradora.
+	TalkNoChrome1: ¿Ni un solo implante? ¿Has venido a echar un vistazo o a sentir nostalgia?
+	TalkFullChrome0: Tienes más cromo que carne. Incluso tus pasos suenan como mi caja registradora.
 	TalkFullChrome1: Tu capacidad está casi al límite, cliente. Si instalas algo más, primero tendrás que ampliar la potencia.
-    TalkLowHealth0: Estás sangrando. Siéntate primero; que los clientes se mueran en mi puerta es malo para el negocio.
-    TalkLowHealth1: Esa presión arterial está haciendo saltar las alarmas. Primero las heridas, la factura después.
-    TalkRich0: Huelo a platino. ¿Qué vamos a sustituir hoy? Un juego completo también vale.
+	TalkLowHealth0: Estás sangrando. Siéntate primero; que los clientes se mueran en mi puerta es malo para el negocio.
+	TalkLowHealth1: Esa presión arterial está haciendo saltar las alarmas. Primero las heridas, la factura después.
+	TalkRich0: Huelo a platino. ¿Qué vamos a sustituir hoy? Un juego completo también vale.
 	TalkPoor0: ¿Tienes los bolsillos más vacíos que mi bandeja estéril? Ve a ganar algo de dinero primero; el ciberware no se paga a crédito.
-    TalkPoor1: ¿No tienes dinero? No pasa nada. Vende algo de botín y vuelve; estamos abiertos toda la noche.
+	TalkPoor1: ¿No tienes dinero? No pasa nada. Vende algo de botín y vuelve; estamos abiertos toda la noche.
 	TalkSandevistan0: ¿Funciona bien el Sandevistan? No te pases con él: los nervios fritos se facturan como una reconstrucción completa.
-    TalkPreHardmode0: La tecnología de este mundo sigue siendo madera y piedra. Menos mal que me he traído mis propias herramientas.
-    TalkPreHardmode1: Mejora el cuerpo antes de que la calamidad se mejore a sí misma. Ese consejo te lo he dado gratis.
+	TalkPreHardmode0: La tecnología de este mundo sigue siendo madera y piedra. Menos mal que me he traído mis propias herramientas.
+	TalkPreHardmode1: Mejora el cuerpo antes de que la calamidad se mejore a sí misma. Ese consejo te lo he dado gratis.
 	TalkHardmode0: El negocio se ha triplicado desde que el mundo se resquebrajó. La luz y la plaga devoran la carne por igual.
-    TalkHardmode1: Los nuevos monstruos que hay ahí fuera destrozan a la gente en un santiamén. ¿Tus reflejos dan la talla? Si no es así, tengo existencias.
-    TalkPostMoonlord0: Hasta el Señor de la Luna ha caído. Parece que algunos de mis clientes son auténticos monstruos.
+	TalkHardmode1: Los nuevos monstruos que hay ahí fuera destrozan a la gente en un santiamén. ¿Tus reflejos dan la talla? Si no es así, tengo existencias.
+	TalkPostMoonlord0: Hasta el Señor de la Luna ha caído. Parece que algunos de mis clientes son auténticos monstruos.
 	TalkPostMoonlord1: Los restos de un dios son un material excelente. Si has recogido alguno, guárdame una parte.
-    TalkPostSupCal0: Has derrotado a la propia Calamidad y aún conservas tanta carne. Empiezo a pensar que mi cromo no es más que bisutería para ti.
+	TalkPostSupCal0: Has derrotado a la propia Calamidad y aún conservas tanta carne. Empiezo a pensar que mi cromo no es más que bisutería para ti.
 	TalkBloodMoon0: ¿Una luna de sangre? Para mí solo son horas extras. Pronto habrá una cola de miembros amputados en la puerta.
-    TalkBloodMoon1: Esta noche, mantente alejado de la entrada. Bajo una luna de sangre, hasta los conejos querrán darte un mordisco.
-    TalkEclipse0: Solo los casos difíciles salen durante un eclipse. Ve bien equipado o sé rápido.
+	TalkBloodMoon1: Esta noche, mantente alejado de la entrada. Bajo una luna de sangre, hasta los conejos querrán darte un mordisco.
+	TalkEclipse0: Solo los casos difíciles salen durante un eclipse. Ve bien equipado o sé rápido.
 	TalkRain0: Engrasa las articulaciones expuestas cuando llueva. He arreglado demasiados codos oxidados.
-    TalkRain1: Lluvia. La humedad es mala para los circuitos y buena para el negocio.
-    TalkDeepNight0: ¿Todavía despierto a estas horas? Me parece bien: los ojos cibernéticos no necesitan cerrarse.
-    TalkDeepNight1: La madrugada es mi horario de trabajo favorito. Tranquilo, y los clientes siempre tienen prisa.
+	TalkRain1: Lluvia. La humedad es mala para los circuitos y buena para el negocio.
+	TalkDeepNight0: ¿Todavía despierto a estas horas? Me parece bien: los ojos cibernéticos no necesitan cerrarse.
+	TalkDeepNight1: La madrugada es mi horario de trabajo favorito. Tranquilo, y los clientes siempre tienen prisa.
 	TalkUnderground0: El subsuelo es bueno. Temperatura estable, humedad estable, sin señal, sin interrupciones en mitad de una intervención.
-    TalkUnderground1: Mi primera clínica también estaba bajo tierra. Los clientes temían la luz del día igual que estos.
-    TalkSnow0: El frío es bueno. Las piezas no se sobrecalientan y los cuerpos —quiero decir, el stock— se conservan más tiempo.
+	TalkUnderground1: Mi primera clínica también estaba bajo tierra. Los clientes temían la luz del día igual que estos.
+	TalkSnow0: El frío es bueno. Las piezas no se sobrecalientan y los cuerpos —quiero decir, el stock— se conservan más tiempo.
 	TalkJungle0: La humedad de la selva se cuela en las carcasas selladas en tres días. Reserva una revisión de mantenimiento cuando te vayas.
-    TalkBeach0: ¿La costa? La salpicadura de sal es el principal enemigo del ciberware. Te desaconsejaría instalarte aquí.
-    TalkEvil0: Esta tierra está corroyendo tanto tus piezas como a ti mismo. Solo puedo arreglar una de las dos cosas.
+	TalkBeach0: ¿La costa? La salpicadura de sal es el principal enemigo del ciberware. Te desaconsejaría instalarte aquí.
+	TalkEvil0: Esta tierra está corroyendo tanto tus piezas como a ti mismo. Solo puedo arreglar una de las dos cosas.
 	ClinicButtonText: Clínica de ciberimplantes
 	ChatButtonText: Charla informal
 	LeaveButtonText: Salir
@@ -734,63 +734,62 @@ VictorSurgery.SurgeryInProgressText: OPERACIÓN EN CURSO
 TBUGTalkUI: {
 	SpeakerName: TBUG
 	Greet0: ¿Ya estás aquí? Echa un vistazo a tu antojo. No toques el montón de cables que hay detrás del equipo: esa es mi columna vertebral.
-    Greet1: Tu ciclo de movimiento tiene un pequeño bucle. Se repite cada siete pasos. No te preocupes, a la mayoría de la gente le pasa.
-    Greet2: La física de este mundo está bastante bien programada. La parte del agua está claramente hecha con prisas.
-   	Greet3: Todo está en la estantería. Los precios los pongo yo. Ahórrate el esfuerzo de regatear.
-    Greet4: La luz del día deslumbra todas mis pantallas. Ven por la noche; por la noche soy más simpático.
-    Gree5t: No me preguntes de dónde soy. ¿Cuál es la ciudad natal de un mensaje de error?
-   	Greet6: Las monedas son curiosas. Pesadas, ocupan espacio en los bolsillos… pero todos confiáis en ellas, así que yo también.
+	Greet1: Tu ciclo de movimiento tiene un pequeño bucle. Se repite cada siete pasos. No te preocupes, a la mayoría de la gente le pasa.
+	Greet2: La física de este mundo está bastante bien programada. La parte del agua está claramente hecha con prisas.
+	Greet3: Todo está en la estantería. Los precios los pongo yo. Ahórrate el esfuerzo de regatear.
+	Greet4: La luz del día deslumbra todas mis pantallas. Ven por la noche; por la noche soy más simpático.
+	Greet5: No me preguntes de dónde soy. ¿Cuál es la ciudad natal de un mensaje de error?
+	Greet6: Las monedas son curiosas. Pesadas, ocupan espacio en los bolsillos… pero todos confiáis en ellas, así que yo también.
 	Greet7: No hago reparaciones. Vendo. Si se rompe, es un problema del usuario.
-    Greet8: Me caí la noche que murió Skeletron. No es que no le esté agradeciendo, pero su agarre se resbaló primero.
-    Greet9: Tienes casillas de equipamiento vacías. Las casillas vacías son casillas desperdiciadas.
-    Greet10: Dormir es un parche, y uno muy vago. Normalmente me lo salto.
+	Greet8: Me caí la noche que murió Skeletron. No es que no le esté agradeciendo, pero su agarre se resbaló primero.
+	Greet9: Tienes casillas de equipamiento vacías. Las casillas vacías son casillas desperdiciadas.
+	Greet10: Dormir es un parche, y uno muy vago. Normalmente me lo salto.
 	Greet11: Date prisa. Tengo tres procesos colgados esperándome.
-    TalkFirstMeet0: Cara nueva. Soy TBUG, el que se cayó por esa costura. Deja de mirarme así. Mi aterrizaje no fue TAN malo.
-    TalkFirstMeet1: Oh, habla. Mejor que los slimes. Ahí tienes la estantería si lo vas a comprar; habla rápido si no.
+	TalkFirstMeet0: Cara nueva. Soy TBUG, el que se cayó por esa costura. Deja de mirarme así. Mi aterrizaje no fue TAN malo.
+	TalkFirstMeet1: Oh, habla. Mejor que los slimes. Ahí tienes la estantería si lo vas a comprar; habla rápido si no.
 	TalkFirstPurchase0: Trato hecho. Sin recibo: mi memoria es más fiable que el papel.
-    TalkFirstPurchase1: Agárralo bien. Si se porta mal, revisa primero tus propios hábitos de uso.
-    TalkMoodHomeless0: Duermo a la intemperie y mi hardware se empaña cada mañana. Consígueme una habitación y te haré un descuento.
+	TalkFirstPurchase1: Agárralo bien. Si se porta mal, revisa primero tus propios hábitos de uso.
+	TalkMoodHomeless0: Duermo a la intemperie y mi hardware se empaña cada mañana. Consígueme una habitación y te haré un descuento.
 	TalkMoodHomeless1: Una tienda sin techo es un puesto callejero. No me gusta ser vendedor ambulante.
-    TalkMoodHappy0: Hoy estoy de buen humor. Se me resbaló la mano con los presupuestos… a la baja. No lo digas a nadie.
-    TalkMoodHappy1: Este sitio me está gustando cada vez más. Tu arquitectura supera a tu motor físico.
+	TalkMoodHappy0: Hoy estoy de buen humor. Se me resbaló la mano con los presupuestos… a la baja. No lo digas a nadie.
+	TalkMoodHappy1: Este sitio me está gustando cada vez más. Tu arquitectura supera a tu motor físico.
 	TalkMoodGrumpy0: No te quejes de los precios. Llévame a un sitio decente y bajarán solos.
-    TalkMoodGrumpy1: Mal humor, cotizaciones volátiles. Así es la dinámica del mercado, no es problema mío.
-    TalkHackUnlocked0: Ese equipo que ves ahí está bastante bien montado. ¿Quién lo instaló? Está por encima de la media mundial.
-    TalkHackUnlocked1: Los clientes que saben hackear son buenos clientes. Al menos nunca preguntan por qué lado se mete el chip.
-    TalkHackLocked0: La mitad de mi stock no te sirve de nada ahora mismo. Primero hazte capaz de hackear.
-    TalkLowHealth0: Estás sangrando. Ve primero a la enfermería; en mi estantería no hay bolsas de sangre.
-    TalkLowHealth1: Las barras de salud solo importan cuando están casi vacías. La tuya ya casi lo está.
+	TalkMoodGrumpy1: Mal humor, cotizaciones volátiles. Así es la dinámica del mercado, no es problema mío.
+	TalkHackUnlocked0: Ese equipo que ves ahí está bastante bien montado. ¿Quién lo instaló? Está por encima de la media mundial.
+	TalkHackUnlocked1: Los clientes que saben hackear son buenos clientes. Al menos nunca preguntan por qué lado se mete el chip.
+	TalkHackLocked0: La mitad de mi stock no te sirve de nada ahora mismo. Primero hazte capaz de hackear.
+	TalkLowHealth0: Estás sangrando. Ve primero a la enfermería; en mi estantería no hay bolsas de sangre.
+	TalkLowHealth1: Las barras de salud solo importan cuando están casi vacías. La tuya ya casi lo está.
 	TalkRich0: Huelo a platino. ¿Qué estante vamos a vaciar hoy?
-    TalkPoor0: Tienes los bolsillos más vacíos que mi papelera de reciclaje. Ve a ganarte algo; no acepto a crédito.
-    TalkPoor1: ¿No tienes dinero? Entonces es una exposición. Mirar es gratis. Tocar, no.
-    TalkPreHardmode0: El mundo aún está en las primeras fases del juego. Las estadísticas de los monstruos están escritas con delicadeza. Aprovecha para abastecerte mientras dure.
+	TalkPoor0: Tienes los bolsillos más vacíos que mi papelera de reciclaje. Ve a ganarte algo; no acepto a crédito.
+	TalkPoor1: ¿No tienes dinero? Entonces es una exposición. Mirar es gratis. Tocar, no.
+	TalkPreHardmode0: El mundo aún está en las primeras fases del juego. Las estadísticas de los monstruos están escritas con delicadeza. Aprovecha para abastecerte mientras dure.
 	TalkPreHardmode1: Ese muro de carne aún no ha caído. Cuando lo haga, volverás para vaciar mis estanterías.
-    TalkHardmode0: El mundo ha recibido una actualización importante. Monstruos más fuertes, mejores botines. Bueno para el negocio.
-    TalkHardmode1: La luz y la oscuridad están destrozando el mapa ahí fuera. No te quedes junto a las fisuras recién abiertas; yo me caí de una.
+	TalkHardmode0: El mundo ha recibido una actualización importante. Monstruos más fuertes, mejores botines. Bueno para el negocio.
+	TalkHardmode1: La luz y la oscuridad están destrozando el mapa ahí fuera. No te quedes junto a las fisuras recién abiertas; yo me caí de una.
 	TalkPostMoonlord0: Has derrotado al Señor de la Luna. Me gustaría una copia de tu registro de combate. Para estudiarlo.
-    TalkPostMoonlord1: Luchas contra dioses y aún así compras en mi pequeño puesto. ¿Debería subir los precios o sentirme conmovido?
-    TalkPostSupCal0: Hasta la propia Calamidad ha caído. A estas alturas, TÚ eres el mayor exploit de este mundo.
+	TalkPostMoonlord1: Luchas contra dioses y aún así compras en mi pequeño puesto. ¿Debería subir los precios o sentirme conmovido?
+	TalkPostSupCal0: Hasta la propia Calamidad ha caído. A estas alturas, TÚ eres el mayor exploit de este mundo.
 	TalkBloodMoon0: Luna de sangre. La frecuencia de aparición se ha duplicado esta noche; las cosas que hay en la puerta tienen más prisa que tú.
-    TalkBloodMoon1: Todo está rojo ahí fuera esta noche. He reducido un poco el área de impacto de la puerta. La seguridad es lo primero.
+	TalkBloodMoon1: Todo está rojo ahí fuera esta noche. He reducido un poco el área de impacto de la puerta. La seguridad es lo primero.
 	TalkEclipse0: Un eclipse. El día se ha vuelto más ruidoso que la noche. Es difícil no sospechar que alguien ha cambiado algún parámetro de configuración.
-    TalkRain0: Lluvia. Mi equipo está guardado en una bolsa. El tuyo, tú decides.
-    TalkRain1: Las gotas de lluvia caen en líneas perfectamente rectas. Ni siquiera hay una brizna de viento. Qué pereza.
-    TalkDeepNight0: ¿Todavía despierto a estas horas? Vale. Los noctámbulos tienen un 5 % de descuento… Es broma, precio completo.
+	TalkRain0: Lluvia. Mi equipo está guardado en una bolsa. El tuyo, tú decides.
+	TalkRain1: Las gotas de lluvia caen en líneas perfectamente rectas. Ni siquiera hay una brizna de viento. Qué pereza.
+	TalkDeepNight0: ¿Todavía despierto a estas horas? Vale. Los noctámbulos tienen un 5 % de descuento… Es broma, precio completo.
 	TalkDeepNight1: Noche profunda. Menos procesos en ejecución. El mundo funciona realmente con más fluidez.
-    TalkUnderground0: El subsuelo está bien. Temperatura estable, silencio, y la roca bloquea todo el ruido de las señales.
-    TalkUnderground1: ¿Hueles eso? El aire de la sala de servidores. Sospecho que la máquina host de este mundo está enterrada en algún lugar por aquí abajo.
+	TalkUnderground0: El subsuelo está bien. Temperatura estable, silencio, y la roca bloquea todo el ruido de las señales.
+	TalkUnderground1: ¿Hueles eso? El aire de la sala de servidores. Sospecho que la máquina host de este mundo está enterrada en algún lugar por aquí abajo.
 	TalkSnow0: La tundra hace un frío de verdad. El hardware dura dos años más aquí fuera.
-    TalkJungle0: La humedad de la selva mantiene la alarma al límite todo el día. Mi equipo no aguantaría ni una semana aquí.
-    TalkBeach0: ¿La costa? Una vez se me metió agua de mar en el equipo. Con lo que me costó la reparación me habría comprado tres tablas nuevas.
+	TalkJungle0: La humedad de la selva mantiene la alarma al límite todo el día. Mi equipo no aguantaría ni una semana aquí.
+	TalkBeach0: ¿La costa? Una vez se me metió agua de mar en el equipo. Con lo que me costó la reparación me habría comprado tres tablas nuevas.
 	TalkEvil0: La corrosión de este lugar se come los circuitos sin piedad. Ni a tu equipo ni a tu piel se le hace distinciones.
-    ShopButtonText: Tienda de artilugios
-    ChatButtonText: Charla
-    LeaveButtonText: Salir
-    PriceFactorText: PRECIO x{0}
+	ShopButtonText: Tienda de artilugios
+	ChatButtonText: Charla
+	LeaveButtonText: Salir
+	PriceFactorText: PRECIO x{0}
 }
 
 TBUGShopUI: {
-	TitleText: TBUG BUG MARKET
 	TitleText: Mercado negro de fallos TBUG
 	BuyTabText: Comprar
 	SellTabText: Vender
@@ -991,14 +990,14 @@ HackTime: {
 	SignalTowerScanStatusElectrified: Carga residual
 	SignalTowerScanProtocol: Protocolos disponibles
 	RightClickHint: Haz clic derecho para deseleccionar el destino
-	SStatusReady: LISTO
-    StatusNoRam: SIN RAM
-    UplinkHeader: UPLINK
-    DataTab: DATOS
-    ScanTab: ESCANEO
-    TargetTagged: OBJETIVO ETIQUETADO
-    FooterUpload: CARGA {0} s
-    FooterCost: COSTE {0} RAM
+	StatusReady: LISTO
+	StatusNoRam: SIN RAM
+	UplinkHeader: UPLINK
+	DataTab: DATOS
+	ScanTab: ESCANEO
+	TargetTagged: OBJETIVO ETIQUETADO
+	FooterUpload: CARGA {0} s
+	FooterCost: COSTE {0} RAM
 	AccessDeniedTitle: MODO HACKEO NO DISPONIBLE
 	AccessDeniedDesc: Conecta un arma inteligente o instala un ciberimplante de netrunner para acceder a habilidades de hackeo.
 	ProtocolsOwned: "[{0}/{1} PROTOCOLOS]"
@@ -1009,23 +1008,6 @@ HackTime: {
 	ChipOneShot: Escritura única; es inservible después.
 	ChipAlreadyOwned: Ya está en tu biblioteca de daemons.
 	Erased: ELIMINADO
-}
-
-SelfRigScanText: {
-	RamLabel: RAM
-	RecoveryLabel: RECOVERY
-	CyberCapacityLabel: CYBERWARE
-	ImplantCountLabel: IMPLANTS
-	HeldChargeLabel: HELD CHARGE
-	SandeCooldownLabel: SANDE CD
-	WraithLabel: WRAITH
-	ErosionLabel: EROSION
-	ProtocolLabel: PROTOCOLS
-	NoneText: —
-	RamLockFormat: RAM {0}%
-	DormantFormat: DORMANT {0}s
-	TransmuteGainFormat: +{0} RAM
-	DriveSettleText: Erosion deepens; wraith dormant
 }
 
 SelfRigScanText: {
@@ -1120,7 +1102,7 @@ DecryptionStrings: {
 	DecryptionPanelStatusMessage: DESCIFRADO
 	BreachBuffer: "Buffer {0}/{1}"
 	BreachTargets: Secuencia objetivo
-	BreachTimer:  Tiempo restante
+	BreachTimer: Tiempo restante
 	BreachAxisRow: "Restricción de fila ▸ Fila {0}"
 	BreachAxisCol: "Restricción de columna ▸ Columna {0}"
 	BreachCooldown: "Restablecimiento del protocolo en {0:0.0}s"
@@ -1266,6 +1248,7 @@ CyberwareSkillRadialUI: {
 	HintKindToggle: Modo alternativo: pulsa el gatillo para encenderlo o apagarlo
 	HintKindInstant: Modo instantáneo: Presiona el gatillo para disparar
 	HintNotReady: No se cumplen las condiciones
+	WheelHint: "[{0}] Hold · release to confirm · LMB select · RMB cancel"
 }
 
 CyberwareGuideLead: {
@@ -1337,7 +1320,9 @@ HimayoMenu.ThemeName: Noche de sakura
 ShenyoMenu.ThemeName: Lluvias del lago fantasma
 
 AcknowledgmentUI: {
+	LeadCreatorRole: Lead Creator
 	ArtistRole: Artista
+	ArtAssistanceRole: Art Assistance
 	CodeAssistanceRole: Asistente del código
 	MusicianRole: Músico
 	DonorRole: Donante
