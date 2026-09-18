@@ -1,36 +1,36 @@
 GsElectrosphereLauncher: {
-	Desc: Reforged: two or more of your spheres link up with tesla arcs (up to 3, half sphere damage)
+	Desc: Reforja: dos o más de tus esferas se unen mediante arcos de Tesla (hasta 3; daño de media esfera)
 	TipOverload: ¡Sobrecarga!
 }
 
 GsGrenadeLauncher: {
-	Desc: Reforged: grenades stick to walls and foes (+25% damage when stuck on flesh); up to 6 planted, the oldest pops to make room
+	Desc: Reforja: Las granadas se adhieren a las paredes y a los enemigos (+25 % de daño cuando se adhieren a la carne); se pueden colocar hasta 6, y la más antigua explota para dejar espacio
 	TipDetonate: ¡Detonación total!
 }
 
 GsJackOLanternLauncher: {
-	Desc: Reforged: every blast leaves a candle field that scorches whoever stands in it
+	Desc: Reforja: cada explosión deja tras de sí un campo de velas que abrasa a quien se adentre en él
 	TipGrin: ¡Risa al unísono!
 }
 
 GsNailGun: {
-	Desc: Reforged: nails embed into flesh (up to 5 per victim), each making the victim take +3% damage from all sources
+	Desc: Reforja: las uñas se clavan en la carne (hasta 5 por víctima), y cada una de ellas hace que la víctima reciba un 3% de daño de todas las fuentes
 	TipExtract: ¡Arrancar con carne!
 }
 
 GsProximityMineLauncher: {
-	Desc: Reforged: mines show their trigger radius to you; mines idle for 60s refund a rocket and self-clear
+	Desc: Reforja: las minas te muestran su radio de activación; las minas que permanecen inactivas durante 60s devuelven un cohete y se desactivan automáticamente
 	TipChain: ¡Dominó!
 	TipRecycle: Mina recuperada
 }
 
 GsRocketLauncher: {
-	Desc: Reforged: shots kick you back, and direct hits hit harder
+	Desc: Reforja:Los disparos te hacen retroceder, y los impactos directos duelen más
 	TipDetonate: ¡Explosión aérea!
 }
 
 GsSnowmanCannon: {
-	Desc: Reforged: hits brand victims with a snowflake (+8% from this weapon)
+	Desc: Reforja: golpea a las víctimas de la marca con un copo de nieve (+8% con esta arma)
 	ModeHoming: Vehículo: enjambre perseguidor
 	ModeOrbital: Vehículo: órbita de ventisca
 }
@@ -42,7 +42,7 @@ GsStarCannon.Desc:
 	'''
 
 GsStynger: {
-	Desc: Reforged: detonates on hit, with a kick on the shot. Stynger bolts and shrapnel stay as they were
+	Desc: Reforged: explota al impactar, con un efecto de retroceso al disparar. Los pernos Stynger y la metralla permanecen donde estaban.
 	ModeImpact: Espoleta: impacto
 	ModeRange: Espoleta: explosión a distancia
 	ModeRicochet: Espoleta: rebote
