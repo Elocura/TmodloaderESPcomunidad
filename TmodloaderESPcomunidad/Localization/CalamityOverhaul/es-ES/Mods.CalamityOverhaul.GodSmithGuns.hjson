@@ -98,14 +98,14 @@ GsFlareGun.Desc:
 	'''
 GsFlintlockPistol.Desc:
 	'''
-	Reforged: two chambers, the second shot comes 40% faster;
-	the last chamber fires a V-shaped double ball from a single bullet with doubled knockback.
-	Hit the sweet spot when reloading for +25% on the next shot
+	Reforja: dos recámaras; el segundo disparo sale un 40% más rápido;
+    La última recámara dispara una doble bala en forma de V a partir de una sola bala, con el efecto de retroceso duplicado
+    Si aciertas en el punto óptimo al recargar, obtendrás un +25% en el siguiente disparo
 	'''
 GsMusket.Desc:
 	'''
-	Reforged: a true muzzle-loader; every ball is a stone-piercer that flies faster and punches through one more foe.
-	Reload in three beats: pour, ram, prime
+	Reforja: un auténtica arma de avancarga; cada bala es un proyectil perforador que vuela más rápido y atraviesa a un enemigo más
+    Recarga en tres pasos: verter, apisonar, encender
 	'''
 GsQuadBarrelShotgun.Desc:
 	'''
@@ -113,28 +113,28 @@ GsQuadBarrelShotgun.Desc:
 	Disparar hacia abajo te impulsa a saltar
 	Abre los cañones y recarga; acierta la franja luminosa y la siguiente ronda suma 2 perdigones por cañón
 	'''
-GsRevolver.Desc: Reforged: a six-round cylinder; the final chamber always hits +40% harder.
+GsRevolver.Desc: Reforja: ahora tiene un cilindro de seis recámaras; el último disparo siempre inflige un 40% más de daño
 
 GsCandyCornRifle: {
-	Desc: Reforged: the classic spray now droops on a sweet arc
-	ModeCandyRain: Lluvia de caramelos
+	Desc: Reforja: el clásico chorro ahora cae describiendo un bonito arco
+    ModeCandyRain: Lluvia de caramelos
 }
 
 GsClockworkAssaultRifle: {
-	Desc: Reforged: keeps the classic three round burst, the third round bites 30% harder
+	Desc: Reforja: mantiene la clásica ráfaga de tres disparos; el tercer disparo tiene un 30% más de potencia
 	ModeGearBurst: Ráfaga de engranajes
 }
 
 GsGatligator: {
-	Desc: Reforged: keeps the wild spray but every round skips once off blocks
+	Desc: Reforja: mantiene el chorro descontrolado, pero cada disparo rebota una vez en los bloques
 	ModeSwampRiot: Revuelta del pantano
 }
 
 GsMegashark: {
 	Desc:
 		'''
-		Reforged: fire rate climbs the longer you hold the trigger
-		Land 50 hits to draw blood: for 3 seconds every hit leaves a bleeding wound
+		Reforja: la cadencia de disparo aumenta cuanto más tiempo mantengas apretado el gatillo
+		Asesta 50 golpes para provocar hemorragia: durante 3 segundos, cada golpe provocará una herida sangrante
 		'''
 	ModeFrenzy: Frenesí
 }
@@ -151,15 +151,16 @@ GsOnyxBlaster: {
 }
 
 GsSDMG: {
-	Desc: Reforged: keeps the legendary fire rate
+	Desc: Reforja: mantiene la legendaria cadencia de tiro
 	ModeDolphinTide: Marea del delfín
 }
 
 GsShotgun: {
 	Desc:
 		'''
-		Reforged: six drooping pellets in a broad fan; landing 3 pellet hits in one blast bursts a rain of lead over the target
-		Every trigger pull still costs one shell
+		Reforja: Dispara seis balas en trayectoria descendente formando un amplio abanico; acertar tres balas de un solo 
+		disparo desata una lluvia de plomo sobre el objetivo.
+		Cada vez que se aprieta el gatillo sigue costando un cartucho
 		'''
 	ModeWideBore: Boca ancha
 }
@@ -167,7 +168,7 @@ GsShotgun: {
 GsSniperRifle: {
 	Desc:
 		'''
-		Reforja: pulsa el clic derecho para cambiar el modo de disparo; mantén pulsado el clic derecho para mirar por la mira
+		Reforja: pulsa clic derecho para cambiar el modo de disparo; mantén pulsado el clic derecho para mirar por la mira
 		Francotirador: muestra una línea de puntería perforante; quédate quieto para aguantar la respiración; el disparo tras aguantar es un crítico asegurado
 		Fuego rápido: cambia potencia por cadencia
 		'''
@@ -176,31 +177,33 @@ GsSniperRifle: {
 }
 
 GsTacticalShotgun: {
-	Desc: Reforged: paints the spread cone so you know exactly what the six pellets cover
+	Desc: Reforja: muestra el cono de dispersión para que sepas exactamente qué área cubren las seis bolas
 	ModeFan: Abanico táctico
 }
 
 GsUzi: {
 	Desc:
 		'''
-		Reforged: sprays 30% faster with a loose pattern
-		Every 4th round is an amber tracer: tracer hits light the target up, and your Uzi rounds dig 10% deeper into lit targets
+		Reforja: disparas un 30% más rápido con un patrón de disparo disperso
+		Cada cuarta bala es un trazador ámbar: los impactos del trazador iluminan al objetivo, y las balas de tu Uzi 
+		penetran un 10% más profundamente en los objetivos iluminados
 		'''
 	ModeAkimbo: Fuego cruzado a dos manos
 }
 
 GsVenusMagnum: {
-	Desc: Reforged: after a crit the next round pierces one extra foe, the aim line lights up for the window
+	Desc: Reforja: Tras un golpe crítico, en la siguiente ronda se atraviesa a un enemigo más 
+	y la línea de puntería se ilumina durante ese intervalo
 	ModeFocus: Foco del estambre
 }
 
 GsVortexBeater: {
-	Desc: Reforged: keeps the classic storm, rockets gently home in
+	Desc: Reforja: mantiene la tormenta clásica, los cohetes suavemente regresan tí
 	ModeSweep: Barrido del Vórtice
 }
 
 GsXenopopper: {
-	Desc: Reforged: pops five bubbles that converge and burst in a crossfire on your cursor
+	Desc: Reforja: revienta cinco burbujas que convergen y estallan en un cruce de disparos sobre tu cursor
 	ModeCluster: Racimo
 }
 
