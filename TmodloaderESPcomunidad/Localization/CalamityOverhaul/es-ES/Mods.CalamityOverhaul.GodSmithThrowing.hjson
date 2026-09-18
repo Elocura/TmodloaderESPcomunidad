@@ -1,0 +1,121 @@
+GsShuriken.Desc:
+	'''
+	Reforja: 15% de probabilidad de no consumir; un crítico devuelve uno; los shuriken fallidos clavados en la pared se pueden recoger
+	Al llenar cinco capas de lanzamientos seguidos, cada tiro lleva una estrella gemela gratis
+	'''
+GsThrowingKnife.Desc:
+	'''
+	Reforja: un crítico devuelve una; las cuchillas clavadas en la pared casi siempre se recogen
+	Cada impacto afila la siguiente cuchilla en 0.8 segundos, +12% de daño, hasta tres capas
+	'''
+GsPoisonedKnife.Desc:
+	'''
+	Reforja: un crítico devuelve una; las cuchillas pegadas a la pared se pueden recoger
+	Los impactos apilan toxina y alargan el veneno; al llenar seis capas el objetivo se corroe y tus cuchillas le perforan 5 de armadura más durante 8 segundos
+	'''
+GsBoneDagger.Desc:
+	'''
+	Reforja: un crítico devuelve una; las fallidas se pueden recoger
+	Al clavar cuatro en el mismo objetivo, todas estallan, cada una al 60% de daño, y cae seguro un objeto recuperable
+	'''
+GsStarAnise.Desc:
+	'''
+	Reforja: un crítico siempre devuelve uno; los fallos se pueden recoger
+	Rebota entre enemigos hasta dos veces, y cada salto pierde un 15%
+	'''
+GsBone.Desc:
+	'''
+	Reforja: el hueso traza un arco y vuelve a la mano; ida y vuelta hieren; si lo atrapas, lo recuperas entero
+	Los huesos que fallan se pueden recoger; un crítico se parte en dos esquirlas a la mitad de daño
+	'''
+GsJavelin.Desc:
+	'''
+	Reforja: un crítico devuelve una; las jabalinas clavadas en la pared casi siempre se recogen
+	Lanzada al correr: +25% de daño y +30% de velocidad inicial; los impactos seguidos al mismo objetivo suman +12% por capa, hasta tres capas
+	'''
+GsBoneJavelin.Desc:
+	'''
+	Reforja: un crítico devuelve una
+	Con tres jabalinas clavadas en el mismo objetivo, las tuyas le hacen +15% de daño; cada jabalina clavada tiene un 60% de probabilidad de soltar un objeto recuperable al caer el objetivo
+	'''
+GsSpikyBall.Desc:
+	'''
+	Reforja: las bolas con pinchos que expiran en el campo vuelven directo a la mochila
+	Si un enemigo pisa a la vez tres o más de tus bolas, salta una explosión de pinchos en cadena, cada una al 50% de daño; cada bola solo explota una vez en su vida
+	'''
+GsGrenade.Desc: Reforged: hitting 3+ foes in one blast refunds a grenade; fuses burn 20% faster inside your combo window
+GsStickyGrenade.Desc:
+	'''
+	Reforja: la explosión marca a los enemigos 3 segundos con una quemadura corrosiva; un marcado sufre +30% de tu siguiente explosión y es crítico asegurado
+	Alcanzar a tres enemigos devuelve una
+	'''
+GsBouncyGrenade.Desc:
+	'''
+	Reforja: cada rebote carga la explosión, +12% de daño, hasta tres capas
+	Una granada que rebotó tres veces se devuelve entera si la explosión alcanza a un enemigo
+	'''
+GsBeenade.Desc:
+	'''
+	Reforja: la explosión suelta dos abejas más; un enemigo picado sufre +25% de tu enjambre durante 4 segundos
+	Alcanzar a tres enemigos de un golpe devuelve una
+	'''
+GsHappyGrenade.Desc:
+	'''
+	Reforja: la explosión de confeti deja a los enemigos que no son jefes ebrios y dando vueltas 1 segundo
+	Un crítico devuelve una; la fiesta no se acaba nunca
+	'''
+GsMolotovCocktail.Desc:
+	'''
+	Reforja: 25% de probabilidad de no consumir; el mar de fuego se extiende un 40% más ancho y arde la mitad más de tiempo
+	Si en cinco segundos golpeas la misma zona (120 píxeles), se alza un muro de llamas y el daño de fuego sube otro 30%
+	'''
+GsFrostDaggerfish.Desc:
+	'''
+	Reforja: perfora un objetivo más; un crítico lo devuelve
+	Los impactos apilan hipotermia; a tres capas el hielo se rompe, +50% de daño y aplica quemadura gélida; al golpear a un enemigo ya escarchado, el pez se te resbala de la mano y vuelve siempre como objeto recuperable
+	'''
+GsSnowball.Desc:
+	'''
+	Reforja: 30% de probabilidad de no consumir; cada lanzamiento seguido sube un 4% la velocidad inicial, hasta ocho
+	Cada 8.º se aprieta en una gran bola de nieve: 2.5 veces el daño, una explosión de hielo de 90 píxeles y quemadura gélida
+	'''
+GsRottenEgg.Desc:
+	'''
+	Reforja: al romperse deja 4 segundos de nube fétida; los enemigos dentro sufren un 8% más de todo el daño
+	Un crítico devuelve uno. Al final, sigue siendo un huevo podrido
+	'''
+GsPaperAirplaneA.Desc:
+	'''
+	Reforja: el avión de papel planea siguiendo despacio el punto de mira; tras acertar da una vuelta y aún muerde otra vez
+	Un crítico lo devuelve; los fallos se pueden recoger
+	'''
+GsPaperAirplaneB.Desc:
+	'''
+	Reforja: el avión de papel blanco planea hacia el punto de mira y, tras acertar, da una vuelta y ataca de nuevo; +4% de crítico
+	Un crítico lo devuelve; los fallos se pueden recoger
+	'''
+GsHolyWater.Desc:
+	'''
+	Reforja: la conversión del entorno sigue igual; en el punto de rotura se alza 3 segundos un dominio de resplandor sacro
+	Los enemigos dentro sufren un 10% más de todo el daño; los jugadores dentro recuperan 1 de vida por segundo; si una botella cubre a tres enemigos, devuelve una
+	'''
+GsUnholyWater.Desc:
+	'''
+	Reforja: la conversión del entorno sigue igual; en el punto de rotura se alza 3 segundos una niebla impía
+	Los enemigos del dominio arden sin parar en llama de las sombras y se mueven un poco más lentos
+	'''
+GsBloodWater.Desc:
+	'''
+	Reforja: la conversión del entorno sigue igual; en el punto de rotura se alza 3 segundos una niebla de sangre
+	Si estás de pie en la niebla, tus impactos absorben 1 de vida, como mucho 3 por segundo
+	'''
+GsAleTosser.Desc:
+	'''
+	Reforja: 30% de probabilidad de no consumir cerveza
+	Los impactos apilan borrachera, +8% de daño por capa, hasta cinco; cada 6.º lanzamiento es una explosión de barril que deja a los que no son jefes ebrios y dando vueltas
+	'''
+GsShadowflameKnife.Desc:
+	'''
+	Reforja: los impactos alimentan el combo; el brazo se acelera al apilar, un 25% más rápido a nueve capas
+	Al llenar el combo entra en filo de llama: la llama de las sombras arde 4 segundos enteros, y cada 4.ª cuchilla se parte en una hoja de sombra al 60% de daño
+	'''
