@@ -1,0 +1,142 @@
+# GodSmith mode - Broadswords family (P1) weapon descriptions
+# Keys are composed by the framework: Mods.CalamityOverhaul.GodSmithBroadswords.{SchemeClassName}.Desc
+
+# ===== Progression swords (package lead) =====
+GsLightsBane.Desc:
+	'''
+	Reforja: cada tajo rasga en el aire una herida de sombra;
+	el tercero se hunde en la sombra y estalla hacia adelante; la cicatriz se queda un instante y erosiona sin cesar a quien la toca
+	'''
+# ===== Wood tier =====
+GsWoodenSword.Desc:
+	'''
+	Reforja: tres tajos ligeros y rápidos; el tercero pisa hacia adelante y pesa más;
+	tras acertar, el siguiente tajo en 0.7 segundos alza la hoja a la mitad de tiempo y el daño sube un 10%
+	'''
+GsBorealWoodSword.Desc:
+	'''
+	Reforja: tajos encadenados de abeto boreal; al golpear al mismo objetivo se apila resina de abeto;
+	al llenar 3 capas estalla una niebla de escarcha y el objetivo queda prendido de quemadura gélida
+	'''
+GsPalmWoodSword.Desc:
+	'''
+	Reforja: tajos encadenados de palmera en arco largo;
+	el tercero, en la dirección del tajo, lanza 3 oleadas de arena que caen rápido al suelo; cada una inflige daño una vez
+	'''
+GsRichMahoganySword.Desc:
+	'''
+	Reforja: cuatro tajos al modo de látigo de liana;
+	el cuarto alarga la enredadera, corta más lejos y el enemigo que acierte queda enredado en liana venenosa y envenenado
+	'''
+GsEbonwoodSword.Desc:
+	'''
+	Reforja: cada tajo deja en el camino de la hoja una nube morada de esporas;
+	la nube se queda medio segundo y el enemigo que la toque recibe un golpe extra de daño bajo
+	'''
+GsShadewoodSword.Desc:
+	'''
+	Reforja: el tercer tajo hace sangrar al objetivo;
+	golpear a un objetivo con hemorragia sube el daño un 18% y adelanta el arranque del siguiente tajo
+	'''
+GsAshWoodSword.Desc:
+	'''
+	Reforja: dos tajos rápidos y luego uno pesado que quema;
+	el tajo pesado es más lento y más duro; al acertar prende al enemigo 3 segundos
+	'''
+GsCactusSword.Desc:
+	'''
+	Reforja: tajos encadenados de arco corto y compacto;
+	al acertar el tercero, saltan hacia atrás y arriba 2 púas de cactus; cada una acierta una vez
+	'''
+# ===== Ore tier =====
+GsCopperBroadsword.Desc: Reforja: espada de cobre ligera y rápida, ciclo de dos tiempos, la más veloz del grupo. Al cortar enemigos empapados o bajo la lluvia, la corriente se conduce por el agua y añade un tramo extra de daño
+GsTinBroadsword.Desc: Reforja: el filo es fino como una lámina de muelle; cuatro tajos suben la escala, cada uno más agudo. Cuidado con la muñeca: el cuarto es el tajo resonante, más doloroso, y al caer avisa con un destello blanco y un chasquido
+GsLeadBroadsword.Desc: Reforja: espada roma cargada de plomo; se mueve lento, pero empuja de verdad. El tercer tajo del combo se alza sobre la cabeza y cae en vertical; al impactar la pausa se alarga y el impacto levanta una nube de polvo
+GsSilverBroadsword.Desc: Reforja: filo de plata templado en luz de luna; de noche el daño sube. El remate arrastra una estela de plata más larga y más brillante: se ve y duele
+GsTungstenBroadsword.Desc: Reforja: tungsteno denso, hecho para roer caparazones. Tras tres tajos al mismo objetivo que dejan una muesca, cada tajo siguiente ignora 8 de su defensa; al formarse la muesca se oye un chasquido de metal
+GsGoldBroadsword.Desc: Reforja: pesada espada ostentosa de adornos dorados; al blandirla las estelas se apilan en oro y al cortar saltan chispas doradas. Si llevas monedas de oro en el bolsillo, el remate corta más duro
+GsPlatinumBroadsword.Desc: Reforja: la más pesada del grupo; los tres tajos son tajos a todo pulmón. El último arrastra todo el cuerpo hacia adelante, lanza una doble onda de choque y el retroceso basta para abrir hueco entre los enemigos
+# ===== Environment / drop swords =====
+GsBoneSword.Desc: Reforja: el recobro del tercer golpe lanza un hueso que gira; vuela en arco cada vez más rápido y, al chocar, se hace añicos de hueso
+GsMandibleBlade.Desc: Reforja: cada tajo es una dentellada de dos mandíbulas; además del filo principal, una sombra de mandíbula en espejo muerde a la vez; la tercera cierra las dos y el daño de la tenaza sube
+GsPurpleClubberfish.Desc: Reforja: un manotazo ancho de pez mojado, con un retroceso enorme; al acertar salpica un gran abanico de agua; si golpeas a un enemigo en llamas, apagas el fuego y ese golpe hace más daño
+GsZombieArm.Desc: Reforja: se agita al ritmo de los muertos, cada golpe con otra velocidad y otro arco; el líquido podrido que salpica a un enemigo puede confundirlo un instante
+GsStylishScissors.Desc: Reforja: tijera rapidísima de dos tiempos que abre y cierra; al cortar seis veces al mismo objetivo salta el tijeretazo de ejecución y ese golpe duplica el daño
+GsBladedGlove.Desc: Reforja: cinco zarpazos a quemarropa; el quinto rasga una triple marca de garras y el daño sube
+GsKatana.Desc: Reforja: el filo se esconde en la estela del tajo, aparece de un destello en el final y se queda quieto; el tercer tajo es un iaijutsu: carga junto a la vaina y desenvaina en un destello blanco
+GsIceBlade.Desc: Reforja: cada tajo condensa un cristal de hielo que gira sobre sí; vuela un tramo y cae en arco; el remate dispara dos cristales
+GsFalconBlade.Desc: Reforja: la ráfaga de tres tajos más rápida de su rango; el tercero se vuelve un zarpazo de halcón, embiste hacia el punto de mira y arrastra el doble de estelas
+GsTentacleSpike.Desc: Reforja: al acertar pega limo al objetivo; al hincarse en la carne además succiona un hilo de vida
+GsCandyCaneSword.Desc: Reforja: el 5.º impacto al mismo objetivo rompe el glaseado, añade un 50% de daño extra y salpica migas de azúcar rojas y blancas
+GsDyeTradersScimitar.Desc: Reforja: cada tajo tiñe el filo del siguiente color del arcoíris; el tercero destella los siete a la vez y salpica tinte sobre el objetivo
+# ===== Progression swords =====
+GsBloodButcherer.Desc:
+	'''
+	Reforja: los tajos pesados apilan sangría en el enemigo, hasta tres capas; a más capas, más espesa la sangre que gotea;
+	el tercer tiempo detona todas las capas; cada una estalla en una explosión de sangre; si detonas las tres, recuperas 2 de vida
+	'''
+GsEnchantedSword.Desc: Reforja: cada tajo lanza una onda de filo de luz sagrada; la del tercer tiempo es más ancha y además atraviesa a tres enemigos
+GsStarfury.Desc: Reforja: cada tajo llama una estrella desde el cénit; al alzar el tercer tiempo fija tres puntos de caída delante y, al blandir, las tres caen a la vez
+GsBeeKeeper.Desc:
+	'''
+	Reforja: al cortar a un enemigo salen de la boca del filo una o dos abejas;
+	al alzar el cuarto tiempo, tres sombras de abeja giran en torno a la hoja; al blandir se vuelven abejas de verdad, y el enemigo cortado queda cubierto de cera que gotea
+	'''
+# ===== Mandated A-tier trio =====
+GsMuramasa.Desc:
+	'''
+	Reforja: iaijutsu de cinco tiempos. Los tres primeros son tajos instantáneos; tras cada uno hay un instante de zanshin;
+	el cuarto recoge la hoja en la vaina y carga; el quinto desenvaina un golpe pesado que cubre todo el arco
+	'''
+GsBladeofGrass.Desc:
+	'''
+	Reforja: filo de hierba viva. Cada tajo siembra por el arco una niebla de esporas venenosas que se queda un instante, muerde a los enemigos y los envenena;
+	el tercero alarga más la liana y, al acertar, deja al objetivo enredado en el sitio
+	'''
+GsFieryGreatsword.Desc:
+	'''
+	Reforja: gran espada de piedra infernal. El tajo es lento y pesado; el filo gotea magma durante todo el tajo;
+	el tercero se alza sobre la cabeza y cae; el impacto deja un cráter de magma que sigue quemando a los enemigos
+	'''
+GsAdamantiteSword.Desc: Reforja: filo pesado de adamantita; el tajo es lento y mortal. El remate se vuelve un tajo vertical que parte la armadura y resquebraja el suelo.
+GsBeamSword.Desc: Reforja: cada tajo dispara una onda de haz. Los impactos del haz cargan luz en el filo; al juntar tres capas, el siguiente haz asciende a un gran haz de aniquilación, más ancho, más brillante, que atraviesa a más enemigos.
+GsBladetongue.Desc: Reforja: filo vivo carmesí. Los impactos cuerpo a cuerpo escupen un chorro de icor que cae; al acertar baja la defensa del enemigo. El beso corrosivo del remate, en su lugar, deja en el sitio una fuente de icor que brota a intervalos.
+GsBluePhaseblade.Desc: Reforja: filo de haz de plasma; al cortar enemigos acumula carga y el filo se alarga y brilla. Al llenar la carga, el siguiente remate lanza un arco de plasma.
+GsBluePhasesaber.Desc: Reforja: filo de plasma refinado; al cortar enemigos acumula carga y el tope de extensión del filo es más alto. Cada remate lanza un filo de luz corto; a plena carga, en su lugar lanza un arco sobrecargado que al impactar estalla en un anillo de plasma.
+GsBreakerBlade.Desc: Reforja: ritmo de dos tajos pesados. Contra enemigos con más del 90% de vida inflige 2.5 veces el daño. Ese martillazo de apertura, al acertar, además estalla una onda de choque que parte armadura.
+GsChlorophyteClaymore.Desc: Reforja: gran espada de dos tiempos. Cada tajo lanza un núcleo de clorofita que, en vuelo, estalla zarza a intervalos. El núcleo del remate vertical arraiga en el impacto, ralentiza y sigue pinchando a los enemigos que se queden.
+GsChlorophyteSaber.Desc: Reforja: sable ligero de tres tiempos. Cada tajo siembra por el borde del arco una niebla de esporas que se queda; tajar a un objetivo dentro de la niebla añade daño extra y apila ponzoña.
+GsChristmasTreeSword.Desc: Reforja: cada tajo lanza, por turno, un adorno festivo. La bola roja estalla al tocar suelo; la estrella dorada gira y perfora; la caja de regalo se abre y esparce fragmentos, y en el impacto se alza un arbolito de luces que, a intervalos, siembra polvo de estrella que hiere.
+GsCobaltSword.Desc: Reforja: si el combo no se rompe, el filo de cobalto se vuelve más y más rápido. El cuarto tiempo arrastra un arco de eco azul y añade otro tajo.
+GsCutlass.Desc: Reforja: danza de saqueo de cuatro tiempos; el tempo sube a cada tiempo. Los impactos del combo acumulan Garbo; al juntar bastante, el cuarto tiempo se vuelve un tajo doble en remolino, dos vueltas en torno al cuerpo y un juicio de daño en cada una.
+GsDD2SquireBetsySword.Desc: Reforja: cada tajo suelta una onda de estampido de rugido de dragón. Los impactos acumulan Alma de dragón; al llenar cuatro capas, la onda del remate asciende a una onda de dos dragones entrelazados.
+GsDD2SquireDemonSword.Desc: Reforja: al empuñarla, mantener pulsado clic derecho alza el escudo; tras un bloqueo exitoso, el siguiente tajo inflige el quíntuple de daño. El bloqueo exitoso además enciende el filo; los tres tajos siguientes lanzan ondas de fuego y prenden a los enemigos.
+GsFetidBaghnakhs.Desc: Reforja: danza de zarpazos a quemarropa de cuatro tiempos. Cada golpe araña en el objetivo una marca de garras podrida; la cuarta estalla en pus; los enemigos salpicados quedan envenenados y teñidos de ponzoña.
+GsFrostbrand.Desc: Reforja: aliento de invierno. Cada tajo exhala un proyectil de escarcha que primero se atrasa y luego se lanza; al acertar aplica quemadura gélida. El proyectil del remate se abre en un abanico de tres esquirlas de hielo.
+GsGreenPhaseblade.Desc: Reforja: filo de haz de plasma; al cortar enemigos acumula carga y el filo se alarga y brilla. Al llenar la carga, el siguiente remate lanza un arco de plasma.
+GsGreenPhasesaber.Desc: Reforja: filo de plasma refinado; al cortar enemigos acumula carga y el tope de extensión del filo es más alto. Cada remate lanza un filo de luz corto; a plena carga, en su lugar lanza un arco sobrecargado que al impactar estalla en un anillo de plasma.
+GsHamBat.Desc: Reforja: el poder de la hartura. Cuanto más lleno estás, más fuerza tiene el tajo; según el grado de Bien alimentado, el daño sube un 5%, 10% o 15%, y también aumentan las chispas de grasa y el aroma a carne. El remate que acierta salpica migas de carne y estalla un pequeño anillo de choque aromático.
+GsInfluxWaver.Desc: Reforja: acero de fase marciano. Cada tajo lanza una onda de luz de fase que parpadea a la espalda de la víctima y taja dos veces más. Esos tajos de parpadeo marcan al objetivo con un sello de fase; el tajo sobrecargado del tercer tiempo añade un filo de fase extra a cada enemigo marcado, hasta tres.
+GsKeybrand.Desc: Reforja: cuanto menos vida tenga el objetivo, más daño, hasta el doble. Si el objetivo está por debajo del 30% de vida, el filo enciende runas de llave doradas; ejecutar a esa presa estalla en luz de cerradura abierta.
+GsMeowmere.Desc: Reforja: espada de gato vaciada en glaseado, que toca una sonata miau de cuatro tiempos. Cada tajo lanza una cabeza de gato que rebota y arrastra una cinta de arcoíris; los impactos recogen notas; al juntar siete, el remate llama un meteorito de gato que cae del cielo.
+GsMythrilSword.Desc: Reforja: cada tajo sella en el objetivo una marca de mithril; la tercera marca tañe y estalla una onda de choque resonante.
+GsOrangePhaseblade.Desc: Reforja: filo de haz de plasma; al cortar enemigos acumula carga y el filo se alarga y brilla. Al llenar la carga, el siguiente remate lanza un arco de plasma.
+GsOrangePhasesaber.Desc: Reforja: filo de plasma refinado; al cortar enemigos acumula carga y el tope de extensión del filo es más alto. Cada remate lanza un filo de luz corto; a plena carga, en su lugar lanza un arco sobrecargado que al impactar estalla en un anillo de plasma.
+GsOrichalcumSword.Desc: Reforja: cada tajo esparce por el arco pétalos que danzan y se lanzan en picado contra la presa cercana. El remate abre todo el florecer.
+GsPalladiumSword.Desc: Reforja: al acertar guarda vitalidad en el filo cálido de paladio; el remate la convierte en perlas de vida que vuelven y te curan, hasta 6 de vida por ronda de combo.
+GsPearlwoodSword.Desc: Reforja: combo juguetón de madera perlada. Cada tajo lanza una perla de luz que estalla; el tercer tiempo deja caer desde arriba una lluvia corta de perlas.
+GsPiercingStarlight.Desc: Reforja: cada uso clava tres estocadas; la tercera dispara un proyectil de luz estelar que atraviesa. Si aciertas por completo tres ráfagas de tres estocadas seguidas, el proyectil asciende a una ráfaga estelar que, al acertar, estalla un anillo de polvo de estrella.
+GsPsychoKnife.Desc: Reforja: dos estocadas relámpago de acero negro. El primer golpe desde sigilo profundo es una puñalada por la espalda e inflige un gran extra de daño. Matar solo te devuelve a medio sigilo; no te expone del todo.
+GsPurplePhaseblade.Desc: Reforja: filo de haz de plasma; al cortar enemigos acumula carga y el filo se alarga y brilla. Al llenar la carga, el siguiente remate lanza un arco de plasma.
+GsPurplePhasesaber.Desc: Reforja: filo de plasma refinado; al cortar enemigos acumula carga y el tope de extensión del filo es más alto. Cada remate lanza un filo de luz corto; a plena carga, en su lugar lanza un arco sobrecargado que al impactar estalla en un anillo de plasma.
+GsRedPhaseblade.Desc: Reforja: filo de haz de plasma; al cortar enemigos acumula carga y el filo se alarga y brilla. Al llenar la carga, el siguiente remate lanza un arco de plasma.
+GsRedPhasesaber.Desc: Reforja: filo de plasma refinado; al cortar enemigos acumula carga y el tope de extensión del filo es más alto. Cada remate lanza un filo de luz corto; a plena carga, en su lugar lanza un arco sobrecargado que al impactar estalla en un anillo de plasma.
+GsSeedler.Desc: Reforja: cada tajo lanza una vaina de semilla que gira; tras rebotar estalla en un abanico de zarzas que persiguen. La vaina del remate brota lianas y, en el impacto, alza un matorral de zarza que sigue pinchando.
+GsSlapHand.Desc: Reforja: tres manotazos de castigo celestial; cada palma deja una huella enorme y un retroceso disparatado. El remate junta las dos palmas y suelta un pequeño anillo de onda de choque.
+GsStarWrath.Desc: Reforja: cada tajo llama del cielo nocturno tres meteoros con cola de cometa. Los impactos acumulan Marea estelar; al llenarla, el remate pasa a verter una lluvia de estrellas; la gran estrella final, al tocar suelo, estalla un anillo estelar.
+GsTheHorsemansBlade.Desc: Reforja: al acertar a un enemigo llama una cabeza de calabaza en llamas que embiste al objetivo. Golpear sin parar al mismo objetivo sella una Marca de cacería; al llenarla, el remate llama una caballería de cuatro calabazas ardientes que carga en fila y aplasta la línea del objetivo.
+GsTitaniumSword.Desc: Reforja: cada tajo deja en el aire una sombra de titanio que, medio tiempo después, repite el mismo tajo.
+GsWhitePhaseblade.Desc: Reforja: filo de haz de plasma; al cortar enemigos acumula carga y el filo se alarga y brilla. Al llenar la carga, el siguiente remate lanza un arco de plasma.
+GsWhitePhasesaber.Desc: Reforja: filo de plasma refinado; al cortar enemigos acumula carga y el tope de extensión del filo es más alto. Cada remate lanza un filo de luz corto; a plena carga, en su lugar lanza un arco sobrecargado que al impactar estalla en un anillo de plasma.
+GsYellowPhaseblade.Desc: Reforja: filo de haz de plasma; al cortar enemigos acumula carga y el filo se alarga y brilla. Al llenar la carga, el siguiente remate lanza un arco de plasma.
+GsYellowPhasesaber.Desc: Reforja: filo de plasma refinado; al cortar enemigos acumula carga y el tope de extensión del filo es más alto. Cada remate lanza un filo de luz corto; a plena carga, en su lugar lanza un arco sobrecargado que al impactar estalla en un anillo de plasma.
