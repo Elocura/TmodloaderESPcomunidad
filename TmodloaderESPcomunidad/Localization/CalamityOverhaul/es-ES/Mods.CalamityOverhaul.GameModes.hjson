@@ -1,0 +1,65 @@
+GameModeText: {
+	BrutalName: Mundo Cruel
+	AsuraName: Infierno Asura
+	AnnihilationName: Vida eterna de la Muerte
+	GodSmithName: Artificio divino
+	BrutalOnLine: Este mundo es cruel, y aun así lo sigues amando
+	BrutalOffLine: El mundo envaina sus colmillos. Su clemencia es solo una pausa
+	AsuraOnLine: La senda Asura se abre. Todo dolor que inflijas será devuelto por completo
+	AsuraOffLine: La senda Asura se cierra. Causa y efecto quedan en paz
+	AnnihilationOnLine: Todo pasará; solo la Muerte vive para siempre
+	AnnihilationOffLine: La Muerte descansa un instante; los vivos roban un respiro
+	GodSmithOnLine: El Herrero divino alza el martillo; todo hierro común será reforjado
+	GodSmithOffLine: El fuego de la forja se apaga; todas las armas vuelven a su forma primera
+	BrutalDesc:
+		'''
+		Libera la IA rediseñada y despiadada de los jefes; sus valores parten de la dificultad Maestro
+		Todos los enemigos ganan un 50% más de vida y daño; los menores se vuelven veloces y entran en frenesí permanente
+		'''
+	AsuraDesc:
+		'''
+		La mejora sube al 100%. Los enemigos se adaptan al mismo tipo de ataque si lo repites,
+		y el daño que infliges se convierte en el mínimo del que te devuelven.
+		Los ataques cuerpo a cuerpo se adaptan peor, sobre todo el filo mismo;
+		cuanto más cerca estés del enemigo, más daño causes
+		'''
+	AnnihilationDesc:
+		'''
+		La forma final del Infierno Asura en un mundo legendario. Todo terror se duplica de nuevo;
+		los enemigos se adaptan más rápido y el dolor que infliges se devuelve por partida doble
+		'''
+	BrutalCreationDesc: Maestro es el suelo: los jefes rehechos despiertan y todos los enemigos ganan un 50%
+	AsuraCreationDesc: Maestro es el suelo: los enemigos se adaptan a tus golpes y devuelven el dolor tal cual
+	GodSmithDesc:
+		'''
+		Todas las armas de vanilla ganan una forma de ataque renovada,
+		y las armaduras de vanilla reciben una Dádiva de conjunto fiel a su naturaleza.
+		No cambia la fuerza enemiga; se activa por separado y no interfiere con los demás modos
+		'''
+	GodSmithRecastTitle: Reforja del Herrero divino
+	GodSmithEndowPrefix: "Dádiva: "
+	GodSmithInheritLine: Heredado de {0}: {1}
+	GodSmithSetPreview: Bonus de Herrero divino: {0}
+	GodSmithNestChain: Con ranuras: {0}
+	GodSmithNestTitle: Cascos engastado
+	GodSmithNestHint: Equipa el conjunto completo para heredar la bonificación de cada casco engastado
+	GodSmithNestActive: Conjunto completo equipado: todas las bonificaciones engastes están activas
+	GodSmithNestReceiveHint:
+		'''
+		Añade {0} al fabricar este casco para engastarlo
+		Equipate el conjunto completo para heredar también la bonificación de conjunto del casco engastado
+		''' 
+	GodSmithNestGiveHint: Se puede engarzar en {0}: incluye este casco al fabricar uno
+	GodSmithNestOr: " o "
+	GodSmithRecipeOn: Artificio divino activo
+	GodSmithRecipeOff: Artificio divino inactivo
+	StateOn: Activo
+	StateOff: Latente
+	HintEnable: Clic para despertar
+	HintDisable: Clic para sellar
+	BossRefuse: Un jefe sigue en el mundo. El pacto no puede alterarse ahora
+	AsuraNeedBrutal: Primero hay que despertar el Mundo Cruel
+}
+
+SporeshineAmbience.DazeDeathReason: "{0} se embriagó en lo profundo de la niebla de esporas"
+WoodsongBrambleSystem.BrambleDeathReason: "{0} stepped into the forest bramble"
