@@ -1,0 +1,364 @@
+// Godsmith reset armors (R3 identity rework): per-piece lines remain only for pre-hardmode ore chestplates (mining speed);
+// every other set keeps its vanilla piece stats. Set bonus lines open with the vanilla bonus, followed by the signature mechanic on a new line.
+
+// Pre-hardmode ores: metal-property ladder (defense only while worn, the property is inherited through helmet nesting)
+GsCopperArmor: {
+	BodyLine: Velocidad de minería un 5% más rápida
+	SetBonusLine:
+		'''
+		+2 de defensa extra
+		Cada 6 golpes, lanza una descarga de electricidad estática al enemigo más cercano, 
+		causándole un daño equivalente al 40% del golpe
+		'''
+}
+
+GsTinArmor: {
+	BodyLine: Velocidad de minería un 6% más rápida
+	SetBonusLine:
+		'''
+		+2 de defensa extra
+		Al recibir daño, se oye un tintineo metálico que repele a los enemigos cercanos
+		una vez cada 5 segundos.
+		'''
+}
+
+GsIronArmor: {
+	BodyLine: Velocidad de minería un 8% más rápida
+	SetBonusLine:
+		'''
+		+3 de defensa extra
+		Si te quedas quieto durante 1 segundo, adoptarás una postura inquebrantable: 
+		+5 puntos más de defensa, +10 de penetración de armadura e inmunidad 
+		al empuje hasta que te muevas
+		'''
+}
+
+GsLeadArmor: {
+	BodyLine: Velocidad de minería un 9% más rápida
+	SetBonusLine:
+		'''
+		+3 de defensa extra
+		Los golpes tienen un 25% de probabilidad de provocar envenenamiento por plomo 
+		(2 de daño por segundo durante 4 segundos)
+		'''
+}
+
+GsSilverArmor: {
+	BodyLine: Velocidad de minería un 11% más rápida
+	SetBonusLine:
+		'''
+		+3 de defensa extra
+		Durante 4 segundos tras recibir daño, la regeneración de vida aumenta considerablemente
+		'''
+}
+
+GsTungstenArmor: {
+	BodyLine: Velocidad de minería un 12% más rápida
+	SetBonusLine:
+		'''
+		+3 de defensa extra
+		Aumenta un 30% el empuje y +4 de penetración de armadura
+		'''
+}
+
+GsGoldArmor: {
+	BodyLine: Velocidad de minería un 12% más rápida
+	SetBonusLine:
+		'''
+		+4 de defensa extra
+		Cada octavo golpe lanza 3 monedas de oro al objetivo, 
+		cada una de las cuales inflige el 35% del daño del golpe
+		'''
+}
+
+GsPlatinumArmor: {
+	BodyLine:  Velocidad de minería un 15% más rápida
+	SetBonusLine:
+		'''
+		+4 de defensa extra
+		Inmune al veneno, al sangrado, a la debilidad y a la oscuridad
+		'''
+}
+
+// Armor mark debuffs
+GsLeadPoisonBuff: {
+	DisplayName: Intoxicación por plomo
+	Description: Pierdes 2 puntos de vida por segundo, sin regeneración natural
+}
+
+GsAmberSlowBuff: {
+	DisplayName: Ámbar atrapado
+	Description: Velocidad de movimiento reducida en un 30%
+}
+
+GsWebSlowBuff: {
+	DisplayName: Enredado
+	Description: Velocidad de movimiento reducida en un 30%
+}
+
+GsObsidianMarkBuff: {
+	DisplayName: Marca de obsidiana
+	Description: Recibe daño adicional de los súbditos
+}
+
+// The eight wood sets
+GsWoodArmor.SetBonusLine:
+	'''
+	+1 de defensa extra
+	Al talar árboles, existe la posibilidad de que aparezca madera extra.
+	'''
+GsBorealWoodArmor.SetBonusLine:
+	'''
+	+1 de defensa extra
+	Al talar árboles, existe la posibilidad de que aparezca madera extra.
+	'''
+GsRichMahoganyArmor.SetBonusLine:
+	'''
+	+1 de defensa extra
+	Al talar árboles, existe la posibilidad de que aparezca madera extra.
+	'''
+GsPalmWoodArmor.SetBonusLine:
+	'''
+	+1 de defensa extra
+	Al talar árboles, existe la posibilidad de que aparezca madera extra.
+	'''
+GsEbonwoodArmor.SetBonusLine:
+	'''
+	+1 de defensa extra
+	Al talar árboles, existe la posibilidad de que aparezca madera extra.
+	'''
+GsShadewoodArmor.SetBonusLine:
+	'''
+	+1 de defensa extra
+	Al talar árboles, existe la posibilidad de que aparezca madera extra.
+	'''
+GsAshWoodArmor.SetBonusLine:
+	'''
+	+1 de defensa extra y mitad menos al daño causado por la lava
+	Al talar árboles, existe la posibilidad de que aparezca madera extra.
+	'''
+GsPearlwoodArmor.SetBonusLine:
+	'''
+	+1 de defensa extra
+	Al talar árboles, existe la posibilidad de que aparezca madera extra.
+	'''
+// Other pre-hardmode sets
+GsCactusArmor.SetBonusLine:
+	'''
+	Los enemigos que te toquen reciben daño
+	Al recibir daño, explotan 5 espinas de cactus a tu alrededor
+	'''
+GsEskimoArmor.SetBonusLine:
+	'''
+	Inmune al frío y a la congelación; +3 puntos de defensa
+	adicionales en el bioma de nieve Al recibir daño, se sacude la nieve,
+	lo que enfría a los enemigos cercanos durante 2 segundos, una vez cada 3 segundos
+	'''
+GsPinkEskimoArmor.SetBonusLine:
+	'''
+	Inmune al frío y a la congelación; +3 puntos de defensa
+	adicionales en el bioma de nieve Al recibir daño, se sacude la nieve,
+	lo que enfría a los enemigos cercanos durante 2 segundos, una vez cada 3 segundos
+	'''
+GsAnglerArmor.SetBonusLine:
+	'''
+	Aparecen menos enemigos mientras se sostiene una caña de pescar
+	Lanza 3 sedales adicionales; existe la posibilidad de pescar
+	peces exóticos o lotes de pociones de mejora
+	'''
+GsNinjaArmor.SetBonusLine:
+	'''
+	Aumenta un 20% la velocidad de movimiento
+    Los cuchillos arrojadizos, los shurikens y las bolas con púas no se consumen,
+	se lanzan un 15% más rápido, e infligen 3 puntos de daño adicionales y provocan hemorragia
+	'''
+GsFossilArmor.SetBonusLine:
+	'''
+	Hay un 20% de probabilidad de no gastar munición; los cuchillos arrojadizos,
+	los shurikens y las bolas con púas no se gastan
+	Los impactos a distancia tienen un 20% de probabilidad de atrapar al enemigo
+	en ámbar durante 2 segundos, lo que lo ralentiza un 30%
+	'''
+GsShadowArmor.SetBonusLine:
+	'''
+	Aumenta considerablemente la velocidad de empuje y la aceleración
+    Los golpes críticos infligen Llama de las Sombras durante 2 segundos
+	'''
+GsCrimsonArmor.SetBonusLine:
+	'''
+	La regeneración de vida es considerablemente mayor
+    Si le das a un enemigo y le reduces la vida por debajo de la mitad, hay un 20%
+	de probabilidades de que se libere una sanguijuela que lo muerda y vuelva
+	volando para curarte 3 puntos de vida
+	'''
+GsMeteorArmor.SetBonusLine:
+	'''
+	La Pistola espacial cuesta 0 de maná
+	Los golpes mágicos tienen un 15% de probabilidad de hacer que caiga un 
+	meteoro en llamas sobre el objetivo
+	'''
+GsNecroArmor.SetBonusLine:
+	'''
+	Aumenta un 10% la probabilidad de golpe crítico a distancia
+    Los golpes a distancia tienen un 20% de probabilidad de lanzar un hueso perforante;
+	al matar a un enemigo, brotan tres huesos del cadáver
+	'''
+GsJungleArmor.SetBonusLine:
+	'''
+	Se reduce el consumo de maná un 16%
+    Los golpes mágicos dejan una nube de esporas que envenena a los enemigos;
+	cada espora que impacta restaura 2 de maná
+	'''
+GsBeeArmor.SetBonusLine:
+	'''
+	Aumenta un 10% el daño de las invocaciones
+    Tres abejas gigantes te rodean y pican a los enemigos cercanos, y todas ellas
+	se abalanzan sobre quienquiera que te haga daño
+	'''
+GsObsidianArmor.SetBonusLine:
+	'''
+	Aumenta un 15% el daño de las invocaciones, aumenta un 15% la velocidad del látigo,
+	aumenta un 30% el alcance del látigo; te permite caminar sobre piedra infernal y meteoritos
+    Los látigos marcan a los enemigos con una Marca de obsidiana durante 3s;
+	los súbditos infligen 4 de daño fijo adicional a los enemigos marcados
+	'''
+GsMoltenArmor.SetBonusLine:
+	'''
+	Aumenta el daño cuerpo a cuerpo en un 10%; inmunidad a ¡En llamas!; los ataques cuerpo a cuerpo
+	prenden fuego a los enemigos. Cada sexto golpe cuerpo a cuerpo provoca una columna de fuego
+	fundido bajo el objetivo
+	'''
+// Hardmode ores: the helmet's vanilla class set bonus stays, one metal property is layered on top
+GsCobaltArmor.SetBonusLine:
+	'''
+	La bonificación de conjunto de clase de tu casco funciona igual que antes
+    Si pasas 5 segundos sin recibir daño, obtienes Sombra veloz:+ 8% de velocidad de movimiento;
+	cada 5 golpes, lanzas una imagen residual en forma de hoja de cobalto
+	'''
+GsPalladiumArmor.SetBonusLine:
+	'''
+	Al golpear a los enemigos sigues obteniendo una rápida regeneración de vida
+	Si golpeas al mismo enemigo 6 veces, se libera un orbe sifón que lo muerde
+	y vuelve para curarte 8 puntos de vida
+	'''
+GsMythrilArmor.SetBonusLine:
+	'''
+	La bonificación de conjunto de tu casco funciona igual que antes
+	Cada octavo golpe forja una espada espiritual de mithril que se lanza hacia el objetivo
+	'''
+GsOrichalcumArmor.SetBonusLine:
+	'''
+	Los pétalos de flor que caen siguen activándose al impactar
+	Cada quinto pétalo que golpee al mismo enemigo se divide en dos pétalos autoguiados adicionales
+	'''
+GsTitaniumArmor.SetBonusLine:
+	'''
+	Al golpear a los enemigos, la Barrera de titanio sigue aumentando
+	Cuantos más fragmentos orbiten, mayor será la probabilidad de golpe crítico
+	(hasta un 15%) y el daño infligido por el arma que empuñas (hasta un 10%)
+	Al recibir daño, la barrera se rompe
+	'''
+GsAdamantiteArmor.SetBonusLine:
+	'''
+	La bonificación de conjunto de clase de tu casco funciona como antes
+	Los golpes acumulan calor en la forja hasta un máximo de 12 acumulaciones;
+	cuando el calor alcanza su máximo, el siguiente golpe provoca seis brasas de adamantita
+	'''
+// Remaining hardmode and endgame sets
+GsSpiderArmor.SetBonusLine:
+	'''
+	Aumenta un 12 % el daño de las invocaciones
+	Los golpes de los esbirros tienen un 20% de probabilidad de lanzar telarañas que inmovilizan
+	a los enemigos durante 2s; al recibir daño, lanzan 3 telarañas a su vez
+	'''
+GsFrostArmor.SetBonusLine:
+	'''
+	Los ataques cuerpo a cuerpo y a distancia infligen Quemadura de hielo y causan un 10% más de daño;
+	inmunidad a «Quemadura de hielo», Congelado y Helado
+	Los golpes cuerpo a cuerpo y a distancia tienen un 20% de probabilidad de lanzar un
+	carámbano sobre el objetivo. Al recibir daño, se desata una ola de frío que congela a los enemigos
+	cercanos durante 1s una vez cada 10s
+	'''
+GsCrystalAssassinArmor.SetBonusLine:
+	'''
+	Aumenta dun 10% el daño y la probabilidad de golpe crítico, además te da la capacidad de hacer un
+	empuje. Al lanzarte  contra un enemigo, este expulsa 5 fragmentos de cristal
+	Tus siguientes 3 ataques tras un umpuje serán golpes críticos garantizados
+	'''
+GsHallowedArmor.SetBonusLine:
+	'''
+	Protección Sagrada funciona como antes (la capucha sigue otorgando 2 ranuras de súbditos)
+	Al esquivar un golpe, se activan 6 estrellas sagradas y se incrementan el daño y la probabilidad
+	de golpe crítico en un 10% durante 5s
+	'''
+GsBeetleScaleArmor.SetBonusLine:
+	'''
+	Los golpes consecutivos acumulan hasta 20 acumulaciones de Poder del escarabajo, que se reinician
+	tras 2s sin recibir golpes. Cada acumulación otorga un 1% de daño cuerpo a cuerpo y un 0,5% de
+	velocidad de ataque cuerpo a cuerpo; cuando se alcanzan todas las acumulaciones, los golpes tienen
+	un 20% de probabilidad de lanzar un escarabajo en picado contra el objetivo.
+	'''
+GsBeetleShellArmor.SetBonusLine:
+	'''
+	Al recibir daño, se obtiene una capa de caparazón de hasta 3 (cada una proporciona 6 de defensa
+	y un 6 % de reducción de daño), que desaparece tras 10 s si no se recibe ningún impacto. Si se recibe daño
+	cuando hay 3 capas, estas se rompen en 5 fragmentos de caparazón que se lanzan contra tu atacante.
+	'''
+GsTurtleArmor.SetBonusLine:
+	'''
+	Se reduce el daño un 15% pero los atacantes cuerpo a cuerpo reciben el doble de daño
+	Al recibir daño, se lanzan 8 púas que infligen el doble de tu defensa en daño cuerpo a cuerpo, una vez cada 3s
+	'''
+GsTikiArmor.SetBonusLine:
+	'''
+	+1 ranura para súbditos, un 10% más de daño de invocación y un 20% más de alcance del látigo
+    Los golpes de los súbditos y del látigo tienen un 20% de probabilidad de invocar
+	una llama espiritual de tótem que se dirige hacia el objetivo y lo envenena durante 3s
+	'''
+GsSpectreHoodArmor.SetBonusLine:
+	'''
+	Los golpes mágicos siguen generando orbes curativos, pero el daño mágico se reduce en un 40%
+	Consigues +100 puntos más de maná máximo y una regeneración de maná más rápida
+	Al recibir daño, hay un 40% de probabilidad de recuperar el 10% de la vida máxima, una vez cada 8s
+	'''
+GsSpectreMaskArmor.SetBonusLine:
+	'''
+	Los golpes mágicos siguen liberando almas perdidas, y el consumo de maná se reduce en un 15%
+	Aumenta dun 10%  el daño mágico y en la probabilidad de golpe crítico
+	Los golpes críticos mágicos tienen un 30% de probabilidad de lanzar una llama espectral adicional
+	'''
+GsShroomiteArmor.SetBonusLine:
+	'''
+	El sigilo mientras estás quieto funciona como antes: aumenta un 1% la probabilidad de golpe crítico
+	a distancia y ofrece un 30% de probabilidad de no consumir munición.Mientras estás en estado de
+	sigilo profundo, los impactos a distancia tienen un 30% de probabilidad de hacer brotar una torreta
+	de esporas que dispara tres esporas autoguiadas
+	'''
+GsSolarArmor.SetBonusLine:
+	'''
+	Los escudos solares y la embestida solar funcionan como antes
+	Cada escudo otorga 8 de defensa y un 4% de reducción de daño
+	Al embestir a un enemigo se desencadena una enorme explosión solar
+	'''
+GsVortexArmor.SetBonusLine:
+	'''
+	El sigilo de vórtice funciona como antes (no se consume munición mientras se está en sigilo;
+	+15% de velocidad de movimiento y +10% de crítico a distancia mientras se está visible).
+    Mientras se está en sigilo, los golpes a distancia tienen un 40% de probabilidad de lanzar
+	un rayo de vórtice en cadena contra el enemigo más cercano
+	'''
+GsNebulaArmor.SetBonusLine:
+	'''
+	Los potenciadores de nebulosa funcionan como antes
+	Cada nivel de potenciador otorga un 5% de daño mágico, 2 de regeneración de vida y
+	un 10% de reducción de consumo de maná
+	Los golpes mágicos tienen un 25% de probabilidad de hacer florecer una flor de nebulosa
+	en el objetivo, que emite dos pulsos
+	'''
+GsStardustArmor.SetBonusLine:
+	'''
+	El Guardián del Polvo Estelar funciona igual que antes
+	+3 ranuras para súbditos y un aumento del 15% de daño de invocación
+	Los golpes de los súbditos tienen un 20% de probabilidad de hacer que caiga un cometa de polvo
+	estelar sobre el objetivo
+	'''
