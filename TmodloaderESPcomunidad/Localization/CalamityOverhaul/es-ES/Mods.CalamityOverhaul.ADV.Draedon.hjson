@@ -1,189 +1,189 @@
 ExoMechdusaSum: {
-	IntroLine1: You understand... this moment has been long anticipated.
-	IntroLine2: I am fascinated by all aspects of the unknown, but nothing fascinates me more than your very nature.
-	IntroLine3: I will show you my god-surpassing creations.
-	IntroLine4: And you... you will show me your nature in combat.
-	IntroLine5: Now. Make your selection.
-	SelectionPrompt: Make your choice.
-	BossRushLine: Make your choice. You have 20 seconds.
-	ChoiceAres: Ares
-	ChoiceThanatos: Thanatos
-	ChoiceTwins: Artemis
+	IntroLine1: Ya sabes... este momento se ha esperado durante mucho tiempo.
+    IntroLine2: Me fascinan todos los aspectos de lo desconocido, pero nada me fascina más que tu propia naturaleza.
+    IntroLine3: Te mostraré mis creaciones, que superan incluso a las de los dioses.
+    IntroLine4: Y tú... tú me mostrarás tu naturaleza en combate.
+    IntroLine5: Ahora. Elige.
+	SelectionPrompt: Elige.
+    BossRushLine: Elige. Tienes 20 segundos.
+    ChoiceAres: Ares
+    ChoiceThanatos: Thanatos
+    ChoiceTwins: Artemis
 }
 
 ExoMechEndingDialogue: {
-	EndLine1: An unknown variable. You... are a singularity.
-	EndLine2: You are an outsider to this land and its history, just as I am.
-	EndLine3: ...My apologies. But after a "demonstration" such as that, I must take a moment to collate my thoughts.
-	EndLine4: The blood spilled thus far has left this continent stagnant and lifeless.
-	EndLine5: You have spilled your own blood. Perhaps it will be enough to end this era of despair... Regardless, it is a change I wished to see.
-	EndLine6: You now wish to reach the tyrant. Unfortunately, I cannot assist you.
-	EndLine7: This is not born from spite. My only goal from the beginning was to observe this battle.
-	EndLine8: But you have succeeded in the past. You will find a way, eventually.
-	EndLine9: I must respect and acknowledge your victory. But for now, my attention must return to my mechanisms.
-	KillAttemptLine: ...Your actions are... unnecessary.
+	EEndLine1: Una variable desconocida. Tú... eres una singularidad.
+    EndLine2: Eres un forastero en esta tierra y en su historia, igual que yo.
+    EndLine3: ...Mis disculpas. Pero tras una "demostración" como esa, necesito un momento para ordenar mis pensamientos.
+    EndLine4: La sangre derramada hasta ahora ha dejado este continente estancado y sin vida.
+	EndLine5: Tú has derramado tu propia sangre. Quizá sea suficiente para poner fin a esta era de desesperación... En cualquier caso, es un cambio que deseaba ver.
+    EndLine6: Ahora deseas llegar hasta el tirano. Por desgracia, no puedo ayudarte.
+	EndLine7: No es por rencor. Mi único objetivo desde el principio era observar esta batalla.
+    EndLine8: Pero ya lo has conseguido en el pasado. Al final, encontrarás la manera.
+    EndLine9: Debo respetar y reconocer tu victoria. Pero, por ahora, debo volver a centrar mi atención en mis mecanismos.
+    KillAttemptLine: ...Tus acciones son... innecesarias.
 }
 
 DeploySignaltowerScenario: {
-	IntroLine1: I must conduct a critical experiment, and you are the most suitable individual currently available to assist me.
-	IntroLine2: One hundred Terran years ago, an energy storm swept through the galaxy, destroying the majority of my facilities on this planet.
-	IntroLine3: Everything was too distant. By the time I realized my monitoring network on Terra had gone dark, a century had passed.
-	IntroLine4: After that storm, interstellar travel became extremely unstable. I must, therefore, rebuild my foundational systems on Terra.
-	IntroLine5: I require your assistance in deploying the latest quantum entanglement array.
-	IntroLine6: This technology bypasses the limitations of light-speed, achieving instantaneous, galaxy-spanning communication.
-	IntroLine7: But before it can be applied, this world requires a sufficient number of quantum entanglement nodes.
-	IntroLine8: This is the quantum signal tower I have designed. Its core utilizes entanglement stabilizers and zero-point energy amplifiers.
-	TechExplainLine1: Each tower can establish a quantum entanglement link with other nodes, forming a communications network that spans the galaxy.
-	TechExplainLine2: Under theoretical conditions, its transmission latency can approach zero.
-	TaskLine: I need you to deploy these signal towers across the world to establish the complete entanglement network.
-	AcceptPrompt: Well? Do you accept?
-	ChoiceAccept: Accept commission
-	ChoiceDecline: Later
+	IntroLine1: Debo llevar a cabo un experimento crucial, y tú eres la persona más adecuada de las disponibles actualmente para ayudarme.
+    IntroLine2: Hace cien años terrestres, una tormenta energética arrasó la galaxia, destruyendo la mayor parte de mis instalaciones en este planeta.
+    IntroLine3: Todo estaba demasiado lejos. Para cuando me di cuenta de que mi red de vigilancia en Terra había dejado de funcionar, ya había transcurrido un siglo.
+	IntroLine4: Tras esa tormenta, los viajes interestelares se volvieron extremadamente inestables. Por lo tanto, debo reconstruir mis sistemas fundamentales en la Tierra.
+    IntroLine5: Necesito tu ayuda para desplegar la última matriz de entrelazamiento cuántico.
+    IntroLine6: Esta tecnología supera las limitaciones de la velocidad de la luz, logrando una comunicación instantánea que abarca toda la galaxia.
+	IntroLine7: Pero antes de que pueda aplicarse, este mundo necesita un número suficiente de nodos de entrelazamiento cuántico.
+    IntroLine8: Esta es la torre de señal cuántica que he diseñado. Su núcleo utiliza estabilizadores de entrelazamiento y amplificadores de energía del punto cero.
+    TechExplainLine1: Cada torre puede establecer un enlace de entrelazamiento cuántico con otros nodos, formando una red de comunicaciones que abarca toda la galaxia.
+	TechExplainLine2: En condiciones teóricas, su latencia de transmisión puede acercarse a cero.
+    TaskLine: Necesito que despliegues estas torres de señal por todo el mundo para establecer la red de entrelazamiento completa.
+    AcceptPrompt: ¿Y bien? ¿Aceptas?
+    ChoiceAccept: Aceptar el encargo
+    ChoiceDecline: Más tarde
 
 	Choice_Accept: {
-		AcceptResponse: Excellent. Here are the schematics for the towers. Report to me on your progress when you are finished.
-		L1: This is the first batch of materials. It is limited. Construct the main framework of the signal tower first.
-		L2: Once the first node is operational, the communication link will begin to stabilize.
-		L3: At that point, I will be able to transport more resources continuously through subspace for larger-scale construction.
+		AcceptResponse: Excelente. Aquí tienes los esquemas de las torres. Infórmame de tus progresos cuando hayas terminado.
+        L1: Este es el primer lote de materiales. Es limitado. Construye primero la estructura principal de la torre de señales.
+		L2: Una vez que el primer nodo esté operativo, el enlace de comunicación comenzará a estabilizarse.
+        L3: En ese momento, podré transportar más recursos de forma continua a través del subespacio para una construcción a mayor escala.
 	}
 
-	Choice_Decline.DeclineResponse: Understood. You may return to me when you are prepared.
+	Choice_Decline.DeclineResponse: Entendido. Puedes volver a hablar conmigo cuando te prepares.
 }
 
 FirstTowerBuiltScenario: {
-	Line1: The new quantum entanglement node is functioning smoothly. The signal is stable.
-	Line2: Good. This is the first step for the network. Continue deploying the remaining signal towers.
-	Line3: When the number of nodes reaches the standard, I will be able to conduct precise observations over a much wider area.
-	Line4: Continue maintaining your efficiency.
+	Line1: El nuevo nodo de entrelazamiento cuántico funciona sin problemas. La señal es estable.
+    Line2: Bien. Este es el primer paso para la red. Sigue instalando las torres de señal restantes.
+    Line3: Cuando el número de nodos alcance el nivel estándar, podré realizar observaciones precisas en un área mucho más amplia.
+    Line4: Sigue manteniendo tu eficiencia.
 }
 
 QuestCompleteScenario: {
-	Line1: All quantum nodes are online. The network is fully operational.
-	Line2: Data transmission latency is consistent with theoretical values. No deviations.
-	Line3: Your performance was faster than my projections. Commendable.
-	Line4: As payment, I am granting you access to a selection of my equipment and clearances. You may use them as you see fit.
-	Line5: If you require assistance, you may contact me directly through the communications network.
+	Line1: Todos los nodos cuánticos están conectados. La red funciona a pleno rendimiento.
+    Line2: La latencia en la transmisión de datos se ajusta a los valores teóricos. No se observan desviaciones.
+    Line3: Tu rendimiento ha superado mis previsiones. Es digno de elogio.
+    Line4: Como pago, te concedo acceso a una selección de mi equipamiento y a mis autorizaciones. Puedes utilizarlos como mejor te parezca.
+	Line5: Si necesitas ayuda, puedes ponerte en contacto conmigo directamente a través de la red de comunicaciones.
 }
 
 ExoMechHardDefeat: {
-	HardDefeatLine1: Decision-making under extreme duress. This is the data I wished to see.
-	HardDefeatLine2: Your ability to maintain rationality under pressure is... satisfactory.
+	HardDefeatLine1: Tomas decisiones bajo una presión extrema. Estos son los datos que quería ver.
+    HardDefeatLine2: Tu capacidad para mantener la racionalidad bajo presión es... satisfactoria.
 }
 
 ExoMechQuickDefeat: {
-	QuickDefeatLine1: ...This timeframe is significantly below my predictive models.
-	QuickDefeatLine2: It seems I underestimated your current combat efficiency.
-	QuickDefeatLine3: Perhaps it is time to consider... more aggressive... design philosophies.
+	QuickDefeatLine1: ...Este plazo está muy por debajo de lo que indican mis modelos predictivos.
+    QuickDefeatLine2: Parece que he subestimado tu eficacia actual en combate.
+    QuickDefeatLine3: Quizá sea hora de plantearse... filosofías de diseño... más agresivas.
 }
 
 ExoMechSecondDefeat: {
-	SecondDefeatLine1: Interesting. Your rate of adaptation exceeds my projections.
-	SecondDefeatLine2: The data indicates you have already made targeted improvements since the last engagement.
-	SecondDefeatLine3: It appears I must re-evaluate your learning curve.
+	SecondDefeatLine1: Interesante. Tu ritmo de adaptación supera mis previsiones.
+    SecondDefeatLine2: Los datos indican que ya has realizado mejoras específicas desde el último enfrentamiento.
+    SecondDefeatLine3: Parece que debo reevaluar tu curva de aprendizaje.
 }
 
 ExoMechThirdDefeat: {
-	ThirdDefeatLine1: Consistent performance. A component of the perfection I strive for.
-	ThirdDefeatLine2: You have proven your capabilities are not... a statistical anomaly.
+	ThirdDefeatLine1: Tienes un rendimiento constante. Uno de los elementos de la perfección a la que aspiro.
+    ThirdDefeatLine2: Has demostrado que tus capacidades no son... una anomalía estadística.
 }
 
 DraedonQuestLine: {
-	QuestCategory: Draedon
-	DeployTitle: Quantum Entanglement Network Deployment
-	DeploySummary: Deploy 10 signal towers at target points across the world
-	TrackerNearestTarget: Nearest Target Point
-	TrackerNodeName: Entanglement Node #[NUM]
-	TrackerInRange: In Range
-	TrackerDistance: Distance
-	TrackerDeployProgress: Deployment Progress
-	TrackerQuestComplete: Mission Complete!
+	Categoría de misión: Draedon
+    Título de la misión: Despliegue de la red de entrelazamiento cuántico
+    Resumen de la misión: Despliega 10 torres de señal en los puntos objetivo repartidos por todo el mundo
+    TrackerNearestTarget: Punto objetivo más cercano
+    TrackerNodeName: Nodo de entrelazamiento n.º [NUM]
+	RastreadorEnAlcance: En alcance
+    RastreadorDistancia: Distancia
+    RastreadorProgresoDespliegue: Progreso del despliegue
+    RastreadorMisiónCompletada: ¡Misión completada!
 }
 
 FirstMetTzeentch: {
 	Rolename: ?????????????????????
-	L1: Hush... don't look back.
-	L2: I've been watching you build these little contraptions.
-	L3: Ten quantum nodes. Ten pathways. Ten possible futures.
-	L4: A cute little network. Do you have any idea how many... *things*... it will attract?
-	L5: Ah, right. I should introduce myself.
-	L6: Some call me the Oracle. Others, the Feather of Fate...
-	L7: But I'm more interested in what... *you*... would call me, right now.
-	L8: Go on. Let me hear it.
-	Choice1Text: A... Magician...?
-	Choice2Text: A Liar.
-	Choice3Text: No. I don't know you.
-	Choice1_R1: Hah! Such a... gentle term.
-	Choice1_R2: A pity. I don't perform magic. I only change facts.
-	Choice1_R3: Continue on. We'll put 'Magician' on the tab for now.
-	Choice2_R1: Ah. Direct, blunt, honest. Such precious qualities.
-	Choice2_R2: But I'm afraid I never lie.
-	Choice2_R3: I simply tell you... what is about to happen.
-	Choice2_R4: Whether you believe it or not... it has already occurred.
-	Choice3_R1: You don't? Excellent.
-	Choice3_R2: All stories begin with those words.
-	Choice3_R3: It's just... most of the endings are not very pleasant.
-	EndLine1: Well, then. We will meet again.
-	EndLine2: Soon.
+	L1: Shhh... no mires atrás.
+    L2: Te he estado observando mientras construías estos artilugios.
+    L3: Diez nodos cuánticos. Diez vías. Diez futuros posibles.
+    L4: Una red muy mona. ¿Tienes idea de cuántas... *cosas*... atraerá?
+    L5: Ah, claro. Debería presentarme.
+	L6: Algunos me llaman el Oráculo. Otros, la Pluma del Destino...
+    L7: Pero me interesa más saber cómo... *tú*... me llamarías, ahora mismo.
+    L8: Adelante. Dímelo.
+    TextoOpción1: ¿Un... mago...?
+    TextoOpción2: Un mentiroso.
+	TextoOpción3: No. No te conozco.
+    Opción1_R1: ¡Ja! Qué... término tan amable.
+    Opción1_R2: Una lástima. Yo no hago magia. Solo cambio los hechos.
+    Opción1_R3: Bueno. Por ahora usaremos la etiqueta de "Mago"
+	Choice2_R1: Ah.Eres una persona franca, directa y honesta. Qué cualidades tan valiosas.
+    Choice2_R2: Pero me temo que nunca miento.
+    Choice2_R3: Simplemente te digo... lo que está a punto de suceder.
+    Choice2_R4: Lo creas o no... ya ha ocurrido.
+    Choice3_R1: ¿No lo crees? Excelente.
+	Choice3_R2: Todas las historias empiezan con esas palabras.
+    Choice3_R3: Es solo que... la mayoría de los finales no son muy agradables.
+    EndLine1: Bueno, pues. Nos volveremos a ver.
+    EndLine2: Pronto.
 }
 
 GalacticCrisis: {
-	CrisisIntro1: Now that the quantum network is reconnected, there are some things you must see for yourself.
-	CrisisIntro2: This is the shadow currently devouring the galactic spiral arms.
-	CrisisIntro3: These shadows are comprised of the Swarm. Prior to this, I deployed millions of Exo Titans in an attempt to intercept them.
-	CrisisIntro4: The data indicates this is a losing war of attrition. They are endless, and my resources will eventually be exhausted.
-	CrisisIntro5: Therefore, I have formulated the only plan with a success rate greater than 0%.
-	CrisisIntro6: Detonate the planetary cores of every world from the Outer Rim to the Mid Rim of the galaxy.
-	CrisisIntro7: By reducing tens of thousands of light-years into an absolute dead zone, I can sever the Swarm's supply lines, forcing them to divert to neighboring galaxies due to extreme navigational attrition.
-	CrisisIntro8: Starvation is the most powerful driving force in the universe, and the easiest to calculate. If I reduce the galaxy's resources below the critical threshold, this galaxy will become nothing more than an empty coffin to the Swarm.
-	CrisisIntro9: Terra is also on the scorched earth list. But as a singularity, your essence should not be extinguished here. I will provide you with a starship for evacuation.
-	ChoiceRefuse: There must be another way.
-	ChoiceSilence: ......(Remain silent and grip your weapon)
-	RebuttalLine1: ...Exactly.
-	RebuttalLine2: I predicted a 99% probability that you would accept the evacuation, but I was looking forward to that 1% of irrational behavior.
-	RebuttalLine3: You rejected the shortcut to survival. This is precisely the nature of the singularity I have observed.
-	RebuttalLine4: In that case, I have a backup plan—an operation I shelved due to its excessively low success rate.
-	MissionBrief1: The target is the Corto system. It has already fallen, but the Swarm has not yet fully digested it.
-	MissionBrief2: Within the mantle of its third planet, a vein of extremely high-purity Exo material is forming.
-	MissionBrief3: The Swarm must not acquire it. Once they evolve the ability to utilize Exo matter, the situation within the galaxy will spiral completely out of control.
-	MissionBrief4: Your task is simple: break through the sea of bugs, reach the planetary core, detonate the vein, and completely destroy that planet.
-	MissionBrief5: If this operation succeeds, it will prove that individuals can play a decisive role in the war against the Swarm, and I will draft a new strategy centered around you.
-	AndroidReveal1: Prior to your arrival, I dispatched an advance team to those coordinates.
-	AndroidReveal2: They are tactical androids built upon my latest technology: Altis and Apollia.
-	AndroidReveal3: They possess mobility and logical processing capabilities far exceeding older mechs, but I lost their signals shortly after they landed on Corto III.
-	AndroidReveal4: Final data transmissions indicate they still have vital signs, but are in extreme danger.
-	MissionObjective: Head to the Corto system and confirm the status of those two units. If they can still fight, have them assist you in completing the mission. If they cannot...
-	MissionObjectiveDark: At the very least, retrieve their core data. I do not wish for my masterpieces to meaninglessly become rations for the bugs.
-	FinalSendOff: Coordinates inputted. Go, and show me if you can transcend my calculations once more.
+	CrisisIntro1: Ahora que la red cuántica se ha restablecido, hay algunas cosas que debes ver con tus propios ojos.
+    CrisisIntro2: Esta es la sombra que actualmente está devorando los brazos espirales de la galaxia.
+	CrisisIntro3: Estas sombras están formadas por el Enjambre. Antes de esto, desplegué millones de Exo Titánes en un intento por interceptarlos.
+    CrisisIntro4: Los datos indican que se trata de una guerra de desgaste que no podemos ganar. Son infinitos y, tarde o temprano, mis recursos se agotarán.
+    CrisisIntro5: Por lo tanto, he elaborado el único plan con una probabilidad de éxito superior al 0%.
+	CrisisIntro6: Detonar los núcleos planetarios de todos los mundos, desde el Borde Exterior hasta el Borde Medio de la galaxia.
+    CrisisIntro7: Al convertir decenas de miles de años luz en una zona muerta absoluta, puedo cortar las líneas de suministro del Enjambre, obligándoles a desviarse hacia galaxias vecinas debido al extremo desgaste de la navegación.
+	CrisisIntro8: El hambre es la fuerza motriz más poderosa del universo, y la más fácil de calcular. Si reduzco los recursos de la galaxia por debajo del umbral crítico, esta galaxia no será más que un ataúd vacío para el Enjambre.
+    CrisisIntro9: Terra también está en la lista de tierra quemada. Pero, como singularidad, tu esencia no debe extinguirse aquí. Te proporcionaré una nave estelar para tu evacuación.
+	ChoiceRefuse: Tiene que haber otra forma.
+    ChoiceSilence: ...... (Permaneces en silencio y empuñas tu arma)
+    RebuttalLine1: ...Exacto.
+	RebuttalLine2: Predije una probabilidad del 99% de que aceptaras la evacuación, pero esperaba con interés ese 1 % de comportamiento irracional.
+	RebuttalLine3: Rechazaste el atajo hacia la supervivencia. Esa es precisamente la naturaleza de la singularidad que he observado.
+	RebuttalLine4: En ese caso, tengo un plan de reserva: una operación que dejé de lado debido a su tasa de éxito excesivamente baja.
+	MissionBrief1: El objetivo es el sistema Corto. Ya ha caído, pero el Enjambre aún no lo ha asimilado por completo.
+	MissionBrief2: En el manto de su tercer planeta se está formando una veta de material Exo de pureza extremadamente alta.
+	MissionBrief3: El Enjambre no debe hacerse con ella. En cuanto desarrollen la capacidad de utilizar la materia Exo, la situación en la galaxia se descontrolará por completo.
+	MissionBrief4: Tu tarea es sencilla: abrirte paso a través del mar de insectos, llegar al núcleo planetario, detonar la veta y destruirlo por completo
+	MissionBrief5: Si esta operación tiene éxito, demostrará que los individuos pueden desempeñar un papel decisivo en la guerra contra el Enjambre, y yo elaboraré una nueva estrategia centrada en ti.
+	AndroidReveal1: Antes de tu llegada, envié un equipo de avanzada a esas coordenadas.
+	AndroidReveal2: Son androides tácticos construidos con mi última tecnología: Altis y Apollia.
+	AndroidReveal3: Poseen una movilidad y unas capacidades de procesamiento lógico que superan con creces a las de los mechas más antiguos, pero perdí sus señales poco después de que aterrizaran en Corto III.
+	AndroidReveal4: Las últimas transmisiones de datos indican que aún presentan signos vitales, pero se encuentran en grave peligro.
+	MissionObjective: Dirígete al sistema Corto y confirma el estado de esas dos unidades. Si aún pueden luchar, haz que te ayuden a completar la misión. Si no pueden...
+	MissionObjectiveDark:  Como mínimo, recupera sus datos fundamentales. No quiero que mis obras maestras se conviertan en errores sin sentido.
+	FinalSendOff: Se han introducido las coordenadas. Adelante, demuéstrame si eres capaz de superar mis cálculos una vez más.
 }
 
 FirstMetApollia: {
-	Line1: ......Human?
-	Line2: That atmospheric drop trajectory was too obvious. I predicted the landing zone and came to try my luck.
-	Line3: I am Apollia. You'd better be the vanguard guide for the Exo Fleet, here to tell me the main force is right behind you.
-	C1: (Hand over Draedon's authorization chip)
-	C2: How do I know you're not a Swarm mimic trap?
-	C2_R1: ......Mimics don't actively expose their positions, nor do they run toward a drop pod.
-	C2_R2: The chip. Show me your authorization chip.
-	Line4: ......(Reading chip data)
-	Line5: Just you?! What the hell!
-	Line6: What we need here is a Titan Legion, and an Exterminatus! Not just sending another person to die!
-	Line7: (Deep breath)......My apologies. I am now aware of the Source's arrangements.
-	Line8: Apollia, formerly of the Ninth Legion, will now assist you in all your operations on this planet.
+	Line1: ......¿Un humano?
+    Line2: Esa trayectoria de descenso atmosférico era demasiado obvia. Predije la zona de aterrizaje y vine a probar suerte.
+    Line3: Soy Apollia. Más te vale que seas el guía de vanguardia de la Flota Exo, y que estés aquí para decirme que el grueso de las fuerzas viene justo detrás de ti.
+    C1: (Entrega el chip de autorización de Draedon)
+	C2: ¿Cómo sé que no eres una trampa mímica del Enjambre?
+    C2_R1: ......Los mímicos no revelan activamente su posición, ni corren hacia una cápsula de descenso.
+    C2_R2: El chip. Muéstrame tu chip de autorización.
+    Line4: ......(Leyendo los datos del chip)
+    Line5: ¡¿Solo tú?! ¡Qué demonios!
+	Line6: ¡Lo que necesitamos aquí es una Legión de Titánes y un Exterminatus! ¡No solo enviar a otra persona a morir!
+    Line7: (Respira hondo)......Mis disculpas. Ahora estoy al corriente de los planes de la Fuente.
+    Line8: Apollia, anteriormente de la Novena Legión, te ayudará a partir de ahora en todas tus operaciones en este planeta.
 }
 
 GargoyleWarningScenario: {
-	Line1: ......A Swarm scout cluster. The main swarm is highly likely right behind them.
-	Line2: They've definitely spotted you. Follow me. There's an abandoned fortress ahead; we can use its fortifications to hold them off for a while.
+	Line1: ......Un grupo de exploradores del enjambre. Es muy probable que el enjambre principal esté justo detrás de ellos.
+    Line2: Sin duda te han visto. Sígueme. Hay una fortaleza abandonada más adelante; podemos usar sus fortificaciones para mantenerlos a raya un rato.
 }
 
 DropPodCallScenario: {
-	Line1: Smoother than I anticipated. Warp transit time was negative 43 minutes.
-	Line2: Your constitution is exceptionally suited for subspace navigation.
-	Line3: You are now in low orbit above Corto III.
-	Line4: Be careful to avoid the wreckage of those Exo Mechs.
-	Line5: Following the Apocalypse-class war, the total mass of this planet doubled. Hence, what you see here.
-	Line6: I have burned the permissions into your chip. If you encounter any surviving units, they will understand everything.
-	Line7: You are about to enter the shielding field established by the Swarm. Once inside, all communication with the outside will be severed.
-	Line8: If you successfully slay the node creature stationed on this planet, the field should dissipate. It is likely located near the planetary core.
-	Line9: Lastly, good luck.
+	Line1: Ha ido mejor de lo que esperaba. El tiempo de tránsito fue de -43 minutos.
+    Line2: Tu constitución es excepcionalmente adecuada para la navegación subespacial.
+    Line3: Ahora te encuentras en órbita baja sobre Corto III.
+    Line4: Ten cuidado de esquivar los restos de esos Exo Mechs.
+    Line5: Tras la guerra de la clase Apocalipsis, la masa total de este planeta se duplicó. Por eso ves lo ves.
+	Line6: He grabado los permisos en tu chip. Si te encuentras con alguna unidad superviviente, lo entenderá todo.
+	Line7: Estás a punto de entrar en el campo de protección establecido por el Enjambre. Una vez dentro, se cortará toda comunicación con el exterior.
+    Line8: Si consigues acabar con la criatura nodo apostada en este planeta, el campo debería disiparse. Es probable que se encuentre cerca del núcleo planetario.
+    Line9: Por último, buena suerte.
 }
