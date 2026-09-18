@@ -1,0 +1,75 @@
+GsBallOHurt.Desc:
+	'''
+	Reforja: gira para cargar; la bola de púas que lanzas va dejando púas suspendidas por el camino
+	al acertar a plena rotación, estalla un anillo de púas sobre el objetivo
+	'''
+GsChainKnife.Desc:
+	'''
+	Reforja: al acertar con la hoja ganas 7 segundos de Ímpetu
+	cada capa de Ímpetu sube la velocidad de giro y de lanzamiento, hasta tres capas
+	'''
+GsTheMeatball.Desc:
+	'''
+	Reforja: el lanzamiento a plena rotación explota en una nube de sangre
+	la nube desgarra a los enemigos cercanos y aplica hemorragia
+	'''
+GsBlueMoon.Desc:
+	'''
+	Reforja: el lanzamiento cargado dispara un filo de luna nueva que atraviesa objetivos
+	a media rotación suelta uno; a plena rotación, tres
+	'''
+GsSunfury.Desc:
+	'''
+	Reforja: la cabeza del martillo que lanzas deja marcas de quemadura suspendidas por el camino
+	las marcas se quedan en el sitio y queman con fuego infernal a quien las toque
+	'''
+GsMace.Desc:
+	'''
+	Reforja: el lanzamiento a plena rotación resquebraja la armadura del objetivo y le deja la defensa a la mitad durante unos segundos
+	cada golpe lleva un retroceso más pesado
+	'''
+GsFlamingMace.Desc:
+	'''
+	Reforja: al girarla lanza chispas encendidas hacia afuera
+	cuanto más rápido gires, más lejos y más rápido vuelan las chispas, y prenden a los enemigos que acierten
+	'''
+GsDaoofPow.Desc:
+	'''
+	Reforja: el lanzamiento alterna entre Yin y Yang; el golpe Yin marca y ralentiza al objetivo
+	el golpe Yang que acierta a un objetivo marcado detona la marca y estalla un surtidor de luz y tinta
+	'''
+GsFlowerPow.Desc:
+	'''
+	Reforja: al girar, brotan pétalos alrededor de la cabeza, hasta cinco
+	al acertar el lanzamiento, todos los pétalos se vuelven filos perseguidores y se lanzan al objetivo
+	'''
+GsDripplerFlail.Desc:
+	'''
+	Reforja: a alta rotación y en cada lanzamiento, la cabeza gotea perlas de sangre que caen por gravedad
+	al tocar a un enemigo o al suelo, las perlas estallan en espinas de sangre que pinchan
+	'''
+
+GsKOCannon: {
+	Desc:
+		'''
+		Reforja: un puñetazo recto que se carga; si en cuatro segundos clavas tres puños al mismo objetivo
+		el tercero es el KO: el doble de daño, el doble de retroceso y un anillo de onda de choque
+		'''
+	TipKO: KO!
+}
+
+GsChainGuillotines.Desc:
+	'''
+	Reforja: salen las dos cuchillas a la vez y cada una se abre en vuelo
+	cuando los dos filos se cruzan, cortan y estallan una cruz de tajos en el punto medio
+	'''
+GsGolemFist.Desc:
+	'''
+	Reforja: los puños sólidos acumulan calor (hasta 3 capas, +8% de daño cada una; 8 segundos sin golpear y se enfría); a pleno calor el puño funde y, al acertar, dispara 3 piedras de magma
+	cada puñetazo pesado que golpee a un enemigo o a una pared suelta una onda de choque de piedra
+	'''
+GsFlairon.Desc:
+	'''
+	Reforja: al girar y en vuelo, la cadena no deja de expulsar filos de burbuja perseguidores (hasta 8 en el campo, 40% de daño cada uno)
+	un golpe sólido a plena rotación suelta un anillo de seis filos de burbuja con el objetivo en el centro
+	'''
