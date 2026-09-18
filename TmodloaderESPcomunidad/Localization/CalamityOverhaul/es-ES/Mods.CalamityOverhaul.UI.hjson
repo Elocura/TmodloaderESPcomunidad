@@ -1,23 +1,43 @@
-ItemFilterUI: {
-	HintText: Clic izquierdo para añadir un ítem
-	HintText2: Clic derecho para eliminar un ítem
-	CloseHint: Presiona [ESC] o [Right-click] para cerrar
+ItemFilterEditorUI: {
+	ModeWhitelistText: Lista blanca
+	ModeBlacklistText: Lista negra
+	ClearText: Vaciar
+	UninstallText: Quitar filtro
+	CountFormat: "{0} elementos"
+	EmptyHintText: Haz clic aquí con un objeto en la mano para registrarlo
+	OperateHintText: Clic con objeto = añadir · Clic en una entrada = quitar · [Clic derecho/ESC] cerrar
+	InstalledText: Lista instalada
+	UninstalledText: Filtro desinstalado
 }
 
-LegendUpgradeConfirmUI: {
-	TitleText: Confirmación de mejora de arma legendaria
-	DescText:
+EntryDecisionUI: {
+	CollapseHint: Clic derecho para plegar
+	LegendPill: Sincronización de arma legendaria
+	LegendTitle: Confirmar mejora de arma legendaria
+	LegendDesc:
 		'''
-		El nivel de mundo actual es 
-		superior al nivel del arma.
-		¿Actualizar {0} al nivel {1}?
+		El nivel del mundo actual es superior al del arma
+		¿Deseas mejorar {0} al nivel {1}?
 		'''
-	ConfirmText: Actualizar
-	CancelText: Cancelar
-	Success: "[ITEM] ha sido actualizado al nivel [LEVEL]."
-	QueueIndicator: Aún quedan {0} armas legendarias por confirmar.
-	TrustText: Confía en este mundo
-	TrustSuccess: "[ITEM] ha marcado este mundo como de confianza y, a partir de ahora, se sincronizará automáticamente"
+	LegendConfirm: Confirmar mejora
+	LegendSkip: Omitir esta vez
+	LegendTrust: Confiar en este mundo
+	LegendSuccess: "{0} ya se ha mejorado al nivel {1}"
+	LegendTrustSuccess: "{0} ya confía en este mundo; a partir de ahora se sincronizará solo"
+	LegendQueue: Quedan {0} armas legendarias por confirmar
+	QuestPill: Detección de misiones pendiente
+	QuestTitle: Confirmar detección de misiones
+	QuestDesc:
+		'''
+		Has entrado a este mundo desde otro
+		¿Deseas detectar el progreso de las misiones en el mundo actual?
+		'''
+	QuestConfirm: Detectar misiones
+	QuestSkip: Omitir
+	QuestTrust: Confiar en este mundo
+	QuestEnabled: Detección de misiones activada
+	QuestDisabled: Detección de misiones omitida
+	QuestTrusted: Este mundo es de confianza; la detección de misiones se activará sola a partir de ahora
 }
 
 QuestTracker: {
@@ -105,6 +125,121 @@ Generator: {
 		TemperatureUnit: °C
 		PowerUnit: UE
 	}
+	GeneratorReadoutUI: {
+		WindLabel: Viento
+		FlowLabel: Caudal
+		StorageLabel: Reserva
+		OutputLine: Salida: {0} UE/s
+		RunningText: En marcha
+		NoWindText: Viento débil
+		NoWaterText: Rueda fuera del agua
+		SunLabel: Sol
+		NoSunText: Poca luz solar
+		MagmaLabel: Magma
+		NoMagmaText: Magma agotado
+		PowerUnitText: UE
+	}
+
+	BiomassGeneratorUI: {
+		TitleText: Generador de biomasa
+		FuelLabel: Tolva
+		PowerLabel: Energía
+		ActiveText: En marcha
+		IdleText: En espera
+		InsertFuelHint: Clic para meter o sacar combustible de biomasa
+		PowerUnit: UE
+	}
+}
+
+SlimeVat: {
+	SlimeVatUI: {
+		TitleText: Tanque de cultivo de slimes
+		WaterLabel: Agua
+		ProduceLabel: Bahía de producto
+		EnableText: Activar
+		DisableText: Desactivar
+		StatusWorking: Cultivando
+		StatusIdle: En reposo
+		StatusNoPower: Sin energía
+		StatusNoWater: Sin agua
+		StatusOff: Desactivado
+		EnergyLabel: Energía
+		PourHint: Haz clic con un cubo de agua para verter, o deja que extraiga de un cuerpo de agua cercano
+		TakeHint: Clic para retirar
+		PowerUnit: UE
+	}
+}
+
+ShimmerTransmuter: {
+	ShimmerTransmuterUI: {
+		TitleText: Tanque de transmutación de brillo
+		InputLabel: Entrada
+		OutputLabel: Salida
+		ProgressLabel: Progreso de transmutación
+		PowerLabel: Energía
+		ShimmerLabel: Brillo
+		WorkingText: Transmutando
+		IdleText: En espera
+		NoPowerText: Sin energía
+		NoShimmerText: Sin brillo
+		OutputFullText: Salida llena
+		InputHint: Inserta un objeto que el brillo pueda transmutar
+		OutputHint: Clic para retirar el producto
+		PowerUnit: UE
+	}
+}
+
+MushroomFarmer: {
+	MushroomFarmerUI: {
+		TitleText: Cultivadora de hongos
+		ProduceLabel: Bahía de producto
+		EnableText: Activar
+		DisableText: Desactivar
+		StatusWorking: Cultivando
+		StatusIdle: En espera
+		StatusNoPower: Sin energía
+		StatusOff: Desactivado
+		EnergyLabel: Energía
+		TakeHint: Clic para retirar
+		PowerUnit: UE
+	}
+}
+
+TeleportStation: {
+	TeleportStationUI: {
+		TitleText: Red de estaciones de teletransporte
+		LocalLabel: Esta estación
+		RenameText: Renombrar
+		ConfirmText: Confirmar
+		RenameHint: Intro para confirmar, Esc para cancelar
+		EmptyListText: No hay otras estaciones de teletransporte en el mundo
+		RowInfoLine: "{0} bloques · {1} UE"
+		StatusReady: Listo para teletransportar
+		StatusNoPower: Esta estación no tiene energía
+		StatusTargetDead: El destino no tiene energía
+		EnergyLabel: Energía
+		PowerUnit: UE
+	}
+}
+
+Apiary: {
+	ApiaryUI: {
+		TitleText: Colmenar
+		BottleLabel: Bahía de botellas vacías
+		ProduceLabel: Bahía de producto
+		EnableText: Activar
+		DisableText: Desactivar
+		StatusWorking: Elaborando miel
+		StatusWorkingBoost: Enjambre activo
+		StatusIdle: En descanso
+		StatusNoPower: Sin energía
+		StatusOff: Desactivado
+		EnergyLabel: Energía
+		BottleHint: Inserta botellas de vidrio vacías
+		TakeHint: Clic para retirar
+		PowerUnit: UE
+	}
+}
 }
 
 ChargingStationUI: {
@@ -151,6 +286,23 @@ QuestLog: {
 	SunModeText: Modo diurno
 	LauncherHoverText: Clic izquierdo para interactuar, clic derecho para arrastrar
 	QuestManagerText: Misión
+	ChronicleTitle: C R Ó N I C A
+	ChronicleProgress: Cerrados {0} / {1}
+	ChronicleHint: Rueda  zoom   ·   Arrastrar  desplazar   ·   Esc  cerrar
+	ChronicleStationChart: Carta de misiones
+	ChronicleStationEntrust: Expediente de encargos
+	ChronicleChapterTitle: C A P Í T U L O S
+	ChronicleLegendTitle: L E Y E N D A
+	ChronicleLegendSealed: Cerrado
+	ChronicleLegendUnclaimed: Recompensa pendiente
+	ChronicleLegendActive: En curso
+	ChronicleLegendLocked: Sin empezar
+	DisabledOverlayText:
+		'''
+		La detección de misiones está prohibida en este mundo
+		Vuelve a entrar al mundo para elegir de nuevo la configuración
+		'''
+
 	ObjectiveTemplate: {
 		DefeatNpc: Derrota a {0}
 		ObtainItem: Obtén {0}
@@ -170,27 +322,6 @@ ExtraMain: {
 	LockedText: CERRADO
 }
 
-QuestWorldConfirmUI: {
-	TitleText: Confirmación de comprobación de misión
-	DescText:
-		'''
-		Se ha detectado una entrada procedente de otro mundo.
-		¿Deseas comprobar el progreso de la misión 
-		en el mundo actual?
-		'''
-	ConfirmText: Comprobar misiones
-	CancelText: Saltar
-	TrustText: Confiar en este mundo
-	EnabledText: Comprobación de misiones acticado
-	DisabledText: Comprobación de misión omitida
-	TrustedText: Mundo reconocido; a partir de ahora, la comprobación de misiones se activará automáticamente aquí
-	DisabledOverlayText:
-		'''
-		La comprobación de misiones está desactivada en este mundo.
-		Vuelve a entrar en el mundo para volver a elegir
-		'''
-}
-
 Incinerator: {
 	IncineratorUI: {
 		TitleText: Incinerador eléctrico
@@ -204,6 +335,86 @@ Incinerator: {
 		NoPowerText: Sin energía
 		InputHint: Colocar ítems para incinerar
 		OutputHint: Haz clic para recuperar el resultado
+		PowerUnit: UE
+	}
+}
+
+PlayerLauncher: {
+	PlayerLauncherUI: {
+		TitleText: Plataforma de eyección
+		DirectionLabel: Dirección de eyección
+		PowerLabel: Potencia de eyección
+		EnableText: Activar
+		DisableText: Desactivar
+		StatusReady: Lista
+		StatusNoPower: Sin energía
+		StatusOff: Desactivada
+		EnergyLabel: Energía
+		CostTip: Cada eyección consume {0} UE
+		PowerUnit: UE
+	}
+}
+
+PotionBeacon: {
+	PotionBeaconUI: {
+		TitleText: Baliza de difusión de pociones
+		SlotLabel: Compartimento de pociones
+		EnableText: Activar
+		DisableText: Desactivar
+		StatusWorking: Difundiendo
+		StatusIdle: En espera
+		StatusNoPower: Sin energía
+		StatusOff: Desactivada
+		EnergyLabel: Energía
+		DropHint: Inserta pociones de potenciador
+		SupplyTip: Quedan {0} s de suministro en este frasco
+		PowerUnit: UE
+	}
+}
+
+HerbFarmer: {
+	HerbFarmerUI: {
+		TitleText: Cultivadora de hierbas
+		SeedLabel: Bahía de semillas
+		ProduceLabel: Bahía de producto
+		EnableText: Activar
+		DisableText: Desactivar
+		StatusWorking: Cultivando
+		StatusIdle: En espera
+		StatusNoPower: Sin energía
+		StatusOff: Desactivada
+		StatusWaitingBloom: Esperando floración
+		StatusGrowing: Creciendo
+		StatusFull: Producto completo
+		StatusNoSeeds: No hay semillas
+		StatusNoSoil: Suelo no válido
+		EnergyLabel: Energía
+		SeedHint: Inserta semillas de hierbas
+		TakeHint: Clic para retirar
+		PowerUnit: UE
+	}
+}
+
+AutoFisher: {
+	AutoFisherUI: {
+		TitleText: Máquina de pesca automática
+		BaitLabel: Bahía de cebo
+		CatchLabel: Bahía de capturas
+		IntervalLabel: Intervalo de lance
+		PowerReadout: Poder de pesca {0}
+		LakeReadout: Masa de agua {0}
+		EnableText: Activar
+		DisableText: Desactivar
+		StatusFishing: Pescando
+		StatusIdle: En espera
+		StatusNoPower: Sin energía
+		StatusNoBait: Sin cebo
+		StatusNoWater: Sin agua
+		StatusFull: Almacén lleno
+		StatusOff: Desactivada
+		EnergyLabel: Energía
+		BaitHint: Inserta cebo
+		CatchHint: Las capturas se guardan aquí
 		PowerUnit: UE
 	}
 }
@@ -236,6 +447,43 @@ ThrowerUI: {
 	AmmoModeHint: Modo de munición: Dispara el proyectiles correspondiente a la munición insertada
 }
 
+CollectorUI: {
+	TitleText: Consola del recolector
+	ModeLabel: Modo de almacenamiento
+	ModeAuto: Almacenar lo más cercano
+	ModeBoundFirst: Priorizar vinculados
+	ModeBoundOnly: Solo vinculados
+	ModeAutoDesc: Guarda solo en el contenedor disponible más cercano del rango
+	ModeBoundFirstDesc: Prioriza los contenedores vinculados; si falla, guarda en el más cercano
+	ModeBoundOnlyDesc: Solo guarda en los contenedores vinculados
+	BindingsLabel: Vínculos de almacenamiento
+	AddBindingText: + Vincular contenedor
+	PickingTitle: Elegir contenedor
+	PickingHint: Clic izquierdo en un contenedor del mundo para vincularlo
+	PickingExitHint: Clic derecho o [ESC] para salir de la selección
+	BindingFullText: Vínculos llenos
+	InvalidText: Inválido
+	OutOfRangeText: Fuera de rango
+	ChestDefaultName: Cofre
+	MagicStorageName: Corazón de almacenamiento
+	NoBindingsHint: Aún no hay contenedores vinculados; pulsa el botón de abajo para empezar
+	RemoveHint: Quitar vínculo
+	MoveUpHint: Subir prioridad
+	FilterLabel: Filtro de recolección
+	FilterNoneText: Sin filtro (recoge todos los objetos)
+	ClearFilterText: Borrar
+	EditFilterText: Editar
+	FilterHint: Clic derecho en el recolector con un objeto en la mano para fijar el filtro
+	StatusLabel: Estado de marcha
+	ArmCountLabel: Brazos mecánicos
+	EnergyLabel: Energía
+	StatusWorking: En marcha
+	StatusNoEnergy: Energía insuficiente
+	StatusStarting: Arrancando
+	StatusNoStorage: Sin almacenamiento disponible
+	CloseHint: "[ESC] o clic derecho otra vez con las manos vacías para cerrar"
+}
+
 SHPCSoulSelectUI: {
 	TitleText: NÚCLEO DE ALMA
 	SoulNameLight: Luz
@@ -249,56 +497,29 @@ SHPCSoulSelectUI: {
 	StatusClickToSelect: "[CLIC PARA SELECCIONAR]"
 }
 
-ElysiumUI: {
+ElysiumRoseWindow: {
 	TitleText: Elíseo
-	DiscipleCountText: Disciplinas
-	TotalBonusText: Bendición divina
-	DamageText: Daño
-	DefenseText: Defensa
-	CritText: Crítico
-	RegenText: Regeneración
-	EmptySlotText: Vacío
-	JudasWarningText: Advertencia: la traición de Judas acecha aquí.
-	BonusLabel: Pasivo
-	AbilityLabel: Capacidad
-	DragHintText: Arrastra a los discípulos para intercambiar identidades
-	SwapSuccessText: Intercambio de identidad completado
-	SwapFailText: El intercambio ha fallado
-	CannotSwapText: No se puede intercambiar a esta posición
-	AbilityBrief_0: Escudo de roca
-	AbilityBrief_1: Nudo de red de pesca
-	AbilityBrief_2: El Juicio del trueno
-	AbilityBrief_3: Visión reveladora
-	AbilityBrief_4: Guía de la luz sagrada
-	AbilityBrief_5: Revelación de la verdad
-	AbilityBrief_6: El toque de la duda
-	AbilityBrief_7: La bendición de la riqueza
-	AbilityBrief_8: Sanación por devoción
-	AbilityBrief_9: Manifiesto del milagro
-	AbilityBrief_10: Fuerza celosa
-	AbilityBrief_11: Pacto de traición
+	SeatAliveText: En el cargo
+	SeatEmptyText: Vacante
+	SeatMartyredText: Martirizado
+	MartyrdomPowerText: Poder de martirio {0}/11
+	DragHintText: Arrastra un asiento para reasignar el oficio sagrado
+	AbilityBrief_0: Cuando el escudo sagrado está listo, bloquea parte del daño de un golpe por ti
+	AbilityBrief_1: Echa una red de luz sobre el grupo enemigo y ralentiza a los atrapados
+	AbilityBrief_2: Un rayo sagrado encadenado salta entre hasta cuatro enemigos
+	AbilityBrief_3: Fija la mirada en el enemigo y aumenta todo el daño que reciba
+	AbilityBrief_4: Consagra tus proyectiles para que se curven poco a poco hacia el enemigo
+	AbilityBrief_5: Lanza una hoja que arranca la armadura y revela al enemigo
+	AbilityBrief_6: Tus ataques asestan críticos garantizados durante un tiempo
+	AbilityBrief_7: Bendice a los enemigos; al morir estallan en una lluvia dorada de ofrenda
+	AbilityBrief_8: Ofrece curación cuando estás herido
+	AbilityBrief_9: Hace descender un milagro aleatorio
+	AbilityBrief_10: Enciende el fervor; los enemigos cercanos se tiñen de llama sagrada
+	AbilityBrief_11: Un don pródigo, y el cuchillo de la traición
 }
 
-MartyrdomBarUI: {
-	SlotLabel_0: Pe
-	SlotLabel_1: An
-	SlotLabel_2: Ja
-	SlotLabel_3: Jo
-	SlotLabel_4: Ph
-	SlotLabel_5: Ba
-	SlotLabel_6: Th
-	SlotLabel_7: Mt
-	SlotLabel_8: Jl
-	SlotLabel_9: Td
-	SlotLabel_10: Si
-	SlotLabel_11: Ju
-	RevelationJudgingText: El juicio de los tres últimos sellos está en curso
-	RevelationStatusText: "Jinetes del Apocalipsis {0}/4 Q:Meteorito R:Jucio"
-	RevelationReadyText: Pulsa Q — Revelación lista
-	MartyrdomPowerText: Martirio {0}/11
-}
-
-MenuModify.OverhaulSettingsButtonText: Configuración de Overhaul
+ElysiumFaithHud.MartyrdomPowerText: Poder de martirio {0}/11
+MenuModify.OverhaulSettingsButtonText: Ajustes de Overhaul
 
 OverhaulSettingsUI: {
 	TitleText: Configuración de Overhaul
@@ -387,6 +608,14 @@ DraedonIncomingCall: {
 
 QuestManagerUI: {
 	TitleText: Gestión de misiones
+	ProviderLabelText: Mandante
+	ProviderHalibut: FHalibut
+	ProviderOnikiri: Onikiri
+	ProviderKikasa: Kikasa
+	ProviderSHPC: SHPC
+	ProviderOldDuke: El Viejo Duque
+	ProviderSupCal: Calamitas Suprema
+	ProviderDraedon: Draedon
 	CategoryAll: TODOS
 	CategoryActive: En curso
 	CategoryCompleted: Completado
@@ -394,7 +623,6 @@ QuestManagerUI: {
 	EmptyHintText: No hay misiones disponibles...
 	TrackHintText: "[Clic derecho] Seguir/Dejar de seguir"
 	SuspendHintText: "[TClic central] Pausar/Reanudar"
-	OpenHintText: Pulsa [L] para abrir el Gestor de misiones
 	HeaderStatusTag: ◈ ACTIVO
 	FooterStatsFormat: "TOTAL: {0}  |  ACTIVE: {1}"
 	ExpandHintText: "[Clic izquierdo] Mostrar/ocultar detalles"
@@ -443,6 +671,47 @@ VictorTalkUI: {
 	Greet9: El tiempo es dinero. El mío, concretamente. Dime lo que necesitas y sáltate la charla trivial.
 	Greet10: Las piezas nuevas necesitan un periodo de adaptación. Intenta no exponerte a fuego intenso durante unos días.
 	Greet11: El cuerpo no es más que una herramienta. Parece que el tuyo lleva un tiempo sin recibir mantenimiento.
+	TalkFirstMeet0: Una cara nueva. Déjame adivinar: no has venido a ver a un médico, has venido en busca de un milagro. Siéntate, yo vendo ambas cosas.
+    TalkFirstMeet1: Bienvenido, cliente. Tres normas de la casa: nada de crédito, nada de preguntas sobre tu pasado y nada de criticar mi trabajo.
+	TalkPostSurgery0: Las suturas aún están calientes. No bloquees ninguna cuchilla con las piezas nuevas durante veinticuatro horas.
+    TalkPostSurgery1: La operación ha salido a la perfección. Por supuesto, las mías siempre salen así.
+    TalkPostSurgery2: ¿Cómo te sientes? Si notas algún traqueteo, fugas de corriente o dolor fantasma, vuelve enseguida; las reparaciones tienen un coste adicional.
+	TalkMoodHomeless0: Hasta que me preparéis una sala en la clínica, los precios incluyen una tarifa por operar al aire libre.
+    TalkMoodHomeless1: No puedo hacer un trabajo de precisión con la mesa atada a la espalda. Conseguidme una casa y entonces hablaremos de precios.
+    TalkMoodHappy0: Hoy estoy de buen humor, así que he redondeado tu presupuesto a la baja. No se lo digas a nadie.
+	TalkMoodHappy1: Me gusta este sitio. Tanto que incluso te voy a hacer un descuento.
+    TalkMoodGrumpy0: No te quejes de los precios. Llévame a un sitio agradable y bajarán solos.
+    TalkMoodGrumpy1: Mal humor, bisturí tembloroso. El recargo por riesgo está en la factura… y es culpa tuya.
+	TalkNoChrome0: Un cuerpo totalmente original… algo raro. Como una máquina antigua que nunca ha tenido una actualización de firmware.
+    TalkNoChrome1: ¿Ni un solo implante? ¿Has venido a echar un vistazo o a sentir nostalgia?
+    TalkFullChrome0: Tienes más cromo que carne. Incluso tus pasos suenan como mi caja registradora.
+	TalkFullChrome1: Tu capacidad está casi al límite, cliente. Si instalas algo más, primero tendrás que ampliar la potencia.
+    TalkLowHealth0: Estás sangrando. Siéntate primero; que los clientes se mueran en mi puerta es malo para el negocio.
+    TalkLowHealth1: Esa presión arterial está haciendo saltar las alarmas. Primero las heridas, la factura después.
+    TalkRich0: Huelo a platino. ¿Qué vamos a sustituir hoy? Un juego completo también vale.
+	TalkPoor0: ¿Tienes los bolsillos más vacíos que mi bandeja estéril? Ve a ganar algo de dinero primero; el ciberware no se paga a crédito.
+    TalkPoor1: ¿No tienes dinero? No pasa nada. Vende algo de botín y vuelve; estamos abiertos toda la noche.
+	TalkSandevistan0: ¿Funciona bien el Sandevistan? No te pases con él: los nervios fritos se facturan como una reconstrucción completa.
+    TalkPreHardmode0: La tecnología de este mundo sigue siendo madera y piedra. Menos mal que me he traído mis propias herramientas.
+    TalkPreHardmode1: Mejora el cuerpo antes de que la calamidad se mejore a sí misma. Ese consejo te lo he dado gratis.
+	TalkHardmode0: El negocio se ha triplicado desde que el mundo se resquebrajó. La luz y la plaga devoran la carne por igual.
+    TalkHardmode1: Los nuevos monstruos que hay ahí fuera destrozan a la gente en un santiamén. ¿Tus reflejos dan la talla? Si no es así, tengo existencias.
+    TalkPostMoonlord0: Hasta el Señor de la Luna ha caído. Parece que algunos de mis clientes son auténticos monstruos.
+	TalkPostMoonlord1: Los restos de un dios son un material excelente. Si has recogido alguno, guárdame una parte.
+    TalkPostSupCal0: Has derrotado a la propia Calamidad y aún conservas tanta carne. Empiezo a pensar que mi cromo no es más que bisutería para ti.
+	TalkBloodMoon0: ¿Una luna de sangre? Para mí solo son horas extras. Pronto habrá una cola de miembros amputados en la puerta.
+    TalkBloodMoon1: Esta noche, mantente alejado de la entrada. Bajo una luna de sangre, hasta los conejos querrán darte un mordisco.
+    TalkEclipse0: Solo los casos difíciles salen durante un eclipse. Ve bien equipado o sé rápido.
+	TalkRain0: Engrasa las articulaciones expuestas cuando llueva. He arreglado demasiados codos oxidados.
+    TalkRain1: Lluvia. La humedad es mala para los circuitos y buena para el negocio.
+    TalkDeepNight0: ¿Todavía despierto a estas horas? Me parece bien: los ojos cibernéticos no necesitan cerrarse.
+    TalkDeepNight1: La madrugada es mi horario de trabajo favorito. Tranquilo, y los clientes siempre tienen prisa.
+	TalkUnderground0: El subsuelo es bueno. Temperatura estable, humedad estable, sin señal, sin interrupciones en mitad de una intervención.
+    TalkUnderground1: Mi primera clínica también estaba bajo tierra. Los clientes temían la luz del día igual que estos.
+    TalkSnow0: El frío es bueno. Las piezas no se sobrecalientan y los cuerpos —quiero decir, el stock— se conservan más tiempo.
+	TalkJungle0: La humedad de la selva se cuela en las carcasas selladas en tres días. Reserva una revisión de mantenimiento cuando te vayas.
+    TalkBeach0: ¿La costa? La salpicadura de sal es el principal enemigo del ciberware. Te desaconsejaría instalarte aquí.
+    TalkEvil0: Esta tierra está corroyendo tanto tus piezas como a ti mismo. Solo puedo arreglar una de las dos cosas.
 	ClinicButtonText: Clínica de ciberimplantes
 	ChatButtonText: Charla informal
 	LeaveButtonText: Salir
@@ -456,7 +725,97 @@ VictorClinicUI: {
 	LabelForSale: A LA VENTA
 	EmptyOwned: ( ninguno en el paquete )
 	EmptyShop: ( ya no hay nada más que vender )
+	PriceFactorText: Coeficiente de precio ×{0}
+	SlotFallbackText: Ciberimplante
 }
+
+VictorSurgery.SurgeryInProgressText: OPERACIÓN EN CURSO
+
+TBUGTalkUI: {
+	SpeakerName: TBUG
+	Greet0: ¿Ya estás aquí? Echa un vistazo a tu antojo. No toques el montón de cables que hay detrás del equipo: esa es mi columna vertebral.
+    Greet1: Tu ciclo de movimiento tiene un pequeño bucle. Se repite cada siete pasos. No te preocupes, a la mayoría de la gente le pasa.
+    Greet2: La física de este mundo está bastante bien programada. La parte del agua está claramente hecha con prisas.
+   	Greet3: Todo está en la estantería. Los precios los pongo yo. Ahórrate el esfuerzo de regatear.
+    Greet4: La luz del día deslumbra todas mis pantallas. Ven por la noche; por la noche soy más simpático.
+    Gree5t: No me preguntes de dónde soy. ¿Cuál es la ciudad natal de un mensaje de error?
+   	Greet6: Las monedas son curiosas. Pesadas, ocupan espacio en los bolsillos… pero todos confiáis en ellas, así que yo también.
+	Greet7: No hago reparaciones. Vendo. Si se rompe, es un problema del usuario.
+    Greet8: Me caí la noche que murió Skeletron. No es que no le esté agradeciendo, pero su agarre se resbaló primero.
+    Greet9: Tienes casillas de equipamiento vacías. Las casillas vacías son casillas desperdiciadas.
+    Greet10: Dormir es un parche, y uno muy vago. Normalmente me lo salto.
+	Greet11: Date prisa. Tengo tres procesos colgados esperándome.
+    TalkFirstMeet0: Cara nueva. Soy TBUG, el que se cayó por esa costura. Deja de mirarme así. Mi aterrizaje no fue TAN malo.
+    TalkFirstMeet1: Oh, habla. Mejor que los slimes. Ahí tienes la estantería si lo vas a comprar; habla rápido si no.
+	TalkFirstPurchase0: Trato hecho. Sin recibo: mi memoria es más fiable que el papel.
+    TalkFirstPurchase1: Agárralo bien. Si se porta mal, revisa primero tus propios hábitos de uso.
+    TalkMoodHomeless0: Duermo a la intemperie y mi hardware se empaña cada mañana. Consígueme una habitación y te haré un descuento.
+	TalkMoodHomeless1: Una tienda sin techo es un puesto callejero. No me gusta ser vendedor ambulante.
+    TalkMoodHappy0: Hoy estoy de buen humor. Se me resbaló la mano con los presupuestos… a la baja. No lo digas a nadie.
+    TalkMoodHappy1: Este sitio me está gustando cada vez más. Tu arquitectura supera a tu motor físico.
+	TalkMoodGrumpy0: No te quejes de los precios. Llévame a un sitio decente y bajarán solos.
+    TalkMoodGrumpy1: Mal humor, cotizaciones volátiles. Así es la dinámica del mercado, no es problema mío.
+    TalkHackUnlocked0: Ese equipo que ves ahí está bastante bien montado. ¿Quién lo instaló? Está por encima de la media mundial.
+    TalkHackUnlocked1: Los clientes que saben hackear son buenos clientes. Al menos nunca preguntan por qué lado se mete el chip.
+    TalkHackLocked0: La mitad de mi stock no te sirve de nada ahora mismo. Primero hazte capaz de hackear.
+    TalkLowHealth0: Estás sangrando. Ve primero a la enfermería; en mi estantería no hay bolsas de sangre.
+    TalkLowHealth1: Las barras de salud solo importan cuando están casi vacías. La tuya ya casi lo está.
+	TalkRich0: Huelo a platino. ¿Qué estante vamos a vaciar hoy?
+    TalkPoor0: Tienes los bolsillos más vacíos que mi papelera de reciclaje. Ve a ganarte algo; no acepto a crédito.
+    TalkPoor1: ¿No tienes dinero? Entonces es una exposición. Mirar es gratis. Tocar, no.
+    TalkPreHardmode0: El mundo aún está en las primeras fases del juego. Las estadísticas de los monstruos están escritas con delicadeza. Aprovecha para abastecerte mientras dure.
+	TalkPreHardmode1: Ese muro de carne aún no ha caído. Cuando lo haga, volverás para vaciar mis estanterías.
+    TalkHardmode0: El mundo ha recibido una actualización importante. Monstruos más fuertes, mejores botines. Bueno para el negocio.
+    TalkHardmode1: La luz y la oscuridad están destrozando el mapa ahí fuera. No te quedes junto a las fisuras recién abiertas; yo me caí de una.
+	TalkPostMoonlord0: Has derrotado al Señor de la Luna. Me gustaría una copia de tu registro de combate. Para estudiarlo.
+    TalkPostMoonlord1: Luchas contra dioses y aún así compras en mi pequeño puesto. ¿Debería subir los precios o sentirme conmovido?
+    TalkPostSupCal0: Hasta la propia Calamidad ha caído. A estas alturas, TÚ eres el mayor exploit de este mundo.
+	TalkBloodMoon0: Luna de sangre. La frecuencia de aparición se ha duplicado esta noche; las cosas que hay en la puerta tienen más prisa que tú.
+    TalkBloodMoon1: Todo está rojo ahí fuera esta noche. He reducido un poco el área de impacto de la puerta. La seguridad es lo primero.
+	TalkEclipse0: Un eclipse. El día se ha vuelto más ruidoso que la noche. Es difícil no sospechar que alguien ha cambiado algún parámetro de configuración.
+    TalkRain0: Lluvia. Mi equipo está guardado en una bolsa. El tuyo, tú decides.
+    TalkRain1: Las gotas de lluvia caen en líneas perfectamente rectas. Ni siquiera hay una brizna de viento. Qué pereza.
+    TalkDeepNight0: ¿Todavía despierto a estas horas? Vale. Los noctámbulos tienen un 5 % de descuento… Es broma, precio completo.
+	TalkDeepNight1: Noche profunda. Menos procesos en ejecución. El mundo funciona realmente con más fluidez.
+    TalkUnderground0: El subsuelo está bien. Temperatura estable, silencio, y la roca bloquea todo el ruido de las señales.
+    TalkUnderground1: ¿Hueles eso? El aire de la sala de servidores. Sospecho que la máquina host de este mundo está enterrada en algún lugar por aquí abajo.
+	TalkSnow0: La tundra hace un frío de verdad. El hardware dura dos años más aquí fuera.
+    TalkJungle0: La humedad de la selva mantiene la alarma al límite todo el día. Mi equipo no aguantaría ni una semana aquí.
+    TalkBeach0: ¿La costa? Una vez se me metió agua de mar en el equipo. Con lo que me costó la reparación me habría comprado tres tablas nuevas.
+	TalkEvil0: La corrosión de este lugar se come los circuitos sin piedad. Ni a tu equipo ni a tu piel se le hace distinciones.
+    ShopButtonText: Tienda de artilugios
+    ChatButtonText: Charla
+    LeaveButtonText: Salir
+    PriceFactorText: PRECIO x{0}
+}
+
+TBUGShopUI: {
+	TitleText: TBUG BUG MARKET
+	TitleText: Mercado negro de fallos TBUG
+	BuyTabText: Comprar
+	SellTabText: Vender
+	BalanceText: Saldo
+	PriceText: Precio
+	SellPriceText: Precio de compra
+	TagAffordText: Se puede comprar
+	TagNoFundsText: Saldo insuficiente
+	TagSoldOutText: Agotado
+	StockText: Existencias ×{0}
+	SpecialTagText: -25%
+	SpecialTipText: Oferta del día, 25% de descuento
+	RestockText: Reposición al amanecer; quedan {0}
+	SellHintText: Clic izquierdo vende una unidad; clic derecho vende el montón
+	SellReceiptText: Vendido {0} ×{1}
+	SellEmptyText: En la mochila no hay nada que se pueda vender
+	StatusPendingText: Esperando respuesta de la autoridad…
+	ResultSuccessText: exit 0 · transacción completa
+	ResultInvalidText: ERR: petición no válida
+	ResultOutOfRangeText: ERR: demasiado lejos del tendero
+	ResultNoFundsText: ERR: saldo insuficiente
+	ResultNoSpaceText: ERR: mochila llena
+	ResultOutOfStockText: ERR: esto se ha agotado; vuelve al amanecer
+	ResultBusyText: ERR: demasiadas peticiones; más despacio
+	ResultTimeoutText: ERR: tiempo de espera agotado
 
 EntrustManagerNotification: {
 	LabelNewQuest: Nuevo encargo
@@ -609,20 +968,6 @@ HackTime: {
 	WaterScanStatusStill: AÚN
 	WaterScanStatusFlowing: FLUIDO	
 	CatParanormal: Paranormal
-	WraithScanName: Denominación
-	WraithScanNameValue: Espectro desconocido
-	WraithScanType: Entidad paranormal
-	WraithScanThreat: No imponible ERR://-∞
-	WraithScanStatus: eSTADO
-	WraithScanStatusStalking: Acoso sigiloso
-	WraithScanStatusWatched: Siendo observado
-	WraithScanStatusHalt: Detenido
-	WraithScanStatusMemory: Corrupción de memoria
-	WraithScanStatusDismember: Desintegración espectral
-	WraithScanIntegrity: Integridad de los datos
-	WraithScanIntegrityValue: 0x??% Corruptos
-	WraithScanOrigin: Origen
-	WraithScanOriginValue: No se ha encontrado el registro
 	TurretScanName: Nombre en clave
 	TurretScanLaserName: Batería principal de cañones de vacío
 	TurretScanGatlinName: Torreta ametrelladora del cacío
@@ -646,8 +991,110 @@ HackTime: {
 	SignalTowerScanStatusElectrified: Carga residual
 	SignalTowerScanProtocol: Protocolos disponibles
 	RightClickHint: Haz clic derecho para deseleccionar el destino
+	SStatusReady: LISTO
+    StatusNoRam: SIN RAM
+    UplinkHeader: UPLINK
+    DataTab: DATOS
+    ScanTab: ESCANEO
+    TargetTagged: OBJETIVO ETIQUETADO
+    FooterUpload: CARGA {0} s
+    FooterCost: COSTE {0} RAM
 	AccessDeniedTitle: MODO HACKEO NO DISPONIBLE
 	AccessDeniedDesc: Conecta un arma inteligente o instala un ciberimplante de netrunner para acceder a habilidades de hackeo.
+	ProtocolsOwned: "[{0}/{1} PROTOCOLOS]"
+	NoProtocolTitle: NO HAY PROTOCOLO DISPONIBLE
+	NoProtocolHint: Ningún protocolo de la biblioteca de tu daemons funciona en este destino. Utiliza un chip de protocolo para escribir uno.
+	ChipGrants: Protocolo de escritura: {0}
+	ChipTarget: Funciona en: {0}
+	ChipOneShot: Escritura única; es inservible después.
+	ChipAlreadyOwned: Ya está en tu biblioteca de daemons.
+	Erased: ELIMINADO
+}
+
+SelfRigScanText: {
+	RamLabel: RAM
+	RecoveryLabel: RECOVERY
+	CyberCapacityLabel: CYBERWARE
+	ImplantCountLabel: IMPLANTS
+	HeldChargeLabel: HELD CHARGE
+	SandeCooldownLabel: SANDE CD
+	WraithLabel: WRAITH
+	ErosionLabel: EROSION
+	ProtocolLabel: PROTOCOLS
+	NoneText: —
+	RamLockFormat: RAM {0}%
+	DormantFormat: DORMANT {0}s
+	TransmuteGainFormat: +{0} RAM
+	DriveSettleText: Erosion deepens; wraith dormant
+}
+
+SelfRigScanText: {
+	RamLabel: RAM
+	RecoveryLabel: Recuperación
+	CyberCapacityLabel: Capacidad de implantes
+	ImplantCountLabel: Implantes puestos
+	HeldChargeLabel: Carga en mano
+	SandeCooldownLabel: Enfr. Sande
+	WraithLabel: ESPECTRO
+	ErosionLabel: Erosión
+	ProtocolLabel: Biblioteca de protocolos
+	NoneText: Ninguno
+	RamLockFormat: RAM {0}%
+	DormantFormat: Latente {0}s
+	TransmuteGainFormat: +{0} RAM
+	DriveSettleText: La erosión se profundiza; el espectro sirviente duerme
+}
+
+PlayerScanText: {
+	NameLabel: Operador
+	StanceLabel: Bando
+	StancePeaceful: PvP desactivado
+	StanceAlly: Mismo equipo
+	StanceHostile: Hostil
+	StanceSealed: Inviolable
+	HpLabel: Vida
+	DefenseLabel: Defensa
+	RamLabel: Banda de RAM
+	RamBandEmpty: Vacía
+	RamBandLow: Baja
+	RamBandHalf: Media
+	RamBandHigh: Alta
+	RamBandFull: Llena
+	CyberLabel: Ciberimplantes
+	CyberFirewallFormat: "{0} · cortafuegos detectado"
+	ProtocolLabel: Biblioteca de protocolos
+	ThreatLabel: Evaluación de amenaza
+	ProbingText: Sonda leyendo…
+}
+
+PvPHudText: {
+	BeingHackedBy: "{0} te está hackeando"
+	MoreIntrusions: +{0} intrusiones
+	UploadCanceled: Enlace cortado
+	UploadLanded: >> Implantado <<
+	PositionExposed: Posición expuesta
+	GaugeUntrusted: Lectura no fiable
+	GaugeSyncTag: Calibrar
+	GaugeLifeTag: Vida
+	GaugeManaTag: Maná
+	TracebackFlip: Rastreo inverso activo
+	AlertTraced: El enlace ha sido rastreado
+	AlertTargetLost: Objetivo perdido · RAM reembolsada
+	AlertRejectedFormat: Implante rechazado · código {0}
+	ImplantPanelTitle: Implantes
+	ImplantUninstalled: Desinstalado
+	ImplantExpired: Caducado
+	SignalLost: Señal perdida
+	RemainSecondsFormat: "{0}s"
+	CasterFormat: De {0}
+	DistanceFormat: "{0}m"
+}
+
+PvPDefenderText: {
+	CommsGarbled: Canal corrupto
+	ActuationLagFormat: Retraso de ataque +{0}%
+	Exposed: Contorno expuesto
+	CyberOffline: Ciberimplantes fuera de línea
 }
 
 DecryptionStrings: {
@@ -723,7 +1170,7 @@ SHPCUI: {
 	Cyber_Skill_Banish_Name: CIBEREXPULSAR
 	Cyber_Skill_Banish_Desc: Envía al enemigo que se encuentra bajo el cursor a las profundidades del ciberespacio.
 	Cyber_Skill_Freeze_Name: CONGELACIÓN DEL DOMINIO
-	Cyber_Skill_Freeze_Desc: Inmoviliza a todas las entidades hostiles que se encuentren dentro del dominio.
+	Cyber_Skill_Freeze_Desc: La tercera capa es el propio mundo: encierra en su interior a todas las entidades hostiles.
 	Cyber_DrainHeader: AGOTAMIENTO DE RAM
 	Cyber_DrainPerSec: "-{0}/s"
 	Cyber_SustainTime: "SOSTENIBILIDAD ~{0}s"
@@ -755,39 +1202,60 @@ SHPCUI: {
 	Modify_Preset_C: PRESET-C
 }
 
-EntrustManagerLead: {
-	TextKeyPromptBound: "Presiona [{0}] para abrir el panel del encargo"
-	TextKeyPromptWarnTitle: ⚠  ¡Tecla de Encargo sin asignar!
-	TextKeyPromptDefaultKey: "Presiona [{0}] (Default Key) para abrir el panel de encargos"
-	TextKeyPromptBindHint: Se recomienda asignar una tecla personalizada en Ajustes → Controles
-	TextKeyPromptConfirmBtn: Entendido
-	TextPanelIntroTitle: Instrucciones del encargo
-	TextRightClickLabel: Haz clic derecho en una entrada de encargo
-	TextRightClickAction: " →  Seguir encargo"
-	TextRightClickDesc: "     	La ventana del rastreador de la izquierda mostrará continuamente el progreso de la misión"
-	TextMiddleClickLabel: Clic central en una entrada de de encargo
-	TextMiddleClickAction: " →  Suspender el encargo"
-	TextMiddleClickDesc: "     	Oculta temporalmente el encargo, eliminándola de la ventana del rastreador"
-	TextStyleButtonTitle: Sugerencia sobre el botón de estilo
-	TextStyleButtonLabel: Haz clic izquierdo en el botón pequeño de la parte superior
-	TextStyleButtonAction: " →  Cambiar estilo del UI"
-	TextStyleButtonDesc: "     	Alternarás entre los estilos de interfaz de usuario Desierto, Draedon y Bosque"
-	TextConfirmBtn: Entendido
-	TextTrackPromptTitle: Seguimiento de los encargos de interés
-	TextTrackPromptHintLabel: Haz clic derecho en un encargo
-	TextTrackPromptHintAction: " →  Establecer en seguimiento"
-	TextTrackPromptDesc: "     Los encargos registrados aparecerán fijadas en el panel de seguimiento situado en la parte izquierda de la pantalla para facilitar el control del progreso"
-	TextTrackPromptNextBtn: Siguiente
-	TextTrackerIntroTitle: Seguimiento de encargos
-	TextTrackerIntroLine1: El rastreador situado en la parte izquierda de la pantalla muestra en todo momento todas los encargos registrados
-	TextTrackerIntroLine2: Mantén pulsado clic izquierdo para arrastrar y ajustar su posición vertical
-	TextTrackerIntroLine3: El panel de seguimiento se oculta automáticamente cuando se abre el Administrador encargos para no obstaculizar la visualización
-	TextTrackerIntroNextBtn: Siguiente
-	TextSuspendIntroTitle: Suspender los encargos no deseados
-	TextSuspendIntroHintLabel: Clic  central en un encargo
-	TextSuspendIntroHintAction: " →  Encargo suspendido"
-	TextSuspendIntroDesc1: "     Las comisiones suspendidas no aparecerán en el panel de seguimiento de la izquierda, lo que resulta ideal para dejarlas en suspenso temporalmente"
-	TextSuspendIntroDesc2: "     Puedes encontrarlos en la pestaña Suspendidos para reactivar el seguimiento"
+QuestBookGuideLead: {
+	WelcomeTitle: Este libro
+	WelcomeLine1: En el libro hay dos cosas abiertas: la carta de misiones y el expediente de encargos.
+	WelcomeLine2: La carta anota hasta dónde ha llegado la historia principal; el expediente recoge los trabajos que otros te han encargado.
+	RailTitle: Las dos pestañas de la izquierda
+	RailLine1: La de arriba abre la carta de misiones.
+	RailLine2: La de abajo abre el expediente de encargos.
+	RailLine3: Pulsa una pestaña para cambiar de estación; no hace falta cerrar el libro.
+	RailAct: Pulsa la pestaña de arriba para abrir la carta de misiones.
+	ChartViewTitle: Abrir la carta
+	ChartViewLine1: Rueda para zoom; mantén pulsado el clic izquierdo para arrastrar.
+	ChartViewLine2: Si la vista se aleja, el botón Recentrar a la derecha del pie la trae de vuelta.
+	ChartViewAct: Prueba a girar la rueda o a arrastrar la carta un poco.
+	ChartNodeTitle: Abrir un nodo
+	ChartNodeLine1: La marca del nodo es su estado: rayado, aún no ha empezado; anillo de tinta, en curso; sello de cera, recompensa pendiente; sello agrietado, cerrado.
+	ChartNodeAct: Clic izquierdo en el que está rodeado.
+	ChartDetailTitle: La ficha de la derecha
+	ChartDetailLine1: La mitad de arriba es lo que pide este capítulo; la de abajo, lo que se cobra al terminarlo.
+	ChartDetailLine2: Reclamar todo, en el pie, recoge de una vez todas las recompensas de los capítulos cerrados.
+	OutroTitle: El expediente aún está vacío
+	OutroLine1: Conforme avance la historia, alguien dejará trabajo en esta estación.
+	OutroLine2: Cuando llegue el primer encargo, esta guía continuará.
+	KeyPromptTitle: Alguien te ha encargado un trabajo
+	KeyPromptLine1: El primer encargo ya está en el expediente. Ábrelo y míralo.
+	KeyPromptBound: Pulsa [{0}] para abrir el Diario de misiones.
+	KeyPromptUnboundTitle: El atajo del Diario de misiones no está asignado
+	KeyPromptUnboundLine: La tecla predeterminada es [{0}]; pulsarla ahora también abre el diario.
+	KeyPromptBindHint: Para cambiarla, ve a Ajustes → Controles.
+	GotoTitle: Ir al expediente de encargos
+	GotoLine1: El libro recuerda en qué estación lo dejaste y vuelve ahí la próxima vez.
+	GotoAct: Pulsa la pestaña de abajo a la izquierda.
+	AnatomyTitle: Un encargo
+	AnatomyLine1: El sello redondo de la izquierda es el mandante; el centro, el título y el progreso; la derecha, el estado actual.
+	AnatomyLine2: Al expandirlo verás el texto, el progreso y la firma.
+	AnatomyAct: Clic izquierdo en esta fila para abrirla.
+	TrackTitle: Síguelo
+	TrackLine1: Los encargos seguidos se clavan en la barra de seguimiento a la izquierda; el progreso se ve sin abrir el libro.
+	TrackAct: Clic derecho en esta fila  →  seguir.
+	TrackAltLine1: Esta fila se siguió sola al archivarse y ya está clavada en la barra de la izquierda.
+	TrackAltAct: Clic derecho para dejar de seguir; otro clic derecho para volver a clavarla.
+	TrackerTitle: Barra de seguimiento
+	TrackerLine1: Esta columna de la izquierda muestra siempre todos los encargos seguidos.
+	TrackerLine2: Mantén pulsado el clic izquierdo y arrastra arriba o abajo para moverla.
+	TrackerLine3: Al abrir el Diario de misiones se pliega sola para no tapar la página.
+	SuspendTitle: Suspender y clasificar
+	SuspendLine1: Clic central en una fila  →  suspender; desaparece de la barra de seguimiento.
+	SuspendLine2: Las cuatro pestañas de arriba son En curso / Todas / Completadas / Suspendidas. Las suspendidas están en la última.
+	SuspendLine3: Encuéntrala y vuelve a pulsar el clic central; volverá a su sitio.
+	BtnConfirm: Entendido
+	BtnNext: Siguiente
+	BtnSkipStep: Saltar este paso
+	BtnDismiss: Guardar la guía
+	BtnOpenBook: Abrir de una vez
+	HelpButtonHover: Volver a ver la guía del Diario de misiones
 }
 
 CyberwareSkillRadialUI: {
@@ -798,6 +1266,37 @@ CyberwareSkillRadialUI: {
 	HintKindToggle: Modo alternativo: pulsa el gatillo para encenderlo o apagarlo
 	HintKindInstant: Modo instantáneo: Presiona el gatillo para disparar
 	HintNotReady: No se cumplen las condiciones
+}
+
+CyberwareGuideLead: {
+	SelectTitle: Habilidad de ciberimplante conectada
+	SelectBody: Se ha detectado un ciberimplante activo. Mantén pulsado {0} para abrir el menú radial; todos los discos elegibles aparecen a la vez, y el cursor pertenece al más cercano.
+	SelectPrompt: Lanza el cursor hacia el sector de ciberimplantes; clic izquierdo para elegir o suelta para confirmar
+	TriggerTitle: Liberar la habilidad
+	TriggerBody: Elegir solo carga la habilidad en la yema del dedo; se libera con la tecla de activación. Las de carga se mantienen pulsadas y se sueltan.
+	TriggerPrompt: Pulsa {0} para liberar la habilidad actual del ciberimplante
+	SkipBtn: Saltar
+	WheelKeyUnbound: La tecla del menú radial no está asignada, así que el menú no puede abrirse. Asígnala primero en Ajustes > Controles, o pulsa Saltar.
+	TriggerKeyUnbound: La tecla de activación no está asignada. Asígnala primero en Ajustes > Controles, o pulsa Saltar.
+}
+
+SHPCDomainWheelUI: {
+	Layer1_Desc: Capa base: solo abre el campo del dominio a tu alrededor
+	Layer2_Desc: Baja una capa; el campo se extiende más lejos y la RAM se quema más rápido
+	Layer3_Desc: Atraviesa el Blackwall; el mundo entero se vuelve el dominio
+	Layer_HintActivate: "Clic" Desplegar el dominio
+	Layer_HintSwitch: "Clic" Cambiar a esta capa
+	Layer_HintShutdown: "Clic" Recoger el dominio
+	Layer_HintLowRam: RAM insuficiente
+	Layer_HintLocked: Bloqueo por fallo del sistema
+	Hack_Title: Modo hackeo
+	Hack_Subtitle: Sobrefrecuencia neural
+	Hack_Desc: Arrastra el mundo a un gateo y aplica protocolos a todo lo que veas
+	Hack_HintEnter: "Clic" Entrar en Tiempo de hackeo
+	Hack_HintExit: "Clic" Salir de Tiempo de hackeo
+	Hack_HintDenied: Sin permiso de acceso
+	Hack_HintKeyUnbound: La tecla de Tiempo de hackeo no está asignada; asígnala primero en Ajustes > Controles
+	WheelHint: "[{0}] Mantén pulsado · Suelta para confirmar · Clic izquierdo para elegir · Clic derecho para cancelar"
 }
 
 AbandonedPortalStrings: {
@@ -821,15 +1320,6 @@ AbandonedPortalStrings: {
 	DiagnosticRepaired: OK: Todos los subsistemas están en línea / Listos para el análisis de coordenadas
 }
 
-SupertableUI: {
-	RecipeViewLabel: Ver receta
-	RecipeEmptyLabel: nada
-	PlacementMonitorOff: Desactivar el Monitor de colocación
-	PlacementMonitorOn: Activar el Monitor de colocación
-	QuickPlaceMaterials: Colocación rápida de materiales
-	QuickTakeMaterials: Agarre rápido de materiales
-}
-
 ArrowHolderUI: {
 	MarkArrowHint: Haz clic izquierdo para marcar una flecha
 	UnmarkArrowHint: Haz clic derecho para desmarcar una flecha
@@ -842,6 +1332,9 @@ BulletinBoardUI: {
 	LogLabel: Ver registro
 	AcknowledgmentLabel: Agradecimientos
 }
+
+HimayoMenu.ThemeName: Noche de sakura
+ShenyoMenu.ThemeName: Lluvias del lago fantasma
 
 AcknowledgmentUI: {
 	ArtistRole: Artista
@@ -856,31 +1349,288 @@ AcknowledgmentUI: {
 }
 
 CWRPlayer: {
-	Error_HookFailure:
-		'''
-		Se ha producido un error en un gancho. Cierra el juego y vuelve a iniciarlo para restablecer el funcionamiento normal.
-		Si el problema persiste, exporta el registro y ponte en contacto con el desarrollador del mod
-		'''
-	OnEnterWorld_ImproveGameWarning:
-		'''
-		[Quality of Terraria]  está instalado, pero tu versión está desactualizada.
-		Para disfrutar de una experiencia de juego estable, actualiza [Quality of Terraria] al menos hasta la versión 1.7.1.7
-		'''
-	HellfireExplosionDeathReason: "{0} quedó reducido a cenizas en las llamas del inframundo"
+	HellfireExplosionDeathReason: "{0} {0} quedó reducido a cenizas en las llamas del inframundo"
 	SoulfireExplosionDeathReason: "El alma de {0} ascendió envuelta en llamas"
+}
 
-	CWRPlayer: {
-		Error_HookFailure:
-			'''
-			Se ha producido un error en un gancho. Cierra el juego y vuelve a iniciarlo para restablecer el funcionamiento normal.
-			Si el problema persiste, exporta el registro y ponte en contacto con el desarrollador del mod
-			'''
-		OnEnterWorld_ImproveGameWarning:
-			'''
-			[Quality of Terraria]  está instalado, pero tu versión está desactualizada.
-			Para disfrutar de una experiencia de juego estable, actualiza [Quality of Terraria] al menos hasta la versión 1.7.1.7
-			'''
-		HellfireExplosionDeathReason: "{0} quedó reducido a cenizas en las llamas del inframundo"
-		SoulfireExplosionDeathReason: "El alma de {0} ascendió envuelta en llamas"
-	}
+MiningMachineUI: {
+	TitleText: Terminal de prospección
+	ReportTitle: Informe de prospección
+	RescanText: Volver a prospectar
+	ModuleSlotLabel: Ranuras de módulo
+	StatusLabel: Estado
+	StateWorking: En operación
+	StateNoPower: Energía insuficiente
+	StateNoFooting: Cimiento inestable
+	PickPowerLine: Poder de pico: {0}%
+	YieldRateLine: Rendimiento: ~{0}/min
+	EnergyLabel: Energía
+	YieldLabel: Rendimiento
+	LayerLabel: Estrato
+	BiomeLabel: Bioma
+	VeinLabel: Vetas halladas
+	LayerSurface: Superficie
+	LayerUnderground: Subsuelo
+	LayerCavern: Capa de cavernas
+	LayerUnderworld: Inframundo
+	BiomeJungle: Jungla
+	BiomeSnow: Nieve
+	BiomeDesert: Desierto
+	BiomeCorrupt: Corrupción
+	BiomeCrimson: Carmesí
+	BiomeHallow: Lo Sagrado
+	BiomeNone: Roca estéril
+	GateNeedPick: Requiere {0}% de poder de pico
+	GateNeedDrill: Requiere un módulo de perforación dedicado
+	GateNotInWorld: El yacimiento aún no se ha prospectado
+	VeinTilesFormat: Vetas halladas: {0} bloques
+	DrillTargetText: Mineral objetivo: {0}
+	DrillEffectText: Desbloquea la extracción del mineral objetivo y cuadruplica su peso de rendimiento
+}
+
+TurretControlUI: {
+	TitleText: Control de fuego
+	ChargeLabel: Carga
+	PowerOnText: ENCENDIDO
+	PowerOffText: APAGADO
+	StateWorking: En operación
+	StateStandby: Apagado
+	StateNoPower: Energía insuficiente
+	RangeLine: Alcance: {0} bloques
+	RhythmLine: Cadencia: {0}/s
+	RhythmSustained: Cadencia: continua
+	EnergyPerShotLine: Consumo: {0} UE por disparo
+	EnergyPerTickLine: Consumo: {0} UE por tick
+	ChargeReadLine: "{0}/{1} UE"
+	SwitchHint: Encender o apagar la torre
+}
+
+DungeonworldLoadingScreen: {
+	BandName0: Distrito de la catedral
+	BandName1: Nivel de las celdas
+	BandName2: Gran archivo
+	BandName3: Celdas inundadas
+	BandName4: Osario
+	BandName5: Nivel de la fundición
+	BandName6: Catedral invertida
+	Toll0: Primer toque · Distrito de la catedral
+	Toll1: Segundo toque · Nivel de las celdas
+	Toll2: Tercer toque · Gran archivo
+	Toll3: Cuarto toque · Celdas inundadas
+	Toll4: Quinto toque · Osario
+	Toll5: Sexto toque · Nivel de la fundición
+	Toll6: Séptimo toque · Catedral invertida
+	Tip0: Cuanto más abajo, más viejos los ladrillos y más cortas las oraciones.
+	Tip1: El coro sigue cantando; solo que hay siete forjados de por medio.
+	Tip2: Arriba tañen una vez; el fondo del pozo responde dos.
+	Tip3: Las velas se acortan al bajar; la cera se espesa.
+	Tip4: El archivo guarda el nombre de todos, también de los que aún no han llegado.
+	Tip5: El osario no usa argamasa; el hueso muerde más fuerte que la cal.
+	Tip6: Los engranajes no se han parado; quienes los aceitan van por la séptima generación.
+	Tip7: En la catedral del fondo, el altar está clavado al techo.
+	StatusDescend: La jaula desciende
+	StatusAscend: La jaula asciende
+	DepthLabel: Profundidad {0}%
+	RevealHold: Encendiendo las velas
+}
+
+DungeonworldGuideNotes: {
+	LayerNoteGaol: Nivel de las celdas. Donde más se apiñan cadenas y óxido, por ahí está la celda profunda.
+	LayerNoteFlood: Celdas inundadas. El agua baja a la sala de desagüe del último piso. Tú también.
+	LayerNoteProof: Nivel de la fundición. Los engranajes no se han parado; el raíl del fondo lleva a la sala de inspección.
+	ApproachGaol: Ya no cabe otra cadena en los muros. La celda de delante está cerrada desde fuera.
+	ApproachFlood: La línea de agua ha llegado al techo. En la sala de desagüe de delante, algo sigue esperando el agua.
+	ApproachProof: El raíl termina aquí. Los hornos aún queman; la sala de inspección espera la pieza de hoy.
+}
+
+HadalworldLoadingScreen: {
+	BandName0: Zona fótica
+	BandName1: Zona crepuscular
+	BandName2: Zona de medianoche
+	BandName3: Zona abisal
+	BandName4: Zona hadal
+	Tip0: La luz se quedó arriba.
+	Tip1: Cuanto más hondo, más callada el agua.
+	Tip2: Las burbujas solo van en una dirección.
+	Tip3: La presión no llama a la puerta.
+	Tip4: Abajo algo brilla. No es una lámpara.
+	StatusDescend: Sumergiendo
+	StatusAscend: Emergiendo
+	DepthLabel: Profundidad {0} m
+}
+
+KiyumeLoadingScreen: {
+	TitleEnter: Sueño espectral
+	TitleExit: Despertar
+	VerseEnter: La niebla ya pasó el alféizar y las lámparas de dentro siguen encendidas.
+	VerseExit: El lago ha soltado. No mires atrás.
+	StatusEnter: La niebla baja del lago
+	StatusExit: La aldea se hunde otra vez en la niebla
+}
+
+KiameLoadingScreen: {
+	TitleEnter: Lluvia espectral
+	TitleExit: Tregua
+	VerseEnter: El agua de las hondonadas creció toda la noche y nadie vino a recoger el paraguas.
+	VerseExit: El paraguas se plegó. La lluvia sigue.
+	StatusEnter: La lluvia inunda las hondonadas
+	StatusExit: El ruido de la lluvia se aleja
+}
+
+KiameExitKeeper.ExitHint: "[Clic derecho] Plegar el paraguas y volver"
+
+KiameWake: {
+	WakeOni: Lo que había bajo el paraguas soltó, y despertaste.
+	WakeDrowned: El agua negra te cubrió la cabeza, y despertaste.
+	WakeGeneric: Despertaste de la lluvia.
+}
+
+OldNetTexts: {
+	OldNetHarvest: +{0} fragmentos de molde (sin inscribir)
+	OldNetNodeHint: Recuperar datos
+	OldNetTerminalHint: Cerrar sesión e inscribir el botín
+	OldNetSettleDone: Inscritos {0} fragmentos de molde; enlace desconectado con seguridad
+	OldNetSettleEmpty: Enlace desconectado con seguridad; esta vez no hubo botín
+	OldNetEjectRam: RAM agotada; el enlace se quemó; el botín sin inscribir se perdió
+	OldNetEjectDeath: El constructo se desintegró; el enlace se quemó; el botín sin inscribir se perdió
+	OldNetLedgerFull: El libro mayor está lleno; ve primero a un relé o cierra sesión
+	OldNetEncryptHint: Descifrado canalizado (quédate quieto ~3 s; hace mucho ruido)
+	OldNetEventHint: Tirar de la palanca: levanta el bloqueo de todo el mapa y alarma a toda la red
+	OldNetEventPulled: Bloqueo levantado; la oleada de purga está en camino
+	OldNetRelayHint: Enlace de relé: inscribe el libro mayor actual (el enlace hace ruido)
+	OldNetRelayDone: Inscritos {0} fragmentos de molde; el enlace se mantiene
+	OldNetRelayEmpty: El libro mayor está vacío; no hay nada que enviar
+	OldNetEnterHint: Conectar a OldNet (inmersión más allá del muro)
+	OldNetEnterConfirm: Enlace precalentado; interactúa de nuevo para la inmersión más allá del muro
+	OldNetEnterArmedHint: Enlace precalentado: interactúa de nuevo para la inmersión más allá del muro
+	OldNetEnterSPOnly: La inmersión solo está disponible en un jugador
+	OldNetDiveCharge: Mantén la inmersión; atravesando el muro
+	OldNetBandFoot: Franja del pie del muro // FOOTHOLD
+	OldNetBandRuin: Franja de ruinas // RUINFIELD
+	OldNetBandFade: Zona de atenuación de señal // SIGNAL DECAY
+	GuideNoiseTitle: Medidor de ruido
+	GuideNoiseBody: Abajo a la izquierda está el medidor de ruido: moverte, disparar o descifrar te encienden. Las cuatro marcas son cuatro umbrales de amenaza; si pasas T2, algo vendrá desde el otro lado del muro. Si te quedas quieto, el ruido se enfría solo.
+	GuideLedgerTitle: Libro mayor sin inscribir
+	GuideLedgerBody: Los fragmentos que recojas entran primero en el libro mayor (lectura LEDGER). Morir o agotar la RAM lo anula todo; solo lo inscrito es realmente tuyo. El libro tiene capacidad y rechaza el exceso.
+	GuideNodesTitle: Grados de nodo
+	GuideNodesBody: Los nodos cian se recogen con clic derecho. Los nodos cifrados ámbar piden ~3 s de canalización: mucho ruido, pero valen el triple. Tirar de la palanca roja de evento levanta el bloqueo de todo el mapa y la oleada de purga llega al momento.
+	GuideRelayTitle: Relé y salida
+	GuideRelayBody: La columna ámbar es un relé: inscribe el libro mayor in situ y sigues dentro, pero el enlace se oye de lejos. La columna verde menta es el terminal de salida: inscribe y corta el enlace con seguridad. Quedarse o huir es la única pregunta aquí.
+	GuideDrainTitle: Ruido de fondo por distancia
+	GuideDrainBody: Cuanto más lejos del muro, más caro es el consumo de fondo de RAM. Junto a la lectura DEPTH del HUD está el coste por segundo. Quemar la RAM es una eyección; calcula de antemano el viaje de vuelta.
+	GuideSkip: Entendido
+	EntrustTitle: Inmersión más allá del muro
+	EntrustSummary: La entrada de OldNet está en la isla celeste estrellada sobre el punto de aparición: sube por el cabo ancla que cuelga hasta el suelo; la columna de luz cian en la cabina media es el terminal de acceso. Clic derecho en el terminal para precalentar el enlace; otro clic derecho en 5 s y entras (solo un jugador). Dentro, clic derecho en los nodos cian para recoger fragmentos de molde; el botín entra primero en el libro mayor. Si quieres llevártelo, vuelve al pie del Blackwall y haz clic derecho en la columna verde menta para salir. Una salida segura completa este encargo. Si a mitad de camino se agota la RAM o mueres, todo lo sin inscribir se anula.
+	EntrustCategory: Arqueología de inmersión
+	TrackerOverworld: Ve a la cabina media de la cápsula caída sobre el punto de aparición; clic derecho dos veces en el terminal de luz cian
+	TrackerDive: Vuelve al pie del Blackwall; clic derecho en la columna verde menta para salir con seguridad
+	OldNetSignRuin: Franja de ruinas. Zona principal de recolección; a partir de aquí aparecen nodos cifrados. Antes de canalizar, mira la salida.
+	OldNetSignFade: Zona de atenuación de señal. El consumo de fondo se dispara a partir de aquí; el enlace no aguantará mucho. Sigue bajo tu propio riesgo.
+	OldNetEchoHint: Nodo eco: solo tangible durante la parada temporal (cero ruido, rendimiento doble)
+	OldNetEchoFizzle: El eco es demasiado tenue; solo se alcanza en tiempo detenido
+	OldNetCacheHint: Caché de inmersión: ábrelo para sacar un módulo sellado (hace ruido)
+	OldNetTripwireHint: Cable trampa de ráster: cruzar el haz rojo denuncia tu posición; mantén pulsado el clic derecho para cortarlo
+	OldNetTripwireCut: Cortado. Esta ruta ya está en silencio
+	OldNetMineHint: Mina centinela: si te acercas rápido, detona; acércate despacio y mantén pulsado el clic derecho para desmontarla
+	OldNetMineDefused: Desmontada. Nada se enteró
+	OldNetMineScream: La mina centinela chilla; tu posición ha sido emitida
+	OldNetMineDeath: "{0} pisó una mina centinela"
+	OldNetBulkheadWarn: Señal de alto ruido detectada; las compuertas del pozo se pretensan
+	OldNetBulkheadShut: Pozos sellados. Baja el ruido y espera a que reabran, o fuerza una con la palanca de alivio
+	OldNetBulkheadReopen: El ruido ha bajado; las compuertas del pozo reabren
+	OldNetBreakerHint: Palanca de alivio de emergencia: tira para abrir la compuerta 8 s, a costa de más ruido
+	OldNetBreakerPulled: Alivio completado; la compuerta queda abierta 8 s
+	OldNetSignCheckpoint: Puesto de cuarentena K-3. Las señales al este no están desinfectadas; prohibido pasar con protocolos vivos. Este puesto cayó en la noche 771.
+	TaggerAttached: Señal marcada. Mientras esté presente, el ruido no se disipará solo.
+	TracerHowlWarn: El sabueso está emitiendo tus coordenadas. Interrúmpelo.
+	TracerConfused: Los caminos se cruzaron. Perdió el rastro.
+	WardenDispatch: Protocolo de reclamación autorizado. Un ejecutor se está desprendiendo del Blackwall.
+	WardenSlain: Ejecutor archivado. Toda la red guarda silencio por ti durante 60 s.
+	WardenGraceHud: Margen de silencio
+	OldNetDockHint: Clic derecho para ampliar: +8 ranuras de libro mayor en esta inmersión, ruido +15
+	OldNetDockDone: Libro mayor +8 ranuras
+	OldNetColdHint: Clic derecho para extraer: cuesta 2 de RAM, silencioso
+	OldNetColdNoRam: RAM insuficiente; la extracción necesita 2
+	OldNetEscrowHint: Clic derecho para asegurar: cobra el 30% del libro mayor como prima; ruido de enlace +10. Si se quema o mueres, paga el resto; en una salida segura la prima no se devuelve
+	OldNetEscrowEmpty: El libro mayor está vacío; no hay nada que asegurar
+	OldNetEscrowTooThin: El libro mayor es demasiado flaco; la prima se lo comería todo
+	OldNetEscrowSigned: Asegurados {0}; prima {1}
+	OldNetEscrowPayout: El seguro pagó {0} fragmentos de molde
+	OldNetVaultHint: Clic derecho para abrir el descifrado: cuesta 3 de RAM; +2 de ruido por segundo mientras esté abierto. Cada fase sube la apuesta; fallar vacía el bote
+	OldNetVaultNoRam: RAM insuficiente; abrir cuesta 3
+	OldNetVaultLocked: La consola principal ya está en marcha
+	OldNetVaultPayout: Bote ingresado: {0} fragmentos (sin inscribir)
+	VaultTitle: Matriz de descifrado de la consola
+	VaultGuide: Cuando la aguja entre en el arco iluminado, clic izquierdo o pulsa saltar para confirmar. Si te golpean o te alejas mientras gira, cuenta como fallo
+	VaultStage: Fase {0} / 5
+	VaultPot: Bote: fragmentos ×{0}
+	VaultPotModule: Módulos sellados ×{0}
+	VaultPotChip: Chip de ampliación de RAM ×1
+	VaultLedgerRoom: Hueco en el libro mayor {0}
+	VaultCashOut: Cobrar y cerrar
+	VaultContinue: Siguiente fase
+	VaultBust: Quiebra; bote vaciado
+	VaultCounterHack: Contrahack de la consola: inyección de hackeo
+	VaultDiscard: El libro mayor no cabe; se descartan {0}
+	OldNetEncryptFadeHint: Descifrado canalizado: las cerraduras de la zona loca muerden; al terminar, la cacería es segura
+	OldNetAftershockWarn: Exposición residual; el eco está rastreando
+	OldNetAftershockHit: Rastreo completo. Ya vienen
+	OldNetDragnetWarn: La red se está cerrando; la amenaza está a punto de volverse irreversible // DRAGNET 75%
+	OldNetDragnetOn: Recogida de red iniciada; el bloqueo ya no se levanta; las cerraduras cifradas están fuera de línea en toda la red // DRAGNET
+	OldNetHotExtractHint: Enlace sobrecalentado: cortar requiere 10 s quieto en el terminal, y la red vendrá a por ti
+	OldNetHotExtractStart: Cortando el enlace a la fuerza; aguanta // SEVERING
+	OldNetHotExtractAbort: Corte abortado; el enlace se mantiene
+	OldNetHotExtractTooFar: Demasiado lejos del terminal; acércate para cortar
+}
+
+OldNetDebriefPanel: {
+	DebriefSubtitle: Informe del enlace
+	DebriefDepth: Más lejos del muro
+	DebriefHarvest: Nodos recolectados
+	DebriefSettled: Fragmentos inscritos
+	DebriefHunted: Veces cazado
+	DebriefTime: Tiempo de inmersión
+	DebriefExitSafe: Desconexión segura
+	DebriefExitBurnout: RAM agotada; enlace quemado
+	DebriefExitDeath: Constructo desintegrado; enlace quemado
+	DebriefLost: "{0} fragmentos sin inscribir se han quemado"
+	DebriefContinue: Continuar
+	DebriefMechHint: El botín sin inscribir solo vive en el enlace; es tuyo de verdad cuando lo inscribes en un relé o en el terminal de salida
+	DebriefScore: Puntuación
+	DebriefGrade: Grado
+	DebriefBest: Mejor marca {0}
+	DebriefNewRecord: Nuevo récord
+	StyleGhost: Sigilo fantasma
+	StyleHeat: Supervivencia al calor
+	StyleHotExtract: Corte en caliente
+	StyleDragnet: Huida de la red
+}
+
+CharacterDockUI: {
+	OpenHintLabel: Clic para ver el retrato
+	DragHintLabel: Arrastra para mover · Rueda para zoom · Clic derecho para restablecer
+	LockedHintLabel: Aún no desbloqueado
+	SupCal.Name: Bruja del Azufre
+	Helen.Name: Helen
+	Shenyo.Name: Shenyo
+}
+
+WeaponSkillHud: {
+	ReadyHint: Listo; clic para lanzar
+	AimHint: Mantén pulsado, arrastra al punto de impacto y suelta para lanzar
+	ReleaseHint: Suelta para lanzar
+	CooldownFormat: Enfriamiento restante {0} s
+	ActiveLine: En lanzamiento
+	ManaCostFormat: Coste de maná {0}
+}
+
+KiyumeHoundHints: {
+	HintAlert: Quédate quieto. La niebla te esconderá.
+	HintChase: Entra en una casa, o en lo más espeso de la niebla.
+}
+
+KiyumeDreamWake: {
+	WakeBitten: En el instante en que los colmillos se cerraron, despertaste.
+	WakeDrowned: El lago te cubrió la cabeza, y despertaste.
+	WakeGeneric: El sueño se rompió.
 }
