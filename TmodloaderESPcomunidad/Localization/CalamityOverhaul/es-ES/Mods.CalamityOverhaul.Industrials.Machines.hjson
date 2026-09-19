@@ -17,7 +17,6 @@ FluidInjector: {
 		'''
 }
 
-
 BottlingMachine: {
 	DisplayName: Máquina embotelladora
 	Tooltip:
@@ -133,8 +132,8 @@ HealStation: {
 		'''
 }
 
-
 ElectricMinRocket: {
+	EnergyShortage: Energy Shortage
 	DisplayName: Mini cohete eléctrico
 	Tooltip:
 		'''
@@ -142,7 +141,7 @@ ElectricMinRocket: {
 		Pulsa las teclas direcionales en el aire para ajustar la dirección.
 		Mantén pulsado ABAJO para descender lentamente; volar consumirá energía gradualmente.
 		Pulsa la barra espaciadora para interrumpir el vuelo.
-		"Fabricado en la Unión Soviética, robusto y fiable, casi llegó a la Luna".
+		"Fabricado en la Unión Soviética, robusto y fiable, casi llegó a la Luna."
 		'''
 }
 
@@ -279,7 +278,6 @@ WGGCollector: {
 		'''
 }
 
-
 ItemFilter: {
 	DisplayName: Tablero filtrador de objetos
 	Tooltip:
@@ -339,7 +337,6 @@ WGGLumberjack: {
 	DisplayName: Leñador salvaje
 	Tooltip: ""
 }
-
 
 WGGLifeWeaver: {
 	TurretBatteryDepleted: Se agotó la batería
@@ -493,6 +490,7 @@ PotionBeacon: {
 
 HerbFarmer: {
 	NoEnergyText: ¡Energia insuficiente!
+	FullText: ¡El almacén de producto está lleno!
 	DisplayName: Cultivador de hierbas
 	Tooltip:
 		'''
@@ -510,6 +508,7 @@ MushroomFarmer: {
 		'''
 		Consume energía para cultivar champiñones en la hierba cercana y champiñones brillantes en la hierba de champiñon
 		Las recolecta automáticamente, lo que en ocasiones proporciona semillas de hierba de champiñon
+		Also cuts down vines hanging under mushroom grass; each segment has a 50% chance to yield a glowing mushroom
 		Haz clic derecho para abrir el panel de control
 		'''
 }

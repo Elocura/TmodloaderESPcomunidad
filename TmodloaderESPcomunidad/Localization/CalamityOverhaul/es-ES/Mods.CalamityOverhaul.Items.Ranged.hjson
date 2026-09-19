@@ -29,6 +29,7 @@ CrystalDimming: {
 	DisplayName: Atenuación cristalina
 	Tooltip:
 		'''
+		Usa bolas de nieve como munición
 		Lanza proyectiles de cristal que hacen surgir picos glaciares del suelo en el punto de impacto
 		Los picos crecen más cuando surgen cerca de grupos de cristales ya existentes
 		Al hacer clic derecho se desata una oleada glaciar, que forma una cresta de hielo cada vez más alta a lo largo del terreno
@@ -107,7 +108,7 @@ SnowQuayMK2: {
 
 Starship: {
 	DisplayName: Nave espacial
-	Tooltip: 
+	Tooltip:
 		'''
 		Disparar de forma continuada genera calor, lo que aumenta la cadencia de fuego con el tiempo
 		Haz clic derecho para consumir munición y cargar un proyectil cometa; el siguiente disparo lo lanza, causando un daño enorme e infligiendo Hiperdesintegración
@@ -271,7 +272,6 @@ TiroFinale: {
 		"Cuida tus modales y haz que la salida a escena sea magnífica"
 		'''
 }
-
 
 Undertow: {
 	DisplayName: Resaca

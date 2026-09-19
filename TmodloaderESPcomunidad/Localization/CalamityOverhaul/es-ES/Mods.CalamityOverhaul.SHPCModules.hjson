@@ -24,16 +24,6 @@ RapidBarrelModule: {
 		'''
 }
 
-RapidBarrelModule: {
-	DisplayName: Cañón rápido
-	Tooltip:
-		'''
-		El fuego sostenido aumenta la temperatura del cañón: cuanto más caliente está, más rápido dispara, lanzando rayos al rojo vivo hasta alcanzar una incandescencia blanca que desprende cenizas fundidas
-		Al llegar al límite del indicador, se activa una válvula de sobrecalentamiento durante varios segundos: aplica una cadencia de fuego máxima sin coste de maná, con vapor saliendo a borbotones por la boca del cañón bajo el sonido de una alarma estridente
-		A continuación se produce un enfriamiento forzado con una cadencia de disparo muy reducida; el calor se disipa lentamente mientras se mantiene el fuego: controla el calor, mantente en el límite.
-		'''
-}
-
 FocusBarrelModule: {
 	DisplayName: Cañon de enfoque
 	Tooltip: Obliga a los tres haces de seguimiento a converger en un único y devastador impacto concentrado
@@ -782,7 +772,7 @@ OverwatchStockModule: {
 	Tooltip:
 		'''
 		Si te quedas quieto, se acumulan cargas de Supervisor (máximo 5), que desaparecen rápidamente en cuanto te mueves
-		Cada carga otorga un +2,5 % de daño y un +2 % de crítico; esta postura estoica reduce la velocidad de ataque y la dispersión
+		Cada carga otorga un +2,5% de daño y un +2% de crítico; esta postura estoica reduce la velocidad de ataque y la dispersión
 		'''
 }
 
@@ -791,7 +781,7 @@ MomentumStockModule: {
 	Tooltip:
 		'''
 		Moverte rápidamente aumenta las acumulaciones de Impulso (máximo 6), que desaparecen rápidamente en cuanto te detienes.
-		Cada acumulación otorga un +5 % de velocidad de ataque y un +8 % de velocidad de disparo, al igual que en Supervisor
+		Cada acumulación otorga un +5% de velocidad de ataque y un +8% de velocidad de disparo, al igual que en Supervisor
 		'''
 }
 

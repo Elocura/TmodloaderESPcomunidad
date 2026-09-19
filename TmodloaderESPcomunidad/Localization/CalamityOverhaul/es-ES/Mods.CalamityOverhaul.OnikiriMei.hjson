@@ -15,18 +15,6 @@ OniMeiRubbingHigekiri: {
 	Burden: Daño del arma: -2%. Mientras el enemigo siga con vida, esta ventaja resulta menos eficaz de lo que sugiere su nombre original.
 }
 
-OniKeikoRune: {
-	DisplayName: Runa de Keiko
-	Tooltip:
-		'''
-		Úsala para abrir la lección de Onikiri desde el comienzo, o vuelve a usarla a mitad de la lección para cerrarla
-		Se te queda cuando rechazas la lección inicial; la runa no se consume y se puede volver a usar.
-		'''
-	NeedBlade: Onikiri no está en tu inventario, por lo que la runa no tiene ninguna lección que impartir.
-	Closed: La lección está guardada; vuelve a usar la runa para volver a abrirla
-	NotNow: En este momento hay otra cosa ocupando el escenario
-}
-
 OniMeiRubbingOnikiri: {
 	DisplayName: Onikiri
 	Tooltip: Inscripción original. No se te enseña ni te cobra nada

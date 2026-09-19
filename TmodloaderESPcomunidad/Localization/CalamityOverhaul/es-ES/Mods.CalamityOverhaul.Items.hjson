@@ -52,36 +52,6 @@ BloodAltar: {
 		'''
 }
 
-StarMyriadChanges: {
-	DisplayName: Estrella de los cambios sin fin
-	Tooltip: ¡Alabado sea el Dios del cambio!
-}
-
-TerminusOver: {
-	DisplayName: El toque final
-	Tooltip: La batalla final aguarda, pero hay un precio que pagar.
-}
-
-PestilenceIngot: {
-	DisplayName: Lingote de pestilencia
-	Tooltip: Huele a caramelo ácido de manzana
-}
-
-ReminiscenceBreastplate: {
-	DisplayName: Coraza de la reminiscencia
-	Tooltip: Te recuerda el viaje que has realizado y lo lejos que has llegado.
-}
-
-MurasamaMould: {
-	DisplayName: Molde dorado sanguíneo
-	Tooltip: Un material que parece provenir de otro plano de la existencia. Es cálido y electrizante al tacto, y parece buscar un derramamiento de sangre.
-}
-
-OverhaulTheBibleBook: {
-	DisplayName: La biblia de Overhaul
-	Tooltip: Úsalo para ver tutoriales relacionados con Calamity Overhaul... Es posible que más adelante se añadan más
-}
-
 HalibutItem: {
 	DisplayName: Halibut
 	Tooltip: ""
@@ -150,11 +120,6 @@ KikasaItem: {
 
 SHPCItem: {
 	DisplayName: SHPC
-	Tooltip: ""
-}
-
-Flawless: {
-	DisplayName: Impecable
 	Tooltip: ""
 }
 
@@ -389,6 +354,18 @@ TestItem: {
 	Tooltip: ""
 }
 
+OniKeikoRune: {
+	DisplayName: Runa de Keiko
+	Tooltip:
+		'''
+		Úsala para abrir la lección de Onikiri desde el comienzo, o vuelve a usarla a mitad de la lección para cerrarla
+		Se te queda cuando rechazas la lección inicial; la runa no se consume y se puede volver a usar.
+		'''
+	NeedBlade: Onikiri no está en tu inventario, por lo que la runa no tiene ninguna lección que impartir.
+	Closed: La lección está guardada; vuelve a usar la runa para volver a abrirla
+	NotNow: En este momento hay otra cosa ocupando el escenario
+}
+
 ScrapBeacon: {
 	DisplayName: Baliza de chatarra
 	Tooltip:
@@ -539,6 +516,11 @@ BssBloomBud: {
 		Al usarla en la superficie del desierto, invoca a la Serpiente de arena floreciente
 		"La raíz de las dunas se vuelve voraz cuando florece"
 		'''
+}
+
+BssTreasureBag: {
+	DisplayName: Bolsa del tesoro (Serpiente de arena floreciente)
+	Tooltip: "{$CommonItemTooltip.RightClickToOpen}"
 }
 
 FssFesterBud: {
