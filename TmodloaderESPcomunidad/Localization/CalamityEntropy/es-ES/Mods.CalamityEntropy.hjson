@@ -23,7 +23,7 @@ Items: {
 
 			Silence: {
 				DisplayName: Silencio
-				Tooltip: 
+				Tooltip:
 					'''
 					Lanza un [ceeffect/cruiser:Frisbee con cadena vacías] que, tras un breve tiempo se acerca de nuevo a los enemigos al impactar y explota al chocar con ellos
 					Los ataques sigilosos hacen que el frisbee se adhiera al enemigo alcanzado una vez encadenado, creando un [ceeffect/cruiser:Vórtice de vacío] que inflige daño rápidamente en una amplia zona
@@ -46,7 +46,7 @@ Items: {
 					'''
 					Lanza una jabalina que genera balas de agua al impactar
 					Los ataques sigilosos son penetrantes, lanzan cristales autoguiados mientras vuelan y generan más balas de agua autoguiadas al impactar
-					'''	
+					'''
 			}
 
 			SpearOfRadiance: {
@@ -137,7 +137,7 @@ Items: {
 
 			LunarPlank: {
 				DisplayName: Principio lunar
-				Tooltip: 
+				Tooltip:
 					'''
 					Lanza un tablón lunar para golpear a los enemigos
 					Los golpes sigilosos provocarán un pulso de energía y liberan estrellas autoguiadas al impactar
@@ -246,7 +246,7 @@ Items: {
 				Tooltip:
 					'''
 					Lanza una hoja serrada que, al impactar o tras un tiempo, se detiene en el aire y lanza un par de misiles autoguiados antes de empezar a girar
-					La hoja  serrada inflige daño en un área amplia mientras gira y regresa tras un tiempo
+					La hoja serrada inflige daño en un área amplia mientras gira y regresa tras un tiempo
 					Los ataques sigilosos salen disparados más rápido y generan un giro más amplio que dura más tiempo, lanzando un enjambre de 8 misiles
 					Los ataques sigilosos, al regresar, también dispararán la hoja giratoria contra el enemigo más cercano
 					Los ataques infligen [cebuff:CalamityEntropy/MechanicalTrauma] al impactar
@@ -406,7 +406,11 @@ Items: {
 
 	VoidBottle: {
 		DisplayName: Ampolla del vacío
-		Tooltip: Invoca al Cruiser
+		Tooltip:
+			'''
+			Invoca al Cruiser
+			No es un objeto consumible
+			'''
 	}
 
 	VoidMonument: {
@@ -545,7 +549,7 @@ Items: {
 		Tooltip:
 			'''
 			Invoca a un par de gemelos que orbitan a tu alrededor y clonan tus proyectiles
-			Los proyectiles duplicados infligen el 10 % del daño del arma original
+			Los proyectiles duplicados infligen el 100% del daño del arma original
 			Cada par de gemelos ocupa 4 espacios de súbditos
 			'''
 	}
@@ -660,7 +664,7 @@ Items: {
 		Tooltip:
 			'''
 			+10 de sigilo máximo
-			"El engaño se encuentra en los lugares más recónditos y oscuros"  
+			"El engaño se encuentra en los lugares más recónditos y oscuros"
 			'''
 	}
 
@@ -669,7 +673,7 @@ Items: {
 		Tooltip:
 			'''
 			+20% de velocidad de movimiento 
-			"La epifanía regresa, rápida como el viento"  
+			"La epifanía regresa, rápida como el viento"
 			'''
 	}
 
@@ -678,7 +682,7 @@ Items: {
 		Tooltip:
 			'''
 			+10% de velocidad de ataque general
-			"La adrenalina abandona lo carnal con la misma rapidez que las sombras"  
+			"La adrenalina abandona lo carnal con la misma rapidez que las sombras"
 			'''
 	}
 
@@ -687,7 +691,7 @@ Items: {
 		Tooltip:
 			'''
 			-5% de daño recibido
-			"El acero templado con tal voluntad sostendrá las montañas"  
+			"El acero templado con tal voluntad sostendrá las montañas"
 			'''
 	}
 
@@ -705,7 +709,7 @@ Items: {
 		Tooltip:
 			'''
 			+5% de probabilidad de crítico
-			"Basta con un destello de inspiración para asestar un golpe mortal"  
+			"Basta con un destello de inspiración para asestar un golpe mortal"
 			'''
 	}
 
@@ -1009,7 +1013,7 @@ Items: {
 		Tooltip:
 			'''
 			Recibes un 25% extra de maná
-            Cada punto de maná obtenido aumenta el daño mágico en un 0,15%
+			Cada punto de maná obtenido aumenta el daño mágico en un 0,15%
 			'''
 	}
 
@@ -1139,7 +1143,7 @@ Items: {
 			Transforma el daño recibido en Erosión astral, que inflige ese daño de forma gradual
 			Tus ataques transfieren Erosión astral al objetivo, lo que le permite infligir daño adicional
 			Tu regeneración de vida se reduce a la mitad
-			- Modo muerte -
+			- Muerte -
 			'''
 	}
 
@@ -1269,7 +1273,6 @@ Items: {
 			'''
 		HoldShiftForDetails:
 			'''
-			Reúne las cartas perdidas de la Baraja contaminada
 			Requiere de los siguientes materiales:
 			[i:CalamityEntropy/Perplexed][c/FF6347: Perplejidad]
 			Hallado en una monstruosidad mecánica que aparece en parejas...
@@ -1610,9 +1613,8 @@ Items: {
 		Tooltip:
 			'''
 			Los golpes del enemigo tienen una probabilidad de lanzar un rayo penetrante que inflige el 10% del daño del ataque original
-			- Muerte -
+			Right Click to kill all friendly enemies summoned
 			'''
-		CWRGanged: Sinergia con Calamity Overhaul: Invoca el alma perdurable del Tejedor de Tormentas para que luche a tu lado
 	}
 
 	HeartOfStorm: {
@@ -1620,7 +1622,7 @@ Items: {
 		Tooltip:
 			'''
 			Ataca al enemigo y desata una cadena de rayos que inflige un 10% de daño.
-			- Modo Muerte -
+			- Muerte -
 			'''
 		CWRGanged: Efecto sinérgico con Calamity Overhaul: Invoca el alma persistente del Tejedor de tormentas para que luche junto a ti
 	}
@@ -1638,7 +1640,7 @@ Items: {
 		DisplayName: Coraza de marivinium
 		Tooltip:
 			'''
-			Aumenta un 15%  el daño y la probabilidad de golpe crítico
+			Aumenta un 15% el daño y la probabilidad de golpe crítico
 			Otorga la capacidad de respirar en el abismo
 			'''
 	}
@@ -1684,7 +1686,7 @@ Items: {
 
 	BookMarkAerialite: {
 		DisplayName: Macapágina - Aerialita
-		Tooltip:  Llueven plumas del cielo al golpear
+		Tooltip: Llueven plumas del cielo al golpear
 	}
 
 	BookMarkFlesh: {
@@ -2135,12 +2137,12 @@ Items: {
 	}
 
 	VetrasylsEye: {
-		DisplayName: Ojo de Vetrasyls
 		Tooltip:
 			'''
 			Pulsa [KEY] para bloquear con un escudo de energía
 			Tiene un tiempo de efriamiento de 3 segundos; los bloqueos exitosos reducen a la mitad el tiempo de recarga y proporcionan invencibilidad temporal
 			'''
+		DisplayName: Ojo de Vetrasyls
 	}
 
 	SpiritBanner: {
@@ -2342,13 +2344,13 @@ Items: {
 		Tooltip: ""
 	}
 
-	ApsychosMusicBox: {
-		DisplayName: Caja de música de Apsychos
+	NihilityTwinsMusicBox: {
+		DisplayName: Caja de música de los Gemelos de la Nihilidad 
 		Tooltip: ""
 	}
 
-	NihilityTwinsMusicBox: {
-		DisplayName: Caja de música de los Gemelos de la Nihilidad 
+	ApsychosMusicBox: {
+		DisplayName: Caja de música de Apsychos
 		Tooltip: ""
 	}
 
@@ -2455,9 +2457,9 @@ Items: {
 		DisplayName: Látigo del futuro
 		Tooltip:
 			'''
-			{$CommonItemTooltip.Whips}
-			10% de probabilidad de golpe crítico de la etiqueta de invocación
 			{$CommonItemTooltip.SummonTagDamage}
+			10% de probabilidad de golpe crítico de la etiqueta de invocación
+			{$CommonItemTooltip.Whips}
 			Los enemigos marcados reciben un 5% más de daño de todas las fuentes
 			Los golpes críticos de los súbditos provocarán daño en cadena a un máximo de 5 enemigos cercanos
 			'''
@@ -2478,9 +2480,9 @@ Items: {
 		DisplayName: Azote de zarzas
 		Tooltip:
 			'''
-			{$CommonItemTooltip.Whips}
-			[1]% de probabilidad de golpe crítico de la etiqueta de invocación
 			{$CommonItemTooltip.SummonTagDamage}
+			[1]% de probabilidad de golpe crítico de la etiqueta de invocación
+			{$CommonItemTooltip.Whips}
 			Los golpes críticos de los súbditos hacen que broten espinas a tu alrededor, lo que te otorga una reducción de daño única del [2]%
 			Si ya hay espinas, florecerá una flor; cada flor proporciona una reducción de daño adicional del [3]% y [4] PV/s de regeneración de vida por segundo
 			Pueden florecer hasta [5] flores a la vez
@@ -2924,8 +2926,8 @@ Items: {
 	}
 
 	MysteriousBook: {
-		Tooltip: ""
 		DisplayName: Libro misterioso
+		Tooltip: ""
 	}
 
 	HellIndustrialComponents: {
@@ -3022,16 +3024,16 @@ Items: {
 		Tooltip:
 			'''
 			Cada 5 golpes, la espada lanza un tajo especialmente potente
-            Haz clic derecho para
-            El poder de esta espada aumenta a medida que avanzas en Terrarua
-            Nivel actual: [LV] / 15
-            Cuando su poder sea suficiente, podrás usar las siguientes habilidades:
+			Haz clic derecho para
+			El poder de esta espada aumenta a medida que avanzas en Terrarua
+			Nivel actual: [LV] / 15
+			Cuando su poder sea suficiente, podrás usar las siguientes habilidades:
 			@[C1][U1]
-            #[C2][U2]
-            $[C3][U3]
-            %[C4][U4]
+			#[C2][U2]
+			$[C3][U3]
+			%[C4][U4]
 
-            "Bendecida por la diosa primigenia de la vida, su don está ahora a tu disposición..."
+			"Bendecida por la diosa primigenia de la vida, su don está ahora a tu disposición..."
 			'''
 	}
 
@@ -3059,7 +3061,7 @@ Items: {
 			El 25% restante se recupera a lo largo de 5 segundos
 			Si recibes un daño que supere los 80 puntos de vida durante este periodo, la restauración se interrumpe, lo que prolonga los fotogramas de invencibilidad y acelera brevemente la regeneración de vida
 			'''
-		Level3: Tras consumir maná equivalente al 50% de tu maná máximo, obtienes una acumulación de manía de maná, que aumenta el maná potenciado en un 4 % (se acumula hasta 5 veces)
+		Level3: Tras consumir maná equivalente al 50% de tu maná máximo, obtienes una acumulación de manía de maná, que aumenta el maná potenciado en un 40% (se acumula hasta 5 veces)
 		Level4:
 			'''
 			Los efectos de [cbuff:ManaSickness] y [cbuff:CalamityMod/ManaBurn] se reducen a la mitad
@@ -3420,7 +3422,6 @@ Items: {
 		Tooltip: ""
 	}
 
-
 	BookmarkHammer: {
 		DisplayName: Marcapáginas - Martillo Ánima
 		Tooltip: Invoca el martillo ánima para que luche por ti mientras sostienes un libro
@@ -3454,6 +3455,7 @@ Items: {
 		DisplayName: Mosca mecánica de Azafure
 		Tooltip: Invoca a una mosca mecánica que embiste a los enemigos, infligiendo [cebuff:CalamityEntropy/MechanicalTrauma]
 	}
+
 	StarBreaker: {
 		DisplayName: Quebrantaestrellas
 		Tooltip:
@@ -3536,6 +3538,7 @@ Items: {
 			"
 			'''
 	}
+
 	AzafureTacticalRadio: {
 		DisplayName: Radio táctica
 		Tooltip:
@@ -3563,7 +3566,8 @@ Items: {
 			"Almacenar melodías con magia"
 			'''
 	}
-		BookmarkStinger: {
+
+	BookmarkStinger: {
 		DisplayName: Marcapáginas - Aguijón
 		Tooltip:Al atacar, lanza periódicamente una ráfaga de tres aguijones que infligen [cebuff:CalamityEntropy/BonePiercingToxin] al enemigo más cercano
 	}
@@ -3630,7 +3634,7 @@ Items: {
 	}
 
 	BookmarkLacewings: {
-		DisplayName: Marcapáginas -  Crisopas
+		DisplayName: Marcapáginas - Crisopas
 		Tooltip: Convoca a tres crisopas prismáticas para que concentren la luz sobre los enemigos mientras se sostiene un libro
 	}
 
@@ -3775,7 +3779,6 @@ Items: {
 			Los misiles lanzados infligen [cbuff:CalamityMod/BrimstoneFlames] al impactar
 			{$MissileLauncherDescTooltip}
 			{$MissileLauncherMaxStickTooltip}
-			Provoca un incendio de azufre para reducir los buffos
 			'''
 	}
 
@@ -3818,7 +3821,7 @@ Items: {
 	}
 
 	AzafureSteamKnightLeggings: {
-		DisplayName:  Grebas del caballero del vapor
+		DisplayName: Grebas del caballero del vapor
 		Tooltip: ""
 	}
 
@@ -4070,7 +4073,7 @@ Items: {
 		Tooltip:
 			'''
 			Puedes respirar en el abismo y eres inmune a [cbuff:CalamityMod/HadopelagicPressure] y [cbuff:CalamityMod/CrushDepth]
-			Aumenta un 15%  el daño y la velocidad de movimiento
+			Aumenta un 15% el daño y la velocidad de movimiento
 			Otorga +2,5 HP/s de regeneración de vida
 			Aumenta la visibilidad, la velocidad y el tiempo de vuelo mientras te encuentras en el abismo
 			Al recibir un daño superior al 35% de la salud máxima, aparece a tu alrededor un Escudo Azul que reduce un 25% del daño que recibes
@@ -4190,7 +4193,7 @@ Neltharion: {
 		Tooltip:
 			'''
 			Se hace más fuerte a tu lado...
-			[1] de  defensa
+			[1] de defensa
 			Otorga +[2] PV/s de regeneración de vida
 			Reduce el daño recibido en un [3]%
 			+[5] de salud máxima
@@ -4349,7 +4352,7 @@ Neltharion: {
 	}
 
 	HallowedMissile: {
-		DisplayName:  Carga sagrada
+		DisplayName: Carga sagrada
 		Tooltip:
 			'''
 			Tiene un radio de explosión mucho mayor
@@ -4619,7 +4622,7 @@ Neltharion: {
 		Tooltip:
 			'''
 			"Si el hecho de haber sido elegidos es una mentira absoluta, destinada únicamente a encasillarnos y convertirnos en meros elementos de la evolución...
-            Aferrándonos la divinidad con su puerta trasera, en esta trampa que es como un Myanmar digital, ¿adónde podemos ir?"
+			Aferrándonos la divinidad con su puerta trasera, en esta trampa que es como un Myanmar digital, ¿adónde podemos ir?"
 			'''
 	}
 
@@ -4695,6 +4698,12 @@ Neltharion: {
 	}
 }
 
+BaitCommonTooltip1: Charge when held. Usable when fully charged
+BaitCommonTooltip2:
+	'''
+	Throw a bait that will stick to the enemy after hitting it,
+	and cause minion deal {0} more damage to it
+	'''
 SmolderingSetBonus:
 	'''
 	Consigues una cola demoníaca que ataca a los enemigos cercanos y les inflige [cbuff:OnFire3]
@@ -4704,7 +4713,7 @@ SmolderingSetBonus:
 ChaoticSetBonus:
 	'''
 	Aumenta un 12% la reducción de daño
-	Aumenta un 12%  el daño
+	Aumenta un 12% el daño
 	+40 de vida máxima
 	Aumenta en 3 tu número máximo de súbditos
 	Libera tres células del caos al recibir daño
@@ -4740,7 +4749,7 @@ BCU1: Requiere haber derrotado al Rey Slime
 BCU2: Requiere haber derrotado a Los Perforadores o la Mente Colmena
 BCU3: Requiere haber derrotado al Muro carnoso
 BCU4: Requiere haber derrotado a Plantera
-BCC1: Haz clic  derecho para extender las enredaderas espinosas tras una breve carga
+BCC1: Haz clic derecho para extender las enredaderas espinosas tras una breve carga
 BCC2:
 	'''
 	* Si mantienes pulsado el clic derecho sobre un objetivo, te acercarás a él e infligirás daño por impacto
@@ -4759,7 +4768,7 @@ BCC4:
 	Mientras mantienes pulsado el clic derecho, el arma atraviesa rápidamente a los enemigos cercanos al cursor, consumiendo continuamente la carga de la Barra de zarzas
 	Si mantienes pulsado clic izquierdo mientras lanzas el arma, la hoja gira y lanza hojas autoguiadas.
 	'''
-PrefixitemDesc: Haz clic  derecho sobre una pieza de armadura con esta opción para asignarle una reforja
+PrefixitemDesc: Haz clic derecho sobre una pieza de armadura con esta opción para asignarle una reforja
 MariviniumSet:
 	'''
 	Aumenta tu número máximo de súbditos en 10
@@ -4781,7 +4790,7 @@ Projectiles: {
 	VoidBladeProj.DisplayName: Void Blade
 	VoidBladeHit.DisplayName: Void Blade Hit
 	Rvshoot.DisplayName: Rvshoot
-	PrisonOfPermafrostCircle.DisplayName: Prison Of Permafrost
+	PrisonOfPermafrostCircle.DisplayName: Prison of Permafrost
 	IceSpike.DisplayName: Ice Spike
 	IceSpikeSmall.DisplayName: Ice Spike Small
 	Icicle.DisplayName: Icicle
@@ -4859,8 +4868,8 @@ Projectiles: {
 	VoidMonsterShoot.DisplayName: Void Symbiont Shoot
 	RustyGrenadeProjectile.DisplayName: Rusty Grenade Projectile
 	GodSlayerRocket.DisplayName: God Slayer Rocket
-	GodSlayer.DisplayName: God Slayer
 	GodSlayerRocketProjectile.DisplayName: God Slayer Rocket Projectile
+	GodSlayer.DisplayName: God Slayer
 	RailPulseBowProjectile.DisplayName: Rail Pulse Bow Projectile
 	JailerWhipProjectile.DisplayName: Jailer Whip Projectile
 	VoidLightBall.DisplayName: Void Light Ball
@@ -4921,7 +4930,7 @@ Projectiles: {
 	AbyssalPiercerThrow.DisplayName: Abyssal Piercer Throw
 	AbyssalVortex.DisplayName: Abyssal Vortex
 	AbyssTentacle.DisplayName: Abyss Tentacle
-	AzureOfFirmamentThrow.DisplayName: Azure Of Firmament Throw
+	AzureOfFirmamentThrow.DisplayName: Azure of Firmament Throw
 	WelkinFeather.DisplayName: Welkin Feather
 	ArbitratorIIThrow.DisplayName: Arbitrator I I Throw
 	PoopNormalProjectile.DisplayName: Poop Normal Projectile
@@ -4951,7 +4960,7 @@ Projectiles: {
 	LightWisperFlame.DisplayName: Light Wisper Flame
 	OblivionArrow.DisplayName: Oblivion Arrow
 	OblivionHoldout.DisplayName: Oblivion
-	EyeOfIlmerisHoldout.DisplayName: Eye Of Ilmeris
+	EyeOfIlmerisHoldout.DisplayName: Eye of Ilmeris
 	IlmerisWaterBullet.DisplayName: Ilmeris Water
 	GravityGazeBullet.DisplayName: Gravity Gaze
 	GravityGazeHoldout.DisplayName: Gravity Gaze
@@ -4963,7 +4972,7 @@ Projectiles: {
 	ProjectionStarSplitAlt.DisplayName: Projection Star Split
 	LunarLightball.DisplayName: Lunar Lightball
 	OverloadLunarHoldout.DisplayName: Overload Lunar
-	EyeOfOthersideHoldout.DisplayName: Eye Of Otherside
+	EyeOfOthersideHoldout.DisplayName: Eye of Otherside
 	EndlessAbyssHoldout.DisplayName: Endless Abyss
 	EndlessAbyssLaser.DisplayName: Endless Abyss Laser
 	Tail.DisplayName: Tail
@@ -4976,20 +4985,20 @@ Projectiles: {
 	WispLanternProj.DisplayName: Wisp Lantern
 	VitalfeatherProjectile.DisplayName: Vitalfeather Projectile
 	DragonGoldenFire.DisplayName: Dragon Golden Fire
-	WindOfUndertakerProjectile.DisplayName: Wind Of Undertaker Projectile
+	WindOfUndertakerProjectile.DisplayName: Wind of Undertaker Projectile
 	HadopelagicEchoIIProj.DisplayName: Hadopelagic Echo II
 	HadopelagicLaser.DisplayName: Hadopelagic Laser
 	HadopelagicWail.DisplayName: Hadopelagic Wail
 	StarlessNightProj.DisplayName: Starless Night
-	WhipOfServiceProjectile.DisplayName: Whip Of Service Projectile
+	WhipOfServiceProjectile.DisplayName: Whip of Service Projectile
 	XytheronProj.DisplayName: Xytheron
 	WyrmDash.DisplayName: Wyrm Dash
 	AbyssalCrack.DisplayName: Abyssal Crack
 	TheEnd.DisplayName: The End
 	TheBeginning.DisplayName: The Beginning
-	SoulOfEcho.DisplayName: Soul Of Echo
+	SoulOfEcho.DisplayName: Soul of Echo
 	Echo.DisplayName: Echo
-	SoulOfEclipse.DisplayName: Soul Of Eclipse
+	SoulOfEclipse.DisplayName: Soul of Eclipse
 	YstralynProj.DisplayName: Ystralyn Proj
 	PhantomWyrm.DisplayName: Phantom Wyrm
 	NihilityVirus.DisplayName: Nihility Virus
@@ -5072,7 +5081,7 @@ Projectiles: {
 	FableEye.DisplayName: Foresee Eye
 	RuneSword.DisplayName: Rune Sword
 	ProphetVoidSpike.DisplayName: Prophet Void Spike
-	UrnOfSoulsHoldout.DisplayName: Urn Of Souls Holdout
+	UrnOfSoulsHoldout.DisplayName: Urn of Souls Holdout
 	UrnSoulFire.DisplayName: Urn Soul Fire
 	WelkingShield.DisplayName: Welking Shield
 	SpiritBannerMinion.DisplayName: Spirit Banner
@@ -5189,7 +5198,7 @@ Projectiles: {
 	OblivionThresherShoot.DisplayName: Oblivion Thresher Shoot
 	OblivionCruiserDash.DisplayName: Oblivion Cruiser Dash
 	OblivionThresherShootAlt.DisplayName: Oblivion Thresher Shoot Alt
-	TerrorOfAbyssHeld.DisplayName: Terror Of Abyss Held
+	TerrorOfAbyssHeld.DisplayName: Terror of Abyss Held
 	ScorchingShell.DisplayName: Scorching Shell
 	PFKnifeHeld.DisplayName: Propechey Knife Held
 	FilthyCircle.DisplayName: Filthy Circle
@@ -5280,6 +5289,7 @@ Projectiles: {
 	SporeGas.DisplayName: Spore Gas
 	AzureRapierHeld.DisplayName: Azure Rapier Held
 	AzureRapierBlockSlash.DisplayName: Azure Rapier Block Slash
+	AzureRapierBlock.DisplayName: Azure Rapier Block
 	DarkScriptureHeld.DisplayName: Dark Scripture Held
 	DarkBullet.DisplayName: Dark Bullet
 	SelenbiteStar.DisplayName: Selenbite Star
@@ -5295,9 +5305,9 @@ Projectiles: {
 	ChaoticCellMinion.DisplayName: Chaotic Cell Minion
 	CosmicBlessingHeld.DisplayName: Cosmic Blessing Held
 	CosmicDeathRay.DisplayName: Cosmic Death Ray
-	CharredMissleProj.DisplayName: Charred Missle Proj
+	CharredMissileProj.DisplayName: Charred Missile Proj
 	BrimHomingBullet.DisplayName: Brim Homing Bullet
-	PlagueMissle.DisplayName: Plague Missle
+	PlagueMissile.DisplayName: Plague Missile
 	RedemptionShootAlt.DisplayName: Redemption Shoot Alt
 	BMDirtProj.DisplayName: Tile
 	TrainingSwordProj.DisplayName: Training Sword Proj
@@ -5348,8 +5358,6 @@ Projectiles: {
 	MiracleVortex.DisplayName: Miracle Vortex
 	AzureShield.DisplayName: Azure Shield
 	AzureVortex.DisplayName: Azure Vortex
-	AzureShield.DisplayName: Azure Shield
-	AzureVortex.DisplayName: Azure Vortex
 	FilthlessMissile.DisplayName: Filthless Missile
 	FilthlessShootAlt.DisplayName: Filthless Shoot Alt
 	AzafureMissileProj.DisplayName: Azafure Missile Proj
@@ -5372,7 +5380,6 @@ Projectiles: {
 	EmberSwordHoldout.DisplayName: Ember Sword Holdout
 	AshesSpirit.DisplayName: Ashes Spirit
 	AshesSpiritFireball.DisplayName: Ashes Spirit Fireball
-	TectonicShardAshesCore.DisplayName: Tectinic Shard Ashes Core
 	ScorchingChakramThrown.DisplayName: Scorching Chakram Thrown
 	ScorchingFireball.DisplayName: Scorching Fireball
 	HellstoneMissileProj.DisplayName: Hellstone Missile Proj
@@ -5408,12 +5415,11 @@ Projectiles: {
 	GiantBoulderProj.DisplayName: Giant Boulder Proj
 	HallowedMissileProj.DisplayName: Hallowed Missile Proj
 	StarBreakerHeld.DisplayName: Star Breaker Held
-	BuriedSunHoldout.DisplayName: Buried Sun Holdout
-	BuriedShoot.DisplayName: Buried Shoot
 	BuriedDot.DisplayName: Buried Dot
+	BuriedShoot.DisplayName: Buried Shoot
 	BuriedShoot2.DisplayName: Buried Shoot2
-	TectinicShardAshesCore.DisplayName: Tectinic Shard Ashes Core
-	TectinicShardHoming.DisplayName: Tectinic Shard Homing
+	TectonicShardAshesCore.DisplayName: Tectonic Shard Ashes Core
+	TectonicShardHoming.DisplayName: Tectonic Shard Homing
 	AcropolisTeslaBallWarn.DisplayName: Acropolis Tesla Ball Warn
 	VoidAnnihilateSpawner.DisplayName: Void Annihilate Spawner
 	VoidAnnihilateCharge.DisplayName: Void Annihilate Charge
@@ -5560,14 +5566,10 @@ Buffs: {
 		Description: ""
 	}
 
-	DivingShieldCooldown: {
-		DisplayName: Enfriamiento del Escudo divino
-		Description: ""
-	}
-
 	TwistedTwinBuff: {
 		DisplayName: Gemelo retorcido
 		Description: ""
+		ItemTooltip: 20% increased damage
 	}
 
 	Rainstorm: {
@@ -5657,13 +5659,13 @@ Buffs: {
 	}
 
 	DustyWhistleBuff: {
-		Description: ""
 		DisplayName: Silvato polvoriento
+		Description: ""
 	}
 
 	AquaticAmuletBuff: {
-		Description: ""
 		DisplayName: Amuleto acuático
+		Description: ""
 	}
 
 	NihilityBacteriophageBuff: {
@@ -5684,6 +5686,11 @@ Buffs: {
 	ServiceBuff: {
 		DisplayName: Servicio
 		Description: Incrementa el daño, la velocidad de ataque y la probabilidad de crítico
+		ItemTooltip:
+			'''
+			Increases damage, attack speed and crit chance
+			The amount increased scales with the buffs remaining time
+			'''
 	}
 
 	EclipsedImprint: {
@@ -5862,16 +5869,16 @@ Buffs: {
 	ChaosTyrant: {
 		DisplayName: Tirano del caos
 		Description: ""
-		ItemTooltip:
-			'''
-			Aumenta el daño de los jugadores en un 5%
-			Ralentiza a los enemigos
-			'''
 	}
 
 	Koishi: {
 		DisplayName: Koishi
 		Description: ""
+		ItemTooltip:
+			'''
+			Aumenta el daño de los jugadores en un 5%
+			Ralentiza a los enemigos
+			'''
 	}
 
 	LifeOppress: {
@@ -5885,6 +5892,7 @@ Buffs: {
 		Description: Un dolor punzante te invade
 		ItemTooltip: Sin tipo - 20 DPS
 	}
+
 	IllusoryBlade: {
 		DisplayName: Hoja ilusoria
 		Description: La hoja ilusoria luchará por ti
@@ -6137,8 +6145,8 @@ loreNihTwin: Imagina un mundo en el que el fundamento del orden no resida en res
 NihTwinLoreEffect:
 	'''
 	Aumenta la resistencia a [cebuff:CalamityEntropy/VoidTouch] en un {1}%
-    Otorga {2} PV/s de regeneración de vida
-    Aumenta el tiempo máximo de vuelo en un {3}%
+	Otorga {2} PV/s de regeneración de vida
+	Aumenta el tiempo máximo de vuelo en un {3}%
 	'''
 loreProphet: Ningún ejército, reino o soberano puede perdurar mucho tiempo sin quienes practican las magias temporales: aquellos que arrancan las plumas del mañana de la gallina de los huevos de oro de la predicción, tejiendo el futuro a través del cálculo del presente. Estos poderes pueden ejercerse con cautela y resultar inestimables… o llevarse más allá de los límites establecidos por quienes nos precedieron. Aquellos que se adentran en reinos que nunca estuvimos destinados a comprender, mirando no solo a través del tiempo, sino también a través del espacio. Encontramos a uno dispuesto a ello encerrado en la Mazmorra. Nos costó convencerlo, pero al final Draedon y yo le dimos el empujón definitivo para que viera más allá de nuestra pequeña tierra. Lo que se puede describir entonces fue algo capaz de repeler incluso mi curiosidad. El hombre se deformó, cambió, absorbió la energía espiritual que lo rodeaba, las runas de todos los libros prohibidos de la Mazmorra. Sangró de todos modos, y su espíritu se selló a sí mismo en un tomo, casi consciente de en qué se había convertido. Me sorprende ver que has decidido invocarlo de nuevo; sin embargo, creo que dejar el destino del vacío en tus manos fue la decisión correcta. Gracias por permitirle descansar por fin.
 
@@ -6185,7 +6193,7 @@ LuminarisBestiary: Las polillas infectadas por lo astral existen con el único p
 ApsychosBestiary:
 	'''
 	Una criatura que deambula por las profundidades de la lava. Tiene un caparazón formado por rocas de la corteza terrestre.
-    Puede que se haya considerado como otra forma de sellar las fuerzas primordiales, pero está claro que ha fracasado
+	Puede que se haya considerado como otra forma de sellar las fuerzas primordiales, pero está claro que ha fracasado
 	'''
 WorldGen.VoidOreSpawn: La energía del vacío que emana del cielo
 
@@ -6196,7 +6204,6 @@ Tiles: {
 	VoidOreTile.MapEntry: Mineral del vacío
 	VoidBarTile.MapEntry: Lingote del vacío
 	GiantBoulderTile.MapEntry: Roca gigantesca
-	
 }
 
 VoidChargeBar: Barra de carga del vacío
@@ -6246,7 +6253,6 @@ Configs: {
 			Tooltip: ""
 		}
 
-
 		ScreenWarpEffects: {
 			Label: Efectos de pantalla
 			Tooltip: Aplicar o no aplicar el efecto de distorsión y recorte de pantalla
@@ -6254,6 +6260,11 @@ Configs: {
 
 		EnablePixelEffect: {
 			Label: Habilitar efecto píxel
+			Tooltip: ""
+		}
+
+		EnableLoopingSound: {
+			Label: Enable Looping Sound
 			Tooltip: ""
 		}
 
@@ -6271,7 +6282,6 @@ Configs: {
 	ServerConfig: {
 		DisplayName: Configuración del mod
 		Headers.Misc: Misceláneo
-
 
 		LoreSpecialEffect: {
 			Label: Activar los efectos especiales de los ítems de lore
@@ -6322,13 +6332,13 @@ vfb:
 helmvfc:
 	'''
 	Coste de maná reducido en un 25%
-    Los impactos de los proyectiles mágicos reducen la duración de [cbuff:ManaSickness] en medio segundo
+	Los impactos de los proyectiles mágicos reducen la duración de [cbuff:ManaSickness] en medio segundo
 	'''
 helmvfd:
 	'''
-	Aumenta un 24%  la velocidad de ataque
-    Aumenta un 10% la reducción de daño
-    Genera una carga del vacío adicional al infligir daño a los objetivos
+	Aumenta un 24% la velocidad de ataque
+	Aumenta un 10% la reducción de daño
+	Genera una carga del vacío adicional al infligir daño a los objetivos
 	'''
 helmvfs: El daño causado por los proyectiles aumenta con el tiempo
 helmvfl:
@@ -6357,7 +6367,7 @@ ArmorPrefixBrokenDescription: Defensa reducida en un 20%
 ArmorPrefixGodForgedName: Forjado por los dioses
 ArmorPrefixGodForgedDescription:
 	'''
-	Aumenta un 8%  la defensa
+	Aumenta un 8% la defensa
 	Aumenta un 1% la reducción de daño
 	Aumenta un 3% el daño
 	'''
@@ -6380,7 +6390,7 @@ ArmorPrefixMiracleDescription:
 	'''
 	Aumenta un 5% la defensa
 	Hace que el jugador brille
-	Aumenta un 2 % el daño
+	Aumenta un 2% el daño
 	'''
 ArmorPrefixGreatName: Venerado
 ArmorPrefixGreatDescription:
@@ -6417,7 +6427,7 @@ ArmorPrefixVoidDescription:
 ArmorPrefixRecklessName: Imprudente
 ArmorPrefixRecklessDescription:
 	'''
-	Aumenta un 5% el daño  
+	Aumenta un 5% el daño
 	La defensa se reduce un 50%
 	'''
 ArmorPrefixSacrificalName: Sacrificial
@@ -6447,7 +6457,7 @@ ArmorPrefixEndDescription:
 	+12% de defensa
 	Aumenta un 5% el daño
 	Aumenta el retroceso un 20%
-	Aumenta un 4%  la probabilidad de golpe crítico
+	Aumenta un 4% la probabilidad de golpe crítico
 	Los atacantes reciben todo el daño por contacto, que se puede acumular varias veces
 	+0,1 a la tasa de aplicación de [cebuff:CalamityEntropy/VoidTouch]
 	'''
@@ -6461,7 +6471,7 @@ ArmorPrefixLastStandName: Determinado
 ArmorPrefixLastStandDescription:
 	'''
 	Aumento un15% la defensa
-    Aumenta un 2% en reducción de daño
+	Aumenta un 2% en reducción de daño
 	'''
 ArmorPrefixHeatDeathName: Sobrecalentado
 ArmorPrefixHeatDeathDescription:
@@ -6648,7 +6658,7 @@ BloodBoiling: Sangre hirviendo
 BloodBoilingDescr: El uso continuo de objetos aumenta la velocidad de ataque, pero te causará daño continuo a ti mismo
 PrefixHeavyDesc: +10% de aumento de la velocidad de caída
 DamageReduceCD: Tiempo de recarga de la reducción de daño
-DeltaruneCH5ShadowCrystal:  Consigue el cristal de las sombras en el capítulo 5 de Deltarune
+DeltaruneCH5ShadowCrystal: Consigue el cristal de las sombras en el capítulo 5 de Deltarune
 
 InfernumIntros: {
 	NihilityTwin:
@@ -6873,26 +6883,6 @@ LMDialog16: ¿No lo ves, [NAME]? ¡¿Qué haces aquí?!
 LMDialog17: No quiero tu basura.
 LMDialog18: ¿Qué es esto? ¡Necesitas una moneda!
 NowLV: Nivel
-
-Test: {
-	Proj: {
-		PurpleBeam.DisplayName: Purple Beam
-		FinalEchoProjSmall.DisplayName: Final Echo Proj Small
-		FinalEchoProjMini.DisplayName: Final Echo Proj Mini
-		FinalEchoProj.DisplayName: Final Echo Proj
-		PhantasmalHammer.DisplayName: Phantasmal Hammer
-		GrandEchoProjMini.DisplayName: Grand Echo Proj Mini
-	}
-
-	Projs: {
-		FinalProj.DisplayName: Final Proj
-		GodsProj.DisplayName: Gods Proj
-		HallowedProj.DisplayName: Hallowed Proj
-		LunarProj.DisplayName: Lunar Proj
-		PaladinProj.DisplayName: Paladin Proj
-	}
-}
-
 AnyOrichalcumBar: Cualquier lingote de mineral del modo difícil
 AnyEvilBar: Cualquier lingote maligno
 IronBar: Lingote de hierro
@@ -6955,7 +6945,7 @@ AzafureEnhance: Mejoras
 AzafureEnhances: {
 	AzafureChargeShield: Reduce el coste de energía
 	AzafureDetectionEquipment: Incrementa la velocidad de salto
-	AzafureTBMTerminal:  Incrementa la velocidad de movimiento al excavar
+	AzafureTBMTerminal: Incrementa la velocidad de movimiento al excavar
 	ReallocateIndicatorData: Incremento medio a todas las estadísticas
 	AzafureAntiaircraftGun: +30% de velocidad de ataque
 	AzafureBatteringRam: Tiempo de recarga reducido

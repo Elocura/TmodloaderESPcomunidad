@@ -24,8 +24,8 @@ RuneWing: {
 		'''
 		{$CommonItemTooltip.FlightAndSlowfall}
 		Pulsa [KEY] para avanzar en la dirección del cursorn; mientras tanto, se produce daño inmunológico.
-        El enfriamiento depende de la distancia recorrida, 
-        y si sueltas el botón antes de tiempo, puedes detener el sprint; la duración máxima del sprint es de [DT] segundos.
+		El enfriamiento depende de la distancia recorrida, 
+		y si sueltas el botón antes de tiempo, puedes detener el sprint; la duración máxima del sprint es de [DT] segundos.
 		'''
 }
 
@@ -45,6 +45,7 @@ BigShotsWing: {
 }
 
 IceShardWing: {
+	DisplayName: Ice Shard Wings
 	Tooltip:
 		'''
 		{$CommonItemTooltip.FlightAndSlowfall}
