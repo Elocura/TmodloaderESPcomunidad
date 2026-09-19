@@ -1,0 +1,91 @@
+ThermalBattery: {
+	DisplayName: Batería térmica
+	Tooltip: Almacena cierta cantidad de energía eléctrica
+}
+
+FluidPipeline: {
+	DisplayName: Tubería de fluidos
+	Tooltip:
+		'''
+		Transporta agua, lava, miel o fulgor
+		Cada tubería transporta solo un fluido a la vez; debe vaciarse por completo antes de cambiar a otra
+		Haz clic derecho para retirarla rápidamente
+		'''
+}
+
+FluidTank: {
+	DisplayName: Depósito de fluidos
+	Tooltip:
+		'''
+		Almacena hasta 32 bloques de líquido; la ventana muestra el nivel de llenado
+		Se conecta a bombas y máquinas a través de tuberías de fluidos
+		Si se rompe el depósito, se vacía su contenido
+		'''
+}
+
+LargeFluidTank: {
+	DisplayName: Depósito de fluidos de gran capacidad
+	Tooltip:
+		'''
+		Almacena hasta 128 bloques de líquido; la ventana muestra el nivel de llenado
+		Se conecta a bombas y máquinas a través de tuberías de líquido
+		Si se rompe el depósito, se vacía su contenido
+		'''
+}
+
+FluidText: {
+	WaterName: Agua
+	LavaName: Lava
+	HoneyName: Miel
+	ShimmerName: Fulgor
+	EmptyName: Vacío
+	BarFormat: "{0} {1}/{2}"
+}
+
+CapacitorMatrix: {
+	DisplayName: Matriz de condensadores
+	Tooltip:
+		'''
+		Un gran acumulador de energía con una capacidad de hasta 40.000 de potencia
+		Tiene un rendimiento de carga y descarga mucho mayor que el de la batería térmica, 
+		el volante de inercia de cualquier red eléctrica de gran tamaño.
+		'''
+}
+
+UEPipeline: {
+	DisplayName: Tubería de energía
+	Tooltip:
+		'''
+		Se utiliza para transmitir energía eléctrica
+		Clic derecho para desmontar rápidamente y recuperar la tubería en la posición del cursor
+		Se conecta a generadores y otras fuentes de energía para transferir energía a baterías o dispositivos eléctricos
+		'''
+}
+
+LaserEnergyTrans: {
+	DisplayName: Transporte de energía láser
+	Tooltip:
+		'''
+		Transmisión remota de energía.
+		Después de colocarlo, haz clic derecho para activar la navegación láser y, 
+		a continuación, haz clic derecho en otros dispositivos de energía para conectarlos.
+		Cuanto mayor sea la distancia de transmisión, mayor será la pérdida de energía. 
+		La pérdida máxima es del 100%
+		'''
+}
+
+CreativeUEPipeline: {
+	DisplayName: Tubería creativa de energía
+	Tooltip: ""
+}
+
+ItemPipeline: {
+	DisplayName: Canalizador de ítems
+	Tooltip:
+		'''
+		Se utiliza para transportar objetos
+		Haz clic derecho para desmontar rápidamente y recuperar la tubería objetivo (solo cuando se sostiene un canalizador)
+		Haz clic derecho en un extremo de una tubería para cambiar entre los modos Salida y Entrada (solo cuando NO se sostiene un canalizador)
+		Las tuberías en modo de Salida extraen ítems de los almacenamientos conectados y los transfieren a los almacenamientos conectados a las tuberías en modo de entrada
+		'''
+}
