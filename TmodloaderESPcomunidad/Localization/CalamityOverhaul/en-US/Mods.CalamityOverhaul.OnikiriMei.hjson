@@ -1,0 +1,606 @@
+OniMeiRubbingHigekiri: {
+	DisplayName: Higekiri
+	Tooltip: Blade deals massive scaling execute damage against low-health foes; direct kills refund stance; weapon damage reduced by 2%
+	Origin:
+		'''
+		Old executioners at the execution grounds passed down an ominous cleaver that never dulled, no matter how many were condemned.
+		Rumor says when the last executioner collapsed of sudden heart failure, the blade fell from the scaffold of its own accord.
+		Before the edge even grazed the criminal's neck, the long beard on his chin slid off together with his head, as if bitten clean through by an unseen horror.
+		The aging undertaker at the morgue remarked that this blade had learned to recognize the exact moment life slips away: once someone is on the verge of death, a single breath of its wind takes their head.
+		'''
+	Power:
+		'''
+		"Beard-Cutter": direct blade hits deal scaling damage against targets below 35% life, scaling higher as life depletes
+		Deals up to +60% damage to regular enemies, and up to +45% damage to bosses
+		If the strike slays the target directly, refunds 8 stance (at most once per action)
+		'''
+	Burden: Weapon base damage reduced by 2%
+}
+
+OniMeiRubbingOnikiri: {
+	DisplayName: Onikiri
+	Tooltip: The primordial name of Onikiri, preserving its original baseline properties without bonuses or penalties
+	Origin:
+		'''
+		An old case documented in the early archives of the Exorcist Society: an elite ghost-hunting squad was wiped out entirely while hunting a terrifying malevolent specter.
+		At the final moment, on the verge of death, the unit's young ghost-wielder forcibly drove the fiend into complete dormancy, congealing it into a pitch-black cursed blade.
+		The girl's breathing ceased there and then, but her lingering consciousness sank deep into the steel, locked in an endless slumber within the cold blade.
+		A paranormal weapon forged from the total dormancy of a malevolent specter, and the primordial form of Onikiri.
+		'''
+	Power: Preserves all baseline properties of Onikiri without additional bonuses or effects
+	Burden: None
+}
+
+OniMeiRubbingShishinoko: {
+	DisplayName: Shishi-no-ko
+	Tooltip: Completing the full five-beat combo adds two crossing blade waves on the finisher; combo attack interval extended by 2%
+	Origin:
+		'''
+		In the backroom of a decades-old pawnshop in the western quarter sits a heavy red sandalwood sword chest, sealed tight with vermilion talismans.
+		Whenever midnight thunderstorms roll in, bone-chilling roars shake the chest like a starving beast chewing on ribs, making every iron tool in the storeroom vibrate in sympathy.
+		They say this blade was quenched in the marrow of an ancient beast that devoured whole mountain hamlets, its ferocity never tamed.
+		Only by unleashing a fluid five-beat flurry without faltering will the fifth strike release that pent-up savagery, snapping forward with crossing howling waves like jaws snapping shut.
+		'''
+	Power:
+		'''
+		"Lion's Roar": completing the full five-beat basic combo without interruption by Kamui Flash Step or arts
+		The fifth beat releases two crossing slash waves, each dealing damage equal to 22% of weapon base damage
+		'''
+	Burden: Basic combo attack interval extended by 2%
+}
+
+OniMeiRubbingTomokiri: {
+	DisplayName: Tomokiri
+	Tooltip: Cancelling a combo with Flash Step leaves a delayed echo slash in place; damage taken +6% while held and stacks dash vigor cost; cleared by Zanshin strikes
+	Origin:
+		'''
+		Two sworn martial brothers carrying cursed blades once took shelter in an abandoned shrine during a deluge.
+		At midnight, as the campfire died, one of the blades tipped from the weapon rack without a hand touching it, cleaving its companion blade—and its sleeping master—two inches deep through the waist.
+		Drenched in the blood of its sworn fellow, this edge despises half-hearted strikes.
+		Whenever its wielder breaks off an attack to dash away, the interrupted slash lingers as a blood-red phantom, swinging through on its own; a single lapse of focus invites its wrath upon the master.
+		'''
+	Power:
+		'''
+		"Guilt Echo": using Kamui Flash Step to cancel the current combo leaves the interrupted swing behind as an echo
+		After a short delay it strikes in place, dealing damage equal to 35% of weapon base damage
+		'''
+	Burden:
+		'''
+		Damage taken while holding this blade increased by 6%
+		Each Guilt Echo stacks 1 layer of "Guilt" (up to 3), each layer making the next Kamui Flash Step cost 4 more vigor
+		Landing a follow-up Zanshin strike after a dash clears all Guilt
+		'''
+}
+
+OniMeiRubbingKazehi: {
+	DisplayName: Kaze-hi
+	Tooltip: Greatly reduces vigor cost of Kamui Flash Step and Sakura Flight; ink brand explosion damage reduced by 20%
+	Origin:
+		'''
+		An old shadow puppeteer troupe had a secret trick: carving a narrow wind-slotted groove along the bamboo control rod made the puppet float across the silk screen light as feather.
+		The smith hollowed out straight, slender channels along both sides of the blade's spine. As it cuts, the hiss of parting air arrives first, carrying the body forward as if borne by unseen spectral drafts.
+		Dashes and airborne cruising cost remarkably little breath, but with the blade lightened and thinned, the ink brands left in its wake lose some of their ground-shattering blast.
+		'''
+	Power: '''"Wind-Rider": Kamui Flash Step vigor cost reduced by 15%, Sakura Flight vigor drain rate reduced by 20%'''
+	Burden: Explosion damage of ink brands left by Kamui Flash Step reduced by 20%
+}
+
+OniMeiRubbingChihi: {
+	DisplayName: Chi-hi
+	Tooltip: Blade hits grant extra vigor; natural vigor recovery greatly slowed and recovery delay increased
+	Origin:
+		'''
+		Old mountain foragers on damp cliffs once discovered an ominous dark-red creeper that fed exclusively on carrion.
+		The deep, gaping trough along the blade's spine was carved to mimic that vine's marrow-sucking channels.
+		The moment steel bites into flesh, scalding blood surges through the groove into the wielder's grip, stoking their inner breath to a boiling fever.
+		Yet if the edge goes long without tasting fresh blood, the wielder's vitality stagnates like a dried-up well, struggling to draw a single breath.
+		'''
+	Power:
+		'''
+		"Bloodflow": the first hit of each basic combo beat restores 1 extra vigor
+		Zanshin strikes following a Kamui Flash Step restore 4 extra vigor on hit
+		'''
+	Burden: Natural vigor recovery speed reduced by 35%, skills consuming vigor require an additional 0.3s delay before natural recovery begins
+}
+
+OniMeiRubbingFudo: {
+	DisplayName: Fudo
+	Tooltip: Taking hits during uninterruptible art animations consumes stance to heavily reduce damage and knockback; stance gain reduced by 15%
+	Origin:
+		'''
+		Amid the ruined temple courtyard stood an iron-cast effigy of Fudo Myoo, glaring fiercely with sword in hand against a backdrop of towering flames.
+		When a landslide sent boulders crashing down the ridge, pulverizing the main hall into kindling, this iron Buddha alone stood intact among the shattered stones.
+		Inlaid upon the blade is that unyielding presence: even when trapped in the vulnerable commitments of an all-out strike, stance can be offered up to weather the tempest, rooted firm as a mountain crag.
+		'''
+	Power:
+		'''
+		"Immovable Guard": taking damage during the locked animations of Zanshin strike, Annihilating Flash, or Finale Slash
+		Consumes 20 stance to reduce damage taken to 65% and knockback to 25% (2.5-second cooldown)
+		'''
+	Burden: Standard stance gain speed reduced by 15%, cannot guard against dismemberment self-damage
+}
+
+OniMeiRubbingKurikara: {
+	DisplayName: Kurikara
+	Tooltip: Executions grant three stacks of dragonfire, combo finisher consumes dragonfire for a coiling slash; max vigor reduced by 10%
+	Origin:
+		'''
+		Excavated from the depths of an ancient crypt was a bronze blade core entwined by a gilded black dragon, its fangs gaping wide around the blade's tip; all who touched it were burned to ash by black fire.
+		An artisan bound that venomous dragon effigy into the steel through gold inlay.
+		Whenever an execution executes a formidable foe, the pungent death-stench on the edge awakens the slumbering beast, coiling into three devastating rings of flame at the combo's climax.
+		'''
+	Power:
+		'''
+		"Dragonfire Loop": successfully executing a foe grants 3 stacks of dragonfire lasting 10s
+		During this time, completing a full five-beat basic combo consumes 1 stack to unleash a forward coiling slash, dealing 50% of weapon base damage
+		'''
+	Burden: Max vigor reduced by 10%
+}
+
+OniMeiRubbingTessetsu: {
+	DisplayName: Tessetsu
+	Tooltip: The first hit of each combo beat deals +25% damage to mechanical and metal foes; regular weapon base damage reduced by 10%
+	Origin:
+		'''
+		An ancient, abandoned clockwork workshop once suffered an unsettling plague: gears, linkages, and steel frames began sprouting fleshy growths, snapping any sword that struck them.
+		An old blacksmith arrived carrying an unsharpened, brutish slab of raw pig iron; onlookers laughed at its blunt heft, but the smith swung with both arms.
+		With a thunderous crash, the pulsating automaton core was smashed into scrap iron. This blade is steeped in that violent, unyielding force: it shatters iron like rotting wood, though it bites sluggishly into living flesh.
+		'''
+	Power: '''"Iron-Cut": the first hit of each basic combo beat deals +25% damage to foes that spark upon taking damage, such as machines and metal entities'''
+	Burden: Weapon base damage reduced by 10%
+}
+
+OniMeiRubbingKyushu: {
+	DisplayName: Kyushu
+	Tooltip: Massive execute scaling damage strictly against head or standalone targets; regular weapon damage reduced by 3%, non-head segments immune
+	Origin:
+		'''
+		A battle-hardened veteran who had slain countless commanders was once urged by his counselors to rename his blade with every triumph to broadcast his renown.
+		The general scoffed, merely wrapping another strand of the fallen commander's hair around the scabbard, muttering: "A bloodthirsty blade cares only for the soft flesh of the neck; gilded titles are nothing but vanity."
+		Decades passed and the general became dust, but the hair-wrapped weapon still hungers only for the throat; when a skull's allotted span runs dry, it leaves no survivor.
+		'''
+	Power:
+		'''
+		"Headhunter": direct hits against an enemy's head or non-segmented standalone targets deal massive scaling damage if the target is below 35% life, scaling higher as life depletes
+		Deals up to +85% damage to regular enemies, and up to +60% damage to bosses
+		'''
+	Burden: Weapon base damage reduced by 3%, ineffective against torso, tail, and other non-head segments
+}
+
+OniMeiRubbingIkiai: {
+	DisplayName: Ikiai
+	Tooltip: Completing the full five-beat combo releases a piercing blade wave on the finisher; combo attack interval extended by 4%
+	Origin:
+		'''
+		Old storytellers recount a deadly duel of held breath: two swordsmen locked in a quiet room, sitting motionless for half an incense stick.
+		Only the oil lamp flickered in the dark; whoever drew breath first would immediately expose their footing and vitals.
+		As the fourth watch drum sounded, one man finally gasped for air—and in that exact exhale, the other drew his sword.
+		The icy intent nurtured in that stifled breath burst from the tip as an arcing wave of blade-qi, cleaving through the dark.
+		'''
+	Power: '''"Exhale": completing the full five-beat basic combo releases an arcing blade wave in the cursor's direction, dealing 55% of weapon base damage and piercing up to 3 enemies'''
+	Burden: Basic combo attack interval extended by 4%
+}
+
+OniMeiRubbingKyoko: {
+	DisplayName: Kyoko
+	Tooltip: Build momentum by staying away from foes to empower the next close-range strike, periodic passive pulses slow foes; rapid point-blank frenzy causes brief focus loss
+	Origin:
+		'''
+		In the wilderness lies an empty gorge where no shouting ever returns an echo; the silent abyss seems to swallow every cry whole.
+		A wandering blade-master meditated at the canyon floor, infusing that hollow silence into his scabbard.
+		The emptier the surrounding field, the heavier the unseen pressure gathering within the sheath, sending wild beasts fleeing; yet when dragged into frenzied point-blank brawls, that cold stillness quickly scatters.
+		'''
+	Power:
+		'''
+		"Hollow Roar": completes charge when no enemies are within 16 tiles for 1.5s
+		After charging, the first hit landed within 16 tiles deals +25% damage (striking beyond this range does not consume the charge)
+		When no enemies are near or when no targets are hit for 1.5s, pulses a 0.4s slow onto enemies within 20 tiles every 1.5s
+		'''
+	Burden: Landing 4 close-range hits within 0.6s triggers 0.4s of lost focus, during which close-range damage is reduced by 5%
+}
+
+OniMeiRubbingKarikiri: {
+	DisplayName: Karikiri
+	Tooltip: Beginning a Flash Step leaves an effigy decoy that completely negates one hit; taking increased damage while the decoy lives or shatters
+	Origin:
+		'''
+		Paper-crafting occultists guard an eerie technique known as the scapegoat effigy.
+		The instant a Flash Step launches, the blade snatches a wet ink decoy from the void and pins it in place, absorbing a fatal disemboweling blow in the wielder's stead.
+		Yet the effigy shares a sliver of the soul; should it be shattered to tatters by brute violence, the wielder suffers violent backlash, leaving defenses wide open.
+		'''
+	Power:
+		'''
+		"False Body": leaves a stationary decoy lasting 1.5s at the starting position of a Kamui Flash Step
+		While the decoy exists, it completely negates the next instance of damage taken from an enemy or projectile (4-second cooldown)
+		'''
+	Burden:
+		'''
+		While the decoy exists, damage taken and Flash Step vigor cost are both increased by 12%
+		For 1s after the decoy is shattered, damage taken is increased by 18% (natural expiration incurs no penalty)
+		'''
+}
+
+OniMeiRubbingMokukiri: {
+	DisplayName: Mokukiri
+	Tooltip: Vigor-consuming Flash Steps briefly empower the next strike upon completion; swinging into air still consumes the buff
+	Origin:
+		'''
+		Seasoned hunters know a vital rule of the wild: a howling gale in the woods is never as frightening as when the wind abruptly dies and all bird song falls silent—that is when the predator creeps close.
+		The moment a Flash Step skids to a halt, the world seems swallowed by sudden stillness.
+		Drawing the blade from the blind spot of that dead silence delivers a strike far more lethal than any hurried blow.
+		'''
+	Power: '''"Silent Kill": for 0.75s after completing a standard vigor-consuming Kamui Flash Step, the next basic attack or Zanshin strike deals +35% damage'''
+	Burden: This empowered strike is consumed even if it misses, and dashing again clears the bonus; free executions do not grant Silent Kill
+}
+
+OniMeiRubbingKumokiri: {
+	DisplayName: Kumokiri
+	Tooltip: Blade hits plant three silk anchors that contract into a binding snare; natural vigor recovery slowed while anchors remain on field
+	Origin:
+		'''
+		High in the rafters of an abandoned dye-house once nested an ancient eight-legged horror, spewing toxic threads at midnight to cocoon and drain sleeping wanderers.
+		An itinerant exorcist broke through the doors, severing the black canopy with sweeping arcs and slaying the abomination.
+		This blade absorbed that clinging venomous weave: each swing plants an ink silk anchor in the air, and once three points align, they snap shut into a constricting web of razor threads.
+		'''
+	Power:
+		'''
+		"Ink Silk": direct blade hits plant a 4s ink anchor at the strike point (cannot reattach to the same foe within 0.4s; adjacent anchors require ~6 tiles spacing)
+		Once 3 anchors are planted, they connect into an ink triangle that violently contracts toward the center, dealing 90% weapon base damage and immobilizing all trapped enemies for 1s
+		Snare trigger incurs a 1.5s cooldown before new anchors can be planted
+		'''
+	Burden: While uncontracted anchors remain on the field, natural vigor recovery speed is reduced by 25%
+	DeedHint: Slay 30 spiders, scorpions, or arachnid creatures while holding Onikiri to let the edge drink deep of spider blood
+}
+
+OniMeiRubbingOnimaru: {
+	DisplayName: Onimaru
+	Tooltip: Standing motionless causes the blade to fly out and slash nearby foes; conventional weapon control is disabled while flying
+	Origin:
+		'''
+		The master of an old manor lay bedridden for months, tormented nightly by a pale imp meddling with his spirit.
+		One midnight, the sheathed blade flew free of its scabbard, circling through the bedchamber in a streak of light and cleaving the crouching fiend in two, curing the manor's blight forever.
+		This edge possesses an aloof, living pride: stand firm and calm, and it flies forth to seek and slay foes on its own; but while the sword is aloft, the wielder's hands are empty and bare to harm.
+		'''
+	Power:
+		'''
+		"Autonomous Sever": standing completely still for 1s enters a standby state
+		While in standby, consumes 10 vigor every 1.5s to launch the blade toward foes within 40 tiles, delivering a strike for 140% of weapon base damage before returning
+		'''
+	Burden: While the blade is flying, basic combos, Kamui Flash Step, and Sakura Flight cannot be used; will not launch if no valid targets are in range
+	DeedHint: Stand completely still with Onikiri and endure a hit, maintaining stillness for a cumulative 10 seconds to test its spectral pride
+}
+
+OniMeiRubbingRaikiri: {
+	DisplayName: Raikiri
+	Tooltip: In open-air conditions, the fifth combo strike and arts summon lightning bolts upon hit; combo interval extended by 6%, no lightning indoors
+	Origin:
+		'''
+		Woodsmen know never to seek shelter under tall trees during rain, for ancient wood draws lightning, easily struck by thunder.
+		Yet an armored warrior once stood his ground beneath a dead oak in a tempest; when a bolt of violet lightning plummeted, he roared and swung his blade upward, miraculously cleaving the thunderbolt in two.
+		Ever since, the blade holds a covenant with the storm: so long as the open sky is bare above, crushing lightning descends wherever the edge points.
+		'''
+	Power:
+		'''
+		"Thunder-Cleave": when the 5th combo strike, Zanshin strike, Annihilating Flash, or Finale Slash hits an enemy under an open sky, calls down a thunderbolt to strike the target
+		The bolt deals 70% of weapon base damage; during thunderstorms, a single strike summons up to 3 bolts
+		'''
+	Burden: Basic combo attack interval extended by 6% (even in clear weather); cannot summon lightning when blocked by tiles or deep underground
+	DeedHint: Slay any boss while holding Onikiri under an open sky during a thunderstorm, bathing the steel in lightning
+}
+
+OniMeiRubbingNuekiri: {
+	DisplayName: Nuekiri
+	Tooltip: Completing the five-beat combo midair converts the fifth strike into a ground-pound dive that pulls foes; brief dash lockout upon landing
+	Origin:
+		'''
+		When black clouds blanketed the palace roof, a chimeric beast with the head of an ape and claws of a tiger shrieked like a weeping child from the rafters.
+		A master archer shattered its wing with a bowshot, and as the beast plummeted through the mist, a swordsman leapt from the fortress parapets, plunging vertically with crushing momentum to pin the monster dead to the stone steps.
+		This inscription welds that devastating downward slam into the blade's very edge.
+		'''
+	Power:
+		'''
+		"Nue Dive": completing the full five-beat combo while airborne (at least 3 tiles above ground) turns the 5th strike into a powerful groundward dive
+		Impact creates a shockwave of ~12 tiles radius, dealing 120% of weapon base damage and dragging surrounding enemies toward the impact point
+		'''
+	Burden: Cannot use Kamui Flash Step for ~0.7s after recovery upon landing; 5th strike remains a normal horizontal slash when grounded
+	DeedHint: Slay a flying enemy at night while holding Onikiri at least 30 tiles above ground, riding the downward plunge
+}
+
+OniMeiRubbingKamihi: {
+	DisplayName: Kami-hi
+	Tooltip: Dashing through foes leaves a paper effigy; striking the effigy transfers damage and vulnerability to the original; dash vigor cost increased while effigies exist
+	Origin:
+		'''
+		In a forgotten alley lived a blind paper-cutter who needed only to touch a traveler's wrist to snip out an exact silhouette effigy in paper.
+		The moment a Flash Step phases through an enemy, the paper-groove along the spine snatches a shadow-cut effigy from the air and leaves it behind.
+		Strike the paper, and the agony of bone-deep severance transfers across the veil directly into the flesh of the original.
+		'''
+	Power:
+		'''
+		"Surface Silhouette": phasing through an enemy with Kamui Flash Step leaves an effigy of that target at the endpoint lasting 7s (up to 2 effigies on field)
+		Attacking the effigy deals 80% of weapon base damage, completely transferring this damage to the original foe
+		Also inflicts a 1.5s vulnerable state upon the original, increasing damage taken from Onikiri by 12%
+		'''
+	Burden: While paper effigies remain on the field, Kamui Flash Step vigor cost is increased by 12%
+	DeedHint: Shatter 20 paper effigies with Onikiri inside the Underworld of the Oni Domain, unraveling the mystery of form and shadow
+}
+
+OniMeiRubbingSorahi: {
+	DisplayName: Sora-hi
+	Tooltip: Doubles natural vigor recovery and grants an extra air dash while airborne; ground landing temporarily halts vigor recovery
+	Origin:
+		'''
+		Wandering soul-walkers often say: "Mud on the soles drags three parts slow; one step aloft sets the bone light as a feather."
+		This hollowed groove carves out the spine into a feather-light profile. So long as both feet leave the earth, surrounding drafts lift the blade, doubling the wielder's breath recovery.
+		Yet mortals have no wings and must eventually descend; the heavy weight of returning to earthly soil causes inner breath to stall for a fleeting moment.
+		'''
+	Power:
+		'''
+		"Drifting Stature": natural vigor recovery speed is doubled while airborne, and grants 1 additional airborne Kamui Flash Step use
+		Airborne Flash Steps hover briefly for 0.5s at their conclusion
+		'''
+	Burden: Natural vigor recovery is completely paused for 0.75s after touching the ground; using Kamui Flash Step on the ground costs 10% more vigor
+	DeedHint: Stay airborne for 15 consecutive seconds while holding Onikiri, landing at least 5 hits while airborne, riding the wind
+}
+
+OniMeiRubbingKagamihi: {
+	DisplayName: Kagami-hi
+	Tooltip: Flash Step endpoints erect a paper mirror stand that mimics the next slash; weapon base damage reduced by 5%
+	Origin:
+		'''
+		In the backroom of an old pawnshop stood a tall bronze mirror; whenever someone looked into it at night, the reflection moved a fraction of a heartbeat behind the living.
+		This chill groove captures that lingering spectral delay.
+		Where a Flash Step halts, a spectral paper mirror rises, and a moment later, the reflection swings forth with the exact same strike in tandem.
+		'''
+	Power:
+		'''
+		"Mirror Inscription": Kamui Flash Step endpoints erect a paper mirror stand lasting 2s
+		When the wielder subsequently swings a blade slash, the mirror simultaneously replicates that strike and shatters, dealing 45% of weapon base damage
+		'''
+	Burden: Weapon base damage reduced by 5%; the replicated strike swings in the mirror's facing direction, relying on placement for accuracy
+	DeedHint: Slay a Mimic using a Zanshin strike (Calamity Clone's fake chests count), piercing through all illusions
+}
+
+OniMeiRubbingAmahi: {
+	DisplayName: Ama-hi
+	Tooltip: Sakura Flight drops ink rain along its path, pooling into slowing mud; Sakura Flight vigor drain increased by 15%
+	Origin:
+		'''
+		On muddy dirt roads in pouring rain, lonely travelers fear nothing more than deep murky puddles, for water-wraiths lie beneath the muck to snare human ankles.
+		Carved like the rainwater bamboo eaves of old mansions, this channel drips thick black ink as Sakura Flight glides overhead, splashing down into clinging puddles that drag enemy feet into the mire.
+		'''
+	Power:
+		'''
+		"Falling Rain": while flying in Sakura Flight, drops an ink droplet every 0.1s dealing 12% of weapon base damage
+		Droplets spread into puddles upon touching ground, immobilizing and slowing enemies within for 0.5s
+		'''
+	Burden: Sakura Flight vigor drain rate increased by 15%
+	DeedHint: Fly cumulatively for 10 seconds in Sakura Flight during rain (does not require a single flight), letting the petals soak in the downpour
+}
+
+OniMeiRubbingTsuzurihi: {
+	DisplayName: Tsuzuri-hi
+	Tooltip: Ink brands left by a single Flash Step connect with slicing lines; individual ink brand damage reduced by 30%
+	Origin:
+		'''
+		In the mortuary, an old coroner stitched severed limbs back onto mangled bodies, pulling black hemp thread taut to seal the flesh seamlessly.
+		This groove, etched like dense stitches of twine, operates on the same logic: multiple ink marks left across enemies during a single dash detonate simultaneously, snapping taut intersecting slicing lines that flay trapped foes into ribbons.
+		'''
+	Power: '''"Stitched Marks": when multiple ink brands from a single Kamui Flash Step detonate, they generate piercing cut-lines between each other, each line dealing 35% of weapon base damage'''
+	Burden: Base damage of individual ink brands reduced by 30% (if a dash passes through only one target, overall damage is lost)
+	DeedHint: Pierce at least 6 different enemies with a single Kamui Flash Step, binding the threads together
+}
+
+OniMeiRubbingBonsho: {
+	DisplayName: Bonsho
+	Tooltip: Holding full stance without using Finale Flurry automatically tolls the bell; costs half of max stance and replaces that Finale Flurry opportunity
+	Origin:
+		'''
+		In a secluded mountain temple hung a tarnished, clapperless bronze bell that rang with a deep, echoing toll whenever midnight winds blew, though no mallet ever struck it.
+		Old monks whispered that the bell cavity held the smothered fury of wronged souls; kept pent-up too long, it tolls on its own to vent.
+		The bell carved into this blade is just as stubborn: hold full stance too long without unleashing the dance, and the bell tolls on its own, stunning all surrounding fiends while scattering half your built-up momentum.
+		'''
+	Power:
+		'''
+		"Toll of One": if Finale Flurry is not unleashed within 3s of reaching full stance, the blade tolls automatically
+		Unleashes a soundwave dealing 60% of weapon base damage to all enemies within 30 tiles and immobilizing them for 1.5s, resetting stance to 50
+		'''
+	Burden: The bell toll directly consumes full stance and forfeits that Finale Flurry opportunity
+	DeedHint: Slay any boss without using Annihilating Flash or Finale Flurry throughout the entire fight, proving meditative resolve
+}
+
+OniMeiRubbingHannya: {
+	DisplayName: Hannya
+	Tooltip: Unfurls the Hannya demon mask at low health, boosting damage and lifesteal; takes increased damage while masked, standard weapon base damage reduced by 4%
+	Origin:
+		'''
+		In an old theater troupe's costume trunk lay a blood-stained wooden Hannya mask.
+		Legend says if an actor wore it onto the stage while driven to humiliating despair, barbed wooden thorns would sprout from the inside, sinking into the cheekbones and driving them into a cannibalistic frenzy.
+		Carving this visage onto the blade forms a blood oath: once pushed to the verge of death, the demonic visage breaks forth from the scabbard, ravenously chewing on enemy blood to sustain a dying life.
+		'''
+	Power:
+		'''
+		"Mask Shift": manifests the ferocious demon mask when below 35% life: blade damage increased by 20%, each hit restores 0.5% max life
+		Every 3 hits while masked summons an ethereal mask to bite the target for 50% of weapon base damage
+		'''
+	Burden: Damage taken increased by 15% while the demon mask is active; weapon base damage reduced by 4% while in normal state above 35% life
+	DeedHint: Slay any boss while holding Onikiri in a critically wounded state below 10% life, letting the demon mask awaken
+}
+
+OniMeiRubbingKaresansui: {
+	DisplayName: Karesansui
+	Tooltip: Standing still rakes out a stationary sand-ripple garden that continually damages foes and accelerates stance gain; moving breaks concentration
+	Origin:
+		'''
+		Before an ancient mountain temple lay a barren stone garden with neither tree nor water, its white gravel raked into concentric waves.
+		In the dead of night, the white gravel would churn like a dark sea; any trespassing brigand who stepped onto it would have their feet stripped to bare bone in moments.
+		This engraving harnesses that lethal stillness: plant your feet amidst surrounding foes, and the sword-qi rakes out a sand-ripple domain that flays flesh while stilling your mind.
+		'''
+	Power:
+		'''
+		"Sand Waves": standing completely still for 1.5s expands a sand-ripple domain of 20 tiles radius for 5s
+		Deals 18% weapon base damage to enemies within every 0.5s
+		Standing within your own sand-ripple domain increases stance gain speed by 30%
+		'''
+	Burden: Expanding the domain requires continuous stationary charging; moving immediately resets charge progress
+	DeedHint: Fight continuously near enemies for 30 seconds while holding Onikiri without moving or taking any damage, calm as still water
+}
+
+OniMeiRubbingSenju: {
+	DisplayName: Senju
+	Tooltip: Finale Flurry cinematic freeze summons six spectral arms to strike together; empties vigor and prevents dashing for 3s afterward
+	Origin:
+		'''
+		In a collapsed shrine behind a potter's field, a dilapidated clay statue with severed arms had been soaked in malevolence for generations, sprouting pale corpse hands into the night.
+		An artisan carved that silhouette onto the blade, turning it into a gruesome executioner:
+		As the final freeze of Finale Flurry locks in place, six spectral arms burst from the void behind you, hacking the target into mincemeat alongside your edge.
+		Yet invoking such dark wrath completely drains your vitality.
+		'''
+	Power: '''"Thousand Arms": during the close-up freeze of Finale Flurry, six spectral arms manifest behind you to slash in unison, each arm dealing 30% of weapon base damage'''
+	Burden: Vigor drops to 0 after casting Finale Flurry, and Kamui Flash Step cannot be used for 3s
+	DeedHint: Slay 8 different boss species using Finale Flurry while holding Onikiri, opening the path with six arms
+}
+
+OniMeiRubbingKogehi: {
+	DisplayName: Koge-hi
+	Tooltip: Kamui Flash Step leaves a trail of scorching ground; weapon base damage reduced by 4%
+	Origin:
+		'''
+		When crematory kilns cooled for cleaning, scavengers could always unearth fragments of bone charcoal glowing with violet phosphorescence from the deepest brick joints—even dropped in winter snow, they would hiss and steam.
+		A blacksmith quenched this groove with those kiln embers. When dashing steel rubs against the air, it leaves a blazing trail behind, baking the flesh of pursuing foes.
+		'''
+	Power:
+		'''
+		"Scorch Trail": leaves up to 5 burning patches along the movement path of a Kamui Flash Step, each lasting 1.5s
+		Enemies standing in scorching patches suffer 14% weapon base damage as burn damage every 0.5s
+		New scorch marks overlapping within 2 tiles of an existing patch merely refresh its duration
+		'''
+	Burden: Weapon base damage reduced by 4%
+}
+
+OniMeiRubbingKanhi: {
+	DisplayName: Kan-hi
+	Tooltip: Vigor recovers much faster when disengaged from combat; Kamui Flash Step and Sakura Flight vigor cost increased by 8%
+	Origin:
+		'''
+		In the courtyard behind an old teahouse sat a worn rattan chair. Rumor held that decades ago, a bloodied wanderer collapsed into it, and after a brief nap, his wounds had scabbed over and his exhaustion had vanished.
+		This groove captures that restorative respite:
+		The moment steel returns to the sheath, depleted vigor rushes back like rain on parched earth; yet forcing hurried footwork in the thick of battle feels slightly clumsy and taxing.
+		'''
+	Power: '''"Quiet Breath": natural vigor recovery speed is increased to 2.25x after disengaging from combat and landing no hits for 2s'''
+	Burden: Kamui Flash Step and Sakura Flight vigor cost both increased by 8%
+}
+
+OniMeiRubbingTodohi: {
+	DisplayName: Todo-hi
+	Tooltip: Direct hits bind and slow enemies; Flash Step start-up incurs a brief delay
+	Origin:
+		'''
+		In the back cabinet of an apothecary lay a jar of dark pine resin boiled from ancient rot-wood, sticky enough to trap any bird that brushed against it.
+		The edge drank deep of this black salve during quenching. Each bite into flesh wraps invisible snares around the victim's joints, dragging their movements into sludge.
+		Yet when the wielder attempts to launch into a sudden sprint, their own footing feels slightly mired by the same clinging weight.
+		'''
+	Power: '''"Sticky Bind": direct hits slow enemy movement for 0.6s, reducing regular enemy speed to 88% and boss speed to 96%'''
+	Burden: Kamui Flash Step has an additional 0.1s start-up delay; Sticky Bind and Numb states do not stack on the same enemy, taking the higher slow value
+}
+
+OniMeiRubbingShiorihi: {
+	DisplayName: Shiori-hi
+	Tooltip: Personally slaying a target flings pruning blades at nearby low-health foes; natural vigor recovery reduced by 10%, Zanshin misses penalize vigor
+	Origin:
+		'''
+		Gardeners of great manors pruned withered branches with cold precision: whenever a dead twig was snipped, any drooping leaves beside it were pinched off without a second thought.
+		This groove embodies that ruthless habit of eradicating weakness:
+		Whenever a formidable foe is slain, a ghostly pruning blade bursts from the scabbard, hunting down the throat of any half-dead minion lingering nearby.
+		'''
+	Power:
+		'''
+		"Prune": directly slaying a target searches within 15 tiles for another enemy below 50% life
+		Flings a pruning blade to strike that target for 25% of weapon base damage (no cooldown if no valid wounded targets are found; 0.75s cooldown upon trigger)
+		'''
+	Burden:
+		'''
+		Natural vigor recovery speed reduced by 10%
+		Whiffing a Zanshin follow-up strike after a dash deducts an extra 2 vigor
+		Kills made by the pruning blade cannot chain-trigger another prune
+		'''
+}
+
+OniMeiRubbingShiohi: {
+	DisplayName: Shio-hi
+	Tooltip: Striking in rhythm with the tide recovers vigor and empowers Zanshin; off-beat combo strikes deal slightly reduced damage
+	Origin:
+		'''
+		Under the hull of an old fishing vessel hung a bone whistle that rose and fell with the waves; the old boatman said every crash against the rocks was a breath drawn by the sea abyss.
+		The rising and falling channels along the blade synchronize with the ocean's tidal pulse:
+		Strike when the swell crests at its peak, and vigor surges like a rushing tide; swing against the current in hasty impatience, and the blade bites sluggishly under the undertow's recoil.
+		'''
+	Power:
+		'''
+		"Tidal Beat": displays a 0.8s tidal gauge below the vigor bar; the 0.2s peak of the crest is the harmony window
+		Combo strikes launched during the harmony window restore 3 extra vigor on their first hit; harmonious Zanshin strikes deal +8% damage
+		'''
+	Burden: Combo strikes launched off-beat deal 3% less damage (timing judged at key press, not impact)
+}
+
+OniMeiRubbingShibori: {
+	DisplayName: Shibori
+	Tooltip: Phasing through enemies or taking hits during locked animations shocks and numbs foes; standard stance gain speed reduced by 15%
+	Origin:
+		'''
+		On the iron truncheon of a veteran bailiff was carved a fanged lightning beast.
+		When facing cutthroats, even if a heavy blade struck his truncheon and split his skin, the bailiff never gave ground, instead channelling the shockwave back as numbing lightning to drop the attacker paralyzed.
+		This engraving is just as stubborn: endure a jarring hit, and the attacker's limbs are shocked numb and helpless.
+		'''
+	Power:
+		'''
+		"Numb Counter": phasing through enemies with Kamui Flash Step inflicts the Numb status
+		Taking contact damage during locked art animations consumes 15 stance to reduce damage taken to 85% and inflicts Numb on the attacker (1.5-second cooldown)
+		Enemies afflicted with Numb are slowed for 0.75s (regular enemies reduced to 90%, bosses to 98%) and their contact damage is reduced by 10%
+		'''
+	Burden: Standard stance gain speed reduced by 15%
+}
+
+OniMeiRubbingChinmei: {
+	DisplayName: Chinmei
+	Tooltip: Greatly reduces projectile damage and knockback taken; standard stance gain speed reduced by 15%
+	Origin:
+		'''
+		A battle-scarred armored veteran who had marched through blood-soaked battlefields always carved calming seal-script along the spine of his sword.
+		When stones and arrows rain down like a deluge on the front line, the fainthearted panic from the shrieking roar and perish in chaos.
+		Relying on this talisman to still his pulse, the veteran weathered the storm of arrows and stones, standing resolute to shield his vitals from fatal ruin.
+		'''
+	Power: '''"Chinmei": taking damage from enemy projectiles reduces damage taken by 12% and reduces knockback taken to 35%'''
+	Burden: Standard stance gain speed reduced by 15%
+}
+
+OniMeiRubbingAshidome: {
+	DisplayName: Ashidome
+	Tooltip: Stand still to build charge, greatly increasing damage of the next 5th combo strike or art; moving clears charge
+	Origin:
+		'''
+		When an old caravan guard instructed his apprentices, he repeated a single tenet: "Keep your feet planted; only still blood keeps a man alive."
+		When cornered by a howling beast on a dark trail, root both feet into the frozen soil like an ancient cedar, holding your breath in your core.
+		When the monster leaps within reach, the explosive draw launched off that rooted footing carries the earth-shattering force to split mountains.
+		'''
+	Power: '''"Rooted Stature": standing completely still for 0.75s completes charge, increasing damage of the next 5th combo strike, Zanshin strike, Annihilating Flash, or Finale Slash by 25%'''
+	Burden: The empowered strike is consumed upon attack, and misses do not refund it; moving immediately clears accumulated charge
+}
+
+OniMeiRubbingYoen: {
+	DisplayName: Yoen
+	Tooltip: Executions leave a persistent burning ember field at the target's location; max vigor reduced by 5%, Flash Step vigor cost increased while embers burn
+	Origin:
+		'''
+		When old crematory kilns shut down for midwinter, brushing aside the top layer of pale ash always reveals glowing violet embers smoldering in the brick seams below.
+		Even doused with cold water, they hiss and steam for weeks on end without dying out.
+		Sealing those kiln embers into the blade, every foe shattered by an execution sets the ground ablaze with smoldering hellfire, reducing pursuing fiends to cinder and bone.
+		'''
+	Power:
+		'''
+		"Embers": successfully executing a foe deploys a 3s ember field at the focus point
+		Enemies within the field suffer 16% weapon base damage as burn damage every 0.75s
+		Only one ember field can exist at a time; executing another foe relocates the field to the new point
+		'''
+	Burden: Max vigor reduced by 5%; while an ember field exists, Kamui Flash Step vigor cost is increased by 10%
+}

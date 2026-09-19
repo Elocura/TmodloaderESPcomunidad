@@ -1,92 +1,6 @@
 CWRServerConfig: {
 	DisplayName: Content Config
-
-	WeaponOverhaul: {
-		Label: Weapon Overhaul
-		Tooltip:
-			'''
-			Enabling it will modify most weapons.
-			[c/FF0000: If you want the best Calamity Overhaul experience, please enable it!]
-			'''
-	}
-
-	ScreenVibration: {
-		Label: Weapon Screen Vibration
-		Tooltip: If turned on, the screen will vibrate during some attacks, which may make the hit feel more intense
-	}
-
-	MurasamaSpaceFragmentationBool: {
-		Label: Murasama Finisher Screen-Shatter Effect
-		Tooltip:
-			'''
-			Enabled by default. When Murasama performs its finisher, it creates a screen-shatter effect to enhance the impact.
-			If disabled, these effects are turned off.
-			'''
-	}
-
-	DomainConciseDisplay: {
-		Label: Domain Minimal Display
-		Tooltip: Off by default. When enabled, most visual effects within the domain will be hidden.
-	}
-
-	Headers: {
-		CWRSystem: System Configs
-		CWRWeapon: Weapon Configs
-		CWRUI: UI Configs
-		CWRWorldGen: World Gen Configs
-	}
-
-	LensEasing: {
-		Label: Lens Easing
-		Tooltip: When enabled, long distance rapid displacement will slow the lens, which avoids the feeling of being moved too fast
-	}
-
-	BiologyOverhaul: {
-		Label: Biology Overhaul [c/06e33f:(Experimental)]
-		Tooltip:
-			'''
-			[c/c20909:Unfinished]
-			Enabled by default, this will modify the AI behavior of certain creatures, such as Boss AI in Death Mode.
-			This might significantly increase the game's difficulty, so you can choose to disable it based on your personal preference.
-			'''
-	}
-
-	MuraUIStyleType: {
-		Label: Mura UI Style Selection
-		Tooltip:
-			'''
-			Style 1: Refined - Floating Above The Head
-			Style 2: Refined - Compact
-			Style 3: Classic - Floating Above The Head
-			Style 4: Classic - Compact
-			Style 5: Hidden
-			'''
-	}
-
-	MuraPosStyleType: {
-		Label: Mura UI Position Selection
-		Tooltip:
-			'''
-			Preset 1: Bottom Right
-			Preset 2: Bottom Left
-			Preset 3: Top Center
-			'''
-	}
-
-	QuestLog: {
-		Label: Quest Log Guidance
-		Tooltip:
-			'''
-			When enabled, the quest log will guide you through game progression
-			You can access the quest interface via the Quest Book item, inventory UI, or a hotkey to view current quests
-			Enabled by default. Disabling this removes all quest guidance
-			'''
-	}
-
-	DialogueBox_Scale_Value: {
-		Label: Dialogue Box Scale
-		Tooltip: Adjusts the overall size of the dialogue box
-	}
+	Headers.CWRWorldGen: World Gen Configs
 
 	GenWindGrivenGenerator: {
 		Label: Generate Wind-Driven Generator
@@ -113,6 +27,50 @@ CWRServerConfig: {
 		Tooltip: Spawns wooden elven or forest guardian outposts deep within the forest.
 	}
 
+	GenSHPCCradle: {
+		Label: Generate SHPC Cradle Island
+		Tooltip: Generates a crashed vessel sky island above spawn with the SHPC sealed inside. When disabled, the weapon can only be found in Calamity's laboratory.
+	}
+
 	ConfigChangePrefix: User
 	ConfigChangeSuffix: modified the server configuration
+}
+
+CWRClientConfig: {
+	DisplayName: Client Config
+
+	Headers: {
+		CWRWeapon: Weapon Configs
+		CWRDisplay: Display Configs
+	}
+
+	ScreenVibration: {
+		Label: Weapon Screen Vibration
+		Tooltip: If turned on, the screen will vibrate during some attacks, which may make the hit feel more intense
+	}
+
+	DomainConciseDisplay: {
+		Label: Domain Minimal Display
+		Tooltip: Off by default. When enabled, only Cyberspace / Sea Domain style domain visuals are reduced. Onikiri's Oni Domain is unaffected, as are weapon and cyberware visuals such as dismember, omokage, and HackTime.
+	}
+
+	HideOtherDomains: {
+		Label: Hide Other Players' Domains
+		Tooltip: On by default. When enabled, full-screen domain visuals opened by other players (Onikiri's Oni Domain, Kikasa's Blood Lake, Ghost Rain and Ghost Dream) are no longer drawn on your screen. They still appear when you stand on their lake, get dragged underwater, or are inside their dream. Visual only, no effect is changed; your own domains are unaffected.
+	}
+
+	LensEasing: {
+		Label: Lens Easing
+		Tooltip: When enabled, long distance rapid displacement will slow the lens, which avoids the feeling of being moved too fast
+	}
+
+	AmbienceDensity: {
+		Label: Ambience Density
+		Tooltip: Scales decorative ambience particle density only; telegraphs and hazards are never reduced.
+	}
+
+	RarityTextEffects: {
+		Label: Rarity Name Effects
+		Tooltip: Animated item-name effects for this mod's rarities (Lapis, Jade, Copper, Gilt, Starsilver and the four Legends). When disabled, names are drawn in plain color.
+	}
 }

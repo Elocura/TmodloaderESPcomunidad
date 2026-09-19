@@ -1,0 +1,46 @@
+GameModeText: {
+	BrutalName: Brutal World
+	AsuraName: Asura Hell
+	AnnihilationName: Death's End
+	GodSmithName: Divine Artifice
+	BrutalOnLine: This world is cruel, and yet you love it still.
+	BrutalOffLine: The world sheathes its fangs. Its mercy is only a pause.
+	AsuraOnLine: The Asura path opens. Every pain you deal shall be repaid in full.
+	AsuraOffLine: The Asura path closes. All debts are settled.
+	AnnihilationOnLine: All shall pass; only Death lives forever.
+	AnnihilationOffLine: Death rests a while; the living steal a breath.
+	GodSmithOnLine: The Godsmith takes up the hammer; every common iron shall be reforged.
+	GodSmithOffLine: The forge fire wanes; all arms return to their former shape.
+	BrutalDesc: Unleashes the reworked, merciless AI of brutal foes, their stats anchored no lower than Master Mode; every enemy gains 50% more life and damage, and lesser fiends turn swift and frenzied
+	AsuraDesc: The enhancement rises to 100%. Foes adapt to repeated damage of the same kind, and any blow you deal sets the least they deal back. Melee strikes resist adaptation, the blade itself most of all; the closer you strike, the more melee damage you deal
+	AnnihilationDesc: The final form of Asura Hell in a For the Worthy world. Every terror doubles again: foes adapt twice as fast, and your pain is repaid twofold
+	BrutalCreationDesc: Master is the floor: reworked bosses awaken, all foes empowered
+	AsuraCreationDesc: Master is the floor: foes adapt to your blows and mirror your pain
+	GodSmithDesc: Vanilla weapons are reforged with brand-new attacks, and vanilla armor sets gain an extra endowment true to their nature. Enemy strength is untouched, and it toggles independently of every other mode
+	GodSmithRecastTitle: Godsmith Reforged
+	GodSmithEndowPrefix: "Endowment: "
+	GodSmithInheritLine: Inherited from {0}: {1}
+	GodSmithSetPreview: Godsmith set bonus: {0}
+	GodSmithNestChain: Socketed: {0}
+	GodSmithNestTitle: Socketed Helmets
+	GodSmithNestHint: Wear the full set to inherit the set bonus of every socketed helmet
+	GodSmithNestActive: Full set worn: all socketed set bonuses are active
+	GodSmithNestReceiveHint:
+		'''
+		Add {0} when crafting this helmet to socket it in
+		Wear the full set to also inherit the socketed helmet's set bonus
+		'''
+	GodSmithNestGiveHint: Can be socketed into {0}: include this helmet when crafting one
+	GodSmithNestOr: " or "
+	GodSmithRecipeOn: Divine Artifice active
+	GodSmithRecipeOff: Divine Artifice dormant
+	StateOn: Active
+	StateOff: Dormant
+	HintEnable: Click to awaken
+	HintDisable: Click to seal
+	BossRefuse: A boss still lives. The pact cannot be altered now
+	AsuraNeedBrutal: Awaken Brutal World first
+}
+
+SporeshineAmbience.DazeDeathReason: "{0} drowsed away deep in the spore haze"
+WoodsongBrambleSystem.BrambleDeathReason: "{0} stepped into the forest bramble"

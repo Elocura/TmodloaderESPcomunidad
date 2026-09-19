@@ -1,27 +1,27 @@
 QuestNode: {
 	FirstQuest: {
-		DisplayName: Welcome to the World of Calamity!
+		DisplayName: Welcome to This World!
 		Description: The Beginning of the Journey
-		DetailedDescription: Every legend begins from humble origins. Claim your starter gear and prepare to face a world filled with gods and monsters.
+		DetailedDescription: Claim your starter gear. This world has gods in it, and monsters, and right now you have nothing.
 		QuestObjective.Description: Click to claim starter items
 	}
 
 	MiningQuest: {
 		DisplayName: Mining Basics
 		Description: Obtain 10 {0}
-		DetailedDescription: The underground holds infinite wealth. First, we need some basic metals to craft tools.
+		DetailedDescription: Tools need metal first. Ore veins do not come up to meet you. You dig.
 	}
 
 	MiningQuestII: {
 		DisplayName: Iron Age
 		Description: Collect 50 {0}
-		DetailedDescription: Copper is too soft; we need harder metals to arm ourselves. Delve deeper underground to find Iron veins.
+		DetailedDescription: Copper is too soft; two swings and it dulls. Iron sits deeper down.
 	}
 
 	MiningQuestIII: {
 		DisplayName: Gold Rush
 		Description: Collect 100 {0}
-		DetailedDescription: Gold is not just currency; it possesses excellent magical conductivity and ductility. Although softer than Iron, it is a crucial material for crafting advanced gear.
+		DetailedDescription: Gold is softer than iron, but it conducts magic better and takes more shaping. Advanced gear needs it.
 	}
 
 	BrimstoneElementalQuest: {
@@ -33,7 +33,7 @@ QuestNode: {
 	CalamitasCloneQuest: {
 		DisplayName: Calamitas Clone
 		Description: Defeat the Calamitas Clone
-		DetailedDescription: A clone filled with hatred and a desire for destruction. Defeat it to prove you are worthy of facing the true Witch.
+		DetailedDescription: A clone filled with hatred and a desire for destruction. Lose to the shadow and you will never meet the woman herself.
 	}
 
 	CrabulonQuest: {
@@ -45,7 +45,7 @@ QuestNode: {
 	CryogenQuest: {
 		DisplayName: Cryogen
 		Description: Defeat Cryogen
-		DetailedDescription: The former Archmage of the cosmos is sealed within this eternal prison of ice. Release and defeat it to unleash the power of the arctic.
+		DetailedDescription: Once the Archmage of the cosmos, now sealed inside a block of ice. Break it open and it wakes up wearing crystals.
 	}
 
 	DesertScourgeQuest: {
@@ -64,7 +64,7 @@ QuestNode: {
 	EyeofCthulhuQuest: {
 		DisplayName: Eye of Cthulhu
 		Description: Defeat the Eye of Cthulhu
-		DetailedDescription: As long as you feel that evil gaze, it will appear. This is the first true test of your strength.
+		DetailedDescription: As long as you feel that evil gaze, it will appear. At night, coming down out of the sky.
 	}
 
 	GolemQuest: {
@@ -77,7 +77,7 @@ QuestNode: {
 		DisplayName: The Hive Mind / The Perforators
 		Description: Defeat the true god of the evil biome
 		QuestObjective.Description: Defeat The Hive Mind or The Perforators
-		DetailedDescription: They are the physical manifestations of the Corruption and Crimson's consciousness. If not destroyed, this land will never know peace.
+		DetailedDescription: The Corruption and the Crimson each have a brain. Leave it in place and the spread never stops.
 	}
 
 	KingSlimeQuest: {
@@ -96,19 +96,19 @@ QuestNode: {
 		DisplayName: Mechanical Bosses
 		Description: Defeat all Mechanical Bosses
 		QuestObjective.Description: Defeat all Mechanical Bosses
-		DetailedDescription: Early creations of Draedon, mimicking parts of Cthulhu. Only by defeating them will the world be revitalized.
+		DetailedDescription: Someone rebuilt Cthulhu's organs in steel. A pair of eyes, a skull, and a long worm.
 	}
 
 	MoonLordQuest: {
 		DisplayName: Moon Lord
 		Description: Defeat the Moon Lord
-		DetailedDescription: The mastermind behind it all, the terror from the dark side of the moon. End this long nightmare.
+		DetailedDescription: The mastermind behind it all, the terror from the far side of the moon. Its eyes are not where eyes belong.
 	}
 
 	PlaguebringerGoliathQuest: {
 		DisplayName: The Plaguebringer Goliath
 		Description: Defeat The Plaguebringer Goliath
-		DetailedDescription: A Queen Bee modified by nano-virus machinery. It is not only deadly but also carries a dangerous plague.
+		DetailedDescription: A Queen Bee rebuilt by nanomachine virus. It carries plague, and a sting keeps draining you after it lands.
 	}
 
 	PlanteraQuest: {
@@ -156,7 +156,7 @@ QuestNode: {
 	ExoMechsQuest: {
 		DisplayName: Exo Mechs
 		Description: Defeat the Exo Mechs
-		DetailedDescription: Draedon's ultimate masterpieces, representing the pinnacle of Terrarian technology. Survive this perfect performance.
+		DetailedDescription: The best things Draedon ever built. All three at once, with him standing off to the side watching.
 	}
 
 	OldDukeQuest: {
@@ -204,13 +204,13 @@ QuestNode: {
 	SupremeCalamitasQuest: {
 		DisplayName: Supreme Witch, Calamitas
 		Description: Defeat Supreme Witch, Calamitas
-		DetailedDescription: The legendary Brimstone Witch. This is the end of your journey, or perhaps a new beginning? Prepare yourself for true bullet hell.
+		DetailedDescription: The Brimstone Witch herself. Those clones were things she made without thinking. The screen will fill up.
 	}
 
 	YharonQuest: {
 		DisplayName: Yharon, Dragon of Rebirth
 		Description: Defeat Yharon
-		DetailedDescription: The loyal comrade of the Tyrant, a dragon possessing the phoenix's ability of rebirth. This is a trial of the soul.
+		DetailedDescription: The Tyrant's loyal comrade, a dragon that rises again like a phoenix. Knocking it down once does not finish it.
 	}
 
 	BatteryQuest: {
@@ -222,13 +222,13 @@ QuestNode: {
 	HydroelectricQuest: {
 		DisplayName: Clean Energy
 		Description: Craft a Hydroelectric Generator
-		DetailedDescription: Harness the power of flowing water to generate electricity. A clean and sustainable way to obtain energy.
+		DetailedDescription: Generates power from running water. Burns no fuel; as long as the water keeps moving, it keeps turning.
 	}
 
 	IndustrialStartQuest: {
 		DisplayName: Industrial Revolution
 		Description: Craft a Wind Generator
-		DetailedDescription: The first step towards automation. Use wind energy to drive your machines and free your hands.
+		DetailedDescription: Drives machines with wind. The first machine you do not have to stand next to.
 	}
 
 	ItemFilterQuest: {
@@ -240,13 +240,13 @@ QuestNode: {
 	MiningMachineQuest: {
 		DisplayName: Automated Excavation
 		Description: Craft a Mining Machine
-		DetailedDescription: Say goodbye to tedious manual mining. This machine devours ore veins with astonishing efficiency.
+		DetailedDescription: No more digging by hand. Set it on an ore vein and it keeps chewing downward.
 	}
 
 	MiningMachineIIQuest: {
 		DisplayName: Deep Core Drilling
 		Description: Craft a Mining Machine MK2
-		DetailedDescription: Its reinforced power core offers unparalleled speed.
+		DetailedDescription: New power core, faster drill.
 	}
 
 	PipelineQuest: {
@@ -258,7 +258,157 @@ QuestNode: {
 	TeslaTowerQuest: {
 		DisplayName: Magnetic Storm Tower
 		Description: Craft a Tesla Tower
-		DetailedDescription: The crystallization of Draedon's technology. This tower allows for wireless power transmission, completely revolutionizing your wiring layout.
+		DetailedDescription: A marvel of wireless power. The tower beams energy through the air and saves you most of the wiring.
+	}
+
+	FluidPumpQuest: {
+		DisplayName: Fluid Engineering
+		Description: Craft a Fluid Pump
+		DetailedDescription: Water and lava are resources too. The pump is what invites them out of the world.
+	}
+
+	FluidPipelineQuest: {
+		DisplayName: Veins of Liquid
+		Description: Craft Fluid Pipelines
+		DetailedDescription: Liquids need a grid of their own. Fluid pipes carry only fluids and leave the power grid alone.
+	}
+
+	FluidTankQuest: {
+		DisplayName: Vessel of Reserves
+		Description: Craft a Fluid Tank
+		DetailedDescription: Pumping fast means nothing without somewhere to keep it. The tank is the battery of the fluid network.
+	}
+
+	MagmaGeneratorQuest: {
+		DisplayName: Magma Thermal Power
+		Description: Craft a Magma Thermal Generator
+		DetailedDescription: The pumped magma finally has somewhere to go. It earns a little while touching lava, and runs at full power once its tank is fed.
+	}
+
+	ShimmerTransmuterQuest: {
+		DisplayName: Shimmer Alchemy
+		Description: Craft a Shimmer Transmuter
+		DetailedDescription: Pump shimmer into the machine, and item forms can be rewritten on an assembly line.
+	}
+
+	CrusherQuest: {
+		DisplayName: Ore from Rubble
+		Description: Craft an Ore Crusher
+		DetailedDescription: Two ore crushed into three. The incinerator's supply line just gained a yield step.
+	}
+
+	RecyclerQuest: {
+		DisplayName: Waste into Worth
+		Description: Craft a Recycler
+		DetailedDescription: Don't toss retired gear. Break it into bars by rarity and send it back to the furnace.
+	}
+
+	AutoCrafterQuest: {
+		DisplayName: Automated Assembly
+		Description: Craft an Auto Crafter
+		DetailedDescription: Pin a recipe; materials walk in and products walk out. The crafting bench no longer needs you standing by.
+	}
+
+	MushroomFarmerQuest: {
+		DisplayName: Fungiculture
+		Description: Craft a Mushroom Farming Machine
+		DetailedDescription: Harvests on grass and mushroom grass are its business. Glowing mushrooms included.
+	}
+
+	ApiaryQuest: {
+		DisplayName: Sweet Industry
+		Description: Craft an Electric Apiary
+		DetailedDescription: Empty bottles in, bottled honey out. The hive works harder near honey or in the jungle.
+	}
+
+	SlimeVatQuest: {
+		DisplayName: Gel Production
+		Description: Craft a Slime Culture Vat
+		DetailedDescription: Water and power in, gel out. The vat is the first raw-material machine of the farm waste stream.
+	}
+
+	BiomassGeneratorQuest: {
+		DisplayName: Closed Ecology
+		Description: Craft a Biomass Generator
+		DetailedDescription: Don't waste the farm's surplus. Feed it to the burner for power and the grow-burn loop starts turning.
+	}
+
+	FlameTurretQuest: {
+		DisplayName: Line of Fire
+		Description: Craft a Flamethrower Turret
+		DetailedDescription: A close-range wall of fire against crowds. Load gel and it burns harder.
+	}
+
+	CryoTurretQuest: {
+		DisplayName: Frost Lockdown
+		Description: Craft a Cryo Turret
+		DetailedDescription: Not built to kill, built to freeze. Enemies under the tower slow down until they can barely step.
+	}
+
+	LaserTurretQuest: {
+		DisplayName: Lightspeed Sniper
+		Description: Craft a Laser Turret
+		DetailedDescription: Anything in line of sight is one beam away. Longest range in the family, and it prefers big targets.
+	}
+
+	ShieldGeneratorQuest: {
+		DisplayName: Energy Bulwark
+		Description: Craft a Shield Generator
+		DetailedDescription: Everyone in range gets a layer of absorbing shield. More allies, faster drain.
+	}
+
+	HealStationQuest: {
+		DisplayName: Field Medicine
+		Description: Craft a Healing Station
+		DetailedDescription: Stand in the aura and wounds slowly close. The phrase "workplace injury" retires today.
+	}
+
+	TeleportStationQuest: {
+		DisplayName: Teleport Network
+		Description: Craft a Teleport Station
+		DetailedDescription: Two stations make a network, and the whole map opens up. The farther the hop, the higher the toll.
+	}
+
+	ElectricSundialQuest: {
+		DisplayName: Winding the Sundial
+		Description: Craft an Electric Sundial
+		DetailedDescription: Store a thousand units of power to skip the night in one press. The whole server gets notified.
+	}
+
+	SolarPanelQuest: {
+		DisplayName: Facing the Sun
+		Description: Craft a Solar Panel
+		DetailedDescription: Generates by day and peaks at noon. Keep its sky clear; rain and eclipses are its days off.
+	}
+
+	CapacitorMatrixQuest: {
+		DisplayName: Grand Reservoir
+		Description: Craft a Capacitor Matrix
+		DetailedDescription: Forty thousand units in one bank. The grid's flywheel, and the end of the blackout era.
+	}
+
+	WeatherControllerQuest: {
+		DisplayName: Rainmaker
+		Description: Craft a Weather Controller
+		DetailedDescription: Five hundred power buys a rain, and once more clears it. The wind takes no orders.
+	}
+
+	WireInterfaceQuest: {
+		DisplayName: Wire Bridging
+		Description: Craft Wire Interfaces
+		DetailedDescription: The wire network and the power grid finally speak. Signals can toggle machines, and machines can send signals back.
+	}
+
+	SensorQuest: {
+		DisplayName: Electric Sentry Eye
+		Description: Craft a Multi-Mode Sensor
+		DetailedDescription: Charge levels, enemies and blood moons, nothing escapes its watch. The moment a condition holds, a wire signal goes out.
+	}
+
+	GridSwitchQuest: {
+		DisplayName: Grid Dispatch
+		Description: Craft a Grid Switch
+		DetailedDescription: A master switch built into the lines. Flip it open and the whole downstream grid falls silent at once.
 	}
 
 	ThermalPowerQuest: {
@@ -270,43 +420,13 @@ QuestNode: {
 	AnnihilatingUniverseQuest: {
 		DisplayName: Annihilating Universe
 		Description: Obtain "Annihilating Universe"
-		DetailedDescription: Compress the power of galaxies onto a bowstring. This weapon possesses the power to destroy universal dimensions, the ultimate proof for a ranger.
+		DetailedDescription: A galaxy compressed onto a bowstring. At full draw, the bow is more dangerous than the arrow.
 	}
 
 	AriaofTheCosmosQuest: {
 		DisplayName: Aria of the Cosmos
 		Description: Obtain "Aria of the Cosmos"
 		DetailedDescription: Perform the symphony of the stars. This tome summons black holes and quasars, letting enemies vanish amidst the song of the universe.
-	}
-
-	DarkMatterCompressorQuest: {
-		DisplayName: Dark Matter Compressor
-		Description: Obtain Dark Matter Compressor
-		DetailedDescription: Manipulate the most mysterious matter in the universe. This machine compresses dark matter into high-density energy spheres for advanced crafting.
-	}
-
-	InfiniteIngotQuest: {
-		DisplayName: Infinite Ingot
-		Description: Forge Infinite Ingot
-		DetailedDescription: A metal that transcends the law of conservation of mass. It is the cornerstone to ultimate power, containing infinite possibilities.
-	}
-
-	InfinitePickQuest: {
-		DisplayName: Infinite Pickaxe
-		Description: Obtain Infinite Pickaxe
-		DetailedDescription: Nothing can stop this pickaxe. It can mine everything, even the bedrock of the world.
-	}
-
-	InfiniteToiletQuest: {
-		DisplayName: Infinite Toilet
-		Description: Obtain Infinite Toilet
-		DetailedDescription: The throne of gods. Though it sounds absurd, it truly symbolizes some form of... supreme authority.
-	}
-
-	InfinityCatalystQuest: {
-		DisplayName: Infinity Catalyst
-		Description: Obtain Infinity Catalyst
-		DetailedDescription: The key medium to start the infinite reaction. It allows matter to cycle between annihilation and rebirth, generating immense energy.
 	}
 
 	NeutronBowQuest: {
@@ -348,37 +468,25 @@ QuestNode: {
 	PandemoniumQuest: {
 		DisplayName: Pandemonium
 		Description: Obtain "Pandemonium"
-		DetailedDescription: The ultimate weapon fusing countless souls and Calamitous power. Holding it, you hold the keys to Hell and the Abyss.
+		DetailedDescription: A weapon forged from countless souls melted together. Hold it long enough and you can hear them still talking.
 	}
 
 	RockQuest: {
 		DisplayName: Ancient Eternal Stone
 		Description: Obtain Ancient Eternal Stone
-		DetailedDescription: A seemingly ordinary stone, yet it has witnessed the cycle of countless Boss Rushes. It is a symbol of eternal perseverance.
+		DetailedDescription: A stone that looks completely ordinary, left over from the last Boss Rush.
 	}
 
 	TerminusQuest: {
 		DisplayName: Terminus
 		Description: Obtain Terminus
-		DetailedDescription: The key to starting the Boss Rush. Gaze into this stone and prepare to face a continuous trial against the world's strongest beings.
-	}
-
-	TransmutationOfMatterQuest: {
-		DisplayName: Matter Transmuter
-		Description: Obtain Matter Transmuter
-		DetailedDescription: The ultimate form of alchemy. This machine breaks the principle of equivalent exchange, converting matter at will, or creating it from nothing.
-	}
-
-	HeavenfallLongbowQuest: {
-		DisplayName: Infinite Bow
-		Description: Obtain Infinite Bow
-		DetailedDescription: A longbow that has shot down gods. Now it shall reappear in the world.
+		DetailedDescription: The key that starts the Boss Rush. Crush it and the strongest things in the world line up to come at you.
 	}
 
 	SpearOfLonginusQuest: {
 		DisplayName: Spear of Longinus
 		Description: Obtain Spear of Longinus
-		DetailedDescription: The legendary holy lance that pierced a deity, possessing the power to penetrate all fields and absolute barriers. When thrown, even the laws of causality make way for it.
+		DetailedDescription: The holy lance that once pierced a god. It does not recognize force fields, shields, or absolute barriers.
 	}
 
 	DragonsWordQuest: {
@@ -397,14 +505,14 @@ QuestNode: {
 		DisplayName: Adventurer
 		Description: The world is mine to roam!
 		QuestObjective.Description: Click to Claim
-		DetailedDescription: A journey of a thousand miles begins with a single step. Put on these boots and measure this vast world.
+		DetailedDescription: Put on these boots. The world is large and walking speed matters.
 	}
 
 	ExploreDungeon: {
 		DisplayName: Gloomy Dungeon
 		Description: Discover the Dungeon entrance
 		QuestObjective.Description: Reach the Dungeon
-		DetailedDescription: Endless secrets and dangers hide behind the cursed walls. Only the bravest explorers dare to set foot in this realm of the dead.
+		DetailedDescription: Behind the cursed brickwork waits the Dungeon Guardian. People who walk in before beating Skeletron do not usually walk out.
 	}
 
 	ExploreHell: {
@@ -416,7 +524,7 @@ QuestNode: {
 
 	ExploreJungle: {
 		DisplayName: Jungle Expedition
-		Description: Delve into the Jungle biome
+		Description: Head deep into the Jungle biome
 		QuestObjective.Description: Reach the Jungle
 		DetailedDescription: A vibrant yet perilous green maze. The dense vegetation conceals ancient temples and deadly swarms of bees.
 	}
@@ -432,7 +540,7 @@ QuestNode: {
 		DisplayName: Frozen Wasteland
 		Description: Explore the Snow biome
 		QuestObjective.Description: Reach the Snow biome
-		DetailedDescription: Eternal permafrost. The biting wind covers everything in ice and snow. Here, life exists in a much more resilient form.
+		DetailedDescription: Frozen year round, with wind strong enough to knock you off your feet. Penguins live here and so do wolves; only one of them is harmless.
 	}
 
 	ExploreSpace: {
@@ -453,7 +561,7 @@ QuestNode: {
 		DisplayName: Polar Code
 		Description: Find the Encrypted Schematic in the Snow Draedon Lab
 		QuestObjective.Description: Obtain Ice Schematic
-		DetailedDescription: The low temperatures here are perfect for preserving precision instruments. Delve into the lab beneath the ice to find that sealed polar technology.
+		DetailedDescription: The low temperatures here are perfect for preserving precision instruments. Get into the lab beneath the ice and find that sealed polar technology.
 	}
 
 	JungleLabSchematic: {
@@ -486,7 +594,7 @@ QuestNode: {
 	QueenSlimeQuest: {
 		DisplayName: Queen Slime
 		Description: Defeat Queen Slime
-		DetailedDescription: The crystal empress of the Hallow, ruling over all sanctified gelatinous creatures. Compared to her spouse, she is far more agile and deadly. Prepare for a magnificent barrage.
+		DetailedDescription: The crystal empress of the Hallow, ruling every sanctified gelatinous creature. Faster and deadlier than her spouse, and she flies.
 	}
 
 	BuildHouse: {
@@ -542,7 +650,7 @@ QuestNode: {
 		DisplayName: Deep Explorer
 		Description: Explore all major biomes
 		QuestObjective.Description: Complete all exploration quests
-		DetailedDescription: You have traversed every corner of the world, from the highest clouds to the deepest hell. The map you have drawn is proof of your courage. Now, the entire world lies at your feet.
+		DetailedDescription: You have been to every corner of the world, from the highest clouds to the deepest hell. There is no blank space left on the map.
 	}
 
 	ExploreCaverns: {
@@ -570,7 +678,7 @@ QuestNode: {
 		DisplayName: Floating Islands
 		Description: Find Floating Islands in the sky
 		QuestObjective.Description: Reach a Floating Island
-		DetailedDescription: Legends say that above the clouds lie treasure vaults left by an ancient civilization. Look for gravitational anomalies or build a tower to the heavens to find out.
+		DetailedDescription: A few islands drift above the clouds, holding vaults left by an ancient civilization. Find where gravity goes wrong, or build your own tower up.
 	}
 
 	ExploreGlowingMushroom: {
@@ -582,9 +690,9 @@ QuestNode: {
 
 	ExploreUnderground: {
 		DisplayName: Underground Exploration
-		Description: Delve into the underground caves
+		Description: Head deep into the underground caves
 		QuestObjective.Description: Reach the Underground
-		DetailedDescription: Simply scraping the surface dirt is not enough. True adventure begins below the surface. Bring your torches; the first layer of rock is just the beginning.
+		DetailedDescription: Below the dirt layer is the rock layer. Bring enough torches; there are many more layers under that.
 	}
 
 	FindLifeCrystal: {
@@ -624,7 +732,7 @@ QuestNode: {
 	CollectorQuest: {
 		DisplayName: Collection Assistant
 		Description: Obtain the Collector
-		DetailedDescription: Tired of bending over to pick up loot everywhere? This device automatically collects nearby dropped items. It is a core component for building automated logistics and sorting systems, completely freeing your hands.
+		DetailedDescription: This device picks up nearby drops on its own. It is where automated logistics starts. No more collecting things off the ground one at a time.
 	}
 
 	LumberjackQuest: {
@@ -648,12 +756,391 @@ QuestNode: {
 	ItemPipelineQuest: {
 		DisplayName: Logistics System
 		Description: Craft an Item Pipeline
-		DetailedDescription: Still running between chests like a primitive? These pipes are the veins of industry. Connect them between machines and containers, and watch items automatically flow to where they belong. Build an automated assembly line and enjoy the pleasure of reaping rewards without the labor.
+		DetailedDescription: Pipes are the veins of industry. Run them between machines and containers and items walk themselves to where they belong, so you stop running between chests.
 	}
 
 	ThrowerQuest: {
 		DisplayName: Throwing Assistant
 		Description: Craft a Thrower
 		DetailedDescription: Not all items are worth treasuring. This device ejects items from the logistics network, tossing them out into the world. Whether for automated crafting (like dropping items into liquids) or simply acting as a garbage disposal chute, it handles the job perfectly.
+	}
+
+	DeerclopsQuest: {
+		DisplayName: Deerclops
+		Description: Defeat Deerclops
+		DetailedDescription: Deep in the blizzard stands a one-eyed giant deer. It does not come looking for you; you insist on looking for it.
+	}
+
+	DukeFishronQuest: {
+		DisplayName: Duke Fishron
+		Description: Defeat Duke Fishron
+		DetailedDescription: Bait your hook with a truffle worm and a duke will bite. Pig, dragon, fish; three kinds of menace on a single face.
+	}
+
+	EmpressOfLightQuest: {
+		DisplayName: Empress of Light
+		Description: Defeat the Empress of Light
+		DetailedDescription: Step on a prismatic lacewing in the Hallow and the furious empress will come to settle the score herself. Anger her in daylight and every one of her attacks kills in one hit.
+	}
+
+	ZenithQuest: {
+		DisplayName: Zenith
+		Description: Forge the Zenith
+		DetailedDescription: From the copper shortsword to the Starwrath, every blade you ever swung remembers you. Melt them together, and this journey takes its final shape.
+	}
+
+	BloodMoonQuest: {
+		DisplayName: Night of Blood
+		Description: Live through a Blood Moon
+		QuestObjective.Description: Experience a Blood Moon
+		DetailedDescription: On nights when the moon turns red, monsters stop knocking; they open the door themselves. Survive until dawn.
+	}
+
+	TorchGodQuest: {
+		DisplayName: The Torch God
+		Description: Pass the Torch God's trial
+		QuestObjective.Description: Earn the Torch God's Favor
+		DetailedDescription: Plant a hundred torches underground and the master of flame will test you in person. Its favor hides within the extinguished lights.
+	}
+
+	GoblinArmyQuest: {
+		DisplayName: Goblin Invasion
+		Description: Repel the Goblin Army
+		QuestObjective.Description: Repel the Goblin Army
+		DetailedDescription: Smashing Shadow Orbs draws them in, and so does a growing settlement. Short, swarming, endless; but win, and you may pick up a captive who repairs gear.
+	}
+
+	OldOnesArmyQuest: {
+		DisplayName: Old One's Army
+		Description: Guard the Eternia Crystal and repel all three tiers of the Old One's Army
+
+		QuestObjective: {
+			Description: {
+				T1: Repel the Old One's Army Tier 1
+				T2: Repel the Old One's Army Tier 2
+				T3: Repel the Old One's Army Tier 3
+			}
+		}
+
+		DetailedDescription: The Tavernkeep brings a plea from another world. Set the crystal, hold the portals, and let nothing touch it. Three tiers, each meaner than the last.
+	}
+
+	PirateInvasionQuest: {
+		DisplayName: Pirate Invasion
+		Description: Repel the Pirate Invasion
+		QuestObjective.Description: Repel the Pirate Invasion
+		DetailedDescription: Once the world hardens, sails appear on the horizon. They come for your money; take theirs back, captain's belongings included.
+	}
+
+	SolarEclipseQuest: {
+		DisplayName: Eclipse Hunt
+		Description: Slay a Mothron during a Solar Eclipse
+		QuestObjective.Description: Slay a Mothron
+		DetailedDescription: On days the moon blots out the sun, daytime is deadlier than night. Everything from the horror films takes to the streets, and the fastest flier among them is called Mothron.
+	}
+
+	MartianMadnessQuest: {
+		DisplayName: Martian Madness
+		Description: Repel the Martian invasion
+		QuestObjective.Description: Repel the Martian invasion
+		DetailedDescription: Do not stare at the probe in the sky; it flies home and brings friends. Saucers, death rays, mind-control helmets; the full alien invasion package.
+	}
+
+	PumpkinMoonQuest: {
+		DisplayName: Pumpkin Moon
+		Description: Defeat Pumpking during the Pumpkin Moon
+		QuestObjective.Description: Defeat Pumpking
+		DetailedDescription: Wake Halloween night with a Pumpkin Moon Medallion. Scarecrows line up to collect heads, and the closer is a king carrying twin scythes.
+	}
+
+	FrostMoonQuest: {
+		DisplayName: Frost Moon
+		Description: Defeat the Ice Queen during the Frost Moon
+		QuestObjective.Description: Defeat the Ice Queen
+		DetailedDescription: Open the present that should have stayed wrapped and Christmas Eve goes sour. Tanks patrol the snow while the queen dives through the blizzard.
+	}
+
+	FishermanQuest: {
+		DisplayName: Angler's Errands
+		Description: Complete five Angler quests
+		QuestObjective.Description: Complete Angler quests
+		DetailedDescription: A bossy little brat lives by the sea, but his rewards are surprisingly solid. Where the fish are, the treasure is.
+	}
+
+	LifeMaxQuest: {
+		DisplayName: Fountain of Life
+		Description: Raise your max life to 400
+		QuestObjective.Description: Reach 400 max life
+		DetailedDescription: Heart crystals only carry you halfway. The rest of the road is fought and grown through. Four hundred life is the ticket to standing firm in Hardmode.
+	}
+
+	ManaMaxQuest: {
+		DisplayName: Heart of Mana
+		Description: Raise your max mana to 200
+		QuestObjective.Description: Reach 200 max mana
+		DetailedDescription: Press fallen stars into crystals and feed them to yourself one by one. Twenty points a sip, nine sips in all, and the night sky runs in your veins.
+	}
+
+	WingsQuest: {
+		DisplayName: Spread Your Wings
+		Description: Equip any pair of wings
+		QuestObjective.Description: Equip wings
+		DetailedDescription: Sky vaults, fairy feathers, demon membranes. Whatever the source, the moment wings sprout from your back, fall damage becomes history.
+	}
+
+	MoneyQuest: {
+		DisplayName: First Fortune
+		Description: Hold a Platinum Coin
+		QuestObjective.Description: Hold a Platinum Coin
+		DetailedDescription: A hundred gold coins pressed into one platinum. You probably died plenty of times earning it; merchants call that a handling fee.
+	}
+
+	ExploreAetherQuest: {
+		DisplayName: The Shimmering Lake
+		Description: Find the Aether
+		QuestObjective.Description: Reach the Shimmer
+		DetailedDescription: Tucked in a corner of the world is a lake that does not belong here. Drop something in and it comes back changed. Do not jump in to test it yourself.
+	}
+
+	HardmodeOresQuest: {
+		DisplayName: Three New Metals
+		Description: Gather the three tiers of Hardmode ore
+
+		QuestObjective: {
+			Description: {
+				T1: Collect Cobalt or Palladium Ore
+				T2: Collect Mythril or Orichalcum Ore
+				T3: Collect Adamantite or Titanium Ore
+			}
+		}
+
+		DetailedDescription: After the Wall of Flesh falls, smash the altars with a holy hammer and three new metals grow in the deep. Each is harder than everything that came before.
+	}
+
+	ChlorophyteQuest: {
+		DisplayName: Power of Chlorophyte
+		Description: Collect 30 Chlorophyte Ore
+		DetailedDescription: With the machines destroyed, a glowing green metal starts growing in the deep jungle mud. It has a will of its own, and it spreads on its own too.
+	}
+
+	CalamityLoreHub: {
+		DisplayName: Anomaly Survey
+		Description: Something is wrong with this world
+		QuestObjective.Description: Click to claim
+		DetailedDescription: The sea is acid, the crags are burning, and things no field guide knows grow in the crater a star left behind. Write it all down; this world's dark side is bigger than you think.
+	}
+
+	ExploreSulphurSea: {
+		DisplayName: Sulphurous Sea
+		Description: Explore the Sulphurous Sea
+		QuestObjective.Description: Reach the Sulphurous Sea
+		DetailedDescription: One side of the world has no blue ocean, only yellowed acid water. Rain fizzes where it lands and the fish come up venomous. Cover your mouth, and do not drink.
+	}
+
+	ExploreAbyss: {
+		DisplayName: Mouth of the Abyss
+		Description: Dive into the Abyss beneath the Sulphurous Sea
+		QuestObjective.Description: Enter the Abyss
+		DetailedDescription: A downward rift splits the floor of the sulphurous sea. Light cannot follow, neither can breath, and the deeper you go, the older the things that live there.
+	}
+
+	AbyssDeepQuest: {
+		DisplayName: Bottom of the Abyss
+		Description: Bring back Lumenyl and Voidstone from the Abyss
+		DetailedDescription: Where mining lamps cannot reach, blue-glowing crystal grows along the rock walls. Dig it out and surface alive; only then have you truly been to the Abyss.
+	}
+
+	ExploreSunkenSea: {
+		DisplayName: Sunken Sea
+		Description: Find the Sunken Sea deep beneath the desert
+		QuestObjective.Description: Reach the Sunken Sea
+		DetailedDescription: Beneath the desert hides a quiet stretch of blue. Prisms glow in the water and the clams are bigger than your house. This may be the gentlest corner of the world.
+	}
+
+	ExploreBrimstoneCrag: {
+		DisplayName: Brimstone Crags
+		Description: Set foot in the Brimstone Crags at the edge of the Underworld
+		QuestObjective.Description: Reach the Brimstone Crags
+		DetailedDescription: On one side of Hell stands a cliff that has burned longer than anyone remembers. Dark red fire seeps from the brickwork, and an elemental spirit sleeps in the ruins.
+	}
+
+	ExploreAstral: {
+		DisplayName: Astral Blight
+		Description: Explore the star-tainted land
+		QuestObjective.Description: Reach the Astral Infection
+		DetailedDescription: A star crashed into the world, and what grows in the crater belongs to no bestiary. The land is changing color, the creatures are changing shape, and this is only the beginning.
+	}
+
+	AcidRainQuest: {
+		DisplayName: Acid Rain
+		Description: Weather an acid rain
+		QuestObjective.Description: Experience the Acid Rain event
+		DetailedDescription: The clouds over the sulphurous sea are yellow. When it rains the whole sea boils, and the things in the water climb ashore with it. Bring an umbrella. Seriously.
+	}
+
+	DeliciousMeatQuest: {
+		DisplayName: Delicious Meat
+		Description: Obtain a piece of Delicious Meat
+		DetailedDescription: Nobody knows what animal it came from, and nobody cares. Tasty, filling, doubles as a building block. Stock up.
+	}
+
+	BrimlishQuest: {
+		DisplayName: Brimlish
+		Description: Fish up a Brimlish
+		DetailedDescription: Even the acid water has fish in it, and they look surprisingly lively. Cast your line into the sulphurous sea and see what bites.
+	}
+
+	GiantClamQuest: {
+		DisplayName: Giant Clam
+		Description: Defeat the Giant Clam
+		DetailedDescription: The largest shell in the Sunken Sea. Quiet as a rock most days; everyone who pried it open regretted it.
+	}
+
+	CragmawMireQuest: {
+		DisplayName: Cragmaw Mire
+		Description: Defeat the Cragmaw Mire during the Acid Rain
+		DetailedDescription: Once the world hardens, something bitey floats up through the acid rain. It has far too many teeth, and all of them point at you.
+	}
+
+	MaulerQuest: {
+		DisplayName: The Mauler
+		Description: Defeat the Mauler during the Acid Rain
+		DetailedDescription: A shark raised on acid, with a temper to match the pH. By the time it breaches, remembering to dodge is already too late.
+	}
+
+	NuclearTerrorQuest: {
+		DisplayName: Nuclear Terror
+		Description: Defeat the Nuclear Terror during the Acid Rain
+		DetailedDescription: At the deepest hour of the acid rain, something enormous and glowing hatches. Even the acid water pulls back from where it walks.
+	}
+
+	GreatSandSharkQuest: {
+		DisplayName: Great Sand Shark
+		Description: Defeat the Great Sand Shark
+		DetailedDescription: The fastest hunter in the desert; the dunes are its open sea. Cull enough of its kin and the king of the pack will show up in person.
+	}
+
+	LeviathanQuest: {
+		DisplayName: Anahita and the Leviathan
+		Description: Defeat Anahita and the Leviathan
+		DetailedDescription: The song comes first, the great shadow after. The siren's melody guides the deep-sea beast; do not stop to listen.
+	}
+
+	AstrumAureusQuest: {
+		DisplayName: Astrum Aureus
+		Description: Defeat Astrum Aureus
+		DetailedDescription: Deep in the astral blight crouches an infected war machine. It wakes at night, and nothing grows where its treads have passed.
+	}
+
+	RavagerQuest: {
+		DisplayName: Ravager
+		Description: Defeat the Ravager
+		DetailedDescription: A giant pieced together from flesh and masonry, every limb attacking on its own. Tear off all four before the body itself gets serious.
+	}
+
+	AstrumDeusQuest: {
+		DisplayName: Astrum Deus
+		Description: Defeat Astrum Deus
+		DetailedDescription: Lay an offering on the astral beacon and an infected god swims down out of the night sky. Only its death opens the astral ore to your pickaxe.
+	}
+
+	BossRushQuest: {
+		DisplayName: The Final Battle
+		Description: Clear a Boss Rush
+		QuestObjective.Description: Complete the Boss Rush
+		DetailedDescription: Crush the Terminus and everything you have ever slain lines up to find you again. Kill them all a second time to put the seal on this journey.
+	}
+
+	AerialiteQuest: {
+		DisplayName: Aerialite Gleam
+		Description: Forge Aerialite Bars
+		DetailedDescription: When the Desert Scourge dies, pale blue ore-dust settles from the sky. Light enough to float, yet sturdier than iron.
+	}
+
+	CryonicQuest: {
+		DisplayName: Cryonic Crystal
+		Description: Forge Cryonic Bars
+		DetailedDescription: With Cryogen shattered, blue veins crystallize in the deep ice of the tundra. It does not melt in your hand; it only gets colder.
+	}
+
+	PerennialQuest: {
+		DisplayName: Perennial Gift
+		Description: Forge Perennial Bars
+		DetailedDescription: Where Plantera wilted, a breathing green metal grows from the soil. The jungle repays its debts in its own way.
+	}
+
+	LifeAlloyQuest: {
+		DisplayName: Life Alloy
+		Description: Smelt Life Alloys
+		DetailedDescription: Three living metals melted into one; the ingot still carries a pulse. Every high-end frame is built on it.
+	}
+
+	AstralBarQuest: {
+		DisplayName: Astral Smelting
+		Description: Forge Astral Bars
+		DetailedDescription: With the god-worm dead, the astral veins finally yield to the pickaxe. The bars glow on their own in the dark.
+	}
+
+	UelibloomQuest: {
+		DisplayName: Uelibloom in Blossom
+		Description: Forge Uelibloom Bars
+		DetailedDescription: After the goddess's holy fire swept through, metal flowers bloomed in the jungle mud. Smelt the petals into bars; the light stays inside.
+	}
+
+	BloodstoneQuest: {
+		DisplayName: Bloodstone Tempering
+		Description: Gather Bloodstone Cores
+		DetailedDescription: With the goddess fallen, dark red stones float up through the lava of the Brimstone Crags. They are still beating, like hearts outside their bodies.
+	}
+
+	AscendantEssenceQuest: {
+		DisplayName: Ascendant Spirit
+		Description: Condense Ascendant Spirit Essence
+		DetailedDescription: Phantoms, stardust, moonlight, and a stubborn will that refuses to scatter. Press them into one essence; it is enough to light a legend.
+	}
+
+	YharonSoulQuest: {
+		DisplayName: Embers of the Dragon Soul
+		Description: Collect Yharon Soul Fragments
+		DetailedDescription: When the great dragon burned out, what remained in the flames was not ash but shards of soul, still hot. Mind your heart when you pick them up.
+	}
+
+	FruitQuest: {
+		DisplayName: Gifts of Life
+		Description: Gather all four life-enhancing fruits
+		DetailedDescription: Strange fruit sometimes ripens beside the corpses of mighty foes. Four kinds in all, and every one pushes your life to a new limit.
+	}
+
+	DraedonPowerCellQuest: {
+		DisplayName: Ancient Power
+		Description: Collect Power Cells
+		DetailedDescription: The lab ruins are littered with cells that still hold a charge. An energy density far beyond your generators; worth studying.
+	}
+
+	DraedonsForgeQuest: {
+		DisplayName: The Master's Forge
+		Description: Obtain the master craftsman's forge
+		DetailedDescription: At the end of industry stands a furnace that can smelt anything. Assemble it, and your workshop will never again meet something it cannot make.
+	}
+
+	ConquerorMilestone: {
+		DisplayName: Chronicle of Conquest
+		Description: Defeat every mighty foe of this world
+		QuestObjective.Description: Complete all hunt quests
+		DetailedDescription: From King Slime to the things at the world's end, finish every hard fight there is. Few ever fill this page.
+	}
+
+	EventMilestone: {
+		DisplayName: Peacekeeper
+		Description: Quell every invasion and anomaly
+		QuestObjective.Description: Complete all event quests
+		DetailedDescription: Armies, fleets, moons from other worlds. Whatever came in numbers, you sent home.
+	}
+
+	CompletionistMilestone: {
+		DisplayName: The Complete Codex
+		Description: Finish everything in this book
+		QuestObjective.Description: Complete all quests
+		DetailedDescription: The last page of this book is reserved for whoever reads it all. By the time you close it, this world holds nothing you have not seen.
 	}
 }

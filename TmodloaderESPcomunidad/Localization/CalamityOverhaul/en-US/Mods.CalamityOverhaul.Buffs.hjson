@@ -1,11 +1,56 @@
-﻿SoulBurning: {
+SoulBurning: {
 	DisplayName: Soul Burning
 	Description: Fire from hell
+}
+
+RevelationMarkDebuff: {
+	DisplayName: Mark of Revelation
+	Description: Under John's gaze, all damage taken is increased
+}
+
+TruthRevealDebuff: {
+	DisplayName: Truth Revealed
+	Description: Armor stripped away, nowhere to hide
+}
+
+WealthBlessingDebuff: {
+	DisplayName: Blessing of Wealth
+	Description: Bursts into a devoted golden rain upon death
+}
+
+VerificationBuff: {
+	DisplayName: Eye of Verification
+	Description: Thomas has verified it, your strikes will surely crit
+}
+
+ZealotFervorBuff: {
+	DisplayName: Fervor
+	Description: The Zealot's holy fire burns within, attack and movement speed surge
+}
+
+PlagueMarkDebuff: {
+	DisplayName: Plague Mark
+	Description: The Plague Horseman's holy pestilence is eating away at life
 }
 
 HellburnBuff: {
 	DisplayName: Hell fire Explosion
 	Description: Fire from hell
+}
+
+KikasaWispBurn: {
+	DisplayName: Wisp Fire
+	Description: Golden wisp fire from the lake clings and burns
+}
+
+KikasaInkTag: {
+	DisplayName: Ink Seal
+	Description: Stamped by the Kikasa's ink, summons deal bonus damage to this target
+}
+
+DivineSourceChargeBuff: {
+	DisplayName: Auric Surge
+	Description: The Divine Source Blade runs at full output, damage soars and its bolts become piercing lances
 }
 
 VoidErosion: {
@@ -16,6 +61,36 @@ VoidErosion: {
 DestroyerSummonBuff: {
 	DisplayName: Destroyer Summon Buff
 	Description: The Mini Destroyer will follow you into battle
+}
+
+DestroyerStalkBuff: {
+	DisplayName: Stalk Protocol
+	Description: Increased movement speed. Close in and right click to unleash the Destroyer's bite
+}
+
+DestroyerFrenzyBuff: {
+	DisplayName: Annihilation Protocol
+	Description: The blade overloads: increased damage, homing projectiles, and finishers launch Destroyer heads
+}
+
+EyekiteBuff: {
+	DisplayName: Bound Gaze
+	Description: A small Eye of Cthulhu is bound to you by a blood-soaked cord
+}
+
+DeepclawBuff: {
+	DisplayName: Deepclaw Lobster
+	Description: An abyssal lobster prowls at your side, pincers at the ready
+}
+
+BloomCallerBuff: {
+	DisplayName: Wildbloom Company
+	Description: A wildbloom sprout drifts at your side, thorns at the ready
+}
+
+EyetoothWound: {
+	DisplayName: Fang Wound
+	Description: The bite keeps weeping blood
 }
 
 FrenziedMachineSoul: {
@@ -33,6 +108,11 @@ HyperDisintegration: {
 	Description: Let the goal disintegrate from within
 }
 
+FocusMark: {
+	DisplayName: Focus Mark
+	Description: Death rays deal bonus damage against this mark
+}
+
 TemporalStasis: {
 	DisplayName: Temporal Stasis
 	Description: Time freezes around it
@@ -41,4 +121,139 @@ TemporalStasis: {
 GravitationalCollapse: {
 	DisplayName: Gravitational Collapse
 	Description: Dragged into the abyss by its own weight
+}
+
+MarbleRiposteBuff: {
+	DisplayName: Marble Riposte
+	Description: Melee damage increased by 10%
+}
+
+MarblePetrify: {
+	DisplayName: Marble Petrification
+	Description: Flesh turns to marble, movements grind to a halt
+}
+
+PallbearerShrouded: {
+	DisplayName: Marked for Collection
+	Description: The coffin's breath clings to it; the casket knows whom to collect
+}
+
+PallbearerSealed: {
+	DisplayName: Encoffined
+	Description: The casket's weight lingers; damage taken is increased
+}
+
+OniNeckGripDebuff: {
+	DisplayName: Oni Chokehold
+	Description: An oni hand is squeezing your throat; your movements grow heavy
+}
+
+OniBindDebuff: {
+	DisplayName: Ink-Bound
+	Description: Ink clings to its footing; movement turns sluggish
+}
+
+OniNumbDebuff: {
+	DisplayName: Numbed
+	Description: Limbs gone numb — slower to move, softer to strike
+}
+
+ScapeAfterburn: {
+	DisplayName: Scapegoat Afterburn
+	Description: Severe aftershocks from death evasion; movement speed reduced by 28%
+}
+
+GhostGripDebuff: {
+	DisplayName: Withered Grip
+	Description: Seized by the charred hand — there is no moving
+}
+
+OniPaperBrandDebuff: {
+	DisplayName: Effigy Wound
+	Description: Backlash from the paper effigy being struck; takes increased damage from Onikiri slashes
+}
+
+FuHongBlessBuff: {
+	DisplayName: Rainbow Bridge Grace
+	Description: Under the rainbow bridge: +10% movement speed, +10% summon damage
+}
+
+IndustrialShieldBuff: {
+	DisplayName: Energy Shield
+	Description: The shield keeps charging and absorbs part of incoming damage
+}
+
+IndustrialRegenBuff: {
+	DisplayName: Healing Aura
+	Description: A healing station is restoring your health
+}
+
+RotsawRendDebuff: {
+	DisplayName: Rotsaw
+	Description: Flesh is being sawed apart, losing 40 life per second
+}
+
+WaxWardBuff: {
+	DisplayName: Wax Ward
+	Description: The swarm's wax ward is absorbing damage in your stead
+}
+
+SwarmVortexDebuff: {
+	DisplayName: Swarm Vortex
+	Description: Shredded by the swarm vortex, movements slowed
+}
+
+MawCorrosionBuff: {
+	DisplayName: Acid Corrosion
+	Description: Acid is eating through armor
+}
+
+WhiteoutStormBuff: {
+	DisplayName: Whiteout Storm
+	Description: An extra 30% damage reduction and knockback immunity; the snow veil does not block your sight
+}
+
+WhiteblindDebuff: {
+	DisplayName: Whiteblind
+	Description: Blinded by the blizzard, movements dulled, 10 frostbite damage per second
+}
+
+BloomSnaredDebuff: {
+	DisplayName: Thorn Snare
+	Description: Entangled in bramble vines, bound and torn by thorns
+}
+
+SoulbindCurseDebuff: {
+	DisplayName: Soulbinding Curse
+	Description: Trapped in the curse domain, taking increased damage from its owner
+}
+
+SoulGripLockDebuff: {
+	DisplayName: Soul Grip
+	Description: Clutched in the ghostly hand's grasp, unable to move
+}
+
+SoulbindOverwhelmDebuff: {
+	DisplayName: Soul Crush
+	Description: Cursed flames bear down; all damage taken is increased by 20%
+}
+
+RefractionTag: {
+	DisplayName: Refraction
+	Description: Slowed; the Refraction Waltz wearer gains 8% crit chance against it
+}
+
+AbyssalPressure: {
+	DisplayName: Abyssal Pressure
+	Description: Wrapped in crushing deep-sea pressure, movement is severely impeded
+}
+
+BlessErosionBuff: {
+	DisplayName: Erosion
+	Description: The Ring of Rot gnaws the armor, reducing defense by 10
+}
+
+EmpressScorchBuff: {
+	DisplayName: Empress Scorch Buff
+	Description: Mods.CalamityOverhaul.Buffs.EmpressScorchBuff.Description
 }

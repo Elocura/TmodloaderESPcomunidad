@@ -10,12 +10,15 @@ HalibutOverride: {
 		This fish has been researched.
 		'''
 	DisplayName: Halibut
-	Tooltip:
-		'''
-		Converts Musket balls into a stream of Ocean Current
-		[Lang4]
-		legend_Text
-		'''
+	Tooltip: Converts Musket balls into a stream of Ocean Current
+	KeyLabelDomain: Domain Expansion
+	KeyLabelClone: Past Self Invasion
+	KeyLabelSuperpose: Superposition
+	KeyLabelRestart: Self-Restart
+	KeyLabelRestartWide: Wide-Area Restart
+	KeyLabelTeleport: Domain Teleport
+	KeyLabelWheel: Skill Wheel
+	KeyLabelAtlas: Abyss Atlas
 }
 
 HalibutText: {
@@ -27,13 +30,19 @@ HalibutText: {
 		TierName1: Open Sea · Twilight Zone
 		TierName2: Deep Sea · Midnight Zone
 		TierName3: Abyss · Lightless Zone
-		DockLabel: Loadout {0} / {1} · Click to select
+		DockLabel: Loadout {0} / {1} · Left-click to select, right-click to remove
 		LockedNodeName: Unknown Silhouette
 		LockedNodeHint: Research {0} at the Research Altar to light up this skill
 		EquipBtn: Equip
 		UnequipBtn: Remove
 		SelectBtn: Select
 		SelectedTag: Active
+		EquippedTag: Equipped
+		NodeEquipHint: Double-click to equip · Right-click works too · Or drag it into the loadout
+		NodeUnequipHint: Already in the loadout · Right-click to remove
+		DockSlotHint: Left-click to select · Right-click to remove · Drag to reorder
+		DockDropHint: Release to slot it in
+		DockRemoveHint: Release to remove
 		LoadoutFullHint: Loadout is full
 		UnlockFishLine: Research source: {0}
 		AltarTitle: Research Altar
@@ -45,7 +54,7 @@ HalibutText: {
 		StudyPlaceHint: Click to place into the Research Altar
 		StudyingFormat: Researching: {0}
 		StudyReclaim: Reclaim
-		DragHint: Hold and drag skills into the loadout · Scroll to dive
+		DragHint: Double-click a fish to equip · Drag to reorder · Scroll to dive
 		LayerStateFormat: Domain Layer {0}
 		UnlockCountFormat: Lit {0} / {1}
 	}
@@ -63,6 +72,12 @@ HalibutText: {
 	}
 
 	HalibutHudLead: {
+		AskTitle: Shall I Walk You Through It?
+		AskBody: The Abyssal Atlas, the Research Altar, the loadout and the wheel form one chain, and the two middle links are easy to miss on your own. You will only be asked this once
+		AskPrompt: Walk through it now, or accept the Pilot Chart and unroll it yourself later
+		AcceptBtn: Walk Me Through
+		DeclineBtn: Not Now
+		DeclineNotice: The Pilot Chart has been left with you; use it to open the guide any time
 		HudTitle: Abyssal Eye
 		HudBody: While the Halibut is held, this eye sits at the lower-left, showing your skill, resurrection and domain layers
 		HudPrompt: Left-click the eye, or press {0} to open the Abyssal Atlas
@@ -74,7 +89,7 @@ HalibutText: {
 		EquipBody: That row of sockets at the bottom is your loadout; researched skills land here, up to 10
 		EquipWaiting: Researching... the skill is added to your loadout when done
 		WheelTitle: Skill Wheel
-		WheelBody: Once a skill is equipped, swap your active skill on the fly in combat
+		WheelBody: Once a skill is equipped, swap your active skill on the fly in combat. Every eligible wheel appears together; the cursor belongs to whichever is closest
 		WheelPrompt: Hold {0} to summon the skill wheel — give it a try
 		SkipBtn: Skip
 	}
@@ -217,29 +232,6 @@ HalibutText: {
 	}
 }
 
-MurasamaOverride: {
-	World_Text0: Previously Upgraded World: <{0}> | Recorded Level: <{1}>
-	Text0: Unlocked
-	Text1: Not yet unlocked. Need to pass test [Unhook]
-	Text_Lang_0: Trial:
-	DisplayName: Murasama
-	Tooltip:
-		'''
-		Right-click to aim and charge the sword's energy. 
-		When a target is hit with a true melee attack using the left-click, the sword's energy will be charged. 
-		If there are powerful enemies nearby, the sword's energy will slowly charge on its own.
-		When the sword's energy is fully charged, press [KEY1] to release the blade. 
-		During the blade's flight, press the left-click to perform an Ascending Slash. [Lang1]
-		Hitting an enemy with the Ascending Slash will charge Weapon 1. 
-		Press [KEY2] to consume 1 point of weapon charge and perform a downward strike. [Lang2]
-		When the weapon charge reaches the maximum value of 10 points, 
-		hitting an enemy with the Ascending Slash again will trigger a finishing move. [Lang3]
-		[c/ff4500:" It would be better if this were a chainsaw sword "]
-		[Lang4]
-		legend_Text
-		'''
-}
-
 SHPCOverride: {
 	DisplayName: SHPC
 	Tooltip:
@@ -247,17 +239,24 @@ SHPCOverride: {
 		Left-click to fire three laser beams
 		Right-click and hold to charge energy
 		All attacks can be enhanced by the field
-		[Lang4]
-		legend_Text
 		'''
+	KeyLabelDomain: Domain Expansion
+	KeyLabelWheel: Domain Wheel
+	KeyLabelTeleport: Domain Teleport
+	KeyLabelRestart: Self-Restart
+	KeyLabelBanish: Banish
+	KeyLabelFreeze: Freeze
 }
 
 LegendUpgradeManagerSystem: {
 	QuestManagerHint: Press [{KEY}] to open the quest list
 	TrialPassed: Already passed
+	World_Text0: Previously Upgraded World: <{0}> | Recorded Level: <{1}>
+	Text_Lang_0: Trial:
 }
 
 TrialBlockedHint: The next trial requires the relevant content to be enabled before it can begin.
+TrialFrontierHint: Levels settle in order, and this trial is the current stop. Later trials cleared early are recorded first, then counted together once this one is done.
 
 HalibutTrialQuestLine: {
 	QuestCategory: Halibut Legend
@@ -345,101 +344,6 @@ HalibutTrialQuestLine: {
 	TextDictionary_Content_14: Honestly, I feel like going back to the sea.
 }
 
-MurasamaTrialQuestLine: {
-	QuestCategory: Demon Blade Murasama · Trials
-	TrackerWaiting: Target is absent, awaiting summons...
-	TrackerFighting: "{0}: {1:0%}"
-	Trial_0: Sludge First Cut
-	Trial_1: Desert Phantom
-	Trial_2: Invader
-	Trial_3: Corruption Purge
-	Trial_4: Parasitic Threat
-	Trial_5: Dungeon Breach
-	Trial_6: Gelatinous Defiler
-	Trial_7: Path to the Underworld
-	Trial_8: Abyssal Cleansing
-	Trial_9: Brimstone Purging Flame
-	Trial_10: Tundra Shackles
-	Trial_11: Steel Gears
-	Trial_12: Twin Eye Annihilation
-	Trial_13: Mechanical King Skull
-	Trial_14: Calamity Shadow Operation
-	Trial_15: Jungle Blossom
-	Trial_16: Petrified Frontline
-	Trial_17: Plague Eradication
-	Trial_18: Golem Breaker
-	Trial_19: Astral Termination
-	Trial_20: Lunar Fall
-	Trial_21: Phantom Sanction
-	Trial_22: Wraith Exorcism
-	Trial_23: God-Slaying Serpent
-	Trial_24: Jungle Flame
-	Trial_25: Core Termination
-	Trial_26: Chaos Judgment
-	Trial_27: Primordial Return
-	TrialSummary_0: Prove yourself to me, recruit.\nThat slimy blue blob is a good place to start.\nHandle it.
-	TrialSummary_1: The remnants of the sea scourge beneath the sands still roam.\nTrack it down and end it.
-	TrialSummary_2: The moon hangs high in the night. Let's go burst that giant eyeball flying around up there, and make that false god permanently blind.
-	TrialSummary_3:
-		'''
-		The remnants of false gods taint the lands of Terra. Go liberate the corrupted continents.
-		Hack that false god's brain to pieces, chop up that purple worm!
-		I want to see your blade dance through xenos flesh!
-		'''
-	TrialSummary_4: The corrupted earth still throbs like a heart. The flesh parasites are still active; the corrupted tumors are still thinking. Go banish them entirely!
-	TrialSummary_5:
-		'''
-		The curse at the dungeon entrance has loosened. I feel psychic energy stirring in its depths, mixed with screams, wails, whispers...
-		Shatter that giant skull.
-		'''
-	TrialSummary_6: Do you feel it? That foul corruption reeking of gel.\nPurify this filthy aggregate completely.
-	TrialSummary_7: Step into the Underworld. That wall of flesh spanning the lava—that is our door to the next era.\nTear it apart.
-	TrialSummary_8: The outcast of the Sulphurous Sea blocks our quest for the treasures of the abyss. Go end its devouring and wandering.
-	TrialSummary_9: The heretical fire of that Brimstone Emissary deep in the lava is an eyesore. Go extinguish it.
-	TrialSummary_10: In the bitter cold of the northern reaches lies a sealed creation of ice and snow.\nCrush it before it can fully unseal.
-	TrialSummary_11: A massive steel worm stands in the way of our crusade. Chop it into pieces.
-	TrialSummary_12: Those mechanical eyes look down on us—pierce them with your blade.
-	TrialSummary_13: The skeleton lord donned steel armor thinking it could stop us? Shatter that metal skull.
-	TrialSummary_14: That witch who threw herself into chaos has a deformed clone sister. Kill that xeno, and offer its blood and fire to the blade.
-	TrialSummary_15: The mad plant deep in the jungle has gone berserk. Use your blade to end this out-of-control growth.
-	TrialSummary_16: The foolish Lihzahrd race only knows how to worship these stubborn stones. Let's smash it to dust and destroy their faith.
-	TrialSummary_17: Amidst the steam and toxic gas is a bee-machine hybrid. Shoot that filthy thing down.
-	TrialSummary_18: That golem of destruction is rampaging across the land. Pulverize its steel body completely.
-	TrialSummary_19: The astral worms are gathering cosmic energy here. End it, so this star field can be ours.
-	TrialSummary_20:
-		'''
-		That false god hiding on the dark side of the moon is nothing but a flawed patchwork.
-		Go sever its tentacles, rip out its heart, and drink deep of its blood.
-		'''
-	TrialSummary_21: A pathetic deity lingering by siphoning solar thermal energy. Its heretical fire must be completely extinguished.
-	TrialSummary_22: The aggregate of undead deep in the dungeon. Let those restless souls finally be silenced.
-	TrialSummary_23: That arrogant cosmic serpent is stirring behind the veil of the world. End his ambitions.
-	TrialSummary_24:
-		'''
-		The Jungle Dragon, the last auric draconic descendant of Terra. It is vastly different from other xenos and deserves our respect.
-		However, right now we need it to die once more to strip it of its Auric Soul.
-		These materials will be used to forge an incredibly superior set of gear.
-		'''
-	TrialSummary_25:
-		'''
-		That heretic of the mechanical church firmly believes his Exo Titans surpass the power of gods.
-		Such a belief is utterly absurd. Let us return those Titans to their natural state—a pile of scrap metal.
-		'''
-	TrialSummary_26:
-		'''
-		A witch who once possessed outstanding psychic talent, who should have been a great asset in defending Terra, but who has long since lost herself to chaos.
-		We can only banish her. Plunge the blade into her chest, and let the fire of loyalty burn away her rotting soul.
-		'''
-	TrialSummary_27:
-		'''
-		Our path of conquest is already unstoppable. Shatter the armor of the demonic dragon beneath the black abyss.
-		Use the Terminus and engage in the final decisive battle with the xeno.
-		'''
-	TrackerBrief: Target：{0}
-	BossRushTargetName: Battle of Terminus
-	EventActiveFormat: "{0}: active"
-}
-
 SHPCTrialQuestLine: {
 	QuestCategory: SHPC · Trials
 	TrackerWaiting: Target is absent, awaiting summons...
@@ -449,7 +353,7 @@ SHPCTrialQuestLine: {
 	Trial_2: Source of Parasitism
 	Trial_3: God of Gel
 	Trial_4: Seal Breakthrough
-	Trial_5: Deep Sea Contamination
+	Trial_5: Mutation Quarantine
 	Trial_6: Brimstone Sampling
 	Trial_7: Mechanical Worm
 	Trial_8: Twin Eye Dismantlement
@@ -493,8 +397,8 @@ SHPCTrialQuestLine: {
 		'''
 	TrialSummary_5:
 		'''
-		The giant worm of the Sulphurous Sea has surfaced.
-		Master, please dismantle its devouring organs. I need to confirm how this pollution source operates.
+		The desert serpent has festered into a new strain, its pus testing thick with ichor.
+		Master, please collect its lesion tissue. I need to trace how this mutation propagates.
 		'''
 	TrialSummary_6:
 		'''
@@ -641,4 +545,747 @@ MoldProcessingUI: {
 	CodexHint: Click a discovered mold to pin it as reforge target
 	Discovered: DISCOVERED
 	PinnedTag: PINNED
+}
+
+OnikiriText: {
+	OniRegisterUI: {
+		TitleText: GHOST REGISTER
+		StatusFormat: "{0} on the wheel · Erosion {1}%"
+		RevivalFormat: Revival {0}%
+		AbilityCostFormat: Per use: Revival +{0}% · Erosion +{1}%
+		OriginLabel: Origin
+		PowerLabel: Bestowal
+		StateReady: Ready to bind
+		StateDanger: Waking · Use with care
+		StateArchive: Fragment · Cannot bind
+		UsableSection: WRAITHS
+		BrowseHint: Click a name to read its origin and bestowal. This scroll only records them; binding happens on the wheel
+		CloseTagText: CLOSE
+		CloseHintFormat: ESC · {0} · click outside to return to the wheel
+		EquippedActive: On the wheel
+	}
+
+	OniSigilUI: {
+		TitleText: SIGIL WHEEL
+		StatusFormat: Bound {0} / {1} · Erosion {2}%
+		CostFormat: Per use: Revival +{0}% · Erosion +{1}%
+		SlotEmptyHint: Lift a wraith seal from the outer ring, then press it onto an empty seat. Empty seats enable nothing
+		SlotFullHint: All three seats taken. Press a carried seal onto one to swap; click empty-handed to release
+		PickHint: "{0} in hand · press onto a seat to bind · click open space to put it back"
+		SwapHint: Click to swap in {0}
+		UnbindHint: Click to release
+		PendingText: AWAITING
+		BoundFormat: "{0} now sits on the wheel"
+		UnboundFormat: "{0} released"
+		DangerNote: Waking · Use with care
+		CloseTagText: CLOSE
+		CloseHintFormat: ESC · {0} · click outside the wheel to close
+		MeiTabText: Inscription Stand
+		MeiTabHint: Click to step over
+		RegisterTabText: Ghost Register
+		RegisterTabHint: Click to read
+	}
+
+	OniMeiUI: {
+		TitleText: INSCRIPTION STAND
+		CloseTagText: SHEATHE
+		CloseHintFormat: ESC · {0} · click off the stand to sheathe
+		StatusFormat: '''{0} inscriptions · Present name "{1}"'''
+		SlotNakago: Tang Mei
+		SlotHi: Groove
+		SlotHorimono: Horimono
+		EmptyName: (vacant)
+		EmptyHintNakago: The tang bears no name — this slot sits empty, granting no boon and charging no price. Pick a chisel print and cut one in; that is what gives the blade its temper
+		EmptyHintHi: No groove opened. Each groove cut is a measure of weight gone
+		EmptyHintHorimono: The carving bed sits empty, granting nothing. Decide which one you would invite into the steel, then pick its chisel print and set to work
+		EraseName: EFFACE
+		EraseHint: File this inscription away — a mei can be cut again, but the blade forgets no scar
+		OriginLabel: Provenance
+		PowerLabel: Bestowal
+		BurdenLabel: Price
+		CurrentMark: Present
+		GoldMark: Gold Inlay
+		SigilTabText: Sigil Wheel
+		SigilTabHint: Click to step over
+		TrayTitle: Satchel Rubbings
+		TrayEmpty: No rubbing for this seat in your satchel. Fan ribs of owned mei still carve
+		CodexTabText: Mei Codex
+		CodexTabHint: Click to open
+	}
+
+	OniMeiDeedText: {
+		LockedKind: Uncarved
+		LockedCount: Bond {0} / {1}
+		LockedFeat: The bond is not yet met
+		LockedUnknown: This mei answers to no bond
+		Settle: The blade's bond is sealed — the rubbing of "{0}" falls at your feet
+	}
+
+	OniPlayerDismemberSystem.SelfHurtDeathReason: "{0} was severed by their own blade"
+
+	OniTalismanHud: {
+		HudTitle: Sealing Talisman
+		HudHintFormat: "{0} toggles {1}; click the talisman to open it"
+		HudMeiName: the Inscription Stand
+		HudSigilName: the Sigil Wheel
+		HudDangerLine: Revival nearly full; one more use and it wakes
+		HudWraithFormat: Closest {0} · Revival {1}% · {2} on the wheel
+		VigorTitle: Vigor
+		VigorValueFormat: "{0} / {1}"
+		StanceTitle: Stance
+		StanceValueFormat: "{0} / {1}"
+		StanceReadyLine: Full Stance: press {0} to lock onto target and execute Finale Slash; double-dash still penetrates foes
+		StanceHalfLine: Half Stance: double-tap {0}, then left-click to trigger Annihilating Flash
+		StanceLockedLine: Execution in progress: invulnerable, Stance locked
+		DomainTitle: Eye of the Oni Domain
+		DomainStateClosed: Closed (Domain not expanded)
+		DomainStateOmote: Omote (Paper form)
+		DomainStateUra: Ura (Ink-wash form)
+		DomainStateShifting: Transitioning forms
+		DomainToggleHintFormat: "{0} or Left Click: expand / close domain"
+		DomainFlipHintFormat: "{0} or Right Click: flip Omote/Ura (expands if closed)"
+	}
+
+	OnikiriTutorialLead: {
+		AskTitle: View the Tutorial?
+		AskBody: Vigor & Stance, Omote & Ura forms of the domain, and the dismemberment backlash mechanism: understanding these beforehand helps avoid trouble in combat. This prompt appears only once
+		AskPrompt: Click "Start Tutorial" to learn; skip if in a hurry; or accept the Keiko Rune to open the tutorial anytime later
+		RefreshAskTitle: Tutorial Content Updated
+		RefreshAskBody: This update adds two guides: how to consult the Mei Codex beside the Inscription Stand, and cautions before expanding the domain. Practiced steps will not repeat
+		RefreshAskPrompt: Click to view the new content, or accept the Keiko Rune to check later
+		AcceptBtn: Start Tutorial
+		DeclineBtn: Not Now
+		DeclineNotice: The Keiko Rune has been placed in your inventory; use it anytime to reopen the tutorial
+		HudTitle: Vigor & Stance
+		HudBody: While holding Onikiri, the lower-left HUD displays two status gauges. Vigor feeds Flash Step and Sakura Flight and refills over time; Stance builds by hitting enemies, unlocking tier executions at half and full gauge. Detailed move explanations can be viewed on the weapon tooltip
+		HudPrompt: Check the status gauges in the lower-left corner and click "Understood" to continue. Click the sealing talisman to open the panel
+		SigilTitle: Sigil Wheel
+		SigilBody: Click the Sigil Wheel tab on the upper-left of the Inscription Stand to switch to this interface. The outer ring displays recorded wraiths, and the inner triangle has 3 binding seats. Click a wraith on the outer ring, then click an empty seat to bind it. Bound wraiths grant battle buffs, but each use increases revival and erosion. Click the scroll below to open the Ghost Register
+		SigilPrompt: Click the highlighted upper-left tab to switch to the Sigil Wheel and view the outer ring and 3 binding seats
+		MeiTitle: Inscription Stand
+		MeiBody: Click the highlighted sealing talisman (or press hotkey) to open the Inscription Stand. Onikiri has three inscription slots: Tang, Groove, and Horimono. Each inscription grants a special effect and carries a cost. Click a slot to select a chisel; chisels in your inventory are listed in the tray below
+		MeiPrompt: Press {0} or click the highlighted talisman to open the stand and inspect the three inscription slots
+		CodexTitle: Mei Codex
+		CodexBody: Beside the Inscription Stand lies a booklet known as the Mei Codex. The left page categorizes all inscriptions by Tang, Groove, and Horimono; the right page displays effects, costs, and provenance. Unlocked inscriptions show affinity progress. Read-only; chiseling is still done at the stand
+		CodexPrompt: Click the highlighted booklet on the right to open the codex; closing it returns to the stand
+		DomainTitle: Eye of the Oni Domain
+		DomainBody: The eye beside the Vigor gauge represents domain status: expand into the shallow "Omote", flip into the deep "Ura", or close the domain. Onikiri's core "Dismemberment" execution can only be triggered in Ura
+		DomainPrompt: Left-click the eye to expand or close the domain; Right-click or press {0} to flip between Omote and Ura
+		PrepareTitle: Practice Preparation
+		PrepareBody: Please close any open interfaces and hold Onikiri. If the domain is already expanded, the system will automatically close it and reset to the initial tutorial state
+		PreparePrompt: Keep Onikiri in hand and wait for the domain and UI to reset; if unresponsive, click "Skip" to proceed directly to practice
+		OpenDomainTitle: Expand Omote
+		OpenDomainBody: Press the Domain Expansion key (Q by default) to open the domain. When closed, pressing it enters the shallow "Omote", covering the world in yellowed paper style
+		OpenDomainPrompt: Press {0} to expand the domain, and wait for it to stabilize in Omote
+		FlipDomainTitle: Flip to Ura
+		FlipDomainBody: While in Omote, press the Domain Flip key (middle mouse by default) to flip into the deep "Ura", turning the visuals into an ink-wash style
+		FlipDomainPrompt: Press {0} to flip into Ura and wait for the visuals to stabilize
+		DismemberTitle: Dismemberment Practice
+		DismemberBody: In Ura, aim the cursor at the highlighted practice target, release left-click, then press it once more. Onikiri will dash forward and dismember the target body directly (hitting spawned Omokage paper also triggers dismemberment)
+		DismemberPrompt: Aim at the highlighted target, release left-click, then press left-click again to dismember
+		BacklashTitle: Endure Backlash
+		BacklashBody: Directly dismembering an enemy body causes the wielder to suffer true backlash damage equal to 25% of max life, and briefly immobilizes you until the sheathing animation finishes (dismembering via Omokage paper has no backlash). Health will be restored after this step
+		BacklashPrompt: Wait a moment for the sheathing animation to finish and health to restore
+		CloseDomainTitle: Close the Domain
+		CloseDomainBody: Practice complete. Lastly, close the domain. Left-clicking the highlighted eye on the HUD quickly closes the domain; pressing the Domain Expansion key again also closes it
+		CloseDomainPrompt: Left-click the highlighted eye (or press Domain Expansion) and wait for the domain to close completely
+		DomainUnboundHint: Domain Expansion key is not bound. You can press Q as a temporary default for this tutorial
+		FlipUnboundHint: Domain Flip key is not bound. You can press Mouse3 (middle mouse) as a temporary default for this tutorial
+		WaitingFeedback: Waiting for the action result to register
+		BusyFeedback: The domain is transitioning forms; please wait until stable
+		RetryFeedback: The action did not hit the target. Follow the prompt and try again, or click "Demonstrate"
+		NeedBladeHold: Onikiri is not in your inventory. Put it in your inventory to continue
+		TargetStalledHint: Practice target spawn location obstructed. If crowded, move to an open area and wait
+		AssistBtn: Demonstrate
+		RetryBtn: Retry
+		NextBtn: Understood
+		OpenSigilBtn: Open Wheel
+		OpenMeiBtn: Open Stand
+		OpenCodexBtn: Open Codex
+		SkipBtn: Skip
+		SkipStepBtn: Skip Step
+		AbortBtn: Close Tutorial
+		SkipAllBtn: Skip Tutorial
+		SkipAllNotice: Tutorial skipped; trial commissions are now unlocked
+	}
+
+	OniMeiCodexUI: {
+		TitleText: Mei Codex
+		CloseTagText: Close
+		CloseHintFormat: ESC · {0} · click outside to return
+		TabAll: All
+		TallyFormat: Found {0} / {1}
+		TallySlotFormat: "{0} {1}/{2}"
+		PageFormat: "{0} / {1}"
+		EmptyPage: No mei in this volume
+		LockedTitle: Uncarved
+		SectionAcquire: How to find
+		SectionProgress: Bond
+		SectionSource: Provenance
+		HiddenBody: Uncarved mei keep power and burden off this ledger. Carve first, then read
+		EngravedMark: On the blade
+		SourceFactory: Already on the blade when drawn from under the torii
+		SourceGiftFormat: After you cut down "{0}", Himura Mayo will bring the rubbing
+		SourceGiftUnknown: Himura Mayo will bring the rubbing on some night
+		SourceGiftJoin: " or "
+		SourceDeed: No one gifts this. Prove it with the blade yourself
+		SourceUnknown: Provenance unknown; the ledger is silent
+		ProgressSettled: Bond sealed
+		ProgressWaiting: Not yet
+	}
+}
+
+OnikiriOverride: {
+	DisplayName: Onikiri
+	Tooltip:
+		'''
+		Hold left-click to drive the five-beat Crimson Rend combo; landing hits builds Stance
+		Vigor fuels Flash Step and Sakura Flight; half and full Stance each unlock a tier of execution
+		'''
+	KeyLabelFlashStep: Kamui Flash Step
+	KeyLabelSakura: Sakura Flight
+	KeyLabelExecute: Execute
+	KeyLabelDomain: Domain Expansion
+	KeyLabelFlip: Omote/Ura Flip
+	KeyLabelTeleport: Domain Teleport
+}
+
+OnikiriTrialQuestLine: {
+	QuestCategory: Onikiri · Trial Cuts
+	TrackerWaiting: It isn't here yet. Wait, or we go ask for it
+	TrackerFighting: "{0}: {1:0%}"
+	TrackerBrief: Next cut: {0}
+	BossRushTargetName: Battle of Terminus
+	EventActiveFormat: "{0}: underway"
+	Trial_0: Skybound Eye
+	Trial_1: Twain Evils of the Soil
+	Trial_2: Clustered Blight
+	Trial_3: Presumptuous God
+	Trial_4: The Dividing Flesh
+	Trial_5: Pus-Rotten Scales
+	Trial_6: Ashes in the Abyss
+	Trial_7: Roaring Metal Serpent
+	Trial_8: Twin Demon Eyes
+	Trial_9: Mingled Remains
+	Trial_10: Mimicked Silhouette
+	Trial_11: Bloom in the Depths
+	Trial_12: Temple Golem
+	Trial_13: Mad Chant at the Gate
+	Trial_14: Looming Pale Moon
+	Trial_15: Corefire Radiance
+	Trial_16: Phantasmal Cluster
+	Trial_17: Void Devourer
+	Trial_18: Lingering Fire Dragon
+	Trial_19: Deafening Exo-Steel
+	Trial_20: Stifling Calamity
+	Trial_21: Recurrent Darkness
+	TrialSummary_0:
+		'''
+		Always feels like something is watching from the dark sky above, and the blade shivers in my hands
+		I cannot say for certain what it is, climb up into the night sky and take a look
+		Do not keep your head craned up forever or your neck will ache, tell me what you saw when you are back
+		'''
+	TrialSummary_1:
+		'''
+		The wind blowing from the corrupted soil carries two foul odors, heavy and rank, even I cannot tell them apart
+		If you cross paths with them, deal with whichever lunges first, do not let yourself get surrounded by both
+		Draw your blade the moment the air turns sour, finish up quick and come back out to breathe
+		'''
+	TrialSummary_2:
+		'''
+		Deep underground that cluster of filth has gathered into a den, smells slimy and nauseating even from afar
+		Leaving it alone will only let it fester deeper, go scatter it once and for all
+		Watch your step in the mud, do not come back splattered all over
+		'''
+	TrialSummary_3:
+		'''
+		I hear people say some heap of sludge over there claims to be a god, it almost made me laugh
+		If taking divine titles were that easy, who would bother training and cultivating?
+		Go see what it can actually do, if it is only pretending to be a spirit, pierce it with a single cut
+		Listen carefully now, you are going there to pierce it, do not be foolish enough to kneel and worship
+		'''
+	TrialSummary_4:
+		'''
+		Deep down near the bottom of the world a colossal wall of flesh has blocked the road shut, even cutting through the air feels stifling
+		When the road is shut, the only answer is to cleave it open
+		Once this fight is through the world around will likely shift, stay sharp, we will talk when you make it past
+		'''
+	TrialSummary_5:
+		'''
+		There is huge commotion beneath the dunes, sand churning endlessly as if some great worm is boring straight down
+		Cut it off before it burrows too deep
+		Watch where you plunge the blade, do not shove the whole hilt into the sludge, I live in here too, leave me some clean space
+		'''
+	TrialSummary_6:
+		'''
+		The fire pit over that way is still glowing red, the blade feels scorching even from this distance
+		Go put it out, no sense letting it burn forever
+		Mind your footing across the magma shoals, no one is going to blow on your soles if you get burned
+		'''
+	TrialSummary_7:
+		'''
+		The tremors from beneath the earth are growing louder by the beat, the blade is vibrating with them, sounds like a giant clanking with iron
+		A terrifying title changes nothing, iron is still iron, go test how thick its hide really is
+		Do not clash head-on against solid metal, aim for the seams so your hands do not go numb
+		'''
+	TrialSummary_8:
+		'''
+		Two glares in the night sky like they agreed to rise together, being watched from both sides feels awful
+		They cover each other well when paired up, pull some distance and take them down one by one, do not get caught in the crossfire
+		Go on, be quick about it, tell me what they look like once you are back
+		'''
+	TrialSummary_9:
+		'''
+		The aura drifting from that way feels strange, iron frames bolted to ancient bone, half-baked and mismatched
+		No matter how large the scaffolding is, it is still pieced together, do not let its silhouette bluff you
+		Strike at the joints where it connects, take it apart piece by piece, then tell me which part was real
+		'''
+	TrialSummary_10:
+		'''
+		A shadow up ahead walks far too much like a living person, yet carries not a shred of human warmth
+		Counterfeits that mimic human gait are the most treacherous, do not stand there staring it in the eyes
+		Step forward and shatter that false shape, we will talk about who it was copying after it is done
+		'''
+	TrialSummary_11:
+		'''
+		A sweet scent is rising from beneath the jungle, smelling sickly and rotten underneath
+		No matter how pretty a blossom looks, once the core rots away it must be pruned, lest it foul the whole thicket
+		I can teach you the ways of flower pruning when you return, go on, watch out for the creeping vines
+		'''
+	TrialSummary_12:
+		'''
+		A massive stone idol sits inside the temple refusing to budge, looks dense and stubborn
+		Find a way to topple it and break the joints, do not bash the blade against solid rock, chipping the edge hurts me too
+		If your wrists get shaken numb, shake them out properly once you are back
+		'''
+	TrialSummary_13:
+		'''
+		A flock of robed figures outside the dungeon muttering gibberish without end, my ears are exhausted just listening
+		Go over and cut their chanting short, spare us both the racket
+		Whatever nonsensical scripture they are reciting, do not believe a single syllable, finish up and come back soon
+		'''
+	TrialSummary_14:
+		'''
+		A massive canopy of gloom feels pressed against the sky above, looking up suffocates the chest
+		If it hangs there in the way, fly up and strike it down
+		Do not just stand beneath it spacing out, take it seriously, I will ask how tired you are once you return safe and sound
+		'''
+	TrialSummary_15:
+		'''
+		Waves of heat keep rolling up from the core of the earth, the steel I rest in is already burning hot
+		Getting close on this run will be scorchingly painful, keep that in mind beforehand
+		Do not drag things out in the blistering heat, strike true and pull back immediately
+		'''
+	TrialSummary_16:
+		'''
+		The damp depths are swarming with a knot of wandering spirits, too many for me to even bother counting
+		Since they are all tangled together, do not bother picking them off one by one, sweep the whole clump in a single stroke
+		The dungeon is freezing cold and damp, do not stay down there too long, finish the job and come back up
+		'''
+	TrialSummary_17:
+		'''
+		That direction feels completely hollow, my heart sinks just looking into it, the blade is dragging heavy too
+		I cannot say what kind of titan is coming our way, keep your guard up
+		Do not freeze in awe when you get there, no matter how dire it looks, coming back alive matters more than anything
+		'''
+	TrialSummary_18:
+		'''
+		They say one stubborn dragon still remains at the edge of the ash sea, go see whether the rumor holds true
+		Once blades cross the steel will likely burn red-hot, bear with it
+		I do not care about rare dragon scales or feathers, just come back in one piece
+		'''
+	TrialSummary_19:
+		'''
+		Can hear the iron cannons thundering from leagues away, my head is throbbing from the racket
+		Go silence those mechanical monstrosities, protect your ears on the way
+		If your ears are still buzzing when you return, I will find a quiet hollow for you to rest
+		'''
+	TrialSummary_20:
+		'''
+		The air over that way is sticky and stagnant, taking a single breath feels like choking on lead
+		Go cleave through it, do not stand idly in the storm breathing in all that stifling smog
+		Once you are back safe, I will teach you the breathing rhythms from my homeland
+		'''
+	TrialSummary_21:
+		'''
+		Those fallen shadows keep clustering back together as if they can never be purged clean
+		This engagement is going to drag on for a long while, swing freely, I will be right here watching over you
+		Plant your feet firm before you strike, when you return victorious I will nag you about whether you wobbled
+		'''
+}
+
+KikasaOverride: {
+	DisplayName: Kikasa
+	Tooltip:
+		'''
+		Hold left click to hover the umbrella overhead, dropping homing ink rain to a steady beat
+		Hold right click to charge ink upside down; release to pour out an ink torrent
+		Rain and torrents you command by hand stamp an Ink Seal; your summons deal bonus damage to sealed targets
+		'''
+	GhostCountLine: Minion slots {0} · {1}
+	TierName0: Drizzle
+	TierName1: Side Toss
+	TierName2: Volley
+	TierName3: Lake Tilt
+	KeyLabelDomain: Domain Expansion
+	KeyLabelSink: Sink into the Lake
+	KeyLabelMutate: Flip the Lake
+	KeyLabelWheel: Shade Wheel
+	KeyLabelRestart: Self-Restart
+	KeyLabelTeleport: Domain Teleport
+	KeyLabelPanorama: Lakeheart
+	MutateFallback: Middle Mouse
+}
+
+KikasaTrialQuestLine: {
+	QuestCategory: Kikasa · The Sinking Feast
+	TrackerWaiting: Not seated yet—go invite it, or wait a while
+	TrackerFighting: "{0}: {1:0%}"
+	TrackerBrief: Next course: {0}
+	BossRushTargetName: Battle of Terminus
+	EventActiveFormat: "{0}: In progress"
+	Trial_0: Soft First Course
+	Trial_1: Night-Staring Eye
+	Trial_2: Foul Soil Morsels
+	Trial_3: Festering Depths
+	Trial_4: Sweet Nectar and Stubborn Hooves
+	Trial_5: Old Bones at the Gate
+	Trial_6: Motley God-Gel
+	Trial_7: Flesh Across the Path
+	Trial_8: Winged Pink Gel
+	Trial_9: Golden Drool in Rotten Sand
+	Trial_10: Three Tastes of Iron
+	Trial_11: Crimson Bloom of the Jungle
+	Trial_12: Crystal-Shelled Morsel
+	Trial_13: Temple Boulder
+	Trial_14: Wave-Stirring Winged Boar
+	Trial_15: Nocturnal Radiance
+	Trial_16: Chanting at the Portal
+	Trial_17: Moonback Reflection
+	Trial_18: Kinfolk at the Table
+	Trial_19: Ancient Acid-Bather
+	Trial_20: Void Serpent Beyond
+	Trial_21: Unquenched Blazing Plume
+	Trial_22: Peak Iron and Peak Flame
+	Trial_23: The Full Table Feast
+	TrialSummary_0:
+		'''
+		A soft puddle of blue slime sits shivering endlessly at the foot of the mountains
+		Puffed-up bulk gathered from who knows where, nothing more than empty bluster
+		Go scatter it to pieces, do not let it block the road
+		'''
+	TrialSummary_1:
+		'''
+		A giant eyeball hangs in the night sky, staring without manners
+		Does not even blink, enough to make skin crawl
+		Go knock it down, once its eye is shut, it saves a world of annoyance
+		'''
+	TrialSummary_2:
+		'''
+		Two abominations burrowing from the rotten soil, one long worm and one soggy brain
+		Can smell their rank mire stench from miles away
+		Deal with whichever crosses your path first, cut them down and do not come back soaked in foul odor
+		'''
+	TrialSummary_3:
+		'''
+		A festering nest of rotten meat lies beneath the earth, crawling with blood-boring maggots
+		Leaving it alone only lets the rot run deeper, go smash it apart
+		Keep your gloves on tight, that sludge is impossible to wash off skin
+		'''
+	TrialSummary_4:
+		'''
+		A venomous bee in the jungle, a stubborn deer in the snowfields blind in one eye
+		Take down whichever you encounter first, their tempers are equally foul
+		One carries a poison stinger, the other stomps with blizzards, do not get careless
+		'''
+	TrialSummary_5:
+		'''
+		An ancient skeleton hangs by the dungeon gate, clinging to his post after a lifetime of watching
+		Old as he is, his obsession is heavier than an iron lock
+		Break his watch, take the key, and let him rest in the soil
+		'''
+	TrialSummary_6:
+		'''
+		Purple and red sludge stirred together, yet bold enough to call itself a god
+		Scattered and impure, it will never amount to anything grand
+		Go break it apart and dissolve it, spares the ground from being fouled
+		'''
+	TrialSummary_7:
+		'''
+		A colossal wall of flesh spans across hell, blocking the road completely
+		Feels scorchingly hot even through the umbrella curtain, stifling to breathe
+		Pierce it through, if the world shifts on its head afterward, that is none of your concern
+		'''
+	TrialSummary_8:
+		'''
+		A soft pink slime hovers in mid-air, bringing an entourage even when marching to battle
+		Dressed up so gaudily, putting on quite the show
+		Bring her down, grand as the display is, it cannot withstand a single downpour
+		'''
+	TrialSummary_9:
+		'''
+		A giant worm bursting with festering blossoms burrowed from the dunes, dripping golden pus
+		Looks nastier than things rotted in water, one breath up close is choking
+		Go dispatch it, rinse the umbrella canopy clean before you return
+		'''
+	TrialSummary_10:
+		'''
+		Someone built three iron contraptions: a chain, searchlights, and a four-armed steel skeleton
+		Reeks of raw iron, clanking and noisy
+		Dismantle them one by one, do not let them swarm together
+		'''
+	TrialSummary_11:
+		'''
+		A giant crimson flower sleeps in the jungle depths, spreading vines far and wide
+		Wake her and she lashes out with a terrifying temper, coiling around whatever moves
+		Pull her up by the roots, if vines wrap around the umbrella, cut them clean off
+		'''
+	TrialSummary_12:
+		'''
+		A mantis shrimp lies beneath the shore, glistening with a crystalline shell, shedding layer after layer
+		One punch from those claws can shatter the water, quite a commotion
+		Let it shed its shell as it pleases, watch the punches carefully, do not take a blow unaware
+		'''
+	TrialSummary_13:
+		'''
+		A square-headed stone idol squats inside the temple, refusing to budge an inch
+		Crafted with intricate mechanisms, yet crack it open and it is just an empty frame
+		Tear it apart, no sense letting it squat there blocking the hall
+		'''
+	TrialSummary_14:
+		'''
+		A winged pig in the sea, learning to stir up storms like a man
+		Does not even look in the mirror, the temper of water is not for a sea pig to command
+		Shove it back into the deep, saves it from splashing about in front of my eyes
+		'''
+	TrialSummary_15:
+		'''
+		A radiant figure soaring through the night sky, painfully blinding in the dark
+		I dislike glaring lights, straining to look at
+		Slip in under the cover of night and rub that glow dim, do not provoke her in broad daylight
+		'''
+	TrialSummary_16:
+		'''
+		Someone mutters endless chants by the dungeon gate, swollen and exhausting to the ears
+		Whatever he seeks to draw down from the void is no righteous path
+		Interrupt that ritual, before the commotion grows too grand to contain
+		'''
+	TrialSummary_17:
+		'''
+		That colossal shadow behind the moon is finally descending, covered in eyes
+		Staring down at the mortal realm for all these eons, it is time for an end
+		Go scatter it to pieces, and take a good look at the moonlight tonight for me
+		'''
+	TrialSummary_18:
+		'''
+		A vast knot of vengeful spirits drifts deep in the dungeon, stitched and patched for centuries
+		Kin to what I am in the end, weeping day in and day out, exhausting to watch
+		Let them scatter once and for all, returning to silence is better than suffering down there
+		'''
+	TrialSummary_19:
+		'''
+		An ancient relic lies pinned beneath the Sulphurous Sea, sour all over, temper sharper than acid
+		We crossed paths back then, and neither yielded half a step
+		Go settle him for me, consider it settling an old score of mine
+		'''
+	TrialSummary_20:
+		'''
+		That massive serpent wheeling across the sky, they say it has swallowed gods
+		What level a god reaches does not concern me, but circling overhead is dizzying to watch
+		Bring it down, keep that sturdy carapace for yourself, pay no mind to the rest
+		'''
+	TrialSummary_21:
+		'''
+		A furious blaze has burned across the jungle for who knows how many centuries
+		Fire and storm have never stood together since ancient times
+		Go put out that fire, feathers soaked through will never lift again, as it should be
+		'''
+	TrialSummary_22:
+		'''
+		Two final brutal trials have met at once: an army of iron puppets and a witch bound by obsession
+		Neither side is easily handled, leaving this realm not a single moment of quiet
+		Take them in whatever order you prefer, dispatch the swiftest first, just walk out alive
+		'''
+	TrialSummary_23:
+		'''
+		Those fallen shadows have clustered together once more, or that ancient dragon in the abyss has awakened
+		Whichever it is, the spectacle will not be small
+		Grip the umbrella tight, take it one step at a time, once this fight ends... the rain outside should finally clear
+		'''
+}
+
+KikasaText: {
+	KikasaServantPlayer: {
+		ServantUnknown: You can't command it yet
+		AutoEvictFormat: Seats full — {0} steps down, {1} takes the seat
+	}
+
+	KikasaUIText: {
+		AffinityFlame: Flame
+		AffinityNightmare: Nightmare
+		AffinityRain: Rain
+		AffinityWild: Any
+		AffinityArms: Arms
+		StateOut: Out
+		StateHeld: Held back
+		StateAwait: Waiting
+		LakeNotReadyLine: The lake isn't open. It will come out once you raise it
+		WispRainBlock: The ghost rain smothers any spark
+		NeedSettleLine: The lake hasn't settled yet
+	}
+
+	KikasaHud: {
+		ScrollName: Lakeheart
+		OpenTag: Click to open
+		TipWaterFormat: Water {0}%
+		TipTideHintFormat: Hold {0} to adjust the water level with your cursor
+		TipVaultFormat: Hoard {0} / {1}
+		TipWispClick: Click the flame sprout to light or draw back the fire
+		TipCooldownFormat: Cooling down · {0}%
+		TipDrownTitle: Drown
+		TipDrownHintFormat: Press {0} while holding an item or aiming at an enemy
+		TipDrownReady: Ready
+		TipResetTitle: Wide Restart
+		TipResetHintFormat: Press {0} anytime to rewind yourself and nearby enemies a few seconds
+		TipTeleportTitle: Ghostwater Passage
+		TipTeleportHintFormat: Press {0} to teleport to your cursor; faster and with a shorter cooldown within the Blood Lake
+		TipThrallFormat: Thralls out {0} / {1}
+		TipHoundCountFormat: Hounds out {0} / {1}
+		TipDreamNoTalis: In the Ghost Dream, only the hounds' bite deals damage (ignoring armor); talismans have no effect
+		TipSeatsHintFormat: Hold {0} to open the wheel to summon or recall shades; adjust the lineup in the Lakeheart
+		TipSeatEmpty: Empty
+		TipTalisHint: Click to open the Lakeheart and hang talismans on the rope
+	}
+
+	KikasaServantWheelUI: {
+		WheelEmptyTitle: Empty
+		WheelEmptyDesc: Drowning a boss automatically assigns its shade to an empty seat; you can also adjust the lineup in the Lakeheart
+		WheelEmptyStatus: Nothing here yet
+		WheelSeatFormat: Seat {0}
+		WheelStatusRecall: "[Release] Call it back"
+		WheelStatusSummon: "[Release] Call it out"
+		WheelStatusAwaitOrder: "[Release] Remember this; it comes out when the lake opens"
+		WheelCenterTitle: All Seats
+		WheelCenterDesc: Recalls all shades if any are afield, or summons all if none are out
+		WheelCenterCountFormat: "{0}/{1} out"
+		WheelCenterRecallAll: "[Release] Call all back"
+		WheelCenterSummonAll: "[Release] Call all out"
+		WheelCenterEmpty: No shades seated yet
+		WheelDamageFormat: Damage per shade out {0}%
+		WheelHint: "[{0}] Hold to open · Release to confirm · Right-click closes the wheel while keeping shades afield"
+		WheelWispName: Gold Flame
+		WheelWispDesc: Once lit, the gold flame spreads along the shore and scorches whatever it reaches
+		WheelWispIgnite: "[Release] Light it"
+		WheelWispSnuff: "[Release] Draw the fire back"
+	}
+
+	KikasaPanoramaUI: {
+		Title: Lakeheart
+		HoundTitle: Hound · Ghost Dream
+		WispTitle: Gold Flame · Ghost Fire
+		ReflectAwake: The reflection is awake
+		ReflectAsleep: The reflection is still asleep
+		InDreamLine: You are in the Ghost Dream
+		DreamReturnFormat: Press {0} again to return
+		DreamEnterKeyFormat: Hold {0} to enter the Ghost Dream
+		DreamEnterClick: Click the hound to enter the Ghost Dream
+		NeedDomainFormat: Press {0} to expand the Blood Lake
+		NeedFullWater: The Blood Lake is not full yet
+		HoundBonusFormat: Hound cap {0} · damage {1}%
+		WispBurning: Burning, scorching along the shore
+		WispIdle: Unlit; the flame waits on your word
+		WispBoil: Still burning in the rain
+		WispQuenchedLine: Being put out by Ghost Rain
+		WispBonusFormat: Burn {0}s · flame reach {1}
+		WispIgniteClick: Click the gold flame to light the ghost fire
+		WispSnuffClick: Click the gold flame to draw the fire back
+		ActionDreamTag: Enter the Dream
+		ActionIgniteTag: Ignite
+		ActionSnuffTag: Snuff
+		EdgeDreamFire: Dreamfire
+		EdgeBoilRain: Boiling Rain
+		EdgeRainNightmare: Rain-Nightmare
+		EdgeTriSeal: Three-Shade Seal
+		SeatsTitle: Three Seats
+		SeatEmptyLine: Empty seat; select a shade from the codex below to assign
+		SeatPickHint: Click to pick up · right-click to remove
+		SeatPlaceHint: Click to place it here
+		SeatHeldLineFormat: Recalled; hold {0} to open the wheel and summon it
+		RosterTallyFormat: Codex {0} / {1}
+		RosterSeatTallyFormat: Seats {0} / {1}
+		RosterUnknown: Not drowned yet
+		RosterUnknownHintFormat: Aim at an enemy in the Blood Lake and press {0} to drown it
+		RosterSeatedTag: Seated
+		RosterPickHint: Click to pick up
+		NotePlacedFormat: "{0} is now seated"
+		NoteUnslottedFormat: "{0} was removed from its seat"
+		NoteNotCollected: You haven't drowned it yet
+		NotePickFirst: Select a shade from the codex below first
+		NoteArmsNoStock: No original of that weapon in the hoard, so the shade can't take shape
+		TalisTitle: Raincall Rope
+		TalisEmptyLine: An empty knot — click to open the talisman case
+		TalisNoneOwned: The talisman case is empty; craft talismans at a workbench by the water
+		TalisNeedUmbrella: Talismans only take effect while holding Kikasa
+		TalisSwapHint: Click to swap · drag onto another knot to relocate · right-click to take down
+		TalisHangHint: Click to hang it here
+		TalisTakeDownLabel: Take down
+		TalisAlreadyHung: It already hangs on another knot
+		TalisCurrentTag: Hanging here
+		TalisStackRule: All hung talismans take effect. Each ink droplet triggers only one talisman, prioritized from left to right, altering projectile visuals and signature effects accordingly
+		TalisDragSwapHint: Release to trade knots
+		TalisDragMoveHint: Release to move it here
+		NoteFuHungFormat: 「{0}」rose onto the raincall rope
+		NoteFuTakenFormat: 「{0}」returned to the talisman case
+		VaultTitle: Lake Hoard
+		VaultCountFormat: "{0} / {1}"
+		VaultEmptyHint: Nothing here yet
+		VaultExtractHint: Click to take it back
+		VaultViewOnlyLine: Water level is not full; view-only for now
+		ArmsStockFormat: Originals ×{0}
+		ThrallLineFormat: Thrall cap {0} · convert one every {1}s
+		FooterHintFormat: Esc or {0} to close · hold an item and press {1} to sink it · hold {2} for the wheel
+	}
+
+	KikasaHudLead: {
+		DomainTitle: Expand the Blood Lake
+		DomainBody: The Blood Lake is Kikasa's core domain. Storing items, drowning foes, and commanding shades all require the Blood Lake to be expanded and its water raised. Hold the Kikasa: Command the Tide key (X by default) to freely adjust the water level to your cursor.
+		DomainPrompt: Hold Kikasa and press {0} to expand the domain
+		SinkTitle: Sinking & Drowning
+		SinkBody: Press the Kikasa: Sink Something key while holding an item to store it in the lakebed vault (reclaimable in the Lakeheart). Press the same key while aiming at an enemy to drown it. Drowned bosses turn into shades that can be assigned to fight alongside you.
+		SinkPrompt: Wait for the Blood Lake to fill completely, then press {0} holding an item or aiming at an enemy
+		PanoramaTitle: Open the Lakeheart
+		PanoramaBody: The Lakeheart is Kikasa's management interface: the top controls the hounds and ghost fire, the middle has 3 seats for organizing active shades, and the bottom is the lakebed vault for stored items. Click the raincall rope to hang talismans.
+		PanoramaPrompt: Click the wind chime at the bottom-left, or hold Kikasa and press {0}
+		WheelTitle: Shade Wheel
+		WheelBody: Shades assigned to seats automatically fight when the Blood Lake is expanded. Hold the wheel key anytime in combat to individually summon or recall shades: the fewer afield, the higher each one's damage. The gold flame option on the wheel lights or extinguishes the ghost fire that burns enemies.
+		WheelPrompt: Hold {0} to open the wheel, aim at a seat, and release
+		WheelNoMemory: No shades recorded in the lake yet. Drown a boss first, or click Skip.
+		RainTitle: Flip to Ghost Rain
+		RainBody: At full water, tap the Kikasa: Flip the Lake key (middle mouse by default) to flip the Blood Lake into Ghost Rain. Regular enemies slain under the ghost rain are converted into umbrella thralls that fight for you. Long-pressing this key enters the Ghost Dream.
+		RainPrompt: At full water, tap {0} to flip into Ghost Rain
+		RestartTitle: Wide Restart
+		RestartBody: Press the Self-Restart key to rewind yourself and all nearby enemies to their positions seconds ago. You are completely invulnerable during the rewind, health is fully restored, and all debuffs are cleansed. It can be triggered anytime even outside ghost rain, and returns to your previous domain state after finishing.
+		RestartPrompt: Hold Kikasa and press {0} to trigger restart
+		DreamTitle: Enter the Ghost Dream
+		DreamBody: At full water, hold the Kikasa: Flip the Lake key to enter the Ghost Dream. Enemies inside are paralyzed and ranged projectiles cannot exist. Normal items cannot be used; hold left-click to continuously summon hounds that tear at enemies (bites ignore armor). Press the key again to wake and exit the dream.
+		DreamPrompt: At full water, hold {0} to enter the Ghost Dream
+		CloseTitle: Draw Back the Blood Lake
+		CloseBody: Once expanded, the Blood Lake continuously follows you and will not disappear when switching weapons. Hold Kikasa and press the Domain Expansion key again to close the domain. All stored vault items, shades, and drowning records remain permanently saved in the umbrella for next time.
+		ClosePrompt: Hold Kikasa and press {0} to close the Blood Lake
+		CloseInDreamNote: You are still in the Ghost Dream. Press {0} to exit the dream first, then close the domain.
+		CloseSettlingNote: The domain is transitioning between forms, please wait.
+		KeyUnboundFallback: Key "{0}" is not bound. You can temporarily press {1} for this step; bind it in Settings > Controls for regular use.
+		ShieldNote: Protected during tutorial: enemies cannot harm you, and no enemies will spawn nearby.
+		SkipBtn: Skip
+		ConfirmBtn: Got it
+		AssistBtn: Show me
+		OpenPanoramaBtn: Open it for me
+		DismissBtn: Put away
+		KeyUnbound: Key "{0}" required for this step is not bound. Please bind it in Settings > Controls, or click Skip.
+		AlreadyDoneNote: You have already completed this step. Read through and click Got it to continue.
+		WaterRisingNote: Waiting for the Blood Lake to fill completely. Current level: {0}%.
+		ResetCooldownFormat: Restart still cooling down: {0}%
+		HelpHover: Replay the Kikasa tutorial
+		MutateFallbackKey: middle mouse
+	}
 }
