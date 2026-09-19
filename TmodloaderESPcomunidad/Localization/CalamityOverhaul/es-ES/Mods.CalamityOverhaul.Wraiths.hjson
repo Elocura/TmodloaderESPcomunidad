@@ -1,0 +1,114 @@
+LanternBoy: {
+	DisplayName: El Chico de la linterna
+	Origin:
+		'''
+		En los oscuros senderos de montaña, una linterna de papel de un blanco pálido suele balancearse en la penumbra,
+		flotando sobre un par de pies desnudos de niños que se ciernen en el aire y nunca tocan el suelo.
+		Cualquier viajero nocturno que fije la mirada en la llama durante más de tres respiraciones sentirá que sus ojos se cierran herméticamente,
+		como si fueran sellados con cera caliente, y que su alma es arrastrada, entre gritos, hacia el interior de la piel de papel,
+		En su interior ya están selladas tres almas sustitutivas asesinadas; allá donde caiga esa luz enfermiza, las sombras de la linterna
+		se mueven al unísono con la espada, atacando en lugar de quien la empuña.
+		'''
+	Power: [Luz guía]: Tres pálidas linternas fantasmales orbitan a tu alrededor, y la luz que emiten proyecta sombras de tus ataques a destiempo con un 60% de su potencia original
+	DeathReason: "{0} fue conducido hasta la cuarta linterna de papel blanco"
+}
+
+CrimsonBride: {
+	DisplayName: La Novia carmesí
+	Origin:
+		'''
+		A las afueras de una mansión aislada en la montaña se alzaba un majestuoso palanquín carmesí de ocho portadores, sin ningún portador vivo a la vista,
+		solo pálidas efigies de papel pintadas con rostros rígidos y sonrientes
+		Cada vez que la cortina se levantaba un poco, unos cuernos nupciales tristes y estridentes resonaban por el bosque; quienquiera que hubiera sido
+		elegido por su hora de nacimiento se veía obligado a casarse en un salón nupcial silencioso y lúgubre.
+		Cuando un desesperado portador de espada invoca este palanquín, este llega irrumpiendo desde el vacío tras un rastro de sangre, y lo acoge
+		en un salón fúnebre cubierto con seda blanca y escarlata de luto.
+		'''
+	Power: [La procesión]. Al pulsar la tecla de autoreinicio, llegará el grandioso palanquín carmesí acompañado de una siniestra música fúnebre, dando la bienvenida al portador de la espada; en el brindis nupcial, todas las heridas mortales y aflicciones se borran y se reinician.
+	DeathReason: "{0} se sentó en el palanquín carmesí e hizo una reverencia al cielo y a la tierra"
+}
+
+ScapeGhost: {
+	DisplayName: El Espectro expiatorio
+	Origin:
+		'''
+		Una tosca muñeca de paja envuelta en cabello humano y fechas de nacimiento, con el cuerpo de paja marcado por miles de heridas mortales en el pecho y cortes profundos en el cuello.
+		En vida, sustituyó a la muerte por los demás en innumerables ocasiones; su forma está maltrecha e incompleta, y hace tiempo que olvidó cuál fue, en un principio, su propia muerte.
+		El día en que queda atada al registro, tu presagio de muerte se ata con cordel alrededor de su cuello de paja.
+		En el instante en que cae la fatalidad, unas frías manos muertas se alzan desde la oscuridad, imponiendo violentamente tu muerte mortal en la carne de una criatura viva cercana.
+		'''
+	Power: [El sustituto de la muerte]: En el momento en que se produce una catástrofe fatal, transfiere por la fuerza tu muerte a un ser vivo lejano, utilizando su cuerpo para que muera en tu lugar y así escapar de la muerte.
+	DeathReason: "{0} se convirtió en el alma muerta que se escondía tras el sustituto de paja"
+}
+
+HeadlessShade: {
+	DisplayName: La Sombra sin cabeza
+	Origin:
+		'''
+		Bajo el tenue resplandor de las lámparas de aceite de medianoche, alguien bajó la mirada y vio su propia sombra retorciéndose y arrastrándose por el suelo; y, 
+		por encima de sus hombros, no había absolutamente nada.
+		Este horror decapitado lleva mucho tiempo acechando en los rincones ocultos, ansiando vorazmente recomponer un cuerpo vivo completo.
+		Se ha mimetizado con la sombra bajo tus pies; en cuanto percibe el olor de la vida de un enemigo, sale disparado del suelo y despedaza brutalmente a su presa en pedazos.
+		'''
+	Power: [Desmembrar]: Acechando en la sombra bajo tus pies, surge del suelo al detectar una presa viva y le desgarra la carne en pedazos con una brutalidad salvaje
+	DeathReason: "La sombra sin cabeza le arrancó de un tirón la cabeza a {0}"
+}
+
+GhostHand: {
+	DisplayName: La Mano carbonizada
+	Origin:
+		'''
+		Una extremidad carbonizada desenterrada de entre las cenizas de los difuntos incinerados y de los infiernos abrasadores, con sus cinco dedos
+		en forma de garras curvados hacia dentro en un agarre permanente y desesperado.
+		Nadie sabe en qué tipo de mar de fuego quedó atrapado este cadáver, solo que la malicia asfixiante de su agarre estrangulador perdura inquebrantable más allá de la muerte.
+		En el momento en que percibe el calor del aliento de un ser vivo, la garra ennegrecida surge del vacío tras de sí, agarrando la garganta de la víctima
+		y reduciendo los huesos a polvo una y otra vez.
+		'''
+	Power: [Agarre óseo]: Un brazo fantasmal carbonizado y marchito surge de la nada para agarrar a su presa, aplastándola repetidamente y inmovilizándola; cuando los enemigos se agrupan, más manos se extienden para aplastar a los adversarios más poderosos entre sus dedos.
+	DeathReason: "Los huesos de {0} fueron reducidos a polvo por la mano carbonizada"
+}
+
+GhostRain: {
+	DisplayName: La Lluvia fantasmal
+	Origin:
+		'''
+		Una sombría y siniestra oscuridad descrita en antiguos pergaminos que no desata una lluvia dulce, sino agua negra y helada que apesta a limo y a podredumbre.
+		Quienes alzan la vista aterrorizados descubren que, bajo las nubes, cuelgan capa tras capa de rostros pálidos y sin vida que los miran fijamente con los ojos cerrados.
+		La lluvia negra cae sin causar dolor físico, pero miles de sanguijuelas cadavéricas invisibles devoran la médula y el alma; cualquiera que se empape 
+		durante tres respiraciones se derrite como cera y es arrastrado al fango.
+		'''
+	Power: [Gloom-Shower]: Al empuñar la espada, se invoca un opresivo dosel de nubes negras y una lluvia negra torrencial; a los seres vivos que quedan atrapados en su interior se les va disolviendo la carne de forma continua, lo que los convierte en un blanco fácil para otros espectros.
+	DeathReason: "{0} se disolvió bajo la lluvia negra y quedó arrastrado por el barro"
+}
+
+System: {
+	ScapeGhostActivated: "{0} se convirtió en el chivo expiatorio"
+	ScapeGhostUnknownTarget: un ser vivo
+	ScapeGhostDeathBroadcast: "{0} se convirtió en el chivo expiatorio de {1}, {2}"
+	ErosionCrawl: Sientes gusanos de fosa gélidos reptando bajo tu piel
+	ErosionStain: Las yemas de tus dedos brotan con manchas cadavéricas imborrables
+	ErosionMirror: El rostro en el espejo de bronce apenas se parece ya a ti
+	RevivalStir: El trazo de cinabrio natal en el talismán se estremeció
+	RevivalRise: Esa cosa te clava la mirada a través del papel amarillo
+	RevivalBrink: El talismán quema como hierro al rojo, apenas puedes contenerlo
+	RevivalHudBrink: El horror está a punto de despertar; un paso más y tomará tu cuerpo
+}
+
+Coven: {
+	RainHandName: Alcance en la lluvia
+	RainHandNote: Las presas empapadas en lluvia negra están al alcance sin importar la distancia; la mano calcinada brota directo de los hilos de lluvia. Pueden manifestarse hasta cinco manos a la vez, y el daño de aplastamiento se duplica con la fuerza de la tormenta
+	RainShadeName: Hoja húmeda
+	RainShadeNote: Mientras la herida dejada por el espectro al atravesar el objetivo permanezca sin curar, cada tick de corrosión por lluvia sobre ese objetivo inflige el doble de daño
+	HandShadeName: Inmovilizado para ser descuartizado
+	HandShadeNote: El espectro sin cabeza da prioridad a abalanzarse sobre las presas sujetas por la mano carbonizada; con el movimiento del objetivo reducido a cero, el tajo ejecutor nunca falla
+	LanternHandName: Iluminación
+	LanternHandNote: Las presas reveladas por las linternas fantasmales pueden ser cazadas por la mano carbonizada incluso a través de la piedra y el terreno; la luz de la hoja de la linterna inflige un 60 % más de daño a los objetivos agarrados
+	BrideName: Salón nupcial
+	BrideNote: Los seres vivos que sean atraídos al salón nupcial durante el brindis nupcial dejan de perder otras marcas de espectro hasta que el salón nupcial se disipe
+	ScapeName: Evitar la perdición
+	ScapeNote: Cuando el sustituto de paja muere en tu lugar, el estado de resucitación de todos los demás espectros del mismo tablero se reduce en un nivel
+	CallName: Llamada resonante
+	CallNote: Los espectros del mismo tablero se despiertan entre sí: cada vez que se da una orden a uno, los demás obtienen una pequeña cantidad de resurgimiento; incluso las parejas sin sinergias únicas resuenan con el hambre oscura
+	BurstName: Ruptura de triple marca
+	BurstNote: Al reunir tres marcas de espectro distintas en un único objetivo, se detonan múltiples maldiciones mortales a la vez, lo que provoca un gran daño de ráfaga; cada espectro participante paga un coste de resurgimiento.
+}
