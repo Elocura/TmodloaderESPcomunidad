@@ -815,6 +815,7 @@ TBUGShopUI: {
 	ResultOutOfStockText: ERR: esto se ha agotado; vuelve al amanecer
 	ResultBusyText: ERR: demasiadas peticiones; más despacio
 	ResultTimeoutText: ERR: tiempo de espera agotado
+}
 
 EntrustManagerNotification: {
 	LabelNewQuest: Nuevo encargo
@@ -1267,16 +1268,16 @@ SHPCDomainWheelUI: {
 	Layer1_Desc: Capa base: solo abre el campo del dominio a tu alrededor
 	Layer2_Desc: Baja una capa; el campo se extiende más lejos y la RAM se quema más rápido
 	Layer3_Desc: Atraviesa el Blackwall; el mundo entero se vuelve el dominio
-	Layer_HintActivate: "Clic" Desplegar el dominio
-	Layer_HintSwitch: "Clic" Cambiar a esta capa
-	Layer_HintShutdown: "Clic" Recoger el dominio
+	Layer_HintActivate: "[Click] Desplegar el dominio"
+	Layer_HintSwitch: "[Click] Cambiar a esta capa"
+	Layer_HintShutdown: "[Click] Recoger el dominio"
 	Layer_HintLowRam: RAM insuficiente
 	Layer_HintLocked: Bloqueo por fallo del sistema
 	Hack_Title: Modo hackeo
 	Hack_Subtitle: Sobrefrecuencia neural
 	Hack_Desc: Arrastra el mundo a un gateo y aplica protocolos a todo lo que veas
-	Hack_HintEnter: "Clic" Entrar en Tiempo de hackeo
-	Hack_HintExit: "Clic" Salir de Tiempo de hackeo
+	Hack_HintEnter: "[Click] Entrar en Tiempo de hackeo"
+	Hack_HintExit: "[Click] Salir de Tiempo de hackeo"
 	Hack_HintDenied: Sin permiso de acceso
 	Hack_HintKeyUnbound: La tecla de Tiempo de hackeo no está asignada; asígnala primero en Ajustes > Controles
 	WheelHint: "[{0}] Mantén pulsado · Suelta para confirmar · Clic izquierdo para elegir · Clic derecho para cancelar"
@@ -1604,9 +1605,9 @@ WeaponSkillHud: {
 	ReadyHint: Listo; clic para lanzar
 	AimHint: Mantén pulsado, arrastra al punto de impacto y suelta para lanzar
 	ReleaseHint: Suelta para lanzar
-	CooldownFormat: Enfriamiento restante {0} s
+	CooldownFormat: Enfriamiento restante: {0}s
 	ActiveLine: En lanzamiento
-	ManaCostFormat: Coste de maná {0}
+	ManaCostFormat: Coste de maná: {0}
 }
 
 KiyumeHoundHints: {
