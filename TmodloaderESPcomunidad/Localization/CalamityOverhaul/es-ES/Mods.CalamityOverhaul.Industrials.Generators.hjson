@@ -1,0 +1,99 @@
+ThermalGenerator: {
+	DisplayName: Generador térmico
+	Tooltip:
+		'''
+		Pon combustible para generar energía.
+		Clic derecho sobre el bloque para insentar comustible rápidamente,y clic derecho presionando MAYUS para quitar el combustible
+		'''
+}
+
+MagmaThermalGenerator: {
+	DisplayName: Generador térmico de magma
+	Tooltip:
+		'''
+		Genera un poco de energía al entrar en contacto con la lava, y su energía estará al máximo mientras su depósito contenga magma
+		Aliméntalo a través de tuberías de fluidos o haz clic derecho con un cubo de lava para verterla directamente
+		La primera fuente de energía fundamental para una fábrica infernal
+		'''
+}
+
+WindGrivenGenerator: {
+	DisplayName: Generador eólico
+	Tooltip: Las aspas se mueven con el viento para generar electricidad
+	UnderstandWindGriven: Es necesario comprender cómo funciona la energía eólica
+	UnderstandWindGriven2: Es necesario desenterrar antiguas máquinas eólicas en asteroides para comprender cómo están fabricadas
+}
+
+WindGrivenGeneratorMK2: {
+	DisplayName: Generador eólico MK2
+	Tooltip: Las aspas se mueven con el viento para generar electricidad
+	UnderstandWindGrivenMK2: Se requiere un profundo conocimiento de la energía eólica
+	UnderstandWindGrivenMK2Remind: Es necesario extraer las gigantescas turbinas eólicas de los asteroides para comprender sus principios de fabricación
+}
+
+ThermalGeneratorMK2: {
+	DisplayName: Generador térmico MK2
+	Tooltip:
+		'''
+		Pon combustible para generar energía.
+		Clic derecho sobre el bloque para insentar comustible rápidamente,y clic derecho presionando MAYUS para quitar el combustible.
+		'''
+}
+
+WGGMK2Wilderness: {
+	DisplayName: Aerogeneradores gigantes en medio de la naturaleza salvaje
+	Tooltip: ""
+}
+
+WGGWilderness: {
+	DisplayName: Aerogeneradores en la naturaleza salvaje
+	Tooltip: ""
+}
+
+SolarPanel: {
+	DisplayName: Panel solar
+	Tooltip:
+		'''
+		Genera energía durante el día, alcanzando su máximo al mediodía
+		Su producción se reduce considerablemente cuando llueve y deja de funcionar por completo durante los eclipses
+		Deja de funcionar cuando hay bloques sólidos que lo cubren desde arriba.
+		'''
+}
+
+SolarPanelMK2: {
+	DisplayName: Panel solar MK2
+	Tooltip:
+		'''
+		Genera energía durante el día, alcanzando su máximo a mediodía, y es tres veces más eficiente que el original
+		Su rendimiento se reduce considerablemente con la lluvia y deja de funcionar por completo durante los eclipses
+		Deja de funcionar cuando hay bloques sólidos que lo cubren desde arriba.
+		'''
+}
+
+Hydroelectric: {
+	DisplayName: Generador hidroeléctrico
+	Tooltip:
+		'''
+		Genera electricidad al sumergir esta máquina en el agua
+		'Una aplicación de la mecánica de fluidos'
+		'''
+}
+
+HydroelectricMK2: {
+	DisplayName: Generador hidroeléctrico MK2
+	Tooltip:
+		'''
+		Genera electricidad al sumergir esta máquina en el agua
+		'Una aplicación de la mecánica de fluidos'
+		'''
+}
+
+BiomassGenerator: {
+	DisplayName: Generador de biomasa
+	Tooltip:
+		'''
+		Quema semillas, hierbas, champiñones, pescado y otros excedentes agrícolas para generar energía de forma constante
+		La producción se sitúa entre la eólica y la térmica, y se combina con la maquinaria agrícola para crear un ciclo cerrado
+		Haz clic derecho mientras tienes biomasa en la mano para cargar combustible, o haz clic derecho para abrir el panel
+		'''
+}
