@@ -653,19 +653,6 @@ NeutronGun: {
 		'''
 }
 
-NeutronWand: {
-	DisplayName: Luz de la tumba estelar
-	Tooltip:
-		'''
-		Al hacer clic izquierdo, se lanza un pulso hacia el cursor; este frena hasta detenerse y gira cada vez más rápido
-		Sus dos haces magnéticos barren el campo mientras gira, y pueden coexistir tres a la vez
-		Mantén pulsado clic derecho para aplicar un frenado magnético, lo que canaliza la energía del giro hacia la corteza
-		Suéltalo para provocar un terremoto estelar: la corteza se parte, la magnetosfera se reconecta y los supervivientes se aceleran
-		"El psíquico pretendía aplastar estrellas para convertirlas en agujeros negros, pero solo consiguió crear restos
-		congelados en materia degenerada. Los nómadas llaman a ese tramo de cielo la Tumba Estelar".
-		'''
-}
-
 NeutronScythe: {
 	DisplayName: Mensajero del agujero negro
 	Tooltip:
@@ -690,16 +677,6 @@ MG42: {
 		'''
 		Disparar continuamente provocará que el cañon se sobrecaliente
 		Convierte las balas de mosquete en balas perforantes
-		'''
-}
-
-DragonsWord: {
-	DisplayName: Palabra del dragón
-	Tooltip:
-		'''
-		Lanza lágrimas de dragón que giran durante un tiempo antes de dirigirse hacia los enemigos.
-		Clic derecho para lanzar una magia de mando del dragón en el cursor, emitiendo una orden de muerte a los enemigos dentro del área.
-		"Un dragón solo puede derramar lágrimas una vez en toda su vida"
 		'''
 }
 
@@ -768,15 +745,6 @@ SandDagger: {
 		'''
 }
 
-UnderTheSand: {
-	DisplayName: Colmillo del páramo
-	Tooltip:
-		'''
-		Lanza dos oleadas de arena que caen en arco hacia abajo por la fuerza de la gravedad
-		Al impactar contra el suelo, brota de debajo una estela vertical de arena que lanza a los enemigos por los aires
-		'''
-}
-
 WastelandFang: {
 	DisplayName: Colmillo del páramo
 	Tooltip:
@@ -789,28 +757,6 @@ WastelandFang: {
 Flawless: {
 	DisplayName: Impecable
 	Tooltip: ""
-}
-
-MelodyTheSand: {
-	DisplayName: Canción de las arenas
-	Tooltip:
-		'''
-		Lanza un pequeño tornado de arena que cae al suelo por la fuerza de la gravedad
-		Una vez en el suelo, recorre la superficie de un lado a otro, dando marcha atrás al llegar a paredes y salientes
-		Lanza repetidamente por los aires a los enemigos a los que golpea
-		'''
-}
-
-SandVortexOfTheDecayedSea: {
-	DisplayName: Vórtice de arena marina descompuesta
-	Tooltip:
-		'''
-		Invoca un colosal vórtice marino putrefacto en el cursor
-		El vórtice atrae sin piedad a los enemigos cercanos y los desgarra, llegando incluso a desintegrar los proyectiles hostiles
-		Lanza periódicamente hacia fuera orbes marinos putrefactos que siguen al objetivo
-		Al disparar de nuevo, se renueva el vórtice existente; cuando se desintegra de forma natural, estalla en un anillo de orbes
-		"El rugido de las profundidades en descomposición se convirtió en arena"
-		'''
 }
 
 DuneStalker: {
@@ -896,25 +842,6 @@ WhiplashGalactica: {
 		{$CommonItemTooltip.Whips}
 		Marca a los enemigos al golpearlos y lanza bolas de fuego cósmicas.
 		"La columna vertebral de la serpiente cósmica, rebosante de energía celestial, guía la furia del universo".
-		'''
-}
-
-FocusingGrimoire: {
-	DisplayName: Grimorio de concentración
-	Tooltip:
-		'''
-		Al hacer clic izquierdo se lanzan anillos térmicos autoguiados que marcan a los enemigos al impactar
-		Al hacer clic derecho se disparan rápidamente rayos mortales, que infligen daño adicional y siempre causan un golpe crítico contra los enemigos marcados
-		"Mejor que seis libros juntos".
-		'''
-}
-
-CommandersStaff: {
-	DisplayName: Bastón del comandante
-	Tooltip:
-		'''
-		Dispara un rayo de desintegración térmica que atraviesa a los enemigos.
-		"Tomado del brazo de esa máquina, ¿qué tal si usamos energía psiónica en lugar de diésel?"
 		'''
 }
 
@@ -1028,16 +955,6 @@ BloodshotBomb: {
 	SelfBoom: "{0} echó una mirada de más"
 }
 
-Eyetooth: {
-	DisplayName: Diente de ojo
-	Tooltip:
-		'''
-		Lanza a tus enemigos un colmillo arrancado del Ojo de Cthulhu
-		Al morder a un enemigo, el colmillo se eleva por encima de su cabeza, apunta y luego se lanza en picado para asestar un segundo mordisco
-		Inflige un 150% de daño rogue, y las heridas causadas por el colmillo siguen sangrando
-		'''
-}
-
 Shatterfang: {
 	DisplayName: Colmillo rompedor
 	Tooltip:
@@ -1059,15 +976,6 @@ CommandersClaw: {
 		Lanza una lanza de comandante ornamentada cuya punta siempre apunta hacia delante.
 		Cada impacto provoca una lluvia de chispas metálicas, ondas de choque y un fuerte temblor de la pantalla.
 		Pueden volar varias lanzas a la vez, clavándose en el terreno al impactar contra una pared y atravesando a los enemigos al golpearlos.
-		'''
-}
-
-CommandersStaffEX: {
-	DisplayName: Bastón del comandante EX
-	Tooltip:
-		'''
-		Dispara cinco rayos sobrecargados que giran en espiral y convergen como un taladro cortante
-		"Adecuado para cortar metal"
 		'''
 }
 
@@ -1161,11 +1069,6 @@ MetalMusicBox: {
 SporeBubbleBlaster: {
 	DisplayName: Disparador de burbujas de esporas
 	Tooltip: Proyecta un chorro de aire con esporas
-}
-
-TomeofFungalDecay: {
-	DisplayName: Libro del deterioro fúngico
-	Tooltip: ""
 }
 
 FungalRevolver: {
@@ -1306,63 +1209,6 @@ OniMachete: {
 		'''
 }
 
-Pandemonium: {
-	DisplayName: Pandemonium
-	Tooltip:
-		'''
-		Haz clic izquierdo para cargar el arma y liberar Magia trascendental
-		Haz clic derecho para lanzar una Runa de azufre en el cursor
-		Mientras se mantiene pulsado, se iluminan dos botones de habilidades en la parte inferior izquierda de la pantalla
-		Haz clic en ellos para desatar "El juicio del azufre" o "El fin de todos los demonios"
-		'''
-	SkillLeftName: Juicio de azufre
-	SkillLeftDesc: Invoca un campo de columnas de fuego de azufre alrededor del cursor
-	SkillRightName: El fin de todos los demonios
-	SkillRightDesc: Despliega un círculo mágico gigante centrado en ti, que golpea a los enemigos que se encuentran en su interior con rayos y fuego
-}
-
-Elysium: {
-	DisplayName: Elíseo
-	Tooltip:
-		'''
-		Mantén pulsado clic izquierdo para canalizar el Rito de la Serpiente.
-		Suéltalo para lanzar una oleada de luz sagrada que convertirá a los enemigos menores que toque en serpientes sagradas que te perseguirán
-		Haz clic derecho para exaltar a un habitante cercano de la ciudad, llamándolo a tu lado como discípulo
-		Los discípulos te rodean, cada uno desempeñando su propio cargo, y te otorgan bendiciones sagradas
-		El daño infligido por los jefes consume a un discípulo, aplicando un punto de Poder del martirio
-		Con once puntos de Poder del martirio y si Juan aún en su cargo, el botón de habilidad desata la Revelación
-		Una vez que desciende la Revelación, al hacer clic derecho se invocan los Cuatro Jinetes
-		Las teclas de habilidad se convierten entonces en "Meteoro celestial" y "El Juicio de los últimos sellos".
-		Con los doce asientos ocupados, la bendición alcanza su punto álgido, pero cuantos estes apunto de morir te enfrentarás a la espada de Judas
-		Mantén pulsada la tecla Mayús para abrir el Rosetón; arrastra los asientos para reasignar los cargos sagrados
-		Mientras lo mantienes pulsado, se iluminan dos botones de habilidad en la parte inferior izquierda de la pantalla
-		'''
-	SkillLeftName: Trueno sagrado
-	SkillLeftDesc: Hace caer un rayo santo sobre el enemigo junto al punto de mira
-	SkillRightName: Juicio de los tres últimos sellos
-	SkillRightDesc: El quinto, el sexto y el séptimo sello se abren uno tras otro; el juicio final barre los cuatro puntos y el Apocalipsis se cierra
-	SkillRightLockedDesc: Solo puedes romper los sellos tras el Apocalipsis
-	SkillOpenName: Abrir el Apocalipsis
-	SkillOpenDesc: Juan se eleva en martirio y el dominio del cielo desciende
-	SkillMeteorName: Meteoro celestial
-	SkillMeteorDesc: Hace caer un cuerpo celeste desde la bóveda hacia donde apunta el cursor
-	NoConvertTargetText: No hay habitantes cerca que se puedan sublimar
-	SeatsFullText: Las doce sillas santas están ocupadas
-	JudasDeathReasonText: "{0} fue vendido por Judas por treinta monedas de plata"
-	DiscipleName_0: Pedro
-	DiscipleName_1: Andrés
-	DiscipleName_2: Santiago
-	DiscipleName_3: Juan
-	DiscipleName_4: Felipe
-	DiscipleName_5: Bartolomé
-	DiscipleName_6: Tomás
-	DiscipleName_7: Mateo
-	DiscipleName_8: Santiago el Menor
-	DiscipleName_9: Tadeo
-	DiscipleName_10: Simón el Zelote
-	DiscipleName_11: Judas
-}
-
 AncientStormGoddessSpear: {
 	DisplayName: Lanza de la Diosa de la tormenta Antigua
 	Tooltip:
@@ -1435,21 +1281,6 @@ PQCD: {
 		'''
 	NeedSignalTowersText: ¡Enlace de entrecruzamiento cuántico incompleto! Requiere que {0} torres de señal estén desplegadas.
 	SignalTowerProgressText: Progreso en el despliegue de torres: {0}/{1}
-}
-
-AriaofTheCosmos: {
-	DisplayName: Aria del cosmos
-	Tooltip:
-		'''
-		Mantén presionado el clic izquierdo para cargar un cuásar poderoso, que causará un daño devastador al liberarlo
-		Haz clic derecho para liberar un mini agujero negro que dispara una lluvia de rayos gamma una vez formado
-		Mientras se mantiene pulsado, se iluminan dos botones de habilidad en la parte inferior izquierda de la pantalla
-		Pulsa sobre ellos para invocar a un Guardián del anillo estelar o activar una ráfaga de rayos gamma
-		'''
-	SkillLeftName: Guardián del anillo estelar
-	SkillLeftDesc: Invoca un anillo estelar en órbita cuyos nodos lanzan una lluvia de polvo estelar contra los enemigos cercanos
-	SkillRightName: Explosión de rayos gamma
-	SkillRightDesc: Tras una breve recarga, lanza nueve rayos gamma en forma de abanico hacia el cursor
 }
 
 Oceanfragments: {
@@ -3193,18 +3024,6 @@ ProofingHallKey: {
 	Placed: La sala de verificación se ha instalado en este mismo lugar. Para comenzar la inspección, colócate en la tarima de registro situada a la izquierda y quédate quieto hasta que la campana termine de contar
 }
 
-WheezingWyrm: {
-	DisplayName: Dragón jadeante
-	Tooltip:
-		'''
-		Mantén pulsado para lanzar una ráfaga de fuego de dragón
-		La vieja cabeza ha vivido mejores tiempos y necesita toser un par de veces antes de que le salga el humo
-		La respiración prolongada calienta cada vez más la garganta, pasando de un rojo apagado a un azul abrasador
-		Cuanto más brillante es la llama, más calor genera; la llama azul inflige el mayor daño y enciende el fuego del infierno
-		"No estoy del todo muerto, solo soy un viejo fumador que se aclara la garganta"
-		'''
-}
-
 Abyssrend: {
 	DisplayName: Desgarro abisal
 	Tooltip:
@@ -3238,18 +3057,6 @@ TiroFinale: {
 		Mientras no disparas, la formación apunta por turnos hacia tu cursor, y cada mosquete resuena una vez antes de disolverse en luz
 		Haz clic derecho para condensar al menos cuatro mosquetes fantasmas en un gran cañón y poner en marcha el final
 		"Cuida tus modales y haz que la salida a escena sea magnífica"
-		'''
-}
-
-Everdeep: {
-	DisplayName: Profundidad insondable
-	Tooltip:
-		'''
-		Lanza un anillo de agua abisal a presión.
-		El anillo atraviesa a los enemigos, recorre una corta distancia y luego vuelve sobre sus pasos para golpear de nuevo
-		Los impactos generan resonancia abisal, que se mide mediante las gotas que orbitan alrededor del tomo
-		Cuando la resonancia alcanza su máximo, una gigantesca vorágine brota del suelo bajo los pies de la víctima
-		"Las profundidades no se abren ante ti; se cierran a tus espaldas"
 		'''
 }
 
@@ -3473,16 +3280,5 @@ Budcrown: {
 		La cabeza de arma suelta agujas al golpear a los enemigos
 		Cada tercer golpe estalla en plena floración, lanzando un anillo de pétalos con un fuerte efecto de retroceso
 		"El capullo más pesado es el que florece con más fuerza"
-		'''
-}
-
-BloomTome: {
-	DisplayName: Tomo de brotes
-	Tooltip:
-		'''
-		Lanza un rayo incipiente
-		El rayo se convierte en un anillo de pétalos al impactar contra un enemigo o contra el suelo
-		Cada cuarto lanzamiento se convierte en una floración completa con más pétalos, de la que brotan dos agujas hacia arriba
-		"Da la vuelta a la página que da la vuelta, esa página florece"
 		'''
 }
