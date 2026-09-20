@@ -162,7 +162,7 @@ Buffs: {
 
 Items: {
 	HemocombShard: {
-	DisplayName: Fragmento de hemopanal
+		DisplayName: Fragmento de hemopanal
 		Tooltip:
 			'''
 			Aumenta un 30% la probabilidad de fortalecer a las abejas aliadas
@@ -173,8 +173,8 @@ Items: {
 	}
 
 	HemocombShardChunk1: {
-	DisplayName: Trozo de carne
-	Tooltip: No deberías estar viendo esto...
+		DisplayName: Trozo de carne
+		Tooltip: No deberías estar viendo esto...
 	}
 
 	HemocombShardChunk2: {
@@ -301,13 +301,13 @@ Items: {
 	}
 
 	TinBeeIdol: {
-	Tooltip:
-		'''
-		Aumenta un 4% el daño y la probabilidad de golpe crítico del apicultor
-		«Está claro que las civilizaciones antiguas no sabían qué aspecto tenían las abejas»
-		'''
-	DisplayName: Ídolo de abeja de estaño
-}
+		Tooltip:
+			'''
+			Aumenta un 4% el daño y la probabilidad de golpe crítico del apicultor
+			«Está claro que las civilizaciones antiguas no sabían qué aspecto tenían las abejas»
+			'''
+		DisplayName: Ídolo de abeja de estaño
+	}
 
 	BeekeepersPants: {
 		Tooltip: Probabilidad de golpe crítico del apicultor aumentada un 5%
@@ -1145,15 +1145,12 @@ Items: {
 		DisplayName: Fragmento de panal umbrío
 	}
 
-	ChippedTailspike: {
-		Tooltip:
-			'''
-			Hace que crezcan púas en tu espalda con el tiempo
-			Recibir un golpe por detrás rompe las púas y refleja el daño al atacante
-			Cuando las púas terminan de crecer, recibir un golpe refleja un 500% del daño al atacante y aumenta brevemente la probabilidad de golpe crítico del apicultor
-			'''
-		DisplayName: Pincho caudal astillado
-	}
+	ChippedTailspike.Tooltip:
+		'''
+		Hace que crezcan púas en tu espalda con el tiempo
+		Recibir un golpe por detrás rompe las púas y refleja el daño al atacante
+		Cuando las púas terminan de crecer, recibir un golpe refleja un 500% del daño al atacante y aumenta brevemente la probabilidad de golpe crítico del apicultor
+		'''
 
 	MyocombShard: {
 		DisplayName: Fragmento de micopanal
@@ -1291,7 +1288,6 @@ Items: {
 		Los golpes críticos hacen sangrar a los enemigos
 		El último golpe siempre es crítico e inflige un 50% más de daño
 		'''
-
 	WulfrumStinger.Tooltip:
 		'''
 		Lanza rápidamente aguijones Wulfrum
@@ -1547,14 +1543,6 @@ Projectiles: {
 	WulfrumStingerPowerCellProjectile.DisplayName: Celda de energía Wulfrum
 	WulfrumStingerProjectile.DisplayName: Aguijón Wulfrum
 	StarryApiaryHoldout.DisplayName: Apiario
-	SeashoneHoneycombHoldout.DisplayName: Panal marino reluciente
-	MoltenBolt.DisplayName: Rayo fundido
-	StarryApiaryStar.DisplayName: Estrella del apiario estelar
-	StarryApiaryStarBlue.DisplayName: Estrella azul del apiario estelar
-	StarryApiaryStarGolden.DisplayName: Estrella dorada del apiario estelar
-	StarryApiaryStarGreen.DisplayName: Estrella verde del apiario estelar
-	StarryApiaryStarPink.DisplayName: Estrella rosa del apiario estelar
-	StarryApiaryStarPurple.DisplayName: Estrella morada del apiario estelar
 }
 
 NPCs: {
