@@ -2628,7 +2628,7 @@ Items: {
 			Reduce la mayoría de los enfriamientos en un [CD]%
 			Incrementa el tiempo de invencibilidad un [IM]%
 			Reduce la duración de los debuffos un [DB]%
-			Restaura el tiempo de vuelo al tocar las hitboxes de los enemigos e inflige el debuff Perturbación del alma
+			Restaura el tiempo de vuelo al tocar las hitboxes de los enemigos e inflige el debuff [cebuff:CalamityEntropy/SoulDisorder]
 			De vez en cuando, al golpear, lanza Fragmentos de alma, que vuelan hacia ti para curarte, otorgarte armadura temporal y recuperar maná
 			Aumenta la velocidad de vuelo en [FL]% y el tiempo de vuelo en [FT]%
 			Ralentiza la bajada de estadísticas (armadura, daño, probabilidad de crítico, reducción de daño, regeneración de vida y otros atributos) cuando estas disminuyen
@@ -6860,7 +6860,7 @@ TSA6: Deja una grieta al realizar un corte rápido. La grieta causará daño con
 TSU6: Necesitas acabar con el Devorador de Dioses
 TSA7: Resiste una golpe mortal y recupera la mitad de tu salud máxima. Tiene 5 minutos de enfriamiento
 TSU7: Necesitas acabar con Yharon
-TSA8: Atacar puede causar toque del vacío
+TSA8: Atacar puede causar [cebuff:CalamityEntropy/VoidTouch]
 TSU8: Necesitas acabar con el Cruiser
 TSA9: Cuanto más cerca estés del objetivo, mayor será el daño provocado, con un daño adicional máximo del 35%
 PressShiftForMoreInfo: Presiona shift para más información...
