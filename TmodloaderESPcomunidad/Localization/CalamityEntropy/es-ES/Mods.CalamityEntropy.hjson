@@ -816,6 +816,7 @@ Items: {
 			Absorbe el 25% del daño infligido a los jugadores de tu equipo mientras tengas más del 25% de vida
 			Te proporciona un Escudo sagrado que puede resistir el daño una vez, con un tiempo de enfruamiento de 150 segundos
 			Mantén pulsada la tecla Mayús y haz clic derecho para activar o desactivar [i:PanicNecklace] [c/aaaaaa:Efecto del Collar del pánico]
+			[TOGGLE]
 			'''
 		ToggleEffectOn: "[c/00ff00:Pánico activado]"
 		ToggleEffectOff: "[c/808080:Pánico desactivado]"
@@ -1390,7 +1391,7 @@ Items: {
 
 	GravityGaze: {
 		DisplayName: Mirada gravitatoria
-		Tooltip: 
+		Tooltip:
 			'''
 			Dispara una ráfaga de 3 rayos aéreos perforantes
 			Estos rayos explotan al impactar a corta distancia, infligiendo un 50% de daño adicional
@@ -2878,7 +2879,7 @@ Items: {
 
 	CDRemove: {
 		DisplayName: Ítem de desarrollador- elimina todos los debuffos
-		Tooltip: 
+		Tooltip:
 			'''
 			Clic derecho en el inventario para establecer el multiplicador de enfriamiento
 			Actual: Reduce un [R]% el tiempo de enfriamiento
@@ -3617,7 +3618,7 @@ Items: {
 			«¡POR EL PODER DE LOS CIELOS, TE CONCEDERÉ... DOS RANURAS PARA MARCADORES!»
 			'''
 	}
-	
+
 	Knightmare: {
 		DisplayName: Caballero Pesadilla
 		Tooltip:
@@ -4095,6 +4096,8 @@ Items: {
 		DisplayName: Borrón y cuenta nueva
 		Tooltip:
 			'''
+			{$MissileLauncherDescTooltip}
+			{$MissileLauncherMaxStickTooltip}
 			Los misiles infligen [cbuff:CalamityMod/BrimstoneFlames], [cbuff:CalamityMod/HolyFlames], [cbuff:CalamityEntropy/SoulDisorder] y [cbuff:CalamityMod/Daybroken] al impactar
 			Haz clic derecho para lanzar un misil único y más potente que cura 5 puntos de vida al detonar y, además, inflige [cbuff:CalamityMod/Dragonfire], [cbuff:CalamityMod/GodSlayerInferno] y [cbuff:CalamityMod/Plague] al impactar
 			'''
@@ -4214,7 +4217,7 @@ Neltharion: {
 
 	WulfrumMissile: {
 		DisplayName: Misil de wulfrum 
-		Tooltip: Aumento un 2% el daño por cada misil incrustado
+		Tooltip: Aumento un 5% el daño por cada misil incrustado
 	}
 
 	CursedRunestone: {
@@ -6022,7 +6025,7 @@ NPCs: {
 		BossChecklistIntegration: {
 			EntryName: Cruiser
 			SpawnInfo: Usa un [i:CalamityEntropy/VoidBottle] para invocarlo
-			DespawnMessage:""
+			DespawnMessage: ""
 		}
 	}
 
@@ -6035,7 +6038,7 @@ NPCs: {
 	PrimordialWyrmNPC: {
 		TownNPCMood: {
 			NoHome: Ha sido una agradable pelea, y me has ganado. ¿Puedes darme un hogar donde vivir?
-			Content:Muchas gracias, ¡me lo estoy pasando genial!.
+			Content: Muchas gracias, ¡me lo estoy pasando genial!.
 			FarFromHome: ¿Que sitio es este?
 			LoveSpace: Este lugar es muy espacioso y me encanta.
 			DislikeCrowded: Este lugar está demasiado animado.
@@ -6285,7 +6288,7 @@ Configs: {
 
 		LoreSpecialEffect: {
 			Label: Activar los efectos especiales de los ítems de lore
-			Tooltip: ""
+			Tooltip: Enable lore special effect when entropy mode isn't enable
 		}
 
 		BramblecleaveAlwaysUnlockAllSkill: {
