@@ -1,0 +1,304 @@
+TlipocasScytheLegend: {
+	Conditions: {
+		DashTitle: Habilidad: Corte rápido
+		StatTitle: Habilidad: Estadística básica
+		TeleportTitle: Habilidad: Teletransporte Cortante
+		ThrowTitle: Habilidad: Lanzar
+	}
+
+	Ability: {
+		TScytheA1: Presionar Arriba y atacar te empujará una cierta distancia hacia la dirección del cursor
+		TScytheA1B: Serás invencible por un tiempo e infligirás daño a los objetivos con los que entras en contacto
+		TScytheA2: Pulsa el botón izquierdo del ratón para lanzar la guadaña y causar múltiples heridas
+		TScytheA2B:
+			'''
+			Pulsa clic izquierdo para teletransportarte al cursor y lanzar un corte mayor.
+			Esta habilidad tiene un tiempo de enfriamiento de 30 segundos.
+			'''
+		TScytheA3:
+			'''
+			Al lanzarla, pulsa clic derecho para que la guadaña siga tu cursor
+			Los ataques sigilosos te curarán 7 puntos
+			'''
+		TScytheA4:
+			'''
+			El teletransporte cortante potenciará tu arma con el poder del vacío
+			Este efecto durará 8 segundos. Tras derrotar al Cruiser, la duración aumentará a 15 segundos.
+			Obtendrás un aumento del 20% en el daño mientras el efecto esté activo
+			'''
+		TScytheA5:
+			'''
+			Deja una sombra al realizar un ataque de teletransporte; la sombra atacará junto a ti.
+			La embestida cortante generará un corte adicional perpendicular al original.
+			Se ha aumentado el valor de curación de los ataques sigilosos
+			'''
+		TScytheA6: Deja una grieta al realizar un corte rápido. La grieta causará daño continuamente
+		TScytheA7: Resiste una golpe mortal y recupera la mitad de tu salud máxima. Tiene 5 minutos de enfriamiento
+		TScytheA8: Atacar puede causar toque del vacío
+		TScytheA9: Cuanto más cerca estés del objetivo, mayor será el daño provocado, con un daño adicional máximo del 25%
+	}
+
+	Downed: {
+		TScytheU1: Derrota al Ojo de Cthulhu
+		TScytheU1B: Derrota al Dios Slime
+		TScytheU2: Derrota a cualquier jefe maligno
+		TScytheU2B: Derrota a la Elemental de Azufre
+		TScytheU3: Derrota al Profeta
+		TScytheU4: Derrota a los Gemelos del vacío
+		TScytheU5: Derrota a Polterghast
+		TScytheU6: Derrota al Devorador de Dioses
+		TScytheU7: Derrota a Yharon
+		TScytheU8: Derrota al Cruiser
+		TScytheU9: Derrota a la Bruja suprema
+		TWOF: Derrota al Muro carnoso
+		TALLMECHBOSS: Derrota a todos los jefes mecánicos
+		TLevel2: Alcanza el nivel 2
+	}
+
+	Dialog: {
+		TScytheDia1:
+			'''
+			Los grandes ojos malignos parecen tener malas intenciones hacia nosotros...
+			¡Vamos a matarlo!
+			'''
+		TScytheDia2:
+			'''
+			¿Extraños espíritus parecidos a cerebros y gusanos?
+			¿Puedo llevármelo a casa como espécimen?
+			'''
+		TScytheDia3:
+			'''
+			¿El Dios Slime? Parece pegajoso, sucio y burbujeante...
+			¿Le damos un baño?
+			'''
+		TScytheDia4:
+			'''
+			¿Una creación de carne y hueso sellada con los espíritu de dioses?
+			Parece que completar esta tarea puede producir muchas almas...
+			'''
+		TScytheDia5:
+			'''
+			Muchas almas flotan en los peñascos de azufre, aullando de dolor...
+			Hablando sin cesar de una catástrofe ocurrida hace cien años...
+			¡Acabemos con su sufrimiento!
+			'''
+		TScytheDia6:
+			'''
+			Hay un monstruo rojo y aterrador flotando por el cielo nocturno.
+			Solo puedo sentir locura en su alma. O... ¿Acaso es eso un alma?
+			'''
+		TScytheDia7:
+			'''
+			Hay tantos espíritus en la mazmorra...
+			¡Oye, hay un espíritu sellado con un olor extraño!
+			¡Siento una necesidad imperiosa de comunicarme con él!
+			'''
+		TScytheDia8:
+			'''
+			¿Cuántos filamentos de alma están unidos a la carne y sangre retorcidas? 
+			¡Qué asco, devuélvelos a sus sueños!
+			'''
+		TScytheDia9:
+			'''
+			Estos cultistas locos emiten un aura similar a la de ese profeta...
+			¿A qué le rinden culto?
+			Me parece que enviarlos a adorar a la Parca es una buena idea.
+			'''
+		TScytheDia10: ¿Un pulpo gigante con múltiples ojos? ¿Es este un monstruo salido de un sueño?
+		TScytheDia11:
+			'''
+			El hombre sin rostro con una capa púrpura llevaba una linterna con un aura profética...
+			¡Tengo un poco de curiosidad, quiero agarrar la linterna!
+			'''
+		TScytheDia12:
+			'''
+			En la mazmorra encantada, estas almas jamás descansarán en paz
+			Es tan lamentable, ¡llevemonos las almas!
+			'''
+		TScytheDia13:
+			'''
+			Hay una serpiente púrpura.
+			¡Quiere devorar nuestras almas!
+			¡Ni lo intentes!
+			'''
+		TScytheDia14:
+			'''
+			La linterna extraña apuntaba hacia esta fisura espacial.
+			¿Qué aportará?
+			'''
+		TScytheDia15:
+			'''
+			Una bruja y un robot han llegado.
+			¡Arrebatarles sus almas y mi objetivo quizá se cumpla!
+			'''
+		TScytheDia16:
+			'''
+			El cultista nos pidió que usáramos la varita de la discordia en el abismo...
+			¿Qué pasará?
+			'''
+		TScytheDia17: ¡Por fin pagué la deuda, la tarea se completó perfectamente!
+	}
+
+	General.CurLevel: ""
+	TlipocazKilledNPC: Presiona el botón central del ratón para asesinar a tus aliados
+	TlipocazKilledNPCNot: Presiona el botón central de nuevo para evitar asesinar a tus aliados
+}
+
+DCarverDia0:
+	'''
+	¿Tu fuiste quien me despertó?
+	Sí, como puedes ver, he perdido la mayor parte de mi poder.
+	Si deseas demostrar que eres digno de servirme, ¡primero asesina al Ojo maligno!
+	'''
+DCarverDia1:
+	'''
+	Bien, puedo sentir que tanto tú como yo nos estamos haciendo más fuertes.
+	Acaba con los engendros del lugar contaminado y demuéstrame tu poderío.
+	'''
+DCarverDia2:
+	'''
+	Has demostrado tu fuerza, pero aún queda un largo camino por recorrer.
+	Ahora puedo despertar a mis siervos dormidos. Si derrotas a seres más poderosos, podrás despertar a más de mis seguidores.
+	A continuación, ¡derrota a la deidad incompleta compuesta por seres insignificantes!
+	'''
+DCarverDia3: Ha llegado la hora de la verdad. Ve a los cimientos del Mundo, mata a la creación retorcida y libera el alma sellada durante tanto tiempo.
+DCarverDia4: ¡Acaba con el espíritu primigenio profanado que habita en las profundidades subterráneas y recupera el poder que me fue arrebatado!
+DCarverDia5:
+	'''
+	He visto a esa bruja antes.
+	Pero ahora parece... diferente.
+	En cualquier caso, su poder es mucho menor que antes, o tal vez esto sea solo una imitación fallida.
+	'''
+DCarverDia6: Hay una inquietante agitación bajo la jungla. Si logramos erradicar su origen, tal vez encontremos un fragmento de mí mismo.
+DCarverDia7:
+	'''
+	Puedo sentir cómo se acerca una frenética construcción de carne.
+	Está compuesto por miles de entidades que ansían venganza. Quizás podamos sacar algo de ello.
+	'''
+DCarverDia8:
+	'''
+	Es hora de recuperar una parte sellada de mí de esos cultistas.
+	Una vez me sacrificaron para invocar a su dios malvado.
+	'''
+DCarverDia9: Para proteger esta tierra y continuar nuestro viaje, ¡erradiquemos por completo a esos forasteros!
+DCarverDia10:
+	'''
+	Las llamas profanas arden. La caída del dios exterior ha despertado algo indeseable.
+	Debemos detenerla antes de que la situación se salga de control.
+	'''
+DCarverDia11:
+	'''
+	Un gran número de espíritus vengativos permanecen en lo más profundo de la mazmorra, incluso se han fusionado en una poderosa entidad.
+	Parece que no tenemos más remedio que purificarlos.
+	'''
+DCarverDia12: Ese gusano hipócrita ha venido a por nosotros. Parece que debemos actuar.
+DCarverDia13:
+	'''
+	Lo conozco.
+	En su día estuvo bajo las órdenes del Buscador de Dioses, pero al final lo abandonó.
+	Parece necesario resolver esto con él.
+	'''
+DCarverDia14:
+	'''
+	Nuestro viaje llega a su fin y he recuperado la mayor parte del poder que había perdido.
+	¡Ahora, enfréntate a la bruja y al Destructor Mecánico en una batalla final!
+	'''
+DCarverDia15: ¡Acaba con el antiguo leviatán en las profundidades del océano abisal y pon fin a este viaje!
+DCarverDia16: Nuestro viaje juntos ha llegado a su fin, pero aún nos esperan muchos enemigos poderosos. ¡Adelante, mi maestro!
+
+General: {
+	Locked: "[BLOQUEADO]:"
+	PagesTips: Mantén pulsado Alt izquierdo para leer directamente la habilidad, pulsa clic izquierdo para cambiar
+}
+
+SusiesBracelet: {
+	Lores: {
+		l0:
+			'''
+			Capítulo 1 - La marcha del Rey Oscuro
+			Los héroes derrotaron al rey y detuvieron al dragón.
+			'''
+		l1:
+			'''
+			Capítulo 2 - La ciudad Resplandeciente
+			Los héroes luchan en carros de combate para salvar a la reina
+			'''
+		l2:
+			'''
+			Capítulo 3 - Las islas de la Aurora Boreal
+			Los héroes viajan entre las islas
+			y vislumbran una tierra perdida
+			'''
+		l3:
+			'''
+			Capítulo 4 - Las pruebas del Martillo sagrado
+			Un gran herrero entrega a los héroes un arma formidable.
+			'''
+		l4:
+			'''
+			Capítulo 5 - El campo rosa y dorado
+			El vasto jardín está carbonizado en un infierno de celos.
+			'''
+		l5:
+			'''
+			Solo quedaba un capítulo más...
+			Después de eso, todo se detuvo.
+			'''
+		l6:
+			'''
+			El siguiente capítulo nunca llegó a escribirse.
+			La historia se volvió tan grandiosa, tan abrumadora,
+			que algunos dicen que se tragó al propio autor
+			'''
+		l7:
+			'''
+			Los que podían escribir el capítulo siguiente, los jóvenes,
+			tenían la pluma ahí para que la agarraran.
+			Para escribir la siguiente página.
+			...nunca lo hicieron.
+			'''
+		l8:
+			'''
+			¿Pero tú, mi amor?
+			Veo una historia encendida en tus ojos.
+			Ardiendo con intensidad...
+			Ardiendo en negro.
+			Todo ardiendo.
+			'''
+		l9:
+			'''
+			La campana está sonando ahora.
+			Parece que hemos llegado a las rondas finales.
+			Entonces... ¿cómo crees que terminará todo?
+			No, ¿cómo quieres que termine?
+			'''
+		l10:
+			'''
+			A estas horas tan tardías,
+			con las campanas repicando su justicia.
+			Tú eliges la eternidad.
+			'''
+		l11:
+			'''
+			Pero... hay una cosa que puede borrar la oscuridad.
+			Un lápiz blanco, conocido como esperanza.
+			Creo... que esto es lo que tienes en tus manos.
+			'''
+	}
+
+	Trials: {
+		Trial: Prueba
+		t0: Rey Slime / Ojo de Cthulhu
+		t1: Cualquier jefe maligno
+		t2: Esqueletrón / Reina abeja
+		t3: Muro carnoso
+		t4: Cualquier mecánico
+		t5: Plantera / Clon de Calamitas
+		t6: Señor de la luna
+		t7: Providencia
+		t8: Polterghast / Tejedor de tormentas / Signus / Vacío incesante
+		t9: Devorador de Dioses
+		t10: Yharon
+		t11: Pruebas - Terminadas
+	}
+}

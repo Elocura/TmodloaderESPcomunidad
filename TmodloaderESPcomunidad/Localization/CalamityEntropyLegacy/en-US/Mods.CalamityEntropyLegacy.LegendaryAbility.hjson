@@ -1,0 +1,302 @@
+TlipocasScytheLegend: {
+	Conditions: {
+		DashTitle: Ability: Slash Dash
+		StatTitle: Ability: Basic Stat
+		TeleportTitle: Ability: Teleport Slash
+		ThrowTitle: Ability: Throw
+	}
+
+	Ability: {
+		TScytheA1: Hold Up and attack will push a certain distance towards the mouse direction
+		TScytheA1B: Gain invincible time and deal damage to the targets you come into contact with
+		TScytheA2: Press Left Click to throw the scythe and cause multiple injuries
+		TScytheA2B:
+			'''
+			Press Left Click when throwing to teleport to the mouse and launch a larger slash
+			This skill has a 30 second cooldown time
+			'''
+		TScytheA3:
+			'''
+			When thrown out, press Right Click to let the scythe follow your curser
+			Stealth strikes will heal you with 7
+			'''
+		TScytheA4:
+			'''
+			Teleport slash will empower your weapon with void.
+			This will last for 8 seconds. After killing Cruiser, it will increase to 15 seconds
+			Gain 20% increased damage while empowered
+			'''
+		TScytheA5:
+			'''
+			Leave a shadow when performing a teleport strike, the shadow will attack alongside you
+			Slash dash will generate an additional slash perpendicular to the original
+			Increased the healing value of steal strikes
+			'''
+		TScytheA6: Leave rift when slash dash. The rift will continuously causing harm
+		TScytheA7: Resist a fatal injury and restore your health to half of your maximum health.Need 5 min to cooling
+		TScytheA8: Attacks inflict void touch
+		TScytheA9: The closer the distance to the target, the higher the damage dealt, with a maximum additional damage of 25%
+	}
+
+	Downed: {
+		TScytheU1: Take down Eye of Cthulhu
+		TScytheU1B: Take down Slime God
+		TScytheU2: Take down any evil boss
+		TScytheU2B: Take down Brimstone Elemental
+		TScytheU3: Take down Prophet
+		TScytheU4: Take down Void Twins
+		TScytheU5: Take down Polterghast
+		TScytheU6: Take down The Devourer of Gods
+		TScytheU7: Take down Yharon
+		TScytheU8: Take down Cruiser
+		TScytheU9: Take down the Supreme Witch
+		TWOF: Take down the Wall of Flesh
+		TALLMECHBOSS: Take down all mechanical bosses
+		TLevel2: Reach level 2
+	}
+
+	Dialog: {
+		TScytheDia1:
+			'''
+			The evil big eyes seem to have ill intentions towards we...
+			Let's go kill him!
+			'''
+		TScytheDia2:
+			'''
+			Strange spirits resembling brains and worms?
+			Can I take it home to make a specimen？
+			'''
+		TScytheDia3:
+			'''
+			Slime God? It looks sticky, dirty, and bubbling...
+			Shall we give it a bath？
+			'''
+		TScytheDia4:
+			'''
+			A flesh and blood creation sealed with the spirit of the gods?
+			It seems that completing this task can bring a lot of souls...
+			'''
+		TScytheDia5:
+			'''
+			Many souls are floating in the brimstone crag, howling in sorrow...
+			Continuously talking about a catastrophe from a hundred years ago...
+			Let's end their pain!
+			'''
+		TScytheDia6:
+			'''
+			There is a terrifying red monster hovering in the night sky,
+			I can only feel madness from his soul. Or...Is that really a soul?
+			'''
+		TScytheDia7:
+			'''
+			There're so much spirits in the dungeon...
+			Hey，there's a sealed spirit with strange scent
+			I can't help but want to communicate with them!
+			'''
+		TScytheDia8:
+			'''
+			How many strands of soul are attached to twisted flesh and blood? 
+			Some Disgusting, drive them back to their dreams!
+			'''
+		TScytheDia9:
+			'''
+			These crazy cultists emit an aura similar to that prophet...
+			What are they worshiping? 
+			It feels like sending them to worship the Grim Reaper is a good idea
+			'''
+		TScytheDia10: A huge, multi eyed octopus? Is this a monster that came out of a dream?
+		TScytheDia11:
+			'''
+			The faceless man wearing a purple cloak carried a lantern with a prophetic aura ..
+			I'm a little curious, I want to grab the lantern!
+			'''
+		TScytheDia12:
+			'''
+			In the enchanted dungeon, these souls can never rest in peace
+			It's so pitiful, let's take it away!
+			'''
+		TScytheDia13:
+			'''
+			There is a purple serpent.
+			It want to devour the soul of we!
+			Don't even try this!
+			'''
+		TScytheDia14:
+			'''
+			The strange lantern pointed towards this spatial fissure
+			What will it bring?
+			'''
+		TScytheDia15:
+			'''
+			A witch and a robot came to here，
+			Snatch their souls and my goal might be achieved！
+			'''
+		TScytheDia16:
+			'''
+			The cultist asked us to use the discord wand in the abyss...
+			What will happen?
+			'''
+		TScytheDia17: Finally paid off the debt, the task was perfectly completed!
+	}
+
+	General.CurLevel: ""
+	TlipocazKilledNPC: Press Middle Mouse to allow you slain friendly target
+	TlipocazKilledNPCNot: Press Middle Mouse again to prevent you from killing friendly target
+}
+
+DCarverDia0:
+	'''
+	Was it you who awakened me?
+	Indeed, as you can see, I have lost most of my power
+	If you wish to prove yourself worthy of my service, first slay the Evil Eye!
+	'''
+DCarverDia1:
+	'''
+	Good, I can sense both you and I growing stronger
+	Slay the spawn of the defiled land, and prove your might to me
+	'''
+DCarverDia2:
+	'''
+	You have proven your strength, but there is still a long road ahead
+	I can now awaken my slumbering servants. If you defeat more powerful beings, you can awaken more of my followers
+	Next, defeat the incomplete deity composed of feeble beings!
+	'''
+DCarverDia3: The time for reckoning has come. Go to the Foundation of the World, slay the twisted creation, and release the long-sealed soul
+DCarverDia4: Slay the defiled primal spirit deep underground and reclaim the power that was stolen from me!
+DCarverDia5:
+	'''
+	I have seen that witch before
+	But now, she seems... different
+	In any case, her power is far less than before, or perhaps this is just a failed imitation
+	'''
+DCarverDia6: There is a restless stirring beneath the jungle. If we can eradicate its source, we might find a fragment of myself
+DCarverDia7:
+	'''
+	I can sense a frenzied construct of flesh approaching
+	It is composed of thousands of entities craving vengeance. Perhaps we can gain something from it
+	'''
+DCarverDia8:
+	'''
+	It is time to reclaim a sealed part of me from those cultists
+	They once sacrificed me to summon their evil god
+	'''
+DCarverDia9: To protect this land and continue our journey, eradicate those outsiders completely!
+DCarverDia10:
+	'''
+	Profane flames burn. The fall of the outer god has awakened something unpleasant
+	We must stop her before the situation spirals out of control
+	'''
+DCarverDia11:
+	'''
+	A great number of vengeful spirits remain deep within the dungeon, even amalgamating into a powerful entity
+	It seems we have no choice but to cleanse them
+	'''
+DCarverDia12: That hypocritical worm has come for us. It seems we must act
+DCarverDia13:
+	'''
+	I know him
+	He was once under the Seeker of Gods, but he left in the end
+	It seems necessary to settle this with him
+	'''
+DCarverDia14:
+	'''
+	Our journey nears its end, and I have regained most of my lost power
+	Now, face the witch and the Destroyer Mech in a final battle!
+	'''
+DCarverDia15: Slay the ancient leviathan in the deepest part of the abyssal ocean, and bring this journey to an end!
+DCarverDia16: Our journey together has reached its conclusion, but many powerful enemies still await. Press on, my master!
+
+General: {
+	Locked: "[LOCKED]:"
+	PagesTips: Hold Left Alt to directly read the ability, press Left Click to switch
+}
+
+SusiesBracelet: {
+	Lores: {
+		l0:
+			'''
+			Chapter 1 - The March of the Dark King
+			The heroes defeat the king and stop the dragon
+			'''
+		l1:
+			'''
+			Chapter 2 - The City of the Shining
+			The heroes do battle in chariots to save the Queen
+			'''
+		l2:
+			'''
+			Chapter 3 - The Isles of Northernlight
+			The heroes travel among the islands, and catch a glimpse of a lost land
+			'''
+		l3:
+			'''
+			Chapter 4 - The Trials of the Holy Hammer
+			A great smith gives the heroes a terrible weapon
+			'''
+		l4:
+			'''
+			Chapter 5 - The Field of Pink and Gold
+			The vast garden is charred in an inferno of jealousy
+			'''
+		l5:
+			'''
+			There was only one more chapter...
+			After that, It all stopped
+			'''
+		l6:
+			'''
+			That next book, it never did get written
+			The story, it became so grand, so overwhelming,
+			some say it swallowed up the author himself
+			'''
+		l7:
+			'''
+			The ones who could write the next, the youth,
+			the pen was lying there for them to pick up
+			To make the next page
+			...they never did
+			'''
+		l8:
+			'''
+			But you, my dear?
+			I see a story lit up in your eyes
+			Burnin' bright...
+			Burnin' black
+			Burnin' up everything
+			'''
+		l9:
+			'''
+			The bell's ringin' now
+			Seems we've reached the final rounds
+			So... how do you think it all ends?
+			No, how do you want it to end?
+			'''
+		l10:
+			'''
+			At this late hour, with the bells ringing out their justice
+			You choose eternity
+			'''
+		l11:
+			'''
+			But... there is one thing that can overwrite the dark
+			A white pen, known as hope
+			I believe... this is what you hold
+			'''
+	}
+
+	Trials: {
+		Trial: Trial
+		t0: Slime King / Eye of Cthulhu
+		t1: Any evil boss
+		t2: Skeletron / Queen Bee
+		t3: Wall of Flesh
+		t4: All mech boss
+		t5: Plantera / Calamitas Clone
+		t6: Moonlord
+		t7: Providence
+		t8: Polterghast / Storm Weaver / Signus / Ceaseless Void
+		t9: Devourer of Gods
+		t10: Yharon
+		t11: Trials - Done
+	}
+}
