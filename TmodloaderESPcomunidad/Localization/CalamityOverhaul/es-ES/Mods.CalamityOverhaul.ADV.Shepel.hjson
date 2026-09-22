@@ -133,6 +133,37 @@ HackTimeTutorialLead: {
 	HT_Observing: Cargando...
 }
 
+CybCourseWheelIntroDialogue: {
+	Line1: Both core protocols check out. One last thing — a gesture that puts them both at your fingertips.
+	Line2: Hold {0} and the radial wheel unfolds — the three domain layers sit on the ring, and dead center is the Hack Time shortcut.
+	Line3: Go ahead. Hold {0}, fling the cursor toward the layer you want, and let go.
+}
+
+WheelTutorialLead: {
+	RW_S00_Title: Summon the Radial Wheel
+	RW_S01_Title: Pick a Domain Layer
+	RW_S02_Title: Center: Hack Time
+	RW_S00_Body:
+		'''
+		Hold {0} to summon the radial wheel.
+		Every eligible wheel appears together; the cursor belongs to whichever is closest.
+		'''
+	RW_S01_Body:
+		'''
+		Keep holding, fling the cursor toward any layer sector,
+		then left-click or simply release to confirm. The domain deploys at once.
+		'''
+	RW_S02_Body:
+		'''
+		Dead center of the wheel is the Hack Time shortcut —
+		clicking it equals pressing {1}. That wraps up the training.
+		'''
+	RW_Calibrating: Synchronized
+	RW_NextBtn: Skip >
+	RW_HintStuck: Hint: click Skip to force past this step
+	RW_KeyHintUnbound: Note: the radial wheel key is unbound, so the wheel cannot open. Bind it under Settings > Controls, or click Skip.
+}
+
 CybCourseOutroDialogue: {
 	Line1: Etrenamiento completado. Se han calibrado correctamente todas las interfaces.
 	Line2: La conexión neuronal es correcta. El nodo Supersueño se está desconectando.
@@ -173,7 +204,6 @@ CybCourseWorld: {
 }
 
 ShepelCyberActiveDialogue: {
-	RoleName: SHPC
 	Line_Intro: Maestro, el ciberespacio ha sido activado, capa actual {0}. Las señales externas están completamente aisladas; este es ahora un dominio seguro que nos pertenece solo a nosotros.
 	Line_LayerReport: Cuanto más profundo sea la capa, más obstáculos podré eliminar por usted. Sin embargo, tenga en cuenta el consumo de RAM.
 	Line_Warning: Manténgase alerta, Maestro. Se han detectado fluctuaciones anómalas en los límites del dominio. Por favor, permanezca bajo mi protección.
@@ -425,9 +455,9 @@ ShepelSnowBiomeDialogue: {
 ShepelUnderworldDialogue: {
 	V0_Line1: Estamos en las profundidades subterráneas. Las lecturas de corrientes térmicas superan todos los parámetros preestablecidos. Aquí todo es más extremo de lo que esperaba.
 	V0_Line2: Algunos sensores externos están emitiendo alertas de sobrecalentamiento, pero aguantaré. Maestro, usted tampoco se exija demasiado.
-	V1_Línea1: El magma como fuente de iluminación es extremadamente derrochador desde el punto de vistaenergético.
-	V1_Línea2: Aunque supongo que a los habitantes del Infierno eso no les importa.
-	V2_Línea1: Los vestigios arquitectónicos aquí son más antiguos que los de la mazmorra de la superficie, y sin embargo no se han erosionado tras estar sumergidos en magma durante tanto tiempo.
+	V1_Line1: El magma como fuente de iluminación es extremadamente derrochador desde el punto de vistaenergético.
+	V1_Line2: Aunque supongo que a los habitantes del Infierno eso no les importa.
+	V2_Line1: Los vestigios arquitectónicos aquí son más antiguos que los de la mazmorra de la superficie, y sin embargo no se han erosionado tras estar sumergidos en magma durante tanto tiempo.
 	V2_Line2: ¿Qué material es este? Lo archivo; lo estudiaré más tarde si tengo ocasión.
 	VBloodMoon_Line1: la Luna de sangre en el infierno. Dos sistemas de alarma funcionando a la vez... es un poco ajetreado.
 	VBloodMoon_Line2: Aunque los datos son muy completos. Por favor, cuídese, Maestro.

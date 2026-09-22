@@ -37,7 +37,7 @@ HalibutText: {
 		UnequipBtn: Eliminar
 		SelectBtn: Selecionar
 		SelectedTag: Activo
-		EEquippedTag: Equipado
+		EquippedTag: Equipado
 		NodeEquipHint: Doble clic para equipar · Clic derecho también sirve · O arrástralo al equipo
 		NodeUnequipHint: Ya está en el equipo · Clic derecho para quitar
 		DockSlotHint: Clic izquierdo para elegir · Clic derecho para quitar · Arrastra para cambiar de sitio
@@ -636,6 +636,7 @@ OnikiriText: {
 		StanceValueFormat: "{0} / {1}"
 		StanceReadyLine: Postura llena: {0} fija al enemigo y lanza el tajo final; el doble paso relámpago sigue pudiendo atravesar
 		StanceHalfLine: Postura a medias: pulsa {0} dos veces seguidas, luego clic izquierdo para el destello aniquilador
+		StanceLockedLine: Execution in progress: invulnerable, Stance locked
 		DomainTitle: Ojo del Reino espectral
 		DomainStateClosed: Cerrado, el dominio no está desplegado
 		DomainStateOmote: Omote, papel amarillento
@@ -1293,6 +1294,13 @@ KikasaText: {
 		DreamTitle: Adéntrarse en el sueño fantasmal
 		DreamBody: Cuando el lago esté lleno, mantén pulsada la tecla Dar la vuelta al lago y el reflejo del lago te arrastrará al sueño. Allí, los enemigos están indefensos y no existen proyectiles a distancia; tus objetos también están bloqueados, así que mantén pulsado clic izquierdo para soltar a los sabuesos. Vuelve a pulsar la misma tecla para despertar.
 		DreamPrompt: Con el lago lleno, mantén pulsado {0}
+		CloseTitle: Draw Back the Blood Lake
+		CloseBody: Once expanded, the Blood Lake continuously follows you and will not disappear when switching weapons. Hold Kikasa and press the Domain Expansion key again to close the domain. All stored vault items, shades, and drowning records remain permanently saved in the umbrella for next time.
+		ClosePrompt: Hold Kikasa and press {0} to close the Blood Lake
+		CloseInDreamNote: You are still in the Ghost Dream. Press {0} to exit the dream first, then close the domain.
+		CloseSettlingNote: The domain is transitioning between forms, please wait.
+		KeyUnboundFallback: Key "{0}" is not bound. You can temporarily press {1} for this step; bind it in Settings > Controls for regular use.
+		ShieldNote: Protected during tutorial: enemies cannot harm you, and no enemies will spawn nearby.
 		SkipBtn: Saltar
 		ConfirmBtn: Entendido
 		AssistBtn: Demuéstramelo

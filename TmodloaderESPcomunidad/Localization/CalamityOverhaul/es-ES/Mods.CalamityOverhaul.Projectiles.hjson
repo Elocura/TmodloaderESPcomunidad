@@ -1,10 +1,5 @@
-﻿MurasamaHeld.DisplayName: Murasama
-MuraTriggerDash.DisplayName: Murasama
-MuraBreakerSlash.DisplayName: Crescent Moon Slash
-MuraExecutionCut.DisplayName: Dimensional Severance - Finale
-MuraExecutionCutOnSpan.DisplayName: Dimensional Severance - Genesis
-MuraGroundSmash.DisplayName: Falling Cherry Blossom
-EndSkillEffectStart.DisplayName: Dimensional Severance - Genesis
+OldNetTurretBolt.DisplayName: Sentry Bolt
+OldNetWardenGlyphBolt.DisplayName: Execution Glyph
 RebelBladeFlyAttcke.DisplayName: Rebel Blade
 RebelBladeOrb.DisplayName: Demonic Orb
 RebelBladeBack.DisplayName: Rebel Blade
@@ -12,6 +7,8 @@ ElectricMinRocketHeld.DisplayName: Electric Micro-Rocket
 TeslaBallByAttack.DisplayName: Tesla Sphere
 TeslaBallByGuard.DisplayName: Defensive Tesla Sphere
 WGGCollectorArm.DisplayName: Junkman Arm
+FlameTurretFire.DisplayName: Turret Flame
+LaserTurretBolt.DisplayName: Turret Beam
 DivineJustice.DisplayName: Divine Justice
 EmblemOfDreadDashProj.DisplayName: Dread Emblem Rush
 JusticeUnveiledExplode.DisplayName: Justice Unveiled
@@ -19,14 +16,20 @@ JUZenithWorldTime.DisplayName: Zenith Hour
 TheGravityShield.DisplayName: Gravity Shield
 WarpingPoint.DisplayName: Warping Point
 CommandersRay.DisplayName: Commander's Ray
+CommandersRayEX.DisplayName: Commander's Cutting Ray
 DecayedSeaOrb.DisplayName: Decayed Sea Orb
 PowerCoil.DisplayName: Power Coil
+FocusingDeathRay.DisplayName: Focused Death Ray
 SandSmallTornado.DisplayName: Small Sand Tornado
 DecayedSeaVortex.DisplayName: Decayed Sea Vortex
 UnderTheSandSurge.DisplayName: Sand Surge
 SporeBoboMagic.DisplayName: Spore Bobo
 SporeBobo.DisplayName: Spore Bobo
 DestroyersBeam.DisplayName: Destroyer's Beam
+DestroyersBeamEX.DisplayName: Annihilation Beam
+DestroyerShadowBolt.DisplayName: Destroyer's Shadow
+DestroyerHeadMissile.DisplayName: Destroyer Head
+DestroyerBiteProj.DisplayName: Destroyer's Bite
 Glomushroom.DisplayName: Glomushroom
 WastelandFangProj.DisplayName: Wasteland Fang
 WeaverBeam.DisplayName: Weaver Beam
@@ -35,13 +38,13 @@ WeaverGrievancesDash.DisplayName: Grievance Dash
 DestroyerGrenade.DisplayName: Destroyer Grenade
 DicoriaRay.DisplayName: Dicoria Ray
 FungiAmmo.DisplayName: Fungal Round
-PallbearerArrow.DisplayName: Pallbearer Arrow
-PrimeCannonOnSpanFriendly.DisplayName: Prime Cannon Salvo
+PallbearerArrow.DisplayName: Coffin Nail
 PrimeCannonOnSpan.DisplayName: Prime Cannon Salvo
 PrimeSeekerMissile.DisplayName: Heatseeker Micro Missile
+HyperionCruiseMissile.DisplayName: Thermal Cruise Missile
+HyperionBlastProj.DisplayName: Thermal Detonation
 PunisherGrenade.DisplayName: Punisher Grenade
 RaiderGunDash.DisplayName: Raider's Dash
-RocketSkeletonFriendly.DisplayName: Skeletal Rocket
 RocketSkeleton.DisplayName: Skeletal Rocket
 SporeBurst.DisplayName: Spore Burst
 CommandersClawThrow.DisplayName: Commander's Claw
@@ -105,7 +108,6 @@ SparklingSpawnEffect.DisplayName: Sparkling Summon
 SpiralStarProjectile.DisplayName: Spiral Star
 WaterZombie.DisplayName: Drowned Zombie
 OceanCurrent.DisplayName: Ocean Current
-PowerSoundEgg.DisplayName: Resonant Egg
 CrabulonFriendHitbox.DisplayName: Crabulon Spore
 Fireball.DisplayName: Fireball
 DeadLaser.DisplayName: Death Laser
@@ -120,16 +122,19 @@ SpwanTextProj.DisplayName: Manifesting Text
 DragonsWordCut.DisplayName: Dragon's Word Slash
 DragonsWordMouse.DisplayName: Dragon's Word
 DragonsWordProj.DisplayName: Dragon's Word
-NeutronMagchStar.DisplayName: Neutron Star
-NeutronWandExplode.DisplayName: Neutron Wand Explosion
+NeutronPulsar.DisplayName: Pulsar
+NeutronStarquake.DisplayName: Starquake
 DivineSourceWaveProjectile.DisplayName: Divine Source Crescent Wave
 DivineSourceHitFXProjectile.DisplayName: Divine Source Impact
+ShatterfangShard.DisplayName: Shatterfang Shard
+ShatterfangBigShard.DisplayName: Shatterfang Great Shard
+ShatterfangBurstFX.DisplayName: Shatterfang Rupture
 DragonsScaleGreatswordBeam.DisplayName: Spiraling Kelp Blade Beam
 DragonSoulSerpent.DisplayName: Verdant Dragon Soul
 SporeCloud.DisplayName: Spore Cloud
 EXNeutronExplode.DisplayName: Neutron Explosion EX
 NeutronExplode.DisplayName: Neutron Explosion
-NeutronGlaiveBeam.DisplayName: Neutron Glaive
+NeutronGravityWave.DisplayName: Gravitational Wave Slash
 NeutronGlaiveHeldAlt.DisplayName: Neutron Glaive - Alternate
 NeutronsOrb.DisplayName: Neutron's Orb
 StormArc.DisplayName: Storm Arc
@@ -144,11 +149,6 @@ GlacialShell.DisplayName: Glacial Shell
 GlacierSpikeProj.DisplayName: Glacier Spike
 GlacierWave.DisplayName: Glacial Surge
 ExtremeColdHail.DisplayName: Extreme Cold Hail
-HeavenRainbowImpact.DisplayName: Heavenly Rainbow Impact
-InfiniteArrow.DisplayName: Infinite Arrow
-InfiniteRune.DisplayName: Infinite Rune
-ParadiseArrow.DisplayName: Paradise Arrow
-VientianePunishment.DisplayName: Vientiane's Punishment
 IceExplosionFriend.DisplayName: Ice Explosion
 IceParclose.DisplayName: Ice Parclose
 FrostGlimmer.DisplayName: Frost Glimmer
@@ -176,9 +176,6 @@ ElementWhipProjectile.DisplayName: Element Whip
 GhostFireWhipProjectile.DisplayName: Ghost Fire Whip
 WhiplashGalacticaProjectile.DisplayName: Whiplash Galactica
 WTrail.DisplayName: Trail
-InfiniteEnmgs.DisplayName: Infinite Energy
-InfinitePickProj.DisplayName: Infinite Pickaxe
-SpanDMBall.DisplayName: Dark Matter Ball
 CthulhuEye.DisplayName: Cthulhu Eye
 JewelFragmentProjectile.DisplayName: Jewel Fragment
 JewelGemProjectile.DisplayName: Jewel Star
@@ -205,6 +202,30 @@ PandemoniumBlastWave.DisplayName: Pandemonium Blast
 PandemoniumGroundFlame.DisplayName: Pandemonium Groundflame
 PandemoniumLightning.DisplayName: Pandemonium Bolt
 PandemoniumRainDrop.DisplayName: Pandemonium Rain
+ElysiumHeld.DisplayName: Elysium
+SnakeConversionWave.DisplayName: Serpent Rite Wave
+HolySerpent.DisplayName: Holy Serpent
+SimonPeter.DisplayName: Disciple Peter
+James.DisplayName: Disciple James
+JamesChainStrike.DisplayName: Thunder Judgement
+Andrew.DisplayName: Disciple Andrew
+AndrewNetField.DisplayName: Holy Fishing Net
+John.DisplayName: Disciple John
+Philip.DisplayName: Disciple Philip
+Bartholomew.DisplayName: Disciple Bartholomew
+Thomas.DisplayName: Disciple Thomas
+Matthew.DisplayName: Disciple Matthew
+MatthewCoinBurst.DisplayName: Devoted Golden Rain
+Lesser.DisplayName: Disciple James the Less
+Thaddaeus.DisplayName: Disciple Thaddaeus
+Zealot.DisplayName: Disciple Simon the Zealot
+JudasIscariot.DisplayName: Disciple Judas
+DiscipleSigilBolt.DisplayName: Sigil Bolt
+ElysiumThunder.DisplayName: Divine Thunder
+RevelationDomain.DisplayName: Kingdom Domain
+CelestialMeteor.DisplayName: Celestial Meteor
+RevelationSealJudgment.DisplayName: Judgement of the Last Seals
+ApocalypseHorseman.DisplayName: Apocalypse Horseman
 PrismiteWaveProjectile.DisplayName: Prismite Wave
 ObsidianFishOrbit.DisplayName: Obsidianfish Orbit
 RockHammerFish.DisplayName: Rockhammer Fish
@@ -239,12 +260,8 @@ AriaRSkill.DisplayName: Aria R Skill
 AriaRSkillBeam.DisplayName: Aria R Skill Beam
 AriaQSkillMiniDisk.DisplayName: Aria Q Skill Mini Disk
 SulfuricacidExplosion.DisplayName: Sulfuricacid Explosion
-DawnshatterFireball.DisplayName: Dawnshatter Fireball
 TransferItemProj.DisplayName: Items In Transit
 Crystal.DisplayName: Crystal
-MuraDimensionSlash.DisplayName: Mura Dimension Slash
-MuraSlashArc.DisplayName: Mura Slash Arc
-MuraSlashLine.DisplayName: Mura Slash Line
 WGGLumberjackSaw.DisplayName: Lumberjack Saw
 WGGLifeWeaverAcorn.DisplayName: Acorn
 GammaRayBurst.DisplayName: Gamma Ray Burst
@@ -255,7 +272,6 @@ ArcaneRiftProj.DisplayName: Arcane Rift
 TruthLeapProj.DisplayName: Truth Leap
 RealityShockProj.DisplayName: Reality Tremor
 SpawnOldDukeWannaToFight.DisplayName: Spawn Old Duke Wanna To Fight
-MachineTesla.DisplayName: Tesla Mecha
 CyberGlitchBoltProj.DisplayName: Cyber Glitch Bolt
 CyberShockwaveProj.DisplayName: Cyber Shockwave
 CyberTraceBeamProj.DisplayName: Cyber Trace Beam
@@ -303,20 +319,18 @@ DuneStalkerHeadProj.DisplayName: Dune Stalker Hook
 GraniteBloom.DisplayName: Granite Bloom
 GraniteCrystalShard.DisplayName: Granite Crystal Shard
 GraniteEnergyOrb.DisplayName: Granite Energy Orb
-GraniteFlowerHeld.DisplayName: Granite Flower Held
-GraniteFlowerSeed.DisplayName: Granite Flower Seed
-GraniteThrowingKnifeProj.DisplayName: Granite Throwing Knife Proj
-GraniteTomeHeld.DisplayName: Granite Tome Held
-MarbleAegisRing.DisplayName: Marble Aegis Ring
-MarbleClubHeld.DisplayName: Marble Club Held
-MarbleDiscProj.DisplayName: Marble Disc Proj
-MarbleHuntingKnifeHeld.DisplayName: Marble Hunting Knife Held
-MarblePebbleProj.DisplayName: Marble Pebble Proj
+GraniteFlowerHeld.DisplayName: Granite Flower
+GraniteFlowerSeed.DisplayName: Granite Crystal Seed
+GraniteKnifeVoltArc.DisplayName: Granite Chain Volt
+GraniteThrowingKnifeProj.DisplayName: Granite Throwing Knife
+GraniteTomeHeld.DisplayName: Granite Tome
+MarbleClubHeld.DisplayName: Marble Club
+MarbleDiscProj.DisplayName: Marble Discus
+MarbleHuntingKnifeHeld.DisplayName: Marble Hunting Knife
+MarblePebbleProj.DisplayName: Marble Pebble
 MarbleShard.DisplayName: Marble Shard
 MarbleShockwave.DisplayName: Marble Shockwave
 SHPCSonicBoomProj.DisplayName: S H P C Sonic Boom Proj
-SHPCPlasmaBloomProj.DisplayName: S H P C Plasma Bloom Proj
-SHPCPlasmaNeedleProj.DisplayName: S H P C Plasma Needle Proj
 SHPCVoltArcProj.DisplayName: S H P C Volt Arc Proj
 SHPCQuantumLinkProj.DisplayName: S H P C Quantum Link Proj
 SHPCCrystalShardProj.DisplayName: S H P C Crystal Shard Proj
@@ -342,6 +356,925 @@ RetinazerDeathRay.DisplayName: Retinazer Death Ray
 RetinazerLaser.DisplayName: Retinazer Laser
 TwinsSupernovaBlast.DisplayName: Twins Supernova Blast
 TwinsTetherArc.DisplayName: Twins Tether Arc
+EMParryStanceProj.DisplayName: Ironwall Stance
+EMLeapMarkerProj.DisplayName: Pounce Omen
+EMPhaseAnchorProj.DisplayName: Phase Coalescence
+EMDecoyProj.DisplayName: Deceiving Afterimage
+EMScatterTelegraphProj.DisplayName: Scatter Omen
+EMScatterBoltProj.DisplayName: Elite Scatter Bolt
 DestroyerMawBeamProj.DisplayName: Destroyer Maw Beam Proj
-ictorRiftPortalProj.DisplayName: Victor's Cyber Rift
-OniDomain.DisplayName: Oni Domain
+VictorRiftPortalProj.DisplayName: Victor's Cyber Rift
+OniDomain.DisplayName: Oni Domain Expansion
+CrimsonRendSlash.DisplayName: Crimson Rend Slash
+CrimsonRendCleave.DisplayName: Crimson Rend Cleave
+OniSlash.DisplayName: Oni Slash
+OniFinaleSlash.DisplayName: Final Tachi
+OniFinaleRing.DisplayName: Final Tachi Ring Slash
+OniFinaleScar.DisplayName: Final Tachi Scar
+OniFinaleCut.DisplayName: Final Tachi World-Sundering Sheathe
+OniFlashStep.DisplayName: Kamui Rush
+OniFlashMark.DisplayName: Kamui Rush Ink Brand
+OniAnnihilate.DisplayName: Oni Annihilate
+OniSakuraFlight.DisplayName: Sakura Flow Avatar
+OniZanshinSlash.DisplayName: Zanshin Strike
+SHPCHeavyMaulProj.DisplayName: SHPC Heavy Maul
+SHPCRedlineGaugeProj.DisplayName: SHPC Redline Gauge
+SHPCShardburstFlashProj.DisplayName: SHPC Shardburst Flash
+SHPCShardburstShardProj.DisplayName: SHPC Shardburst Shard
+SHPCMultiCellMatrixProj.DisplayName: SHPC Multi-Cell Matrix
+SHPCResonanceRingProj.DisplayName: SHPC Resonance Ring
+SHPCResonanceWaveProj.DisplayName: SHPC Resonance Wave
+SHPCRecycleCellRingProj.DisplayName: SHPC Recycle Cell Ring
+SHPCSkypierceRayProj.DisplayName: SHPC Skypierce Ray
+SHPCSniperLockLineProj.DisplayName: SHPC Sniper Lock Line
+SHPCCapacitorBankProj.DisplayName: SHPC Capacitor Bank
+SHPCBraceRigProj.DisplayName: SHPC Brace Rig
+SHPCErgoEchoProj.DisplayName: SHPC Ergo Echo
+SHPCExtenderCleaveProj.DisplayName: SHPC Extender Cleave
+SHPCStormBoltProj.DisplayName: SHPC Storm Bolt
+SHPCStormFieldProj.DisplayName: SHPC Storm Field
+OniSeverStrike.DisplayName: Oni Sever Strike
+SHPCVolatileGlitchProj.DisplayName: SHPC Volatile Glitch
+SHPCSteadyVoltGaugeProj.DisplayName: SHPC Steady Volt Gauge
+FishBatMorphProj.DisplayName: Batfish Morph
+FishotroningBone.DisplayName: Fishotron Bone
+FishScorpioSandnado.DisplayName: Scorpio Sandnado
+FishVoodooRitual.DisplayName: Fish Voodoo Ritual
+FishVoodooThread.DisplayName: Fish Voodoo Thread
+OniMeiGroundBurn.DisplayName: Oni Mei Ground Burn
+OniMeiFalseBody.DisplayName: Oni Mei False Body
+OniMeiBreathArc.DisplayName: Oni Mei Breath Arc
+OniMeiInkThread.DisplayName: Oni Ink Thread
+OniMeiSelfCut.DisplayName: Oni Self Cut
+OniMeiThunderColumn.DisplayName: Oni Thunder Column
+OniMeiNueDive.DisplayName: Oni Nue Dive
+OniMeiPaperEffigy.DisplayName: Oni Paper Effigy
+OniMeiMirrorStand.DisplayName: Oni Mirror Stand
+OniMeiInkRain.DisplayName: Oni Ink Rain
+OniMeiBellWave.DisplayName: Oni Bell Wave
+OniMeiSandGarden.DisplayName: Oni Sand Garden
+OniMeiSenjuArm.DisplayName: Oni Senju Arm
+GhostHandProj.DisplayName: Ghost Hand
+HeadlessShadeProj.DisplayName: Headless Shade
+LanternBoyProj.DisplayName: Lantern Boy
+LanternBoySlashProj.DisplayName: Lantern Boy Slash
+GhostRainProj.DisplayName: Ghost Ink Rain
+DawnshatterBrand.DisplayName: Dawnshatter Brand
+DawnshatterSpike.DisplayName: Dawnshatter Spike
+OmniElectricFootBurst.DisplayName: Omni Electric Foot Burst
+TBUGRiftPortalProj.DisplayName: Segfault Rift
+ConscriptPlateProj.DisplayName: Conscript Armor Plate
+ShellPuppetProj.DisplayName: Shell Puppet
+TitheDetonationProj.DisplayName: Tithe Detonation
+KikasaEyeBloodShot.DisplayName: Kikasa Eye Blood Shot
+KikasaEyeServant.DisplayName: Kikasa Eye Servant
+KikasaDestroyerBloodJet.DisplayName: Kikasa Destroyer Blood Jet
+KikasaDestroyerServant.DisplayName: Kikasa Destroyer Servant
+KikasaBrainClot.DisplayName: Kikasa Brain Clot
+KikasaBrainServant.DisplayName: Kikasa Brain Servant
+KikasaCultistFireOrb.DisplayName: Kikasa Cultist Fire Orb
+KikasaCultistIceShard.DisplayName: Kikasa Cultist Ice Shard
+KikasaCultistRuneCircle.DisplayName: Kikasa Cultist Rune Circle
+KikasaCultistServant.DisplayName: Kikasa Cultist Servant
+KikasaCultistThunderOrb.DisplayName: Kikasa Cultist Thunder Orb
+KikasaDeerclopsBloodSpike.DisplayName: Kikasa Deerclops Blood Spike
+KikasaDeerclopsHail.DisplayName: Kikasa Deerclops Hail
+KikasaDeerclopsServant.DisplayName: Kikasa Deerclops Servant
+KikasaEaterCorrosionMist.DisplayName: Kikasa Eater Corrosion Mist
+KikasaEaterCorrosiveSpit.DisplayName: Kikasa Eater Corrosive Spit
+KikasaEaterServant.DisplayName: Kikasa Eater Servant
+KikasaEmpressLance.DisplayName: Kikasa Empress Lance
+KikasaEmpressPetal.DisplayName: Kikasa Empress Petal
+KikasaEmpressRibbon.DisplayName: Kikasa Empress Ribbon
+KikasaEmpressServant.DisplayName: Kikasa Empress Servant
+KikasaFishronBloodnado.DisplayName: Kikasa Fishron Bloodnado
+KikasaFishronBubble.DisplayName: Kikasa Fishron Bubble
+KikasaFishronServant.DisplayName: Kikasa Fishron Servant
+KikasaGolemEyeSpit.DisplayName: Kikasa Golem Eye Spit
+KikasaGolemMagmaBall.DisplayName: Kikasa Golem Magma Ball
+KikasaGolemServant.DisplayName: Kikasa Golem Servant
+KikasaBloodSurgeWave.DisplayName: Kikasa Blood Surge Wave
+KikasaKingSlimeServant.DisplayName: Kikasa King Slime Servant
+KikasaMiniBloodSlime.DisplayName: Kikasa Mini Blood Slime
+KikasaMoonLordServant.DisplayName: Kikasa Moon Lord Servant
+KikasaMoonOrb.DisplayName: Kikasa Moon Orb
+KikasaMoonRay.DisplayName: Kikasa Moon Ray
+KikasaMoonShard.DisplayName: Kikasa Moon Shard
+KikasaMoonVesselWhip.DisplayName: Kikasa Moon Vessel Whip
+KikasaPlanteraSeed.DisplayName: Kikasa Plantera Seed
+KikasaPlanteraServant.DisplayName: Kikasa Plantera Servant
+KikasaPlanteraVine.DisplayName: Kikasa Plantera Vine
+KikasaPrimeLaserBolt.DisplayName: Kikasa Prime Laser Bolt
+KikasaPrimeMortar.DisplayName: Kikasa Prime Mortar
+KikasaPrimeServant.DisplayName: Kikasa Prime Servant
+KikasaQueenBeeBloodBee.DisplayName: Kikasa Queen Bee Blood Bee
+KikasaQueenBeeServant.DisplayName: Kikasa Queen Bee Servant
+KikasaQueenBeeStinger.DisplayName: Kikasa Queen Bee Stinger
+KikasaQueenCrystalShard.DisplayName: Kikasa Queen Crystal Shard
+KikasaQueenGelMine.DisplayName: Kikasa Queen Gel Mine
+KikasaQueenSlimeServant.DisplayName: Kikasa Queen Slime Servant
+KikasaSkeletronBloodSkull.DisplayName: Kikasa Skeletron Blood Skull
+KikasaSkeletronServant.DisplayName: Kikasa Skeletron Servant
+KikasaTwinsFlameBreath.DisplayName: Kikasa Twins Flame Breath
+KikasaTwinsPulseShot.DisplayName: Kikasa Twins Pulse Shot
+KikasaTwinsServant.DisplayName: Kikasa Twins Servant
+KikasaWallOfFleshEyeLaser.DisplayName: Kikasa Wall of Flesh Eye Laser
+KikasaWallOfFleshLeech.DisplayName: Kikasa Wall of Flesh Leech
+KikasaWallOfFleshServant.DisplayName: Kikasa Wall of Flesh Servant
+KikasaBloomSerpentServant.DisplayName: Kikasa Bloom Serpent Servant
+KikasaBloomNeedle.DisplayName: Kikasa Bloom Needle
+KikasaFesterSerpentServant.DisplayName: Kikasa Fester Serpent Servant
+KikasaFesterGlob.DisplayName: Kikasa Fester Glob
+KikasaFesterPool.DisplayName: Kikasa Fester Pool
+KikasaSeaShrimpServant.DisplayName: Kikasa Sea Shrimp Servant
+KikasaCavitationOrb.DisplayName: Kikasa Cavitation Orb
+KikasaShrimpWaterBolt.DisplayName: Kikasa Shrimp Water Bolt
+KikasaRainUmbrella.DisplayName: Kikasa Rain Umbrella
+KikasaInkDrop.DisplayName: Ink Rain
+KikasaInkPour.DisplayName: Ink Torrent
+KikasaInkPuddle.DisplayName: Ink Puddle
+KikasaInkGeyser.DisplayName: Kikasa Ink Geyser
+KikasaBloodColumn.DisplayName: Blood Column
+BrainBloodShard.DisplayName: Pulsing Blood Bead
+BrainMirrorImage.DisplayName: Mirror Image
+BrainShellFragment.DisplayName: Shell Fragment
+BrainTeleportRift.DisplayName: Teleport Rift
+BrainVeinTelegraph.DisplayName: Engorged Vein
+DeerFrostPulseProj.DisplayName: Frost Tremor
+FrmMortarBlastProj.DisplayName: Present Mortar Blast
+FrmPresentShellProj.DisplayName: Airdropped Present
+FrmStrafeLaneProj.DisplayName: Strafing Run Lane
+FrmStrafeBulletProj.DisplayName: Elf Autocannon Round
+FrmAimLaneOmen.DisplayName: Siege Aim Line
+FrmNutShellProj.DisplayName: Ricochet Nutshell
+FrmOrnamentRowOmen.DisplayName: Ornament Battery Omen
+FrmOrnamentProj.DisplayName: Falling Ornament
+FrmPineNeedleProj.DisplayName: Pine Needle Round
+FrmWaltzRingProj.DisplayName: Crystal Waltz
+FrmBlizzardFrontProj.DisplayName: Blizzard Front
+DeerIceSpikeProj.DisplayName: Ice Spike
+WastesSandGeyserProj.DisplayName: Sand Geyser
+WastesSandConeTelegraph.DisplayName: Sand Spray Omen
+WastesSandPelletProj.DisplayName: Scouring Sand Bolt
+WastesIceSlickZone.DisplayName: Slick Ice Sheet
+WastesIceShatterCore.DisplayName: Crystal Husk
+WastesIceShardProj.DisplayName: Burial Ice Shard
+WastesElementRing.DisplayName: Elemental Erosion Ring
+AshreignMagmaBubbleProj.DisplayName: Seething Magma Bubble
+AshreignMagmaBeadProj.DisplayName: Spattering Slag Bead
+AshreignAshStormProj.DisplayName: Passing Ash Tempest
+RotmireVentProj.DisplayName: Miasma Wellspring
+RotmireWritheProj.DisplayName: Writhing Vileground
+MireheartGasPocketProj.DisplayName: Marsh-Gas Pocket
+MireheartMiasmaProj.DisplayName: Mire Miasma
+MireheartBeeCloudProj.DisplayName: Sentry Bee Cloud
+BrinefumeBoilZoneProj.DisplayName: Acid Boil
+BrinefumeHazeTideProj.DisplayName: Toxic Haze Tide
+SilkcryptWebPatchProj.DisplayName: Sticky Web Blotch
+SilkcryptDropShadowProj.DisplayName: Plunging Spider Shade
+LumindepthVortexProj.DisplayName: Tranquil Vortex
+AstralveilSpearMarkProj.DisplayName: Astral Starlance
+AstralveilBloomProj.DisplayName: Astral Bloom
+FleshfenDewRainProj.DisplayName: Blood Dew Curtain
+StonewakeResonanceRingProj.DisplayName: Resonance Pulse Ring
+StonewakeGazePillarProj.DisplayName: Pillar of the Stone Gaze
+HollowdeepRockfallProj.DisplayName: Startled Rockfall
+RimehollowIcicleProj.DisplayName: Hanging Icicle
+RimehollowMistPoolProj.DisplayName: Cold Mist Hollow
+MournfogGrudgeRingProj.DisplayName: Gathering Grudgefire
+PrismgladeJudgmentProj.DisplayName: Prismatic Judgment
+SunkenduneSinkPitProj.DisplayName: Quicksand Sink Pit
+SunkenduneSandfallProj.DisplayName: Pouring Sandfall
+CindercragVentProj.DisplayName: Crag-Mouth Flame Tongue
+CindercragWailWaveProj.DisplayName: Keening Pressure Wave
+StratosFallingStarProj.DisplayName: Plummeting Star
+StratosUpdraftProj.DisplayName: Stardust Updraft
+AetherglimGravityBubbleProj.DisplayName: Shimmering Gravity Bubble
+NyxdepthSinkColumnProj.DisplayName: Abyssal Downwelling
+TidecallRipCurrentProj.DisplayName: Rip Current
+TidecallRogueWaveProj.DisplayName: Rogue Wave
+StarfallAfterburstProj.DisplayName: Meteoric Afterburst
+DuneStormGustWaveProj.DisplayName: Windshear Gust
+DuneStormSandLashOmen.DisplayName: Gathering Sand Lash
+DuneStormSandLashProj.DisplayName: Sandstorm Lash
+SporeshineCapSwellProj.DisplayName: Swelling Mushroom Cap
+SporeshineSporeLobProj.DisplayName: Spore Glob
+SporeshineSporeFogProj.DisplayName: Bewildering Spore Mist
+FrostveilGaleWallProj.DisplayName: Frostveil Gale Wall
+DeerRubbleProj.DisplayName: Icy Rubble
+DeerShadowHandProj.DisplayName: Shadow Hand
+FishronGeyserProj.DisplayName: Tidal Geyser
+PrtRicochetShot.DisplayName: Pirate Ricochet Round
+PrtVolleyOmen.DisplayName: Captain's Suppression Order
+PrtFanShot.DisplayName: Suppression Round
+PrtBoardHookProj.DisplayName: Plunder Grapnel
+PrtParrotMark.DisplayName: Parrot's Tattle
+PrtBroadsideOmen.DisplayName: Broadside Omen
+PrtBroadsideBall.DisplayName: Broadside Cannonball
+PrtBoardingOmen.DisplayName: Boarding Call
+PrtBannerMark.DisplayName: Boarding War Banner
+FishronSharkTornadoProj.DisplayName: Sharknado
+FishronSkyBoltProj.DisplayName: Storm Bolt
+FishronTelegraph.DisplayName: Storm Warning Line
+FishronTsunamiWallProj.DisplayName: Tsunami Wall
+EowAcidGlob.DisplayName: Corrosive Spittle
+EowAcidPool.DisplayName: Corrosive Pool
+ErosionCloudSeed.DisplayName: Erosion Spore Core
+ErosionCloudProj.DisplayName: Erosive Miasma
+SiphonBurstProj.DisplayName: Siphoning Pulse
+VileBurstOmen.DisplayName: Vile Burst Omen
+VileLanceProj.DisplayName: Vile Splatter Lance
+EowBreachOmen.DisplayName: Breach Omen
+EowGeyserProj.DisplayName: Corrupt Geyser
+EowHuskMine.DisplayName: Husk Mine
+EmpressAuroraVeil.DisplayName: Aurora Veil
+EmpressLance.DisplayName: Prismatic Lance
+EmpressBloomBurst.DisplayName: Radiant Burst
+EocBloodShot.DisplayName: Blood Bead
+EocBloodSpike.DisplayName: Blood Barb
+EocFogCloud.DisplayName: Blood Fog
+GolemEyeRay.DisplayName: Searing Eye Ray
+GolemShockWave.DisplayName: Stone Wave
+GolemSolarMeteor.DisplayName: Solar Meteor
+GolemStoneShrapnel.DisplayName: Molten Shrapnel
+GolemSunBolt.DisplayName: Sun Bolt
+GolemSunCore.DisplayName: Sun Core
+GolemSunMortar.DisplayName: Sun Mortar
+GolemTelegraph.DisplayName: Golden Omen
+GolemTrapUnit.DisplayName: Temple Trap
+BKSCrownProj.DisplayName: Crashing Crown
+BKSGelGlobProj.DisplayName: Gel Mortar
+BKSGelPoolProj.DisplayName: Lingering Gel Pool
+BKSGeyserProj.DisplayName: Gel Geyser
+BKSMassGlobProj.DisplayName: Royal Mass
+BKSNinjaProj.DisplayName: Ninja Shade
+BKSRoyalPillarProj.DisplayName: Royal Beam
+BKSShockwaveProj.DisplayName: Gel Shockwave
+BKSTideWaveProj.DisplayName: Gel Tide
+SlimeSquashOmen.DisplayName: Coiling Gel
+SlimeQuakeWave.DisplayName: Gel Quake
+SlimeGelBomb.DisplayName: Bouncing Gel
+SlimeGooPatch.DisplayName: Clinging Goo
+MLordAnnihilationRayProj.DisplayName: Moonlight Annihilation Ray
+MLordArcRayProj.DisplayName: Phantasmal Arc Ray
+MLordBlackHoleProj.DisplayName: Black Flash Singularity
+MLordBoltProj.DisplayName: Phantasmal Bolt
+MLordCometProj.DisplayName: Starfall Comet
+MLordConstellationProj.DisplayName: Constellation Omen
+MLordEyeLinkProj.DisplayName: True Eye Link Ray
+MLordGravityWellProj.DisplayName: Gravity Well
+MLordOrbProj.DisplayName: Phantasmal Star Orb
+MLordScanRayProj.DisplayName: Phantasmal Scan Ray
+MLordStarfireProj.DisplayName: Lingering Starfire
+MrtTeslaArcProj.DisplayName: Martian Tesla Arc
+MrtLaserMarkLine.DisplayName: Martian Laser Sightline
+MrtLaserBoltProj.DisplayName: Martian Guided Bolt
+MrtScutlixHeavyBolt.DisplayName: Scutlix Overcharge Shell
+MrtOverheatMarkProj.DisplayName: Overheat Weakpoint Mark
+MrtSaucerScanProj.DisplayName: Death Ray Scanline
+PlanteraPetalWave.DisplayName: Withering Bloom
+PlanteraPoisonSeed.DisplayName: Poison Seed
+PlanteraSeed.DisplayName: Gatling Seed
+PlanteraSporeCloud.DisplayName: Spore Cloud
+PlanteraTelegraphLine.DisplayName: Lunge Warning Line
+PlanteraThornBall.DisplayName: Thorn Ball
+PlanteraVineLattice.DisplayName: Vine Lattice
+BrutalBeeStinger.DisplayName: Queen's Stinger
+HoneyGlobProj.DisplayName: Honey Glob
+JhVineLash.DisplayName: Barbed Vine Lash
+JhVolleyOmen.DisplayName: Volley Omen
+JhStingerBolt.DisplayName: Swarm Stinger
+JhScytheBolt.DisplayName: Demon Sickle
+JhTridentBolt.DisplayName: Hellish Trident
+JhShellSpike.DisplayName: Shell Spike
+JhAmbushOmen.DisplayName: Gathering Cinder
+JhImpFireBolt.DisplayName: Imp Flare
+JhBreachOmen.DisplayName: Breach Omen
+VerdantMireFogProj.DisplayName: Mire Fog Ambush
+VerdantThornRingProj.DisplayName: Verdant Thorn Ring
+HoneyPuddleZone.DisplayName: Honey Pool
+QueenBeeTelegraphLine.DisplayName: Amber Warning Line
+WaxHiveTurret.DisplayName: Wax Hive Turret
+QueenChandelierProj.DisplayName: Crystal Chandelier
+QueenCrystalSpikeProj.DisplayName: Crystal Spike
+QueenCrystalSpireProj.DisplayName: Crystal Spire
+QueenGaleFieldProj.DisplayName: Wing Gale
+QueenGelPearlProj.DisplayName: Gel Pearl
+QueenPrismBeamProj.DisplayName: Refraction Beam
+QueenSpikeOmenProj.DisplayName: Spike Omen
+SkeletronBoneShard.DisplayName: Bone Shard
+NightBoneProj.DisplayName: Nighthunt Bone
+NightDiveOmen.DisplayName: Nighthunt Dive Omen
+NightPounceOmen.DisplayName: Nighthunt Pounce Omen
+SkeletronBoneSpike.DisplayName: Bone Spire
+SkeletronCursedSkull.DisplayName: Cursed Skull
+SkeletronCurseWisp.DisplayName: Curse Wisp
+SkeletronGhostArmProj.DisplayName: Spectral Arm
+WofBloodClot.DisplayName: Blood Clot
+WofFleshSpikeProj.DisplayName: Flesh Spike
+WofRetinaScanBeam.DisplayName: Retina Beam
+WofTongueLashProj.DisplayName: Tongue Lash
+WofJawMawProj.DisplayName: Hungering Maw
+WofRotEyeBudProj.DisplayName: Rot Eye
+WofRotBeamProj.DisplayName: Rot Guillotine
+ScrapArmHitbox.DisplayName: Scrap Arm
+ScrapAutonomousTool.DisplayName: Scrap Autonomous Tool
+ScrapDebris.DisplayName: Scrap Debris
+ScrapFlungTool.DisplayName: Scrap Flung Tool
+ScrapGroundSaw.DisplayName: Scrap Ground Saw
+ScrapJunkPile.DisplayName: Scrap Junk Pile
+ScrapLaserPulse.DisplayName: Scrap Laser Pulse
+ScrapMagnetFieldProj.DisplayName: Scrap Magnetic Field
+ScrapMortarShell.DisplayName: Scrap Mortar Shell
+ScrapShellFrag.DisplayName: Scrap Shell Fragment
+ScrapSweepBeam.DisplayName: Scrap Sweep Beam
+EowLungeOmen.DisplayName: Lunge Telegraph
+EclStrikeOmen.DisplayName: Execution Omen
+EclOpeningProj.DisplayName: Exposed Opening
+EclBloodMarkProj.DisplayName: Bloodhunt Brand
+EclManFlyFlaskProj.DisplayName: Eclipse Toxin Flask
+EclEyezorOrbProj.DisplayName: Searing Ocular Bolt
+EclNailheadNailProj.DisplayName: Execution Spike
+EclMothronDiveOmen.DisplayName: Mothron Dive Omen
+EclNestFuryProj.DisplayName: Nest Fury
+GaolFireBolt.DisplayName: Gaol Fire
+GaolCrossChain.DisplayName: Deep Gaol Crosschain
+GaolCageBar.DisplayName: Gaol Cage Bar
+GaolCuffHitbox.DisplayName: Wraith's Irons
+UndrownedAnchor.DisplayName: Sunken Anchor
+UndrownedTideWave.DisplayName: Flood Wave
+UndrownedDepthMine.DisplayName: Sump Mine
+UndrownedMineShard.DisplayName: Mine Shard
+GaolAnchorProj.DisplayName: Gaol Anchor
+OverseerPressStrike.DisplayName: Press Stamp
+OverseerSlagGlob.DisplayName: Slag Ladle
+OverseerDartBolt.DisplayName: Proofing Bolt
+KikasaDreamHound.DisplayName: Kikasa Dream Hound
+DeerSeizeHandProj.DisplayName: Shadow Seize Claw
+DestroyerCoilRingProj.DisplayName: Coil Ring
+FishronVortexProj.DisplayName: Shark Vortex
+EowDevourOmen.DisplayName: Devour Telegraph
+EmpressLightBind.DisplayName: Light Binding
+GolemGrabRay.DisplayName: Golem Gravity Ray
+PincerBindTether.DisplayName: Pincer Tether
+MLordGrabLashProj.DisplayName: Cosmic Lash
+PlanteraSnareVine.DisplayName: Plantera Snare Vine
+QueenCrystalPrisonProj.DisplayName: Crystal Prison
+QueenRoyalChandelierProj.DisplayName: Royal Chandelier
+SkeletronOrbitSkull.DisplayName: Skeletron Orbit Skull
+PmkEmberProj.DisplayName: Ritual Ember
+PmkChargeOmen.DisplayName: Grim Charge Omen
+PmkRitualWispProj.DisplayName: Pyre Ring Jack
+PmkMortarShellProj.DisplayName: Pyre Mortar Shell
+PmkMortarMarkerProj.DisplayName: Pyre Blast
+PmkRootSpikeProj.DisplayName: Mourning Root
+PmkScytheBladeProj.DisplayName: Reaper Wheel Scythe
+PmkClawCrossProj.DisplayName: Pumpking Claw Cross
+WofGrabTongueProj.DisplayName: Flesh Tongue
+KikasaThrallProj.DisplayName: Kikasa Umbrella Thrall
+L6MachineStrike.DisplayName: L6 Machine Strike
+KikasaGunBullet.DisplayName: Kikasa Lakewater Bullet
+KikasaGunServant.DisplayName: Kikasa Gun Servant
+KikasaBladeServant.DisplayName: Kikasa Blade Servant
+KikasaBladeSlash.DisplayName: Kikasa Lakewater Slash
+KikasaWhipServant.DisplayName: Kikasa Whip Servant
+KikasaWhipLash.DisplayName: Kikasa Lakewater Lash
+KikasaHalibutServant.DisplayName: Kikasa Halibut Servant
+KikasaHalibutDomain.DisplayName: Kikasa Servant's Little Sea
+KikasaOnikiriServant.DisplayName: Kikasa Onikiri Servant
+KikasaOnikiriSlash.DisplayName: Kikasa Crimson Slash
+KikasaPandemoniumServant.DisplayName: Kikasa Pandemonium Servant
+KikasaPandemoniumCircle.DisplayName: Kikasa Servant's Brimstone Circle
+KikasaBowServant.DisplayName: Kikasa Bow Servants
+KikasaBowArrow.DisplayName: Lakewater Arrow
+KikasaSHPCServant.DisplayName: Kikasa SHPC Servant
+KikasaRodServant.DisplayName: Kikasa Angler Servant
+KikasaRodCatch.DisplayName: Lakebed Catch
+KikasaSpearServant.DisplayName: Kikasa Spear Servants
+KikasaSpearThrust.DisplayName: Lakewater Thrust
+KikasaThrowServant.DisplayName: Kikasa Throwing Servants
+KikasaZenithServant.DisplayName: Kikasa Zenith Servant
+KikasaZenithSlash.DisplayName: Sword-Memory Slash
+KikasaBoomerangServant.DisplayName: Kikasa Boomerang Servants
+KikasaBoomerangProj.DisplayName: Lakewater Boomerang
+KikasaYoyoServant.DisplayName: Kikasa Yoyo Servants
+KikasaYoyoProj.DisplayName: Lakewater Yoyo
+KikasaFlailServant.DisplayName: Kikasa Flail Servants
+KikasaFlailHead.DisplayName: Lakewater Flail Head
+CultistStarBead.DisplayName: Star Bead
+CultistZodiacRing.DisplayName: Zodiac Ring
+CultistOrreryRingProj.DisplayName: Orrery Ring
+CultistOrbitPath.DisplayName: Orbital Alignment
+CultistUmbraShade.DisplayName: Eclipse Shade
+CultistEclipseDragon.DisplayName: Eclipse Phantasm Dragon
+CultistCoronaLance.DisplayName: Corona Lance
+CultistStarChart.DisplayName: Star Chart Judgement
+CultistGazeBeam.DisplayName: Lunar Gaze
+CultistPlanetAimLine.DisplayName: Planet Hurl Sightline
+CultistCometProj.DisplayName: Circling Comet
+CultistZodiacSpokeProj.DisplayName: Zodiac Seal Spoke
+SkeletronBoneWheel.DisplayName: Skeletron Bone Wheel
+FuFeiMistCloud.DisplayName: Fei Mist Cloud
+FuHangMiasmaColumn.DisplayName: Hang Miasma Column
+FuHongRainbowBridge.DisplayName: Hong Rainbow Bridge
+FuLuDewDrop.DisplayName: Lu Dew Drop
+FuNiBloomProj.DisplayName: Ni Bloom Burst
+FuPoMoonburstProj.DisplayName: Po Moonburst
+FuShuangShatterProj.DisplayName: Shuang Shatter Crystal
+FuTingChainZap.DisplayName: Ting Chain Lightning
+FuWenArrowProj.DisplayName: Wen Arrow
+FuXianHailPellet.DisplayName: Xian Hail Pellet
+FuXiTideWave.DisplayName: Xi Tide Wave
+FuYinInkBurst.DisplayName: Yin Ink Burst
+KikasaFuJiLightBeam.DisplayName: Kikasa Fu Ji Light Beam
+KikasaFuPiThunderStrike.DisplayName: Kikasa Fu Pi Thunder Strike
+KikasaTeleportProj.DisplayName: Kikasa Rain Teleport
+EyetoothDart.DisplayName: Eyetooth Dart
+DivineSourceBoltProjectile.DisplayName: Divine Source Bolt
+BloodButchererBolt.DisplayName: Blood Butcherer Bolt
+TerraLightProj.DisplayName: Terra Light
+TerraSoulJudgmentProj.DisplayName: True Excalibur Spirit
+TerraSoulSpinProj.DisplayName: True Night's Edge Spirit
+BloodshotBombHeld.DisplayName: Bloodshot Bomb
+BloodshotBombThrown.DisplayName: Thrown Bloodshot Bomb
+BloodshotFleshChunk.DisplayName: Bloodshot Flesh Chunk
+EyekiteMinion.DisplayName: Eyekite Minion
+WyrmFlame.DisplayName: Wyrmfire
+WyrmstrikeRound.DisplayName: Wyrmstrike Round
+WyrmSneezeFume.DisplayName: Wyrm Sneeze
+WyrmBreathBolt.DisplayName: Wyrmbreath Bolt
+AbyssrendUndercurrent.DisplayName: Ocean Undercurrent
+AbyssrendBurst.DisplayName: Cavitation Burst
+EverdeepHeld.DisplayName: Everdeep
+EverdeepRing.DisplayName: Abyssal Ring
+EverdeepMaelstrom.DisplayName: Abyssal Maelstrom
+DeepclawLobster.DisplayName: Deepclaw Lobster
+DeepclawSnapBurst.DisplayName: Cavitation Snap
+UndertowHeld.DisplayName: Undertow
+UndertowSpine.DisplayName: Abyssal Spine
+UndertowBurst.DisplayName: Cavitation Bubble
+TideReaperThrown.DisplayName: Tide Reaper
+TideReaperWave.DisplayName: Tide Crescent
+CultistPlanetProj.DisplayName: Colossal Celestial Body
+LegionVolleyOmen.DisplayName: Legion Volley Order
+LegionVolleyArrow.DisplayName: Legion War Arrow
+FinaleMusketRound.DisplayName: Gilded Musket Ball
+FinaleMagicBolt.DisplayName: Phantom Volley Bolt
+TiroFinaleBlast.DisplayName: Tiro Finale
+ScapegoatDollWalker.DisplayName: Scapegoat Puppet
+FallenCrownProj.DisplayName: Fallen Crown
+KingsVerdictWave.DisplayName: King's Verdict
+RoyalGelField.DisplayName: Royal Gel Pool
+MawWormProj.DisplayName: World-Eater Grub
+MirrorheartPulse.DisplayName: Mirrorheart Pulse
+SwarmVortexProj.DisplayName: Swarm Vortex
+SoulbindingGhostHand.DisplayName: Grasping Ghost Hand
+GluttonousTongueProj.DisplayName: Gluttonous Tongue
+GluttonousLeechOrb.DisplayName: Blood Leech Orb
+RefractionWaltzCrystalProj.DisplayName: Refraction Crystal
+RefractionWaltzBeamProj.DisplayName: Prism Beam
+RefractionWaltzShardProj.DisplayName: Refraction Shard
+TwinPupilOrbiter.DisplayName: Mini Twin Eye
+TwinPupilLaser.DisplayName: Twin Pupil Laser
+TwinPupilFlameJet.DisplayName: Twin Pupil Flame Jet
+TwinPupilCrossBurst.DisplayName: Cross-Charge Burst
+TwinPupilTetherBeam.DisplayName: Twin Pupil Tether
+ProbeDroneProj.DisplayName: Probe Drone
+ProbeLockBolt.DisplayName: Probe Lock-On Bolt
+ProbeOrbitalStrike.DisplayName: Orbital Strike
+OverloadArmProj.DisplayName: Overload Arm
+OverloadIonBolt.DisplayName: Overload Ion Bolt
+OverloadArcProj.DisplayName: Overload Arc
+BloomVineSnare.DisplayName: Snaring Vine
+BloomNovaBurst.DisplayName: Bloom Nova
+SolarCoreFistPunch.DisplayName: Solar Core Punch
+SolarCoreNova.DisplayName: Solar Nova
+SolarChainBurst.DisplayName: Magma Chain Burst
+TidalFinTsunamiProj.DisplayName: Tidal Tsunami
+TidalFinTornadoProj.DisplayName: Tidal Waterspout
+RiteStarCore.DisplayName: Rite Star Core
+RiteStarShard.DisplayName: Rite Fallen Star
+RiteMirrorPhantom.DisplayName: Rite Mirror Phantom
+RiteRuneBolt.DisplayName: Rite Rune Bolt
+RiteMoonFlare.DisplayName: Rite Moon Flare
+InterferencePrismBurst.DisplayName: Interference Prism Burst
+InterferenceDawnBurst.DisplayName: Interference Dawn Burst
+GsGoldPearlProj.DisplayName: Golden Radiant Pearl
+GodSmithSwordWave.DisplayName: GodSmith Sword Wave
+GsGunsEarlyBurstProj.DisplayName: Guns Early Burst
+GsCandySweetMarkProj.DisplayName: Candy Sweet Mark
+GsGunsHardZoneProj.DisplayName: Heavy Fire Suppression Zone
+GsSonarMarkProj.DisplayName: Sonar Mark
+GsXenoBubbleProj.DisplayName: Xeno Bubble
+GsCoinBurstProj.DisplayName: Coin Burst
+GsFlameJetProj.DisplayName: Flame Jet
+GsFlamePatchProj.DisplayName: Flame Patch
+GsPresentBombProj.DisplayName: Present Bomb
+GsToxinCloudProj.DisplayName: Toxin Cloud
+GsCandleFieldProj.DisplayName: Candle Field
+GsElectroArcProj.DisplayName: Electro Arc
+GsJackBatProj.DisplayName: Jack O Lantern Bat
+GsNailBurstProj.DisplayName: Nail Burst
+GsPierceDartProj.DisplayName: Pierce Dart
+GsSnowMarkProj.DisplayName: Snow Mark
+GsStarBurstProj.DisplayName: Star Burst
+GsBubbleVentProj.DisplayName: Conduit Bubble Vent
+GsConduitBurstProj.DisplayName: Conduit Burst
+GsConduitNovaProj.DisplayName: Conduit Nova
+GsConduitRayProj.DisplayName: Conduit Ray
+GsDrainTetherProj.DisplayName: Drain Tether
+GsGazeBeamProj.DisplayName: Gaze Beam
+GsHeatBeamProj.DisplayName: Heat Beam
+GsMachinegunVentProj.DisplayName: Machinegun Vent Stream
+GsSpecterVentProj.DisplayName: Spectre Vent
+GsTyphoonEyeProj.DisplayName: Typhoon Eye
+GsClingerWallProj.DisplayName: Clinger Cursed Wall
+GsCrimsonDomainProj.DisplayName: Crimson Domain
+GsCrystalDomainProj.DisplayName: Crystal Domain
+GsFrostDustDomainProj.DisplayName: Frost Dust Domain
+GsFrostTrailDomainProj.DisplayName: Frost Trail Domain
+GsMorphBurstProj.DisplayName: Morph Burst
+GsNimbusCorridorProj.DisplayName: Nimbus Corridor
+GsPoisonFieldProj.DisplayName: Poison Field
+GsRainbowBridgeProj.DisplayName: Rainbow Bridge
+GsRainbowPulseProj.DisplayName: Rainbow Pulse
+GsRiftProj.DisplayName: Spatial Rift
+GsScorchDomainProj.DisplayName: Scorch Domain
+GsWhipBoneEchoProj.DisplayName: Bone Whip Echo
+GsWhipBoneSpireProj.DisplayName: Bone Whip Spire
+GsWhipDurendalArcProj.DisplayName: Durendal Arc
+GsWhipDurendalVerdictProj.DisplayName: Durendal Verdict
+GsWhipFirecrackerChainProj.DisplayName: Firecracker Chain Burst
+GsWhipFrostBloomProj.DisplayName: Cool Whip Frost Bloom
+GsWhipLeatherCrackProj.DisplayName: Leather Whip Crack
+GsWhipMaceQuakeProj.DisplayName: Mace Whip Quake
+GsWhipMorningStarFallProj.DisplayName: Morning Star Radiant Beam
+GsWhipPrismSlashProj.DisplayName: Kaleidoscope Prism Slash
+GsWhipReapFlashProj.DisplayName: Dark Harvest Reap Flash
+GsWhipReapSoulProj.DisplayName: Dark Harvest Reap Soul
+GsWhipSealPulseProj.DisplayName: Whip Seal Pulse
+GsWhipThornBurstProj.DisplayName: Snapthorn Thorn Burst
+GsWhipThornDartProj.DisplayName: Snapthorn Thorn Dart
+GsBurstProj.DisplayName: Burst Projectile
+GsRecoveryPickup.DisplayName: Recovery Pickup
+GsZoneProj.DisplayName: GodSmith Reforged Zone
+GsFaeOrbiterProj.DisplayName: Fae Orbiter
+GsIcicleRainProj.DisplayName: Icicle Rain
+GsPhantomArcherProj.DisplayName: Phantom Archer
+GsPursuitArrow.DisplayName: Pursuit Arrow
+GsStakePinProj.DisplayName: Stake Pin
+GsTideSpoutProj.DisplayName: Tide Spout
+GsVolleyBurstProj.DisplayName: Volley Burst Wave
+BloodfogAmbushMark.DisplayName: Bloodfog Ambush Mark
+BloodfogVeilProj.DisplayName: Bloodfog Veil
+RiteVeilRift.DisplayName: Rite Veil Rift
+GodSmithPaladinsShieldHammerProj.DisplayName: GodSmith Paladin Shield Hammer
+GodSmithShieldofCthulhuBurstProj.DisplayName: GodSmith Shield of Cthulhu Burst
+GodSmithStarCloakStarProj.DisplayName: GodSmith Star Cloak Star
+GodSmithDestroyerEmblemPulseProj.DisplayName: GodSmith Destroyer Emblem Pulse
+GodSmithHerculesBeetleRamProj.DisplayName: GodSmith Hercules Beetle Ram
+GodSmithMagicQuiverBoltProj.DisplayName: GodSmith Magic Quiver Bolt
+GodSmithMagnetFlowerArcProj.DisplayName: GodSmith Magnet Flower Arc
+GodSmithManaCloakStarProj.DisplayName: GodSmith Mana Cloak Star
+GodSmithNecromanticScrollSoulProj.DisplayName: GodSmith Necromantic Scroll Soul
+GodSmithRifleScopeTracerProj.DisplayName: GodSmith Rifle Scope Tracer
+GodSmithTitanGloveQuakeProj.DisplayName: GodSmith Titan Glove Quake
+GsApprenticeGlyphProj.DisplayName: Apprentice Glyph
+GsHuntressSnareBoltProj.DisplayName: Huntress Snare Bolt
+GsMonkZenPalmProj.DisplayName: Monk Zen Palm
+GsNebulaBloomProj.DisplayName: Nebula Bloom
+GsSolarCoronaProj.DisplayName: Solar Corona Burst
+GsSquireOathLanceProj.DisplayName: Squire Oath Lance
+GsStardustFallProj.DisplayName: Stardust Fall
+GsVortexRiftProj.DisplayName: Vortex Void Rift
+GsAdamantiteFurnaceEmberProj.DisplayName: Adamantite Furnace Ember
+GsAdamantiteFurnaceNovaProj.DisplayName: Adamantite Furnace Nova
+GsBeetleShellShrapnelProj.DisplayName: Beetle Shell Shrapnel
+GsBeetleShellWardProj.DisplayName: Beetle Shell Ward
+GsBeetleWarScarabProj.DisplayName: Beetle War Scarab
+GsChlorophyteVineLashProj.DisplayName: Chlorophyte Vine Lash
+GsChlorophyteVineParasiteProj.DisplayName: Chlorophyte Parasite Vine
+GsCobaltAfterimageProj.DisplayName: Cobalt Afterimage
+GsForbiddenWraithBoltProj.DisplayName: Forbidden Wraith Bolt
+GsForbiddenWraithProj.DisplayName: Forbidden Wraith
+GsFrostSquallDomainProj.DisplayName: Frost Squall Domain
+GsFrostSquallShardProj.DisplayName: Frost Squall Shard
+GsHallowedVerdictBladeProj.DisplayName: Hallowed Verdict Blade
+GsMythrilForgeBladeProj.DisplayName: Mythril Forge Blade
+GsOrichalcumPetalBladeProj.DisplayName: Orichalcum Petal Blade
+GsPalladiumSiphonBloomProj.DisplayName: Palladium Siphon Bloom
+GsPearlwoodWardPearlProj.DisplayName: Pearlwood Ward Pearl
+GsPearlwoodWardShardProj.DisplayName: Pearlwood Ward Shard
+GsShroomiteChainBloomProj.DisplayName: Shroomite Chain Bloom
+GsShroomiteMortarProj.DisplayName: Shroomite Mortar
+GsShroomiteSporeArrowProj.DisplayName: Shroomite Spore Arrow
+GsShroomiteSporeTurretProj.DisplayName: Shroomite Spore Turret
+GsSpectreRiftProj.DisplayName: Spectre Rift
+GsSpectreSanctumProj.DisplayName: Spectre Sanctum
+GsSpectreSoulOrbProj.DisplayName: Spectre Soul Orb
+GsSpookyLanternProj.DisplayName: Spooky Lantern
+GsSpookyLanternWispProj.DisplayName: Spooky Lantern Wisp
+GsTikiTotemFlameProj.DisplayName: Tiki Totem Flame
+GsTikiTotemProj.DisplayName: Tiki Totem
+GsTitaniumMirrorEdgeProj.DisplayName: Titanium Mirror Edge
+GsTurtleBulwarkDomainProj.DisplayName: Turtle Bulwark Domain
+GsTurtleBulwarkSpikeProj.DisplayName: Turtle Bulwark Spike
+GsBeeGuardProj.DisplayName: Bee Guard
+GsCactusCloakNeedleProj.DisplayName: Cactus Cloak Needle
+GsCactusNeedleCloakProj.DisplayName: Cactus Needle Cloak
+GsCopperArcProj.DisplayName: Copper Armor Arc
+GsCrimsonLeechProj.DisplayName: Crimson Leech
+GsFossilBoneSpurProj.DisplayName: Fossil Bone Spur
+GsGladiatorJavelinProj.DisplayName: Gladiator Javelin
+GsIronQuenchHammerProj.DisplayName: Iron Quenching Hammer
+GsJungleSporeCloudProj.DisplayName: Jungle Spore Cloud
+GsLeadBeadProj.DisplayName: Lead Armor Bead
+GsLeadDropProj.DisplayName: Molten Lead Drop
+GsMeteorShardProj.DisplayName: Meteor Shard
+GsMoltenGeyserProj.DisplayName: Molten Geyser
+GsNecroBoneLanceProj.DisplayName: Necro Bone Lance
+GsNinjaShurikenProj.DisplayName: Ninja Shuriken
+GsObsidianGlassFangProj.DisplayName: Obsidian Glass Fang
+GsPlatinumStarProj.DisplayName: Platinum Star
+GsPumpkinBombProj.DisplayName: Pumpkin Bomb
+GsPumpkinSliceProj.DisplayName: Pumpkin Slice
+GsShadowScytheProj.DisplayName: Shadow Scythe
+GsSilverMoonProj.DisplayName: Silver Moon Crescent
+GsTinChimeRingProj.DisplayName: Tin Chime Ring
+GsTungstenSpikeProj.DisplayName: Tungsten Spike
+GsWoodAcornProj.DisplayName: Acorn Projectile
+GsWoodSplinterProj.DisplayName: Wood Splinter
+GodSmithLuckyStarBolt.DisplayName: GodSmith Lucky Star Bolt
+GodSmithMenaceClaw.DisplayName: GodSmith Menace Claw
+GodSmithSwiftWindBlade.DisplayName: GodSmith Swift Wind Blade
+GodSmithViolentArc.DisplayName: GodSmith Violent Arc
+GodSmithManaRefluxWisp.DisplayName: GodSmith Mana Reflux Wisp
+GodSmithMythicStarShot.DisplayName: GodSmith Mythic Star Shot
+GodSmithMythicStarWisp.DisplayName: GodSmith Mythic Star Wisp
+GodSmithOverloadArc.DisplayName: GodSmith Overload Arc
+GodSmithCritMarkBurst.DisplayName: GodSmith Crit Mark Burst
+GodSmithEchoSlashWave.DisplayName: GodSmith Echo Slash Wave
+GodSmithExecutionSlash.DisplayName: GodSmith Execution Slash
+GodSmithOverkillChainBolt.DisplayName: GodSmith Overkill Chain Bolt
+GodSmithShockwavePulse.DisplayName: GodSmith Shockwave Pulse
+GodSmithBallisticTracer.DisplayName: GodSmith Ballistic Tracer
+GodSmithPhantomBolt.DisplayName: GodSmith Phantom Bolt
+GodSmithRicochetBolt.DisplayName: GodSmith Ricochet Bolt
+GodSmithDesperationBurst.DisplayName: GodSmith Desperation Burst
+GodSmithHiddenEdgeSlash.DisplayName: GodSmith Hidden Edge Slash
+GodSmithAfterimageBolt.DisplayName: GodSmith Afterimage Bolt
+GodSmithComboBurstRing.DisplayName: GodSmith Combo Burst Ring
+GsAnchorQuakeProj.DisplayName: Anchor Quake
+GsEnchantedBoomerangStarProj.DisplayName: Enchanted Boomerang Star
+GsIceBoomerangShardProj.DisplayName: Ice Boomerang Shard
+GsPaladinsHammerWaveProj.DisplayName: Paladins Hammer Wave
+GsPossessedHatchetSoulBurstProj.DisplayName: Possessed Hatchet Soul Burst
+GsShroomerangSporeCloudProj.DisplayName: Shroomerang Spore Cloud
+GsThornChakramSpikeProj.DisplayName: Thorn Chakram Spike
+GsBeamSwordBeamProj.DisplayName: Beam Sword Beam
+GsBladeofGrassSporeProj.DisplayName: Blade of Grass Spore
+GsBladetongueGeyserProj.DisplayName: Bladetongue Geyser
+GsBladetongueSpitProj.DisplayName: Bladetongue Spit
+GsBloodButchererBurstProj.DisplayName: Blood Butcherer Burst
+GsBoneSwordTossProj.DisplayName: Bone Sword Toss
+GsBreakerBladeShockProj.DisplayName: Breaker Blade Shock
+GsCactusNeedleProj.DisplayName: Cactus Needle
+GsChlorophyteClaymoreOrbProj.DisplayName: Chlorophyte Claymore Orb
+GsChlorophyteClaymoreRootProj.DisplayName: Chlorophyte Claymore Root
+GsChlorophyteClaymoreThornProj.DisplayName: Chlorophyte Claymore Thorn
+GsChlorophyteSaberMistProj.DisplayName: Chlorophyte Saber Mist
+GsChristmasTreeSwordOrnamentProj.DisplayName: Christmas Tree Ornament
+GsChristmasTreeSwordTreeProj.DisplayName: Christmas Tree Phantom
+GsDD2SquireBetsySwordWaveProj.DisplayName: Betsy Sword Wave
+GsDD2SquireDemonSwordFireWaveProj.DisplayName: Demon Sword Fire Wave
+GsEbonSporeMistProj.DisplayName: Ebon Spore Mist
+GsEnchantedSwordBeamProj.DisplayName: Enchanted Sword Beam
+GsFetidBaghnakhsBurstProj.DisplayName: Fetid Baghnakhs Burst
+GsFetidBaghnakhsMarkProj.DisplayName: Fetid Baghnakhs Mark
+GsFieryGreatswordPitProj.DisplayName: Fiery Greatsword Pit
+GsFrostbrandBoltProj.DisplayName: Frostbrand Bolt
+GsHamBatAromaProj.DisplayName: Ham Bat Aroma
+GsIceBladeShardProj.DisplayName: Ice Blade Shard
+GsInfluxWaverBrandProj.DisplayName: Influx Waver Brand
+GsInfluxWaverPhaseSlashProj.DisplayName: Influx Waver Phase Slash
+GsInfluxWaverWaveProj.DisplayName: Influx Waver Wave
+GsKeybrandUnlockProj.DisplayName: Keybrand Unlock Mark
+GsLightsBaneScarProj.DisplayName: Lights Bane Scar
+GsMeowmereCatProj.DisplayName: Meowmere Cat Projectile
+GsMeowmereMeteorProj.DisplayName: Meowmere Meteor
+GsMeowmereStarBurstProj.DisplayName: Meowmere Star Burst
+GsPalmSandWaveProj.DisplayName: Palm Sand Wave
+GsPhasebladeArcProj.DisplayName: Phaseblade Arc
+GsPhasesaberBurstProj.DisplayName: Phasesaber Burst
+GsPiercingStarlightBoltProj.DisplayName: Piercing Starlight Bolt
+GsPiercingStarlightBurstProj.DisplayName: Piercing Starlight Burst
+GsPsychoKnifeShadowBurstProj.DisplayName: Psycho Knife Shadow Burst
+GsSeedlerBrambleProj.DisplayName: Seedler Bramble
+GsSeedlerPodProj.DisplayName: Seedler Pod
+GsSeedlerThornProj.DisplayName: Seedler Thorn
+GsSlapHandClapProj.DisplayName: Slap Hand Clap
+GsSlapHandPrintProj.DisplayName: Slap Hand Print
+GsStarfuryStarProj.DisplayName: Starfury Star
+GsStarWrathFallProj.DisplayName: Star Wrath Fall Star
+GsStarWrathRingProj.DisplayName: Star Wrath Star Ring
+GsTheHorsemansBladeJackProj.DisplayName: Horsemans Blade Pumpkin Soul
+GsBallOHurtBarbProj.DisplayName: Ball O Hurt Barb
+GsBlueMoonCrescentProj.DisplayName: Blue Moon Crescent
+GsChainGuillotinesShearProj.DisplayName: Chain Guillotine Shear
+GsDaoofPowBurstProj.DisplayName: Dao of Pow Burst
+GsDripplerFlailBeadProj.DisplayName: Drippler Bead
+GsFlaironBubbleProj.DisplayName: Flairon Homing Bubble
+GsFlamingMaceEmberProj.DisplayName: Flaming Mace Ember
+GsFlowerPowPetalProj.DisplayName: Flower Pow Petal
+GsGolemFistMagmaProj.DisplayName: Golem Fist Magma
+GsGolemFistQuakeProj.DisplayName: Golem Fist Quake
+GsKOCannonShockProj.DisplayName: KO Cannon Shock
+GsSunfuryScorchProj.DisplayName: Sunfury Scorch
+GsTheMeatballBurstProj.DisplayName: The Meatball Burst
+GsBoomstickBiteProj.DisplayName: Boomstick Blast
+GsFlareGunSignalProj.DisplayName: Flare Gun Signal
+GsHarpoonSpearProj.DisplayName: Harpoon Spear
+GsPhoenixBlasterChickProj.DisplayName: Phoenix Blaster Chick
+GsPhoenixBlasterNirvanaProj.DisplayName: Phoenix Blaster Nirvana
+GsRedRyderPelletProj.DisplayName: Red Ryder Pellet
+GsSandgunGlassProj.DisplayName: Sandgun Glass Bullet
+GsUndertakerSoulProj.DisplayName: Undertaker Soul Bullet
+GsBetsyBombardProj.DisplayName: Betsy Bombard Fireball
+GsDaedalusSigilProj.DisplayName: Daedalus Sigil
+GsPhantasmEchoArrowProj.DisplayName: Phantasm Echo Arrow
+GsTsunamiCrestProj.DisplayName: Tsunami Wave Crest
+FuLaoOverflowSurge.DisplayName: Lao Overflow Surge
+FuPeiGateBurst.DisplayName: Pei Gate Burst
+SeaShrimpBubble.DisplayName: Sea Shrimp Bubble
+SeaShrimpBubbleArc.DisplayName: Sea Shrimp Bubble Arc
+SeaShrimpCavitationBubble.DisplayName: Sea Shrimp Cavitation Bubble
+SeaShrimpClawHitbox.DisplayName: Sea Shrimp Claw
+SeaShrimpCrystalSpike.DisplayName: Sea Shrimp Crystal Spike
+SeaShrimpGeyserSpout.DisplayName: Sea Shrimp Geyser Spout
+SeaShrimpJetBeam.DisplayName: Sea Shrimp Jet Beam
+SeaShrimpLaneOmen.DisplayName: Sea Shrimp Charge Telegraph
+SeaShrimpLeapVortex.DisplayName: Sea Shrimp Leap Vortex
+SeaShrimpMiniVortex.DisplayName: Sea Shrimp Mini Vortex
+SeaShrimpShellFrag.DisplayName: Sea Shrimp Shell Fragment
+SeaShrimpSparkBubble.DisplayName: Sea Shrimp Spark Bubble
+SeaShrimpSwarmBubble.DisplayName: Sea Shrimp Swarm Bubble
+SeaShrimpVoltBubble.DisplayName: Sea Shrimp Volt Bubble
+SeaShrimpVortexWall.DisplayName: Sea Shrimp Vortex Wall
+SeaShrimpWaterBolt.DisplayName: Sea Shrimp Water Bolt
+SeaShrimpWaveCrest.DisplayName: Sea Shrimp Wave Crest
+CultistArcanePulse.DisplayName: Arcane Pulse
+CultistFallingStar.DisplayName: Falling Star
+CultistGoldRingSeal.DisplayName: Gold Ring Seal
+CultistSeekerStar.DisplayName: Seeking Star
+RainveilThunderboltProj.DisplayName: Rainveil Thunderbolt
+WoodsongBrambleProj.DisplayName: Woodsong Bramble
+DdBoltProj.DisplayName: Dungeon Necro Bolt
+DdCastOmen.DisplayName: Spellcasting Telegraph
+DdChargeOmen.DisplayName: Charge Telegraph
+DdFirePillarProj.DisplayName: Dungeon Fire Pillar
+DdGuardStanceProj.DisplayName: Guard Stance
+DdHammerConeOmen.DisplayName: Hammer Slam Telegraph
+DdMarksmanOmen.DisplayName: Marksman Telegraph
+DdRocketProj.DisplayName: Skeleton Rocket
+DdSkullOmen.DisplayName: Skull Impact Telegraph
+EclFrankSparkProj.DisplayName: Arc Spark
+MummyWrapOmen.DisplayName: Mummy Wrap Telegraph
+MummyWrapProj.DisplayName: Mummy Wrap
+SiphonPounceOmen.DisplayName: Siphon Pounce Telegraph
+FlgAimLineOmen.DisplayName: Legion Aim Line
+FlgMortarRingOmen.DisplayName: Mortar Ring Telegraph
+FlgMortarShellProj.DisplayName: Snowman Mortar Shell
+FlgSnowShardProj.DisplayName: Snow Shard
+FlgStabGlintOmen.DisplayName: Stab Glint Telegraph
+FrmFlockoBurstOmen.DisplayName: Flocko Burst Telegraph
+FrmIceShardProj.DisplayName: Frost Moon Ice Shard
+FrmIcingPatchProj.DisplayName: Icing Patch
+FrmPoseTelegraphProj.DisplayName: Pose Telegraph
+FrmSnowballProj.DisplayName: Frigid Snowball
+FrmYetiConeOmen.DisplayName: Yeti Slam Telegraph
+GyGhostNameThread.DisplayName: Ghost Thread
+GyMaggotBolt.DisplayName: Maggot Bolt
+GyMaggotBurstCore.DisplayName: Maggot Burst Core
+GyRavenSwoopOmen.DisplayName: Raven Swoop Telegraph
+LegionClownBomb.DisplayName: Clown Bomb
+LegionInkGlob.DisplayName: Legion Ink Glob
+LegionInkOmen.DisplayName: Ink Drop Telegraph
+LegionPoseOmen.DisplayName: Legion Formation Telegraph
+LegionScoutBolt.DisplayName: Scout Bolt
+LegionScoutOmen.DisplayName: Scout Lock Telegraph
+LegionSurfOmen.DisplayName: Surf Charge Telegraph
+MrtGuardShieldProj.DisplayName: Martian Guard Shield
+MrtReinforceSignalProj.DisplayName: Martian Reinforce Signal
+MrtWrenchProj.DisplayName: Martian Wrench
+MeteoriteDiveOmen.DisplayName: Meteor Dive Telegraph
+MeteoriteFireSpot.DisplayName: Meteor Fire Spot
+MeteoriteMoltenGlob.DisplayName: Molten Glob
+MushroomChargeGlowProj.DisplayName: Mushroom Charge Glow
+MushroomSporeBoltProj.DisplayName: Spore Bolt
+MushroomSporeBurstCore.DisplayName: Spore Burst Core
+MushroomSporeMistTelegraph.DisplayName: Spore Mist Telegraph
+MushroomSporePatchZone.DisplayName: Spore Patch Zone
+MushroomSporeSacProj.DisplayName: Spore Sac
+MushroomVineWhipOmen.DisplayName: Vine Whip Telegraph
+MushroomVineWhipProj.DisplayName: Fungal Vine Whip
+OceanInkCloud.DisplayName: Deep Sea Ink Cloud
+OceanPulseRing.DisplayName: Tidal Pulse Ring
+OceanSandMound.DisplayName: Ocean Sand Mound
+OceanSharkOmen.DisplayName: Shark Stalk Telegraph
+PmkEmberFlareProj.DisplayName: Pumpkin Ember Flare
+PmkEmberSeedProj.DisplayName: Ember Seed
+SandveilBounceMarkOmen.DisplayName: Sandveil Bounce Telegraph
+SandveilCursedBeadProj.DisplayName: Sandveil Cursed Bead
+SandveilFinSurgeOmen.DisplayName: Sandveil Fin Surge Telegraph
+SandveilPrismFlashProj.DisplayName: Sandveil Prism Flash
+SandveilSurgeColumnProj.DisplayName: Sandveil Surge Column
+SandveilVortexArrayOmen.DisplayName: Sandveil Vortex Array Telegraph
+SkyFeatherBolt.DisplayName: Sky Feather Bolt
+SkyFeatherFanOmen.DisplayName: Feather Fan Telegraph
+SkyGaleDiveOmen.DisplayName: Gale Dive Telegraph
+StonebornArcResidue.DisplayName: Stoneborn Arc Residue
+StonebornCounterRing.DisplayName: Stoneborn Counter Ring
+StonebornDiveLane.DisplayName: Stoneborn Dive Lane
+StonebornGazeOmen.DisplayName: Stoneborn Gaze Telegraph
+StonebornJavelinOmen.DisplayName: Stoneborn Javelin Telegraph
+StonebornJavelinProj.DisplayName: Stoneborn Javelin
+StonebornQuakeCharge.DisplayName: Stoneborn Quake Charge
+StonebornQuakeWave.DisplayName: Stoneborn Quake Wave
+TempleDiveOmen.DisplayName: Temple Dive Telegraph
+TempleDropOmen.DisplayName: Temple Drop Telegraph
+TempleEmberProj.DisplayName: Temple Ember
+BssBreachOmen.DisplayName: Breach Telegraph
+BssDashOmen.DisplayName: Dash Telegraph
+BssCactusBallProj.DisplayName: Cactus Rolling Ball
+BssNeedleProj.DisplayName: Giant Needle
+BssPetalProj.DisplayName: Storm Petal
+BssSandGlob.DisplayName: Sand Glob
+BssSandSurgeProj.DisplayName: Sand Surge
+BssDustDevilProj.DisplayName: Dust Devil
+BssWindPetalProj.DisplayName: Gale Petal
+BssPincerSnapProj.DisplayName: Pincer Snap
+FssBreachOmen.DisplayName: Fester Breach Mound
+FssCascadeDrop.DisplayName: Ichor Cascade
+FssIchorGate.DisplayName: Ichor Gate
+FssGeyserColumn.DisplayName: Ichor Geyser
+FssHuskShard.DisplayName: Molted Husk Shard
+FssIchorGlob.DisplayName: Ichor Glob
+FssIchorPool.DisplayName: Gilded Ichor Pool
+FssMortarShard.DisplayName: Fester Mortar Shard
+FssMortarShell.DisplayName: Fester Mortar Shell
+FssStickyCyst.DisplayName: Sticky Fester Cyst
+BudPiercerThrow.DisplayName: Budpiercer
+BudSeedling.DisplayName: Planted Bud
+ThornstringHeld.DisplayName: Thornstring
+ThornstringArrow.DisplayName: Thorn Arrow
+BloomCallerSprout.DisplayName: Wildbloom Sprout
+BloomCallerThorn.DisplayName: Wildbloom Thorn
+BudcrownBall.DisplayName: Budcrown Head
+BloomPetalProj.DisplayName: Wildbloom Petal
+BloomNeedleProj.DisplayName: Wild Needle
+BloomTomeBolt.DisplayName: Budding Bolt
+DeepcrystalJetBeam.DisplayName: Deepcrystal Jet Beam
+DeepcrystalSeekBubble.DisplayName: Deepcrystal Seek Bubble
+DeepcrystalWaterShot.DisplayName: Deepcrystal Water Shot
+SoulbindingCounterFlame.DisplayName: Soulbinding Counter Flame
+GsGunHoldPoseProj.DisplayName: Gs Gun Hold Pose Proj
+CrimsonSweepSlash.DisplayName: Crimson Sweep Slash
+GsArmorBlastProj.DisplayName: Gs Armor Blast Proj
+GsJungleStingerProj.DisplayName: Gs Jungle Stinger Proj
+GsNecroBoneProj.DisplayName: Gs Necro Bone Proj
+GsOrichalcumPetalProj.DisplayName: Gs Orichalcum Petal Proj
+GsHallowedStarProj.DisplayName: Gs Hallowed Star Proj
+GsSpectreSoulProj.DisplayName: Gs Spectre Soul Proj
+GsStardustShardProj.DisplayName: Gs Stardust Shard Proj
+GsTikiSpiritFlameProj.DisplayName: Gs Tiki Spirit Flame Proj
+GsTurtleSpikeProj.DisplayName: Gs Turtle Spike Proj
+BssSandVortexProj.DisplayName: Bss Sand Vortex Proj
+GolemSpikyBall.DisplayName: Golem Spiky Ball
+GsAdamantiteArmorEmberProj.DisplayName: Gs Adamantite Armor Ember Proj
+GsBeetleArmorScarabProj.DisplayName: Gs Beetle Armor Scarab Proj
+GsBeetleArmorShellProj.DisplayName: Gs Beetle Armor Shell Proj
+GsCactusArmorNeedleProj.DisplayName: Gs Cactus Armor Needle Proj
+GsCobaltArmorBeamProj.DisplayName: Gs Cobalt Armor Beam Proj
+GsCopperArmorArcProj.DisplayName: Gs Copper Armor Arc Proj
+GsCrimsonArmorLeechProj.DisplayName: Gs Crimson Armor Leech Proj
+GsCrystalArmorShardProj.DisplayName: Gs Crystal Armor Shard Proj
+GsFrostArmorIcicleProj.DisplayName: Gs Frost Armor Icicle Proj
+GsGoldArmorCoinProj.DisplayName: Gs Gold Armor Coin Proj
+GsJungleArmorSporeProj.DisplayName: Gs Jungle Armor Spore Proj
+GsMeteorArmorFallProj.DisplayName: Gs Meteor Armor Fall Proj
+GsMoltenArmorFireballProj.DisplayName: Gs Molten Armor Fireball Proj
+GsMythrilArmorSwordProj.DisplayName: Gs Mythril Armor Sword Proj
+GsNebulaArmorBloomProj.DisplayName: Gs Nebula Armor Bloom Proj
+GsPalladiumArmorOrbProj.DisplayName: Gs Palladium Armor Orb Proj
+GsShroomiteArmorSporeProj.DisplayName: Gs Shroomite Armor Spore Proj
+GsShroomiteArmorTurretProj.DisplayName: Gs Shroomite Armor Turret Proj
+GsSpiderArmorWebProj.DisplayName: Gs Spider Armor Web Proj
+GsTinArmorChimeProj.DisplayName: Gs Tin Armor Chime Proj
+GsVortexArmorArcProj.DisplayName: Gs Vortex Armor Arc Proj
+EmpressLightBolt.DisplayName: Empress Light Bolt
+EmpressTrackBeam.DisplayName: Empress Track Beam
+EmpressEcho.DisplayName: Empress Echo
+EmpressLacewing.DisplayName: Empress Lacewing
+EmpressMoonShard.DisplayName: Empress Moon Shard
+EmpressWhipCrack.DisplayName: Empress Whip Crack
+EmpressRepelRing.DisplayName: Empress Repel Ring

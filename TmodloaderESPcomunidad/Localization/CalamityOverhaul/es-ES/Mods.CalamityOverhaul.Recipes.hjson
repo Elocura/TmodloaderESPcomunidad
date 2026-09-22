@@ -3,32 +3,3 @@ CWRCrafted: {
 	GodEaterWeaponGroup: Arma del Devorador de dioses
 	FishGroupName: pescado
 }
-
-DyeVatItem: {
-	DisplayName: "{$ItemName.DyeVat}"
-	Tooltip:
-		'''
-		Se utiliza para fabricar tintes
-		Haz clic derecho tras colocarlo para abrir el panel de control, lo que te permitirá teñir objetos
-		Coloca un cubo de agua en la ranura de tinte para eliminar el tinte de los objetos
-		'''
-}
-
-RDemonConch: {
-	DisplayName: Caracola demoníaca
-	Tooltip:
-		'''
-		Escucha con atención y oirás gritos
-		"Ten cuidado"
-		'''
-}
-
-RBloodButcherer: {
-	DisplayName: "{$ItemName.BloodButcherer}"
-	Tooltip:
-		'''
-		Hace una combinación de tres golpes del Carnicero; el tercer golpe es más amplio y contundente
-		Los golpes lanzan chorros de sangre oscura que describen un arco hacia abajo y salpican al impactar
-		Los enemigos golpeados sufren "Masacre sangrienta"
-		'''
-}
