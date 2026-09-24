@@ -1,26 +1,28 @@
 Mods: {
 	ZeroHourMilitaryMod: {
 		Changelog: {
-			Version: v4.13-4.12
+			Version: v4.18
 			Lines:
 				'''
-				[+] Added a new NPC: Shell-shocked Pilot.
-				[+] Restored weapons and the main menu from build v2022.0.4.
-				[+] Added a new weapon for the Ranged: the Vanector (i.e., Vane's Vector).
-				[*] Fixed XT-017 Scorpion bestiary.
-
-				[+] Added a new weapon for the Summoner: Diagnosis.
-				[+] Discord is now available!
-				[+] You can now pat Virili!
-				[+] The interface and feedback with the FPV Drun have been improved. 
-				[+] Subatomic Decay. 
-				[+] Added the option to change the Plague and Irradiated icon to any of the ones from older Calamity builds.
-				[*] XT-017 Scorpion AI changes + new attacks, phases and recoil.
-				[*] XT-017 Scorpion base movement speed was increased from 20 to 36, but now he's moving freely.
-				[*] Fixed an issue where the ToxicRain.raw shader (green rain) was closed incorrectly, causing the game to crash.
-				[-]
+				[+] New Plagued Jungle Biome. After Killing a Golem.
+				[*] Shimmer - Vanector now transforms to Grenada, and vice versa;
+				[*] Some tool-tips and localization fixes.
+				[-] Shimmer - Tarkhuna no longer transforms to Uelibloom Bars; 
 				'''
 		}
+
+		UI: {
+			MenuSelector: {
+				Title: "[ Menu Style ]"
+				StyleGoliath: Goliath Eternal (Default)
+				Style2024: Return of Beelzebub 2024
+				Style2022: Alpha 2022 v0.4 Build
+				StyleHalloween: Halloween 2026
+				StyleAuto: Auto
+			}
+		}
+
+		DamageClasses.MagicSummonDamage.DisplayName: Summoner or Magic Damage
 
 		Configs: {
 			ClientConfig: {
@@ -89,6 +91,45 @@ Mods: {
 
 				Tooltip: ""
 			}
+
+			MenuConfig: {
+				DisplayName: Menu Config
+				Headers.Appearance: Appearance Header
+
+				SelectedStyle: {
+					Label: Main Menu Style
+					Tooltip: You can choose which style you like more!
+				}
+			}
+
+			MenuStyle: {
+				Tooltip: ""
+
+				GoliathEternal: {
+					Label: Goliath Eternal (Main)
+					Tooltip: ""
+				}
+
+				Legacy2024: {
+					Label: Legacy 2024
+					Tooltip: ""
+				}
+
+				Legacy2022: {
+					Label: Legacy 2022 v0.4 Build
+					Tooltip: ""
+				}
+
+				Halloween: {
+					Label: Halloween Style
+					Tooltip: ""
+				}
+
+				AutoSeasonal: {
+					Label: Auto Seasonal
+					Tooltip: ""
+				}
+			}
 		}
 
 		Buffs: {
@@ -150,7 +191,7 @@ Mods: {
 					Increases ranged OR summoner damage by 10% and critical strike chance by [c/2FFF00:8%]
 					[c/2FFF00:25%] chance to not consume ammo
 					Adaptive: Grants summoner buffs if not holding a ranged weapon.
-					[c/FF002F:Lights out.]
+					Customization: Assign any key to select your desired visor color in options.
 					'''
 				SetBonusRanged:
 					'''
@@ -160,6 +201,7 @@ Mods: {
 					[Press the set bonus key to activate Blackout (+49% damage and +20% crit chance for 5 sec)]
 					Double-pressing left or right results in a dash like Virili.
 					Allows you to see enemies through walls.
+					[c/FF002F:Lights out.]
 					'''
 				SetBonusSummoner:
 					'''
@@ -169,6 +211,7 @@ Mods: {
 					[Press the set bonus key to activate Blackout (+49% damage and +20% crit chance for 5 sec)]
 					Double-pressing left or right results in a dash like Virili.
 					Allows you to see enemies through walls.
+					[c/FF002F:Lights out.]
 					'''
 			}
 
@@ -256,7 +299,7 @@ Mods: {
 
 			LiquidatorX1: {
 				DisplayName: Liquidator X1
-				Tooltip: A snappy assault rifle based on the HK416.
+				Tooltip: A snappy assault rifle based on the HK416. Inflict [c/bbff00:Irradiated] debuff.
 			}
 
 			LiquidatorZ1: {
@@ -340,7 +383,7 @@ Mods: {
 
 			Uranium: {
 				DisplayName: Uranium
-				Tooltip: Pure.
+				Tooltip: You know that uranium isn't green, right?
 			}
 
 			SintyniumBar: {
@@ -416,9 +459,9 @@ Mods: {
 				DisplayName: Mass Quarantine-14
 				Tooltip:
 					'''
-						Epidemics, horrors... wait, [c/0000ff:Mushrooms]? 
-						Shoots with high velocity bullet that inflict [c/0000ff:Mycoplagueosis].
-						[c/0000ff:Mycoplagueosis] can render homing missiles helpless.
+					Epidemics, horrors... wait, [c/0000ff:Mushrooms]? 
+					Shoots with high velocity bullet that inflict [c/0000ff:Mycoplagueosis].
+					[c/0000ff:Mycoplagueosis] can render homing missiles helpless.
 					'''
 			}
 
@@ -434,7 +477,13 @@ Mods: {
 
 			ScorpionTestSummon: {
 				DisplayName: The "Scorpion" Strain
-				Tooltip: "[c/ff0000:Ooh! A red button]."
+				Tooltip:
+					'''
+					[c/ff0000:Ooh! A red button].
+					Summons XT-017 SCORPION, The Plaguecopter.
+					Can be summoned only in the Sulfur Sea.
+					WIP
+					'''
 				SulphurousSeaWarning: "[c/00ff00: The signal is being jammed... XT-017 can only be intercepted near the Sulfur Sea!]"
 			}
 
@@ -506,7 +555,11 @@ Mods: {
 			}
 
 			GrozaLegacy: {
-				Tooltip: v2022.0.4 Legacy
+				Tooltip:
+					'''
+					v2022.0.4 Legacy
+					RIGHT CLICK TO GRANADE LAUNCHER
+					'''
 				DisplayName: Groza
 			}
 
@@ -527,7 +580,11 @@ Mods: {
 
 			Vanector: {
 				DisplayName: Vanector
-				Tooltip: Vane's Vector.
+				Tooltip:
+					'''
+					Vane's Vector.
+					An SMG with inverted recoil.
+					'''
 			}
 		}
 
@@ -552,9 +609,14 @@ Mods: {
 			BombTargetZone.DisplayName: Bomb Target Zone
 			PlagueDrun.DisplayName: Plague Drun
 			PlagueDrunCloud.DisplayName: Plague Drun Cloud
+			VectorCasing.DisplayName: Vector Casing
 		}
 
-		"Keybinds.Phosphor Blackout.DisplayName": Phosphor  Blackout
+		Keybinds: {
+			"Phosphor Blackout.DisplayName": Phosphor Blackout
+			"Switch NVG Lens Color.DisplayName": Switch Plague Operator NVG Lens Outer Color
+		}
+
 		BossChecklist.XT017Scorpion.DespawnMessage: "[XT-017 «Scorpion»]: Target destroyed. Reporting."
 
 		NPCs: {
@@ -619,6 +681,8 @@ Mods: {
 					LikeNPC_Princess: "{NPCName} is an absolute gem."
 					Princess_LovesNPC: "{NPCName} has an infectious spirit!"
 				}
+
+				Census.SpawnCondition: Conditions unknown
 			}
 		}
 
