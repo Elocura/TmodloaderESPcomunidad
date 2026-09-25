@@ -6,19 +6,19 @@ WallOfFleshAI: {
 }
 
 EmpressOfLightAI: {
-	# Phase 3 transformation lines, spoken at fixed ticks; the seventh plays when the closing ring finishes and she can be killed again
-	Ascension_0: ...Hm?
-	Ascension_1: How can this be?
-	Ascension_2: I have pushed my light to its limit. How are you still standing?
+	# Líneas de transformación de la fase 3, pronunciadas en intervalos fijos; la séptima suena cuando termina el anillo de cierre y se la puede volver a matar
+	Ascension_0: ...¿Eh?
+	Ascension_1: ¿Cómo es posible?
+	Ascension_2: He llevado mi luz hasta el límite. ¿Cómo es que sigues en pie?
 	Ascension_3: ...No.
-	Ascension_4: I will not bow to you like this.
-	Ascension_5: If you want this fight, you will take every last ray of me.
-	Ascension_6: Now. Your turn.
-	# Concession monologue, one line per beat of the death performance
-	Farewell_0: ...Enough.
-	Farewell_1: You are far stronger than you look.
-	Farewell_2: Those butterflies mean everything to me. Leave them be, and this sky stays ours to share.
-	Farewell_3: The light will remember you.
-	# Moon Shadow: death reason for a player caught outside the shadow cones during the whiteout
-	WhiteoutDeath: "{0} evaporated in her light"
+	Ascension_4: No me doblegaré ante ti de esta manera.
+	Ascension_5: Si quieres luchar, te llevarás hasta el último rayo de mi ser
+	Ascension_6: Ahora. Te toca a ti
+	# Monólogo de rendición, una línea por tiempo de la actuación de muerte
+	Farewell_0: ...Ya basta
+	Farewell_1: Eres mucho más fuerte de lo que pareces
+	Farewell_2: Esas mariposas lo son todo para mí. Déjalas en paz y este cielo seguirá siendo nuestro para compartirlo
+	Farewell_3: La luz te recordará
+	# Sombra de la Luna: motivo de muerte para un jugador atrapado fuera de los conos de sombra durante la tormenta de nieve
+	WhiteoutDeath: "{0} se evaporó en su luz"
 }
