@@ -636,7 +636,7 @@ OnikiriText: {
 		StanceValueFormat: "{0} / {1}"
 		StanceReadyLine: Postura llena: {0} fija al enemigo y lanza el tajo final; el doble paso relámpago sigue pudiendo atravesar
 		StanceHalfLine: Postura a medias: pulsa {0} dos veces seguidas, luego clic izquierdo para el destello aniquilador
-		StanceLockedLine: Execution in progress: invulnerable, Stance locked
+		StanceLockedLine: Ejecución en curso: invulnerable, postura bloqueada
 		DomainTitle: Ojo del Reino espectral
 		DomainStateClosed: Cerrado, el dominio no está desplegado
 		DomainStateOmote: Omote, papel amarillento
@@ -1294,13 +1294,13 @@ KikasaText: {
 		DreamTitle: Adéntrarse en el sueño fantasmal
 		DreamBody: Cuando el lago esté lleno, mantén pulsada la tecla Dar la vuelta al lago y el reflejo del lago te arrastrará al sueño. Allí, los enemigos están indefensos y no existen proyectiles a distancia; tus objetos también están bloqueados, así que mantén pulsado clic izquierdo para soltar a los sabuesos. Vuelve a pulsar la misma tecla para despertar.
 		DreamPrompt: Con el lago lleno, mantén pulsado {0}
-		CloseTitle: Draw Back the Blood Lake
-		CloseBody: Once expanded, the Blood Lake continuously follows you and will not disappear when switching weapons. Hold Kikasa and press the Domain Expansion key again to close the domain. All stored vault items, shades, and drowning records remain permanently saved in the umbrella for next time.
-		ClosePrompt: Hold Kikasa and press {0} to close the Blood Lake
-		CloseInDreamNote: You are still in the Ghost Dream. Press {0} to exit the dream first, then close the domain.
-		CloseSettlingNote: The domain is transitioning between forms, please wait.
-		KeyUnboundFallback: Key "{0}" is not bound. You can temporarily press {1} for this step; bind it in Settings > Controls for regular use.
-		ShieldNote: Protected during tutorial: enemies cannot harm you, and no enemies will spawn nearby.
+		CloseTitle: Retirar el lago de sangre
+		CloseBody: Una vez ampliado, el Lago de Sangre te seguirá continuamente y no desaparecerá al cambiar de arma. Mantén pulsado a Kikasa y vuelve a pulsar la tecla de expansión del dominio para cerrarlo. Todos los objetos guardados en la cámara acorazada, las sombras y los registros de ahogamiento quedarán guardados de forma permanente en el paraguas para la próxima vez.
+		ClosePrompt: Mantén pulsado a Kikasa y pulsa {0} para cerrar el Lago de Sangre
+		CloseInDreamNote: Todavía estás en el "Sueño fantasmal". Pulsa {0} para salir primero del sueño y, a continuación, cierra el dominio.
+		CloseSettlingNote: El dominio está cambiando de forma; por favor, espera.
+		KeyUnboundFallback: La tecla "{0}" no está asignada. Puedes pulsar temporalmente {1} en este paso; para usarla habitualmente, asígnala en Ajustes > Controles.
+		ShieldNote: Protegido durante el tutorial: los enemigos no pueden hacerte daño y no aparecerán enemigos cerca de ti.
 		SkipBtn: Saltar
 		ConfirmBtn: Entendido
 		AssistBtn: Demuéstramelo
