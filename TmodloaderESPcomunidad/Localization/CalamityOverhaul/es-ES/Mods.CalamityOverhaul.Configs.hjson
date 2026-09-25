@@ -55,8 +55,8 @@ CWRClientConfig: {
 	}
 
 	HideOtherDomains: {
-		Label: Hide Other Players' Domains
-		Tooltip: On by default. When enabled, full-screen domain visuals opened by other players (Onikiri's Oni Domain, Kikasa's Blood Lake, Ghost Rain and Ghost Dream) are no longer drawn on your screen. They still appear when you stand on their lake, get dragged underwater, or are inside their dream. Visual only, no effect is changed; your own domains are unaffected.
+		Label: Ocultar los dominios de otros jugadores
+		Tooltip: Activado por defecto. Cuando está activado, los elementos visuales de los dominios a pantalla completa abiertos por otros jugadores (el Dominio Oni de Onikiri, el Lago de Sangre de Kikasa, Lluvia Fantasma y Sueño Fantasma) ya no se muestran en tu pantalla. Siguen apareciendo cuando te sitúas sobre su lago, te arrastran bajo el agua o te encuentras dentro de su sueño. Es solo un cambio visual, no se modifica ningún efecto; tus propios dominios no se ven afectados.
 	}
 
 	LensEasing: {
@@ -70,7 +70,7 @@ CWRClientConfig: {
 	}
 
 	RarityTextEffects: {
-		Label: Rarity Name Effects
-		Tooltip: Animated item-name effects for this mod's rarities (Lapis, Jade, Copper, Gilt, Starsilver and the four Legends). When disabled, names are drawn in plain color.
+		Label: Efectos según el nivel de rareza
+		Tooltip: Efectos animados para los nombres de los objetos según su rareza en este mod (Lapislázuli, Jade, Cobre, Dorado, Plata Estelar y las cuatro Leyendas). Cuando están desactivados, los nombres se muestran en un color liso.
 	}
 }
