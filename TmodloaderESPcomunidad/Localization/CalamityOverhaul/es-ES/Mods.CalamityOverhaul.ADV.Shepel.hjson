@@ -134,34 +134,34 @@ HackTimeTutorialLead: {
 }
 
 CybCourseWheelIntroDialogue: {
-	Line1: Both core protocols check out. One last thing — a gesture that puts them both at your fingertips.
-	Line2: Hold {0} and the radial wheel unfolds — the three domain layers sit on the ring, and dead center is the Hack Time shortcut.
-	Line3: Go ahead. Hold {0}, fling the cursor toward the layer you want, and let go.
+	Line1: Los dos protocolos principales funcionan a la perfección. Una última cosa: un sistema que te permitirá acceder rápidamente a ellos
+	Line2: Mantén pulsado {0} y se desplegará la rueda radial: las tres capas de dominio se sitúan en el anillo, y justo en el centro está el acceso directo al Modo hackeo
+	Line3: Adelante. Mantén pulsado {0}, desplaza el cursor hacia la capa que desees y suelta el botón
 }
 
 WheelTutorialLead: {
-	RW_S00_Title: Summon the Radial Wheel
-	RW_S01_Title: Pick a Domain Layer
-	RW_S02_Title: Center: Hack Time
+	RW_S00_Title: Abrir el menú radial
+	RW_S01_Title: Elegir una capa de domini
+	RW_S02_Title: Centro: Modo hackeo
 	RW_S00_Body:
 		'''
-		Hold {0} to summon the radial wheel.
-		Every eligible wheel appears together; the cursor belongs to whichever is closest.
+		Mantén pulsado {0} para abrir el menú radial
+		Aparecerán todas las opciones disponibles a la vez; el cursor se sitúa sobre la que está más cerca
 		'''
 	RW_S01_Body:
 		'''
-		Keep holding, fling the cursor toward any layer sector,
-		then left-click or simply release to confirm. The domain deploys at once.
+		Mantén pulsado el botón, desplaza el cursor hacia cualquier sector de la capa,
+		y, a continuación, haz clic con izquierdo o simplemente suelta el botón para confirmar. El dominio se implementa al instante
 		'''
 	RW_S02_Body:
 		'''
-		Dead center of the wheel is the Hack Time shortcut —
-		clicking it equals pressing {1}. That wraps up the training.
+		Justo en el centro de la rueda se encuentra el atajo del Modo hackeo:
+		hacer clic en él equivale a pulsar {1}. Con esto termina la formación
 		'''
-	RW_Calibrating: Synchronized
-	RW_NextBtn: Skip >
-	RW_HintStuck: Hint: click Skip to force past this step
-	RW_KeyHintUnbound: Note: the radial wheel key is unbound, so the wheel cannot open. Bind it under Settings > Controls, or click Skip.
+	RW_Calibrating: Sincronizado
+	RW_NextBtn: Omitir >
+	RW_HintStuck: Sugerencia: haz clic en "Omitir" para saltarte este paso
+	RW_KeyHintUnbound: Nota: la tecla del menú radial no está asignada, por lo que la rueda no se puede abrir. Asígnala en Configuración > Controles» o haz clic en Omitir
 }
 
 CybCourseOutroDialogue: {
