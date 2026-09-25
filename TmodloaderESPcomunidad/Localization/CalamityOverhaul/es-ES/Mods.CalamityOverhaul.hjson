@@ -462,9 +462,9 @@ QuickHack: {
 HackTargetType: {
 	ItemTargetType.DisplayName: ïtem soltado objetivo
 	NpcTargetType.DisplayName: NPC objetivo
-	PlayerTargetType.DisplayName: Player Target
+	PlayerTargetType.DisplayName: Jugador objetivo
 	ProjectileTargetType.DisplayName: Proyectil objetivo
-	SelfRigTargetType.DisplayName: Self Rig
+	SelfRigTargetType.DisplayName: Auto-montaje
 	SignalTowerTargetType.DisplayName: Torre de señal objetivo
 	TileTargetType.DisplayName: Unidad objetivo
 	TurretTargetType.DisplayName: Torreta objetivo
@@ -765,8 +765,8 @@ GodSmithMagicMorph: {
 		'''
 	GsMeteorStaff.Desc:
 		'''
-		Reforja: meteors leave a scorching crater where they land.
-		Hold right click to charge; release to call a five-meteor barrage across the cursor
+		Reforja: los meteoritos dejan un cráter abrasador donde caen.
+		Mantén pulsado clic derecho para cargar; suéltalo para lanzar una ráfaga de cinco meteoritos en la dirección del cursor
 		'''
 	GsNimbusRod.Desc:
 		'''
