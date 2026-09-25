@@ -133,7 +133,7 @@ HealStation: {
 }
 
 ElectricMinRocket: {
-	EnergyShortage: Energy Shortage
+	EnergyShortage: Escasez de energía
 	DisplayName: Mini cohete eléctrico
 	Tooltip:
 		'''
@@ -508,7 +508,8 @@ MushroomFarmer: {
 		'''
 		Consume energía para cultivar champiñones en la hierba cercana y champiñones brillantes en la hierba de champiñon
 		Las recolecta automáticamente, lo que en ocasiones proporciona semillas de hierba de champiñon
-		Also cuts down vines hanging under mushroom grass; each segment has a 50% chance to yield a glowing mushroom
+		Además, corta las enredaderas que cuelgan bajo la hierba de setas; cada segmento tiene un 50% de probabilidades
+		de dar una seta brillante
 		Haz clic derecho para abrir el panel de control
 		'''
 }
