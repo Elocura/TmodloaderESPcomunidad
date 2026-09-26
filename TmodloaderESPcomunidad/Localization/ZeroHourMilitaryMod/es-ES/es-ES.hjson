@@ -1,26 +1,27 @@
 Mods: {
 	ZeroHourMilitaryMod: {
 		Changelog: {
-			Version: v4.13-4.12
+			Version: v4.18
 			Lines:
 				'''
-				[+] Added a new NPC: Shell-shocked Pilot.
-				[+] Restored weapons and the main menu from build v2022.0.4.
-				[+] Added a new weapon for the Ranged: the Vanector (i.e., Vane's Vector).
-				[*] Fixed XT-017 Scorpion bestiary.
-
-				[+] Added a new weapon for the Summoner: Diagnosis.
-				[+] Discord is now available!
-				[+] You can now pat Virili!
-				[+] The interface and feedback with the FPV Drun have been improved. 
-				[+] Subatomic Decay. 
-				[+] Added the option to change the Plague and Irradiated icon to any of the ones from older Calamity builds.
-				[*] XT-017 Scorpion AI changes + new attacks, phases and recoil.
-				[*] XT-017 Scorpion base movement speed was increased from 20 to 36, but now he's moving freely.
-				[*] Fixed an issue where the ToxicRain.raw shader (green rain) was closed incorrectly, causing the game to crash.
-				[-]
-				'''
+			    [+] Nuevo bioma de Jungla Plagada. Después de matar a un Gólem.
+                [*] Shimmer - Vanector ahora se transforma en Granada, y viceversa.
+                [*] Algunas correcciones en las descripciones de herramientas y en la localización.
+                [-] Shimmer - Tarkhuna ya no se transforma en Barras de Uelibloom.
+			    '''
 		}
+        UI: {
+			MenuSelector: {
+				Title:"[ Estilo del menú ]"
+				StyleGoliath: Goliath Eterno (Predeterminado)
+				Style2024: Regreso de Beelzebub 2024
+				Style2022: Alpha 2022 v0.4 Build
+				StyleHalloween: Halloween 2026
+				StyleAuto: Automatico
+			}
+		}
+
+        DamageClasses.MagicSummonDamage.DisplayName: Daño de Invocador o Mágico
 
 		Configs: { 
 			ClientConfig: { 
@@ -89,6 +90,45 @@ Mods: {
  
 				Tooltip: "" 
 			} 
+            
+            MenuConfig: {
+				DisplayName: Configuración del menú
+				Headers.Appearance: Encabezado de apariencia
+
+				SelectedStyle: {
+					Label: Estilo del menú principal
+					Tooltip: ¡Puedes elegir el estilo que más te guste!
+				}
+			}
+
+			MenuStyle: {
+				Tooltip: ""
+
+				GoliathEternal: {
+					Label: Goliath Eterno (Principal)
+					Tooltip: ""
+				}
+
+				Legacy2024: {
+					Label: Legado 2024
+					Tooltip: ""
+				}
+
+				Legacy2022: {
+					Label: Legado 2022 v0.4 Build
+					Tooltip: ""
+				}
+
+				Halloween: {
+					Label: Estilo de Halloween
+					Tooltip: ""
+				}
+
+				AutoSeasonal: {
+					Label: Estacional automático
+					Tooltip: ""
+				}
+			}
 		}
 
 		Buffs: {
@@ -150,7 +190,7 @@ Mods: {
 					Aumenta el daño a distancia O de invocador en un 10% y la probabilidad de golpe crítico en un [c/2FFF00:8%] 
 					[c/2FFF00:25%] de probabilidad de no consumir munición 
 					Adaptativo: Otorga beneficios de invocador si no sostienes un arma a distancia. 
-					[c/FF002F:Luces fuera.] 
+				    Personalización: Asigna cualquier tecla para seleccionar el color de visor que desees en las opciones.
 					'''
 				SetBonusRanged: 
 					'''
@@ -160,6 +200,8 @@ Mods: {
 					[Presiona la tecla del bono de conjunto para activar Apagón (+49% de daño y +20% de probabilidad de golpe crítico durante 5 s)] 
 					Pulsar dos veces a la izquierda o derecha produce un impulso como Virili.
                     Permite ver a los enemigos a través de las paredes.
+                    [c/FF002F:¡Luces fuera.]
+
 
 					'''
 				SetBonusSummoner: 
@@ -170,6 +212,8 @@ Mods: {
 					[Presiona la tecla del bono de conjunto para activar Apagón (+49% de daño y +20% de probabilidad de golpe crítico durante 5 s)] 
 					Pulsar dos veces a la izquierda o derecha produce un impulso como Virili.
                     Permite ver a los enemigos a través de las paredes.
+                    [c/FF002F:¡Luces fuera.]
+
 					'''
 			}
  
@@ -257,7 +301,7 @@ Mods: {
  
 			LiquidatorX1: {
 				DisplayName: Liquidator X1 
-				Tooltip: Un rifle de asalto ágil basado en el HK416. 
+		        Tooltip: Un rifle de asalto rápido basado en el HK416. Inflige la desventaja [c/bbff00:Irradiado].
 			}
  
 			LiquidatorZ1: {
@@ -341,7 +385,8 @@ Mods: {
  
 			Uranium: {
 				DisplayName: Uranio 
-				Tooltip: Puro. 
+				Tooltip: Sabes que el uranio no es verde, ¿verdad?
+
 			}
  
 			SintyniumBar: {
@@ -417,9 +462,9 @@ Mods: {
 				DisplayName: Cuarentena-14 Masiva 
 				Tooltip: 
 					'''
-						Epidemias, horrores... espera, ¿[c/0000ff:hongos]?
-						Dispara una bala de alta velocidad que inflige [c/0000ff:Micoplagiosis]. 
-						La [c/0000ff:Micoplagiosis] puede dejar indefensos a los misiles teledirigidos. 
+					Epidemias, horrores... espera, ¿[c/0000ff:Hongos]?
+					Dispara balas de alta velocidad que infligen [c/0000ff:Micoplagueosis].
+					[c/0000ff:Micoplagueosis] puede dejar indefensos a los misiles teledirigidos.
 					'''
 			}
  
@@ -435,8 +480,12 @@ Mods: {
  
 			ScorpionTestSummon: {
 				DisplayName: La Cepa "Escorpión" 
-				Tooltip: "[c/ff0000:¡Oh! Un botón rojo]."
-				SulphurousSeaWarning: "[c/00ff00: La señal está siendo interferida... ¡XT-017 solo puede ser interceptado cerca del Mar Sulfuroso!]" 
+				Tooltip:
+					'''
+					[c/ff0000:¡Oh! Un botón rojo].
+					Invoca a XT-017 SCORPION, el lanzador de  plagas.
+					Solo puede ser invocado en el Mar de Azufre.
+					'''
 			}
  
 			Tarkhun: {
@@ -507,7 +556,12 @@ Mods: {
 			}
 
 			GrozaLegacy: {
-				Tooltip: v2022.0.4 Clásico
+				Tooltip:
+					'''
+					Legado v2022.0.4
+					HAZ CLIC DERECHO PARA LANZADOR DE GRANADAS
+					'''
+
 				DisplayName: Groza
 			}
 
@@ -528,7 +582,12 @@ Mods: {
 
 			Vanector: {
 				DisplayName: Vanector
-				Tooltip: Vector de Vane.
+				Tooltip:
+					'''
+					Vector de Vane.
+					Una SMG con retroceso invertido.
+					'''
+
 			}
 		}
 
@@ -551,9 +610,16 @@ Mods: {
 			DiseaseStrafingBullet.DisplayName: Bala de Ametrallamiento de Enfermedad
 			RayOfDiseasesLaser.DisplayName: Láser del Rayo de Enfermedades
 			BombTargetZone.DisplayName: Zona de objetivo de bomba
+            PlagueDrun.DisplayName: Plague Drun
+			PlagueDrunCloud.DisplayName: Nube de Plague Drun
+			VectorCasing.DisplayName: Carcasa de Vector
 		}
 
-		"Keybinds.Phosphor Blackout.DisplayName": Apagón de Fósforo
+		Keybinds: {
+			"Phosphor Blackout.DisplayName": Apagón de fósforo
+			"Switch NVG Lens Color.DisplayName": Cambiar el color exterior de la lente NVG del Operador Plaga
+		}
+
 		BossChecklist.XT017Scorpion.DespawnMessage: "[XT-017 «Escorpión»]: Objetivo destruido. Informando."
 
 		NPCs: {
@@ -617,7 +683,9 @@ Mods: {
 					LikeNPC_Princess: "{NPCName} es una auténtica joya."
 					Princess_LovesNPC: "¡{NPCName} tiene un espíritu contagioso!"
 				}
-			}
+		  Census.SpawnCondition: Condiciones desconocidas
+
+           }
 		}
 
 		Biomes: {
@@ -633,3 +701,4 @@ Mods: {
 		}
 	}
 }
+
