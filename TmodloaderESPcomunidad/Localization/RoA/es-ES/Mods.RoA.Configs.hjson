@@ -1,0 +1,210 @@
+HighlightModes: {
+	Tooltip: ""
+
+	Normal: {
+		Label: Normal
+		Tooltip: ""
+	}
+
+	Always: {
+		Label: Siempre
+		Tooltip: ""
+	}
+
+	Off: {
+		Label: Desactivado
+		Tooltip: ""
+	}
+}
+
+WreathDrawingModes: {
+	Tooltip: ""
+
+	Normal: {
+		Label: Clásico
+		Tooltip: ""
+	}
+
+	Normal2: {
+		Label: Clásico 2
+		Tooltip: ""
+	}
+
+	Fancy: {
+		Label: Elegante
+		Tooltip: ""
+	}
+
+	Bars: {
+		Label: Barras
+		Tooltip: ""
+	}
+
+	Fancy2: {
+		Label: Elegante 2
+		Tooltip: ""
+	}
+
+	Bars2: {
+		Label: Barras 2
+		Tooltip: ""
+	}
+}
+
+RoAClientConfig: {
+	DisplayName: Configuración del Cliente
+
+	DruidLeaves: {
+		Label: Gráficos de Descripción de Druida
+		Tooltip: Añade un efecto visual de hojas a los nombres de objetos de druida
+	}
+
+	HighlightMode: {
+		Label: Resaltado de Palabras Clave de Recursos
+		Tooltip: ""
+	}
+
+	WreathDrawingMode: {
+		Label: Estilo de Interfaz de Corona
+		Tooltip: ""
+	}
+
+	VanillaResprites: {
+		Label: Cambios de Sprites Vanilla
+		Tooltip: Reemplaza algunas texturas, por ejemplo hierbas alquímicas y Espina Vil
+	}
+
+	Headers: {
+		Mods: {
+			RoA: {
+				Configs: {
+					GeneralOptionsHeader: Opciones Generales
+					DruidOptionsHeader: Opciones de Druida
+				}
+			}
+		}
+	}
+
+	WreathPosition: {
+		Label: Posición de la Interfaz de la Corona
+		Tooltip: ""
+	}
+
+	DamageTooltipOption: {
+		Label: Formato de Descripción de Daño de Druida
+		Label2: Vista Previa
+		Tooltip: ""
+	}
+
+	DamageTooltipOption_Internal: {
+		Label: ""
+		Tooltip: ""
+	}
+
+	DamageScaling: {
+		Label: Indicador de Escalado de Daño de Druida
+		Tooltip: ""
+	}
+
+	WreathSoundMode: {
+		Label: Estilo de Sonido de la Corona
+		Tooltip: ""
+	}
+}
+
+RoAServerConfig: {
+	DisplayName: Configuración
+
+	DropDevSets: {
+		Label: Soltar Conjuntos de Vanidad de Desarrollador
+		Tooltip: Si está activado, los conjuntos de desarrollador de RoA caerán de las Bolsas de Tesoro en pre-hardmode
+	}
+
+	BackwoodsWidthMultiplier: {
+		Label: Multiplicador de Anchura del Bioma Bosques Remotos
+		Tooltip: ""
+	}
+
+	BackwoodsHeightMultiplier: {
+		Label: Multiplicador de Altura del Bioma Bosques Remotos
+		Tooltip: ""
+	}
+
+	EvilBiomeExtraItemChance: {
+		Label: Probabilidad de Ítem Extra en Biomas Malignos
+		Tooltip: Permite que las Orbes de Sombra/Corazones Carmesí suelten dos objetos a la vez
+	}
+
+	Headers: {
+		Mods: {
+			RoA: {
+				Configs: {
+					GeneralOptionsHeader2: Opciones Generales
+					GenerationOptionHeader: Opciones de Generación de Mundo
+				}
+			}
+		}
+	}
+
+	ChangeVanillaRecipes: {
+		Label: Cambios en Recetas Vanilla
+		Tooltip: Reemplaza varias recetas de objetos, por ejemplo pociones
+	}
+}
+
+WreathPositions: {
+	Tooltip: ""
+
+	Health: {
+		Label: Arriba a la Derecha
+		Tooltip: ""
+	}
+
+	Player: {
+		Label: Sobre el Jugador
+		Tooltip: ""
+	}
+}
+
+DamageTooltipOptions: {
+	Tooltip: ""
+
+	Option1: {
+		Label: "1"
+		Tooltip: ""
+	}
+
+	Option2: {
+		Label: "2"
+		Tooltip: ""
+	}
+
+	Option3: {
+		Label: "3"
+		Tooltip: ""
+	}
+
+	Option4: {
+		Label: "4"
+		Tooltip: ""
+	}
+
+	Option5: {
+		Label: "5"
+		Tooltip: ""
+	}
+}
+
+WreathSoundModes: {
+	Tooltip: ""
+
+	Normal: {
+		Label: Clásico
+		Tooltip: ""
+	}
+
+	Alt: {
+		Label: Elegante
+		Tooltip: ""
+	}
+}

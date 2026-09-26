@@ -1,0 +1,257 @@
+Deceleration: {
+	DisplayName: Desaceleración
+	Description: El poder de Aqua ha corrompido tus capacidades de movimiento
+}
+
+Skinning: {
+	DisplayName: Desuello
+	Description: Los enemigos pueden soltar pieles crudas, que deben procesarse antes de que expiren
+}
+
+WreathCharged: {
+	DisplayName: Carga de Corona I
+	Description:
+		'''
+		El daño de naturaleza se ve mejorado
+		Otorga bonificaciones parciales de la Corona equipada
+		''' 
+}
+
+WreathFullCharged: {
+	DisplayName: Carga de Corona II
+	Description:
+		'''
+		El daño de naturaleza alcanza su máximo potencial
+		Otorga todas las bonificaciones de la Corona equipada
+		''' 
+}
+
+WreathFullCharged2: {
+	DisplayName: Carga de Corona III
+	Description:
+		'''
+		El daño de naturaleza alcanza su máximo potencial
+		Otorga todas las bonificaciones de la Corona equipada y del Alma del Bosque
+		''' 
+}
+
+Bloodlust: {
+	DisplayName: Sed de Sangre
+	Description: Las muertes restauran vida
+}
+
+DeathWard: {
+	DisplayName: Guardián del Alma
+	Description: Previene el daño fatal una vez
+}
+
+Willpower: {
+	DisplayName: Fuerza de Voluntad
+	Description: +15% velocidad de carga de Corona
+}
+
+Resilience: {
+	DisplayName: Resiliencia de la Luna
+	Description: Retrasa ligeramente el agotamiento de la Corona
+}
+
+ExtraRegen: {
+	DisplayName: Regeneración
+	Description: Recuperándote lentamente de las heridas
+}
+
+Hemorrhage: {
+	DisplayName: Hemorragia
+	Description: Pierdes vida
+}
+
+Brightstone: {
+	DisplayName: Velo de Piedra Brillante
+	Description: Dejas un rastro de polvo luminoso
+}
+
+DryadBlood: {
+	DisplayName: Sangre de Dríada
+	Description: Los debuffs infligen un 75% menos de daño
+}
+
+Heavy: {
+	DisplayName: Pesado
+	Description: Tu velocidad terminal está aumentada
+}
+
+RavencallersCloakBuff: {
+	DisplayName: Velo del Cuervo
+	Description: Los enemigos prefieren perseguir tu sombra
+}
+
+Infected: {
+	DisplayName: Infectado
+	Description: Pierdes vida
+}
+
+BeastPoison: {
+	DisplayName: Feromonas
+	Description: Pierdes vida y atraes a bestias feroces
+}
+
+FlederForm: {
+	DisplayName: Forma de Fleder
+	Description:
+		'''
+		Pulsa dos veces una dirección para impulsarte
+		Mantén {$Controls.LeftClick} para cargar una bomba de bellota
+		''' 
+}
+
+CorruptionInsectForm: {
+	DisplayName: Forma de Escarabajo
+	Description:
+		'''
+		Usa {$Controls.LeftClick} para escupir veneno
+		Quédate quieto para invocar enjambres de insectos
+		''' 
+}
+
+CrimsonInsectForm: {
+	DisplayName: Forma de Escarabajo
+	Description:
+		'''
+		Usa {$Controls.LeftClick} para escupir veneno
+		Quédate quieto para invocar enjambres de insectos
+		''' 
+}
+
+LilPhoenixForm: {
+	DisplayName: Forma de Ave de Fénix
+	Description:
+		'''
+		Mantén {$Controls.LeftClick} en el aire para cargar un impulso explosivo de fuego
+		Salta doble para dejar brasas dañinas
+		''' 
+}
+
+Burning: {
+	DisplayName: Ardiendo
+	Description: Pierdes vida
+}
+
+ToxicFumes: {
+	DisplayName: Vapores Tóxicos
+	Description: Los vapores nocivos del mineral de Mercurio llenan tus pulmones
+}
+
+ToxicFumesNoTimeDisplay: {
+	DisplayName: Vapores Tóxicos
+	Description: Los vapores nocivos del mineral de Mercurio llenan tus pulmones
+}
+
+OniMask: {
+	DisplayName: Máscara Oni
+	Description: Reduce la tasa de aparición de enemigos
+}
+
+Weak: {
+	DisplayName: Débil
+	Description: Tus habilidades físicas están disminuidas
+}
+
+Unburning: {
+	DisplayName: Re-encendido
+	Description: Las llamas te reaniman
+}
+
+Moth: {
+	DisplayName: Polilla
+	Description: La polilla luchará por ti
+}
+
+FlametrackerDebuff: {
+	DisplayName: Marca del Rastreador de Llamas
+	Description: Mods.RoA.Buffs.FlametrackerDebuff.Description
+}
+
+SolidifyingSap: {
+	DisplayName: Savia Solidificante
+	Description: Restringe el movimiento
+}
+
+Fireblossom: {
+	DisplayName: Flor de Fuego
+	Description: Una flor de fuego está a punto de explotar
+}
+
+BoneHarpyAttackDebuff: {
+	DisplayName: Fatiga Ósea
+	Description: El ataque de la Arpía No-Muerta se está recuperando
+}
+
+OnFire: {
+	DisplayName: En Llamas
+	Description: Pierdes vida lentamente
+}
+
+PrismaticFavor: {
+	DisplayName: Favor Prismático
+	Description: Las mejoras de daño de clase se aplican a todos los tipos de daño
+}
+
+BoneHarpyMountBuff: {
+	DisplayName: Montura de Arpía Ósea
+	Description: ""
+}
+
+BloodShedAxesDebuff: {
+	DisplayName: Hacha Sangrienta
+	Description: ""
+}
+
+LittleFleder: {
+	DisplayName: Pequeño Fleder
+	Description: El pequeño fleder luchará por ti y recogerá corazones de vida
+}
+
+EssenceDrain: {
+	DisplayName: Drenaje de Esencia
+	Description: Tu vida se escurre entre tus dedos
+}
+
+SmallMoon: {
+	DisplayName: Luna Pequeña
+	Description: "'¿Qué clase de persona quieres ser?'"
+}
+
+Root: {
+	DisplayName: Enraizado
+	Description: Movimiento temporalmente prohibido
+}
+
+DynastySetBonusBuff: {
+	DisplayName: Precisión de Sakura
+	Description: La velocidad de movimiento aumenta, pero se desvanece rápidamente
+}
+
+ElderwoodSetBonusBuff: {
+	DisplayName: Protección de los Bosques Remotos
+	Description: La velocidad de movimiento se reduce brevemente
+}
+
+MercuriumZipperDebuff: {
+	DisplayName: Cremallera de Mercurio
+	Description: Mods.RoA.Buffs.MercuriumZipperDebuff.Description
+}
+
+CosmicHat_Buff: {
+	DisplayName: Libertad de la Estrella
+	Description: "'¿Cómo se siente ser libre?'"
+}
+
+CosmicHat_Cooldown: {
+	DisplayName: Carga de la Estrella
+	Description: "'Supongo que seré tu marioneta'"
+}
+
+Honey: {
+	DisplayName: Miel
+	Description: "{$BuffDescription.Honey}"
+}

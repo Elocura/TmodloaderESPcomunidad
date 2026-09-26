@@ -1,0 +1,60 @@
+PotentialDamage: potential nature damage
+DruidToolTipOption1: Damage scales with wreath charge
+DruidToolTipOption3: charge
+DruidToolTipOption4_1: base nature damage
+FillingRate1: Extremely slow wreath charge rate
+FillingRate2: Very slow wreath charge rate
+FillingRate3: Slow wreath charge rate
+FillingRate4: Average wreath charge rate
+FillingRate5: Fast wreath charge rate
+FillingRate6: Very fast wreath charge rate
+FillingRate7: Insanely fast wreath charge rate
+AttackSpeed1: Extremely slow speed
+AttackSpeed2: Very slow speed
+AttackSpeed3: Slow speed
+AttackSpeed4: Average speed
+AttackSpeed5: Fast speed
+AttackSpeed6: Very fast speed
+AttackSpeed7: Extremely fast speed
+AttackSpeed8: Insanely fast speed
+AttackSpeed12: Extremely slow potential speed
+AttackSpeed22: Very slow potential speed
+AttackSpeed32: Slow potential speed
+AttackSpeed42: Average potential speed
+AttackSpeed52: Fast potential speed
+AttackSpeed62: Very fast potential speed
+AttackSpeed72: Extremely fast potential speed
+AttackSpeed82: Insanely fast potential speed
+WhenCharged: while wreath is charged
+LivingWoodSetBonus: Increases wreath charge rate by 10%
+LivingBorealSetBonus: Increases wreath charge rate by 10%
+LivingMahoganySetBonus: Increases wreath charge rate by 10%
+LivingPalmSetBonus: Increases wreath charge rate by 10%
+DreadheartCrimsonSetBonus:
+	'''
+	Taking damage while wreath is full depletes it, releasing a swarm of insects
+	Double tap {0} to turn into a Beetle
+	'''
+LivingElderwoodCrownSetBonus:
+	'''
+	Increases wreath charge rate by 10%
+	Double tap {0} to turn into a Fleder
+	'''
+FlinxFurUshankaSetBonus: Provides immunity to chill and freezing effects
+AshwalkerHoodSetBonus:
+	'''
+	On Fire! debuff restores life instead
+	Double tap {0} to turn into a Firebird
+	'''
+AcolyteSetBonus: 40% increased magic damage when below 40 mana
+FlametrackerSetBonus: Magic weapons release an additional tracking bolt while at full mana that decreases target's defense
+SentinelSetBonus1: Shows the location of enemies while standing still
+SentinelSetBonus2: Greatly increased speed of arrows shot in the direction of running
+WorshipperSetBonus:
+	'''
+	Summons an Undead Harpy to aid you
+	Double tap {0} to send it out to attack temporarily
+	While idle, {1} on Harpy to ride it
+	'''
+DynastySetBonus: Attacking in close range provides a brief flutter of speed
+ElderwoodSetBonus: Provides a chance to reduce damage taken at the cost of briefly reduced mobility

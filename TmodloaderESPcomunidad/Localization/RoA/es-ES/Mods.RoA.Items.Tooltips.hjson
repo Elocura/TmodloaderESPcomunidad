@@ -1,0 +1,60 @@
+ PotentialDamage: daño de naturaleza potencial
+ DruidToolTipOption1: El daño escala con la carga de la corona
+ DruidToolTipOption3: carga
+ DruidToolTipOption4_1: daño base de naturaleza
+ FillingRate1: Velocidad de carga de corona extremadamente lenta
+ FillingRate2: Velocidad de carga de corona muy lenta
+ FillingRate3: Velocidad de carga de corona lenta
+ FillingRate4: Velocidad de carga de corona promedio
+ FillingRate5: Velocidad de carga de corona rápida
+ FillingRate6: Velocidad de carga de corona muy rápida
+ FillingRate7: Velocidad de carga de corona increíblemente rápida
+ AttackSpeed1: Velocidad extremadamente lenta
+ AttackSpeed2: Velocidad muy lenta
+ AttackSpeed3: Velocidad lenta
+ AttackSpeed4: Velocidad promedio
+ AttackSpeed5: Velocidad rápida
+ AttackSpeed6: Velocidad muy rápida
+ AttackSpeed7: Velocidad extremadamente rápida
+ AttackSpeed8: Velocidad increíblemente rápida
+ AttackSpeed12: Velocidad potencial extremadamente lenta
+ AttackSpeed22: Velocidad potencial muy lenta
+ AttackSpeed32: Velocidad potencial lenta
+ AttackSpeed42: Velocidad potencial promedio
+ AttackSpeed52: Velocidad potencial rápida
+ AttackSpeed62: Velocidad potencial muy rápida
+ AttackSpeed72: Velocidad potencial extremadamente rápida
+ AttackSpeed82: Velocidad potencial increíblemente rápida
+ WhenCharged: mientras la corona esté cargada
+ LivingWoodSetBonus: Aumenta la velocidad de carga de la corona en un 10%
+ LivingBorealSetBonus: Aumenta la velocidad de carga de la corona en un 10%
+ LivingMahoganySetBonus: Aumenta la velocidad de carga de la corona en un 10%
+ LivingPalmSetBonus: Aumenta la velocidad de carga de la corona en un 10%
+ DreadheartCrimsonSetBonus:
+    '''
+    Recibir daño mientras la corona está llena la vacía, liberando un enjambre de insectos
+    Pulsa dos veces {0} para transformarte en un Escarabajo
+    ''' 
+ LivingElderwoodCrownSetBonus:
+    '''
+    Aumenta la velocidad de carga de la corona en un 10%
+    Pulsa dos veces {0} para transformarte en un Fleder
+    ''' 
+ FlinxFurUshankaSetBonus: Otorga inmunidad al frío y a los efectos de congelación
+ AshwalkerHoodSetBonus:
+    '''
+    El debuff ¡En Llamas! restaura vida en su lugar
+    Pulsa dos veces {0} para transformarte en un Ave Fénix
+    ''' 
+ AcolyteSetBonus: 40% más de daño mágico cuando tienes menos de 40 de maná
+ FlametrackerSetBonus: Las armas mágicas liberan un proyectil rastreador adicional al tener el maná lleno que reduce la defensa del objetivo
+ SentinelSetBonus1: Muestra la ubicación de los enemigos mientras permaneces quieto
+ SentinelSetBonus2: Gran aumento en la velocidad de las flechas disparadas en la dirección en la que corres
+ WorshipperSetBonus:
+    '''
+    Invoca una Arpía No-Muerta para ayudarte
+    Pulsa dos veces {0} para enviarla a atacar temporalmente
+    Mientras estés quieto, pulsa {1} sobre la Arpía para montarla
+    ''' 
+ DynastySetBonus: Atacar a corta distancia otorga un breve impulso de velocidad
+ ElderwoodSetBonus: Proporciona una probabilidad de reducir el daño recibido a costa de una movilidad reducida brevemente

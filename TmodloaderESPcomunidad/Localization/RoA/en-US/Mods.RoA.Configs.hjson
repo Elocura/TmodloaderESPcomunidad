@@ -1,0 +1,210 @@
+HighlightModes: {
+	Tooltip: ""
+
+	Normal: {
+		Label: Normal
+		Tooltip: ""
+	}
+
+	Always: {
+		Label: Always
+		Tooltip: ""
+	}
+
+	Off: {
+		Label: Off
+		Tooltip: ""
+	}
+}
+
+WreathDrawingModes: {
+	Tooltip: ""
+
+	Normal: {
+		Label: Classic
+		Tooltip: ""
+	}
+
+	Normal2: {
+		Label: Classic 2
+		Tooltip: ""
+	}
+
+	Fancy: {
+		Label: Fancy
+		Tooltip: ""
+	}
+
+	Bars: {
+		Label: Bars
+		Tooltip: ""
+	}
+
+	Fancy2: {
+		Label: Fancy 2
+		Tooltip: ""
+	}
+
+	Bars2: {
+		Label: Bars 2
+		Tooltip: ""
+	}
+}
+
+RoAClientConfig: {
+	DisplayName: Client Configuration
+
+	DruidLeaves: {
+		Label: Druid Tooltip Graphics
+		Tooltip: Adds a leaf visual to druid item names
+	}
+
+	HighlightMode: {
+		Label: Resource Keyword Highlight
+		Tooltip: ""
+	}
+
+	WreathDrawingMode: {
+		Label: Wreath UI Style
+		Tooltip: ""
+	}
+
+	VanillaResprites: {
+		Label: Vanilla Sprite Changes
+		Tooltip: Replaces some textures i. e. alchemical herbs and Vilethorn
+	}
+
+	Headers: {
+		Mods: {
+			RoA: {
+				Configs: {
+					GeneralOptionsHeader: General Options
+					DruidOptionsHeader: Druid Options
+				}
+			}
+		}
+	}
+
+	WreathPosition: {
+		Label: Wreath UI Position
+		Tooltip: ""
+	}
+
+	DamageTooltipOption: {
+		Label: Druid Damage Tooltip Format
+		Label2: Preview
+		Tooltip: ""
+	}
+
+	DamageTooltipOption_Internal: {
+		Label: ""
+		Tooltip: ""
+	}
+
+	DamageScaling: {
+		Label: Druid Damage Scaling Hint
+		Tooltip: ""
+	}
+
+	WreathSoundMode: {
+		Label: Wreath Sound Style
+		Tooltip: ""
+	}
+}
+
+RoAServerConfig: {
+	DisplayName: Configuration
+
+	DropDevSets: {
+		Label: Drop Developer Vanity Sets
+		Tooltip: If enabled, RoA developer sets will drop from pre-hardmode Treasure Bags
+	}
+
+	BackwoodsWidthMultiplier: {
+		Label: Backwoods Biome Width Multiplier
+		Tooltip: ""
+	}
+
+	BackwoodsHeightMultiplier: {
+		Label: Backwoods Biome Height Multiplier
+		Tooltip: ""
+	}
+
+	EvilBiomeExtraItemChance: {
+		Label: Evil Biome Extra Item Chance
+		Tooltip: Allows Shadow Orbs/Crimson Hearts to drop two items at once
+	}
+
+	Headers: {
+		Mods: {
+			RoA: {
+				Configs: {
+					GeneralOptionsHeader2: General Options
+					GenerationOptionHeader: Worldgen Options
+				}
+			}
+		}
+	}
+
+	ChangeVanillaRecipes: {
+		Label: Vanilla Recipe Changes
+		Tooltip: Replaces several item recipes i. e. potions
+	}
+}
+
+WreathPositions: {
+	Tooltip: ""
+
+	Health: {
+		Label: Top Right
+		Tooltip: ""
+	}
+
+	Player: {
+		Label: Above Player
+		Tooltip: ""
+	}
+}
+
+DamageTooltipOptions: {
+	Tooltip: ""
+
+	Option1: {
+		Label: "1"
+		Tooltip: ""
+	}
+
+	Option2: {
+		Label: "2"
+		Tooltip: ""
+	}
+
+	Option3: {
+		Label: "3"
+		Tooltip: ""
+	}
+
+	Option4: {
+		Label: "4"
+		Tooltip: ""
+	}
+
+	Option5: {
+		Label: "5"
+		Tooltip: ""
+	}
+}
+
+WreathSoundModes: {
+	Tooltip: ""
+
+	Normal: {
+		Label: Classic
+		Tooltip: ""
+	}
+
+	Alt: {
+		Label: Fancy
+		Tooltip: ""
+	}
+}

@@ -1,0 +1,257 @@
+Deceleration: {
+	DisplayName: Deceleration
+	Description: The power of Aqua has corrupted your moving capabilities
+}
+
+Skinning: {
+	DisplayName: Skinning
+	Description: Enemies may drop rawhides, which must be processed before expiring
+}
+
+WreathCharged: {
+	DisplayName: Wreath Charge I
+	Description:
+		'''
+		Nature damage is improved
+		Provides partial bonuses of the equipped wreath
+		'''
+}
+
+WreathFullCharged: {
+	DisplayName: Wreath Charge II
+	Description:
+		'''
+		Nature damage is at full potential
+		Provides full bonuses of the equipped wreath
+		'''
+}
+
+WreathFullCharged2: {
+	DisplayName: Wreath Charge III
+	Description:
+		'''
+		Nature damage is at full potential
+		Provides full charge bonuses of equipped wreath and Soul of the Woods
+		'''
+}
+
+Bloodlust: {
+	DisplayName: Bloodlust
+	Description: Kills restore life
+}
+
+DeathWard: {
+	DisplayName: Soul Ward
+	Description: Prevents fatal damage once
+}
+
+Willpower: {
+	DisplayName: Willpower
+	Description: 15% increased wreath charge rate
+}
+
+Resilience: {
+	DisplayName: Moon's Resilience
+	Description: Slightly delays the wreath from depleting
+}
+
+ExtraRegen: {
+	DisplayName: Regeneration
+	Description: Slowly recovering from injuries
+}
+
+Hemorrhage: {
+	DisplayName: Haemorrhage
+	Description: Losing life
+}
+
+Brightstone: {
+	DisplayName: Brightstone Veil
+	Description: Leaving a trail of glowing dust
+}
+
+DryadBlood: {
+	DisplayName: Dryad Blood
+	Description: Debuffs deal 75% less damage
+}
+
+Heavy: {
+	DisplayName: Heavy
+	Description: Your terminal velocity is enhanced
+}
+
+RavencallersCloakBuff: {
+	DisplayName: Raven's Veil
+	Description: Enemies prefer to chase after your shadow
+}
+
+Infected: {
+	DisplayName: Infected
+	Description: Losing life
+}
+
+BeastPoison: {
+	DisplayName: Pheromones
+	Description: Losing life and attracting vicious beasts
+}
+
+FlederForm: {
+	DisplayName: Fleder Form
+	Description:
+		'''
+		Double tap a direction to dash
+		Hold {$Controls.LeftClick} to charge an acorn bomb
+		'''
+}
+
+CorruptionInsectForm: {
+	DisplayName: Beetle Form
+	Description:
+		'''
+		Use {$Controls.LeftClick} to spit poison
+		Stand still to summon swarms of insects
+		'''
+}
+
+CrimsonInsectForm: {
+	DisplayName: Beetle Form
+	Description:
+		'''
+		Use {$Controls.LeftClick} to spit poison
+		Stand still to summon swarms of insects
+		'''
+}
+
+LilPhoenixForm: {
+	DisplayName: Firebird Form
+	Description:
+		'''
+		Hold {$Controls.LeftClick} in air to charge an explosive fire boost
+		Double jump to leave damaging embers
+		'''
+}
+
+Burning: {
+	DisplayName: Burning
+	Description: Losing life
+}
+
+ToxicFumes: {
+	DisplayName: Toxic Fumes
+	Description: Noxious vapors of Mercurium Ore are filling your lungs
+}
+
+ToxicFumesNoTimeDisplay: {
+	DisplayName: Toxic Fumes
+	Description: Noxious vapors of Mercurium Ore are filling your lungs
+}
+
+OniMask: {
+	DisplayName: Oni Mask
+	Description: Reduced enemy spawn rate
+}
+
+Weak: {
+	DisplayName: Weak
+	Description: Physical abilities are decreased
+}
+
+Unburning: {
+	DisplayName: Un-burning
+	Description: Flames reinvigorate you
+}
+
+Moth: {
+	DisplayName: Moth
+	Description: The moth will fight for you
+}
+
+FlametrackerDebuff: {
+	DisplayName: Flametracker's Mark
+	Description: Mods.RoA.Buffs.FlametrackerDebuff.Description
+}
+
+SolidifyingSap: {
+	DisplayName: Solidifying Sap
+	Description: Restrains movement
+}
+
+Fireblossom: {
+	DisplayName: Fireblossom
+	Description: A fireblossom is set to explode
+}
+
+BoneHarpyAttackDebuff: {
+	DisplayName: Bone Fatigue
+	Description: Undead Harpy's attack is recovering
+}
+
+OnFire: {
+	DisplayName: On Fire
+	Description: Slowly losing life
+}
+
+PrismaticFavor: {
+	DisplayName: Prismatic Favor
+	Description: Class damage enhancements are applied to all damage types
+}
+
+BoneHarpyMountBuff: {
+	DisplayName: Bone Harpy Mount
+	Description: ""
+}
+
+BloodShedAxesDebuff: {
+	DisplayName: Bloodshed Axe
+	Description: ""
+}
+
+LittleFleder: {
+	DisplayName: Little Fleder
+	Description: The little fleder will fight for you and collect life hearts
+}
+
+EssenceDrain: {
+	DisplayName: Essence Drain
+	Description: Your life seeps through your fingers
+}
+
+SmallMoon: {
+	DisplayName: Small Moon
+	Description: "'What person do you want to be?'"
+}
+
+Root: {
+	DisplayName: Root
+	Description: Movement temporarily prohibited
+}
+
+DynastySetBonusBuff: {
+	DisplayName: Sakura's Precision
+	Description: Movement speed is increased, but quickly wanes
+}
+
+ElderwoodSetBonusBuff: {
+	DisplayName: Backwoods' Protection
+	Description: Movement speed is briefly decreased
+}
+
+MercuriumZipperDebuff: {
+	DisplayName: Mercurium Zipper
+	Description: Mods.RoA.Buffs.MercuriumZipperDebuff.Description
+}
+
+CosmicHat_Buff: {
+	DisplayName: Star's Freedom
+	Description: "'How does it feel to be free?'"
+}
+
+CosmicHat_Cooldown: {
+	DisplayName: Star's Burden
+	Description: "'Sure I'll be your marionette'"
+}
+
+Honey: {
+	DisplayName: Honey
+	Description: "{$BuffDescription.Honey}"
+}

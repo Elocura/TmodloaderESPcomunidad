@@ -1492,8 +1492,8 @@ Items: {
 		DisplayName: Farol de mecha
 		Tooltip:
 			'''
-			Activa aleatoriamente entre 1 y 3 accesorios de tu inventario.
-			"Iilumina tu futuro"
+			Hay una posibilidad de activar aleatoriamente entre 1 y 3 accesorios de tu inventario
+			"Ilumina lo que está oculto, pues cada as que ves es uno más que tienes bajo la manga"
 			'''
 	}
 
@@ -1614,7 +1614,7 @@ Items: {
 		Tooltip:
 			'''
 			Los golpes del enemigo tienen una probabilidad de lanzar un rayo penetrante que inflige el 10% del daño del ataque original
-			Right Click to kill all friendly enemies summoned
+			Haz clic derecho para eliminar a todos los enemigos aliados invocados
 			'''
 	}
 
@@ -2625,16 +2625,17 @@ Items: {
 		DisplayName: Baraja del alma
 		Tooltip:
 			'''
-			Reduce la mayoría de los enfriamientos en un [CD]%
-			Incrementa el tiempo de invencibilidad un [IM]%
-			Reduce la duración de los debuffos un [DB]%
-			Restaura el tiempo de vuelo al tocar las hitboxes de los enemigos e inflige el debuff [cebuff:CalamityEntropyLegacy/SoulDisorder]
-			De vez en cuando, al golpear, lanza Fragmentos de alma, que vuelan hacia ti para curarte, otorgarte armadura temporal y recuperar maná
-			Aumenta la velocidad de vuelo en [FL]% y el tiempo de vuelo en [FT]%
-			Ralentiza la bajada de estadísticas (armadura, daño, probabilidad de crítico, reducción de daño, regeneración de vida y otros atributos) cuando estas disminuyen
-			Cuanto menor sea tu vida, mayor será tu reducción de daño (hasta un [BE]%)
-			Cuanto mayor sea tu vida, mayor será tu daño (hasta un [BD]%)
-			Ignora un [AP]% de la armadura enemiga
+			Reduce la mayoría de los tiempos de recarga en un [CD]%
+			Aumenta la duración de la inmunidad al golpear en un [IM]%
+			Acorta la duración de los efectos negativos en un [DB]%
+			El contacto con el enemigo aumenta considerablemente la regeneración de salud, restaura el tiempo de vuelo e inflige [cebuff:CalamityEntropyLegacy/SoulDisorder]
+			Al golpear a los enemigos, pueden liberarse almas que vuelan hacia ti, curándote 2 puntos de vida y 1 punto adicional por cada 160 de vida máxima, 
+			restaurando 10 de maná y otorgándote 6 de defensa temporal
+			Aumenta la velocidad de vuelo en un [FL]% y su duración en un [FT]%
+			Ralentiza la velocidad de disminución cuando la defensa, el daño, la probabilidad de golpe crítico, la reducción de daño o la regeneración de vida disminuyen
+			Cuanto mayor sea tu salud, mayor será tu daño (hasta un [BD]%)
+			Cuanto menor sea tu salud, mayor será tu reducción de daño (hasta un [BE]%)
+			Los ataques ignoran un [AP]% de la defensa del enemigo
 			'''
 	}
 
@@ -3966,9 +3967,8 @@ Items: {
 		DisplayName: Amuleto del santuario
 		Tooltip:
 			'''
-			Aumenta el daño de invocación en un 8%
-			Aumenta un 8% el daño de las invocaciones
-			Otorga +0,5 PV/s de regeneración de vida por cada ranura de súbdito que tengas, con un máximo de 3 PV/s
+			Aumenta un l8% al daño de las invocaciones
+			Obtienes 2 de defensa por cada ranura de súbdito que tengas, hasta un máximo de 12 de defensa
 			'''
 	}
 
@@ -4701,11 +4701,11 @@ Neltharion: {
 	}
 }
 
-BaitCommonTooltip1: Charge when held. Usable when fully charged
+BaitCommonTooltip1: Se carga al sujetarlo. Se puede utilizar cuando está completamente cargado
 BaitCommonTooltip2:
 	'''
-	Throw a bait that will stick to the enemy after hitting it,
-	and cause minion deal {0} more damage to it
+	Lanza un cebo que se adhiera al enemigo tras impactar en él,
+	y hace que los súbditos le inflijan un {0} de daño adicional
 	'''
 SmolderingSetBonus:
 	'''
@@ -5572,7 +5572,7 @@ Buffs: {
 	TwistedTwinBuff: {
 		DisplayName: Gemelo retorcido
 		Description: ""
-		ItemTooltip: 20% increased damage
+		ItemTooltip: Aumento del daño en un 20%
 	}
 
 	Rainstorm: {
@@ -5691,8 +5691,8 @@ Buffs: {
 		Description: Incrementa el daño, la velocidad de ataque y la probabilidad de crítico
 		ItemTooltip:
 			'''
-			Increases damage, attack speed and crit chance
-			The amount increased scales with the buffs remaining time
+			Aumenta el daño, la velocidad de ataque y la probabilidad de crítico
+			La cantidad aumentada varía en función del tiempo que le quede al efecto
 			'''
 	}
 
@@ -6267,7 +6267,7 @@ Configs: {
 		}
 
 		EnableLoopingSound: {
-			Label: Enable Looping Sound
+			Label: Activar la reproducción en bucle del sonido
 			Tooltip: ""
 		}
 
@@ -6287,8 +6287,8 @@ Configs: {
 		Headers.Misc: Misceláneo
 
 		LoreSpecialEffect: {
-			Label: Activar los efectos especiales de los ítems de lore
-			Tooltip: Enable lore special effect when entropy mode isn't enable
+			Label: Activa los efectos especiales de los ítems de lore
+			Tooltip: Activa el efecto especial de lore cuando el modo entropía no esté activado
 		}
 
 		BramblecleaveAlwaysUnlockAllSkill: {
