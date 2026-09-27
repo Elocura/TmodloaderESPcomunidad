@@ -1,16 +1,11 @@
 Mods: {
 	ZeroHourMilitaryMod: {
 		Changelog: {
-			Version: v4.18
-			Lines:
-				'''
-			    [+] Nuevo bioma de Jungla Plagada. Después de matar a un Gólem.
-                [*] Shimmer - Vanector ahora se transforma en Granada, y viceversa.
-                [*] Algunas correcciones en las descripciones de herramientas y en la localización.
-                [-] Shimmer - Tarkhuna ya no se transforma en Barras de Uelibloom.
-			    '''
+			Version: v4.21
+			Lines: 
 		}
-        UI: {
+
+		UI: {
 			MenuSelector: {
 				Title:"[ Estilo del menú ]"
 				StyleGoliath: Goliath Eterno (Predeterminado)
@@ -21,77 +16,77 @@ Mods: {
 			}
 		}
 
-        DamageClasses.MagicSummonDamage.DisplayName: Daño de Invocador o Mágico
+		DamageClasses.MagicSummonDamage.DisplayName: Daño de Invocador o Mágico
 
-		Configs: { 
-			ClientConfig: { 
-				PlagueIcon: { 
+		Configs: {
+			ClientConfig: {
+				PlagueIcon: {
 					Label: Icono de Plaga
-					Tooltip: Permite seleccionar el antiguo icono clásico del debuff Plaga del Calamity Mod. 
-				} 
- 
-				IrradiatedIcon: { 
+					Tooltip: Permite seleccionar el antiguo icono clásico del debuff Plaga del Calamity Mod.
+				}
+
+				IrradiatedIcon: {
 					Label: Icono de Irradiado
-					Tooltip: Permite seleccionar el antiguo icono clásico del debuff Irradiado del Calamity Mod. 
-				} 
- 
+					Tooltip: Permite seleccionar el antiguo icono clásico del debuff Irradiado del Calamity Mod.
+				}
+
 				DisplayName: Configuración del cliente
-			} 
- 
-			PlagueIconStyle: { 
-				CalamityDefault: { 
+			}
+
+			PlagueIconStyle: {
+				CalamityDefault: {
 					Label: Predeterminado (Calamity)
 					Tooltip: ""
-				} 
- 
-				LegacyV1: { 
+				}
+
+				LegacyV1: {
 					Label: Clásico (1.4.4.001)
 					Tooltip: ""
-				} 
- 
-				LegacyV2: { 
+				}
+
+				LegacyV2: {
 					Label: Clásico (1.2.2.005)
 					Tooltip: ""
-				} 
- 
-				LegacyV3: { 
+				}
+
+				LegacyV3: {
 					Label: Clásico (1.1.7.805)
 					Tooltip: ""
-				} 
- 
-				LegacyV4: { 
+				}
+
+				LegacyV4: {
 					Label: Clásico (1.1.4.44)
 					Tooltip: ""
-				} 
- 
+				}
+
 				Tooltip: ""
-			} 
- 
-			IrradiatedIconStyle: { 
-				CalamityDefault: { 
+			}
+
+			IrradiatedIconStyle: {
+				CalamityDefault: {
 					Label: Predeterminado (Calamity)
-					Tooltip: "" 
-				} 
- 
-				LegacyV1: { 
+					Tooltip: ""
+				}
+
+				LegacyV1: {
 					Label: Clásico (1.5.0.001)
-					Tooltip: "" 
-				} 
- 
-				LegacyV2: { 
+					Tooltip: ""
+				}
+
+				LegacyV2: {
 					Label: Clásico (1.3.4.103)
-					Tooltip: "" 
-				} 
- 
-				LegacyV3: { 
+					Tooltip: ""
+				}
+
+				LegacyV3: {
 					Label: Clásico (1.1.7.911)
-					Tooltip: "" 
-				} 
- 
-				Tooltip: "" 
-			} 
-            
-            MenuConfig: {
+					Tooltip: ""
+				}
+
+				Tooltip: ""
+			}
+
+			MenuConfig: {
 				DisplayName: Configuración del menú
 				Headers.Appearance: Encabezado de apariencia
 
@@ -132,47 +127,47 @@ Mods: {
 		}
 
 		Buffs: {
- 			CorrosionBuff: {
-				DisplayName: Corrosión 
-				Description: La vitalidad y la armadura se disuelven bajo los efectos de la corrosión. 
+			CorrosionBuff: {
+				DisplayName: Corrosión
+				Description: La vitalidad y la armadura se disuelven bajo los efectos de la corrosión.
 			}
- 
+
 			TotalRotting: {
-				DisplayName: Putrefacción Total 
-				Description: Descomposición absoluta. 
+				DisplayName: Putrefacción Total
+				Description: Descomposición absoluta.
 			}
- 
+
 			Anthrax: {
-				DisplayName: Ántrax 
-				Description: ¡Estás infectado con ántrax! 
+				DisplayName: Ántrax
+				Description: ¡Estás infectado con ántrax!
 			}
- 
+
 			AnthraxBeta: {
-				DisplayName: Ántrax Beta 
-				Description: ¡Estás infectado con ántrax beta! 
+				DisplayName: Ántrax Beta
+				Description: ¡Estás infectado con ántrax beta!
 			}
- 
+
 			AnthraxGamma: {
-				DisplayName: Ántrax Gamma 
-				Description: ¡Estás infectado con ántrax gamma! 
+				DisplayName: Ántrax Gamma
+				Description: ¡Estás infectado con ántrax gamma!
 			}
- 
+
 			Mycoplagueosis: {
-				DisplayName: Micoplagiosis 
-				Description: EeOneGuy o lo que sea. 
+				DisplayName: Micoplagiosis
+				Description: EeOneGuy o lo que sea.
 			}
- 
+
 			BlackoutCooldownBuff: {
-				DisplayName: Enfriamiento de Apagón 
-				Description: La recuperación del fósforo mediante nanites llevará algún tiempo. 
+				DisplayName: Enfriamiento de Apagón
+				Description: La recuperación del fósforo mediante nanites llevará algún tiempo.
 			}
- 
+
 			TarkhunBuff: {
-				DisplayName: Líquido Estragón 
+				DisplayName: Líquido Estragón
 				Description:
 					'''
-					Neutralización completa de todas las cepas de ántrax. 
-					El estómago está protegido por una frescura nuclear. 
+					Neutralización completa de todas las cepas de ántrax.
+					El estómago está protegido por una frescura nuclear.
 					'''
 			}
 
@@ -184,335 +179,333 @@ Mods: {
 
 		Items: {
 			PlagueOperatorHelmet: {
-				DisplayName: Casco Táctico del Operador de la Plaga 
-				Tooltip: 
+				DisplayName: Casco Táctico del Operador de la Plaga
+				Tooltip:
 					'''
-					Aumenta el daño a distancia O de invocador en un 10% y la probabilidad de golpe crítico en un [c/2FFF00:8%] 
-					[c/2FFF00:25%] de probabilidad de no consumir munición 
-					Adaptativo: Otorga beneficios de invocador si no sostienes un arma a distancia. 
-				    Personalización: Asigna cualquier tecla para seleccionar el color de visor que desees en las opciones.
+					Aumenta el daño a distancia O de invocador en un 10% y la probabilidad de golpe crítico en un [c/2FFF00:8%]
+					[c/2FFF00:25%] de probabilidad de no consumir munición
+					Adaptativo: Otorga beneficios de invocador si no sostienes un arma a distancia.
+					Personalización: Asigna cualquier tecla para seleccionar el color de visor que desees en las opciones.
 					'''
-				SetBonusRanged: 
+				SetBonusRanged:
 					'''
-					Protocolo "Operador de la Plaga": Virili proporciona apoyo de fuego (+15% de daño a distancia). 
+					Protocolo "Operador de la Plaga": Virili proporciona apoyo de fuego (+15% de daño a distancia).
 					Los enemigos afectados por la Plaga reciben un 10% más de daño.
-					+5% de tiempo de vuelo. 
-					[Presiona la tecla del bono de conjunto para activar Apagón (+49% de daño y +20% de probabilidad de golpe crítico durante 5 s)] 
+					+5% de tiempo de vuelo.
+					[Presiona la tecla del bono de conjunto para activar Apagón (+49% de daño y +20% de probabilidad de golpe crítico durante 5 s)]
 					Pulsar dos veces a la izquierda o derecha produce un impulso como Virili.
-                    Permite ver a los enemigos a través de las paredes.
-                    [c/FF002F:¡Luces fuera.]
-
-
+					Permite ver a los enemigos a través de las paredes.
+					[c/FF002F:¡Luces fuera.]
 					'''
-				SetBonusSummoner: 
+				SetBonusSummoner:
 					'''
-					Protocolo "Operador de la Plaga": Virili activa el protocolo H.I.V.E. (+2 súbditos adicionales, +15% de daño de invocación). 
+					Protocolo "Operador de la Plaga": Virili activa el protocolo H.I.V.E. (+2 súbditos adicionales, +15% de daño de invocación).
 					Los enemigos afectados por la Plaga reciben un 10% más de daño.
-					+5% de tiempo de vuelo. 
-					[Presiona la tecla del bono de conjunto para activar Apagón (+49% de daño y +20% de probabilidad de golpe crítico durante 5 s)] 
+					+5% de tiempo de vuelo.
+					[Presiona la tecla del bono de conjunto para activar Apagón (+49% de daño y +20% de probabilidad de golpe crítico durante 5 s)]
 					Pulsar dos veces a la izquierda o derecha produce un impulso como Virili.
-                    Permite ver a los enemigos a través de las paredes.
-                    [c/FF002F:¡Luces fuera.]
-
+					Permite ver a los enemigos a través de las paredes.
+					[c/FF002F:¡Luces fuera.]
 					'''
 			}
- 
+
 			PlagueOperatorChestplate: {
-				DisplayName: Portaplacas del Operador de la Plaga 
-				Tooltip: 
+				DisplayName: Portaplacas del Operador de la Plaga
+				Tooltip:
 					'''
-					Aumenta el daño a distancia O de invocador en un [c/2FFF00:16%] 
-					Otorga inmunidad a la [c/2FFF00:Plaga] 
-					Adaptativo: Otorga beneficios de invocador si no sostienes un arma a distancia 
-					'''
-			}
- 
-			PlagueOperatorGreaves: {
-				DisplayName: Grebas NBC del Operador de la Plaga 
-				Tooltip: 
-					'''
-					Aumenta la velocidad de movimiento en un [c/2FFF00:15%] 
-					Aumenta la probabilidad de golpe crítico a distancia O de invocador en un [c/2FFF00:8%] 
-					Adaptativo: Otorga beneficios de invocador si no sostienes un arma a distancia 
+					Aumenta el daño a distancia O de invocador en un [c/2FFF00:16%]
+					Otorga inmunidad a la [c/2FFF00:Plaga]
+					Adaptativo: Otorga beneficios de invocador si no sostienes un arma a distancia
 					'''
 			}
- 
-			# --- MÓDULOS --- 
-			HeavyBleedingModule: {
-				DisplayName: Módulo de Sangrado 
-				Tooltip: Modifica los proyectiles para abrir heridas. Necesita una Estación de Accesorios para instalarlo. 
-			}
- 
-			LacerationModule: {
-				DisplayName: Módulo "Kiyanat" 
-				Tooltip: Proyectiles dentados avanzados que provocan hemorragias profundas. Necesita una Estación de Accesorios para instalarlo. 
-			}
- 
-			WetModule: {
-				DisplayName: Módulo de Empapamiento 
-				Tooltip: Empapa a los objetivos con agua al impactar. Ideal para provocar cortocircuitos. Necesita una Estación de Accesorios para instalarlo. 
-			}
- 
-			PlagueModule: {
-				DisplayName: Módulo de Plaga 
-				Tooltip: Infunde las balas con el nanovirus de la Plaga. Necesita una Estación de Accesorios para instalarlo. 
-			}
- 
-			RadioactiveModule: {
-				DisplayName: Módulo "Kurchatov" 
-				Tooltip: Proyectiles con núcleo de uranio que irradian a los objetivos. Combina perfectamente con la plaga. Necesita una Estación de Accesorios para instalarlo. 
-			}
- 
-			ElectrifiedModule: {
-				DisplayName: Módulo "Defib" 
-				Tooltip: Canaliza cargas eléctricas de alto voltaje a través de las balas. Necesita una Estación de Accesorios para instalarlo. 
-			}
- 
-			AbsorberAfflictionModule: {
-				DisplayName: Módulo de Agotamiento 
-				Tooltip: Descompone la vitalidad de los enemigos al impactar. Necesita una Estación de Accesorios para instalarlo. 
-			}
- 
-			ArmorCrunchModule: {
-				DisplayName: Módulo "Topot" 
-				Tooltip: Balas pesadas perforadoras de armadura; reducen la producción de daño del enemigo a 0.85x mientras suprimen la armadura del jugador afectado. Necesita una Estación de Accesorios para instalarlo. 
-			}
- 
-			ConfusedModule: {
-				DisplayName: Módulo de Confusión 
-				Tooltip: Munición infundida con nanites que desorienta a los objetivos. Necesita una Estación de Accesorios para instalarlo. 
-			}
- 
-			CursedInfernoModule: {
-				DisplayName: Módulo de Infierno Maldito 
-				Tooltip: Incendia a los objetivos con llamas corruptas. Necesita una Estación de Accesorios para instalarlo. 
-			}
- 
-			# --- ARMAS --- 
-			CorruptedExterminator: {
-				DisplayName: Exterminador de la Corrupción 
-				Tooltip: Espera, ¿esto se puede fabricar? 
-			}
- 
-			Dragoneer: {
-				DisplayName: Dragoneer 
-				Tooltip: Un arma para auténticos cazadores de dragones. 
-			}
- 
-			LiquidatorX1: {
-				DisplayName: Liquidator X1 
-		        Tooltip: Un rifle de asalto rápido basado en el HK416. Inflige la desventaja [c/bbff00:Irradiado].
-			}
- 
-			LiquidatorZ1: {
-				DisplayName: Liquidator Z1 
-				Tooltip: En desarrollo 
-			}
- 
-			NuclearRifle: {
-				DisplayName: Rifle Nuclear 
-				Tooltip: En desarrollo 
-			}
- 
-			PoisonousDigitalSunrise: {
-				DisplayName: Amanecer Digital Tóxico 
-				Tooltip: Dispara un láser verde de [c/00ff00:Ántrax] concentrado. 
-			}
- 
-			PresentOfIrradiatedSeas: {
-				DisplayName: Regalo de los Mares Irradiados 
-				Tooltip: 
-					'''
-					Los propios mares te recompensaron. ¡Véngalos! 
-					Dispara balas de uranio mientras emite periódicamente disparos gamma. 
-					'''
-			}
- 
-			ProjectRedButton: {
-				DisplayName: Proyecto "Botón Rojo" 
-				Tooltip: En desarrollo 
-			}
- 
-			AK74SU: {
-				DisplayName: AKS-74U 
-				Tooltip: La isla Vozrozhdeniya no será olvidada. 
-			}
- 
-			ErlikKhan: {
-				DisplayName: Erlik Khan 
-				Tooltip: Desde algún lugar del este... 
-			}
- 
-			KlyatokatBeta: {
-				DisplayName: Klyatokat Beta 
-				Tooltip: Dispara una ráfaga interminable de balas bubónicas cuyos fragmentos rebotan de vuelta hacia el objetivo para un segundo impacto. 
-			}
- 
-			QBZXT: {
-				DisplayName: QBZ-XT 
-				Tooltip: Prototipo experimental chino. Dispara un doble disparo de balas de [c/0063ff:nanites]. 
-			}
- 
-			J1HunterDev: {
-				DisplayName: J1 Hunter (Desarrollo) 
-				Tooltip: Arma de desarrollador. 
-			}
- 
-			AttachmentStation: {
-				DisplayName: Estación de Accesorios 
-				Tooltip: Estación para instalar módulos en tus armas favoritas, yo. 
-			}
- 
-			Vertebrator: {
-				DisplayName: Vertebrator 
-				Tooltip: Una descarga interminable de cohetes incendiarios. 
-			}
- 
-			DoubleTaintedPlagueSMGs: {
-				DisplayName: SMG Dobles de Plaga Contaminada 
-				Tooltip: Una está bien — dos son mejores. 
-			}
- 
-			XenytiumBar: {
-				DisplayName: Lingote de Xenitio 
-				Tooltip: No te lo vas a creer. 
-			}
- 
-			PlaguedShroomite: {
-				DisplayName: Lingote de Shroomita Plagada 
-				Tooltip: Un material inestable que combina el poder de la nanoplaga y la mente de las setas. 
-			}
- 
-			Uranium: {
-				DisplayName: Uranio 
-				Tooltip: Sabes que el uranio no es verde, ¿verdad?
 
+			PlagueOperatorGreaves: {
+				DisplayName: Grebas NBC del Operador de la Plaga
+				Tooltip:
+					'''
+					Aumenta la velocidad de movimiento en un [c/2FFF00:15%]
+					Aumenta la probabilidad de golpe crítico a distancia O de invocador en un [c/2FFF00:8%]
+					Adaptativo: Otorga beneficios de invocador si no sostienes un arma a distancia
+					'''
 			}
- 
+
+			# --- MODULES ---
+			HeavyBleedingModule: {
+				DisplayName: Módulo de Sangrado
+				Tooltip: Modifica los proyectiles para abrir heridas. Necesita una Estación de Accesorios para instalarlo.
+			}
+
+			LacerationModule: {
+				DisplayName: Módulo "Kiyanat"
+				Tooltip: Proyectiles dentados avanzados que provocan hemorragias profundas. Necesita una Estación de Accesorios para instalarlo.
+			}
+
+			WetModule: {
+				DisplayName: Módulo de Empapamiento
+				Tooltip: Empapa a los objetivos con agua al impactar. Ideal para provocar cortocircuitos. Necesita una Estación de Accesorios para instalarlo.
+			}
+
+			PlagueModule: {
+				DisplayName: Módulo de Plaga
+				Tooltip: Infunde las balas con el nanovirus de la Plaga. Necesita una Estación de Accesorios para instalarlo.
+			}
+
+			RadioactiveModule: {
+				DisplayName: Módulo "Kurchatov"
+				Tooltip: Proyectiles con núcleo de uranio que irradian a los objetivos. Combina perfectamente con la plaga. Necesita una Estación de Accesorios para instalarlo.
+			}
+
+			ElectrifiedModule: {
+				DisplayName: Módulo "Defib"
+				Tooltip: Canaliza cargas eléctricas de alto voltaje a través de las balas. Necesita una Estación de Accesorios para instalarlo.
+			}
+
+			AbsorberAfflictionModule: {
+				DisplayName: Módulo de Agotamiento
+				Tooltip: Descompone la vitalidad de los enemigos al impactar. Necesita una Estación de Accesorios para instalarlo.
+			}
+
+			ArmorCrunchModule: {
+				DisplayName: Módulo "Topot"
+				Tooltip: Balas pesadas perforadoras de armadura; reducen la producción de daño del enemigo a 0.85x mientras suprimen la armadura del jugador afectado. Necesita una Estación de Accesorios para instalarlo.
+			}
+
+			ConfusedModule: {
+				DisplayName: Módulo de Confusión
+				Tooltip: Munición infundida con nanites que desorienta a los objetivos. Necesita una Estación de Accesorios para instalarlo.
+			}
+
+			CursedInfernoModule: {
+				DisplayName: Módulo de Infierno Maldito
+				Tooltip: Incendia a los objetivos con llamas corruptas. Necesita una Estación de Accesorios para instalarlo.
+			}
+
+			# --- WEAPONS ---
+			CorruptedExterminator: {
+				DisplayName: Exterminador de la Corrupción
+				Tooltip: Espera, ¿esto se puede fabricar?
+			}
+
+			Dragoneer: {
+				DisplayName: Dragoneer
+				Tooltip: Un arma para auténticos cazadores de dragones.
+			}
+
+			LiquidatorX1: {
+				DisplayName: Liquidator X1
+				Tooltip: Un rifle de asalto rápido basado en el HK416. Inflige la desventaja [c/bbff00:Irradiado].
+			}
+
+			LiquidatorZ1: {
+				DisplayName: Liquidator Z1
+				Tooltip: En desarrollo
+			}
+
+			NuclearRifle: {
+				DisplayName: Rifle Nuclear
+				Tooltip: En desarrollo
+			}
+
+			PoisonousDigitalSunrise: {
+				DisplayName: Amanecer Digital Tóxico
+				Tooltip: Dispara un láser verde de [c/00ff00:Ántrax] concentrado.
+			}
+
+			PresentOfIrradiatedSeas: {
+				DisplayName: Regalo de los Mares Irradiados
+				Tooltip:
+					'''
+					Los propios mares te recompensaron. ¡Véngalos!
+					Dispara balas de uranio mientras emite periódicamente disparos gamma.
+					'''
+			}
+
+			ProjectRedButton: {
+				DisplayName: Proyecto "Botón Rojo"
+				Tooltip: En desarrollo
+			}
+
+			AK74SU: {
+				DisplayName: AKS-74U
+				Tooltip: La isla Vozrozhdeniya no será olvidada.
+			}
+
+			ErlikKhan: {
+				DisplayName: Erlik Khan
+				Tooltip: Desde algún lugar del este...
+			}
+
+			KlyatokatBeta: {
+				DisplayName: Klyatokat Beta
+				Tooltip: Dispara una ráfaga interminable de balas bubónicas cuyos fragmentos rebotan de vuelta hacia el objetivo para un segundo impacto.
+			}
+
+			QBZXT: {
+				DisplayName: QBZ-XT
+				Tooltip: Prototipo experimental chino. Dispara un doble disparo de balas de [c/0063ff:nanites].
+			}
+
+			J1HunterDev: {
+				DisplayName: J1 Hunter (Desarrollo)
+				Tooltip: Arma de desarrollador.
+			}
+
+			AttachmentStation: {
+				DisplayName: Estación de Accesorios
+				Tooltip: Estación para instalar módulos en tus armas favoritas, yo.
+			}
+
+			Vertebrator: {
+				DisplayName: Vertebrator
+				Tooltip: Una descarga interminable de cohetes incendiarios.
+			}
+
+			DoubleTaintedPlagueSMGs: {
+				DisplayName: SMG Dobles de Plaga Contaminada
+				Tooltip: Una está bien — dos son mejores.
+			}
+
+			XenytiumBar: {
+				DisplayName: Lingote de Xenitio
+				Tooltip: No te lo vas a creer.
+			}
+
+			PlaguedShroomite: {
+				DisplayName: Lingote de Shroomita Plagada
+				Tooltip: Un material inestable que combina el poder de la nanoplaga y la mente de las setas.
+			}
+
+			Uranium: {
+				DisplayName: Uranio
+				Tooltip: Sabes que el uranio no es verde, ¿verdad?
+			}
+
 			SintyniumBar: {
-				DisplayName: Lingote de Sintinio 
-				Tooltip: Acero a prueba de balas. Oscuridad por fuera, sistema nano-eco-plaga o lo que sea por dentro, ni idea. 
+				DisplayName: Lingote de Sintinio
+				Tooltip: Acero a prueba de balas. Oscuridad por fuera, sistema nano-eco-plaga o lo que sea por dentro, ni idea.
 			}
- 
+
 			RedLazerBlock: {
-				DisplayName: Mira Láser Roja 
-				Tooltip: Ah, ahí está. 
+				DisplayName: Mira Láser Roja
+				Tooltip: Ah, ahí está.
 			}
- 
+
 			NekyiniumBar: {
-				DisplayName: Lingote de Nekyinio 
-				Tooltip: Una porción concentrada de pastel hecha de almas. Literalmente pastel, es igual de dulce y suave. 
+				DisplayName: Lingote de Nekyinio
+				Tooltip: Una porción concentrada de pastel hecha de almas. Literalmente pastel, es igual de dulce y suave.
 			}
- 
+
 			GreenLazerBlock: {
-				DisplayName: Mira Láser Verde 
-				Tooltip: ¿Por qué no roja? 
+				DisplayName: Mira Láser Verde
+				Tooltip: ¿Por qué no roja?
 			}
- 
+
 			EssenceOfIntoxication: {
-				DisplayName: Esencia de Intoxicación 
-				Tooltip: 
+				DisplayName: Esencia de Intoxicación
+				Tooltip:
 					'''
-					Almas de mártires tóxicos. ¡Simplemente no te lo metas en la boca! 
-					[c/00ff00:¿Ves? puedes notar que están hmm! Justo cuando la carne se desprende de los huesos] 
+					Almas de mártires tóxicos. ¡Simplemente no te lo metas en la boca!
+					[c/00ff00:¿Ves? puedes notar que están hmm! Justo cuando la carne se desprende de los huesos]
 					'''
 			}
- 
+
 			CarbonPlate: {
-				DisplayName: Placa de Carbono 
-				Tooltip: Que Yharim preserve la fibra de carbono y el polímero. 
+				DisplayName: Placa de Carbono
+				Tooltip: Que Yharim preserve la fibra de carbono y el polímero.
 			}
- 
+
 			BullBapParts: {
-				DisplayName: Piezas Bullpup 
-				Tooltip: Como las piezas estándar, pero más ergonómicas, probablemente. 
+				DisplayName: Piezas Bullpup
+				Tooltip: Como las piezas estándar, pero más ergonómicas, probablemente.
 			}
- 
+
 			AMassageOfHelp: {
-				DisplayName: Una Petición de Ayuda 
-				Tooltip: Nada aquí excepto caricaturas contra el dragonfilo y un ingeniero cuyo nombre empieza por D. 
+				DisplayName: Una Petición de Ayuda
+				Tooltip: Nada aquí excepto caricaturas contra el dragonfilo y un ingeniero cuyo nombre empieza por D.
 			}
- 
+
 			IrisBody: {
-				DisplayName: Cuerpo de Iris 
-				Tooltip: "" 
+				DisplayName: Cuerpo de Iris
+				Tooltip: ""
 			}
- 
+
 			HecklerPedant: {
-				DisplayName: Heckler Pedant 
-				Tooltip: Un subfusil que escupe balas tóxicas como loco. Ahora mismo destruye los FPS, lo siento. 
+				DisplayName: Heckler Pedant
+				Tooltip: Un subfusil que escupe balas tóxicas como loco. Ahora mismo destruye los FPS, lo siento.
 			}
- 
+
 			ScorpionEvo: {
-				DisplayName: CZ SCORPION EVO III 
-				Tooltip: ¿Cómo demonios convertiste una belga en una checa?! 
+				DisplayName: CZ SCORPION EVO III
+				Tooltip: ¿Cómo demonios convertiste una belga en una checa?!
 			}
- 
+
 			Verdict: {
-				DisplayName: Veredicto 
-				Tooltip: Un rayo concentrado de energía de [c/ff0000:brimstone] volando directamente hacia tu cráneo. 
+				DisplayName: Veredicto
+				Tooltip: Un rayo concentrado de energía de [c/ff0000:brimstone] volando directamente hacia tu cráneo.
 			}
- 
+
 			Verdict_XT: {
-				DisplayName: Veredicto XT 
-				Tooltip: Versión mejorada de [c/ff0000:Veredicto]. Más daño, probabilidad de golpe crítico y velocidad de disparo. 
+				DisplayName: Veredicto XT
+				Tooltip: Versión mejorada de [c/ff0000:Veredicto]. Más daño, probabilidad de golpe crítico y velocidad de disparo.
 			}
- 
+
 			Quarantine14: {
-				DisplayName: Cuarentena-14 Masiva 
-				Tooltip: 
+				DisplayName: Cuarentena-14 Masiva
+				Tooltip:
 					'''
 					Epidemias, horrores... espera, ¿[c/0000ff:Hongos]?
 					Dispara balas de alta velocidad que infligen [c/0000ff:Micoplagueosis].
 					[c/0000ff:Micoplagueosis] puede dejar indefensos a los misiles teledirigidos.
 					'''
 			}
- 
+
 			SHAK: {
-				DisplayName: ShAK Nuclear 
-				Tooltip: Un rifle de asalto de gran calibre que dispara pares de proyectiles. [c/ff0000:¡Advertencia!] Se sobrecalienta rápidamente. 
+				DisplayName: ShAK Nuclear
+				Tooltip: Un rifle de asalto de gran calibre que dispara pares de proyectiles. [c/ff0000:¡Advertencia!] Se sobrecalienta rápidamente.
 			}
- 
+
 			ScorpionScrap: {
-				DisplayName: Chatarra de Escorpión 
-				Tooltip: "" 
+				DisplayName: Chatarra de Escorpión
+				Tooltip: ""
 			}
- 
+
 			ScorpionTestSummon: {
-				DisplayName: La Cepa "Escorpión" 
+				DisplayName: La Cepa "Escorpión"
 				Tooltip:
 					'''
 					[c/ff0000:¡Oh! Un botón rojo].
-					Invoca a XT-017 SCORPION, el lanzador de  plagas.
+					Invoca a XT-017 SCORPION, el lanzador de plagas.
 					Solo puede ser invocado en el Mar de Azufre.
+					En desarrollo
 					'''
+				SulphurousSeaWarning: [c/00ff00:La señal está siendo interferida... ¡XT-017 solo puede ser interceptado cerca del Mar de Azufre!]
 			}
- 
+
 			Tarkhun: {
-				DisplayName: Tarkhuna 
-				Tooltip: La bebida del ganador. 
+				DisplayName: Tarkhuna
+				Tooltip: La bebida del ganador.
 			}
- 
+
 			Grenada: {
-				Tooltip: 
+				Tooltip:
 					'''
-					Lanzagranadas de cuatro disparos con sistema de recarga. Calibre 40x46 mm. 
-					Las granadas no rebotan y detonan al entrar en contacto con cualquier superficie. 
-					Inflige la cepa [c/800044:Ántrax Gamma]. 
-					¡Haz clic derecho para RECARGAR! 
-					Solo para pepinos de mar de verdad. 
+					Lanzagranadas de cuatro disparos con sistema de recarga. Calibre 40x46 mm.
+					Las granadas no rebotan y detonan al entrar en contacto con cualquier superficie.
+					Inflige la cepa [c/800044:Ántrax Gamma].
+					¡Haz clic derecho para RECARGAR!
+					Solo para pepinos de mar de verdad.
 					'''
-				DisplayName: Granada 
+				DisplayName: Granada
 			}
 
 			PlagueSample: {
-				DisplayName: Muestra de Plaga 
-				Tooltip: "" 
+				DisplayName: Muestra de Plaga
+				Tooltip: ""
 			}
 
 			RayOfDiseases: {
-				DisplayName: Rayo de Enfermedades 
-				Tooltip: 
+				DisplayName: Rayo de Enfermedades
+				Tooltip:
 					'''
 					Una herramienta para interceptar las órdenes de radio de [c/ff1155:Raptor].
 					Apunta el rayo verde al lugar donde quieras solicitar un ataque aéreo de ametrallamiento.
@@ -561,7 +554,6 @@ Mods: {
 					Legado v2022.0.4
 					HAZ CLIC DERECHO PARA LANZADOR DE GRANADAS
 					'''
-
 				DisplayName: Groza
 			}
 
@@ -587,7 +579,17 @@ Mods: {
 					Vector de Vane.
 					Una SMG con retroceso invertido.
 					'''
+			}
 
+			ContagiousFlareGun: {
+				DisplayName: Pistola de Bengalas Contagiosas
+				Tooltip:
+					'''
+					Se utiliza para atraer la atención de la patrulla XT-017 «Escorpión».
+                                        Utiliza bengalas como munición.
+                                        Solo puede utilizarse en el Mar de Azufre.
+					'''
+				SulphurousSeaWarning: [c/00ff00:¡Solo puedes interceptar a XT-017 cerca del Mar de Azufre!]
 			}
 		}
 
@@ -597,7 +599,7 @@ Mods: {
 			DragoneerRound.DisplayName: Bala de Dragoneer
 			KhantarisRound.DisplayName: Bala de Khantaris
 			Radibullet.DisplayName: Bala Radiactiva
-			RailgunProj.DisplayName: Proyectil de Railgun
+			RailgunProj.DisplayName: Proyectil de arma Láser
 			ToxoBulletProj.DisplayName: Bala Tóxica
 			XT017ScorpionMine.DisplayName: Mina Escorpión XT-017
 			DigitalSunriseLaser.DisplayName: Láser Amanecer Digital
@@ -610,17 +612,25 @@ Mods: {
 			DiseaseStrafingBullet.DisplayName: Bala de Ametrallamiento de Enfermedad
 			RayOfDiseasesLaser.DisplayName: Láser del Rayo de Enfermedades
 			BombTargetZone.DisplayName: Zona de objetivo de bomba
-            PlagueDrun.DisplayName: Plague Drun
+			PlagueDrun.DisplayName: dron de plaga
 			PlagueDrunCloud.DisplayName: Nube de Plague Drun
 			VectorCasing.DisplayName: Carcasa de Vector
+			ContagiousFlareProj.DisplayName: Proyectil de Bengala Contagiosa
+			ScorpionKamikazeJet.DisplayName: Jet Kamikaze del Escorpión
+			ScorpionStrafeJet.DisplayName: Jet de Ataque Lateral del Escorpión
 		}
 
 		Keybinds: {
-			"Phosphor Blackout.DisplayName": Apagón de fósforo
-			"Switch NVG Lens Color.DisplayName": Cambiar el color exterior de la lente NVG del Operador Plaga
+	"Phosphor Blackout.DisplayName": Apagón de Fósforo
+        "Switch NVG Lens Color.DisplayName": Cambiar el color exterior de la lente de los NVG del Operador de la Peste
 		}
 
-		BossChecklist.XT017Scorpion.DespawnMessage: "[XT-017 «Escorpión»]: Objetivo destruido. Informando."
+		BossChecklist: {
+			XT017Scorpion: {
+				SpawnInfo: Dispara una bengala de la Pistola de Bengalas Contagiosas hacia el cielo sobre el Mar de Azufre.
+				DespawnMessage: "[XT-017 «Escorpión»]: Objetivo destruido. Informando."
+			}
+		}
 
 		NPCs: {
 			XT017Scorpion: {
@@ -632,6 +642,7 @@ Mods: {
 					XT-017 es un acorazado que patrulla las costas del Mar de Azufre para buscar y destruir a los Flagelos Marinos y los Terrores Nucleares.
 					El "Escorpión" se alimenta del combustible nuclear de los Terrores Nucleares, lo que le permite experimentar una Desintegración Subatómica.
 					'''
+				DisplayName: XT-017 «Escorpión»
 				RaptorQuote1: Vamos a por este.
 				RaptorQuote2: Es mío.
 				RaptorQuote3: Entendido.
@@ -669,8 +680,7 @@ Mods: {
 					BiomeHint: Si quieres que opere al 100%, consígueme una base en la Jungla o cerca de mi costa tóxica. Solo manténme alejado de los hongos brillantes.
 					MushroomHate: ¿Hablas en serio? Sácame de este basurero de hongos antes de que empiece a lanzar frascos tóxicos contra la pared.
 				}
-
-				TownNPCMood: {
+                                TownNPCMood: {
 					Content: *Suspira*, ¡intoxicante!
 					NoHome: Es como... si estuviera helando afuera. Al menos la cabina de mi caza tenía calefacción.
 					FarFromHome: Daría lo que fuera por un café caliente en casa en lugar de lidiar con todo esto.
@@ -683,9 +693,11 @@ Mods: {
 					LikeNPC_Princess: "{NPCName} es una auténtica joya."
 					Princess_LovesNPC: "¡{NPCName} tiene un espíritu contagioso!"
 				}
-		  Census.SpawnCondition: Condiciones desconocidas
 
-           }
+				Census.SpawnCondition: Condiciones desconocidas
+			}
+
+			ScorpionThermalTrapNPC.DisplayName: Trampa Térmica del Escorpión
 		}
 
 		Biomes: {
@@ -701,4 +713,3 @@ Mods: {
 		}
 	}
 }
-
