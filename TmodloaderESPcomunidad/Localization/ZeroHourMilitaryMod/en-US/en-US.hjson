@@ -1,14 +1,8 @@
 Mods: {
 	ZeroHourMilitaryMod: {
 		Changelog: {
-			Version: v4.18
-			Lines:
-				'''
-				[+] New Plagued Jungle Biome. After Killing a Golem.
-				[*] Shimmer - Vanector now transforms to Grenada, and vice versa;
-				[*] Some tool-tips and localization fixes.
-				[-] Shimmer - Tarkhuna no longer transforms to Uelibloom Bars; 
-				'''
+			Version: v4.21
+			Lines: "[+] Only on Discord at this moment."
 		}
 
 		UI: {
@@ -437,7 +431,7 @@ Mods: {
 
 			HecklerPedant: {
 				DisplayName: Heckler Pedant
-				Tooltip: An SMG pissing toxic bullets like crazy. Right now it's an FPS killer, sorry.
+				Tooltip: Plague submachine gun. Burst fire on the Right-click.
 			}
 
 			ScorpionEvo: {
@@ -586,6 +580,17 @@ Mods: {
 					An SMG with inverted recoil.
 					'''
 			}
+
+			ContagiousFlareGun: {
+				DisplayName: Contagious Flare Gun
+				Tooltip:
+					'''
+					Used to attract the attention of the patrol XT-017 “Scorpion”. 
+					Uses Flares as ammo.
+					Can only be used in the Sulphurous Sea.
+					'''
+				SulphurousSeaWarning: "[c/00ff00:You can intercept XT-017 only near the Sulphurous Sea!]"
+			}
 		}
 
 		Projectiles: {
@@ -610,6 +615,9 @@ Mods: {
 			PlagueDrun.DisplayName: Plague Drun
 			PlagueDrunCloud.DisplayName: Plague Drun Cloud
 			VectorCasing.DisplayName: Vector Casing
+			ContagiousFlareProj.DisplayName: Contagious Flare Proj
+			ScorpionKamikazeJet.DisplayName: Scorpion Kamikaze Jet
+			ScorpionStrafeJet.DisplayName: Scorpion Strafe Jet
 		}
 
 		Keybinds: {
@@ -617,7 +625,12 @@ Mods: {
 			"Switch NVG Lens Color.DisplayName": Switch Plague Operator NVG Lens Outer Color
 		}
 
-		BossChecklist.XT017Scorpion.DespawnMessage: "[XT-017 «Scorpion»]: Target destroyed. Reporting."
+		BossChecklist: {
+			XT017Scorpion: {
+				SpawnInfo: Fire a flare from the Contagious Flaregun into the sky over the Sulfur Sea.
+				DespawnMessage: "[XT-017 'Scorpion']: Target destroyed. Return to base."
+			}
+		}
 
 		NPCs: {
 			XT017Scorpion: {
@@ -684,6 +697,8 @@ Mods: {
 
 				Census.SpawnCondition: Conditions unknown
 			}
+
+			ScorpionThermalTrapNPC.DisplayName: Scorpion Thermal Trap N P C
 		}
 
 		Biomes: {
