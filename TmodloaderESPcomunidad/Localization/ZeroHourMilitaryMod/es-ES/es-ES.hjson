@@ -2,12 +2,12 @@ Mods: {
 	ZeroHourMilitaryMod: {
 		Changelog: {
 			Version: v4.21
-			Lines: 
+			Lines: "[+] Only on Discord at this moment."
 		}
 
 		UI: {
 			MenuSelector: {
-				Title:"[ Estilo del menú ]"
+				Title: "[ Estilo del menú ]"
 				StyleGoliath: Goliath Eterno (Predeterminado)
 				Style2024: Regreso de Beelzebub 2024
 				Style2022: Alpha 2022 v0.4 Build
@@ -586,8 +586,8 @@ Mods: {
 				Tooltip:
 					'''
 					Se utiliza para atraer la atención de la patrulla XT-017 «Escorpión».
-                                        Utiliza bengalas como munición.
-                                        Solo puede utilizarse en el Mar de Azufre.
+					Utiliza bengalas como munición.
+					Solo puede utilizarse en el Mar de Azufre.
 					'''
 				SulphurousSeaWarning: [c/00ff00:¡Solo puedes interceptar a XT-017 cerca del Mar de Azufre!]
 			}
@@ -621,8 +621,8 @@ Mods: {
 		}
 
 		Keybinds: {
-	"Phosphor Blackout.DisplayName": Apagón de Fósforo
-        "Switch NVG Lens Color.DisplayName": Cambiar el color exterior de la lente de los NVG del Operador de la Peste
+		"Phosphor Blackout.DisplayName": Apagón de Fósforo
+		"Switch NVG Lens Color.DisplayName": Cambiar el color exterior de la lente de los NVG del Operador de la Peste
 		}
 
 		BossChecklist: {
@@ -680,7 +680,8 @@ Mods: {
 					BiomeHint: Si quieres que opere al 100%, consígueme una base en la Jungla o cerca de mi costa tóxica. Solo manténme alejado de los hongos brillantes.
 					MushroomHate: ¿Hablas en serio? Sácame de este basurero de hongos antes de que empiece a lanzar frascos tóxicos contra la pared.
 				}
-                                TownNPCMood: {
+
+				TownNPCMood: {
 					Content: *Suspira*, ¡intoxicante!
 					NoHome: Es como... si estuviera helando afuera. Al menos la cabina de mi caza tenía calefacción.
 					FarFromHome: Daría lo que fuera por un café caliente en casa en lugar de lidiar con todo esto.
