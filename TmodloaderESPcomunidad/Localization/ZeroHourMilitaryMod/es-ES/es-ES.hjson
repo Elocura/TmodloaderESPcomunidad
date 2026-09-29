@@ -478,7 +478,7 @@ Mods: {
 					Solo puede ser invocado en el Mar de Azufre.
 					En desarrollo
 					'''
-				SulphurousSeaWarning: [c/00ff00:La señal está siendo interferida... ¡XT-017 solo puede ser interceptado cerca del Mar de Azufre!]
+				SulphurousSeaWarning: "[c/00ff00:La señal está siendo interferida... ¡XT-017 solo puede ser interceptado cerca del Mar de Azufre!]"
 			}
 
 			Tarkhun: {
@@ -589,7 +589,7 @@ Mods: {
 					Utiliza bengalas como munición.
 					Solo puede utilizarse en el Mar de Azufre.
 					'''
-				SulphurousSeaWarning: [c/00ff00:¡Solo puedes interceptar a XT-017 cerca del Mar de Azufre!]
+				SulphurousSeaWarning: "[c/00ff00:¡Solo puedes interceptar a XT-017 cerca del Mar de Azufre!]"
 			}
 		}
 
@@ -621,8 +621,8 @@ Mods: {
 		}
 
 		Keybinds: {
-		"Phosphor Blackout.DisplayName": Apagón de Fósforo
-		"Switch NVG Lens Color.DisplayName": Cambiar el color exterior de la lente de los NVG del Operador de la Peste
+			"Phosphor Blackout.DisplayName": Apagón de Fósforo
+			"Switch NVG Lens Color.DisplayName": Cambiar el color exterior de la lente de los NVG del Operador de la Peste
 		}
 
 		BossChecklist: {
